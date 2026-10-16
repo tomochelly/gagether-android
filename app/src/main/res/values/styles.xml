@@ -1,0 +1,8 @@
+<resources>
+ <style name="Theme.Patchwork" parent="android:style/Theme.Material.NoActionBar">
+  <item name="android:fontFamily">sans</item><item name="android:windowLightStatusBar">false</item><item name="android:windowLightNavigationBar">false</item><item name="android:colorAccent">#C3E69A</item><item name="android:windowBackground">#101711</item><item name="android:statusBarColor">#101711</item><item name="android:navigationBarColor">#101711</item><item name="android:windowActionModeOverlay">true</item>
+ </style>
+ <color name="launcher_background">#16221A</color>
+ <string name="app_name">GAGETHER</string>
+ <string name="widget_description">관심 게임의 픽업·이벤트·패키지 마감을 표시합니다.</string>
+</resources>

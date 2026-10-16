@@ -1,0 +1,59 @@
+name: Build signed release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: android-release
+    env:
+      GAGETHER_KEYSTORE_FILE: ${{ runner.temp }}/gagether-upload.jks
+      GAGETHER_KEYSTORE_PASSWORD: ${{ secrets.GAGETHER_KEYSTORE_PASSWORD }}
+      GAGETHER_KEY_ALIAS: ${{ secrets.GAGETHER_KEY_ALIAS }}
+      GAGETHER_KEY_PASSWORD: ${{ secrets.GAGETHER_KEY_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v6
+        with:
+          cache-disabled: true
+      - name: Install Android SDK components
+        run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0'
+      - name: Load owner-managed signing key
+        env:
+          GAGETHER_KEYSTORE_BASE64: ${{ secrets.GAGETHER_KEYSTORE_BASE64 }}
+        run: |
+          set -eu
+          test -n "$GAGETHER_KEYSTORE_BASE64" || { echo 'Configure android-release signing secrets first.'; exit 1; }
+          test -n "$GAGETHER_KEYSTORE_PASSWORD"
+          test -n "$GAGETHER_KEY_ALIAS"
+          test -n "$GAGETHER_KEY_PASSWORD"
+          umask 077
+          printf '%s' "$GAGETHER_KEYSTORE_BASE64" | base64 --decode > "$GAGETHER_KEYSTORE_FILE"
+      - name: Test and build release APK and AAB
+        run: bash ./gradlew --no-daemon -PrequireReleaseSigning=true :app:testReleaseUnitTest :app:assembleRelease :app:bundleRelease
+      - name: Verify APK signature
+        run: '"$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs app/build/outputs/apk/release/app-release.apk'
+      - name: Remove temporary key
+        if: always()
+        run: rm -f -- "$GAGETHER_KEYSTORE_FILE"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: signed-release-for-review
+          path: |
+            app/build/outputs/apk/release/app-release.apk
+            app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 7
+
+      # Build only. Publication to a store or GitHub Release is a separate action.
