@@ -12,7 +12,6 @@ jobs:
     timeout-minutes: 20
     environment: android-release
     env:
-      GAGETHER_KEYSTORE_FILE: ${{ runner.temp }}/gagether-upload.jks
       GAGETHER_KEYSTORE_PASSWORD: ${{ secrets.GAGETHER_KEYSTORE_PASSWORD }}
       GAGETHER_KEY_ALIAS: ${{ secrets.GAGETHER_KEY_ALIAS }}
       GAGETHER_KEY_PASSWORD: ${{ secrets.GAGETHER_KEY_PASSWORD }}
@@ -27,8 +26,12 @@ jobs:
       - uses: gradle/actions/setup-gradle@v6
         with:
           cache-disabled: true
-      - name: Install Android SDK components
-        run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0'
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;35.0.0'
+      - name: Set temporary signing key path
+        run: printf 'GAGETHER_KEYSTORE_FILE=%s/gagether-upload.jks\n' "$RUNNER_TEMP" >> "$GITHUB_ENV"
       - name: Load owner-managed signing key
         env:
           GAGETHER_KEYSTORE_BASE64: ${{ secrets.GAGETHER_KEYSTORE_BASE64 }}
