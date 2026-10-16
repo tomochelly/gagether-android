@@ -8,7 +8,7 @@ public final class Words {
  public static String reminders(Context c){return pick(c,"일정 알림","Schedule reminders","予定の通知","日程提醒");}
  public static String test(Context c){return pick(c,"알림이 정상적으로 표시됩니다.","Notifications are working.","通知が正常に表示されています。","通知已正常显示。");}
  public static String empty(Context c){return pick(c,"앱 설정에서 관심 게임을 선택하세요.","Choose games in App settings.","アプリ設定でゲームを選択してください。","请在应用设置中选择游戏。");}
- public static String none(Context c){return pick(c,"현재 진행 중인 마감 일정이 없습니다.","No active deadlines.","現在終了予定の項目はありません。","暂无正在进行的截止日程。");}
+ public static String none(Context c){return pick(c,"확인된 현재·예정 일정이 없습니다.","No confirmed current or upcoming schedules.","確認済みの開催中・今後の予定はありません。","暂无已确认的当前或未来日程。");}
  public static String stale(Context c){return pick(c,"앱을 열어 최신 일정을 동기화하세요.","Open the app to sync current schedules.","アプリを開いて最新の予定を同期してください。","请打开应用同步最新日程。");}
  public static String last(Context c){return pick(c,"갱신","Updated","更新","更新");}
  public static String retry(Context c){return pick(c,"다시 연결","Retry","再試行","重试");}

@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
    case "sync": SyncManager.EXECUTOR.execute(()->{try{SyncManager.sync(this);}catch(Exception ignored){}handler.post(this::state);});break;
    case "permission": permission(false);break;
    case "systemSettings":startActivity(new Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS).putExtra(Settings.EXTRA_APP_PACKAGE,getPackageName()));break;
-   case "widget": AppWidgetManager m=getSystemService(AppWidgetManager.class);if(m.isRequestPinAppWidgetSupported())m.requestPinAppWidget(new ComponentName(this,DeadlineWidget.class),null,null);else Toast.makeText(this,Words.pick(this,"홈 화면을 길게 눌러 위젯을 추가하세요.","Long-press the home screen to add a widget.","ホーム画面を長押しして追加してください。","长按桌面添加小组件。"),Toast.LENGTH_LONG).show();break;
+   case "widget": AppWidgetManager m=getSystemService(AppWidgetManager.class);if(m.isRequestPinAppWidgetSupported())new AlertDialog.Builder(this).setTitle(Words.pick(this,"위젯 선택","Choose widget","ウィジェットを選択","选择小组件")).setItems(new String[]{getString(R.string.widget_compact),getString(R.string.widget_agenda),getString(R.string.widget_games)},(dialog,which)->m.requestPinAppWidget(new ComponentName(this,new Class<?>[]{DeadlineWidget.class,AgendaWidget.class,GamesWidget.class}[which]),null,null)).show();else Toast.makeText(this,Words.pick(this,"홈 화면을 길게 눌러 위젯을 추가하세요.","Long-press the home screen to add a widget.","ホーム画面を長押しして追加してください。","长按桌面添加小组件。"),Toast.LENGTH_LONG).show();break;
    case "test":permission(true);break;
   }
  }
