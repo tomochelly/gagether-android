@@ -11,12 +11,11 @@ public class ReminderReceiver extends BroadcastReceiver {
    long at=Long.parseLong(bits[2]);int offset=Integer.parseInt(bits[3]);long now=System.currentTimeMillis();JSONObject e=AppStore.entry(c,bits[0]),prefs=AppStore.prefs(c),feed=AppStore.feed(c);
    if(e==null||!ReminderPolicy.matches(e,prefs,feed)||ReminderPolicy.quietAt(now,prefs,ZoneId.systemDefault()))return;
    boolean start=bits[1].equals("start");if(!start&&!bits[1].equals("end"))return;
-   if(start?!prefs.optBoolean("starts",true):!ReminderPolicy.contains(prefs.optJSONArray("offsets"),String.valueOf(offset)))return;
-   long current=ReminderPolicy.epoch(e.optString(start?"startAt":"endAt"));if(at!=current||(!start&&now>=at)||(start&&now>at+6*3600000L)||now<at-offset*60000L-60000)return;
-   Set<String> sent=new HashSet<>(AppStore.store(c).getStringSet("sent",Collections.emptySet()));if(sent.contains(key))return;
-   String locale=AppStore.locale(c),game=ReminderPolicy.gameName(feed,e.optString("gameId"),locale);String title=ReminderPolicy.text(e.optJSONObject("title"),locale);
-   ReminderScheduler.show(c,game+" · "+(start?Words.start(c):Words.before(c,offset)),title,e.optString("id"));
-   if(sent.size()>400)sent.clear();sent.add(key);AppStore.store(c).edit().putStringSet("sent",sent).apply();DeadlineWidget.updateAll(c);
+   if(!ReminderSettings.due(e,prefs,bits[1],at,offset,now))return;
+   Set<String> sent=new HashSet<>(AppStore.store(c).getStringSet("sent",Collections.emptySet()));String delivery=ReminderPolicy.groupKey(e,bits[1],at)+"|"+offset;if(sent.contains(key)||sent.contains(delivery))return;
+   ReminderMessage message=ReminderMessage.create(feed,prefs,e,bits[1],at,offset,now,ZoneId.systemDefault());
+   ReminderScheduler.show(c,message.title,message.body,message.entryId);
+   if(sent.size()>400)sent.clear();sent.add(key);sent.add(delivery);AppStore.store(c).edit().putStringSet("sent",sent).apply();DeadlineWidget.updateAll(c);
   }catch(Exception ignored){}
  }
 }

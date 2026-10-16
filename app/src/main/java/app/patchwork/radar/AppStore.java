@@ -12,7 +12,7 @@ public final class AppStore {
  public static SharedPreferences store(Context c){return c.getSharedPreferences("patchwork",Context.MODE_PRIVATE);}
  public static JSONObject defaults(Context c){
   JSONObject o=new JSONObject();String l=c.getResources().getConfiguration().getLocales().get(0).getLanguage();if(!new HashSet<>(Arrays.asList("ko","en","ja","zh")).contains(l))l="en";
-  try{o.put("enabled",false).put("locale",l).put("region",l.equals("ko")?"kr":l.equals("ja")?"jp":"global").put("games",new JSONArray()).put("gameRegions",new JSONObject()).put("kinds",new JSONArray(Arrays.asList("pickup","weapon","event","package"))).put("offsets",new JSONArray(Arrays.asList(1440,60))).put("starts",true).put("quietEnabled",true).put("quietStart",23).put("quietEnd",8);}catch(JSONException ignored){}return o;
+  try{o.put("enabled",false).put("locale",l).put("region",l.equals("ko")?"kr":l.equals("ja")?"jp":"global").put("games",new JSONArray()).put("gameRegions",new JSONObject()).put("kinds",new JSONArray(Arrays.asList("pickup","weapon","event","package"))).put("offsets",new JSONArray(Arrays.asList(1440,60))).put("starts",true).put("quietEnabled",true).put("quietStart",23).put("quietEnd",8).put("followMyGames",true).put("characterTone",false);o.put("notificationRules",ReminderSettings.normalize(new JSONObject().put("offsets",new JSONArray(Arrays.asList(1440,60,0)))));}catch(JSONException ignored){}return o;
  }
  public static JSONObject prefs(Context c){try{return new JSONObject(store(c).getString("preferences",defaults(c).toString()));}catch(Exception ignored){return defaults(c);}}
  public static void setPrefs(Context c,JSONObject input)throws JSONException{
@@ -25,7 +25,7 @@ public final class AppStore {
   for(String kind:Arrays.asList("pickup","weapon","event","package"))if(ReminderPolicy.contains(input.optJSONArray("kinds"),kind))ks.put(kind);
   JSONArray offsets=input.optJSONArray("offsets");for(int off:Arrays.asList(60,1440,4320))if(offsets!=null)for(int i=0;i<offsets.length();i++)if(offsets.optInt(i)==off){os.put(off);break;}
   JSONObject requested=input.optJSONObject("gameRegions");if(requested!=null)for(String g:ReminderPolicy.GAME_IDS){String r=requested.optString(g);if(ReminderPolicy.supportsRegion(g,r))regions.put(g,r);}
-  out.put("games",gs).put("kinds",ks).put("offsets",os).put("gameRegions",regions);store(c).edit().putString("preferences",out.toString()).apply();
+  out.put("games",gs).put("kinds",ks).put("offsets",os).put("gameRegions",regions).put("followMyGames",input.optBoolean("followMyGames",false)).put("characterTone",input.optBoolean("characterTone",false)).put("notificationRules",ReminderSettings.normalize(input));store(c).edit().putString("preferences",out.toString()).apply();
  }
  public static JSONObject feed(Context c){synchronized(LOCK){try{return new JSONObject(new String(new AtomicFile(new File(c.getFilesDir(),"schedule.json")).readFully(),StandardCharsets.UTF_8));}catch(Exception ignored){return new JSONObject();}}}
  public static boolean saveFeed(Context c,JSONObject feed)throws Exception{

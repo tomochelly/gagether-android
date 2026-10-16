@@ -13,7 +13,7 @@ public final class ReminderPolicy {
   return GAME_IDS.contains(game)&&(Arrays.asList("kr","jp","global").contains(region)||("cn".equals(region)&&("arknights".equals(game)||"gfl2".equals(game))));
  }
  public static long epoch(String iso){try{return Instant.parse(iso).toEpochMilli();}catch(Exception ignored){try{return java.time.OffsetDateTime.parse(iso).toInstant().toEpochMilli();}catch(Exception ignored2){return 0;}}}
- public static String text(JSONObject value,String locale){if(value==null)return "";String s=value.optString(locale,"");return s.isEmpty()?value.optString("ko",value.optString("en","")):s;}
+ public static String text(JSONObject value,String locale){if(value==null)return "";String s=value.optString(locale,"");return s.isEmpty()?value.optString("en",""):s;}
  public static boolean contains(JSONArray values,String key){if(values==null)return false;for(int i=0;i<values.length();i++)if(key.equals(values.optString(i)))return true;return false;}
  public static boolean quietAt(long time,JSONObject prefs,ZoneId zone){
   if(!prefs.optBoolean("quietEnabled",true))return false;int hour=Instant.ofEpochMilli(time).atZone(zone).getHour(),start=prefs.optInt("quietStart",23),end=prefs.optInt("quietEnd",8);
@@ -39,18 +39,30 @@ public final class ReminderPolicy {
   Reminder(String id,String event,long at,long fire,int offset){this.entryId=id;this.event=event;eventAt=at;fireAt=fire;this.offset=offset;}
   public String key(){return entryId+"|"+event+"|"+eventAt+"|"+offset;}
  }
+ public static String groupKey(JSONObject e,String event,long at){
+  String group=e.optString("notificationGroup");
+  return ("pickup".equals(e.optString("kind"))&&!group.isEmpty()?e.optString("gameId")+"/"+e.optString("region")+"/"+group:e.optString("id"))+"|"+event+"|"+at;
+ }
+ public static List<JSONObject> groupEntries(JSONObject feed,JSONObject prefs,JSONObject entry,String event,long at){
+  List<JSONObject> peers=new ArrayList<>();JSONArray all=feed.optJSONArray("entries");String key=groupKey(entry,event,at);
+  if(all!=null)for(int i=0;i<all.length();i++){JSONObject e=all.optJSONObject(i);if(e!=null&&matches(e,prefs,feed)&&epoch(e.optString(event.equals("start")?"startAt":"endAt"))==at&&key.equals(groupKey(e,event,at)))peers.add(e);}
+  peers.sort(Comparator.comparing(e->e.optString("id")));if(peers.isEmpty())peers.add(entry);return peers;
+ }
  public static List<Reminder> plan(JSONObject feed,JSONObject prefs,long now,ZoneId zone){
   List<Reminder> result=new ArrayList<>();if(!prefs.optBoolean("enabled",false))return result;
-  JSONArray entries=feed.optJSONArray("entries");if(entries==null)return result;
-  for(int i=0;i<entries.length();i++){
-   JSONObject e=entries.optJSONObject(i);if(e==null||!matches(e,prefs,feed))continue;
-   String id=e.optString("id");long start=epoch(e.optString("startAt")),end=epoch(e.optString("endAt"));
-   if(prefs.optBoolean("starts",true)&&start>now&&start<now+90L*86400000&&!quietAt(start,prefs,zone))result.add(new Reminder(id,"start",start,start,0));
-   JSONArray offsets=prefs.optJSONArray("offsets");if(end<=now||offsets==null)continue;
-   for(int j=0;j<offsets.length();j++){int offset=offsets.optInt(j);if(!new HashSet<>(Arrays.asList(60,1440,4320)).contains(offset))continue;long fire=end-offset*60000L;
-    if(fire>now&&fire<now+90L*86400000&&(start==0||fire>=start)&&!quietAt(fire,prefs,zone))result.add(new Reminder(id,"end",end,fire,offset));}
+  JSONArray entries=feed.optJSONArray("entries");if(entries==null)return result;Set<String> seen=new HashSet<>();
+  List<JSONObject> ordered=new ArrayList<>();for(int i=0;i<entries.length();i++){JSONObject e=entries.optJSONObject(i);if(e!=null)ordered.add(e);}ordered.sort(Comparator.comparing(e->e.optString("id")));
+  for(JSONObject e:ordered){
+   if(!matches(e,prefs,feed))continue;String id=e.optString("id");long start=epoch(e.optString("startAt"));
+   for(String event:Arrays.asList("start","end")){
+    long at=epoch(e.optString(event.equals("start")?"startAt":"endAt"));if(at<=now)continue;
+    for(int offset:ReminderSettings.offsets(prefs,e.optString("kind"),event)){
+     long fire=at-offset*60000L;String identity=groupKey(e,event,at)+"|"+offset;
+     if(fire>now&&fire<now+90L*86400000&&(event.equals("start")||start==0||fire>=start)&&!quietAt(fire,prefs,zone)&&seen.add(identity))result.add(new Reminder(id,event,at,fire,offset));
+    }
+   }
   }
-  result.sort(Comparator.comparingLong(r->r.fireAt));return result.subList(0,Math.min(80,result.size()));
+  result.sort(Comparator.comparingLong((Reminder r)->r.fireAt).thenComparing(r->r.entryId));return result.subList(0,Math.min(80,result.size()));
  }
  public static String gameName(JSONObject feed,String id,String locale){JSONArray gs=feed.optJSONArray("games");if(gs!=null)for(int i=0;i<gs.length();i++){JSONObject g=gs.optJSONObject(i);if(g!=null&&id.equals(g.optString("id")))return text(g.optJSONObject("name"),locale);}return id;}
 }
