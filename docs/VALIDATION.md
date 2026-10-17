@@ -37,3 +37,7 @@ targetSdk: 36
 - Site TypeScript check and 13 Node tests passed (calendar CRUD/conflicts/storage failures, service filtering, date boundaries, collapsed art, default/simple SSR, 4-language controls and native feed evidence filtering).
 - No browser, emulator, physical Galaxy/Fold or real notification-delivery test was available. OS power management can delay scheduled alerts.
 - Remote FCM and browser Web Push remain unconfigured.
+# 1.0.0 source verification — 2026-10-17
+
+The 0.2.4-based source version was changed to 1.0.0 / versionCode 7. Offline `:app:testDebugUnitTest :app:assembleDebug` completed successfully using JDK 17, Gradle 8.13 and Android API 36. This is debug-build verification only, not production-signing verification. Gradle reported deprecated features and platform-tools was not installed. No emulator, Galaxy/Fold runtime test, signed release APK/AAB validation or store submission was performed in this check.
+
