@@ -1,5 +1,17 @@
 # GAGETHER Android
 
+한국어 · [English](README.en.md) · [日本語](README.ja.md)
+
+## 1.0.0 소스 준비
+
+0.2.4를 바탕으로 versionName 1.0.0 / versionCode 7을 준비했습니다. [1.0.0 릴리스 설명](docs/RELEASE_NOTES_1.0.0.md)을 참고하세요. 소스 버전 변경과 정식 서명 APK·스토어 출시는 별도이며, 기존 테스트 APK는 그대로 테스트용입니다.
+
+## 포트폴리오 소개
+
+게임과 서비스별로 흩어진 공지·일정을 한곳에서 확인하려는 문제에서 시작한 개인 기획 프로젝트입니다. 기획자가 정보 우선순위와 이용자 피드백에 따른 개선 방향을 정하고, AI 도구를 활용해 구현·조사·테스트를 진행했습니다. 모든 코드를 직접 작성했다거나 확인하지 않은 이용자 수·성능 성과를 주장하지 않습니다.
+
+이 저장소는 Android Java 기반 WebView, 네이티브 예약 알림, RemoteViews 위젯과 데이터 검증을 다룹니다. 웹 서비스는 별도의 React/TypeScript 코드이며 운영 DB·서명 키·게임 이미지 원본은 여기에 포함하지 않습니다. 핵심 설계는 웹과 앱의 역할 분리, 실제 서버와 표시 언어의 분리, 불확실한 일정의 알림 제외, 사용자 데이터 보존입니다. 구현 범위와 미검증 항목을 아래 문서에서 구분합니다.
+
 가게더 가챠 게임 캘린더의 Android 앱입니다. [gagether.wiki](https://gagether.wiki)의 모바일 화면에 기기 알림과 홈 화면 위젯을 결합합니다. Android 8.0(API 26) 이상을 지원하며 Android 16(API 36)을 대상으로 빌드합니다. 현재 제공 APK는 테스트용 debug 서명이며 Play Store/Galaxy Store에 배포한 정식 버전이 아닙니다.
 
 소스 코드와 빌드 문서는 이 저장소에, 설치 파일은 GitHub Releases에 둡니다. GitHub의 `Source code (zip/tar.gz)`는 소스 압축이며 설치 파일이 아닙니다. [배포·서명 안내](docs/RELEASE.md) · [변경 이력](CHANGELOG.md)
