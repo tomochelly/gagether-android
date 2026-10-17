@@ -1,6 +1,27 @@
 # GAGETHER Android
 [한국어](README.md) · English · [日本語](README.ja.md)
 
+> Your games. Their schedules. One place to keep track.
+
+**GAGETHER** brings gacha banners, events and approaching deadlines into a calendar for the games you follow. Its Android companion combines a shared mobile web interface with configurable reminders and home-screen widgets.
+
+[Try the web app](https://gagether.wiki) · [Releases / downloads](https://github.com/tomochelly/gagether-android/releases) · [Changelog](CHANGELOG.md)
+
+## At a glance
+
+| Feature | What it helps you do |
+| --- | --- |
+| Followed games | Browse schedules for your games and their actual service regions |
+| Home-screen widgets | Choose next-event, scrollable agenda or grouped-game views |
+| Custom reminders | Configure start/end reminders and multiple advance notice times |
+| Compact mobile view | Expand artwork when needed and reduce scrolling |
+| Personal calendar | Keep notes, pull records and personal plans on the current device |
+| Shared web experience | Receive web content and UI changes without reinstalling the APK |
+
+**Get started:** open the web app without signing in. App installers and source archives are separate; see Releases and the release status below. Reminders are scheduled on the device.
+
+## Release status
+
 Android companion for [GAGETHER](https://gagether.wiki), a multilingual calendar for gacha-game banners, events and shop packages. The 1.0.0 source milestone builds on 0.2.4. This does **not** mean a signed production APK or store release has been published.
 
 ## Problem and approach
@@ -23,7 +44,7 @@ Android Java, WebView/WebMessage, JobScheduler, AlarmManager and RemoteViews for
 - Personal notes remain in local app/browser storage, not a shared public database.
 
 ## Portfolio context
-An independently directed product developed with AI assistance. Product scope, information priorities and feedback-driven revisions were directed by the project owner; AI tools assisted with implementation, research and tests. Do not present generated code as entirely hand-written or claim unmeasured user/performance results.
+An independently directed product developed with AI assistance. Product scope, information priorities and feedback-driven revisions were directed by the project owner; AI tools assisted with implementation, research and tests. Implementation and validation are documented separately, including the device testing and performance measurements that remain outstanding.
 
 The repository demonstrates integration boundaries, data validation, localization, adaptive layouts and explicit handling of uncertain schedules. See [validation scope](docs/VALIDATION.md), [release/signing](docs/RELEASE.md) and [change history](CHANGELOG.md).
 
