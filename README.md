@@ -21,9 +21,9 @@
 
 **시작하기:** 웹에서 로그인 없이 둘러볼 수 있습니다. Android 설치 파일과 소스 압축은 구분해서 제공하며, 현재 배포 상태는 아래 안내와 Releases에서 확인할 수 있습니다. 알림은 기기 예약 방식입니다.
 
-## 1.0.0 소스 준비
+## 1.0.0 다운로드
 
-0.2.4를 바탕으로 versionName 1.0.0 / versionCode 7을 준비했습니다. [1.0.0 릴리스 설명](docs/RELEASE_NOTES_1.0.0.md)을 참고하세요. 소스 버전 변경과 정식 서명 APK·스토어 출시는 별도이며, 기존 테스트 APK는 그대로 테스트용입니다.
+출시용 키로 서명한 **[GAGETHER 1.0.0 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.0)**를 배포합니다. 릴리스의 Assets에서 `GAGETHER-1.0.0.apk`를 다운로드하세요. versionName 1.0.0 / versionCode 7이며, release 단위 테스트·APK/AAB 빌드·APK 서명 검증을 통과했습니다. Play Store/Galaxy Store 출시는 아직 완료하지 않았습니다.
 
 ## 포트폴리오 소개
 
@@ -31,14 +31,14 @@
 
 이 저장소는 Android Java 기반 WebView, 네이티브 예약 알림, RemoteViews 위젯과 데이터 검증을 다룹니다. 웹 서비스는 별도의 React/TypeScript 코드이며 운영 DB·서명 키·게임 이미지 원본은 여기에 포함하지 않습니다. 핵심 설계는 웹과 앱의 역할 분리, 실제 서버와 표시 언어의 분리, 불확실한 일정의 알림 제외, 사용자 데이터 보존입니다. 구현 범위와 미검증 항목을 아래 문서에서 구분합니다.
 
-가게더 가챠 게임 캘린더의 Android 앱입니다. [gagether.wiki](https://gagether.wiki)의 모바일 화면에 기기 알림과 홈 화면 위젯을 결합합니다. Android 8.0(API 26) 이상을 지원하며 Android 16(API 36)을 대상으로 빌드합니다. 현재 제공 APK는 테스트용 debug 서명이며 Play Store/Galaxy Store에 배포한 정식 버전이 아닙니다.
+가게더 가챠 게임 캘린더의 Android 앱입니다. [gagether.wiki](https://gagether.wiki)의 모바일 화면에 기기 알림과 홈 화면 위젯을 결합합니다. Android 8.0(API 26) 이상을 지원하며 Android 16(API 36)을 대상으로 빌드합니다. 1.0.0 APK는 출시용 키로 서명한 release 빌드입니다. Play Store/Galaxy Store 출시는 아직 완료하지 않았습니다.
 
 소스 코드와 빌드 문서는 이 저장소에, 설치 파일은 GitHub Releases에 둡니다. GitHub의 `Source code (zip/tar.gz)`는 소스 압축이며 설치 파일이 아닙니다. [배포·서명 안내](docs/RELEASE.md) · [변경 이력](CHANGELOG.md)
 
 ## 설치 및 설정
 
-1. 테스트에 참여한다면 제공된 `GAGETHER-0.2.4-beta.apk`를 사용합니다. 일반 이용자용 스토어 출시는 준비 중입니다. 스토어 밖 APK에는 Galaxy의 설치 출처 경고가 표시될 수 있습니다.
-2. 앱을 열면 로그인 없이 일정 화면이 표시됩니다. 기존 베타를 설치했다면 같은 서명과 앱 ID를 사용하는 업데이트로 설치합니다.
+1. [1.0.0 릴리스](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.0)의 Assets에서 `GAGETHER-1.0.0.apk`를 다운로드합니다. `Source code`는 설치 파일이 아닙니다. 스토어 밖 APK에는 Galaxy의 설치 출처 경고가 표시될 수 있습니다.
+2. 앱을 열면 로그인 없이 일정 화면이 표시됩니다. 1.0.0의 앱 ID는 `app.patchwork.radar`로, 기존 `.beta` 앱과 별도로 설치됩니다. 베타의 설정·개인 기록은 자동 이전되지 않습니다.
 3. 대시보드에서 **내 게임**을 등록한 뒤 하단 **앱 설정 → 내 게임과 연동**을 켭니다. 별도 게임 선택도 가능합니다.
 4. **일정 알림**을 켜고 알림 권한을 허용합니다. 픽업·무기·이벤트·패키지별 시작/종료 알림을 켜고, 3일·2일·1일·1시간 전·정시 또는 직접 입력(0~7일)을 각각 선택합니다. 야간 시간의 알림은 생략합니다.
 5. **테스트 알림**으로 권한을 확인하고 **홈 화면 위젯 추가**를 누릅니다. 위젯 크기를 늘리면 스크롤 가능한 일정이 표시됩니다.

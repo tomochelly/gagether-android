@@ -22,7 +22,9 @@
 
 ## リリース状況
 
-[GAGETHER](https://gagether.wiki) のAndroidコンパニオンアプリです。ガチャゲームのピックアップ、イベント、販売パックの日程をまとめます。1.0.0は0.2.4を基にしたソースコードの節目です。署名済み製品版APKの配布やストア公開が完了したことを意味しません。
+[GAGETHER](https://gagether.wiki) のAndroidコンパニオンアプリです。ガチャゲームのピックアップ、イベント、販売パックの日程をまとめます。リリース用署名済み **[GAGETHER 1.0.0 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.0)**（versionCode 7）を公開しています。Assetsの `GAGETHER-1.0.0.apk` をダウンロードしてください。ソース圧縮ファイルはインストーラーではありません。release単体テスト、APK/AABビルド、APK署名検証が成功しました。Google Play／Galaxy Storeではまだ公開していません。
+
+アプリIDは `app.patchwork.radar` です。従来の `.beta` アプリとは別にインストールされ、設定や個人記録は自動移行されません。
 
 ## 課題と設計
 ゲームやサービスごとに分散する情報を、共通のモバイルWeb画面とAndroidの通知・ホーム画面ウィジェットで確認できるようにしました。Web画面と情報の更新はAPKの再インストールなしで反映されます。ネイティブ機能の変更にはアプリ更新が必要です。

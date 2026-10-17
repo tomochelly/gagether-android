@@ -22,7 +22,9 @@
 
 ## Release status
 
-Android companion for [GAGETHER](https://gagether.wiki), a multilingual calendar for gacha-game banners, events and shop packages. The 1.0.0 source milestone builds on 0.2.4. This does **not** mean a signed production APK or store release has been published.
+Android companion for [GAGETHER](https://gagether.wiki), a multilingual calendar for gacha-game banners, events and shop packages. **[GAGETHER 1.0.0 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.0)** is available as a release-signed build (versionCode 7). Download `GAGETHER-1.0.0.apk` from Assets; source archives are not installers. Release unit tests, APK/AAB builds and APK signature verification passed. Google Play/Galaxy Store publication is not complete.
+
+Application ID `app.patchwork.radar` installs separately from the older `.beta` app. Settings and personal records are not migrated automatically.
 
 ## Problem and approach
 Schedules and announcements are scattered across games and services. GAGETHER combines a shared mobile web interface with native Android reminders and home-screen widgets. Web content updates reach the app without rebuilding the APK; changes to native code still require an app update.
