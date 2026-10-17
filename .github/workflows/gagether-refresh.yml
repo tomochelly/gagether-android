@@ -26,6 +26,7 @@ jobs:
           python3 - <<'PY'
           import json, os, urllib.request, urllib.parse
           endpoint = os.environ['REFRESH_URL']
+          agent = 'GAGETHER-OfficialRefresh/1.0 (+https://github.com/tomochelly/gagether-android)'
           oidc_url = os.environ['ACTIONS_ID_TOKEN_REQUEST_URL'] + '&audience=' + urllib.parse.quote(endpoint, safe='')
           request = urllib.request.Request(oidc_url, headers={'Authorization': 'Bearer ' + os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
           with urllib.request.urlopen(request, timeout=20) as response:
@@ -34,7 +35,7 @@ jobs:
           class NoRedirect(urllib.request.HTTPRedirectHandler):
               def redirect_request(self, *args, **kwargs):
                   return None
-          request = urllib.request.Request(endpoint, data=b'', method='POST', headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/json'})
+          request = urllib.request.Request(endpoint, data=b'', method='POST', headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/json', 'User-Agent': agent})
           with urllib.request.build_opener(NoRedirect).open(request, timeout=420) as response:
               result = json.load(response)
           if not result.get('ok'):
@@ -42,7 +43,7 @@ jobs:
           print(json.dumps({k: result.get(k) for k in ['ok', 'skipped', 'partial', 'noticesAdded', 'finishedAt', 'readback']}, ensure_ascii=False))
           if result.get('partial'):
               print('::warning::Some official sources could not be checked. Previous verified records were retained; see /api/fast-refresh for individual source status.')
-          with urllib.request.urlopen(endpoint, timeout=30) as response:
+          with urllib.request.urlopen(urllib.request.Request(endpoint, headers={'User-Agent': agent, 'Accept': 'application/json'}), timeout=30) as response:
               status = json.load(response)
           if not status.get('lastFinishedAt'):
               raise RuntimeError('Persisted refresh status is missing')
