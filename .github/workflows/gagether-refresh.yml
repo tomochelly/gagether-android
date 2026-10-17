@@ -35,7 +35,7 @@ jobs:
           class NoRedirect(urllib.request.HTTPRedirectHandler):
               def redirect_request(self, *args, **kwargs):
                   return None
-          request = urllib.request.Request(endpoint, data=b'', method='POST', headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/json', 'User-Agent': agent})
+          request = urllib.request.Request(endpoint, data=b'', method='POST', headers={'X-Gagether-Refresh-Identity': token, 'Accept': 'application/json', 'User-Agent': agent})
           with urllib.request.build_opener(NoRedirect).open(request, timeout=420) as response:
               result = json.load(response)
           if not result.get('ok'):
