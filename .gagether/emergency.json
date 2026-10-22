@@ -1,22 +1,14 @@
 {
   "version": 1,
-  "requestId": "recovery-drill-edit-20261023",
-  "reason": "Owner-authorized hidden recovery edit with revision protection",
-  "action": "edit",
+  "requestId": "recovery-drill-reset-20261023",
+  "reason": "Owner-authorized restoration of the private drill to its original absent state",
+  "action": "reset",
   "dryRun": false,
   "edit": {
     "target": "entry",
     "id": "custom-recovery-drill-20261023",
-    "revision": 1,
+    "revision": 2,
     "create": false,
-    "changes": {
-      "title": {
-        "ko": "비공개 복구 테스트 · 수정",
-        "en": "Private recovery drill · edited",
-        "ja": "非公開復旧テスト・編集",
-        "zh": "私有恢复测试 · 已编辑"
-      },
-      "hidden": true
-    }
+    "changes": {}
   }
 }
