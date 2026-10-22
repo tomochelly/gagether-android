@@ -22,5 +22,7 @@ jobs:
         working-directory: web
       - run: node --test tests/service-reliability.test.mjs tests/editor-artwork.test.mjs tests/upcoming-pickups.test.mjs
         working-directory: web
+      - run: node scripts/validate-editor.mjs
+        working-directory: web
       - run: pnpm exec tsc --noEmit
         working-directory: web

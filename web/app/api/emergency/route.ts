@@ -12,7 +12,7 @@ export async function POST(request:Request){
  if(!identity||!/^[a-f0-9]{40}$/.test(identity.sha))return Response.json({error:'Pinned main-branch GitHub workflow identity required'},{status:403,headers});
  let stage='read-committed-plan';try{
   // The caller supplies no editable data. Read the exact signed commit from the fixed repository.
-  const response=await fetch(`https://api.github.com/repos/tomochelly/gagether-android/contents/.gagether/emergency.json?ref=${identity.sha}`,{headers:{Accept:'application/vnd.github.raw+json','User-Agent':'GAGETHER-Emergency'},signal:AbortSignal.timeout(15000),redirect:'error'});
+  const response=await fetch(`https://api.github.com/repos/tomochelly/gagether-android/contents/.gagether/emergency.json?ref=${identity.sha}`,{headers:{Accept:'application/vnd.github.raw+json','User-Agent':'GAGETHER-Emergency'},signal:AbortSignal.timeout(15000),redirect:'manual'});
   if(!response.ok)return Response.json({error:'Committed emergency plan unavailable',status:response.status},{status:502,headers});
   const raw=await response.text();if(raw.length>200000)return Response.json({error:'Plan too large'},{status:413,headers});const plan=JSON.parse(raw);
   if(plan.version!==1||typeof plan.requestId!=='string'||!/^[a-zA-Z0-9_-]{8,100}$/.test(plan.requestId)||typeof plan.reason!=='string'||plan.reason.length<5||!['edit','reset'].includes(plan.action)||typeof plan.dryRun!=='boolean')return Response.json({error:'Invalid plan envelope'},{status:400,headers});

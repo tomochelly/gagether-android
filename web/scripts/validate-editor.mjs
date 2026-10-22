@@ -224,7 +224,12 @@ const b64=v=>Buffer.from(JSON.stringify(v)).toString('base64url');const seconds=
 const encoded=b64({alg:'RS256',typ:'JWT',kid:jwk.kid})+'.'+b64({iss:'https://token.actions.githubusercontent.com',aud:'https://gagether.wiki/api/emergency',repository_id:'1422741334',repository_owner_id:'343730239',repository:'tomochelly/gagether-android',ref:'refs/heads/main',workflow_ref:'tomochelly/gagether-android/.github/workflows/gagether-emergency.yml@refs/heads/main',event_name:'push',sha:'a'.repeat(40),actor:'fixture-owner',run_id:'123',iat:seconds,nbf:seconds-1,exp:seconds+300});
 const token=encoded+'.'+Buffer.from(await crypto.subtle.sign('RSASSA-PKCS1-v1_5',keypair.privateKey,new TextEncoder().encode(encoded))).toString('base64url');
 let plan={version:1,requestId:'drill-create-0001',reason:'Isolated recovery rehearsal',action:'edit',dryRun:true,edit:{target:'entry',id:'reliability-drill',revision:0,create:true,changes:{...Object.fromEntries(Object.entries(custom).filter(([k])=>!['id','verifiedAt'].includes(k))),hidden:true}}};
-const realFetch=globalThis.fetch;globalThis.fetch=async url=>String(url).includes('/.well-known/jwks')?Response.json({keys:[jwk]}):String(url).startsWith('https://api.github.com/repos/tomochelly/gagether-android/contents/.gagether/emergency.json?ref=')?new Response(JSON.stringify(plan)):realFetch(url);
+const realFetch=globalThis.fetch;globalThis.fetch=async (url,options)=>{
+ if(options?.redirect==='error')throw Error('Workers supports only follow/manual redirect modes');
+ if(String(url).includes('/.well-known/jwks'))return Response.json({keys:[jwk]});
+ if(String(url).startsWith('https://api.github.com/repos/tomochelly/gagether-android/contents/.gagether/emergency.json?ref=')){assert.equal(options?.redirect,'manual');return new Response(JSON.stringify(plan));}
+ return realFetch(url,options);
+};
 const emergencyRequest=identity=>new Request(origin+'/api/emergency',{method:'POST',headers:{'X-Gagether-Emergency-Identity':identity},body:''});
 try{
  assert.equal((await emergency.POST(emergencyRequest('forged'))).status,403);
