@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "requestId": "recovery-drill-dry2-20261023",
-  "reason": "Owner-authorized isolated rehearsal after restoring the established service client identity",
+  "requestId": "recovery-drill-create-20261023",
+  "reason": "Owner-authorized hidden entry creation to prove the independent recovery path",
   "action": "edit",
-  "dryRun": true,
+  "dryRun": false,
   "edit": {
     "target": "entry",
     "id": "custom-recovery-drill-20261023",
