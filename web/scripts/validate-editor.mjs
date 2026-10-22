@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
 import {DatabaseSync} from 'node:sqlite';
 import ts from 'typescript';
@@ -15,10 +16,12 @@ const dataUrl=code=>'data:text/javascript;base64,'+Buffer.from(code).toString('b
 const modules=new Map();
 function loadUrl(file){
  file=path.resolve(file);if(modules.has(file))return modules.get(file);
- if(file.endsWith('.json.ts'))return dataUrl('export default '+fs.readFileSync(file.slice(0,-3),'utf8')+';');
+ if(file.endsWith('.json.ts'))return dataUrl('export default '+(file.endsWith('/ops/assets-manifest.json.ts')&&globalThis.__patchworkTest.assetManifest?JSON.stringify(globalThis.__patchworkTest.assetManifest):fs.readFileSync(file.slice(0,-3),'utf8'))+';');
  let output=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
  output=output.replace(/with\s*\{\s*type:\s*["']json["']\s*\}/g,'');
  output=output.replace(/from\s+(['"])([^'"]+)\1/g,(_all,_quote,spec)=>{
+  if(spec.startsWith('node:'))return 'from '+JSON.stringify(spec);
+  if(spec==='vinext/server/fetch-handler')return 'from '+JSON.stringify(dataUrl('export default {fetch(){throw Error("Static framework handler must not receive catalog assets")}};'));
   if(spec==='cloudflare:workers')return 'from '+JSON.stringify(dataUrl('export const env=globalThis.__patchworkTest.env;'));
   if(spec==='@/app/chatgpt-auth')return 'from '+JSON.stringify(dataUrl('export async function getChatGPTUser(){return globalThis.__patchworkTest.identity;}'));
   const target=spec.startsWith('@/')?path.resolve(spec.slice(2)+'.ts'):spec.startsWith('.')?path.resolve(path.dirname(file),spec+'.ts'):null;
@@ -81,8 +84,9 @@ response=await upload.POST(new Request(origin+'/api/editor/upload',{method:'POST
 response=await image.GET(new Request(origin+uploaded.url),{params:Promise.resolve({file:uploaded.url.split('/').at(-1)})});assert.equal(response.status,200);assert.equal(response.headers.get('Content-Type'),'image/png');assert.equal(response.headers.get('X-Content-Type-Options'),'nosniff');assert.deepEqual(Buffer.from(await response.arrayBuffer()),bytes);
 
 // Exact catalog asset migration is isolated from private editor media.
+globalThis.__patchworkTest.assetManifest=[{path:'public/assets/test-original.png',url:origin+'/assets/test-original.png',bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex')}];
 const assetStore=await mod('app/api/asset-storage/route.ts'),assetRead=await mod('app/assets/[...file]/route.ts');
-const {catalogAssets}=await mod('lib/catalog-assets.ts');const a=catalogAssets[0],assetBytes=fs.readFileSync('public/'+a.path);
+const {catalogAssets}=await mod('lib/catalog-assets.ts');const a=catalogAssets[0],assetBytes=bytes;
 const assetRequest=(path,body,originHeader=origin)=>new Request(origin+'/api/asset-storage?path='+encodeURIComponent(path),{method:'POST',headers:{Origin:originHeader},body});
 globalThis.__patchworkTest.identity=null;assert.equal((await assetStore.POST(assetRequest(a.path,assetBytes))).status,403);
 globalThis.__patchworkTest.identity={userId:'owner-fixture',email:'owner@example.test'};
@@ -95,6 +99,9 @@ response=await assetRead.GET(new Request(origin+'/'+a.path),assetParams);assert.
 response=await assetRead.GET(new Request(origin+'/'+a.path,{headers:{'If-None-Match':'"'+a.sha256+'"'}}),assetParams);assert.equal(response.status,304);
 assert.equal((await assetStore.GET(new Request(origin+'/api/asset-storage?offset=-1'))).status,400);
 assert.equal((await (await assetStore.GET(new Request(origin+'/api/asset-storage'))).json()).assets[0].ready,true);
+const worker=await mod('build/sites-worker.ts');
+const workerAsset=await worker.default.fetch(new Request(origin+'/'+a.path),globalThis.__patchworkTest.env,{props:{}});assert.equal(workerAsset.status,200);assert.deepEqual(new Uint8Array(await workerAsset.arrayBuffer()),new Uint8Array(bytes));
+assert.equal((await worker.default.fetch(new Request(origin+'/'+a.path,{method:'HEAD'}),globalThis.__patchworkTest.env,{props:{}})).headers.get('Content-Length'),String(bytes.byteLength));
 console.log(JSON.stringify({catalogAssetOriginalHash:true,unchangedURLs:true,privateMediaIsolation:true}));
 
 // Persisted collection review cannot publish a title as completed detail or acknowledge stale evidence.

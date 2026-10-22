@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "d54668ce8901503c4fd322b0a94f9df50a1f03ca434cb835c39aff9b9e0c58b5",
+  "fingerprint": "12d27797b3fb55eba4ddd6c29295620a3792eaf522db2a08e581b3f68ddbe46f",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -148,7 +148,7 @@
     },
     {
       "path": "app/assets/[...file]/route.ts",
-      "sha256": "3d848f2742ff8c4c95c49908fc968fcc5e3dd6fd0f9e06a934b290a632e7215f"
+      "sha256": "3132d7d1873b55b81ab4309e61343ddb86d1b98837a8264d3828ef76a34a9333"
     },
     {
       "path": "app/calendar-privacy/page.tsx",
@@ -300,7 +300,7 @@
     },
     {
       "path": "build/sites-worker.ts",
-      "sha256": "417db78c8710c8c64f2f5c8537f65146da6c21d21534ca2dcfb049d43fded248"
+      "sha256": "97a7581c71e1893d386480a2220afa41f841fd94c7591c16a3431d50b3f7cc2f"
     },
     {
       "path": "components/account-sync-status.tsx",
@@ -967,8 +967,12 @@
       "sha256": "51bd785469fa451de4aa43f94573d79b01a8b2ce38a47c3bcfdd87b269bf83df"
     },
     {
+      "path": "lib/catalog-asset-response.ts",
+      "sha256": "5806324ee89c87a74bb984722fc898b6b6964d7457eed05583471f26e7ebc038"
+    },
+    {
       "path": "lib/catalog-assets.ts",
-      "sha256": "066c0d7449d995c00000ed221c4fe84600b44a59c4037ae79ef5878d72526db5"
+      "sha256": "a6f09ff5bd3dfcb130c821bd74c288f069e28644e1c29c3d0baaf5721c98d682"
     },
     {
       "path": "lib/catalog-index.ts",
