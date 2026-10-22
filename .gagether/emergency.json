@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "requestId": "recovery-drill-dry-20261023",
-  "reason": "Owner-authorized isolated emergency recovery rehearsal",
+  "requestId": "recovery-drill-dry2-20261023",
+  "reason": "Owner-authorized isolated rehearsal after restoring the established service client identity",
   "action": "edit",
   "dryRun": true,
   "edit": {

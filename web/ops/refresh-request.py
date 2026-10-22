@@ -1,5 +1,6 @@
 import json, os, time, urllib.request, urllib.parse, urllib.error
 endpoint='https://gagether.wiki/api/fast-refresh'
+agent='GAGETHER-OfficialRefresh/1.0 (+https://github.com/tomochelly/gagether-android)'
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self,*args,**kwargs): return None
 opener=urllib.request.build_opener(NoRedirect)
@@ -8,14 +9,14 @@ for attempt in range(4):
     with urllib.request.urlopen(urllib.request.Request(url,headers={'Authorization':'Bearer '+os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']}),timeout=20) as r: token=json.load(r)['value']
     print('::add-mask::'+token)
     try:
-        req=urllib.request.Request(endpoint,data=b'',method='POST',headers={'X-Gagether-Refresh-Identity':token,'Accept':'application/json'})
+        req=urllib.request.Request(endpoint,data=b'',method='POST',headers={'X-Gagether-Refresh-Identity':token,'Accept':'application/json','User-Agent':agent})
         with opener.open(req,timeout=420) as r: result=json.load(r)
         break
     except (urllib.error.URLError,TimeoutError) as error:
         if isinstance(error,urllib.error.HTTPError) and error.code not in [429,500,502,503,504]: raise
         if attempt==3: raise
         time.sleep(min(2**(attempt+1),12))
-with opener.open(urllib.request.Request(endpoint,headers={'Accept':'application/json'}),timeout=30) as r: status=json.load(r)
+with opener.open(urllib.request.Request(endpoint,headers={'Accept':'application/json','User-Agent':agent}),timeout=30) as r: status=json.load(r)
 saved=(status.get('result') or {}) if result.get('skipped') else result
 finished=status.get('lastFinishedAt')
 if result.get('skipped') and status.get('lastStartedAt','')>(finished or ''):
