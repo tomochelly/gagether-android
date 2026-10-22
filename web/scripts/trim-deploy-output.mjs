@@ -3,6 +3,7 @@
 // Keep all original art, fonts and the public stylesheet untouched.
 import {readdirSync,existsSync,readFileSync,unlinkSync,rmSync} from 'node:fs';
 import {join} from 'node:path';
+import {pruneGeneratedChunks} from './prune-generated-chunks.mjs';
 // Transfer work directories can outlive a completed build; nothing imports them.
 // They contain temporary duplicates, not artwork or runtime output paths.
 function removeTransferScratch(dir){
@@ -38,3 +39,4 @@ function removeArtworkPartials(dir){
 removeArtworkPartials('dist/client/assets');
 // Vite's build inventory is not read by the emitted worker or client bundles.
 for(const file of ['dist/client/.vite/manifest.json','dist/server/.vite/manifest.json'])if(existsSync(file))unlinkSync(file);
+pruneGeneratedChunks('dist');
