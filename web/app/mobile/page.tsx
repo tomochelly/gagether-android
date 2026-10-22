@@ -6,10 +6,12 @@ import Radar from '@/components/radar';
 import {requestLocale} from '@/lib/request-locale';
 import {readData} from '@/lib/store';
 import {requestLayout} from '@/lib/request-layout';
+import {isLocale} from '@/lib/visitor-locale';
 export const dynamic='force-dynamic';
-export default async function Mobile({searchParams}:{searchParams:Promise<{entry?:string;tab?:string}>}) {
+export default async function Mobile({searchParams}:{searchParams:Promise<{entry?:string;tab?:string;locale?:string}>}) {
  const q=await searchParams;
- const [{locale,manual},layout]=await Promise.all([requestLocale(),requestLayout()]);
+ const [visitor,layout]=await Promise.all([requestLocale(),requestLayout()]);
+ const locale=isLocale(q.locale)?q.locale:visitor.locale,manual=isLocale(q.locale)?true:visitor.manual;
  if(q.entry){const data=await readData({index:true});return <Radar initialLocale={locale} initialLocaleManual={manual} initialCatalog={packCatalog(data)} initialComplete initialDeferred revalidateOnMount appMode {...layout}/>;}
  return <Radar initialView={q.tab==='history'?'history':'overview'} initialLocale={locale} initialLocaleManual={manual} initialData={emptyCatalog()} initialComplete={q.tab==='history'} initialPending initialDeferred appMode {...layout}/>;
 }

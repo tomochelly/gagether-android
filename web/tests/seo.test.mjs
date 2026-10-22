@@ -1,8 +1,8 @@
 import './load-typescript.mjs';
 import {test} from 'node:test';import assert from 'node:assert/strict';import React,{act} from 'react';import {renderToString} from 'react-dom/server';import {hydrateRoot} from 'react-dom/client';import {JSDOM} from 'jsdom';
 const {default:sitemap}=await import('../app/sitemap.ts');const {catalogMetadata}=await import('../lib/seo.ts');const {catalogPath,catalogLocation,catalogLocaleHeaders,supportedLocales}=await import('../lib/catalog-paths.ts');const {games,byId}=await import('../lib/games.ts');const {default:Radar}=await import('../components/radar.tsx');const {emptyCatalog}=await import('../lib/initial-shell.ts');
-test('65 discoverable URLs have reciprocal language links and self canonicals',()=>{
- const pages=sitemap();assert.equal(pages.length,65);assert.equal(new Set(pages.map(p=>p.url)).size,65);
+test('69 discoverable URLs have reciprocal language links and self canonicals',()=>{
+ const pages=sitemap();assert.equal(pages.length,69);assert.equal(new Set(pages.map(p=>p.url)).size,69);
  for(const locale of supportedLocales)for(const game of [undefined,...games]){
   const meta=catalogMetadata(locale,game?{id:game.id,name:game.name[locale]}:undefined);const url='https://gagether.wiki'+catalogPath(locale,game?.id);assert.equal(meta.alternates.canonical,url);assert.equal(meta.alternates.languages[locale],url);assert.equal(pages.find(p=>p.url===url).alternates.languages[locale],url);
   assert.ok(meta.description.length>30);assert.equal(meta.robots.index,true);assert.equal(meta.keywords,undefined);if(game)assert.ok(meta.title.includes(game.name[locale]));

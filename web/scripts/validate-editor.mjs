@@ -77,6 +77,8 @@ assert.equal((await save({target:'site',revision:0,changes:{}})).status,409);
 assert.equal(settingsSchema.safeParse({ui:{ko:{unknownKey:'invalid'}}}).success,false);
 assert.equal(settingsSchema.safeParse({games:{wuwa:{official:'javascript:alert(1)'}}}).success,false);
 assert.equal((await editor.DELETE(request({target:'site',revision:1},'DELETE'))).status,200);assert.deepEqual((await store.readData()).settings,{});
+const siteNotices=[{id:'reviewed-notice',title:{ko:'공지',en:'Notice',ja:'お知らせ',zh:'公告'},body:{ko:'본문',en:'Body',ja:'本文',zh:'正文'},publishedDate:'2026-10-23',href:'/download'}];
+response=await save({target:'site',revision:0,changes:{announcements:siteNotices,announcementSeconds:7}});assert.equal(response.status,200);data=await response.json();assert.deepEqual(data.settings.announcements,siteNotices);assert.equal(data.settings.announcementSeconds,7);assert.equal((await save({target:'site',revision:0,changes:{announcements:[]}})).status,409);assert.equal((await editor.DELETE(request({target:'site',revision:1},'DELETE'))).status,200);
 assert.equal(safeImage('/api/media/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee.webp'),true);assert.equal(safeImage('/assets/../../bad.svg'),false);assert.equal(safeImage('data:image/svg+xml,x'),false);
 const badForm=new FormData();badForm.append('image',new File(['<svg/>'],'bad.png',{type:'image/png'}));assert.equal((await upload.POST(new Request(origin+'/api/editor/upload',{method:'POST',headers:{Origin:origin},body:badForm}))).status,400);
 const bytes=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a5WQAAAAASUVORK5CYII=','base64');const form=new FormData();form.append('image',new File([bytes],'fixture.png',{type:'image/png'}));
@@ -287,7 +289,7 @@ try{
 }finally{globalThis.fetch=realFetch;}
 console.log(JSON.stringify({emergencySignedOIDC:true,dryRun:true,createHidden:true,replayDeduplication:true,revisionConflict:true,historyRollback:true}));
 sql.close();delete globalThis.__patchworkTest;
-console.log(JSON.stringify({ok:true,checks:['owner authorization','cross-origin rejection','editor SQLite roundtrip','optimistic conflicts','manual field preservation','optional field removal','hidden/manual item lifecycle','localized site settings','invalid URLs and dates','R2 upload/readback','exact multi-pickup slides','lower rarity exclusion','CN restricted to two requested services','Chinese locale retained']}));
+console.log(JSON.stringify({ok:true,checks:['owner authorization','cross-origin rejection','editor SQLite roundtrip','optimistic conflicts','manual field preservation','optional field removal','hidden/manual item lifecycle','localized site settings','invalid URLs and dates','R2 upload/readback','exact multi-pickup slides','lower rarity exclusion','CN restricted to three reviewed services','Chinese locale retained']}));
 
 // A successful fetch with a malformed persisted snapshot must fail validation.
 const health=await mod('lib/service-health.ts');

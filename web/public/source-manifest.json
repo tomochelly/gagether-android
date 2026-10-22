@@ -1,10 +1,14 @@
 {
   "version": 1,
-  "fingerprint": "12d27797b3fb55eba4ddd6c29295620a3792eaf522db2a08e581b3f68ddbe46f",
+  "fingerprint": "f35a072f937fc59c657aa1fceb5fce61e9b2cd008d1f67f987b0e4345eb2f3de",
   "entries": [
     {
       "path": ".openai/hosting.json",
       "sha256": "ce42b36d2b7f3815fef59df4d12db1bd47ff76cab79a833ba306529656c37b85"
+    },
+    {
+      "path": "app/[locale]/download/page.tsx",
+      "sha256": "95cf9491f124db435feaa5f9413a717b42c5b9d5803a681e0e8bcb030def8e10"
     },
     {
       "path": "app/[locale]/games/[gameId]/page.tsx",
@@ -175,6 +179,10 @@
       "sha256": "245b0e13188357611ce12f0257115dde06fa1e535f1ecf3e4b212b9af5555faf"
     },
     {
+      "path": "app/download/page.tsx",
+      "sha256": "10652783cb9169c01a5142aac4da83edb575a5ceb9b66fde48675156d052f8bc"
+    },
+    {
       "path": "app/events-social.css",
       "sha256": "1841b9baf3ebc50373f81d206c73c973442db8fd3b8f1f9978d2528b21bde1b9"
     },
@@ -188,7 +196,7 @@
     },
     {
       "path": "app/globals.css",
-      "sha256": "6d0786e50309e81fb276305cdcff2df373c185b803c168484877af954dfc5761"
+      "sha256": "52022750001fbd062a2d1ca1d3e31634145aab2c6bf4f644f27301e4f7f77912"
     },
     {
       "path": "app/google-calendar.css",
@@ -212,7 +220,7 @@
     },
     {
       "path": "app/mobile/page.tsx",
-      "sha256": "5a8be83f1500c66724f63c221e5693f98b23d09a4988a42b0598f35067a577da"
+      "sha256": "dc2880e91b6d54d5ca9acfb0da392f1328273f4dbb8c9b1ae6b74712309810a4"
     },
     {
       "path": "app/owner-workspace.css",
@@ -259,8 +267,12 @@
       "sha256": "e9b50398d0b14d95202187d95f7bd8c0358a440d5b9c5984a7940014f0990284"
     },
     {
+      "path": "app/site-messages.css",
+      "sha256": "a783a11ac34220c8c555d99979bd3348e2ac1f07e156e380f0d8f531ddc72a87"
+    },
+    {
       "path": "app/sitemap.ts",
-      "sha256": "58b982fab867b862ece769543a6ff95bf2398b13d2c6d1d4ad38769a95c2f259"
+      "sha256": "ad760b3bc9a9363d048be5eb227a68d4efad612cae7ebce6833b1447cb13bad9"
     },
     {
       "path": "app/studio.css",
@@ -305,6 +317,10 @@
     {
       "path": "components/account-sync-status.tsx",
       "sha256": "21c7d732f29bb6086e382d67e34e73b38a2699330001925a8ff76cbf55eada0a"
+    },
+    {
+      "path": "components/app-download-banner.tsx",
+      "sha256": "74d4215ffe7d610f046a63fe5bd21d37b1464c46837fd658418440a21103b94e"
     },
     {
       "path": "components/artwork-disclosure.tsx",
@@ -356,7 +372,7 @@
     },
     {
       "path": "components/editor-panel.tsx",
-      "sha256": "2ae262b67e6421884d6e89b4f15bfa71ab2de4ba299d9f177efc649241b69e30"
+      "sha256": "dbfcc335c9ebd0e0cff6d35830c56ba0cc99b15ad12ad5b301c94e2e17f946d1"
     },
     {
       "path": "components/entity-details-editor.tsx",
@@ -408,7 +424,7 @@
     },
     {
       "path": "components/mobile-companion.tsx",
-      "sha256": "967d72acaad4fbf5b8d82a2daceb855ac7246b1e8940d1bbb86b724dfb2f1d59"
+      "sha256": "3bb43528c356824cab10b8f836adcd76b830ceaee3f5abe70c1ec17d328803a7"
     },
     {
       "path": "components/my-games-filter.tsx",
@@ -416,7 +432,7 @@
     },
     {
       "path": "components/official-social.tsx",
-      "sha256": "2fcb264d34f304a5e0e5de462625327b2028d2d40adab261733b6390604d5d03"
+      "sha256": "aec51e43361b7782193bb2980d7d4db8e3ae1de4c5660e91d15502ce4cd92793"
     },
     {
       "path": "components/operations-console.tsx",
@@ -436,7 +452,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "5b48710be76a2bbb3a1c97db0ec20ea80d674453e7aa8c10a091fbe4f4325e7a"
+      "sha256": "e65a5483c2ee44c1d59048e2c5ced7a5235563a391901be6d37c1753f98dc6f0"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -457,6 +473,14 @@
     {
       "path": "components/signature-weapons.tsx",
       "sha256": "1649252b9ea343806c24323366d6aac99ed303ee0b44c353ed22644f019859f6"
+    },
+    {
+      "path": "components/site-announcement-editor.tsx",
+      "sha256": "69ed9c46445c4bb8ce5df024d046ff489f7fec0d86ff380f890f9b6c17ac16e1"
+    },
+    {
+      "path": "components/site-announcements.tsx",
+      "sha256": "c69ddbf53b7244f09d621e07a1b552c1be01b10add0524068755c17ee38e824b"
     },
     {
       "path": "components/source-footer.tsx",
@@ -744,7 +768,7 @@
     },
     {
       "path": "components/use-public-favorites.ts",
-      "sha256": "7401363bd4d880e6ddcc4d6fd7276e1ee3a9fc990fdaea9cc0a9c42659122631"
+      "sha256": "723ad277e6fd41e41c2d9a669de58bf970fa7a36fa9f6d0d86f79401de7acf5c"
     },
     {
       "path": "components/version-hero.tsx",
@@ -757,6 +781,10 @@
     {
       "path": "components/visitor-account-link.tsx",
       "sha256": "d675f52fdf847b95073061f17d5ea74144269aa36dddcf48623e7cd4dd68f553"
+    },
+    {
+      "path": "content/android-release.json",
+      "sha256": "39f227665d7f7e6b3ee90198b372dde80f96d9acc51d23a29bd90daec187cd05"
     },
     {
       "path": "content/artwork-audit-2026-10-16.json",
@@ -939,6 +967,14 @@
       "sha256": "d471b974b0d73dee9c8a67ec18ae9fedc8db48c803900077af7f1652c0665134"
     },
     {
+      "path": "lib/app-release.ts",
+      "sha256": "e3d8bf28618181b0702158266af008e6975d2f1a705794ac193178e552f6b28a"
+    },
+    {
+      "path": "lib/app-settings-copy.ts",
+      "sha256": "25ecfca249af69541f6e709bf3bfd75b11ac0298cd064c71b338ba033ce05af7"
+    },
+    {
       "path": "lib/artwork-presets.ts",
       "sha256": "67105c21df899f59be73d8fd176348fd41099c73b4198a2bfd4c25e17df59603"
     },
@@ -1056,11 +1092,11 @@
     },
     {
       "path": "lib/editor-schema.ts",
-      "sha256": "a4bd1f107d206a98ea12b2c0524e3a5fcbdcfd7d1fa1bedc8bb0ebfc62d4dd36"
+      "sha256": "4325538aadd812cc90b8d7ded634192698ad0174f34b903fb462eb63c8314382"
     },
     {
       "path": "lib/editorial.ts",
-      "sha256": "337ed300e329d8f17404c4cb08bd2ea350d91454bbf49c3c4502b550f819bba7"
+      "sha256": "006744587cdeb2e05a35c652969cbcae1a70412e71764c06974ab7ce70010b7e"
     },
     {
       "path": "lib/event-overview-items.ts",
@@ -1148,7 +1184,7 @@
     },
     {
       "path": "lib/mobile.ts",
-      "sha256": "306bc86fc172471b6c4e207adda435027165e12a4f0fa12d54256b0fc536d757"
+      "sha256": "2e8ce805aa44943f663304c60c900b563f8c83ec6464c15f0844abf7e771215c"
     },
     {
       "path": "lib/notification-i18n.ts",
@@ -1281,6 +1317,10 @@
     {
       "path": "lib/service-health.ts",
       "sha256": "60b0ff975d1571aecf6a43bae78311f780791357465edd230b3680bb129bd3ff"
+    },
+    {
+      "path": "lib/site-announcements.ts",
+      "sha256": "317f8ef390ab58fba78b67da0b494404eb750f89879f32b7defab3202ca83e77"
     },
     {
       "path": "lib/spotlight.ts",

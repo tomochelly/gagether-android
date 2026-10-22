@@ -19,9 +19,9 @@ const asset=(image,locale)=>({image,imageLocale:locale,imageVerified:true,imageS
 test('foreign images cannot bypass locale matching through legacy cropped previews',()=>{
  const art={...asset('/assets/japanese.png','ja'),previewBounds:{left:30,top:20,right:70,bottom:80},textFreePreview:true,originalLanguageFallback:true};
  for(const mode of ['preview','full']){
-  assert.equal(artworkForLocale(art,'ko',mode,'ja').image,undefined);
-  assert.equal(artworkForLocale({...art,previewArtwork:art},'ko',mode,'ja').image,undefined);
-  assert.equal(artworkForLocale({...art,localizedArtwork:{ko:art}},'ko',mode,'ja').image,undefined);
+  assert.equal(artworkForLocale(art,'ko',mode).image,undefined);
+  assert.equal(artworkForLocale({...art,previewArtwork:art},'ko',mode).image,undefined);
+  assert.equal(artworkForLocale({...art,localizedArtwork:{ko:art}},'ko',mode).image,undefined);
  }
  assert.equal(artworkForLocale({...art,localizedArtwork:{ko:asset('/assets/ko.png','ko')}},'ko','full').image,'/assets/ko.png');
  const entry={...base,...asset('/assets/ko.png','ko'),detailImages:[asset('/assets/ko.png','ko'),asset('/assets/ja.png','ja'),asset('/assets/guide-ko.png','ko'),asset('/assets/guide-ko.png','ko')]};

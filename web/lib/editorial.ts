@@ -1,9 +1,10 @@
 import type {Entry,Game,Locale} from './types';
 import {games,isSupportedSchedule} from './games';
 import {ui} from './i18n';
+import type {SiteAnnouncement} from './site-announcements';
 
 export type GameAppearance=Partial<Pick<Game,'name'|'short'|'genre'|'color'|'logo'|'icon'|'iconSource'|'art'|'artPosition'|'official'|'publisher'|'regionLabels'>>;
-export type SiteSettings={brand?:{name?:string;tagline?:string;logo?:string};carouselSeconds?:number;ui?:Partial<Record<Locale,Partial<Record<keyof typeof ui.ko,string>>>>;games?:Record<string,GameAppearance>};
+export type SiteSettings={announcements?:SiteAnnouncement[];announcementSeconds?:number;brand?:{name?:string;tagline?:string;logo?:string};carouselSeconds?:number;ui?:Partial<Record<Locale,Partial<Record<keyof typeof ui.ko,string>>>>;games?:Record<string,GameAppearance>};
 export type EditorialRecord={key:string;payload:Record<string,unknown>;revision:number;updatedAt:string};
 export const emptySettings:SiteSettings={};
 export function catalogGames(settings:SiteSettings):Game[]{return games.map(g=>({...g,...settings.games?.[g.id],id:g.id,regions:g.regions,serviceMode:g.serviceMode,scheduleRegions:g.scheduleRegions,regionAliases:g.regionAliases,sources:g.sources}));}

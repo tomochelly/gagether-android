@@ -20,7 +20,7 @@ jobs:
           version: 11.25.0
       - run: pnpm install --frozen-lockfile
         working-directory: web
-      - run: node --test tests/service-reliability.test.mjs tests/editor-artwork.test.mjs tests/upcoming-pickups.test.mjs tests/pickup-artwork.test.mjs tests/collection-review.test.mjs
+      - run: node --test tests/*.test.mjs
         working-directory: web
       - run: node scripts/validate-editor.mjs
         working-directory: web

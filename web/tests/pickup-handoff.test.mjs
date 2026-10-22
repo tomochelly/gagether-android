@@ -50,15 +50,13 @@ test('duplicate archive/current rotation collapses and expired/hidden/weapon arc
  const slides=spotlightSlides([next,current,{...next,id:'hidden',hidden:true},{...next,id:'weapon',kind:'weapon',poolType:'weapon'},{...base,id:'history',pickupArchive:{status:'past'}}],now);
  assert.equal(slides.length,1);assert.equal(slides[0].entry.id,'current');
 });
-test('reviewed original-language fallback keeps its native language badge and requires translated context',()=>{
- const art={image:'/assets/exact-banner.webp',imageSource:base.sourceUrl,imageKind:'banner',imageVerified:true,imageLocale:'ja',originalLanguageFallback:true,imageCaption:local('Original Japanese release; current Korean dates are separate')};
- assert.equal(safeArtwork(art),true);assert.equal(safeArtwork({...art,imageCaption:undefined}),false);assert.equal(safeArtwork({...art,imageLocale:'neutral'}),false);
+test('independent Japanese service artwork keeps its real language; legacy fallback cannot override shared-service locale',()=>{
+ const art={image:'/assets/exact-banner.webp',imageSource:base.sourceUrl,imageKind:'banner',imageVerified:true,imageLocale:'ja',originalLanguageFallback:true,imageCaption:local('Original Japanese release')};
+ assert.equal(safeArtwork(art),true);
  for(const locale of ['ko','en','ja','zh']){
-  const chosen=artworkForLocale(art,locale,'full','ko');assert.equal(chosen.image,art.image);assert.equal(chosen.imageLocale,'ja');
-  const html=renderToStaticMarkup(createElement(ArtworkMedia,{art,alt:'Exact outfit',mode:'full',locale,serviceLocale:'ko'}));assert.ok(html.includes(art.image));
-  if(locale!=='ja')assert.ok(html.includes({ko:'원본',en:'Original',zh:'原文'}[locale]));
+  assert.equal(artworkForLocale(art,locale,'full','ja').image,art.image);
+  assert.equal(artworkForLocale(art,locale,'full').image,locale==='ja'?art.image:undefined);
  }
- assert.equal(artworkForLocale({...art,originalLanguageFallback:undefined},'ko','full','ko').image,undefined);
 });
 test('date estimates validate calendar arithmetic, survive omission, and never become live or alarms',()=>{
  assert.equal(cycleStartDate('2026-09-30',42),'2026-11-11');assert.equal(cycleStartDate('2026-02-30',42),undefined);
@@ -79,7 +77,7 @@ test('all four languages show upcoming dates on the main banner without a synthe
   const forecast={...next,startAt:null,endAt:null,sourceKind:'community',pickupArchive:{status:'forecast',estimate}};
   const html=renderToStaticMarkup(createElement(CatalogContext.Provider,{value:{games,byId,t:catalogUi(locale,{}),settings:{},canEdit:false,editMode:false,simpleMode:false,openEditor(){}}},createElement(Spotlight,{slides:spotlightSlides([forecast],now),index:0,onIndex(){},locale,now,region:'global',fallbackGame:byId.zzz,gameView:true,onOpen(){},onGame(){},favorite:false,onFavorite(){}})));
   assert.match(html,/2026\.11\.11/);assert.match(html,/is-upcoming/);assert.doesNotMatch(html,/00:00:00|undefined/);
-  const dateOnly={...next,startAt:null,startDate:'2026-10-20',pickupArchive:{status:'announced',startDate:'2026-10-20',endDate:'2026-11-11'}};
+  const dateOnly={...next,startAt:null,endAt:null,startDate:'2026-10-20',pickupArchive:{status:'announced',startDate:'2026-10-20',endDate:'2026-11-11'}};
   const dayHtml=renderToStaticMarkup(createElement(CatalogContext.Provider,{value:{games,byId,t:catalogUi(locale,{}),settings:{},canEdit:false,editMode:false,simpleMode:false,openEditor(){}}},createElement(Spotlight,{slides:spotlightSlides([dateOnly],now),index:0,onIndex(){},locale,now,region:'global',fallbackGame:byId.zzz,gameView:true,onOpen(){},onGame(){},favorite:false,onFavorite(){}})));
   assert.match(dayHtml,/is-date-only/);assert.ok(dayHtml.includes(historyText[locale].dateOnly));assert.match(dayHtml,/spotlight-deadline/);
  }
