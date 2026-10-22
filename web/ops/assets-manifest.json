@@ -611,7 +611,332 @@
     "bytes": 280368,
     "sha256": "b6db26dd361d4895f91138457e7bab32fd6b0cd3f5a02e8c2f27405859bb7c81"
   },
-…4021 tokens truncated…up-full-466a7603.webp",
+  {
+    "path": "public/assets/entities/native/umamusume-2b673ef85537.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-2b673ef85537.png",
+    "bytes": 3848274,
+    "sha256": "2b673ef85537ab92ec528c71b26cf87aec70a7966092a04a068edf9143303732"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-3dd7dfff22b6.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-3dd7dfff22b6.png",
+    "bytes": 2300860,
+    "sha256": "3dd7dfff22b617e1eb55e6fa62c3ef77464a547bf8fde86ad2d4d58467a76ac8"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-9180aa37df19.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-9180aa37df19.png",
+    "bytes": 3435166,
+    "sha256": "9180aa37df195402bfea413537f81b0db95bf613456a9ff4c44efac4f3e94ac0"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-9ae67808f2ab.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-9ae67808f2ab.png",
+    "bytes": 4665595,
+    "sha256": "9ae67808f2abdda87de60472580dda47c8e81b2d217e32a8399d1943b86c3498"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-e21cca977cf4.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-e21cca977cf4.png",
+    "bytes": 2331669,
+    "sha256": "e21cca977cf461a82332c9791ca6b553556c7abec44d9ff7eb48edad28c76b9c"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-f1298f84b946.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-f1298f84b946.png",
+    "bytes": 2017693,
+    "sha256": "f1298f84b9467f8c7078935431484630bb35ee8e758f5e24c46d56a786475b8e"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-blooming-jadehaven-ko-5f80d0d75d06.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-blooming-jadehaven-ko-5f80d0d75d06.jpg",
+    "bytes": 662073,
+    "sha256": "5f80d0d75d06b63cae3d3392853f11a423c348cedb1a45fb2f6f205d5912bf7f"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-blooming-jadehaven-zh-b0e0d88c2f2e.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-blooming-jadehaven-zh-b0e0d88c2f2e.jpg",
+    "bytes": 667283,
+    "sha256": "b0e0d88c2f2e2da99a263f6b67cabf340fb3cc22208c0c853813aff3bc5a7e28"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-kumokiri-en-ad8e4c163eb1.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-kumokiri-en-ad8e4c163eb1.jpg",
+    "bytes": 1292402,
+    "sha256": "ad8e4c163eb16224edc0f089ccd256ba56f2e9d280cc8be4a844b46ec7a853fa"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-kumokiri-ja-894a5683154a.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-kumokiri-ja-894a5683154a.jpg",
+    "bytes": 1292215,
+    "sha256": "894a5683154a7927cac0acc8e727e29cf9376d406e86081945f7d00eece955b2"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-kumokiri-ko-c7927c2ee5fc.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-kumokiri-ko-c7927c2ee5fc.jpg",
+    "bytes": 1280609,
+    "sha256": "c7927c2ee5fc5faa00f7cf67bccbad60c2b3ef10e7d0ab063ca42a146e11a879"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-kumokiri-zh-89113be89c14.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-kumokiri-zh-89113be89c14.jpg",
+    "bytes": 1290288,
+    "sha256": "89113be89c14d6487e508a27f373470ee3a157963fd979fff61d6591987aa7d7"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-moongazer-en-86b0d95ef945.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-moongazer-en-86b0d95ef945.jpg",
+    "bytes": 1371799,
+    "sha256": "86b0d95ef945f1b2aa96d455f47aef92f0a00dc23db6517c442a7497a35cfdac"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-moongazer-ja-7aa413540753.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-moongazer-ja-7aa413540753.jpg",
+    "bytes": 1380900,
+    "sha256": "7aa41354075323492c9a4cf3b84cf79a57231332f2c1b55bcb03788101a91733"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-moongazer-ko-7f1fe188d674.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-moongazer-ko-7f1fe188d674.jpg",
+    "bytes": 1356992,
+    "sha256": "7f1fe188d674d7fdade459b2e771f86855a6b12dc9f8bf0dd574baca9513a846"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-moongazer-zh-5e9ed60749ba.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-moongazer-zh-5e9ed60749ba.jpg",
+    "bytes": 1382609,
+    "sha256": "5e9ed60749ba8c08a48e7f284d4d0c60018b6280bb162d650e6cd3f4bb5c3942"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-crimson-moon-en-8d0ef63be57e.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-crimson-moon-en-8d0ef63be57e.jpg",
+    "bytes": 843381,
+    "sha256": "8d0ef63be57e4c6cfceda6e2599c52b6da4b1440f91c86ba287f1ebde4052833"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-crimson-moon-ja-a87e8f91440f.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-crimson-moon-ja-a87e8f91440f.jpg",
+    "bytes": 831687,
+    "sha256": "a87e8f91440f87e255f809b4822445a56e7f26c995410720168f46e2967de1e4"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-crimson-moon-ko-8ba4513da93a.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-crimson-moon-ko-8ba4513da93a.jpg",
+    "bytes": 815284,
+    "sha256": "8ba4513da93a7cd9e861b9121766b23da6dd58dbdafa9b6cade57742dab3ad17"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-crimson-moon-zh-70096a1eb899.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-crimson-moon-zh-70096a1eb899.jpg",
+    "bytes": 813008,
+    "sha256": "70096a1eb8999a56d583d15962385279df3736fac1c4b49bd7f8de541eb9da88"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-frostfall-en-79748826d502.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-frostfall-en-79748826d502.jpg",
+    "bytes": 639355,
+    "sha256": "79748826d502fad4533e9420a2a421e70991136c68fa1a4ca1fd1fcfae408dcc"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-frostfall-ja-c1f74708c3f7.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-frostfall-ja-c1f74708c3f7.jpg",
+    "bytes": 639311,
+    "sha256": "c1f74708c3f7c4dc2dd1466940f2b44064614e088207809b1fe2404296bd81dc"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-frostfall-ko-675c0a99a908.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-frostfall-ko-675c0a99a908.jpg",
+    "bytes": 643194,
+    "sha256": "675c0a99a90826163cb028d40893766b1a5b57f1eaa9259904a282536bf9eb40"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-frostfall-zh-0fded244238c.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-frostfall-zh-0fded244238c.jpg",
+    "bytes": 651130,
+    "sha256": "0fded244238c41be80618a336d77b09fd29d23e5d10bbcef7225172a656d0ce8"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-en-ffa004d5509c.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-en-ffa004d5509c.jpg",
+    "bytes": 577078,
+    "sha256": "ffa004d5509c25f4e4066240774653f9a7e7ef5445b1320177949d14ce5ad2b5"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-ja-58f9a9c91ee6.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-ja-58f9a9c91ee6.jpg",
+    "bytes": 581268,
+    "sha256": "58f9a9c91ee6e5c509e053093d360923fed685f08170d6c41a0e368fbed7637c"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-ko-b6438e4c59b3.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-ko-b6438e4c59b3.jpg",
+    "bytes": 565358,
+    "sha256": "b6438e4c59b3aa9e2221961267deb40146eae7a0c39d8cdd6c134a1ba6249e71"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-preview-281805ae3855.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-preview-281805ae3855.jpg",
+    "bytes": 324459,
+    "sha256": "281805ae3855cd3469d8e07424709abb9163a11081af2fbbd26698610a85f3bd"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-zh-4774c8ce56a8.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-zh-4774c8ce56a8.jpg",
+    "bytes": 578259,
+    "sha256": "4774c8ce56a8e7ea178c16462cc59e308df4d09619051dddb0992bcc11a720c1"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-en-593d3d548450.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-en-593d3d548450.jpg",
+    "bytes": 693547,
+    "sha256": "593d3d548450c6bde7080d8cb8cc660afc7ddb4f92b6d372b41ce2ee037fa805"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-ja-0cb6f6b45833.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-ja-0cb6f6b45833.jpg",
+    "bytes": 703063,
+    "sha256": "0cb6f6b4583363a9699c99ee63695c6376d8d79f51db8723ece94530b10cab96"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-ko-403993e1ff97.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-ko-403993e1ff97.jpg",
+    "bytes": 691169,
+    "sha256": "403993e1ff97758f055ea5011162f3d6a0d57058a7ea2b4cf0b08bc26b15cd42"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-preview-741a9eddaacb.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-preview-741a9eddaacb.jpg",
+    "bytes": 286968,
+    "sha256": "741a9eddaacb23858dfba5e25c8c2aab9f7b2a4934e931dfdafb2c769fd04d4a"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-zh-d340a79be375.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-zh-d340a79be375.jpg",
+    "bytes": 704662,
+    "sha256": "d340a79be375925408dff09a8ef947bcdaeafa6d065b416fc2bb118a4ae579f0"
+  },
+  {
+    "path": "public/assets/entities/nikke-belorta-235e2435.webp",
+    "url": "https://gagether.wiki/assets/entities/nikke-belorta-235e2435.webp",
+    "bytes": 92726,
+    "sha256": "4dca4e5262265ba45abe5795f8b9aa4b60bb6398f4b9c01b9bd63efdb0375703"
+  },
+  {
+    "path": "public/assets/entities/nte-blackbird-ko-full-3e4f6a25.jpg",
+    "url": "https://gagether.wiki/assets/entities/nte-blackbird-ko-full-3e4f6a25.jpg",
+    "bytes": 1880907,
+    "sha256": "3e4f6a2582989f60a6d6dabfe1291227c58c150412cf56c0d17e9c91744fb479"
+  },
+  {
+    "path": "public/assets/entities/nte-crime-punishment-ko-full-a30f85e1.jpg",
+    "url": "https://gagether.wiki/assets/entities/nte-crime-punishment-ko-full-a30f85e1.jpg",
+    "bytes": 1145756,
+    "sha256": "a30f85e16a8c55e00437dc83d763acf88b74e19ef5b99b3eb58c73e2d624abef"
+  },
+  {
+    "path": "public/assets/entities/nte-lacrimosa-ko-full-76fd214f.jpg",
+    "url": "https://gagether.wiki/assets/entities/nte-lacrimosa-ko-full-76fd214f.jpg",
+    "bytes": 709424,
+    "sha256": "76fd214fa6377a3605a74e9a516918ff03b0aabaf89d0fee081e4f2c132bf6e3"
+  },
+  {
+    "path": "public/assets/entities/nte-last-rose-ko-full-4986a9f5.jpg",
+    "url": "https://gagether.wiki/assets/entities/nte-last-rose-ko-full-4986a9f5.jpg",
+    "bytes": 544988,
+    "sha256": "4986a9f5a4aef60280ffbe763e74abc138e2bdc589e1a8696152e68285df693c"
+  },
+  {
+    "path": "public/assets/entities/pearl-splash-full-48839311.webp",
+    "url": "https://gagether.wiki/assets/entities/pearl-splash-full-48839311.webp",
+    "bytes": 703126,
+    "sha256": "626c9c3b1a9c1ab9947872f24e1e5f7c22c1316332ffc15d43952b5908e7886a"
+  },
+  {
+    "path": "public/assets/entities/promeia-pickup-full-ko-full-b6438e4c.webp",
+    "url": "https://gagether.wiki/assets/entities/promeia-pickup-full-ko-full-b6438e4c.webp",
+    "bytes": 305830,
+    "sha256": "284410c9b05da5d2e62e8dd50ca22c6332ae94ada8374aa144a6629b1baab7b0"
+  },
+  {
+    "path": "public/assets/entities/roxy-pickup-full-ko-full-403993e1.webp",
+    "url": "https://gagether.wiki/assets/entities/roxy-pickup-full-ko-full-403993e1.webp",
+    "bytes": 410340,
+    "sha256": "e4cbdf46b7dc0d8401e4d1012ec66f95f439994ee31e7c1c53462ba223886028"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30264.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30264.png",
+    "bytes": 4984058,
+    "sha256": "f59a50cad6f67ac412bc2a8f7f1ed446927427f3e760012888e10728ba5fa950"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30275.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30275.png",
+    "bytes": 2848380,
+    "sha256": "e9eb22e31d59ed6ec8f3e5dbc5a67cbc58451fce196a89414998cf914554e696"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30281.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30281.png",
+    "bytes": 3252709,
+    "sha256": "8610450b9518f5980c0a26e6ec33147c3954b3af5be9e5fd23aaf5fa7e2795f2"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30282.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30282.png",
+    "bytes": 3380107,
+    "sha256": "a35592922c3b77992594645be0bc8182f4215c2ae686162962b149bf51245337"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30286.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30286.png",
+    "bytes": 3376418,
+    "sha256": "d459b11a249719378a81a490bbd3cda54c3a79c877c588626c111bd58911ad25"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30289.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30289.png",
+    "bytes": 3195602,
+    "sha256": "9e87426ee72aaf427837f31e19ccca0c7939e3f61444c4fc91b264017305552e"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30298.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30298.png",
+    "bytes": 3482892,
+    "sha256": "fe5b129761c17d6884d54f7128654b3d79adb1f73c065a4ecb21f5540682018f"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30300.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30300.png",
+    "bytes": 3071950,
+    "sha256": "2333be06e669ad94825cd1286d3c468a1267f958364813643dc8c9c589761885"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30302.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30302.png",
+    "bytes": 3524987,
+    "sha256": "e7384edd8b068706f448e0c43490e983b1267c5476d66bf4928ad133204e1be0"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30305.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30305.png",
+    "bytes": 2552183,
+    "sha256": "1f5a492ea0a363f066c3fb767326d82b3603902384185d69c5cbb69e262fb56e"
+  },
+  {
+    "path": "public/assets/entities/skirk-8f6cf04f.webp",
+    "url": "https://gagether.wiki/assets/entities/skirk-8f6cf04f.webp",
+    "bytes": 414026,
+    "sha256": "7b6a844cea0a11561348efa530da6f010e01755c6856146b5e3c69f536c0f987"
+  },
+  {
+    "path": "public/assets/entities/symphonist-8f77b408.webp",
+    "url": "https://gagether.wiki/assets/entities/symphonist-8f77b408.webp",
+    "bytes": 34042,
+    "sha256": "2f13f95e427b81fb4175d4bb0ebfa3d9cda3ddb71813d40f28f242a345b3cd92"
+  },
+  {
+    "path": "public/assets/entities/uma-brian-global-pickup-full-466a7603.webp",
     "url": "https://gagether.wiki/assets/entities/uma-brian-global-pickup-full-466a7603.webp",
     "bytes": 51640,
     "sha256": "f0c85e5e571063a7a5091e805cf8f0a661f72c51a468bbbff738df9b2b3cf540"
@@ -1047,6 +1372,102 @@
     "url": "https://gagether.wiki/assets/nte-logo.png",
     "bytes": 35274,
     "sha256": "9c4f4aeb94024e16fda77ee5eaa0f7c14381611a79f02a5a7ff3717cd01f7407"
+  },
+  {
+    "path": "public/assets/regional/00aed8743ca3054d3199.png",
+    "url": "https://gagether.wiki/assets/regional/00aed8743ca3054d3199.png",
+    "bytes": 2461345,
+    "sha256": "00aed8743ca3054d319960f99d82c662821e3016d16211622bb73a8d30774910"
+  },
+  {
+    "path": "public/assets/regional/086b297b32fb254f351f.jpg",
+    "url": "https://gagether.wiki/assets/regional/086b297b32fb254f351f.jpg",
+    "bytes": 173450,
+    "sha256": "086b297b32fb254f351f3f9229b933d006239f8d3a5fa0e3fbd77a3f7b3525d7"
+  },
+  {
+    "path": "public/assets/regional/17f2a0ca688aa4d7aac0.png",
+    "url": "https://gagether.wiki/assets/regional/17f2a0ca688aa4d7aac0.png",
+    "bytes": 463967,
+    "sha256": "17f2a0ca688aa4d7aac015fddd37266ac6c2a26c5d23b89e45da79d5deba64f9"
+  },
+  {
+    "path": "public/assets/regional/1a409063b0993570db12.png",
+    "url": "https://gagether.wiki/assets/regional/1a409063b0993570db12.png",
+    "bytes": 5748482,
+    "sha256": "1a409063b0993570db1236f2e2ec1ebf3098a1ddc892b95cce0b280b42afb189"
+  },
+  {
+    "path": "public/assets/regional/3a7aa33056a6d3dc16dd.jpg",
+    "url": "https://gagether.wiki/assets/regional/3a7aa33056a6d3dc16dd.jpg",
+    "bytes": 127040,
+    "sha256": "3a7aa33056a6d3dc16dd49d1c973d21ccf88923b5c888c98b11e205756601f61"
+  },
+  {
+    "path": "public/assets/regional/489209bd4cacd3fd684a.png",
+    "url": "https://gagether.wiki/assets/regional/489209bd4cacd3fd684a.png",
+    "bytes": 422603,
+    "sha256": "489209bd4cacd3fd684a82459a84ea130314b68954f0bcb4cf90973e7e671dd3"
+  },
+  {
+    "path": "public/assets/regional/6c91505badf1f2cf89fb.png",
+    "url": "https://gagether.wiki/assets/regional/6c91505badf1f2cf89fb.png",
+    "bytes": 470814,
+    "sha256": "6c91505badf1f2cf89fb208d42273abcfbbdadff85202fd56c343938a13b4125"
+  },
+  {
+    "path": "public/assets/regional/86ce5bdd9dde6d9c5034.jpg",
+    "url": "https://gagether.wiki/assets/regional/86ce5bdd9dde6d9c5034.jpg",
+    "bytes": 444685,
+    "sha256": "86ce5bdd9dde6d9c503409660a1d3db47c9a87713cdef787c837750b71384883"
+  },
+  {
+    "path": "public/assets/regional/9c7c26f3ea2c685ffc94.png",
+    "url": "https://gagether.wiki/assets/regional/9c7c26f3ea2c685ffc94.png",
+    "bytes": 391963,
+    "sha256": "9c7c26f3ea2c685ffc9498c44a2e59012e50f9c020f5903cb51d908ca7471536"
+  },
+  {
+    "path": "public/assets/regional/a03a8fc30c86ae8d1549.jpg",
+    "url": "https://gagether.wiki/assets/regional/a03a8fc30c86ae8d1549.jpg",
+    "bytes": 147079,
+    "sha256": "a03a8fc30c86ae8d1549025af5590ae6a92af9ddc25a86317c9be21198f681d3"
+  },
+  {
+    "path": "public/assets/regional/bf80585b4f528dd8e834.png",
+    "url": "https://gagether.wiki/assets/regional/bf80585b4f528dd8e834.png",
+    "bytes": 1941101,
+    "sha256": "bf80585b4f528dd8e83458d8d9c629079ad73f4a0f7c2d7aa3b5c69ac6b09648"
+  },
+  {
+    "path": "public/assets/regional/cc0ee0557fcadd1e7bd3.png",
+    "url": "https://gagether.wiki/assets/regional/cc0ee0557fcadd1e7bd3.png",
+    "bytes": 464380,
+    "sha256": "cc0ee0557fcadd1e7bd3cd1cb6dd3647529c42a9f585ce1ff2cd0f26c1328833"
+  },
+  {
+    "path": "public/assets/regional/d2708311429414510b6b.jpg",
+    "url": "https://gagether.wiki/assets/regional/d2708311429414510b6b.jpg",
+    "bytes": 127033,
+    "sha256": "d2708311429414510b6b646a97877b159f5dc4d76711fa5648558938458be2b8"
+  },
+  {
+    "path": "public/assets/regional/ead0ace5f361b43516ec.jpg",
+    "url": "https://gagether.wiki/assets/regional/ead0ace5f361b43516ec.jpg",
+    "bytes": 157781,
+    "sha256": "ead0ace5f361b43516ec0160ef5a9d74b0134bfab9d2772a6865b4de1d750970"
+  },
+  {
+    "path": "public/assets/regional/f2123e0b1be5709b3c8f.jpg",
+    "url": "https://gagether.wiki/assets/regional/f2123e0b1be5709b3c8f.jpg",
+    "bytes": 229375,
+    "sha256": "f2123e0b1be5709b3c8f69424eee24c317f5b2d13d012d967a07411988f6be45"
+  },
+  {
+    "path": "public/assets/regional/fbcf2d1c22b020841bf0.png",
+    "url": "https://gagether.wiki/assets/regional/fbcf2d1c22b020841bf0.png",
+    "bytes": 1684975,
+    "sha256": "fbcf2d1c22b020841bf08a16e101a69f589d3986008d851531df7c3ef4a740b1"
   },
   {
     "path": "public/assets/rewards/primogem.png",

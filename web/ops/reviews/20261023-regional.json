@@ -1,0 +1,341 @@
+{
+  "date": "2026-10-23",
+  "operation": "reviewed regional pickup/artwork updates",
+  "entries": [
+    {
+      "id": "arknights-kr-standard-20261023",
+      "gameId": "arknights",
+      "region": "kr",
+      "sourceUrl": "https://x.com/ArknightsKorea/status/2113152238734696815",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": "2026-10-23T04:00:00+09:00",
+      "endAt": "2026-11-06T03:59:00+09:00",
+      "startDate": null,
+      "endDate": null,
+      "image": "/assets/regional/86ce5bdd9dde6d9c5034.jpg",
+      "localizedImages": {}
+    },
+    {
+      "id": "arknights-kr-kernel-locating-20261020",
+      "gameId": "arknights",
+      "region": "kr",
+      "sourceUrl": "https://x.com/ArknightsKorea/status/2112077877139460565",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": "2026-10-20T04:00:00+09:00",
+      "endAt": "2026-11-03T03:59:00+09:00",
+      "startDate": null,
+      "endDate": null,
+      "image": "/assets/regional/d2708311429414510b6b.jpg",
+      "localizedImages": {}
+    },
+    {
+      "id": "arknights-jp-standard-20261023",
+      "gameId": "arknights",
+      "region": "jp",
+      "sourceUrl": "https://x.com/ArknightsStaff/status/2113148413932163549",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-23",
+      "endDate": "2026-11-06",
+      "image": "/assets/regional/f2123e0b1be5709b3c8f.jpg",
+      "localizedImages": {}
+    },
+    {
+      "id": "arknights-cn-20261022-standard",
+      "gameId": "arknights",
+      "region": "cn",
+      "sourceUrl": "https://sina.cn/news/detail/5356487804978990.html",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-05",
+      "image": "/assets/regional/086b297b32fb254f351f.jpg",
+      "localizedImages": {}
+    },
+    {
+      "id": "arknights-sealed-jp",
+      "gameId": "arknights",
+      "region": "jp",
+      "sourceUrl": "https://arknights.jp/news/4805",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": "2026-10-14T16:00:00+09:00",
+      "endAt": "2026-10-28T03:59:00+09:00",
+      "startDate": null,
+      "endDate": null,
+      "image": "/assets/entities/native/arknights-7f16f169e5fa.png",
+      "localizedImages": {
+        "ja": "/assets/regional/fbcf2d1c22b020841bf0.png"
+      }
+    },
+    {
+      "id": "uma-jp-20261013-select-support",
+      "gameId": "umamusume",
+      "region": "jp",
+      "sourceUrl": "https://umamusume.jp/news/detail?id=3490",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": "2026-10-13T12:00:00+09:00",
+      "endAt": "2026-10-26T11:59:00+09:00",
+      "startDate": null,
+      "endDate": null,
+      "image": null,
+      "localizedImages": {
+        "ja": "/assets/regional/9c7c26f3ea2c685ffc94.png"
+      }
+    },
+    {
+      "id": "gfl2-cn-20261013-igla",
+      "gameId": "gfl2",
+      "region": "cn",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2189&typeId=4",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-03",
+      "image": "/assets/entities/cn/gfl2-igla-full.png",
+      "localizedImages": {
+        "zh": "/assets/regional/6c91505badf1f2cf89fb.png"
+      }
+    },
+    {
+      "id": "gfl2-cn-20261013-eagletta",
+      "gameId": "gfl2",
+      "region": "cn",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2188&typeId=4",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-03",
+      "image": "/assets/entities/cn/gfl2-eagletta-full.png",
+      "localizedImages": {
+        "zh": "/assets/regional/17f2a0ca688aa4d7aac0.png"
+      }
+    },
+    {
+      "id": "gfl2-cn-20261013-sextans",
+      "gameId": "gfl2",
+      "region": "cn",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2187&typeId=4",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-03",
+      "image": "/assets/entities/cn/gfl2-sextans-full.webp",
+      "localizedImages": {
+        "zh": "/assets/regional/cc0ee0557fcadd1e7bd3.png"
+      }
+    },
+    {
+      "id": "gfl2-cn-20261013-ots14",
+      "gameId": "gfl2",
+      "region": "cn",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2186&typeId=4",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-03",
+      "image": "/assets/entities/cn/gfl2-ots14-full.webp",
+      "localizedImages": {
+        "zh": "/assets/regional/489209bd4cacd3fd684a.png"
+      }
+    },
+    {
+      "id": "reverse1999-cn-40-lake-retelling-20261015",
+      "gameId": "reverse1999",
+      "region": "cn",
+      "sourceUrl": "https://www.taptap.cn/moment/847867884553112990",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-05",
+      "image": null,
+      "localizedImages": {
+        "zh": "/assets/regional/ead0ace5f361b43516ec.jpg"
+      }
+    },
+    {
+      "id": "reverse1999-cn-40-lake-ripples-20260924",
+      "gameId": "reverse1999",
+      "region": "cn",
+      "sourceUrl": "https://www.taptap.cn/moment/847867884553112990",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-09-24",
+      "endDate": "2026-11-05",
+      "image": null,
+      "localizedImages": {
+        "zh": "/assets/regional/3a7aa33056a6d3dc16dd.jpg"
+      }
+    },
+    {
+      "id": "stellasora-global-firstlight-noya-20261020",
+      "gameId": "stellasora",
+      "region": "global",
+      "sourceUrl": "https://game.naver.com/lounge/stellasora/board/detail/8340717",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": null,
+      "endAt": "2026-11-10T02:59:00Z",
+      "startDate": "2026-10-20",
+      "endDate": "2026-11-10",
+      "image": "https://nng-phinf.pstatic.net/MjAyNjEwMTVfMjk5/MDAxNzkyMDM1Nzc4Nzk1.HM3VDyRw1afUgFxHOWD8qiunjA1eSAYIGbpDBF5QiJQg.4f2aVtd0UMbmGmFUv_R-0a6vJRyTPSMByqFw56pCAJAg.JPEG/%E5%B0%98%E6%B2%99%E6%BA%90%E5%88%9D%E8%A7%92%E8%89%B2%E5%8D%A1%E6%B1%A0.jpg",
+      "localizedImages": {
+        "ko": "https://nng-phinf.pstatic.net/MjAyNjEwMTVfMjk5/MDAxNzkyMDM1Nzc4Nzk1.HM3VDyRw1afUgFxHOWD8qiunjA1eSAYIGbpDBF5QiJQg.4f2aVtd0UMbmGmFUv_R-0a6vJRyTPSMByqFw56pCAJAg.JPEG/%E5%B0%98%E6%B2%99%E6%BA%90%E5%88%9D%E8%A7%92%E8%89%B2%E5%8D%A1%E6%B1%A0.jpg",
+        "en": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/19/bkjGgSTV.png",
+        "ja": "/assets/regional/00aed8743ca3054d3199.png"
+      }
+    },
+    {
+      "id": "stellasora-global-firenze-rerun-20261006",
+      "gameId": "stellasora",
+      "region": "global",
+      "sourceUrl": "https://game.naver.com/lounge/stellasora/board/detail/8284591",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": "2026-10-06T04:00:00Z",
+      "endAt": "2026-10-27T02:59:00Z",
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-27",
+      "image": "https://nng-phinf.pstatic.net/MjAyNjA5MzBfNjUg/MDAxNzkwNzU2MDQ0NzQ5.okDhN7btwCGJYcBk2qpgvg6IuE2Va7pb4em1ujWaivwg.udfiL0kCaBR86MhRRoLuP-660B6mFQPiEm0hZ2YJHSkg.JPEG/%E8%A7%92%E8%89%B2%E5%8D%A1%E6%B1%A0-%E7%BF%A1%E5%86%B7%E7%BF%A0%E5%A4%8D%E5%88%BB.jpg",
+      "localizedImages": {
+        "ko": "https://nng-phinf.pstatic.net/MjAyNjA5MzBfNjUg/MDAxNzkwNzU2MDQ0NzQ5.okDhN7btwCGJYcBk2qpgvg6IuE2Va7pb4em1ujWaivwg.udfiL0kCaBR86MhRRoLuP-660B6mFQPiEm0hZ2YJHSkg.JPEG/%E8%A7%92%E8%89%B2%E5%8D%A1%E6%B1%A0-%E7%BF%A1%E5%86%B7%E7%BF%A0%E5%A4%8D%E5%88%BB.jpg",
+        "ja": "/assets/regional/bf80585b4f528dd8e834.png"
+      }
+    },
+    {
+      "id": "arknights-global-standard-20261023",
+      "gameId": "arknights",
+      "region": "global",
+      "sourceUrl": "https://www.facebook.com/ArknightsGlobal/posts/dear-doctorthe-following-operators-will-appear-at-a-higher-rate-between-october-/1565166285646405/",
+      "verifiedAt": "2026-10-22T22:53:21.120724+00:00",
+      "startAt": "2026-10-23T04:00:00-07:00",
+      "endAt": "2026-11-06T03:59:00-07:00",
+      "startDate": null,
+      "endDate": null,
+      "image": "/assets/regional/a03a8fc30c86ae8d1549.jpg",
+      "localizedImages": {}
+    }
+  ],
+  "collectionRun": {
+    "startedAt": "2026-10-22T22:55:21.121Z",
+    "finishedAt": "2026-10-22T22:58:12.603Z",
+    "outcome": "partial",
+    "successful": 189,
+    "failed": 23,
+    "noticesAdded": 62,
+    "validationIssues": []
+  },
+  "regionalChecks": [
+    {
+      "source": "umamusume/jp/ja/official",
+      "gameId": "umamusume",
+      "region": "jp",
+      "locale": "ja",
+      "url": "https://umamusume.jp/api/ajax/pr_info_index?format=json&announce_label=0&limit=12&offset=0",
+      "checkedAt": "2026-10-22T22:55:36.528Z",
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "arknights/cn/zh/official",
+      "gameId": "arknights",
+      "region": "cn",
+      "locale": "zh",
+      "url": "https://ak.hypergryph.com/api/news?category=LATEST&page=1",
+      "checkedAt": "2026-10-22T22:55:36.528Z",
+      "status": "ok",
+      "count": 6,
+      "added": 1
+    },
+    {
+      "source": "arknights/jp/ja/official",
+      "gameId": "arknights",
+      "region": "jp",
+      "locale": "ja",
+      "url": "https://arknights.jp/api/resource/news/list?index=1&size=12",
+      "checkedAt": "2026-10-22T22:55:36.528Z",
+      "status": "ok",
+      "count": 12,
+      "added": 8
+    },
+    {
+      "source": "bluearchive/jp/ja/official",
+      "gameId": "bluearchive",
+      "region": "jp",
+      "locale": "ja",
+      "url": "https://api-web.bluearchive.jp/api/news/list?typeId=0&pageNum=12&pageIndex=1",
+      "checkedAt": "2026-10-22T22:55:38.514Z",
+      "status": "ok",
+      "count": 12,
+      "added": 0
+    },
+    {
+      "source": "gfl2/cn/zh/official",
+      "gameId": "gfl2",
+      "region": "cn",
+      "locale": "zh",
+      "url": "https://gf2-web-preregister-api.sunborngame.com/website/news_list/4?page=1&limit=10",
+      "checkedAt": "2026-10-22T22:55:38.514Z",
+      "status": "ok",
+      "count": 10,
+      "added": 5
+    },
+    {
+      "source": "reverse1999/cn/zh/official",
+      "gameId": "reverse1999",
+      "region": "cn",
+      "locale": "zh",
+      "url": "https://re.bluepoch.com/activity/official/websites/information/query",
+      "checkedAt": "2026-10-22T22:55:38.514Z",
+      "status": "ok",
+      "count": 12,
+      "added": 11
+    },
+    {
+      "source": "hi3/kr/ja/official",
+      "gameId": "hi3",
+      "region": "kr",
+      "locale": "ja",
+      "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/9f099cd555854c14/getContentList?iChanId=555&iPageSize=12&iPage=1&sLangKey=ja-jp",
+      "checkedAt": "2026-10-22T22:55:40.746Z",
+      "status": "ok",
+      "count": 12,
+      "added": 12
+    },
+    {
+      "source": "trickcal/global/ja/official",
+      "gameId": "trickcal",
+      "region": "global",
+      "locale": "ja",
+      "url": "https://l11-web-api.biligames.com/game/news/page?game_base_id=113406&show_position=1&client_type=2&lang=ja&type=&page_num=1&page_size=12",
+      "checkedAt": "2026-10-22T22:55:40.746Z",
+      "status": "ok",
+      "count": 12,
+      "added": 12
+    },
+    {
+      "source": "stellasora/global/ja/official",
+      "gameId": "stellasora",
+      "region": "global",
+      "locale": "ja",
+      "url": "https://stellasora.jp/api/resource/news?index=1&size=12&type=",
+      "checkedAt": "2026-10-22T22:55:40.746Z",
+      "status": "ok",
+      "count": 12,
+      "added": 12
+    }
+  ],
+  "coverageRows": 37,
+  "pendingDocuments": 93,
+  "assetMigration": {
+    "verifiedAt": "2026-10-22T22:59:15Z",
+    "ready": 342,
+    "bytes": 280107404
+  },
+  "browserQA": "Managed preview reported running but cloud browser connection was refused; visual browser QA unverified. Component/service tests and authenticated production API readbacks passed."
+}

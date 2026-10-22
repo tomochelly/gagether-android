@@ -7,10 +7,10 @@ export function pruneGeneratedChunks(root='dist') {
  const files=[];
  function walk(dir){for(const e of readdirSync(dir,{withFileTypes:true})){const p=join(dir,e.name);if(e.isDirectory())walk(p);else files.push(p);}}
  walk(root);
- const generated=p=>p.includes('/_next/static/')&&/-[A-Za-z0-9_-]{8,}\.js$/.test(p);
- const js=files.filter(p=>/\.m?js$/.test(p)),byName=new Map();
+ const generated=p=>p.includes('/_next/static/')&&(/-[A-Za-z0-9_-]{8,}\.js$/.test(p)||/[.-][A-Za-z0-9_-]{8,}\.css$/.test(p));
+ const js=files.filter(p=>/\.(?:m?js|css)$/.test(p)),byName=new Map();
  for(const p of js){const name=basename(p);byName.set(name,[...(byName.get(name)||[]),p]);}
- const refs=p=>[...readFileSync(p,'utf8').matchAll(/[A-Za-z0-9_~.-]+\.m?js/g)].flatMap(m=>byName.get(m[0])||[]);
+ const refs=p=>[...readFileSync(p,'utf8').matchAll(/[A-Za-z0-9_~.-]+\.(?:m?js|css)/g)].flatMap(m=>byName.get(m[0])||[]);
  const pending=js.filter(p=>!generated(p));
  for(const p of files.filter(p=>p.endsWith('.json')&&!p.includes('/.vite/')))pending.push(...refs(p));
  const live=new Set();

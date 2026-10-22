@@ -2,7 +2,7 @@ import type {Entry,Locale,Region} from './types';
 import {localized,safeSource} from './types';
 import {expandedOfficialSources} from './expanded-notices';
 export type FastNotice={gameId:string;region:Region;id:string;title:string;url:string;locale:Locale;publishedAt:string|null};
-export type FastSource={key:string;gameId:string;url:string;load:(fetcher:typeof fetch)=>Promise<FastNotice[]>};
+export type FastSource={key:string;gameId:string;url:string;coverage?:'limited-homepage';load:(fetcher:typeof fetch)=>Promise<FastNotice[]>};
 // API titles are plain text: angle brackets can enclose an actual work title.
 export const noticeText=(s:string)=>s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#(x[0-9a-f]+|[0-9]+);/gi,(entity,n)=>{const point=Number.parseInt(n.replace(/^x/i,''),/^x/i.test(n)?16:10);return point>=0&&point<=0x10ffff?String.fromCodePoint(point):entity;}).replace(/\s+/g,' ').trim();
 export const textOnly=(s:string)=>noticeText(s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]*>/g,' '));
@@ -18,11 +18,17 @@ export function parseEndfield(s:string):FastNotice[]{
 }
 export function parseNte(s:string):FastNotice[]{return [...s.matchAll(/<a\b[^>]*href="(\/kr\/article\/news\/[^" ]+\/(\d+)\.html)"[^>]*>([\s\S]*?)<\/a>/g)].flatMap(m=>{const title=m[3].match(/<h2[^>]*>([\s\S]*?)<\/h2>/)?.[1];if(!title)return [];return [{gameId:'nte',region:'global' as Region,id:m[2],title:textOnly(title),url:'https://nte.perfectworld.com'+m[1],locale:'ko' as Locale,publishedAt:m[3].match(/\d{4}-\d\d-\d\d/)?.[0]||null}];});}
 export function parseSteam(s:string,region:Region,locale:Locale):FastNotice[]{return [...s.matchAll(/<item>([\s\S]*?)<\/item>/g)].flatMap(m=>{const field=(tag:string)=>noticeText(m[1].match(new RegExp('<'+tag+'[^>]*>([\\s\\S]*?)</'+tag+'>'))?.[1]||'');const url=field('link'),id=url.match(/announcements\/detail\/(\d+)/)?.[1];if(!id)return [];return [{gameId:'gfl2',region,locale,id,title:field('title'),url,publishedAt:iso(Date.parse(field('pubDate')))}];});}
+export function parseReverseHomepage(s:string):FastNotice[]{
+ const block=s.match(/class="news-right-con-list-left"[^>]*>\s*<a\b[^>]*>([\s\S]*?)<\/a>/i);
+ if(!block)return [];
+ return [{gameId:'reverse1999',region:'global',locale:'ko',id:'homepage-current',title:textOnly(block[1]),url:'https://reverse1999.haoplay.com/',publishedAt:null}];
+}
 const sources:FastSource[]=[];
 function add(gameId:string,key:string,url:string,parse:(s:string)=>FastNotice[]){sources.push({gameId,key,url,load:async f=>parse(await body(f,url))});}
 add('endfield','endfield/kr','https://endfield.gryphline.com/ko-kr/news',parseEndfield);
 add('nte','nte/kr','https://nte.perfectworld.com/kr/article/news/index.html',parseNte);
 add('gfl2','gfl2/kr','https://steamcommunity.com/games/3308670/rss/?l=koreana',s=>parseSteam(s,'kr','ko'));
+sources.push({gameId:'reverse1999',key:'reverse1999/kr/homepage-limited',url:'https://reverse1999.haoplay.com/',coverage:'limited-homepage',load:async f=>parseReverseHomepage(await body(f,'https://reverse1999.haoplay.com/'))});
 for(const board of [1018,1076]){
  const url=`https://forum.nexon.com/api/v1/board/${board}/threads?pageNo=1&paginationType=PAGING&pageSize=10&blockSize=5&hideType=WEB`;
  sources.push({gameId:'bluearchive',key:'bluearchive/kr/'+board,url,load:async f=>(await json(f,url)).threads.filter((n:any)=>n.user?.isAdmin&&!n.isDelete).map((n:any)=>({gameId:'bluearchive',region:'kr',locale:'ko',id:n.threadId,title:n.title,url:`https://forum.nexon.com/bluearchive/board_view?board=${board}&thread=${n.threadId}`,publishedAt:iso(Number(n.createDate)*1000)}))});

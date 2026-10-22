@@ -40,3 +40,5 @@ removeArtworkPartials('dist/client/assets');
 // Vite's build inventory is not read by the emitted worker or client bundles.
 for(const file of ['dist/client/.vite/manifest.json','dist/server/.vite/manifest.json'])if(existsSync(file))unlinkSync(file);
 pruneGeneratedChunks('dist');
+await import('./dedupe-static-assets.mjs');
+const {externalizeAssets}=await import('./externalize-assets.mjs');externalizeAssets('dist');

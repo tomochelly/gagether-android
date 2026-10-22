@@ -6,7 +6,7 @@ export async function healthTable(){}
 export async function recordHealth(result:any){
  await healthTable();const row=await env.DB!.prepare("SELECT payload FROM operations_health WHERE key='refresh'").first<{payload:string}>();const old=row?JSON.parse(row.payload):{};
  const bad=['failed','validation-failed'].includes(result.outcome)||!result.ok;
- const checks=[...result.koreanChecks||[],...result.feeds||[],...result.channelChecks||[],...result.broadcastChecks||[]];const sources={...old.sources};
+ const checks=[...result.koreanChecks||[],...result.feeds||[],...result.regionalChecks||[],...result.channelChecks||[],...result.broadcastChecks||[]];const sources={...old.sources};
  for(const c of checks){const key=c.source||c.gameId||c.url,previous=sources[key]||{};sources[key]={...c,lastSuccess:c.status==='ok'?c.checkedAt:previous.lastSuccess,consecutiveFailures:c.status==='ok'?0:(previous.consecutiveFailures||0)+1};}
  const value={...old,lastAttempt:result.finishedAt||new Date().toISOString(),lastSuccess:result.ok?result.finishedAt:old.lastSuccess,lastComplete:result.outcome==='complete'?result.finishedAt:old.lastComplete,consecutiveFailures:bad?(old.consecutiveFailures||0)+1:0,outcome:result.outcome||'failed',sources};
  await env.DB!.prepare("INSERT INTO operations_health(key,payload) VALUES('refresh',?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload").bind(JSON.stringify(value)).run();return value;

@@ -62,7 +62,11 @@ export function textOnlyEntry(entry:Entry,locale:Locale,mode:'preview'|'full'='p
 
 /** An original may be registered in several locale slots; display it only once. */
 export function detailArtworkForLocale(entry:Entry,locale:Locale){
- const primary=artworkForLocale(entry,locale,'full').image;
+ const members=entry.selectionCount?entry.pickupMembers:entry.pickupMembers?.filter(m=>m.role!=='rate-up'&&m.role!=='candidate');
+ const memberPanels=(entry.kind==='pickup'||entry.kind==='weapon')&&(members?.length||0)>1&&members?.some(m=>m.image&&m.imageVerified);
+ // A multi-member illustration area renders the members, not the pool poster.
+ // The exact pool poster must still be available in the full detail gallery.
+ const primary=memberPanels?undefined:artworkForLocale(entry,locale,'full').image;
  const seen=new Set(primary?[primary]:[]);
  return (entry.detailImages||[]).filter(art=>{
   const selected=artworkForLocale(art,locale,'full',serviceArtworkLocale(entry.region,entry.gameId));

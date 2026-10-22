@@ -9,6 +9,7 @@ import {games} from './games';
 import {readOfficialChannels} from './official-social-store';
 import {retryFetch} from './retry-fetch';
 import {refreshHealth,recordHealth,readbackIssues} from './service-health';
+import {collectRegionalNotices,collectPendingDocuments} from './official-collection';
 const interval=10*60*1000;
 async function html(url:string){
  for(let hop=0;hop<4;hop++){
@@ -27,7 +28,7 @@ async function html(url:string){
  throw Error('Too many channel redirects');
 }
 async function pool<T,R>(items:T[],fn:(x:T)=>Promise<R>,n=3){const out:R[]=[];let i=0;await Promise.all(Array.from({length:Math.min(n,items.length)},async()=>{while(i<items.length){const index=i++;out[index]=await fn(items[index]);}}));return out;}
-const normalize=(u:string)=>{try{const x=new URL(u);x.protocol='https:';x.hostname=x.hostname.replace(/^www\./,'');x.hash='';x.searchParams.sort();return x.href.replace(/\/$/,'');}catch{return u;}};
+const normalize=(u:string)=>{try{const x=new URL(u);x.protocol='https:';x.hostname=x.hostname.replace(/^www\./,'');if(!(x.hostname==='re.bluepoch.com'&&x.pathname==='/home/detail.html'&&/^#newsId\?\d+$/.test(x.hash)))x.hash='';x.searchParams.sort();return x.href.replace(/\/$/,'');}catch{return u;}};
 export async function runFastRefresh(){
  const db=env.DB;if(!db)throw Error('Persistent storage unavailable');
  const now=Date.now(),startedAt=new Date(now).toISOString();
@@ -52,7 +53,7 @@ export async function runFastRefresh(){
      }
      const entry=noticeEntry(n,at);known.add(url);noticed.push(entry);added++;
     }
-    return {source:source.key,url:source.url,checkedAt:at,status:'ok',count:rows.length,added};
+    return {source:source.key,url:source.url,checkedAt:at,status:source.coverage?'limited':'ok',count:rows.length,added,...(source.coverage?{coverage:source.coverage,error:'Only homepage headlines are readable; full official notice feed requires separate review'}:{})};
    }catch(e){return {source:source.key,url:source.url,checkedAt:at,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   });
   // First persist minimal notices. No pickup dates, prices, images or summaries are inferred.
@@ -60,6 +61,7 @@ export async function runFastRefresh(){
   const noticeReadback=await readData({automatic:true});
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');
   const feeds=await refreshFeeds();
+  const regional=await collectRegionalNotices();
   const current=await readData({automatic:true});
   const channels=new Map<string,{gameId:string;locale:Locale;region:Region}>();
   for(const e of current.entries)for(const v of e.videos||[])if(v.official)for(const u of v.evidenceUrls||[])if(/^https:\/\/www\.youtube\.com\/(?:@[^/?]+|channel\/[\w-]+)$/.test(u))channels.set(u,{gameId:e.gameId,locale:v.locale,region:effectiveRegion(games.find(g=>g.id===e.gameId)!,e.region)});
@@ -108,8 +110,9 @@ export async function runFastRefresh(){
   const [automatic,effective]=await Promise.all([readData({automatic:true}),readData()]);
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
-  const health=refreshHealth([...koreanChecks,...feeds,...channelChecks,...broadcastChecks],!validationIssues.length);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticed.length,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,channelChecks,broadcastChecks,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'hourly',intervalMinutes:10};
+  const collection=await collectPendingDocuments();
+  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks],!validationIssues.length);
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticed.length+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'persisted-review-queue',intervalMinutes:10};
   await recordHealth(result);await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(result.finishedAt,JSON.stringify(result),startedAt).run();return result;
  }catch(e){const failed={ok:false,outcome:'failed',finishedAt:new Date().toISOString(),error:e instanceof Error?e.message:'Refresh failed'};await recordHealth(failed).catch(()=>{});await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(failed.finishedAt,JSON.stringify(failed),startedAt).run();throw e;}
 }

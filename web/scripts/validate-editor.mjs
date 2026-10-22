@@ -10,7 +10,7 @@ const sql=new DatabaseSync(':memory:');
 for(const file of fs.readdirSync('drizzle').filter(f=>f.endsWith('.sql')).sort())sql.exec(fs.readFileSync('drizzle/'+file,'utf8'));
 function prepare(query){let args=[];const statement=sql.prepare(query);return {bind(...values){args=values;return this;},async first(){return statement.get(...args)||null;},async all(){return {results:statement.all(...args)};},async run(){const before=Number(sql.prepare('SELECT total_changes() AS n').get().n);statement.run(...args);return {meta:{changes:Number(sql.prepare('SELECT total_changes() AS n').get().n)-before}};}};}
 const media=new Map();
-globalThis.__patchworkTest={identity:null,env:{PATCHWORK_EDITOR_EMAILS:'owner@example.test',DB:{prepare,async batch(queries){return Promise.all(queries.map(q=>q.run()));}},BUCKET:{async put(key,body,options){media.set(key,{body,options});},async get(key){const value=media.get(key);return value?{body:value.body,httpEtag:'"fixture"',writeHttpMetadata(headers){headers.set('Content-Type',value.options.httpMetadata.contentType);}}:null;}}}};
+globalThis.__patchworkTest={identity:null,env:{PATCHWORK_EDITOR_EMAILS:'owner@example.test',DB:{prepare,async batch(queries){return Promise.all(queries.map(q=>q.run()));}},BUCKET:{async put(key,body,options){media.set(key,{body,options});},async head(key){const v=media.get(key);return v?{size:v.body.byteLength,customMetadata:v.options.customMetadata}:null;},async get(key){const value=media.get(key);return value?{body:value.body,size:value.body.byteLength,customMetadata:value.options.customMetadata,httpEtag:'"fixture"',writeHttpMetadata(headers){headers.set('Content-Type',value.options.httpMetadata.contentType);}}:null;}}}};
 const dataUrl=code=>'data:text/javascript;base64,'+Buffer.from(code).toString('base64');
 const modules=new Map();
 function loadUrl(file){
@@ -79,6 +79,43 @@ const badForm=new FormData();badForm.append('image',new File(['<svg/>'],'bad.png
 const bytes=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a5WQAAAAASUVORK5CYII=','base64');const form=new FormData();form.append('image',new File([bytes],'fixture.png',{type:'image/png'}));
 response=await upload.POST(new Request(origin+'/api/editor/upload',{method:'POST',headers:{Origin:origin},body:form}));assert.equal(response.status,200);const uploaded=await response.json();assert.ok(safeImage(uploaded.url));
 response=await image.GET(new Request(origin+uploaded.url),{params:Promise.resolve({file:uploaded.url.split('/').at(-1)})});assert.equal(response.status,200);assert.equal(response.headers.get('Content-Type'),'image/png');assert.equal(response.headers.get('X-Content-Type-Options'),'nosniff');assert.deepEqual(Buffer.from(await response.arrayBuffer()),bytes);
+
+// Exact catalog asset migration is isolated from private editor media.
+const assetStore=await mod('app/api/asset-storage/route.ts'),assetRead=await mod('app/assets/[...file]/route.ts');
+const {catalogAssets}=await mod('lib/catalog-assets.ts');const a=catalogAssets[0],assetBytes=fs.readFileSync('public/'+a.path);
+const assetRequest=(path,body,originHeader=origin)=>new Request(origin+'/api/asset-storage?path='+encodeURIComponent(path),{method:'POST',headers:{Origin:originHeader},body});
+globalThis.__patchworkTest.identity=null;assert.equal((await assetStore.POST(assetRequest(a.path,assetBytes))).status,403);
+globalThis.__patchworkTest.identity={userId:'owner-fixture',email:'owner@example.test'};
+assert.equal((await assetStore.POST(assetRequest(a.path,assetBytes,'https://other.example.test'))).status,403);
+assert.equal((await assetStore.POST(assetRequest('assets/../../editor/private.png',assetBytes))).status,400);
+assert.equal((await assetStore.POST(assetRequest(a.path,new Uint8Array([1,2])))).status,400);
+assert.equal((await assetStore.POST(assetRequest(a.path,assetBytes))).status,200);
+const assetParams={params:Promise.resolve({file:a.path.replace(/^assets\//,'').split('/')})};
+response=await assetRead.GET(new Request(origin+'/'+a.path),assetParams);assert.equal(response.status,200);assert.deepEqual(Buffer.from(await response.arrayBuffer()),assetBytes);
+response=await assetRead.GET(new Request(origin+'/'+a.path,{headers:{'If-None-Match':'"'+a.sha256+'"'}}),assetParams);assert.equal(response.status,304);
+assert.equal((await assetStore.GET(new Request(origin+'/api/asset-storage?offset=-1'))).status,400);
+assert.equal((await (await assetStore.GET(new Request(origin+'/api/asset-storage'))).json()).assets[0].ready,true);
+console.log(JSON.stringify({catalogAssetOriginalHash:true,unchangedURLs:true,privateMediaIsolation:true}));
+
+// Persisted collection review cannot publish a title as completed detail or acknowledge stale evidence.
+const {captureDocument,reviewQueue}=await mod('lib/collection-store.ts');const reviewRoute=await mod('app/api/collection/route.ts');
+const notice={id:'fixture',gameId:fixture.gameId,region:fixture.region,locale:'ko',url:fixture.sourceUrl,title:'공식 픽업 본문',publishedAt:null};
+const html='<p>'+('공식 안내 본문과 참여 조건. '.repeat(25))+'</p><img src="https://publisher.example.test/exact.png">';
+const doc=await captureDocument(notice,html,'2026-10-23T00:00:00Z');assert.equal(doc.status,'pending');assert.equal(doc.sourceAccess,'body');
+globalThis.__patchworkTest.identity=null;assert.equal((await reviewRoute.GET(new Request(origin+'/api/collection'))).status,403);
+globalThis.__patchworkTest.identity={userId:'owner-fixture',email:'owner@example.test'};
+const receipt={action:'reviewed',id:doc.id,bodyHash:doc.bodyHash,entryIds:[fixture.id]};
+assert.equal((await reviewRoute.POST(request({...receipt,bodyHash:'0'.repeat(64)}))).status,409);
+assert.equal((await reviewRoute.POST(request({...receipt,entryIds:['missing-entry']}))).status,400);
+assert.equal((await reviewRoute.POST(request(receipt))).status,200);
+const reviewed=(await reviewQueue()).find(d=>d.id===doc.id),beforeStamp=reviewed.verifiedAt;
+assert.equal((await (await reviewRoute.POST(request(receipt))).json()).unchanged,true);
+await captureDocument(notice,html,'2026-10-24T00:00:00Z');assert.equal((await reviewQueue()).find(d=>d.id===doc.id).verifiedAt,beforeStamp);
+await captureDocument(notice,html+'<p>Changed official condition</p>','2026-10-25T00:00:00Z');assert.equal((await reviewQueue()).find(d=>d.id===doc.id).status,'pending');
+assert.equal((await reviewRoute.POST(request(receipt))).status,409);
+await captureDocument(notice,undefined,'2026-10-26T00:00:00Z','HTTP 403');const failedDoc=(await reviewQueue()).find(d=>d.id===doc.id);assert.equal(failedDoc.sourceAccess,'blocked');assert.equal(failedDoc.images.length,1);assert.equal(failedDoc.verifiedAt,beforeStamp);
+assert.equal((await reviewRoute.POST(request({...receipt,bodyHash:failedDoc.bodyHash}))).status,400);
+console.log(JSON.stringify({reviewQueuePersists:true,staleEvidenceRejected:true,originalAccessSeparate:true,unchangedVerificationPreserved:true}));
 
 const now=Date.parse('2026-10-16T12:00:00Z');const wuwa=spotlightSlides(seedEntries,now,'wuwa');assert.equal(wuwa.length,3);assert.deepEqual(new Set(wuwa.map(s=>s.entry.id)),new Set(['wuwa-hsin','wuwa-chisa','wuwa-iuno']));assert.ok(wuwa.every(s=>s.art.imageKind==='splash'));
 assert.equal(spotlightSlides(seedEntries,now,'zzz').length,2);

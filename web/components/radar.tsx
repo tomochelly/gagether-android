@@ -46,6 +46,7 @@ import ArtworkDisclosure from './artwork-disclosure';
 import {personalUi} from '@/lib/personal-ui';
 import EntityDetails from './entity-details';
 import ArtworkMedia from './artwork-media';
+import {pickupHasArtwork,pickupArtwork} from '@/lib/pickup-artwork';
 import SourceFooter from './source-footer';
 import VideoLibrary,{EntryVideos} from './video-library';
 import {calendarUi} from '@/lib/google-calendar';
@@ -281,7 +282,7 @@ function EntryFeed({entries,locale,now,saved,onSave,onOpen}:{entries:Entry[];loc
  return <div className="content-feed">{(['event','package','update','pickup','weapon'] as const).map(kind=>{
   const group=entries.filter(e=>e.kind===kind);if(!group.length)return null;
   const runs:{textOnly:boolean;entries:Entry[]}[]=[];
-  for(const entry of group){const textOnly=!!entry.pickupArchive||textOnlyEntry(entry,locale),last=runs.at(-1);if(last?.textOnly===textOnly)last.entries.push(entry);else runs.push({textOnly,entries:[entry]});}
+  for(const entry of group){const textOnly=!!entry.pickupArchive&&!pickupHasArtwork(entry,locale)||textOnlyEntry(entry,locale),last=runs.at(-1);if(last?.textOnly===textOnly)last.entries.push(entry);else runs.push({textOnly,entries:[entry]});}
   return <section className="content-kind-section" key={kind} aria-label={t[kind]}><h3 className="content-kind-heading">{t[kind]}<small>{group.length}</small></h3>{runs.map(run=><div key={run.entries[0].id} className={run.textOnly?'entry-list':'entry-grid'}>{run.entries.map(e=><EntryCard key={e.id} entry={e} locale={locale} now={now} saved={saved.includes(e.id)} onSave={()=>onSave(e.id)} onOpen={()=>onOpen(e)}/>)}</div>)}</section>;
  })}</div>;
 }
@@ -289,7 +290,7 @@ function EntryCard({entry:e,locale,now,saved,onSave,onOpen,weaponLinks=[],onOpen
  const zone=useDisplayZone();const dateFormat=(date:string,l:Locale,withTime=false)=>formatInZone(date,l,withTime,zone);
  const {t,byId,editMode,openEditor,simpleMode}=useCatalog();const game=byId[e.gameId];const state=e.pickupArchive?(pickupPeriod(e,now)==='past'?'ended':pickupPeriod(e,now)==='current'?'active':pickupPeriod(e,now)==='upcoming'?'upcoming':'notice'):entryState(e,now);const Icon=kindIcons[e.kind];
  const [failedImage,setFailedImage]=useState('');const image=artworkForLocale(e,locale,'preview',serviceArtworkLocale(e.region,e.gameId)).image;
- const listItem=!!e.pickupArchive||textOnlyEntry(e,locale)||((e.kind==='event'||e.kind==='package'||e.kind==='update')&&!!image&&failedImage===image);
+ const listItem=!!e.pickupArchive&&!pickupHasArtwork(e,locale)||textOnlyEntry(e,locale)||((e.kind==='event'||e.kind==='package'||e.kind==='update')&&!!image&&failedImage===image);
  const status=<span className={'entry-state '+state}><i/>{state==='active'?t.now:state==='upcoming'?t.upcoming:state==='ended'?t.ended:t.notice}</span>;
  if(simpleMode){
   const art=artworkForLocale(e,locale,'preview',serviceArtworkLocale(e.region,e.gameId));
@@ -325,7 +326,7 @@ function CardCommunity({entry,locale,onOpen}:{entry:Entry;locale:Locale;onOpen:(
 function DetailArtwork({entry,locale}:{entry:Entry;locale:Locale}){
  const {editMode,openEditor}=useCatalog();const edit=()=>openEditor({...editEntryTarget(entry),focus:entry.pickupMembers?.some(m=>m.image)?'members':'image'});
  const [failed,setFailed]=useState(false);const canOmit=entry.kind==='event'||entry.kind==='package'||entry.kind==='update';
- if(textOnlyEntry(entry,locale,'full')||canOmit&&failed||entry.pickupArchive&&!matchedArtwork(entry))return null;
+ if(textOnlyEntry(entry,locale,'full')||canOmit&&failed||entry.pickupArchive&&!pickupHasArtwork(entry,locale))return null;
  return <div className="dialog-image" role={editMode?"button":undefined} tabIndex={editMode?0:undefined} aria-label={editMode?ownerUi[locale].editImage:undefined} onClick={()=>{if(editMode)edit();}} onKeyDown={e=>{if(editMode&&(e.key==='Enter'||e.key===' ')){e.preventDefault();edit();}}}><EntryArtwork entry={entry} locale={locale} variant="detail" onUnavailable={()=>setFailed(true)}/></div>;
 }
 function TimelineRow({entry:e,locale,now,onClick}:{entry:Entry;locale:Locale;now:number;onClick:()=>void}){
@@ -347,6 +348,9 @@ export function PickupSection({group:g,locale,now,saved,onSave,onOpen,weaponEntr
 export function EntryArtwork({entry:e,locale,variant='card',onUnavailable}:{entry:Entry;locale:Locale;variant?:'card'|'detail'|'hero';onUnavailable?:()=>void}){
  const {t,byId,games,editMode,openEditor}=useCatalog();const entity=e.kind==='pickup'||e.kind==='weapon';const displayMembers=variant==='detail'||e.selectionCount?e.pickupMembers:featuredMembers(e);const members=displayMembers?.filter(m=>m.image&&m.imageVerified)||[];
  if(entity&&!editedEntryArtwork(e)&&(displayMembers?.length||0)>1&&members.length>0)return <span className={'entity-artwork art-'+variant+' member-artwork'+(e.selectionCount?' selection-artwork':'')}>{displayMembers?.map((m,i)=><span className="member-art-panel" key={i}>{m.image&&m.imageVerified?<ArtworkMedia locale={locale} serviceLocale={serviceArtworkLocale(e.region,e.gameId)} art={m} alt={m.name[locale]} mode={variant==='detail'?'full':'preview'}/>:<span className="art-pending"><ImageOff size={21}/><span>{t.imagePending}</span></span>}<small>{m.name[locale]}</small></span>)}</span>;
+ if(entity&&(!e.image||!artworkForLocale(e,locale,variant==='detail'?'full':'preview',serviceArtworkLocale(e.region,e.gameId)).imageVerified)){
+  const images=pickupArtwork(e,locale,variant==='detail'?'full':'preview');if(images.length===1)return <span className={'entity-artwork art-'+variant+' matched-art'}><ArtworkMedia locale={locale} serviceLocale={serviceArtworkLocale(e.region,e.gameId)} art={images[0].art} alt={entryTitle(e,locale)} onUnavailable={onUnavailable} mode={variant==='detail'?'full':'preview'}/></span>;
+ }
  if((e.versionHero&&!artworkForLocale(e,locale,'full',serviceArtworkLocale(e.region,e.gameId)).imageVerified)||(entity&&!matchedArtwork(e))||!e.image)return <span className={'entity-artwork art-'+variant+' art-pending'}><ImageOff size={28}/><span>{t.imagePending}</span></span>;
  return <span className={'entity-artwork art-'+variant+(entity?' matched-art':'')+(e.imageKind==='splash'?' full-splash':'')+(e.imageSource?.includes('/portrait/trainee/256/')?' portrait-art':'')}><ArtworkMedia locale={locale} serviceLocale={serviceArtworkLocale(e.region,e.gameId)} art={e} alt={entryTitle(e,locale)} onUnavailable={onUnavailable} fitPreview={entity?'focus':'contain'} mode={variant==='detail'?'full':'preview'}/></span>;
 }

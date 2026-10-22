@@ -32,3 +32,5 @@
 @media(prefers-reduced-motion:reduce){.history-row{transition:none}}
 
 .history-row.past .history-description>strong{text-decoration:line-through;text-decoration-color:#94a58a70;text-decoration-thickness:1px}
+
+.pickup-portraits{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}.pickup-portrait{display:flex;flex-direction:column;width:112px;min-width:0}.pickup-portrait>.art-media{height:112px;width:112px;position:relative;background:color-mix(in srgb,var(--accent) 7%,transparent);overflow:hidden}.pickup-portrait>small{font-size:.625rem;line-height:1.4;margin-top:5px;text-decoration:none;overflow-wrap:anywhere}.pickup-portrait .art-language{font-size:.5rem;max-width:100%;white-space:normal}.history-row.past .pickup-portrait{opacity:.82}@media(max-width:520px){.pickup-portraits{margin-top:10px}.pickup-portrait,.pickup-portrait>.art-media{width:92px}.pickup-portrait>.art-media{height:100px}}

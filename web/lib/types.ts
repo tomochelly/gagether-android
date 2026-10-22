@@ -64,6 +64,7 @@ export interface Entry extends EntityArtwork {
 }
 export function safeReference(url:string,gameId:string,kind:SourceKind):boolean{
  if(reviewedRecurringSource(url,gameId,kind))return true;
+ if(kind==='community'&&gameId==='arknights'&&['https://theqoo.net/game/4383295279','https://theqoo.net/game/4380417668','https://gameludens.com/arknights/8911/','https://www.taptap.cn/moment/861997162374891420'].includes(url))return true;
  if(kind==='official')return safeSource(url,gameId);
  try{const u=new URL(url);if(u.protocol!=='https:'||u.username||u.password)return false;const host=u.hostname;
   if(kind==='video')return (host==='youtu.be'&&/^\/[\w-]{11}$/.test(u.pathname))||(['www.youtube.com','youtube.com','m.youtube.com'].includes(host)&&(u.pathname==='/watch'&&/^[\w-]{11}$/.test(u.searchParams.get('v')||'')||/^\/(shorts|live)\/[\w-]{11}$/.test(u.pathname)));
@@ -125,6 +126,8 @@ export function liveContent(e:Entry,now:number){
  return !e.pickupArchive||e.pickupArchive.status!=='forecast'&&entryState(e,now)==='active';
 }
 export function safeSource(url:string,gameId:string):boolean{
+ // This exact syndicated post exposes the verified publisher identity; no general Sina allowlist.
+ if(gameId==='arknights'&&url==='https://sina.cn/news/detail/5356487804978990.html')return true;
  if(reviewedRecurringSource(url,gameId,'official'))return true;
  if(isReviewedCollaborationSource(url,gameId))return true;
  const hosts:Record<string,string[]>={trickcal:["trickcal.com","trickcal.biligames.com"],hi3:["honkaiimpact3.hoyoverse.com","www.houkai3rd.com","www.hoyolab.com"],reverse1999:["reverse1999.haoplay.com","re1999.bluepoch.com","re.bluepoch.com"],stellasora:["stellasora.kr","stellasora.jp","stellasora.global"],wuwa:["wutheringwaves.kurogames.com","wuwaguide.kurogames.com"],bluearchive:["bluearchive.nexon.com","bluearchive.jp","forum.nexon.com","bluearchive.nexon.co.jp"],nikke:["nikke-en.com","nikke-kr.com","nikke-jp.com","nikke.hotcool.tw","nikke-global.com"],endfield:["endfield.gryphline.com","endfield.hypergryph.com"],umamusume:["umamusume.com","umamusume.jp","umamusume.kakaogames.com","bbs.kakaogames.com","pf.kakao.com"],nte:["nte.perfectworld.com","nte.perfectworldgames.com"],gfl2:["gf2.haoplay.com","gf2exilium.sunborngame.com","gf2.sunborngame.com"],arknights:["arknights.global","arknights.jp","arknights.kr","ak.hypergryph.com"],genshin:["genshin.hoyoverse.com","www.hoyolab.com","ys.mihoyo.com"],hsr:["hsr.hoyoverse.com","www.hoyoverse.com","www.hoyolab.com","sr.mihoyo.com"],zzz:["zenless.hoyoverse.com","www.hoyoverse.com","www.hoyolab.com","zzz.mihoyo.com"]};
