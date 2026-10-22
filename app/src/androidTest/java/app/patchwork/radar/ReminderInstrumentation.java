@@ -1,0 +1,28 @@
+package app.patchwork.radar;
+import android.app.*;import android.content.*;import android.content.res.Configuration;import android.os.*;import android.service.notification.StatusBarNotification;import org.json.*;import java.time.*;import java.util.*;
+/** Runs only in the separate test APK on an empty CI emulator. No receiver is exported by the release. */
+public final class ReminderInstrumentation extends Instrumentation {
+ private Bundle args;private final List<String> checks=new ArrayList<>();
+ @Override public void onCreate(Bundle arguments){super.onCreate(arguments);args=arguments;start();}
+ private void check(boolean ok,String name){if(!ok)throw new AssertionError(name);checks.add(name);}
+ private Context language(Context c,String tag){Configuration x=new Configuration(c.getResources().getConfiguration());x.setLocales(LocaleList.forLanguageTags(tag));return c.createConfigurationContext(x);}
+ private JSONObject entry(String id,long end)throws Exception{return new JSONObject().put("id",id).put("gameId","arknights").put("region","kr").put("kind","pickup").put("title",new JSONObject().put("ko","검수 테스트").put("en","Runtime test").put("ja","通知テスト").put("zh","通知测试")).put("startAt",Instant.ofEpochMilli(System.currentTimeMillis()-60000).toString()).put("endAt",Instant.ofEpochMilli(end).toString());}
+ private JSONObject feed(JSONObject e)throws Exception{return new JSONObject().put("schemaVersion",1).put("games",new JSONArray().put(new JSONObject().put("id","arknights").put("name",new JSONObject().put("en","Arknights").put("ja","アークナイツ")).put("canonicalRegions",new JSONObject().put("kr","kr")))).put("entries",new JSONArray().put(e));}
+ private boolean has(NotificationManager m,int id){for(StatusBarNotification n:m.getActiveNotifications())if(n.getId()==id)return true;return false;}
+ private void await(NotificationManager m,int id)throws Exception{long until=System.currentTimeMillis()+90000;while(System.currentTimeMillis()<until&&!has(m,id))Thread.sleep(100);check(has(m,id),"AlarmManager receiver posted visible notification");}
+ @Override public void onStart(){Bundle out=new Bundle();try{Context c=getTargetContext();AppStore.store(c).edit().clear().commit();NotificationManager manager=c.getSystemService(NotificationManager.class);manager.cancelAll();
+  JSONObject base=AppStore.defaults(c).put("region","kr").put("enabled",true).put("games",new JSONArray().put("arknights")).put("kinds",new JSONArray().put("pickup")).put("quietEnabled",false).put("offsets",new JSONArray().put(0));
+  if("denied".equals(args.getString("phase"))){AppStore.setPrefs(c,base);AppStore.saveFeed(c,feed(entry("runtime-denied",System.currentTimeMillis()+5000)));ReminderScheduler.schedule(c);check(!ReminderScheduler.allowed(c),"Denied notification permission detected");check(!ReminderScheduler.show(c,"test","test","denied"),"Denied notifications are not marked posted");check(AppStore.store(c).getInt("scheduledCount",-1)==0,"Denied permission arms no notifications");}
+  else{
+   check(ReminderScheduler.allowed(c),"Granted notification permission detected");
+   for(String[] pair:new String[][]{{"ko-KR","ko"},{"en-US","en"},{"ja-JP","ja"},{"zh-Hant-TW","zh"}}){Context l=language(c,pair[0]);AppStore.setPrefs(l,new JSONObject(base.toString()).put("localeMode","system"));check(AppStore.locale(l).equals(pair[1]),"Android configuration language "+pair[0]);check(AppStore.prefs(l).getString("region").equals("kr"),"Language preserves actual service "+pair[0]);}
+   Context japanese=language(c,"ja-JP");AppStore.setPrefs(japanese,new JSONObject(base.toString()).put("localeMode","manual").put("locale","en"));check(AppStore.locale(japanese).equals("en"),"Manual language remains explicit");AppStore.setPrefs(japanese,new JSONObject(base.toString()).put("localeMode","system"));check(AppStore.locale(japanese).equals("ja"),"Return to device language");
+   AppStore.setPrefs(c,new JSONObject(base.toString()).put("localeMode","manual").put("locale","ja"));
+   long at=System.currentTimeMillis()+6000;JSONObject e=entry("runtime-reminder",at);AppStore.saveFeed(c,feed(e));ReminderScheduler.schedule(c);check(ReminderScheduler.exactAllowed(c),"Exact alarm capability available for runtime delivery test");check(AppStore.store(c).getInt("scheduledCount",0)==1,"A real future game reminder is armed");await(manager,e.getString("id").hashCode());
+   int delivered=AppStore.store(c).getStringSet("sent",Collections.emptySet()).size();check(delivered>0,"Delivered reminder recorded once");String key=AppStore.store(c).getStringSet("alarms",Collections.emptySet()).iterator().next();c.sendBroadcast(new Intent(c,ReminderReceiver.class).putExtra("key",key));Thread.sleep(400);check(AppStore.store(c).getStringSet("sent",Collections.emptySet()).size()==delivered,"Duplicate broadcast suppressed");
+   manager.cancelAll();check(ReminderScheduler.test(c),"User test schedules a real alarm");await(manager,"test".hashCode());check(AppStore.store(c).getLong("lastTestDeliveredAt",0)>0,"Test alarm receiver delivery recorded");
+   AppStore.store(c).edit().putLong("lastSyncAt",System.currentTimeMillis()-25*3600000L).commit();ReminderScheduler.schedule(c);check(AppStore.store(c).getInt("scheduledCount",-1)==0,"Stale feed cancels pending game reminders");
+  }
+  out.putString("stream",new JSONObject().put("ok",true).put("api",Build.VERSION.SDK_INT).put("phase",args.getString("phase")).put("checks",new JSONArray(checks)).toString()+"\n");finish(Activity.RESULT_OK,out);
+ }catch(Throwable failure){out.putString("stream","RUNTIME TEST FAILED: "+failure+"\n");finish(Activity.RESULT_CANCELED,out);}}
+}

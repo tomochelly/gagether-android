@@ -2,12 +2,19 @@ name: Build signed release
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: [GAGETHER Android runtime checks]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
 
 jobs:
   build:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push' && github.event.workflow_run.head_repository.full_name == github.repository && github.event.workflow_run.head_branch == 'main')
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 20
     environment: android-release
@@ -19,6 +26,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           persist-credentials: false
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
       - uses: actions/setup-java@v6
         with:
           distribution: temurin
@@ -47,6 +55,13 @@ jobs:
         run: bash ./gradlew --no-daemon -PrequireReleaseSigning=true :app:testReleaseUnitTest :app:assembleRelease :app:bundleRelease
       - name: Verify APK signature
         run: '"$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs app/build/outputs/apk/release/app-release.apk'
+      - name: Publish the requested update after runtime verification
+        if: github.event_name == 'workflow_run'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_SOURCE_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUNTIME_RUN_URL: ${{ github.event.workflow_run.html_url }}
+        run: python3 scripts/publish-release.py
       - name: Remove temporary key
         if: always()
         run: rm -f -- "$GAGETHER_KEYSTORE_FILE"
@@ -59,4 +74,4 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 
-      # Build only. Publication to a store or GitHub Release is a separate action.
+      # Manual dispatch remains build-only. The requested GitHub APK update publishes only after trusted main-branch runtime tests and certificate continuity checks.

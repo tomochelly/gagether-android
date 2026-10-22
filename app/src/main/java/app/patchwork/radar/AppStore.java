@@ -11,14 +11,15 @@ public final class AppStore {
  private static final Object LOCK=new Object();
  public static SharedPreferences store(Context c){return c.getSharedPreferences("patchwork",Context.MODE_PRIVATE);}
  public static JSONObject defaults(Context c){
-  JSONObject o=new JSONObject();String l=c.getResources().getConfiguration().getLocales().get(0).getLanguage();if(!new HashSet<>(Arrays.asList("ko","en","ja","zh")).contains(l))l="en";
-  try{o.put("enabled",false).put("locale",l).put("region",l.equals("ko")?"kr":l.equals("ja")?"jp":"global").put("games",new JSONArray()).put("gameRegions",new JSONObject()).put("kinds",new JSONArray(Arrays.asList("pickup","weapon","event","package"))).put("offsets",new JSONArray(Arrays.asList(1440,60))).put("starts",true).put("quietEnabled",true).put("quietStart",23).put("quietEnd",8).put("followMyGames",true).put("characterTone",false);o.put("notificationRules",ReminderSettings.normalize(new JSONObject().put("offsets",new JSONArray(Arrays.asList(1440,60,0)))));}catch(JSONException ignored){}return o;
+  JSONObject o=new JSONObject();String l=systemLocale(c);
+  try{o.put("enabled",false).put("locale",l).put("localeMode","system").put("region",l.equals("ko")?"kr":l.equals("ja")?"jp":"global").put("games",new JSONArray()).put("gameRegions",new JSONObject()).put("kinds",new JSONArray(Arrays.asList("pickup","weapon","event","package"))).put("offsets",new JSONArray(Arrays.asList(1440,60))).put("starts",true).put("quietEnabled",true).put("quietStart",23).put("quietEnd",8).put("followMyGames",true).put("characterTone",false);o.put("notificationRules",ReminderSettings.normalize(new JSONObject().put("offsets",new JSONArray(Arrays.asList(1440,60,0)))));}catch(JSONException ignored){}return o;
  }
- public static JSONObject prefs(Context c){try{return new JSONObject(store(c).getString("preferences",defaults(c).toString()));}catch(Exception ignored){return defaults(c);}}
+ public static String systemLocale(Context c){List<String> tags=new ArrayList<>();android.os.LocaleList locales=c.getResources().getConfiguration().getLocales();for(int i=0;i<locales.size();i++)tags.add(locales.get(i).toLanguageTag());return AppLanguage.resolve(tags);}
+ public static JSONObject prefs(Context c){try{JSONObject p=new JSONObject(store(c).getString("preferences",defaults(c).toString()));String mode=p.optString("localeMode","system");p.put("localeMode",mode);if(!mode.equals("manual"))p.put("locale",systemLocale(c));return p;}catch(Exception ignored){return defaults(c);}}
  public static void setPrefs(Context c,JSONObject input)throws JSONException{
-  JSONObject out=defaults(c);String locale=input.optString("locale","ko"),region=input.optString("region","kr");
+  JSONObject out=defaults(c);String mode=input.optString("localeMode",prefs(c).optString("localeMode","system"));if(!Arrays.asList("system","manual").contains(mode))throw new JSONException("Invalid language mode");String locale=mode.equals("system")?systemLocale(c):input.optString("locale","en"),region=input.optString("region",prefs(c).optString("region","global"));
   if(!new HashSet<>(Arrays.asList("ko","en","ja","zh")).contains(locale)||!new HashSet<>(Arrays.asList("kr","jp","global")).contains(region))throw new JSONException("Invalid preference");
-  out.put("locale",locale).put("region",region).put("enabled",input.optBoolean("enabled")).put("starts",input.optBoolean("starts",true)).put("quietEnabled",input.optBoolean("quietEnabled",true));
+  out.put("locale",locale).put("localeMode",mode).put("region",region).put("enabled",input.optBoolean("enabled")).put("starts",input.optBoolean("starts",true)).put("quietEnabled",input.optBoolean("quietEnabled",true));
   out.put("quietStart",Math.max(0,Math.min(23,input.optInt("quietStart",23)))).put("quietEnd",Math.max(0,Math.min(23,input.optInt("quietEnd",8))));
   JSONArray gs=new JSONArray(),ks=new JSONArray(),os=new JSONArray();JSONObject regions=new JSONObject();
   for(String game:ReminderPolicy.GAME_IDS)if(ReminderPolicy.contains(input.optJSONArray("games"),game))gs.put(game);

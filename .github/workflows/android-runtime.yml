@@ -1,0 +1,57 @@
+name: GAGETHER Android runtime checks
+on:
+  push:
+    branches: [main]
+    paths: ['app/**', 'gradle/**', '*.gradle', '.github/workflows/android-runtime.yml', '.gagether/android-release.json', 'scripts/**']
+  pull_request:
+    paths: ['app/**', 'gradle/**', '*.gradle', '.github/workflows/android-runtime.yml', 'scripts/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: android-runtime-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  emulator:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        api: [30, 36]
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v6
+      - uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;35.0.0'
+      - name: Build isolated test APKs and run unit tests
+        run: bash ./gradlew --no-daemon :app:testDebugUnitTest :app:assembleDebug :app:assembleDebugAndroidTest
+      - name: Enable KVM for the ephemeral emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Exercise real Android permissions, alarms, receivers and notifications
+        uses: ReactiveCircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d
+        with:
+          api-level: ${{ matrix.api }}
+          target: google_apis
+          arch: x86_64
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: bash scripts/android-runtime.sh ${{ matrix.api }}
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: android-runtime-api-${{ matrix.api }}
+          path: |
+            runtime-results/
+            app/build/reports/tests/testDebugUnitTest/
+          if-no-files-found: warn

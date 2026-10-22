@@ -5,6 +5,7 @@ import java.time.ZoneId;
 import java.util.*;
 public class ReminderReceiver extends BroadcastReceiver {
  @Override public void onReceive(Context c,Intent intent){
+  if("app.patchwork.TEST_REMINDER".equals(intent.getAction())){if(ReminderScheduler.show(c,"GAGETHER",Words.test(c),"test"))AppStore.store(c).edit().putLong("lastTestDeliveredAt",System.currentTimeMillis()).apply();return;}
   String key=intent.getStringExtra("key");if(key==null||!AppStore.fresh(c)||!AppStore.prefs(c).optBoolean("enabled")||!ReminderScheduler.allowed(c))return;
   String[] bits=key.split("\\|");if(bits.length!=4)return;
   try{
@@ -14,7 +15,7 @@ public class ReminderReceiver extends BroadcastReceiver {
    if(!ReminderSettings.due(e,prefs,bits[1],at,offset,now))return;
    Set<String> sent=new HashSet<>(AppStore.store(c).getStringSet("sent",Collections.emptySet()));String delivery=ReminderPolicy.groupKey(e,bits[1],at)+"|"+offset;if(sent.contains(key)||sent.contains(delivery))return;
    ReminderMessage message=ReminderMessage.create(feed,prefs,e,bits[1],at,offset,now,ZoneId.systemDefault());
-   ReminderScheduler.show(c,message.title,message.body,message.entryId);
+   if(!ReminderScheduler.show(c,message.title,message.body,message.entryId))return;
    if(sent.size()>400)sent.clear();sent.add(key);sent.add(delivery);AppStore.store(c).edit().putStringSet("sent",sent).apply();DeadlineWidget.updateAll(c);
   }catch(Exception ignored){}
  }

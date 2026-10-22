@@ -8,9 +8,9 @@ import java.util.*;
 
 /** Pure scheduling rules, shared by background sync, reminders and widget selection. */
 public final class ReminderPolicy {
- public static final Set<String> GAME_IDS=new HashSet<>(Arrays.asList("wuwa","bluearchive","nikke","endfield","umamusume","nte","gfl2","arknights","genshin","hsr","zzz"));
+ public static final Set<String> GAME_IDS=new HashSet<>(Arrays.asList("wuwa","bluearchive","nikke","endfield","umamusume","nte","gfl2","arknights","genshin","hsr","zzz","trickcal","hi3","reverse1999","stellasora"));
  public static boolean supportsRegion(String game,String region){
-  return GAME_IDS.contains(game)&&(Arrays.asList("kr","jp","global").contains(region)||("cn".equals(region)&&("arknights".equals(game)||"gfl2".equals(game))));
+  return GAME_IDS.contains(game)&&(Arrays.asList("kr","jp","global").contains(region)||("cn".equals(region)&&("arknights".equals(game)||"gfl2".equals(game)||"reverse1999".equals(game))));
  }
  public static long epoch(String iso){try{return Instant.parse(iso).toEpochMilli();}catch(Exception ignored){try{return java.time.OffsetDateTime.parse(iso).toInstant().toEpochMilli();}catch(Exception ignored2){return 0;}}}
  public static String text(JSONObject value,String locale){if(value==null)return "";String s=value.optString(locale,"");return s.isEmpty()?value.optString("en",""):s;}

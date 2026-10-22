@@ -10,11 +10,11 @@ import static org.junit.Assert.*;
 public class FeedValidatorTest {
  private JSONObject entry(String game,String region)throws Exception{return new JSONObject().put("id",game+"-"+region).put("gameId",game).put("region",region).put("kind","pickup").put("startAt","2026-10-15T03:00:00Z").put("endAt","2026-10-19T03:00:00Z");}
  private JSONObject feed(JSONObject... entries)throws Exception{return new JSONObject().put("schemaVersion",1).put("games",new JSONArray("[{\"id\":\"arknights\",\"canonicalRegions\":{\"kr\":\"kr\",\"jp\":\"jp\",\"global\":\"global\",\"cn\":\"cn\"}},{\"id\":\"gfl2\",\"canonicalRegions\":{\"kr\":\"kr\",\"cn\":\"cn\"}}]")).put("entries",new JSONArray(Arrays.asList(entries)));}
- @Test public void mixedFeedAcceptsOnlyTheTwoSupportedChineseServices()throws Exception{
-  assertTrue(FeedValidator.encode(feed(entry("wuwa","global"),entry("arknights","kr"),entry("arknights","cn"),entry("gfl2","cn"))).length>0);
+ @Test public void mixedFeedAcceptsTheThreeSupportedChineseServices()throws Exception{
+  assertTrue(FeedValidator.encode(feed(entry("wuwa","global"),entry("arknights","kr"),entry("arknights","cn"),entry("gfl2","cn"),entry("reverse1999","cn"),entry("trickcal","kr"),entry("hi3","global"),entry("stellasora","global"))).length>0);
  }
  @Test public void otherChineseServicesAndUnknownGamesRemainRejected()throws Exception{
-  for(String game:ReminderPolicy.GAME_IDS)if(!game.equals("arknights")&&!game.equals("gfl2"))assertThrows(JSONException.class,()->FeedValidator.encode(feed(entry(game,"cn"))));
+  for(String game:ReminderPolicy.GAME_IDS)if(!game.equals("arknights")&&!game.equals("gfl2")&&!game.equals("reverse1999"))assertThrows(JSONException.class,()->FeedValidator.encode(feed(entry(game,"cn"))));
   assertThrows(JSONException.class,()->FeedValidator.encode(feed(entry("unlisted","kr"))));
  }
  @Test public void chineseSelectionUsesOnlyThatGamesChineseSchedule()throws Exception{
@@ -24,6 +24,7 @@ public class FeedValidatorTest {
   assertEquals(2,ReminderPolicy.deadlines(f,p,now).size());
   assertTrue(ReminderPolicy.plan(f,p,now,ZoneId.of("Asia/Tokyo")).stream().allMatch(r->r.entryId.equals("arknights-cn")||r.entryId.equals("gfl2-kr")));
  }
+ @Test public void allFifteenGamesHaveNativeCoverage(){assertEquals(15,ReminderPolicy.GAME_IDS.size());}
  @Test public void malformedFeedRemainsRejected()throws Exception{
   assertThrows(JSONException.class,()->FeedValidator.encode(feed().put("schemaVersion",2)));
   assertThrows(JSONException.class,()->FeedValidator.encode(feed(entry("arknights","cn").put("id","../bad"))));
