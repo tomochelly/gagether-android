@@ -1,14 +1,37 @@
 {
   "version": 1,
-  "requestId": "recovery-drill-reset-20261023",
-  "reason": "Owner-authorized restoration of the private drill to its original absent state",
-  "action": "reset",
-  "dryRun": false,
+  "requestId": "operator-template-dryrun-20261023",
+  "reason": "Safe operator recovery template: validate only; never public game content",
+  "action": "edit",
+  "dryRun": true,
   "edit": {
     "target": "entry",
-    "id": "custom-recovery-drill-20261023",
-    "revision": 2,
-    "create": false,
-    "changes": {}
+    "id": "custom-recovery-template-20261023",
+    "revision": 0,
+    "create": true,
+    "changes": {
+      "gameId": "wuwa",
+      "kind": "update",
+      "title": {
+        "ko": "복구 검증 전용 — 공개하지 않음",
+        "en": "Recovery validation only — never public",
+        "ja": "復旧検証専用・非公開",
+        "zh": "仅用于恢复验证・不公开"
+      },
+      "summary": {
+        "ko": "관리자 비상 수정 경로 검증용 숨김 항목입니다. 게임 공지가 아닙니다.",
+        "en": "Hidden operator recovery validation. This is not a game announcement.",
+        "ja": "管理者の緊急復旧検証用の非公開項目です。ゲームのお知らせではありません。",
+        "zh": "管理员紧急恢复验证用的隐藏条目，并非游戏公告。"
+      },
+      "region": "global",
+      "server": "Recovery validation",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "sourceUrl": "https://github.com/tomochelly/gagether-android/blob/main/web/ops/RECOVERY.ko.md",
+      "sourceTitle": "Operator recovery procedure; not a game source",
+      "hidden": true
+    }
   }
 }

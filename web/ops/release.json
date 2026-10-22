@@ -1,1 +1,22 @@
-{"siteProjectId":"appgprj_6ad1ef24b5c08191a367cd141de63a3a","p0SiteVersion":78,"p0SiteCommit":"035a6269756ceec06cee0501359d2c8b1435f149","githubRepository":"tomochelly/gagether-android","sourceDirectory":"web","codeAutoDeploy":false,"dataEmergencyWorkflow":".github/workflows/gagether-emergency.yml","status":"P1/P2 verification in progress"}
+{
+  "siteProjectId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a",
+  "productionUrl": "https://gagether.wiki",
+  "siteVersion": 85,
+  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_bef345a8143881919631a7668812ca72",
+  "siteCommit": "782c3e75cf3a2d9f76c0f247d1b08c8e4d70f002",
+  "deploymentId": "appgdep_6ada87c166d88191a80b9f19a0fc1fea",
+  "deployedAt": "2026-10-22T22:01:59.581102+00:00",
+  "runtimeFingerprint": "3806939ae7b80f328a4e94d4ce72c311eaed12a28037c1d4b2168aca206d0d48",
+  "githubRepository": "tomochelly/gagether-android",
+  "runtimeSourceGitHubCommit": "c9e9494fdc543d6c8d563c1e8edfc8c61259cc1a",
+  "sourceDirectory": "web",
+  "codeAutoDeploy": false,
+  "dataEmergencyWorkflow": ".github/workflows/gagether-emergency.yml",
+  "dataEmergencyProductionDrill": "create-edit-reset-replay-passed",
+  "codeRollbackRehearsed": false,
+  "previousHealthySiteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_20357336969481919854b4e22bb28509",
+  "verifiedAt": "2026-10-22T22:03:52.508Z",
+  "refreshOutcome": "partial",
+  "verificationReport": "ops/VERIFICATION.ko.md",
+  "status": "production-deployed; data recovery rehearsed; remaining limitations documented"
+}
