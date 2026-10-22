@@ -1,0 +1,262 @@
+[
+  {
+    "id": "genshin-71-escoffier",
+    "gameId": "genshin",
+    "kind": "pickup",
+    "title": {
+      "ko": "에스코피에",
+      "en": "Escoffier",
+      "ja": "エスコフィエ",
+      "zh": "爱可菲"
+    },
+    "summary": {
+      "ko": "한정 5★ · 얼음. 「베리 샹송」 이벤트 기원.",
+      "en": "Limited 5★ Cryo. La Chanson Cerise event wish.",
+      "ja": "限定★5・氷。「苺色のシャンソン」。",
+      "zh": "限定5★冰元素角色。「莓色香颂」活动祈愿返场。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-10-13T18:00:00+08:00",
+    "endAt": "2026-11-03T14:59:00+08:00",
+    "publishedAt": "2026-10-08",
+    "verifiedAt": "2026-10-16T12:00:49.136495+00:00",
+    "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+    "sourceTitle": "7.1 버전 이벤트 기원 알림 제2회",
+    "image": "/assets/entities/native/genshin-71-escoffier-1c84bcf5091c.png",
+    "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/2a832c067917d806a00da8f3bcf8f82d_8674237467634356840.png",
+    "imageKind": "splash",
+    "imageVerified": true,
+    "imageLocale": "neutral",
+    "pickupType": "rerun",
+    "pickupGroup": "genshin-global-asia-7.1-phase2-character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "에스코피에",
+          "en": "Escoffier",
+          "ja": "エスコフィエ",
+          "zh": "爱可菲"
+        },
+        "type": "rerun",
+        "image": "/assets/entities/native/genshin-71-escoffier-1c84bcf5091c.png",
+        "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/2a832c067917d806a00da8f3bcf8f82d_8674237467634356840.png",
+        "imageKind": "splash",
+        "imageVerified": true,
+        "imageLocale": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "genshin-71-weapon",
+    "gameId": "genshin",
+    "kind": "weapon",
+    "title": {
+      "ko": "창백한 섬광 · 맛의 지휘자",
+      "en": "Azurelight · Symphonist of Scents",
+      "ja": "蒼耀・香りのシンフォニスト",
+      "zh": "苍耀 · 香韵奏者"
+    },
+    "summary": {
+      "ko": "한정 5★ 한손검·장병기. 「신의 주조」 확률 UP.",
+      "en": "Limited 5★ sword and polearm in Epitome Invocation.",
+      "ja": "限定★5片手剣・長柄武器。「神鋳賦形」で確率UP。",
+      "zh": "限定5★单手剑与长柄武器。「神铸赋形」概率提升。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-10-13T18:00:00+08:00",
+    "endAt": "2026-11-03T14:59:00+08:00",
+    "publishedAt": "2026-10-08",
+    "verifiedAt": "2026-10-16T12:00:49.136495+00:00",
+    "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+    "sourceTitle": "7.1 버전 이벤트 기원 알림 제2회",
+    "image": "/assets/entities/azurelight-298e5509.webp",
+    "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/12/f217352d0464adbdf45112fcaf722128_3502992130143524197.png",
+    "imageKind": "weapon",
+    "imageVerified": true,
+    "imageLocale": "neutral",
+    "pickupType": "rerun",
+    "pickupGroup": "genshin-global-asia-7.1-phase2-weapon",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "창백한 섬광",
+          "en": "Azurelight",
+          "ja": "蒼耀",
+          "zh": "苍耀"
+        },
+        "type": "rerun",
+        "image": "/assets/entities/azurelight-298e5509.webp",
+        "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/12/f217352d0464adbdf45112fcaf722128_3502992130143524197.png",
+        "imageKind": "weapon",
+        "imageVerified": true,
+        "imageLocale": "neutral"
+      },
+      {
+        "name": {
+          "ko": "맛의 지휘자",
+          "en": "Symphonist of Scents",
+          "ja": "香りのシンフォニスト",
+          "zh": "香韵奏者"
+        },
+        "type": "rerun",
+        "image": "/assets/entities/symphonist-8f77b408.webp",
+        "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/29/de828ce33b8616998260d71c2f84d93f_1382184822064401171.png",
+        "imageKind": "weapon",
+        "imageVerified": true,
+        "imageLocale": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "wuwa-hsin",
+    "gameId": "wuwa",
+    "kind": "pickup",
+    "title": {
+      "ko": "여우의 별자리",
+      "en": "Hsin",
+      "ja": "心",
+      "zh": "心"
+    },
+    "summary": {
+      "ko": "3.7 전반 신규 5성 픽업.",
+      "en": "New 5-star featured in version 3.7 phase I.",
+      "ja": "Ver.3.7前半の新星5ピックアップ。",
+      "zh": "3.7上半全新五星概率提升。"
+    },
+    "region": "global",
+    "server": "Asia · UTC+8",
+    "startAt": null,
+    "endAt": "2026-10-22T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T14:17:47.191454+00:00",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+    "sourceTitle": "「거울에 잠긴 허상, 마음이 비추는 인간 세상」 3.7 버전 업데이트 내용 안내",
+    "image": "/assets/entities/wuwa-hsin-splash-full-3df11519.webp",
+    "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/xin-3df11519.webp",
+    "imageKind": "splash",
+    "imageVerified": true,
+    "imageLocale": "neutral",
+    "pickupType": "new",
+    "pickupGroup": "wuwa-37-phase-1",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "여우의 별자리",
+          "en": "Hsin",
+          "ja": "心",
+          "zh": "心"
+        },
+        "type": "new",
+        "image": "/assets/entities/wuwa-hsin-splash-full-3df11519.webp",
+        "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/xin-3df11519.webp",
+        "imageKind": "splash",
+        "imageVerified": true,
+        "imageLocale": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "wuwa-blooming-jadehaven",
+    "gameId": "wuwa",
+    "kind": "weapon",
+    "title": {
+      "ko": "옥궐에 피는 꽃",
+      "en": "Blooming Jadehaven",
+      "ja": "玉殿に咲き満ちる玄華",
+      "zh": "玉阙玄华"
+    },
+    "summary": {
+      "ko": "3.7 전반 신규 5성 픽업.",
+      "en": "New 5-star featured in version 3.7 phase I.",
+      "ja": "Ver.3.7前半の新星5ピックアップ。",
+      "zh": "3.7上半全新五星概率提升。"
+    },
+    "region": "global",
+    "server": "Asia · UTC+8",
+    "startAt": null,
+    "endAt": "2026-10-22T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T14:09:38.816210Z",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+    "sourceTitle": "「거울에 잠긴 허상, 마음이 비추는 인간 세상」 3.7 버전 업데이트 내용 안내",
+    "image": "/assets/entities/native/wuwa-blooming-jadehaven-ko-5f80d0d75d06.jpg",
+    "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjhfMzQg/MDAxNzkwNTk0NDk2NTc0.b29gaJgNtB4FmIz5-dfJ2OG0vaIqqEfvAhJsu6UHp5Yg.9oM2Wv9DjGlzC3mFjOkDhcdWum-_iIm0CU6_z5zAe_Ug.JPEG/KR.jpg",
+    "imageKind": "banner",
+    "imageVerified": true,
+    "imageLocale": "ko",
+    "pickupType": "new",
+    "pickupGroup": "wuwa-37-phase-1",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "옥궐에 피는 꽃",
+          "en": "Blooming Jadehaven",
+          "ja": "玉殿に咲き満ちる玄華",
+          "zh": "玉阙玄华"
+        },
+        "type": "new",
+        "image": "/assets/entities/native/wuwa-blooming-jadehaven-ko-5f80d0d75d06.jpg",
+        "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjhfMzQg/MDAxNzkwNTk0NDk2NTc0.b29gaJgNtB4FmIz5-dfJ2OG0vaIqqEfvAhJsu6UHp5Yg.9oM2Wv9DjGlzC3mFjOkDhcdWum-_iIm0CU6_z5zAe_Ug.JPEG/KR.jpg",
+        "imageKind": "banner",
+        "imageVerified": true,
+        "imageLocale": "ko"
+      }
+    ]
+  },
+  {
+    "id": "uma-global-20261014-zephyr",
+    "gameId": "umamusume",
+    "kind": "pickup",
+    "title": {
+      "ko": "야마닌 제퍼 · SSR",
+      "en": "Yamanin Zephyr SSR [To Winds Untraveled]",
+      "ja": "ヤマニンゼファー · SSR",
+      "zh": "也文摄辉 · SSR"
+    },
+    "summary": {
+      "ko": "글로벌 서버 픽업. 서포트 카드.",
+      "en": "Global-server spotlight. Support card.",
+      "ja": "グローバル版ピックアップ。サポートカード。",
+      "zh": "国际服精选。支援卡。"
+    },
+    "region": "global",
+    "server": "Global / Cygames EN",
+    "startAt": "2026-10-14T22:00:00Z",
+    "endAt": "2026-10-23T21:59:00Z",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T13:39:48.836892+00:00",
+    "sourceUrl": "https://umamusume.com/news/1103",
+    "sourceTitle": "Yamanin Zephyr SSR [To Winds Untraveled]",
+    "image": "/assets/entities/native/umamusume-9180aa37df19.png",
+    "imageSource": "https://media.gametora.com/umamusume/supports/full/30126.png",
+    "imageKind": "support",
+    "imageVerified": true,
+    "imageLocale": "neutral",
+    "pickupType": "new",
+    "pickupGroup": "umamusume:global:20261014:support",
+    "poolType": "support",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "야마닌 제퍼 · SSR",
+          "en": "Yamanin Zephyr SSR [To Winds Untraveled]",
+          "ja": "ヤマニンゼファー · SSR",
+          "zh": "也文摄辉 · SSR"
+        },
+        "type": "new",
+        "role": "featured",
+        "image": "/assets/entities/native/umamusume-9180aa37df19.png",
+        "imageSource": "https://media.gametora.com/umamusume/supports/full/30126.png",
+        "imageKind": "support",
+        "imageVerified": true,
+        "imageLocale": "neutral"
+      }
+    ]
+  }
+]

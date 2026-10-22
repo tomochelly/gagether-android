@@ -1,0 +1,2733 @@
+[
+  {
+    "id": "genshin-primogem",
+    "gameId": "genshin",
+    "name": {
+      "ko": "원석",
+      "en": "Primogem",
+      "ja": "原石",
+      "zh": "原石"
+    },
+    "aliases": [
+      "원석",
+      "Primogem",
+      "原石",
+      "Primogems"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.hoyolab.com/pc/genshin/entry/3485"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/19/194600931/8902272b2dbb45cce8fbd6f596c6904b_3502391192719350131.png",
+      "imageSource": "https://wiki.hoyolab.com/pc/genshin/entry/3485",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "genshin-intertwined-fate",
+    "gameId": "genshin",
+    "name": {
+      "ko": "뒤얽힌 인연",
+      "en": "Intertwined Fate",
+      "ja": "紡がれた運命",
+      "zh": "纠缠之缘"
+    },
+    "aliases": [
+      "뒤얽힌 인연",
+      "Intertwined Fate",
+      "紡がれた運命",
+      "纠缠之缘",
+      "Intertwined Fates"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.hoyolab.com/pc/genshin/entry/1332"
+    ],
+    "icon": {
+      "image": "https://bbs.hoyolab.com/hoyowiki/picture/object/Intertwined%20Fate_icon.png",
+      "imageSource": "https://wiki.hoyolab.com/pc/genshin/entry/1332",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "genshin-acquaint-fate",
+    "gameId": "genshin",
+    "name": {
+      "ko": "만남의 인연",
+      "en": "Acquaint Fate",
+      "ja": "出会いの縁",
+      "zh": "相遇之缘"
+    },
+    "aliases": [
+      "만남의 인연",
+      "Acquaint Fate",
+      "出会いの縁",
+      "相遇之缘",
+      "Acquaint Fates"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.hoyolab.com/pc/genshin/entry/2952"
+    ],
+    "icon": {
+      "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/05/01/35428890/dca8e402bd3ba2481d164b30fc9c0e37_4487919902137539250.png",
+      "imageSource": "https://wiki.hoyolab.com/pc/genshin/entry/2952",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "hsr-stellar-jade",
+    "gameId": "hsr",
+    "name": {
+      "ko": "성옥",
+      "en": "Stellar Jade",
+      "ja": "星玉",
+      "zh": "星琼"
+    },
+    "aliases": [
+      "성옥",
+      "Stellar Jade",
+      "星玉",
+      "星琼"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.hoyolab.com/pc/hsr/entry/211"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/d3381f7f9e06d05a48ee6f6ab5b995b5_5873359330457121544.png",
+      "imageSource": "https://wiki.hoyolab.com/pc/hsr/entry/211",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "hsr-credit",
+    "gameId": "hsr",
+    "name": {
+      "ko": "신용 포인트",
+      "en": "Credit",
+      "ja": "信用ポイント",
+      "zh": "信用点"
+    },
+    "aliases": [
+      "신용 포인트",
+      "Credit",
+      "信用ポイント",
+      "信用点",
+      "Credits"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.hoyolab.com/pc/hsr/entry/181"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/40c42376e23bb9b493642f2dc174ee2f_3759749631911308224.png",
+      "imageSource": "https://wiki.hoyolab.com/pc/hsr/entry/181",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "hsr-special-pass",
+    "gameId": "hsr",
+    "name": {
+      "ko": "별의 궤도 전용 티켓",
+      "en": "Star Rail Special Pass",
+      "ja": "星軌専用チケット",
+      "zh": "星轨专票"
+    },
+    "aliases": [
+      "별의 궤도 전용 티켓",
+      "Star Rail Special Pass",
+      "星軌専用チケット",
+      "星轨专票",
+      "Star Rail Special Passes",
+      "별의 궤도 전용티켓"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.hoyolab.com/pc/hsr/entry/346"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/65027c2d7c6045aea24324efd4a5b1ae_7582468639515319993.png",
+      "imageSource": "https://wiki.hoyolab.com/pc/hsr/entry/346",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "zzz-polychrome",
+    "gameId": "zzz",
+    "name": {
+      "ko": "폴리크롬",
+      "en": "Polychrome",
+      "ja": "ポリクローム",
+      "zh": "菲林"
+    },
+    "aliases": [
+      "폴리크롬",
+      "Polychrome",
+      "ポリクローム",
+      "菲林",
+      "Polychromes"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.hoyolab.com/pc/zzz/entry/594"
+    ],
+    "icon": {
+      "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2025/02/08/167256510/b796be09d9ccafa4967bbbffec346ab9_2814343997829937835.png",
+      "imageSource": "https://wiki.hoyolab.com/pc/zzz/entry/594",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "hi3-asterite",
+    "gameId": "hi3",
+    "name": {
+      "ko": "성석",
+      "en": "Asterite",
+      "ja": "星石",
+      "zh": "星石"
+    },
+    "aliases": [
+      "성석",
+      "Asterite",
+      "星石"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/event/2021/10/29/d078d261a5978186f738be167980f55e_2027034980671021156.png",
+      "imageSource": "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111",
+      "width": 125,
+      "height": 125,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "hi3-stamina-potion",
+    "gameId": "hi3",
+    "name": {
+      "ko": "체력 물약",
+      "en": "Stamina Potion",
+      "ja": "体力の薬",
+      "zh": "体力药水"
+    },
+    "aliases": [
+      "체력 물약",
+      "Stamina Potion",
+      "体力の薬",
+      "体力药水",
+      "Stamina Potions"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/event/2021/10/29/1b629ea82342f4e5edfd7abc42d6d93c_7332029591888562471.png",
+      "imageSource": "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111",
+      "width": 125,
+      "height": 125,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "hi3-crystal",
+    "gameId": "hi3",
+    "name": {
+      "ko": "수정",
+      "en": "Crystal",
+      "ja": "水晶",
+      "zh": "水晶"
+    },
+    "aliases": [
+      "수정",
+      "Crystal",
+      "水晶",
+      "Crystals"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/event/2021/10/29/7a49b51f78066dd2829fe63d2ce43463_5616454255955042656.png",
+      "imageSource": "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111",
+      "width": 125,
+      "height": 125,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "hi3-coin",
+    "gameId": "hi3",
+    "name": {
+      "ko": "골드",
+      "en": "Coin",
+      "ja": "コイン",
+      "zh": "金币"
+    },
+    "aliases": [
+      "골드",
+      "Coin",
+      "コイン",
+      "金币",
+      "Coins"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/event/2021/10/29/399925f859ccf10294ad495ad26f3991_8987055982178688309.png",
+      "imageSource": "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111",
+      "width": 125,
+      "height": 125,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "hi3-ae-imaginon",
+    "gameId": "hi3",
+    "name": {
+      "ko": "네겐트로피·허수 코어",
+      "en": "AE Imaginon",
+      "ja": "ネゲントロピー・虚数核心",
+      "zh": "逆熵·虚数核心"
+    },
+    "aliases": [
+      "네겐트로피·허수 코어",
+      "AE Imaginon",
+      "ネゲントロピー・虚数核心",
+      "逆熵·虚数核心",
+      "AE Imaginons"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111"
+    ],
+    "icon": {
+      "image": "https://upload-static.hoyoverse.com/event/2021/10/29/6be86a2ac70f2f805dab28b7937bc268_4779267473679588402.png",
+      "imageSource": "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111",
+      "width": 125,
+      "height": 125,
+      "verifiedAt": "2026-10-20T21:48:35.062449+00:00"
+    }
+  },
+  {
+    "id": "zzz-encrypted-master-tape",
+    "gameId": "zzz",
+    "name": {
+      "ko": "기밀 마스터 테이프",
+      "en": "Encrypted Master Tape",
+      "ja": "暗号化マスターテープ",
+      "zh": "加密母带"
+    },
+    "aliases": [
+      "기밀 마스터 테이프",
+      "Encrypted Master Tape",
+      "暗号化マスターテープ",
+      "加密母带",
+      "Encrypted Master Tapes"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://zenless.hoyoverse.com/ko-kr/news/166945"
+    ]
+  },
+  {
+    "id": "hi3-equipment-supply-card",
+    "gameId": "hi3",
+    "name": {
+      "ko": "장비 보급 카드",
+      "en": "Equipment Supply Card",
+      "ja": "装備補給チケット",
+      "zh": "装备补给卡"
+    },
+    "aliases": [
+      "장비 보급 카드",
+      "Equipment Supply Card",
+      "装備補給チケット",
+      "装备补给卡",
+      "Equipment Supply Cards"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "translatedLocales": [
+      "ja"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://www.hoyolab.com/article/47055245"
+    ]
+  },
+  {
+    "id": "hi3-memory-lane-supply-card",
+    "gameId": "hi3",
+    "name": {
+      "ko": "시간의 추억 보급 카드",
+      "en": "Memory Lane Supply Card",
+      "ja": "思い出の補給チケット",
+      "zh": "时光追忆补给卡"
+    },
+    "aliases": [
+      "시간의 추억 보급 카드",
+      "Memory Lane Supply Card",
+      "思い出の補給チケット",
+      "时光追忆补给卡",
+      "Memory Lane Supply Cards"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "translatedLocales": [
+      "ja"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://www.hoyolab.com/article/47055245"
+    ]
+  },
+  {
+    "id": "bluearchive-pyroxene",
+    "gameId": "bluearchive",
+    "name": {
+      "ko": "청휘석",
+      "en": "Pyroxenes",
+      "ja": "青輝石",
+      "zh": "青辉石"
+    },
+    "aliases": [
+      "청휘석",
+      "Pyroxene",
+      "Pyroxenes",
+      "青輝石",
+      "青辉石"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/SchaleDB/SchaleDB"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/currency_icon_gem.webp",
+      "imageSource": "https://github.com/SchaleDB/SchaleDB",
+      "width": 304,
+      "height": 240,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "bluearchive-credit",
+    "gameId": "bluearchive",
+    "name": {
+      "ko": "크레딧 포인트",
+      "en": "Credit Points",
+      "ja": "クレジットポイント",
+      "zh": "信用积分"
+    },
+    "aliases": [
+      "크레딧",
+      "크레딧 포인트",
+      "Credit Points",
+      "Credits",
+      "クレジット",
+      "信用点"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/SchaleDB/SchaleDB"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/currency_icon_gold.webp",
+      "imageSource": "https://github.com/SchaleDB/SchaleDB",
+      "width": 304,
+      "height": 240,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "bluearchive-eligma",
+    "gameId": "bluearchive",
+    "name": {
+      "ko": "엘리그마",
+      "en": "Eligma",
+      "ja": "神名のカケラ",
+      "zh": "神名精髓"
+    },
+    "aliases": [
+      "엘리그마",
+      "Eligma",
+      "神名のカケラ",
+      "神名精髓"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/SchaleDB/SchaleDB"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_secretstone.webp",
+      "imageSource": "https://github.com/SchaleDB/SchaleDB",
+      "width": 304,
+      "height": 240,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "bluearchive-recruit-ticket-1",
+    "gameId": "bluearchive",
+    "name": {
+      "ko": "1회 모집 티켓",
+      "en": "1-Recruitment Ticket",
+      "ja": "1回募集チケット",
+      "zh": "1次招募券"
+    },
+    "aliases": [
+      "1회 모집 티켓",
+      "1-Recruitment Ticket",
+      "1回募集チケット",
+      "1次招募券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/SchaleDB/SchaleDB"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_recruitticket_normal_1.webp",
+      "imageSource": "https://github.com/SchaleDB/SchaleDB",
+      "width": 304,
+      "height": 240,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "bluearchive-recruit-ticket-10",
+    "gameId": "bluearchive",
+    "name": {
+      "ko": "10회 모집 티켓",
+      "en": "10-Recruitment Ticket",
+      "ja": "10回募集チケット",
+      "zh": "10次招募券"
+    },
+    "aliases": [
+      "10회 모집 티켓",
+      "10-Recruitment Ticket",
+      "10回募集チケット",
+      "10次招募券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/SchaleDB/SchaleDB"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_recruitticket_normal_10.webp",
+      "imageSource": "https://github.com/SchaleDB/SchaleDB",
+      "width": 304,
+      "height": 240,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "bluearchive-secret-tech-sheet",
+    "gameId": "bluearchive",
+    "name": {
+      "ko": "비의서 조각",
+      "en": "Secret Tech Sheet",
+      "ja": "秘伝ノートの断片",
+      "zh": "秘仪之书碎片"
+    },
+    "aliases": [
+      "비의서 조각",
+      "Secret Tech Sheet",
+      "秘伝ノートの断片",
+      "秘仪之书碎片"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/SchaleDB/SchaleDB"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_skillbook_ultimate_piece.webp",
+      "imageSource": "https://github.com/SchaleDB/SchaleDB",
+      "width": 304,
+      "height": 240,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "bluearchive-secret-tech-notes",
+    "gameId": "bluearchive",
+    "name": {
+      "ko": "비의서",
+      "en": "Secret Tech Notes",
+      "ja": "秘伝ノート",
+      "zh": "秘仪之书"
+    },
+    "aliases": [
+      "비의서",
+      "Secret Tech Notes",
+      "秘伝ノート",
+      "秘仪之书"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/SchaleDB/SchaleDB"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_skillbook_ultimate.webp",
+      "imageSource": "https://github.com/SchaleDB/SchaleDB",
+      "width": 304,
+      "height": 240,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "arknights-originite-prime",
+    "gameId": "arknights",
+    "name": {
+      "ko": "순오리지늄",
+      "en": "Originite Prime",
+      "ja": "純正源石",
+      "zh": "至纯源石"
+    },
+    "aliases": [
+      "순오리지늄",
+      "Originite Prime",
+      "純正源石",
+      "至纯源石"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ArknightsAssets/ArknightsAssets2"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/diamond.png",
+      "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+      "width": 180,
+      "height": 180,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "arknights-orundum",
+    "gameId": "arknights",
+    "name": {
+      "ko": "합성옥",
+      "en": "Orundum",
+      "ja": "合成玉",
+      "zh": "合成玉"
+    },
+    "aliases": [
+      "합성옥",
+      "Orundum",
+      "合成玉",
+      "合成玉"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ArknightsAssets/ArknightsAssets2"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/diamond_shd.png",
+      "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+      "width": 180,
+      "height": 178,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "arknights-headhunting-permit",
+    "gameId": "arknights",
+    "name": {
+      "ko": "헤드헌팅 허가증",
+      "en": "Headhunting Permit",
+      "ja": "スカウト券",
+      "zh": "寻访凭证"
+    },
+    "aliases": [
+      "헤드헌팅 허가증",
+      "Headhunting Permit",
+      "スカウト券",
+      "寻访凭证"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ArknightsAssets/ArknightsAssets2"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/tkt_gacha.png",
+      "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+      "width": 178,
+      "height": 138,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "arknights-headhunting-permit-10",
+    "gameId": "arknights",
+    "name": {
+      "ko": "헤드헌팅 10회 허가증",
+      "en": "Ten-roll Headhunting Permit",
+      "ja": "10回スカウト券",
+      "zh": "十连寻访凭证"
+    },
+    "aliases": [
+      "헤드헌팅 10회 허가증",
+      "Ten-roll Headhunting Permit",
+      "10回スカウト券",
+      "十连寻访凭证"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ArknightsAssets/ArknightsAssets2"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/tkt_gacha_10.png",
+      "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+      "width": 180,
+      "height": 144,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "arknights-kernel-permit",
+    "gameId": "arknights",
+    "name": {
+      "ko": "커널 헤드헌팅 허가증",
+      "en": "Kernel Headhunting Permit",
+      "ja": "中堅スカウト券",
+      "zh": "中坚寻访凭证"
+    },
+    "aliases": [
+      "커널 헤드헌팅 허가증",
+      "Kernel Headhunting Permit",
+      "中堅スカウト券",
+      "中坚寻访凭证"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ArknightsAssets/ArknightsAssets2"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/classic_gacha.png",
+      "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+      "width": 178,
+      "height": 142,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "arknights-kernel-permit-10",
+    "gameId": "arknights",
+    "name": {
+      "ko": "커널 헤드헌팅 10회 허가증",
+      "en": "Ten-roll Kernel Headhunting Permit",
+      "ja": "10回中堅スカウト券",
+      "zh": "十连中坚寻访凭证"
+    },
+    "aliases": [
+      "커널 헤드헌팅 10회 허가증",
+      "Ten-roll Kernel Headhunting Permit",
+      "10回中堅スカウト券",
+      "十连中坚寻访凭证"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ArknightsAssets/ArknightsAssets2"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/classic_gacha_10.png",
+      "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+      "width": 178,
+      "height": 141,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "arknights-recruitment-permit",
+    "gameId": "arknights",
+    "name": {
+      "ko": "모집 허가증",
+      "en": "Recruitment Permit",
+      "ja": "求人票",
+      "zh": "招聘许可"
+    },
+    "aliases": [
+      "모집 허가증",
+      "Recruitment Permit",
+      "求人票",
+      "招聘许可"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ArknightsAssets/ArknightsAssets2"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/tkt_recruit.png",
+      "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+      "width": 169,
+      "height": 180,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "arknights-lmd",
+    "gameId": "arknights",
+    "name": {
+      "ko": "용문폐",
+      "en": "LMD",
+      "ja": "龍門幣",
+      "zh": "龙门币"
+    },
+    "aliases": [
+      "용문폐",
+      "LMD",
+      "龍門幣",
+      "龙门币"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ArknightsAssets/ArknightsAssets2"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/gold.png",
+      "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+      "width": 180,
+      "height": 139,
+      "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+    }
+  },
+  {
+    "id": "wuwa-astrite",
+    "gameId": "wuwa",
+    "name": {
+      "ko": "별의 소리",
+      "en": "Astrite",
+      "ja": "星声",
+      "zh": "星声"
+    },
+    "aliases": [
+      "별의 소리",
+      "Astrite",
+      "星声",
+      "Astrites"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/wutheringwaves/道具/星声",
+      "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/wutheringwaves/1/12/fju266e14loro53clufzevp21pq8kkc.png",
+      "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/星声",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "wuwa-lustrous-tide",
+    "gameId": "wuwa",
+    "name": {
+      "ko": "회오리의 무늬",
+      "en": "Lustrous Tide",
+      "ja": "唱喚の渦模様",
+      "zh": "唤声涡纹"
+    },
+    "aliases": [
+      "회오리의 무늬",
+      "Lustrous Tide",
+      "唱喚の渦模様",
+      "唤声涡纹",
+      "Lustrous Tides"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/wutheringwaves/道具/唤声涡纹",
+      "https://wutheringwaves.kurogames.com/kr/main/news/detail/763"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/wutheringwaves/5/5b/cjcfr2ievx6clvmptsbskux2dsoa5vd.png",
+      "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/唤声涡纹",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "wuwa-radiant-tide",
+    "gameId": "wuwa",
+    "name": {
+      "ko": "금빛 파도의 무늬",
+      "en": "Radiant Tide",
+      "ja": "金髄の波模様",
+      "zh": "浮金波纹"
+    },
+    "aliases": [
+      "금빛 파도의 무늬",
+      "Radiant Tide",
+      "金髄の波模様",
+      "浮金波纹",
+      "Radiant Tides"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/wutheringwaves/道具/浮金波纹",
+      "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/wutheringwaves/d/d4/6pf5mmq59ygn0yjhlh97ptio82687jf.png",
+      "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/浮金波纹",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "wuwa-forging-tide",
+    "gameId": "wuwa",
+    "name": {
+      "ko": "울린 조수의 무늬",
+      "en": "Forging Tide",
+      "ja": "鍛潮の波模様",
+      "zh": "铸潮波纹"
+    },
+    "aliases": [
+      "울린 조수의 무늬",
+      "Forging Tide",
+      "鍛潮の波模様",
+      "铸潮波纹",
+      "Forging Tides"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/wutheringwaves/道具/铸潮波纹",
+      "https://wutheringwaves.kurogames.com/kr/main/news/detail/4183"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/wutheringwaves/2/2f/rr22y2k0m2a10crbpo9azxmypmtiul0.png",
+      "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/铸潮波纹",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "wuwa-shell-credit",
+    "gameId": "wuwa",
+    "name": {
+      "ko": "클램 코인",
+      "en": "Shell Credit",
+      "ja": "シェルコイン",
+      "zh": "贝币"
+    },
+    "aliases": [
+      "클램 코인",
+      "Shell Credit",
+      "シェルコイン",
+      "贝币",
+      "Shell Credits"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/wutheringwaves/道具/贝币",
+      "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/wutheringwaves/2/21/3lnso0e6st6vajwk7fjtw1lmrbnovys.png",
+      "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/贝币",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "endfield-oroberyl",
+    "gameId": "endfield",
+    "name": {
+      "ko": "오로베릴",
+      "en": "Oroberyl",
+      "ja": "赤晶玉",
+      "zh": "嵌晶玉"
+    },
+    "aliases": [
+      "오로베릴",
+      "Oroberyl",
+      "赤晶玉",
+      "嵌晶玉"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+      "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/version-v1d6.d7cc5e.js"
+    ],
+    "icon": {
+      "image": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/item_diamond.d0cdb4.png",
+      "imageSource": "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+      "width": 254,
+      "height": 254,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "endfield-t-creds",
+    "gameId": "endfield",
+    "name": {
+      "ko": "탈로시안 화폐",
+      "en": "T-Creds",
+      "ja": "折金券",
+      "zh": "折金票"
+    },
+    "aliases": [
+      "탈로시안 화폐",
+      "T-Creds",
+      "折金券",
+      "折金票"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+      "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/version-v1d6.d7cc5e.js"
+    ],
+    "icon": {
+      "image": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/item_gold.928df2.png",
+      "imageSource": "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+      "width": 254,
+      "height": 254,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nte-annulith",
+    "gameId": "nte",
+    "name": {
+      "ko": "환석",
+      "en": "Annulith",
+      "ja": "円石",
+      "zh": "环石"
+    },
+    "aliases": [
+      "환석",
+      "Annulith",
+      "円石",
+      "环石"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko",
+      "ja"
+    ],
+    "translatedLocales": [
+      "en",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://interactivemap.app/neverness-to-everness/database/en/items/annulith/",
+      "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "https://nte.perfectworld.com/jp/article/news/gamenews/20261019/264678.html"
+    ],
+    "icon": {
+      "image": "https://interactivemap.app/neverness-to-everness/database/assets/items/Icon_Ringstone.png",
+      "imageSource": "https://interactivemap.app/neverness-to-everness/database/en/items/annulith/",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nte-solid-dice",
+    "gameId": "nte",
+    "name": {
+      "ko": "진실의 주사위",
+      "en": "Solid Dice",
+      "ja": "本質サイコロ",
+      "zh": "实质骰子"
+    },
+    "aliases": [
+      "진실의 주사위",
+      "Solid Dice",
+      "本質サイコロ",
+      "实质骰子"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "ja"
+    ],
+    "translatedLocales": [
+      "en",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://interactivemap.app/neverness-to-everness/database/en/items/dicelimite/",
+      "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "https://nte.perfectworld.com/jp/article/news/gamenews/20261019/264678.html"
+    ],
+    "icon": {
+      "image": "https://interactivemap.app/neverness-to-everness/database/assets/items/Dicelimite_256.png",
+      "imageSource": "https://interactivemap.app/neverness-to-everness/database/en/items/dicelimite/",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nte-fabricated-dice",
+    "gameId": "nte",
+    "name": {
+      "ko": "기만의 주사위",
+      "en": "Fabricated Dice",
+      "ja": "虚質サイコロ",
+      "zh": "虚质骰子"
+    },
+    "aliases": [
+      "기만의 주사위",
+      "Fabricated Dice",
+      "虚質サイコロ",
+      "虚质骰子"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "ja"
+    ],
+    "translatedLocales": [
+      "en",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://interactivemap.app/neverness-to-everness/database/en/items/dicenormal/",
+      "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "https://nte.perfectworld.com/jp/article/news/gamenews/20261019/264678.html"
+    ],
+    "icon": {
+      "image": "https://interactivemap.app/neverness-to-everness/database/assets/items/DiceNormal_256.png",
+      "imageSource": "https://interactivemap.app/neverness-to-everness/database/en/items/dicenormal/",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nte-fons",
+    "gameId": "nte",
+    "name": {
+      "ko": "폰즈",
+      "en": "Fons",
+      "ja": "ファンス",
+      "zh": "方斯"
+    },
+    "aliases": [
+      "폰즈",
+      "Fons",
+      "ファンス",
+      "方斯"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "ja"
+    ],
+    "translatedLocales": [
+      "en",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://interactivemap.app/neverness-to-everness/database/en/items/fons/",
+      "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "https://nte.perfectworld.com/jp/article/news/gamenews/20261019/264678.html"
+    ],
+    "icon": {
+      "image": "https://interactivemap.app/neverness-to-everness/database/assets/items/Icon_Fonizie.png",
+      "imageSource": "https://interactivemap.app/neverness-to-everness/database/en/items/fons/",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nte-floe-cinema-ticket",
+    "gameId": "nte",
+    "name": {
+      "ko": "유빙 극장 티켓",
+      "en": "Floe Cinema Ticket",
+      "ja": "浮氷映画チケット",
+      "zh": "浮冰影院票"
+    },
+    "aliases": [
+      "유빙 극장 티켓",
+      "Floe Cinema Ticket",
+      "浮氷映画チケット",
+      "浮冰影院票"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "ja"
+    ],
+    "translatedLocales": [
+      "en",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://interactivemap.app/neverness-to-everness/database/en/items/specialgift_ticket/",
+      "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "https://nte.perfectworld.com/jp/article/news/gamenews/20261019/264678.html"
+    ],
+    "icon": {
+      "image": "https://interactivemap.app/neverness-to-everness/database/assets/items/YH_UI_Item_Likeability_Gift_02.png",
+      "imageSource": "https://interactivemap.app/neverness-to-everness/database/en/items/specialgift_ticket/",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nikke-ultra-boost-module",
+    "gameId": "nikke",
+    "name": {
+      "ko": "모듈 하이 부스트",
+      "en": "Ultra Boost Modules",
+      "ja": "モジュールハイブースト",
+      "zh": "模組高級推進器"
+    },
+    "aliases": [
+      "모듈 하이 부스트",
+      "Ultra Boost Modules",
+      "モジュールハイブースト",
+      "模組高級推進器"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://nikke-kr.com/events/whitememory/",
+      "https://nikke-kr.com/events/whitememory/assets/index.html-4791b043.js"
+    ],
+    "icon": {
+      "image": "https://nikke-kr.com/events/whitememory/assets/reward0-bcba5f4f.png",
+      "imageSource": "https://nikke-kr.com/events/whitememory/",
+      "width": 133,
+      "height": 136,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nikke-code-manual-selection",
+    "gameId": "nikke",
+    "name": {
+      "ko": "코드 매뉴얼 선택 상자",
+      "en": "Code Manual Selection Boxes",
+      "ja": "コードマニュアル選択ボックス",
+      "zh": "代碼手冊自選寶箱"
+    },
+    "aliases": [
+      "코드 매뉴얼 선택 상자",
+      "Code Manual Selection Boxes",
+      "コードマニュアル選択ボックス",
+      "代碼手冊自選寶箱"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://nikke-kr.com/events/whitememory/",
+      "https://nikke-kr.com/events/whitememory/assets/index.html-4791b043.js"
+    ],
+    "icon": {
+      "image": "https://nikke-kr.com/events/whitememory/assets/reward1-18cac4e4.png",
+      "imageSource": "https://nikke-kr.com/events/whitememory/",
+      "width": 133,
+      "height": 136,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nikke-gems",
+    "gameId": "nikke",
+    "name": {
+      "ko": "쥬얼",
+      "en": "Gems",
+      "ja": "ジュエル",
+      "zh": "珠寶"
+    },
+    "aliases": [
+      "쥬얼",
+      "Gems",
+      "ジュエル",
+      "珠寶"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://nikke-kr.com/events/whitememory/",
+      "https://nikke-kr.com/events/whitememory/assets/index.html-4791b043.js"
+    ],
+    "icon": {
+      "image": "https://nikke-kr.com/events/whitememory/assets/reward2-8d5b097b.png",
+      "imageSource": "https://nikke-kr.com/events/whitememory/",
+      "width": 133,
+      "height": 136,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nikke-darling-for-a-day",
+    "gameId": "nikke",
+    "name": {
+      "ko": "지휘관 자유이용권",
+      "en": "Darling for a Day ticket",
+      "ja": "指揮官利用し放題券",
+      "zh": "指揮官自由使用券"
+    },
+    "aliases": [
+      "지휘관 자유이용권",
+      "Darling for a Day ticket",
+      "指揮官利用し放題券",
+      "指揮官自由使用券"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://nikke-kr.com/events/whitememory/",
+      "https://nikke-kr.com/events/whitememory/assets/index.html-4791b043.js"
+    ],
+    "icon": {
+      "image": "https://nikke-kr.com/events/whitememory/assets/reward3-d4b18541.png",
+      "imageSource": "https://nikke-kr.com/events/whitememory/",
+      "width": 133,
+      "height": 136,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nikke-skill-manual-selection",
+    "gameId": "nikke",
+    "name": {
+      "ko": "스킬 매뉴얼 선택 상자",
+      "en": "Skill Manual Selection Boxes",
+      "ja": "スキルマニュアル選択ボックス",
+      "zh": "技能手冊自選寶箱"
+    },
+    "aliases": [
+      "스킬 매뉴얼 선택 상자",
+      "Skill Manual Selection Boxes",
+      "スキルマニュアル選択ボックス",
+      "技能手冊自選寶箱"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://nikke-kr.com/events/whitememory/",
+      "https://nikke-kr.com/events/whitememory/assets/index.html-4791b043.js"
+    ],
+    "icon": {
+      "image": "https://nikke-kr.com/events/whitememory/assets/reward4-43bfb57c.png",
+      "imageSource": "https://nikke-kr.com/events/whitememory/",
+      "width": 133,
+      "height": 136,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nikke-growth-set-12h",
+    "gameId": "nikke",
+    "name": {
+      "ko": "그로우 세트",
+      "en": "Growth Set: 12H",
+      "ja": "グローセット",
+      "zh": "成長套組"
+    },
+    "aliases": [
+      "그로우 세트",
+      "Growth Set: 12H",
+      "グローセット",
+      "成長套組"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://nikke-kr.com/events/whitememory/",
+      "https://nikke-kr.com/events/whitememory/assets/index.html-4791b043.js"
+    ],
+    "icon": {
+      "image": "https://nikke-kr.com/events/whitememory/assets/reward5-a2aec7ed.png",
+      "imageSource": "https://nikke-kr.com/events/whitememory/",
+      "width": 133,
+      "height": 136,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "nikke-advanced-recruit-voucher",
+    "gameId": "nikke",
+    "name": {
+      "ko": "고급 모집 티켓",
+      "en": "Advanced Recruit Voucher",
+      "ja": "高級募集チケット",
+      "zh": "高級招募券"
+    },
+    "aliases": [
+      "고급 모집 티켓",
+      "Advanced Recruit Voucher",
+      "高級募集チケット",
+      "高級招募券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://nikke-kr.com/events/whitememory/",
+      "https://nikke-kr.com/events/whitememory/assets/index.html-4791b043.js"
+    ],
+    "icon": {
+      "image": "https://nikke-kr.com/events/whitememory/assets/reward6-90c3f2d6.png",
+      "imageSource": "https://nikke-kr.com/events/whitememory/",
+      "width": 133,
+      "height": 136,
+      "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+    }
+  },
+  {
+    "id": "elif",
+    "gameId": "trickcal",
+    "name": {
+      "ko": "엘리프",
+      "en": "Crystal Leaves",
+      "ja": "エリーフ",
+      "zh": "水晶葉"
+    },
+    "aliases": [
+      "엘리프",
+      "Crystal Leaves",
+      "エリーフ",
+      "水晶葉",
+      "무료 엘리프",
+      "유료 엘리프",
+      "Crystal Leaf",
+      "Elif"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://www.trickcal.com/event/3rdanniversary",
+      "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181786697219053525",
+      "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181790235110794900",
+      "https://trickcal.biligames.com/news/zh-tw/h5/?news_detail_id=181769658385618952",
+      "https://hn01182-hue.github.io/trickcal-calc/"
+    ],
+    "icon": {
+      "image": "https://hn01182-hue.github.io/trickcal-calc/images/%EC%97%98%EB%A6%AC%ED%94%84.png",
+      "imageSource": "https://hn01182-hue.github.io/trickcal-calc/",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:50:47.150182+00:00"
+    }
+  },
+  {
+    "id": "apostle-recruitment-ticket",
+    "gameId": "trickcal",
+    "name": {
+      "ko": "사도 모집 티켓",
+      "en": "Apostle Recruitment Ticket",
+      "ja": "使徒募集券",
+      "zh": "使者招募券"
+    },
+    "aliases": [
+      "사도 모집 티켓",
+      "Apostle Recruitment Ticket",
+      "使徒募集券",
+      "使者招募券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://www.trickcal.com/event/3rdanniversary",
+      "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181786697219053525"
+    ]
+  },
+  {
+    "id": "preference-recruitment-ticket",
+    "gameId": "trickcal",
+    "name": {
+      "ko": "취향 모집 티켓",
+      "en": "Preference Recruitment Ticket",
+      "ja": "好み募集券",
+      "zh": "偏好招募券"
+    },
+    "aliases": [
+      "취향 모집 티켓",
+      "Preference Recruitment Ticket",
+      "好み募集券",
+      "偏好招募券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://www.trickcal.com/event/3rdanniversary",
+      "https://game.naver.com/lounge/Trickcal/board/detail/8223579"
+    ]
+  },
+  {
+    "id": "three-star-premium-recruitment-ticket",
+    "gameId": "trickcal",
+    "name": {
+      "ko": "★3 초특급 모집권",
+      "en": "★3 Premium Recruitment Ticket",
+      "ja": "★3特別募集券",
+      "zh": "★3特級招募券"
+    },
+    "aliases": [
+      "★3 초특급 모집권",
+      "★3 Premium Recruitment Ticket",
+      "★3特別募集券",
+      "★3特級招募券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/Trickcal/board/detail/8223583"
+    ]
+  },
+  {
+    "id": "stellanite-dust",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "별의 파편",
+      "en": "Stellanite Dust",
+      "ja": "星ノ欠片",
+      "zh": "星之砂"
+    },
+    "aliases": [
+      "별의 파편",
+      "Stellanite Dust",
+      "星ノ欠片",
+      "星之砂"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364",
+      "https://stellasora.global/news/1843",
+      "https://stellasora.jp/news/2026",
+      "https://stellasora.yostar.cn/news/15",
+      "https://stellasora.kr/"
+    ],
+    "icon": {
+      "image": "https://novaweb-krstatic.yo-star.com/h5/assets/2-2-04781a52.png",
+      "imageSource": "https://stellasora.kr/",
+      "width": 174,
+      "height": 174,
+      "verifiedAt": "2026-10-20T21:50:47.150182+00:00"
+    }
+  },
+  {
+    "id": "cerulean-ticket",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "하늘 티켓",
+      "en": "Cerulean Ticket",
+      "ja": "青空旅券",
+      "zh": "青空礼券"
+    },
+    "aliases": [
+      "하늘 티켓",
+      "Cerulean Ticket",
+      "青空旅券",
+      "青空礼券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364",
+      "https://stellasora.global/news/1843",
+      "https://stellasora.jp/news/2026",
+      "https://stellasora.yostar.cn/news/15",
+      "https://stellasora.kr/"
+    ],
+    "icon": {
+      "image": "https://novaweb-krstatic.yo-star.com/h5/assets/5-2-6c4b9cfa.png",
+      "imageSource": "https://stellasora.kr/",
+      "width": 174,
+      "height": 174,
+      "verifiedAt": "2026-10-20T21:50:47.150182+00:00"
+    }
+  },
+  {
+    "id": "sprout-ticket",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "새싹 티켓",
+      "en": "Sprout Ticket",
+      "ja": "オアシス旅券",
+      "zh": "萌芽礼券"
+    },
+    "aliases": [
+      "새싹 티켓",
+      "Sprout Ticket",
+      "オアシス旅券",
+      "萌芽礼券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364",
+      "https://stellasora.global/news/1843",
+      "https://stellasora.jp/news/2026",
+      "https://stellasora.yostar.cn/news/4379"
+    ]
+  },
+  {
+    "id": "gold-disc",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "골든 디스크",
+      "en": "Gold Disc",
+      "ja": "煌金レコード",
+      "zh": "灿金闪碟"
+    },
+    "aliases": [
+      "골든 디스크",
+      "Gold Disc",
+      "煌金レコード",
+      "灿金闪碟",
+      "Golden Disc",
+      "ゴールデンレコード"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364",
+      "https://stellasora.global/news/3492",
+      "https://stellasora.jp/news/2026",
+      "https://stellasora.yostar.cn/news/4379"
+    ]
+  },
+  {
+    "id": "destined-dawn-limited-ticket",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "기원 한정 티켓",
+      "en": "Destined Dawn Limited Ticket",
+      "ja": "メモリアル旅券",
+      "zh": "限定招募券"
+    },
+    "aliases": [
+      "기원 한정 티켓",
+      "Destined Dawn Limited Ticket",
+      "メモリアル旅券",
+      "限定招募券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364",
+      "https://stellasora.global/news/4926"
+    ]
+  },
+  {
+    "id": "destined-dawn-limited-disc",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "기원 디스크",
+      "en": "Destined Dawn Limited Disc",
+      "ja": "メモリアルレコード",
+      "zh": "限定祕紋券"
+    },
+    "aliases": [
+      "기원 디스크",
+      "Destined Dawn Limited Disc",
+      "メモリアルレコード",
+      "限定祕紋券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364"
+    ]
+  },
+  {
+    "id": "fated-reunion-limited-ticket",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "재회의 인연 한정 티켓",
+      "en": "Fated Reunion Limited Ticket",
+      "ja": "星明かり旅券",
+      "zh": "週年限定招募券"
+    },
+    "aliases": [
+      "재회의 인연 한정 티켓",
+      "Fated Reunion Limited Ticket",
+      "星明かり旅券",
+      "週年限定招募券"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "ja"
+    ],
+    "translatedLocales": [
+      "en",
+      "zh"
+    ],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364",
+      "https://game.naver.com/lounge/stellasora/board/detail/8340079",
+      "https://stellasora.jp/news/4892"
+    ]
+  },
+  {
+    "id": "drop-of-purity",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "성스러운 이슬",
+      "en": "Drop of Purity",
+      "ja": "恩恵のしずく",
+      "zh": "圣洁之滴"
+    },
+    "aliases": [
+      "성스러운 이슬",
+      "Drop of Purity",
+      "恩恵のしずく",
+      "圣洁之滴"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364",
+      "https://stellasora.global/news/4884",
+      "https://stellasora.jp/news/3503",
+      "https://stellasora.yostar.cn/news/4379"
+    ]
+  },
+  {
+    "id": "star-emblem-polisher",
+    "gameId": "stellasora",
+    "name": {
+      "ko": "별의 배지 연마제",
+      "en": "Star Emblem Polisher",
+      "ja": "徽章研磨剤",
+      "zh": "星章抛光剂"
+    },
+    "aliases": [
+      "별의 배지 연마제",
+      "Star Emblem Polisher",
+      "徽章研磨剤",
+      "星章抛光剂"
+    ],
+    "category": "resource",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://game.naver.com/lounge/stellasora/board/detail/8338364",
+      "https://stellasora.global/news/4884",
+      "https://stellasora.jp/news/3503",
+      "https://stellasora.yostar.cn/news/4379"
+    ]
+  },
+  {
+    "id": "clear-drop",
+    "gameId": "reverse1999",
+    "name": {
+      "ko": "순결의 빗방울",
+      "en": "Clear Drop",
+      "ja": "雨の雫",
+      "zh": "纯雨滴"
+    },
+    "aliases": [
+      "순결의 빗방울",
+      "Clear Drop",
+      "雨の雫",
+      "纯雨滴",
+      "Clear Drops",
+      "纯净雨滴"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://reverse1999.haoplay.com/update/overview3.8?id=1459",
+      "https://re.bluepoch.com/home/detail.html#newsId?102",
+      "https://prtimes.jp/main/html/rd/p/000000023.000123449.html",
+      "https://reverse1999.bluepoch.com/en/event/2_half_anniversary_pre_registration/m_index.html",
+      "https://wiki.biligame.com/reverse1999/%E7%A9%BA%E8%84%91%E8%A2%8B"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/reverse1999/8/84/jzqc5blsip7ib97t39l6xhfmk57qi62.png",
+      "imageSource": "https://wiki.biligame.com/reverse1999/%E7%A9%BA%E8%84%91%E8%A2%8B",
+      "width": 36,
+      "height": 24,
+      "verifiedAt": "2026-10-20T21:50:47.150182+00:00"
+    }
+  },
+  {
+    "id": "unilog",
+    "gameId": "reverse1999",
+    "name": {
+      "ko": "모노로그",
+      "en": "Unilog",
+      "ja": "モノロー",
+      "zh": "独一律"
+    },
+    "aliases": [
+      "모노로그",
+      "Unilog",
+      "モノロー",
+      "独一律"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "official",
+    "sourceUrls": [
+      "https://reverse1999.haoplay.com/update/overview3.8?id=1459",
+      "https://prtimes.jp/main/html/rd/p/000000023.000123449.html",
+      "https://reverse1999.bluepoch.com/en/event/2_half_anniversary_pre_registration/m_index.html",
+      "https://www.taptap.cn/moment/847867884553112990"
+    ]
+  },
+  {
+    "id": "umamusume-jewel",
+    "gameId": "umamusume",
+    "name": {
+      "ko": "쥬얼",
+      "en": "Carats",
+      "ja": "ジュエル",
+      "zh": "宝石"
+    },
+    "aliases": [
+      "쥬얼",
+      "ジュエル",
+      "Jewel",
+      "Carats",
+      "宝石"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "https://gamewith.jp/uma-musume/article/show/279580"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00043.png",
+      "imageSource": "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:34.322916+00:00"
+    }
+  },
+  {
+    "id": "umamusume-uma-gacha-ticket",
+    "gameId": "umamusume",
+    "name": {
+      "ko": "육성 우마무스메 뽑기 티켓",
+      "en": "Uma Musume Scout Ticket",
+      "ja": "育成ウマ娘ガチャチケット",
+      "zh": "赛马娘招募券"
+    },
+    "aliases": [
+      "육성 우마무스메 뽑기 티켓",
+      "育成ウマ娘ガチャチケット",
+      "Uma Tickets",
+      "Scout Ticket"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "https://gamewith.jp/uma-musume/article/show/279583"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00041.png",
+      "imageSource": "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:34.322916+00:00"
+    }
+  },
+  {
+    "id": "umamusume-support-gacha-ticket",
+    "gameId": "umamusume",
+    "name": {
+      "ko": "서포트 카드 뽑기 티켓",
+      "en": "Support Card Scout Ticket",
+      "ja": "サポートカードガチャチケット",
+      "zh": "支援卡招募券"
+    },
+    "aliases": [
+      "서포트 카드 뽑기 티켓",
+      "サポートカードガチャチケット",
+      "Support Tickets"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "https://github.com/charlesmerriman/uma-carat-calculator-web"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00111.png",
+      "imageSource": "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:34.322916+00:00"
+    }
+  },
+  {
+    "id": "umamusume-rainbow-crystal",
+    "gameId": "umamusume",
+    "name": {
+      "ko": "무지개 해방 결정",
+      "en": "Rainbow Crystal",
+      "ja": "虹の解放結晶",
+      "zh": "彩虹解放结晶"
+    },
+    "aliases": [
+      "무지개 해방 결정",
+      "虹の解放結晶",
+      "SSR Crystals"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "https://github.com/charlesmerriman/uma-carat-calculator-web"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00144.png",
+      "imageSource": "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:34.322916+00:00"
+    }
+  },
+  {
+    "id": "umamusume-gold-crystal",
+    "gameId": "umamusume",
+    "name": {
+      "ko": "금 해방 결정",
+      "en": "Gold Crystal",
+      "ja": "金の解放結晶",
+      "zh": "黄金解放结晶"
+    },
+    "aliases": [
+      "금 해방 결정",
+      "金の解放結晶",
+      "SR Crystals"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "https://github.com/charlesmerriman/uma-carat-calculator-web"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00145.png",
+      "imageSource": "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:34.322916+00:00"
+    }
+  },
+  {
+    "id": "umamusume-rainbow-crystal-shard",
+    "gameId": "umamusume",
+    "name": {
+      "ko": "무지개 해방 결정 조각",
+      "en": "Rainbow Crystal Shard",
+      "ja": "虹の結晶片",
+      "zh": "彩虹结晶碎片"
+    },
+    "aliases": [
+      "무지개 해방 결정 조각",
+      "虹の結晶片",
+      "Rainbow Crystal Shards",
+      "SSR Shards"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "https://github.com/charlesmerriman/uma-carat-calculator-web"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00149.png",
+      "imageSource": "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:34.322916+00:00"
+    }
+  },
+  {
+    "id": "umamusume-gold-crystal-shard",
+    "gameId": "umamusume",
+    "name": {
+      "ko": "금 해방 결정 조각",
+      "en": "Gold Crystal Shard",
+      "ja": "金の結晶片",
+      "zh": "黄金结晶碎片"
+    },
+    "aliases": [
+      "금 해방 결정 조각",
+      "金の結晶片",
+      "Gold Crystal Shards",
+      "SR Shards"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "https://github.com/charlesmerriman/uma-carat-calculator-web"
+    ],
+    "icon": {
+      "image": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00150.png",
+      "imageSource": "https://github.com/charlesmerriman/uma-carat-calculator-web/blob/develop/src/components/carat-calculator/IncomeForm.tsx",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-20T21:48:34.322916+00:00"
+    }
+  },
+  {
+    "id": "gfl2-basic-info-core",
+    "gameId": "gfl2",
+    "name": {
+      "ko": "기초 정보 코어",
+      "en": "Basic Info Core",
+      "ja": "基礎情報コア",
+      "zh": "基原信息核"
+    },
+    "aliases": [
+      "基原信息核",
+      "Basic Info Core"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E5%9F%BA%E5%8E%9F%E4%BF%A1%E6%81%AF%E6%A0%B8.png",
+      "https://wiki.biligame.com/gf2/%E8%BF%9C%E6%97%A5%E7%82%B9%E7%89%88%E6%9C%AC%E6%B4%BB%E5%8A%A8%E4%B8%93%E9%A2%98"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/gf2/2/27/qotmvkt0fu3n5gotn7jeie6rujruco9.png",
+      "imageSource": "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E5%9F%BA%E5%8E%9F%E4%BF%A1%E6%81%AF%E6%A0%B8.png",
+      "width": 224,
+      "height": 218,
+      "verifiedAt": "2026-10-20T21:52:14.646268+00:00"
+    }
+  },
+  {
+    "id": "gfl2-collapse-piece",
+    "gameId": "gfl2",
+    "name": {
+      "ko": "붕괴결정 샤드",
+      "en": "Collapse Pieces",
+      "ja": "コーラップスピース",
+      "zh": "坍塌晶条"
+    },
+    "aliases": [
+      "붕괴결정 샤드",
+      "Collapse Pieces",
+      "Collapse Piece",
+      "コーラップスピース",
+      "坍塌晶条",
+      "坍塌晶條"
+    ],
+    "category": "gacha-currency",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E5%9D%8D%E5%A1%8C%E6%99%B6%E6%9D%A1.png",
+      "https://wiki.biligame.com/gf2/%E8%BF%9C%E6%97%A5%E7%82%B9%E7%89%88%E6%9C%AC%E6%B4%BB%E5%8A%A8%E4%B8%93%E9%A2%98",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=english",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=japanese",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=tchinese",
+      "https://gf2.sunborngame.com/NewsInfo?id=2200&typeId=4"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/gf2/a/af/0y1uxl14ocm92hhoakd8kvisr34jsel.png",
+      "imageSource": "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E5%9D%8D%E5%A1%8C%E6%99%B6%E6%9D%A1.png",
+      "width": 228,
+      "height": 210,
+      "verifiedAt": "2026-10-20T21:52:14.646268+00:00"
+    }
+  },
+  {
+    "id": "gfl2-access-permission",
+    "gameId": "gfl2",
+    "name": {
+      "ko": "액세스 권한",
+      "en": "Access Permission",
+      "ja": "訪問許可",
+      "zh": "访问许可"
+    },
+    "aliases": [
+      "액세스 권한",
+      "Access Permission",
+      "Access Permissions",
+      "訪問許可",
+      "访问许可"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E8%AE%BF%E9%97%AE%E8%AE%B8%E5%8F%AF.png",
+      "https://wiki.biligame.com/gf2/%E8%BF%9C%E6%97%A5%E7%82%B9%E7%89%88%E6%9C%AC%E6%B4%BB%E5%8A%A8%E4%B8%93%E9%A2%98",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=english",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=japanese",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=tchinese",
+      "https://gf2.sunborngame.com/NewsInfo?id=2200&typeId=4"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/gf2/4/46/7cvujq7qfa6xxcqe212lsu0mj09sk37.png",
+      "imageSource": "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E8%AE%BF%E9%97%AE%E8%AE%B8%E5%8F%AF.png",
+      "width": 245,
+      "height": 169,
+      "verifiedAt": "2026-10-20T21:52:14.646268+00:00"
+    }
+  },
+  {
+    "id": "gfl2-targeted-access-permission",
+    "gameId": "gfl2",
+    "name": {
+      "ko": "지정 액세스 권한",
+      "en": "Targeted Access Permissions",
+      "ja": "特殊訪問許可",
+      "zh": "专访许可"
+    },
+    "aliases": [
+      "지정 액세스 권한",
+      "Targeted Access Permissions",
+      "Targeted Access Permission",
+      "特殊訪問許可",
+      "专访许可",
+      "專訪許可"
+    ],
+    "category": "gacha-ticket",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E4%B8%93%E8%AE%BF%E8%AE%B8%E5%8F%AF.png",
+      "https://wiki.biligame.com/gf2/%E8%BF%9C%E6%97%A5%E7%82%B9%E7%89%88%E6%9C%AC%E6%B4%BB%E5%8A%A8%E4%B8%93%E9%A2%98",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=english",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=japanese",
+      "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=tchinese",
+      "https://gf2.sunborngame.com/NewsInfo?id=2200&typeId=4"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/gf2/d/d0/0jr9k7fy3094xhheclccqodgrl35rmx.png",
+      "imageSource": "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E4%B8%93%E8%AE%BF%E8%AE%B8%E5%8F%AF.png",
+      "width": 246,
+      "height": 169,
+      "verifiedAt": "2026-10-20T21:52:14.646268+00:00"
+    }
+  },
+  {
+    "id": "gfl2-next-gen-memory-stick",
+    "gameId": "gfl2",
+    "name": {
+      "ko": "차세대 메모리 스틱",
+      "en": "Next-Generation Memory Stick",
+      "ja": "次世代メモリ",
+      "zh": "次世代内存条"
+    },
+    "aliases": [
+      "次世代内存条",
+      "次世代記憶體"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%86%85%E5%AD%98%E6%9D%A1.png",
+      "https://wiki.biligame.com/gf2/%E8%BF%9C%E6%97%A5%E7%82%B9%E7%89%88%E6%9C%AC%E6%B4%BB%E5%8A%A8%E4%B8%93%E9%A2%98"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/gf2/c/c3/tiovmbi3ycnkz1axk1q1nayseio9y2m.png",
+      "imageSource": "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%86%85%E5%AD%98%E6%9D%A1.png",
+      "width": 235,
+      "height": 240,
+      "verifiedAt": "2026-10-20T21:52:14.646268+00:00"
+    }
+  },
+  {
+    "id": "gfl2-sardis-gold",
+    "gameId": "gfl2",
+    "name": {
+      "ko": "샤르디스 골드",
+      "en": "Sardis Gold",
+      "ja": "サルディスゴールド",
+      "zh": "萨狄斯金"
+    },
+    "aliases": [
+      "萨狄斯金",
+      "Sardis Gold"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E8%90%A8%E7%8B%84%E6%96%AF%E9%87%91.png",
+      "https://wiki.biligame.com/gf2/%E8%BF%9C%E6%97%A5%E7%82%B9%E7%89%88%E6%9C%AC%E6%B4%BB%E5%8A%A8%E4%B8%93%E9%A2%98"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/gf2/8/8c/6casdau8s1i4dljvbfuroa5of75y50v.png",
+      "imageSource": "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E8%90%A8%E7%8B%84%E6%96%AF%E9%87%91.png",
+      "width": 222,
+      "height": 246,
+      "verifiedAt": "2026-10-20T21:52:14.646268+00:00"
+    }
+  },
+  {
+    "id": "gfl2-combat-report",
+    "gameId": "gfl2",
+    "name": {
+      "ko": "전장 보고서",
+      "en": "Combat Report",
+      "ja": "戦場報告書",
+      "zh": "战场报告"
+    },
+    "aliases": [
+      "战场报告",
+      "Combat Report",
+      "Combat Reports"
+    ],
+    "category": "resource",
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E6%88%98%E5%9C%BA%E6%8A%A5%E5%91%8A.png",
+      "https://wiki.biligame.com/gf2/%E8%BF%9C%E6%97%A5%E7%82%B9%E7%89%88%E6%9C%AC%E6%B4%BB%E5%8A%A8%E4%B8%93%E9%A2%98"
+    ],
+    "icon": {
+      "image": "https://patchwiki.biligame.com/images/gf2/e/e2/omqcjm3eo0mr3t4raagpbkzikhedp0h.png",
+      "imageSource": "https://wiki.biligame.com/gf2/%E6%96%87%E4%BB%B6:%E6%88%98%E5%9C%BA%E6%8A%A5%E5%91%8A.png",
+      "width": 223,
+      "height": 243,
+      "verifiedAt": "2026-10-20T21:52:14.646268+00:00"
+    }
+  }
+]

@@ -1,0 +1,4 @@
+import {env} from 'cloudflare:workers';
+import type {OfficialChannel} from './official-social';
+export async function readOfficialChannels(gameId?:string){const query=gameId?env.DB!.prepare("SELECT payload FROM official_channels WHERE json_extract(payload,'$.gameId')=?").bind(gameId):env.DB!.prepare('SELECT payload FROM official_channels');const r=await query.all<{payload:string}>();return r.results.map(r=>JSON.parse(r.payload) as OfficialChannel);}
+export async function saveOfficialChannels(channels:OfficialChannel[]){for(let i=0;i<channels.length;i+=30)await env.DB!.batch(channels.slice(i,i+30).map(c=>env.DB!.prepare('INSERT INTO official_channels(id,payload,updated_at) VALUES (?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,updated_at=excluded.updated_at').bind(c.id,JSON.stringify(c),new Date().toISOString())));}

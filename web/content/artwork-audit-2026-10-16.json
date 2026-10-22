@@ -1,0 +1,2489 @@
+{
+  "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+  "entries": [
+    {
+      "entryId": "endfield-si",
+      "title": {
+        "ko": "사 · 만물의 재구성",
+        "en": "Si · Rejuvenation",
+        "ja": "スー · 万象一新",
+        "zh": "祀 · 萬物更新"
+      },
+      "image": "/assets/entities/endfield-si-splash-full-8d3ee8ef.webp",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/jsspsi.fea4b0c4.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "identityEvidence": "Official operator asset key jsspsi paired with localized name Si. Full source and current card identity checked. Exact in-game recruitment-screen equivalence is not independently established.",
+      "provenancePage": "https://endfield.gryphline.com/ko-kr/news/4489",
+      "members": [
+        {
+          "name": {
+            "ko": "사",
+            "en": "Si",
+            "ja": "スー",
+            "zh": "祀"
+          },
+          "image": "/assets/entities/endfield-si-splash-full-8d3ee8ef.webp",
+          "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/jsspsi.fea4b0c4.png"
+        }
+      ],
+      "composition": "Official full operator splash with dynamic pose, huge dragon, greatsword and turquoise ink effects. Includes complete illustration effects; not an isolated standing model.",
+      "fallback": false
+    },
+    {
+      "entryId": "endfield-jade-vessel",
+      "title": {
+        "ko": "옥에 깃든 형체 · 전옥 신청",
+        "en": "Jade Vessel · Seal of Jade Issue",
+        "ja": "玉中身 · 玉書・申請",
+        "zh": "玉中身 · 篆玉申領"
+      },
+      "image": "/assets/entities/endfield-jade-vessel-exact-d1348b06.webp",
+      "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/ae4a0d5301f2ecd124be805ebd31d30f.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Official banner explicitly prints Jade Vessel below its giant white/green greatsword. Existing file correctly matched.",
+      "provenancePage": "https://endfield.gryphline.com/en-us/news/2652",
+      "members": [
+        {
+          "name": {
+            "ko": "옥에 깃든 형체",
+            "en": "Jade Vessel",
+            "ja": "玉中身",
+            "zh": "玉中身"
+          },
+          "image": "/assets/entities/endfield-jade-vessel-exact-d1348b06.webp",
+          "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/ae4a0d5301f2ecd124be805ebd31d30f.jpg"
+        }
+      ]
+    },
+    {
+      "entryId": "endfield-argent-flow",
+      "title": {
+        "ko": "명하",
+        "en": "Argent Flow",
+        "ja": "ミンホ",
+        "zh": "明河"
+      },
+      "image": "/assets/entities/endfield-argent-flow-splash-full-202a5513.webp",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/minghe.117b2c1b.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "identityEvidence": "Official operator asset key minghe paired with localized name Argent Flow. Full source and current card identity checked. Exact in-game recruitment-screen equivalence is not independently established.",
+      "provenancePage": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "members": [
+        {
+          "name": {
+            "ko": "명하",
+            "en": "Argent Flow",
+            "ja": "ミンホ",
+            "zh": "明河"
+          },
+          "image": "/assets/entities/endfield-argent-flow-splash-full-202a5513.webp",
+          "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/minghe.117b2c1b.png"
+        }
+      ],
+      "composition": "Official full operator splash: Argent Flow mounted on a rearing black horse with gold and blue energy and painted backdrop.",
+      "fallback": false
+    },
+    {
+      "entryId": "wuwa-chisa",
+      "title": {
+        "ko": "치사",
+        "en": "Chisa",
+        "ja": "千咲",
+        "zh": "千咲"
+      },
+      "image": "/assets/entities/wuwa-chisa-splash-full-63525a92.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/qianxiao-63525a92.webp",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "identityEvidence": "Visually matched against the named Chisa UP official pickup image trn2p82rluezvtpbhd-1790599750647.jpg. Not the qianxiao-2d1286a8 standee.",
+      "provenancePage": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "members": [
+        {
+          "name": {
+            "ko": "치사",
+            "en": "Chisa",
+            "ja": "千咲",
+            "zh": "千咲"
+          },
+          "image": "/assets/entities/wuwa-chisa-splash-full-63525a92.webp",
+          "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/qianxiao-63525a92.webp"
+        }
+      ],
+      "composition": "Official text-free full convene splash: Chisa seated on red steel beam with oversized red blade, flowing hair and fractured urban skyline. Exact scene used by Horizon of Dawnbreak pickup banner.",
+      "fallback": false
+    },
+    {
+      "entryId": "wuwa-iuno",
+      "title": {
+        "ko": "유노",
+        "en": "Iuno",
+        "ja": "ユーノ",
+        "zh": "尤诺"
+      },
+      "image": "/assets/entities/wuwa-iuno-splash-full-691764b5.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/younuo-691764b5.webp",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "identityEvidence": "Visually matched against the named Iuno UP official pickup image 52fuzc2q5izfpskj6p-1790599795275.jpg. Not the youn uo-e2816fcf standee.",
+      "provenancePage": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "members": [
+        {
+          "name": {
+            "ko": "유노",
+            "en": "Iuno",
+            "ja": "ユーノ",
+            "zh": "尤诺"
+          },
+          "image": "/assets/entities/wuwa-iuno-splash-full-691764b5.webp",
+          "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/younuo-691764b5.webp"
+        }
+      ],
+      "composition": "Official text-free full convene splash: Iuno floating amid a moon, blue waves and golden star effects. Exact scene used by Across Times Waxes and Wanes pickup banner.",
+      "fallback": false
+    },
+    {
+      "entryId": "wuwa-kumokiri",
+      "title": {
+        "ko": "쿠모키리(曇斬)",
+        "en": "Kumokiri",
+        "ja": "曇斬",
+        "zh": "昙切"
+      },
+      "image": "/assets/entities/wuwa-kumokiri-exact-ad8e4c16.webp",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/bp1ghgcr0axdqnq3tg-1790599781062.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Original banner visibly labels KUMOKIRI and shows the exact red/black blade; identity verified.",
+      "provenancePage": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "members": [
+        {
+          "name": {
+            "ko": "쿠모키리(曇斬)",
+            "en": "Kumokiri",
+            "ja": "曇斬",
+            "zh": "昙切"
+          },
+          "image": "/assets/entities/wuwa-kumokiri-exact-ad8e4c16.webp",
+          "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/bp1ghgcr0axdqnq3tg-1790599781062.jpg"
+        }
+      ]
+    },
+    {
+      "entryId": "wuwa-moongazer",
+      "title": {
+        "ko": "세상 만물의 진리",
+        "en": "Moongazer's Sigil",
+        "ja": "万物を書き留める月相",
+        "zh": "万物持存的注释"
+      },
+      "image": "/assets/entities/wuwa-moongazer-exact-86b0d95e.webp",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/5se8wi7o764x037898-1790599812463.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Original banner visibly labels MOONGAZER’S SIGIL and shows the exact gold/blue lunar gauntlet; identity verified.",
+      "provenancePage": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "members": [
+        {
+          "name": {
+            "ko": "세상 만물의 진리",
+            "en": "Moongazer's Sigil",
+            "ja": "万物を書き留める月相",
+            "zh": "万物持存的注释"
+          },
+          "image": "/assets/entities/wuwa-moongazer-exact-86b0d95e.webp",
+          "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/5se8wi7o764x037898-1790599812463.jpg"
+        }
+      ]
+    },
+    {
+      "entryId": "nte-blackbird",
+      "title": {
+        "ko": "레이븐",
+        "en": "Blackbird",
+        "ja": "クロバネ",
+        "zh": "黑羽"
+      },
+      "image": "/assets/entities/nte-blackbird-ko-full-3e4f6a25.jpg",
+      "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfMjIy/MDAxNzkwMjUwMDA0MTM0.lPsOnbyfW3Txna-I-n2Jn0PO2awMCMdo_1azjov5z8Eg.VBBvl34mA8y6Z1wXvYc_wQhsprk-1Umno7d4O2c7Umkg.JPEG/1920x1080-kr.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "members": [
+        {
+          "name": {
+            "ko": "레이븐",
+            "en": "Blackbird",
+            "ja": "クロバネ",
+            "zh": "黑羽"
+          },
+          "image": "/assets/entities/nte-blackbird-ko-full-3e4f6a25.jpg",
+          "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfMjIy/MDAxNzkwMjUwMDA0MTM0.lPsOnbyfW3Txna-I-n2Jn0PO2awMCMdo_1azjov5z8Eg.VBBvl34mA8y6Z1wXvYc_wQhsprk-1Umno7d4O2c7Umkg.JPEG/1920x1080-kr.jpg"
+        }
+      ],
+      "composition": "Full Korean official promotional banner",
+      "fallback": true
+    },
+    {
+      "entryId": "nte-lacrimosa",
+      "title": {
+        "ko": "라크리모사",
+        "en": "Lacrimosa",
+        "ja": "レクイエム",
+        "zh": "安魂曲"
+      },
+      "image": "/assets/entities/nte-lacrimosa-ko-full-76fd214f.jpg",
+      "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfMjI1/MDAxNzkwMjQ1NjA5ODIw.fl2abbSUcgBRjIPr8XxISE7qlHMtyp6zWx_mgGUiUmQg.vjkL6oMqwLwWwvzesoqoQSkzC3B6GOylkZ5zYo5fyV4g.JPEG/1920x1080-KR.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "members": [
+        {
+          "name": {
+            "ko": "라크리모사",
+            "en": "Lacrimosa",
+            "ja": "レクイエム",
+            "zh": "安魂曲"
+          },
+          "image": "/assets/entities/nte-lacrimosa-ko-full-76fd214f.jpg",
+          "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfMjI1/MDAxNzkwMjQ1NjA5ODIw.fl2abbSUcgBRjIPr8XxISE7qlHMtyp6zWx_mgGUiUmQg.vjkL6oMqwLwWwvzesoqoQSkzC3B6GOylkZ5zYo5fyV4g.JPEG/1920x1080-KR.jpg"
+        }
+      ],
+      "composition": "Full Korean official promotional banner",
+      "fallback": true
+    },
+    {
+      "entryId": "nte-crime-punishment",
+      "title": {
+        "ko": "죄와 벌",
+        "en": "Crime and Punishment",
+        "ja": "罪と罰",
+        "zh": "罪与罚"
+      },
+      "image": "/assets/entities/nte-crime-punishment-ko-full-a30f85e1.jpg",
+      "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfMTI0/MDAxNzkwMjUwMzE4ODI3.WvOv27cJUzIV6YqNnRKJDaq3tN4NuA9Lw3iivYCdwUwg.Y6UaJL952fqsCXA4SG4X48hUcvgJCFbN6DZYOefbatUg.JPEG/1920x1080-kr.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "members": [
+        {
+          "name": {
+            "ko": "죄와 벌",
+            "en": "Crime and Punishment",
+            "ja": "罪と罰",
+            "zh": "罪与罚"
+          },
+          "image": "/assets/entities/nte-crime-punishment-ko-full-a30f85e1.jpg",
+          "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfMTI0/MDAxNzkwMjUwMzE4ODI3.WvOv27cJUzIV6YqNnRKJDaq3tN4NuA9Lw3iivYCdwUwg.Y6UaJL952fqsCXA4SG4X48hUcvgJCFbN6DZYOefbatUg.JPEG/1920x1080-kr.jpg"
+        }
+      ],
+      "composition": "Full Korean official promotional banner",
+      "fallback": true
+    },
+    {
+      "entryId": "nte-last-rose",
+      "title": {
+        "ko": "마지막 장미",
+        "en": "The Last Rose",
+        "ja": "ラスト・ローズ",
+        "zh": "最后一朵玫瑰"
+      },
+      "image": "/assets/entities/nte-last-rose-ko-full-4986a9f5.jpg",
+      "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfMTQ2/MDAxNzkwMjQ1NjIxNzQz.473Y0eZtcFwD1r1MnELCqxT8d9CfdNa7ChgtggGLq7Ag.2HyuIjXYSgitdde8nwLn3onZyCpI5tY6t7i-OxDflZUg.JPEG/1920x1080-KR.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "members": [
+        {
+          "name": {
+            "ko": "마지막 장미",
+            "en": "The Last Rose",
+            "ja": "ラスト・ローズ",
+            "zh": "最后一朵玫瑰"
+          },
+          "image": "/assets/entities/nte-last-rose-ko-full-4986a9f5.jpg",
+          "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfMTQ2/MDAxNzkwMjQ1NjIxNzQz.473Y0eZtcFwD1r1MnELCqxT8d9CfdNa7ChgtggGLq7Ag.2HyuIjXYSgitdde8nwLn3onZyCpI5tY6t7i-OxDflZUg.JPEG/1920x1080-KR.jpg"
+        }
+      ],
+      "composition": "Full Korean official promotional banner",
+      "fallback": true
+    },
+    {
+      "entryId": "arknights-sealed",
+      "title": {
+        "ko": "켈시 에스페란타 / 클로저",
+        "en": "Kal'tsit Esperanta / Closure",
+        "ja": "ケルシー・エスペランタ / クロージャ",
+        "zh": "凯尔希·思衡托 / 可露希尔"
+      },
+      "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Replaces base standing art with the exact operator’s official in-game Elite 2 illustration. Mirrored game asset; this is promotion artwork, not a screenshot of the pull result.",
+      "provenancePage": "https://wiki.biligame.com/arknights/凯尔希·思衡托",
+      "members": [
+        {
+          "name": {
+            "ko": "켈시 에스페란타",
+            "en": "Kal'tsit Esperanta",
+            "ja": "ケルシー・エスペランタ",
+            "zh": "凯尔希·思衡托"
+          },
+          "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png"
+        },
+        {
+          "name": {
+            "ko": "클로저",
+            "en": "Closure",
+            "ja": "クロージャ",
+            "zh": "可露希尔"
+          },
+          "image": "/assets/entities/ark-closure-e2-full-c8409a3d.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/0/0a/np6cjo1ea1t8vd7s96g9tc5j7rqfd5m.png"
+        },
+        {
+          "name": {
+            "ko": "크랙본",
+            "en": "Crackborne",
+            "ja": "クラックボーン",
+            "zh": "裂响"
+          },
+          "image": "/assets/entities/ark-crackborne-e2-full-c9777867.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/9/97/4ye63oksjsx23cbm09kz34pllj2e7be.png"
+        }
+      ],
+      "composition": "elite-2-full-splash",
+      "fallback": false
+    },
+    {
+      "entryId": "genshin-71-skirk",
+      "title": {
+        "ko": "스커크",
+        "en": "Skirk",
+        "ja": "スカーク",
+        "zh": "丝柯克"
+      },
+      "image": "/assets/entities/skirk-8f6cf04f.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/c811574d08b3291a38980c2c51d2c408_2989697503942306840.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "identityEvidence": "Korean HoYoWiki API returns Korean character name and the exact selected header_img_url.",
+      "provenancePage": "https://wiki.hoyolab.com/pc/genshin/entry/7706?lang=ko-kr",
+      "members": [
+        {
+          "name": {
+            "ko": "스커크",
+            "en": "Skirk",
+            "ja": "スカーク",
+            "zh": "丝柯克"
+          },
+          "image": "/assets/entities/skirk-8f6cf04f.webp",
+          "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/c811574d08b3291a38980c2c51d2c408_2989697503942306840.png"
+        }
+      ],
+      "composition": "Full official character splash with Skirk, surrounding crystalline shards, sword trails and blue starfield effects. This is the existing full effects asset, not a standalone standee.",
+      "fallback": false
+    },
+    {
+      "entryId": "genshin-71-escoffier",
+      "title": {
+        "ko": "에스코피에",
+        "en": "Escoffier",
+        "ja": "エスコフィエ",
+        "zh": "爱可菲"
+      },
+      "image": "/assets/entities/escoffier-29c50598.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/7144e05505e492dbea93ed4addb4c6ee_1454738046342063990.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "identityEvidence": "Korean HoYoWiki API returns Korean character name and the exact selected header_img_url.",
+      "provenancePage": "https://wiki.hoyolab.com/pc/genshin/entry/7624?lang=ko-kr",
+      "members": [
+        {
+          "name": {
+            "ko": "에스코피에",
+            "en": "Escoffier",
+            "ja": "エスコフィエ",
+            "zh": "爱可菲"
+          },
+          "image": "/assets/entities/escoffier-29c50598.webp",
+          "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/7144e05505e492dbea93ed4addb4c6ee_1454738046342063990.png"
+        }
+      ],
+      "composition": "Full official character splash: seated Escoffier with her large cooking instrument, musical shapes, ice arcs and sparkle effects. Preserve surrounding effects.",
+      "fallback": false
+    },
+    {
+      "entryId": "genshin-71-weapon",
+      "title": {
+        "ko": "창백한 섬광 · 맛의 지휘자",
+        "en": "Azurelight · Symphonist of Scents",
+        "ja": "蒼耀・香りのシンフォニスト",
+        "zh": "苍耀 · 香韵奏者"
+      },
+      "image": "/assets/entities/azurelight-298e5509.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/12/f217352d0464adbdf45112fcaf722128_3502992130143524197.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": null,
+      "members": [
+        {
+          "name": {
+            "ko": "창백한 섬광",
+            "en": "Azurelight",
+            "ja": "蒼耀",
+            "zh": "苍耀"
+          },
+          "image": "/assets/entities/azurelight-298e5509.webp",
+          "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/12/f217352d0464adbdf45112fcaf722128_3502992130143524197.png"
+        },
+        {
+          "name": {
+            "ko": "맛의 지휘자",
+            "en": "Symphonist of Scents",
+            "ja": "香りのシンフォニスト",
+            "zh": "香韵奏者"
+          },
+          "image": "/assets/entities/symphonist-8f77b408.webp",
+          "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/29/de828ce33b8616998260d71c2f84d93f_1382184822064401171.png"
+        }
+      ]
+    },
+    {
+      "entryId": "zzz-32-roxy",
+      "title": {
+        "ko": "록시",
+        "en": "Roxy",
+        "ja": "ロクシー",
+        "zh": "洛克茜"
+      },
+      "image": "/assets/entities/roxy-pickup-full-ko-full-403993e1.webp",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/8f07f00c3db0d2ccacd6b5a99e67e353_482773711433485537.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "identityEvidence": "Korean official current pickup notice names the character and publishes this complete Korean dedicated pickup banner. Visually verified Korean character name and pickup title on the selected image.",
+      "provenancePage": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+      "members": [
+        {
+          "name": {
+            "ko": "록시",
+            "en": "Roxy",
+            "ja": "ロクシー",
+            "zh": "洛克茜"
+          },
+          "image": "/assets/entities/roxy-pickup-full-ko-full-403993e1.webp",
+          "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/8f07f00c3db0d2ccacd6b5a99e67e353_482773711433485537.jpg"
+        }
+      ],
+      "composition": "Korean official named 잿빛 밤에 내린 안식 / 록시 exclusive-channel promotional illustration. Complete 1920x1080 banner with exact Roxy on the right, red/teal illustrated background and pickup title. Fallback: not an extracted in-game gacha splash.",
+      "fallback": false
+    },
+    {
+      "entryId": "zzz-32-promeia",
+      "title": {
+        "ko": "프로미아",
+        "en": "Promeia",
+        "ja": "プロメイア",
+        "zh": "普罗米娅"
+      },
+      "image": "/assets/entities/promeia-pickup-full-ko-full-b6438e4c.webp",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/9d255479db74fc33363a6b5037679e29_8927813296241621736.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "identityEvidence": "Korean official current pickup notice names the character and publishes this complete Korean dedicated pickup banner. Visually verified Korean character name and pickup title on the selected image.",
+      "provenancePage": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+      "members": [
+        {
+          "name": {
+            "ko": "프로미아",
+            "en": "Promeia",
+            "ja": "プロメイア",
+            "zh": "普罗米娅"
+          },
+          "image": "/assets/entities/promeia-pickup-full-ko-full-b6438e4c.webp",
+          "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/9d255479db74fc33363a6b5037679e29_8927813296241621736.jpg"
+        }
+      ],
+      "composition": "Korean official named 찬비가 그치는 밤 / 프로미아 exclusive-channel promotional illustration. Complete 1920x1080 banner with exact Promeia on the right, blue-purple chains and shard effects and pickup title. Fallback: not an extracted in-game gacha splash.",
+      "fallback": false
+    },
+    {
+      "entryId": "zzz-32-crimson-moon",
+      "title": {
+        "ko": "진홍달의 은관",
+        "en": "Crimson Moon Casket",
+        "ja": "緋月の銀棺",
+        "zh": "绯月银棺"
+      },
+      "image": "/assets/entities/crimson-3b64c338.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/09/29/d0b9026b4bd2641c63dcebe0bb53d3ab_3998106390675837827.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "HoYoWiki official-hosted game database; named weapon gallery or Light Cone Art; admin CDN upload",
+      "provenancePage": "https://wiki.hoyolab.com/pc/zzz/entry/1209?lang=ja-jp",
+      "members": [
+        {
+          "name": {
+            "ko": "진홍달의 은관",
+            "en": "Crimson Moon Casket",
+            "ja": "緋月の銀棺",
+            "zh": "绯月银棺"
+          },
+          "image": "/assets/entities/crimson-3b64c338.webp",
+          "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/09/29/d0b9026b4bd2641c63dcebe0bb53d3ab_3998106390675837827.png"
+        }
+      ]
+    },
+    {
+      "entryId": "zzz-32-frostfall",
+      "title": {
+        "ko": "삭월에 끊어지는 서리",
+        "en": "Frostfall Sickle",
+        "ja": "フロスト・クレセント",
+        "zh": "朔月裁霜"
+      },
+      "image": "/assets/entities/frostfall-8c0e277b.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/05/06/8225136d9d3436f3b92211ac1a6635f7_4904353841212928551.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "HoYoWiki official-hosted game database; named weapon gallery or Light Cone Art; admin CDN upload",
+      "provenancePage": "https://wiki.hoyolab.com/pc/zzz/entry/1087?lang=en-us",
+      "members": [
+        {
+          "name": {
+            "ko": "삭월에 끊어지는 서리",
+            "en": "Frostfall Sickle",
+            "ja": "フロスト・クレセント",
+            "zh": "朔月裁霜"
+          },
+          "image": "/assets/entities/frostfall-8c0e277b.webp",
+          "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/05/06/8225136d9d3436f3b92211ac1a6635f7_4904353841212928551.png"
+        }
+      ]
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-1",
+      "title": {
+        "ko": "츠무기",
+        "en": "Tsumugi",
+        "ja": "ツムギ",
+        "zh": "ツムギ"
+      },
+      "image": "/assets/entities/verified-bluearchive-pickup-1-985dca6f.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/I__RfZeX.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://bluearchive.jp/news/newsJump/696",
+      "members": [
+        {
+          "name": {
+            "ko": "츠무기",
+            "en": "Tsumugi",
+            "ja": "ツムギ",
+            "zh": "ツムギ"
+          },
+          "image": "/assets/entities/verified-bluearchive-pickup-1-985dca6f.webp",
+          "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/I__RfZeX.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-2",
+      "title": {
+        "ko": "에리",
+        "en": "Eri",
+        "ja": "エリ",
+        "zh": "エリ"
+      },
+      "image": "/assets/entities/verified-bluearchive-pickup-2-7cabf8fe.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/amlUiofk.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://bluearchive.jp/news/newsJump/696",
+      "members": [
+        {
+          "name": {
+            "ko": "에리",
+            "en": "Eri",
+            "ja": "エリ",
+            "zh": "エリ"
+          },
+          "image": "/assets/entities/verified-bluearchive-pickup-2-7cabf8fe.webp",
+          "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/amlUiofk.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-3",
+      "title": {
+        "ko": "카노에",
+        "en": "Kanoe",
+        "ja": "カノエ",
+        "zh": "カノエ"
+      },
+      "image": "/assets/entities/verified-bluearchive-pickup-3-6457ef18.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/WWbPQSg1.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://bluearchive.jp/news/newsJump/696",
+      "members": [
+        {
+          "name": {
+            "ko": "카노에",
+            "en": "Kanoe",
+            "ja": "カノエ",
+            "zh": "カノエ"
+          },
+          "image": "/assets/entities/verified-bluearchive-pickup-3-6457ef18.webp",
+          "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/WWbPQSg1.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-4",
+      "title": {
+        "ko": "미야코(수영복)",
+        "en": "Miyako (Swimsuit)",
+        "ja": "ミヤコ(水着)",
+        "zh": "宫子（泳装）"
+      },
+      "image": "/assets/entities/verified-bluearchive-pickup-4-32c063ff.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/Z4Yzn72I.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://bluearchive.jp/news/newsJump/696",
+      "members": [
+        {
+          "name": {
+            "ko": "미야코(수영복)",
+            "en": "Miyako (Swimsuit)",
+            "ja": "ミヤコ(水着)",
+            "zh": "宫子（泳装）"
+          },
+          "image": "/assets/entities/verified-bluearchive-pickup-4-32c063ff.webp",
+          "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/Z4Yzn72I.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-5",
+      "title": {
+        "ko": "사키(수영복)",
+        "en": "Saki (Swimsuit)",
+        "ja": "サキ(水着)",
+        "zh": "咲（泳装）"
+      },
+      "image": "/assets/entities/verified-bluearchive-pickup-5-29546413.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/k3Nmy7fC.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://bluearchive.jp/news/newsJump/696",
+      "members": [
+        {
+          "name": {
+            "ko": "사키(수영복)",
+            "en": "Saki (Swimsuit)",
+            "ja": "サキ(水着)",
+            "zh": "咲（泳装）"
+          },
+          "image": "/assets/entities/verified-bluearchive-pickup-5-29546413.webp",
+          "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/k3Nmy7fC.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "uma-global-20261014-brian",
+      "title": {
+        "ko": "나리타 브라이언 · 신규 의상",
+        "en": "Narita Brian [Ravenous Wolf]",
+        "ja": "ナリタブライアン · 新衣装",
+        "zh": "成田白仁 · 新服装"
+      },
+      "image": "/assets/entities/uma-brian-global-pickup-full-466a7603.webp",
+      "imageSource": "https://assets-webview-umamusume-en.akamaized.net/contents/assets/images/uploads/Header/gacha_banner_30136_new2_L1792015200.png?c=20260916092316",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Replaces 256px portrait with the complete current Global official dedicated Ravenous Wolf scout banner. Limitation: original is 936×228 (wide header), so show at natural ratio/contain, not as an enlarged portrait. No full scenic gacha illustration verified.",
+      "provenancePage": "https://umamusume.com/news/1103",
+      "members": [
+        {
+          "name": {
+            "ko": "나리타 브라이언 · 신규 의상",
+            "en": "Narita Brian [Ravenous Wolf]",
+            "ja": "ナリタブライアン · 新衣装",
+            "zh": "成田白仁 · 新服装"
+          },
+          "image": "/assets/entities/uma-brian-global-pickup-full-466a7603.webp",
+          "imageSource": "https://assets-webview-umamusume-en.akamaized.net/contents/assets/images/uploads/Header/gacha_banner_30136_new2_L1792015200.png?c=20260916092316"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "uma-global-20261014-zephyr",
+      "title": {
+        "ko": "야마닌 제퍼 · SSR",
+        "en": "Yamanin Zephyr SSR [To Winds Untraveled]",
+        "ja": "ヤマニンゼファー · SSR",
+        "zh": "也文摄辉 · SSR"
+      },
+      "image": "/assets/entities/uma-zephyr-ssr-9180aa37.webp",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/30126.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: existing 1536×2048 full support-card illustration is correct for the named card.",
+      "provenancePage": "https://gametora.com/umamusume/supports/30126-yamanin-zephyr",
+      "members": [
+        {
+          "name": {
+            "ko": "야마닌 제퍼 · SSR",
+            "en": "Yamanin Zephyr SSR [To Winds Untraveled]",
+            "ja": "ヤマニンゼファー · SSR",
+            "zh": "也文摄辉 · SSR"
+          },
+          "image": "/assets/entities/uma-zephyr-ssr-9180aa37.webp",
+          "imageSource": "https://media.gametora.com/umamusume/supports/full/30126.png"
+        }
+      ],
+      "composition": "full-support-card-art",
+      "fallback": false
+    },
+    {
+      "entryId": "uma-global-20261014-opera",
+      "title": {
+        "ko": "티엠 오페라 오 · SR",
+        "en": "T.M. Opera O SR [Mighty Fotografia]",
+        "ja": "テイエムオペラオー · SR",
+        "zh": "好歌剧 · SR"
+      },
+      "image": "/assets/entities/uma-opera-sr-3dd7dfff.webp",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/20054.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: existing 1536×2048 full support-card illustration is correct for the named card.",
+      "provenancePage": "https://gametora.com/umamusume/supports/20054-tm-opera-o",
+      "members": [
+        {
+          "name": {
+            "ko": "티엠 오페라 오 · SR",
+            "en": "T.M. Opera O SR [Mighty Fotografia]",
+            "ja": "テイエムオペラオー · SR",
+            "zh": "好歌剧 · SR"
+          },
+          "image": "/assets/entities/uma-opera-sr-3dd7dfff.webp",
+          "imageSource": "https://media.gametora.com/umamusume/supports/full/20054.png"
+        }
+      ],
+      "composition": "full-support-card-art",
+      "fallback": false
+    },
+    {
+      "entryId": "nikke-global-20261008-belorta",
+      "title": {
+        "ko": "벨로타 : 펌킨 위치",
+        "en": "Belorta: Pumpkin Witch",
+        "ja": "ベロータ：パンプキンウィッチ",
+        "zh": "貝洛塔：南瓜女巫"
+      },
+      "image": "/assets/entities/nikke-belorta-235e2435.webp",
+      "imageSource": "https://www.gacha.gg/img/nikke/dm/chars/belorta-pumpkin-witch-c063-art.webp",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained full Belorta: Pumpkin Witch c063_00 draw artwork. Available mirror is 600×748; no verified larger standalone drawing found. The Korean event key visual is available separately but includes other imagery.",
+      "provenancePage": "https://www.gacha.gg/nikke/characters/belorta-pumpkin-witch",
+      "members": [],
+      "composition": "full-character-draw-art",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-haoplay-mityl-featured",
+      "title": {
+        "ko": "미틸",
+        "en": "Mityl",
+        "ja": "ミティール",
+        "zh": "米蒂爾"
+      },
+      "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+      "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Mityl outfit and weapon. This is a game scene/3D render, not the gacha result illustration.",
+      "provenancePage": "https://iopwiki.com/wiki/Mityl",
+      "members": [
+        {
+          "name": {
+            "ko": "미틸",
+            "en": "Mityl",
+            "ja": "ミティール",
+            "zh": "米蒂爾"
+          },
+          "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+          "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg"
+        },
+        {
+          "name": {
+            "ko": "캐롤릭",
+            "en": "Krolik",
+            "ja": "キャロリック",
+            "zh": "克羅麗科"
+          },
+          "image": "/assets/entities/gf2-krolik-f88d7d36.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-CHAROLIC_91dad23f72.webp?v03"
+        },
+        {
+          "name": {
+            "ko": "네메시스",
+            "en": "Nemesis",
+            "ja": "ネメシス",
+            "zh": "納美西絲"
+          },
+          "image": "/assets/entities/gf2-nemesis-full-4c7d73a7.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-NEMESIS_ab6a8b4491.webp?v03"
+        }
+      ],
+      "composition": "full-official-game-scene",
+      "fallback": false
+    },
+    {
+      "entryId": "hsr-46-pearl",
+      "title": {
+        "ko": "펄",
+        "en": "Pearl",
+        "ja": "パール",
+        "zh": "真珠"
+      },
+      "image": "/assets/entities/pearl-splash-full-48839311.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/09/20/ed0ab5bc744b3e62a86ca4a3f64a2103_6374700249797635944.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "identityEvidence": "Korean official character CMS names the exact character. Selected language-neutral illustration retains original verified publisher art source.",
+      "provenancePage": "https://hsr.hoyoverse.com/ko-kr/character",
+      "members": [
+        {
+          "name": {
+            "ko": "펄",
+            "en": "Pearl",
+            "ja": "パール",
+            "zh": "真珠"
+          },
+          "image": "/assets/entities/pearl-splash-full-48839311.webp",
+          "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/09/20/ed0ab5bc744b3e62a86ca4a3f64a2103_6374700249797635944.png"
+        }
+      ],
+      "composition": "Official HoYoWiki Gallery asset explicitly titled Splash Art. Pearl appears in the center of a complete composition of painted scrolls and large multicolored brushstroke effects.",
+      "fallback": false
+    },
+    {
+      "entryId": "hsr-46-evanescia",
+      "title": {
+        "ko": "에바네시아",
+        "en": "Evanescia",
+        "ja": "緋英",
+        "zh": "绯英"
+      },
+      "image": "/assets/entities/evanescia-splash-full-276434e1.webp",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/163485/98111f6e9c9f74d7864ae25407fcb5a5_1287014810239226640.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "identityEvidence": "Korean official character CMS names the exact character. Selected language-neutral illustration retains original verified publisher art source.",
+      "provenancePage": "https://hsr.hoyoverse.com/ko-kr/character",
+      "members": [
+        {
+          "name": {
+            "ko": "에바네시아",
+            "en": "Evanescia",
+            "ja": "緋英",
+            "zh": "绯英"
+          },
+          "image": "/assets/entities/evanescia-splash-full-276434e1.webp",
+          "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/163485/98111f6e9c9f74d7864ae25407fcb5a5_1287014810239226640.png"
+        }
+      ],
+      "composition": "Complete publisher character-site posterPC splash: Evanescia seated amid oversized pink fox spirits, cushions, sword, drinks and snacks. This is a full illustrated composition, not a standee.",
+      "fallback": false
+    },
+    {
+      "entryId": "hsr-46-colors-for-tomorrow",
+      "title": {
+        "ko": "내일에 바치는 색채",
+        "en": "Colors for Tomorrow",
+        "ja": "明日に捧げる色",
+        "zh": "献给明日的色彩"
+      },
+      "image": "/assets/entities/colors-5ad04db6.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/09/24/c36e3ad6df5f2ff6f05f97f0a84bb57f_2001189491613333381.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "HoYoWiki official-hosted game database; named weapon gallery or Light Cone Art; admin CDN upload",
+      "provenancePage": "https://wiki.hoyolab.com/pc/hsr/entry/10394?lang=en-us",
+      "members": [
+        {
+          "name": {
+            "ko": "내일에 바치는 색채",
+            "en": "Colors for Tomorrow",
+            "ja": "明日に捧げる色",
+            "zh": "献给明日的色彩"
+          },
+          "image": "/assets/entities/colors-5ad04db6.webp",
+          "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/09/24/c36e3ad6df5f2ff6f05f97f0a84bb57f_2001189491613333381.png"
+        }
+      ]
+    },
+    {
+      "entryId": "hsr-46-flowers-bloom-again",
+      "title": {
+        "ko": "다음 꽃피는 계절의 만남",
+        "en": "Until the Flowers Bloom Again",
+        "ja": "再び花が咲く季節に",
+        "zh": "邂逅于下一个花季"
+      },
+      "image": "/assets/entities/flowers-preview-13-f1ec3316.webp",
+      "imageSource": "https://upload-os-bbs.hoyolab.com/upload/2026/04/30/68d0bcbad9196f490e2f3a8c0977a594_140178379433168483.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Honkai: Star Rail verified official account (uid 172534910); Character Preview | Evanescia; final dedicated Light Cone Preview image explicitly names Until the Flowers Bloom Again and depicts only that Light Cone artwork.",
+      "provenancePage": "https://www.hoyolab.com/article/44937753",
+      "members": [
+        {
+          "name": {
+            "ko": "다음 꽃피는 계절의 만남",
+            "en": "Until the Flowers Bloom Again",
+            "ja": "再び花が咲く季節に",
+            "zh": "邂逅于下一个花季"
+          },
+          "image": "/assets/entities/flowers-preview-13-f1ec3316.webp",
+          "imageSource": "https://upload-os-bbs.hoyolab.com/upload/2026/04/30/68d0bcbad9196f490e2f3a8c0977a594_140178379433168483.jpg"
+        }
+      ]
+    },
+    {
+      "entryId": "endfield-tangtang",
+      "title": {
+        "ko": "탕탕",
+        "en": "Tangtang",
+        "ja": "タンタン",
+        "zh": "湯湯"
+      },
+      "image": "/assets/entities/endfield-tangtang-splash-full-eaa02d02.webp",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.2602b587.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "identityEvidence": "Official operator asset key tangtang paired with localized name Tangtang. Full source and current card identity checked. Exact in-game recruitment-screen equivalence is not independently established.",
+      "provenancePage": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "members": [
+        {
+          "name": {
+            "ko": "탕탕",
+            "en": "Tangtang",
+            "ja": "タンタン",
+            "zh": "湯湯"
+          },
+          "image": "/assets/entities/endfield-tangtang-splash-full-eaa02d02.webp",
+          "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.2602b587.png"
+        }
+      ],
+      "composition": "Official full operator splash: dynamic floating Tangtang with twin handguns, tiger and blue/gold ink-and-water effects.",
+      "fallback": false
+    },
+    {
+      "entryId": "endfield-brigand",
+      "title": {
+        "ko": "반항",
+        "en": "Brigand's Calling",
+        "ja": "落草",
+        "zh": "落草"
+      },
+      "image": "/assets/entities/endfield-brigand-exact-9dd3dbde.webp",
+      "imageSource": "https://pbs.twimg.com/media/HC88q7Aa8AAWelk.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Official weapon sheet labels Brigand’s Calling (Handcannon). Two black/green handcannons with red grips inspected. English entry title must be Brigand’s Calling, not Brigand.",
+      "provenancePage": "https://x.com/AKEndfield/status/2031671481025941845",
+      "members": [
+        {
+          "name": {
+            "ko": "반항",
+            "en": "Brigand's Calling",
+            "ja": "落草",
+            "zh": "落草"
+          },
+          "image": "/assets/entities/endfield-brigand-exact-9dd3dbde.webp",
+          "imageSource": "https://pbs.twimg.com/media/HC88q7Aa8AAWelk.jpg"
+        }
+      ]
+    },
+    {
+      "entryId": "wuwa-hsin",
+      "title": {
+        "ko": "여우의 별자리",
+        "en": "Hsin",
+        "ja": "心",
+        "zh": "心"
+      },
+      "image": "/assets/entities/wuwa-hsin-splash-full-3df11519.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/xin-3df11519.webp",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "identityEvidence": "Visually matched against official Hsin UP banner HTTjv7tacAAa8-b.jpg and official named profile5492. This is the full scene variant, not xin-e43e31a9 standee.",
+      "provenancePage": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+      "members": [
+        {
+          "name": {
+            "ko": "여우의 별자리",
+            "en": "Hsin",
+            "ja": "心",
+            "zh": "心"
+          },
+          "image": "/assets/entities/wuwa-hsin-splash-full-3df11519.webp",
+          "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/xin-3df11519.webp"
+        }
+      ],
+      "composition": "Official text-free full convene splash: reclining Hsin, giant golden fox manifestation, city architecture and red ribbons. This exact scene appears in the current named Hsin pickup banner.",
+      "fallback": false
+    },
+    {
+      "entryId": "wuwa-blooming-jadehaven",
+      "title": {
+        "ko": "옥궐에 피는 꽃",
+        "en": "Blooming Jadehaven",
+        "ja": "玉殿に咲き満ちる玄華",
+        "zh": "玉阙玄华"
+      },
+      "image": "/assets/entities/wuwa-blooming-jadehaven-exact-ec6c5a9c.webp",
+      "imageSource": "https://pbs.twimg.com/media/HTH8k2easAAaQqL.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Official weapon sheet explicitly labels Blooming Jadehaven and Rectifier. Actual golden mechanism with red/pink ring and petals inspected. Crop upper24% via CSS for card.",
+      "provenancePage": "https://x.com/Wuthering_Waves/status/2103786666876150198",
+      "members": [
+        {
+          "name": {
+            "ko": "옥궐에 피는 꽃",
+            "en": "Blooming Jadehaven",
+            "ja": "玉殿に咲き満ちる玄華",
+            "zh": "玉阙玄华"
+          },
+          "image": "/assets/entities/wuwa-blooming-jadehaven-exact-ec6c5a9c.webp",
+          "imageSource": "https://pbs.twimg.com/media/HTH8k2easAAaQqL.jpg"
+        }
+      ]
+    },
+    {
+      "entryId": "arknights-sealed-jp",
+      "title": {
+        "ko": "켈시 에스페란타 / 클로저",
+        "en": "Kal'tsit Esperanta / Closure",
+        "ja": "ケルシー・エスペランタ / クロージャ",
+        "zh": "凯尔希·思衡托 / 可露希尔"
+      },
+      "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Replaces base standing art with the exact operator’s official in-game Elite 2 illustration. Mirrored game asset; this is promotion artwork, not a screenshot of the pull result.",
+      "provenancePage": "https://wiki.biligame.com/arknights/凯尔希·思衡托",
+      "members": [
+        {
+          "name": {
+            "ko": "켈시 에스페란타",
+            "en": "Kal'tsit Esperanta",
+            "ja": "ケルシー・エスペランタ",
+            "zh": "凯尔希·思衡托"
+          },
+          "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png"
+        },
+        {
+          "name": {
+            "ko": "클로저",
+            "en": "Closure",
+            "ja": "クロージャ",
+            "zh": "可露希尔"
+          },
+          "image": "/assets/entities/ark-closure-e2-full-c8409a3d.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/0/0a/np6cjo1ea1t8vd7s96g9tc5j7rqfd5m.png"
+        },
+        {
+          "name": {
+            "ko": "크랙본",
+            "en": "Crackborne",
+            "ja": "クラックボーン",
+            "zh": "裂响"
+          },
+          "image": "/assets/entities/ark-crackborne-e2-full-c9777867.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/9/97/4ye63oksjsx23cbm09kz34pllj2e7be.png"
+        }
+      ],
+      "composition": "elite-2-full-splash",
+      "fallback": false
+    },
+    {
+      "entryId": "arknights-sealed-kr",
+      "title": {
+        "ko": "켈시 에스페란타 / 클로저",
+        "en": "Kal'tsit Esperanta / Closure",
+        "ja": "ケルシー・エスペランタ / クロージャ",
+        "zh": "凯尔希·思衡托 / 可露希尔"
+      },
+      "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Replaces base standing art with the exact operator’s official in-game Elite 2 illustration. Mirrored game asset; this is promotion artwork, not a screenshot of the pull result.",
+      "provenancePage": "https://wiki.biligame.com/arknights/凯尔希·思衡托",
+      "members": [
+        {
+          "name": {
+            "ko": "켈시 에스페란타",
+            "en": "Kal'tsit Esperanta",
+            "ja": "ケルシー・エスペランタ",
+            "zh": "凯尔希·思衡托"
+          },
+          "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png"
+        },
+        {
+          "name": {
+            "ko": "클로저",
+            "en": "Closure",
+            "ja": "クロージャ",
+            "zh": "可露希尔"
+          },
+          "image": "/assets/entities/ark-closure-e2-full-c8409a3d.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/0/0a/np6cjo1ea1t8vd7s96g9tc5j7rqfd5m.png"
+        },
+        {
+          "name": {
+            "ko": "크랙본",
+            "en": "Crackborne",
+            "ja": "クラックボーン",
+            "zh": "裂响"
+          },
+          "image": "/assets/entities/ark-crackborne-e2-full-c9777867.webp",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/9/97/4ye63oksjsx23cbm09kz34pllj2e7be.png"
+        }
+      ],
+      "composition": "elite-2-full-splash",
+      "fallback": false
+    },
+    {
+      "entryId": "uma-global-20261014-zephyr-r",
+      "title": {
+        "ko": "야마닌 제퍼 · R",
+        "en": "Yamanin Zephyr R [Tracen Academy]",
+        "ja": "ヤマニンゼファー · R",
+        "zh": "也文摄辉 · R"
+      },
+      "image": "/assets/entities/uma-zephyr-r-f1298f84.webp",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/10086.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: existing 1536×2048 full support-card illustration is correct for the named card.",
+      "provenancePage": "https://gametora.com/umamusume/characters/yamanin-zephyr",
+      "members": [
+        {
+          "name": {
+            "ko": "야마닌 제퍼 · R",
+            "en": "Yamanin Zephyr R [Tracen Academy]",
+            "ja": "ヤマニンゼファー · R",
+            "zh": "也文摄辉 · R"
+          },
+          "image": "/assets/entities/uma-zephyr-r-f1298f84.webp",
+          "imageSource": "https://media.gametora.com/umamusume/supports/full/10086.png"
+        }
+      ],
+      "composition": "full-support-card-art",
+      "fallback": false
+    },
+    {
+      "entryId": "ba-kr-20261013-kisaki",
+      "title": {
+        "ko": "키사키(수영복)",
+        "en": "Kisaki (Swimsuit)",
+        "ja": "キサキ（水着）",
+        "zh": "妃咲（泳装）"
+      },
+      "image": "/assets/entities/verified-ba-kr-kisaki-full-79097f06.webp",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "members": [
+        {
+          "name": {
+            "ko": "키사키(수영복)",
+            "en": "Kisaki (Swimsuit)",
+            "ja": "キサキ（水着）",
+            "zh": "妃咲（泳装）"
+          },
+          "image": "/assets/entities/verified-ba-kr-kisaki-full-79097f06.webp",
+          "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "ba-kr-20261013-shun",
+      "title": {
+        "ko": "슌(수영복)",
+        "en": "Shun (Swimsuit)",
+        "ja": "シュン（水着）",
+        "zh": "旬（泳装）"
+      },
+      "image": "/assets/entities/verified-ba-kr-shun-full-c8e56283.webp",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "members": [
+        {
+          "name": {
+            "ko": "슌(수영복)",
+            "en": "Shun (Swimsuit)",
+            "ja": "シュン（水着）",
+            "zh": "旬（泳装）"
+          },
+          "image": "/assets/entities/verified-ba-kr-shun-full-c8e56283.webp",
+          "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "ba-global-20261013-kisaki",
+      "title": {
+        "ko": "키사키(수영복)",
+        "en": "Kisaki (Swimsuit)",
+        "ja": "キサキ（水着）",
+        "zh": "妃咲（泳装）"
+      },
+      "image": "/assets/entities/verified-ba-kr-kisaki-full-79097f06.webp",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143",
+      "members": [
+        {
+          "name": {
+            "ko": "키사키(수영복)",
+            "en": "Kisaki (Swimsuit)",
+            "ja": "キサキ（水着）",
+            "zh": "妃咲（泳装）"
+          },
+          "image": "/assets/entities/verified-ba-kr-kisaki-full-79097f06.webp",
+          "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "ba-global-20261013-shun",
+      "title": {
+        "ko": "슌(수영복)",
+        "en": "Shun (Swimsuit)",
+        "ja": "シュン（水着）",
+        "zh": "旬（泳装）"
+      },
+      "image": "/assets/entities/verified-ba-kr-shun-full-c8e56283.webp",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs.",
+      "provenancePage": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143",
+      "members": [
+        {
+          "name": {
+            "ko": "슌(수영복)",
+            "en": "Shun (Swimsuit)",
+            "ja": "シュン（水着）",
+            "zh": "旬（泳装）"
+          },
+          "image": "/assets/entities/verified-ba-kr-shun-full-c8e56283.webp",
+          "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "uma-kr-20261016-goldcity",
+      "title": {
+        "ko": "[Boho Flare] 골드 시티",
+        "en": "Gold City [Boho Flare]",
+        "ja": "ゴールドシチー [Boho Flare]",
+        "zh": "黄金城市 [Boho Flare]"
+      },
+      "image": "/assets/entities/uma-goldcity-kakao-full-b5cf38b1.webp",
+      "imageSource": "https://k.kakaocdn.net/dn/2XbWX/dJMcaaAqMyE/cVySvaGgkORNKwHDRRAtgk/img_xl.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Replaces 256px portrait with the complete current Korean Kakao Games recruitment banner. Gold City wears the correct Boho Flare outfit. Banner also shows the concurrent support cards and current Oct 16–Nov 10 period. Preserve the whole banner; do not crop out its context.",
+      "provenancePage": "https://pf.kakao.com/_DzxjIb/114881998",
+      "members": [
+        {
+          "name": {
+            "ko": "[Boho Flare] 골드 시티",
+            "en": "Gold City [Boho Flare]",
+            "ja": "ゴールドシチー [Boho Flare]",
+            "zh": "黄金城市 [Boho Flare]"
+          },
+          "image": "/assets/entities/uma-goldcity-kakao-full-b5cf38b1.webp",
+          "imageSource": "https://k.kakaocdn.net/dn/2XbWX/dJMcaaAqMyE/cVySvaGgkORNKwHDRRAtgk/img_xl.jpg"
+        }
+      ],
+      "composition": "full-official-pickup-banner",
+      "fallback": false
+    },
+    {
+      "entryId": "uma-kr-20261016-support",
+      "title": {
+        "ko": "터커 브라인 · 타마모 크로스",
+        "en": "Tucker Bryne · Tamamo Cross",
+        "ja": "タッカーブライン · タマモクロス",
+        "zh": "塔克布莱恩 · 玉藻十字"
+      },
+      "image": "/assets/entities/uma-tucker-ssr-2b673ef8.webp",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/30257.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained: existing 1536×2048 full support-card illustration is correct for the named card.",
+      "provenancePage": "https://gametora.com/ja/umamusume/characters/tucker-bryne",
+      "members": [
+        {
+          "name": {
+            "ko": "SSR [본능은 울부짖고 있는가!?] 터커 브라인",
+            "en": "Tucker Bryne · SSR",
+            "ja": "タッカーブライン · SSR",
+            "zh": "塔克布莱恩 · SSR"
+          },
+          "image": "/assets/entities/uma-tucker-ssr-2b673ef8.webp",
+          "imageSource": "https://media.gametora.com/umamusume/supports/full/30257.png"
+        },
+        {
+          "name": {
+            "ko": "SSR [하얀 번개와 같이] 타마모 크로스",
+            "en": "Tamamo Cross · SSR",
+            "ja": "タマモクロス · SSR",
+            "zh": "玉藻十字 · SSR"
+          },
+          "image": "/assets/entities/uma-tamamo-ssr-9ae67808.webp",
+          "imageSource": "https://media.gametora.com/umamusume/supports/full/30256.png"
+        },
+        {
+          "name": {
+            "ko": "R [무인도 프로젝트 책임자] 터커 브라인",
+            "en": "Tucker Bryne · R",
+            "ja": "タッカーブライン · R",
+            "zh": "塔克布莱恩 · R"
+          },
+          "image": "/assets/entities/uma-tucker-r-e21cca97.webp",
+          "imageSource": "https://media.gametora.com/umamusume/supports/full/10128.png"
+        }
+      ],
+      "composition": "full-support-card-art",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-kr-mityl-featured",
+      "title": {
+        "ko": "미틸",
+        "en": "Mityl",
+        "ja": "ミティール",
+        "zh": "米蒂爾"
+      },
+      "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+      "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Mityl outfit and weapon. This is a game scene/3D render, not the gacha result illustration.",
+      "provenancePage": "https://iopwiki.com/wiki/Mityl",
+      "members": [
+        {
+          "name": {
+            "ko": "미틸",
+            "en": "Mityl",
+            "ja": "ミティール",
+            "zh": "米蒂爾"
+          },
+          "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+          "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg"
+        },
+        {
+          "name": {
+            "ko": "캐롤릭",
+            "en": "Krolik",
+            "ja": "キャロリック",
+            "zh": "克羅麗科"
+          },
+          "image": "/assets/entities/gf2-krolik-f88d7d36.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-CHAROLIC_91dad23f72.webp?v03"
+        },
+        {
+          "name": {
+            "ko": "네메시스",
+            "en": "Nemesis",
+            "ja": "ネメシス",
+            "zh": "納美西絲"
+          },
+          "image": "/assets/entities/gf2-nemesis-full-4c7d73a7.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-NEMESIS_ab6a8b4491.webp?v03"
+        }
+      ],
+      "composition": "full-official-game-scene",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-jp-mityl-featured",
+      "title": {
+        "ko": "미틸",
+        "en": "Mityl",
+        "ja": "ミティール",
+        "zh": "米蒂爾"
+      },
+      "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+      "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Mityl outfit and weapon. This is a game scene/3D render, not the gacha result illustration.",
+      "provenancePage": "https://iopwiki.com/wiki/Mityl",
+      "members": [
+        {
+          "name": {
+            "ko": "미틸",
+            "en": "Mityl",
+            "ja": "ミティール",
+            "zh": "米蒂爾"
+          },
+          "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+          "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg"
+        },
+        {
+          "name": {
+            "ko": "캐롤릭",
+            "en": "Krolik",
+            "ja": "キャロリック",
+            "zh": "克羅麗科"
+          },
+          "image": "/assets/entities/gf2-krolik-f88d7d36.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-CHAROLIC_91dad23f72.webp?v03"
+        },
+        {
+          "name": {
+            "ko": "네메시스",
+            "en": "Nemesis",
+            "ja": "ネメシス",
+            "zh": "納美西絲"
+          },
+          "image": "/assets/entities/gf2-nemesis-full-4c7d73a7.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-NEMESIS_ab6a8b4491.webp?v03"
+        }
+      ],
+      "composition": "full-official-game-scene",
+      "fallback": false
+    },
+    {
+      "entryId": "nikke-kr-20261008-belorta",
+      "title": {
+        "ko": "벨로타 : 펌킨 위치",
+        "en": "Belorta: Pumpkin Witch",
+        "ja": "ベロータ：パンプキンウィッチ",
+        "zh": "貝洛塔：南瓜女巫"
+      },
+      "image": "/assets/entities/nikke-belorta-235e2435.webp",
+      "imageSource": "https://www.gacha.gg/img/nikke/dm/chars/belorta-pumpkin-witch-c063-art.webp",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained full Belorta: Pumpkin Witch c063_00 draw artwork. Available mirror is 600×748; no verified larger standalone drawing found. The Korean event key visual is available separately but includes other imagery.",
+      "provenancePage": "https://www.gacha.gg/nikke/characters/belorta-pumpkin-witch",
+      "members": [
+        {
+          "name": {
+            "ko": "벨로타 : 펌킨 위치",
+            "en": "Belorta: Pumpkin Witch",
+            "ja": "ベロータ：パンプキンウィッチ",
+            "zh": "貝洛塔：南瓜女巫"
+          },
+          "image": "/assets/entities/nikke-belorta-235e2435.webp",
+          "imageSource": "https://www.gacha.gg/img/nikke/dm/chars/belorta-pumpkin-witch-c063-art.webp"
+        }
+      ],
+      "composition": "full-character-draw-art",
+      "fallback": false
+    },
+    {
+      "entryId": "nikke-jp-20261008-belorta",
+      "title": {
+        "ko": "벨로타 : 펌킨 위치",
+        "en": "Belorta: Pumpkin Witch",
+        "ja": "ベロータ：パンプキンウィッチ",
+        "zh": "貝洛塔：南瓜女巫"
+      },
+      "image": "/assets/entities/nikke-belorta-235e2435.webp",
+      "imageSource": "https://www.gacha.gg/img/nikke/dm/chars/belorta-pumpkin-witch-c063-art.webp",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "Retained full Belorta: Pumpkin Witch c063_00 draw artwork. Available mirror is 600×748; no verified larger standalone drawing found. The Korean event key visual is available separately but includes other imagery.",
+      "provenancePage": "https://www.gacha.gg/nikke/characters/belorta-pumpkin-witch",
+      "members": [
+        {
+          "name": {
+            "ko": "벨로타 : 펌킨 위치",
+            "en": "Belorta: Pumpkin Witch",
+            "ja": "ベロータ：パンプキンウィッチ",
+            "zh": "貝洛塔：南瓜女巫"
+          },
+          "image": "/assets/entities/nikke-belorta-235e2435.webp",
+          "imageSource": "https://www.gacha.gg/img/nikke/dm/chars/belorta-pumpkin-witch-c063-art.webp"
+        }
+      ],
+      "composition": "full-character-draw-art",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-kr-20261008-cheyanne",
+      "title": {
+        "ko": "샤이엔",
+        "en": "Cheyanne",
+        "ja": "シャイアン",
+        "zh": "夏安"
+      },
+      "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+      "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official SUNBORN promotional illustration. Base Cheyanne beret, white shirt, outer coat, purple tie detail and M200 match the publisher role art. Alternate dress promo was rejected.",
+      "provenancePage": "https://iopwiki.com/wiki/Cheyanne",
+      "members": [
+        {
+          "name": {
+            "ko": "샤이엔",
+            "en": "Cheyanne",
+            "ja": "シャイアン",
+            "zh": "夏安"
+          },
+          "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+          "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg"
+        },
+        {
+          "name": {
+            "ko": "리타라",
+            "en": "Littara",
+            "ja": "リッタラ",
+            "zh": "莉塔拉"
+          },
+          "image": "/assets/entities/gf2-littara-52e17d2f.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/kr/images/home/roles/ilus-LITTARA_d515cbf632.png"
+        },
+        {
+          "name": {
+            "ko": "크세니아",
+            "en": "Ksenia",
+            "ja": "クシーニヤ",
+            "zh": "科謝尼婭"
+          },
+          "image": "/assets/entities/gf2-ksenia-full-5e3dc84a.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-KSENIA_191e327e2d.webp"
+        }
+      ],
+      "composition": "full-official-promotion-illustration",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-kr-20261008-liushih",
+      "title": {
+        "ko": "류시",
+        "en": "Liushih",
+        "ja": "劉蒔",
+        "zh": "劉蒔"
+      },
+      "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+      "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Liushih uniform, braid and mechanical horse. This is a game scene/3D render, not the gacha result illustration.",
+      "provenancePage": "https://iopwiki.com/wiki/Liushih",
+      "members": [
+        {
+          "name": {
+            "ko": "류시",
+            "en": "Liushih",
+            "ja": "劉蒔",
+            "zh": "劉蒔"
+          },
+          "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+          "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png"
+        },
+        {
+          "name": {
+            "ko": "리타라",
+            "en": "Littara",
+            "ja": "リッタラ",
+            "zh": "莉塔拉"
+          },
+          "image": "/assets/entities/gf2-littara-52e17d2f.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/kr/images/home/roles/ilus-LITTARA_d515cbf632.png"
+        },
+        {
+          "name": {
+            "ko": "크세니아",
+            "en": "Ksenia",
+            "ja": "クシーニヤ",
+            "zh": "科謝尼婭"
+          },
+          "image": "/assets/entities/gf2-ksenia-full-5e3dc84a.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-KSENIA_191e327e2d.webp"
+        }
+      ],
+      "composition": "full-official-game-scene",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-kr-20261008-squirrel-nova",
+      "title": {
+        "ko": "스쿼럴 노바",
+        "en": "Squirrel Nova",
+        "ja": "ラットノヴァ",
+        "zh": "絨鼠新星"
+      },
+      "image": "/assets/entities/gf2-weapon-squirrel-9bdea67d.webp",
+      "imageSource": "https://iopwiki.com/images/7/79/GFL2_Weapon_%28Mityl_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "스쿼럴 노바",
+            "en": "Squirrel Nova",
+            "ja": "ラットノヴァ",
+            "zh": "絨鼠新星"
+          },
+          "image": "/assets/entities/gf2-weapon-squirrel-9bdea67d.webp",
+          "imageSource": "https://iopwiki.com/images/7/79/GFL2_Weapon_%28Mityl_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "gfl2-kr-20261008-nightwalker-cardamom",
+      "title": {
+        "ko": "나이트 카다멈",
+        "en": "Nightwalker Cardamom",
+        "ja": "ナイトカルダモン",
+        "zh": "夜行豆蔻"
+      },
+      "image": "/assets/entities/gf2-weapon-nightwalker-8d6e3460.webp",
+      "imageSource": "https://iopwiki.com/images/4/43/GFL2_Weapon_%28Cheyanne_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "나이트 카다멈",
+            "en": "Nightwalker Cardamom",
+            "ja": "ナイトカルダモン",
+            "zh": "夜行豆蔻"
+          },
+          "image": "/assets/entities/gf2-weapon-nightwalker-8d6e3460.webp",
+          "imageSource": "https://iopwiki.com/images/4/43/GFL2_Weapon_%28Cheyanne_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "gfl2-kr-20261008-transience",
+      "title": {
+        "ko": "절영",
+        "en": "Transience",
+        "ja": "絶影",
+        "zh": "絕影"
+      },
+      "image": "/assets/entities/gf2-weapon-transience-d0a31c31.webp",
+      "imageSource": "https://iopwiki.com/images/9/9c/GFL2_Weapon_%28Liushih_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "절영",
+            "en": "Transience",
+            "ja": "絶影",
+            "zh": "絕影"
+          },
+          "image": "/assets/entities/gf2-weapon-transience-d0a31c31.webp",
+          "imageSource": "https://iopwiki.com/images/9/9c/GFL2_Weapon_%28Liushih_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "gfl2-jp-20261008-cheyanne",
+      "title": {
+        "ko": "샤이엔",
+        "en": "Cheyanne",
+        "ja": "シャイアン",
+        "zh": "夏安"
+      },
+      "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+      "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official SUNBORN promotional illustration. Base Cheyanne beret, white shirt, outer coat, purple tie detail and M200 match the publisher role art. Alternate dress promo was rejected.",
+      "provenancePage": "https://iopwiki.com/wiki/Cheyanne",
+      "members": [
+        {
+          "name": {
+            "ko": "샤이엔",
+            "en": "Cheyanne",
+            "ja": "シャイアン",
+            "zh": "夏安"
+          },
+          "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+          "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg"
+        },
+        {
+          "name": {
+            "ko": "리타라",
+            "en": "Littara",
+            "ja": "リッタラ",
+            "zh": "莉塔拉"
+          },
+          "image": "/assets/entities/gf2-littara-52e17d2f.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/kr/images/home/roles/ilus-LITTARA_d515cbf632.png"
+        },
+        {
+          "name": {
+            "ko": "크세니아",
+            "en": "Ksenia",
+            "ja": "クシーニヤ",
+            "zh": "科謝尼婭"
+          },
+          "image": "/assets/entities/gf2-ksenia-full-5e3dc84a.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-KSENIA_191e327e2d.webp"
+        }
+      ],
+      "composition": "full-official-promotion-illustration",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-jp-20261008-liushih",
+      "title": {
+        "ko": "류시",
+        "en": "Liushih",
+        "ja": "劉蒔",
+        "zh": "劉蒔"
+      },
+      "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+      "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Liushih uniform, braid and mechanical horse. This is a game scene/3D render, not the gacha result illustration.",
+      "provenancePage": "https://iopwiki.com/wiki/Liushih",
+      "members": [
+        {
+          "name": {
+            "ko": "류시",
+            "en": "Liushih",
+            "ja": "劉蒔",
+            "zh": "劉蒔"
+          },
+          "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+          "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png"
+        },
+        {
+          "name": {
+            "ko": "리타라",
+            "en": "Littara",
+            "ja": "リッタラ",
+            "zh": "莉塔拉"
+          },
+          "image": "/assets/entities/gf2-littara-52e17d2f.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/kr/images/home/roles/ilus-LITTARA_d515cbf632.png"
+        },
+        {
+          "name": {
+            "ko": "크세니아",
+            "en": "Ksenia",
+            "ja": "クシーニヤ",
+            "zh": "科謝尼婭"
+          },
+          "image": "/assets/entities/gf2-ksenia-full-5e3dc84a.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-KSENIA_191e327e2d.webp"
+        }
+      ],
+      "composition": "full-official-game-scene",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-jp-20261008-squirrel-nova",
+      "title": {
+        "ko": "스쿼럴 노바",
+        "en": "Squirrel Nova",
+        "ja": "ラットノヴァ",
+        "zh": "絨鼠新星"
+      },
+      "image": "/assets/entities/gf2-weapon-squirrel-9bdea67d.webp",
+      "imageSource": "https://iopwiki.com/images/7/79/GFL2_Weapon_%28Mityl_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "스쿼럴 노바",
+            "en": "Squirrel Nova",
+            "ja": "ラットノヴァ",
+            "zh": "絨鼠新星"
+          },
+          "image": "/assets/entities/gf2-weapon-squirrel-9bdea67d.webp",
+          "imageSource": "https://iopwiki.com/images/7/79/GFL2_Weapon_%28Mityl_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "gfl2-jp-20261008-nightwalker-cardamom",
+      "title": {
+        "ko": "나이트 카다멈",
+        "en": "Nightwalker Cardamom",
+        "ja": "ナイトカルダモン",
+        "zh": "夜行豆蔻"
+      },
+      "image": "/assets/entities/gf2-weapon-nightwalker-8d6e3460.webp",
+      "imageSource": "https://iopwiki.com/images/4/43/GFL2_Weapon_%28Cheyanne_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "나이트 카다멈",
+            "en": "Nightwalker Cardamom",
+            "ja": "ナイトカルダモン",
+            "zh": "夜行豆蔻"
+          },
+          "image": "/assets/entities/gf2-weapon-nightwalker-8d6e3460.webp",
+          "imageSource": "https://iopwiki.com/images/4/43/GFL2_Weapon_%28Cheyanne_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "gfl2-jp-20261008-transience",
+      "title": {
+        "ko": "절영",
+        "en": "Transience",
+        "ja": "絶影",
+        "zh": "絕影"
+      },
+      "image": "/assets/entities/gf2-weapon-transience-d0a31c31.webp",
+      "imageSource": "https://iopwiki.com/images/9/9c/GFL2_Weapon_%28Liushih_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "절영",
+            "en": "Transience",
+            "ja": "絶影",
+            "zh": "絕影"
+          },
+          "image": "/assets/entities/gf2-weapon-transience-d0a31c31.webp",
+          "imageSource": "https://iopwiki.com/images/9/9c/GFL2_Weapon_%28Liushih_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "gfl2-global-20261008-cheyanne",
+      "title": {
+        "ko": "샤이엔",
+        "en": "Cheyanne",
+        "ja": "シャイアン",
+        "zh": "夏安"
+      },
+      "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+      "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official SUNBORN promotional illustration. Base Cheyanne beret, white shirt, outer coat, purple tie detail and M200 match the publisher role art. Alternate dress promo was rejected.",
+      "provenancePage": "https://iopwiki.com/wiki/Cheyanne",
+      "members": [
+        {
+          "name": {
+            "ko": "샤이엔",
+            "en": "Cheyanne",
+            "ja": "シャイアン",
+            "zh": "夏安"
+          },
+          "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+          "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg"
+        },
+        {
+          "name": {
+            "ko": "리타라",
+            "en": "Littara",
+            "ja": "リッタラ",
+            "zh": "莉塔拉"
+          },
+          "image": "/assets/entities/gf2-littara-52e17d2f.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/kr/images/home/roles/ilus-LITTARA_d515cbf632.png"
+        },
+        {
+          "name": {
+            "ko": "크세니아",
+            "en": "Ksenia",
+            "ja": "クシーニヤ",
+            "zh": "科謝尼婭"
+          },
+          "image": "/assets/entities/gf2-ksenia-full-5e3dc84a.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-KSENIA_191e327e2d.webp"
+        }
+      ],
+      "composition": "full-official-promotion-illustration",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-global-20261008-liushih",
+      "title": {
+        "ko": "류시",
+        "en": "Liushih",
+        "ja": "劉蒔",
+        "zh": "劉蒔"
+      },
+      "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+      "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "identityEvidence": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Liushih uniform, braid and mechanical horse. This is a game scene/3D render, not the gacha result illustration.",
+      "provenancePage": "https://iopwiki.com/wiki/Liushih",
+      "members": [
+        {
+          "name": {
+            "ko": "류시",
+            "en": "Liushih",
+            "ja": "劉蒔",
+            "zh": "劉蒔"
+          },
+          "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+          "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png"
+        },
+        {
+          "name": {
+            "ko": "리타라",
+            "en": "Littara",
+            "ja": "リッタラ",
+            "zh": "莉塔拉"
+          },
+          "image": "/assets/entities/gf2-littara-52e17d2f.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/kr/images/home/roles/ilus-LITTARA_d515cbf632.png"
+        },
+        {
+          "name": {
+            "ko": "크세니아",
+            "en": "Ksenia",
+            "ja": "クシーニヤ",
+            "zh": "科謝尼婭"
+          },
+          "image": "/assets/entities/gf2-ksenia-full-5e3dc84a.webp",
+          "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-KSENIA_191e327e2d.webp"
+        }
+      ],
+      "composition": "full-official-game-scene",
+      "fallback": false
+    },
+    {
+      "entryId": "gfl2-global-20261008-squirrel-nova",
+      "title": {
+        "ko": "스쿼럴 노바",
+        "en": "Squirrel Nova",
+        "ja": "ラットノヴァ",
+        "zh": "絨鼠新星"
+      },
+      "image": "/assets/entities/gf2-weapon-squirrel-9bdea67d.webp",
+      "imageSource": "https://iopwiki.com/images/7/79/GFL2_Weapon_%28Mityl_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "스쿼럴 노바",
+            "en": "Squirrel Nova",
+            "ja": "ラットノヴァ",
+            "zh": "絨鼠新星"
+          },
+          "image": "/assets/entities/gf2-weapon-squirrel-9bdea67d.webp",
+          "imageSource": "https://iopwiki.com/images/7/79/GFL2_Weapon_%28Mityl_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "gfl2-global-20261008-nightwalker-cardamom",
+      "title": {
+        "ko": "나이트 카다멈",
+        "en": "Nightwalker Cardamom",
+        "ja": "ナイトカルダモン",
+        "zh": "夜行豆蔻"
+      },
+      "image": "/assets/entities/gf2-weapon-nightwalker-8d6e3460.webp",
+      "imageSource": "https://iopwiki.com/images/4/43/GFL2_Weapon_%28Cheyanne_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "나이트 카다멈",
+            "en": "Nightwalker Cardamom",
+            "ja": "ナイトカルダモン",
+            "zh": "夜行豆蔻"
+          },
+          "image": "/assets/entities/gf2-weapon-nightwalker-8d6e3460.webp",
+          "imageSource": "https://iopwiki.com/images/4/43/GFL2_Weapon_%28Cheyanne_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "gfl2-global-20261008-transience",
+      "title": {
+        "ko": "절영",
+        "en": "Transience",
+        "ja": "絶影",
+        "zh": "絕影"
+      },
+      "image": "/assets/entities/gf2-weapon-transience-d0a31c31.webp",
+      "imageSource": "https://iopwiki.com/images/9/9c/GFL2_Weapon_%28Liushih_Elite%29.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T11:23:31.809501Z",
+      "identityEvidence": "Exact entity/outfit/card visually inspected; see source audit.",
+      "provenancePage": "https://iopwiki.com/wiki/GFL2_Weapons",
+      "members": [
+        {
+          "name": {
+            "ko": "절영",
+            "en": "Transience",
+            "ja": "絶影",
+            "zh": "絕影"
+          },
+          "image": "/assets/entities/gf2-weapon-transience-d0a31c31.webp",
+          "imageSource": "https://iopwiki.com/images/9/9c/GFL2_Weapon_%28Liushih_Elite%29.png"
+        }
+      ]
+    },
+    {
+      "entryId": "arknights-jp-standard-20261009",
+      "title": {
+        "ko": "외드레르 / 오올헤약",
+        "en": "Hoederer / Ho’olheyak",
+        "ja": "ヘドリー / ホルハイヤ",
+        "zh": "赫德雷 / 霍尔海雅"
+      },
+      "image": "/assets/entities/ark-hoederer-e2-full-501cb999.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/2/29/mvpq4dyvj5ujxv7a3nxqbi14bj3y7gk.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://x.com/ArknightsStaff/status/2108105299618091467",
+      "members": [
+        {
+          "name": {
+            "ko": "외드레르",
+            "en": "Hoederer",
+            "ja": "ヘドリー",
+            "zh": "赫德雷"
+          },
+          "image": "/assets/entities/ark-hoederer-e2-full-501cb999.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/2/29/mvpq4dyvj5ujxv7a3nxqbi14bj3y7gk.png"
+        },
+        {
+          "name": {
+            "ko": "오올헤약",
+            "en": "Ho’olheyak",
+            "ja": "ホルハイヤ",
+            "zh": "霍尔海雅"
+          },
+          "image": "/assets/entities/ark-hoolheyak-e2-full-7886484b.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/c/c7/5buerojog7a5ttownrqpx6d6slyox9y.png"
+        },
+        {
+          "name": {
+            "ko": "아몬드",
+            "en": "Almond",
+            "ja": "アーモンド",
+            "zh": "杏仁"
+          }
+        },
+        {
+          "name": {
+            "ko": "루실라",
+            "en": "Lucilla",
+            "ja": "ルシーラ",
+            "zh": "海霓"
+          }
+        },
+        {
+          "name": {
+            "ko": "테크노",
+            "en": "Tecno",
+            "ja": "テクノ",
+            "zh": "特克诺"
+          }
+        }
+      ],
+      "composition": "Full official operator Elite 2 illustration",
+      "fallback": true
+    },
+    {
+      "entryId": "arknights-jp-kernel-20261006",
+      "title": {
+        "ko": "호시구마 / 플레임테일",
+        "en": "Hoshiguma / Flametail",
+        "ja": "ホシグマ / フレイムテイル",
+        "zh": "星熊 / 焰尾"
+      },
+      "image": "/assets/entities/ark-hoshiguma-e2-full-535ae294.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/0/02/qm0ltsvcxrxgffdvqoizspb5iljw5st.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://x.com/ArknightsStaff/status/2106987893743091911",
+      "members": [
+        {
+          "name": {
+            "ko": "호시구마",
+            "en": "Hoshiguma",
+            "ja": "ホシグマ",
+            "zh": "星熊"
+          },
+          "image": "/assets/entities/ark-hoshiguma-e2-full-535ae294.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/0/02/qm0ltsvcxrxgffdvqoizspb5iljw5st.png"
+        },
+        {
+          "name": {
+            "ko": "플레임테일",
+            "en": "Flametail",
+            "ja": "フレイムテイル",
+            "zh": "焰尾"
+          },
+          "image": "/assets/entities/ark-flametail-e2-full-4600b917.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/e/e3/4hdifjnxqcjuybd2lma5mqque0b6k3i.png"
+        },
+        {
+          "name": {
+            "ko": "토디폰스",
+            "en": "Toddifons",
+            "ja": "トギフォンス",
+            "zh": "熔泉"
+          }
+        },
+        {
+          "name": {
+            "ko": "메이어",
+            "en": "Mayer",
+            "ja": "メイヤー",
+            "zh": "梅尔"
+          }
+        },
+        {
+          "name": {
+            "ko": "에프이터",
+            "en": "FEater",
+            "ja": "エフイーター",
+            "zh": "食铁兽"
+          }
+        }
+      ],
+      "composition": "Full official operator Elite 2 illustration",
+      "fallback": true
+    },
+    {
+      "entryId": "arknights-global-standard-20261009",
+      "title": {
+        "ko": "외드레르 / 오올헤약",
+        "en": "Hoederer / Ho’olheyak",
+        "ja": "ヘドリー / ホルハイヤ",
+        "zh": "赫德雷 / 霍尔海雅"
+      },
+      "image": "/assets/entities/ark-hoederer-e2-full-501cb999.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/2/29/mvpq4dyvj5ujxv7a3nxqbi14bj3y7gk.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://www.facebook.com/ArknightsGlobal/posts/dear-doctor-the-following-operators-will-appear-at-a-higher-rate-between-october/1550842270412140/",
+      "members": [
+        {
+          "name": {
+            "ko": "외드레르",
+            "en": "Hoederer",
+            "ja": "ヘドリー",
+            "zh": "赫德雷"
+          },
+          "image": "/assets/entities/ark-hoederer-e2-full-501cb999.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/2/29/mvpq4dyvj5ujxv7a3nxqbi14bj3y7gk.png"
+        },
+        {
+          "name": {
+            "ko": "오올헤약",
+            "en": "Ho’olheyak",
+            "ja": "ホルハイヤ",
+            "zh": "霍尔海雅"
+          },
+          "image": "/assets/entities/ark-hoolheyak-e2-full-7886484b.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/c/c7/5buerojog7a5ttownrqpx6d6slyox9y.png"
+        },
+        {
+          "name": {
+            "ko": "아몬드",
+            "en": "Almond",
+            "ja": "アーモンド",
+            "zh": "杏仁"
+          }
+        },
+        {
+          "name": {
+            "ko": "루실라",
+            "en": "Lucilla",
+            "ja": "ルシーラ",
+            "zh": "海霓"
+          }
+        },
+        {
+          "name": {
+            "ko": "테크노",
+            "en": "Tecno",
+            "ja": "テクノ",
+            "zh": "特克诺"
+          }
+        }
+      ],
+      "composition": "Full official operator Elite 2 illustration",
+      "fallback": true
+    },
+    {
+      "entryId": "arknights-global-kernel-20261006",
+      "title": {
+        "ko": "호시구마 / 플레임테일",
+        "en": "Hoshiguma / Flametail",
+        "ja": "ホシグマ / フレイムテイル",
+        "zh": "星熊 / 焰尾"
+      },
+      "image": "/assets/entities/ark-hoshiguma-e2-full-535ae294.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/0/02/qm0ltsvcxrxgffdvqoizspb5iljw5st.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://x.com/ArknightsEN/status/2106987750037569624",
+      "members": [
+        {
+          "name": {
+            "ko": "호시구마",
+            "en": "Hoshiguma",
+            "ja": "ホシグマ",
+            "zh": "星熊"
+          },
+          "image": "/assets/entities/ark-hoshiguma-e2-full-535ae294.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/0/02/qm0ltsvcxrxgffdvqoizspb5iljw5st.png"
+        },
+        {
+          "name": {
+            "ko": "플레임테일",
+            "en": "Flametail",
+            "ja": "フレイムテイル",
+            "zh": "焰尾"
+          },
+          "image": "/assets/entities/ark-flametail-e2-full-4600b917.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/e/e3/4hdifjnxqcjuybd2lma5mqque0b6k3i.png"
+        },
+        {
+          "name": {
+            "ko": "토디폰스",
+            "en": "Toddifons",
+            "ja": "トギフォンス",
+            "zh": "熔泉"
+          }
+        },
+        {
+          "name": {
+            "ko": "메이어",
+            "en": "Mayer",
+            "ja": "メイヤー",
+            "zh": "梅尔"
+          }
+        },
+        {
+          "name": {
+            "ko": "에프이터",
+            "en": "FEater",
+            "ja": "エフイーター",
+            "zh": "食铁兽"
+          }
+        }
+      ],
+      "composition": "Full official operator Elite 2 illustration",
+      "fallback": true
+    },
+    {
+      "entryId": "arknights-kr-standard-20261009",
+      "title": {
+        "ko": "외드레르 / 오올헤약",
+        "en": "Hoederer / Ho’olheyak",
+        "ja": "ヘドリー / ホルハイヤ",
+        "zh": "赫德雷 / 霍尔海雅"
+      },
+      "image": "/assets/entities/ark-hoederer-e2-full-501cb999.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/2/29/mvpq4dyvj5ujxv7a3nxqbi14bj3y7gk.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://x.com/ArknightsKorea/status/2108111986169196643",
+      "members": [
+        {
+          "name": {
+            "ko": "외드레르",
+            "en": "Hoederer",
+            "ja": "ヘドリー",
+            "zh": "赫德雷"
+          },
+          "image": "/assets/entities/ark-hoederer-e2-full-501cb999.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/2/29/mvpq4dyvj5ujxv7a3nxqbi14bj3y7gk.png"
+        },
+        {
+          "name": {
+            "ko": "오올헤약",
+            "en": "Ho’olheyak",
+            "ja": "ホルハイヤ",
+            "zh": "霍尔海雅"
+          },
+          "image": "/assets/entities/ark-hoolheyak-e2-full-7886484b.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/c/c7/5buerojog7a5ttownrqpx6d6slyox9y.png"
+        },
+        {
+          "name": {
+            "ko": "아몬드",
+            "en": "Almond",
+            "ja": "アーモンド",
+            "zh": "杏仁"
+          }
+        },
+        {
+          "name": {
+            "ko": "루실라",
+            "en": "Lucilla",
+            "ja": "ルシーラ",
+            "zh": "海霓"
+          }
+        },
+        {
+          "name": {
+            "ko": "테크노",
+            "en": "Tecno",
+            "ja": "テクノ",
+            "zh": "特克诺"
+          }
+        }
+      ],
+      "composition": "Full official operator Elite 2 illustration",
+      "fallback": true
+    },
+    {
+      "entryId": "arknights-kr-kernel-20261006",
+      "title": {
+        "ko": "호시구마 / 플레임테일",
+        "en": "Hoshiguma / Flametail",
+        "ja": "ホシグマ / フレイムテイル",
+        "zh": "星熊 / 焰尾"
+      },
+      "image": "/assets/entities/ark-hoshiguma-e2-full-535ae294.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/0/02/qm0ltsvcxrxgffdvqoizspb5iljw5st.png",
+      "identityVerified": true,
+      "verifiedAt": "2026-10-16T18:47:16.297902+00:00",
+      "identityEvidence": "Visual recheck of retained official entity artwork against named current banner members. Korean NTE promotional banners show the correct character/equipment; Arknights images are exact operator Elite 2 art, not original recruitment-screen art.",
+      "provenancePage": "https://x.com/ArknightsKorea/status/2106988212212355440",
+      "members": [
+        {
+          "name": {
+            "ko": "호시구마",
+            "en": "Hoshiguma",
+            "ja": "ホシグマ",
+            "zh": "星熊"
+          },
+          "image": "/assets/entities/ark-hoshiguma-e2-full-535ae294.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/0/02/qm0ltsvcxrxgffdvqoizspb5iljw5st.png"
+        },
+        {
+          "name": {
+            "ko": "플레임테일",
+            "en": "Flametail",
+            "ja": "フレイムテイル",
+            "zh": "焰尾"
+          },
+          "image": "/assets/entities/ark-flametail-e2-full-4600b917.png",
+          "imageSource": "https://patchwiki.biligame.com/images/arknights/e/e3/4hdifjnxqcjuybd2lma5mqque0b6k3i.png"
+        },
+        {
+          "name": {
+            "ko": "토디폰스",
+            "en": "Toddifons",
+            "ja": "トギフォンス",
+            "zh": "熔泉"
+          }
+        },
+        {
+          "name": {
+            "ko": "메이어",
+            "en": "Mayer",
+            "ja": "メイヤー",
+            "zh": "梅尔"
+          }
+        },
+        {
+          "name": {
+            "ko": "에프이터",
+            "en": "FEater",
+            "ja": "エフイーター",
+            "zh": "食铁兽"
+          }
+        }
+      ],
+      "composition": "Full official operator Elite 2 illustration",
+      "fallback": true
+    }
+  ]
+}

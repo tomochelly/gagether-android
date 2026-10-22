@@ -1,0 +1,22 @@
+import './load-typescript.mjs';
+import {registerHooks} from 'node:module';
+import {DatabaseSync} from 'node:sqlite';
+import {readFileSync} from 'node:fs';
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+const sqlite=new DatabaseSync(':memory:');sqlite.exec(readFileSync(new URL('../drizzle/0005_slim_paper_doll.sql',import.meta.url),'utf8'));
+const db={prepare(sql){let args=[];const query=()=>sqlite.prepare(sql);return {bind(...a){args=a;return this},async run(){return {meta:{changes:query().run(...args).changes}}},async all(){return {results:query().all(...args)}},async first(){return query().get(...args)||null}}}};
+globalThis.__favoriteDB={DB:db};registerHooks({resolve(s,c,n){if(s==='cloudflare:workers')return {url:'favorite-mock:env',shortCircuit:true};return n(s,c)},load(u,c,n){if(u==='favorite-mock:env')return {format:'module',source:'export const env=globalThis.__favoriteDB;',shortCircuit:true};return n(u,c)}});
+const {GET,POST}=await import('../app/api/favorites/route.ts');
+const sessionRequest=()=>new Request('https://gagether.wiki/api/favorites?session=1',{headers:{'x-gagether-favorites':'1'}});
+const write=(cookie,favorites,revision,origin='https://gagether.wiki')=>new Request('https://gagether.wiki/api/favorites',{method:'POST',headers:{cookie,Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({favorites,revision})});
+test('public counts begin at zero, count each browser/game once, remove unstars and reject stale writes',async()=>{
+ const first=await GET(new Request('https://gagether.wiki/api/favorites'));let d=await first.json();assert.ok(Object.values(d.counts).every(x=>x===0));assert.equal(d.unit,'browser');
+ const session=await GET(sessionRequest());const cookie=session.headers.get('set-cookie').split(';')[0];assert.match(session.headers.get('set-cookie'),/HttpOnly/);assert.match(session.headers.get('Cache-Control'),/no-store/);
+ let r=await POST(write(cookie,['wuwa','wuwa','zzz'],0));d=await r.json();assert.equal(r.status,200);assert.equal(d.counts.wuwa,1);assert.equal(d.counts.zzz,1);
+ r=await POST(write(cookie,['wuwa'],0));assert.equal(r.status,409);assert.equal((await r.json()).counts.zzz,1);
+ r=await POST(write(cookie,[],1));d=await r.json();assert.equal(d.counts.wuwa,0);assert.equal(d.counts.zzz,0);
+ assert.equal((await POST(write(cookie,['wrong-game'],2))).status,400);assert.equal((await POST(write(cookie,['wuwa'],2,'https://evil.example'))).status,403);
+ assert.equal((await POST(write('', ['wuwa'],0))).status,428);
+ const anonymous=await (await GET(new Request('https://gagether.wiki/api/favorites'))).json();assert.deepEqual(Object.keys(anonymous).sort(),['asOf','counts','unit']);assert.equal(JSON.stringify(anonymous).includes(cookie.split('=')[1]),false);
+});

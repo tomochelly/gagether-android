@@ -1,0 +1,10 @@
+'use client';
+import {createContext,useContext} from 'react';
+import {games,byId} from '@/lib/games';
+import {ui} from '@/lib/i18n';
+import type {Entry,Game} from '@/lib/types';
+import type {SiteSettings} from '@/lib/editorial';
+export type EditorTarget={tab:'entry'|'games'|'text'|'site'|'list';entryId?:string;gameId?:string;textKey?:string;create?:boolean;focus?:'image'|'content'|'members'};
+export const CatalogContext=createContext<{games:Game[];byId:Record<string,Game>;t:typeof ui.ko;settings:SiteSettings;canEdit:boolean;editMode:boolean;simpleMode:boolean;showGameIcons?:boolean;openCommunity?:(entry:Entry,member:string)=>void;openEditor:(target:EditorTarget)=>void}>({games,byId,t:ui.ko,settings:{},canEdit:false,editMode:false,simpleMode:false,openEditor:()=>{}});
+export const useCatalog=()=>useContext(CatalogContext);
+export const editEntryTarget=(entry:Entry):EditorTarget=>({tab:'entry',entryId:entry.id,gameId:entry.gameId});

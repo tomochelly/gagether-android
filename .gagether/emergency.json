@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "requestId": "recovery-drill-dry-20261023",
+  "reason": "Owner-authorized isolated emergency recovery rehearsal",
+  "action": "edit",
+  "dryRun": true,
+  "edit": {
+    "target": "entry",
+    "id": "custom-recovery-drill-20261023",
+    "revision": 0,
+    "create": true,
+    "changes": {
+      "gameId": "wuwa",
+      "kind": "update",
+      "title": {
+        "ko": "비공개 복구 테스트",
+        "en": "Private recovery drill",
+        "ja": "非公開復旧テスト",
+        "zh": "私有恢复测试"
+      },
+      "summary": {
+        "ko": "운영 검증용 비공개 테스트",
+        "en": "Private operational test",
+        "ja": "非公開の稼働検証",
+        "zh": "私有运行验证"
+      },
+      "region": "global",
+      "server": "Operational test",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "sourceUrl": "https://wutheringwaves.kurogames.com/kr/main",
+      "sourceTitle": "Owner recovery rehearsal",
+      "sourceKind": "official",
+      "hidden": true
+    }
+  }
+}

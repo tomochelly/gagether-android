@@ -1,0 +1,72 @@
+/* One continuous illustration behind the copy; originals retain native sizing. */
+:is(.version-hero,.spotlight){--banner-base:#151d17;--banner-ink:#f0f4e9;--banner-muted:#c2ccba;--banner-line:#c1cdb533;--banner-panel:#101711e8;--banner-wash:linear-gradient(90deg,#101711de 0%,#101711b8 28%,#1017114d 49%,#10171108 72%),linear-gradient(0deg,#10171199,transparent 35%);background:var(--banner-base);color:var(--banner-ink);border-color:var(--banner-line)}
+.version-hero-art{inset:0;background:none}
+.version-hero-copy{background:none}
+.version-hero:after{content:"";position:absolute;inset:0;z-index:0;background:var(--banner-wash);pointer-events:none}
+.version-hero-glow{opacity:.25}
+/* A small original stays sharp; its own softened colors carry across the wide frame. */
+.version-hero:has(.version-art-inset) .version-hero-glow{opacity:.86;filter:blur(18px)}
+.version-hero:has(.version-art-inset){--banner-wash:linear-gradient(90deg,#101711ed 0%,#101711c9 20%,#10171166 39%,#1017110d 64%),linear-gradient(0deg,#10171180,transparent 38%)}
+:root[data-theme="light"] .version-hero:has(.version-art-inset){--banner-wash:linear-gradient(90deg,#f5f7f0ed 0%,#f5f7f0cf 20%,#f5f7f059 39%,#f5f7f008 64%),linear-gradient(0deg,#f2f4ee55,transparent 30%)}
+.version-hero h1,.spotlight-copy h2,.spotlight-deadline b{color:var(--banner-ink)}
+.version-hero-kicker>span,.version-detail-button,.spotlight-kicker,.spotlight-actions>a{color:var(--banner-ink)}
+.version-hero-kicker small,.version-hero-meta>small,.version-hero-copy>p,.version-art-pending,.spotlight-kicker>span:last-child,.spotlight-badges,.spotlight-copy>p,.spotlight-deadline,.spotlight-top>span{color:var(--banner-muted)}
+.version-hero-meta{color:var(--banner-ink)}
+.version-hero-meta>b,.version-detail-button{border-color:var(--banner-line)}
+.spotlight .spotlight-visual,.spotlight.is-banner .spotlight-visual{inset:0 0 74px;height:auto}
+.spotlight .spotlight-wash{background:var(--banner-wash)}
+.spotlight-navigation,.spotlight-stepper,.spotlight-follow{background:var(--banner-panel);border-color:var(--banner-line)}
+.spotlight-switches>button,.spotlight-stepper .spotlight-pause{border-color:var(--banner-line)}
+.spotlight-stepper button,.spotlight-switches strong{color:var(--banner-ink)}
+.spotlight-switches small,.spotlight-stepper i{color:var(--banner-muted)}
+.spotlight-switches>button.active,.spotlight-switches>button:hover{background:color-mix(in srgb,var(--banner-ink) 6%,transparent)}
+:root[data-theme="light"] :is(.version-hero,.spotlight){--banner-base:#f2f4ee;--banner-ink:#233027;--banner-muted:#485849;--banner-line:#3c563d33;--banner-panel:#f5f7f0ed;--banner-wash:linear-gradient(90deg,#f5f7f0d9 0%,#f5f7f0ad 22%,#f5f7f033 43%,#f5f7f000 62%),linear-gradient(0deg,#f2f4ee66,transparent 24%);color:var(--banner-ink)}
+:root[data-theme="light"] :is(.version-hero-kicker>img,.spotlight-logo){filter:brightness(.25);opacity:.9}
+:root[data-theme="light"] .spotlight-follow.followed{color:#456b2d}
+:root[data-theme="light"] .spotlight .pickup-badge{color:#3f6228;border-color:#54773980;background:#edf3e4bd}
+:root[data-theme="light"] .spotlight .live-dot{background:#4c7133}
+:root[data-theme="light"] :is(.version-hero,.spotlight) .art-surface:after{background:none}
+:root[data-theme="light"] .version-detail-button:hover{color:#315c2b}
+@media(max-width:720px){
+ .spotlight{--banner-wash:linear-gradient(0deg,#101711f5 0%,#101711db 35%,#10171180 54%,#1017110a 78%)}
+ :root[data-theme="light"] .spotlight{--banner-wash:linear-gradient(0deg,#f5f7f0f2 0%,#f5f7f0cf 28%,#f5f7f052 48%,#f5f7f000 70%)}
+}
+@media(max-width:600px){
+ .version-hero{padding-top:180px;min-height:400px;--banner-wash:linear-gradient(0deg,#101711f0 0%,#101711bd 43%,#10171108 85%)}
+ .version-hero-art{inset:0;height:auto;aspect-ratio:auto}
+ .version-hero-copy{padding:18px 22px 26px;background:none}
+ .version-hero-pending{padding-top:0;min-height:230px}
+ :root[data-theme="light"] .version-hero{--banner-wash:linear-gradient(0deg,#f5f7f0ed 0%,#f5f7f09e 35%,#f5f7f000 72%)}
+ .version-hero:has(.version-art-inset){--banner-wash:linear-gradient(0deg,#101711f0 0%,#101711bd 43%,#10171108 85%)}
+ :root[data-theme="light"] .version-hero:has(.version-art-inset){--banner-wash:linear-gradient(0deg,#f5f7f0ed 0%,#f5f7f09e 35%,#f5f7f000 72%)}
+}
+
+:root[data-theme="light"] .spotlight-glow{opacity:.48}
+.spotlight.is-upcoming .spotlight-glow{filter:blur(35px) grayscale(1)}
+@media(min-width:1900px){.spotlight,.spotlight-scene,.spotlight-copy{min-height:660px}}
+
+/* Keep banner edges aligned with the calendar and the shared content column. */
+.version-hero,.spotlight{width:100%;max-width:none;margin-inline:0}
+.version-hero-copy{max-width:580px}
+@media(max-width:600px){.version-hero-copy{max-width:none}}
+
+/* Text and carousel controls occupy separate rows, even at enlarged text sizes. */
+.spotlight{display:flex;flex-direction:column;min-height:0}
+.spotlight .spotlight-scene{position:relative;inset:auto;min-height:0;overflow:hidden}
+.spotlight .spotlight-copy{position:relative;inset:auto;margin-left:4%;width:46%;max-width:760px;min-height:540px;padding:88px 0 48px;justify-content:center;box-sizing:border-box}
+.spotlight .spotlight-copy h2{overflow-wrap:anywhere;word-break:normal}
+.spotlight .spotlight-copy>p{display:block;max-width:100%;overflow:visible;-webkit-line-clamp:unset;overflow-wrap:anywhere}
+.spotlight .spotlight-visual,.spotlight.is-banner .spotlight-visual{inset:0;height:auto}
+.spotlight .spotlight-navigation{position:relative;inset:auto;min-height:88px;flex-shrink:0}
+.spotlight .spotlight-switches>button{flex:0 0 240px;max-width:280px;min-width:0}
+.spotlight .spotlight-switches strong{display:block;-webkit-line-clamp:unset;overflow:visible;overflow-wrap:anywhere}
+.spotlight .spotlight-kicker,.spotlight .spotlight-badges{flex-wrap:wrap}
+@media(min-width:1900px){.spotlight .spotlight-copy{min-height:660px}}
+@media(max-width:1000px){.spotlight .spotlight-copy{width:55%;min-height:500px}.spotlight .spotlight-switches>button{flex-basis:210px}}
+@media(max-width:720px){
+ .spotlight .spotlight-copy,.app-mode .spotlight .spotlight-copy{margin:0;width:100%;max-width:none;min-height:560px;padding:270px 24px 28px;justify-content:flex-end}
+ .spotlight .spotlight-copy h2{font-size:clamp(1.65rem,6vw,2.3rem)}
+ .spotlight .spotlight-navigation{flex-direction:column}
+ .spotlight .spotlight-switches>button{flex-basis:205px;padding:12px 16px}
+ .spotlight .spotlight-stepper{min-height:48px;justify-content:flex-end;border-left:0;border-top:1px solid var(--banner-line)}
+}

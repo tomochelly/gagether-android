@@ -1,0 +1,1188 @@
+{
+  "core": {
+    "schemaVersion": 1,
+    "scope": [
+      "genshin",
+      "hsr",
+      "zzz",
+      "endfield",
+      "wuwa",
+      "nte"
+    ],
+    "baselineVerifiedAt": "2026-10-16T11:23:31.809501Z",
+    "checkedAt": "2026-10-16T12:04:22.016415+00:00",
+    "changes": [],
+    "summary": "No material new or corrected current-version dates, rewards, or package information found in this bounded fresh Korean official-source check. Previously verified identity artwork is untouched.",
+    "checks": [
+      {
+        "name": "genshin-news",
+        "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iChanId=395&iPageSize=50&iPage=1&sLangKey=ko-kr",
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "httpStatus": 200,
+        "bytes": 304311,
+        "latest": [
+          {
+            "id": "166887",
+            "title": "곧 8강 진출팀이 확정됩니다! 「승부 예측의 달인」 하이라이트 모음집을 감상해 보세요~",
+            "publishedAt": "2026-10-15 12:00:00"
+          },
+          {
+            "id": "166666",
+            "title": "「죽음의 진혼곡」 7.1 버전 이벤트 알림 제2회",
+            "publishedAt": "2026-10-12 18:00:00"
+          },
+          {
+            "id": "166650",
+            "title": "「승부 예측의 달인」 이벤트 오픈! 참여만 해도 원석 보상 획득 가능!",
+            "publishedAt": "2026-10-12 12:00:00"
+          },
+          {
+            "id": "166663",
+            "title": "모험은 영감의 조미료지!——에스코피에·근황",
+            "publishedAt": "2026-10-11 12:05:00"
+          },
+          {
+            "id": "166640",
+            "title": "특훈 시간이다. 준비는 되었나?——스커크·근황",
+            "publishedAt": "2026-10-10 12:05:00"
+          },
+          {
+            "id": "166643",
+            "title": "원신 | 애니메이션 컷신-「작별 선물」",
+            "publishedAt": "2026-10-10 12:00:00"
+          },
+          {
+            "id": "166641",
+            "title": "원신 | 애니메이션 컷신-「『죽음』은 늘 제멋대로이니」",
+            "publishedAt": "2026-10-09 12:00:00"
+          },
+          {
+            "id": "166634",
+            "title": "7.1 버전 이벤트 기원 알림 제2회",
+            "publishedAt": "2026-10-08 16:00:00"
+          }
+        ],
+        "newIds": [],
+        "contentChangedIds": [],
+        "result": "No new article IDs or changed title/body/intro in the 50-item Korean feed compared with the prior review snapshot.",
+        "publicationTimeNote": "Publisher API display times are retained without assuming an offset."
+      },
+      {
+        "name": "hsr-news",
+        "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/113fe6d3b4514cdd/getContentList?iChanId=248&iPageSize=50&iPage=1&sLangKey=ko-kr",
+        "checkedAt": "2026-10-16T12:00:49.137593+00:00",
+        "httpStatus": 200,
+        "bytes": 414921,
+        "latest": [
+          {
+            "id": "166189",
+            "title": "우주 환상 펫 뽑기 확률 공지",
+            "publishedAt": "2026-09-28 07:00:00"
+          },
+          {
+            "id": "166468",
+            "title": "4.6 버전 「달 뜨기 전, 괴수와 춤을」 버전 업데이트 안내",
+            "publishedAt": "2026-09-28 07:00:00"
+          },
+          {
+            "id": "166182",
+            "title": "〈붕괴: 스타레일〉 펄 캐릭터 PV——「희망을 그리는 방법」",
+            "publishedAt": "2026-09-27 12:00:00"
+          },
+          {
+            "id": "166181",
+            "title": "〈붕괴: 스타레일〉 즉흥 순회공연 PV——「이로써, 예술이 완성되었습니다」",
+            "publishedAt": "2026-09-23 12:00:00"
+          },
+          {
+            "id": "166180",
+            "title": "〈붕괴: 스타레일〉 은하탐구생활——「펄: 심층 학습 중」",
+            "publishedAt": "2026-09-22 12:00:00"
+          },
+          {
+            "id": "166179",
+            "title": "〈붕괴: 스타레일〉 4.6 버전 PV: 「달 뜨기 전, 괴수와 춤을」",
+            "publishedAt": "2026-09-20 20:00:00"
+          },
+          {
+            "id": "165975",
+            "title": "〈붕괴: 스타레일〉 어벤츄린•웨이브 캐릭터 PV——「단독 특종」",
+            "publishedAt": "2026-09-10 12:00:00"
+          },
+          {
+            "id": "165974",
+            "title": "〈붕괴: 스타레일〉 별무리 기행 PV——「깊은 수역」",
+            "publishedAt": "2026-09-06 12:00:00"
+          }
+        ],
+        "newIds": [],
+        "contentChangedIds": [],
+        "result": "No new article IDs or changed title/body/intro in the 50-item Korean feed compared with the prior review snapshot.",
+        "publicationTimeNote": "Publisher API display times are retained without assuming an offset."
+      },
+      {
+        "name": "zzz-news",
+        "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPageSize=50&iPage=1&sLangKey=ko-kr",
+        "checkedAt": "2026-10-16T12:00:49.138362+00:00",
+        "httpStatus": 200,
+        "bytes": 207005,
+        "latest": [
+          {
+            "id": "166906",
+            "title": "🎃 「젠레스 존 제로」 담력 대회 오픈 예정! ",
+            "publishedAt": "2026-10-16 19:00:00"
+          },
+          {
+            "id": "166761",
+            "title": "에이전트 미수록 영상 | 피닉스 편 ",
+            "publishedAt": "2026-10-15 12:00:00"
+          },
+          {
+            "id": "166760",
+            "title": "생일 축하해 자오 | 이런 케이크는 없어 ",
+            "publishedAt": "2026-10-14 12:00:00"
+          },
+          {
+            "id": "166667",
+            "title": "그녀들의 숨겨진 과거 | 영상 파일 기록 공유 ",
+            "publishedAt": "2026-10-12 18:15:00"
+          },
+          {
+            "id": "166665",
+            "title": "배경화면 공유 | 록시 테마 배경화면 ",
+            "publishedAt": "2026-10-12 18:00:00"
+          },
+          {
+            "id": "166664",
+            "title": "「데이터 현상금-실전 시뮬레이션」 이벤트 설명",
+            "publishedAt": "2026-10-12 12:00:00"
+          },
+          {
+            "id": "166647",
+            "title": "〈젠레스 존 제로〉 X Discord 기존 계정 연동 서비스 조정 공지",
+            "publishedAt": "2026-10-10 18:00:00"
+          },
+          {
+            "id": "166644",
+            "title": "〈젠레스 존 제로〉 3.3 버전 「다시 하늘을 향해」 특별 방송 | 정보 일람 ",
+            "publishedAt": "2026-10-09 20:15:00"
+          }
+        ],
+        "newIds": [],
+        "contentChangedIds": [],
+        "result": "No new article IDs or changed title/body/intro in the 50-item Korean feed compared with the prior review snapshot.",
+        "publicationTimeNote": "Publisher API display times are retained without assuming an offset."
+      },
+      {
+        "name": "wuwa-news",
+        "url": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/kr/ArticleMenu.json",
+        "checkedAt": "2026-10-16T12:00:49.138975+00:00",
+        "httpStatus": 200,
+        "bytes": 111801,
+        "contentUnchanged": true,
+        "latestPublishedAtRaw": "2026-09-30 10:15:22",
+        "result": "Korean ArticleMenu matches the prior snapshot exactly; latest notice is 3.7 update (5572)."
+      },
+      {
+        "name": "endfield-news",
+        "url": "https://endfield.gryphline.com/ko-kr/news",
+        "checkedAt": "2026-10-16T12:00:49.139436+00:00",
+        "httpStatus": 200,
+        "bytes": 149735,
+        "latestNotice": {
+          "id": "0743",
+          "title": "「명일방주: 엔드필드」 WhatsApp 계정 연동 보상 오픈!",
+          "url": "https://endfield.gryphline.com/ko-kr/news/0743",
+          "publishedAt": "2026-10-16T04:00:00Z",
+          "brief": "WhatsApp account linking reward: Oroberyl ×100."
+        },
+        "result": "Latest event in Korean feed predates the 20:23 JST baseline. No later update/package notice is listed."
+      },
+      {
+        "name": "endfield-current",
+        "url": "https://endfield.gryphline.com/ko-kr/news/9560",
+        "checkedAt": "2026-10-16T12:00:49.140689+00:00",
+        "httpStatus": 200,
+        "bytes": 206986,
+        "contentUnchanged": true,
+        "normalizedBodySha256": "e45d8b6d018fe4bda900581993861456cb2cd6190b820a9317f29fc34b60260d",
+        "result": "Korean current-version notice text matches the previously reviewed snapshot."
+      },
+      {
+        "name": "nte-news",
+        "url": "https://nte.perfectworld.com/kr/article/news/index.html",
+        "checkedAt": "2026-10-16T12:00:49.141661+00:00",
+        "httpStatus": 200,
+        "bytes": 10187,
+        "latestNotice": {
+          "title": "2026년 10월 12일 위반 계정 제재 공지",
+          "publishedDate": "2026-10-12"
+        },
+        "result": "Newest Korean listing is an October 12 account enforcement notice; current-version update remains September 29."
+      },
+      {
+        "name": "nte-current",
+        "url": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+        "checkedAt": "2026-10-16T12:00:49.146546+00:00",
+        "httpStatus": 200,
+        "bytes": 31414,
+        "contentUnchanged": true,
+        "normalizedBodySha256": "82ef889de9f93a24dbdfe544f8fbbe574622dda4af77b3a4af2a7476bc1a12ce",
+        "result": "Korean current-version notice text matches the previously reviewed snapshot."
+      },
+      {
+        "name": "wuwa-current",
+        "url": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/kr/article/5572.json",
+        "checkedAt": "2026-10-16T12:02:13.778662+00:00",
+        "httpStatus": 200,
+        "bytes": 91836,
+        "contentUnchanged": true,
+        "result": "Complete Korean 3.7 article JSON matches the prior reviewed snapshot exactly."
+      }
+    ],
+    "currentKoreanSources": [
+      {
+        "entryIds": [
+          "genshin-71-update"
+        ],
+        "url": "https://genshin.hoyoverse.com/ko/news/detail/166383",
+        "officialTitle": "「죽음의 진혼곡」 7.1 버전 업데이트 안내",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-09-23 07:00:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "genshin-71-skirk",
+          "genshin-71-escoffier",
+          "genshin-71-weapon"
+        ],
+        "url": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+        "officialTitle": "7.1 버전 이벤트 기원 알림 제2회",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-10-08 16:00:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "genshin-71-predictive-victory"
+        ],
+        "url": "https://genshin.hoyoverse.com/ko/news/detail/166650",
+        "officialTitle": "「승부 예측의 달인」 이벤트 오픈! 참여만 해도 원석 보상 획득 가능!",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-10-12 12:00:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "hsr-46-update",
+          "hsr-46-warm-cotton",
+          "hsr-46-lunar-blossoming",
+          "hsr-46-love-ghosts",
+          "hsr-46-one-take",
+          "hsr-46-wishpower"
+        ],
+        "url": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+        "officialTitle": "4.6 버전 「달 뜨기 전, 괴수와 춤을」 버전 업데이트 안내",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-09-28 07:00:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "zzz-32-roxy",
+          "zzz-32-promeia",
+          "zzz-32-crimson-moon",
+          "zzz-32-frostfall"
+        ],
+        "url": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+        "officialTitle": "3.2 버전 기간 한정 채널(하반기)",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-09-28 12:15:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "zzz-32-orbie"
+        ],
+        "url": "https://zenless.hoyoverse.com/ko-kr/news/166476",
+        "officialTitle": "「짜잔! 동글이 성장 일기」 이벤트 설명",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-09-28 12:30:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "zzz-32-hobbling-crow"
+        ],
+        "url": "https://zenless.hoyoverse.com/ko-kr/news/166498",
+        "officialTitle": "「절름발이 까마귀 탐정록」 이벤트 설명",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-10-01 12:00:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "zzz-32-surprise-screening"
+        ],
+        "url": "https://zenless.hoyoverse.com/ko-kr/news/166191",
+        "officialTitle": "「깜짝 상영 기획」 이벤트 설명",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-09-21 12:15:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "zzz-32-data-bounty"
+        ],
+        "url": "https://zenless.hoyoverse.com/ko-kr/news/166664",
+        "officialTitle": "「데이터 현상금-실전 시뮬레이션」 이벤트 설명",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-10-12 12:00:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "zzz-32-city-fund-growth",
+          "zzz-32-city-fund-premium"
+        ],
+        "url": "https://zenless.hoyoverse.com/ko-kr/news/165995",
+        "officialTitle": "3.2 버전 「리두 펀드」 설명",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.136495+00:00",
+        "publisherDisplayedDate": "2026-09-08 12:45:00",
+        "scopeNote": "Fresh Korean official publisher API returned the complete matching current notice."
+      },
+      {
+        "entryIds": [
+          "endfield-si",
+          "endfield-jade-vessel",
+          "endfield-update-ink",
+          "endfield-inky-hues",
+          "endfield-stoves",
+          "endfield-ink-pass",
+          "endfield-wondrous",
+          "endfield-protocol-flow",
+          "endfield-omnipresence",
+          "endfield-star-river",
+          "endfield-argent-flow",
+          "endfield-tangtang",
+          "endfield-brigand"
+        ],
+        "url": "https://endfield.gryphline.com/ko-kr/news/9560",
+        "officialTitle": "「단청도」 버전 업데이트 설명",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.140689+00:00",
+        "publisherDisplayedDate": "2026-10-15",
+        "scopeNote": "Current version notice contains the listed event, package, and banner sections; cash prices remain unverified where not stated."
+      },
+      {
+        "entryIds": [
+          "wuwa-update-37",
+          "wuwa-fishing",
+          "wuwa-hsin",
+          "wuwa-blooming-jadehaven"
+        ],
+        "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+        "officialTitle": "「거울에 잠긴 허상, 마음이 비추는 인간 세상」 3.7 버전 업데이트 내용 안내",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:02:13.778662+00:00",
+        "publisherDisplayedDate": "2026-09-30 10:15:22",
+        "scopeNote": "Current 3.7 update verifies new character/weapon names and fishing event schedule. It is not a standalone rerun banner schedule."
+      },
+      {
+        "entryIds": [
+          "nte-blackbird",
+          "nte-lacrimosa",
+          "nte-crime-punishment",
+          "nte-last-rose",
+          "nte-update-14",
+          "nte-coal-lump",
+          "nte-circle-gifts",
+          "nte-wandering-stars"
+        ],
+        "url": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+        "officialTitle": "1.4 버전 「누구를 위하여 기도를 올리나」 업데이트 공지",
+        "sourceLocale": "ko",
+        "suitableAsPrimary": true,
+        "checkedAt": "2026-10-16T12:00:49.146546+00:00",
+        "publisherDisplayedDate": "2026-09-29",
+        "scopeNote": "Current 1.4 notice includes banner, event, login gift, and outfit sale information."
+      }
+    ],
+    "sourceCautions": [
+      {
+        "entryIds": [
+          "wuwa-chisa",
+          "wuwa-iuno",
+          "wuwa-kumokiri",
+          "wuwa-moongazer"
+        ],
+        "reason": "Existing Korean localizationSources ending 3618/4043/4183/4051 establish localized names from older notices. Do not promote them to main current pickup schedule sources. Retain the currently verified English current banner notice unless a current Korean banner notice is found. Korean 5572 verifies 3.7 but does not provide these rerun names/schedules in its text.",
+        "currentEnglishSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546"
+      },
+      {
+        "entryIds": [
+          "hsr-46-pearl",
+          "hsr-46-evanescia",
+          "hsr-46-colors-for-tomorrow",
+          "hsr-46-flowers-bloom-again"
+        ],
+        "reason": "Previously verified HoYoLAB banner notice 46851682 was not refetched in this bounded event/package delta check. Keep its existing evidence and do not treat this handoff as a new independent banner-schedule verification."
+      }
+    ],
+    "supplementalSearch": {
+      "checkedAt": "2026-10-16T12:04:22.016429+00:00",
+      "sitesRequested": [
+        "inven.co.kr",
+        "gall.dcinside.com",
+        "arca.live",
+        "youtube.com"
+      ],
+      "method": "Two bounded system1 batches, recency 1 day, with site/domain filters.",
+      "result": "No relevant post published after the baseline was surfaced. Search results were mostly older or irrelevant; no new community claim is adopted. This is not a full-site crawl or proof of no community activity."
+    },
+    "nonChanges": [
+      {
+        "gameId": "endfield",
+        "url": "https://endfield.gryphline.com/ko-kr/news/0743",
+        "publishedAt": "2026-10-16T04:00:00Z",
+        "reason": "WhatsApp linking event appears in the fresh official list, but its publication predates the baseline and account-linking is outside this narrow in-version event/package delta."
+      },
+      {
+        "gameId": "zzz",
+        "url": "https://zenless.hoyoverse.com/ko-kr/news/166906",
+        "publisherDisplayedDate": "2026-10-16 19:00:00",
+        "reason": "Halloween courage-test notice was already present in prior snapshot and does not change the currently recorded in-game events/packages."
+      }
+    ]
+  },
+  "others": {
+    "schemaVersion": 1,
+    "scope": [
+      "bluearchive",
+      "nikke",
+      "umamusume",
+      "gfl2",
+      "arknights"
+    ],
+    "requestedSince": "2026-10-16T20:23:00+09:00",
+    "startedAt": "2026-10-16T12:04:22.136481+00:00",
+    "completedAt": "2026-10-16T12:09:07.763611+00:00",
+    "result": "no_confirmed_content_changes_in_checked_sources",
+    "patches": [],
+    "additions": [],
+    "deletions": [],
+    "comparisons": [
+      {
+        "checkId": "ba-kr-current",
+        "fieldsCompared": [
+          "title",
+          "content"
+        ],
+        "unchanged": true,
+        "newSemanticSHA256": "b8b9057bbd14bc062b42327d8db7563e74def5bf83858f996b042fbbab57339e",
+        "baselineSemanticSHA256": "b8b9057bbd14bc062b42327d8db7563e74def5bf83858f996b042fbbab57339e",
+        "nonContentChangedFields": [
+          "readCount",
+          "modifyDate"
+        ]
+      },
+      {
+        "checkId": "ba-kr-shop",
+        "fieldsCompared": [
+          "title",
+          "content"
+        ],
+        "unchanged": true,
+        "newSemanticSHA256": "fbfff0385f4ac1b09085c7d47973615cd163758dc93040d5b47b7685f93a7974",
+        "baselineSemanticSHA256": "fbfff0385f4ac1b09085c7d47973615cd163758dc93040d5b47b7685f93a7974",
+        "nonContentChangedFields": [
+          "readCount",
+          "modifyDate"
+        ]
+      },
+      {
+        "checkId": "ba-en-current",
+        "fieldsCompared": [
+          "title",
+          "content"
+        ],
+        "unchanged": true,
+        "newSemanticSHA256": "426173de4a40ff382429a1f4a974bc312ed9912c31fc5faa1c08cd8f65280e9d",
+        "baselineSemanticSHA256": "426173de4a40ff382429a1f4a974bc312ed9912c31fc5faa1c08cd8f65280e9d",
+        "nonContentChangedFields": [
+          "readCount",
+          "modifyDate"
+        ]
+      },
+      {
+        "checkId": "nikke-ko-current",
+        "fieldsCompared": [
+          "title",
+          "content"
+        ],
+        "unchanged": true,
+        "newSemanticSHA256": "c008a65708860ac4ec819cb1f174e537d1dd89570f8356209b1cfb5ad3770bb6",
+        "baselineSemanticSHA256": "c008a65708860ac4ec819cb1f174e537d1dd89570f8356209b1cfb5ad3770bb6",
+        "nonContentChangedFields": [
+          "view_num"
+        ]
+      },
+      {
+        "checkId": "nikke-ja-current",
+        "fieldsCompared": [
+          "title",
+          "content"
+        ],
+        "unchanged": true,
+        "newSemanticSHA256": "da0d8787113d2129ea1a00a685113872db0290869f80e3bf4a47e400b9800caf",
+        "baselineSemanticSHA256": "da0d8787113d2129ea1a00a685113872db0290869f80e3bf4a47e400b9800caf",
+        "nonContentChangedFields": [
+          "view_num"
+        ]
+      },
+      {
+        "checkId": "gfl2-kr-rss",
+        "unchanged": true,
+        "fieldsCompared": [
+          "item.title",
+          "item.link",
+          "item.description",
+          "item.pubDate"
+        ],
+        "rowCount": 10,
+        "newSemanticSHA256": "c6bd4c8eadc7597391f939f258a04d4c4d282e046d8adbd864d1879c34814ce9",
+        "baselineSemanticSHA256": "c6bd4c8eadc7597391f939f258a04d4c4d282e046d8adbd864d1879c34814ce9",
+        "latestTitle": "[호박색 달빛] 버전 미리보기",
+        "latestPublication": "Wed, 07 Oct 2026 10:00:48 +0000"
+      },
+      {
+        "checkId": "gfl2-en-rss",
+        "unchanged": true,
+        "fieldsCompared": [
+          "item.title",
+          "item.link",
+          "item.description",
+          "item.pubDate"
+        ],
+        "rowCount": 10,
+        "newSemanticSHA256": "003c03483325ab86efcec44ece0e6006ad6fbd96b2e8ca42134527b6b9c02e3d",
+        "baselineSemanticSHA256": "003c03483325ab86efcec44ece0e6006ad6fbd96b2e8ca42134527b6b9c02e3d",
+        "latestTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/8",
+        "latestPublication": "Wed, 07 Oct 2026 10:00:48 +0000"
+      },
+      {
+        "checkId": "gfl2-jp-rss",
+        "unchanged": true,
+        "fieldsCompared": [
+          "item.title",
+          "item.link",
+          "item.description",
+          "item.pubDate"
+        ],
+        "rowCount": 10,
+        "newSemanticSHA256": "f623a9e71437db8f946236a817b9eea88ea1d6b28e28d1e6f41026c6e569e55d",
+        "baselineSemanticSHA256": "f623a9e71437db8f946236a817b9eea88ea1d6b28e28d1e6f41026c6e569e55d",
+        "latestTitle": "【バージョンアップデートのお知らせ】",
+        "latestPublication": "Wed, 07 Oct 2026 10:00:48 +0000"
+      },
+      {
+        "checkId": "ark-jp-list",
+        "unchanged": true,
+        "fieldsCompared": [
+          "data (full; outer request timestamp ignored)"
+        ],
+        "rowCount": 10,
+        "newSemanticSHA256": "c42c92b9f6ae43bef641c677359b0d6e756e88da66e59d906c9ae30df73993f9",
+        "baselineSemanticSHA256": "c42c92b9f6ae43bef641c677359b0d6e756e88da66e59d906c9ae30df73993f9",
+        "latestTitle": "「2026大感謝祭・秋」開催！",
+        "latestPublication": "2026-10-09T04:00:00.122000+00:00"
+      },
+      {
+        "checkId": "ark-en-list",
+        "unchanged": true,
+        "fieldsCompared": [
+          "data (full; outer request timestamp ignored)"
+        ],
+        "rowCount": 6,
+        "newSemanticSHA256": "22ebdb61a5f7e0f39164ce65d925241348beaa63611259800925f09b0cb37481",
+        "baselineSemanticSHA256": "22ebdb61a5f7e0f39164ce65d925241348beaa63611259800925f09b0cb37481",
+        "latestTitle": "Emergent Pulse Project - Critical Phase Transition Video Creation Event",
+        "latestPublication": "2026-10-14T09:02:07.148000+00:00"
+      },
+      {
+        "checkId": "uma-kr-list",
+        "unchanged": true,
+        "fieldsCompared": [
+          "id",
+          "title",
+          "contents",
+          "published_at",
+          "media"
+        ],
+        "rowCount": 20,
+        "newSemanticSHA256": "2a063d6daac152cad3148125485db35f21b38394f0c06b8a0180386e180031a5",
+        "baselineSemanticSHA256": "2a063d6daac152cad3148125485db35f21b38394f0c06b8a0180386e180031a5",
+        "latestTitle": "레전드 레이스: 타카라즈카 기념 개최 예정🎊",
+        "latestPublication": "2026-10-16T05:23:20+00:00"
+      }
+    ],
+    "feedObservations": [
+      {
+        "checkId": "nikke-ko-feed",
+        "rowCount": 20,
+        "latestPublication": "2026-10-05T08:00:00+00:00",
+        "latestTitle": "10월 8일 업데이트 공지(10/8 공지 수정)",
+        "latestId": "b67197d4ae491a4b47aa60ea65677b6cd8eb",
+        "containsPublicationAfterThreshold": false
+      },
+      {
+        "checkId": "nikke-ja-feed",
+        "rowCount": 20,
+        "latestPublication": "2026-10-09T08:36:20+00:00",
+        "latestTitle": "10月8日既知の問題について",
+        "latestId": "d00d60c6a5fe8a471ca9311ad20040f80768",
+        "containsPublicationAfterThreshold": false
+      },
+      {
+        "checkId": "nikke-en-feed",
+        "rowCount": 20,
+        "latestPublication": "2026-10-09T09:20:41+00:00",
+        "latestTitle": "October 8 Known Issues",
+        "latestId": "7edd4b25afe5ea4c2eab209a58f4c3a7137a",
+        "containsPublicationAfterThreshold": false
+      },
+      {
+        "checkId": "ba-jp-list",
+        "rowCount": 20,
+        "latestId": 698,
+        "latestPublication": "2026-10-06T05:55:00+00:00",
+        "containsPublicationAfterThreshold": false,
+        "limitation": "No exact archived full-list comparison; current latest ID 698 was already present in earlier research."
+      },
+      {
+        "checkId": "uma-global-list",
+        "rowCount": 10,
+        "latestId": 1109,
+        "latestTitle": "The Sparkly Magic Show collaboration event is here!",
+        "latestPublicationRaw": "2026-10-15 22:00:00",
+        "containsPublicationAfterThreshold": false,
+        "limitation": "Raw publication time has no offset; first current notice 1109 already present in existing entries. No new date conversion inferred."
+      }
+    ],
+    "accessObservations": [
+      {
+        "platform": "Arca Live",
+        "status": 200,
+        "checkIds": [
+          "arca-bluearchive",
+          "arca-ba-event",
+          "arca-ba-tiphareth"
+        ],
+        "changedFromPriorAccessResult": true,
+        "bodyReviewed": true,
+        "sources": [
+          {
+            "url": "https://arca.live/b/bluearchive/185759468",
+            "title": "저장용 람과천청 올인원",
+            "publishedAt": "2026-10-12T19:13:56Z",
+            "modifiedAt": "2026-10-13T01:58:22Z",
+            "sourceKind": "community",
+            "review": "Public event guide discusses reward-shop planning and compares repeated card draws with resource stages. Performance claims remain community opinion; no event-price/date patch adopted."
+          },
+          {
+            "url": "https://arca.live/b/bluearchive/185841287",
+            "title": "제약해제결전 : #28 <티페레트> 공략 모음집 [10-16]",
+            "publishedAt": "2026-10-13T14:17:25Z",
+            "modifiedAt": "2026-10-16T04:34:44Z",
+            "sourceKind": "community",
+            "review": "Current Tiphareth strategy index with floor-specific guides; last modification precedes the requested 20:23 JST cutoff. No post-cutoff official change."
+          }
+        ],
+        "note": "Direct ordinary public HTTP requests succeeded; no challenge solving or blocked-access bypass."
+      },
+      {
+        "platform": "YouTube",
+        "status": 200,
+        "checkIds": [
+          "youtube-gfl2",
+          "youtube-ba-meta"
+        ],
+        "changedFromPriorAccessResult": true,
+        "videoWatched": false,
+        "transcriptRead": false,
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=CQHeGya9IIU",
+            "title": "이벤트 PV [호박색 달빛] | 소녀전선2: 망명",
+            "publisher": "소녀전선2: 망명",
+            "publishedAt": "2026-10-06T02:00:27-07:00",
+            "reviewedFields": [
+              "title",
+              "author",
+              "channelId",
+              "description",
+              "publishDate"
+            ],
+            "descriptionConfirms": "October 8 09:00–October 28 18:59, same as existing official event window."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2ZJgt46EnyA",
+            "title": "블루아카이브 람과천청 이벤트 챌린지 클리어",
+            "publisher": "다루",
+            "reviewedFields": [
+              "oEmbed title",
+              "oEmbed author",
+              "thumbnail metadata"
+            ],
+            "note": "oEmbed metadata only; no new gameplay advice derived."
+          }
+        ]
+      },
+      {
+        "platform": "Inven/Vortex",
+        "status": 200,
+        "checkIds": [
+          "inven-nikke",
+          "inven-ba",
+          "vortex-ba"
+        ],
+        "note": "Current-version Inven reports remain reachable. Vortex page is byte-for-byte identical to archived guide. No verified new official deadline/price."
+      },
+      {
+        "platform": "DCInside",
+        "status": "timeout",
+        "checkIds": [
+          "dc-gfl2"
+        ],
+        "note": "Direct request timed out after 18 seconds; web open also returned not accessible. Current-pass body not read and no text inferred."
+      }
+    ],
+    "checks": [
+      {
+        "id": "ba-kr-current",
+        "url": "https://forum.nexon.com/api/v1/thread/3555107",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:22.136481+00:00",
+        "status": 200,
+        "finalUrl": "https://forum.nexon.com/api/v1/thread/3555107",
+        "bytes": 112975,
+        "contentType": "application/json;charset=UTF-8",
+        "sha256": "179c24fc83c60bdbc18939e7118e38f660c6e78f9ebae42f8836dcccdc28231d",
+        "rawExactMatch": false
+      },
+      {
+        "id": "ba-kr-shop",
+        "url": "https://forum.nexon.com/api/v1/thread/3560060",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:22.137310+00:00",
+        "status": 200,
+        "finalUrl": "https://forum.nexon.com/api/v1/thread/3560060",
+        "bytes": 65875,
+        "contentType": "application/json;charset=UTF-8",
+        "sha256": "cd07a5cb96491961665549d8325d6682893f4c59132aaa03c1d132da25861a0e",
+        "rawExactMatch": false
+      },
+      {
+        "id": "ba-en-current",
+        "url": "https://forum.nexon.com/api/v1/thread/3560143",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:22.137748+00:00",
+        "status": 200,
+        "finalUrl": "https://forum.nexon.com/api/v1/thread/3560143",
+        "bytes": 132422,
+        "contentType": "application/json;charset=UTF-8",
+        "sha256": "113de22be36410e53360640c1f4949e7b2d1d27a76364bbb5a969f6369bbc147",
+        "rawExactMatch": false
+      },
+      {
+        "id": "ba-kr-board",
+        "url": "https://forum.nexon.com/bluearchive/board_list?board=1076",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:22.138503+00:00",
+        "status": 200,
+        "finalUrl": "https://forum.nexon.com/bluearchive/board_list?board=1076",
+        "bytes": 7388,
+        "contentType": "text/html;charset=utf8",
+        "sha256": "4bf9e4bd0d8bd2874bdea6f221547f7bc2d5e971778ed353a7da8d31a630ab77",
+        "assessment": "HTTP 200 page shell only; current notice bodies separately compared successfully. Listing API attempts returned HTTP400."
+      },
+      {
+        "id": "ba-kr-shopboard",
+        "url": "https://forum.nexon.com/bluearchive/board_list?board=1073",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:22.139415+00:00",
+        "status": 200,
+        "finalUrl": "https://forum.nexon.com/bluearchive/board_list?board=1073",
+        "bytes": 7395,
+        "contentType": "text/html;charset=utf8",
+        "sha256": "d52afe3b5e071c12143338e5ce8bc38d7e10b5f45eeda53d68aabd67348ab32f",
+        "assessment": "HTTP 200 page shell only; current notice bodies separately compared successfully. Listing API attempts returned HTTP400."
+      },
+      {
+        "id": "ba-jp-list",
+        "url": "https://api-web.bluearchive.jp/api/news/list?typeId=0&pageNum=20&pageIndex=1",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:22.140793+00:00",
+        "status": 200,
+        "finalUrl": "https://api-web.bluearchive.jp/api/news/list?typeId=0&pageNum=20&pageIndex=1",
+        "bytes": 209922,
+        "contentType": "application/json; charset=utf-8",
+        "sha256": "cd68cace986ead9d8ddc28accd16c105dde9807b17e8d8e6cbef1cbe5e4592d4"
+      },
+      {
+        "id": "uma-kr-list",
+        "url": "https://pf.kakao.com/rocket-web/web/profiles/_DzxjIb/posts?includePinnedPost=true",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:22.142438+00:00",
+        "status": 200,
+        "finalUrl": "https://pf.kakao.com/rocket-web/web/profiles/_DzxjIb/posts?includePinnedPost=true",
+        "bytes": 44921,
+        "contentType": "application/json; charset=UTF-8",
+        "sha256": "8a41bb9b80ac943309eaa5e060f81bae2e55f86fdce87e8cb8af787426f46226",
+        "rawExactMatch": false
+      },
+      {
+        "id": "uma-global-list",
+        "url": "https://umamusume.com/api/ajax/pr_info_index?format=json",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:04:22.142965+00:00",
+        "status": 200,
+        "finalUrl": "https://umamusume.com/api/ajax/pr_info_index?format=json",
+        "bytes": 36403,
+        "contentType": "application/json; charset=utf-8",
+        "sha256": "b6a87ff73d748d6ed6b9e6e0955b7062033141b9b61084f75d097a3c9c1aa2ad"
+      },
+      {
+        "id": "uma-jp-list",
+        "url": "https://umamusume.jp/news/",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:27.456902+00:00",
+        "status": 200,
+        "finalUrl": "https://umamusume.jp/news/",
+        "bytes": 699273,
+        "contentType": "text/html",
+        "sha256": "73709c0138a6fe45659ea4d9d631f2db2f71bf533db5e671ba1f82e7a511b37b",
+        "assessment": "HTTP200 portal shell/configuration only; no current news list in payload. Listed news API POST returned HTTP404."
+      },
+      {
+        "id": "gfl2-kr-rss",
+        "url": "https://steamcommunity.com/games/3308670/rss/?l=koreana",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:28.062134+00:00",
+        "status": 200,
+        "finalUrl": "https://steamcommunity.com/games/3308670/rss/?l=koreana",
+        "bytes": 55777,
+        "contentType": "text/xml;charset=UTF-8",
+        "sha256": "bb8238f1308331a2424c55d035ea6dddaf93c68dce37a803ffa30ba11b9f1e09",
+        "rawExactMatch": false
+      },
+      {
+        "id": "gfl2-en-rss",
+        "url": "https://steamcommunity.com/games/3308670/rss/?l=english",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:28.279920+00:00",
+        "status": 200,
+        "finalUrl": "https://steamcommunity.com/games/3308670/rss/?l=english",
+        "bytes": 53957,
+        "contentType": "text/xml;charset=UTF-8",
+        "sha256": "016500ba94165be64067636ced560be9280b9e2218de912e232dae23835336be",
+        "rawExactMatch": false
+      },
+      {
+        "id": "gfl2-jp-rss",
+        "url": "https://steamcommunity.com/games/3308670/rss/?l=japanese",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:31.355875+00:00",
+        "status": 200,
+        "finalUrl": "https://steamcommunity.com/games/3308670/rss/?l=japanese",
+        "bytes": 56111,
+        "contentType": "text/xml;charset=UTF-8",
+        "sha256": "37e7dc738bc61d45320b125e0b7e9482e30a3abf1e9ed3fa4a6309f245f66e78",
+        "rawExactMatch": false
+      },
+      {
+        "id": "ark-kr-list",
+        "url": "https://www.arknights.kr/api/resource/news/list?index=1&size=10",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:31.538658+00:00",
+        "status": 200,
+        "finalUrl": "https://www.arknights.kr/api/resource/news/list?index=1&size=10",
+        "bytes": 173,
+        "contentType": "application/json; charset=utf-8",
+        "sha256": "0fdfe931d62b48f6b1d6ec15a232e62f22a461e265405364d1bf257e98ed3ffe",
+        "rawExactMatch": false,
+        "assessment": "HTTP 200 code0 with zero rows; same known empty KR website API. Korean event/package changes cannot be ruled out from this endpoint."
+      },
+      {
+        "id": "ark-kr-cafe",
+        "url": "https://cafe.naver.com/f-e/cafes/29703924/menus/71",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:31.720869+00:00",
+        "status": 200,
+        "finalUrl": "https://cafe.naver.com/f-e/cafes/29703924/menus/71",
+        "bytes": 36947,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "f5516f74b08adafa0b512c885f098d24a996d67a13eb570ecfdd70249bb6bb9a",
+        "assessment": "HTTP 200 shell: official media-mix board and client-rendered LoadingBar, no actual article list. It is not proof of absence of Korean notices."
+      },
+      {
+        "id": "ark-jp-list",
+        "url": "https://arknights.jp/api/resource/news/list?index=1&size=10",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:31.752083+00:00",
+        "status": 200,
+        "finalUrl": "https://arknights.jp/api/resource/news/list?index=1&size=10",
+        "bytes": 105166,
+        "contentType": "application/json; charset=utf-8",
+        "sha256": "6d71f6f37d1646c8502265051669460146d3773c8dec1ad1d91b1dc682d3bb24",
+        "rawExactMatch": false
+      },
+      {
+        "id": "ark-en-list",
+        "url": "https://www.arknights.global/api/resource/news/list?index=1&size=6",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:32.075503+00:00",
+        "status": 200,
+        "finalUrl": "https://www.arknights.global/api/resource/news/list?index=1&size=6",
+        "bytes": 124357,
+        "contentType": "application/json; charset=utf-8",
+        "sha256": "1defeac49fedbc1439a44987b22637a1d568c74d3f2a52a9518e17da0e823a3a",
+        "rawExactMatch": false
+      },
+      {
+        "id": "inven-nikke",
+        "url": "https://www.inven.co.kr/webzine/news/?news=321911&site=nikke",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:32.206984+00:00",
+        "status": 200,
+        "finalUrl": "https://www.inven.co.kr/webzine/news/?news=321911&site=nikke",
+        "bytes": 249384,
+        "contentType": "text/html; charset=UTF-8",
+        "sha256": "c139ead988141b3af3fe5e672fa657b4fc14631fcfc36d596b6ff71b1b186198"
+      },
+      {
+        "id": "inven-ba",
+        "url": "https://www.inven.co.kr/webzine/news/?news=322034",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:32.958811+00:00",
+        "status": 200,
+        "finalUrl": "https://www.inven.co.kr/webzine/news/?news=322034",
+        "bytes": 229606,
+        "contentType": "text/html; charset=UTF-8",
+        "sha256": "6b3efd2996173b9d68070895b01857259b578531b5813aadca258275443a1b67"
+      },
+      {
+        "id": "vortex-ba",
+        "url": "https://vortexgaming.io/postdetail/1301160",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:33.028060+00:00",
+        "status": 200,
+        "finalUrl": "https://vortexgaming.io/postdetail/1301160",
+        "bytes": 44484,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "bdf0d0b0bd275ad63a2c4191cb264635113f2e032b08ecf3eb81f4bea80d241d",
+        "rawExactMatch": true
+      },
+      {
+        "id": "dc-gfl2",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=gf2&no=1243880",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:33.079004+00:00",
+        "status": "error",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "id": "arca-bluearchive",
+        "url": "https://arca.live/b/bluearchive",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:37.362011+00:00",
+        "status": 200,
+        "finalUrl": "https://arca.live/b/bluearchive",
+        "bytes": 158402,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "7165ad51be7407629b14b36022b2614db423ed1fbfad0fba141fdd4c50ef05cf"
+      },
+      {
+        "id": "youtube-gfl2",
+        "url": "https://www.youtube.com/watch?v=CQHeGya9IIU",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:38.473997+00:00",
+        "status": 200,
+        "finalUrl": "https://www.youtube.com/watch?v=CQHeGya9IIU",
+        "bytes": 1288350,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "28e24756fb27f22b6bbdfd016ec727fc17474a2503de5dfbace734c72e07079a"
+      },
+      {
+        "id": "youtube-ba-meta",
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2ZJgt46EnyA&format=json",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:04:38.484097+00:00",
+        "status": 200,
+        "finalUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2ZJgt46EnyA&format=json",
+        "bytes": 975,
+        "contentType": "application/json",
+        "sha256": "94ed4fd7c2b51a48b8c8c270b2ac4b764a17818a9ddf00dc0f6a53d7f9ee5ec3"
+      },
+      {
+        "id": "nikke-ko-current",
+        "url": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentInfoById",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:04:39.011695+00:00",
+        "status": 200,
+        "finalUrl": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentInfoById",
+        "bytes": 50157,
+        "contentType": "application/json;charset=utf-8",
+        "sha256": "92bd6852affccab62786a25d870f77a2d2468a839353e644e921f0240470f261",
+        "rawExactMatch": false
+      },
+      {
+        "id": "nikke-ja-current",
+        "url": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentInfoById",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:04:39.489917+00:00",
+        "status": 200,
+        "finalUrl": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentInfoById",
+        "bytes": 53878,
+        "contentType": "application/json;charset=utf-8",
+        "sha256": "b0479fdc1ba856a051ba5a0c62c1b40f0b9256d82d1a4e17eb954cdf50809aae",
+        "rawExactMatch": false
+      },
+      {
+        "id": "nikke-en-current",
+        "url": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentInfoById",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:04:39.533978+00:00",
+        "status": 200,
+        "finalUrl": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentInfoById",
+        "bytes": 42799,
+        "contentType": "application/json;charset=utf-8",
+        "sha256": "9140cf328f940505ec27d10bbcca74ab4bd3a3babd15707958daf96bde82b571"
+      },
+      {
+        "id": "nikke-ko-labels",
+        "url": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetLabelList",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:04:39.764116+00:00",
+        "status": 200,
+        "finalUrl": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetLabelList",
+        "bytes": 4596,
+        "contentType": "application/json;charset=utf-8",
+        "sha256": "45483ad228098d8b130884f04c8868c6e3031191608b6533dcbc179c23247d73"
+      },
+      {
+        "id": "ba-board-js",
+        "url": "https://forum.nexon.com/community/web/resources/js/board_list.js?ver=1.33",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:06:21.248443+00:00",
+        "status": 200,
+        "bytes": 23707
+      },
+      {
+        "id": "arca-ba-event",
+        "url": "https://arca.live/b/bluearchive/185759468",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:06:21.250068+00:00",
+        "status": 200,
+        "bytes": 290408
+      },
+      {
+        "id": "arca-ba-tiphareth",
+        "url": "https://arca.live/b/bluearchive/185841287",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:06:21.250755+00:00",
+        "status": 200,
+        "bytes": 246498
+      },
+      {
+        "id": "uma-jp-payload",
+        "url": "https://umamusume.jp/news/_payload.json",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:06:21.251871+00:00",
+        "status": 200,
+        "bytes": 12026,
+        "assessment": "HTTP200 portal shell/configuration only; no current news list in payload. Listed news API POST returned HTTP404."
+      },
+      {
+        "id": "nikke-ko-feed",
+        "url": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentByLabel",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:06:21.253910+00:00",
+        "status": 200,
+        "bytes": 36831
+      },
+      {
+        "id": "nikke-ja-feed",
+        "url": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentByLabel",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:06:21.255534+00:00",
+        "status": 200,
+        "bytes": 42068
+      },
+      {
+        "id": "nikke-en-feed",
+        "url": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentByLabel",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:06:21.256866+00:00",
+        "status": 200,
+        "bytes": 23553
+      },
+      {
+        "id": "ba-update-feed",
+        "url": "https://forum.nexon.com/api/v1/board/1076/threads?pageNo=1&pageSize=20&hideType=WEB",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:07:19.017270+00:00",
+        "status": 400,
+        "error": "Bad Request"
+      },
+      {
+        "id": "ba-shop-feed",
+        "url": "https://forum.nexon.com/api/v1/board/1073/threads?pageNo=1&pageSize=20&hideType=WEB",
+        "method": "GET",
+        "checkedAt": "2026-10-16T12:07:19.018084+00:00",
+        "status": 400,
+        "error": "Bad Request"
+      },
+      {
+        "id": "uma-jp-feed",
+        "url": "https://umamusume.jp/api/ajax/pr_info_index?format=json",
+        "method": "POST",
+        "checkedAt": "2026-10-16T12:07:19.018531+00:00",
+        "status": 404,
+        "error": "Not Found"
+      }
+    ],
+    "coverageLimitations": [
+      "Blue Archive KR current update/shop bodies unchanged, but news-list API query failed with400; cannot assert all new KR posts absent.",
+      "Arknights KR website API empty and Naver menu renders shell only; current KR changes not conclusively verified. JP/EN full news data unchanged.",
+      "Uma JP current portal data was not retrievable from indicated API (404); KR feed unchanged and Global latest notice remains1109.",
+      "CN services and Darkwinter GFL2 were not part of prior active verified coverage and were not extrapolated.",
+      "Search-index queries on requested platforms returned no relevant post-cutoff event/package result; not treated as exhaustive absence."
+    ],
+    "repositoryModified": false,
+    "automationModified": false
+  }
+}

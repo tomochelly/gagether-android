@@ -1,0 +1,1964 @@
+[
+  {
+    "path": "public/assets/app-icons/arknights-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/arknights-app-icon-kr.jpg",
+    "bytes": 65619,
+    "sha256": "990d72162127a0c5b0ccd4cd92b629c44a37197564f0cb02844f3d7853d4f8c2"
+  },
+  {
+    "path": "public/assets/app-icons/bluearchive-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/bluearchive-app-icon-kr.jpg",
+    "bytes": 70647,
+    "sha256": "66fc07d3f2a442c8dc9a1123420e5bc42a307d3e702da7810ecd0b691cda0340"
+  },
+  {
+    "path": "public/assets/app-icons/endfield-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/endfield-app-icon-kr.jpg",
+    "bytes": 58407,
+    "sha256": "bde696da08c8e1ff1c0676c5da8dc2e634580096105cf261efd7dcc52862d073"
+  },
+  {
+    "path": "public/assets/app-icons/genshin-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/genshin-app-icon-kr.jpg",
+    "bytes": 71118,
+    "sha256": "1b995c08dba3642449addd0f9c989d1b9debb2b1e45470b99b1ec9cf0d5b3cd6"
+  },
+  {
+    "path": "public/assets/app-icons/gfl2-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/gfl2-app-icon-kr.jpg",
+    "bytes": 84442,
+    "sha256": "93fb22b03ae600b8f4bbe32a6ea2c0a792ba125f767f5b94d7020f33cdd7e060"
+  },
+  {
+    "path": "public/assets/app-icons/hsr-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/hsr-app-icon-kr.jpg",
+    "bytes": 83951,
+    "sha256": "20dee1d8edad728319f43604cc5d6aa6dbd251f74eaff7f8832d2253ea358f1b"
+  },
+  {
+    "path": "public/assets/app-icons/nikke-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/nikke-app-icon-kr.jpg",
+    "bytes": 121305,
+    "sha256": "aa61f8422158e0fddf69336019460c3b03b4a5e2c16aa6545e3f040faca98df1"
+  },
+  {
+    "path": "public/assets/app-icons/nte-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/nte-app-icon-kr.jpg",
+    "bytes": 103006,
+    "sha256": "2eecba6086380c3f762e72c64f465eb141300549514d7a2d47812d44c8a0b61e"
+  },
+  {
+    "path": "public/assets/app-icons/uma-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/uma-app-icon-kr.jpg",
+    "bytes": 102888,
+    "sha256": "58a2930a002a014459ac3e0735d8b453bcbe7f98691ded6cff591a633620e3cc"
+  },
+  {
+    "path": "public/assets/app-icons/wuwa-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/wuwa-app-icon-kr.jpg",
+    "bytes": 79478,
+    "sha256": "fc2049cedd011b74a9da6d10094c44a29d2ca8bd7429d222a6a2cbf58267b961"
+  },
+  {
+    "path": "public/assets/app-icons/zzz-app-icon-kr.jpg",
+    "url": "https://gagether.wiki/assets/app-icons/zzz-app-icon-kr.jpg",
+    "bytes": 55957,
+    "sha256": "c1bf545154bb1af259caf2ebf2b2d9a34c6c3ddfd5a1975d26673ef3a44cd514"
+  },
+  {
+    "path": "public/assets/arknights-art.webp",
+    "url": "https://gagether.wiki/assets/arknights-art.webp",
+    "bytes": 129866,
+    "sha256": "e24d2031eec2d58e7a7b6a3bc999d4b80ee1e055aef91791ce47b99dea502823"
+  },
+  {
+    "path": "public/assets/arknights-hero.webp",
+    "url": "https://gagether.wiki/assets/arknights-hero.webp",
+    "bytes": 109740,
+    "sha256": "7febec87c092cb1ba4fe24c96ea239b76d4407f2e1d891f7d92ff3e9d8d4a02c"
+  },
+  {
+    "path": "public/assets/arknights-logo.png",
+    "url": "https://gagether.wiki/assets/arknights-logo.png",
+    "bytes": 9275,
+    "sha256": "4a23e712453042af595fece989ee5145a60404d0cbc45a4a848b73dea66d4108"
+  },
+  {
+    "path": "public/assets/arknights-packs-basic.webp",
+    "url": "https://gagether.wiki/assets/arknights-packs-basic.webp",
+    "bytes": 157354,
+    "sha256": "0e9948f7efb7f53fcf73c7a45ac48650f3f07b66ba7a1e40577146529c290263"
+  },
+  {
+    "path": "public/assets/ba-kr-event.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-event.webp",
+    "bytes": 199418,
+    "sha256": "05b7badd41aea678d4eb00a181b8ca849a0700246feae9116089fa493891983d"
+  },
+  {
+    "path": "public/assets/ba-kr-pack-archive-selector.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-pack-archive-selector.webp",
+    "bytes": 3754,
+    "sha256": "cfca856b423c66663bf86834be2c5e58d939a3db276a976795e23f65147fbb66"
+  },
+  {
+    "path": "public/assets/ba-kr-pack-bond.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-pack-bond.webp",
+    "bytes": 3914,
+    "sha256": "fab8fa2f099d5573c77dd50018107b592e4414c131173d99e900dc036af25d3d"
+  },
+  {
+    "path": "public/assets/ba-kr-pack-gehenna.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-pack-gehenna.webp",
+    "bytes": 6996,
+    "sha256": "aaf9fa247ffc29368cd8cc73b4b0ffdef38813992b3ebb57b90b75a5d5e1b49a"
+  },
+  {
+    "path": "public/assets/ba-kr-pack-kisaki-growth.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-pack-kisaki-growth.webp",
+    "bytes": 4564,
+    "sha256": "46da7160bfff9c65f9f0349c77a4799b0814ac806a783536342f3b4ad7ac0af4"
+  },
+  {
+    "path": "public/assets/ba-kr-pack-millennium.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-pack-millennium.webp",
+    "bytes": 6984,
+    "sha256": "0ac61bce867aecb362614aa135e1a29188d3b23195dc55283a3d36c8f0a73bf0"
+  },
+  {
+    "path": "public/assets/ba-kr-pack-shanhaijing.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-pack-shanhaijing.webp",
+    "bytes": 6906,
+    "sha256": "a4cc6a3b5451bc264b95d3dd8934d324268b869705fe995e1b4749609ceb49b9"
+  },
+  {
+    "path": "public/assets/ba-kr-pack-shun-growth.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-pack-shun-growth.webp",
+    "bytes": 4576,
+    "sha256": "05eaeae8e8d63043351eccbd1bb76133b50d3c9268fa6a201fc12917ab973efc"
+  },
+  {
+    "path": "public/assets/ba-kr-pack-trinity.webp",
+    "url": "https://gagether.wiki/assets/ba-kr-pack-trinity.webp",
+    "bytes": 5504,
+    "sha256": "9539c94d9fa56ea121eb58dd5735a0a4d121d9e4985bb11a69308277cf59a03b"
+  },
+  {
+    "path": "public/assets/bluearchive-art.webp",
+    "url": "https://gagether.wiki/assets/bluearchive-art.webp",
+    "bytes": 148832,
+    "sha256": "f5cdb00af9a5d558dd6e8c42db26a33a24cbf877318d5a390e8c8a09e7d98658"
+  },
+  {
+    "path": "public/assets/bluearchive-bg-event.webp",
+    "url": "https://gagether.wiki/assets/bluearchive-bg-event.webp",
+    "bytes": 130380,
+    "sha256": "23637947d42c83b1fbd680fbdf2be0feadbbcba1f8a833d4d258e1d1fce152fe"
+  },
+  {
+    "path": "public/assets/bluearchive-logo.png",
+    "url": "https://gagether.wiki/assets/bluearchive-logo.png",
+    "bytes": 119933,
+    "sha256": "9d55c74a8608433de6ef5c190374c3534cba6ff69abc4f6dc023bf1830eda202"
+  },
+  {
+    "path": "public/assets/bluearchive-package-eleph.webp",
+    "url": "https://gagether.wiki/assets/bluearchive-package-eleph.webp",
+    "bytes": 259032,
+    "sha256": "90b23f79beff92cca8f9524f758506b04845fd155a77509b22916e68f593bba7"
+  },
+  {
+    "path": "public/assets/bluearchive-package-growth.webp",
+    "url": "https://gagether.wiki/assets/bluearchive-package-growth.webp",
+    "bytes": 161548,
+    "sha256": "3f53c9280bf8e8c0dd8eb28cbd35cf9d9691bfeb444c6000147d8b652db09b95"
+  },
+  {
+    "path": "public/assets/community/genshin-166650.webp",
+    "url": "https://gagether.wiki/assets/community/genshin-166650.webp",
+    "bytes": 106298,
+    "sha256": "148e930b31170446bc9b037494d7f3478b30f318eab74e2749f8679977b5f287"
+  },
+  {
+    "path": "public/assets/community/zzz-165995.webp",
+    "url": "https://gagether.wiki/assets/community/zzz-165995.webp",
+    "bytes": 161880,
+    "sha256": "80a863fb332e3db32241690f9b2e07147682874179e6d985ae9ac7141526097d"
+  },
+  {
+    "path": "public/assets/community/zzz-166191.webp",
+    "url": "https://gagether.wiki/assets/community/zzz-166191.webp",
+    "bytes": 140164,
+    "sha256": "80840eec7d94bdf32b100314028212810b9965fc95ba5ea7328267a04150ecea"
+  },
+  {
+    "path": "public/assets/community/zzz-166476.webp",
+    "url": "https://gagether.wiki/assets/community/zzz-166476.webp",
+    "bytes": 253754,
+    "sha256": "d3acc006026cfd4e14d8c25fdde1600494d9ebb96edefea6dc09b36b49b429f3"
+  },
+  {
+    "path": "public/assets/community/zzz-166498.webp",
+    "url": "https://gagether.wiki/assets/community/zzz-166498.webp",
+    "bytes": 170670,
+    "sha256": "6833d916d964c28daf7c21c841208b851d0bb82c21d6c98e479d45eeb52da8dd"
+  },
+  {
+    "path": "public/assets/community/zzz-166664.webp",
+    "url": "https://gagether.wiki/assets/community/zzz-166664.webp",
+    "bytes": 174880,
+    "sha256": "9135f1a79b134bc54c7a39f48a6c1d384ffe02282003feec15c252b8d7b7d431"
+  },
+  {
+    "path": "public/assets/endfield-art.webp",
+    "url": "https://gagether.wiki/assets/endfield-art.webp",
+    "bytes": 347838,
+    "sha256": "d9adab7835c11fbe33bd219da1ed70e6919faeb38ce48936353f622244a781ec"
+  },
+  {
+    "path": "public/assets/endfield-background.webp",
+    "url": "https://gagether.wiki/assets/endfield-background.webp",
+    "bytes": 339150,
+    "sha256": "8cf6220c6981b83d11366cb044896dfa57ed016900518fec7a42ed366ce54200"
+  },
+  {
+    "path": "public/assets/endfield-logo.svg",
+    "url": "https://gagether.wiki/assets/endfield-logo.svg",
+    "bytes": 3885,
+    "sha256": "9c0f6b35567b6d90af1e69a9a455940a9af6c41eb7457412d3c46c04ad20b8a7"
+  },
+  {
+    "path": "public/assets/entities/ark-closure-e2-full-c8409a3d.webp",
+    "url": "https://gagether.wiki/assets/entities/ark-closure-e2-full-c8409a3d.webp",
+    "bytes": 767148,
+    "sha256": "f9f9b209ef42195445ee82cffbae6b518108176374e6ef4bd0d48c3ac5ae043e"
+  },
+  {
+    "path": "public/assets/entities/ark-crackborne-e2-full-c9777867.webp",
+    "url": "https://gagether.wiki/assets/entities/ark-crackborne-e2-full-c9777867.webp",
+    "bytes": 497908,
+    "sha256": "6e7b1e8b3400d6d83c691f725f086ddf7c68bf0d3cef1207d9ec0652ff74aed9"
+  },
+  {
+    "path": "public/assets/entities/ark-flametail-e2-full-4600b917.png",
+    "url": "https://gagether.wiki/assets/entities/ark-flametail-e2-full-4600b917.png",
+    "bytes": 2224985,
+    "sha256": "4600b917dec6eab90d8e1334ed7306882eece27b6ce0a882fffeb720fa335bd5"
+  },
+  {
+    "path": "public/assets/entities/ark-hoederer-e2-full-501cb999.png",
+    "url": "https://gagether.wiki/assets/entities/ark-hoederer-e2-full-501cb999.png",
+    "bytes": 4571193,
+    "sha256": "501cb9992155098af5a49321830c50f579f6c3a503e77c0c4823cbdf5c7d6e1a"
+  },
+  {
+    "path": "public/assets/entities/ark-hoolheyak-e2-full-7886484b.png",
+    "url": "https://gagether.wiki/assets/entities/ark-hoolheyak-e2-full-7886484b.png",
+    "bytes": 5629729,
+    "sha256": "7886484bd79b35ea56a8e5bb8aca108d89046c08c759cd3d94955f6490690a4f"
+  },
+  {
+    "path": "public/assets/entities/ark-hoshiguma-e2-full-535ae294.png",
+    "url": "https://gagether.wiki/assets/entities/ark-hoshiguma-e2-full-535ae294.png",
+    "bytes": 2685482,
+    "sha256": "535ae294f6f020f3e2bebf0c76d8a19a82bc9623d02d1a1bb7d829cc2e97e153"
+  },
+  {
+    "path": "public/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+    "url": "https://gagether.wiki/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+    "bytes": 1140738,
+    "sha256": "68d6ba6693124075867a835d283acb1a54ef50e3921d1eb1a362da3dd71d3264"
+  },
+  {
+    "path": "public/assets/entities/azurelight-298e5509.webp",
+    "url": "https://gagether.wiki/assets/entities/azurelight-298e5509.webp",
+    "bytes": 29378,
+    "sha256": "231ce053e180b3bc49739ad9a7cd9800eba7cd27827eacb32b1abdb3b54fb66a"
+  },
+  {
+    "path": "public/assets/entities/cn/ak-clemence-e2.png",
+    "url": "https://gagether.wiki/assets/entities/cn/ak-clemence-e2.png",
+    "bytes": 4693620,
+    "sha256": "41952d976fa00998cb945321792d51ff2307a9208037757e29e722d9997b478b"
+  },
+  {
+    "path": "public/assets/entities/cn/ak-kaltsit-e2.png",
+    "url": "https://gagether.wiki/assets/entities/cn/ak-kaltsit-e2.png",
+    "bytes": 3169069,
+    "sha256": "979319b293f38f10cd620cc462656da8abbd7e490183e673023aef94437abdb8"
+  },
+  {
+    "path": "public/assets/entities/cn/ak-penance-e2.png",
+    "url": "https://gagether.wiki/assets/entities/cn/ak-penance-e2.png",
+    "bytes": 4514886,
+    "sha256": "5c8160723bcf8a1805a8cce985ec03e494bb92cb29f696d52746bc7a823418cb"
+  },
+  {
+    "path": "public/assets/entities/cn/ak-thorns-e2.png",
+    "url": "https://gagether.wiki/assets/entities/cn/ak-thorns-e2.png",
+    "bytes": 2121810,
+    "sha256": "9a41af18b47d16b057a09089e7b4b384fb4e0b8648637202ab31b1796c5a7c48"
+  },
+  {
+    "path": "public/assets/entities/cn/ak-version.jpg",
+    "url": "https://gagether.wiki/assets/entities/cn/ak-version.jpg",
+    "bytes": 458324,
+    "sha256": "5470cceccb438b0099693249fa6c077733feb41941a0414e86b7751f1b3c7272"
+  },
+  {
+    "path": "public/assets/entities/cn/ak-zuole-e2.png",
+    "url": "https://gagether.wiki/assets/entities/cn/ak-zuole-e2.png",
+    "bytes": 5731316,
+    "sha256": "ba62a1e8f026e8322cff203fdaab6848985df7eab5d109131ceb093029ad9781"
+  },
+  {
+    "path": "public/assets/entities/cn/gfl2-2177-banner.jpeg",
+    "url": "https://gagether.wiki/assets/entities/cn/gfl2-2177-banner.jpeg",
+    "bytes": 832367,
+    "sha256": "70a6e2b130b122192d18194c651bd3d2f8450e952df5c3add82ec5950714e1c8"
+  },
+  {
+    "path": "public/assets/entities/cn/gfl2-eagletta-full.png",
+    "url": "https://gagether.wiki/assets/entities/cn/gfl2-eagletta-full.png",
+    "bytes": 538417,
+    "sha256": "31d823683349adf49eefa9ef4ac7efd6bfab6b8666f428461c03f33c54ad01be"
+  },
+  {
+    "path": "public/assets/entities/cn/gfl2-igla-full.png",
+    "url": "https://gagether.wiki/assets/entities/cn/gfl2-igla-full.png",
+    "bytes": 765315,
+    "sha256": "6be4d1cfa7606618247d01bdf65ea56027449a9fc579b948f926196d4f9333ed"
+  },
+  {
+    "path": "public/assets/entities/cn/gfl2-ots14-full.webp",
+    "url": "https://gagether.wiki/assets/entities/cn/gfl2-ots14-full.webp",
+    "bytes": 192266,
+    "sha256": "584283d2013a6ddeae83c179b5f3e061f82404f2d48bef2db96504a76e243ab0"
+  },
+  {
+    "path": "public/assets/entities/cn/gfl2-sextans-full.webp",
+    "url": "https://gagether.wiki/assets/entities/cn/gfl2-sextans-full.webp",
+    "bytes": 302338,
+    "sha256": "7ff6f5ad5c9d5effdf22e08127447c6069e601b457fff98d59dfd190902207b8"
+  },
+  {
+    "path": "public/assets/entities/cn/gfl2-version.jpg",
+    "url": "https://gagether.wiki/assets/entities/cn/gfl2-version.jpg",
+    "bytes": 2033412,
+    "sha256": "2400cf3c9e619832568b8008c564dc163a2a96bdfd0f526761d1b04959d19337"
+  },
+  {
+    "path": "public/assets/entities/colors-5ad04db6.webp",
+    "url": "https://gagether.wiki/assets/entities/colors-5ad04db6.webp",
+    "bytes": 327492,
+    "sha256": "ea7966492ccaa8855f48acdf6f381cf1552073b034268b9ac3ad176cc9511943"
+  },
+  {
+    "path": "public/assets/entities/crimson-3b64c338.webp",
+    "url": "https://gagether.wiki/assets/entities/crimson-3b64c338.webp",
+    "bytes": 38546,
+    "sha256": "03a0bf937b3202df3eca7cf41e2a820dbeb70c8156f8c55cdbe0f9ed2ba362e2"
+  },
+  {
+    "path": "public/assets/entities/endfield-argent-flow-splash-full-202a5513.webp",
+    "url": "https://gagether.wiki/assets/entities/endfield-argent-flow-splash-full-202a5513.webp",
+    "bytes": 747686,
+    "sha256": "562225d626ea30d2fa318441d9195b1e27256275f0b63d6c5147215489ab9cf0"
+  },
+  {
+    "path": "public/assets/entities/endfield-brigand-exact-9dd3dbde.webp",
+    "url": "https://gagether.wiki/assets/entities/endfield-brigand-exact-9dd3dbde.webp",
+    "bytes": 157114,
+    "sha256": "0e874fca068cf270eea32044534f06948a6d725aa3dffd4d56a0595ce8bc8511"
+  },
+  {
+    "path": "public/assets/entities/endfield-jade-vessel-exact-d1348b06.webp",
+    "url": "https://gagether.wiki/assets/entities/endfield-jade-vessel-exact-d1348b06.webp",
+    "bytes": 157010,
+    "sha256": "083aeec2a34cd06bcf98407c1634d72ccf28b5f7ce626b5a5e8039a3d832d7d5"
+  },
+  {
+    "path": "public/assets/entities/endfield-si-splash-full-8d3ee8ef.webp",
+    "url": "https://gagether.wiki/assets/entities/endfield-si-splash-full-8d3ee8ef.webp",
+    "bytes": 1253090,
+    "sha256": "2c6e52d8372f3115ed656cb64417bcdec34a2f66adef86aeede2d1f89f974ed8"
+  },
+  {
+    "path": "public/assets/entities/endfield-tangtang-splash-full-eaa02d02.webp",
+    "url": "https://gagether.wiki/assets/entities/endfield-tangtang-splash-full-eaa02d02.webp",
+    "bytes": 613880,
+    "sha256": "4a4ae143e9aebc95763865c616720eed9ad14a4d0eea7151f98980c88c44bf4c"
+  },
+  {
+    "path": "public/assets/entities/escoffier-29c50598.webp",
+    "url": "https://gagether.wiki/assets/entities/escoffier-29c50598.webp",
+    "bytes": 378594,
+    "sha256": "2fd1bd29d3e8dc0b42681aef55aa80ea8a245ca48ddf680593d9cfae77c4e21f"
+  },
+  {
+    "path": "public/assets/entities/evanescia-splash-full-276434e1.webp",
+    "url": "https://gagether.wiki/assets/entities/evanescia-splash-full-276434e1.webp",
+    "bytes": 683464,
+    "sha256": "26a15eea393cd009804dc0b324978553762fde1b18e88c40eb4c3e7031c68d09"
+  },
+  {
+    "path": "public/assets/entities/flowers-preview-13-f1ec3316.webp",
+    "url": "https://gagether.wiki/assets/entities/flowers-preview-13-f1ec3316.webp",
+    "bytes": 129944,
+    "sha256": "783239ebea9f5df5dc0185644f128638303af42d50b3af6d50c8fe80bd0b2c3a"
+  },
+  {
+    "path": "public/assets/entities/frostfall-8c0e277b.webp",
+    "url": "https://gagether.wiki/assets/entities/frostfall-8c0e277b.webp",
+    "bytes": 28642,
+    "sha256": "82a99ac9398096bdf751fb5e7f3ba3e4834f6200b80b889017fa7f88186fff04"
+  },
+  {
+    "path": "public/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+    "bytes": 339808,
+    "sha256": "cb9351776ac5014771ec3447050487ec61c81a2e81c843241f1412aeeaa1d6e9"
+  },
+  {
+    "path": "public/assets/entities/gf2-krolik-f88d7d36.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-krolik-f88d7d36.webp",
+    "bytes": 206992,
+    "sha256": "c5e5bce254b1365c3a10dadb6e94de02fefc344c3fbd23e366f40d3575775f10"
+  },
+  {
+    "path": "public/assets/entities/gf2-ksenia-full-5e3dc84a.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-ksenia-full-5e3dc84a.webp",
+    "bytes": 169448,
+    "sha256": "8f23d4b94467b59859678c9ce7fb7c2b88eaf91039a7ffb05cb2c35bfc809ee2"
+  },
+  {
+    "path": "public/assets/entities/gf2-littara-52e17d2f.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-littara-52e17d2f.webp",
+    "bytes": 87404,
+    "sha256": "6ff615fbc8bc96b3fa434541b47a0e13a61d09fa6ac1fb9b9f663079c6d9f79a"
+  },
+  {
+    "path": "public/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+    "bytes": 431648,
+    "sha256": "8bccd7d61f265587caab2b36fa2789cea6788b273a6dd6b7a5ec38162eed95b8"
+  },
+  {
+    "path": "public/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+    "bytes": 375134,
+    "sha256": "819ed46fb51d90a9f824811e8858730b19e4f98f90f2e40a25d0534cf5bc5902"
+  },
+  {
+    "path": "public/assets/entities/gf2-nemesis-full-4c7d73a7.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-nemesis-full-4c7d73a7.webp",
+    "bytes": 201642,
+    "sha256": "ba76e0e919556b3d3cef4cfc4969363b2d4441f3724095a859fdc26a6ac76b7c"
+  },
+  {
+    "path": "public/assets/entities/gf2-weapon-nightwalker-8d6e3460.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-weapon-nightwalker-8d6e3460.webp",
+    "bytes": 30028,
+    "sha256": "67571e72a65e13d43e42afc11ded2a66e3a3b1a8b73d88a4c16d92902ba7b24d"
+  },
+  {
+    "path": "public/assets/entities/gf2-weapon-squirrel-9bdea67d.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-weapon-squirrel-9bdea67d.webp",
+    "bytes": 33308,
+    "sha256": "6a320d5d8b7dff21a79cf5d3aa070836b89295cbac68b153a34a966c67b05661"
+  },
+  {
+    "path": "public/assets/entities/gf2-weapon-transience-d0a31c31.webp",
+    "url": "https://gagether.wiki/assets/entities/gf2-weapon-transience-d0a31c31.webp",
+    "bytes": 27998,
+    "sha256": "ad3642cc2c2fe3e8ddf603d2206aca4bb31f33a24c888b853cffaefa9e60b5c2"
+  },
+  {
+    "path": "public/assets/entities/native/arknights-7f16f169e5fa.png",
+    "url": "https://gagether.wiki/assets/entities/native/arknights-7f16f169e5fa.png",
+    "bytes": 7655917,
+    "sha256": "7f16f169e5fa4ce7284e69896d581baa538e8a2bf35efca731923d5700634560"
+  },
+  {
+    "path": "public/assets/entities/native/arknights-c8409a3d8464.png",
+    "url": "https://gagether.wiki/assets/entities/native/arknights-c8409a3d8464.png",
+    "bytes": 4947372,
+    "sha256": "c8409a3d8464dbf2da28afe9de2f1ab08fc260e0b49d3c1a27ce9049995faedd"
+  },
+  {
+    "path": "public/assets/entities/native/arknights-c9777867140b.png",
+    "url": "https://gagether.wiki/assets/entities/native/arknights-c9777867140b.png",
+    "bytes": 3574378,
+    "sha256": "c9777867140b8bcf4d2af6608c6f3840e2ad3730bfe73f81c55b2ad726caa990"
+  },
+  {
+    "path": "public/assets/entities/native/bluearchive-4babddc6f1d0.png",
+    "url": "https://gagether.wiki/assets/entities/native/bluearchive-4babddc6f1d0.png",
+    "bytes": 2006314,
+    "sha256": "4babddc6f1d0ea6456b81fd97990f3aaa08423f4241186c23a68390929ce274d"
+  },
+  {
+    "path": "public/assets/entities/native/bluearchive-5b3c5c3955ea.png",
+    "url": "https://gagether.wiki/assets/entities/native/bluearchive-5b3c5c3955ea.png",
+    "bytes": 1908227,
+    "sha256": "5b3c5c3955eafabfb38e9ca5fe8bb20877e0b0518e12b64f716bfdf63bb3bd1a"
+  },
+  {
+    "path": "public/assets/entities/native/endfield-jade-vessel-e2afd16828d1.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/endfield-jade-vessel-e2afd16828d1.jpg",
+    "bytes": 340064,
+    "sha256": "e2afd16828d1db75782f2349fb942a5bc90070eeb7a59ba8af5ddfc73cafe4c5"
+  },
+  {
+    "path": "public/assets/entities/native/endfield-jade-vessel-en-d1348b0684cd.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/endfield-jade-vessel-en-d1348b0684cd.jpg",
+    "bytes": 343726,
+    "sha256": "d1348b0684cdbad3feaea9804ce04387ee21494405cf721f84d5b1a20ae12423"
+  },
+  {
+    "path": "public/assets/entities/native/endfield-jade-vessel-ja-22125b602869.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/endfield-jade-vessel-ja-22125b602869.jpg",
+    "bytes": 340148,
+    "sha256": "22125b602869ae947dc99adaf99c5a7a730f353f55cf059c419f994e26547610"
+  },
+  {
+    "path": "public/assets/entities/native/endfield-jade-vessel-ko-e2afd16828d1.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/endfield-jade-vessel-ko-e2afd16828d1.jpg",
+    "bytes": 340064,
+    "sha256": "e2afd16828d1db75782f2349fb942a5bc90070eeb7a59ba8af5ddfc73cafe4c5"
+  },
+  {
+    "path": "public/assets/entities/native/endfield-jade-vessel-zh-d20470307204.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/endfield-jade-vessel-zh-d20470307204.jpg",
+    "bytes": 341644,
+    "sha256": "d204703072041dfcecf41e0f537846c648715c55c7e59d55f8f3466fb5662e25"
+  },
+  {
+    "path": "public/assets/entities/native/endfield-si-8d3ee8efc1ac.png",
+    "url": "https://gagether.wiki/assets/entities/native/endfield-si-8d3ee8efc1ac.png",
+    "bytes": 1415950,
+    "sha256": "8d3ee8efc1acaf195b6eff0dab4fa275b1b38497ec1f2d54c6d76f83ad0eddde"
+  },
+  {
+    "path": "public/assets/entities/native/genshin-71-escoffier-1c84bcf5091c.png",
+    "url": "https://gagether.wiki/assets/entities/native/genshin-71-escoffier-1c84bcf5091c.png",
+    "bytes": 1349606,
+    "sha256": "1c84bcf5091cd3b1715f44502b29c4eb2a8de308f42abc097cd7609606ed2ebd"
+  },
+  {
+    "path": "public/assets/entities/native/genshin-71-escoffier-preview-9c8529d50e6a.png",
+    "url": "https://gagether.wiki/assets/entities/native/genshin-71-escoffier-preview-9c8529d50e6a.png",
+    "bytes": 636813,
+    "sha256": "9c8529d50e6ab23279f183cbf93145991e1202e4c16ad4338d1070ade36d95d5"
+  },
+  {
+    "path": "public/assets/entities/native/genshin-71-skirk-45a546c850b2.png",
+    "url": "https://gagether.wiki/assets/entities/native/genshin-71-skirk-45a546c850b2.png",
+    "bytes": 1921854,
+    "sha256": "45a546c850b2460ff38ddb4e9364779252e9af0c628a26188d37681994bdd585"
+  },
+  {
+    "path": "public/assets/entities/native/genshin-71-skirk-preview-0a7a366724ad.png",
+    "url": "https://gagether.wiki/assets/entities/native/genshin-71-skirk-preview-0a7a366724ad.png",
+    "bytes": 495326,
+    "sha256": "0a7a366724ad5653c05b7b310f3a3dd1b36762ab5c15ef5a74c152890074fa26"
+  },
+  {
+    "path": "public/assets/entities/native/gfl2-19c0c9ff8de0.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/gfl2-19c0c9ff8de0.jpg",
+    "bytes": 2305893,
+    "sha256": "19c0c9ff8de02822c86a48808dbf489965b94fd79f1322ecb909eb9241a8f5fc"
+  },
+  {
+    "path": "public/assets/entities/native/gfl2-c8b7a32fd313.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/gfl2-c8b7a32fd313.jpg",
+    "bytes": 7942392,
+    "sha256": "c8b7a32fd313fe9bc7ed9d47079bbed9b9f99ca6ee2a076f6aed7de576c7ae8b"
+  },
+  {
+    "path": "public/assets/entities/native/gfl2-d27f66ae1c4d.png",
+    "url": "https://gagether.wiki/assets/entities/native/gfl2-d27f66ae1c4d.png",
+    "bytes": 10376686,
+    "sha256": "d27f66ae1c4d52142c4ca33ebfa17d9acb4407c50f3c1d74ace62782098a6db4"
+  },
+  {
+    "path": "public/assets/entities/native/gfl2-f88d7d36368d.webp",
+    "url": "https://gagether.wiki/assets/entities/native/gfl2-f88d7d36368d.webp",
+    "bytes": 300592,
+    "sha256": "f88d7d36368dc03d2d0f28db576f3d93530c8c2f84bffa3e8b81b8252efbd76a"
+  },
+  {
+    "path": "public/assets/entities/native/hsr-46-evanescia-735c6a72e151.png",
+    "url": "https://gagether.wiki/assets/entities/native/hsr-46-evanescia-735c6a72e151.png",
+    "bytes": 3995231,
+    "sha256": "735c6a72e1515d13360c020b44fee8761b0e5034455dec7741ed5792a35d8a58"
+  },
+  {
+    "path": "public/assets/entities/native/hsr-46-flowers-bloom-again-e4c407dbceca.png",
+    "url": "https://gagether.wiki/assets/entities/native/hsr-46-flowers-bloom-again-e4c407dbceca.png",
+    "bytes": 1838136,
+    "sha256": "e4c407dbcecaf30e33091fa6d42cce85a0f8548ffeb42b78576936ca40c45b11"
+  },
+  {
+    "path": "public/assets/entities/native/nikke-50e3f1013201.png",
+    "url": "https://gagether.wiki/assets/entities/native/nikke-50e3f1013201.png",
+    "bytes": 2281672,
+    "sha256": "50e3f1013201c532413129d0d44f1e216323d219afb53a14b7dedbf82eec4fcd"
+  },
+  {
+    "path": "public/assets/entities/native/nte-blackbird-preview-b6db26dd361d.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/nte-blackbird-preview-b6db26dd361d.jpg",
+    "bytes": 280368,
+    "sha256": "b6db26dd361d4895f91138457e7bab32fd6b0cd3f5a02e8c2f27405859bb7c81"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-2b673ef85537.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-2b673ef85537.png",
+    "bytes": 3848274,
+    "sha256": "2b673ef85537ab92ec528c71b26cf87aec70a7966092a04a068edf9143303732"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-3dd7dfff22b6.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-3dd7dfff22b6.png",
+    "bytes": 2300860,
+    "sha256": "3dd7dfff22b617e1eb55e6fa62c3ef77464a547bf8fde86ad2d4d58467a76ac8"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-9180aa37df19.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-9180aa37df19.png",
+    "bytes": 3435166,
+    "sha256": "9180aa37df195402bfea413537f81b0db95bf613456a9ff4c44efac4f3e94ac0"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-9ae67808f2ab.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-9ae67808f2ab.png",
+    "bytes": 4665595,
+    "sha256": "9ae67808f2abdda87de60472580dda47c8e81b2d217e32a8399d1943b86c3498"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-e21cca977cf4.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-e21cca977cf4.png",
+    "bytes": 2331669,
+    "sha256": "e21cca977cf461a82332c9791ca6b553556c7abec44d9ff7eb48edad28c76b9c"
+  },
+  {
+    "path": "public/assets/entities/native/umamusume-f1298f84b946.png",
+    "url": "https://gagether.wiki/assets/entities/native/umamusume-f1298f84b946.png",
+    "bytes": 2017693,
+    "sha256": "f1298f84b9467f8c7078935431484630bb35ee8e758f5e24c46d56a786475b8e"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-blooming-jadehaven-ko-5f80d0d75d06.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-blooming-jadehaven-ko-5f80d0d75d06.jpg",
+    "bytes": 662073,
+    "sha256": "5f80d0d75d06b63cae3d3392853f11a423c348cedb1a45fb2f6f205d5912bf7f"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-blooming-jadehaven-zh-b0e0d88c2f2e.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-blooming-jadehaven-zh-b0e0d88c2f2e.jpg",
+    "bytes": 667283,
+    "sha256": "b0e0d88c2f2e2da99a263f6b67cabf340fb3cc22208c0c853813aff3bc5a7e28"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-kumokiri-en-ad8e4c163eb1.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-kumokiri-en-ad8e4c163eb1.jpg",
+    "bytes": 1292402,
+    "sha256": "ad8e4c163eb16224edc0f089ccd256ba56f2e9d280cc8be4a844b46ec7a853fa"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-kumokiri-ja-894a5683154a.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-kumokiri-ja-894a5683154a.jpg",
+    "bytes": 1292215,
+    "sha256": "894a5683154a7927cac0acc8e727e29cf9376d406e86081945f7d00eece955b2"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-kumokiri-ko-c7927c2ee5fc.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-kumokiri-ko-c7927c2ee5fc.jpg",
+    "bytes": 1280609,
+    "sha256": "c7927c2ee5fc5faa00f7cf67bccbad60c2b3ef10e7d0ab063ca42a146e11a879"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-kumokiri-zh-89113be89c14.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-kumokiri-zh-89113be89c14.jpg",
+    "bytes": 1290288,
+    "sha256": "89113be89c14d6487e508a27f373470ee3a157963fd979fff61d6591987aa7d7"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-moongazer-en-86b0d95ef945.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-moongazer-en-86b0d95ef945.jpg",
+    "bytes": 1371799,
+    "sha256": "86b0d95ef945f1b2aa96d455f47aef92f0a00dc23db6517c442a7497a35cfdac"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-moongazer-ja-7aa413540753.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-moongazer-ja-7aa413540753.jpg",
+    "bytes": 1380900,
+    "sha256": "7aa41354075323492c9a4cf3b84cf79a57231332f2c1b55bcb03788101a91733"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-moongazer-ko-7f1fe188d674.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-moongazer-ko-7f1fe188d674.jpg",
+    "bytes": 1356992,
+    "sha256": "7f1fe188d674d7fdade459b2e771f86855a6b12dc9f8bf0dd574baca9513a846"
+  },
+  {
+    "path": "public/assets/entities/native/wuwa-moongazer-zh-5e9ed60749ba.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/wuwa-moongazer-zh-5e9ed60749ba.jpg",
+    "bytes": 1382609,
+    "sha256": "5e9ed60749ba8c08a48e7f284d4d0c60018b6280bb162d650e6cd3f4bb5c3942"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-crimson-moon-en-8d0ef63be57e.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-crimson-moon-en-8d0ef63be57e.jpg",
+    "bytes": 843381,
+    "sha256": "8d0ef63be57e4c6cfceda6e2599c52b6da4b1440f91c86ba287f1ebde4052833"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-crimson-moon-ja-a87e8f91440f.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-crimson-moon-ja-a87e8f91440f.jpg",
+    "bytes": 831687,
+    "sha256": "a87e8f91440f87e255f809b4822445a56e7f26c995410720168f46e2967de1e4"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-crimson-moon-ko-8ba4513da93a.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-crimson-moon-ko-8ba4513da93a.jpg",
+    "bytes": 815284,
+    "sha256": "8ba4513da93a7cd9e861b9121766b23da6dd58dbdafa9b6cade57742dab3ad17"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-crimson-moon-zh-70096a1eb899.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-crimson-moon-zh-70096a1eb899.jpg",
+    "bytes": 813008,
+    "sha256": "70096a1eb8999a56d583d15962385279df3736fac1c4b49bd7f8de541eb9da88"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-frostfall-en-79748826d502.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-frostfall-en-79748826d502.jpg",
+    "bytes": 639355,
+    "sha256": "79748826d502fad4533e9420a2a421e70991136c68fa1a4ca1fd1fcfae408dcc"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-frostfall-ja-c1f74708c3f7.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-frostfall-ja-c1f74708c3f7.jpg",
+    "bytes": 639311,
+    "sha256": "c1f74708c3f7c4dc2dd1466940f2b44064614e088207809b1fe2404296bd81dc"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-frostfall-ko-675c0a99a908.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-frostfall-ko-675c0a99a908.jpg",
+    "bytes": 643194,
+    "sha256": "675c0a99a90826163cb028d40893766b1a5b57f1eaa9259904a282536bf9eb40"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-frostfall-zh-0fded244238c.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-frostfall-zh-0fded244238c.jpg",
+    "bytes": 651130,
+    "sha256": "0fded244238c41be80618a336d77b09fd29d23e5d10bbcef7225172a656d0ce8"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-en-ffa004d5509c.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-en-ffa004d5509c.jpg",
+    "bytes": 577078,
+    "sha256": "ffa004d5509c25f4e4066240774653f9a7e7ef5445b1320177949d14ce5ad2b5"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-ja-58f9a9c91ee6.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-ja-58f9a9c91ee6.jpg",
+    "bytes": 581268,
+    "sha256": "58f9a9c91ee6e5c509e053093d360923fed685f08170d6c41a0e368fbed7637c"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-ko-b6438e4c59b3.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-ko-b6438e4c59b3.jpg",
+    "bytes": 565358,
+    "sha256": "b6438e4c59b3aa9e2221961267deb40146eae7a0c39d8cdd6c134a1ba6249e71"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-preview-281805ae3855.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-preview-281805ae3855.jpg",
+    "bytes": 324459,
+    "sha256": "281805ae3855cd3469d8e07424709abb9163a11081af2fbbd26698610a85f3bd"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-promeia-zh-4774c8ce56a8.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-promeia-zh-4774c8ce56a8.jpg",
+    "bytes": 578259,
+    "sha256": "4774c8ce56a8e7ea178c16462cc59e308df4d09619051dddb0992bcc11a720c1"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-en-593d3d548450.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-en-593d3d548450.jpg",
+    "bytes": 693547,
+    "sha256": "593d3d548450c6bde7080d8cb8cc660afc7ddb4f92b6d372b41ce2ee037fa805"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-ja-0cb6f6b45833.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-ja-0cb6f6b45833.jpg",
+    "bytes": 703063,
+    "sha256": "0cb6f6b4583363a9699c99ee63695c6376d8d79f51db8723ece94530b10cab96"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-ko-403993e1ff97.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-ko-403993e1ff97.jpg",
+    "bytes": 691169,
+    "sha256": "403993e1ff97758f055ea5011162f3d6a0d57058a7ea2b4cf0b08bc26b15cd42"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-preview-741a9eddaacb.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-preview-741a9eddaacb.jpg",
+    "bytes": 286968,
+    "sha256": "741a9eddaacb23858dfba5e25c8c2aab9f7b2a4934e931dfdafb2c769fd04d4a"
+  },
+  {
+    "path": "public/assets/entities/native/zzz-32-roxy-zh-d340a79be375.jpg",
+    "url": "https://gagether.wiki/assets/entities/native/zzz-32-roxy-zh-d340a79be375.jpg",
+    "bytes": 704662,
+    "sha256": "d340a79be375925408dff09a8ef947bcdaeafa6d065b416fc2bb118a4ae579f0"
+  },
+  {
+    "path": "public/assets/entities/nikke-belorta-235e2435.webp",
+    "url": "https://gagether.wiki/assets/entities/nikke-belorta-235e2435.webp",
+    "bytes": 92726,
+    "sha256": "4dca4e5262265ba45abe5795f8b9aa4b60bb6398f4b9c01b9bd63efdb0375703"
+  },
+  {
+    "path": "public/assets/entities/nte-blackbird-ko-full-3e4f6a25.jpg",
+    "url": "https://gagether.wiki/assets/entities/nte-blackbird-ko-full-3e4f6a25.jpg",
+    "bytes": 1880907,
+    "sha256": "3e4f6a2582989f60a6d6dabfe1291227c58c150412cf56c0d17e9c91744fb479"
+  },
+  {
+    "path": "public/assets/entities/nte-crime-punishment-ko-full-a30f85e1.jpg",
+    "url": "https://gagether.wiki/assets/entities/nte-crime-punishment-ko-full-a30f85e1.jpg",
+    "bytes": 1145756,
+    "sha256": "a30f85e16a8c55e00437dc83d763acf88b74e19ef5b99b3eb58c73e2d624abef"
+  },
+  {
+    "path": "public/assets/entities/nte-lacrimosa-ko-full-76fd214f.jpg",
+    "url": "https://gagether.wiki/assets/entities/nte-lacrimosa-ko-full-76fd214f.jpg",
+    "bytes": 709424,
+    "sha256": "76fd214fa6377a3605a74e9a516918ff03b0aabaf89d0fee081e4f2c132bf6e3"
+  },
+  {
+    "path": "public/assets/entities/nte-last-rose-ko-full-4986a9f5.jpg",
+    "url": "https://gagether.wiki/assets/entities/nte-last-rose-ko-full-4986a9f5.jpg",
+    "bytes": 544988,
+    "sha256": "4986a9f5a4aef60280ffbe763e74abc138e2bdc589e1a8696152e68285df693c"
+  },
+  {
+    "path": "public/assets/entities/pearl-splash-full-48839311.webp",
+    "url": "https://gagether.wiki/assets/entities/pearl-splash-full-48839311.webp",
+    "bytes": 703126,
+    "sha256": "626c9c3b1a9c1ab9947872f24e1e5f7c22c1316332ffc15d43952b5908e7886a"
+  },
+  {
+    "path": "public/assets/entities/promeia-pickup-full-ko-full-b6438e4c.webp",
+    "url": "https://gagether.wiki/assets/entities/promeia-pickup-full-ko-full-b6438e4c.webp",
+    "bytes": 305830,
+    "sha256": "284410c9b05da5d2e62e8dd50ca22c6332ae94ada8374aa144a6629b1baab7b0"
+  },
+  {
+    "path": "public/assets/entities/roxy-pickup-full-ko-full-403993e1.webp",
+    "url": "https://gagether.wiki/assets/entities/roxy-pickup-full-ko-full-403993e1.webp",
+    "bytes": 410340,
+    "sha256": "e4cbdf46b7dc0d8401e4d1012ec66f95f439994ee31e7c1c53462ba223886028"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30264.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30264.png",
+    "bytes": 4984058,
+    "sha256": "f59a50cad6f67ac412bc2a8f7f1ed446927427f3e760012888e10728ba5fa950"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30275.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30275.png",
+    "bytes": 2848380,
+    "sha256": "e9eb22e31d59ed6ec8f3e5dbc5a67cbc58451fce196a89414998cf914554e696"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30281.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30281.png",
+    "bytes": 3252709,
+    "sha256": "8610450b9518f5980c0a26e6ec33147c3954b3af5be9e5fd23aaf5fa7e2795f2"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30282.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30282.png",
+    "bytes": 3380107,
+    "sha256": "a35592922c3b77992594645be0bc8182f4215c2ae686162962b149bf51245337"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30286.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30286.png",
+    "bytes": 3376418,
+    "sha256": "d459b11a249719378a81a490bbd3cda54c3a79c877c588626c111bd58911ad25"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30289.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30289.png",
+    "bytes": 3195602,
+    "sha256": "9e87426ee72aaf427837f31e19ccca0c7939e3f61444c4fc91b264017305552e"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30298.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30298.png",
+    "bytes": 3482892,
+    "sha256": "fe5b129761c17d6884d54f7128654b3d79adb1f73c065a4ecb21f5540682018f"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30300.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30300.png",
+    "bytes": 3071950,
+    "sha256": "2333be06e669ad94825cd1286d3c468a1267f958364813643dc8c9c589761885"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30302.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30302.png",
+    "bytes": 3524987,
+    "sha256": "e7384edd8b068706f448e0c43490e983b1267c5476d66bf4928ad133204e1be0"
+  },
+  {
+    "path": "public/assets/entities/selection/uma-ssr-30305.png",
+    "url": "https://gagether.wiki/assets/entities/selection/uma-ssr-30305.png",
+    "bytes": 2552183,
+    "sha256": "1f5a492ea0a363f066c3fb767326d82b3603902384185d69c5cbb69e262fb56e"
+  },
+  {
+    "path": "public/assets/entities/skirk-8f6cf04f.webp",
+    "url": "https://gagether.wiki/assets/entities/skirk-8f6cf04f.webp",
+    "bytes": 414026,
+    "sha256": "7b6a844cea0a11561348efa530da6f010e01755c6856146b5e3c69f536c0f987"
+  },
+  {
+    "path": "public/assets/entities/symphonist-8f77b408.webp",
+    "url": "https://gagether.wiki/assets/entities/symphonist-8f77b408.webp",
+    "bytes": 34042,
+    "sha256": "2f13f95e427b81fb4175d4bb0ebfa3d9cda3ddb71813d40f28f242a345b3cd92"
+  },
+  {
+    "path": "public/assets/entities/uma-brian-global-pickup-full-466a7603.webp",
+    "url": "https://gagether.wiki/assets/entities/uma-brian-global-pickup-full-466a7603.webp",
+    "bytes": 51640,
+    "sha256": "f0c85e5e571063a7a5091e805cf8f0a661f72c51a468bbbff738df9b2b3cf540"
+  },
+  {
+    "path": "public/assets/entities/uma-goldcity-kakao-full-b5cf38b1.webp",
+    "url": "https://gagether.wiki/assets/entities/uma-goldcity-kakao-full-b5cf38b1.webp",
+    "bytes": 184432,
+    "sha256": "3c74606cdc7f6271561ea7aa901fa73612f3fa8375fc0a96a9d9fcce8d3ac37a"
+  },
+  {
+    "path": "public/assets/entities/uma-opera-sr-3dd7dfff.webp",
+    "url": "https://gagether.wiki/assets/entities/uma-opera-sr-3dd7dfff.webp",
+    "bytes": 215180,
+    "sha256": "8762aee4545e0f90b82ccd4a47e50a56765936ea6b197305f69adf8f54305b51"
+  },
+  {
+    "path": "public/assets/entities/uma-tamamo-ssr-9ae67808.webp",
+    "url": "https://gagether.wiki/assets/entities/uma-tamamo-ssr-9ae67808.webp",
+    "bytes": 531542,
+    "sha256": "ef02af3a94bd3dae0738b5053bb7dc86019d04a64292db8135d08148e3b7194c"
+  },
+  {
+    "path": "public/assets/entities/uma-tucker-r-e21cca97.webp",
+    "url": "https://gagether.wiki/assets/entities/uma-tucker-r-e21cca97.webp",
+    "bytes": 223632,
+    "sha256": "b67d78c3beb73f7cf387f40c1ff0832dd94f7e5034a95ef595196dee6cae26b5"
+  },
+  {
+    "path": "public/assets/entities/uma-tucker-ssr-2b673ef8.webp",
+    "url": "https://gagether.wiki/assets/entities/uma-tucker-ssr-2b673ef8.webp",
+    "bytes": 423856,
+    "sha256": "75340793dbafa8463747cc82d728fccded320471b64a316a8634047081fad2e3"
+  },
+  {
+    "path": "public/assets/entities/uma-zephyr-r-f1298f84.webp",
+    "url": "https://gagether.wiki/assets/entities/uma-zephyr-r-f1298f84.webp",
+    "bytes": 191918,
+    "sha256": "5a6d4c499ee28ed372eaa7ca0498ba37ae149a6b6a3aa1c55c25789137cdd4b7"
+  },
+  {
+    "path": "public/assets/entities/uma-zephyr-ssr-9180aa37.webp",
+    "url": "https://gagether.wiki/assets/entities/uma-zephyr-ssr-9180aa37.webp",
+    "bytes": 316952,
+    "sha256": "e947ecb48ff07298a289cfba7b612290d342c73ac93e01157cc10b8517ee4d4f"
+  },
+  {
+    "path": "public/assets/entities/verified-ba-kr-kisaki-full-79097f06.webp",
+    "url": "https://gagether.wiki/assets/entities/verified-ba-kr-kisaki-full-79097f06.webp",
+    "bytes": 174736,
+    "sha256": "51b18c788c44a74493f972375710f28b1a572bef20c698d8f32865029e363a11"
+  },
+  {
+    "path": "public/assets/entities/verified-ba-kr-shun-full-c8e56283.webp",
+    "url": "https://gagether.wiki/assets/entities/verified-ba-kr-shun-full-c8e56283.webp",
+    "bytes": 169204,
+    "sha256": "c8dac5f1b3c6994e2e3b5e1abef9e3a4ec5cc2711fdd4689c2f8291a7240973f"
+  },
+  {
+    "path": "public/assets/entities/verified-bluearchive-pickup-1-985dca6f.webp",
+    "url": "https://gagether.wiki/assets/entities/verified-bluearchive-pickup-1-985dca6f.webp",
+    "bytes": 218976,
+    "sha256": "f8265113d63505044b5eacc4ad93a42923274086239cae70c05aad467f95e3e3"
+  },
+  {
+    "path": "public/assets/entities/verified-bluearchive-pickup-2-7cabf8fe.webp",
+    "url": "https://gagether.wiki/assets/entities/verified-bluearchive-pickup-2-7cabf8fe.webp",
+    "bytes": 140996,
+    "sha256": "40e0a8c91708e1dab25006800f6f9a3aa29655fbc1159c6df3de9ab0cace7215"
+  },
+  {
+    "path": "public/assets/entities/verified-bluearchive-pickup-3-6457ef18.webp",
+    "url": "https://gagether.wiki/assets/entities/verified-bluearchive-pickup-3-6457ef18.webp",
+    "bytes": 130830,
+    "sha256": "d081d45025d6ab75b0b995e77c0bd17a1ff24c5ef7719cb2e5bf6224afe97022"
+  },
+  {
+    "path": "public/assets/entities/verified-bluearchive-pickup-4-32c063ff.webp",
+    "url": "https://gagether.wiki/assets/entities/verified-bluearchive-pickup-4-32c063ff.webp",
+    "bytes": 108496,
+    "sha256": "4cc9f499cc2d26c467b77bfc3def59e20a68320527e2c19a0822de6d03700b6a"
+  },
+  {
+    "path": "public/assets/entities/verified-bluearchive-pickup-5-29546413.webp",
+    "url": "https://gagether.wiki/assets/entities/verified-bluearchive-pickup-5-29546413.webp",
+    "bytes": 145390,
+    "sha256": "e016527693b135870b7e5fd5a7a3541e0aa948af892c7cf8cf3fc552392e4e86"
+  },
+  {
+    "path": "public/assets/entities/wuwa-blooming-jadehaven-exact-ec6c5a9c.webp",
+    "url": "https://gagether.wiki/assets/entities/wuwa-blooming-jadehaven-exact-ec6c5a9c.webp",
+    "bytes": 118106,
+    "sha256": "b810100b83dafcabd083af385388aa11804066f9e7aac8e63c9e986461397fea"
+  },
+  {
+    "path": "public/assets/entities/wuwa-chisa-splash-full-63525a92.webp",
+    "url": "https://gagether.wiki/assets/entities/wuwa-chisa-splash-full-63525a92.webp",
+    "bytes": 544868,
+    "sha256": "300c16a427b13ab770acdc357fc49282099b567777e10191ba5490ef92f93e1b"
+  },
+  {
+    "path": "public/assets/entities/wuwa-hsin-splash-full-3df11519.webp",
+    "url": "https://gagether.wiki/assets/entities/wuwa-hsin-splash-full-3df11519.webp",
+    "bytes": 464838,
+    "sha256": "bebbebb5c2d05d5248531ba0d454c9bc0abb877fc66d61d35089f6684eda13e5"
+  },
+  {
+    "path": "public/assets/entities/wuwa-iuno-splash-full-691764b5.webp",
+    "url": "https://gagether.wiki/assets/entities/wuwa-iuno-splash-full-691764b5.webp",
+    "bytes": 525440,
+    "sha256": "e1a65fdd656267a8a8f9863d4bd5e2e83146d70b23369529fdbb4456a2627828"
+  },
+  {
+    "path": "public/assets/entities/wuwa-kumokiri-exact-ad8e4c16.webp",
+    "url": "https://gagether.wiki/assets/entities/wuwa-kumokiri-exact-ad8e4c16.webp",
+    "bytes": 169456,
+    "sha256": "03b858911704d11ae1b76d9ba5796b9bee4a6631d559ce6070e39779aad73867"
+  },
+  {
+    "path": "public/assets/entities/wuwa-moongazer-exact-86b0d95e.webp",
+    "url": "https://gagether.wiki/assets/entities/wuwa-moongazer-exact-86b0d95e.webp",
+    "bytes": 180734,
+    "sha256": "fc44b38dc9057a7f69e09753e896a1aa61969e82f50b64752a8dbeb74bf42871"
+  },
+  {
+    "path": "public/assets/events/.wuwa-fishing.png.6H9IJY",
+    "url": "https://gagether.wiki/assets/events/.wuwa-fishing.png.6H9IJY",
+    "bytes": 1835008,
+    "sha256": "c301f12762ae6be87cf589f1525ee47be1315a68da2d93c5f367f46fd1c82e60"
+  },
+  {
+    "path": "public/assets/events/genshin-166650-ko-kr.jpg",
+    "url": "https://gagether.wiki/assets/events/genshin-166650-ko-kr.jpg",
+    "bytes": 130701,
+    "sha256": "693a4d4fb1964187836894ec0c4fba897416548375925f4c6277ad042f7f0248"
+  },
+  {
+    "path": "public/assets/events/uma-campaign-1.png",
+    "url": "https://gagether.wiki/assets/events/uma-campaign-1.png",
+    "bytes": 176622,
+    "sha256": "07ac269bb3383f3d395e3de70c40bedd3841270f9c19ef03d81cc8382898de4c"
+  },
+  {
+    "path": "public/assets/events/uma-campaign-2.png",
+    "url": "https://gagether.wiki/assets/events/uma-campaign-2.png",
+    "bytes": 173533,
+    "sha256": "d6a28865794bd57cf7af15b97211f5055c587e336aed9a6c3b7d1d7c807002dc"
+  },
+  {
+    "path": "public/assets/events/uma-factor.png",
+    "url": "https://gagether.wiki/assets/events/uma-factor.png",
+    "bytes": 387386,
+    "sha256": "e7e662417111da626589adf669f4d95575986d48bde46e36a50370c9d959e848"
+  },
+  {
+    "path": "public/assets/events/wuwa-fishing.png",
+    "url": "https://gagether.wiki/assets/events/wuwa-fishing.png",
+    "bytes": 2179941,
+    "sha256": "dd9ca4d9d0523eb33d56112f5e6cfbb05043a05612edff02104d257c7e6f7eac"
+  },
+  {
+    "path": "public/assets/events/zzz-166191-en-us.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166191-en-us.jpg",
+    "bytes": 256731,
+    "sha256": "4a665423a881d97ac2d449b05774f0506b92b41443e1c62c8aa09bf44e8f6bc1"
+  },
+  {
+    "path": "public/assets/events/zzz-166191-ja-jp.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166191-ja-jp.jpg",
+    "bytes": 234412,
+    "sha256": "bf7da6accca691558d8f37c74b3a985ec98113790e831cd49758d74b7eb3f169"
+  },
+  {
+    "path": "public/assets/events/zzz-166191-ko-kr.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166191-ko-kr.jpg",
+    "bytes": 235366,
+    "sha256": "1a0e019885cdab929f03189660fdc540ad78d1ace635e953a0aa4022573f8b6a"
+  },
+  {
+    "path": "public/assets/events/zzz-166191-zh-cn.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166191-zh-cn.jpg",
+    "bytes": 241137,
+    "sha256": "a8b062af97f4e87154b4269156e39b0daa86d07b2fa57e2e7c9c3c5a5d2c9d9d"
+  },
+  {
+    "path": "public/assets/events/zzz-166476-en-us.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166476-en-us.jpg",
+    "bytes": 363143,
+    "sha256": "1893622cc05a585103209284d4b2446034201e13dca8e622d6babc91256faa15"
+  },
+  {
+    "path": "public/assets/events/zzz-166476-ja-jp.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166476-ja-jp.jpg",
+    "bytes": 359118,
+    "sha256": "89b362b46121344c4b721a0f4939f7f8c06618b85852a22d8450c4c727b1d894"
+  },
+  {
+    "path": "public/assets/events/zzz-166476-ko-kr.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166476-ko-kr.jpg",
+    "bytes": 357823,
+    "sha256": "8760867b28f0210cc9633d957353d700b4747ca462ddbd44945d2bcd162fa9e3"
+  },
+  {
+    "path": "public/assets/events/zzz-166476-zh-cn.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166476-zh-cn.jpg",
+    "bytes": 362498,
+    "sha256": "d478187009f2a1a2689e69d3229bf5fb5146fa0718c136f3e5ce4b7bf9d54300"
+  },
+  {
+    "path": "public/assets/events/zzz-166498-en-us.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166498-en-us.jpg",
+    "bytes": 283089,
+    "sha256": "b7e9dec6ee3eb9bc4896139f96bdb2ab61183e5b053faf31fbfe34cf91e9075f"
+  },
+  {
+    "path": "public/assets/events/zzz-166498-ja-jp.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166498-ja-jp.jpg",
+    "bytes": 277859,
+    "sha256": "23c479b2ae1e11bd03ec4cedcff24a0ca304a76ae2bb3a5ab6b35ba4352c1f08"
+  },
+  {
+    "path": "public/assets/events/zzz-166498-ko-kr.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166498-ko-kr.jpg",
+    "bytes": 271760,
+    "sha256": "382b99fd97e5fb9c3d6103a62e18010e2bb1d6b2b9300bffc590628780cf76c7"
+  },
+  {
+    "path": "public/assets/events/zzz-166498-zh-cn.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166498-zh-cn.jpg",
+    "bytes": 274375,
+    "sha256": "a10a883d6e03ce9725f4bce1a73f2b77978654b0fc84f0d0d4dfea827511e129"
+  },
+  {
+    "path": "public/assets/events/zzz-166664-en-us.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166664-en-us.jpg",
+    "bytes": 280812,
+    "sha256": "b82ec23872c2489c2834b3151e0c1e4fda38a99e6dc9d4ac520eef167f6f2e9b"
+  },
+  {
+    "path": "public/assets/events/zzz-166664-ja-jp.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166664-ja-jp.jpg",
+    "bytes": 271418,
+    "sha256": "2172d02d2f36a8cd92f5e8997991ab50762a02546d32e089e565dae361e17028"
+  },
+  {
+    "path": "public/assets/events/zzz-166664-ko-kr.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166664-ko-kr.jpg",
+    "bytes": 268751,
+    "sha256": "e7d0811454625fa2f5bd0ea217e4d1877939720efdb38bb91a75b256f9e89a68"
+  },
+  {
+    "path": "public/assets/events/zzz-166664-zh-cn.jpg",
+    "url": "https://gagether.wiki/assets/events/zzz-166664-zh-cn.jpg",
+    "bytes": 273990,
+    "sha256": "b80e5728986345863df7491801a00c9aadfec232f5c31249d4f9f53e65e04da0"
+  },
+  {
+    "path": "public/assets/fonts/Oxanium-OFL.txt",
+    "url": "https://gagether.wiki/assets/fonts/Oxanium-OFL.txt",
+    "bytes": 4384,
+    "sha256": "fe17c0f2581d71b4e1ea7e636e7f4877c29223e11bb1dd1a871e8c3f2a86336b"
+  },
+  {
+    "path": "public/assets/fonts/Oxanium-variable.ttf",
+    "url": "https://gagether.wiki/assets/fonts/Oxanium-variable.ttf",
+    "bytes": 43536,
+    "sha256": "2ce01d946e1e1ffc8d7eecfffbda8623bedd63eaf811a20488c4b69af45babb0"
+  },
+  {
+    "path": "public/assets/fonts/SUIT-LICENSE.txt",
+    "url": "https://gagether.wiki/assets/fonts/SUIT-LICENSE.txt",
+    "bytes": 4380,
+    "sha256": "30d101ee3c35ef629d622d933d261a27b2f60223e0a3b0f36791e569c2b9daa9"
+  },
+  {
+    "path": "public/assets/fonts/SUIT-Variable.woff2",
+    "url": "https://gagether.wiki/assets/fonts/SUIT-Variable.woff2",
+    "bytes": 624536,
+    "sha256": "aa894a204d5a6fbae259dac6868d350cbd373a390caee0313f92946af741df23"
+  },
+  {
+    "path": "public/assets/fonts/SUITE-LICENSE.txt",
+    "url": "https://gagether.wiki/assets/fonts/SUITE-LICENSE.txt",
+    "bytes": 4382,
+    "sha256": "4511d445dd33512b573bcb7bea8a690538f46c04f3e72f002fdad7987c8286fa"
+  },
+  {
+    "path": "public/assets/fonts/SUITE-Variable.woff2",
+    "url": "https://gagether.wiki/assets/fonts/SUITE-Variable.woff2",
+    "bytes": 535788,
+    "sha256": "fc5e0648d5413b55b79ebbab0f50de561a026574cba3a9c8eb03d5bddd432263"
+  },
+  {
+    "path": "public/assets/fonts/barlowcondensed-OFL.txt",
+    "url": "https://gagether.wiki/assets/fonts/barlowcondensed-OFL.txt",
+    "bytes": 4377,
+    "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+  },
+  {
+    "path": "public/assets/fonts/gagether-latin-0.woff",
+    "url": "https://gagether.wiki/assets/fonts/gagether-latin-0.woff",
+    "bytes": 40960,
+    "sha256": "35619055b26f87d667d57df1629e014accbe75f87675b211961a967981cc80ee"
+  },
+  {
+    "path": "public/assets/fonts/gagether-latin-1.woff",
+    "url": "https://gagether.wiki/assets/fonts/gagether-latin-1.woff",
+    "bytes": 42532,
+    "sha256": "b9ad435f85ff2463f4a100f96eb508b017ffe619c93f929829faf435c0bc14f4"
+  },
+  {
+    "path": "public/assets/fonts/gagether-latin-2.woff",
+    "url": "https://gagether.wiki/assets/fonts/gagether-latin-2.woff",
+    "bytes": 42676,
+    "sha256": "67df9f2c61b6fccb2580a14ede31c6b9b917c6de0152a5d45c7524292468bf54"
+  },
+  {
+    "path": "public/assets/fonts/gagether-latin-3.woff",
+    "url": "https://gagether.wiki/assets/fonts/gagether-latin-3.woff",
+    "bytes": 42768,
+    "sha256": "27e9ea7d6a25c3f0e586ed57d4c2c036ed68a28cb39a4bb5acffeaf19d51a1e1"
+  },
+  {
+    "path": "public/assets/fonts/gagether-latin-4.woff",
+    "url": "https://gagether.wiki/assets/fonts/gagether-latin-4.woff",
+    "bytes": 53680,
+    "sha256": "39152e442bb73697968368bf45148d131d5873a2aca41b6da80c389199b2317c"
+  },
+  {
+    "path": "public/assets/fonts/gagether-latin-5.woff",
+    "url": "https://gagether.wiki/assets/fonts/gagether-latin-5.woff",
+    "bytes": 54800,
+    "sha256": "30ddfabda8bc02b1725180c0e8c92d77bb581ead8904abda70837bdbb8d22192"
+  },
+  {
+    "path": "public/assets/fonts/ibmplexmono-OFL.txt",
+    "url": "https://gagether.wiki/assets/fonts/ibmplexmono-OFL.txt",
+    "bytes": 4456,
+    "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+  },
+  {
+    "path": "public/assets/genshin-art.webp",
+    "url": "https://gagether.wiki/assets/genshin-art.webp",
+    "bytes": 265722,
+    "sha256": "ab266bca0af3d93aa39b8d252eb5e3e545df28cf832d07667153cdb61a892e53"
+  },
+  {
+    "path": "public/assets/genshin-logo.png",
+    "url": "https://gagether.wiki/assets/genshin-logo.png",
+    "bytes": 6976,
+    "sha256": "7ee3a0b21371816a60a4ced77c280567ae8b3e1a17caf2310e8fd262a3580be5"
+  },
+  {
+    "path": "public/assets/genshin-update-hero.webp",
+    "url": "https://gagether.wiki/assets/genshin-update-hero.webp",
+    "bytes": 80900,
+    "sha256": "6001f875624ab95b1aeed9a85a1f37b473c7de8cabfeea22e81f6fcad4e19089"
+  },
+  {
+    "path": "public/assets/gf2-jp-event.webp",
+    "url": "https://gagether.wiki/assets/gf2-jp-event.webp",
+    "bytes": 154928,
+    "sha256": "445f73eb031e9902af43e40a8f49459c44c0f2906ced536f918572afe2a0a7dc"
+  },
+  {
+    "path": "public/assets/gf2-kr-event.webp",
+    "url": "https://gagether.wiki/assets/gf2-kr-event.webp",
+    "bytes": 154004,
+    "sha256": "1e06113affef1aac98f8a6c5995dd86f3132faaea95de478b58bec4febf42129"
+  },
+  {
+    "path": "public/assets/gf2-notice1.webp",
+    "url": "https://gagether.wiki/assets/gf2-notice1.webp",
+    "bytes": 190002,
+    "sha256": "4a71a05956d716feadd5df1088cefd2a3bd0e5053e7144e339c79af87c4dea70"
+  },
+  {
+    "path": "public/assets/gfl2-art.webp",
+    "url": "https://gagether.wiki/assets/gfl2-art.webp",
+    "bytes": 223320,
+    "sha256": "365cd85d7b627bb0c1db468505004395c9517418f55abe6d2cfbe0a3ad35d35a"
+  },
+  {
+    "path": "public/assets/gfl2-logo.png",
+    "url": "https://gagether.wiki/assets/gfl2-logo.png",
+    "bytes": 58904,
+    "sha256": "59d5f17a20c847a0adb83eff6fddc664b2dbdb743ac98c1769e08015afb2bf28"
+  },
+  {
+    "path": "public/assets/hsr-art.webp",
+    "url": "https://gagether.wiki/assets/hsr-art.webp",
+    "bytes": 481770,
+    "sha256": "1a0da57ecb135d1956edb862896f2483055d6d60e119bb3e31dfdc1be22c36c3"
+  },
+  {
+    "path": "public/assets/hsr-hero.webp",
+    "url": "https://gagether.wiki/assets/hsr-hero.webp",
+    "bytes": 415230,
+    "sha256": "9a2268571ba9f04765339dde65ccbe4ffb7056bca147e8e9dfe1eb9104e6d262"
+  },
+  {
+    "path": "public/assets/hsr-logo.png",
+    "url": "https://gagether.wiki/assets/hsr-logo.png",
+    "bytes": 88066,
+    "sha256": "360ca609450f21dfd4f3bf5ea6412fc1b48006e59f8ab06e3625dccf2692c713"
+  },
+  {
+    "path": "public/assets/nikke-art.webp",
+    "url": "https://gagether.wiki/assets/nikke-art.webp",
+    "bytes": 234558,
+    "sha256": "66b3291a8818ce76ec712bf034f7681d4e6b22b87b16fd2f021acf482ef25679"
+  },
+  {
+    "path": "public/assets/nikke-kr-belorta.webp",
+    "url": "https://gagether.wiki/assets/nikke-kr-belorta.webp",
+    "bytes": 301236,
+    "sha256": "d37c9c74418c8cc39bcfd045caee100b5d3da512c983647f2012d298ac13f771"
+  },
+  {
+    "path": "public/assets/nikke-logo.png",
+    "url": "https://gagether.wiki/assets/nikke-logo.png",
+    "bytes": 6184,
+    "sha256": "7b4aedf9723601293d8c4c72701868b0bef74b43f3c550de3ff5c0ce96e486e5"
+  },
+  {
+    "path": "public/assets/nte-art.webp",
+    "url": "https://gagether.wiki/assets/nte-art.webp",
+    "bytes": 530434,
+    "sha256": "0466756a8ff27226728eb3004efece4ceb21409a19f0f1f6cd6ab42ed7e4ddfb"
+  },
+  {
+    "path": "public/assets/nte-background.webp",
+    "url": "https://gagether.wiki/assets/nte-background.webp",
+    "bytes": 466294,
+    "sha256": "c4474204a389875ea15aa1b85453512103cb476b96f1f6b8de4cd151dd0097cd"
+  },
+  {
+    "path": "public/assets/nte-logo.png",
+    "url": "https://gagether.wiki/assets/nte-logo.png",
+    "bytes": 35274,
+    "sha256": "9c4f4aeb94024e16fda77ee5eaa0f7c14381611a79f02a5a7ff3717cd01f7407"
+  },
+  {
+    "path": "public/assets/rewards/primogem.png",
+    "url": "https://gagether.wiki/assets/rewards/primogem.png",
+    "bytes": 5993,
+    "sha256": "6301f5df6349baca64425f830215399a999ceda76c7bc0b127d4df351682b7c1"
+  },
+  {
+    "path": "public/assets/status/ak-branch-06328859.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-06328859.png",
+    "bytes": 1501,
+    "sha256": "3720a643de51811355b71068f103feedaae63e02944c7a5c63984c8cbabcf5be"
+  },
+  {
+    "path": "public/assets/status/ak-branch-19d5934b.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-19d5934b.png",
+    "bytes": 718,
+    "sha256": "249b099e5d9703052df760d7850d2e8762d35e808fd9a90e9fb6bb1a314481f4"
+  },
+  {
+    "path": "public/assets/status/ak-branch-48756279.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-48756279.png",
+    "bytes": 1286,
+    "sha256": "8d2e7aa9f6a03abc3c663f7dff31b5ac673016650321dc8ebe155129059f8e24"
+  },
+  {
+    "path": "public/assets/status/ak-branch-61b4869c.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-61b4869c.png",
+    "bytes": 2540,
+    "sha256": "6af432093f8f9ae8e4aa39b31860d533cebc5bed5732543f2e973b267f7fb516"
+  },
+  {
+    "path": "public/assets/status/ak-branch-7a9fdb3c.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-7a9fdb3c.png",
+    "bytes": 1858,
+    "sha256": "c15df835f06b1fb1d16a186d6feb1e48de203f8e79e9cf7e8f8042de506afe90"
+  },
+  {
+    "path": "public/assets/status/ak-branch-b574a230.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-b574a230.png",
+    "bytes": 1885,
+    "sha256": "b3ee068a553a562ef9e559ac11d1e578a9ad1ab507c2c0d405e73d9216302860"
+  },
+  {
+    "path": "public/assets/status/ak-branch-b7e28df2.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-b7e28df2.png",
+    "bytes": 2043,
+    "sha256": "bd8d295d0546ed7bec4812b318107ed900c9c4c8b60e9a718e239d26476d0465"
+  },
+  {
+    "path": "public/assets/status/ak-branch-ced18fe2.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-ced18fe2.png",
+    "bytes": 1463,
+    "sha256": "4c244943a1e4007faab23c0151a84cee2e93628bcb80e02cb966be6cdbd6a2c1"
+  },
+  {
+    "path": "public/assets/status/ak-branch-f724cd48.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-f724cd48.png",
+    "bytes": 1277,
+    "sha256": "65cc25aac5b378d77d8327f5a6806c32e95daf59d3c27fe570fb4261217bac7a"
+  },
+  {
+    "path": "public/assets/status/ak-branch-f81a8b80.png",
+    "url": "https://gagether.wiki/assets/status/ak-branch-f81a8b80.png",
+    "bytes": 1046,
+    "sha256": "9945b6de649a2c65c11e3f1abd5394b60862fcde9958690383ffacad86203d5d"
+  },
+  {
+    "path": "public/assets/status/ak-class-0dac44a6.png",
+    "url": "https://gagether.wiki/assets/status/ak-class-0dac44a6.png",
+    "bytes": 6544,
+    "sha256": "88faf71a29758546c304631dc7ba08ccc085c5aac6cfa79ae3a31aad415a7d9a"
+  },
+  {
+    "path": "public/assets/status/ak-class-1f453fb8.png",
+    "url": "https://gagether.wiki/assets/status/ak-class-1f453fb8.png",
+    "bytes": 5167,
+    "sha256": "2c94c9f373b877cf4146abf0d38167642ab55ab73bd9685714135cf2a0be4c7c"
+  },
+  {
+    "path": "public/assets/status/ak-class-6d768455.png",
+    "url": "https://gagether.wiki/assets/status/ak-class-6d768455.png",
+    "bytes": 6571,
+    "sha256": "98e70addd92d9929bff84bed0769cb32a1c83f87796fd675f5b70cc491d43162"
+  },
+  {
+    "path": "public/assets/status/ak-class-83801816.png",
+    "url": "https://gagether.wiki/assets/status/ak-class-83801816.png",
+    "bytes": 5033,
+    "sha256": "5c4dc2f6f8e0564a44a83c15c885482c54dc328107fd6ea2c56645bfaa9b05e4"
+  },
+  {
+    "path": "public/assets/status/ak-class-b509cac9.png",
+    "url": "https://gagether.wiki/assets/status/ak-class-b509cac9.png",
+    "bytes": 9272,
+    "sha256": "06f188272229390acd5a040c1c124f6fc7bb6150b92701ea828ab701d5c56f1c"
+  },
+  {
+    "path": "public/assets/status/ba-Common_Icon_CharacterWeapon_off.png",
+    "url": "https://gagether.wiki/assets/status/ba-Common_Icon_CharacterWeapon_off.png",
+    "bytes": 3132,
+    "sha256": "5ed879cf686a4b33a9812c1d56514a97358193a822f70635e062c0dc844c17ce"
+  },
+  {
+    "path": "public/assets/status/ba-Role_DamageDealer.png",
+    "url": "https://gagether.wiki/assets/status/ba-Role_DamageDealer.png",
+    "bytes": 1066,
+    "sha256": "cbe241712f9c5b522e4f6af98c3197a32d4ec1e53018aeb000e11cce91f76ba5"
+  },
+  {
+    "path": "public/assets/status/ba-Role_Supporter.png",
+    "url": "https://gagether.wiki/assets/status/ba-Role_Supporter.png",
+    "bytes": 1119,
+    "sha256": "1907def4451dd4f12390d4da010dd906d324eba0d9474e702737aab275a3c0b7"
+  },
+  {
+    "path": "public/assets/status/ba-Role_Tanker.png",
+    "url": "https://gagether.wiki/assets/status/ba-Role_Tanker.png",
+    "bytes": 938,
+    "sha256": "c12142bca616d7e5549580c3505f64bab9a893c8ec08cac505d766000bf510b5"
+  },
+  {
+    "path": "public/assets/status/ba-Type_Attack.png",
+    "url": "https://gagether.wiki/assets/status/ba-Type_Attack.png",
+    "bytes": 1026,
+    "sha256": "bb88b1548af5d29ee0dd8aa3cbde1d3fdd1f9ee8eab383321872de3dd2a99d97"
+  },
+  {
+    "path": "public/assets/status/ba-Type_Defense.png",
+    "url": "https://gagether.wiki/assets/status/ba-Type_Defense.png",
+    "bytes": 1112,
+    "sha256": "111bfeb975e3b5d45fe23732d70f03e436ae751ef5f75c705e58ff2c22074167"
+  },
+  {
+    "path": "public/assets/status/endfield-caster.jpg",
+    "url": "https://gagether.wiki/assets/status/endfield-caster.jpg",
+    "bytes": 6428,
+    "sha256": "b3d97d92309b0e5f336aadb93e898751843998b46caa9c609e30fc86ed17087b"
+  },
+  {
+    "path": "public/assets/status/endfield-electric.jpg",
+    "url": "https://gagether.wiki/assets/status/endfield-electric.jpg",
+    "bytes": 6864,
+    "sha256": "93b153f43a08ace3b7f2b8171441b779c90a6efbc521421f258870177cfce16a"
+  },
+  {
+    "path": "public/assets/status/endfield-guard.jpg",
+    "url": "https://gagether.wiki/assets/status/endfield-guard.jpg",
+    "bytes": 6890,
+    "sha256": "6f6b58e02463861976b1047cf7b8f414c0aa5421a76c3b091476404748b6133d"
+  },
+  {
+    "path": "public/assets/status/endfield-ice.jpg",
+    "url": "https://gagether.wiki/assets/status/endfield-ice.jpg",
+    "bytes": 8100,
+    "sha256": "45e10b8f9e4f957e60e0b99da30e502e8669ecefa65f08d7bdc60fcc05d83693"
+  },
+  {
+    "path": "public/assets/status/endfield-support.jpg",
+    "url": "https://gagether.wiki/assets/status/endfield-support.jpg",
+    "bytes": 6898,
+    "sha256": "5731c5adfec02eeb7a00d2efc9eeb60d54121906cd7348f153c22d789e8c91ee"
+  },
+  {
+    "path": "public/assets/status/genshin-element-802.png",
+    "url": "https://gagether.wiki/assets/status/genshin-element-802.png",
+    "bytes": 1129,
+    "sha256": "b78cb2181e50ea0cd070cef85bc3077aab16281d8fa142616b276e0a6ce9d4ea"
+  },
+  {
+    "path": "public/assets/status/genshin-weapon-124.png",
+    "url": "https://gagether.wiki/assets/status/genshin-weapon-124.png",
+    "bytes": 1545,
+    "sha256": "383101aa23265c086ef78245c138b379f38e2ce42592f9d1eecbc60c16a59b60"
+  },
+  {
+    "path": "public/assets/status/genshin-weapon-71.png",
+    "url": "https://gagether.wiki/assets/status/genshin-weapon-71.png",
+    "bytes": 1545,
+    "sha256": "03400232a058bbe30637d70d0b331a22013a8220026647d7403fd61df02a216a"
+  },
+  {
+    "path": "public/assets/status/gfl-sentinel.png",
+    "url": "https://gagether.wiki/assets/status/gfl-sentinel.png",
+    "bytes": 372,
+    "sha256": "f675d6e2e173363e42ae156c7f1ff31203292530f37e2b2000559d589f031b37"
+  },
+  {
+    "path": "public/assets/status/gfl-support.png",
+    "url": "https://gagether.wiki/assets/status/gfl-support.png",
+    "bytes": 332,
+    "sha256": "ec947d280ad0b036425ebb8e48755dcd4bcd887d6e5e38c3c42a56907461dec0"
+  },
+  {
+    "path": "public/assets/status/hsr-element-1297.png",
+    "url": "https://gagether.wiki/assets/status/hsr-element-1297.png",
+    "bytes": 3137,
+    "sha256": "212b3b556b04bf86d89b5092a3d2d43a3ce2ac7ead57f799f8e49d94a4f46861"
+  },
+  {
+    "path": "public/assets/status/hsr-element-1371.png",
+    "url": "https://gagether.wiki/assets/status/hsr-element-1371.png",
+    "bytes": 2752,
+    "sha256": "c63eabd91c8c56d9a41eca1bbd42bd1b9d14fe96f36e68488b6863f58fe83467"
+  },
+  {
+    "path": "public/assets/status/hsr-path-3689.png",
+    "url": "https://gagether.wiki/assets/status/hsr-path-3689.png",
+    "bytes": 1409,
+    "sha256": "bcd886c32500cb80c7e63ff295faa7e61a4f0581c50eddceb5e8f652de237632"
+  },
+  {
+    "path": "public/assets/status/nikke-man_tetra.webp",
+    "url": "https://gagether.wiki/assets/status/nikke-man_tetra.webp",
+    "bytes": 292,
+    "sha256": "0b480f266f864c129dff08a0aa4f2528b1d076f351a68ede0bd79e35eec9dc7c"
+  },
+  {
+    "path": "public/assets/status/nikke-type_2_bg.webp",
+    "url": "https://gagether.wiki/assets/status/nikke-type_2_bg.webp",
+    "bytes": 940,
+    "sha256": "b5f732720baf1a8df99ad8f5341ea2824523255a3f29219bf06c889ce5cc3143"
+  },
+  {
+    "path": "public/assets/status/nikke-water_bg.webp",
+    "url": "https://gagether.wiki/assets/status/nikke-water_bg.webp",
+    "bytes": 882,
+    "sha256": "3b5a965192e9fee6a5913e79723e709f02c8ec743ac496e30a77bf49eaad50ba"
+  },
+  {
+    "path": "public/assets/status/nikke-weapon_rocket.webp",
+    "url": "https://gagether.wiki/assets/status/nikke-weapon_rocket.webp",
+    "bytes": 352,
+    "sha256": "73ef3fc43bcec2842197f33af7dcc139786325c7b4a82066921902555fbb77b8"
+  },
+  {
+    "path": "public/assets/status/nte-chaos.webp",
+    "url": "https://gagether.wiki/assets/status/nte-chaos.webp",
+    "bytes": 7408,
+    "sha256": "affeaf51e082254e0ed14e9c59329c8df01116af481609b97e8e2007716f2350"
+  },
+  {
+    "path": "public/assets/status/nte-psyche.webp",
+    "url": "https://gagether.wiki/assets/status/nte-psyche.webp",
+    "bytes": 7926,
+    "sha256": "6afcb85f45043144652316c41e46e666002fbd8413989b6ccd84518670fa6312"
+  },
+  {
+    "path": "public/assets/status/uma-grade-A.png",
+    "url": "https://gagether.wiki/assets/status/uma-grade-A.png",
+    "bytes": 3525,
+    "sha256": "1a6c920eeae1a9e7d8d8de247f3f27eddb9053247d6708d97302d8360dd9e1a7"
+  },
+  {
+    "path": "public/assets/status/uma-grade-B.png",
+    "url": "https://gagether.wiki/assets/status/uma-grade-B.png",
+    "bytes": 3162,
+    "sha256": "381250b9eeb9c2950924377398c27f41f8b25fdffa11b813ba70a4e0ebbdf1b3"
+  },
+  {
+    "path": "public/assets/status/uma-grade-C.png",
+    "url": "https://gagether.wiki/assets/status/uma-grade-C.png",
+    "bytes": 3978,
+    "sha256": "684daada1346e0315d18b15eb83114ff1aa529cd69c86efa9fe36fc54de620fd"
+  },
+  {
+    "path": "public/assets/status/uma-grade-D.png",
+    "url": "https://gagether.wiki/assets/status/uma-grade-D.png",
+    "bytes": 3255,
+    "sha256": "2eeee1440293d358807d66c30ecb64fe8c59750cedc4b1f97d80d5d34ed8b7c8"
+  },
+  {
+    "path": "public/assets/status/uma-grade-F.png",
+    "url": "https://gagether.wiki/assets/status/uma-grade-F.png",
+    "bytes": 2281,
+    "sha256": "04fa0606e4401ffa1473802729a79b600a2b0f9adcad6e8a697ba6ebc8a2c120"
+  },
+  {
+    "path": "public/assets/status/uma-grade-G.png",
+    "url": "https://gagether.wiki/assets/status/uma-grade-G.png",
+    "bytes": 3827,
+    "sha256": "282ebd12a6483caf80e742a5b2393be392b9cc6bdd4bd00035ba70dbd8d18a4c"
+  },
+  {
+    "path": "public/assets/status/wuwa-element-3.png",
+    "url": "https://gagether.wiki/assets/status/wuwa-element-3.png",
+    "bytes": 4844,
+    "sha256": "980c70ff3741c6d57f2ef57f0045663bc9ca6308e6aceb46b91b76677fa97129"
+  },
+  {
+    "path": "public/assets/status/wuwa-element-4.png",
+    "url": "https://gagether.wiki/assets/status/wuwa-element-4.png",
+    "bytes": 4581,
+    "sha256": "7c03521dd4b6f9ffa61f8b227603668ae7be613ed58fe757d0e2fdab234ddc2c"
+  },
+  {
+    "path": "public/assets/status/wuwa-element-6.png",
+    "url": "https://gagether.wiki/assets/status/wuwa-element-6.png",
+    "bytes": 5096,
+    "sha256": "7b541761c6de91c90ad89bb5e11884f5d63b433a8fbc600b71f7df3e5455ce9d"
+  },
+  {
+    "path": "public/assets/status/wuwa-weapon-bk.webp",
+    "url": "https://gagether.wiki/assets/status/wuwa-weapon-bk.webp",
+    "bytes": 2480,
+    "sha256": "666f0cf2e26da7519254338c2c9f5d9adc875cc1a03bf0c993a54149e4b49aa4"
+  },
+  {
+    "path": "public/assets/status/wuwa-weapon-cr.webp",
+    "url": "https://gagether.wiki/assets/status/wuwa-weapon-cr.webp",
+    "bytes": 2138,
+    "sha256": "8788d7eb424a1d0cd0cf1eb7ea1f7679b99fa6308f9a389a833278c1c47ee00f"
+  },
+  {
+    "path": "public/assets/status/wuwa-weapon-ygy.webp",
+    "url": "https://gagether.wiki/assets/status/wuwa-weapon-ygy.webp",
+    "bytes": 2292,
+    "sha256": "bcdbb5e2cf80ff03cb3fb758d6964dc11d25551e05fd3c6886f72054a1d02eda"
+  },
+  {
+    "path": "public/assets/status/zzz-163316-element.png",
+    "url": "https://gagether.wiki/assets/status/zzz-163316-element.png",
+    "bytes": 1160,
+    "sha256": "511208c786661744038a506bdf4c8dd7203705e9b9dce1eaad9b3d20ef146c87"
+  },
+  {
+    "path": "public/assets/status/zzz-163316-specialty.png",
+    "url": "https://gagether.wiki/assets/status/zzz-163316-specialty.png",
+    "bytes": 1397,
+    "sha256": "84a1d634490add4e341b9220cc750513a9ffad7fe1995d96ab6576d5cace29b7"
+  },
+  {
+    "path": "public/assets/status/zzz-165591-element.png",
+    "url": "https://gagether.wiki/assets/status/zzz-165591-element.png",
+    "bytes": 4094,
+    "sha256": "a945fafbb0b9f782226062e3041297fdf0d8c3f25085ebeb149f96b6ca6ca6a2"
+  },
+  {
+    "path": "public/assets/status/zzz-165591-specialty.png",
+    "url": "https://gagether.wiki/assets/status/zzz-165591-specialty.png",
+    "bytes": 2373,
+    "sha256": "f28893ece76605934f1b58c86665c966d5eaf7309754d15b0f2ec8f675373526"
+  },
+  {
+    "path": "public/assets/status/zzz-srank.png",
+    "url": "https://gagether.wiki/assets/status/zzz-srank.png",
+    "bytes": 1280,
+    "sha256": "cc35dd929a14aa48479be916e954b7448539a350e1c0a50d014b7285974b36ec"
+  },
+  {
+    "path": "public/assets/uma-kr-114830299.webp",
+    "url": "https://gagether.wiki/assets/uma-kr-114830299.webp",
+    "bytes": 145408,
+    "sha256": "e480d6c0eaefbeb6e64390b9157a81bafbb6043351af48fb1fa66c0536bae5e7"
+  },
+  {
+    "path": "public/assets/uma-kr-114830316.webp",
+    "url": "https://gagether.wiki/assets/uma-kr-114830316.webp",
+    "bytes": 130986,
+    "sha256": "95b61e48ef4a58140b5bd5826ed4e4396e30e6595b5d3ddb009154d630f58da5"
+  },
+  {
+    "path": "public/assets/umamusume-1109-1.webp",
+    "url": "https://gagether.wiki/assets/umamusume-1109-1.webp",
+    "bytes": 30090,
+    "sha256": "c47936144a52a07a80e3d173de6f625a6e90797e9f55358bc208c16ecb5182df"
+  },
+  {
+    "path": "public/assets/umamusume-art.webp",
+    "url": "https://gagether.wiki/assets/umamusume-art.webp",
+    "bytes": 504824,
+    "sha256": "41e3a1a2227c3dbaadaffdd31ad2b946b307a441a87cbf84cbcc2f5f4008a022"
+  },
+  {
+    "path": "public/assets/umamusume-logo.png",
+    "url": "https://gagether.wiki/assets/umamusume-logo.png",
+    "bytes": 121435,
+    "sha256": "4765786596884d66469641978804d0b3ab750fd3c3dabd095a16ec558ef7837b"
+  },
+  {
+    "path": "public/assets/versions/ark-global-banner.jpg",
+    "url": "https://gagether.wiki/assets/versions/ark-global-banner.jpg",
+    "bytes": 340633,
+    "sha256": "dcda9e987ff33484b8aa72f955b66111c938e2fa0d94297cec50286ed5969032"
+  },
+  {
+    "path": "public/assets/versions/ark-jp-current-keyvisual.png",
+    "url": "https://gagether.wiki/assets/versions/ark-jp-current-keyvisual.png",
+    "bytes": 667953,
+    "sha256": "9dc62dd9f30c62080e8d862afcda714ba8c03b3fd485ca24a31a1f720b29a7db"
+  },
+  {
+    "path": "public/assets/versions/ark_facebook-og.jpg",
+    "url": "https://gagether.wiki/assets/versions/ark_facebook-og.jpg",
+    "bytes": 74773,
+    "sha256": "927e7a0023d4d2de39413a5b9b8611357c1ac0d599a6f4d61bd4ed9c729e67b9"
+  },
+  {
+    "path": "public/assets/versions/ba-jp-20261007-occult.png",
+    "url": "https://gagether.wiki/assets/versions/ba-jp-20261007-occult.png",
+    "bytes": 1184646,
+    "sha256": "1fe41f686359fd63e40497fbd8a1bf9dcde883c536be1729763864dbc22f8685"
+  },
+  {
+    "path": "public/assets/versions/ba-kr-20261013-calm.png",
+    "url": "https://gagether.wiki/assets/versions/ba-kr-20261013-calm.png",
+    "bytes": 2549468,
+    "sha256": "3cf5001dc3ef1f754ad5437938194309706808e7bb1e87f6026ba8e8981d4c03"
+  },
+  {
+    "path": "public/assets/versions/endfield-update-ink.jpg",
+    "url": "https://gagether.wiki/assets/versions/endfield-update-ink.jpg",
+    "bytes": 4376711,
+    "sha256": "1757fd5825da7b0db3980081319ef24d408463967303c67e030c220a14262536"
+  },
+  {
+    "path": "public/assets/versions/genshin-neutral-kv.png",
+    "url": "https://gagether.wiki/assets/versions/genshin-neutral-kv.png",
+    "bytes": 4525435,
+    "sha256": "1604caf1e771b179dd50d1e51da2c20245db1589e0f75b6dac0ec4e3614270eb"
+  },
+  {
+    "path": "public/assets/versions/gfl2-haoplay-amber-featured.png",
+    "url": "https://gagether.wiki/assets/versions/gfl2-haoplay-amber-featured.png",
+    "bytes": 372146,
+    "sha256": "ad04f695b231dcb13af256e7067279aba776baa8bd61771ce3464e32c41d320d"
+  },
+  {
+    "path": "public/assets/versions/gfl2-jp-amber-featured.png",
+    "url": "https://gagether.wiki/assets/versions/gfl2-jp-amber-featured.png",
+    "bytes": 393847,
+    "sha256": "51aa55f0a1f9e150b9049d01563dbf6d842810e5a18f48e1b4b955c2b35707b2"
+  },
+  {
+    "path": "public/assets/versions/gfl2-kr-amber-featured.png",
+    "url": "https://gagether.wiki/assets/versions/gfl2-kr-amber-featured.png",
+    "bytes": 395311,
+    "sha256": "3d524252aa557f9139dcd7e3f28f57c64b432f373494969f7a282132de517a25"
+  },
+  {
+    "path": "public/assets/versions/hsr-en-us.jpg",
+    "url": "https://gagether.wiki/assets/versions/hsr-en-us.jpg",
+    "bytes": 873728,
+    "sha256": "06cf349dba74e3782d1454453adf4264e273f8f60cb889f6482fce712c638b84"
+  },
+  {
+    "path": "public/assets/versions/hsr-ja-jp.jpg",
+    "url": "https://gagether.wiki/assets/versions/hsr-ja-jp.jpg",
+    "bytes": 872958,
+    "sha256": "27d58dbcf0f86f0a90bd7d06bfc4721d245ecc527acac64fe5e7983986b0dc16"
+  },
+  {
+    "path": "public/assets/versions/hsr-ko-kr.jpg",
+    "url": "https://gagether.wiki/assets/versions/hsr-ko-kr.jpg",
+    "bytes": 872359,
+    "sha256": "34fe3f0678568d9de3eb51e1327f49d7981135668eb87fa4ed8ea560ccc4dd4f"
+  },
+  {
+    "path": "public/assets/versions/hsr-zh-tw.jpg",
+    "url": "https://gagether.wiki/assets/versions/hsr-zh-tw.jpg",
+    "bytes": 873050,
+    "sha256": "acb7635b5c9ca1dfbff05cdfe2e1785513a544db63da83019613b8f898683a19"
+  },
+  {
+    "path": "public/assets/versions/nikke-current-keyvisual.jpeg",
+    "url": "https://gagether.wiki/assets/versions/nikke-current-keyvisual.jpeg",
+    "bytes": 5123322,
+    "sha256": "3656bfaa5583612d0a3c8a0d27d31a79051d399b4bc95c424698cde5325c0000"
+  },
+  {
+    "path": "public/assets/versions/nikke-version-en.jpeg",
+    "url": "https://gagether.wiki/assets/versions/nikke-version-en.jpeg",
+    "bytes": 5125835,
+    "sha256": "b648126babddb5ac0eb228be6af43f40606b267b10d3c5bedc64573109037435"
+  },
+  {
+    "path": "public/assets/versions/nikke-version-ja.jpeg",
+    "url": "https://gagether.wiki/assets/versions/nikke-version-ja.jpeg",
+    "bytes": 5132645,
+    "sha256": "dee90e12239dc383759efc0aa32e2cf885a04c23b6906dd3e202a3cea33bd8e4"
+  },
+  {
+    "path": "public/assets/versions/nte-update-14.jpg",
+    "url": "https://gagether.wiki/assets/versions/nte-update-14.jpg",
+    "bytes": 651543,
+    "sha256": "14cd299fc72a3910f1cb0c07f3702c2878017d87fec98b8c63ff3af515f3fef4"
+  },
+  {
+    "path": "public/assets/versions/uma-island-kv.jpg",
+    "url": "https://gagether.wiki/assets/versions/uma-island-kv.jpg",
+    "bytes": 4099032,
+    "sha256": "b51cd22444c7e3d5870b45cd68a0993ba73c49a4b906a0e195bce5bfd15a3078"
+  },
+  {
+    "path": "public/assets/versions/uma-jp-countdown.png",
+    "url": "https://gagether.wiki/assets/versions/uma-jp-countdown.png",
+    "bytes": 187723,
+    "sha256": "e5134252b59b30688dd5f61b466d49122032ec4e778fa013318c662687bb7a7d"
+  },
+  {
+    "path": "public/assets/versions/uma_facebook-og.jpg",
+    "url": "https://gagether.wiki/assets/versions/uma_facebook-og.jpg",
+    "bytes": 192560,
+    "sha256": "a3d851f9fb83dd40e1aa99b6cdee629b8e2ff9f69628f7c51265db7b2091aded"
+  },
+  {
+    "path": "public/assets/versions/wuwa-en-version.jpg",
+    "url": "https://gagether.wiki/assets/versions/wuwa-en-version.jpg",
+    "bytes": 3028759,
+    "sha256": "1d010e574791f7016daf1e687f801d6c32c7c4eb637380bf20efc3a6307de374"
+  },
+  {
+    "path": "public/assets/versions/wuwa-ja-version.jpg",
+    "url": "https://gagether.wiki/assets/versions/wuwa-ja-version.jpg",
+    "bytes": 3010639,
+    "sha256": "addb3ba5c6dd70711553c406f0e540e2da870cbfcc2dd389d1c6e211f240de9b"
+  },
+  {
+    "path": "public/assets/versions/wuwa-kr-current-keyvisual.jpg",
+    "url": "https://gagether.wiki/assets/versions/wuwa-kr-current-keyvisual.jpg",
+    "bytes": 3005038,
+    "sha256": "42132d89bac847277630fd3632db3fd1fe6b4ae2a8556f74ca8eeb6a86c1f08e"
+  },
+  {
+    "path": "public/assets/versions/wuwa-update-37.jpg",
+    "url": "https://gagether.wiki/assets/versions/wuwa-update-37.jpg",
+    "bytes": 2371851,
+    "sha256": "04eb1a6f7316551a7717b19b2f1b0f1f7961ed481df3f3e17d933f69e119555e"
+  },
+  {
+    "path": "public/assets/versions/zzz-en-us.jpg",
+    "url": "https://gagether.wiki/assets/versions/zzz-en-us.jpg",
+    "bytes": 518041,
+    "sha256": "5ffe363312a2f02a3aecfc421fae46311d2fed079cc92eeae5ccff680aa9d0e0"
+  },
+  {
+    "path": "public/assets/versions/zzz-ja-jp.jpg",
+    "url": "https://gagether.wiki/assets/versions/zzz-ja-jp.jpg",
+    "bytes": 509053,
+    "sha256": "159895ffc0218f6a6ebbbe1a97eae2cff273a27c55c97755edf7de7a0e514c9c"
+  },
+  {
+    "path": "public/assets/versions/zzz-ko-kr.jpg",
+    "url": "https://gagether.wiki/assets/versions/zzz-ko-kr.jpg",
+    "bytes": 513702,
+    "sha256": "8a48b6aa8997ce5de1ee92400fe0ed6cb7f876ca9ac08683c3393bd4cdcda845"
+  },
+  {
+    "path": "public/assets/versions/zzz-zh-tw.jpg",
+    "url": "https://gagether.wiki/assets/versions/zzz-zh-tw.jpg",
+    "bytes": 522229,
+    "sha256": "d5d8e8d53a0dcd0229c960d5420bbf8475697fe9339e0bc0174cffaef9a636f2"
+  },
+  {
+    "path": "public/assets/wuwa-art.webp",
+    "url": "https://gagether.wiki/assets/wuwa-art.webp",
+    "bytes": 170060,
+    "sha256": "0b7dddda773423ac19c7e0d8b7e76c3daff046ec7b7c263f7c82553988bd36b0"
+  },
+  {
+    "path": "public/assets/wuwa-logo.png",
+    "url": "https://gagether.wiki/assets/wuwa-logo.png",
+    "bytes": 9297,
+    "sha256": "26c7ae9ab4c03ff8bca142a04f11b70181c52b3a80ef7aa9f2cd70ba26294549"
+  },
+  {
+    "path": "public/assets/wuwa-wallpaper-0.webp",
+    "url": "https://gagether.wiki/assets/wuwa-wallpaper-0.webp",
+    "bytes": 144240,
+    "sha256": "786f609f69fef18b4727e078a9f3f94a0ad4ee1c3ec2c6d6f754677ed6a48ec4"
+  },
+  {
+    "path": "public/assets/zzz-art.webp",
+    "url": "https://gagether.wiki/assets/zzz-art.webp",
+    "bytes": 365344,
+    "sha256": "7b95869aeb704be096f47c228976a9f5b0c942e97ddf80b89efece417fa14aa1"
+  },
+  {
+    "path": "public/assets/zzz-logo.png",
+    "url": "https://gagether.wiki/assets/zzz-logo.png",
+    "bytes": 6441,
+    "sha256": "08ac54113febcbda2a7e12dde00128ca7d56bde685d1e6e15d5e522bad158e05"
+  }
+]

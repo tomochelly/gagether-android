@@ -1,0 +1,1125 @@
+{
+  "reviewedAt": "2026-10-16T16:09:37.905692+00:00",
+  "changedEntries": 72,
+  "uniqueOriginals": 61,
+  "assets": [
+    {
+      "image": "/assets/entities/native/arknights-7f16f169e5fa.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 2560,
+      "height": 2560,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 51,
+        "y": 42,
+        "zoom": 3.0
+      },
+      "sha256": "7f16f169e5fa4ce7284e69896d581baa538e8a2bf35efca731923d5700634560",
+      "bytes": 7655917,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/arknights-c8409a3d8464.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/0/0a/np6cjo1ea1t8vd7s96g9tc5j7rqfd5m.png",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 2369,
+      "height": 1734,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 53,
+        "y": 40,
+        "zoom": 2.6
+      },
+      "sha256": "c8409a3d8464dbf2da28afe9de2f1ab08fc260e0b49d3c1a27ce9049995faedd",
+      "bytes": 4947372,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/arknights-c9777867140b.png",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/9/97/4ye63oksjsx23cbm09kz34pllj2e7be.png",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 2512,
+      "height": 2512,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 56,
+        "y": 48,
+        "zoom": 2.7
+      },
+      "sha256": "c9777867140b8bcf4d2af6608c6f3840e2ad3730bfe73f81c55b2ad726caa990",
+      "bytes": 3574378,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/umamusume-9180aa37df19.png",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/30126.png",
+      "imageVerified": true,
+      "imageKind": "support",
+      "imageLocale": "neutral",
+      "width": 1536,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 66,
+        "y": 29,
+        "zoom": 1.15
+      },
+      "sha256": "9180aa37df195402bfea413537f81b0db95bf613456a9ff4c44efac4f3e94ac0",
+      "bytes": 3435166,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/umamusume-3dd7dfff22b6.png",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/20054.png",
+      "imageVerified": true,
+      "imageKind": "support",
+      "imageLocale": "neutral",
+      "width": 1536,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 48,
+        "y": 29,
+        "zoom": 1.15
+      },
+      "sha256": "3dd7dfff22b617e1eb55e6fa62c3ef77464a547bf8fde86ad2d4d58467a76ac8",
+      "bytes": 2300860,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/nikke-50e3f1013201.png",
+      "imageSource": "https://sg-tools-cdn.blablalink.com/vh-71/lv-18/23967e5def1e7544c48d98b6a565d16a.png",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 2048,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 49.4,
+        "y": 18.2,
+        "zoom": 2.2
+      },
+      "sha256": "50e3f1013201c532413129d0d44f1e216323d219afb53a14b7dedbf82eec4fcd",
+      "bytes": 2281672,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/gfl2-19c0c9ff8de0.jpg",
+      "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "neutral",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 52,
+        "y": 36,
+        "zoom": 1.45
+      },
+      "sha256": "19c0c9ff8de02822c86a48808dbf489965b94fd79f1322ecb909eb9241a8f5fc",
+      "bytes": 2305893,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/gfl2-f88d7d36368d.webp",
+      "imageSource": "https://res.17996cdn.net/gf2/tw/images/home/ilus-CHAROLIC_91dad23f72.webp?v03",
+      "imageVerified": true,
+      "imageKind": "character",
+      "imageLocale": "neutral",
+      "width": 1955,
+      "height": 2779,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 48,
+        "y": 17,
+        "zoom": 1.85
+      },
+      "sha256": "f88d7d36368dc03d2d0f28db576f3d93530c8c2f84bffa3e8b81b8252efbd76a",
+      "bytes": 300592,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/umamusume-f1298f84b946.png",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/10086.png",
+      "imageVerified": true,
+      "imageKind": "support",
+      "imageLocale": "neutral",
+      "width": 1536,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 48,
+        "y": 40,
+        "zoom": 1.1
+      },
+      "sha256": "f1298f84b9467f8c7078935431484630bb35ee8e758f5e24c46d56a786475b8e",
+      "bytes": 2017693,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/bluearchive-5b3c5c3955ea.png",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 61,
+        "y": 31,
+        "zoom": 2.15
+      },
+      "sha256": "5b3c5c3955eafabfb38e9ca5fe8bb20877e0b0518e12b64f716bfdf63bb3bd1a",
+      "bytes": 1908227,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/bluearchive-4babddc6f1d0.png",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 59,
+        "y": 35,
+        "zoom": 1.95
+      },
+      "sha256": "4babddc6f1d0ea6456b81fd97990f3aaa08423f4241186c23a68390929ce274d",
+      "bytes": 2006314,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/umamusume-2b673ef85537.png",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/30257.png",
+      "imageVerified": true,
+      "imageKind": "support",
+      "imageLocale": "neutral",
+      "width": 1536,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 50,
+        "y": 36,
+        "zoom": 1.1
+      },
+      "sha256": "2b673ef85537ab92ec528c71b26cf87aec70a7966092a04a068edf9143303732",
+      "bytes": 3848274,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/umamusume-9ae67808f2ab.png",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/30256.png",
+      "imageVerified": true,
+      "imageKind": "support",
+      "imageLocale": "neutral",
+      "width": 1536,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 47,
+        "y": 39,
+        "zoom": 1.1
+      },
+      "sha256": "9ae67808f2abdda87de60472580dda47c8e81b2d217e32a8399d1943b86c3498",
+      "bytes": 4665595,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/umamusume-e21cca977cf4.png",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/10128.png",
+      "imageVerified": true,
+      "imageKind": "support",
+      "imageLocale": "neutral",
+      "width": 1536,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 48,
+        "y": 39,
+        "zoom": 1.1
+      },
+      "sha256": "e21cca977cf461a82332c9791ca6b553556c7abec44d9ff7eb48edad28c76b9c",
+      "bytes": 2331669,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/gfl2-c8b7a32fd313.jpg",
+      "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 40,
+        "y": 28,
+        "zoom": 2.0
+      },
+      "sha256": "c8b7a32fd313fe9bc7ed9d47079bbed9b9f99ca6ee2a076f6aed7de576c7ae8b",
+      "bytes": 7942392,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/gfl2-d27f66ae1c4d.png",
+      "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "neutral",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T16:05:04.901744+00:00",
+      "previewFocus": {
+        "x": 48,
+        "y": 20,
+        "zoom": 2.3
+      },
+      "sha256": "d27f66ae1c4d52142c4ca33ebfa17d9acb4407c50f3c1d74ace62782098a6db4",
+      "bytes": 10376686,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/endfield-si-8d3ee8efc1ac.png",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/jsspsi.fea4b0c4.png",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 2227,
+      "height": 2190,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 44,
+        "y": 31,
+        "zoom": 2.7
+      },
+      "sha256": "8d3ee8efc1acaf195b6eff0dab4fa275b1b38497ec1f2d54c6d76f83ad0eddde",
+      "bytes": 1415950,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/endfield-jade-vessel-e2afd16828d1.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/0c1e67a62247bbe2908855d13860c1d8.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1600,
+      "height": 900,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 35,
+        "y": 53,
+        "zoom": 1.15
+      },
+      "sha256": "e2afd16828d1db75782f2349fb942a5bc90070eeb7a59ba8af5ddfc73cafe4c5",
+      "bytes": 340064,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/endfield-jade-vessel-ko-e2afd16828d1.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/0c1e67a62247bbe2908855d13860c1d8.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1600,
+      "height": 900,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 35,
+        "y": 53,
+        "zoom": 1.15
+      },
+      "sha256": "e2afd16828d1db75782f2349fb942a5bc90070eeb7a59ba8af5ddfc73cafe4c5",
+      "bytes": 340064,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/endfield-jade-vessel-ja-22125b602869.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/abb8377a99af97b4773fb41b6e38ff33.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1600,
+      "height": 900,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 35,
+        "y": 53,
+        "zoom": 1.15
+      },
+      "sha256": "22125b602869ae947dc99adaf99c5a7a730f353f55cf059c419f994e26547610",
+      "bytes": 340148,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/endfield-jade-vessel-zh-d20470307204.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/3453ee085e799b8226278ffdbbff5506.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "zh",
+      "width": 1600,
+      "height": 900,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 35,
+        "y": 53,
+        "zoom": 1.15
+      },
+      "sha256": "d204703072041dfcecf41e0f537846c648715c55c7e59d55f8f3466fb5662e25",
+      "bytes": 341644,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/endfield-jade-vessel-en-d1348b0684cd.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/ae4a0d5301f2ecd124be805ebd31d30f.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1600,
+      "height": 900,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 35,
+        "y": 53,
+        "zoom": 1.15
+      },
+      "sha256": "d1348b0684cdbad3feaea9804ce04387ee21494405cf721f84d5b1a20ae12423",
+      "bytes": 343726,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/genshin-71-skirk-45a546c850b2.png",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/1cb7988952bbe7666e82cfba48f88faa_1681948255315436625.png",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 2048,
+      "height": 1024,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 49,
+        "y": 27,
+        "zoom": 1.1
+      },
+      "sha256": "45a546c850b2460ff38ddb4e9364779252e9af0c628a26188d37681994bdd585",
+      "bytes": 1921854,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/genshin-71-skirk-preview-0a7a366724ad.png",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/156698/1e3d927b04cf859f9b16b5c754a9836c_6094714350513460016.png",
+      "imageVerified": true,
+      "imageKind": "character",
+      "imageLocale": "neutral",
+      "width": 2154,
+      "height": 1320,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 54.5,
+        "y": 32,
+        "zoom": 1.6
+      },
+      "sha256": "0a7a366724ad5653c05b7b310f3a3dd1b36762ab5c15ef5a74c152890074fa26",
+      "bytes": 495326,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/genshin-71-escoffier-1c84bcf5091c.png",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/2a832c067917d806a00da8f3bcf8f82d_8674237467634356840.png",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 2048,
+      "height": 1024,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 52,
+        "y": 30,
+        "zoom": 1.1
+      },
+      "sha256": "1c84bcf5091cd3b1715f44502b29c4eb2a8de308f42abc097cd7609606ed2ebd",
+      "bytes": 1349606,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/genshin-71-escoffier-preview-9c8529d50e6a.png",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/155630/bba9c2465080286db1fc992f0fbfda2b_3302179026631189762.png",
+      "imageVerified": true,
+      "imageKind": "character",
+      "imageLocale": "neutral",
+      "width": 2154,
+      "height": 1320,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 54,
+        "y": 36,
+        "zoom": 1.6
+      },
+      "sha256": "9c8529d50e6ab23279f183cbf93145991e1202e4c16ad4338d1070ade36d95d5",
+      "bytes": 636813,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/hsr-46-evanescia-735c6a72e151.png",
+      "imageSource": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2026/05/13/11390177/2fcc44f491a05d42a88cb4a5ae56e2b8_6414442850603192047.png",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 1990,
+      "height": 2038,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 53,
+        "y": 35,
+        "zoom": 2.2
+      },
+      "sha256": "735c6a72e1515d13360c020b44fee8761b0e5034455dec7741ed5792a35d8a58",
+      "bytes": 3995231,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/hsr-46-flowers-bloom-again-e4c407dbceca.png",
+      "imageSource": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2026/05/14/11390177/daa221c7ca8cd3252d8a86243f5dd087_6418549848502693129.png",
+      "imageVerified": true,
+      "imageKind": "weapon",
+      "imageLocale": "neutral",
+      "width": 904,
+      "height": 1260,
+      "verifiedAt": "2026-10-16T16:04:06.298711+00:00",
+      "previewFocus": {
+        "x": 55,
+        "y": 42,
+        "zoom": 1.05
+      },
+      "sha256": "e4c407dbcecaf30e33091fa6d42cce85a0f8548ffeb42b78576936ca40c45b11",
+      "bytes": 1838136,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-blooming-jadehaven-ko-5f80d0d75d06.jpg",
+      "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjhfMzQg/MDAxNzkwNTk0NDk2NTc0.b29gaJgNtB4FmIz5-dfJ2OG0vaIqqEfvAhJsu6UHp5Yg.9oM2Wv9DjGlzC3mFjOkDhcdWum-_iIm0CU6_z5zAe_Ug.JPEG/KR.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 68,
+        "y": 53,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 37,
+        "top": 18,
+        "right": 96,
+        "bottom": 82
+      },
+      "textFreePreview": true,
+      "sha256": "5f80d0d75d06b63cae3d3392853f11a423c348cedb1a45fb2f6f205d5912bf7f",
+      "bytes": 662073,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-blooming-jadehaven-zh-b0e0d88c2f2e.jpg",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/zyzpu43ra4f907ephw-1790593919190.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "zh",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 68,
+        "y": 53,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 37,
+        "top": 18,
+        "right": 96,
+        "bottom": 82
+      },
+      "textFreePreview": true,
+      "sha256": "b0e0d88c2f2e2da99a263f6b67cabf340fb3cc22208c0c853813aff3bc5a7e28",
+      "bytes": 667283,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-kumokiri-ko-c7927c2ee5fc.jpg",
+      "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjlfMjU4/MDAxNzkwNjQ4NTg3Mjk3.nejiXqtXTg8ZAohmCs5aH2mogIgedyo20BHv9No7MrAg.Qil8FKboUQ-S0VzUsIJIWLACuCb8tW-DqX79D8wzgZkg.JPEG/01.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 77,
+        "y": 43,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 45,
+        "top": 18,
+        "right": 100,
+        "bottom": 78
+      },
+      "textFreePreview": true,
+      "sha256": "c7927c2ee5fc5faa00f7cf67bccbad60c2b3ef10e7d0ab063ca42a146e11a879",
+      "bytes": 1280609,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-kumokiri-zh-89113be89c14.jpg",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/uew5i46jqmunbjols1-1790594938193.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "zh",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 77,
+        "y": 43,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 45,
+        "top": 18,
+        "right": 100,
+        "bottom": 78
+      },
+      "textFreePreview": true,
+      "sha256": "89113be89c14d6487e508a27f373470ee3a157963fd979fff61d6591987aa7d7",
+      "bytes": 1290288,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-kumokiri-ja-894a5683154a.jpg",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/images/1790524800000/sdqy06j6hcs1piwtj2-1790604971903.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 77,
+        "y": 43,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 45,
+        "top": 18,
+        "right": 100,
+        "bottom": 78
+      },
+      "textFreePreview": true,
+      "sha256": "894a5683154a7927cac0acc8e727e29cf9376d406e86081945f7d00eece955b2",
+      "bytes": 1292215,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-kumokiri-en-ad8e4c163eb1.jpg",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/bp1ghgcr0axdqnq3tg-1790599781062.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 77,
+        "y": 43,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 45,
+        "top": 18,
+        "right": 100,
+        "bottom": 78
+      },
+      "textFreePreview": true,
+      "sha256": "ad8e4c163eb16224edc0f089ccd256ba56f2e9d280cc8be4a844b46ec7a853fa",
+      "bytes": 1292402,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-moongazer-ko-7f1fe188d674.jpg",
+      "imageSource": "https://nng-phinf.pstatic.net/MjAyNjA5MjlfMjk5/MDAxNzkwNjQ4NjMzMTQ1.UnJjWX14LevxQfrdAQ0PPMkoP5rIpxwyXh_5WmQyHx0g.s51_DVp19j-zFHvZIbe6uuQIpGTWGv8YAuAoBXIgY0Eg.JPEG/03.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 70,
+        "y": 54,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 52,
+        "top": 19,
+        "right": 97,
+        "bottom": 81
+      },
+      "textFreePreview": true,
+      "sha256": "7f1fe188d674d7fdade459b2e771f86855a6b12dc9f8bf0dd574baca9513a846",
+      "bytes": 1356992,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-moongazer-zh-5e9ed60749ba.jpg",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/l40i1xlog9lr7hmiro-1790595052281.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "zh",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 70,
+        "y": 54,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 52,
+        "top": 19,
+        "right": 97,
+        "bottom": 81
+      },
+      "textFreePreview": true,
+      "sha256": "5e9ed60749ba8c08a48e7f284d4d0c60018b6280bb162d650e6cd3f4bb5c3942",
+      "bytes": 1382609,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-moongazer-ja-7aa413540753.jpg",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/images/1790524800000/2d4rfhmtp3zw3kw21y-1790605067508.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 70,
+        "y": 54,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 52,
+        "top": 19,
+        "right": 97,
+        "bottom": 81
+      },
+      "textFreePreview": true,
+      "sha256": "7aa41354075323492c9a4cf3b84cf79a57231332f2c1b55bcb03788101a91733",
+      "bytes": 1380900,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/wuwa-moongazer-en-86b0d95ef945.jpg",
+      "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/5se8wi7o764x037898-1790599812463.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:05:16.919324Z",
+      "previewFocus": {
+        "x": 70,
+        "y": 54,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 52,
+        "top": 19,
+        "right": 97,
+        "bottom": 81
+      },
+      "textFreePreview": true,
+      "sha256": "86b0d95ef945f1b2aa96d455f47aef92f0a00dc23db6517c442a7497a35cfdac",
+      "bytes": 1371799,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-roxy-ko-403993e1ff97.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/8f07f00c3db0d2ccacd6b5a99e67e353_482773711433485537.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "403993e1ff97758f055ea5011162f3d6a0d57058a7ea2b4cf0b08bc26b15cd42",
+      "bytes": 691169,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-crimson-moon-ko-8ba4513da93a.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/ab9dd7a39a0e5dc7a7ad4ecce6b42c89_4199586608547944410.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "8ba4513da93a7cd9e861b9121766b23da6dd58dbdafa9b6cade57742dab3ad17",
+      "bytes": 815284,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-promeia-ko-b6438e4c59b3.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/9d255479db74fc33363a6b5037679e29_8927813296241621736.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "b6438e4c59b3aa9e2221961267deb40146eae7a0c39d8cdd6c134a1ba6249e71",
+      "bytes": 565358,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-frostfall-ko-675c0a99a908.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/233aab2a24a169016225367de27a527d_1389030928359804087.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "675c0a99a90826163cb028d40893766b1a5b57f1eaa9259904a282536bf9eb40",
+      "bytes": 643194,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-roxy-ja-0cb6f6b45833.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/30668d5aece955a93def20f20f4f58b8_3786048715655628930.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "0cb6f6b4583363a9699c99ee63695c6376d8d79f51db8723ece94530b10cab96",
+      "bytes": 703063,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-crimson-moon-ja-a87e8f91440f.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/a976f056e9f5741a0802ec0e48da4bf3_3782843976367691015.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "a87e8f91440f87e255f809b4822445a56e7f26c995410720168f46e2967de1e4",
+      "bytes": 831687,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-promeia-ja-58f9a9c91ee6.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/a7bd3868072c576bb022a189e03033e3_5194759751429077414.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "58f9a9c91ee6e5c509e053093d360923fed685f08170d6c41a0e368fbed7637c",
+      "bytes": 581268,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-frostfall-ja-c1f74708c3f7.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/61b058740c28695b1d1fdac762ec40de_3434280104593628457.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "c1f74708c3f7c4dc2dd1466940f2b44064614e088207809b1fe2404296bd81dc",
+      "bytes": 639311,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-roxy-en-593d3d548450.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/e3713ac961a75c34d5afdc73b586f468_35563092801221385.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "593d3d548450c6bde7080d8cb8cc660afc7ddb4f92b6d372b41ce2ee037fa805",
+      "bytes": 693547,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-crimson-moon-en-8d0ef63be57e.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/b1f0d0828fe9b08b05ec17215c29bf9c_8978018234021145861.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "8d0ef63be57e4c6cfceda6e2599c52b6da4b1440f91c86ba287f1ebde4052833",
+      "bytes": 843381,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-promeia-en-ffa004d5509c.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/45f68a52b8fe94d3ac0a4bb7a5fa2077_3228904859478514172.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "ffa004d5509c25f4e4066240774653f9a7e7ef5445b1320177949d14ce5ad2b5",
+      "bytes": 577078,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-frostfall-en-79748826d502.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/8123a81fc03e402a55d385f6b78e191a_2637587459237958026.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "79748826d502fad4533e9420a2a421e70991136c68fa1a4ca1fd1fcfae408dcc",
+      "bytes": 639355,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-roxy-zh-d340a79be375.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/3adcbc882541583651ffdb25c92c7cc2_9146969361439404532.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "zh",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "d340a79be375925408dff09a8ef947bcdaeafa6d065b416fc2bb118a4ae579f0",
+      "bytes": 704662,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-crimson-moon-zh-70096a1eb899.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/c9be8617b8613e7b366cdc7c9d5a2f8c_2183861305134342427.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "zh",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "70096a1eb8999a56d583d15962385279df3736fac1c4b49bd7f8de541eb9da88",
+      "bytes": 813008,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-promeia-zh-4774c8ce56a8.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/90ec60183998e42b77f9cd85fd5c67cb_310774453179971860.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "zh",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "4774c8ce56a8e7ea178c16462cc59e308df4d09619051dddb0992bcc11a720c1",
+      "bytes": 578259,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-frostfall-zh-0fded244238c.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/34bc530a321778e0a1002817be3bf8a2_6151478151325233028.jpg",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "zh",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "sha256": "0fded244238c41be80618a336d77b09fd29d23e5d10bbcef7225172a656d0ce8",
+      "bytes": 651130,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/nte-blackbird-preview-b6db26dd361d.jpg",
+      "imageSource": "https://nte.perfectworld.com/net/260930invite/images/ui/home-bg.jpg",
+      "imageVerified": true,
+      "imageKind": "character",
+      "imageLocale": "en",
+      "width": 2560,
+      "height": 1440,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "previewFocus": {
+        "x": 52,
+        "y": 25,
+        "zoom": 1.6
+      },
+      "previewBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 100,
+        "bottom": 84
+      },
+      "imageCaption": {
+        "ko": "레이븐 공식 QHD 웹 이벤트 일러스트 · 미리보기",
+        "en": "Blackbird official QHD web-event illustration · Preview",
+        "ja": "クロバネ公式QHDウェブイベントイラスト · プレビュー",
+        "zh": "瑞文官方QHD网页活动插画 · 预览"
+      },
+      "textFreePreview": true,
+      "sha256": "b6db26dd361d4895f91138457e7bab32fd6b0cd3f5a02e8c2f27405859bb7c81",
+      "bytes": 280368,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-roxy-preview-741a9eddaacb.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166665/d30056ecade2255c98075257087e49fb_8090533050680569823.jpg",
+      "imageVerified": true,
+      "imageKind": "character",
+      "imageLocale": "ko",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "previewFocus": {
+        "x": 46,
+        "y": 52,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 87,
+        "bottom": 100
+      },
+      "imageCaption": {
+        "ko": "록시 공식 4K 테마 배경화면 · 미리보기",
+        "en": "Roxy official 4K themed wallpaper · Preview",
+        "ja": "ロキシー公式4Kテーマ壁紙 · プレビュー",
+        "zh": "洛茜官方4K主题壁纸 · 预览"
+      },
+      "textFreePreview": true,
+      "sha256": "741a9eddaacb23858dfba5e25c8c2aab9f7b2a4934e931dfdafb2c769fd04d4a",
+      "bytes": 286968,
+      "nativeOriginal": true,
+      "upscaled": false
+    },
+    {
+      "image": "/assets/entities/native/zzz-32-promeia-preview-281805ae3855.jpg",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/163994/8d33b422443a0582c1b518d8b8471df0_5083556361162499783.jpg",
+      "imageVerified": true,
+      "imageKind": "character",
+      "imageLocale": "ko",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T16:06:55.251622+00:00",
+      "previewFocus": {
+        "x": 54,
+        "y": 60,
+        "zoom": 1
+      },
+      "previewBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 87,
+        "bottom": 100
+      },
+      "imageCaption": {
+        "ko": "프로미아 공식 4K 테마 배경화면 · 미리보기",
+        "en": "Promeia official 4K themed wallpaper · Preview",
+        "ja": "プロメイア公式4Kテーマ壁紙 · プレビュー",
+        "zh": "普罗米娅官方4K主题壁纸 · 预览"
+      },
+      "textFreePreview": true,
+      "sha256": "281805ae3855cd3469d8e07424709abb9163a11081af2fbbd26698610a85f3bd",
+      "bytes": 324459,
+      "nativeOriginal": true,
+      "upscaled": false
+    }
+  ],
+  "limitations": [
+    "Native originals below QHD remain honestly native and zoom-limited.",
+    "Raven QHD and ZZZ 4K previews are official event/wallpaper artwork, not gacha originals.",
+    "Missing localized full artwork remains pending; verified base images are retained.",
+    "Some previously verified native originals restored from retained downloads after current403; no access bypass."
+  ]
+}

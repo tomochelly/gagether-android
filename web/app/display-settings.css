@@ -1,0 +1,55 @@
+/* Text uses rem throughout the existing UI; browser and device text preferences remain available. */
+html{font-size:calc(100% * var(--text-scale,1));-webkit-text-size-adjust:auto;text-size-adjust:auto}
+.display-settings-trigger{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:44px;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;color:var(--text);font-size:.75rem;white-space:nowrap}
+.display-settings-trigger:hover{background:var(--panel)}
+.display-settings-dialog{margin:auto;padding:22px;width:min(480px,calc(100vw - 24px));max-height:calc(100dvh - 32px);overflow:auto;overscroll-behavior:contain;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:18px;box-shadow:0 18px 70px #0005}
+.display-settings-dialog::backdrop{background:#09110dcc;backdrop-filter:blur(5px)}
+.display-settings-dialog>header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+.display-settings-dialog h2{font-size:1.15rem;line-height:1.4}
+.display-settings-dialog header button{display:grid;place-items:center;min-width:44px;min-height:44px;flex-shrink:0}
+.display-settings-dialog fieldset{border:0;padding:0;margin:18px 0;min-width:0}
+.display-settings-dialog legend{display:block;font-size:.875rem;font-weight:600;margin-bottom:10px}
+.display-settings-dialog legend strong{font-family:var(--mono);margin-left:8px}
+.display-options,.text-scale-options{display:grid;gap:8px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.text-scale-options{grid-template-columns:repeat(3,minmax(0,1fr))}
+.display-options button,.text-scale-options button{display:flex;align-items:center;justify-content:center;gap:7px;min-height:46px;padding:10px 5px;font-size:.875rem;border:1px solid var(--line);border-radius:8px;line-height:1.4}
+.display-options button[aria-pressed=true],.text-scale-options button[aria-pressed=true]{background:#dceda6;color:#253719;border-color:#9cb66a;font-weight:700}
+.display-sample{font-size:1rem;line-height:1.8;border-block:1px solid var(--line);padding:15px 0;overflow-wrap:anywhere}
+.display-remember{font-size:.75rem;line-height:1.6;color:var(--muted);margin-top:15px}
+.display-reset{font-size:.75rem;min-height:44px;text-decoration:underline;text-underline-offset:3px;color:var(--muted)}
+.topbar{height:auto;min-height:72px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
+.top-controls{flex-wrap:wrap;min-width:0}
+.app-mode .topbar{height:auto;min-height:64px;padding-top:8px;padding-bottom:8px}
+.app-shell .calendar-weekdays>span:first-child,.app-shell .calendar-cells>.calendar-cell:nth-child(7n+1) .calendar-day{color:#dc8d8d}
+.app-shell .calendar-weekdays>span:last-child,.app-shell .calendar-cells>.calendar-cell:nth-child(7n) .calendar-day{color:#8bb6de}
+:root[data-theme=light] .calendar-weekdays>span:first-child,:root[data-theme=light] .calendar-cell:nth-child(7n+1) .calendar-day{color:#a83b42}
+:root[data-theme=light] .calendar-weekdays>span:last-child,:root[data-theme=light] .calendar-cell:nth-child(7n) .calendar-day{color:#245a9c}
+.app-shell .schedule-calendar .calendar-marker{font-size:.625rem;line-height:1.45;min-height:1.4em}
+.app-shell .schedule-calendar .calendar-cell-game{display:block;font-size:.625rem;line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-height:none;max-width:100%}
+.app-shell .schedule-calendar .calendar-marker>span{min-width:0}
+.calendar-weekdays>span{font-size:.75rem}
+.calendar-cell{min-width:0}
+.calendar-top,.calendar-top>div:first-child,.calendar-month{flex-wrap:wrap}
+.calendar-agenda-row,.calendar-agenda-row>span{min-width:0}
+.app-shell .calendar-agenda-row strong{font-size:.8125rem;overflow-wrap:anywhere}
+.app-shell .calendar-game-name,.app-shell .calendar-agenda-time{font-size:.6875rem;line-height:1.55}
+.app-shell .calendar-agenda-tabs{flex-wrap:wrap;row-gap:4px}
+.site-intro{padding:20px 0;border-bottom:1px solid var(--line);margin-bottom:20px;max-width:900px}
+.site-intro h2{font-size:1rem;margin-bottom:9px;color:var(--text)}
+.site-intro p{font-size:.8125rem;line-height:1.85;color:var(--muted)}
+html:not([data-text-scale="100"]) .entry-body h3,html:not([data-text-scale="100"]) .favorite-notice-list strong{-webkit-line-clamp:unset;max-height:none}
+@media(max-width:720px){
+ .topbar .top-controls{gap:6px;justify-content:flex-end;margin-left:auto}
+ .display-settings-trigger{padding:7px 9px}
+ .topbar .language-control button{min-height:44px}
+ .app-shell .calendar-with-games .calendar-cell{padding:6px 3px}
+ .calendar-top>div,.calendar-month{min-width:0}
+ .app-shell .calendar-month>strong{min-width:0}
+ .app-shell .calendar-day{font-size:.75rem}
+ .page-heading h1{overflow-wrap:anywhere}
+ .display-settings-dialog{padding:16px}
+ html:not([data-text-scale="100"]) .topbar .top-controls{width:100%;justify-content:space-between}
+ html:not([data-text-scale="100"]) .calendar-day small{display:none}
+}
+@media(max-width:400px){.display-settings-trigger>span{display:none}.text-scale-options{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-filters{overflow-x:auto}}
+@media(prefers-reduced-motion:reduce){.display-settings-dialog::backdrop{backdrop-filter:none}}

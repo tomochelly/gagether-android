@@ -1,0 +1,1167 @@
+[
+  {
+    "id": "genshin-71-skirk",
+    "gameId": "genshin",
+    "kind": "pickup",
+    "title": {
+      "ko": "스커크",
+      "en": "Skirk",
+      "ja": "スカーク",
+      "zh": "丝柯克"
+    },
+    "summary": {
+      "ko": "한정 5★ · 얼음. 달리아·캔디스·미카 확률 UP.",
+      "en": "Limited 5★ Cryo. Dahlia, Candace and Mika also rate up.",
+      "ja": "限定★5・氷。ダリア、キャンディス、ミカも確率UP。",
+      "zh": "限定5★冰元素角色。「虚星临渡」；塔利雅、坎蒂丝、米卡同步概率提升。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-10-13T18:00:00+08:00",
+    "endAt": "2026-11-03T14:59:00+08:00",
+    "publishedAt": "2026-10-08",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/detail/166634",
+    "sourceTitle": "Version 7.1 Event Wishes Notice - Phase II",
+    "version": "7.1",
+    "image": "/assets/genshin-banner-1.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/166634/d57c47dc78daf91963d6a0594cb0cc3d_3537436322508876588.jpg",
+    "rarity": 5,
+    "featured": true,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+      "en": "https://genshin.hoyoverse.com/en/news/detail/166634",
+      "ja": "https://genshin.hoyoverse.com/ja/news/detail/166634",
+      "zh": "https://ys.mihoyo.com/main/news/detail/166763"
+    },
+    "poolType": "character",
+    "pickupType": "rerun",
+    "pickupGroup": "genshin-global-asia-7.1-phase2-character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "스커크",
+          "en": "Skirk",
+          "ja": "スカーク",
+          "zh": "丝柯克"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "id": "genshin-71-escoffier",
+    "gameId": "genshin",
+    "kind": "pickup",
+    "title": {
+      "ko": "에스코피에",
+      "en": "Escoffier",
+      "ja": "エスコフィエ",
+      "zh": "爱可菲"
+    },
+    "summary": {
+      "ko": "한정 5★ · 얼음. 「베리 샹송」 이벤트 기원.",
+      "en": "Limited 5★ Cryo. La Chanson Cerise event wish.",
+      "ja": "限定★5・氷。「苺色のシャンソン」。",
+      "zh": "限定5★冰元素角色。「莓色香颂」活动祈愿返场。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-10-13T18:00:00+08:00",
+    "endAt": "2026-11-03T14:59:00+08:00",
+    "publishedAt": "2026-10-08",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/detail/166634",
+    "sourceTitle": "Version 7.1 Event Wishes Notice - Phase II",
+    "version": "7.1",
+    "image": "/assets/genshin-banner-2.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/166634/6160aa1bb22b2d5879b1692ccf9596e3_7781061699981735979.jpg",
+    "rarity": 5,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+      "en": "https://genshin.hoyoverse.com/en/news/detail/166634",
+      "ja": "https://genshin.hoyoverse.com/ja/news/detail/166634",
+      "zh": "https://ys.mihoyo.com/main/news/detail/166763"
+    },
+    "poolType": "character",
+    "pickupType": "rerun",
+    "pickupGroup": "genshin-global-asia-7.1-phase2-character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "에스코피에",
+          "en": "Escoffier",
+          "ja": "エスコフィエ",
+          "zh": "爱可菲"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "id": "genshin-71-weapon",
+    "gameId": "genshin",
+    "kind": "weapon",
+    "title": {
+      "ko": "창백한 섬광 · 맛의 지휘자",
+      "en": "Azurelight · Symphonist of Scents",
+      "ja": "蒼耀・香りのシンフォニスト",
+      "zh": "苍耀 · 香韵奏者"
+    },
+    "summary": {
+      "ko": "한정 5★ 한손검·장병기. 「신의 주조」 확률 UP.",
+      "en": "Limited 5★ sword and polearm in Epitome Invocation.",
+      "ja": "限定★5片手剣・長柄武器。「神鋳賦形」で確率UP。",
+      "zh": "限定5★单手剑与长柄武器。「神铸赋形」概率提升。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-10-13T18:00:00+08:00",
+    "endAt": "2026-11-03T14:59:00+08:00",
+    "publishedAt": "2026-10-08",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/detail/166634",
+    "sourceTitle": "Version 7.1 Event Wishes Notice - Phase II",
+    "version": "7.1",
+    "image": "/assets/genshin-banner-3.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/166634/e9400920d98d8533c060c1926c469ded_2130349210519395577.jpg",
+    "rarity": 5,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+      "en": "https://genshin.hoyoverse.com/en/news/detail/166634",
+      "ja": "https://genshin.hoyoverse.com/ja/news/detail/166634",
+      "zh": "https://ys.mihoyo.com/main/news/detail/166763"
+    },
+    "poolType": "weapon",
+    "pickupType": "rerun",
+    "pickupGroup": "genshin-global-asia-7.1-phase2-weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "창백한 섬광",
+          "en": "Azurelight",
+          "ja": "蒼耀",
+          "zh": "苍耀"
+        },
+        "type": "rerun",
+        "rarity": 5
+      },
+      {
+        "name": {
+          "ko": "맛의 지휘자",
+          "en": "Symphonist of Scents",
+          "ja": "香りのシンフォニスト",
+          "zh": "香韵奏者"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "id": "genshin-71-update",
+    "gameId": "genshin",
+    "kind": "update",
+    "title": {
+      "ko": "7.1 · 죽음의 진혼곡",
+      "en": "7.1 · A Rekviem for the Underworld",
+      "ja": "7.1・冥府へのレクイエム",
+      "zh": "7.1・往冥府的安魂歌"
+    },
+    "summary": {
+      "ko": "「죽음의 진혼곡」 버전의 업데이트 및 보상 안내.",
+      "en": "Update and compensation details for A Rekviem for the Underworld.",
+      "ja": "「冥府へのレクイエム」のアップデートおよび補償内容。",
+      "zh": "「往冥府的安魂歌」版本更新与补偿说明。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": "2026-09-23",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/detail/166383",
+    "sourceTitle": "\"A Rekviem for the Underworld\" Version 7.1 Update Details",
+    "version": "7.1",
+    "image": "/assets/genshin-update-hero.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/166383/769afb257533e1e3fc075b3262ba0623_964197228136751306.jpg",
+    "timingNote": {
+      "ko": "업데이트 완료 시각은 별도로 확인하지 않았습니다.",
+      "en": "Exact maintenance completion time was not verified.",
+      "ja": "メンテナンスの正確な終了時刻は未確認。",
+      "zh": "维护实际完成时间尚未单独确认。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://genshin.hoyoverse.com/ko/news/detail/166383",
+      "en": "https://genshin.hoyoverse.com/en/news/detail/166383",
+      "ja": "https://genshin.hoyoverse.com/ja/news/detail/166383",
+      "zh": "https://genshin.hoyoverse.com/zh-tw/news/detail/166383"
+    }
+  },
+  {
+    "id": "zzz-32-roxy",
+    "gameId": "zzz",
+    "kind": "pickup",
+    "title": {
+      "ko": "록시",
+      "en": "Roxy",
+      "ja": "ロクシー",
+      "zh": "洛克茜"
+    },
+    "summary": {
+      "ko": "한정 S급 · 바람·격파. 「잿빛 밤에 내린 안식」.",
+      "en": "Limited S-Rank Wind / Stun. Cindernight Respite.",
+      "ja": "限定S級・風・撃破。「燃えさしのまどろみ」。",
+      "zh": "限定S级・风・击破。「烬夜安眠」。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-09-30T12:00:00+08:00",
+    "endAt": "2026-10-20T14:59:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://zenless.hoyoverse.com/en-us/news/166475",
+    "sourceTitle": "V3.2 Limited-Time Channels (Phase II)",
+    "version": "3.2",
+    "image": "/assets/zzz-banner-2.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/e3713ac961a75c34d5afdc73b586f468_35563092801221385.jpg",
+    "rarity": 5,
+    "featured": true,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+      "en": "https://zenless.hoyoverse.com/en-us/news/166475",
+      "ja": "https://zenless.hoyoverse.com/ja-jp/news/166475",
+      "zh": "https://zenless.hoyoverse.com/zh-cn/news/166475"
+    },
+    "poolType": "character",
+    "pickupType": "new",
+    "pickupGroup": "zzz-global-asia-3.2-phase2-character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "록시",
+          "en": "Roxy",
+          "ja": "ロクシー",
+          "zh": "洛克茜"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "id": "zzz-32-promeia",
+    "gameId": "zzz",
+    "kind": "pickup",
+    "title": {
+      "ko": "프로미아",
+      "en": "Promeia",
+      "ja": "プロメイア",
+      "zh": "普罗米娅"
+    },
+    "summary": {
+      "ko": "한정 S급 · 얼음·이상. 「찬비가 그치는 밤」.",
+      "en": "Limited S-Rank Ice / Anomaly. Cold Rain Wanes in the Night.",
+      "ja": "限定S級・氷・異常。「冷たい雨の止む夜に」。",
+      "zh": "限定S级・冰・异常。「冷雨将尽之夜」。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-09-30T12:00:00+08:00",
+    "endAt": "2026-10-20T14:59:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://zenless.hoyoverse.com/en-us/news/166475",
+    "sourceTitle": "V3.2 Limited-Time Channels (Phase II)",
+    "version": "3.2",
+    "image": "/assets/zzz-banner-4.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/45f68a52b8fe94d3ac0a4bb7a5fa2077_3228904859478514172.jpg",
+    "rarity": 5,
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+      "en": "https://zenless.hoyoverse.com/en-us/news/166475",
+      "ja": "https://zenless.hoyoverse.com/ja-jp/news/166475",
+      "zh": "https://zenless.hoyoverse.com/zh-cn/news/166475"
+    },
+    "poolType": "character",
+    "pickupType": "rerun",
+    "pickupGroup": "zzz-global-asia-3.2-phase2-character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "프로미아",
+          "en": "Promeia",
+          "ja": "プロメイア",
+          "zh": "普罗米娅"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "id": "zzz-32-crimson-moon",
+    "gameId": "zzz",
+    "kind": "weapon",
+    "title": {
+      "ko": "진홍달의 은관",
+      "en": "Crimson Moon Casket",
+      "ja": "緋月の銀棺",
+      "zh": "绯月银棺"
+    },
+    "summary": {
+      "ko": "한정 S급 W-엔진 · 격파.",
+      "en": "Limited S-Rank Stun W-Engine.",
+      "ja": "限定S級音動機・撃破。",
+      "zh": "限定S级音擎・击破。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-09-30T12:00:00+08:00",
+    "endAt": "2026-10-20T14:59:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://zenless.hoyoverse.com/en-us/news/166475",
+    "sourceTitle": "V3.2 Limited-Time Channels (Phase II)",
+    "version": "3.2",
+    "image": "/assets/zzz-banner-3.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/b1f0d0828fe9b08b05ec17215c29bf9c_8978018234021145861.jpg",
+    "rarity": 5,
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+      "en": "https://zenless.hoyoverse.com/en-us/news/166475",
+      "ja": "https://zenless.hoyoverse.com/ja-jp/news/166475",
+      "zh": "https://zenless.hoyoverse.com/zh-cn/news/166475"
+    },
+    "poolType": "weapon",
+    "pickupType": "new",
+    "pickupGroup": "zzz-global-asia-3.2-phase2-weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "진홍달의 은관",
+          "en": "Crimson Moon Casket",
+          "ja": "緋月の銀棺",
+          "zh": "绯月银棺"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "id": "zzz-32-frostfall",
+    "gameId": "zzz",
+    "kind": "weapon",
+    "title": {
+      "ko": "삭월에 끊어지는 서리",
+      "en": "Frostfall Sickle",
+      "ja": "フロスト・クレセント",
+      "zh": "朔月裁霜"
+    },
+    "summary": {
+      "ko": "한정 S급 W-엔진 · 이상.",
+      "en": "Limited S-Rank Anomaly W-Engine.",
+      "ja": "限定S級音動機・異常。",
+      "zh": "限定S级音擎・异常。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-09-30T12:00:00+08:00",
+    "endAt": "2026-10-20T14:59:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://zenless.hoyoverse.com/en-us/news/166475",
+    "sourceTitle": "V3.2 Limited-Time Channels (Phase II)",
+    "version": "3.2",
+    "image": "/assets/zzz-banner-5.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/8123a81fc03e402a55d385f6b78e191a_2637587459237958026.jpg",
+    "rarity": 5,
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+      "en": "https://zenless.hoyoverse.com/en-us/news/166475",
+      "ja": "https://zenless.hoyoverse.com/ja-jp/news/166475",
+      "zh": "https://zenless.hoyoverse.com/zh-cn/news/166475"
+    },
+    "poolType": "weapon",
+    "pickupType": "rerun",
+    "pickupGroup": "zzz-global-asia-3.2-phase2-weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "삭월에 끊어지는 서리",
+          "en": "Frostfall Sickle",
+          "ja": "フロスト・クレセント",
+          "zh": "朔月裁霜"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "id": "hsr-46-update",
+    "gameId": "hsr",
+    "kind": "update",
+    "title": {
+      "ko": "4.6 · 달 뜨기 전, 괴수와 춤을",
+      "en": "4.6 · Dance With the Beast Before Moonrise",
+      "ja": "4.6・月立つ前に獣と踊れ",
+      "zh": "4.6・月升之前，与兽共舞"
+    },
+    "summary": {
+      "ko": "신규 5★ 펄(환락·얼음), 광추 「내일에 바치는 색채」 및 신규 지역.",
+      "en": "New 5★ Pearl (Elation / Ice), Colors for Tomorrow Light Cone and a new area.",
+      "ja": "新★5パール（愉悦・氷）、光円錐「明日に捧げる色」、新マップ。",
+      "zh": "新增5星真珠（欢愉・冰）、光锥「献给明日的色彩」及新地图。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "endAt": "2026-11-11T06:00:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://hsr.hoyoverse.com/en-us/news/166468",
+    "sourceTitle": "Version 4.6 \"Dance With the Beast Before Moonrise\" Update Details",
+    "version": "4.6",
+    "image": "/assets/hsr-hero.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/166468/03ccbfaa1c724301496b60c7390705b6_4566461937848408160.jpg",
+    "featured": true,
+    "timingNote": {
+      "ko": "9월 28일 업데이트 후 시작. 정확한 완료 시각은 미확인.",
+      "en": "Begins after the September 28 update; exact completion time unverified.",
+      "ja": "9月28日の更新後開始。正確な完了時刻は未確認。",
+      "zh": "9月28日更新后开始；实际完成时刻未核实。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+      "en": "https://hsr.hoyoverse.com/en-us/news/166468",
+      "ja": "https://hsr.hoyoverse.com/ja-jp/news/166468",
+      "zh": "https://hsr.hoyoverse.com/zh-cn/news/166468"
+    }
+  },
+  {
+    "id": "hsr-46-warm-cotton",
+    "gameId": "hsr",
+    "kind": "package",
+    "title": {
+      "ko": "히아킨 · 구름 곁의 따스함",
+      "en": "Hyacine · Warm Cotton Skies",
+      "ja": "ヒアンシー・雲間からこぼれる陽光",
+      "zh": "风堇・云边拾暖"
+    },
+    "summary": {
+      "ko": "코스튬 할인 판매. 기간 종료 후 오래된 꿈 1,680개.",
+      "en": "Outfit sale. Regular price: 1,680 Oneiric Shards after the discount.",
+      "ja": "コスチューム特別価格。期間終了後は往日の夢華1,680。",
+      "zh": "时装特惠；结束后恢复古老梦华1,680。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "endAt": "2026-11-11T03:59:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://hsr.hoyoverse.com/en-us/news/166468",
+    "sourceTitle": "Version 4.6 \"Dance With the Beast Before Moonrise\" Update Details",
+    "version": "4.6",
+    "price": {
+      "amount": 1350,
+      "currency": "Oneiric Shards",
+      "platform": "In-game Outfit Show Window"
+    },
+    "contents": [
+      {
+        "ko": "히아킨 코스튬 1종",
+        "en": "One Hyacine outfit",
+        "ja": "ヒアンシーのコスチューム1点",
+        "zh": "风堇时装1套"
+      }
+    ],
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+      "en": "https://hsr.hoyoverse.com/en-us/news/166468",
+      "ja": "https://hsr.hoyoverse.com/ja-jp/news/166468",
+      "zh": "https://hsr.hoyoverse.com/zh-cn/news/166468"
+    }
+  },
+  {
+    "id": "hsr-46-lunar-blossoming",
+    "gameId": "hsr",
+    "kind": "package",
+    "title": {
+      "ko": "에바네시아 · 꽃 피길 기다리는 달",
+      "en": "Evanescia · Lunar Blossoming",
+      "ja": "緋英・月待つ花時",
+      "zh": "绯英・月待花时"
+    },
+    "summary": {
+      "ko": "코스튬 할인 판매. 기간 종료 후 성옥 3,280개.",
+      "en": "Outfit sale. Regular price: 3,280 Stellar Jades after the discount.",
+      "ja": "コスチューム特別価格。期間終了後は星玉3,280。",
+      "zh": "时装特惠；结束后恢复星琼3,280。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "endAt": "2026-11-11T03:59:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://hsr.hoyoverse.com/en-us/news/166468",
+    "sourceTitle": "Version 4.6 \"Dance With the Beast Before Moonrise\" Update Details",
+    "version": "4.6",
+    "price": {
+      "amount": 2680,
+      "currency": "Stellar Jade",
+      "platform": "In-game Outfit Show Window"
+    },
+    "contents": [
+      {
+        "ko": "에바네시아 코스튬 1종",
+        "en": "One Evanescia outfit",
+        "ja": "緋英のコスチューム1点",
+        "zh": "绯英时装1套"
+      }
+    ],
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+      "en": "https://hsr.hoyoverse.com/en-us/news/166468",
+      "ja": "https://hsr.hoyoverse.com/ja-jp/news/166468",
+      "zh": "https://hsr.hoyoverse.com/zh-cn/news/166468"
+    }
+  },
+  {
+    "id": "hsr-46-love-ghosts",
+    "gameId": "hsr",
+    "kind": "event",
+    "title": {
+      "ko": "러브, 고스트 + 로봇",
+      "en": "Love, Ghosts & Robots",
+      "ja": "愛、幽霊とロボット",
+      "zh": "爱，幽灵与机器人"
+    },
+    "summary": {
+      "ko": "개척 레벨 21 이상. 「외로운 늑대 선글라스」 획득 가능.",
+      "en": "Trailblaze Level 21+. Earn the Lone Wolf Shades headwear.",
+      "ja": "開拓レベル21以上。ヘッドアクセサリー「一匹狼のサングラス」を獲得可能。",
+      "zh": "开拓等级21级以上；可获得头饰「孤狼墨镜」。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "endAt": "2026-11-11T03:59:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://hsr.hoyoverse.com/en-us/news/166468",
+    "sourceTitle": "Version 4.6 \"Dance With the Beast Before Moonrise\" Update Details",
+    "version": "4.6",
+    "timingNote": {
+      "ko": "4.6 업데이트 후 시작.",
+      "en": "Begins after the Version 4.6 update.",
+      "ja": "Ver.4.6アップデート後開始。",
+      "zh": "4.6版本更新后开始。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+      "en": "https://hsr.hoyoverse.com/en-us/news/166468",
+      "ja": "https://hsr.hoyoverse.com/ja-jp/news/166468",
+      "zh": "https://hsr.hoyoverse.com/zh-cn/news/166468"
+    }
+  },
+  {
+    "id": "hsr-46-one-take",
+    "gameId": "hsr",
+    "kind": "event",
+    "title": {
+      "ko": "스타피스 페스티벌: 원 테이크",
+      "en": "Interastral Peace Gala: One Take",
+      "ja": "スターピースフェスティバル：ワンカット",
+      "zh": "星际和平盛典：一镜到底"
+    },
+    "summary": {
+      "ko": "개척 레벨 21 이상. 전투 오디션 이벤트.",
+      "en": "Combat audition event. Trailblaze Level 21+.",
+      "ja": "開拓レベル21以上。戦闘オーディションイベント。",
+      "zh": "战斗试镜活动；开拓等级21级以上。"
+    },
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": "2026-10-21T12:00:00+08:00",
+    "endAt": "2026-11-11T03:59:00+08:00",
+    "publishedAt": "2026-09-28",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://hsr.hoyoverse.com/en-us/news/166468",
+    "sourceTitle": "Version 4.6 \"Dance With the Beast Before Moonrise\" Update Details",
+    "version": "4.6",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+      "en": "https://hsr.hoyoverse.com/en-us/news/166468",
+      "ja": "https://hsr.hoyoverse.com/ja-jp/news/166468",
+      "zh": "https://hsr.hoyoverse.com/zh-cn/news/166468"
+    }
+  },
+  {
+    "gameId": "hsr",
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "publishedAt": "2026-09-27",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://www.hoyolab.com/article/46851682",
+    "sourceTitle": "Version 4.6 Event Warp: Phase I",
+    "version": "4.6",
+    "rarity": 5,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://www.hoyolab.com/article/46851682?lang=ko-kr",
+      "en": "https://www.hoyolab.com/article/46851682?lang=en-us",
+      "ja": "https://www.hoyolab.com/article/46851682?lang=ja-jp",
+      "zh": "https://www.hoyolab.com/article/46851682?lang=zh-cn"
+    },
+    "image": "/assets/hsr-46-warp.webp",
+    "imageSource": "https://upload-os-bbs.hoyolab.com/upload/community/2026/09/24/8dce87dcbdb877a404e9d1ac5a48f1ef_2326426280653150930.png",
+    "timingNote": {
+      "ko": "9월 28일 4.6 업데이트 후 시작. 점검 실제 완료 시각은 미확인.",
+      "en": "Starts after the September 28 update; exact maintenance completion time unverified.",
+      "ja": "9月28日のVer.4.6アップデート後開始。実際の完了時刻は未確認。",
+      "zh": "9月28日4.6版本更新后开始；实际维护完成时刻未单独确认。"
+    },
+    "id": "hsr-46-pearl",
+    "kind": "pickup",
+    "pickupType": "new",
+    "endAt": "2026-11-10T15:00:00+08:00",
+    "title": {
+      "ko": "펄",
+      "en": "Pearl",
+      "ja": "パール",
+      "zh": "真珠"
+    },
+    "summary": {
+      "ko": "신규 한정 5★ · 환락·얼음. 「창해에서 맺은 진주」.",
+      "en": "New limited 5★ Elation / Ice. An Ocean in a Pearl.",
+      "ja": "新限定★5・愉悦・氷。「海より出づる真珠」。",
+      "zh": "全新限定5★・欢愉・冰。「沧海萃珠」。"
+    },
+    "poolType": "character",
+    "featured": true,
+    "pickupGroup": "hsr-global-asia-4.6-phase1-character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "펄",
+          "en": "Pearl",
+          "ja": "パール",
+          "zh": "真珠"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ],
+    "contents": [
+      {
+        "ko": "4★ 확률 UP: 청작 · 설의 · 미샤",
+        "en": "4★ rate-up: Qingque · Xueyi · Misha",
+        "ja": "★4確率UP：青雀・雪衣・ミーシャ",
+        "zh": "4星概率提升：青雀・雪衣・米沙"
+      }
+    ]
+  },
+  {
+    "gameId": "hsr",
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "publishedAt": "2026-09-27",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://www.hoyolab.com/article/46851682",
+    "sourceTitle": "Version 4.6 Event Warp: Phase I",
+    "version": "4.6",
+    "rarity": 5,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://www.hoyolab.com/article/46851682?lang=ko-kr",
+      "en": "https://www.hoyolab.com/article/46851682?lang=en-us",
+      "ja": "https://www.hoyolab.com/article/46851682?lang=ja-jp",
+      "zh": "https://www.hoyolab.com/article/46851682?lang=zh-cn"
+    },
+    "image": "/assets/hsr-46-warp-details.webp",
+    "imageSource": "https://upload-os-bbs.hoyolab.com/upload/2026/09/24/02b9b9f6faabc003edb54030cffe8a99_255901260523225456.jpg",
+    "timingNote": {
+      "ko": "9월 28일 4.6 업데이트 후 시작. 점검 실제 완료 시각은 미확인.",
+      "en": "Starts after the September 28 update; exact maintenance completion time unverified.",
+      "ja": "9月28日のVer.4.6アップデート後開始。実際の完了時刻は未確認。",
+      "zh": "9月28日4.6版本更新后开始；实际维护完成时刻未单独确认。"
+    },
+    "id": "hsr-46-evanescia",
+    "kind": "pickup",
+    "pickupType": "rerun",
+    "endAt": "2026-10-21T11:59:00+08:00",
+    "title": {
+      "ko": "에바네시아",
+      "en": "Evanescia",
+      "ja": "緋英",
+      "zh": "绯英"
+    },
+    "summary": {
+      "ko": "복각 한정 5★ · 환락·물리. 「꽃피운 중재자」.",
+      "en": "Rerun limited 5★ Elation / Physical. The Demoiselle in Charge.",
+      "ja": "復刻限定★5・愉悦・物理。「花盛りの裁き手」。",
+      "zh": "返场限定5★・欢愉・物理。「韶艾裁英」。"
+    },
+    "poolType": "character",
+    "featured": false,
+    "pickupGroup": "hsr-global-asia-4.6-phase1-character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "에바네시아",
+          "en": "Evanescia",
+          "ja": "緋英",
+          "zh": "绯英"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ],
+    "contents": [
+      {
+        "ko": "4★ 확률 UP: 청작 · 설의 · 미샤",
+        "en": "4★ rate-up: Qingque · Xueyi · Misha",
+        "ja": "★4確率UP：青雀・雪衣・ミーシャ",
+        "zh": "4星概率提升：青雀・雪衣・米沙"
+      }
+    ]
+  },
+  {
+    "gameId": "hsr",
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "publishedAt": "2026-09-27",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://www.hoyolab.com/article/46851682",
+    "sourceTitle": "Version 4.6 Event Warp: Phase I",
+    "version": "4.6",
+    "rarity": 5,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://www.hoyolab.com/article/46851682?lang=ko-kr",
+      "en": "https://www.hoyolab.com/article/46851682?lang=en-us",
+      "ja": "https://www.hoyolab.com/article/46851682?lang=ja-jp",
+      "zh": "https://www.hoyolab.com/article/46851682?lang=zh-cn"
+    },
+    "image": "/assets/hsr-46-warp-details.webp",
+    "imageSource": "https://upload-os-bbs.hoyolab.com/upload/2026/09/24/02b9b9f6faabc003edb54030cffe8a99_255901260523225456.jpg",
+    "timingNote": {
+      "ko": "9월 28일 4.6 업데이트 후 시작. 점검 실제 완료 시각은 미확인.",
+      "en": "Starts after the September 28 update; exact maintenance completion time unverified.",
+      "ja": "9月28日のVer.4.6アップデート後開始。実際の完了時刻は未確認。",
+      "zh": "9月28日4.6版本更新后开始；实际维护完成时刻未单独确认。"
+    },
+    "id": "hsr-46-colors-for-tomorrow",
+    "kind": "weapon",
+    "pickupType": "new",
+    "endAt": "2026-11-10T15:00:00+08:00",
+    "title": {
+      "ko": "내일에 바치는 색채",
+      "en": "Colors for Tomorrow",
+      "ja": "明日に捧げる色",
+      "zh": "献给明日的色彩"
+    },
+    "summary": {
+      "ko": "신규 한정 5★ 광추 · 환락. 「세월의 응고」.",
+      "en": "New limited 5★ Elation Light Cone. Brilliant Fixation.",
+      "ja": "新限定★5光円錐・愉悦。「光陰を定めし影」。",
+      "zh": "全新限定5★光锥・欢愉。「流光定影」。"
+    },
+    "poolType": "weapon",
+    "featured": false,
+    "pickupGroup": "hsr-global-asia-4.6-phase1-weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "내일에 바치는 색채",
+          "en": "Colors for Tomorrow",
+          "ja": "明日に捧げる色",
+          "zh": "献给明日的色彩"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ],
+    "contents": [
+      {
+        "ko": "4★ 확률 UP: 수술 후의 대화 · 행성과의 만남 · 끝없는 춤",
+        "en": "4★ rate-up: Post-Op Conversation · Planetary Rendezvous · Boundless Choreo",
+        "ja": "★4確率UP：手術後の会話・惑星との出会い・終わりなき舞踏",
+        "zh": "4星概率提升：一场术后对话・与行星相会・无边曼舞"
+      }
+    ]
+  },
+  {
+    "gameId": "hsr",
+    "region": "global",
+    "server": "Asia (UTC+8)",
+    "startAt": null,
+    "publishedAt": "2026-09-27",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://www.hoyolab.com/article/46851682",
+    "sourceTitle": "Version 4.6 Event Warp: Phase I",
+    "version": "4.6",
+    "rarity": 5,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://www.hoyolab.com/article/46851682?lang=ko-kr",
+      "en": "https://www.hoyolab.com/article/46851682?lang=en-us",
+      "ja": "https://www.hoyolab.com/article/46851682?lang=ja-jp",
+      "zh": "https://www.hoyolab.com/article/46851682?lang=zh-cn"
+    },
+    "image": "/assets/hsr-46-warp-details.webp",
+    "imageSource": "https://upload-os-bbs.hoyolab.com/upload/2026/09/24/02b9b9f6faabc003edb54030cffe8a99_255901260523225456.jpg",
+    "timingNote": {
+      "ko": "9월 28일 4.6 업데이트 후 시작. 점검 실제 완료 시각은 미확인.",
+      "en": "Starts after the September 28 update; exact maintenance completion time unverified.",
+      "ja": "9月28日のVer.4.6アップデート後開始。実際の完了時刻は未確認。",
+      "zh": "9月28日4.6版本更新后开始；实际维护完成时刻未单独确认。"
+    },
+    "id": "hsr-46-flowers-bloom-again",
+    "kind": "weapon",
+    "pickupType": "rerun",
+    "endAt": "2026-10-21T11:59:00+08:00",
+    "title": {
+      "ko": "다음 꽃피는 계절의 만남",
+      "en": "Until the Flowers Bloom Again",
+      "ja": "再び花が咲く季節に",
+      "zh": "邂逅于下一个花季"
+    },
+    "summary": {
+      "ko": "복각 한정 5★ 광추 · 환락. 「거슬러 올라가는 기억」.",
+      "en": "Rerun limited 5★ Elation Light Cone. Bygone Reminiscence.",
+      "ja": "復刻限定★5光円錐・愉悦。「遡る記憶」。",
+      "zh": "返场限定5★光锥・欢愉。「溯回忆象」。"
+    },
+    "poolType": "weapon",
+    "featured": false,
+    "pickupGroup": "hsr-global-asia-4.6-phase1-weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "다음 꽃피는 계절의 만남",
+          "en": "Until the Flowers Bloom Again",
+          "ja": "再び花が咲く季節に",
+          "zh": "邂逅于下一个花季"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ],
+    "contents": [
+      {
+        "ko": "4★ 확률 UP: 수술 후의 대화 · 행성과의 만남 · 끝없는 춤",
+        "en": "4★ rate-up: Post-Op Conversation · Planetary Rendezvous · Boundless Choreo",
+        "ja": "★4確率UP：手術後の会話・惑星との出会い・終わりなき舞踏",
+        "zh": "4星概率提升：一场术后对话・与行星相会・无边曼舞"
+      }
+    ]
+  },
+  {
+    "id": "genshin-71-skirk-cn",
+    "gameId": "genshin",
+    "kind": "pickup",
+    "title": {
+      "ko": "스커크",
+      "en": "Skirk",
+      "ja": "スカーク",
+      "zh": "丝柯克"
+    },
+    "summary": {
+      "ko": "한정 5★ · 얼음. 달리아·캔디스·미카 확률 UP.",
+      "en": "Limited 5★ Cryo. Dahlia, Candace and Mika also rate up.",
+      "ja": "限定★5・氷。ダリア、キャンディス、ミカも確率UP。",
+      "zh": "限定5★冰元素角色。「虚星临渡」；塔利雅、坎蒂丝、米卡同步概率提升。"
+    },
+    "region": "cn",
+    "server": "China (UTC+8)",
+    "startAt": "2026-10-13T18:00:00+08:00",
+    "endAt": "2026-11-03T14:59:00+08:00",
+    "publishedAt": "2026-10-13",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://ys.mihoyo.com/main/news/detail/166763",
+    "sourceTitle": "7.1版本活动祈愿预告第二期",
+    "version": "7.1",
+    "image": "/assets/genshin-banner-1.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/166634/d57c47dc78daf91963d6a0594cb0cc3d_3537436322508876588.jpg",
+    "rarity": 5,
+    "featured": true,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+      "en": "https://genshin.hoyoverse.com/en/news/detail/166634",
+      "ja": "https://genshin.hoyoverse.com/ja/news/detail/166634",
+      "zh": "https://ys.mihoyo.com/main/news/detail/166763"
+    },
+    "poolType": "character",
+    "pickupType": "rerun",
+    "pickupGroup": "genshin-cn-7.1-phase2-character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "스커크",
+          "en": "Skirk",
+          "ja": "スカーク",
+          "zh": "丝柯克"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ],
+    "timingNote": {
+      "ko": "중국 공식 공지에서 별도 확인한 일정.",
+      "en": "Schedule independently checked against the mainland China official notice.",
+      "ja": "中国本土の公式告知で別途確認した日程。",
+      "zh": "已按中国大陆官方公告独立核实本期时间。"
+    }
+  },
+  {
+    "id": "genshin-71-escoffier-cn",
+    "gameId": "genshin",
+    "kind": "pickup",
+    "title": {
+      "ko": "에스코피에",
+      "en": "Escoffier",
+      "ja": "エスコフィエ",
+      "zh": "爱可菲"
+    },
+    "summary": {
+      "ko": "한정 5★ · 얼음. 「베리 샹송」 이벤트 기원.",
+      "en": "Limited 5★ Cryo. La Chanson Cerise event wish.",
+      "ja": "限定★5・氷。「苺色のシャンソン」。",
+      "zh": "限定5★冰元素角色。「莓色香颂」活动祈愿返场。"
+    },
+    "region": "cn",
+    "server": "China (UTC+8)",
+    "startAt": "2026-10-13T18:00:00+08:00",
+    "endAt": "2026-11-03T14:59:00+08:00",
+    "publishedAt": "2026-10-13",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://ys.mihoyo.com/main/news/detail/166763",
+    "sourceTitle": "7.1版本活动祈愿预告第二期",
+    "version": "7.1",
+    "image": "/assets/genshin-banner-2.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/166634/6160aa1bb22b2d5879b1692ccf9596e3_7781061699981735979.jpg",
+    "rarity": 5,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+      "en": "https://genshin.hoyoverse.com/en/news/detail/166634",
+      "ja": "https://genshin.hoyoverse.com/ja/news/detail/166634",
+      "zh": "https://ys.mihoyo.com/main/news/detail/166763"
+    },
+    "poolType": "character",
+    "pickupType": "rerun",
+    "pickupGroup": "genshin-cn-7.1-phase2-character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "에스코피에",
+          "en": "Escoffier",
+          "ja": "エスコフィエ",
+          "zh": "爱可菲"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ],
+    "timingNote": {
+      "ko": "중국 공식 공지에서 별도 확인한 일정.",
+      "en": "Schedule independently checked against the mainland China official notice.",
+      "ja": "中国本土の公式告知で別途確認した日程。",
+      "zh": "已按中国大陆官方公告独立核实本期时间。"
+    }
+  },
+  {
+    "id": "genshin-71-weapon-cn",
+    "gameId": "genshin",
+    "kind": "weapon",
+    "title": {
+      "ko": "창백한 섬광 · 맛의 지휘자",
+      "en": "Azurelight · Symphonist of Scents",
+      "ja": "蒼耀・香りのシンフォニスト",
+      "zh": "苍耀 · 香韵奏者"
+    },
+    "summary": {
+      "ko": "한정 5★ 한손검·장병기. 「신의 주조」 확률 UP.",
+      "en": "Limited 5★ sword and polearm in Epitome Invocation.",
+      "ja": "限定★5片手剣・長柄武器。「神鋳賦形」で確率UP。",
+      "zh": "限定5★单手剑与长柄武器。「神铸赋形」概率提升。"
+    },
+    "region": "cn",
+    "server": "China (UTC+8)",
+    "startAt": "2026-10-13T18:00:00+08:00",
+    "endAt": "2026-11-03T14:59:00+08:00",
+    "publishedAt": "2026-10-13",
+    "verifiedAt": "2026-10-16T10:36:47.064511Z",
+    "sourceUrl": "https://ys.mihoyo.com/main/news/detail/166763",
+    "sourceTitle": "7.1版本活动祈愿预告第二期",
+    "version": "7.1",
+    "image": "/assets/genshin-banner-3.webp",
+    "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hk4e/166634/e9400920d98d8533c060c1926c469ded_2130349210519395577.jpg",
+    "rarity": 5,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://genshin.hoyoverse.com/ko/news/detail/166634",
+      "en": "https://genshin.hoyoverse.com/en/news/detail/166634",
+      "ja": "https://genshin.hoyoverse.com/ja/news/detail/166634",
+      "zh": "https://ys.mihoyo.com/main/news/detail/166763"
+    },
+    "poolType": "weapon",
+    "pickupType": "rerun",
+    "pickupGroup": "genshin-cn-7.1-phase2-weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "창백한 섬광",
+          "en": "Azurelight",
+          "ja": "蒼耀",
+          "zh": "苍耀"
+        },
+        "type": "rerun",
+        "rarity": 5
+      },
+      {
+        "name": {
+          "ko": "맛의 지휘자",
+          "en": "Symphonist of Scents",
+          "ja": "香りのシンフォニスト",
+          "zh": "香韵奏者"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ],
+    "timingNote": {
+      "ko": "중국 공식 공지에서 별도 확인한 일정.",
+      "en": "Schedule independently checked against the mainland China official notice.",
+      "ja": "中国本土の公式告知で別途確認した日程。",
+      "zh": "已按中国大陆官方公告独立核实本期时间。"
+    }
+  }
+]

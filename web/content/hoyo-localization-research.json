@@ -1,0 +1,299 @@
+{
+  "verifiedAt": "2026-10-16T10:36:47.064511Z",
+  "entryCount": 20,
+  "globalEntryCount": 17,
+  "cnEntryCount": 3,
+  "officialFeeds": {
+    "genshin": {
+      "appKey": "a1b1f9d3315447cc",
+      "newsChannel": 395,
+      "localeKeys": {
+        "ko": "ko-kr",
+        "en": "en-us",
+        "ja": "ja-jp",
+        "zh": "zh-tw"
+      },
+      "listUrl": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iChanId=395&iPageSize=20&iPage=1&sLangKey={locale}",
+      "detailUrl": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContent?iInfoId={id}&sLangKey={locale}",
+      "titleRows": [
+        {
+          "iInfoId": 166887,
+          "titles": {
+            "ko": "곧 8강 진출팀이 확정됩니다! 「승부 예측의 달인」 하이라이트 모음집을 감상해 보세요~",
+            "en": "The Final Eight Are About to Be Decided! Welcome to the \"Predictive Victory Dynamics\" Highlight Reel",
+            "ja": "準々決勝進出者がまもなく決定！「勝者は誰だ！？」名場面集をお届け！",
+            "zh": "八強即將出爐！歡迎收看「判測勝券本徵」名場面集錦"
+          },
+          "publishedAt": "2026-10-15 12:00:00"
+        },
+        {
+          "iInfoId": 166666,
+          "titles": {
+            "ko": "「죽음의 진혼곡」 7.1 버전 이벤트 알림 제2회",
+            "en": "\"A Rekviem for the Underworld\" Version 7.1 Events Preview - Phase II",
+            "ja": "Ver.7.1「冥府へのレクイエム」イベント速報002",
+            "zh": "「往冥府的安魂歌」7.1版本活動快報第二期"
+          },
+          "publishedAt": "2026-10-12 18:00:00"
+        },
+        {
+          "iInfoId": 166650,
+          "titles": {
+            "ko": "「승부 예측의 달인」 이벤트 오픈! 참여만 해도 원석 보상 획득 가능!",
+            "en": "The \"Predictive Victory Dynamics\" Event Is Now Available. Participate to Obtain Primogem Rewards!",
+            "ja": "イベント「勝者は誰だ！？」開催中！参加するだけで原石報酬がもらえる！",
+            "zh": "「判測勝券本徵」活動現已開啟，參與即得原石獎勵！"
+          },
+          "publishedAt": "2026-10-12 12:00:00"
+        },
+        {
+          "iInfoId": 166663,
+          "titles": {
+            "ko": "모험은 영감의 조미료지!——에스코피에·근황",
+            "en": "Ready to Spice Things Up! | The Latest on Escoffier",
+            "ja": "インスピレーションには冒険というスパイスが不可欠よ。——エスコフィエの近況",
+            "zh": "冒險是靈感的調味品。——愛可菲·近聞"
+          },
+          "publishedAt": "2026-10-11 12:05:00"
+        },
+        {
+          "iInfoId": 166640,
+          "titles": {
+            "ko": "특훈 시간이다. 준비는 되었나?——스커크·근황",
+            "en": "Time for some special training. Are you ready? — Skirk: The Latest",
+            "ja": "特訓の時間だ、準備はいいか？——「スカーク」の近況",
+            "zh": "特訓時間，準備好了嗎？——絲柯克·近聞"
+          },
+          "publishedAt": "2026-10-10 12:05:00"
+        }
+      ]
+    },
+    "hsr": {
+      "appKey": "113fe6d3b4514cdd",
+      "newsChannel": 248,
+      "localeKeys": {
+        "ko": "ko-kr",
+        "en": "en-us",
+        "ja": "ja-jp",
+        "zh": "zh-cn"
+      },
+      "listUrl": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/113fe6d3b4514cdd/getContentList?iChanId=248&iPageSize=20&iPage=1&sLangKey={locale}",
+      "detailUrl": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/113fe6d3b4514cdd/getContent?iInfoId={id}&sLangKey={locale}",
+      "titleRows": [
+        {
+          "iInfoId": 166189,
+          "titles": {
+            "ko": "우주 환상 펫 뽑기 확률 공지",
+            "en": "Astral Imagea Draw Rates Notice",
+            "ja": "星間幻獣獲得確率のお知らせ",
+            "zh": "星际幻宠抽取概率公示"
+          },
+          "publishedAt": "2026-09-28 07:00:00"
+        },
+        {
+          "iInfoId": 166468,
+          "titles": {
+            "ko": "4.6 버전 「달 뜨기 전, 괴수와 춤을」 버전 업데이트 안내",
+            "en": "Version 4.6 \"Dance With the Beast Before Moonrise\" Update Details",
+            "ja": "Ver.4.6「月立つ前に獣と踊れ」アップデートについて",
+            "zh": "4.6版本「月升之前，与兽共舞」版本更新说明"
+          },
+          "publishedAt": "2026-09-28 07:00:00"
+        },
+        {
+          "iInfoId": 166182,
+          "titles": {
+            "ko": "〈붕괴: 스타레일〉 펄 캐릭터 PV——「희망을 그리는 방법」",
+            "en": "Pearl Character Trailer: \"The Way to Paint a Form of Hope\" | Honkai: Star Rail",
+            "ja": "【崩壊：スターレイル】パール キャラクターPV 「希望の描き方」",
+            "zh": "《崩坏：星穹铁道》真珠角色PV——「如何描绘一种希望」"
+          },
+          "publishedAt": "2026-09-27 12:00:00"
+        },
+        {
+          "iInfoId": 166181,
+          "titles": {
+            "ko": "〈붕괴: 스타레일〉 즉흥 순회공연 PV——「이로써, 예술이 완성되었습니다」",
+            "en": "Improv Tour Trailer: \"It Became Art\" | Honkai: Star Rail",
+            "ja": "【崩壊：スターレイル】 即興芝居PV 「そして、芸術へと至る」",
+            "zh": "《崩坏：星穹铁道》即兴巡演PV——「至此，已成艺术」"
+          },
+          "publishedAt": "2026-09-23 12:00:00"
+        },
+        {
+          "iInfoId": 166180,
+          "titles": {
+            "ko": "〈붕괴: 스타레일〉 은하탐구생활——「펄: 심층 학습 중」",
+            "ja": "【崩壊：スターレイル】イッテ星穹！——「パール：深層学習中」",
+            "zh": "《崩坏：星穹铁道》走近星穹——「真珠：深度学习中」"
+          },
+          "publishedAt": "2026-09-22 12:00:00"
+        },
+        {
+          "iInfoId": 166548,
+          "titles": {
+            "en": "New Honkai: Star Rail Merchandise Available on Amazon!"
+          },
+          "publishedAt": "2026-10-10 10:00:00"
+        }
+      ]
+    },
+    "zzz": {
+      "appKey": "3e9196a4b9274bd7",
+      "newsChannel": 288,
+      "localeKeys": {
+        "ko": "ko-kr",
+        "en": "en-us",
+        "ja": "ja-jp",
+        "zh": "zh-cn"
+      },
+      "listUrl": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPageSize=20&iPage=1&sLangKey={locale}",
+      "detailUrl": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iInfoId={id}&sLangKey={locale}",
+      "titleRows": [
+        {
+          "iInfoId": 123483,
+          "titles": {
+            "ko": "변조 확률 일람",
+            "en": "Signal Search Probability Details"
+          },
+          "publishedAt": "2024-07-04 10:00:00"
+        },
+        {
+          "iInfoId": 166761,
+          "titles": {
+            "ko": "에이전트 미수록 영상 | 피닉스 편 ",
+            "en": "Unarchived Agent Footage | Phoenix ",
+            "ja": "エージェント未収録映像｜フィオニー編 ",
+            "zh": "代理人未归档影像丨菲欧妮篇"
+          },
+          "publishedAt": "2026-10-15 12:00:00"
+        },
+        {
+          "iInfoId": 166760,
+          "titles": {
+            "ko": "생일 축하해 자오 | 이런 케이크는 없어 ",
+            "en": "Happy Birthday Zhao 丨 This Kind of Cake Doesn't Exist ",
+            "ja": "ハッピーバースデー、照｜こんなケーキあり？ ",
+            "zh": "生日快乐照丨根本没有这种蛋糕"
+          },
+          "publishedAt": "2026-10-14 12:00:00"
+        },
+        {
+          "iInfoId": 166667,
+          "titles": {
+            "ko": "그녀들의 숨겨진 과거 | 영상 파일 기록 공유 ",
+            "en": "Their Secret Histories | Video Archive Sharing ",
+            "ja": "秘密と、過去と、彼女たちと｜映像アーカイブ記録シェア ",
+            "zh": "她与她的隐秘往事 | 影像档案记录分享"
+          },
+          "publishedAt": "2026-10-12 18:15:00"
+        },
+        {
+          "iInfoId": 166665,
+          "titles": {
+            "ko": "배경화면 공유 | 록시 테마 배경화면 ",
+            "en": "Wallpaper Sharing | Roxy Themed Wallpapers ",
+            "ja": "壁紙配布｜ロクシーテーマの壁紙 ",
+            "zh": "壁纸分享 | 洛克茜主题壁纸"
+          },
+          "publishedAt": "2026-10-12 18:00:00"
+        },
+        {
+          "iInfoId": 166664,
+          "titles": {
+            "ja": "「データ懸賞-模擬実戦」イベント詳細",
+            "zh": "「数据悬赏-实战模拟」活动说明"
+          },
+          "publishedAt": "2026-10-12 12:00:00"
+        }
+      ]
+    }
+  },
+  "mergeRule": "Join localized feed rows by game + service + iInfoId. Different languages do not imply separate gameplay servers. For missing list IDs, fetch getContent for the same ID and desired locale before falling back. Never present an English-only title as officially localized. Keep a locale verification marker.",
+  "hoyolab": {
+    "postId": 46851682,
+    "url": "https://www.hoyolab.com/article/46851682",
+    "api": "https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?post_id=46851682",
+    "headers": {
+      "x-rpc-language": "ko-kr | en-us | ja-jp | zh-cn",
+      "x-rpc-show-translated": "false"
+    },
+    "verifiedOfficialAuthor": {
+      "uid": "172534910",
+      "nickname": "Honkai: Star Rail",
+      "official_type": 1,
+      "is_multi_language": true
+    },
+    "note": "post.structured_content contains official locale text. post.multi_language_info includes official translated titles. This is official multilingual content, not automatic GoogleTranslate output. Use is_multi_language + author verification; do not trust arbitrary HoYoLAB community posts."
+  },
+  "serverModel": {
+    "global": {
+      "stored": "Asia (UTC+8)",
+      "languageVersions": "Korean/Japanese notice pages are localized versions of the same Global/Asia schedule. Do not create KR and JP gameplay servers from language variants.",
+      "otherRegions": "America, Europe, TW/HK/MO may be exposed later only after schedule handling is verified. Current entries are Asia only.",
+      "offsetReference": "https://genshin.hoyoverse.com/en/news/detail/104025"
+    },
+    "cn": {
+      "genshin": {
+        "status": "independently_verified_current_banners",
+        "sourceUrl": "https://ys.mihoyo.com/main/news/detail/166763",
+        "api": "https://act-api-takumi-static.mihoyo.com/content_v2_user/app/16471662a82d418a/getContent?iAppId=43&iInfoId=166763&sLangKey=zh-cn",
+        "newsApi": "https://act-api-takumi-static.mihoyo.com/content_v2_user/app/16471662a82d418a/getContentList?iAppId=43&iChanId=719&iPageSize=20&iPage=1&sLangKey=zh-cn"
+      },
+      "hsr": "not_independently_verified; global zh-cn is a language version, not proof of mainland schedule",
+      "zzz": "not_independently_verified; global zh-cn is a language version, not proof of mainland schedule"
+    }
+  },
+  "classificationEvidence": {
+    "genshinSkirkAzurelight": {
+      "type": "rerun",
+      "reason": "Official 5.7 update lists them as new in June 2025, prior to current 7.1 banner.",
+      "source": "https://genshin.hoyoverse.com/en/news/detail/157064"
+    },
+    "genshinEscoffierSymphonist": {
+      "type": "rerun",
+      "reason": "Publisher-maintained App Store version history lists Escoffier and Symphonist of Scents as 5.6 new content in May 2025.",
+      "source": "https://apps.apple.com/id/app/genshin-impact/id1517783697?platform=ipad"
+    },
+    "zzzRoxyCrimsonMoon": {
+      "type": "new",
+      "reason": "Listed under New Agents and New W-Engines in current 3.2 update.",
+      "source": "https://zenless.hoyoverse.com/en-us/news/166000"
+    },
+    "zzzPromeiaFrostfall": {
+      "type": "rerun",
+      "reason": "Official 2.8 May2026 update lists their initial debut, before current3.2 banner.",
+      "source": "https://zenless.hoyoverse.com/en-us/news/163836"
+    },
+    "hsrPearlColors": {
+      "type": "new",
+      "source": "https://hsr.hoyoverse.com/en-us/news/166468"
+    },
+    "hsrEvanesciaFlowers": {
+      "type": "rerun",
+      "reason": "Current official multilingual Warp notice explicitly says return / 복각 / 復刻 / 返场.",
+      "source": "https://www.hoyolab.com/article/46851682"
+    }
+  },
+  "currentHsrLimitedPools": {
+    "character": [
+      "펄 (new, until Nov10 15:00 server)",
+      "에바네시아 (rerun, until Oct21 11:59 server)"
+    ],
+    "lightCone": [
+      "내일에 바치는 색채 (new, until Nov10 15:00 server)",
+      "다음 꽃피는 계절의 만남 (rerun, until Oct21 11:59 server)"
+    ],
+    "excluded": "천야•블레이드 belongs to the second half. Do not show as currently active on Oct16. Permanent/standard and collaboration pools were not audited."
+  },
+  "assetsAdded": {
+    "hsr-46-warp.png": "https://upload-os-bbs.hoyolab.com/upload/community/2026/09/24/8dce87dcbdb877a404e9d1ac5a48f1ef_2326426280653150930.png",
+    "hsr-46-warp-details.jpg": "https://upload-os-bbs.hoyolab.com/upload/2026/09/24/02b9b9f6faabc003edb54030cffe8a99_255901260523225456.jpg"
+  },
+  "limitations": [
+    "Official name localization does not prove independent regional schedule equivalence.",
+    "Global Genshin Chinese feed is Traditional Chinese zh-tw. Simplified character/weapon names additionally verified from mainland notice.",
+    "HSR banner starts are after maintenance; no exact completion instant invented.",
+    "Price currency keys remain machine identifiers; UI should localize Oneiric Shards as 오래된 꿈/往日の夢華/古老梦华 and Stellar Jade as 성옥/星玉/星琼."
+  ]
+}

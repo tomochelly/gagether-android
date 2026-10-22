@@ -1,0 +1,292 @@
+{
+  "checkedAt": "2026-10-16T10:43:05.023918Z",
+  "scope": "Wuthering Waves, Endfield, NTE and Arknights; official localization and independent region schedules",
+  "entryCount": 40,
+  "replaces": "kuro-entries.json and the original 30 seed rows",
+  "artifact": "kuro-localized.json",
+  "verifiedNameExamples": {
+    "wuwa": {
+      "Hsin": {
+        "ko": "여우의 별자리",
+        "ja": "心",
+        "zh": "心"
+      },
+      "Moongazer's Sigil": {
+        "ko": "세상 만물의 진리",
+        "ja": "万物を書き留める月相",
+        "zh": "万物持存的注释"
+      }
+    },
+    "endfield": {
+      "Si": {
+        "ko": "사",
+        "ja": "スー",
+        "zh": "祀"
+      },
+      "Argent Flow": {
+        "ko": "명하",
+        "ja": "ミンホ",
+        "zh": "明河"
+      }
+    },
+    "nte": {
+      "Blackbird": {
+        "ko": "레이븐",
+        "ja": "クロバネ",
+        "zh": "黑羽"
+      },
+      "Lacrimosa": {
+        "ko": "라크리모사",
+        "ja": "レクイエム",
+        "zh": "安魂曲"
+      }
+    },
+    "arknights": {
+      "Kal'tsit Esperanta": {
+        "ko": "켈시 에스페란타",
+        "ja": "ケルシー・エスペランタ",
+        "zh": "凯尔希·思衡托"
+      }
+    }
+  },
+  "serverTopology": {
+    "wuwa": {
+      "verifiedScope": "Global Asia schedule; UI locale is independent",
+      "regions": [
+        "global",
+        "cn"
+      ],
+      "warning": "Do not duplicate an Asia timestamp into America/Europe or mainland-China services. CN official data exists independently. All delivered rows remain global/Asia.",
+      "timezoneEvidence": "Official Japanese banner5547 says 2026-10-22 10:59 日本標準時. English5546 says 09:59 server time. Thus Asia absolute end is 2026-10-22T01:59:00Z.",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5546"
+      ]
+    },
+    "endfield": {
+      "verifiedScope": "Global /en-us /ko-kr /ja-jp /zh-tw are localized copies of news9560",
+      "regions": [
+        "global",
+        "cn"
+      ],
+      "timezones": {
+        "Asia": "UTC+8",
+        "Americas and Europe": "UTC-5"
+      },
+      "warning": "zh-tw is global Traditional Chinese, not mainland-China schedule. Independent mainland current schedule not researched; do not clone global to cn.",
+      "sources": [
+        "https://endfield.gryphline.com/en-us/news/9560",
+        "https://endfield.gryphline.com/ko-kr/news/9560",
+        "https://endfield.gryphline.com/ja-jp/news/9560",
+        "https://endfield.gryphline.com/zh-tw/news/9560"
+      ]
+    },
+    "nte": {
+      "verifiedScope": "nte.perfectworld.com /en /kr /jp /cn all match same global patch1.4 absolute times",
+      "regions": [
+        "global",
+        "cn"
+      ],
+      "timezones": {
+        "global_notice": "UTC+8",
+        "Korean_display": "UTC+9",
+        "Japanese_display": "UTC+9"
+      },
+      "warning": "/cn on the global website is Chinese UI language, not proof of the mainland-China service schedule. All delivered rows remain global.",
+      "sources": [
+        "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+        "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+        "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+        "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+      ]
+    },
+    "arknights": {
+      "verifiedServices": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "timezones": {
+        "global": "UTC-7",
+        "kr": "UTC+9",
+        "jp": "UTC+9",
+        "cn": "UTC+8"
+      },
+      "verifiedCurrentGlobal": "2026-10-14T08:00:00-07:00 to 2026-10-28T03:59:00-07:00",
+      "verifiedCurrentKR": "2026-10-14T16:00:00+09:00 to 2026-10-28T03:59:00+09:00",
+      "verifiedCurrentJP": "2026-10-14T16:00:00+09:00 to 2026-10-28T03:59:00+09:00",
+      "warning": "CN article3046 is April/May2026 original release, used only to verify Chinese proper nouns. It is NOT current CN pickup data. JP current rows are independently verified from JP4805/4806. KR only banner timing independently verified, no invented KR package dates.",
+      "sources": [
+        "https://www.arknights.global/news/4814",
+        "https://x.com/ArknightsKorea/status/2109910414112985274",
+        "https://arknights.jp/news/4805",
+        "https://arknights.jp/news/4806",
+        "https://ak.hypergryph.com/news/3046"
+      ]
+    }
+  },
+  "pickupCoverage": {
+    "wuwa": {
+      "currentCharacters": {
+        "new": [
+          "Hsin"
+        ],
+        "rerun": [
+          "Chisa",
+          "Iuno"
+        ]
+      },
+      "currentWeapons": {
+        "new": [
+          "Blooming Jadehaven"
+        ],
+        "rerun": [
+          "Kumokiri",
+          "Moongazer's Sigil"
+        ]
+      },
+      "group": "wuwa-37-phase-1",
+      "end": "2026-10-22T01:59:00Z",
+      "scheduleEvidenceNew": [
+        "https://x.com/Wuthering_Waves/status/2104768143310860473",
+        "https://x.com/Wuthering_Waves/status/2104769383851520117",
+        "https://x.com/Wuthering_Waves/status/2104771899452772721"
+      ],
+      "notes": "Current publisher patch verifies new names, official X verifies new pickup end. Historical KR/CN articles are localization evidence only."
+    },
+    "endfield": {
+      "currentCharacters": {
+        "new": [
+          "Si"
+        ]
+      },
+      "currentWeapons": {
+        "new": [
+          "Jade Vessel"
+        ]
+      },
+      "upcoming": {
+        "2026-10-29": [
+          "Tangtang rerun",
+          "Brigand rerun"
+        ],
+        "2026-11-05": [
+          "Argent Flow new"
+        ]
+      },
+      "notes": "Other six-star names listed in Si pool are not rate-up banners. Jade Vessel ends after three Charter Headhunting periods; exact calendar end is not supplied, retain null with timing note. Coverage of other continuing previous weapon issues is unverified; do not call list exhaustive."
+    },
+    "nte": {
+      "currentCharacters": {
+        "new": [
+          "Blackbird"
+        ],
+        "rerun": [
+          "Lacrimosa"
+        ]
+      },
+      "currentWeapons": {
+        "new": [
+          "Crime and Punishment"
+        ],
+        "rerun": [
+          "The Last Rose"
+        ]
+      },
+      "end": "2026-10-21T05:59:00+08:00",
+      "group": "nte-14-phase-1"
+    },
+    "arknights": {
+      "currentNewPrimary": [
+        "Kaltsit Esperanta",
+        "Closure",
+        "Crackborne"
+      ],
+      "notes": "Delivered pickupMembers list the three primary new operators and classify individually. Global notice also grants increased weight to older limited Exusiai the New Covenant, Lappland the Decadenza and Wisadel inside the remaining6star probability. Those are not separate banners; their complete official ko/ja names have not been independently verified, so no fabricated localized pickupMembers were inserted. Standard/kernel headhunting complete current coverage remains unverified."
+    }
+  },
+  "pendingLocalizations": [
+    {
+      "ids": [
+        "arknights-ep17",
+        "arknights-ep17-jp"
+      ],
+      "locale": "ko",
+      "reason": "Official Korean EP17 proper subtitle not retrievable in bounded research; generic chapter title is stored but ko is excluded from officialLocales."
+    },
+    {
+      "ids": [
+        "arknights-duck-purse",
+        "arknights-duck-purse-jp",
+        "arknights-briefcase",
+        "arknights-briefcase-jp"
+      ],
+      "locale": "ko",
+      "reason": "Official Korean package title not verified. Keep original English only as explicit untranslated fallback; do not label it Korean official localization."
+    }
+  ],
+  "sourcesAndAdapters": {
+    "wuwa": {
+      "localeCodes": {
+        "en": "en",
+        "ko": "kr",
+        "ja": "jp",
+        "zh": "zh"
+      },
+      "internationalList": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/{locale}/ArticleMenu.json",
+      "chinaList": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/ArticleMenu.json",
+      "detail": "same base /article/{id}.json",
+      "verifiedFields": [
+        "articleId",
+        "articleTitle",
+        "articleContent",
+        "articleType",
+        "startTime",
+        "endTime"
+      ],
+      "warning": "Article publication visibility end2099 is not event end. Parse event dates from articleContent only."
+    },
+    "arknightsJP": {
+      "list": "https://arknights.jp/api/resource/news/list?index=1&size=10",
+      "detail": "https://arknights.jp/api/resource/news/detail?id=4805",
+      "response": "{code:0,message:\"ok\",data:{count,rows}}; detail.data object",
+      "rowFields": [
+        "publishTime",
+        "offlineTime",
+        "id",
+        "title",
+        "type",
+        "content",
+        "bigImage",
+        "smallImage",
+        "link"
+      ]
+    },
+    "arknightsKR": {
+      "listAttempt": "https://www.arknights.kr/api/resource/news/list?index=1&size=10",
+      "response": "code0,data.rows empty",
+      "officialNewsDestinationFromKRWebsiteJS": "https://cafe.naver.com/f-e/cafes/29703924/menus/71",
+      "warning": "Empty website API does not mean no current KR notices. Korean service routes news to official Naver cafe; X is first-party fallback."
+    },
+    "localSnapshots": "kuro-l10n/download-map.json plus raw localized HTML/JSON files"
+  },
+  "assetNotes": {
+    "newHsin": "/assets/wuwa-wallpaper-0.webp (official Hsin wallpaper already downloaded and root-converted)",
+    "newWeapon": "No verified matched new weapon thumbnail; omit image rather than reuse another weapon.",
+    "tangtangBrigand": "No verified matched image added.",
+    "arkJPAndKR": "Existing official Global banner image reused as illustration, not evidence of region timing. Regional dates come from own notices."
+  },
+  "allowlistAdditions": [
+    "arknights.jp",
+    "www.arknights.kr",
+    "arknights.kr",
+    "ak.hypergryph.com",
+    "media-cdn-mingchao.kurogame.com",
+    "hw-media-cdn-mingchao.kurogame.com"
+  ],
+  "externalOfficialAccountExceptions": {
+    "https://x.com/ArknightsKorea/status/2109910414112985274": "Needed for independently verified current KR banner source. Official KR site lacks usable news rows; do not replace this with Global publisher URL claiming KR timing."
+  },
+  "validation": "40 unique IDs; all title/summary maps contain ko/en/ja/zh; all pickup/weapon rows include pickupType,pickupGroup,poolType; all Endfield/NTE ko/ja/zh title strings matched exact official patch text."
+}

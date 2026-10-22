@@ -1,0 +1,388 @@
+{
+  "auditedAt": "2026-10-16",
+  "scope": [
+    "bluearchive",
+    "umamusume",
+    "nikke",
+    "gfl2",
+    "arknights"
+  ],
+  "mappings": 39,
+  "allMappedFilesExist": true,
+  "audit": [
+    {
+      "entryId": "ba-jp-20261007-pickup-1",
+      "name": {
+        "ko": "츠무기",
+        "en": "Tsumugi",
+        "ja": "ツムギ",
+        "zh": "ツムギ"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-2",
+      "name": {
+        "ko": "에리",
+        "en": "Eri",
+        "ja": "エリ",
+        "zh": "エリ"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-3",
+      "name": {
+        "ko": "카노에",
+        "en": "Kanoe",
+        "ja": "カノエ",
+        "zh": "カノエ"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-4",
+      "name": {
+        "ko": "미야코(수영복)",
+        "en": "Miyako (Swimsuit)",
+        "ja": "ミヤコ(水着)",
+        "zh": "宫子（泳装）"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-5",
+      "name": {
+        "ko": "사키(수영복)",
+        "en": "Saki (Swimsuit)",
+        "ja": "サキ(水着)",
+        "zh": "咲（泳装）"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "ba-kr-20261013-kisaki",
+      "name": {
+        "ko": "키사키(수영복)",
+        "en": "Kisaki (Swimsuit)",
+        "ja": "キサキ（水着）",
+        "zh": "妃咲（泳装）"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "ba-kr-20261013-shun",
+      "name": {
+        "ko": "슌(수영복)",
+        "en": "Shun (Swimsuit)",
+        "ja": "シュン（水着）",
+        "zh": "旬（泳装）"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "ba-global-20261013-kisaki",
+      "name": {
+        "ko": "키사키(수영복)",
+        "en": "Kisaki (Swimsuit)",
+        "ja": "キサキ（水着）",
+        "zh": "妃咲（泳装）"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "ba-global-20261013-shun",
+      "name": {
+        "ko": "슌(수영복)",
+        "en": "Shun (Swimsuit)",
+        "ja": "シュン（水着）",
+        "zh": "旬（泳装）"
+      },
+      "status": "confirmed",
+      "note": "Visually inspected official banner. Printed character name and displayed character/outfit match; existing asset retained."
+    },
+    {
+      "entryId": "arknights-sealed",
+      "name": {
+        "ko": "켈시 에스페란타 / 클로저",
+        "en": "Kal'tsit Esperanta / Closure",
+        "ja": "ケルシー・エスペランタ / クロージャ",
+        "zh": "凯尔希·思衡托 / 可露希尔"
+      },
+      "status": "confirmed",
+      "note": "BWIKI game-asset mirror explicitly labels base operator artwork (skin 0 0). Three images visually checked separately: Kaltsit Esperanta, Closure, Crackborne. Do not use Kaltsit image as Closure."
+    },
+    {
+      "entryId": "arknights-sealed-jp",
+      "name": {
+        "ko": "켈시 에스페란타 / 클로저",
+        "en": "Kal'tsit Esperanta / Closure",
+        "ja": "ケルシー・エスペランタ / クロージャ",
+        "zh": "凯尔希·思衡托 / 可露希尔"
+      },
+      "status": "confirmed",
+      "note": "BWIKI game-asset mirror explicitly labels base operator artwork (skin 0 0). Three images visually checked separately: Kaltsit Esperanta, Closure, Crackborne. Do not use Kaltsit image as Closure."
+    },
+    {
+      "entryId": "arknights-sealed-kr",
+      "name": {
+        "ko": "켈시 에스페란타 / 클로저",
+        "en": "Kal'tsit Esperanta / Closure",
+        "ja": "ケルシー・エスペランタ / クロージャ",
+        "zh": "凯尔希·思衡托 / 可露希尔"
+      },
+      "status": "confirmed",
+      "note": "BWIKI game-asset mirror explicitly labels base operator artwork (skin 0 0). Three images visually checked separately: Kaltsit Esperanta, Closure, Crackborne. Do not use Kaltsit image as Closure."
+    },
+    {
+      "entryId": "nikke-global-20261008-belorta",
+      "name": {
+        "ko": "벨로타 : 펌킨 위치",
+        "en": "Belorta: Pumpkin Witch",
+        "ja": "ベロータ：パンプキンウィッチ",
+        "zh": "貝洛塔：南瓜女巫"
+      },
+      "status": "confirmed",
+      "note": "Game asset c063_00, Belorta Pumpkin Witch: twin tails, orange bows/pumpkin clips, black-orange witch outfit. Visually crosschecked publisher banner; all locales same exact alt. 600x748 transparent asset."
+    },
+    {
+      "entryId": "nikke-kr-20261008-belorta",
+      "name": {
+        "ko": "벨로타 : 펌킨 위치",
+        "en": "Belorta: Pumpkin Witch",
+        "ja": "ベロータ：パンプキンウィッチ",
+        "zh": "貝洛塔：南瓜女巫"
+      },
+      "status": "confirmed",
+      "note": "Game asset c063_00, Belorta Pumpkin Witch: twin tails, orange bows/pumpkin clips, black-orange witch outfit. Visually crosschecked publisher banner; all locales same exact alt. 600x748 transparent asset."
+    },
+    {
+      "entryId": "nikke-jp-20261008-belorta",
+      "name": {
+        "ko": "벨로타 : 펌킨 위치",
+        "en": "Belorta: Pumpkin Witch",
+        "ja": "ベロータ：パンプキンウィッチ",
+        "zh": "貝洛塔：南瓜女巫"
+      },
+      "status": "confirmed",
+      "note": "Game asset c063_00, Belorta Pumpkin Witch: twin tails, orange bows/pumpkin clips, black-orange witch outfit. Visually crosschecked publisher banner; all locales same exact alt. 600x748 transparent asset."
+    },
+    {
+      "entryId": "uma-global-20261014-brian",
+      "name": {
+        "ko": "나리타 브라이언 · 신규 의상",
+        "en": "Narita Brian [Ravenous Wolf]",
+        "ja": "ナリタブライアン · 新衣装",
+        "zh": "成田白仁 · 新服装"
+      },
+      "status": "confirmed",
+      "note": "Exact game asset from GameTora copyright-Cygames gallery; outfit/card ID matched. Portrait is 256px; avoid large hero expansion."
+    },
+    {
+      "entryId": "uma-global-20261014-zephyr",
+      "name": {
+        "ko": "야마닌 제퍼 · SSR",
+        "en": "Yamanin Zephyr SSR [To Winds Untraveled]",
+        "ja": "ヤマニンゼファー · SSR",
+        "zh": "也文摄辉 · SSR"
+      },
+      "status": "confirmed",
+      "note": "Exact game asset from GameTora copyright-Cygames gallery; outfit/card ID matched. 1536x2048 card art visually inspected. Previous Opera O and Zephyr R had wrong shared Zephyr SSR banner."
+    },
+    {
+      "entryId": "uma-global-20261014-opera",
+      "name": {
+        "ko": "티엠 오페라 오 · SR",
+        "en": "T.M. Opera O SR [Mighty Fotografia]",
+        "ja": "テイエムオペラオー · SR",
+        "zh": "好歌剧 · SR"
+      },
+      "status": "confirmed",
+      "note": "Exact game asset from GameTora copyright-Cygames gallery; outfit/card ID matched. 1536x2048 card art visually inspected. Previous Opera O and Zephyr R had wrong shared Zephyr SSR banner."
+    },
+    {
+      "entryId": "uma-global-20261014-zephyr-r",
+      "name": {
+        "ko": "야마닌 제퍼 · R",
+        "en": "Yamanin Zephyr R [Tracen Academy]",
+        "ja": "ヤマニンゼファー · R",
+        "zh": "也文摄辉 · R"
+      },
+      "status": "confirmed",
+      "note": "Exact game asset from GameTora copyright-Cygames gallery; outfit/card ID matched. 1536x2048 card art visually inspected. Previous Opera O and Zephyr R had wrong shared Zephyr SSR banner."
+    },
+    {
+      "entryId": "uma-kr-20261016-goldcity",
+      "name": {
+        "ko": "[Boho Flare] 골드 시티",
+        "en": "Gold City [Boho Flare]",
+        "ja": "ゴールドシチー [Boho Flare]",
+        "zh": "黄金城市 [Boho Flare]"
+      },
+      "status": "confirmed",
+      "note": "Exact game asset from GameTora copyright-Cygames gallery; outfit/card ID matched. Portrait is 256px; avoid large hero expansion."
+    },
+    {
+      "entryId": "uma-kr-20261016-support",
+      "name": {
+        "ko": "터커 브라인 · 타마모 크로스",
+        "en": "Tucker Bryne · Tamamo Cross",
+        "ja": "タッカーブライン · タマモクロス",
+        "zh": "터커 브라인 · 玉藻十字"
+      },
+      "status": "confirmed",
+      "note": "All three support cards exact, independently visually inspected and compared to Kakao official announcement thumbnail: Tucker SSR30257, Tamamo SSR30256, Tucker R10128."
+    },
+    {
+      "entryId": "gfl2-haoplay-mityl-featured",
+      "name": {
+        "ko": "미틸 · 지정 발주",
+        "en": "Mityl — Targeted Procurement",
+        "ja": "ミティール · ピックアップ訪問",
+        "zh": "米蒂爾 · 定向採購"
+      },
+      "status": "confirmed",
+      "note": "Official roleinfo links to full Mityl/Krolik/Nemesis assets. Visually compared the three character models with original named procurement banner. Secondary SR images supplied without conflating them with separate SSR pickup pools."
+    },
+    {
+      "entryId": "gfl2-kr-mityl-featured",
+      "name": {
+        "ko": "미틸 · 지정 발주",
+        "en": "Mityl — Targeted Procurement",
+        "ja": "ミティール · ピックアップ訪問",
+        "zh": "米蒂爾 · 定向採購"
+      },
+      "status": "confirmed",
+      "note": "Official roleinfo links to full Mityl/Krolik/Nemesis assets. Visually compared the three character models with original named procurement banner. Secondary SR images supplied without conflating them with separate SSR pickup pools."
+    },
+    {
+      "entryId": "gfl2-jp-mityl-featured",
+      "name": {
+        "ko": "미틸 · 지정 발주",
+        "en": "Mityl — Targeted Procurement",
+        "ja": "ミティール · ピックアップ訪問",
+        "zh": "米蒂爾 · 定向採購"
+      },
+      "status": "confirmed",
+      "note": "Official roleinfo links to full Mityl/Krolik/Nemesis assets. Visually compared the three character models with original named procurement banner. Secondary SR images supplied without conflating them with separate SSR pickup pools."
+    },
+    {
+      "entryId": "gfl2-kr-20261008-cheyanne",
+      "status": "confirmed",
+      "note": "Official roleinfo illustration fetched from the exact named character section; visually inspected. Cheyanne pink hair, beret, M200 rifle. All 3 pool members now have separate art, ordered main SSR / Littara / Ksenia. Littara orange hair, glasses and machine gun; Ksenia purple hair, khaki merchant uniform and suitcase. Base official named roleinfo CDN art visually verified."
+    },
+    {
+      "entryId": "gfl2-kr-20261008-liushih",
+      "status": "confirmed",
+      "note": "Official roleinfo illustration fetched from the exact named character section; visually inspected. Liushih black braid, green coat, mechanical horse. All 3 pool members now have separate art, ordered main SSR / Littara / Ksenia. Littara orange hair, glasses and machine gun; Ksenia purple hair, khaki merchant uniform and suitcase. Base official named roleinfo CDN art visually verified."
+    },
+    {
+      "entryId": "gfl2-kr-20261008-squirrel-nova",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row squirrel-nova. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    },
+    {
+      "entryId": "gfl2-kr-20261008-nightwalker-cardamom",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row nightwalker-cardamom. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    },
+    {
+      "entryId": "gfl2-kr-20261008-transience",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row transience. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    },
+    {
+      "entryId": "gfl2-jp-20261008-cheyanne",
+      "status": "confirmed",
+      "note": "Official roleinfo illustration fetched from the exact named character section; visually inspected. Cheyanne pink hair, beret, M200 rifle. All 3 pool members now have separate art, ordered main SSR / Littara / Ksenia. Littara orange hair, glasses and machine gun; Ksenia purple hair, khaki merchant uniform and suitcase. Base official named roleinfo CDN art visually verified."
+    },
+    {
+      "entryId": "gfl2-jp-20261008-liushih",
+      "status": "confirmed",
+      "note": "Official roleinfo illustration fetched from the exact named character section; visually inspected. Liushih black braid, green coat, mechanical horse. All 3 pool members now have separate art, ordered main SSR / Littara / Ksenia. Littara orange hair, glasses and machine gun; Ksenia purple hair, khaki merchant uniform and suitcase. Base official named roleinfo CDN art visually verified."
+    },
+    {
+      "entryId": "gfl2-jp-20261008-squirrel-nova",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row squirrel-nova. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    },
+    {
+      "entryId": "gfl2-jp-20261008-nightwalker-cardamom",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row nightwalker-cardamom. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    },
+    {
+      "entryId": "gfl2-jp-20261008-transience",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row transience. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    },
+    {
+      "entryId": "gfl2-global-20261008-cheyanne",
+      "status": "confirmed",
+      "note": "Official roleinfo illustration fetched from the exact named character section; visually inspected. Cheyanne pink hair, beret, M200 rifle. All 3 pool members now have separate art, ordered main SSR / Littara / Ksenia. Littara orange hair, glasses and machine gun; Ksenia purple hair, khaki merchant uniform and suitcase. Base official named roleinfo CDN art visually verified."
+    },
+    {
+      "entryId": "gfl2-global-20261008-liushih",
+      "status": "confirmed",
+      "note": "Official roleinfo illustration fetched from the exact named character section; visually inspected. Liushih black braid, green coat, mechanical horse. All 3 pool members now have separate art, ordered main SSR / Littara / Ksenia. Littara orange hair, glasses and machine gun; Ksenia purple hair, khaki merchant uniform and suitcase. Base official named roleinfo CDN art visually verified."
+    },
+    {
+      "entryId": "gfl2-global-20261008-squirrel-nova",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row squirrel-nova. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    },
+    {
+      "entryId": "gfl2-global-20261008-nightwalker-cardamom",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row nightwalker-cardamom. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    },
+    {
+      "entryId": "gfl2-global-20261008-transience",
+      "status": "confirmed",
+      "note": "Exact weapon image in IOP GFL2 weapons table row transience. Game-asset mirror, 1024x512 transparent. Checked weapon silhouette against corresponding official character weapon."
+    }
+  ],
+  "limitations": [
+    "Gold City Boho Flare and Brian Ravenous Wolf exact outfit portraits available as 256px assets. They match the correct outfits; do not enlarge them for a full-screen hero. Original matching official banners remain in repository for hero use.",
+    "Arknights artwork retrieved from BWIKI after direct Wiki.gg/PRTS requests returned403. No challenge circumvention attempted.",
+    "All art is official game art or publisher announcement art; community-hosted images are labelled as game-asset mirrors, not as community original illustration.",
+    "No site repository edits or deployment made by this asset task."
+  ],
+  "secondaryMemberAddition": {
+    "changedEntryIds": [
+      "gfl2-kr-20261008-cheyanne",
+      "gfl2-kr-20261008-liushih",
+      "gfl2-jp-20261008-cheyanne",
+      "gfl2-jp-20261008-liushih",
+      "gfl2-global-20261008-cheyanne",
+      "gfl2-global-20261008-liushih"
+    ],
+    "files": [
+      {
+        "file": "/workspace/scratch/f7f776ceb97d/assets-other-exact/gf2-littara.png",
+        "dimensions": [
+          955,
+          955
+        ],
+        "source": "https://res.17996cdn.net/gf2/kr/images/home/roles/ilus-LITTARA_d515cbf632.png"
+      },
+      {
+        "file": "/workspace/scratch/f7f776ceb97d/assets-other-exact/gf2-ksenia.webp",
+        "dimensions": [
+          1955,
+          1955
+        ],
+        "source": "https://res.17996cdn.net/gf2/tw/images/home/ilus-KSENIA_191e327e2d.webp"
+      }
+    ],
+    "unresolved": []
+  }
+}

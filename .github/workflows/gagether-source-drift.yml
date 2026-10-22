@@ -1,0 +1,40 @@
+name: GAGETHER deployed source drift check
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['web/**']
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: gagether-source-drift
+  cancel-in-progress: false
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare every deployed runtime source hash
+        run: |
+          python3 - <<'PY'
+          import json, hashlib, pathlib, urllib.request
+          with urllib.request.urlopen('https://gagether.wiki/source-manifest.json',timeout=30) as r: manifest=json.load(r)
+          mismatches=[]
+          for row in manifest['entries']:
+              path=pathlib.Path('web')/row['path']
+              if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=row['sha256']: mismatches.append(row['path'])
+          if mismatches: raise RuntimeError('GitHub and deployed Site differ: '+', '.join(mismatches))
+          print('Deployed source verified:',manifest['fingerprint'])
+          PY
+      - name: Deduplicated source drift incident
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search 'in:title "GAGETHER source drift"' --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title 'GAGETHER source drift' --body "GitHub and deployed Site source differ or verification failed. Reconcile before release. Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          fi

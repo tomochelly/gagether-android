@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-10-16T11:08:00Z",
+  "scope": "Current Genshin7.1, ZZZ3.2, HSR4.6, Endfield Sanctuary of Ink. Root keeps actual service identities. This is an editorial enrichment snapshot, not a running scraper.",
+  "outputs": {
+    "entries": "/workspace/scratch/f7f776ceb97d/community-current.json",
+    "assets": "/workspace/scratch/f7f776ceb97d/community-event-assets",
+    "manifest": "/workspace/scratch/f7f776ceb97d/community-event-assets.json"
+  },
+  "evidence": [
+    {
+      "game": "zzz",
+      "source": "https://zenless.hoyoverse.com/ko-kr/news/166476",
+      "apiId": 166476,
+      "facts": [
+        "Sep30 11:00 – Oct19 04:59 KST",
+        "Lv20 + Chapter1Intermission",
+        "2food login +1food spending30battery, cap3/day",
+        "Fully evolved pets carry forward, unfinished progress does not."
+      ],
+      "communityCrosscheck": "https://www.inven.co.kr/webzine/news/?news=320217"
+    },
+    {
+      "game": "zzz",
+      "source": "https://zenless.hoyoverse.com/ko-kr/news/166498",
+      "apiId": 166498,
+      "facts": [
+        "Oct3 11:00 – Oct19 04:59 KST",
+        "5sequentialcases",
+        "Polychrome,Boopons,upgrade materials"
+      ]
+    },
+    {
+      "game": "zzz",
+      "source": "https://zenless.hoyoverse.com/ko-kr/news/166191",
+      "apiId": 166191,
+      "facts": [
+        "Sep23 11:00 – Oct20 04:59 KST",
+        "Select1of3AODoutfits,unownedAgentseligible",
+        "Claim manually on eventpage;duplicatesnotallowed"
+      ],
+      "note": "Did not add14daycount fromInven because officialtext does not enumerate threshold; optionalvisualreview couldconfirm."
+    },
+    {
+      "game": "zzz",
+      "source": "https://zenless.hoyoverse.com/ko-kr/news/166664",
+      "apiId": 166664,
+      "facts": [
+        "Oct14 05:00 – Oct19 04:59 KST",
+        "DoubleCombatSimulation rewards5enemycards/day,reset05KST"
+      ]
+    },
+    {
+      "game": "zzz",
+      "source": "https://zenless.hoyoverse.com/ko-kr/news/165995",
+      "apiId": 165995,
+      "facts": [
+        "Purchase endsOct19 03:59KST;claimendsOct19 04:59KST—importantdistinctcutoffs",
+        "Growthinstant680polychromeavatar",
+        "Premiumextra208polychrome,menu,decos,chips,core,battery",
+        "Lv30choose1of7Wengines,selectionexpiresseason",
+        "CASHPRICENOTINNOTICE"
+      ]
+    },
+    {
+      "game": "genshin",
+      "source": "https://genshin.hoyoverse.com/ko/news/detail/166650",
+      "apiId": 166650,
+      "facts": [
+        "PredictionOct12 11:00 – Oct20 10:59KST",
+        "ResultsOct20 11:00 – Oct23 10:59KST",
+        "16teams,useVictorySeals;participationgrantsPrimogems,successpointsadditionalrewards"
+      ],
+      "visualEvidence": [
+        "community-research/genshin-166650-1.jpg",
+        "community-research/genshin-166666-3.jpg"
+      ],
+      "communityCrosscheck": "https://gall.dcinside.com/mgallery/board/view/?id=paimon&no=200731"
+    },
+    {
+      "game": "hsr",
+      "source": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+      "apiId": 166468,
+      "facts": [
+        "LoveGhostsRobotsLv21,FinalitysVision,headwear",
+        "Hyacine1350Oneiricregular1680",
+        "Evanescia2680Jaderegular3280",
+        "BothoutfitdiscountsendNov11 04:59KST",
+        "Wishpower500Jade+18tickets,GoldenCalyxMemorymissionreq,Nov11 07KSTend"
+      ]
+    },
+    {
+      "game": "endfield",
+      "source": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "facts": [
+        "Innmanagementlimitedtasks1000Oroberyl",
+        "MorecontentOct22 04server",
+        "Limitedtasksendnextmaintenancebutinnandmilestonescontinue",
+        "Inkdesignatedtasks1200Oroberyl"
+      ],
+      "communityCrosscheck": "https://www.inven.co.kr/board/party/6553/166",
+      "video": "https://www.youtube.com/watch?v=1TPiuhgcEO8",
+      "videoValidation": "YouTube oEmbed returned title 단청도 version preview and official author 명일방주: 엔드필드 @arknightsendfieldKR. It is a related official preview, not claimed transcript analysis."
+    }
+  ],
+  "localization": "For ZZZ event/package titles and Genshinpredictiontitle, fetched official getContent sameIDs inen-us/ko-kr/ja-jp/zh-cn(ZZZ) orzh-tw(Genshin). Newdescriptioncopytranslatedfromverifiedfacts; propernamesfromofficial. ExistingHSR/Endfieldnamespreserved.",
+  "limitations": [
+    "Arca Live searches with bothengines returned no relevant accessible currentversion articles; no fabricated Arca links added.",
+    "SomeDCpagesreturnedemptyorinternalerror. SelectedGenshin7.1postwasfullyread; manyothersearchhitswereoutdatedleaks.",
+    "No currentconfirmedcashpriceorpackageefficiencyanalysisfoundforEndfield. Existingunknownpricesmuststayunknown.",
+    "Search 명조3.7패키지 often means37,000KRW package fromolderversions; thosehits wereexcluded.",
+    "No eventrewardquantities inventedwhereofficialonlylistsrewardtypes.",
+    "Genshin predictionendAtisparticipationcutoff, resultphase documentedseparately.",
+    "ZZZfundendAtisSALES cutoff, notclaimcutoff."
+  ],
+  "webRefs": {
+    "InvenZZZ": "turn63view0",
+    "InvenEndfield": "turn74view0",
+    "EndfieldOfficial": "turn78view0",
+    "DCGenshin": "turn88view2"
+  },
+  "unsafeOrExcluded": [
+    "DCJuly/AugustZZZ3.2leaks excluded",
+    "DIGWOWgenericSEOguides excluded",
+    "Arcaunverifiednotused",
+    "ExpiredSep15Genshinredeemcodes inDCsummary notcopied"
+  ],
+  "visualAdditionalFacts": {
+    "zzz-32-orbie": "300Polychrome printed in official166476news-banner",
+    "zzz-32-hobbling-crow": "360Polychrome printed in official166498news-banner",
+    "zzz-32-surprise-screening": "300Polychrome printed in official166191news-banner"
+  }
+}

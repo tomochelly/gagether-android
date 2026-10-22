@@ -1,0 +1,375 @@
+{
+  "reviewedAt": "2026-10-16T19:00:20.394931+00:00",
+  "entryIds": [
+    "endfield-update-ink",
+    "wuwa-update-37",
+    "nte-update-14",
+    "genshin-71-update",
+    "hsr-46-update",
+    "zzz-32-update",
+    "ba-kr-20261013-calm",
+    "ba-global-20261013-calm",
+    "ba-jp-20261007-occult",
+    "nikke-kr-20261008-little-witch",
+    "gfl2-kr-amber-featured",
+    "gfl2-jp-amber-featured",
+    "gfl2-haoplay-amber-featured",
+    "arknights-ep17",
+    "arknights-ep17-jp",
+    "uma-kr-20261016-island-update",
+    "uma-jp-20261013-scenario-toughness",
+    "uma-global-20261015-sparkly",
+    "arknights-ep17-kr",
+    "arknights-cn-yesterday-sea",
+    "arknights-cn-20261009-clementia",
+    "arknights-cn-20261008-standard",
+    "arknights-cn-20261015-kernel",
+    "gfl2-cn-silent-synapses-20261013",
+    "gfl2-cn-20261013-igla",
+    "gfl2-cn-20261013-swan",
+    "gfl2-cn-20261013-eagletta",
+    "gfl2-cn-20261013-silverwings",
+    "gfl2-cn-20261013-sextans",
+    "gfl2-cn-20261013-rose",
+    "gfl2-cn-20261013-ots14",
+    "gfl2-cn-20261013-capitoline",
+    "uma-jp-20261013-select-support"
+  ],
+  "assets": [
+    {
+      "image": "/assets/versions/endfield-update-ink.jpg",
+      "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv_v1d6.32f51a5b.jpg",
+      "width": 3200,
+      "height": 2560,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "1757fd5825da7b0db3980081319ef24d408463967303c67e030c220a14262536"
+    },
+    {
+      "image": "/assets/versions/wuwa-kr-current-keyvisual.jpg",
+      "source": "https://hw-media-cdn-mingchao.kurogame.com/object/1790697600000/m5okt6g27pdjyojgtw-1790734589923.jpg",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "42132d89bac847277630fd3632db3fd1fe6b4ae2a8556f74ca8eeb6a86c1f08e"
+    },
+    {
+      "image": "/assets/versions/wuwa-en-version.jpg",
+      "source": "https://hw-media-cdn-mingchao.kurogame.com/object/1790611200000/dngsdsx5ljkeowz86m-1790680670533.jpg",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T18:50:11.534561+00:00",
+      "sha256": "1d010e574791f7016daf1e687f801d6c32c7c4eb637380bf20efc3a6307de374"
+    },
+    {
+      "image": "/assets/versions/wuwa-ja-version.jpg",
+      "source": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/images/1790611200000/25tpjiazief7rfbs09-1790680237205.jpg",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T18:50:11.534561+00:00",
+      "sha256": "addb3ba5c6dd70711553c406f0e540e2da870cbfcc2dd389d1c6e211f240de9b"
+    },
+    {
+      "image": "/assets/versions/wuwa-update-37.jpg",
+      "source": "https://hw-media-cdn-mingchao.kurogame.com/object/1791734400000/hkbm7pcp8gurgihc69-1791807905497.jpg",
+      "width": 3200,
+      "height": 1345,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "04eb1a6f7316551a7717b19b2f1b0f1f7961ed481df3f3e17d933f69e119555e"
+    },
+    {
+      "image": "/assets/versions/nte-update-14.jpg",
+      "source": "https://nte.perfectworld.com/public/images/cover260930/box1.jpg",
+      "width": 2559,
+      "height": 1564,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "14cd299fc72a3910f1cb0c07f3702c2878017d87fec98b8c63ff3af515f3fef4"
+    },
+    {
+      "image": "/assets/versions/genshin-neutral-kv.png",
+      "source": "https://act-webstatic.hoyoverse.com/puzzle/hk4e/pz_5yRXZTt_wZ/resource/puzzle/2026/09/01/0aff804d2728a8293e5961952bc14775_4881624822253980338.png",
+      "width": 2500,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "1604caf1e771b179dd50d1e51da2c20245db1589e0f75b6dac0ec4e3614270eb"
+    },
+    {
+      "image": "/assets/versions/hsr-ko-kr.jpg",
+      "source": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/166468/c1db49953a3dc18c662481acc62f4c33_7441444482555780438.jpg",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "34fe3f0678568d9de3eb51e1327f49d7981135668eb87fa4ed8ea560ccc4dd4f"
+    },
+    {
+      "image": "/assets/versions/hsr-en-us.jpg",
+      "source": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/166468/03ccbfaa1c724301496b60c7390705b6_7596967085308903772.jpg",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "06cf349dba74e3782d1454453adf4264e273f8f60cb889f6482fce712c638b84"
+    },
+    {
+      "image": "/assets/versions/hsr-ja-jp.jpg",
+      "source": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/166468/243f9db57fbca32ca9a7f9c4238cc3d0_6016062136943190805.jpg",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "27d58dbcf0f86f0a90bd7d06bfc4721d245ecc527acac64fe5e7983986b0dc16"
+    },
+    {
+      "image": "/assets/versions/hsr-zh-tw.jpg",
+      "source": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/166468/3ff5e86d949b89c64f3bb8e8ed7beb54_8733304016656470883.jpg",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "acb7635b5c9ca1dfbff05cdfe2e1785513a544db63da83019613b8f898683a19"
+    },
+    {
+      "image": "/assets/versions/zzz-ko-kr.jpg",
+      "source": "https://fastcdn.hoyoverse.com/content-v2/nap/166000/45bc2eeb98e5bced05050056ff4f82c4_4584293086185679594.jpg",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "8a48b6aa8997ce5de1ee92400fe0ed6cb7f876ca9ac08683c3393bd4cdcda845"
+    },
+    {
+      "image": "/assets/versions/zzz-en-us.jpg",
+      "source": "https://fastcdn.hoyoverse.com/content-v2/nap/166000/1b3afa63fd86e9126f181f1d6ec0ca96_6510551427110332912.jpg",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "5ffe363312a2f02a3aecfc421fae46311d2fed079cc92eeae5ccff680aa9d0e0"
+    },
+    {
+      "image": "/assets/versions/zzz-ja-jp.jpg",
+      "source": "https://fastcdn.hoyoverse.com/content-v2/nap/166000/ede77b1c71ea050683e8b7ffe7beb185_588105770927798619.jpg",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "159895ffc0218f6a6ebbbe1a97eae2cff273a27c55c97755edf7de7a0e514c9c"
+    },
+    {
+      "image": "/assets/versions/zzz-zh-tw.jpg",
+      "source": "https://fastcdn.hoyoverse.com/content-v2/nap/166000/bb14c013f75dd4e82ad2a03b2d910038_410919250974335888.jpg",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "d5d8e8d53a0dcd0229c960d5420bbf8475697fe9339e0bc0174cffaef9a636f2"
+    },
+    {
+      "image": "/assets/versions/ba-kr-20261013-calm.png",
+      "source": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/cb410568-19a8-49ca-801b-1a8d67cac2ee/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%9E%8C%EA%B3%BC%EC%B2%9C%EC%B2%AD.png",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "3cf5001dc3ef1f754ad5437938194309706808e7bb1e87f6026ba8e8981d4c03"
+    },
+    {
+      "image": "/assets/versions/ba-jp-20261007-occult.png",
+      "source": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/t4soS6YD.png",
+      "width": 1280,
+      "height": 480,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "1fe41f686359fd63e40497fbd8a1bf9dcde883c536be1729763864dbc22f8685"
+    },
+    {
+      "image": "/assets/versions/nikke-current-keyvisual.jpeg",
+      "source": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_297777952215eecb254f2be61b5322bede6b4902-3840x2160-ori_s_80_50_ori_q_80.jpeg",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "3656bfaa5583612d0a3c8a0d27d31a79051d399b4bc95c424698cde5325c0000"
+    },
+    {
+      "image": "/assets/versions/nikke-version-en.jpeg",
+      "source": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_09404d70d919c7186a1a3dd1046334352c53e079-3840x2160-ori_s_80_50_ori_q_80.jpeg",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "b648126babddb5ac0eb228be6af43f40606b267b10d3c5bedc64573109037435"
+    },
+    {
+      "image": "/assets/versions/nikke-version-ja.jpeg",
+      "source": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_74ca0f9adf699058b21d99ac8aa63409cc6f10d8-3840x2160-ori_s_80_50_ori_q_80.jpeg",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "dee90e12239dc383759efc0aa32e2cf885a04c23b6906dd3e202a3cea33bd8e4"
+    },
+    {
+      "image": "/assets/versions/gfl2-kr-amber-featured.png",
+      "source": "https://res.17996cdn.net/gf2/news/261008/kr/1.png",
+      "width": 1200,
+      "height": 675,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "3d524252aa557f9139dcd7e3f28f57c64b432f373494969f7a282132de517a25"
+    },
+    {
+      "image": "/assets/versions/gfl2-haoplay-amber-featured.png",
+      "source": "https://res.17996cdn.net/gf2/news/261008/en/1.png",
+      "width": 1200,
+      "height": 675,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "ad04f695b231dcb13af256e7067279aba776baa8bd61771ce3464e32c41d320d"
+    },
+    {
+      "image": "/assets/versions/gfl2-jp-amber-featured.png",
+      "source": "https://res.17996cdn.net/gf2/news/261008/jp/1.png",
+      "width": 1200,
+      "height": 675,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "51aa55f0a1f9e150b9049d01563dbf6d842810e5a18f48e1b4b955c2b35707b2"
+    },
+    {
+      "image": "/assets/versions/ark-global-banner.jpg",
+      "source": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/-cAcBsiV.jpg",
+      "width": 1560,
+      "height": 500,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "dcda9e987ff33484b8aa72f955b66111c938e2fa0d94297cec50286ed5969032"
+    },
+    {
+      "image": "/assets/versions/ark-jp-current-keyvisual.png",
+      "source": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/07/e734NlwZ.png",
+      "width": 1560,
+      "height": 300,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "9dc62dd9f30c62080e8d862afcda714ba8c03b3fd485ca24a31a1f720b29a7db"
+    },
+    {
+      "image": "/assets/versions/ark_facebook-og.jpg",
+      "source": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/839960541_1099881909352879_5586536264686452376_n.png?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s600x600&_nc_cat=109&ccb=1-7&_nc_sid=cae128&_nc_ohc=Bsc_mGc9WlgQ7kNvwGHMupQ&_nc_oc=Ado_Yt9MeZu-p5YVV1404FjN-IQisxXcQIipdpMBPmq6X5UVNvEE9UrPVJEQ7S3EX3Qi98hRY0jwbPrVvNUORoT5&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=xVfi1yMa7WIKzlCIrrKpJg&_nc_ss=7f20f&oh=00_AQN_tAc-CI2pNt1gUhQmTpOk47PTEyrJ2Xx9uyR_TEBrYg&oe=6AD849EC",
+      "width": 600,
+      "height": 600,
+      "verifiedAt": "2026-10-16T18:59:13.847966+00:00",
+      "sha256": "927e7a0023d4d2de39413a5b9b8611357c1ac0d599a6f4d61bd4ed9c729e67b9"
+    },
+    {
+      "image": "/assets/versions/uma-island-kv.jpg",
+      "source": "https://umamusume.jp/_nuxt/images/kv-iwEt5kUA.jpg",
+      "width": 2880,
+      "height": 1620,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "b51cd22444c7e3d5870b45cd68a0993ba73c49a4b906a0e195bce5bfd15a3078"
+    },
+    {
+      "image": "/assets/versions/uma-jp-countdown.png",
+      "source": "https://prd-info-umamusume.akamaized.net/announce/3491/Header/header_CP_20261013_02.png?c=20261006160723",
+      "width": 936,
+      "height": 120,
+      "verifiedAt": "2026-10-16T18:49:00.837653+00:00",
+      "sha256": "e5134252b59b30688dd5f61b466d49122032ec4e778fa013318c662687bb7a7d"
+    },
+    {
+      "image": "/assets/versions/uma_facebook-og.jpg",
+      "source": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/852243727_2056223011705679_7123365723805699422_n.png?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=p600x600&_nc_cat=102&ccb=1-7&_nc_sid=cae128&_nc_ohc=yigfeHuoFrcQ7kNvwGWlABb&_nc_oc=Adp5Jtal047dyOwMKLhNEoGfQpg9J03aw-0ZEovzILrxMdnC5bwr93nyqb-rY0iF4adxrX0MMMMdsQr0_O7xNxbb&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=LO3d2RUKFV_mcOQYOKEmtQ&_nc_ss=7f20f&oh=00_AQOlLU5FAw6WeVcIMJ0tvZLndmlf3f8sYrigNsiRDC_3jw&oe=6AD8477F",
+      "width": 1067,
+      "height": 600,
+      "verifiedAt": "2026-10-16T18:59:13.847966+00:00",
+      "sha256": "a3d851f9fb83dd40e1aa99b6cdee629b8e2ff9f69628f7c51265db7b2091aded"
+    },
+    {
+      "image": "/assets/entities/cn/ak-version.jpg",
+      "source": "https://web.hycdn.cn/upload/image/20260929/77e4be6e8952f9027dd611befc59111a.jpg",
+      "width": 1560,
+      "height": 500,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "5470cceccb438b0099693249fa6c077733feb41941a0414e86b7751f1b3c7272"
+    },
+    {
+      "image": "/assets/entities/cn/ak-clemence-e2.png",
+      "source": "https://patchwiki.biligame.com/images/arknights/c/c3/6ftm83dc4yta8ffxapd95vvce6al7pa.png",
+      "width": 2048,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "41952d976fa00998cb945321792d51ff2307a9208037757e29e722d9997b478b"
+    },
+    {
+      "image": "/assets/entities/cn/ak-zuole-e2.png",
+      "source": "https://patchwiki.biligame.com/images/arknights/c/c0/7kxcl60rzgqg3tyk2iniztj9o7zofkj.png",
+      "width": 2432,
+      "height": 2432,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "ba62a1e8f026e8322cff203fdaab6848985df7eab5d109131ceb093029ad9781"
+    },
+    {
+      "image": "/assets/entities/cn/ak-penance-e2.png",
+      "source": "https://patchwiki.biligame.com/images/arknights/9/99/1ampc8wi8rohrgqvggte6fnq4uzk4fr.png",
+      "width": 2560,
+      "height": 2560,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "5c8160723bcf8a1805a8cce985ec03e494bb92cb29f696d52746bc7a823418cb"
+    },
+    {
+      "image": "/assets/entities/cn/ak-thorns-e2.png",
+      "source": "https://patchwiki.biligame.com/images/arknights/0/00/ccvdk26wyy7c8omd6gppigtnle5yg6b.png",
+      "width": 2048,
+      "height": 2048,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "9a41af18b47d16b057a09089e7b4b384fb4e0b8648637202ab31b1796c5a7c48"
+    },
+    {
+      "image": "/assets/entities/cn/ak-kaltsit-e2.png",
+      "source": "https://patchwiki.biligame.com/images/arknights/8/87/64f0cvg4l73m7938scaq5dciohorc67.png",
+      "width": 2560,
+      "height": 2560,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "979319b293f38f10cd620cc462656da8abbd7e490183e673023aef94437abdb8"
+    },
+    {
+      "image": "/assets/entities/cn/gfl2-version.jpg",
+      "source": "https://gf2-cn.cdn.sunborngame.com/website/official_zf/pc/image2/home-img-pc_b42341fe4c.jpg",
+      "width": 3840,
+      "height": 1600,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "2400cf3c9e619832568b8008c564dc163a2a96bdfd0f526761d1b04959d19337"
+    },
+    {
+      "image": "/assets/entities/cn/gfl2-igla-full.png",
+      "source": "https://gf2-cn.cdn.sunborngame.com/website/official_zf/pc/image2/ilus-Igla_f36a1886aa.png",
+      "width": 970,
+      "height": 955,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "6be4d1cfa7606618247d01bdf65ea56027449a9fc579b948f926196d4f9333ed"
+    },
+    {
+      "image": "/assets/entities/cn/gfl2-2177-banner.jpeg",
+      "source": "https://gf2-cn.cdn.sunborngame.com/website/platform/1791442379292.jpeg",
+      "width": 1200,
+      "height": 900,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "70a6e2b130b122192d18194c651bd3d2f8450e952df5c3add82ec5950714e1c8"
+    },
+    {
+      "image": "/assets/entities/cn/gfl2-eagletta-full.png",
+      "source": "https://gf2-cn.cdn.sunborngame.com/website/official_zf/pc/image2/ilus-Eagletta_132a312f63.png",
+      "width": 970,
+      "height": 955,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "31d823683349adf49eefa9ef4ac7efd6bfab6b8666f428461c03f33c54ad01be"
+    },
+    {
+      "image": "/assets/entities/cn/gfl2-sextans-full.webp",
+      "source": "https://res.17996cdn.net/gf2/tw/images/home/ilus-Sextans_34a089e491.webp",
+      "width": 1970,
+      "height": 1940,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "7ff6f5ad5c9d5effdf22e08127447c6069e601b457fff98d59dfd190902207b8"
+    },
+    {
+      "image": "/assets/entities/cn/gfl2-ots14-full.webp",
+      "source": "https://res.17996cdn.net/gf2/tw/images/home/ilus-OTs14_ddb8a77b23.webp",
+      "width": 1970,
+      "height": 1940,
+      "verifiedAt": "2026-10-16T18:50:40.015960Z",
+      "sha256": "584283d2013a6ddeae83c179b5f3e061f82404f2d48bef2db96504a76e243ab0"
+    }
+  ],
+  "notes": [
+    "Original files retained; no synthetic enlargement.",
+    "Only Arknights and GFL2 have independent CN schedules.",
+    "CN dates retain announced local clock text; ISO dates remain unknown until time zone is verified.",
+    "Known original low-resolution banners use native-size limits.",
+    "Arknights KR and Uma Global use exact official update/event posters at native resolution; QHD originals remain unverified."
+  ]
+}

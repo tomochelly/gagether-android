@@ -1,0 +1,2023 @@
+[
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-11-05T11:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-si",
+    "kind": "pickup",
+    "title": {
+      "ko": "사 · 만물의 재구성",
+      "en": "Si · Rejuvenation",
+      "ja": "スー · 万象一新",
+      "zh": "祀 · 萬物更新"
+    },
+    "summary": {
+      "ko": "신규 6성 오퍼레이터 사의 획득 확률이 증가합니다.",
+      "en": "New 6-star operator Si is featured.",
+      "ja": "新★6オペレーター・スーの提供割合が上昇。",
+      "zh": "全新6星幹員祀獲得機率提升。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/4489",
+    "sourceTitle": "[Rejuvenation] Chartered Headhunting",
+    "image": "/assets/endfield-pickup.webp",
+    "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/c9e7aee99096e8ddc164a35c095762d7.jpg",
+    "rarity": 6,
+    "featured": true,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    },
+    "pickupType": "new",
+    "pickupGroup": "endfield-sanctuary-ink-phase-1",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "사",
+          "en": "Si",
+          "ja": "スー",
+          "zh": "祀"
+        },
+        "type": "new",
+        "rarity": 6
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-jade-vessel",
+    "kind": "weapon",
+    "title": {
+      "ko": "옥에 깃든 형체 · 전옥 신청",
+      "en": "Jade Vessel · Seal of Jade Issue",
+      "ja": "玉中身 · 玉書・申請",
+      "zh": "玉中身 · 篆玉申領"
+    },
+    "summary": {
+      "ko": "6성 대검 확률 상승. 관련 캐릭터 배너 3회가 지나면 종료.",
+      "en": "Rate-up 6-star greatsword. Ends after three relevant character banners.",
+      "ja": "星6大剣の確率アップ。対象のキャラクター募集3回後に終了。",
+      "zh": "六星双手剑概率提升，相关角色寻访三期后结束。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/2652",
+    "sourceTitle": "[Seal of Jade Issue] LTO Details",
+    "image": "/assets/endfield-weapon.webp",
+    "imageSource": "https://web-static.hg-cdn.com/upload/image/20261012/ae4a0d5301f2ecd124be805ebd31d30f.jpg",
+    "rarity": 6,
+    "timingNote": {
+      "ko": "정확한 종료 일시는 공식 공지에 기재되지 않았습니다.",
+      "en": "No fixed end timestamp is published.",
+      "ja": "終了日時の明記はありません。",
+      "zh": "官方未公布固定结束时间。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    },
+    "pickupType": "new",
+    "pickupGroup": "endfield-sanctuary-ink-phase-1",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "옥에 깃든 형체",
+          "en": "Jade Vessel",
+          "ja": "玉中身",
+          "zh": "玉中身"
+        },
+        "type": "new",
+        "rarity": 6
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-update-ink",
+    "kind": "update",
+    "title": {
+      "ko": "단청도",
+      "en": "Sanctuary of Ink",
+      "ja": "丹青渡",
+      "zh": "丹青渡"
+    },
+    "summary": {
+      "ko": "사의 그림 지역과 새 스토리, 오퍼레이터·무기 추가.",
+      "en": "Si’s Painting, new story, operators and weapons.",
+      "ja": "スーの絵、新ストーリー、オペレーター・武器を追加。",
+      "zh": "新增祀的畫區域、劇情、幹員與武器。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "image": "/assets/endfield-background.webp",
+    "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv_v1d6.32f51a5b.jpg",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-11-05T12:00:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-inky-hues",
+    "kind": "event",
+    "title": {
+      "ko": "먹에서 피어난 색채",
+      "en": "All the Inky Hues",
+      "ja": "墨に彩あり",
+      "zh": "墨分諸彩"
+    },
+    "summary": {
+      "ko": "지정 임무를 완료해 오로베릴 1,200개 등을 획득.",
+      "en": "Complete designated tasks for 1,200 Oroberyl and other rewards.",
+      "ja": "指定クエスト達成で赤晶玉1,200などを獲得。",
+      "zh": "完成指定任務可獲嵌晶玉1,200等獎勵。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-stoves",
+    "kind": "event",
+    "title": {
+      "ko": "불꽃으로 맺은 인연",
+      "en": "Yuanyuan's Blazing Stoves",
+      "ja": "俗世の縁",
+      "zh": "煙火生緣"
+    },
+    "summary": {
+      "ko": "여관을 운영하고 경영 임무 보상을 획득합니다.",
+      "en": "Manage Yuanyuan Manor Inn and claim event task rewards.",
+      "ja": "宿屋・縁縁荘を経営してクエスト報酬を獲得。",
+      "zh": "經營緣緣莊客棧並領取經營任務獎勵。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "timingNote": {
+      "ko": "다음 버전 점검 전까지 진행됩니다.",
+      "en": "Ends before the next version maintenance.",
+      "ja": "次回バージョンのメンテナンス前まで。",
+      "zh": "持续至下次版本维护前。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-ink-pass",
+    "kind": "package",
+    "title": {
+      "ko": "프로토콜 통행증 · 묵권",
+      "en": "Protocol Pass: Ink Scroll",
+      "ja": "協約通行証・墨画",
+      "zh": "協議通行證·墨卷"
+    },
+    "summary": {
+      "ko": "새 버전 판매 목록. 가격과 상세 구성은 게임 내에서 확인.",
+      "en": "Listed in the new-version shop; price and contents require an in-game check.",
+      "ja": "新バージョン販売商品。価格と詳細内容はゲーム内で確認。",
+      "zh": "新版本商店商品，价格和具体内容需在游戏内确认。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-wondrous",
+    "kind": "package",
+    "title": {
+      "ko": "기묘한 시선 소장 패키지",
+      "en": "Wondrous View Collection Pack",
+      "ja": "不思議な視線パック",
+      "zh": "奇妙視線收藏包"
+    },
+    "summary": {
+      "ko": "새 버전 판매 목록. 가격과 상세 구성은 게임 내에서 확인.",
+      "en": "Listed in the new-version shop; price and contents require an in-game check.",
+      "ja": "新バージョン販売商品。価格と詳細内容はゲーム内で確認。",
+      "zh": "新版本商店商品，价格和具体内容需在游戏内确认。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-protocol-flow",
+    "kind": "package",
+    "title": {
+      "ko": "프로토콜 기원 조합 패키지",
+      "en": "Protocol Flow Bundle",
+      "ja": "協約起源パック",
+      "zh": "協議源流組合包"
+    },
+    "summary": {
+      "ko": "새 버전 판매 목록. 가격과 상세 구성은 게임 내에서 확인.",
+      "en": "Listed in the new-version shop; price and contents require an in-game check.",
+      "ja": "新バージョン販売商品。価格と詳細内容はゲーム内で確認。",
+      "zh": "新版本商店商品，价格和具体内容需在游戏内确认。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-omnipresence",
+    "kind": "package",
+    "title": {
+      "ko": "만물 헤드헌팅 조합 패키지",
+      "en": "Omnipresence HH Bundle",
+      "ja": "万象スカウトパック",
+      "zh": "萬象尋訪組合包"
+    },
+    "summary": {
+      "ko": "새 버전 판매 목록. 가격과 상세 구성은 게임 내에서 확인.",
+      "en": "Listed in the new-version shop; price and contents require an in-game check.",
+      "ja": "新バージョン販売商品。価格と詳細内容はゲーム内で確認。",
+      "zh": "新版本商店商品，价格和具体内容需在游戏内确认。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-star-river",
+    "kind": "package",
+    "title": {
+      "ko": "천하 헤드헌팅 조합 패키지",
+      "en": "Star River HH Bundle",
+      "ja": "天河スカウトパック",
+      "zh": "天河尋訪組合包"
+    },
+    "summary": {
+      "ko": "새 버전 판매 목록. 가격과 상세 구성은 게임 내에서 확인.",
+      "en": "Listed in the new-version shop; price and contents require an in-game check.",
+      "ja": "新バージョン販売商品。価格と詳細内容はゲーム内で確認。",
+      "zh": "新版本商店商品，价格和具体内容需在游戏内确认。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-11-05T12:00:00+08:00",
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-argent-flow",
+    "kind": "pickup",
+    "title": {
+      "ko": "명하",
+      "en": "Argent Flow",
+      "ja": "ミンホ",
+      "zh": "明河"
+    },
+    "summary": {
+      "ko": "다음 6성 오퍼레이터 픽업.",
+      "en": "Upcoming featured 6-star operator.",
+      "ja": "次回の星6オペレーターピックアップ。",
+      "zh": "即将开启的六星干员寻访。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "[Sanctuary of Ink] Version Update Notes",
+    "rarity": 6,
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    },
+    "pickupType": "new",
+    "pickupGroup": "endfield-sanctuary-ink-phase-2",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "명하",
+          "en": "Argent Flow",
+          "ja": "ミンホ",
+          "zh": "明河"
+        },
+        "type": "new",
+        "rarity": 6
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-22T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "id": "wuwa-chisa",
+    "gameId": "wuwa",
+    "kind": "pickup",
+    "title": {
+      "ko": "치사",
+      "en": "Chisa",
+      "ja": "千咲",
+      "zh": "千咲"
+    },
+    "summary": {
+      "ko": "3.7 전반 5성 공명자 픽업.",
+      "en": "Version 3.7 phase I featured 5-star Resonator.",
+      "ja": "3.7前半の限定星5共鳴者。",
+      "zh": "3.7上半五星共鸣者唤取。"
+    },
+    "server": "Asia · UTC+8",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+    "sourceTitle": "Version 3.7 Featured Resonator/Weapon Convene: Phase I",
+    "image": "/assets/wuwa-chisa.webp",
+    "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/trn2p82rluezvtpbhd-1790599750647.jpg",
+    "version": "3.7",
+    "rarity": 5,
+    "featured": true,
+    "timingNote": {
+      "ko": "아시아 종료: 10월 22일 10:59 KST/JST. 일본 공식 공지에서 시간대를 명시했습니다.",
+      "en": "Asia end: October 22, 10:59 JST (UTC+9), explicitly stated in the Japanese official notice.",
+      "ja": "アジア終了：10月22日10:59（日本標準時）。",
+      "zh": "亞洲結束：10月22日09:59（UTC+8），據日文官方公告換算。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://wutheringwaves.kurogames.com/kr/main/news/detail/3618",
+      "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+      "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+      "zh": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/3663.json"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "wuwa-37-phase-1",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "치사",
+          "en": "Chisa",
+          "ja": "千咲",
+          "zh": "千咲"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-22T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "id": "wuwa-iuno",
+    "gameId": "wuwa",
+    "kind": "pickup",
+    "title": {
+      "ko": "유노",
+      "en": "Iuno",
+      "ja": "ユーノ",
+      "zh": "尤诺"
+    },
+    "summary": {
+      "ko": "3.7 전반 5성 공명자 픽업.",
+      "en": "Version 3.7 phase I featured 5-star Resonator.",
+      "ja": "3.7前半の限定星5共鳴者。",
+      "zh": "3.7上半五星共鸣者唤取。"
+    },
+    "server": "Asia · UTC+8",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+    "sourceTitle": "Version 3.7 Featured Resonator/Weapon Convene: Phase I",
+    "image": "/assets/wuwa-iuno.webp",
+    "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/52fuzc2q5izfpskj6p-1790599795275.jpg",
+    "version": "3.7",
+    "rarity": 5,
+    "featured": false,
+    "timingNote": {
+      "ko": "아시아 종료: 10월 22일 10:59 KST/JST. 일본 공식 공지에서 시간대를 명시했습니다.",
+      "en": "Asia end: October 22, 10:59 JST (UTC+9), explicitly stated in the Japanese official notice.",
+      "ja": "アジア終了：10月22日10:59（日本標準時）。",
+      "zh": "亞洲結束：10月22日09:59（UTC+8），據日文官方公告換算。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://wutheringwaves.kurogames.com/kr/main/news/detail/4043",
+      "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+      "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+      "zh": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/3211.json"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "wuwa-37-phase-1",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "유노",
+          "en": "Iuno",
+          "ja": "ユーノ",
+          "zh": "尤诺"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-22T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "id": "wuwa-kumokiri",
+    "gameId": "wuwa",
+    "kind": "weapon",
+    "title": {
+      "ko": "쿠모키리(曇斬)",
+      "en": "Kumokiri",
+      "ja": "曇斬",
+      "zh": "昙切"
+    },
+    "summary": {
+      "ko": "3.7 전반 5성 무기 픽업.",
+      "en": "Version 3.7 phase I featured 5-star weapon.",
+      "ja": "3.7前半の星5武器ピックアップ。",
+      "zh": "3.7上半五星武器唤取。"
+    },
+    "server": "Asia · UTC+8",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+    "sourceTitle": "Version 3.7 Featured Resonator/Weapon Convene: Phase I",
+    "image": "/assets/wuwa-kumokiri.webp",
+    "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/bp1ghgcr0axdqnq3tg-1790599781062.jpg",
+    "version": "3.7",
+    "rarity": 5,
+    "featured": false,
+    "timingNote": {
+      "ko": "아시아 종료: 10월 22일 10:59 KST/JST. 일본 공식 공지에서 시간대를 명시했습니다.",
+      "en": "Asia end: October 22, 10:59 JST (UTC+9), explicitly stated in the Japanese official notice.",
+      "ja": "アジア終了：10月22日10:59（日本標準時）。",
+      "zh": "亞洲結束：10月22日09:59（UTC+8），據日文官方公告換算。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://wutheringwaves.kurogames.com/kr/main/news/detail/4183",
+      "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+      "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+      "zh": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/3663.json"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "wuwa-37-phase-1",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "쿠모키리(曇斬)",
+          "en": "Kumokiri",
+          "ja": "曇斬",
+          "zh": "昙切"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-22T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "id": "wuwa-moongazer",
+    "gameId": "wuwa",
+    "kind": "weapon",
+    "title": {
+      "ko": "세상 만물의 진리",
+      "en": "Moongazer's Sigil",
+      "ja": "万物を書き留める月相",
+      "zh": "万物持存的注释"
+    },
+    "summary": {
+      "ko": "3.7 전반 5성 무기 픽업.",
+      "en": "Version 3.7 phase I featured 5-star weapon.",
+      "ja": "3.7前半の星5武器ピックアップ。",
+      "zh": "3.7上半五星武器唤取。"
+    },
+    "server": "Asia · UTC+8",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+    "sourceTitle": "Version 3.7 Featured Resonator/Weapon Convene: Phase I",
+    "image": "/assets/wuwa-moongazer.webp",
+    "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1790524800000/5se8wi7o764x037898-1790599812463.jpg",
+    "version": "3.7",
+    "rarity": 5,
+    "featured": false,
+    "timingNote": {
+      "ko": "아시아 종료: 10월 22일 10:59 KST/JST. 일본 공식 공지에서 시간대를 명시했습니다.",
+      "en": "Asia end: October 22, 10:59 JST (UTC+9), explicitly stated in the Japanese official notice.",
+      "ja": "アジア終了：10月22日10:59（日本標準時）。",
+      "zh": "亞洲結束：10月22日09:59（UTC+8），據日文官方公告換算。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://wutheringwaves.kurogames.com/kr/main/news/detail/4051",
+      "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+      "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+      "zh": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/3211.json"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "wuwa-37-phase-1",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "세상 만물의 진리",
+          "en": "Moongazer's Sigil",
+          "ja": "万物を書き留める月相",
+          "zh": "万物持存的注释"
+        },
+        "type": "rerun",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "id": "wuwa-update-37",
+    "gameId": "wuwa",
+    "kind": "update",
+    "title": {
+      "ko": "3.7 · 거울에 잠긴 허상, 마음이 비추는 인간 세상",
+      "en": "3.7 · Prism's Illusion, Heart's Illumination",
+      "ja": "3.7 · 鏡に鎖す妄世、心で照らす紅塵",
+      "zh": "3.7 · 镜锁妄世，心照红尘"
+    },
+    "summary": {
+      "ko": "여우의 별자리·쇄명과 새 지역, 콘텐츠를 소개하는 3.7 업데이트.",
+      "en": "Version 3.7 introduces Hsin, Suoming, a new area and activities.",
+      "ja": "心・鎖暝、新エリアとイベントを紹介するVer.3.7。",
+      "zh": "3.7版本介紹心、锁暝、新區域與活動。"
+    },
+    "server": "Asia · UTC+8",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+    "sourceTitle": "Version 3.7 Patch Notes",
+    "version": "3.7",
+    "image": "/assets/wuwa-wallpaper-0.webp",
+    "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1791734400000/hkbm7pcp8gurgihc69-1791807905497.jpg",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+      "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+      "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5570",
+      "zh": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5569.json"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-15T10:00:00+08:00",
+    "endAt": "2026-11-01T09:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "id": "wuwa-fishing",
+    "gameId": "wuwa",
+    "kind": "event",
+    "title": {
+      "ko": "조월 풍어",
+      "en": "Waking Moon Fishing",
+      "ja": "朝月の魚群",
+      "zh": "朝月鱼涌"
+    },
+    "summary": {
+      "ko": "낚시 도감과 임무를 완료해 별의 소리를 받는 웹 이벤트.",
+      "en": "Complete fishing index entries and tasks for Astrites.",
+      "ja": "釣り図鑑と任務で星声を獲得できるWebイベント。",
+      "zh": "完成钓鱼图鉴与任务获取星声的网页活动。"
+    },
+    "server": "Asia · UTC+8",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+    "sourceTitle": "Version 3.7 Patch Notes",
+    "version": "3.7",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+      "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+      "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5570",
+      "zh": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5569.json"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-21T05:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "nte",
+    "server": "Asia · UTC+8",
+    "version": "1.4",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "sourceTitle": "Ver. 1.4 For Whom the Verses Mourn Patch Notes",
+    "id": "nte-blackbird",
+    "kind": "pickup",
+    "title": {
+      "ko": "레이븐",
+      "en": "Blackbird",
+      "ja": "クロバネ",
+      "zh": "黑羽"
+    },
+    "summary": {
+      "ko": "기간 한정 S급 캐릭터 배너.",
+      "en": "Limited S-class character board.",
+      "ja": "期間限定Sクラスキャラクター。",
+      "zh": "限时S级角色卡池。"
+    },
+    "featured": true,
+    "image": "/assets/nte-blackbird.webp",
+    "imageSource": "https://nte.perfectworld.com/public/images/cover260930/role-heiyu.png",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "en": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "ja": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "zh": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+    },
+    "pickupType": "new",
+    "pickupGroup": "nte-14-phase-1",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "레이븐",
+          "en": "Blackbird",
+          "ja": "クロバネ",
+          "zh": "黑羽"
+        },
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-21T05:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "nte",
+    "server": "Asia · UTC+8",
+    "version": "1.4",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "sourceTitle": "Ver. 1.4 For Whom the Verses Mourn Patch Notes",
+    "id": "nte-lacrimosa",
+    "kind": "pickup",
+    "title": {
+      "ko": "라크리모사",
+      "en": "Lacrimosa",
+      "ja": "レクイエム",
+      "zh": "安魂曲"
+    },
+    "summary": {
+      "ko": "기간 한정 S급 캐릭터 배너.",
+      "en": "Limited S-class character board.",
+      "ja": "期間限定Sクラスキャラクター。",
+      "zh": "限时S级角色卡池。"
+    },
+    "featured": false,
+    "image": "/assets/nte-lacrimosa.webp",
+    "imageSource": "https://nte.perfectworld.com/public/images/cover260930/role-mingyin.png",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "en": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "ja": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "zh": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "nte-14-phase-1",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "라크리모사",
+          "en": "Lacrimosa",
+          "ja": "レクイエム",
+          "zh": "安魂曲"
+        },
+        "type": "rerun"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-21T05:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "nte",
+    "server": "Asia · UTC+8",
+    "version": "1.4",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "sourceTitle": "Ver. 1.4 For Whom the Verses Mourn Patch Notes",
+    "id": "nte-crime-punishment",
+    "kind": "weapon",
+    "title": {
+      "ko": "죄와 벌",
+      "en": "Crime and Punishment",
+      "ja": "罪と罰",
+      "zh": "罪与罚"
+    },
+    "summary": {
+      "ko": "기간 한정 S급 아크 연구 모집.",
+      "en": "Limited S-Class Arc research.",
+      "ja": "期間限定Sランク弧盤研究。",
+      "zh": "限時S級弧盤研究。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "en": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "ja": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "zh": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+    },
+    "pickupType": "new",
+    "pickupGroup": "nte-14-phase-1",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "죄와 벌",
+          "en": "Crime and Punishment",
+          "ja": "罪と罰",
+          "zh": "罪与罚"
+        },
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-21T05:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "nte",
+    "server": "Asia · UTC+8",
+    "version": "1.4",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "sourceTitle": "Ver. 1.4 For Whom the Verses Mourn Patch Notes",
+    "id": "nte-last-rose",
+    "kind": "weapon",
+    "title": {
+      "ko": "마지막 장미",
+      "en": "The Last Rose",
+      "ja": "ラスト・ローズ",
+      "zh": "最后一朵玫瑰"
+    },
+    "summary": {
+      "ko": "기간 한정 S급 아크 연구 모집.",
+      "en": "Limited S-Class Arc research.",
+      "ja": "期間限定Sランク弧盤研究。",
+      "zh": "限時S級弧盤研究。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "en": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "ja": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "zh": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "nte-14-phase-1",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "마지막 장미",
+          "en": "The Last Rose",
+          "ja": "ラスト・ローズ",
+          "zh": "最后一朵玫瑰"
+        },
+        "type": "rerun"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "nte",
+    "server": "Asia · UTC+8",
+    "version": "1.4",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "sourceTitle": "Ver. 1.4 For Whom the Verses Mourn Patch Notes",
+    "id": "nte-update-14",
+    "kind": "update",
+    "title": {
+      "ko": "1.4 · 누구를 위하여 기도를 올리나",
+      "en": "1.4 · For Whom the Verses Mourn",
+      "ja": "1.4 · 名もなき祈歌",
+      "zh": "1.4 · 祷歌为谁而诵"
+    },
+    "summary": {
+      "ko": "푸카 파라다이스·성 알보 마을과 레이븐 관련 콘텐츠 추가.",
+      "en": "Pukaland, St. Arbor and content featuring Blackbird.",
+      "ja": "プカランド・セントアルボ村とクロバネの新コンテンツ。",
+      "zh": "新增噗卡乐园、圣阿尔博镇與黑羽相關內容。"
+    },
+    "image": "/assets/nte-background.webp",
+    "imageSource": "https://nte.perfectworld.com/public/images/cover260930/box1.jpg",
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "en": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "ja": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "zh": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-08T10:00:00+08:00",
+    "endAt": "2026-11-11T05:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "nte",
+    "server": "Asia · UTC+8",
+    "version": "1.4",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "sourceTitle": "Ver. 1.4 For Whom the Verses Mourn Patch Notes",
+    "id": "nte-coal-lump",
+    "kind": "event",
+    "title": {
+      "ko": "숯덩이의 보물",
+      "en": "Coal Lump's Treasure",
+      "ja": "炭団子の秘宝",
+      "zh": "炭团的宝藏"
+    },
+    "summary": {
+      "ko": "이벤트 미션과 상점에서 성장 재료 등을 획득.",
+      "en": "Earn progression materials through event tasks and the shop.",
+      "ja": "イベント任務と交換所で育成素材などを獲得。",
+      "zh": "通过活动任务与商店获取养成材料等奖励。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "en": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "ja": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "zh": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-11-11T05:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "nte",
+    "server": "Asia · UTC+8",
+    "version": "1.4",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "sourceTitle": "Ver. 1.4 For Whom the Verses Mourn Patch Notes",
+    "id": "nte-circle-gifts",
+    "kind": "event",
+    "title": {
+      "ko": "시즌 선물",
+      "en": "Circle Gifts",
+      "ja": "7Daysボーナス",
+      "zh": "环期赠礼"
+    },
+    "summary": {
+      "ko": "7일 누적 출석으로 진실의 주사위 10개 획득.",
+      "en": "Log in on seven days to receive 10 Solid Dice.",
+      "ja": "7日間ログインで本質サイコロ10個を獲得。",
+      "zh": "累計簽到7日獲得質實骰子10個。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "en": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "ja": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "zh": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-07T06:30:00+08:00",
+    "endAt": "2026-11-11T05:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "nte",
+    "server": "Asia · UTC+8",
+    "version": "1.4",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "sourceTitle": "Ver. 1.4 For Whom the Verses Mourn Patch Notes",
+    "id": "nte-wandering-stars",
+    "kind": "package",
+    "title": {
+      "ko": "레이븐 · 별지기",
+      "en": "Blackbird · Wandering Stars",
+      "ja": "クロバネ · 蒼羽ソワレ",
+      "zh": "黑羽 · 牧星者"
+    },
+    "summary": {
+      "ko": "레이븐 의상 할인: 이상 수정 2,680개. 정가 3,280개.",
+      "en": "Blackbird outfit: 2,680 Riftcrystal during the offer, normally 3,280.",
+      "ja": "クロバネ衣装の期間限定割引。",
+      "zh": "黑羽時裝限時優惠。"
+    },
+    "price": {
+      "amount": 2680,
+      "currency": "Riftcrystal",
+      "platform": "In-game"
+    },
+    "timingNote": {
+      "ko": "의상은 상시 판매되며 표시 기간은 할인 기간입니다.",
+      "en": "The outfit remains available; dates indicate the sale window.",
+      "ja": "衣装は常設販売。表示期間は割引期間です。",
+      "zh": "服装为常驻商品，所示时间为折扣期。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "en": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "ja": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "zh": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-14T08:00:00-07:00",
+    "endAt": "2026-10-28T03:59:00-07:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Global UTC−7",
+    "sourceUrl": "https://www.arknights.global/news/4814",
+    "sourceTitle": "Main Theme Episode 17: Critical Phase Transition",
+    "version": "Episode 17",
+    "id": "arknights-sealed",
+    "kind": "pickup",
+    "title": {
+      "ko": "켈시 에스페란타 / 클로저",
+      "en": "Kal'tsit Esperanta / Closure",
+      "ja": "ケルシー・エスペランタ / クロージャ",
+      "zh": "凯尔希·思衡托 / 可露希尔"
+    },
+    "summary": {
+      "ko": "서약 한정 헤드헌팅. 켈시 에스페란타·클로저·크랙본 신규 등장.",
+      "en": "Sealed With Time features new operators Kal’tsit Esperanta, Closure and Crackborne.",
+      "ja": "約諾：ケルシー・エスペランタ、クロージャ、クラックボーンが新登場。",
+      "zh": "承諾：凯尔希·思衡托、可露希尔、裂响新登場。"
+    },
+    "image": "/assets/arknights-pickup.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/u-DcTih-.jpg",
+    "rarity": 6,
+    "featured": true,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://x.com/ArknightsKorea/status/2109910414112985274",
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4805",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    },
+    "pickupType": "new",
+    "pickupGroup": "arknights-global-sealed-with-time",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "켈시 에스페란타",
+          "en": "Kal'tsit Esperanta",
+          "ja": "ケルシー・エスペランタ",
+          "zh": "凯尔希·思衡托"
+        },
+        "type": "new",
+        "rarity": 6
+      },
+      {
+        "name": {
+          "ko": "클로저",
+          "en": "Closure",
+          "ja": "クロージャ",
+          "zh": "可露希尔"
+        },
+        "type": "new",
+        "rarity": 6
+      },
+      {
+        "name": {
+          "ko": "크랙본",
+          "en": "Crackborne",
+          "ja": "クラックボーン",
+          "zh": "裂响"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-14T08:00:00-07:00",
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Global UTC−7",
+    "sourceUrl": "https://www.arknights.global/news/4814",
+    "sourceTitle": "Main Theme Episode 17: Critical Phase Transition",
+    "version": "Episode 17",
+    "id": "arknights-ep17",
+    "kind": "update",
+    "title": {
+      "ko": "메인 스토리 제17장",
+      "en": "Episode 17 · Critical Phase Transition",
+      "ja": "第十七章 · 相変臨界",
+      "zh": "第十七章 · 相变临界"
+    },
+    "summary": {
+      "ko": "메인 스토리 17장 개방 및 기간 한정 보상.",
+      "en": "Main story Episode 17 opens with limited-time rewards.",
+      "ja": "メインストーリー第17章と期間限定報酬。",
+      "zh": "主线第17章开放并附有限时奖励。"
+    },
+    "image": "/assets/arknights-hero.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/RPgofnTc.jpg",
+    "featured": false,
+    "officialLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4805",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-14T08:00:00-07:00",
+    "endAt": "2026-10-28T03:59:00-07:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Global UTC−7",
+    "sourceUrl": "https://www.arknights.global/news/4814",
+    "sourceTitle": "Main Theme Episode 17: Critical Phase Transition",
+    "version": "Episode 17",
+    "id": "arknights-free-pull",
+    "kind": "event",
+    "title": {
+      "ko": "매일 무료 헤드헌팅",
+      "en": "Daily free headhunting",
+      "ja": "毎日無料スカウト",
+      "zh": "每日免費尋訪"
+    },
+    "summary": {
+      "ko": "서약 한정 헤드헌팅에서 하루 1회 무료. 미사용 횟수는 이월되지 않습니다.",
+      "en": "One free pull per day in Sealed With Time. Unused pulls do not carry over.",
+      "ja": "約諾で毎日1回無料。未使用回数は翌日に引き継がれません。",
+      "zh": "承諾限定尋訪每日免費1次，未用次數不累積。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://x.com/ArknightsKorea/status/2109910414112985274",
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4805",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-14T08:00:00-07:00",
+    "endAt": "2026-11-11T03:59:00-07:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Global UTC−7",
+    "sourceUrl": "https://www.arknights.global/news/4814",
+    "sourceTitle": "Main Theme Episode 17: Critical Phase Transition",
+    "version": "Episode 17",
+    "id": "arknights-duck-purse",
+    "kind": "package",
+    "title": {
+      "ko": "Duck Lord's Change Purse",
+      "en": "Duck Lord's Change Purse",
+      "ja": "ダック卿の小銭入れ",
+      "zh": "鸭爵的零钱包"
+    },
+    "summary": {
+      "ko": "순오리지늄 13개 + 용문폐 300,000",
+      "en": "13 Originite Prime + 300,000 LMD",
+      "ja": "純正源石13個＋龍門幣300,000",
+      "zh": "至纯源石13个＋龙门币300,000"
+    },
+    "contents": [
+      {
+        "ko": "순오리지늄 13개 + 용문폐 300,000",
+        "en": "13 Originite Prime + 300,000 LMD",
+        "ja": "純正源石13個＋龍門幣300,000",
+        "zh": "至纯源石13个＋龙门币300,000"
+      }
+    ],
+    "image": "/assets/arknights-packs-basic.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/sQB8HdvH.jpg",
+    "featured": false,
+    "officialLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4806",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-14T08:00:00-07:00",
+    "endAt": "2026-11-11T03:59:00-07:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Global UTC−7",
+    "sourceUrl": "https://www.arknights.global/news/4814",
+    "sourceTitle": "Main Theme Episode 17: Critical Phase Transition",
+    "version": "Episode 17",
+    "id": "arknights-briefcase",
+    "kind": "package",
+    "title": {
+      "ko": "Kal'tsit's Briefcase",
+      "en": "Kal'tsit's Briefcase",
+      "ja": "ケルシーの鞄",
+      "zh": "凯尔希的手提箱"
+    },
+    "summary": {
+      "ko": "순오리지늄 16개 + 용문폐 700,000",
+      "en": "16 Originite Prime + 700,000 LMD",
+      "ja": "純正源石16個＋龍門幣700,000",
+      "zh": "至纯源石16个＋龙门币700,000"
+    },
+    "contents": [
+      {
+        "ko": "순오리지늄 16개 + 용문폐 700,000",
+        "en": "16 Originite Prime + 700,000 LMD",
+        "ja": "純正源石16個＋龍門幣700,000",
+        "zh": "至纯源石16个＋龙门币700,000"
+      }
+    ],
+    "image": "/assets/arknights-packs-basic.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/sQB8HdvH.jpg",
+    "featured": false,
+    "officialLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4806",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    }
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-29T12:00:00+08:00",
+    "endAt": "2026-11-19T11:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-tangtang",
+    "kind": "pickup",
+    "title": {
+      "ko": "탕탕",
+      "en": "Tangtang",
+      "ja": "タンタン",
+      "zh": "湯湯"
+    },
+    "summary": {
+      "ko": "10월 29일부터 진행되는 복각 픽업.",
+      "en": "Rerun begins October 29.",
+      "ja": "10月29日から再登場。",
+      "zh": "10月29日起復刻。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "Sanctuary of Ink update",
+    "rarity": 6,
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "endfield-sanctuary-ink-rerun-1",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "탕탕",
+          "en": "Tangtang",
+          "ja": "タンタン",
+          "zh": "湯湯"
+        },
+        "type": "rerun",
+        "rarity": 6
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": "2026-10-29T12:00:00+08:00",
+    "endAt": "2026-11-19T11:59:00+08:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "endfield",
+    "server": "Asia · UTC+8",
+    "version": "Sanctuary of Ink",
+    "id": "endfield-brigand",
+    "kind": "weapon",
+    "title": {
+      "ko": "반항",
+      "en": "Brigand",
+      "ja": "落草",
+      "zh": "落草"
+    },
+    "summary": {
+      "ko": "10월 29일부터 진행되는 복각 픽업.",
+      "en": "Rerun begins October 29.",
+      "ja": "10月29日から再登場。",
+      "zh": "10月29日起復刻。"
+    },
+    "sourceUrl": "https://endfield.gryphline.com/en-us/news/9560",
+    "sourceTitle": "Sanctuary of Ink update",
+    "rarity": 6,
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "en": "https://endfield.gryphline.com/en-us/news/9560",
+      "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+      "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "endfield-sanctuary-ink-rerun-1",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "반항",
+          "en": "Brigand",
+          "ja": "落草",
+          "zh": "落草"
+        },
+        "type": "rerun",
+        "rarity": 6
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-22T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "id": "wuwa-hsin",
+    "gameId": "wuwa",
+    "kind": "pickup",
+    "title": {
+      "ko": "여우의 별자리",
+      "en": "Hsin",
+      "ja": "心",
+      "zh": "心"
+    },
+    "summary": {
+      "ko": "3.7 전반 신규 5성 픽업.",
+      "en": "New 5-star featured in version 3.7 phase I.",
+      "ja": "Ver.3.7前半の新星5ピックアップ。",
+      "zh": "3.7上半全新五星概率提升。"
+    },
+    "server": "Asia · UTC+8",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+    "sourceTitle": "Version 3.7 Prism's Illusion, Heart's Illumination",
+    "version": "3.7",
+    "rarity": 5,
+    "featured": true,
+    "timingNote": {
+      "ko": "아시아 종료: 10월 22일 10:59 KST/JST. 일본 공식 공지에서 시간대를 명시했습니다.",
+      "en": "Asia end: October 22, 10:59 JST (UTC+9), explicitly stated in the Japanese official notice.",
+      "ja": "アジア終了：10月22日10:59（日本標準時）。",
+      "zh": "亞洲結束：10月22日09:59（UTC+8），據日文官方公告換算。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+      "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+      "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5570",
+      "zh": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5569.json"
+    },
+    "pickupType": "new",
+    "pickupGroup": "wuwa-37-phase-1",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "여우의 별자리",
+          "en": "Hsin",
+          "ja": "心",
+          "zh": "心"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ],
+    "image": "/assets/wuwa-wallpaper-0.webp",
+    "imageSource": "https://hw-media-cdn-mingchao.kurogame.com/object/1791734400000/hkbm7pcp8gurgihc69-1791807905497.jpg"
+  },
+  {
+    "region": "global",
+    "startAt": null,
+    "endAt": "2026-10-22T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "id": "wuwa-blooming-jadehaven",
+    "gameId": "wuwa",
+    "kind": "weapon",
+    "title": {
+      "ko": "옥궐에 피는 꽃",
+      "en": "Blooming Jadehaven",
+      "ja": "玉殿に咲き満ちる玄華",
+      "zh": "玉阙玄华"
+    },
+    "summary": {
+      "ko": "3.7 전반 신규 5성 픽업.",
+      "en": "New 5-star featured in version 3.7 phase I.",
+      "ja": "Ver.3.7前半の新星5ピックアップ。",
+      "zh": "3.7上半全新五星概率提升。"
+    },
+    "server": "Asia · UTC+8",
+    "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+    "sourceTitle": "Version 3.7 Prism's Illusion, Heart's Illumination",
+    "version": "3.7",
+    "rarity": 5,
+    "featured": true,
+    "timingNote": {
+      "ko": "아시아 종료: 10월 22일 10:59 KST/JST. 일본 공식 공지에서 시간대를 명시했습니다.",
+      "en": "Asia end: October 22, 10:59 JST (UTC+9), explicitly stated in the Japanese official notice.",
+      "ja": "アジア終了：10月22日10:59（日本標準時）。",
+      "zh": "亞洲結束：10月22日09:59（UTC+8），據日文官方公告換算。"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+      "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+      "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5570",
+      "zh": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5569.json"
+    },
+    "pickupType": "new",
+    "pickupGroup": "wuwa-37-phase-1",
+    "poolType": "weapon",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "옥궐에 피는 꽃",
+          "en": "Blooming Jadehaven",
+          "ja": "玉殿に咲き満ちる玄華",
+          "zh": "玉阙玄华"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "region": "jp",
+    "startAt": "2026-10-14T16:00:00+09:00",
+    "endAt": "2026-10-28T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Japan · UTC+9",
+    "sourceUrl": "https://arknights.jp/news/4805",
+    "sourceTitle": "メインテーマ 第十七章「相変臨界」公開",
+    "version": "Episode 17",
+    "id": "arknights-sealed-jp",
+    "kind": "pickup",
+    "title": {
+      "ko": "켈시 에스페란타 / 클로저",
+      "en": "Kal'tsit Esperanta / Closure",
+      "ja": "ケルシー・エスペランタ / クロージャ",
+      "zh": "凯尔希·思衡托 / 可露希尔"
+    },
+    "summary": {
+      "ko": "서약 한정 헤드헌팅. 켈시 에스페란타·클로저·크랙본 신규 등장.",
+      "en": "Sealed With Time features new operators Kal’tsit Esperanta, Closure and Crackborne.",
+      "ja": "約諾：ケルシー・エスペランタ、クロージャ、クラックボーンが新登場。",
+      "zh": "承諾：凯尔希·思衡托、可露希尔、裂响新登場。"
+    },
+    "image": "/assets/arknights-pickup.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/u-DcTih-.jpg",
+    "rarity": 6,
+    "featured": true,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://x.com/ArknightsKorea/status/2109910414112985274",
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4805",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    },
+    "pickupType": "new",
+    "pickupGroup": "arknights-jp-yakunaku",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "켈시 에스페란타",
+          "en": "Kal'tsit Esperanta",
+          "ja": "ケルシー・エスペランタ",
+          "zh": "凯尔希·思衡托"
+        },
+        "type": "new",
+        "rarity": 6
+      },
+      {
+        "name": {
+          "ko": "클로저",
+          "en": "Closure",
+          "ja": "クロージャ",
+          "zh": "可露希尔"
+        },
+        "type": "new",
+        "rarity": 6
+      },
+      {
+        "name": {
+          "ko": "크랙본",
+          "en": "Crackborne",
+          "ja": "クラックボーン",
+          "zh": "裂响"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "region": "jp",
+    "startAt": "2026-10-14T16:00:00+09:00",
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Japan · UTC+9",
+    "sourceUrl": "https://arknights.jp/news/4805",
+    "sourceTitle": "メインテーマ 第十七章「相変臨界」公開",
+    "version": "Episode 17",
+    "id": "arknights-ep17-jp",
+    "kind": "update",
+    "title": {
+      "ko": "메인 스토리 제17장",
+      "en": "Episode 17 · Critical Phase Transition",
+      "ja": "第十七章 · 相変臨界",
+      "zh": "第十七章 · 相变临界"
+    },
+    "summary": {
+      "ko": "메인 스토리 17장 개방 및 기간 한정 보상.",
+      "en": "Main story Episode 17 opens with limited-time rewards.",
+      "ja": "メインストーリー第17章と期間限定報酬。",
+      "zh": "主线第17章开放并附有限时奖励。"
+    },
+    "image": "/assets/arknights-hero.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/RPgofnTc.jpg",
+    "featured": false,
+    "officialLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4805",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    }
+  },
+  {
+    "region": "jp",
+    "startAt": "2026-10-14T16:00:00+09:00",
+    "endAt": "2026-10-28T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Japan · UTC+9",
+    "sourceUrl": "https://arknights.jp/news/4805",
+    "sourceTitle": "メインテーマ 第十七章「相変臨界」公開",
+    "version": "Episode 17",
+    "id": "arknights-free-pull-jp",
+    "kind": "event",
+    "title": {
+      "ko": "매일 무료 헤드헌팅",
+      "en": "Daily free headhunting",
+      "ja": "毎日無料スカウト",
+      "zh": "每日免費尋訪"
+    },
+    "summary": {
+      "ko": "서약 한정 헤드헌팅에서 하루 1회 무료. 미사용 횟수는 이월되지 않습니다.",
+      "en": "One free pull per day in Sealed With Time. Unused pulls do not carry over.",
+      "ja": "約諾で毎日1回無料。未使用回数は翌日に引き継がれません。",
+      "zh": "承諾限定尋訪每日免費1次，未用次數不累積。"
+    },
+    "featured": false,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://x.com/ArknightsKorea/status/2109910414112985274",
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4805",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    }
+  },
+  {
+    "region": "jp",
+    "startAt": "2026-10-14T16:00:00+09:00",
+    "endAt": "2026-11-11T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Japan · UTC+9",
+    "sourceUrl": "https://arknights.jp/news/4806",
+    "sourceTitle": "「2026大感謝祭・秋」開催！",
+    "version": "Episode 17",
+    "id": "arknights-duck-purse-jp",
+    "kind": "package",
+    "title": {
+      "ko": "Duck Lord's Change Purse",
+      "en": "Duck Lord's Change Purse",
+      "ja": "ダック卿の小銭入れ",
+      "zh": "鸭爵的零钱包"
+    },
+    "summary": {
+      "ko": "순오리지늄 13개 + 용문폐 300,000",
+      "en": "13 Originite Prime + 300,000 LMD",
+      "ja": "純正源石13個＋龍門幣300,000",
+      "zh": "至纯源石13个＋龙门币300,000"
+    },
+    "contents": [
+      {
+        "ko": "순오리지늄 13개 + 용문폐 300,000",
+        "en": "13 Originite Prime + 300,000 LMD",
+        "ja": "純正源石13個＋龍門幣300,000",
+        "zh": "至纯源石13个＋龙门币300,000"
+      }
+    ],
+    "image": "/assets/arknights-packs-basic.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/sQB8HdvH.jpg",
+    "featured": false,
+    "officialLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4806",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    }
+  },
+  {
+    "region": "jp",
+    "startAt": "2026-10-14T16:00:00+09:00",
+    "endAt": "2026-11-11T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Japan · UTC+9",
+    "sourceUrl": "https://arknights.jp/news/4806",
+    "sourceTitle": "「2026大感謝祭・秋」開催！",
+    "version": "Episode 17",
+    "id": "arknights-briefcase-jp",
+    "kind": "package",
+    "title": {
+      "ko": "Kal'tsit's Briefcase",
+      "en": "Kal'tsit's Briefcase",
+      "ja": "ケルシーの鞄",
+      "zh": "凯尔希的手提箱"
+    },
+    "summary": {
+      "ko": "순오리지늄 16개 + 용문폐 700,000",
+      "en": "16 Originite Prime + 700,000 LMD",
+      "ja": "純正源石16個＋龍門幣700,000",
+      "zh": "至纯源石16个＋龙门币700,000"
+    },
+    "contents": [
+      {
+        "ko": "순오리지늄 16개 + 용문폐 700,000",
+        "en": "16 Originite Prime + 700,000 LMD",
+        "ja": "純正源石16個＋龍門幣700,000",
+        "zh": "至纯源石16个＋龙门币700,000"
+      }
+    ],
+    "image": "/assets/arknights-packs-basic.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/sQB8HdvH.jpg",
+    "featured": false,
+    "officialLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4806",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    }
+  },
+  {
+    "region": "kr",
+    "startAt": "2026-10-14T16:00:00+09:00",
+    "endAt": "2026-10-28T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T11:00:00Z",
+    "gameId": "arknights",
+    "server": "Korea · UTC+9",
+    "sourceUrl": "https://x.com/ArknightsKorea/status/2109910414112985274",
+    "sourceTitle": "한정 헤드헌팅 '서약' 안내",
+    "version": "Episode 17",
+    "id": "arknights-sealed-kr",
+    "kind": "pickup",
+    "title": {
+      "ko": "켈시 에스페란타 / 클로저",
+      "en": "Kal'tsit Esperanta / Closure",
+      "ja": "ケルシー・エスペランタ / クロージャ",
+      "zh": "凯尔希·思衡托 / 可露希尔"
+    },
+    "summary": {
+      "ko": "서약 한정 헤드헌팅. 켈시 에스페란타·클로저·크랙본 신규 등장.",
+      "en": "Sealed With Time features new operators Kal’tsit Esperanta, Closure and Crackborne.",
+      "ja": "約諾：ケルシー・エスペランタ、クロージャ、クラックボーンが新登場。",
+      "zh": "承諾：凯尔希·思衡托、可露希尔、裂响新登場。"
+    },
+    "image": "/assets/arknights-pickup.webp",
+    "imageSource": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/u-DcTih-.jpg",
+    "rarity": 6,
+    "featured": true,
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "localizationSources": {
+      "ko": "https://x.com/ArknightsKorea/status/2109910414112985274",
+      "en": "https://www.arknights.global/news/4814",
+      "ja": "https://arknights.jp/news/4805",
+      "zh": "https://ak.hypergryph.com/news/3046"
+    },
+    "pickupType": "new",
+    "pickupGroup": "arknights-kr-seoyak",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "켈시 에스페란타",
+          "en": "Kal'tsit Esperanta",
+          "ja": "ケルシー・エスペランタ",
+          "zh": "凯尔希·思衡托"
+        },
+        "type": "new",
+        "rarity": 6
+      },
+      {
+        "name": {
+          "ko": "클로저",
+          "en": "Closure",
+          "ja": "クロージャ",
+          "zh": "可露希尔"
+        },
+        "type": "new",
+        "rarity": 6
+      },
+      {
+        "name": {
+          "ko": "크랙본",
+          "en": "Crackborne",
+          "ja": "クラックボーン",
+          "zh": "裂响"
+        },
+        "type": "new",
+        "rarity": 5
+      }
+    ]
+  }
+]

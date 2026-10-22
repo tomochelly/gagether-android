@@ -1,0 +1,291 @@
+{
+  "checkedAt": "2026-10-16T15:02:58.366579+00:00",
+  "summary": "4 exact official animated illustration asset bundles located (Wuwa Hsin/Chisa/Iuno and ZZZ Roxy). No verified drop-in pickup MP4/WebM loop. No live edits performed.",
+  "verifiedUsableMedia": [],
+  "officialRuntimeCandidates": [
+    {
+      "entryId": "wuwa-hsin",
+      "files": [
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_xin/c_xin_01.json",
+          "bytes": 9365518,
+          "status": 200
+        },
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_xin/c_xin_01.atlas",
+          "bytes": 14253,
+          "status": 200
+        },
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_xin/c_xin_01.png",
+          "bytes": 4443864,
+          "status": 200
+        }
+      ],
+      "skeleton": {
+        "hash": "fB1bAVobFYI",
+        "spine": "4.2.43",
+        "x": -935.48,
+        "y": -825.3,
+        "width": 1804.8,
+        "height": 1839.26
+      },
+      "animations": [
+        "idle"
+      ],
+      "format": "spine-json-atlas-png",
+      "sourceKind": "official",
+      "sourcePage": "https://wutheringwaves.kurogames.com/kr/",
+      "sourceManifest": "https://wutheringwaves.kurogames.com/website-preface/assets/role-f5346828.js",
+      "runtimeUrl": "https://wutheringwaves.kurogames.com/website-preface/assets/spinePlayerReplaceSkeleton-1505931e.js",
+      "textureResolution": [
+        2048,
+        2048
+      ],
+      "bytes": 13823635,
+      "animationSeconds": {
+        "idle": 6.6667
+      },
+      "visualCheck": {
+        "status": "texture-parts-match-existing-full-illustration",
+        "framesRendered": false,
+        "notes": "Viewed texture sheet against current full art. Outfit, character color palette, weapon/props, and background elements match. This is NOT a completed frame-by-frame animation review."
+      },
+      "deployReady": false,
+      "blocker": "Spine runtime license/integration review and rendered frame verification remain."
+    },
+    {
+      "entryId": "wuwa-chisa",
+      "files": [
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_qianxiao/c_qianxiao_1.json",
+          "bytes": 1661195,
+          "status": 200
+        },
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_qianxiao/c_qianxiao_1.atlas",
+          "bytes": 6421,
+          "status": 200
+        },
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_qianxiao/c_qianxiao_1.png",
+          "bytes": 5082468,
+          "status": 200
+        }
+      ],
+      "skeleton": {
+        "hash": "i4Kph4TW2FU",
+        "spine": "4.2.43",
+        "x": -665.97,
+        "y": -536.05,
+        "width": 1313.57,
+        "height": 1372.09
+      },
+      "animations": [
+        "idle"
+      ],
+      "format": "spine-json-atlas-png",
+      "sourceKind": "official",
+      "sourcePage": "https://wutheringwaves.kurogames.com/kr/",
+      "sourceManifest": "https://wutheringwaves.kurogames.com/website-preface/assets/role-f5346828.js",
+      "runtimeUrl": "https://wutheringwaves.kurogames.com/website-preface/assets/spinePlayerReplaceSkeleton-1505931e.js",
+      "textureResolution": [
+        2048,
+        2048
+      ],
+      "bytes": 6750084,
+      "animationSeconds": {
+        "idle": 6.6667
+      },
+      "visualCheck": {
+        "status": "texture-parts-match-existing-full-illustration",
+        "framesRendered": false,
+        "notes": "Viewed texture sheet against current full art. Outfit, character color palette, weapon/props, and background elements match. This is NOT a completed frame-by-frame animation review."
+      },
+      "deployReady": false,
+      "blocker": "Spine runtime license/integration review and rendered frame verification remain."
+    },
+    {
+      "entryId": "wuwa-iuno",
+      "files": [
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_younuo/c_younuo_1.json",
+          "bytes": 1507614,
+          "status": 200
+        },
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_younuo/c_younuo_1.atlas",
+          "bytes": 17452,
+          "status": 200
+        },
+        {
+          "url": "https://wutheringwaves.kurogames.com/website-preface/spine-file/role_younuo/c_younuo_1.png",
+          "bytes": 4798309,
+          "status": 200
+        }
+      ],
+      "skeleton": {
+        "hash": "jzQskg7/H/c",
+        "spine": "4.2.38",
+        "x": -565.49,
+        "y": -559.53,
+        "width": 1183.43,
+        "height": 1217.97
+      },
+      "animations": [
+        "idle"
+      ],
+      "format": "spine-json-atlas-png",
+      "sourceKind": "official",
+      "sourcePage": "https://wutheringwaves.kurogames.com/kr/",
+      "sourceManifest": "https://wutheringwaves.kurogames.com/website-preface/assets/role-f5346828.js",
+      "runtimeUrl": "https://wutheringwaves.kurogames.com/website-preface/assets/spinePlayerReplaceSkeleton-1505931e.js",
+      "textureResolution": [
+        2048,
+        2048
+      ],
+      "bytes": 6323375,
+      "animationSeconds": {
+        "idle": 13.3333
+      },
+      "visualCheck": {
+        "status": "texture-parts-match-existing-full-illustration",
+        "framesRendered": false,
+        "notes": "Viewed texture sheet against current full art. Outfit, character color palette, weapon/props, and background elements match. This is NOT a completed frame-by-frame animation review."
+      },
+      "deployReady": false,
+      "blocker": "Spine runtime license/integration review and rendered frame verification remain."
+    },
+    {
+      "entryId": "zzz-32-roxy",
+      "name": "록시 / Roxy",
+      "format": "spine-json-atlas-2png",
+      "sourceKind": "official",
+      "sourcePage": "https://zenless.hoyoverse.com/ko-kr/",
+      "sourceManifest": "https://act.hoyoverse.com/puzzle/zzz/pz_YXivb7tRbA/config.1402e5fd.js",
+      "component": "@puzzle/spine-player 1.3.14",
+      "skeleton": {
+        "hash": "FubDb90mGU4",
+        "spine": "4.1-from-4.2-from-4.3.23",
+        "x": -1831.5,
+        "y": -4231.501,
+        "width": 4445,
+        "height": 7959.001
+      },
+      "animationSeconds": {
+        "animation": 1,
+        "Loop": 2.666667
+      },
+      "animation": "Loop",
+      "files": [
+        {
+          "url": "https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_YXivb7tRbA/resource/puzzle/2026/09/01/a9da4a07b38622d736b51a50525d4474_4505576349384665156.atlas",
+          "bytes": 6174,
+          "status": 200
+        },
+        {
+          "url": "https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_YXivb7tRbA/resource/puzzle/2026/09/01/afd94bcf585f154105df6847ee54dfef_5195787881179368091.png",
+          "bytes": 2064563,
+          "status": 200
+        },
+        {
+          "url": "https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_YXivb7tRbA/resource/puzzle/2026/09/01/e31a5244c9cf82545ecbc748bce6f463_8245103552359798468.png",
+          "bytes": 60938,
+          "status": 200
+        },
+        {
+          "url": "https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_YXivb7tRbA/resource/puzzle/2026/09/01/d5d26ab667ad6b8617c9e526e1ac6386_739128556711866454.json",
+          "bytes": 683931,
+          "status": 200
+        }
+      ],
+      "bytes": 2815606,
+      "visualCheck": {
+        "status": "texture-parts-match-existing-full-illustration",
+        "framesRendered": false,
+        "notes": "Mint hair, glasses/red eyes, black/white studded outfit, gloves and giant red weapon visually match current Korean pickup banner."
+      },
+      "deployReady": false,
+      "blocker": "Spine runtime license/integration review and rendered frame verification remain."
+    }
+  ],
+  "excludedMedia": [
+    {
+      "files": [
+        {
+          "url": "https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_YXivb7tRbA/resource/puzzle/2026/09/03/8b83812b9c5b12d70ae8a88414f05a35_5351783743778309811.mp4",
+          "path": "/workspace/scratch/f7f776ceb97d/visual-motion-assets/8b83812b9c5b12d70ae8a88414f05a35_5351783743778309811.mp4",
+          "bytes": 8507028,
+          "status": 200
+        },
+        {
+          "url": "https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_YXivb7tRbA/resource/puzzle/2026/09/04/80bbc811ba4c22052fa2ccc4d417d12e_830317651940951983.gif",
+          "path": "/workspace/scratch/f7f776ceb97d/visual-motion-assets/80bbc811ba4c22052fa2ccc4d417d12e_830317651940951983.gif",
+          "bytes": 3718236,
+          "status": 200
+        },
+        {
+          "url": "https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_YXivb7tRbA/resource/puzzle/2026/09/04/76009bbd02d510f38ac1eb5f85b480e2_4173857083305192821.gif",
+          "path": "/workspace/scratch/f7f776ceb97d/visual-motion-assets/76009bbd02d510f38ac1eb5f85b480e2_4173857083305192821.gif",
+          "bytes": 2755794,
+          "status": 200
+        }
+      ],
+      "reason": "Official main MP4 is a Claret+Roxy version key visual in a different composition, not the character pickup splash; two GIFs are combat demonstrations, visually checked at three timestamps each. Do not substitute."
+    }
+  ],
+  "coverage": [
+    {
+      "game": "wuwa",
+      "status": "Official 3 current characters public Spine bundles downloaded; textures visually matched; playback not rendered."
+    },
+    {
+      "game": "zzz",
+      "status": "Official Roxy complete Spine bundle downloaded; textures matched. Promeia current exact animated asset not located."
+    },
+    {
+      "game": "nikke",
+      "status": "Korean official HTML/JS and public Nikke DB checked. DB currently lists basic Belorta only, not current Belorta: Pumpkin Witch; do not use wrong outfit."
+    },
+    {
+      "game": "nte",
+      "status": "Korean official current HTML/JS checked. Static character slides and trailer link found; no exact animated full pickup loop located."
+    },
+    {
+      "game": "arknights",
+      "status": "Scoped official search found no exact current pickup loop; no negative existence claim."
+    },
+    {
+      "game": "bluearchive",
+      "status": "Scoped official search found no exact current pickup loop; memorial lobby is a separate composition and not presumed interchangeable."
+    },
+    {
+      "game": "endfield",
+      "status": "Official character showcases located, not a verified pickup splash loop."
+    },
+    {
+      "game": "uma",
+      "status": "Scoped Japanese official search found support-card/static resources, no exact loop; no feed connectivity claim."
+    },
+    {
+      "game": "gfl2",
+      "status": "Scoped official search found no exact current pickup loop."
+    },
+    {
+      "game": "genshin",
+      "status": "Scoped official search found no exact current pickup loop."
+    },
+    {
+      "game": "hsr",
+      "status": "Scoped official search found no exact current pickup loop."
+    }
+  ],
+  "limitations": [
+    "Search was bounded and does not prove absence for any title.",
+    "No browser/runtime rendered frames were reviewed for the Spine candidates; atlas inspection is not playback verification.",
+    "Official runtime distribution requirements need review before embedding Spine in PATCHWORK. Publicly downloadable artwork does not itself resolve runtime licensing.",
+    "No authentication, decrypting, access-control bypass, or generated animation used."
+  ],
+  "runtimeLicenseSource": "https://esotericsoftware.com/spine-runtimes-license",
+  "recommendation": "Keep current verified stills as fallback; prefer short official MP4/WebM loops when located. Exact official Spine bundles are promising, but only enable after a compliant runtime route and playback visual QA."
+}

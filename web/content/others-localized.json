@@ -1,0 +1,1921 @@
+[
+  {
+    "id": "ba-jp-20261007-pickup-1",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "츠무기",
+      "en": "Tsumugi",
+      "ja": "ツムギ",
+      "zh": "ツムギ"
+    },
+    "summary": {
+      "ko": "일본 서버 신규 ★3 픽업. 같은 기간에 5개 모집이 동시에 개최됩니다.",
+      "en": "Japan server new 3★ pickup. Five recruitment pools run simultaneously.",
+      "ja": "日本サーバーの新規★3ピックアップ。5種の募集を同時開催。",
+      "zh": "日服新角色★3精选招募；同期共有5个招募池。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": null,
+    "endAt": "2026-10-21T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+    "sourceTitle": "10/7(水) ピックアップ募集の予告",
+    "image": "/assets/bluearchive-pickup-1.webp",
+    "rarity": 3,
+    "timingNote": {
+      "ko": "일본 공식 명칭 기준. 한국어·영어 음역은 공식 현지화 확인 전 표기입니다.",
+      "en": "Japanese official name; other-language transliterations are not verified official localized names.",
+      "ja": "日本語公式名。ほかの言語の表記は公式訳未確認です。",
+      "zh": "采用日文官方名称；其他语言译名尚未核实为官方译名。"
+    },
+    "featured": true,
+    "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/I__RfZeX.png",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/696"
+    },
+    "pickupType": "new",
+    "pickupGroup": "bluearchive:jp:20261007:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "츠무기",
+          "en": "Tsumugi",
+          "ja": "ツムギ",
+          "zh": "ツムギ"
+        },
+        "type": "new",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-jp-20261007-pickup-2",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "에리",
+      "en": "Eri",
+      "ja": "エリ",
+      "zh": "エリ"
+    },
+    "summary": {
+      "ko": "일본 서버 복각 ★3 픽업. 같은 기간에 5개 모집이 동시에 개최됩니다.",
+      "en": "Japan server rerun 3★ pickup. Five recruitment pools run simultaneously.",
+      "ja": "日本サーバーの復刻★3ピックアップ。5種の募集を同時開催。",
+      "zh": "日服复刻★3精选招募；同期共有5个招募池。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": null,
+    "endAt": "2026-10-21T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+    "sourceTitle": "10/7(水) ピックアップ募集の予告",
+    "image": "/assets/bluearchive-pickup-2.webp",
+    "rarity": 3,
+    "timingNote": {
+      "ko": "일본 공식 명칭 기준. 한국어·영어 음역은 공식 현지화 확인 전 표기입니다.",
+      "en": "Japanese official name; other-language transliterations are not verified official localized names.",
+      "ja": "日本語公式名。ほかの言語の表記は公式訳未確認です。",
+      "zh": "采用日文官方名称；其他语言译名尚未核实为官方译名。"
+    },
+    "featured": false,
+    "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/amlUiofk.png",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/696"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "bluearchive:jp:20261007:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "에리",
+          "en": "Eri",
+          "ja": "エリ",
+          "zh": "エリ"
+        },
+        "type": "rerun",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-jp-20261007-pickup-3",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "카노에",
+      "en": "Kanoe",
+      "ja": "カノエ",
+      "zh": "カノエ"
+    },
+    "summary": {
+      "ko": "일본 서버 복각 ★3 픽업. 같은 기간에 5개 모집이 동시에 개최됩니다.",
+      "en": "Japan server rerun 3★ pickup. Five recruitment pools run simultaneously.",
+      "ja": "日本サーバーの復刻★3ピックアップ。5種の募集を同時開催。",
+      "zh": "日服复刻★3精选招募；同期共有5个招募池。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": null,
+    "endAt": "2026-10-21T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+    "sourceTitle": "10/7(水) ピックアップ募集の予告",
+    "image": "/assets/bluearchive-pickup-3.webp",
+    "rarity": 3,
+    "timingNote": {
+      "ko": "일본 공식 명칭 기준. 한국어·영어 음역은 공식 현지화 확인 전 표기입니다.",
+      "en": "Japanese official name; other-language transliterations are not verified official localized names.",
+      "ja": "日本語公式名。ほかの言語の表記は公式訳未確認です。",
+      "zh": "采用日文官方名称；其他语言译名尚未核实为官方译名。"
+    },
+    "featured": false,
+    "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/WWbPQSg1.png",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/696"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "bluearchive:jp:20261007:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "카노에",
+          "en": "Kanoe",
+          "ja": "カノエ",
+          "zh": "カノエ"
+        },
+        "type": "rerun",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-jp-20261007-pickup-4",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "미야코(수영복)",
+      "en": "Miyako (Swimsuit)",
+      "ja": "ミヤコ(水着)",
+      "zh": "宫子（泳装）"
+    },
+    "summary": {
+      "ko": "일본 서버 복각 ★3 픽업. 같은 기간에 5개 모집이 동시에 개최됩니다.",
+      "en": "Japan server rerun 3★ pickup. Five recruitment pools run simultaneously.",
+      "ja": "日本サーバーの復刻★3ピックアップ。5種の募集を同時開催。",
+      "zh": "日服复刻★3精选招募；同期共有5个招募池。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": null,
+    "endAt": "2026-10-21T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+    "sourceTitle": "10/7(水) ピックアップ募集の予告",
+    "image": "/assets/bluearchive-pickup-4.webp",
+    "rarity": 3,
+    "timingNote": {
+      "ko": "일본 공식 명칭 기준. 한국어·영어 음역은 공식 현지화 확인 전 표기입니다.",
+      "en": "Japanese official name; other-language transliterations are not verified official localized names.",
+      "ja": "日本語公式名。ほかの言語の表記は公式訳未確認です。",
+      "zh": "采用日文官方名称；其他语言译名尚未核实为官方译名。"
+    },
+    "featured": false,
+    "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/Z4Yzn72I.png",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/696"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "bluearchive:jp:20261007:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "미야코(수영복)",
+          "en": "Miyako (Swimsuit)",
+          "ja": "ミヤコ(水着)",
+          "zh": "宫子（泳装）"
+        },
+        "type": "rerun",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-jp-20261007-pickup-5",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "사키(수영복)",
+      "en": "Saki (Swimsuit)",
+      "ja": "サキ(水着)",
+      "zh": "咲（泳装）"
+    },
+    "summary": {
+      "ko": "일본 서버 복각 ★3 픽업. 같은 기간에 5개 모집이 동시에 개최됩니다.",
+      "en": "Japan server rerun 3★ pickup. Five recruitment pools run simultaneously.",
+      "ja": "日本サーバーの復刻★3ピックアップ。5種の募集を同時開催。",
+      "zh": "日服复刻★3精选招募；同期共有5个招募池。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": null,
+    "endAt": "2026-10-21T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+    "sourceTitle": "10/7(水) ピックアップ募集の予告",
+    "image": "/assets/bluearchive-pickup-5.webp",
+    "rarity": 3,
+    "timingNote": {
+      "ko": "일본 공식 명칭 기준. 한국어·영어 음역은 공식 현지화 확인 전 표기입니다.",
+      "en": "Japanese official name; other-language transliterations are not verified official localized names.",
+      "ja": "日本語公式名。ほかの言語の表記は公式訳未確認です。",
+      "zh": "采用日文官方名称；其他语言译名尚未核实为官方译名。"
+    },
+    "featured": false,
+    "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/k3Nmy7fC.png",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/696"
+    },
+    "pickupType": "rerun",
+    "pickupGroup": "bluearchive:jp:20261007:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "사키(수영복)",
+          "en": "Saki (Swimsuit)",
+          "ja": "サキ(水着)",
+          "zh": "咲（泳装）"
+        },
+        "type": "rerun",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-jp-20261007-occult",
+    "gameId": "bluearchive",
+    "kind": "event",
+    "title": {
+      "ko": "오컬트 연구회! 복각",
+      "en": "Occult Research Society — rerun",
+      "ja": "我らオカルト研究会！ 復刻",
+      "zh": "「我らオカルト研究会！」复刻"
+    },
+    "summary": {
+      "ko": "일본 서버 복각 이벤트. 보상 교환은 10월 28일 10:59까지.",
+      "en": "Japan-server rerun. Reward exchange remains available until Oct 28, 10:59 JST.",
+      "ja": "復刻イベント。報酬交換は10月28日10:59まで。",
+      "zh": "日服复刻活动，奖励兑换至10月28日10:59（JST）。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": null,
+    "endAt": "2026-10-21T10:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/698",
+    "sourceTitle": "復刻イベント「我らオカルト研究会！ ～学院の不思議と古の呪文～」開催",
+    "image": "/assets/bluearchive-bg-event.webp",
+    "featured": true,
+    "timingNote": {
+      "ko": "10월 7일 점검 후 시작.",
+      "en": "Started after maintenance on Oct 7.",
+      "ja": "10月7日メンテナンス後に開始。",
+      "zh": "10月7日维护后开始。"
+    },
+    "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/t4soS6YD.png",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/698"
+    }
+  },
+  {
+    "id": "ba-jp-20261014-geburah",
+    "gameId": "bluearchive",
+    "kind": "event",
+    "title": {
+      "ko": "대결전: 야외 게부라",
+      "en": "Grand Assault: Geburah (Outdoor)",
+      "ja": "大決戦 屋外戦・ゲブラ",
+      "zh": "大决战：室外战・ゲブラ"
+    },
+    "summary": {
+      "ko": "일본 서버 대결전 진행 중.",
+      "en": "Grand Assault on the Japanese server.",
+      "ja": "日本サーバーの大決戦。",
+      "zh": "日服大决战活动。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": "2026-10-14T11:00:00+09:00",
+    "endAt": "2026-10-21T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/697",
+    "sourceTitle": "10/7(水) アップデートのお知らせ",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/697"
+    }
+  },
+  {
+    "id": "ba-jp-20261007-growth",
+    "gameId": "bluearchive",
+    "kind": "package",
+    "title": {
+      "ko": "츠무기 성장 패키지",
+      "en": "Tsumugi Growth Package",
+      "ja": "生徒成長パッケージ(ツムギ)",
+      "zh": "ツムギ成长礼包"
+    },
+    "summary": {
+      "ko": "일본 가격 ¥4,900 · 계정당 2회. 종료 시간은 공식 자료 간 차이로 확인 중.",
+      "en": "¥4,900 in Japan · Purchase limit: 2. Official sources disagree on the closing hour.",
+      "ja": "日本価格4,900円・2回まで。終了時刻は公式本文と画像で相違あり。",
+      "zh": "日本售价¥4,900，限购2次。官方正文与图片的结束时刻不一致。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/697",
+    "sourceTitle": "10/7(水) アップデートのお知らせ",
+    "image": "/assets/bluearchive-package-growth.webp",
+    "price": {
+      "amount": 4900,
+      "currency": "JPY",
+      "platform": "Japan in-game shop (official notice)"
+    },
+    "contents": [
+      {
+        "ko": "청휘석 1,200개",
+        "en": "Pyroxene ×1,200",
+        "ja": "青輝石×1,200",
+        "zh": "青辉石×1,200"
+      },
+      {
+        "ko": "성장 재료·설계도·선물·크레딧 포함",
+        "en": "Includes reports, stones, blueprints, gifts and credits",
+        "ja": "レポート・強化珠・設計図・贈り物・クレジットを含む",
+        "zh": "含报告、强化珠、设计图、礼物和信用点"
+      }
+    ],
+    "timingNote": {
+      "ko": "10월 7일 점검 후 판매. 본문은 10월 28일 03:59, 이미지는 10:59로 표기. 정확한 종료 시간 확인 필요.",
+      "en": "On sale after Oct 7 maintenance. Text says Oct 28 03:59 JST; image says 10:59 JST. Closing time needs confirmation.",
+      "ja": "10月7日メンテナンス後販売。本文は10月28日3:59、画像は10:59と記載。要確認。",
+      "zh": "10月7日维护后开售。正文写10月28日03:59，图片写10:59（JST），待核实。"
+    },
+    "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/tOHF8SdO.png",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/697"
+    }
+  },
+  {
+    "id": "ba-jp-20261007-eleph",
+    "gameId": "bluearchive",
+    "kind": "package",
+    "title": {
+      "ko": "픽업 학생 엘레프 패키지",
+      "en": "Pickup Student Eleph Packs",
+      "ja": "ピックアップ生徒 神名文字パッケージ",
+      "zh": "精选学生神名文字礼包"
+    },
+    "summary": {
+      "ko": "각 ¥3,000 · 각 2회. 츠무기·에리·카노에·수영복 미야코·수영복 사키.",
+      "en": "¥3,000 each · Limit 2 each. Tsumugi, Eri, Kanoe, Miyako (Swimsuit), Saki (Swimsuit).",
+      "ja": "各3,000円・各2回。ツムギ・エリ・カノエ・ミヤコ(水着)・サキ(水着)。",
+      "zh": "每款¥3,000、限购2次。ツムギ、エリ、カノエ、泳装宫子、泳装咲。"
+    },
+    "region": "jp",
+    "server": "Japan / Yostar",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/697",
+    "sourceTitle": "10/7(水) アップデートのお知らせ",
+    "image": "/assets/bluearchive-package-eleph.webp",
+    "price": {
+      "amount": 3000,
+      "currency": "JPY",
+      "platform": "Japan in-game shop; each pack"
+    },
+    "contents": [
+      {
+        "ko": "해당 학생 엘레프 120 + 엘리그마 50 + 선물 3",
+        "en": "Student Eleph ×120 + Eligma ×50 + gifts ×3",
+        "ja": "対象生徒の神名文字×120＋神名のカケラ×50＋贈り物×3",
+        "zh": "对应学生神名文字×120＋神名精髓×50＋礼物×3"
+      },
+      {
+        "ko": "해당 픽업에서 학생 획득 후 2주 내 조건부 구매",
+        "en": "Conditional purchase within 2 weeks of obtaining the student from the matching pickup",
+        "ja": "開催中の対象ピックアップで生徒を獲得してから2週間以内のみ購入可",
+        "zh": "在对应精选招募中获得学生后2周内可购买"
+      }
+    ],
+    "timingNote": {
+      "ko": "개인별 조건부 상품. 일괄 종료 타이머를 표시하지 않음.",
+      "en": "Individual conditional offer; no single countdown is available.",
+      "ja": "個別条件付き販売のため、一律の終了時刻はありません。",
+      "zh": "因个人触发条件不同，不显示统一倒计时。"
+    },
+    "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/GHQU9Iyu.png",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ja": "https://bluearchive.jp/news/newsJump/697"
+    }
+  },
+  {
+    "id": "uma-global-20261014-brian",
+    "gameId": "umamusume",
+    "kind": "pickup",
+    "title": {
+      "ko": "나리타 브라이언 · 신규 의상",
+      "en": "Narita Brian [Ravenous Wolf]",
+      "ja": "ナリタブライアン · 新衣装",
+      "zh": "成田白仁 · 新服装"
+    },
+    "summary": {
+      "ko": "글로벌 서버 픽업. 육성 우마무스메.",
+      "en": "Global-server spotlight. Trainee Umamusume.",
+      "ja": "グローバル版ピックアップ。育成ウマ娘。",
+      "zh": "国际服精选。育成赛马娘。"
+    },
+    "region": "global",
+    "server": "Global / Cygames EN",
+    "startAt": "2026-10-14T22:00:00Z",
+    "endAt": "2026-10-23T21:59:00Z",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://umamusume.com/news/1103",
+    "sourceTitle": "Narita Brian [Ravenous Wolf]",
+    "image": "/assets/umamusume-1103-1.webp",
+    "featured": true,
+    "rarity": 3,
+    "imageSource": "https://assets-webview-umamusume-en.akamaized.net/contents/assets/images/uploads/Header/gacha_banner_30136_new2_L1792015200.png?c=20260916092316",
+    "officialLocales": [
+      "en"
+    ],
+    "translatedLocales": [
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "en": "https://umamusume.com/news/1103"
+    },
+    "pickupType": "new",
+    "pickupGroup": "umamusume:global:20261014:character",
+    "poolType": "character",
+    "timingNote": {
+      "ko": "글로벌판 신규 추가. 의상·카드 부제의 공식 현지화 확인 전에는 캐릭터명과 등급을 표시합니다. 원제는 출처에 보존했습니다.",
+      "en": "New to Global. Unverified localized outfit/card subtitles are omitted; the original is retained in the source title.",
+      "ja": "グローバル版で新登場。衣装・カード名の公式訳未確認箇所は名前とレアリティで表示し、原題を出典に保存。",
+      "zh": "国际服新登场。未核实的服装及卡牌副标题暂不翻译，原名保留在来源标题。"
+    },
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "나리타 브라이언 · 신규 의상",
+          "en": "Narita Brian [Ravenous Wolf]",
+          "ja": "ナリタブライアン · 新衣装",
+          "zh": "成田白仁 · 新服装"
+        },
+        "type": "new",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "uma-global-20261014-zephyr",
+    "gameId": "umamusume",
+    "kind": "pickup",
+    "title": {
+      "ko": "야마닌 제퍼 · SSR",
+      "en": "Yamanin Zephyr SSR [To Winds Untraveled]",
+      "ja": "ヤマニンゼファー · SSR",
+      "zh": "也文摄辉 · SSR"
+    },
+    "summary": {
+      "ko": "글로벌 서버 픽업. 서포트 카드.",
+      "en": "Global-server spotlight. Support card.",
+      "ja": "グローバル版ピックアップ。サポートカード。",
+      "zh": "国际服精选。支援卡。"
+    },
+    "region": "global",
+    "server": "Global / Cygames EN",
+    "startAt": "2026-10-14T22:00:00Z",
+    "endAt": "2026-10-23T21:59:00Z",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://umamusume.com/news/1103",
+    "sourceTitle": "Yamanin Zephyr SSR [To Winds Untraveled]",
+    "image": "/assets/umamusume-1103-2.webp",
+    "featured": false,
+    "imageSource": "https://assets-webview-umamusume-en.akamaized.net/contents/assets/images/uploads/Header/gacha_banner_30137_L1792015200.png?c=20260916092316",
+    "officialLocales": [
+      "en"
+    ],
+    "translatedLocales": [
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "en": "https://umamusume.com/news/1103"
+    },
+    "pickupType": "new",
+    "pickupGroup": "umamusume:global:20261014:support",
+    "poolType": "support",
+    "timingNote": {
+      "ko": "글로벌판 신규 추가. 의상·카드 부제의 공식 현지화 확인 전에는 캐릭터명과 등급을 표시합니다. 원제는 출처에 보존했습니다.",
+      "en": "New to Global. Unverified localized outfit/card subtitles are omitted; the original is retained in the source title.",
+      "ja": "グローバル版で新登場。衣装・カード名の公式訳未確認箇所は名前とレアリティで表示し、原題を出典に保存。",
+      "zh": "国际服新登场。未核实的服装及卡牌副标题暂不翻译，原名保留在来源标题。"
+    },
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "야마닌 제퍼 · SSR",
+          "en": "Yamanin Zephyr SSR [To Winds Untraveled]",
+          "ja": "ヤマニンゼファー · SSR",
+          "zh": "也文摄辉 · SSR"
+        },
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "id": "uma-global-20261014-opera",
+    "gameId": "umamusume",
+    "kind": "pickup",
+    "title": {
+      "ko": "티엠 오페라 오 · SR",
+      "en": "T.M. Opera O SR [Mighty Fotografia]",
+      "ja": "テイエムオペラオー · SR",
+      "zh": "好歌剧 · SR"
+    },
+    "summary": {
+      "ko": "글로벌 서버 픽업. 서포트 카드.",
+      "en": "Global-server spotlight. Support card.",
+      "ja": "グローバル版ピックアップ。サポートカード。",
+      "zh": "国际服精选。支援卡。"
+    },
+    "region": "global",
+    "server": "Global / Cygames EN",
+    "startAt": "2026-10-14T22:00:00Z",
+    "endAt": "2026-10-23T21:59:00Z",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://umamusume.com/news/1103",
+    "sourceTitle": "T.M. Opera O SR [Mighty Fotografia]",
+    "image": "/assets/umamusume-1103-2.webp",
+    "featured": false,
+    "imageSource": "https://assets-webview-umamusume-en.akamaized.net/contents/assets/images/uploads/Header/gacha_banner_30137_L1792015200.png?c=20260916092316",
+    "officialLocales": [
+      "en"
+    ],
+    "translatedLocales": [
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "en": "https://umamusume.com/news/1103"
+    },
+    "pickupType": "new",
+    "pickupGroup": "umamusume:global:20261014:support",
+    "poolType": "support",
+    "timingNote": {
+      "ko": "글로벌판 신규 추가. 의상·카드 부제의 공식 현지화 확인 전에는 캐릭터명과 등급을 표시합니다. 원제는 출처에 보존했습니다.",
+      "en": "New to Global. Unverified localized outfit/card subtitles are omitted; the original is retained in the source title.",
+      "ja": "グローバル版で新登場。衣装・カード名の公式訳未確認箇所は名前とレアリティで表示し、原題を出典に保存。",
+      "zh": "国际服新登场。未核实的服装及卡牌副标题暂不翻译，原名保留在来源标题。"
+    },
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "티엠 오페라 오 · SR",
+          "en": "T.M. Opera O SR [Mighty Fotografia]",
+          "ja": "テイエムオペラオー · SR",
+          "zh": "好歌剧 · SR"
+        },
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "id": "uma-global-20261015-sparkly",
+    "gameId": "umamusume",
+    "kind": "event",
+    "title": {
+      "ko": "반짝이는 마법 쇼",
+      "en": "Sparkly Magic Show",
+      "ja": "きらめく魔法ショー",
+      "zh": "闪耀魔法秀"
+    },
+    "summary": {
+      "ko": "도쿄 메가 일루미네이션 컬래버. 장식을 모아 보상 획득.",
+      "en": "Tokyo Mega Illumination collaboration. Collect ornaments to earn rewards.",
+      "ja": "東京メガイルミとのコラボ。飾りを集めて報酬を獲得。",
+      "zh": "东京大井赛马场灯光秀联动，收集装饰获得奖励。"
+    },
+    "region": "global",
+    "server": "Global / Cygames EN",
+    "startAt": "2026-10-15T22:00:00Z",
+    "endAt": "2026-10-18T21:59:00Z",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://umamusume.com/news/1109",
+    "sourceTitle": "Sparkly Magic Show",
+    "image": "/assets/umamusume-1109-1.webp",
+    "featured": true,
+    "imageSource": "https://assets-webview-umamusume-en.akamaized.net/contents/assets/images/uploads/Header/header_31100001_L1792101600.png?c=20261007060624",
+    "officialLocales": [
+      "en"
+    ],
+    "translatedLocales": [
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "en": "https://umamusume.com/news/1109"
+    }
+  },
+  {
+    "id": "uma-global-20261010-sagittarius",
+    "gameId": "umamusume",
+    "kind": "event",
+    "title": {
+      "ko": "챔피언스 미팅 · 사지타리우스배",
+      "en": "Champions Meeting: Sagittarius Cup",
+      "ja": "チャンピオンズミーティング · サジタリウス杯",
+      "zh": "冠军集会 · 射手座杯"
+    },
+    "summary": {
+      "ko": "글로벌 서버 결승 레이스 기간.",
+      "en": "Global-server final-round race period.",
+      "ja": "グローバル版の決勝ラウンド出走期間。",
+      "zh": "国际服决赛出赛阶段。"
+    },
+    "region": "global",
+    "server": "Global / Cygames EN",
+    "startAt": "2026-10-15T22:00:00Z",
+    "endAt": "2026-10-16T21:59:00Z",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://umamusume.com/news/1087",
+    "sourceTitle": "Champions Meeting: Sagittarius Cup",
+    "officialLocales": [
+      "en"
+    ],
+    "translatedLocales": [
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "en": "https://umamusume.com/news/1087"
+    }
+  },
+  {
+    "id": "uma-global-20261014-transfer",
+    "gameId": "umamusume",
+    "kind": "event",
+    "title": {
+      "ko": "특별 이적",
+      "en": "Transfer Requests",
+      "ja": "特別移籍",
+      "zh": "特别转会"
+    },
+    "summary": {
+      "ko": "조건에 맞는 전당 입성 우마무스메 이적으로 보상 획득.",
+      "en": "Transfer qualifying Veteran Umamusume to earn rewards.",
+      "ja": "条件を満たす殿堂入りウマ娘を移籍して報酬を獲得。",
+      "zh": "让符合条件的殿堂赛马娘转会以获取奖励。"
+    },
+    "region": "global",
+    "server": "Global / Cygames EN",
+    "startAt": "2026-10-14T22:00:00Z",
+    "endAt": "2026-10-18T21:59:00Z",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://umamusume.com/news/1105",
+    "sourceTitle": "Transfer Requests",
+    "officialLocales": [
+      "en"
+    ],
+    "translatedLocales": [
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "en": "https://umamusume.com/news/1105"
+    }
+  },
+  {
+    "id": "nikke-global-20261008-belorta",
+    "gameId": "nikke",
+    "kind": "pickup",
+    "title": {
+      "ko": "벨로타 : 펌킨 위치",
+      "en": "Belorta: Pumpkin Witch",
+      "ja": "ベロータ：パンプキンウィッチ",
+      "zh": "貝洛塔：南瓜女巫"
+    },
+    "summary": {
+      "ko": "SSR 특별 모집. 공식 영어 업데이트 공지 기준.",
+      "en": "SSR Special Recruit, confirmed from the official English update notice.",
+      "ja": "公式英語更新告知に掲載されたSSR特殊募集。",
+      "zh": "官方英文更新公告中的SSR特殊招募。"
+    },
+    "region": "global",
+    "server": "Global / Level Infinite",
+    "startAt": null,
+    "endAt": "2026-10-28T23:59:59+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://nikke-en.com/newsdetail.html?content_id=9ff3fe24abf0ca437fa9c7dabd8f369872a8",
+    "sourceTitle": "October 8 Update Notice",
+    "timingNote": {
+      "ko": "10월 8일 점검 후 시작.",
+      "en": "Started after Oct 8 maintenance.",
+      "ja": "10月8日メンテナンス後に開始。",
+      "zh": "10月8日维护后开始。"
+    },
+    "featured": true,
+    "officialLocales": [
+      "en",
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "en": "https://nikke-en.com/newsdetail.html?content_id=9ff3fe24abf0ca437fa9c7dabd8f369872a8",
+      "ko": "https://nikke-kr.com/news_m.html",
+      "ja": "https://nikke-jp.com/newsdetail.html?content_id=b77c06cba64d1a4451aacccaded5ff6434bc",
+      "zh": "https://nikke.hotcool.tw/m/News_detail-232"
+    },
+    "pickupType": "new",
+    "pickupGroup": "nikke:global:20261008:character",
+    "poolType": "character"
+  },
+  {
+    "id": "gfl2-haoplay-mityl-featured",
+    "gameId": "gfl2",
+    "kind": "pickup",
+    "title": {
+      "ko": "미틸 · 지정 발주",
+      "en": "Mityl — Targeted Procurement",
+      "ja": "ミティール · ピックアップ訪問",
+      "zh": "米蒂爾 · 定向採購"
+    },
+    "summary": {
+      "ko": "HAOPLAY 공식 홈페이지 픽업 배너. 정확한 개최 기간은 아직 미확인.",
+      "en": "Featured pickup banner on HAOPLAY’s official homepage. Exact dates are unverified.",
+      "ja": "HAOPLAY公式サイト掲載の募集バナー。開催期間は未確認。",
+      "zh": "HAOPLAY官网展示的招募横幅，准确开放日期尚未核实。"
+    },
+    "region": "global",
+    "server": "HAOPLAY EN distribution",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://gf2.haoplay.com/en/",
+    "sourceTitle": "Mityl — Targeted Procurement",
+    "image": "/assets/gf2-notice2.webp",
+    "timingNote": {
+      "ko": "Sunborn/Darkwinter 배포판과 별도 확인 필요.",
+      "en": "Verify separately from the Sunborn/Darkwinter distribution.",
+      "ja": "Sunborn/Darkwinter版とは分けて確認が必要。",
+      "zh": "须与Sunborn/Darkwinter发行版本分开核实。"
+    },
+    "imageSource": "https://res.17996cdn.net/gf2/news/261008/en/2.png",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "ko": "https://gf2.haoplay.com/kr/",
+      "en": "https://gf2.haoplay.com/en/",
+      "ja": "https://gf2.haoplay.com/jp/",
+      "zh": "https://gf2.haoplay.com/tw/"
+    },
+    "pickupType": "unknown",
+    "pickupGroup": "gfl2:global:20261008:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "미틸",
+          "en": "Mityl",
+          "ja": "ミティール",
+          "zh": "米蒂爾"
+        },
+        "type": "unknown"
+      },
+      {
+        "name": {
+          "ko": "캐롤릭",
+          "en": "Krolik",
+          "ja": "キャロリック",
+          "zh": "克羅麗科"
+        },
+        "type": "unknown"
+      },
+      {
+        "name": {
+          "ko": "네메시스",
+          "en": "Nemesis",
+          "ja": "ネメシス",
+          "zh": "納美西絲"
+        },
+        "type": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "gfl2-haoplay-amber-featured",
+    "gameId": "gfl2",
+    "kind": "event",
+    "title": {
+      "ko": "호박색 달빛",
+      "en": "Amber Reel of Moonlight",
+      "ja": "琥珀月光",
+      "zh": "琥珀月光"
+    },
+    "summary": {
+      "ko": "HAOPLAY 공식 홈페이지에 공개된 이벤트. 정확한 개최 기간은 미확인.",
+      "en": "Event featured on HAOPLAY’s official homepage; exact dates remain unverified.",
+      "ja": "HAOPLAY公式サイト掲載イベント。開催期間は未確認。",
+      "zh": "HAOPLAY官网展示的活动，准确开放日期尚未核实。"
+    },
+    "region": "global",
+    "server": "HAOPLAY EN distribution",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://gf2.haoplay.com/en/",
+    "sourceTitle": "Amber Reel of Moonlight",
+    "image": "/assets/gf2-notice1.webp",
+    "featured": true,
+    "imageSource": "https://res.17996cdn.net/gf2/news/261008/en/1.png",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "ko": "https://gf2.haoplay.com/kr/",
+      "en": "https://gf2.haoplay.com/en/",
+      "ja": "https://gf2.haoplay.com/jp/",
+      "zh": "https://gf2.haoplay.com/tw/"
+    }
+  },
+  {
+    "id": "uma-global-20261014-zephyr-r",
+    "gameId": "umamusume",
+    "kind": "pickup",
+    "title": {
+      "ko": "야마닌 제퍼 · R",
+      "en": "Yamanin Zephyr R [Tracen Academy]",
+      "ja": "ヤマニンゼファー · R",
+      "zh": "也文摄辉 · R"
+    },
+    "summary": {
+      "ko": "글로벌 서버 픽업. 서포트 카드.",
+      "en": "Global-server spotlight. Support card.",
+      "ja": "グローバル版ピックアップ。サポートカード。",
+      "zh": "国际服精选。支援卡。"
+    },
+    "region": "global",
+    "server": "Global / Cygames EN",
+    "startAt": "2026-10-14T22:00:00Z",
+    "endAt": "2026-10-23T21:59:00Z",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://umamusume.com/news/1103",
+    "sourceTitle": "R [Tracen Academy] Yamanin Zephyr",
+    "image": "/assets/umamusume-1103-2.webp",
+    "featured": false,
+    "imageSource": "https://assets-webview-umamusume-en.akamaized.net/contents/assets/images/uploads/Header/gacha_banner_30137_L1792015200.png?c=20260916092316",
+    "officialLocales": [
+      "en"
+    ],
+    "translatedLocales": [
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "en": "https://umamusume.com/news/1103"
+    },
+    "pickupType": "new",
+    "pickupGroup": "umamusume:global:20261014:support",
+    "poolType": "support",
+    "timingNote": {
+      "ko": "글로벌판 신규 추가. 의상·카드 부제의 공식 현지화 확인 전에는 캐릭터명과 등급을 표시합니다. 원제는 출처에 보존했습니다.",
+      "en": "New to Global. Unverified localized outfit/card subtitles are omitted; the original is retained in the source title.",
+      "ja": "グローバル版で新登場。衣装・カード名の公式訳未確認箇所は名前とレアリティで表示し、原題を出典に保存。",
+      "zh": "国际服新登场。未核实的服装及卡牌副标题暂不翻译，原名保留在来源标题。"
+    },
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "야마닌 제퍼 · R",
+          "en": "Yamanin Zephyr R [Tracen Academy]",
+          "ja": "ヤマニンゼファー · R",
+          "zh": "也文摄辉 · R"
+        },
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "id": "ba-kr-20261013-kisaki",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "키사키(수영복)",
+      "en": "Kisaki (Swimsuit)",
+      "ja": "キサキ（水着）",
+      "zh": "妃咲（泳装）"
+    },
+    "summary": {
+      "ko": "신규 ★3 학생. 키사키(수영복)·슌(수영복) 모집이 같은 기간에 개최됩니다.",
+      "en": "New 3★ student. Kisaki (Swimsuit) and Shun (Swimsuit) have simultaneous pickup pools.",
+      "ja": "新登場の★3生徒。キサキ（水着）とシュン（水着）の募集を同時開催。",
+      "zh": "新登场★3学生；妃咲（泳装）与旬（泳装）同期开放各自招募。"
+    },
+    "region": "kr",
+    "server": "Korea · Nexon",
+    "startAt": "2026-10-13T05:20:00Z",
+    "endAt": "2026-10-27T01:59:00Z",
+    "publishedAt": "2026-10-12T09:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+    "sourceTitle": "(완료) 10/13(화) 업데이트 상세 안내 (10/12 추가)",
+    "image": "/assets/ba-kr-kisaki.webp",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "en": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    },
+    "rarity": 3,
+    "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+    "pickupType": "new",
+    "pickupGroup": "bluearchive:kr:20261013:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "키사키(수영복)",
+          "en": "Kisaki (Swimsuit)",
+          "ja": "キサキ（水着）",
+          "zh": "妃咲（泳装）"
+        },
+        "type": "new",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-kr-20261013-shun",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "슌(수영복)",
+      "en": "Shun (Swimsuit)",
+      "ja": "シュン（水着）",
+      "zh": "旬（泳装）"
+    },
+    "summary": {
+      "ko": "신규 ★3 학생. 키사키(수영복)·슌(수영복) 모집이 같은 기간에 개최됩니다.",
+      "en": "New 3★ student. Kisaki (Swimsuit) and Shun (Swimsuit) have simultaneous pickup pools.",
+      "ja": "新登場の★3生徒。キサキ（水着）とシュン（水着）の募集を同時開催。",
+      "zh": "新登场★3学生；妃咲（泳装）与旬（泳装）同期开放各自招募。"
+    },
+    "region": "kr",
+    "server": "Korea · Nexon",
+    "startAt": "2026-10-13T05:20:00Z",
+    "endAt": "2026-10-27T01:59:00Z",
+    "publishedAt": "2026-10-12T09:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+    "sourceTitle": "(완료) 10/13(화) 업데이트 상세 안내 (10/12 추가)",
+    "image": "/assets/ba-kr-shun.webp",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "en": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    },
+    "rarity": 3,
+    "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+    "pickupType": "new",
+    "pickupGroup": "bluearchive:kr:20261013:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "슌(수영복)",
+          "en": "Shun (Swimsuit)",
+          "ja": "シュン（水着）",
+          "zh": "旬（泳装）"
+        },
+        "type": "new",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-kr-20261013-calm",
+    "gameId": "bluearchive",
+    "kind": "event",
+    "title": {
+      "ko": "람과천청",
+      "en": "The Calm After the Storm",
+      "ja": "嵐の後の青空",
+      "zh": "雨过天晴"
+    },
+    "summary": {
+      "ko": "스토리 이벤트. 보상 교환은 11월 3일 10:59 KST까지.",
+      "en": "Story event. Rewards can be exchanged until Nov 3, 01:59 UTC.",
+      "ja": "ストーリーイベント。報酬交換は11月3日10:59（JST）まで。",
+      "zh": "剧情活动；奖励兑换至11月3日01:59（UTC）。"
+    },
+    "region": "kr",
+    "server": "Korea · Nexon",
+    "startAt": "2026-10-13T05:20:00Z",
+    "endAt": "2026-10-27T01:59:00Z",
+    "publishedAt": "2026-10-12T09:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+    "sourceTitle": "(완료) 10/13(화) 업데이트 상세 안내 (10/12 추가)",
+    "image": "/assets/ba-kr-event.webp",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "en": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    },
+    "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/cb410568-19a8-49ca-801b-1a8d67cac2ee/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%9E%8C%EA%B3%BC%EC%B2%9C%EC%B2%AD.png"
+  },
+  {
+    "id": "ba-kr-20261014-tiphareth",
+    "gameId": "bluearchive",
+    "kind": "event",
+    "title": {
+      "ko": "제약해제결전 · 티페레트",
+      "en": "Final Restriction Release · Tiphareth",
+      "ja": "制約解除決戦 · ティファレト",
+      "zh": "制约解除决战 · 蒂法雷特"
+    },
+    "summary": {
+      "ko": "탄력장갑 시즌. 11월 10일 03:59 KST 종료.",
+      "en": "Elastic Armor season. Ends Nov 9, 18:59 UTC.",
+      "ja": "弾力装甲シーズン。11月10日03:59（JST）まで。",
+      "zh": "弹力装甲赛季，11月9日18:59（UTC）结束。"
+    },
+    "region": "kr",
+    "server": "Korea · Nexon",
+    "startAt": "2026-10-14T02:00:00Z",
+    "endAt": "2026-11-09T18:59:00Z",
+    "publishedAt": "2026-10-12T09:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+    "sourceTitle": "(완료) 10/13(화) 업데이트 상세 안내 (10/12 추가)",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "en": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    }
+  },
+  {
+    "id": "ba-global-20261013-kisaki",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "키사키(수영복)",
+      "en": "Kisaki (Swimsuit)",
+      "ja": "キサキ（水着）",
+      "zh": "妃咲（泳装）"
+    },
+    "summary": {
+      "ko": "신규 ★3 학생. 키사키(수영복)·슌(수영복) 모집이 같은 기간에 개최됩니다.",
+      "en": "New 3★ student. Kisaki (Swimsuit) and Shun (Swimsuit) have simultaneous pickup pools.",
+      "ja": "新登場の★3生徒。キサキ（水着）とシュン（水着）の募集を同時開催。",
+      "zh": "新登场★3学生；妃咲（泳装）与旬（泳装）同期开放各自招募。"
+    },
+    "region": "global",
+    "server": "Global · Nexon",
+    "startAt": "2026-10-13T05:20:00Z",
+    "endAt": "2026-10-27T01:59:00Z",
+    "publishedAt": "2026-10-12T09:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143",
+    "sourceTitle": "10/13 (Tue) Update Details",
+    "image": "/assets/ba-kr-kisaki.webp",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "ko": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "en": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    },
+    "rarity": 3,
+    "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+    "pickupType": "new",
+    "pickupGroup": "bluearchive:global:20261013:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "키사키(수영복)",
+          "en": "Kisaki (Swimsuit)",
+          "ja": "キサキ（水着）",
+          "zh": "妃咲（泳装）"
+        },
+        "type": "new",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-global-20261013-shun",
+    "gameId": "bluearchive",
+    "kind": "pickup",
+    "title": {
+      "ko": "슌(수영복)",
+      "en": "Shun (Swimsuit)",
+      "ja": "シュン（水着）",
+      "zh": "旬（泳装）"
+    },
+    "summary": {
+      "ko": "신규 ★3 학생. 키사키(수영복)·슌(수영복) 모집이 같은 기간에 개최됩니다.",
+      "en": "New 3★ student. Kisaki (Swimsuit) and Shun (Swimsuit) have simultaneous pickup pools.",
+      "ja": "新登場の★3生徒。キサキ（水着）とシュン（水着）の募集を同時開催。",
+      "zh": "新登场★3学生；妃咲（泳装）与旬（泳装）同期开放各自招募。"
+    },
+    "region": "global",
+    "server": "Global · Nexon",
+    "startAt": "2026-10-13T05:20:00Z",
+    "endAt": "2026-10-27T01:59:00Z",
+    "publishedAt": "2026-10-12T09:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143",
+    "sourceTitle": "10/13 (Tue) Update Details",
+    "image": "/assets/ba-kr-shun.webp",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "ko": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "en": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    },
+    "rarity": 3,
+    "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+    "pickupType": "new",
+    "pickupGroup": "bluearchive:global:20261013:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "슌(수영복)",
+          "en": "Shun (Swimsuit)",
+          "ja": "シュン（水着）",
+          "zh": "旬（泳装）"
+        },
+        "type": "new",
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "id": "ba-global-20261013-calm",
+    "gameId": "bluearchive",
+    "kind": "event",
+    "title": {
+      "ko": "람과천청",
+      "en": "The Calm After the Storm",
+      "ja": "嵐の後の青空",
+      "zh": "雨过天晴"
+    },
+    "summary": {
+      "ko": "스토리 이벤트. 보상 교환은 11월 3일 10:59 KST까지.",
+      "en": "Story event. Rewards can be exchanged until Nov 3, 01:59 UTC.",
+      "ja": "ストーリーイベント。報酬交換は11月3日10:59（JST）まで。",
+      "zh": "剧情活动；奖励兑换至11月3日01:59（UTC）。"
+    },
+    "region": "global",
+    "server": "Global · Nexon",
+    "startAt": "2026-10-13T05:20:00Z",
+    "endAt": "2026-10-27T01:59:00Z",
+    "publishedAt": "2026-10-12T09:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143",
+    "sourceTitle": "10/13 (Tue) Update Details",
+    "image": "/assets/ba-kr-event.webp",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "ko": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "en": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    },
+    "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/cb410568-19a8-49ca-801b-1a8d67cac2ee/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%9E%8C%EA%B3%BC%EC%B2%9C%EC%B2%AD.png"
+  },
+  {
+    "id": "ba-global-20261014-tiphareth",
+    "gameId": "bluearchive",
+    "kind": "event",
+    "title": {
+      "ko": "제약해제결전 · 티페레트",
+      "en": "Final Restriction Release · Tiphareth",
+      "ja": "制約解除決戦 · ティファレト",
+      "zh": "制约解除决战 · 蒂法雷特"
+    },
+    "summary": {
+      "ko": "탄력장갑 시즌. 11월 10일 03:59 KST 종료.",
+      "en": "Elastic Armor season. Ends Nov 9, 18:59 UTC.",
+      "ja": "弾力装甲シーズン。11月10日03:59（JST）まで。",
+      "zh": "弹力装甲赛季，11月9日18:59（UTC）结束。"
+    },
+    "region": "global",
+    "server": "Global · Nexon",
+    "startAt": "2026-10-14T02:00:00Z",
+    "endAt": "2026-11-09T18:59:00Z",
+    "publishedAt": "2026-10-12T09:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143",
+    "sourceTitle": "10/13 (Tue) Update Details",
+    "officialLocales": [
+      "ko",
+      "en"
+    ],
+    "translatedLocales": [
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "en",
+    "localizationSources": {
+      "ko": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "en": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    }
+  },
+  {
+    "id": "uma-kr-20261016-goldcity",
+    "gameId": "umamusume",
+    "kind": "pickup",
+    "title": {
+      "ko": "[Boho Flare] 골드 시티",
+      "en": "Gold City [Boho Flare]",
+      "ja": "ゴールドシチー [Boho Flare]",
+      "zh": "黄金城市 [Boho Flare]"
+    },
+    "summary": {
+      "ko": "신규 ★3 육성 우마무스메. 한국 서버 독립 일정.",
+      "en": "New 3★ trainee on the Korean server.",
+      "ja": "韓国サーバーで新登場の★3育成ウマ娘。",
+      "zh": "韩服新登场★3育成赛马娘。"
+    },
+    "region": "kr",
+    "server": "Korea · Kakao Games",
+    "startAt": null,
+    "endAt": "2026-11-10T11:59:00+09:00",
+    "publishedAt": "2026-10-14T03:00:15+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://pf.kakao.com/_DzxjIb/114881998",
+    "sourceTitle": "신규 육성 시나리오 개막 프리티 더비 뽑기 & 서포트 카드 뽑기 개최 예정🎉",
+    "image": "/assets/uma-kr-114881998.webp",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://pf.kakao.com/_DzxjIb/114881998"
+    },
+    "rarity": 3,
+    "pickupType": "new",
+    "pickupGroup": "umamusume:kr:20261016:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "[Boho Flare] 골드 시티",
+          "en": "Gold City [Boho Flare]",
+          "ja": "ゴールドシチー [Boho Flare]",
+          "zh": "黄金城市 [Boho Flare]"
+        },
+        "type": "new",
+        "rarity": 3
+      }
+    ],
+    "timingNote": {
+      "ko": "10월 16일 점검 완료 후 시작. 정확한 점검 종료 시각은 확인 중.",
+      "en": "Starts after Oct 16 maintenance; exact completion time is unverified.",
+      "ja": "10月16日メンテナンス終了後開始。終了時刻は未確認。",
+      "zh": "10月16日维护后开始；准确开服时间尚未核实。"
+    }
+  },
+  {
+    "id": "uma-kr-20261016-support",
+    "gameId": "umamusume",
+    "kind": "pickup",
+    "title": {
+      "ko": "터커 브라인 · 타마모 크로스",
+      "en": "Tucker Bryne · Tamamo Cross",
+      "ja": "タッカーブライン · タマモクロス",
+      "zh": "터커 브라인 · 玉藻十字"
+    },
+    "summary": {
+      "ko": "신규 서포트 카드 3종을 같은 뽑기에서 픽업합니다.",
+      "en": "Three new support cards share this pickup pool.",
+      "ja": "新サポートカード3種を同じガチャでピックアップ。",
+      "zh": "同一卡池精选3张新支援卡。"
+    },
+    "region": "kr",
+    "server": "Korea · Kakao Games",
+    "startAt": null,
+    "endAt": "2026-11-10T11:59:00+09:00",
+    "publishedAt": "2026-10-14T03:00:15+00:00",
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://pf.kakao.com/_DzxjIb/114881998",
+    "sourceTitle": "신규 육성 시나리오 개막 프리티 더비 뽑기 & 서포트 카드 뽑기 개최 예정🎉",
+    "image": "/assets/uma-kr-114881998.webp",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://pf.kakao.com/_DzxjIb/114881998"
+    },
+    "pickupType": "new",
+    "pickupGroup": "umamusume:kr:20261016:support",
+    "poolType": "support",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "SSR [본능은 울부짖고 있는가!?] 터커 브라인",
+          "en": "Tucker Bryne · SSR",
+          "ja": "タッカーブライン · SSR",
+          "zh": "터커 브라인 · SSR"
+        },
+        "type": "new"
+      },
+      {
+        "name": {
+          "ko": "SSR [하얀 번개와 같이] 타마모 크로스",
+          "en": "Tamamo Cross · SSR",
+          "ja": "タマモクロス · SSR",
+          "zh": "玉藻十字 · SSR"
+        },
+        "type": "new"
+      },
+      {
+        "name": {
+          "ko": "R [무인도 프로젝트 책임자] 터커 브라인",
+          "en": "Tucker Bryne · R",
+          "ja": "タッカーブライン · R",
+          "zh": "터커 브라인 · R"
+        },
+        "type": "new"
+      }
+    ],
+    "timingNote": {
+      "ko": "10월 16일 점검 완료 후 시작. 타 언어 카드 부제는 공식 명칭 확인 전 생략했습니다.",
+      "en": "Starts after Oct 16 maintenance. Unverified card subtitles in other languages are omitted.",
+      "ja": "10月16日メンテナンス後開始。他言語の公式カード名が未確認のため副題を省略。",
+      "zh": "10月16日维护后开始。其他语言官方卡名未核实，暂省略副标题。"
+    }
+  },
+  {
+    "id": "uma-kr-20261016-trial",
+    "gameId": "umamusume",
+    "kind": "event",
+    "title": {
+      "ko": "트레이너 기능 시험",
+      "en": "Trainer Skills Trial",
+      "ja": "トレーナー技能試験",
+      "zh": "训练员技能考试"
+    },
+    "summary": {
+      "ko": "무인도 시나리오 시험. 교환·보상 수령은 10월 29일 11:59 KST까지.",
+      "en": "Island-scenario trial. Reward exchange ends Oct 29, 11:59 KST.",
+      "ja": "無人島シナリオの試験。報酬交換は10月29日11:59（KST）まで。",
+      "zh": "无人岛剧本考试；奖励兑换至10月29日11:59（KST）。"
+    },
+    "region": "kr",
+    "server": "Korea · Kakao Games",
+    "startAt": null,
+    "endAt": "2026-10-26T11:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://pf.kakao.com/_DzxjIb/114830316",
+    "sourceTitle": "트레이너 기능 시험 이벤트 개최 예정🎊",
+    "image": "/assets/uma-kr-114830316.webp",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://pf.kakao.com/_DzxjIb/114830316"
+    }
+  },
+  {
+    "id": "uma-kr-20261016-free80",
+    "gameId": "umamusume",
+    "kind": "event",
+    "title": {
+      "ko": "무인도 기념 · 최대 80회 무료",
+      "en": "Island campaign · up to 80 free draws",
+      "ja": "無人島記念 · 最大80回無料",
+      "zh": "无人岛纪念 · 最多80次免费抽卡"
+    },
+    "summary": {
+      "ko": "하루 1회 무료 10연. 대상은 신규 시나리오 개막 서포트 카드 뽑기입니다.",
+      "en": "One free 10-draw per day on the new-scenario support banner.",
+      "ja": "新シナリオ開幕サポートガチャで1日1回10連無料。",
+      "zh": "新剧本支援卡池每天可免费十连一次。"
+    },
+    "region": "kr",
+    "server": "Korea · Kakao Games",
+    "startAt": null,
+    "endAt": "2026-10-24T04:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://pf.kakao.com/_DzxjIb/114830299",
+    "sourceTitle": "「무인도에 어서 오세요 -DESIGN YOUR ISLAND-」 공개 기념 캠페인 예정🎉",
+    "image": "/assets/uma-kr-114830299.webp",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://pf.kakao.com/_DzxjIb/114830299"
+    }
+  },
+  {
+    "id": "uma-kr-20261016-factorpack",
+    "gameId": "umamusume",
+    "kind": "package",
+    "title": {
+      "ko": "인자 강화 리포트 팩",
+      "en": "Factor Research Report Pack",
+      "ja": "因子強化レポートパック",
+      "zh": "因子强化报告礼包"
+    },
+    "summary": {
+      "ko": "신규 시나리오 기념 한정 판매. 가격·구성 수량은 이 공지에 없습니다.",
+      "en": "Limited scenario-celebration pack. Price and item quantities are not stated in this notice.",
+      "ja": "新シナリオ記念の期間限定販売。この告知では価格・数量未記載。",
+      "zh": "新剧本纪念限时销售；公告未列价格与道具数量。"
+    },
+    "region": "kr",
+    "server": "Korea · Kakao Games",
+    "startAt": null,
+    "endAt": "2026-11-19T04:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://pf.kakao.com/_DzxjIb/114830299",
+    "sourceTitle": "「무인도에 어서 오세요 -DESIGN YOUR ISLAND-」 공개 기념 캠페인 예정🎉",
+    "image": "/assets/uma-kr-114830299.webp",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://pf.kakao.com/_DzxjIb/114830299"
+    }
+  },
+  {
+    "id": "gfl2-kr-mityl-featured",
+    "gameId": "gfl2",
+    "kind": "pickup",
+    "title": {
+      "ko": "미틸 · 지정 발주",
+      "en": "Mityl — Targeted Procurement",
+      "ja": "ミティール · ピックアップ訪問",
+      "zh": "米蒂爾 · 定向採購"
+    },
+    "summary": {
+      "ko": "HAOPLAY 공식 홈페이지 픽업 배너. 정확한 개최 기간은 아직 미확인.",
+      "en": "Featured pickup banner on HAOPLAY’s official homepage. Exact dates are unverified.",
+      "ja": "HAOPLAY公式サイト掲載の募集バナー。開催期間は未確認。",
+      "zh": "HAOPLAY官网展示的招募横幅，准确开放日期尚未核实。"
+    },
+    "region": "kr",
+    "server": "Korea · HAOPLAY",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://gf2.haoplay.com/kr/",
+    "sourceTitle": "Mityl — Targeted Procurement",
+    "image": "/assets/gf2-kr-pickup.webp",
+    "timingNote": {
+      "ko": "Sunborn/Darkwinter 배포판과 별도 확인 필요.",
+      "en": "Verify separately from the Sunborn/Darkwinter distribution.",
+      "ja": "Sunborn/Darkwinter版とは分けて確認が必要。",
+      "zh": "须与Sunborn/Darkwinter发行版本分开核实。"
+    },
+    "imageSource": "https://res.17996cdn.net/gf2/news/261008/kr/2.png",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://gf2.haoplay.com/kr/",
+      "en": "https://gf2.haoplay.com/en/",
+      "ja": "https://gf2.haoplay.com/jp/",
+      "zh": "https://gf2.haoplay.com/tw/"
+    },
+    "pickupType": "unknown",
+    "pickupGroup": "gfl2:kr:20261008:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "미틸",
+          "en": "Mityl",
+          "ja": "ミティール",
+          "zh": "米蒂爾"
+        },
+        "type": "unknown"
+      },
+      {
+        "name": {
+          "ko": "캐롤릭",
+          "en": "Krolik",
+          "ja": "キャロリック",
+          "zh": "克羅麗科"
+        },
+        "type": "unknown"
+      },
+      {
+        "name": {
+          "ko": "네메시스",
+          "en": "Nemesis",
+          "ja": "ネメシス",
+          "zh": "納美西絲"
+        },
+        "type": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "gfl2-kr-amber-featured",
+    "gameId": "gfl2",
+    "kind": "event",
+    "title": {
+      "ko": "호박색 달빛",
+      "en": "Amber Reel of Moonlight",
+      "ja": "琥珀月光",
+      "zh": "琥珀月光"
+    },
+    "summary": {
+      "ko": "HAOPLAY 공식 홈페이지에 공개된 이벤트. 정확한 개최 기간은 미확인.",
+      "en": "Event featured on HAOPLAY’s official homepage; exact dates remain unverified.",
+      "ja": "HAOPLAY公式サイト掲載イベント。開催期間は未確認。",
+      "zh": "HAOPLAY官网展示的活动，准确开放日期尚未核实。"
+    },
+    "region": "kr",
+    "server": "Korea · HAOPLAY",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://gf2.haoplay.com/kr/",
+    "sourceTitle": "Amber Reel of Moonlight",
+    "image": "/assets/gf2-kr-event.webp",
+    "featured": true,
+    "imageSource": "https://res.17996cdn.net/gf2/news/261008/kr/1.png",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "ko": "https://gf2.haoplay.com/kr/",
+      "en": "https://gf2.haoplay.com/en/",
+      "ja": "https://gf2.haoplay.com/jp/",
+      "zh": "https://gf2.haoplay.com/tw/"
+    }
+  },
+  {
+    "id": "gfl2-jp-mityl-featured",
+    "gameId": "gfl2",
+    "kind": "pickup",
+    "title": {
+      "ko": "미틸 · 지정 발주",
+      "en": "Mityl — Targeted Procurement",
+      "ja": "ミティール · ピックアップ訪問",
+      "zh": "米蒂爾 · 定向採購"
+    },
+    "summary": {
+      "ko": "HAOPLAY 공식 홈페이지 픽업 배너. 정확한 개최 기간은 아직 미확인.",
+      "en": "Featured pickup banner on HAOPLAY’s official homepage. Exact dates are unverified.",
+      "ja": "HAOPLAY公式サイト掲載の募集バナー。開催期間は未確認。",
+      "zh": "HAOPLAY官网展示的招募横幅，准确开放日期尚未核实。"
+    },
+    "region": "jp",
+    "server": "Japan · HAOPLAY",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://gf2.haoplay.com/jp/",
+    "sourceTitle": "Mityl — Targeted Procurement",
+    "image": "/assets/gf2-jp-pickup.webp",
+    "timingNote": {
+      "ko": "Sunborn/Darkwinter 배포판과 별도 확인 필요.",
+      "en": "Verify separately from the Sunborn/Darkwinter distribution.",
+      "ja": "Sunborn/Darkwinter版とは分けて確認が必要。",
+      "zh": "须与Sunborn/Darkwinter发行版本分开核实。"
+    },
+    "imageSource": "https://res.17996cdn.net/gf2/news/261008/jp/2.png",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ko": "https://gf2.haoplay.com/kr/",
+      "en": "https://gf2.haoplay.com/en/",
+      "ja": "https://gf2.haoplay.com/jp/",
+      "zh": "https://gf2.haoplay.com/tw/"
+    },
+    "pickupType": "unknown",
+    "pickupGroup": "gfl2:jp:20261008:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "미틸",
+          "en": "Mityl",
+          "ja": "ミティール",
+          "zh": "米蒂爾"
+        },
+        "type": "unknown"
+      },
+      {
+        "name": {
+          "ko": "캐롤릭",
+          "en": "Krolik",
+          "ja": "キャロリック",
+          "zh": "克羅麗科"
+        },
+        "type": "unknown"
+      },
+      {
+        "name": {
+          "ko": "네메시스",
+          "en": "Nemesis",
+          "ja": "ネメシス",
+          "zh": "納美西絲"
+        },
+        "type": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "gfl2-jp-amber-featured",
+    "gameId": "gfl2",
+    "kind": "event",
+    "title": {
+      "ko": "호박색 달빛",
+      "en": "Amber Reel of Moonlight",
+      "ja": "琥珀月光",
+      "zh": "琥珀月光"
+    },
+    "summary": {
+      "ko": "HAOPLAY 공식 홈페이지에 공개된 이벤트. 정확한 개최 기간은 미확인.",
+      "en": "Event featured on HAOPLAY’s official homepage; exact dates remain unverified.",
+      "ja": "HAOPLAY公式サイト掲載イベント。開催期間は未確認。",
+      "zh": "HAOPLAY官网展示的活动，准确开放日期尚未核实。"
+    },
+    "region": "jp",
+    "server": "Japan · HAOPLAY",
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-16T10:45:00Z",
+    "sourceUrl": "https://gf2.haoplay.com/jp/",
+    "sourceTitle": "Amber Reel of Moonlight",
+    "image": "/assets/gf2-jp-event.webp",
+    "featured": true,
+    "imageSource": "https://res.17996cdn.net/gf2/news/261008/jp/1.png",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "ko": "https://gf2.haoplay.com/kr/",
+      "en": "https://gf2.haoplay.com/en/",
+      "ja": "https://gf2.haoplay.com/jp/",
+      "zh": "https://gf2.haoplay.com/tw/"
+    }
+  }
+]

@@ -1,0 +1,3 @@
+import type {Locale} from '@/lib/types';
+const copy={ko:['게임 정보를 불러오는 중','픽업과 이벤트 일정을 준비하고 있어요.'],en:['Loading your game calendar','Preparing banners and events.'],ja:['ゲーム情報を読み込み中','ピックアップとイベントの日程を準備しています。'],zh:['正在加载游戏信息','正在准备卡池和活动日程。']};
+export default function CatalogLoading({locale='en'}:{locale?:Locale}){return <main className="catalog-loading" role="status" aria-live="polite"><div className="catalog-loading-brand">GAGETHER<span>✦</span></div><h1>{copy[locale][0]}</h1><p>{copy[locale][1]}</p><div className="catalog-loading-track" aria-hidden="true"><span/></div><div className="catalog-loading-grid" aria-hidden="true">{[0,1,2].map(i=><div key={i}/>)}</div></main>;}

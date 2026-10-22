@@ -1,0 +1,413 @@
+{
+  "checkedOn": "2026-10-16",
+  "asOfUser": "2026-10-16T18:30:54+09:00",
+  "caveat": "Official current snapshot, not a running live-sync service. UI language and server/region must remain independent. Prices and regions not verified are null, never inferred.",
+  "assetsDirectory": "/workspace/scratch/f7f776ceb97d/assets-kuro",
+  "assetSources": "/workspace/scratch/f7f776ceb97d/assets-kuro/asset-sources.json",
+  "games": [
+    {
+      "id": "wuthering-waves",
+      "names": {
+        "en": "Wuthering Waves",
+        "ko": "명조",
+        "ja": "鳴潮",
+        "zh": "鸣潮"
+      },
+      "website": "https://wutheringwaves.kurogames.com/en/main",
+      "newsPage": "https://wutheringwaves.kurogames.com/en/main/news",
+      "officialPublicFeeds": {
+        "articleList": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/en/ArticleMenu.json",
+        "articleTemplate": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/{locale}/article/{id}.json",
+        "discovery": "These public CDN JSON endpoints were read directly from the official site's current JS bundle and successfully fetched. Do not use MainMenu pcTopPicture for version metadata; that object retains historical CBT text."
+      },
+      "version": {
+        "number": "3.7",
+        "name": "Prism's Illusion, Heart's Illumination",
+        "releasedOn": "2026-09-30",
+        "source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571"
+      },
+      "region": "Global English notice; per-server end time",
+      "timezoneMapping": null,
+      "timeNote": "The official pickup article states server time but does not map server offsets; do not silently infer or convert an exact countdown until offset is verified.",
+      "assets": {
+        "logo": "wuwa-logo-small.png",
+        "logoKo": "wuwa-logo-small-ko.png",
+        "logoZh": "wuwa-logo-small-zh.png",
+        "background": "wuwa-wallpaper-0.jpg",
+        "scenicFallback": "wuwa-background.jpg",
+        "bannerChisa": "wuwa-chisa.jpg",
+        "bannerIuno": "wuwa-iuno.jpg",
+        "weaponKumokiri": "wuwa-kumokiri.jpg",
+        "weaponMoongazer": "wuwa-moongazer.jpg",
+        "additionalBackgrounds": [
+          "wuwa-wallpaper-1.jpg",
+          "wuwa-wallpaper-2.jpg"
+        ]
+      },
+      "invalidAssets": [
+        "wuwa-logo.png",
+        "wuwa-logo-ko.png",
+        "wuwa-logo-ja.png"
+      ],
+      "assetNote": "Large logo files currently contain fully transparent pixels. Use small navbar assets. Scenic fallback is official but historical, not current-version imagery.",
+      "pickups": [
+        {
+          "name": "Chisa",
+          "rarity": 5,
+          "banner": "Horizon of Dawnbreak",
+          "start": "after 3.7 update",
+          "endsLocal": "2026-10-22T09:59:00",
+          "timeBasis": "server time",
+          "image": "wuwa-chisa.jpg"
+        },
+        {
+          "name": "Iuno",
+          "rarity": 5,
+          "banner": "Across Time's Waxes and Wanes",
+          "start": "after 3.7 update",
+          "endsLocal": "2026-10-22T09:59:00",
+          "timeBasis": "server time",
+          "image": "wuwa-iuno.jpg"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Kumokiri",
+          "rarity": 5,
+          "endsLocal": "2026-10-22T09:59:00",
+          "timeBasis": "server time",
+          "image": "wuwa-kumokiri.jpg"
+        },
+        {
+          "name": "Moongazer's Sigil",
+          "rarity": 5,
+          "endsLocal": "2026-10-22T09:59:00",
+          "timeBasis": "server time",
+          "image": "wuwa-moongazer.jpg"
+        }
+      ],
+      "pickupSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "pickupSourcePublished": "2026-09-29",
+      "packages": [],
+      "packageStatus": "not yet verified"
+    },
+    {
+      "id": "endfield",
+      "names": {
+        "en": "Arknights: Endfield",
+        "ko": "명일방주: 엔드필드",
+        "ja": "アークナイツ：エンドフィールド",
+        "zh": "明日方舟：终末地"
+      },
+      "website": "https://endfield.gryphline.com/en-us",
+      "newsPage": "https://endfield.gryphline.com/en-us/news",
+      "officialPublicFeeds": {
+        "method": "SSR HTML/Next payload available on public news index and article URLs. A stable standalone feed was not verified."
+      },
+      "region": "Global",
+      "timezoneMapping": {
+        "Asia": "+08:00",
+        "AmericasEurope": "-05:00"
+      },
+      "version": {
+        "name": "Sanctuary of Ink",
+        "releasedOn": "2026-10-15",
+        "source": "https://endfield.gryphline.com/en-us/news/9560"
+      },
+      "assets": {
+        "logo": "endfield-official-logo.svg",
+        "background": "endfield-background.jpg",
+        "version": "endfield-version.jpg",
+        "pickup": "endfield-pickup.jpg",
+        "weapon": "endfield-weapon.jpg"
+      },
+      "assetNote": "The official header SVG uses currentColor; set a visible fill/color in CSS. endfield-logo.png is a decorated Chinese badge rather than the preferred header logo.",
+      "pickups": [
+        {
+          "name": "Si",
+          "rarity": 6,
+          "banner": "Rejuvenation",
+          "startsAsia": "2026-10-15T12:00:00+08:00",
+          "startQualifier": "scheduled maintenance end",
+          "endsAsia": "2026-11-05T11:59:00+08:00",
+          "endsAmericasEurope": "2026-11-05T11:59:00-05:00",
+          "image": "endfield-pickup.jpg",
+          "source": "https://endfield.gryphline.com/en-us/news/4489"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Jade Vessel",
+          "type": "Greatsword",
+          "rarity": 6,
+          "banner": "Seal of Jade Issue",
+          "starts": "after Sanctuary of Ink update",
+          "endsAt": null,
+          "endRule": "Ends after 3 Chartered Headhunting banners starting with Rejuvenation; no fixed timestamp given",
+          "image": "endfield-weapon.jpg",
+          "source": "https://endfield.gryphline.com/en-us/news/2652"
+        }
+      ],
+      "events": [
+        {
+          "name": "Spirit's Restoration",
+          "type": "login",
+          "reward": "5 HH permits across 7 sign-ins",
+          "endsAsia": "2026-11-05T11:59:00+08:00"
+        },
+        {
+          "name": "All the Inky Hues",
+          "type": "exploration",
+          "reward": "1,200 Oroberyl",
+          "endsAsia": "2026-11-05T12:00:00+08:00"
+        },
+        {
+          "name": "Yuanyuan's Blazing Stoves",
+          "type": "management",
+          "endsAt": null,
+          "endRule": "before next version maintenance"
+        }
+      ],
+      "packages": [
+        {
+          "name": "Protocol Pass: Ink Scroll",
+          "price": null,
+          "contentsVerified": false
+        },
+        {
+          "name": "Wondrous View Collection Pack",
+          "price": null,
+          "contentsVerified": false
+        },
+        {
+          "name": "Protocol Flow Bundle",
+          "price": null,
+          "contentsVerified": false
+        },
+        {
+          "name": "Omnipresence HH Bundle",
+          "price": null,
+          "contentsVerified": false
+        },
+        {
+          "name": "Star River HH Bundle",
+          "price": null,
+          "contentsVerified": false
+        }
+      ],
+      "packageNote": "Official patch notes confirm bundle names but refer to in-game Acquisition Center for contents and prices.",
+      "packageSource": "https://endfield.gryphline.com/en-us/news/9560",
+      "upcoming": {
+        "name": "Argent Flow",
+        "startsAsia": "2026-11-05T12:00:00+08:00",
+        "type": "pickup"
+      }
+    },
+    {
+      "id": "neverness-to-everness",
+      "names": {
+        "en": "Neverness to Everness",
+        "ko": "이환",
+        "ja": "NTE",
+        "zh": "异环"
+      },
+      "website": "https://nte.perfectworld.com/en/",
+      "newsPage": "https://nte.perfectworld.com/en/article/news/index.html",
+      "officialPublicFeeds": {
+        "method": "Static HTML news index and dated article paths; no standalone JSON/RSS feed verified."
+      },
+      "region": "Global English notice",
+      "timezoneMapping": {
+        "bannerTimes": "+08:00"
+      },
+      "timeNote": "This patch explicitly gives UTC+8 for banners and cosmetics. Some resource events use server time instead and must not inherit this offset blindly.",
+      "version": {
+        "number": "1.4",
+        "name": "For Whom the Verses Mourn",
+        "releasedOn": "2026-09-30"
+      },
+      "source": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+      "sourcePublished": "2026-09-29",
+      "assets": {
+        "logo": "nte-logo.png",
+        "logoKo": "nte-logo-ko.png",
+        "background": "nte-background.jpg",
+        "blackbird": "nte-blackbird.png",
+        "lacrimosa": "nte-lacrimosa.png",
+        "version": "nte-version.jpg"
+      },
+      "pickups": [
+        {
+          "name": "Blackbird",
+          "rarity": "S",
+          "banner": "Foretold Finale",
+          "starts": "after 2026-09-30 update",
+          "endsAt": "2026-10-21T05:59:00+08:00",
+          "image": "nte-blackbird.png"
+        },
+        {
+          "name": "Lacrimosa",
+          "rarity": "S",
+          "banner": "Fading Reverie",
+          "starts": "after 2026-09-30 update",
+          "endsAt": "2026-10-21T05:59:00+08:00",
+          "image": "nte-lacrimosa.png"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Crime and Punishment",
+          "type": "Arc",
+          "rarity": "S",
+          "endsAt": "2026-10-21T05:59:00+08:00",
+          "image": null
+        },
+        {
+          "name": "The Last Rose",
+          "type": "Arc",
+          "rarity": "S",
+          "endsAt": "2026-10-21T05:59:00+08:00",
+          "image": null
+        }
+      ],
+      "events": [
+        {
+          "name": "Circle Gifts",
+          "type": "login",
+          "reward": "10 Solid Dice",
+          "endsAt": "2026-11-11T05:59:00+08:00"
+        },
+        {
+          "name": "Pukaland Travelogue",
+          "type": "event",
+          "endsAt": "2026-11-11T05:59:00+08:00"
+        },
+        {
+          "name": "Coal Lump's Treasure",
+          "type": "event",
+          "startsAt": "2026-10-08T10:00:00+08:00",
+          "endsAt": "2026-11-11T05:59:00+08:00"
+        }
+      ],
+      "packages": [
+        {
+          "name": "Blackbird: Wandering Stars",
+          "type": "outfit",
+          "price": 2680,
+          "currency": "Riftcrystal",
+          "regularPrice": 3280,
+          "saleEndsAt": "2026-11-11T05:59:00+08:00",
+          "availability": "permanent, temporary discount"
+        },
+        {
+          "name": "Elite Hunter Supplies",
+          "type": "battle pass",
+          "price": null,
+          "endsAt": "2026-11-10T23:59:00+08:00"
+        },
+        {
+          "name": "Honor Hunter Supplies",
+          "type": "battle pass",
+          "price": null,
+          "endsAt": "2026-11-10T23:59:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "arknights",
+      "names": {
+        "en": "Arknights",
+        "ko": "명일방주",
+        "ja": "アークナイツ",
+        "zh": "明日方舟"
+      },
+      "website": "https://www.arknights.global/",
+      "newsPage": "https://www.arknights.global/news",
+      "officialPublicFeeds": {
+        "articleList": "https://www.arknights.global/api/resource/news/list?index=1&size=6",
+        "articleDetail": "https://www.arknights.global/api/resource/news/detail?id=4814",
+        "discovery": "Endpoints read from the official JS bundles, successfully fetched, return code 0 JSON with HTML content, bigImage, smallImage, publishTime, id and title."
+      },
+      "region": "EN / Global only",
+      "timezoneMapping": {
+        "ENGlobal": "-07:00"
+      },
+      "timeNote": "Do not apply to Korean/Japanese/Chinese servers. Site language does not determine game server.",
+      "version": {
+        "name": "Critical Phase Transition",
+        "chapter": 17,
+        "releasedAt": "2026-10-14T08:00:00-07:00"
+      },
+      "source": "https://www.arknights.global/news/4814",
+      "sourcePublished": "2026-10-08",
+      "assets": {
+        "logo": "arknights-logo.png",
+        "background": "arknights-hero.jpg",
+        "pickup": "arknights-pickup.jpg",
+        "packages": "arknights-pack.jpg",
+        "basicPackages": "arknights-packs-basic.jpg"
+      },
+      "assetNote": "arknights-logo.png is white on transparent. arknights-background.png is only a static noise texture; use arknights-hero.jpg for official character artwork.",
+      "pickups": [
+        {
+          "name": "Kal'tsit Esperanta / Closure",
+          "banner": "Sealed With Time",
+          "rarity": 6,
+          "startsAt": "2026-10-14T08:00:00-07:00",
+          "endsAt": "2026-10-28T03:59:00-07:00",
+          "image": "arknights-pickup.jpg",
+          "note": "Kal'tsit Esperanta is limited. Notice also lists older limited operators with higher rate."
+        }
+      ],
+      "weapons": [],
+      "weaponStatus": "not applicable as separate weapon gacha",
+      "events": [
+        {
+          "name": "Critical Phase Transition",
+          "type": "main story event",
+          "endsAt": "2026-10-28T03:59:00-07:00",
+          "note": "Temporary lower unlock requirement and stage currency window; story remains afterward."
+        },
+        {
+          "name": "Daily free headhunting",
+          "type": "free pull",
+          "endsAt": "2026-10-28T03:59:00-07:00"
+        },
+        {
+          "name": "2026 Celebration Sign-in",
+          "type": "login",
+          "endsAt": "2026-10-28T03:59:00-07:00"
+        }
+      ],
+      "packages": [
+        {
+          "name": "Duck Lord's Change Purse",
+          "contents": "13 Originite Prime + 300,000 LMD",
+          "price": null,
+          "startsAt": "2026-10-14T08:00:00-07:00",
+          "endsAt": "2026-11-11T03:59:00-07:00"
+        },
+        {
+          "name": "Kal'tsit's Briefcase",
+          "contents": "16 Originite Prime + 700,000 LMD",
+          "price": null,
+          "startsAt": "2026-10-14T08:00:00-07:00",
+          "endsAt": "2026-11-11T03:59:00-07:00"
+        },
+        {
+          "name": "Rhodes Island Headhunting Pack",
+          "contents": "Top Operator Transfer Permit + ten-roll permit",
+          "price": null,
+          "endsAt": "2026-11-11T03:59:00-07:00"
+        }
+      ],
+      "packageNote": "Source lists additional packs. Exact regional money prices not present in notice; do not invent.",
+      "packageImagePriceEvidence": {
+        "Duck Lord's Change Purse": "$6.99",
+        "Kal'tsit's Briefcase": "$9.99",
+        "source": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/sQB8HdvH.jpg",
+        "note": "Official global image uses dollar symbol; precise platform and dollar currency code not explicitly stated."
+      }
+    }
+  ]
+}

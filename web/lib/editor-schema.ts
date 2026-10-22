@@ -1,0 +1,31 @@
+import {z} from 'zod';
+import {entrySchema,safeImage,safeArtwork,safeExtras,safePickupArchive} from './content-schema';
+import {games} from './games';
+import {ui} from './i18n';
+import {draftProblems} from './editor-draft';
+const localized=z.object({ko:z.string().max(2000),en:z.string().max(2000),ja:z.string().max(2000),zh:z.string().max(2000)});
+const picture=z.string().max(2000).refine(v=>!v||safeImage(v));
+const https=z.string().refine(v=>{try{const u=new URL(v);return u.protocol==='https:'&&!u.username&&!u.password;}catch{return false;}});
+export const settingsSchema=z.object({
+ brand:z.object({name:z.string().max(60).optional(),tagline:z.string().max(100).optional(),logo:picture.optional()}).optional(),
+ carouselSeconds:z.number().min(3).max(20).optional(),
+ ui:z.object(Object.fromEntries(['ko','en','ja','zh'].map(lang=>[lang,z.record(z.string().max(2000)).refine(value=>Object.keys(value).every(key=>key in ui.ko)).optional()]))).optional(),
+ games:z.record(z.object({name:localized.optional(),short:z.string().max(30).optional(),genre:localized.optional(),color:z.string().regex(/^#[0-9a-fA-F]{6}$/).optional(),logo:picture.optional(),icon:picture.optional(),iconSource:https.optional(),art:picture.optional(),artPosition:z.string().max(80).optional(),official:https.optional(),publisher:z.string().max(100).optional(),regionLabels:z.object({global:localized.optional(),kr:localized.optional(),jp:localized.optional(),cn:localized.optional()}).optional()})).refine(v=>Object.keys(v).every(id=>games.some(g=>g.id===id))).optional(),
+});
+export const entryChanges=entrySchema.omit({id:true,verifiedAt:true}).partial().extend({hidden:z.boolean().optional()}).strict();
+const removableFields=Object.entries(entrySchema.shape).filter(([,schema])=>schema.isOptional()).map(([key])=>key);
+export const editRequest=z.object({target:z.enum(['entry','site']),id:z.string().regex(/^[a-zA-Z0-9_-]{1,160}$/).optional(),revision:z.number().int().nonnegative(),changes:z.record(z.unknown()),removeFields:z.array(z.string().refine(k=>removableFields.includes(k))).max(50).optional(),create:z.boolean().optional()}).strict();
+export function validateEditedEntry(value:unknown){
+ const result=entrySchema.extend({hidden:z.boolean().optional()}).safeParse(value);if(!result.success)return {ok:false as const,error:result.error.issues.map(i=>`${i.path.join('.')}: ${i.message}`).join('; '),details:result.error.issues};
+ const e=result.data;if(!games.some(g=>g.id===e.gameId&&g.regions.includes(e.region)))return {ok:false as const,error:'Invalid game or schedule'};
+ if(!safePickupArchive(e))return {ok:false as const,error:'Invalid pickup archive or unconfirmed clock'};
+ const images=[e,...e.pickupMembers||[]];
+ if(!safeExtras(e)||images.some(i=>!safeArtwork(i)))return {ok:false as const,error:'Invalid image URL'};
+ const urls=[e.sourceUrl,...Object.values(e.localizationSources||{}),...(e.relatedSources||[]).map(s=>s.url),...(e.detailSections||[]).flatMap(s=>s.sourceUrls||[]),...(e.entityDetails||[]).flatMap(p=>[...p.sources.map(s=>s.url),...p.groups.flatMap(g=>g.sourceUrls||[])])];
+ if(urls.some(url=>!https.safeParse(url).success))return {ok:false as const,error:'Links must use HTTPS'};
+ if(e.startAt&&e.endAt&&Date.parse(e.startAt)>=Date.parse(e.endAt))return {ok:false as const,error:'End must follow start'};
+ if(e.marketRegion==='cn'&&!['arknights','gfl2','reverse1999'].includes(e.gameId))return {ok:false as const,error:'Unsupported sales region'};
+ if(e.price&&(!e.marketRegion||!e.price.currency.trim()||!e.price.platform.trim()))return {ok:false as const,error:'A price requires its sales region, currency and platform'};
+ const problems=draftProblems(e);if(problems.length)return {ok:false as const,error:problems.join('; ')};
+ return {ok:true as const,data:e};
+}

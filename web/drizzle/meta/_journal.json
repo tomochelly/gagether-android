@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792143382142,
+      "tag": "0000_fixed_ares",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792151400299,
+      "tag": "0001_futuristic_preak",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792239327351,
+      "tag": "0002_swift_freak",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792273060928,
+      "tag": "0003_good_banshee",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792273149019,
+      "tag": "0004_third_daredevil",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1792532290068,
+      "tag": "0005_slim_paper_doll",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1792540175931,
+      "tag": "0006_sudden_dark_phoenix",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1792542093175,
+      "tag": "0007_cute_guardian",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1792592080655,
+      "tag": "0008_certain_moon_knight",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1792599442208,
+      "tag": "0009_fearless_the_stranger",
+      "breakpoints": true
+    }
+  ]
+}

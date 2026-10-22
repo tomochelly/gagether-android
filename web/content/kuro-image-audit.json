@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-10-16T11:12:11.655582+00:00",
+  "coveredRecords": 15,
+  "unresolved": [],
+  "criticalCorrections": [
+    {
+      "entryId": "wuwa-hsin",
+      "old": "/assets/wuwa-wallpaper-0.webp",
+      "new": "wuwa-hsin-exact.webp",
+      "reason": "Replaced version wallpaper with exact named Hsin character render; user reported wrong Suoming image. Named profile5492 confirms new image identity."
+    },
+    {
+      "entryId": "nte-lacrimosa",
+      "old": "/assets/nte-lacrimosa.webp",
+      "new": "nte-lacrimosa-exact.png",
+      "reason": "Previous role-mingyin image is AKANE. Official English name image and character roster independently prove this. Correct role-an is LACRIMOSA."
+    }
+  ],
+  "officialMediaDiscovery": "Public official X posts were located with search. Twitter official publish.twitter.com/oembed verified author account and named content. A public embed discovery mirror supplied the original pbs.twimg.com media URLs; image bytes were downloaded directly from pbs.twimg.com and visually checked. No mirror-hosted media is delivered.",
+  "imageCaveats": [
+    "Some weapons only have official weapon information/banner art available, with names/text embedded. They show the actual named weapon, never a game/version background. Suggested CSS imagePosition focuses the weapon.",
+    "NTE primary character posters are official roster renders. Lacrimosa alternate is the hand-drawn official current banner.",
+    "Do not use nte-rose-0.jpg candidate: it embeds old June schedule. Manifest points to current rerun image instead."
+  ],
+  "nameCorrection": {
+    "endfield-brigand": "English official full weapon name is Brigand’s Calling."
+  },
+  "audit": [
+    {
+      "entryId": "wuwa-hsin",
+      "status": "verified-matched",
+      "evidence": "Named official profile5492 has the identical white-haired fox-eared woman and prints Hsin. Its full visual was inspected alongside this transparent render.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/wuwa-hsin-exact.webp"
+    },
+    {
+      "entryId": "wuwa-chisa",
+      "status": "verified-matched",
+      "evidence": "Official current banner5546 prints Chisa and has the same black-haired woman with red-bladed weapon. Both existing banner and new transparent render inspected.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/wuwa-chisa-exact.webp"
+    },
+    {
+      "entryId": "wuwa-iuno",
+      "status": "verified-matched",
+      "evidence": "Official current banner5546 prints Iuno and has the same blue-haired woman with gold/white costume and lunar armature. Both inspected.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/wuwa-iuno-exact.webp"
+    },
+    {
+      "entryId": "wuwa-kumokiri",
+      "status": "verified-matched",
+      "evidence": "Original banner visibly labels KUMOKIRI and shows the exact red/black blade; identity verified.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/wuwa-kumokiri-exact.jpg"
+    },
+    {
+      "entryId": "wuwa-moongazer",
+      "status": "verified-matched",
+      "evidence": "Original banner visibly labels MOONGAZER’S SIGIL and shows the exact gold/blue lunar gauntlet; identity verified.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/wuwa-moongazer-exact.jpg"
+    },
+    {
+      "entryId": "wuwa-blooming-jadehaven",
+      "status": "verified-matched",
+      "evidence": "Official weapon sheet explicitly labels Blooming Jadehaven and Rectifier. Actual golden mechanism with red/pink ring and petals inspected. Crop upper24% via CSS for card.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/wuwa-blooming-jadehaven-exact.jpg"
+    },
+    {
+      "entryId": "endfield-si",
+      "status": "verified-matched",
+      "evidence": "Official operator asset map jsspsi is paired with operator.content.jsspsi.name=Si. Green-haired woman and dragon/blade full operator illustration inspected.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/endfield-si-exact.png"
+    },
+    {
+      "entryId": "endfield-jade-vessel",
+      "status": "verified-matched",
+      "evidence": "Official banner explicitly prints Jade Vessel below its giant white/green greatsword. Existing file correctly matched.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/endfield-jade-vessel-exact.jpg"
+    },
+    {
+      "entryId": "endfield-argent-flow",
+      "status": "verified-matched",
+      "evidence": "Official operator asset map minghe paired with operator.content.minghe.name=Argent Flow. Blond man on black horse full illustration inspected.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/endfield-argent-flow-exact.png"
+    },
+    {
+      "entryId": "endfield-tangtang",
+      "status": "verified-matched",
+      "evidence": "Official operator data key tangtang/name Tangtang paired with illustration. Black-haired woman with red scarf, white shorts and gun inspected.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/endfield-tangtang-exact.png"
+    },
+    {
+      "entryId": "endfield-brigand",
+      "status": "verified-matched",
+      "evidence": "Official weapon sheet labels Brigand’s Calling (Handcannon). Two black/green handcannons with red grips inspected. English entry title must be Brigand’s Calling, not Brigand.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/endfield-brigand-exact.jpg"
+    },
+    {
+      "entryId": "nte-blackbird",
+      "status": "verified-matched",
+      "evidence": "Official character slot heiyu includes English name image reading BLACKBIRD; roster poster matches existing black/gold witch-hat woman. Both checked.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/nte-blackbird-exact.png"
+    },
+    {
+      "entryId": "nte-lacrimosa",
+      "status": "verified-matched",
+      "evidence": "Official character slot an includes English name image reading LACRIMOSA. Black/white-haired woman in red jacket matches separately named official current rerun banner2104420836761596118. Existing mingyin asset is AKANE and MUST NOT be used.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/nte-lacrimosa-exact.png"
+    },
+    {
+      "entryId": "nte-crime-punishment",
+      "status": "verified-matched",
+      "evidence": "Official current Roostfeather Special image explicitly names Crime and Punishment; device with two-bird cage artwork inspected.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/nte-crime-punishment-exact.jpg"
+    },
+    {
+      "entryId": "nte-last-rose",
+      "status": "verified-matched",
+      "evidence": "Official CURRENT rerun image explicitly names The Last Rose; black device showing pink/yellow roses, blue water ring. This current undated image replaces the older June banner candidate.",
+      "newFile": "/workspace/scratch/f7f776ceb97d/assets-exact-kuro/nte-last-rose-exact.jpg"
+    }
+  ]
+}

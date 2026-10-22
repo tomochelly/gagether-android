@@ -1,0 +1,85 @@
+{
+  "verifiedAt": "2026-10-16T11:12:00.540005+00:00",
+  "entryCount": 29,
+  "pickupCorrections": 18,
+  "replacementIds": [
+    "ba-kr-20261013-calm",
+    "uma-kr-20261016-trial",
+    "uma-kr-20261016-free80",
+    "uma-kr-20261016-factorpack",
+    "gfl2-kr-amber-featured",
+    "gfl2-jp-amber-featured",
+    "gfl2-haoplay-amber-featured"
+  ],
+  "newIds": [
+    "ba-kr-20261013-pack-shanhaijing",
+    "ba-kr-20261013-pack-gehenna",
+    "ba-kr-20261013-pack-millennium",
+    "ba-kr-20261013-pack-trinity",
+    "ba-kr-20261013-pack-bond",
+    "ba-kr-20261013-pack-shun-growth",
+    "ba-kr-20261013-pack-kisaki-growth",
+    "ba-kr-20261013-pack-archive-selector",
+    "nikke-kr-20261008-little-witch",
+    "nikke-kr-20261008-daily-trick",
+    "nikke-kr-20261008-cinderella-special",
+    "nikke-kr-20261008-most-beautiful-maid",
+    "nikke-kr-20261008-occultist-pass",
+    "nikke-kr-20261008-novel-costume",
+    "nikke-kr-20261008-tts-album",
+    "uma-kr-20261016-login1500",
+    "uma-kr-20261016-trainingbonus",
+    "gfl2-kr-20261008-inverse-cipher",
+    "gfl2-kr-20261008-intelligence",
+    "gfl2-kr-20261008-wishing-well",
+    "gfl2-kr-20261008-parabellum",
+    "gfl2-kr-20261008-voyage"
+  ],
+  "sources": {
+    "bluearchiveShop": "https://forum.nexon.com/bluearchive/board_view?board=1073&thread=3560060",
+    "nikkeOfficial": "https://nikke-kr.com/newsdetail.html?content_id=b67197d4ae491a4b47aa60ea65677b6cd8eb",
+    "gfl2Publisher": {
+      "ko": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "en": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=english",
+      "ja": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=japanese",
+      "zh": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=tchinese"
+    },
+    "gfl2PreviousRerunEvidence": "https://steamcommunity.com/games/3308670/announcements/detail/697644549761138792",
+    "umaCampaign": "https://pf.kakao.com/_DzxjIb/114830299"
+  },
+  "platformCoverage": {
+    "Inven": "Current NIKKE Oct8 guide and BA Oct13 report read. Vortex Gaming guide is an Inven-operated platform; its embedded YouTube ID extracted, but video itself not watched.",
+    "DCInside": "Current GFL2 Oct6 official-PV repost read. Uma Oct7 package question returned 404; no data adopted.",
+    "YouTube": "Search attempted. Direct watch CQHeGya9IIU returned Online fetch throttled. 2ZJgt46EnyA recovered from reachable Vortex guide; only Vortex published summary is summarized, not video transcript.",
+    "ArcaLive": "Multiple current-topic searches returned no matching page; direct /b/bluearchive fetch non-retryable. No bypass and no invented community claims."
+  },
+  "limitations": [
+    "Uma current Factor Report Pack exact price, quantity and use expiry not verified; 2025 anniversary pack pricing deliberately not reused.",
+    "NIKKE pass price and total ticket quantity not stated in official current notice. Inven reports purchases close 2h before event end; retained as attributed advice, did not overwrite official activity end.",
+    "GFL2 battle-pass price and tier contents absent in official overview.",
+    "GFL2 Mityl/Squirrel Nova new classification supported current debut listing plus current patch reporting; Cheyanne/Liushih rerun proven by July15 official announcements. Lower-rarity characters remain pool members, not separate headline pickups.",
+    "GFL2 English source is HAOPLAY GMT+0, not Darkwinter UTC-4.",
+    "Some GFL2 KR/JP date offsets are local-language service convention; English GMT+0 is explicit."
+  ],
+  "mergeGuidance": {
+    "bluearchive": "KR and Global same Nexon timeline for current game events; combine canonicalkr. KR shop price marketRegion kr only. JP distinct progression; CN unknown.",
+    "nikke": "KR/JP/Global Oct8 official notices synchronized. Research remains kr; root may canonicalize global. Do not extend to CN.",
+    "umamusume": "KR/global staggered; never merge.",
+    "gfl2": "KR/JP share +09 current windows; English HAOPLAY current windows GMT+0. Preserve actual offset. TW names only; no cn records created."
+  },
+  "assets": {
+    "ba-kr-pack-shanhaijing.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261008/3841842e-00a2-4b28-bdf5-46df02d59042/image202610081540243.png",
+    "ba-kr-pack-gehenna.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261008/b71e1c85-add2-4c29-8f87-4079cf6d4d1f/image202610081540244.png",
+    "ba-kr-pack-millennium.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261008/aba4f302-1800-419f-8c5a-a3694df3edcc/image202610081540245.png",
+    "ba-kr-pack-trinity.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261008/c7540eb9-76f8-4f26-a7bd-d19bd7b15f0e/image202610081540246.png",
+    "ba-kr-pack-bond.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261008/62378aa7-6053-4183-ad95-2bccd0599cfb/image202610081540247.png",
+    "ba-kr-pack-shun-growth.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261008/e67c7eb3-749e-4836-bf4a-fa788a547488/image202610081540248.png",
+    "ba-kr-pack-kisaki-growth.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261008/0fb07a34-2107-439e-a298-adb2eb12ab79/image202610081540249.png",
+    "ba-kr-pack-archive-selector.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261008/a0f58476-7457-4f29-b34e-8e4910f78969/image2026100815402410.png"
+  },
+  "sourceAllowlistNeeded": [
+    "steamcommunity.com/games/3308670/announcements/detail/<id> official scoped GFL2",
+    "vortexgaming.io/postdetail/1301160 community Inven platform"
+  ],
+  "rawDirectory": "/workspace/scratch/f7f776ceb97d/research-community-others"
+}

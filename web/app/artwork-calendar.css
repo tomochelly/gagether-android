@@ -1,0 +1,62 @@
+/* Preview crops never alter the source. Details retain the full composition. */
+.art-media{display:block;position:relative;width:100%;height:100%;overflow:hidden}
+.art-media>img{display:block;width:100%;height:100%;max-width:none!important;max-height:none!important;transform:none!important;transition:none!important;padding:0!important}
+.member-art-panel>.art-media{height:calc(100% - 23px)}
+.spotlight-visual,.is-banner .spotlight-visual{overflow:hidden}
+.spotlight-switches .spotlight-thumb{width:52px;height:55px;flex-shrink:0;background:#273024}
+.spotlight-switches>button>span:last-of-type{min-width:0}
+.dialog-image{max-height:none;display:block}
+.entity-artwork.art-detail{height:auto;min-height:0;max-height:none;aspect-ratio:auto}
+.art-media.full{height:auto}
+.art-media.full>img{position:relative!important;width:100%;height:auto;max-height:75vh!important;object-fit:contain!important;object-position:center!important}
+.art-detail.member-artwork{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.art-detail .member-art-panel{height:auto;border:0;border-bottom:1px solid var(--line)}
+.art-detail .member-art-panel>.art-media{height:auto}
+.art-detail .member-art-panel>small{position:static;font-size:0.6875rem;padding:10px 14px;white-space:normal}
+.art-detail .member-art-panel>.art-pending{height:90px;min-height:90px;gap:7px;padding:12px}
+.entity-artwork.art-detail.art-pending{min-height:220px}
+.editor-art-tabs{display:flex;gap:5px;margin:-8px 0 18px}
+.editor-art-tabs button{padding:7px 11px;border:1px solid var(--line);font-size:0.625rem;color:var(--display-ink-260,#91a480)}
+.editor-art-tabs button[aria-pressed=true]{background:var(--display-surface-261,#bed99913);color:var(--display-ink-262,#d4e9bb);border-color:var(--display-line-263,#a3bf7d66)}
+.editor-photo-preview .art-media.full{height:100%}
+.editor-photo-preview .art-media.full>img{height:100%;max-height:100%!important}
+
+/* Action first; game names remain in the date's detailed agenda. */
+.calendar-cell{min-height:94px}
+.calendar-marker{font-size:0.5625rem;gap:4px;line-height:1.7}
+.calendar-marker>span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.calendar-marker>b{flex-shrink:0;font-size:0.5625rem}
+.calendar-action-label{display:flex;align-items:center;gap:8px;color:var(--display-ink-264,#c5dfa8);font-size:0.6875rem;line-height:1.5;margin-bottom:5px}
+.calendar-action-label.ends{color:var(--display-ink-265,#edbd98)}
+.calendar-action-label>small{display:inline;margin:0;font-size:0.5rem;color:var(--display-ink-266,#819079)}
+.calendar-agenda-row .calendar-game-name{margin:4px 0 0;font-size:0.5625rem;line-height:1.7}
+.calendar-agenda-time{margin-top:4px}
+
+/* Only a verified endAt in the past marks an item as ended. */
+.entry-card.is-ended .entry-body h3,.entry-card.is-ended .entry-countdown,
+.timeline-row.is-ended .timeline-entry>strong,.timeline-row.is-ended .timeline-date,
+.timeline-row.is-ended .timeline-countdown>b,.timeline-row.is-ended .timeline-countdown>small,
+.calendar-marker.is-ended>span,.calendar-marker.is-ended>b,
+.calendar-agenda-row.is-ended strong,.calendar-agenda-row.is-ended .calendar-action-label,
+.calendar-agenda-row.is-ended .calendar-agenda-time,
+.dialog-inner.is-ended .dialog-body>h2,.dialog-inner.is-ended .detail-dates>div:not(:last-child)>strong{
+ text-decoration-line:line-through;text-decoration-thickness:1px;text-decoration-color:#a9b49eaa;color:var(--display-ink-267,#84917b
+)}
+.entry-card.is-ended .entry-image-button,.timeline-row.is-ended>img,.calendar-agenda-row.is-ended>img{opacity:.55}
+.calendar-marker.is-ended{opacity:.6}
+.entry-card.is-ended{border-color:var(--display-line-268,#a6b79412)}
+
+@media(max-width:1100px){.calendar-layout{grid-template-columns:minmax(0,1fr)}.calendar-month-grid{border-right:0;border-bottom:1px solid var(--line)}.calendar-agenda{max-height:330px}.calendar-agenda-list{max-height:235px}}
+@media(max-width:720px){
+ 
+ .spotlight-switches .spotlight-thumb{width:36px;height:43px}
+ .calendar-cell{min-height:100px;padding:6px 3px 4px}
+ .calendar-markers{line-height:1.4}
+ .calendar-marker{display:flex;width:100%;height:auto;min-height:21px;font-size:0.5rem;line-height:1.3;gap:2px;margin:2px 0;align-items:flex-start}
+ .calendar-marker>span{white-space:normal;overflow-wrap:anywhere}
+ .calendar-marker i{width:2px;height:8px;margin-top:2px}
+ .calendar-marker b{font-size:0.5rem;line-height:1.3}
+ .calendar-overflow{display:block;margin-top:3px;font-size:0.4375rem}
+ .calendar-agenda{max-height:335px}
+ .art-media.full>img{max-height:70vh!important}
+}

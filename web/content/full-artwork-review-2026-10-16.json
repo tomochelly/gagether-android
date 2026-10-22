@@ -1,0 +1,445 @@
+{
+  "reviewedAt": "2026-10-16T12:13:47.019865+00:00",
+  "entries": [
+    {
+      "entryId": "wuwa-hsin",
+      "image": "/assets/entities/wuwa-hsin-splash-full-3df11519.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/xin-3df11519.webp",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+      "composition": "Official text-free full convene splash: reclining Hsin, giant golden fox manifestation, city architecture and red ribbons. This exact scene appears in the current named Hsin pickup banner.",
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "wuwa-chisa",
+      "image": "/assets/entities/wuwa-chisa-splash-full-63525a92.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/qianxiao-63525a92.webp",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "composition": "Official text-free full convene splash: Chisa seated on red steel beam with oversized red blade, flowing hair and fractured urban skyline. Exact scene used by Horizon of Dawnbreak pickup banner.",
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "wuwa-iuno",
+      "image": "/assets/entities/wuwa-iuno-splash-full-691764b5.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/static4.0/assets/younuo-691764b5.webp",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "composition": "Official text-free full convene splash: Iuno floating amid a moon, blue waves and golden star effects. Exact scene used by Across Times Waxes and Wanes pickup banner.",
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "endfield-si",
+      "image": "/assets/entities/endfield-si-splash-full-8d3ee8ef.webp",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/jsspsi.fea4b0c4.png",
+      "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/4489",
+      "composition": "Official full operator splash with dynamic pose, huge dragon, greatsword and turquoise ink effects. Includes complete illustration effects; not an isolated standing model.",
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "endfield-argent-flow",
+      "image": "/assets/entities/endfield-argent-flow-splash-full-202a5513.webp",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/minghe.117b2c1b.png",
+      "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "composition": "Official full operator splash: Argent Flow mounted on a rearing black horse with gold and blue energy and painted backdrop.",
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "endfield-tangtang",
+      "image": "/assets/entities/endfield-tangtang-splash-full-eaa02d02.webp",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.2602b587.png",
+      "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/9560",
+      "composition": "Official full operator splash: dynamic floating Tangtang with twin handguns, tiger and blue/gold ink-and-water effects.",
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "nte-blackbird",
+      "image": "/assets/entities/nte-blackbird-splash-full-b47bbe9d.webp",
+      "imageSource": "https://pbs.twimg.com/media/HTRNVBHa0AA5EIF.jpg",
+      "sourceUrl": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "composition": "Official full dedicated Foretold Finale pickup banner: Blackbird surrounded by crows, gold orb and feather effects. Banner text retained as an honest fallback where a text-free gacha splash was not located.",
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "fallback": true,
+      "limitation": null
+    },
+    {
+      "entryId": "nte-lacrimosa",
+      "image": "/assets/entities/nte-lacrimosa-splash-full-1c9c50da.webp",
+      "imageSource": "https://pbs.twimg.com/media/HS-akx9bQAE_QK3.jpg",
+      "sourceUrl": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "composition": "Official full dedicated Fading Reverie pickup banner: Lacrimosa reclining on a green couch beside tomatoes, sketches and flowers. Banner text retained as an honest fallback where a text-free gacha splash was not located.",
+      "verifiedAt": "2026-10-16T11:50:54Z",
+      "fallback": true,
+      "limitation": null
+    },
+    {
+      "entryId": "genshin-71-skirk",
+      "image": "/assets/entities/skirk-8f6cf04f.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/c811574d08b3291a38980c2c51d2c408_2989697503942306840.png",
+      "sourceUrl": "https://wiki.hoyolab.com/pc/genshin/entry/7706?lang=ko-kr",
+      "composition": "Full official character splash with Skirk, surrounding crystalline shards, sword trails and blue starfield effects. This is the existing full effects asset, not a standalone standee.",
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "genshin-71-escoffier",
+      "image": "/assets/entities/escoffier-29c50598.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/7144e05505e492dbea93ed4addb4c6ee_1454738046342063990.png",
+      "sourceUrl": "https://wiki.hoyolab.com/pc/genshin/entry/7624?lang=ko-kr",
+      "composition": "Full official character splash: seated Escoffier with her large cooking instrument, musical shapes, ice arcs and sparkle effects. Preserve surrounding effects.",
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "hsr-46-pearl",
+      "image": "/assets/entities/pearl-splash-full-48839311.webp",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/09/20/ed0ab5bc744b3e62a86ca4a3f64a2103_6374700249797635944.png",
+      "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/character",
+      "composition": "Official HoYoWiki Gallery asset explicitly titled Splash Art. Pearl appears in the center of a complete composition of painted scrolls and large multicolored brushstroke effects.",
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "hsr-46-evanescia",
+      "image": "/assets/entities/evanescia-splash-full-276434e1.webp",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/163485/98111f6e9c9f74d7864ae25407fcb5a5_1287014810239226640.png",
+      "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/character",
+      "composition": "Complete publisher character-site posterPC splash: Evanescia seated amid oversized pink fox spirits, cushions, sword, drinks and snacks. This is a full illustrated composition, not a standee.",
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "fallback": false,
+      "limitation": null
+    },
+    {
+      "entryId": "zzz-32-roxy",
+      "image": "/assets/entities/roxy-pickup-full-ko-full-403993e1.webp",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/8f07f00c3db0d2ccacd6b5a99e67e353_482773711433485537.jpg",
+      "sourceUrl": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+      "composition": "Korean official named 잿빛 밤에 내린 안식 / 록시 exclusive-channel promotional illustration. Complete 1920x1080 banner with exact Roxy on the right, red/teal illustrated background and pickup title. Fallback: not an extracted in-game gacha splash.",
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "fallback": false,
+      "limitation": "Publicly accessible official true in-game full gacha splash was not found. CMS new-chara-cover-inner, HoYoWiki headers and Agent Records are standees and rejected. Official themed wallpapers were reviewed and contain trailer frames rather than the requested full gacha illustration."
+    },
+    {
+      "entryId": "zzz-32-promeia",
+      "image": "/assets/entities/promeia-pickup-full-ko-full-b6438e4c.webp",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/166475/9d255479db74fc33363a6b5037679e29_8927813296241621736.jpg",
+      "sourceUrl": "https://zenless.hoyoverse.com/ko-kr/news/166475",
+      "composition": "Korean official named 찬비가 그치는 밤 / 프로미아 exclusive-channel promotional illustration. Complete 1920x1080 banner with exact Promeia on the right, blue-purple chains and shard effects and pickup title. Fallback: not an extracted in-game gacha splash.",
+      "verifiedAt": "2026-10-16T11:56:57Z",
+      "fallback": false,
+      "limitation": "Publicly accessible official true in-game full gacha splash was not found. CMS new-chara-cover-inner, HoYoWiki headers and Agent Records are standees and rejected. Official themed wallpapers were reviewed and contain trailer frames rather than the requested full gacha illustration."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-1",
+      "image": "/assets/entities/verified-bluearchive-pickup-1-985dca6f.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/I__RfZeX.png",
+      "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-2",
+      "image": "/assets/entities/verified-bluearchive-pickup-2-7cabf8fe.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/amlUiofk.png",
+      "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-3",
+      "image": "/assets/entities/verified-bluearchive-pickup-3-6457ef18.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/WWbPQSg1.png",
+      "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-4",
+      "image": "/assets/entities/verified-bluearchive-pickup-4-32c063ff.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/Z4Yzn72I.png",
+      "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "ba-jp-20261007-pickup-5",
+      "image": "/assets/entities/verified-bluearchive-pickup-5-29546413.webp",
+      "imageSource": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/05/k3Nmy7fC.png",
+      "sourceUrl": "https://bluearchive.jp/news/newsJump/696",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "ba-kr-20261013-kisaki",
+      "image": "/assets/entities/verified-ba-kr-kisaki-full-79097f06.webp",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "ba-kr-20261013-shun",
+      "image": "/assets/entities/verified-ba-kr-shun-full-c8e56283.webp",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "ba-global-20261013-kisaki",
+      "image": "/assets/entities/verified-ba-kr-kisaki-full-79097f06.webp",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "ba-global-20261013-shun",
+      "image": "/assets/entities/verified-ba-kr-shun-full-c8e56283.webp",
+      "imageSource": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: exact named student and outfit are visible in the complete official recruitment banner. Japanese service pools use the Japanese official notice because the schedule differs."
+    },
+    {
+      "entryId": "arknights-sealed",
+      "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png",
+      "sourceUrl": "https://x.com/ArknightsKorea/status/2109910414112985274",
+      "composition": "elite-2-full-splash",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Replaces base standing art with the exact operator’s official in-game Elite 2 illustration. Mirrored game asset; this is promotion artwork, not a screenshot of the pull result."
+    },
+    {
+      "entryId": "arknights-sealed-jp",
+      "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png",
+      "sourceUrl": "https://x.com/ArknightsKorea/status/2109910414112985274",
+      "composition": "elite-2-full-splash",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Replaces base standing art with the exact operator’s official in-game Elite 2 illustration. Mirrored game asset; this is promotion artwork, not a screenshot of the pull result."
+    },
+    {
+      "entryId": "arknights-sealed-kr",
+      "image": "/assets/entities/ark-kaltsit-e2-full-7f16f169.webp",
+      "imageSource": "https://patchwiki.biligame.com/images/arknights/f/f1/gat3rpwcimqbetg26o6pe1kzs4bes1b.png",
+      "sourceUrl": "https://x.com/ArknightsKorea/status/2109910414112985274",
+      "composition": "elite-2-full-splash",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Replaces base standing art with the exact operator’s official in-game Elite 2 illustration. Mirrored game asset; this is promotion artwork, not a screenshot of the pull result."
+    },
+    {
+      "entryId": "nikke-global-20261008-belorta",
+      "image": "/assets/entities/nikke-belorta-235e2435.webp",
+      "imageSource": "https://www.gacha.gg/img/nikke/dm/chars/belorta-pumpkin-witch-c063-art.webp",
+      "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=b67197d4ae491a4b47aa60ea65677b6cd8eb",
+      "composition": "full-character-draw-art",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained full Belorta: Pumpkin Witch c063_00 draw artwork. Available mirror is 600×748; no verified larger standalone drawing found. The Korean event key visual is available separately but includes other imagery."
+    },
+    {
+      "entryId": "nikke-kr-20261008-belorta",
+      "image": "/assets/entities/nikke-belorta-235e2435.webp",
+      "imageSource": "https://www.gacha.gg/img/nikke/dm/chars/belorta-pumpkin-witch-c063-art.webp",
+      "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=b67197d4ae491a4b47aa60ea65677b6cd8eb",
+      "composition": "full-character-draw-art",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained full Belorta: Pumpkin Witch c063_00 draw artwork. Available mirror is 600×748; no verified larger standalone drawing found. The Korean event key visual is available separately but includes other imagery."
+    },
+    {
+      "entryId": "nikke-jp-20261008-belorta",
+      "image": "/assets/entities/nikke-belorta-235e2435.webp",
+      "imageSource": "https://www.gacha.gg/img/nikke/dm/chars/belorta-pumpkin-witch-c063-art.webp",
+      "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=b67197d4ae491a4b47aa60ea65677b6cd8eb",
+      "composition": "full-character-draw-art",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained full Belorta: Pumpkin Witch c063_00 draw artwork. Available mirror is 600×748; no verified larger standalone drawing found. The Korean event key visual is available separately but includes other imagery."
+    },
+    {
+      "entryId": "gfl2-haoplay-mityl-featured",
+      "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+      "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-game-scene",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Mityl outfit and weapon. This is a game scene/3D render, not the gacha result illustration."
+    },
+    {
+      "entryId": "gfl2-kr-mityl-featured",
+      "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+      "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-game-scene",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Mityl outfit and weapon. This is a game scene/3D render, not the gacha result illustration."
+    },
+    {
+      "entryId": "gfl2-jp-mityl-featured",
+      "image": "/assets/entities/gf2-mityl-background-full-19c0c9ff.webp",
+      "imageSource": "https://iopwiki.com/images/6/6c/GFL2_Mityl_Background.jpg",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-game-scene",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Mityl outfit and weapon. This is a game scene/3D render, not the gacha result illustration."
+    },
+    {
+      "entryId": "gfl2-kr-20261008-cheyanne",
+      "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+      "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-promotion-illustration",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official SUNBORN promotional illustration. Base Cheyanne beret, white shirt, outer coat, purple tie detail and M200 match the publisher role art. Alternate dress promo was rejected."
+    },
+    {
+      "entryId": "gfl2-kr-20261008-liushih",
+      "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+      "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-game-scene",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Liushih uniform, braid and mechanical horse. This is a game scene/3D render, not the gacha result illustration."
+    },
+    {
+      "entryId": "gfl2-jp-20261008-cheyanne",
+      "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+      "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-promotion-illustration",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official SUNBORN promotional illustration. Base Cheyanne beret, white shirt, outer coat, purple tie detail and M200 match the publisher role art. Alternate dress promo was rejected."
+    },
+    {
+      "entryId": "gfl2-jp-20261008-liushih",
+      "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+      "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-game-scene",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Liushih uniform, braid and mechanical horse. This is a game scene/3D render, not the gacha result illustration."
+    },
+    {
+      "entryId": "gfl2-global-20261008-cheyanne",
+      "image": "/assets/entities/gf2-cheyanne-promo2-full-c8b7a32f.webp",
+      "imageSource": "https://iopwiki.com/images/8/84/GFL2_Cheyanne_Promo_2.jpg",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-promotion-illustration",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official SUNBORN promotional illustration. Base Cheyanne beret, white shirt, outer coat, purple tie detail and M200 match the publisher role art. Alternate dress promo was rejected."
+    },
+    {
+      "entryId": "gfl2-global-20261008-liushih",
+      "image": "/assets/entities/gf2-liushih-background-full-d27f66ae.webp",
+      "imageSource": "https://iopwiki.com/images/f/f8/GFL2_Liushih_Background.png",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+      "composition": "full-official-game-scene",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "3840×2160 official game main-menu scene, mirrored by IOPWiki. Exact base Liushih uniform, braid and mechanical horse. This is a game scene/3D render, not the gacha result illustration."
+    },
+    {
+      "entryId": "uma-kr-20261016-goldcity",
+      "image": "/assets/entities/uma-goldcity-kakao-full-b5cf38b1.webp",
+      "imageSource": "https://k.kakaocdn.net/dn/2XbWX/dJMcaaAqMyE/cVySvaGgkORNKwHDRRAtgk/img_xl.jpg",
+      "sourceUrl": "https://pf.kakao.com/_DzxjIb/114881998",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Replaces 256px portrait with the complete current Korean Kakao Games recruitment banner. Gold City wears the correct Boho Flare outfit. Banner also shows the concurrent support cards and current Oct 16–Nov 10 period. Preserve the whole banner; do not crop out its context."
+    },
+    {
+      "entryId": "uma-global-20261014-brian",
+      "image": "/assets/entities/uma-brian-global-pickup-full-466a7603.webp",
+      "imageSource": "https://assets-webview-umamusume-en.akamaized.net/contents/assets/images/uploads/Header/gacha_banner_30136_new2_L1792015200.png?c=20260916092316",
+      "sourceUrl": "https://umamusume.com/news/1103",
+      "composition": "full-official-pickup-banner",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Replaces 256px portrait with the complete current Global official dedicated Ravenous Wolf scout banner. Limitation: original is 936×228 (wide header), so show at natural ratio/contain, not as an enlarged portrait. No full scenic gacha illustration verified."
+    },
+    {
+      "entryId": "uma-global-20261014-zephyr",
+      "image": "/assets/entities/uma-zephyr-ssr-9180aa37.webp",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/30126.png",
+      "sourceUrl": "https://umamusume.com/news/1103",
+      "composition": "full-support-card-art",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: existing 1536×2048 full support-card illustration is correct for the named card."
+    },
+    {
+      "entryId": "uma-global-20261014-opera",
+      "image": "/assets/entities/uma-opera-sr-3dd7dfff.webp",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/20054.png",
+      "sourceUrl": "https://umamusume.com/news/1103",
+      "composition": "full-support-card-art",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: existing 1536×2048 full support-card illustration is correct for the named card."
+    },
+    {
+      "entryId": "uma-global-20261014-zephyr-r",
+      "image": "/assets/entities/uma-zephyr-r-f1298f84.webp",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/10086.png",
+      "sourceUrl": "https://umamusume.com/news/1103",
+      "composition": "full-support-card-art",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: existing 1536×2048 full support-card illustration is correct for the named card."
+    },
+    {
+      "entryId": "uma-kr-20261016-support",
+      "image": "/assets/entities/uma-tucker-ssr-2b673ef8.webp",
+      "imageSource": "https://media.gametora.com/umamusume/supports/full/30257.png",
+      "sourceUrl": "https://pf.kakao.com/_DzxjIb/114881998",
+      "composition": "full-support-card-art",
+      "verifiedAt": "2026-10-16T12:01:13.769641Z",
+      "fallback": false,
+      "limitation": "Retained: existing 1536×2048 full support-card illustration is correct for the named card."
+    }
+  ]
+}

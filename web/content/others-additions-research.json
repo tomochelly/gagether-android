@@ -1,0 +1,34 @@
+{
+  "verifiedAt": "2026-10-16T10:45:20.832142+00:00",
+  "entries": [
+    "nikke-kr-20261008-belorta",
+    "nikke-jp-20261008-belorta"
+  ],
+  "api": {
+    "url": "https://na-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/GetContentInfoById",
+    "method": "POST",
+    "headers": {
+      "X-GameId": "16",
+      "X-AreaId": "na",
+      "X-Source": "pc_web",
+      "X-Language": "ko or ja",
+      "Content-Type": "application/json;charset=utf-8"
+    },
+    "body": {
+      "content_id": "localized content_id"
+    },
+    "fields": [
+      "data.content",
+      "data.title",
+      "data.pub_timestamp",
+      "data.content_id",
+      "data.pic_urls"
+    ],
+    "sourceBundle": "https://sg-gpts.playerinfinite.com/comm/assets/lib/cmssdk.min.js"
+  },
+  "scope": "Only the two regional Belorta pickups requested. Each full localized October 8 notice explicitly lists one new Special Recruit. No concurrent rerun character recruitment in those notices. The costume rerun is a shop product, not a pickup.",
+  "rawFiles": [
+    "research-localize/nikke-ko-detail.json",
+    "research-localize/nikke-ja-detail.json"
+  ]
+}

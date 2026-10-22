@@ -1,0 +1,98 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import ts from 'typescript';
+const urls=new Map();
+function moduleUrl(file){
+ file=path.resolve(file);if(urls.has(file))return urls.get(file);
+ let js=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+ js=js.replace(/from\s+(['"])([^'"]+)\1/g,(_,q,spec)=>'from '+JSON.stringify(spec.startsWith('.')?moduleUrl(path.resolve(path.dirname(file),spec+'.ts')):spec));
+ const url='data:text/javascript;base64,'+Buffer.from(js).toString('base64');urls.set(file,url);return url;
+}
+const {artworkForLocale,previewGeometry,previewSurface,textOnlyEntry}=await import(moduleUrl('lib/artwork.ts'));
+const {currentVersion}=await import(moduleUrl('lib/version-hero.ts'));
+const {games,isSupportedSchedule}=await import(moduleUrl('lib/games.ts'));
+const {inSchedule,featuredMembers,groupPickups,localizedName,platformLabel,languageLabel}=await import(moduleUrl('lib/presentation.ts'));
+const {calendarMarks,activeOnDay}=await import(moduleUrl('lib/schedule.ts'));
+const {applyEditorial}=await import(moduleUrl('lib/editorial.ts'));
+const {mobileFeed}=await import(moduleUrl('lib/mobile.ts'));
+const {seedEntries}=await import(moduleUrl('lib/seed.ts'));
+const game=id=>games.find(g=>g.id===id);
+const base={...seedEntries[0],id:'review-fixture',gameId:'bluearchive',region:'jp',kind:'update',versionHero:true,startAt:'2026-10-07T00:00:00+09:00',endAt:'2026-10-21T11:00:00+09:00',publishedAt:'2026-10-05T00:00:00+09:00'};
+const now=Date.parse('2026-10-17T00:00:00+09:00');
+assert.equal(currentVersion([base],game('bluearchive'),'jp',now)?.id,base.id);
+const future={...base,id:'future',startAt:'2026-10-20T00:00:00+09:00',publishedAt:'2026-10-16T00:00:00+09:00',verifiedAt:new Date().toISOString()};
+const expired={...base,id:'expired',endAt:'2026-10-16T00:00:00+09:00'};
+assert.equal(currentVersion([future,expired,base],game('bluearchive'),'jp',now)?.id,base.id);
+assert.equal(currentVersion([base],game('bluearchive'),'kr',now),undefined);
+assert.equal(currentVersion([{...base,hidden:true}],game('bluearchive'),'jp',now),undefined);
+assert.equal(currentVersion([{...base,region:'kr'}],game('bluearchive'),'global',now)?.id,base.id);
+for(const id of ['arknights','gfl2']){
+ assert.equal(isSupportedSchedule(id,'cn'),true);
+ assert.equal(inSchedule({...base,gameId:id,region:'cn'},game(id),'cn'),true);
+ assert.equal(inSchedule({...base,gameId:id,region:'global'},game(id),'cn'),false);
+ assert.equal(groupPickups([{...base,gameId:id,kind:'pickup',region:'kr'},{...base,id:'cn',gameId:id,kind:'pickup',region:'cn'}]).length,2);
+}
+assert.equal(isSupportedSchedule('wuwa','cn'),false);
+assert.equal(inSchedule({...base,region:'global'},game('wuwa'),'cn'),false);
+const jp={image:'/assets/jp.png',imageSource:'https://example.test/jp.png',imageVerified:true,imageLocale:'ja'};
+assert.equal(artworkForLocale(jp,'ko','full').image,undefined);
+assert.equal(artworkForLocale(jp,'ko','full','ja').image,jp.image);
+const localized={...jp,localizedArtwork:{ko:{...jp,image:'/assets/ko.png',imageLocale:'ko',width:1920,height:1080,verifiedAt:new Date().toISOString()}}};
+assert.equal(artworkForLocale(localized,'ko','full','ja').image,'/assets/ko.png');
+assert.equal(artworkForLocale({...jp,previewArtwork:{...jp,image:'/assets/neutral.png',imageLocale:'neutral',width:1920,height:1080,verifiedAt:new Date().toISOString()}},'ko','preview','ja').image,'/assets/neutral.png');
+for(const ratio of [1,2,3]){
+ const rect=previewGeometry({width:936,height:228},{width:400,height:180},{x:78,y:54,zoom:2},ratio);
+ assert.ok(rect.width<=936/ratio&&rect.height<=228/ratio,'No synthetic upscaling');
+ assert.ok(Number.isFinite(rect.left)&&Number.isFinite(rect.top));
+}
+// A small native banner sits inside the hero: blend its real four boundaries, not the hero's edge.
+const inset=previewSurface({width:512,height:288,left:194,top:106},{width:900,height:500});
+assert.deepEqual([inset.left,inset.top,inset.width,inset.height],[194,106,512,288]);
+assert.ok(inset.fadeLeft>0&&inset.fadeRight>0&&inset.fadeTop>0&&inset.fadeBottom>0);
+// A filled/cropped preview has one blended edge; no unnecessary top/bottom fading.
+const filled=previewSurface({width:700,height:400,left:-200,top:0},{width:400,height:400});
+assert.deepEqual([filled.left,filled.top,filled.width,filled.height],[0,0,400,400]);
+assert.deepEqual([filled.fadeRight,filled.fadeTop,filled.fadeBottom],[0,0,0]);
+const bounded=previewSurface({width:1000,height:600,left:-250,top:-60},{width:400,height:300},{left:30,top:20,right:80,bottom:80});
+assert.deepEqual([bounded.left,bounded.top,bounded.width,bounded.height],[50,60,350,240]);
+assert.equal(textOnlyEntry({...base,kind:'event',image:undefined,imageVerified:false,rewardNote:base.title},'ko'),true,'Rewards do not reserve an image area');
+assert.equal(textOnlyEntry({...base,...jp,kind:'package',region:'jp'},'ko'),false,'A selected service image stays visible');
+assert.equal(textOnlyEntry({...base,...jp,kind:'event',region:'global'},'ko'),true,'Unavailable localized artwork uses the list layout');
+assert.equal(textOnlyEntry({...base,kind:'pickup',image:undefined},'ko'),false,'Missing pickup art is not an event list item');
+const selection={...base,kind:'pickup',selectionCount:2,pickupMembers:Array.from({length:10},(_,i)=>({name:{ko:String(i),en:String(i),ja:String(i),zh:String(i)},role:'candidate',type:'rerun'}))};
+assert.equal(featuredMembers(selection).length,0,'Candidates must not inflate featured pickup count');
+const cn={...base,id:'cn',gameId:'arknights',region:'cn'};
+const edited=applyEditorial([cn],[{key:'entry:cn',payload:{title:{...base.title,ko:'사용자 편집'}},revision:1,updatedAt:new Date().toISOString()}]);
+assert.equal(edited[0].title.ko,'사용자 편집');
+assert.equal(applyEditorial([{...cn,gameId:'wuwa'}],[]).length,0);
+const feed=mobileFeed([cn],{},'ko');
+assert.equal(feed.entries[0].region,'cn');assert.equal(feed.games.find(g=>g.id==='arknights').canonicalRegions.cn,'cn');
+assert.equal(feed.games.find(g=>g.id==='wuwa').canonicalRegions.cn,undefined);
+const {pickupPeriod,timedSchedule,pickupStart,pickupEnd}=await import(moduleUrl('lib/pickup-history.ts'));
+const archive={...base,kind:'pickup',versionHero:false,startAt:null,endAt:null,pickupArchive:{status:'past',startDate:'2026-09-01',endDate:'2026-09-20'}};
+assert.equal(pickupPeriod(archive,now),'past');assert.equal(pickupStart(archive),'2026-09-01');assert.equal(pickupEnd(archive),'2026-09-20');assert.equal(timedSchedule(archive),true);
+const announced={...archive,pickupArchive:{status:'announced',startDate:'2026-10-29',endDate:'2026-11-19'}};
+assert.equal(pickupPeriod(announced,now),'upcoming');assert.equal(timedSchedule(announced),true);
+const confirmed={...announced,startAt:'2026-10-29T12:00:00+09:00',endAt:'2026-11-19T11:59:00+09:00',sourceKind:'official'};
+assert.equal(timedSchedule(confirmed),true);
+const forecast={...announced,sourceKind:'community',pickupArchive:{status:'forecast',startDate:'2026-10-29',endDate:'2026-11-19'}};
+assert.equal(pickupPeriod(forecast,now),'upcoming');assert.equal(timedSchedule({...forecast,startAt:confirmed.startAt}),false,'Speculation never enters schedules, even from stale malformed data');
+assert.deepEqual(mobileFeed([archive,announced,forecast,confirmed],{},'ko').entries.map(e=>e.id),[confirmed.id]);
+assert.equal(pickupPeriod({...confirmed,endAt:'2026-10-16T12:00:00+09:00'},now),'past');
+const dateOnly={...base,kind:'pickup',startAt:null,endAt:null,startDate:'2026-10-21',endDate:'2026-11-11'};
+assert.equal(timedSchedule(dateOnly),true);
+assert.equal(pickupPeriod(dateOnly,now),'upcoming');
+assert.deepEqual(calendarMarks([dateOnly]).get('2026-10-21').map(m=>[m.at,m.dateOnly]),[['2026-10-21',true]],'Calendar keeps a literal date without inventing midnight');
+assert.equal(activeOnDay(dateOnly,'2026-10-20','2026-10-17'),false);
+assert.equal(activeOnDay(dateOnly,'2026-10-21','2026-10-17'),true);
+assert.equal(mobileFeed([dateOnly],{},'ja').entries.length,0,'Date-only events never generate native clocks');
+assert.equal(timedSchedule({...dateOnly,sourceKind:'community'}),false);
+assert.equal(/[가-힣]/.test(localizedName({ko:'한국 이름',en:'',ja:'',zh:''},'ja')),false,'Missing Japanese names never fall back to Korean');
+assert.equal(platformLabel('Web top-up center · 웹 충전 센터','ja'),'Webチャージセンター');
+assert.equal(/[가-힣]/.test(languageLabel('ko','ja')),false);
+const lacrimosa={image:'/assets/ko.jpg',imageVerified:true,imageLocale:'ko',previewFocus:{x:72,y:39,zoom:1},localizedArtwork:{ja:{image:'https://ntevmg.perfectworld.com/webops/nte/2ja.jpg',imageVerified:true,imageLocale:'ja',width:1920,height:600}}};
+assert.equal(artworkForLocale(lacrimosa,'ja','preview','en').image,lacrimosa.localizedArtwork.ja.image);
+assert.equal(artworkForLocale(lacrimosa,'ja','full','en').image,lacrimosa.localizedArtwork.ja.image);
+assert.equal(artworkForLocale(lacrimosa,'ja','preview','en').previewBounds,undefined);
+console.log(JSON.stringify({ok:true,checks:['current-version chronology','regional isolation and aliases','regional banner language fallback','native image pixel cap','actual image boundary blending','image-less event/package layout','selection candidate counts','editor override preservation','mobile regional projection','date-only archive precision','official upcoming vs forecast isolation','forecast excluded from mobile notifications']}));

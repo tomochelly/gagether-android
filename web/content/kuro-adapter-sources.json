@@ -1,0 +1,71 @@
+{
+  "wuwa": {
+    "url": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/en/ArticleMenu.json",
+    "responseType": "array",
+    "sampleFile": "assets-kuro/wuwa-articles.json",
+    "verifiedFields": [
+      "articleContent",
+      "articleDesc",
+      "articleId",
+      "articleTitle",
+      "articleType",
+      "articleTypeName",
+      "startTime",
+      "endTime",
+      "gameId"
+    ],
+    "articleDetailUrl": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/en/article/{articleId}.json",
+    "articleSampleFile": "assets-kuro/wuwa-5546.json",
+    "articleFields": [
+      "articleContent",
+      "articleId",
+      "articleTitle",
+      "articleType",
+      "articleTypeName",
+      "endTime",
+      "gameId",
+      "startTime"
+    ],
+    "important": "startTime/endTime here are article publication visibility, NOT pickup availability. Actual banner dates are inside articleContent HTML. endTime 2099 is not a game deadline."
+  },
+  "arknights": {
+    "url": "https://www.arknights.global/api/resource/news/list?index=1&size=6",
+    "responseType": "object",
+    "success": "code === 0",
+    "rowsPath": "data.rows",
+    "totalPath": "data.count",
+    "sampleFile": "assets-kuro/ark-news.json",
+    "rowFields": [
+      "publishTime",
+      "offlineTime",
+      "id",
+      "title",
+      "type",
+      "content",
+      "bigImage",
+      "smallImage",
+      "link"
+    ],
+    "articleDetailUrl": "https://www.arknights.global/api/resource/news/detail?id={id}",
+    "detailPath": "data",
+    "articleSampleFile": "assets-kuro/ark-news-detail.json",
+    "important": "publishTime is epoch milliseconds. offlineTime is visibility, NOT event end. Actual event windows are inside content HTML. EN Global UTC−7 only."
+  },
+  "nte": {
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "responseType": "HTML",
+    "sampleFields": [
+      "h1 title",
+      "visible YYYY.MM.DD date",
+      "article body text",
+      "inline official CDN images"
+    ],
+    "important": "Most current banner dates explicitly UTC+8, but certain resource events use server time without mapping; parse per item."
+  },
+  "endfield": {
+    "url": "https://endfield.gryphline.com/en-us/news/9560",
+    "responseType": "SSR HTML + Next flight payload",
+    "sampleFile": "endfield-official.html",
+    "important": "Server mapping is explicit Asia UTC+8, Americas/Europe UTC−5. Some weapon endings are after N banners and cannot be converted to fixed timestamps. Current packages have names, but not money prices or complete contents."
+  }
+}

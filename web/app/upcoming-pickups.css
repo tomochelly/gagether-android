@@ -1,0 +1,25 @@
+.upcoming-pickups{margin:30px 0;min-width:0}
+.upcoming-pickups>header>div{display:flex;align-items:center;gap:10px;margin-bottom:17px;color:var(--display-ink-371,#d6e3c8)}
+.upcoming-pickups h2{font-size:1.1875rem;font-weight:650;letter-spacing:-.03em}.upcoming-pickups>header span{font:0.75rem var(--countdown);color:var(--display-ink-372,#90a17e)}
+.upcoming-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+.upcoming-card{min-width:0;background:var(--display-surface-373,#101910aa);border:var(--display-line-374,1px solid #aac19726);overflow:hidden}
+.upcoming-art{display:block;width:100%;height:215px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 60% 30%,#ffffff0d,transparent 65%)}
+.upcoming-art .art-media{display:block;width:100%;height:100%}
+.upcoming-art .art-surface{filter:grayscale(1);opacity:.92}
+.entry-card.is-upcoming .art-surface,.simple-entry.is-upcoming .art-surface{filter:grayscale(1)}
+.spotlight.is-upcoming .art-surface,.spotlight.is-upcoming .spotlight-glow{filter:grayscale(1)}
+.spotlight-deadline>span{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .4rem;min-width:0}
+.spotlight-deadline small{white-space:normal;overflow-wrap:anywhere}
+.spotlight.is-upcoming .live-dot,.spotlight.is-date-only .live-dot{animation:none;opacity:.65}
+.upcoming-info{display:block;width:100%;padding:17px 18px;text-align:left}
+.upcoming-game{display:flex;align-items:center;gap:7px;font-size:0.625rem;color:var(--display-ink-375,#a4b597);line-height:1.6;flex-wrap:wrap}
+.upcoming-game img{width:21px;height:21px;border-radius:5px;object-fit:contain}.upcoming-game small{margin-left:auto;font-size:0.5625rem;color:var(--display-ink-376,#7f9273)}
+.upcoming-name{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:13px}.upcoming-name strong{font-size:1.125rem;line-height:1.5;font-weight:650;color:var(--display-ink-377,#e1e9d8);overflow-wrap:anywhere}.upcoming-name svg{flex-shrink:0;color:var(--display-ink-378,#809775)}
+.upcoming-labels{display:flex;gap:8px;margin-top:7px;font-size:0.625rem;color:var(--display-ink-379,#a5b497);flex-wrap:wrap}.upcoming-labels span+span{padding-left:8px;border-left:var(--display-line-380,1px solid #b7cf9d25)}
+.upcoming-start{display:flex;gap:9px;align-items:center;margin-top:19px;color:var(--display-ink-381,#b8c9a6)}.upcoming-start>span{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}.upcoming-start b{font:500 1.0625rem var(--countdown)}.upcoming-start small{font-size:0.625rem}.upcoming-end{display:block;margin-top:7px;padding-left:24px;font-size:0.625rem;color:var(--display-ink-382,#8c9f7d)}.upcoming-end time{font-family:var(--countdown)}
+.upcoming-date-source{display:block;margin-top:10px;font-size:0.5625rem;line-height:1.6;color:var(--display-ink-383,#b9a884)}
+.upcoming-more{display:flex;gap:7px;align-items:center;justify-content:center;margin:16px auto 0;padding:10px 18px;font-size:0.6875rem;color:var(--display-ink-384,#b9cba5);border:var(--display-line-385,1px solid #a5be8b32)}
+.upcoming-card button:focus-visible,.upcoming-more:focus-visible{outline:2px solid #d3e7b2;outline-offset:-3px}
+.upcoming-card.compact .upcoming-info{padding:14px}.upcoming-card.compact .upcoming-name{margin-top:7px}.upcoming-card.compact .upcoming-name strong{font-size:1rem}.upcoming-card.compact .upcoming-start{margin-top:12px}.upcoming-card.compact .art-disclosure{margin:0;border-top:var(--display-line-386,1px solid #a5be8b25)}.upcoming-card.compact .upcoming-art{height:240px}
+@media(max-width:1100px){.upcoming-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.upcoming-art{height:200px}}
+@media(max-width:600px){.upcoming-pickups{margin:22px 0}.upcoming-grid{display:flex;overflow-x:auto;gap:12px;scroll-snap-type:x proximity;padding-bottom:8px;scrollbar-width:thin}.upcoming-card{flex:0 0 88%;scroll-snap-align:start}.upcoming-card:only-child{flex-basis:100%}.upcoming-art{height:200px}.upcoming-info{padding:14px}.upcoming-name strong{font-size:1.0625rem}.upcoming-pickups.compact .upcoming-grid{display:grid;grid-template-columns:minmax(0,1fr);overflow:visible}.upcoming-pickups.compact .upcoming-card{width:100%}.upcoming-pickups h2{font-size:1.0625rem}}

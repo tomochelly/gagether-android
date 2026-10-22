@@ -1,0 +1,642 @@
+[
+  {
+    "id": "genshin-primogem",
+    "gameId": "genshin",
+    "sourceImage": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/19/194600931/8902272b2dbb45cce8fbd6f596c6904b_3502391192719350131.png",
+    "sha256": "42941deca9899ded438c0ef5558eee0fb6cabed827c8d6ede88ab6e4d38e82bd",
+    "size": 35058,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "genshin-intertwined-fate",
+    "gameId": "genshin",
+    "sourceImage": "https://bbs.hoyolab.com/hoyowiki/picture/object/Intertwined%20Fate_icon.png",
+    "sha256": "6c7611f120f2ec68c5ef0382316079b1e971a215b0f59f19b4ff43ab01c4b780",
+    "size": 82694,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "genshin-acquaint-fate",
+    "gameId": "genshin",
+    "sourceImage": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/05/01/35428890/dca8e402bd3ba2481d164b30fc9c0e37_4487919902137539250.png",
+    "sha256": "f37c65faa487533716e38cf704c5b7700bb2024fe0c6b1fe3bb221e0c1a8865f",
+    "size": 63676,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "hsr-stellar-jade",
+    "gameId": "hsr",
+    "sourceImage": "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/d3381f7f9e06d05a48ee6f6ab5b995b5_5873359330457121544.png",
+    "sha256": "2907169b3073bd974d6476881e22718b8c76898266b33eb565a1d9ac5c205aff",
+    "size": 14593,
+    "contentType": "image/png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "id": "hsr-credit",
+    "gameId": "hsr",
+    "sourceImage": "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/40c42376e23bb9b493642f2dc174ee2f_3759749631911308224.png",
+    "sha256": "67b850f49180f6967e75696ff7aa5a8246b2cf624cdbf61dde9c4328ae5faa0c",
+    "size": 16504,
+    "contentType": "image/png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "id": "hsr-special-pass",
+    "gameId": "hsr",
+    "sourceImage": "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/65027c2d7c6045aea24324efd4a5b1ae_7582468639515319993.png",
+    "sha256": "8a0d54bab615d21ad25028c8bf1f2a8314a4513bcdf43bd1b2d3647b9b66fa77",
+    "size": 30939,
+    "contentType": "image/png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "id": "zzz-polychrome",
+    "gameId": "zzz",
+    "sourceImage": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2025/02/08/167256510/b796be09d9ccafa4967bbbffec346ab9_2814343997829937835.png",
+    "sha256": "ca31f323f9d826d4d483841285eb8877695a5228a39a121cf4231d981ca2a0fa",
+    "size": 45224,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "hi3-asterite",
+    "gameId": "hi3",
+    "sourceImage": "https://upload-static.hoyoverse.com/event/2021/10/29/d078d261a5978186f738be167980f55e_2027034980671021156.png",
+    "sha256": "43fa9b14f06e80ac199f749fe7fd76f8c1299196da5359979379b89261fe9bb9",
+    "size": 11509,
+    "contentType": "image/png",
+    "width": 125,
+    "height": 125
+  },
+  {
+    "id": "hi3-stamina-potion",
+    "gameId": "hi3",
+    "sourceImage": "https://upload-static.hoyoverse.com/event/2021/10/29/1b629ea82342f4e5edfd7abc42d6d93c_7332029591888562471.png",
+    "sha256": "6cec8283e86dcee50e75c7bb198cbc1bbbd5b21e356202fdb9f0d1ae08adebdd",
+    "size": 11756,
+    "contentType": "image/png",
+    "width": 125,
+    "height": 125
+  },
+  {
+    "id": "hi3-crystal",
+    "gameId": "hi3",
+    "sourceImage": "https://upload-static.hoyoverse.com/event/2021/10/29/7a49b51f78066dd2829fe63d2ce43463_5616454255955042656.png",
+    "sha256": "86231df7fda1ae927b019da8fbf84aac4504a409b4434cf50ec557ceae9006cb",
+    "size": 21391,
+    "contentType": "image/png",
+    "width": 125,
+    "height": 125
+  },
+  {
+    "id": "hi3-coin",
+    "gameId": "hi3",
+    "sourceImage": "https://upload-static.hoyoverse.com/event/2021/10/29/399925f859ccf10294ad495ad26f3991_8987055982178688309.png",
+    "sha256": "e3fb8976ab435337c044b29ed712f29f94bbede91abc926fda13885bd021d61a",
+    "size": 24970,
+    "contentType": "image/png",
+    "width": 125,
+    "height": 125
+  },
+  {
+    "id": "hi3-ae-imaginon",
+    "gameId": "hi3",
+    "sourceImage": "https://upload-static.hoyoverse.com/event/2021/10/29/6be86a2ac70f2f805dab28b7937bc268_4779267473679588402.png",
+    "sha256": "3913d3123c4cfd8e99e1b8834dff7d11ee01b61140a9464ea038a1b1b6e63b97",
+    "size": 13086,
+    "contentType": "image/png",
+    "width": 125,
+    "height": 125
+  },
+  {
+    "id": "bluearchive-pyroxene",
+    "gameId": "bluearchive",
+    "sourceImage": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/currency_icon_gem.webp",
+    "sha256": "0aa64a3429c681986489788ccbf0359574bd7dd94cbc130f514acd4454dd40ad",
+    "size": 7966,
+    "contentType": "image/webp",
+    "width": 304,
+    "height": 240
+  },
+  {
+    "id": "bluearchive-credit",
+    "gameId": "bluearchive",
+    "sourceImage": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/currency_icon_gold.webp",
+    "sha256": "1c239edd0b7eeeb707213172e2fb1b0da7f2ee54170c5182923a41b067b9dedf",
+    "size": 9124,
+    "contentType": "image/webp",
+    "width": 304,
+    "height": 240
+  },
+  {
+    "id": "bluearchive-eligma",
+    "gameId": "bluearchive",
+    "sourceImage": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_secretstone.webp",
+    "sha256": "e13a829aaaec8d544fc86eaf47d08ca4f2b1b5d2ca2b467624338151bdd38f67",
+    "size": 15410,
+    "contentType": "image/webp",
+    "width": 304,
+    "height": 240
+  },
+  {
+    "id": "bluearchive-recruit-ticket-1",
+    "gameId": "bluearchive",
+    "sourceImage": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_recruitticket_normal_1.webp",
+    "sha256": "caebbd1585be850aa606568a43ede83e5f7464202bc705997f144cd96a574778",
+    "size": 13884,
+    "contentType": "image/webp",
+    "width": 304,
+    "height": 240
+  },
+  {
+    "id": "bluearchive-recruit-ticket-10",
+    "gameId": "bluearchive",
+    "sourceImage": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_recruitticket_normal_10.webp",
+    "sha256": "64e2f9deee60b2293db136073ea20b722e27df702a37275a5cb458501d2aa908",
+    "size": 15794,
+    "contentType": "image/webp",
+    "width": 304,
+    "height": 240
+  },
+  {
+    "id": "bluearchive-secret-tech-sheet",
+    "gameId": "bluearchive",
+    "sourceImage": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_skillbook_ultimate_piece.webp",
+    "sha256": "3b610a49fd7527531f4d7b60ebdadc6f7ca7ee551276d925e5fb5bab99e9201c",
+    "size": 15268,
+    "contentType": "image/webp",
+    "width": 304,
+    "height": 240
+  },
+  {
+    "id": "bluearchive-secret-tech-notes",
+    "gameId": "bluearchive",
+    "sourceImage": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/item_icon_skillbook_ultimate.webp",
+    "sha256": "7585d648a2c7487f6b28bf1e3494a23f81301a5907a21c59e91a15c0a89fba9c",
+    "size": 16148,
+    "contentType": "image/webp",
+    "width": 304,
+    "height": 240
+  },
+  {
+    "id": "arknights-originite-prime",
+    "gameId": "arknights",
+    "sourceImage": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/diamond.png",
+    "sha256": "ebc6d2a433ff6bfbd4e00721ed902766d0bd0e02bfbf65dda5a626484a9d03d2",
+    "size": 51331,
+    "contentType": "image/png",
+    "width": 180,
+    "height": 180
+  },
+  {
+    "id": "arknights-orundum",
+    "gameId": "arknights",
+    "sourceImage": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/diamond_shd.png",
+    "sha256": "a30d80734647390feed034927b5f811bb31bbdd5e70843a302a0f9ec1289b3fa",
+    "size": 56609,
+    "contentType": "image/png",
+    "width": 180,
+    "height": 178
+  },
+  {
+    "id": "arknights-headhunting-permit",
+    "gameId": "arknights",
+    "sourceImage": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/tkt_gacha.png",
+    "sha256": "f4fdcb1541112893d5df7021e3aae4ebe89cc770da141bb544f5308e03808ae7",
+    "size": 32800,
+    "contentType": "image/png",
+    "width": 178,
+    "height": 138
+  },
+  {
+    "id": "arknights-headhunting-permit-10",
+    "gameId": "arknights",
+    "sourceImage": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/tkt_gacha_10.png",
+    "sha256": "0c012033d9ccb376071c0fe68fdb459e0328eacd1921ac2b4c5c5b1ffc155a9c",
+    "size": 42554,
+    "contentType": "image/png",
+    "width": 180,
+    "height": 144
+  },
+  {
+    "id": "arknights-kernel-permit",
+    "gameId": "arknights",
+    "sourceImage": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/classic_gacha.png",
+    "sha256": "0daadba400df4f4567c26a5553f50ea3a60c2cfe3cc8753b033fe44f0a2fb44e",
+    "size": 36355,
+    "contentType": "image/png",
+    "width": 178,
+    "height": 142
+  },
+  {
+    "id": "arknights-kernel-permit-10",
+    "gameId": "arknights",
+    "sourceImage": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/classic_gacha_10.png",
+    "sha256": "eae929397f31e3d9f1787b10bdd77785f05e2b8424272f7f907262abade5c5e0",
+    "size": 39795,
+    "contentType": "image/png",
+    "width": 178,
+    "height": 141
+  },
+  {
+    "id": "arknights-recruitment-permit",
+    "gameId": "arknights",
+    "sourceImage": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/tkt_recruit.png",
+    "sha256": "5cdb3b56f181bd6528595419b24b46a96c404518553ff039654a7df233f10c45",
+    "size": 29875,
+    "contentType": "image/png",
+    "width": 169,
+    "height": 180
+  },
+  {
+    "id": "arknights-lmd",
+    "gameId": "arknights",
+    "sourceImage": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/gold.png",
+    "sha256": "0ff48b757d6c2b1320ff86597a85e125cb6473264a36381a4f3df9e7aab7504e",
+    "size": 41892,
+    "contentType": "image/png",
+    "width": 180,
+    "height": 139
+  },
+  {
+    "id": "wuwa-astrite",
+    "gameId": "wuwa",
+    "sourceImage": "https://patchwiki.biligame.com/images/wutheringwaves/1/12/fju266e14loro53clufzevp21pq8kkc.png",
+    "sha256": "1207eaa9b516315ed3f4067f4dc13aff30f111479443a5aef2534a39ea2d4ea0",
+    "size": 39678,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "wuwa-lustrous-tide",
+    "gameId": "wuwa",
+    "sourceImage": "https://patchwiki.biligame.com/images/wutheringwaves/5/5b/cjcfr2ievx6clvmptsbskux2dsoa5vd.png",
+    "sha256": "345801cc7e95460f3cd608ddb321cf3ade2f38e870b4cdc58411db070a164e8d",
+    "size": 129600,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "wuwa-radiant-tide",
+    "gameId": "wuwa",
+    "sourceImage": "https://patchwiki.biligame.com/images/wutheringwaves/d/d4/6pf5mmq59ygn0yjhlh97ptio82687jf.png",
+    "sha256": "52f001003214f76eda216ef2f2e78b9208f0b9fc60dd60d37704b50a39d6c130",
+    "size": 117851,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "wuwa-forging-tide",
+    "gameId": "wuwa",
+    "sourceImage": "https://patchwiki.biligame.com/images/wutheringwaves/2/2f/rr22y2k0m2a10crbpo9azxmypmtiul0.png",
+    "sha256": "9be5071f435ef45ccf2a4773daa3013ac5c83ed78b10baf623c205a181356484",
+    "size": 128175,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "wuwa-shell-credit",
+    "gameId": "wuwa",
+    "sourceImage": "https://patchwiki.biligame.com/images/wutheringwaves/2/21/3lnso0e6st6vajwk7fjtw1lmrbnovys.png",
+    "sha256": "cee8ed8810e5e5b733a090c1ab4f71a3fab200ef737d94c7858b264a0ac433f8",
+    "size": 51270,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "endfield-oroberyl",
+    "gameId": "endfield",
+    "sourceImage": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/item_diamond.d0cdb4.png",
+    "sha256": "c87082c022cf914a0a249c2895a7840a14b13f30b7b7ec7903a8b652ac78f443",
+    "size": 39854,
+    "contentType": "image/png",
+    "width": 254,
+    "height": 254
+  },
+  {
+    "id": "endfield-t-creds",
+    "gameId": "endfield",
+    "sourceImage": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/item_gold.928df2.png",
+    "sha256": "3d663222ea50d4e8239111b58fb81a2a455f2f6e1081e0f6d34017d6011508f8",
+    "size": 37139,
+    "contentType": "image/png",
+    "width": 254,
+    "height": 254
+  },
+  {
+    "id": "nte-annulith",
+    "gameId": "nte",
+    "sourceImage": "https://interactivemap.app/neverness-to-everness/database/assets/items/Icon_Ringstone.png",
+    "sha256": "70af1519ea19415756e7c9ba5c6931965fe25b7332b63b55603fd14c6099250b",
+    "size": 70114,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "nte-solid-dice",
+    "gameId": "nte",
+    "sourceImage": "https://interactivemap.app/neverness-to-everness/database/assets/items/Dicelimite_256.png",
+    "sha256": "9439ddfea72ee47ccaea27b9d2695b8a73481952a6e4227b9ccb29f907e3a940",
+    "size": 55006,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "nte-fabricated-dice",
+    "gameId": "nte",
+    "sourceImage": "https://interactivemap.app/neverness-to-everness/database/assets/items/DiceNormal_256.png",
+    "sha256": "d3a6afaffe3d2d3f22fb61c1bebc6fbd2d4ebf80cccf29d78cf2e9f8861fbd5f",
+    "size": 55344,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "nte-fons",
+    "gameId": "nte",
+    "sourceImage": "https://interactivemap.app/neverness-to-everness/database/assets/items/Icon_Fonizie.png",
+    "sha256": "faef3f7c5d3e923bf94cdf2b240dbe787b171581b44681e2540340e3083958a1",
+    "size": 40886,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "nte-floe-cinema-ticket",
+    "gameId": "nte",
+    "sourceImage": "https://interactivemap.app/neverness-to-everness/database/assets/items/YH_UI_Item_Likeability_Gift_02.png",
+    "sha256": "4be220ed78c48e343b98ac07b98fb30015d89bae7255be681f60e945e8f2bf2e",
+    "size": 31426,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "nikke-ultra-boost-module",
+    "gameId": "nikke",
+    "sourceImage": "https://nikke-kr.com/events/whitememory/assets/reward0-bcba5f4f.png",
+    "sha256": "bcba5f4fc0838772392bb05695fefd4a84d9ab6407d7da8d7d82841f68c188bb",
+    "size": 25053,
+    "contentType": "image/png",
+    "width": 133,
+    "height": 136
+  },
+  {
+    "id": "nikke-code-manual-selection",
+    "gameId": "nikke",
+    "sourceImage": "https://nikke-kr.com/events/whitememory/assets/reward1-18cac4e4.png",
+    "sha256": "18cac4e4eab421dcc7070fa01ebebfb47bba82cc2a4a5af7497bb4c484be0378",
+    "size": 21622,
+    "contentType": "image/png",
+    "width": 133,
+    "height": 136
+  },
+  {
+    "id": "nikke-gems",
+    "gameId": "nikke",
+    "sourceImage": "https://nikke-kr.com/events/whitememory/assets/reward2-8d5b097b.png",
+    "sha256": "8d5b097b80d729cdecfbab3537d2d686f17e6fa5f0f06ef303bd2fbaa3ec973c",
+    "size": 26123,
+    "contentType": "image/png",
+    "width": 133,
+    "height": 136
+  },
+  {
+    "id": "nikke-darling-for-a-day",
+    "gameId": "nikke",
+    "sourceImage": "https://nikke-kr.com/events/whitememory/assets/reward3-d4b18541.png",
+    "sha256": "d4b18541d2eb4639bc693884aeae18c8e251d693d6dc8f42cbbd23bddf1a0799",
+    "size": 23891,
+    "contentType": "image/png",
+    "width": 133,
+    "height": 136
+  },
+  {
+    "id": "nikke-skill-manual-selection",
+    "gameId": "nikke",
+    "sourceImage": "https://nikke-kr.com/events/whitememory/assets/reward4-43bfb57c.png",
+    "sha256": "43bfb57c8f1b761e2c1aa637d6ef21dd3f59bca399616149067198d9c88adcc2",
+    "size": 24174,
+    "contentType": "image/png",
+    "width": 133,
+    "height": 136
+  },
+  {
+    "id": "nikke-growth-set-12h",
+    "gameId": "nikke",
+    "sourceImage": "https://nikke-kr.com/events/whitememory/assets/reward5-a2aec7ed.png",
+    "sha256": "a2aec7ed341095de00529982db003694d6147074da99555ca5fbbd1369cd4435",
+    "size": 23120,
+    "contentType": "image/png",
+    "width": 133,
+    "height": 136
+  },
+  {
+    "id": "nikke-advanced-recruit-voucher",
+    "gameId": "nikke",
+    "sourceImage": "https://nikke-kr.com/events/whitememory/assets/reward6-90c3f2d6.png",
+    "sha256": "90c3f2d6d2baa7dc6d506b8d7d7f2fa7ce944ffde3dbb2d86f1f34323aa88390",
+    "size": 27369,
+    "contentType": "image/png",
+    "width": 133,
+    "height": 136
+  },
+  {
+    "id": "elif",
+    "gameId": "trickcal",
+    "sourceImage": "https://hn01182-hue.github.io/trickcal-calc/images/%EC%97%98%EB%A6%AC%ED%94%84.png",
+    "sha256": "01f7355fa95a897e1c91708d7a573dfff892fcf6c5502a138a9d8062843fe8ab",
+    "size": 6892,
+    "contentType": "image/webp",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "stellanite-dust",
+    "gameId": "stellasora",
+    "sourceImage": "https://novaweb-krstatic.yo-star.com/h5/assets/2-2-04781a52.png",
+    "sha256": "04781a528d27a2476ce3a25c03c4591be8151f02c8b138c1931a0c51362d2721",
+    "size": 6328,
+    "contentType": "image/png",
+    "width": 174,
+    "height": 174
+  },
+  {
+    "id": "cerulean-ticket",
+    "gameId": "stellasora",
+    "sourceImage": "https://novaweb-krstatic.yo-star.com/h5/assets/5-2-6c4b9cfa.png",
+    "sha256": "6c4b9cfaa0778abfd12142d8f44396cda42f9d3e728840b6b9102f97fa9cdff1",
+    "size": 8497,
+    "contentType": "image/png",
+    "width": 174,
+    "height": 174
+  },
+  {
+    "id": "clear-drop",
+    "gameId": "reverse1999",
+    "sourceImage": "https://patchwiki.biligame.com/images/reverse1999/8/84/jzqc5blsip7ib97t39l6xhfmk57qi62.png",
+    "sha256": "4a2357369af4e2750241411410ac30a6f4ac8c9063b6c85ca7e9d5e64980a5f9",
+    "size": 798,
+    "contentType": "image/png",
+    "width": 36,
+    "height": 24
+  },
+  {
+    "id": "umamusume-jewel",
+    "gameId": "umamusume",
+    "sourceImage": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00043.png",
+    "sha256": "6a814b5370a0bef3f33df6d79341506bf3b1469788ea81379ddc430b63168b4c",
+    "size": 21097,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "umamusume-uma-gacha-ticket",
+    "gameId": "umamusume",
+    "sourceImage": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00041.png",
+    "sha256": "cdded419774ecbe3b5fe59410b234aca48cce8b2d5dd1c50ab496c636fa57a78",
+    "size": 17429,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "umamusume-support-gacha-ticket",
+    "gameId": "umamusume",
+    "sourceImage": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00111.png",
+    "sha256": "23df800595fa76b72edbdea835d09a5e8ff2c2d3c68fddf28bd408fb7625c5c9",
+    "size": 17580,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "umamusume-rainbow-crystal",
+    "gameId": "umamusume",
+    "sourceImage": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00144.png",
+    "sha256": "1499a3169eb4a7462107fddff682fed57308498175754aeaeee1dafc0ffca903",
+    "size": 16314,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "umamusume-gold-crystal",
+    "gameId": "umamusume",
+    "sourceImage": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00145.png",
+    "sha256": "72a0ddf81abbb4f3c2f634450a16513704d1c902ab6fb7a002b05b811d654bb1",
+    "size": 15597,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "umamusume-rainbow-crystal-shard",
+    "gameId": "umamusume",
+    "sourceImage": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00149.png",
+    "sha256": "bdc2a754e521706d83e6964004ea83d24b51a1398a944a20ba1068d947b60857",
+    "size": 17191,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "umamusume-gold-crystal-shard",
+    "gameId": "umamusume",
+    "sourceImage": "https://raw.githubusercontent.com/charlesmerriman/uma-carat-calculator-web/develop/public/item_icon_00150.png",
+    "sha256": "dea5304a57db59e8df82b52f8180fe312563f8b3f53b0302863174ce36d26aac",
+    "size": 15089,
+    "contentType": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "id": "gfl2-basic-info-core",
+    "gameId": "gfl2",
+    "sourceImage": "https://patchwiki.biligame.com/images/gf2/2/27/qotmvkt0fu3n5gotn7jeie6rujruco9.png",
+    "sha256": "45078e64aa337290bd01de2830aa5c87a404b5b0b5c01a5b4e7fc2297ec251a5",
+    "size": 64894,
+    "contentType": "image/png",
+    "width": 224,
+    "height": 218
+  },
+  {
+    "id": "gfl2-collapse-piece",
+    "gameId": "gfl2",
+    "sourceImage": "https://patchwiki.biligame.com/images/gf2/a/af/0y1uxl14ocm92hhoakd8kvisr34jsel.png",
+    "sha256": "9000a6e66db88e39644a144f980689a325de52361af7553f0ee1d53019825f79",
+    "size": 72715,
+    "contentType": "image/png",
+    "width": 228,
+    "height": 210
+  },
+  {
+    "id": "gfl2-access-permission",
+    "gameId": "gfl2",
+    "sourceImage": "https://patchwiki.biligame.com/images/gf2/4/46/7cvujq7qfa6xxcqe212lsu0mj09sk37.png",
+    "sha256": "779107d8afacd7ea59fbc2b1500862e654dc58c3addd2b236711de277878cd19",
+    "size": 54016,
+    "contentType": "image/png",
+    "width": 245,
+    "height": 169
+  },
+  {
+    "id": "gfl2-targeted-access-permission",
+    "gameId": "gfl2",
+    "sourceImage": "https://patchwiki.biligame.com/images/gf2/d/d0/0jr9k7fy3094xhheclccqodgrl35rmx.png",
+    "sha256": "9c82f4c09699b8d1d315b566165904349685278ed456da15b02d4974f5c4f3fb",
+    "size": 52538,
+    "contentType": "image/png",
+    "width": 246,
+    "height": 169
+  },
+  {
+    "id": "gfl2-next-gen-memory-stick",
+    "gameId": "gfl2",
+    "sourceImage": "https://patchwiki.biligame.com/images/gf2/c/c3/tiovmbi3ycnkz1axk1q1nayseio9y2m.png",
+    "sha256": "c6e1336b05c44f7e3ec633face77278ba0598ec769e57bd0b0a66c3ca3268d8a",
+    "size": 66838,
+    "contentType": "image/png",
+    "width": 235,
+    "height": 240
+  },
+  {
+    "id": "gfl2-sardis-gold",
+    "gameId": "gfl2",
+    "sourceImage": "https://patchwiki.biligame.com/images/gf2/8/8c/6casdau8s1i4dljvbfuroa5of75y50v.png",
+    "sha256": "71b94cbc06012eb11789f7b87ec8305ca9738e924988efd28f837fdf503e5a3c",
+    "size": 64211,
+    "contentType": "image/png",
+    "width": 222,
+    "height": 246
+  },
+  {
+    "id": "gfl2-combat-report",
+    "gameId": "gfl2",
+    "sourceImage": "https://patchwiki.biligame.com/images/gf2/e/e2/omqcjm3eo0mr3t4raagpbkzikhedp0h.png",
+    "sha256": "177dd60fd33bd5e91f05c55c99100c125881309f0db92445096d6cc9540f96ac",
+    "size": 74834,
+    "contentType": "image/png",
+    "width": 223,
+    "height": 243
+  }
+]

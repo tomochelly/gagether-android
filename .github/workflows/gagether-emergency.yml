@@ -1,0 +1,21 @@
+name: GAGETHER reviewed emergency data change
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.gagether/emergency.json']
+permissions: {}
+concurrency:
+  group: gagether-emergency
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and apply exact committed plan
+        run: python3 web/ops/emergency-request.py

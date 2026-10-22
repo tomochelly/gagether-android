@@ -1,0 +1,96 @@
+{
+  "verifiedAt": "2026-10-16T10:45:00Z",
+  "count": 36,
+  "replacesOriginalIds": [
+    "ba-jp-20261007-pickup-1",
+    "ba-jp-20261007-pickup-2",
+    "ba-jp-20261007-pickup-3",
+    "ba-jp-20261007-pickup-4",
+    "ba-jp-20261007-pickup-5",
+    "ba-jp-20261007-occult",
+    "ba-jp-20261014-geburah",
+    "ba-jp-20261007-growth",
+    "ba-jp-20261007-eleph",
+    "uma-global-20261014-brian",
+    "uma-global-20261014-zephyr",
+    "uma-global-20261014-opera",
+    "uma-global-20261015-sparkly",
+    "uma-global-20261010-sagittarius",
+    "uma-global-20261014-transfer",
+    "nikke-global-20261008-belorta",
+    "gfl2-haoplay-mityl-featured",
+    "gfl2-haoplay-amber-featured"
+  ],
+  "findings": [
+    "BA JP has 5 simultaneous pools: Tsumugi NEW; Eri, Kanoe, Miyako(Swimsuit), Saki(Swimsuit) RERUN.",
+    "BA KR and Global independently verified same patch and 2 NEW pickups, not JP progress.",
+    "Uma Global has 4 new items: Narita Brian trainee; SSR Yamanin Zephyr, SR T.M. Opera O, R Yamanin Zephyr support cards.",
+    "Uma KR has 1 new trainee and 3 new support cards.",
+    "NIKKE official KR/EN/JP/TW names verified; TW names do not establish CN schedule.",
+    "GFL2 official localized homepage assets verify names/event titles but not dates or NEW/RERUN."
+  ],
+  "caveats": [
+    "BA JP Korean/English transliterations are not claimed official.",
+    "Uma Global non-English outfit/card subtitles deliberately omitted pending official source verification.",
+    "BA JP growth pack source text/image end times conflict; endAt remains null.",
+    "Uma KR exact maintenance-end time unverified; startAt null.",
+    "NIKKE KR/JP source detail re-fetch is dynamic; no extra regional entry added from broad homepage alone."
+  ],
+  "adapters": [
+    {
+      "gameId": "bluearchive",
+      "region": "kr",
+      "method": "GET",
+      "url": "https://forum.nexon.com/api/v1/thread/3555107",
+      "fields": [
+        "threadId",
+        "communityId",
+        "boardId",
+        "title",
+        "content",
+        "summary",
+        "thumbnailImageUrl",
+        "createDate",
+        "modifyDate",
+        "displayStartDate"
+      ],
+      "timestampUnit": "seconds",
+      "publicSource": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107"
+    },
+    {
+      "gameId": "bluearchive",
+      "region": "global",
+      "method": "GET",
+      "url": "https://forum.nexon.com/api/v1/thread/3560143",
+      "publicSource": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+    },
+    {
+      "gameId": "umamusume",
+      "region": "kr",
+      "method": "GET",
+      "url": "https://pf.kakao.com/rocket-web/web/profiles/_DzxjIb/posts?includePinnedPost=true",
+      "detail": "https://pf.kakao.com/rocket-web/web/profiles/_DzxjIb/posts/114881998",
+      "fields": [
+        "items[].id",
+        "items[].title",
+        "items[].contents[].t",
+        "items[].contents[].v",
+        "items[].media[].url",
+        "items[].published_at",
+        "items[].permalink"
+      ],
+      "timestampUnit": "milliseconds"
+    }
+  ],
+  "assets": {
+    "ba-kr-kisaki.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/6f4e1a3a-36ec-4b7a-a243-3e5aed396cb7/%ED%82%A4%EC%82%AC%ED%82%A4%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+    "ba-kr-shun.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/0c92ac61-19c5-48bb-a138-aa3a345eeee0/%EC%8A%8C%EC%88%98%EC%98%81%EB%B3%B5%EB%AA%A8%EC%A7%91.png",
+    "ba-kr-event.png": "https://dszw1qtcnsa5e.cloudfront.net/community/20261012/cb410568-19a8-49ca-801b-1a8d67cac2ee/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%9E%8C%EA%B3%BC%EC%B2%9C%EC%B2%AD.png",
+    "uma-kr-114881998.jpg": "https://k.kakaocdn.net/dn/2XbWX/dJMcaaAqMyE/cVySvaGgkORNKwHDRRAtgk/img_xl.jpg",
+    "uma-kr-114830316.jpg": "https://k.kakaocdn.net/dn/yUaSu/dJMcaaHbpN8/NDIQgvsaw20iEzJK9NTks0/img_xl.jpg",
+    "uma-kr-114830299.jpg": "https://k.kakaocdn.net/dn/bwVtac/dJMcaiZe6tb/95MxJ9eU9ylUe7BQmrMtGK/img_xl.jpg",
+    "gf2-jp-pickup.png": "https://res.17996cdn.net/gf2/news/261008/jp/2.png",
+    "gf2-tw-pickup.png": "https://res.17996cdn.net/gf2/news/261008/tw/2.png"
+  },
+  "rawDirectory": "/workspace/scratch/f7f776ceb97d/research-localize"
+}

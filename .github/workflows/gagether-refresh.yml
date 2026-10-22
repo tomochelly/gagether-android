@@ -12,40 +12,22 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
-    if: github.repository == 'tomochelly/gagether-android'
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 18
     permissions:
       id-token: write
+      contents: read
+      issues: write
     steps:
-      - name: Refresh predefined official sources using a short-lived identity
+      - uses: actions/checkout@v4
+      - name: Refresh with bounded retries and persisted outcome
+        run: python3 web/ops/refresh-request.py
+      - name: Deduplicated incident on total failure
+        if: failure()
         env:
-          REFRESH_URL: https://gagether.wiki/api/fast-refresh
-        shell: bash
+          GH_TOKEN: ${{ github.token }}
         run: |
-          python3 - <<'PY'
-          import json, os, urllib.request, urllib.parse
-          endpoint = os.environ['REFRESH_URL']
-          agent = 'GAGETHER-OfficialRefresh/1.0 (+https://github.com/tomochelly/gagether-android)'
-          oidc_url = os.environ['ACTIONS_ID_TOKEN_REQUEST_URL'] + '&audience=' + urllib.parse.quote(endpoint, safe='')
-          request = urllib.request.Request(oidc_url, headers={'Authorization': 'Bearer ' + os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
-          with urllib.request.urlopen(request, timeout=20) as response:
-              token = json.load(response)['value']
-          print('::add-mask::' + token)
-          class NoRedirect(urllib.request.HTTPRedirectHandler):
-              def redirect_request(self, *args, **kwargs):
-                  return None
-          request = urllib.request.Request(endpoint, data=b'', method='POST', headers={'X-Gagether-Refresh-Identity': token, 'Accept': 'application/json', 'User-Agent': agent})
-          with urllib.request.build_opener(NoRedirect).open(request, timeout=420) as response:
-              result = json.load(response)
-          if not result.get('ok'):
-              raise RuntimeError('Official refresh did not complete')
-          print(json.dumps({k: result.get(k) for k in ['ok', 'skipped', 'partial', 'noticesAdded', 'finishedAt', 'readback']}, ensure_ascii=False))
-          if result.get('partial'):
-              print('::warning::Some official sources could not be checked. Previous verified records were retained; see /api/fast-refresh for individual source status.')
-          with urllib.request.urlopen(urllib.request.Request(endpoint, headers={'User-Agent': agent, 'Accept': 'application/json'}), timeout=30) as response:
-              status = json.load(response)
-          if not status.get('lastFinishedAt'):
-              raise RuntimeError('Persisted refresh status is missing')
-          print('Persisted refresh status verified:', status['lastFinishedAt'])
-          PY
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search 'in:title "GAGETHER refresh incident"' --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title 'GAGETHER refresh incident' --body "Refresh or verification failed. Check https://gagether.wiki/owner/operations and $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID . This incident is deduplicated until resolved."
+          fi

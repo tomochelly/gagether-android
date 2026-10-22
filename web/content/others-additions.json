@@ -1,0 +1,126 @@
+[
+  {
+    "id": "nikke-kr-20261008-belorta",
+    "gameId": "nikke",
+    "kind": "pickup",
+    "title": {
+      "ko": "벨로타 : 펌킨 위치",
+      "en": "Belorta: Pumpkin Witch",
+      "ja": "ベロータ：パンプキンウィッチ",
+      "zh": "貝洛塔：南瓜女巫"
+    },
+    "summary": {
+      "ko": "신규 SSR 특별 모집. 해당 지역 10월 8일 업데이트 공지에서 기간을 직접 확인했습니다.",
+      "en": "New SSR Special Recruit. Dates independently verified in this region’s Oct 8 update notice.",
+      "ja": "新SSR特殊募集。該当地域の10月8日更新告知で開催期間を確認。",
+      "zh": "新SSR特殊招募。已直接核实对应地区10月8日更新公告中的日期。"
+    },
+    "region": "kr",
+    "server": "Korea · Level Infinite",
+    "startAt": null,
+    "endAt": "2026-10-28T23:59:59+09:00",
+    "publishedAt": "2026-10-05T08:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:20.832142+00:00",
+    "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=b67197d4ae491a4b47aa60ea65677b6cd8eb",
+    "sourceTitle": "10월 8일 업데이트 공지(10/8 공지 수정)",
+    "timingNote": {
+      "ko": "10월 8일 점검 종료 후 시작. 이 공지의 특별 모집 대상은 벨로타 : 펌킨 위치 1명입니다.",
+      "en": "Starts after Oct 8 maintenance. This notice lists Belorta: Pumpkin Witch as the only new Special Recruit.",
+      "ja": "10月8日メンテナンス後開始。この告知で追加される特殊募集はベロータ：パンプキンウィッチのみ。",
+      "zh": "10月8日维护后开始；此公告中新增特殊招募仅为貝洛塔：南瓜女巫。"
+    },
+    "featured": true,
+    "officialLocales": [
+      "en",
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "ko",
+    "localizationSources": {
+      "en": "https://nikke-en.com/newsdetail.html?content_id=9ff3fe24abf0ca437fa9c7dabd8f369872a8",
+      "ko": "https://nikke-kr.com/newsdetail.html?content_id=b67197d4ae491a4b47aa60ea65677b6cd8eb",
+      "ja": "https://nikke-jp.com/newsdetail.html?content_id=b77c06cba64d1a4451aacccaded5ff6434bc",
+      "zh": "https://nikke.hotcool.tw/m/News_detail-232"
+    },
+    "pickupType": "new",
+    "pickupGroup": "nikke:kr:20261008:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "벨로타 : 펌킨 위치",
+          "en": "Belorta: Pumpkin Witch",
+          "ja": "ベロータ：パンプキンウィッチ",
+          "zh": "貝洛塔：南瓜女巫"
+        },
+        "type": "new"
+      }
+    ],
+    "image": "/assets/nikke-kr-belorta.webp",
+    "imageSource": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_297777952215eecb254f2be61b5322bede6b4902-3840x2160-ori_s_80_50_ori_q_80.jpeg"
+  },
+  {
+    "id": "nikke-jp-20261008-belorta",
+    "gameId": "nikke",
+    "kind": "pickup",
+    "title": {
+      "ko": "벨로타 : 펌킨 위치",
+      "en": "Belorta: Pumpkin Witch",
+      "ja": "ベロータ：パンプキンウィッチ",
+      "zh": "貝洛塔：南瓜女巫"
+    },
+    "summary": {
+      "ko": "신규 SSR 특별 모집. 해당 지역 10월 8일 업데이트 공지에서 기간을 직접 확인했습니다.",
+      "en": "New SSR Special Recruit. Dates independently verified in this region’s Oct 8 update notice.",
+      "ja": "新SSR特殊募集。該当地域の10月8日更新告知で開催期間を確認。",
+      "zh": "新SSR特殊招募。已直接核实对应地区10月8日更新公告中的日期。"
+    },
+    "region": "jp",
+    "server": "Japan · Level Infinite",
+    "startAt": null,
+    "endAt": "2026-10-28T23:59:59+09:00",
+    "publishedAt": "2026-10-05T08:00:00+00:00",
+    "verifiedAt": "2026-10-16T10:45:20.832142+00:00",
+    "sourceUrl": "https://nikke-jp.com/newsdetail.html?content_id=b77c06cba64d1a4451aacccaded5ff6434bc",
+    "sourceTitle": "10月8日のアップデートについて（10月8日更新）",
+    "timingNote": {
+      "ko": "10월 8일 점검 종료 후 시작. 이 공지의 특별 모집 대상은 벨로타 : 펌킨 위치 1명입니다.",
+      "en": "Starts after Oct 8 maintenance. This notice lists Belorta: Pumpkin Witch as the only new Special Recruit.",
+      "ja": "10月8日メンテナンス後開始。この告知で追加される特殊募集はベロータ：パンプキンウィッチのみ。",
+      "zh": "10月8日维护后开始；此公告中新增特殊招募仅为貝洛塔：南瓜女巫。"
+    },
+    "featured": true,
+    "officialLocales": [
+      "en",
+      "ko",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceLocale": "ja",
+    "localizationSources": {
+      "en": "https://nikke-en.com/newsdetail.html?content_id=9ff3fe24abf0ca437fa9c7dabd8f369872a8",
+      "ko": "https://nikke-kr.com/newsdetail.html?content_id=b67197d4ae491a4b47aa60ea65677b6cd8eb",
+      "ja": "https://nikke-jp.com/newsdetail.html?content_id=b77c06cba64d1a4451aacccaded5ff6434bc",
+      "zh": "https://nikke.hotcool.tw/m/News_detail-232"
+    },
+    "pickupType": "new",
+    "pickupGroup": "nikke:jp:20261008:character",
+    "poolType": "character",
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "벨로타 : 펌킨 위치",
+          "en": "Belorta: Pumpkin Witch",
+          "ja": "ベロータ：パンプキンウィッチ",
+          "zh": "貝洛塔：南瓜女巫"
+        },
+        "type": "new"
+      }
+    ],
+    "image": "/assets/nikke-jp-belorta.webp",
+    "imageSource": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_74ca0f9adf699058b21d99ac8aa63409cc6f10d8-3840x2160-ori_s_80_50_ori_q_80.jpeg"
+  }
+]
