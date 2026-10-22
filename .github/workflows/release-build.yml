@@ -7,6 +7,10 @@ on:
     types: [completed]
     branches: [main]
 
+concurrency:
+  group: gagether-signed-release
+  cancel-in-progress: false
+
 permissions:
   contents: read
 
@@ -66,6 +70,7 @@ jobs:
         if: always()
         run: rm -f -- "$GAGETHER_KEYSTORE_FILE"
       - uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: signed-release-for-review
           path: |

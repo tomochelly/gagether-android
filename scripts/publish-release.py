@@ -22,13 +22,18 @@ cert=certificate(apk)
 if cert!=certificate(old):raise SystemExit('Update signing certificate differs from 1.0.0; publication blocked')
 out=pathlib.Path('release-files');out.mkdir(exist_ok=True);name='GAGETHER-'+version+'.apk';target=out/name;target.write_bytes(apk.read_bytes());(out/'SHA256SUMS.txt').write_text(digest+'  '+name+'\n')
 (out/'verification.json').write_text(json.dumps({'version':version,'versionCode':code,'sourceCommit':sha,'sha256':digest,'certificateSha256':cert,'previousCertificateMatched':True,'runtimeWorkflowRun':os.environ.get('RUNTIME_RUN_URL'),'scope':'Android API30/API36 emulator alarms/notification delivery; Galaxy/Fold physical device not tested'},indent=2)+'\n')
-try:release=json.loads(gh('api','repos/'+repo+'/releases/tags/'+tag))
-except subprocess.CalledProcessError:
- subprocess.run(['gh','release','create',tag,'--repo',repo,'--target',sha,'--draft','--title','GAGETHER '+version+' — Android','--notes-file','docs/RELEASE_NOTES_1.0.1.md'],check=True);release=json.loads(gh('api','repos/'+repo+'/releases/tags/'+tag))
+def find_release():
+ pages=json.loads(gh('api','repos/'+repo+'/releases?per_page=100','--paginate','--slurp'))
+ return next((r for page in pages for r in page if r['tag_name']==tag),None)
+release=find_release()
+if release is None:
+ subprocess.run(['gh','release','create',tag,'--repo',repo,'--target',sha,'--draft','--title','GAGETHER '+version+' — Android','--notes-file','docs/RELEASE_NOTES_1.0.1.md'],check=True)
+ release=find_release()
+if release is None:raise SystemExit('Created draft was not found; stop without publishing')
 for file in out.iterdir():
  existing=next((a for a in release['assets'] if a['name']==file.name),None)
  if existing:
   if existing.get('digest')!='sha256:'+hashlib.sha256(file.read_bytes()).hexdigest():raise SystemExit('Existing release asset differs; refusing replacement')
- else:subprocess.run(['gh','release','upload',tag,str(file),'--repo',repo],check=True)
-subprocess.run(['gh','release','edit',tag,'--repo',repo,'--draft=false','--latest'],check=True)
+ else:subprocess.run(['gh','api','--method','POST','-H','Content-Type: application/octet-stream','--input',str(file),'https://uploads.github.com/repos/'+repo+'/releases/'+str(release['id'])+'/assets?name='+file.name],check=True,stdout=subprocess.DEVNULL)
+subprocess.run(['gh','api','--method','PATCH','repos/'+repo+'/releases/'+str(release['id']),'-F','draft=false','-f','make_latest=true','-f','target_commitish='+sha],check=True,stdout=subprocess.DEVNULL)
 print(json.dumps({'published':True,'version':version,'sha256':digest,'certificateSha256':cert,'url':'https://github.com/'+repo+'/releases/tag/'+tag}))
