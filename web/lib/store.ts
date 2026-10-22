@@ -56,9 +56,10 @@ export async function writeEditorial(key:string,payload:Record<string,unknown>,e
  await ensureEditorHistory();
  const now=new Date().toISOString();
  const query=expectedRevision===0?env.DB!.prepare('INSERT INTO editorial (key,payload,revision,updated_at,updated_by) VALUES (?,?,1,?,?) ON CONFLICT(key) DO NOTHING').bind(key,JSON.stringify(payload),now,userId):env.DB!.prepare('UPDATE editorial SET payload=?,revision=revision+1,updated_at=?,updated_by=? WHERE key=? AND revision=?').bind(JSON.stringify(payload),now,userId,key,expectedRevision);
- const result=await query.run();return result.meta.changes===1;
+ // D1 can count audit-trigger writes too. A rejected single-row CAS changes0.
+ const result=await query.run();return result.meta.changes>0;
 }
-export async function resetEditorial(key:string,expectedRevision:number,actor='owner-reset'){await ensureEditorHistory();const results=await env.DB!.batch([env.DB!.prepare('UPDATE editorial SET updated_by=? WHERE key=? AND revision=?').bind(actor,key,expectedRevision),env.DB!.prepare('DELETE FROM editorial WHERE key=? AND revision=?').bind(key,expectedRevision)]);return results[1].meta.changes===1;}
+export async function resetEditorial(key:string,expectedRevision:number,actor='owner-reset'){await ensureEditorHistory();const results=await env.DB!.batch([env.DB!.prepare('UPDATE editorial SET updated_by=? WHERE key=? AND revision=?').bind(actor,key,expectedRevision),env.DB!.prepare('DELETE FROM editorial WHERE key=? AND revision=?').bind(key,expectedRevision)]);return results[1].meta.changes>0;}
 export async function saveCheck(check:SourceCheck){
  await env.DB!.prepare('INSERT INTO source_checks (game_id,checked_at,status,count,error) VALUES (?,?,?,?,?) ON CONFLICT(game_id) DO UPDATE SET checked_at=excluded.checked_at,status=excluded.status,count=excluded.count,error=excluded.error').bind(check.gameId,check.checkedAt,check.status,check.count,check.error||null).run();
 }

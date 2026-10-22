@@ -8,7 +8,7 @@ import ts from 'typescript';
 // Exercise the actual route/store modules against an isolated SQLite database.
 const sql=new DatabaseSync(':memory:');
 for(const file of fs.readdirSync('drizzle').filter(f=>f.endsWith('.sql')).sort())sql.exec(fs.readFileSync('drizzle/'+file,'utf8'));
-function prepare(query){let args=[];const statement=sql.prepare(query);return {bind(...values){args=values;return this;},async first(){return statement.get(...args)||null;},async all(){return {results:statement.all(...args)};},async run(){return {meta:{changes:Number(statement.run(...args).changes)}};}};}
+function prepare(query){let args=[];const statement=sql.prepare(query);return {bind(...values){args=values;return this;},async first(){return statement.get(...args)||null;},async all(){return {results:statement.all(...args)};},async run(){const before=Number(sql.prepare('SELECT total_changes() AS n').get().n);statement.run(...args);return {meta:{changes:Number(sql.prepare('SELECT total_changes() AS n').get().n)-before}};}};}
 const media=new Map();
 globalThis.__patchworkTest={identity:null,env:{PATCHWORK_EDITOR_EMAILS:'owner@example.test',DB:{prepare,async batch(queries){return Promise.all(queries.map(q=>q.run()));}},BUCKET:{async put(key,body,options){media.set(key,{body,options});},async get(key){const value=media.get(key);return value?{body:value.body,httpEtag:'"fixture"',writeHttpMetadata(headers){headers.set('Content-Type',value.options.httpMetadata.contentType);}}:null;}}}};
 const dataUrl=code=>'data:text/javascript;base64,'+Buffer.from(code).toString('base64');
@@ -227,7 +227,7 @@ let plan={version:1,requestId:'drill-create-0001',reason:'Isolated recovery rehe
 const realFetch=globalThis.fetch;globalThis.fetch=async (url,options)=>{
  if(options?.redirect==='error')throw Error('Workers supports only follow/manual redirect modes');
  if(String(url).includes('/.well-known/jwks'))return Response.json({keys:[jwk]});
- if(String(url).startsWith('https://api.github.com/repos/tomochelly/gagether-android/contents/.gagether/emergency.json?ref=')){assert.equal(options?.redirect,'manual');return new Response(JSON.stringify(plan));}
+ if(String(url)===`https://raw.githubusercontent.com/tomochelly/gagether-android/${'a'.repeat(40)}/.gagether/emergency.json`){assert.equal(options?.redirect,'manual');return new Response(JSON.stringify(plan));}
  return realFetch(url,options);
 };
 const emergencyRequest=identity=>new Request(origin+'/api/emergency',{method:'POST',headers:{'X-Gagether-Emergency-Identity':identity},body:''});
@@ -238,6 +238,7 @@ try{
  r=await emergency.POST(emergencyRequest(token));assert.equal((await r.json()).replayed,true);
  plan={...plan,requestId:'drill-conflict-0002'};assert.equal((await emergency.POST(emergencyRequest(token))).status,409);
  const history=await (await historyRoute.GET(new Request(origin+'/api/editor/history?id=reliability-drill'))).json();assert.ok(history.history.length);
+ for(let i=0;i<105;i++)sql.prepare("INSERT INTO editorial_history(key,action,actor,at) VALUES('entry:unrelated','fixture','fixture','now')").run();
  r=await historyRoute.POST(request({seq:history.history[0].seq,side:'before',revision:1}));assert.equal(r.status,200);assert.ok(!(await store.readData({includeHidden:true})).entries.some(e=>e.id==='reliability-drill'));
 }finally{globalThis.fetch=realFetch;}
 console.log(JSON.stringify({emergencySignedOIDC:true,dryRun:true,createHidden:true,replayDeduplication:true,revisionConflict:true,historyRollback:true}));

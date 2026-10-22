@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "fbc81dbf9942faf715418de88ef96314493b54319d295ea225d602923a75bf45",
+  "fingerprint": "c645e983e6d78465d647551b9e8a54c31f0cddb94f8f7fbc34abc00ef1f9ec97",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -48,7 +48,7 @@
     },
     {
       "path": "app/api/editor/history/route.ts",
-      "sha256": "e75be7bb985dfe0ebad1abe78aba58aee03647067629b46c405b9fb1739fddf4"
+      "sha256": "e0d4de2f1f8f812b28eb183a4f6450feb08dc1722f04d4e0bd3b8390211e4ff7"
     },
     {
       "path": "app/api/editor/route.ts",
@@ -64,7 +64,7 @@
     },
     {
       "path": "app/api/emergency/route.ts",
-      "sha256": "92c6ea0bcbf58cacb3d00e94517c60eabd49e8d659d87b408fff427020a627f4"
+      "sha256": "d03a33369cde2469c4e69976d14b3d2349ebf86f9c72ba45bb4b772447ff257b"
     },
     {
       "path": "app/api/entry/route.ts",
@@ -1240,7 +1240,7 @@
     },
     {
       "path": "lib/store.ts",
-      "sha256": "74efbf4f2cbde1822f5d6a1c0471ef8ddf687c62f3570d5f9ff26ac7c7b62f80"
+      "sha256": "b8fb962662e4ffcb33e2c4feb316dce0b3a346e2b1a75b3ea69fa7be3e3d2ca5"
     },
     {
       "path": "lib/studio-i18n.ts",
