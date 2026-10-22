@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "2ce2bccfeb25931e339f0d46ad02258e5b6c77a64ca8910ea3b5f3f3b9d986ea",
+  "fingerprint": "6b2649480083b687b5b636731d46376f852b4f6efa6ad0f128f637a2cd7365da",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -64,7 +64,7 @@
     },
     {
       "path": "app/api/emergency/route.ts",
-      "sha256": "bdef53e7dc283f165818c2612717b8d9b7b8a14f2d84c855585f25309b153c08"
+      "sha256": "c076a3e80d6a3896e7758aa65f2bae5418a97aeb3954a57c111cad0e406d82f9"
     },
     {
       "path": "app/api/entry/route.ts",
@@ -855,6 +855,58 @@
       "sha256": "ad474fa909b130743ad56e1e70d7e7d9f6519ebd2e52c8f5dd6ae09ec3ff9cf9"
     },
     {
+      "path": "db/schema.ts",
+      "sha256": "ec02fe4379e09fc37a4d20f3999b01470940371d4b042a7f4c65fa6d4a35a233"
+    },
+    {
+      "path": "drizzle/0000_fixed_ares.sql",
+      "sha256": "01200418099f6d1baeb817bfcc3f5a3fa71c57d5e9b1e4a9f4f07e52db15510b"
+    },
+    {
+      "path": "drizzle/0001_futuristic_preak.sql",
+      "sha256": "ba45e289b2b805cdc83c1f51b11bbba3557c57ed4e9a1fac756f0405d9c13b7b"
+    },
+    {
+      "path": "drizzle/0002_swift_freak.sql",
+      "sha256": "b42b42eecfa12bd9b207161dfc472c54738447000e52eddfce6776907b7c883d"
+    },
+    {
+      "path": "drizzle/0003_good_banshee.sql",
+      "sha256": "00fb38540d7c17a2c39d2cdf7eca3e5806a6b6f50db3240b990671982c5101fb"
+    },
+    {
+      "path": "drizzle/0004_third_daredevil.sql",
+      "sha256": "1520792448ffd18070cd4d70bc64a991541e2123c51975946e481fb6a2ad6c38"
+    },
+    {
+      "path": "drizzle/0005_slim_paper_doll.sql",
+      "sha256": "0da403d0b2d1f57fdd180973cbc8b24d072c986fd706191a4e748a426221713a"
+    },
+    {
+      "path": "drizzle/0006_sudden_dark_phoenix.sql",
+      "sha256": "ac4bebcc27ced3366fe2b1990365d0c4c88e23f485d264a8e079dce472d8ed52"
+    },
+    {
+      "path": "drizzle/0007_cute_guardian.sql",
+      "sha256": "cc4f636f109804f43747b479d775acc3fc8e8313d63b4586f2b8e89534ddcbc7"
+    },
+    {
+      "path": "drizzle/0008_certain_moon_knight.sql",
+      "sha256": "3e60f548c4985a6c486f38f53103fa71f9496f4f95fefb704253b19decba6485"
+    },
+    {
+      "path": "drizzle/0009_fearless_the_stranger.sql",
+      "sha256": "90c0ca3e3ec4f1dcc014c26ae376f8107e4086d18eaa742fffec5e02a2ab2d7f"
+    },
+    {
+      "path": "drizzle/0010_overjoyed_nitro.sql",
+      "sha256": "3da9e15c5ce725e617806fead960d3c79f24950ff3d6f85d8716c06778a1310e"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "sha256": "a10b6aa3d7e533a919103966fca2e00b31c6ad7d05ad7293a09553ba49071c02"
+    },
+    {
       "path": "lib/account-profile.ts",
       "sha256": "d3dd0f538c9f16735103377ae773a10004a8531728531ddad398a25a259374d9"
     },
@@ -956,7 +1008,7 @@
     },
     {
       "path": "lib/editor-history.ts",
-      "sha256": "8808cf712979e1cc0ea9574c160809e0f3b3810511451f70c0f8fe7c7485531f"
+      "sha256": "2a72366ca838e4aad5c6fa6507315e196e919576d8036f716ec58eb295b2028e"
     },
     {
       "path": "lib/editor-i18n.ts",
@@ -1180,7 +1232,7 @@
     },
     {
       "path": "lib/service-health.ts",
-      "sha256": "1d189a0efd3b31fbc5afd31f29e1dd0d1de869a8f2615846af196c0407b8529b"
+      "sha256": "14ac3fd6c3224ba68bdb282a860ff3f9f92dd61e07c5c7ace2f105c3b5596f77"
     },
     {
       "path": "lib/spotlight.ts",

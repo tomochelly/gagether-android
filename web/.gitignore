@@ -65,3 +65,6 @@ next-env.d.ts
 /android/google-services.json
 /android/app/google-services.json
 /android/.idea/
+
+__pycache__/
+*.pyc

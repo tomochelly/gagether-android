@@ -1,7 +1,8 @@
 import {entryState,liveContent,type Entry} from './types';
 import {pickupPeriod} from './pickup-history';
 import {env} from 'cloudflare:workers';
-export async function healthTable(){await env.DB!.prepare('CREATE TABLE IF NOT EXISTS operations_health (key TEXT PRIMARY KEY,payload TEXT NOT NULL)').run();}
+// Installed by versioned migration0010; requests never run schema DDL.
+export async function healthTable(){}
 export async function recordHealth(result:any){
  await healthTable();const row=await env.DB!.prepare("SELECT payload FROM operations_health WHERE key='refresh'").first<{payload:string}>();const old=row?JSON.parse(row.payload):{};
  const bad=['failed','validation-failed'].includes(result.outcome)||!result.ok;
