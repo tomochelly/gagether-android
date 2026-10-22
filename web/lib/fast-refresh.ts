@@ -8,7 +8,7 @@ import {effectiveRegion} from './presentation';
 import {games} from './games';
 import {readOfficialChannels} from './official-social-store';
 import {retryFetch} from './retry-fetch';
-import {refreshHealth,recordHealth} from './service-health';
+import {refreshHealth,recordHealth,readbackIssues} from './service-health';
 const interval=10*60*1000;
 async function html(url:string){
  for(let hop=0;hop<4;hop++){
@@ -107,8 +107,9 @@ export async function runFastRefresh(){
   },2);
   const [automatic,effective]=await Promise.all([readData({automatic:true}),readData()]);
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
-  const health=refreshHealth([...koreanChecks,...feeds,...channelChecks,...broadcastChecks],automatic.persistent&&effective.persistent);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticed.length,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,channelChecks,broadcastChecks,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'hourly',intervalMinutes:10};
+  const validationIssues=readbackIssues(automatic.entries,effective.entries);
+  const health=refreshHealth([...koreanChecks,...feeds,...channelChecks,...broadcastChecks],!validationIssues.length);
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticed.length,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,channelChecks,broadcastChecks,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'hourly',intervalMinutes:10};
   await recordHealth(result);await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(result.finishedAt,JSON.stringify(result),startedAt).run();return result;
  }catch(e){const failed={ok:false,outcome:'failed',finishedAt:new Date().toISOString(),error:e instanceof Error?e.message:'Refresh failed'};await recordHealth(failed).catch(()=>{});await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(failed.finishedAt,JSON.stringify(failed),startedAt).run();throw e;}
 }

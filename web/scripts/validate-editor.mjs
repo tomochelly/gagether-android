@@ -244,3 +244,14 @@ try{
 console.log(JSON.stringify({emergencySignedOIDC:true,dryRun:true,createHidden:true,replayDeduplication:true,revisionConflict:true,historyRollback:true}));
 sql.close();delete globalThis.__patchworkTest;
 console.log(JSON.stringify({ok:true,checks:['owner authorization','cross-origin rejection','editor SQLite roundtrip','optimistic conflicts','manual field preservation','optional field removal','hidden/manual item lifecycle','localized site settings','invalid URLs and dates','R2 upload/readback','exact multi-pickup slides','lower rarity exclusion','CN restricted to two requested services','Chinese locale retained']}));
+
+// A successful fetch with a malformed persisted snapshot must fail validation.
+const health=await mod('lib/service-health.ts');
+const invalidWindow={...custom,id:'invalid-clock-fixture',startAt:'2026-10-23T12:00:00+09:00',endAt:'2026-10-23T11:00:00+09:00'};
+const issues=health.readbackIssues([invalidWindow],[invalidWindow]);
+assert.ok(issues.some(i=>i.code==='invalid-window'));
+assert.equal(health.refreshHealth([{status:'ok'}],!issues.length).outcome,'validation-failed');
+assert.equal(health.refreshHealth([{status:'ok'},{status:'error'}]).outcome,'partial');
+assert.equal(health.refreshHealth([{status:'error'}]).outcome,'failed');
+assert.equal(health.refreshHealth([{status:'ok'}]).outcome,'complete');
+console.log(JSON.stringify({malformedReadbackRejected:true,refreshOutcomes:true}));

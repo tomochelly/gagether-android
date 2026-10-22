@@ -37,3 +37,7 @@ export function catalogIssues(entries:Entry[],now=Date.now()){
  }
  return issues;
 }
+export function readbackIssues(automatic:Entry[],effective:Entry[]){
+ const issues=[...catalogIssues(automatic),...catalogIssues(effective)];
+ return [...new Map(issues.map(i=>[i.id+'|'+i.code,i])).values()];
+}
