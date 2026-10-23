@@ -11,8 +11,11 @@ public final class FeedValidator {
   if(feed.optInt("schemaVersion")!=1||feed.optJSONArray("entries")==null||feed.optJSONArray("games")==null||feed.getJSONArray("entries").length()>700)throw new JSONException("Unsupported schedule data");
   byte[] bytes=feed.toString().getBytes(StandardCharsets.UTF_8);
   if(bytes.length>1500000)throw new JSONException("Schedule too large");
-  for(int i=0;i<feed.getJSONArray("entries").length();i++){
-   JSONObject e=feed.getJSONArray("entries").getJSONObject(i);
+  if(feed.has("broadcasts")&&(feed.optJSONArray("broadcasts")==null||feed.getJSONArray("broadcasts").length()>150))throw new JSONException("Invalid broadcasts");
+  java.util.Set<String> ids=new java.util.HashSet<>();
+  for(JSONObject e:ReminderPolicy.records(feed)){
+   if(!ids.add(e.optString("id")))throw new JSONException("Duplicate schedule identity");
+   if(ReminderPolicy.isBroadcast(e)&&(e.optJSONObject("broadcast")==null||!e.isNull("startAt")||!e.isNull("endAt")))throw new JSONException("Invalid broadcast reservation");
    if(!ReminderPolicy.supportsRegion(e.optString("gameId"),e.optString("region"))||!e.optString("id").matches("[a-zA-Z0-9_-]{1,160}"))throw new JSONException("Invalid schedule");
   }
   return bytes;

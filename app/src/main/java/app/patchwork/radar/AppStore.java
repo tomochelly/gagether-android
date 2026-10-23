@@ -12,7 +12,7 @@ public final class AppStore {
  public static SharedPreferences store(Context c){return c.getSharedPreferences("patchwork",Context.MODE_PRIVATE);}
  public static JSONObject defaults(Context c){
   JSONObject o=new JSONObject();String l=systemLocale(c);
-  try{o.put("enabled",false).put("locale",l).put("localeMode","system").put("region",l.equals("ko")?"kr":l.equals("ja")?"jp":"global").put("games",new JSONArray()).put("gameRegions",new JSONObject()).put("kinds",new JSONArray(Arrays.asList("pickup","weapon","event","package"))).put("offsets",new JSONArray(Arrays.asList(1440,60))).put("starts",true).put("quietEnabled",true).put("quietStart",23).put("quietEnd",8).put("followMyGames",true).put("characterTone",false);o.put("notificationRules",ReminderSettings.normalize(new JSONObject().put("offsets",new JSONArray(Arrays.asList(1440,60,0)))));}catch(JSONException ignored){}return o;
+  try{o.put("enabled",false).put("locale",l).put("localeMode","system").put("region",l.equals("ko")?"kr":l.equals("ja")?"jp":"global").put("games",new JSONArray()).put("gameRegions",new JSONObject()).put("kinds",new JSONArray(Arrays.asList("pickup","weapon","event","package"))).put("offsets",new JSONArray(Arrays.asList(1440,60))).put("starts",true).put("quietEnabled",true).put("quietStart",23).put("quietEnd",8).put("followMyGames",true).put("characterTone",false).put("broadcastsEnabled",false).put("broadcastOffsets",new JSONArray().put(15).put(0));o.put("notificationRules",ReminderSettings.normalize(new JSONObject().put("offsets",new JSONArray(Arrays.asList(1440,60,0)))));}catch(JSONException ignored){}return o;
  }
  public static String systemLocale(Context c){List<String> tags=new ArrayList<>();android.os.LocaleList locales=c.getResources().getConfiguration().getLocales();for(int i=0;i<locales.size();i++)tags.add(locales.get(i).toLanguageTag());return AppLanguage.resolve(tags);}
  public static JSONObject prefs(Context c){try{JSONObject p=new JSONObject(store(c).getString("preferences",defaults(c).toString()));String mode=p.optString("localeMode","system");p.put("localeMode",mode);if(!mode.equals("manual"))p.put("locale",systemLocale(c));return p;}catch(Exception ignored){return defaults(c);}}
@@ -26,6 +26,7 @@ public final class AppStore {
   for(String kind:Arrays.asList("pickup","weapon","event","package"))if(ReminderPolicy.contains(input.optJSONArray("kinds"),kind))ks.put(kind);
   JSONArray offsets=input.optJSONArray("offsets");for(int off:Arrays.asList(60,1440,4320))if(offsets!=null)for(int i=0;i<offsets.length();i++)if(offsets.optInt(i)==off){os.put(off);break;}
   JSONObject requested=input.optJSONObject("gameRegions");if(requested!=null)for(String g:ReminderPolicy.GAME_IDS){String r=requested.optString(g);if(ReminderPolicy.supportsRegion(g,r))regions.put(g,r);}
+  out.put("broadcastsEnabled",input.optBoolean("broadcastsEnabled",false)).put("broadcastOffsets",new JSONArray(ReminderSettings.clean(input.has("broadcastOffsets")?input.optJSONArray("broadcastOffsets"):new JSONArray().put(15).put(0))));
   out.put("games",gs).put("kinds",ks).put("offsets",os).put("gameRegions",regions).put("followMyGames",input.optBoolean("followMyGames",false)).put("characterTone",input.optBoolean("characterTone",false)).put("notificationRules",ReminderSettings.normalize(input));store(c).edit().putString("preferences",out.toString()).apply();
  }
  public static JSONObject feed(Context c){synchronized(LOCK){try{return new JSONObject(new String(new AtomicFile(new File(c.getFilesDir(),"schedule.json")).readFully(),StandardCharsets.UTF_8));}catch(Exception ignored){return new JSONObject();}}}
@@ -36,5 +37,5 @@ public final class AppStore {
  }
  public static String locale(Context c){return prefs(c).optString("locale","ko");}
  public static boolean fresh(Context c){return System.currentTimeMillis()-store(c).getLong("lastSyncAt",0)<24L*3600000;}
- public static JSONObject entry(Context c,String id){JSONArray entries=feed(c).optJSONArray("entries");if(entries!=null)for(int i=0;i<entries.length();i++){JSONObject e=entries.optJSONObject(i);if(e!=null&&id.equals(e.optString("id")))return e;}return null;}
+ public static JSONObject entry(Context c,String id){List<JSONObject> entries=ReminderPolicy.records(feed(c));for(int i=0;i<entries.size();i++){JSONObject e=entries.get(i);if(e!=null&&id.equals(e.optString("id")))return e;}return null;}
 }

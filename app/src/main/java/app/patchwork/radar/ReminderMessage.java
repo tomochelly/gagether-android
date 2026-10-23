@@ -24,6 +24,12 @@ public final class ReminderMessage {
  }
  public static ReminderMessage create(JSONObject feed,JSONObject prefs,JSONObject entry,String event,long at,int offset,long now,ZoneId zone){
   String l=prefs.optString("locale","en"),game=ReminderPolicy.gameName(feed,entry.optString("gameId"),l),label=timing(l,event,at,now),id=entry.optString("id");
+  if(ReminderPolicy.isBroadcast(entry)){
+   JSONObject b=entry.optJSONObject("broadcast");if(b==null)return new ReminderMessage(game,"",id,false);boolean program=ReminderPolicy.epoch(b.optString("programStartAt"))>0;
+   String time=Instant.ofEpochMilli(at).atZone(zone).format(DateTimeFormatter.ofPattern("MM-dd HH:mm z",Locale.forLanguageTag(l)));
+   String when=program?pick(l,"본방 시작 ","Program starts ","本編開始 ","正片开始 "):pick(l,"예약 송출 ","Scheduled transmission ","予約配信 ","预约开播 ");
+   return new ReminderMessage(game+" · "+pick(l,"공식 방송","Official broadcast","公式配信","官方直播")+" · "+timing(l,"start",at,now),ReminderPolicy.text(entry.optJSONObject("title"),l)+"\n"+when+time,id,false);
+  }
   List<JSONObject> peers=ReminderPolicy.groupEntries(feed,prefs,entry,event,at);List<String> titles=new ArrayList<>();
   for(JSONObject e:peers){String t=ReminderPolicy.text(e.optJSONObject("title"),l);if(!t.isEmpty()&&!titles.contains(t))titles.add(t);}
   String factual=String.join(" · ",titles);String clock=Instant.ofEpochMilli(at).atZone(zone).format(DateTimeFormatter.ofPattern("MM-dd HH:mm z",Locale.forLanguageTag(l)));

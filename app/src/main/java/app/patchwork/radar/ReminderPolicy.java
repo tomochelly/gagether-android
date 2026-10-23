@@ -22,12 +22,26 @@ public final class ReminderPolicy {
  public static boolean matches(JSONObject entry,JSONObject prefs,JSONObject feed){
   String game=entry.optString("gameId"),wanted=prefs.optString("region","kr");
   if(!supportsRegion(game,entry.optString("region")))return false;
-  if(!contains(prefs.optJSONArray("games"),game)||!contains(prefs.optJSONArray("kinds"),entry.optString("kind")))return false;
+  if(!contains(prefs.optJSONArray("games"),game))return false;
+  if(isBroadcast(entry)?!prefs.optBoolean("broadcastsEnabled",false):!contains(prefs.optJSONArray("kinds"),entry.optString("kind")))return false;
   JSONObject overrides=prefs.optJSONObject("gameRegions");if(overrides!=null)wanted=overrides.optString(game,wanted);
   if(!supportsRegion(game,wanted))return false;
   JSONArray games=feed.optJSONArray("games");if(games==null)return false;
   for(int i=0;i<games.length();i++){JSONObject g=games.optJSONObject(i);if(g!=null&&game.equals(g.optString("id"))){JSONObject mapping=g.optJSONObject("canonicalRegions");return entry.optString("region").equals(mapping==null?wanted:mapping.optString(wanted,wanted));}}
   return false;
+ }
+ public static boolean isBroadcast(JSONObject e){return "broadcast".equals(e.optString("kind"));}
+ public static List<JSONObject> records(JSONObject feed){
+  List<JSONObject> out=new ArrayList<>();for(String key:Arrays.asList("entries","broadcasts")){JSONArray rows=feed.optJSONArray(key);if(rows!=null)for(int i=0;i<rows.length();i++){JSONObject e=rows.optJSONObject(i);if(e!=null&&(!key.equals("broadcasts")||isBroadcast(e)))out.add(e);}}return out;
+ }
+ public static long eventAt(JSONObject e,String event){
+  if(isBroadcast(e)){if(!event.equals("broadcast"))return 0;JSONObject b=e.optJSONObject("broadcast");if(b==null)return 0;long program=epoch(b.optString("programStartAt"));return program>0?program:epoch(b.optString("scheduledAt"));}
+  return epoch(e.optString(event.equals("start")?"startAt":"endAt"));
+ }
+ public static boolean broadcastEligible(JSONObject e,long now){
+  if(!isBroadcast(e))return false;JSONObject b=e.optJSONObject("broadcast");if(b==null)return false;
+  long checked=epoch(b.optString("statusCheckedAt",b.optString("verifiedAt"))),age=now-checked;
+  return b.optBoolean("official")&&b.optBoolean("metadataVerified")&&"scheduled".equals(b.optString("status"))&&epoch(b.optString("endedAt"))==0&&age>=-300000&&age<=24*3600000L&&b.optString("locale").equals(e.optString("expectedLocale"))&&Arrays.asList("ko","en","ja","zh").contains(e.optString("expectedLocale"));
  }
  public static List<JSONObject> deadlines(JSONObject feed,JSONObject prefs,long now){
   List<JSONObject> list=new ArrayList<>();JSONArray entries=feed.optJSONArray("entries");if(entries==null)return list;
@@ -41,24 +55,25 @@ public final class ReminderPolicy {
  }
  public static String groupKey(JSONObject e,String event,long at){
   String group=e.optString("notificationGroup");
+  if(isBroadcast(e)){JSONObject b=e.optJSONObject("broadcast");String video=b==null?"":b.optString("youtubeId");return e.optString("gameId")+"/"+e.optString("region")+"/"+(video.isEmpty()?e.optString("id"):video)+"|"+event+"|"+at;}
   return ("pickup".equals(e.optString("kind"))&&!group.isEmpty()?e.optString("gameId")+"/"+e.optString("region")+"/"+group:e.optString("id"))+"|"+event+"|"+at;
  }
  public static List<JSONObject> groupEntries(JSONObject feed,JSONObject prefs,JSONObject entry,String event,long at){
-  List<JSONObject> peers=new ArrayList<>();JSONArray all=feed.optJSONArray("entries");String key=groupKey(entry,event,at);
-  if(all!=null)for(int i=0;i<all.length();i++){JSONObject e=all.optJSONObject(i);if(e!=null&&matches(e,prefs,feed)&&epoch(e.optString(event.equals("start")?"startAt":"endAt"))==at&&key.equals(groupKey(e,event,at)))peers.add(e);}
+  List<JSONObject> peers=new ArrayList<>();List<JSONObject> all=records(feed);String key=groupKey(entry,event,at);
+  for(JSONObject e:all){if(matches(e,prefs,feed)&&eventAt(e,event)==at&&key.equals(groupKey(e,event,at)))peers.add(e);}
   peers.sort(Comparator.comparing(e->e.optString("id")));if(peers.isEmpty())peers.add(entry);return peers;
  }
  public static List<Reminder> plan(JSONObject feed,JSONObject prefs,long now,ZoneId zone){
   List<Reminder> result=new ArrayList<>();if(!prefs.optBoolean("enabled",false))return result;
-  JSONArray entries=feed.optJSONArray("entries");if(entries==null)return result;Set<String> seen=new HashSet<>();
-  List<JSONObject> ordered=new ArrayList<>();for(int i=0;i<entries.length();i++){JSONObject e=entries.optJSONObject(i);if(e!=null)ordered.add(e);}ordered.sort(Comparator.comparing(e->e.optString("id")));
+  Set<String> seen=new HashSet<>();
+  List<JSONObject> ordered=records(feed);ordered.sort(Comparator.comparing(e->e.optString("id")));
   for(JSONObject e:ordered){
-   if(!matches(e,prefs,feed))continue;String id=e.optString("id");long start=epoch(e.optString("startAt"));
-   for(String event:Arrays.asList("start","end")){
-    long at=epoch(e.optString(event.equals("start")?"startAt":"endAt"));if(at<=now)continue;
+   if(!matches(e,prefs,feed)||isBroadcast(e)&&!broadcastEligible(e,now))continue;String id=e.optString("id");long start=epoch(e.optString("startAt"));
+   for(String event:isBroadcast(e)?Collections.singletonList("broadcast"):Arrays.asList("start","end")){
+    long at=eventAt(e,event);if(at<=now)continue;
     for(int offset:ReminderSettings.offsets(prefs,e.optString("kind"),event)){
      long fire=at-offset*60000L;String identity=groupKey(e,event,at)+"|"+offset;
-     if(fire>now&&fire<now+90L*86400000&&(event.equals("start")||start==0||fire>=start)&&!quietAt(fire,prefs,zone)&&seen.add(identity))result.add(new Reminder(id,event,at,fire,offset));
+     if(fire>now&&fire<now+90L*86400000&&(event.equals("broadcast")||event.equals("start")||start==0||fire>=start)&&!quietAt(fire,prefs,zone)&&seen.add(identity))result.add(new Reminder(id,event,at,fire,offset));
     }
    }
   }

@@ -11,6 +11,7 @@ public final class ReminderSettings {
   return new ArrayList<>(out).subList(0,Math.min(8,out.size()));
  }
  public static List<Integer> offsets(JSONObject prefs,String kind,String event){
+  if(kind.equals("broadcast"))return event.equals("broadcast")&&prefs.optBoolean("broadcastsEnabled",false)?clean(prefs.has("broadcastOffsets")?prefs.optJSONArray("broadcastOffsets"):new JSONArray().put(15).put(0)):Collections.emptyList();
   if(!KINDS.contains(kind)||!Arrays.asList("start","end").contains(event))return Collections.emptyList();
   JSONObject all=prefs.optJSONObject("notificationRules"),rule=all==null?null:all.optJSONObject(kind);boolean start=event.equals("start");
   if(rule!=null){if(!rule.optBoolean(start?"starts":"ends",true))return Collections.emptyList();return clean(rule.optJSONArray(start?"startOffsets":"endOffsets"));}
@@ -26,7 +27,8 @@ public final class ReminderSettings {
  }
  public static boolean due(JSONObject entry,JSONObject prefs,String event,long at,int offset,long now){
   if(!offsets(prefs,entry.optString("kind"),event).contains(offset))return false;
-  long current=ReminderPolicy.epoch(entry.optString(event.equals("start")?"startAt":"endAt"));
+  if(ReminderPolicy.isBroadcast(entry)&&!ReminderPolicy.broadcastEligible(entry,now))return false;
+  long current=ReminderPolicy.eventAt(entry,event);
   if(current==0||at!=current||now<at-offset*60000L)return false;
   // An early reminder must never arrive after its deadline. An exact-time reminder
   // may be delayed by Android, but is discarded after six hours.

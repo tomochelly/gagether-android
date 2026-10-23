@@ -6,6 +6,7 @@ public final class Words {
  public static String end(Context c){return pick(c,"종료","Ends","終了","结束");}
  public static String refresh(Context c){return pick(c,"새로고침","Refresh","更新","刷新");}
  public static String reminders(Context c){return pick(c,"일정 알림","Schedule reminders","予定の通知","日程提醒");}
+ public static String broadcasts(Context c){return pick(c,"내 게임 공식 방송","My games broadcasts","マイゲームの公式配信","我的游戏官方直播");}
  public static String test(Context c){return pick(c,"알림이 정상적으로 표시됩니다.","Notifications are working.","通知が正常に表示されています。","通知已正常显示。");}
  public static String empty(Context c){return pick(c,"앱 설정에서 관심 게임을 선택하세요.","Choose games in App settings.","アプリ設定でゲームを選択してください。","请在应用设置中选择游戏。");}
  public static String none(Context c){return pick(c,"확인된 현재·예정 일정이 없습니다.","No confirmed current or upcoming schedules.","確認済みの開催中・今後の予定はありません。","暂无已确认的当前或未来日程。");}

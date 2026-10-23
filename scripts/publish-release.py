@@ -1,7 +1,7 @@
 """Publish only the tested owner-signed update; never generate or replace a signing key."""
 import hashlib,json,os,pathlib,re,subprocess,sys
 request=json.loads(pathlib.Path('.gagether/android-release.json').read_text());version=request['version'];code=request['versionCode']
-if not re.fullmatch(r'1\.0\.1',version) or code!=8 or request.get('publish') is not True:raise SystemExit('No matching approved release request')
+if not re.fullmatch(r'1\.0\.2',version) or code!=9 or request.get('publish') is not True:raise SystemExit('No matching approved release request')
 gradle=pathlib.Path('app/build.gradle').read_text()
 if "versionName '"+version+"'" not in gradle or 'versionCode '+str(code) not in gradle:raise SystemExit('Release request/source mismatch')
 def gh(*args):return subprocess.check_output(['gh',*args],text=True)
@@ -27,7 +27,7 @@ def find_release():
  return next((r for page in pages for r in page if r['tag_name']==tag),None)
 release=find_release()
 if release is None:
- subprocess.run(['gh','release','create',tag,'--repo',repo,'--target',sha,'--draft','--title','GAGETHER '+version+' — Android','--notes-file','docs/RELEASE_NOTES_1.0.1.md'],check=True)
+ subprocess.run(['gh','release','create',tag,'--repo',repo,'--target',sha,'--draft','--title','GAGETHER '+version+' — Android','--notes-file','docs/RELEASE_NOTES_1.0.2.md'],check=True)
  release=find_release()
 if release is None:raise SystemExit('Created draft was not found; stop without publishing')
 for file in out.iterdir():
