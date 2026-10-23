@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "75b76366162f2ca52859cb0e3a1aba94ef0dc144a0dbfd5e6c63464698287cc5",
+  "fingerprint": "3e990dbc725f65ed2aea54a80c502bf3866f8e33bbc8cd91b777d1f3dbab8938",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1368,7 +1368,7 @@
     },
     {
       "path": "lib/maintained-artwork-store.ts",
-      "sha256": "6d0b5a2ffd444ae08ddfb4f01a656fd5575144972f9c81162ea72633877fb95b"
+      "sha256": "b255de0b4a5897e28cca073fa01ed291a2a9e914c62b9ee5a521f3890c88bfa3"
     },
     {
       "path": "lib/maintained-artwork.ts",
@@ -1400,11 +1400,11 @@
     },
     {
       "path": "lib/nte-profile-store.ts",
-      "sha256": "406f4521047ab4ef57091a71324db2a41690bffd5c5803955970f6fa69fd4093"
+      "sha256": "14c65a2ea9f3ba9b6cbb7f2342b69ca95ee1903dfaa0761135bc84a8958b0d37"
     },
     {
       "path": "lib/nte-profiles.ts",
-      "sha256": "f881714a72144928f2478e889695c479ab9f35c8748f63932310db137910f311"
+      "sha256": "3de49482fa132f027b11cd24ec7656944747bd99ad995a1bb2487d1728e0f03d"
     },
     {
       "path": "lib/official-collection.ts",
@@ -1532,7 +1532,7 @@
     },
     {
       "path": "lib/seed.ts",
-      "sha256": "20cd39e367568db136f7d2563d1591448b7e121e24664095625046c1d0644305"
+      "sha256": "1dfbaf2f263124469cc01ce42c91fe9facd19adf4e8eac58c2c1bcd90c44d545"
     },
     {
       "path": "lib/seo.ts",
@@ -1620,7 +1620,7 @@
     },
     {
       "path": "lib/wiki-coverage.ts",
-      "sha256": "c7ee173337968ec1db8bdb5431bcb6016c61ddd4f6e33355fd7953f04d8e5e60"
+      "sha256": "ee5729657cc94bce1c0f490ec3bcfd8bb7aafaf14a7c7d031435f5c8d5f68bf7"
     },
     {
       "path": "lib/write-access.ts",

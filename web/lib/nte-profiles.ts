@@ -63,11 +63,18 @@ export function parseNteProfile(html:string,source:typeof nteProfileSources[numb
 }
 /** Do not overwrite manually authored profiles or another exact outfit. */
 export function applyNteProfile(entry:Entry,profile:EntityProfile,previousProfile?:EntityProfile){
- const old=entry.entityDetails?.find(p=>p.id===profile.id||samePickupName(p.name,profile.name));if(old&&!sameEditValue(old,previousProfile))return entry;
- if(old&&sameEditValue({...old,verifiedAt:''},{...profile,verifiedAt:''}))return entry;
- return {...entry,entityDetails:[...(entry.entityDetails||[]).filter(p=>p.id!==profile.id),profile]};
+ const old=entry.entityDetails?.find(p=>p.id===profile.id||samePickupName(p.name,profile.name));
+ // Empty legacy shells may be completed. Unknown existing numeric tables are protected.
+ if(old&&old.stats.length&&!sameEditValue(old,previousProfile))return entry;
+ let next=profile;
+ if(old){
+  const groups=[...old.groups];for(const group of profile.groups){const i=groups.findIndex(g=>samePickupName(g.title,group.title));if(i<0)groups.push(group);else groups[i]=group;}
+  const traits=[...old.traits||[]];for(const trait of profile.traits||[]){const i=traits.findIndex(t=>t.id===trait.id);if(i<0)traits.push(trait);else traits[i]={...traits[i],...trait,icon:trait.icon||traits[i].icon};}
+  next={...old,...profile,groups,traits,sources:[...new Map([...old.sources,...profile.sources].map(s=>[s.url,s])).values()].slice(0,10),materials:profile.materials?.length?profile.materials:old.materials};
+  if(sameEditValue({...old,verifiedAt:''},{...next,verifiedAt:''}))return entry;
+ }
+ return {...entry,entityDetails:[...(entry.entityDetails||[]).filter(p=>p!==old&&p.id!==profile.id),next]};
 }
-
 /** Source discovery uses exact published names and fixed same-game paths, never guessed slugs. */
 export function discoverNteSources(entries:Entry[],html:string,kind:'pickup'|'weapon'){
  const component=kind==='pickup'?'NteCharacterList':'NteArcList',tag=[...html.matchAll(/<astro-island\b[^>]*>/g)].map(m=>m[0]).find(t=>attr(t,'component-url').includes(component));if(!tag)throw Error('NTE list missing');

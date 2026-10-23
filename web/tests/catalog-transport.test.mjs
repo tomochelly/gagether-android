@@ -3,7 +3,8 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {packCatalog,unpackCatalog} from '../lib/catalog-transport.ts';
 import {catalogEntry} from '../lib/catalog-index.ts';
-import {seedEntries} from '../lib/seed.ts';
+// Resolve seed dependencies after the TypeScript hooks have been registered.
+const {seedEntries}=await import('../lib/seed.ts');
 test('compact catalog preserves complete public data, null dates, locale artwork and owner revisions',()=>{
  const entries=seedEntries.map(e=>catalogEntry(e));
  const data={entries,sourceChecks:[],settings:{brand:{name:'<GAGETHER>'}},settingsRevision:7,persistent:true,serverTime:'2026-10-21T13:00:00Z'};

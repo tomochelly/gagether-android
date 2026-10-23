@@ -1,5 +1,6 @@
 import type {Entry} from "./types";
-export const seedEntries: Entry[] =[
+import {separateEntityRewards} from './content-roles';
+const rawSeedEntries: Entry[] =[
   {
     "region": "global",
     "startAt": null,
@@ -13738,3 +13739,4 @@ export const seedEntries: Entry[] =[
     }
   }
 ];
+export const seedEntries: Entry[] = rawSeedEntries.map(separateEntityRewards);
