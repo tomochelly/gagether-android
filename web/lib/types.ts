@@ -22,7 +22,7 @@ export interface OfficialBroadcast {
  scheduledAt:string|null;scheduledDate?:string;programStartAt?:string|null;actualStartAt?:string|null;endedAt:string|null;
  thumbnailUrl?:string;official:true;metadataVerified:true;watched:false;verifiedAt:string;statusCheckedAt?:string;
 }
-export interface StatRow {label:Localized;value:string;note?:Localized}
+export interface StatRow {label:Localized;value:string;note?:Localized;icon?:GameIcon}
 export interface EntityProfile {
  id:string;name:Localized;category:Localized;basis:Localized;officialLocales?:Locale[];translatedLocales?:Locale[];
  traits?:EntityTrait[];stats:StatRow[];statSourceKind:SourceKind;

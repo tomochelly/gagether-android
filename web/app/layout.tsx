@@ -23,6 +23,7 @@ import "./catalog-loading.css";
 import "./feedback.css";
 import "./content-refresh.css";
 import "./mobile-density.css";
+import "./practical-details.css";
 import {requestLocale} from '@/lib/request-locale';
 import {brandOrigin} from '@/lib/brand';
 import {displayBootstrap} from '@/lib/display-preferences';

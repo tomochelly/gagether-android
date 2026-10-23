@@ -1,0 +1,1763 @@
+[
+  {
+    "gameId": "endfield",
+    "id": "element",
+    "values": {
+      "ko": [
+        "냉기"
+      ],
+      "en": [
+        "Cryo"
+      ],
+      "ja": [
+        "寒冷"
+      ],
+      "zh": [
+        "寒冷"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/endfield-ice.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg",
+      "width": 120,
+      "height": 120,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "endfield",
+    "id": "class",
+    "values": {
+      "ko": [
+        "서포터"
+      ],
+      "en": [
+        "Supporter"
+      ],
+      "ja": [
+        "補助"
+      ],
+      "zh": [
+        "辅助"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/endfield-support.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg",
+      "width": 139,
+      "height": 139,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "endfield",
+    "id": "element",
+    "values": {
+      "ko": [
+        "전기"
+      ],
+      "en": [
+        "Electric"
+      ],
+      "ja": [
+        "電磁"
+      ],
+      "zh": [
+        "电磁"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/endfield-electric.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg",
+      "width": 120,
+      "height": 120,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "endfield",
+    "id": "class",
+    "values": {
+      "ko": [
+        "가드"
+      ],
+      "en": [
+        "Guard"
+      ],
+      "ja": [
+        "前衛"
+      ],
+      "zh": [
+        "近卫"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/endfield-guard.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg",
+      "width": 139,
+      "height": 139,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "element",
+    "values": {
+      "ko": [
+        "인멸"
+      ],
+      "en": [
+        "Havoc"
+      ],
+      "ja": [
+        "消滅"
+      ],
+      "zh": [
+        "湮灭"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-element-6.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/06654bfa76703f8ad1315e583b8d8194/f19c9085129709ee14d013be869df69b.png",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "대검"
+      ],
+      "en": [
+        "Broadblade"
+      ],
+      "ja": [
+        "長刃"
+      ],
+      "zh": [
+        "长刃"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-weapon-cr.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/website-preface/assets/index-f122c88a.js",
+      "width": 95,
+      "height": 101,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "element",
+    "values": {
+      "ko": [
+        "기류"
+      ],
+      "en": [
+        "Aero"
+      ],
+      "ja": [
+        "気動"
+      ],
+      "zh": [
+        "气动"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-element-4.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/06654bfa76703f8ad1315e583b8d8194/09dd8c2662b96ce14928333f055c5580.png",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "권갑"
+      ],
+      "en": [
+        "Gauntlets"
+      ],
+      "ja": [
+        "手甲"
+      ],
+      "zh": [
+        "臂铠"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-weapon-bk.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/website-preface/assets/index-f122c88a.js",
+      "width": 100,
+      "height": 101,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "nte",
+    "id": "element",
+    "values": {
+      "ko": [
+        "혼"
+      ],
+      "en": [
+        "Psyche"
+      ],
+      "ja": [
+        "魂"
+      ],
+      "zh": [
+        "魂"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/nte-psyche.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/elements/Psyche.webp",
+      "width": 512,
+      "height": 512,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "nte",
+    "id": "element",
+    "values": {
+      "ko": [
+        "암"
+      ],
+      "en": [
+        "Chaos"
+      ],
+      "ja": [
+        "闇"
+      ],
+      "zh": [
+        "暗"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/nte-chaos.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/elements/Chaos.webp",
+      "width": 512,
+      "height": 512,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "class",
+    "values": {
+      "ko": [
+        "메딕"
+      ],
+      "en": [
+        "Medic"
+      ],
+      "ja": [
+        "医療"
+      ],
+      "zh": [
+        "医疗"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-class-6d768455.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/class_%E5%8C%BB%E7%96%97.png",
+      "width": 255,
+      "height": 256,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "워치맨"
+      ],
+      "en": [
+        "Watchman"
+      ],
+      "ja": [
+        "ウォッチマン"
+      ],
+      "zh": [
+        "守望者"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-b574a230.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E5%AE%88%E6%9C%9B%E8%80%85.png",
+      "width": 63,
+      "height": 59,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "class",
+    "values": {
+      "ko": [
+        "뱅가드"
+      ],
+      "en": [
+        "Vanguard"
+      ],
+      "ja": [
+        "先鋒"
+      ],
+      "zh": [
+        "先锋"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-class-0dac44a6.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/class_%E5%85%88%E9%94%8B.png",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "택티션"
+      ],
+      "en": [
+        "Tactician"
+      ],
+      "ja": [
+        "戦術家"
+      ],
+      "zh": [
+        "战术家"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-06328859.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E6%88%98%E6%9C%AF%E5%AE%B6.png",
+      "width": 66,
+      "height": 66,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "genshin",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "한손검"
+      ],
+      "en": [
+        "Sword"
+      ],
+      "ja": [
+        "片手剣"
+      ],
+      "zh": [
+        "单手剑"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/genshin-weapon-71.png",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+      "width": 56,
+      "height": 56,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "genshin",
+    "id": "element",
+    "values": {
+      "ko": [
+        "얼음 원소"
+      ],
+      "en": [
+        "Cryo"
+      ],
+      "ja": [
+        "氷元素"
+      ],
+      "zh": [
+        "冰元素"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/genshin-element-802.png",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+      "width": 84,
+      "height": 84,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "genshin",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "장병기"
+      ],
+      "en": [
+        "Polearm"
+      ],
+      "ja": [
+        "長柄武器"
+      ],
+      "zh": [
+        "长柄武器"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/genshin-weapon-124.png",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
+      "width": 56,
+      "height": 56,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "zzz",
+    "id": "rarity",
+    "values": {
+      "ko": [
+        "S급"
+      ],
+      "en": [
+        "S-Rank"
+      ],
+      "ja": [
+        "S級"
+      ],
+      "zh": [
+        "S级"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/zzz-srank.png",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/165591/ef4310d8f18a62aa70f412fb534b1086_8473128579965473559.png",
+      "width": 79,
+      "height": 82,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "zzz",
+    "id": "element",
+    "values": {
+      "ko": [
+        "바람"
+      ],
+      "en": [
+        "Wind"
+      ],
+      "ja": [
+        "風"
+      ],
+      "zh": [
+        "风"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/zzz-165591-element.png",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/165591/b60b27574c9c70a791f7c46e7eda7c9c_7380687690957616691.png",
+      "width": 46,
+      "height": 45,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "zzz",
+    "id": "specialty",
+    "values": {
+      "ko": [
+        "격파"
+      ],
+      "en": [
+        "Stun"
+      ],
+      "ja": [
+        "撃破"
+      ],
+      "zh": [
+        "击破"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/zzz-165591-specialty.png",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/165591/8ef3cf2bf25b3bd3ad50de6e55ae6774_5056408497765161675.png",
+      "width": 46,
+      "height": 45,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "zzz",
+    "id": "element",
+    "values": {
+      "ko": [
+        "얼음"
+      ],
+      "en": [
+        "Ice"
+      ],
+      "ja": [
+        "氷"
+      ],
+      "zh": [
+        "冰"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/zzz-163316-element.png",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/163316/6d34dfc84836a2cf434b982d0773ae45_4791582667090775770.png",
+      "width": 46,
+      "height": 45,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "zzz",
+    "id": "specialty",
+    "values": {
+      "ko": [
+        "이상"
+      ],
+      "en": [
+        "Anomaly"
+      ],
+      "ja": [
+        "異常"
+      ],
+      "zh": [
+        "异常"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/zzz-163316-specialty.png",
+      "imageSource": "https://fastcdn.hoyoverse.com/content-v2/nap/163316/715efb072409c4e23e38a5009ddb663d_3016988222869724879.png",
+      "width": 46,
+      "height": 45,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "id": "role",
+    "values": {
+      "ko": [
+        "탱커"
+      ],
+      "en": [
+        "Tanker"
+      ],
+      "ja": [
+        "タンク"
+      ],
+      "zh": [
+        "坦克"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ba-Role_Tanker.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Role_Tanker.png",
+      "width": 44,
+      "height": 44,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "id": "attack",
+    "values": {
+      "ko": [
+        "관통",
+        "진동",
+        "신비",
+        "폭발"
+      ],
+      "en": [
+        "Piercing",
+        "Sonic",
+        "Mystic",
+        "Explosive"
+      ],
+      "ja": [
+        "貫通",
+        "振動",
+        "神秘",
+        "爆発"
+      ],
+      "zh": [
+        "贯通",
+        "振动",
+        "神秘",
+        "爆发"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ba-Type_Attack.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Type_Attack.png",
+      "width": 36,
+      "height": 36,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "id": "armor",
+    "values": {
+      "ko": [
+        "특수장갑",
+        "중장갑",
+        "탄력장갑",
+        "경장갑"
+      ],
+      "en": [
+        "Special Armor",
+        "Heavy Armor",
+        "Elastic Armor",
+        "Light Armor"
+      ],
+      "ja": [
+        "特殊装甲",
+        "重装甲",
+        "弾力装甲",
+        "軽装備"
+      ],
+      "zh": [
+        "特殊装甲",
+        "重装甲",
+        "弹性装甲",
+        "轻装甲"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ba-Type_Defense.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Type_Defense.png",
+      "width": 36,
+      "height": 36,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "SMG · 기관단총",
+        "SR · 저격소총",
+        "SG · 산탄총",
+        "MG · 기관총"
+      ],
+      "en": [
+        "SMG",
+        "SR",
+        "SG",
+        "MG"
+      ],
+      "ja": [
+        "SMG",
+        "SR",
+        "SG",
+        "MG"
+      ],
+      "zh": [
+        "SMG · 冲锋枪",
+        "SR · 狙击步枪",
+        "SG · 霰弹枪",
+        "MG · 机枪"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ba-Common_Icon_CharacterWeapon_off.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Common_Icon_CharacterWeapon_off.png",
+      "width": 62,
+      "height": 56,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "id": "role",
+    "values": {
+      "ko": [
+        "딜러"
+      ],
+      "en": [
+        "Attacker"
+      ],
+      "ja": [
+        "アタッカー"
+      ],
+      "zh": [
+        "输出"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ba-Role_DamageDealer.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Role_DamageDealer.png",
+      "width": 44,
+      "height": 44,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "id": "role",
+    "values": {
+      "ko": [
+        "서포터"
+      ],
+      "en": [
+        "Supporter"
+      ],
+      "ja": [
+        "サポーター"
+      ],
+      "zh": [
+        "辅助"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ba-Role_Supporter.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Role_Supporter.png",
+      "width": 44,
+      "height": 44,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-0",
+    "values": {
+      "ko": [
+        "A"
+      ],
+      "en": [
+        "A"
+      ],
+      "ja": [
+        "A"
+      ],
+      "zh": [
+        "A"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-A.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/6/6b/qaunotnzrwoymms6tdb0uowac8l1pkn.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-1",
+    "values": {
+      "ko": [
+        "G"
+      ],
+      "en": [
+        "G"
+      ],
+      "ja": [
+        "G"
+      ],
+      "zh": [
+        "G"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-G.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/e/e0/st0ixzq3bhyraq8lpr7my3cuxry7dra.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-2",
+    "values": {
+      "ko": [
+        "F"
+      ],
+      "en": [
+        "F"
+      ],
+      "ja": [
+        "F"
+      ],
+      "zh": [
+        "F"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-F.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/1/1c/qdw04af4g3ih2i4trjcx55fr6i1g3be.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-3",
+    "values": {
+      "ko": [
+        "B"
+      ],
+      "en": [
+        "B"
+      ],
+      "ja": [
+        "B"
+      ],
+      "zh": [
+        "B"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-B.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/c/c7/4hzs2c7c5c0k1c3vrpxyxmruw492zlt.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-4",
+    "values": {
+      "ko": [
+        "A"
+      ],
+      "en": [
+        "A"
+      ],
+      "ja": [
+        "A"
+      ],
+      "zh": [
+        "A"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-A.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/6/6b/qaunotnzrwoymms6tdb0uowac8l1pkn.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-5",
+    "values": {
+      "ko": [
+        "A"
+      ],
+      "en": [
+        "A"
+      ],
+      "ja": [
+        "A"
+      ],
+      "zh": [
+        "A"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-A.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/6/6b/qaunotnzrwoymms6tdb0uowac8l1pkn.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-6",
+    "values": {
+      "ko": [
+        "G"
+      ],
+      "en": [
+        "G"
+      ],
+      "ja": [
+        "G"
+      ],
+      "zh": [
+        "G"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-G.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/e/e0/st0ixzq3bhyraq8lpr7my3cuxry7dra.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-7",
+    "values": {
+      "ko": [
+        "A"
+      ],
+      "en": [
+        "A"
+      ],
+      "ja": [
+        "A"
+      ],
+      "zh": [
+        "A"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-A.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/6/6b/qaunotnzrwoymms6tdb0uowac8l1pkn.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-8",
+    "values": {
+      "ko": [
+        "A"
+      ],
+      "en": [
+        "A"
+      ],
+      "ja": [
+        "A"
+      ],
+      "zh": [
+        "A"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-A.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/6/6b/qaunotnzrwoymms6tdb0uowac8l1pkn.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-9",
+    "values": {
+      "ko": [
+        "D"
+      ],
+      "en": [
+        "D"
+      ],
+      "ja": [
+        "D"
+      ],
+      "zh": [
+        "D"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-D.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/5/5d/77j1n9a9luemin06dvernqwqobjob4g.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "nikke",
+    "id": "burst",
+    "values": {
+      "ko": [
+        "버스트 II"
+      ],
+      "en": [
+        "Burst II"
+      ],
+      "ja": [
+        "バーストII"
+      ],
+      "zh": [
+        "爆裂II"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/nikke-type_2_bg.webp",
+      "imageSource": "https://cdn.prydwen.gg/images/nikke/icons/type_2_bg.webp",
+      "width": 30,
+      "height": 35,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "nikke",
+    "id": "element",
+    "values": {
+      "ko": [
+        "수냉"
+      ],
+      "en": [
+        "Water"
+      ],
+      "ja": [
+        "水冷"
+      ],
+      "zh": [
+        "水冷"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/nikke-water_bg.webp",
+      "imageSource": "https://cdn.prydwen.gg/images/nikke/icons/water_bg.webp",
+      "width": 30,
+      "height": 35,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "nikke",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "RL · 런처"
+      ],
+      "en": [
+        "RL · Rocket Launcher"
+      ],
+      "ja": [
+        "RL · ロケットランチャー"
+      ],
+      "zh": [
+        "RL · 发射器"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/nikke-weapon_rocket.webp",
+      "imageSource": "https://cdn.prydwen.gg/images/nikke/icons/weapon_rocket.webp",
+      "width": 40,
+      "height": 25,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "nikke",
+    "id": "manufacturer",
+    "values": {
+      "ko": [
+        "테트라 라인"
+      ],
+      "en": [
+        "Tetra Line"
+      ],
+      "ja": [
+        "テトラライン"
+      ],
+      "zh": [
+        "泰特拉"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/nikke-man_tetra.webp",
+      "imageSource": "https://cdn.prydwen.gg/images/nikke/icons/man_tetra.webp",
+      "width": 50,
+      "height": 50,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "gfl2",
+    "id": "class",
+    "values": {
+      "ko": [
+        "센티널"
+      ],
+      "en": [
+        "Sentinel"
+      ],
+      "ja": [
+        "センチネル"
+      ],
+      "zh": [
+        "火力"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/gfl-sentinel.png",
+      "imageSource": "https://res.17996cdn.net/gf2/kr/images/home/allroles-roles-name-class1.png",
+      "width": 14,
+      "height": 15,
+      "verifiedAt": "2026-10-16T19:35:20.365964Z"
+    }
+  },
+  {
+    "gameId": "hsr",
+    "id": "path",
+    "values": {
+      "ko": [
+        "환락"
+      ],
+      "en": [
+        "Elation"
+      ],
+      "ja": [
+        "愉悦"
+      ],
+      "zh": [
+        "欢愉"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/hsr-path-3689.png",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/30/738e91b749f2dc87675f9dc30c1cd85b_4288430239976265612.png",
+      "width": 72,
+      "height": 72,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "hsr",
+    "id": "element",
+    "values": {
+      "ko": [
+        "얼음"
+      ],
+      "en": [
+        "Ice"
+      ],
+      "ja": [
+        "氷"
+      ],
+      "zh": [
+        "冰"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/hsr-element-1371.png",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/e7fda5adc3b8ee20cef753b61ff0ed08_8813940564670780996.png",
+      "width": 72,
+      "height": 72,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "hsr",
+    "id": "element",
+    "values": {
+      "ko": [
+        "물리"
+      ],
+      "en": [
+        "Physical"
+      ],
+      "ja": [
+        "物理"
+      ],
+      "zh": [
+        "物理"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/hsr-element-1297.png",
+      "imageSource": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/43a362875c2955a66ef6cd9236dbf57d_7293610557288342137.png",
+      "width": 72,
+      "height": 72,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "endfield",
+    "id": "class",
+    "values": {
+      "ko": [
+        "캐스터"
+      ],
+      "en": [
+        "Caster"
+      ],
+      "ja": [
+        "術師"
+      ],
+      "zh": [
+        "术师"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/endfield-caster.jpg",
+      "imageSource": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg",
+      "width": 139,
+      "height": 139,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "element",
+    "values": {
+      "ko": [
+        "전도"
+      ],
+      "en": [
+        "Electro"
+      ],
+      "ja": [
+        "電導"
+      ],
+      "zh": [
+        "导电"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-element-3.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/06654bfa76703f8ad1315e583b8d8194/10fb15c77258a991b0028080a64fb42d.png",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "증폭기"
+      ],
+      "en": [
+        "Rectifier"
+      ],
+      "ja": [
+        "増幅器"
+      ],
+      "zh": [
+        "音感仪"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-weapon-ygy.webp",
+      "imageSource": "https://wutheringwaves.kurogames.com/website-preface/assets/index-f122c88a.js",
+      "width": 101,
+      "height": 101,
+      "verifiedAt": "2026-10-16T19:32:23.677285+00:00"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-1",
+    "values": {
+      "ko": [
+        "D"
+      ],
+      "en": [
+        "D"
+      ],
+      "ja": [
+        "D"
+      ],
+      "zh": [
+        "D"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-D.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/5/5d/77j1n9a9luemin06dvernqwqobjob4g.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-6",
+    "values": {
+      "ko": [
+        "F"
+      ],
+      "en": [
+        "F"
+      ],
+      "ja": [
+        "F"
+      ],
+      "zh": [
+        "F"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-F.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/1/1c/qdw04af4g3ih2i4trjcx55fr6i1g3be.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-9",
+    "values": {
+      "ko": [
+        "F"
+      ],
+      "en": [
+        "F"
+      ],
+      "ja": [
+        "F"
+      ],
+      "zh": [
+        "F"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-F.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/1/1c/qdw04af4g3ih2i4trjcx55fr6i1g3be.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "class",
+    "values": {
+      "ko": [
+        "가드"
+      ],
+      "en": [
+        "Guard"
+      ],
+      "ja": [
+        "前衛"
+      ],
+      "zh": [
+        "近卫"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-class-1f453fb8.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/class_%E8%BF%91%E5%8D%AB.png",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "class",
+    "values": {
+      "ko": [
+        "캐스터"
+      ],
+      "en": [
+        "Caster"
+      ],
+      "ja": [
+        "術師"
+      ],
+      "zh": [
+        "术师"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-class-83801816.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/class_%E6%9C%AF%E5%B8%88.png",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "코어 캐스터"
+      ],
+      "en": [
+        "Core Caster"
+      ],
+      "ja": [
+        "中堅術師"
+      ],
+      "zh": [
+        "中坚术师"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-19d5934b.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E4%B8%AD%E5%9D%9A%E6%9C%AF%E5%B8%88.png",
+      "width": 48,
+      "height": 48,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "class",
+    "values": {
+      "ko": [
+        "디펜더"
+      ],
+      "en": [
+        "Defender"
+      ],
+      "ja": [
+        "重装"
+      ],
+      "zh": [
+        "重装"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-class-b509cac9.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/class_%E9%87%8D%E8%A3%85.png",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "프로텍터"
+      ],
+      "en": [
+        "Protector"
+      ],
+      "ja": [
+        "重盾衛士"
+      ],
+      "zh": [
+        "铁卫"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-7a9fdb3c.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E9%93%81%E5%8D%AB.png",
+      "width": 48,
+      "height": 61,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "파이오니어"
+      ],
+      "en": [
+        "Pioneer"
+      ],
+      "ja": [
+        "先駆兵"
+      ],
+      "zh": [
+        "尖兵"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-f724cd48.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E5%B0%96%E5%85%B5.png",
+      "width": 70,
+      "height": 70,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "프라이멀 가드"
+      ],
+      "en": [
+        "Primal Guard"
+      ],
+      "ja": [
+        "本源前衛"
+      ],
+      "zh": [
+        "本源近卫"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-61b4869c.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E6%9C%AC%E6%BA%90%E8%BF%91%E5%8D%AB.png",
+      "width": 62,
+      "height": 62,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "gfl2",
+    "id": "class",
+    "values": {
+      "ko": [
+        "서포트"
+      ],
+      "en": [
+        "Support"
+      ],
+      "ja": [
+        "サポート"
+      ],
+      "zh": [
+        "支援"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/gfl-support.png",
+      "imageSource": "https://res.17996cdn.net/gf2/kr/images/home/allroles-roles-name-class3.png",
+      "width": 13,
+      "height": 13,
+      "verifiedAt": "2026-10-16T19:35:20.365964Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-2",
+    "values": {
+      "ko": [
+        "G"
+      ],
+      "en": [
+        "G"
+      ],
+      "ja": [
+        "G"
+      ],
+      "zh": [
+        "G"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-G.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/e/e0/st0ixzq3bhyraq8lpr7my3cuxry7dra.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-3",
+    "values": {
+      "ko": [
+        "A"
+      ],
+      "en": [
+        "A"
+      ],
+      "ja": [
+        "A"
+      ],
+      "zh": [
+        "A"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-A.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/6/6b/qaunotnzrwoymms6tdb0uowac8l1pkn.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-5",
+    "values": {
+      "ko": [
+        "C"
+      ],
+      "en": [
+        "C"
+      ],
+      "ja": [
+        "C"
+      ],
+      "zh": [
+        "C"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-C.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/4/48/120umowonl8eo542mo5qkza1v4h0245.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-7",
+    "values": {
+      "ko": [
+        "C"
+      ],
+      "en": [
+        "C"
+      ],
+      "ja": [
+        "C"
+      ],
+      "zh": [
+        "C"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-C.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/4/48/120umowonl8eo542mo5qkza1v4h0245.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "umamusume",
+    "id": "aptitude-9",
+    "values": {
+      "ko": [
+        "A"
+      ],
+      "en": [
+        "A"
+      ],
+      "ja": [
+        "A"
+      ],
+      "zh": [
+        "A"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/uma-grade-A.png",
+      "imageSource": "https://patchwiki.biligame.com/images/umamusume/6/6b/qaunotnzrwoymms6tdb0uowac8l1pkn.png",
+      "width": 64,
+      "height": 64,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "무사"
+      ],
+      "en": [
+        "Musha"
+      ],
+      "ja": [
+        "武者"
+      ],
+      "zh": [
+        "武者"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-48756279.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E6%AD%A6%E8%80%85.png",
+      "width": 65,
+      "height": 59,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "저거너트"
+      ],
+      "en": [
+        "Juggernaut"
+      ],
+      "ja": [
+        "破壊者"
+      ],
+      "zh": [
+        "不屈者"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-b7e28df2.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E4%B8%8D%E5%B1%88%E8%80%85.png",
+      "width": 56,
+      "height": 61,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "로드"
+      ],
+      "en": [
+        "Lord"
+      ],
+      "ja": [
+        "領主"
+      ],
+      "zh": [
+        "领主"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-ced18fe2.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E9%A2%86%E4%B8%BB.png",
+      "width": 62,
+      "height": 62,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  },
+  {
+    "gameId": "arknights",
+    "id": "branch",
+    "values": {
+      "ko": [
+        "메딕"
+      ],
+      "en": [
+        "Medic"
+      ],
+      "ja": [
+        "医師"
+      ],
+      "zh": [
+        "医师"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/ak-branch-f81a8b80.png",
+      "imageSource": "https://static.prts.wiki/charinfo/img/branch/%E5%8C%BB%E5%B8%88.png",
+      "width": 52,
+      "height": 56,
+      "verifiedAt": "2026-10-16T19:34:19.827175Z"
+    }
+  }
+]

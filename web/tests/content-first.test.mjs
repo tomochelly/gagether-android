@@ -25,7 +25,7 @@ test('escaped regional HTML is decoded without execution; tables, links and full
 });
 
 test('import publishes native content immediately, preserves reviewed fields and is idempotent',()=>{
- const body=bodyFromDocument(doc,{text:'参加条件: 任務2-3クリア\n報酬: 青輝石150個',images:['https://example.com/current-ja.jpg','https://example.com/logo.png']});
+ const body=bodyFromDocument(doc,{text:'参加条件: 任務2-3クリア\n報酬: 青輝石150個',images:['https://example.com/current-ja.jpg','https://example.com/logo.png','https://nng-phinf.pstatic.net/something/01-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD.png']});
  assert.equal(body.images.length,1);const old={...base,detailSections:[{title:{...blank,ko:'기존 설명'},body:{...blank,ko:'기존 상세'}}],image:'/assets/existing.png',previewFocus:{x:40,y:50,zoom:1},videos:[{youtubeId:'abcdefghijk',kind:'version',title:{...blank,ja:'更新PV'},locale:'ja',channel:'Official',sourceUrl:'https://www.youtube.com/watch?v=abcdefghijk',verifiedAt:time,official:true,metadataVerified:true,watched:false}]};
  const next=importBody(old,body);assert.equal(next.verifiedAt,old.verifiedAt);assert.deepEqual(next.detailSections,old.detailSections);assert.equal(next.image,old.image);assert.deepEqual(next.previewFocus,old.previewFocus);assert.deepEqual(next.videos,old.videos);assert.equal(next.sourceBodies.ja.text,body.text);assert.equal(next.title.en,'');assert.equal(next.sourceBodies.ja.imageVerified,undefined);
  assert.strictEqual(importBody(next,{...body,importedAt:'2026-10-23T01:00:00Z'}),next);assert.equal(bodyFromDocument({...doc,sourceAccess:'blocked'},{text:'Access denied'}),null);

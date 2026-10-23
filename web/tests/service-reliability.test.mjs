@@ -32,3 +32,11 @@ test('all stored official rotations use the same current classification',async()
   assert.equal(pickupPeriod(entry,now),expected,entry.id);
  }
 });
+
+
+test('retained hidden weapon archives can coexist with their current plain record; duplicate visible characters still fail',async()=>{
+ const {registerHooks}=await import('node:module');registerHooks({resolve(s,c,n){return s==='cloudflare:workers'?{url:'data:text/javascript,export const env={}',shortCircuit:true}:n(s,c)}});const {catalogIssues}=await import('../lib/service-health.ts');
+ const plain={...e,id:'weapon-current',kind:'weapon',poolType:'weapon',pickupArchive:undefined};const archive={...plain,id:'weapon-archive',pickupArchive:{status:'announced'}};
+ assert.equal(catalogIssues([plain,archive],start).some(i=>i.code==='duplicate-rotation'),false);
+ assert.equal(catalogIssues([e,{...e,id:'character-duplicate'}],start).some(i=>i.code==='duplicate-rotation'),true);
+});

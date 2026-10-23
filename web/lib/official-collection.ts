@@ -42,10 +42,10 @@ export async function collectRegionalNotices(){
 }
 export async function collectPendingDocuments(){
  const data=await readData({automatic:true,collection:true}),queue=await reviewQueue(5000),previous=new Map(queue.map(d=>[d.url,d]));
- const candidates=data.entries.filter(e=>(e.id.startsWith('quick-')||e.id.startsWith('feed-'))&&(e.sourceKind||'official')==='official').sort((a,b)=>Number(pickupNotice(b.sourceTitle))-Number(pickupNotice(a.sourceTitle))||(b.publishedAt||'').localeCompare(a.publishedAt||''));
+ const candidates=data.entries.filter(e=>(e.id.startsWith('quick-')||e.id.startsWith('feed-')||e.gameId==='wuwa'&&e.kind==='weapon'&&!e.pickupArchive)&&(e.sourceKind||'official')==='official').sort((a,b)=>Number(pickupNotice(b.sourceTitle))-Number(pickupNotice(a.sourceTitle))||(b.publishedAt||'').localeCompare(a.publishedAt||''));
  const variants=candidates.flatMap(e=>[e,...Object.entries(e.localizationSources||{}).filter(([,u])=>u&&u!==e.sourceUrl).map(([l,u])=>({...e,sourceUrl:u!,sourceLocale:l as import('./types').Locale,sourceTitle:e.title[l as import('./types').Locale]||e.sourceTitle}))]);
  const unique=[...new Map(variants.map(e=>[e.sourceUrl,e])).values()];
- const chosen=unique.filter(e=>{const old=previous.get(e.sourceUrl);return !old||old.sourceAccess==='metadata'||old.status!=='reviewed'&&Date.now()-Date.parse(old.checkedAt)>60*60000;}).sort((a,b)=>Number(pickupNotice(b.sourceTitle))-Number(pickupNotice(a.sourceTitle))||(Date.parse(previous.get(a.sourceUrl)?.checkedAt||'')||0)-(Date.parse(previous.get(b.sourceUrl)?.checkedAt||'')||0)||(b.publishedAt||'').localeCompare(a.publishedAt||'')).slice(0,10);
+ const chosen=unique.filter(e=>{const old=previous.get(e.sourceUrl);return !old||old.sourceAccess==='metadata'||old.status!=='reviewed'&&Date.now()-Date.parse(old.checkedAt)>60*60000;}).sort((a,b)=>Number(b.gameId==='wuwa'&&b.kind==='weapon')-Number(a.gameId==='wuwa'&&a.kind==='weapon')||Number(pickupNotice(b.sourceTitle))-Number(pickupNotice(a.sourceTitle))||(Date.parse(previous.get(a.sourceUrl)?.checkedAt||'')||0)-(Date.parse(previous.get(b.sourceUrl)?.checkedAt||'')||0)||(b.publishedAt||'').localeCompare(a.publishedAt||'')).slice(0,10);
  const checks:any[]=[];
  for(let i=0;i<chosen.length;i+=3)await Promise.all(chosen.slice(i,i+3).map(async e=>{
   const checkedAt=new Date().toISOString(),id=e.sourceUrl.match(/(?:[?&](?:id|announce_id)=|\/)(\d+)(?:[?#]|$)/)?.[1]||e.id.split('-').at(-1)!;

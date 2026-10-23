@@ -9,7 +9,7 @@ export function sourceBodyFor(entry:Entry,locale:Locale){const game=games.find(g
 export function bodyFromDocument(document:ReviewDocument,raw:{text?:string;images?:string[];links?:{label:string;url:string}[]}):SourceBody|null{
  if(document.sourceAccess!=='body')return null;
  const text=decodeSourceHtml(raw.text||'');const encoded=/<(?:p|div|img|br|table|section|h[1-6])\b/i.test(text),parsed=encoded?sourceDocument(text,document.url):{text,images:[],links:[]};
- const images=[...new Set([...raw.images||[],...parsed.images])].filter(url=>{try{const u=new URL(url);return u.protocol==='https:'&&!u.username&&!u.password&&!excludedSourceImages.some(x=>url.split('?')[0]===x)&&!/logo|favicon|loading|footer|share[_/-]|social[_/-]|tracking|공지사항-(?:상|하)/i.test(decodeURIComponent(u.pathname));}catch{return false;}}).slice(0,20);
+ const images=[...new Set([...raw.images||[],...parsed.images])].filter(url=>{try{const u=new URL(url);return u.protocol==='https:'&&!u.username&&!u.password&&!excludedSourceImages.some(x=>url.split('?')[0]===x)&&!/logo|favicon|loading|footer|share[_/-]|social[_/-]|tracking|0[12][_-]공지사항[.]|공지사항-(?:상|하)/i.test(decodeURIComponent(u.pathname));}catch{return false;}}).slice(0,20);
  if(!parsed.text.trim()&&!images.length)return null;
  return {title:document.title.slice(0,400),locale:document.locale,sourceUrl:document.url,text:parsed.text.slice(0,200000),images,links:(raw.links||parsed.links||[]).slice(0,40),bodyHash:document.bodyHash,importedAt:document.checkedAt,sourceKind:'official'};
 }
