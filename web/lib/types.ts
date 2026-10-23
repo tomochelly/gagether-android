@@ -13,7 +13,7 @@ export type SourceKind = "official" | "community" | "video";
 export interface RelatedSource {kind:SourceKind;url:string;title:string;publisher?:string;publishedAt?:string}
 export interface GameIcon {image:string;imageSource:string;width:number;height:number;verifiedAt:string}
 export interface EntityTrait {id:string;label:Localized;value:Localized;icon?:GameIcon;officialLocales?:Locale[];translatedLocales?:Locale[]}
-export interface RewardItem {rewardId?:string;category?:'gacha-currency'|'gacha-ticket'|'resource';officialLocales?:Locale[];translatedLocales?:Locale[];name:Localized;quantity?:string;icon?:GameIcon;sourceUrl:string;sourceKind:"official"|"community"}
+export interface RewardItem {note?:Localized;acquisition?:"free"|"conditional"|"purchase";rewardId?:string;category?:'gacha-currency'|'gacha-ticket'|'resource';officialLocales?:Locale[];translatedLocales?:Locale[];name:Localized;quantity?:string;icon?:GameIcon;sourceUrl:string;sourceKind:"official"|"community"}
 export interface VideoClip {originalTitle?:string;titleOfficialLocales?:Locale[];titleTranslatedLocales?:Locale[];youtubeId:string;kind:"character"|"version";format?:"pv"|"intro"|"demo";title:Localized;locale:Locale;channel:string;sourceUrl:string;publishedAt?:string|null;verifiedAt:string;official:boolean;metadataVerified:boolean;watched:false;entityNames?:Localized[];evidenceUrls?:string[]}
 export interface OfficialBroadcast {
  status:'scheduled'|'live'|'ended'|'cancelled';youtubeId?:string;channel?:string;locale:Locale;
@@ -30,8 +30,11 @@ export interface EntityProfile {
 }
 export interface PreviewFocus {x:number;y:number;zoom:number}
 export interface PreviewBounds {left:number;top:number;right:number;bottom:number}
-export interface ArtworkAsset {imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image:string;imageSource:string;imageVerified:boolean;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageLocale?:Locale|'neutral';width:number;height:number;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;verifiedAt:string}
-export interface EntityArtwork {imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image?:string;imageSource?:string;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageFit?:"contain"|"cover";imagePosition?:string;imageVerified?:boolean;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;imageLocale?:Locale|'neutral';previewArtwork?:ArtworkAsset;localizedArtwork?:Partial<Record<Locale,ArtworkAsset>>}
+export type ImageFrameKind = "default" | "banner" | "card" | "mobile";
+export interface ImageFrame {x:number;y:number;zoom:number;fit:"cover"|"contain"}
+export type ImageFraming = Partial<Record<ImageFrameKind,ImageFrame>>;
+export interface ArtworkAsset {imageFraming?:ImageFraming;imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image:string;imageSource:string;imageVerified:boolean;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageLocale?:Locale|'neutral';width:number;height:number;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;verifiedAt:string}
+export interface EntityArtwork {imageFraming?:ImageFraming;imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image?:string;imageSource?:string;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageFit?:"contain"|"cover";imagePosition?:string;imageVerified?:boolean;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;imageLocale?:Locale|'neutral';previewArtwork?:ArtworkAsset;localizedArtwork?:Partial<Record<Locale,ArtworkAsset>>}
 export interface Game {
  id:string;name:Localized;short:string;genre:Localized;color:string;logo:string;localizedLogos?:Partial<Record<Locale,string>>;logoSources?:Partial<Record<Locale,string>>;icon?:string;iconSource?:string;art:string;artPosition?:string;
  official:string;publisher:string;regions:Region[];sources:{label:string;url:string;region:Region}[];

@@ -3,7 +3,7 @@ import {featuredMembers,editedEntryArtwork} from './presentation';
 
 // View models only: the rotation ID, calendar, owner revision and saved item remain
 // canonical. Never persist a narrowed member as an automatic/editorial record.
-const artworkKeys=['image','imageSource','imageKind','imageFit','imagePosition','imageVerified','imageLocale','imageCaption','originalLanguageFallback','textFreePreview','previewFocus','previewBounds','previewArtwork','localizedArtwork'] as const;
+const artworkKeys=['image','imageSource','imageKind','imageFit','imagePosition','imageVerified','imageLocale','imageCaption','originalLanguageFallback','textFreePreview','imageFraming','previewFocus','previewBounds','previewArtwork','localizedArtwork'] as const;
 export function pickupCards(entries:Entry[]){
  return entries.flatMap(entry=>{
   const members=featuredMembers(entry)||[];

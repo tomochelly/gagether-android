@@ -16,9 +16,9 @@ export function artworkForLocale(art:EntityArtwork,locale:Locale,mode:'preview'|
  const targetLocale=serviceLocale||locale;
  const native=serviceLocale&&art.imageLocale===serviceLocale&&art.imageVerified;
  const translated=native?undefined:art.localizedArtwork?.[targetLocale];
- const selected=translated?.imageVerified?{...art,...translated,previewFocus:art.previewFocus||translated.previewFocus}:art;
+ const selected=translated?.imageVerified?{...art,...translated,imageFraming:art.imageFraming||translated.imageFraming,previewFocus:art.previewFocus||translated.previewFocus}:art;
  const preview=art.previewArtwork;
- if(mode==='preview'&&preview?.imageVerified&&(preview.imageLocale==='neutral'||preview.imageLocale===targetLocale))return {...preview,previewFocus:art.previewFocus||preview.previewFocus,previewBounds:art.previewBounds||preview.previewBounds};
+ if(mode==='preview'&&preview?.imageVerified&&(preview.imageLocale==='neutral'||preview.imageLocale===targetLocale))return {...preview,imageFraming:art.imageFraming||preview.imageFraming,previewFocus:art.previewFocus||preview.previewFocus,previewBounds:art.previewBounds||preview.previewBounds};
  // Selected independent JP/CN services keep their own reviewed current original.
  // Shared services still require the visitor language or verified neutral artwork.
  if(!selected.imageVerified||!selected.imageLocale||selected.imageLocale!=='neutral'&&selected.imageLocale!==targetLocale)return {...selected,image:undefined,imageVerified:false};

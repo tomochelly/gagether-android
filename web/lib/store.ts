@@ -22,6 +22,10 @@ export async function readBaseData(options:{index?:boolean;id?:string;ids?:strin
 export async function readEditorial(key?:string,onFailure?:()=>void):Promise<EditorialRecord[]>{
  try{const query=key?env.DB!.prepare('SELECT key,payload,revision,updated_at AS updatedAt FROM editorial WHERE key=?').bind(key):env.DB!.prepare('SELECT key,payload,revision,updated_at AS updatedAt FROM editorial');const result=await query.all<{key:string;payload:string;revision:number;updatedAt:string}>();return result.results.flatMap(r=>{try{return [{...r,payload:JSON.parse(r.payload)}];}catch{onFailure?.();return [];}});}catch{onFailure?.();return [];}
 }
+export async function readSiteSettings(){
+ let available=true;const records=await readEditorial('site',()=>{available=false;});if(!available)throw Error('Saved settings unavailable');
+ const record=records[0];return {settings:(record?.payload||{}) as SiteSettings,settingsRevision:record?.revision||0};
+}
 async function readUncachedData(options:{includeHidden?:boolean;automatic?:boolean;index?:boolean;collection?:boolean}={}){
  let editorialAvailable=true;
  const [base,records]=await Promise.all([readBaseData({index:options.index,collection:options.collection}),readEditorial(undefined,()=>{editorialAvailable=false;})]);const settings=records.find(r=>r.key==='site');

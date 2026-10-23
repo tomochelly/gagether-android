@@ -9,5 +9,6 @@ export function draftProblems(e:Entry):string[]{
  if(e.selectionCount&&(!(e.pickupMembers||[]).some(m=>m.role==='candidate')||e.selectionCount>(e.pickupMembers||[]).filter(m=>m.role==='candidate').length))errors.push('selectionCount: Set candidate members before entering the number to choose.');
  if(e.startAt&&e.endAt&&Date.parse(e.startAt)>=Date.parse(e.endAt))errors.push('endAt: End must follow start.');
  for(const [i,b] of (e.contentBlocks||[]).entries())if(b.type==='image'&&(!b.asset.image||!b.asset.imageVerified||!b.asset.imageLocale))errors.push(`contentBlocks.${i}.asset: Upload or apply the image, or remove the empty image block.`);
+ for(const [i,r] of (e.rewards||[]).entries()){if(!Object.values(r.name).some(v=>v.trim()))errors.push(`rewards.${i}.name: Enter a reward name or select a game item.`);if(!/^https:\/\//.test(r.sourceUrl))errors.push(`rewards.${i}.sourceUrl: Enter an HTTPS evidence URL.`);}
  return errors;
 }

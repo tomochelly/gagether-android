@@ -14,7 +14,7 @@ export function previewEntries(entries:Entry[],preview:EditorPreview|null){
 export function replacementArtwork(image:string,origin:string,imageLocale?:EntityArtwork['imageLocale']):Partial<EntityArtwork>{
  return {image,imageSource:image?(image.startsWith('/')?origin+image:image):undefined,imageVerified:!!image,
   imageFit:'contain',imagePosition:'50% 50%',previewFocus:{x:50,y:38,zoom:1},
-  previewBounds:undefined,previewArtwork:undefined,localizedArtwork:undefined,imageLocale,imageCaption:undefined,textFreePreview:undefined};
+  imageFraming:undefined,previewBounds:undefined,previewArtwork:undefined,localizedArtwork:undefined,imageLocale,imageCaption:undefined,textFreePreview:undefined};
 }
 export function myGameEntries<T extends {gameId:string}>(entries:T[],favorites:string[],enabled:boolean){
  return enabled?entries.filter(e=>favorites.includes(e.gameId)):entries;

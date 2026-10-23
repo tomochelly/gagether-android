@@ -5,7 +5,7 @@ import {readEditorial,readBaseData,writeEditorial,resetEditorial,sameOrigin} fro
 import {applyEntryPatch} from '@/lib/editorial';
 import {validateEditedEntry,settingsSchema} from '@/lib/editor-schema';
 const headers={'Cache-Control':'no-store'};
-export async function GET(request:Request){if(!await editorIdentity())return Response.json({error:'Editor access required'},{status:403});const id=new URL(request.url).searchParams.get('id');return Response.json({history:await editorHistory(id?'entry:'+id:undefined)},{headers});}
+export async function GET(request:Request){if(!await editorIdentity())return Response.json({error:'Editor access required'},{status:403});const id=new URL(request.url).searchParams.get('id');return Response.json({history:await editorHistory(new URL(request.url).searchParams.get('target')==='site'?'site':id?'entry:'+id:undefined)},{headers});}
 export async function POST(request:Request){
  const user=await editorIdentity();if(!user)return Response.json({error:'Editor access required'},{status:403});if(!sameOrigin(request)||request.headers.get('sec-fetch-site')==='cross-site')return Response.json({error:'Origin mismatch'},{status:403});
  try{const {seq,revision,side}=await request.json() as {seq:number;revision:number;side:string};if(!Number.isInteger(seq)||!Number.isInteger(revision)||revision<0||!['before','after'].includes(side))return Response.json({error:'seq, revision and side are required'},{status:400});

@@ -12,11 +12,11 @@ import {rewardIcon} from '@/lib/reward-catalog';
 import {contentInAudience} from '@/lib/content-audience';
 import {eventOverviewItems,eventTextForLocale} from '@/lib/event-overview-items';
 import {useCatalog} from './catalog-context';
-import {NativeIcon} from './reward-display';
+import {NativeIcon,rewardMethod} from './reward-display';
 import ArtworkMedia from './artwork-media';
 import GameBadge from './game-badge';
 export function EventBadges({entry,locale,compact=false}:{entry:Entry;locale:Locale;compact?:boolean}){const t=eventText[locale];return <span className="event-badges">{entry.collaboration&&<span className="collaboration-badge">{compact?t.collab:<>{t[entry.collaboration.scope]} · {entry.collaboration.partner[locale]}</>}</span>}{hasPullRewards(entry)&&<span className="pull-reward-badge"><Sparkles size={12}/>{t[compact?'gacha':'reward']}</span>}</span>;}
-export function EventRewards({entry,locale}:{entry:Entry;locale:Locale}){const rewards=pullRewards(entry).filter(r=>eventTextForLocale(r.name,locale));return rewards.length?<span className="event-reward-chips">{rewards.slice(0,4).map((r,i)=><span key={i}><NativeIcon icon={rewardIcon(entry.gameId,r)} alt=""/><span>{r.name[locale]}{r.quantity&&<strong> {r.quantity}</strong>}</span></span>)}</span>:null;}
+export function EventRewards({entry,locale}:{entry:Entry;locale:Locale}){const rewards=pullRewards(entry).filter(r=>eventTextForLocale(r.name,locale));return rewards.length?<span className="event-reward-chips">{rewards.slice(0,4).map((r,i)=><span key={i}><NativeIcon icon={rewardIcon(entry.gameId,r)} alt=""/><span>{r.name[locale]}{r.quantity&&<strong> {r.quantity}</strong>}{r.acquisition&&<small className="reward-acquisition"> · {rewardMethod(r.acquisition,locale)}</small>}</span></span>)}</span>:null;}
 export function EventClock({entry:e,locale,now,compact=false}:{entry:Entry;locale:Locale;now:number;compact?:boolean}){const t=eventText[locale],state=eventState(e,now),start=state==='upcoming',clock=start?e.startAt:e.endAt,date=start?e.startDate:e.endDate;
  if(state==='ended')return <span className="event-clock ended">{({ko:'종료',en:'Ended',ja:'終了',zh:'已结束'})[locale]}</span>;
  if(clock)return <span className={'event-clock'+(eventEndingSoon(e,now)?' urgent':'')}><Clock3 size={compact?12:16}/><span><small>{t[start?'starts':'ends']}</small><b>{compact?remainingTime(clock,now,locale).split(' ').slice(0,2).join(' '):remainingTime(clock,now,locale)}</b></span></span>;

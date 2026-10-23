@@ -1,12 +1,12 @@
 import {editorIdentity} from '@/lib/editor-access';
-import {readData,readEntry,readEditorial,readBaseData,writeEditorial,resetEditorial,sameOrigin} from '@/lib/store';
+import {readData,readSiteSettings,readEntry,readEditorial,readBaseData,writeEditorial,resetEditorial,sameOrigin} from '@/lib/store';
 import {editRequest,entryChanges,settingsSchema,validateEditedEntry} from '@/lib/editor-schema';
 import {applyEntryPatch} from '@/lib/editorial';
 export const dynamic='force-dynamic';
 export async function GET(request?:Request){
  if(!await editorIdentity())return Response.json({error:'Editor access required'},{status:403});
  const id=request?new URL(request.url).searchParams.get('id'):null;
- try{if(id){if(!/^[a-zA-Z0-9_-]{1,160}$/.test(id))return Response.json({error:'Invalid item ID'},{status:400});const entry=await readEntry(id,{includeHidden:true,requirePersistent:true});return entry?Response.json({entry},{headers:{'Cache-Control':'no-store'}}):Response.json({error:'Item not found'},{status:404});}
+ try{if(request&&new URL(request.url).searchParams.get('view')==='settings')return Response.json(await readSiteSettings(),{headers:{'Cache-Control':'no-store'}});if(id){if(!/^[a-zA-Z0-9_-]{1,160}$/.test(id))return Response.json({error:'Invalid item ID'},{status:400});const entry=await readEntry(id,{includeHidden:true,requirePersistent:true});return entry?Response.json({entry},{headers:{'Cache-Control':'no-store'}}):Response.json({error:'Item not found'},{status:404});}
  return Response.json(await readData({includeHidden:true}),{headers:{'Cache-Control':'no-store'}});
  }catch{return Response.json({error:'Could not load current saved item'},{status:503});}
 }
@@ -17,7 +17,7 @@ export async function POST(request:Request){
   const body=await request.text();if(body.length>500000)return Response.json({error:'Payload too large'},{status:413});
   const parsed=editRequest.safeParse(JSON.parse(body));if(!parsed.success)return Response.json({error:'Invalid edit',details:parsed.error.issues},{status:400});
   const data=parsed.data;const key=data.target==='site'?'site':'entry:'+data.id;
-  const records=await readEditorial(key);const existing=records.find(r=>r.key===key);
+  let editorialAvailable=true;const records=await readEditorial(key,()=>{editorialAvailable=false;});if(!editorialAvailable)return Response.json({error:'Current saved settings unavailable. Input preserved.'},{status:503});const existing=records.find(r=>r.key===key);
   if((existing?.revision||0)!==data.revision)return Response.json({error:'This item changed. Reload before saving.'},{status:409});
   let payload:Record<string,unknown>;
   if(data.target==='site'){
@@ -37,6 +37,7 @@ export async function POST(request:Request){
    if(!valid.ok)return Response.json({error:valid.error},{status:400});
   }
   if(!await writeEditorial(key,payload,data.revision,user.userId))return Response.json({error:'This item changed. Reload before saving.'},{status:409});
+  if(data.target==='site'&&new URL(request.url).searchParams.get('view')==='settings')return Response.json({ok:true,...await readSiteSettings()},{headers:{'Cache-Control':'no-store'}});
   const scoped=new URL(request.url).searchParams.get('view')==='entry'&&data.target==='entry';
   return Response.json(scoped?{ok:true,entry:await readEntry(data.id!,{includeHidden:true,requirePersistent:true})}:{ok:true,...await readData({includeHidden:true})},{headers:{'Cache-Control':'no-store'}});
  }catch(error){return Response.json({error:error instanceof SyntaxError?'Invalid JSON input':'Could not save changes. Compare the current item before retrying.'},{status:error instanceof SyntaxError?400:503});}
