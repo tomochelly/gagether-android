@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "454b393831379c8829346cfe52177848178fc2c95cd5fc04ca9f09a72fae6267",
+  "fingerprint": "6367b8851f9fd1582db9f8d9d21ec08406d2b0c2b2f37a21bb1e057baca6fac2",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -148,7 +148,7 @@
     },
     {
       "path": "app/artwork-calendar.css",
-      "sha256": "373462c31867cdcbdad9ff420879b954843dd858973f9b140376fdd089460961"
+      "sha256": "698d16c2c5f6b8a5fe7a2af54ea388547c8bea7d547f7065db726aba13b6107e"
     },
     {
       "path": "app/assets/[...file]/route.ts",
@@ -172,7 +172,7 @@
     },
     {
       "path": "app/content-refresh.css",
-      "sha256": "62577de8890e3c0b9c7386be8ed1af4679f90f1ab1ccae02f2b70ea4325834ac"
+      "sha256": "a6398913a16cf5627a2fe8dcf8facd1fac5bfdf78ca533c3b83ff0b8e5f997cd"
     },
     {
       "path": "app/content-sections.css",
@@ -192,7 +192,7 @@
     },
     {
       "path": "app/favorite-updates.css",
-      "sha256": "a218690ce6bddcde4e7cc22110047e942ca778d69f33d0851edf549dbceffb67"
+      "sha256": "e8681c307b919afe3e500f65cdd2488710e243d43989c5e0a07f3eb1027d6d17"
     },
     {
       "path": "app/feedback.css",
@@ -212,11 +212,15 @@
     },
     {
       "path": "app/layout.tsx",
-      "sha256": "302a5d573d9b97506536678cbd18090cd769d35be6264739f1df4ede017d9cb5"
+      "sha256": "8f730593676abad658647eeb40807ad56fe0a6e317dafab5b220a236a6785849"
     },
     {
       "path": "app/light-theme.css",
       "sha256": "78c763662aa0e9870547a73f8a2f44b4e030dbf4984e5ef3a9299adbc3ed5354"
+    },
+    {
+      "path": "app/mobile-density.css",
+      "sha256": "9c2892989bcc9c1f2842d1de6a450079388699fbac5672efda57457dd9793626"
     },
     {
       "path": "app/mobile.css",
@@ -256,7 +260,7 @@
     },
     {
       "path": "app/personal-mobile.css",
-      "sha256": "2970abc3ebaa762aa184d6b85a7ba6077914f678ffc6a18230543a74f212dfce"
+      "sha256": "c3d56df44159c472f9ce455fd37c63f3b6e3e3a207c67839c7c8dcd868858713"
     },
     {
       "path": "app/pickup-history.css",
@@ -396,7 +400,7 @@
     },
     {
       "path": "components/favorite-updates.tsx",
-      "sha256": "823879ff926bbc660f29cf16fec7523acaacb21d72659efa395d2f8e60715b93"
+      "sha256": "81e52241649ba43bde7a6c55443686b542938be0c27e2c130455bca1c1f827f9"
     },
     {
       "path": "components/feedback-dialog.tsx",
@@ -508,7 +512,7 @@
     },
     {
       "path": "components/schedule-calendar.tsx",
-      "sha256": "941135ed782a902365d7b5b49241600c67c192d5fdf8d6f50092fcf310f36434"
+      "sha256": "f229e69904efb346e597b125d16f4500ea043cfb2982196194a83991bd805efe"
     },
     {
       "path": "components/signature-weapons.tsx",

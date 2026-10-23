@@ -1,0 +1,57 @@
+/* Compact calendars respond to their own width, including split-screen/Fold layouts. */
+.calendar-month-grid{container:calendar-month / inline-size}
+.app-shell .schedule-calendar .calendar-marker>.calendar-marker-label{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal}
+
+@container calendar-month (max-width:42rem){
+ .app-shell .schedule-calendar .calendar-cell{min-height:112px;padding:6px 3px}
+ .app-shell .schedule-calendar .calendar-markers{display:flex;flex-wrap:wrap;align-content:flex-start;gap:4px;line-height:1}
+ .app-shell .schedule-calendar .calendar-markers .calendar-marker{display:flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;min-height:22px;gap:0;margin:0;overflow:hidden}
+ .app-shell .schedule-calendar .calendar-marker>.calendar-marker-label,.app-shell .schedule-calendar .calendar-marker>b,.app-shell .schedule-calendar .calendar-day small{display:none}
+ .app-shell .schedule-calendar .calendar-marker-icon{width:18px;height:18px;border-radius:4px}
+ .app-shell .schedule-calendar .calendar-marker.starts .calendar-marker-icon{box-shadow:0 0 0 1px #81a65a}
+ .app-shell .schedule-calendar .calendar-marker.ends .calendar-marker-icon{box-shadow:0 0 0 1px #c58d63}
+ .app-shell .schedule-calendar .calendar-overflow{flex:0 0 100%;white-space:nowrap;margin-top:2px;font-size:.55rem;line-height:1.4}
+}
+/* Fallback for older Android WebViews without container queries. */
+@media(max-width:720px){
+ .app-shell .schedule-calendar .calendar-cell{min-height:112px;padding:6px 3px}
+ .app-shell .schedule-calendar .calendar-markers{display:flex;flex-wrap:wrap;align-content:flex-start;gap:4px;line-height:1}
+ .app-shell .schedule-calendar .calendar-markers .calendar-marker{display:flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;min-height:22px;gap:0;margin:0;overflow:hidden}
+ .app-shell .schedule-calendar .calendar-marker>.calendar-marker-label,.app-shell .schedule-calendar .calendar-marker>b,.app-shell .schedule-calendar .calendar-day small{display:none}
+ .app-shell .schedule-calendar .calendar-marker-icon{width:18px;height:18px;border-radius:4px}
+ .app-shell .schedule-calendar .calendar-marker.starts .calendar-marker-icon{box-shadow:0 0 0 1px #81a65a}
+ .app-shell .schedule-calendar .calendar-marker.ends .calendar-marker-icon{box-shadow:0 0 0 1px #c58d63}
+ .app-shell .schedule-calendar .calendar-overflow{flex:0 0 100%;white-space:nowrap;margin-top:2px;font-size:.55rem;line-height:1.4}
+}
+
+/* News and broadcasts each own a frame; nested content stays inset from its edges. */
+.app-shell .favorite-updates{border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible;gap:18px}
+.favorite-updates>.favorite-news,.favorite-updates>.broadcast-room{min-width:0;margin:0}
+.favorite-news>.favorite-section-heading,.broadcast-room>.favorite-section-heading{margin:0;flex-wrap:wrap;align-items:center}
+.favorite-section-heading>div{min-width:0;flex-wrap:wrap;row-gap:6px}
+.favorite-section-heading>div>svg,.broadcast-standby>svg{flex-shrink:0}
+.favorite-section-heading h2{overflow-wrap:anywhere}
+.favorite-news-grid{padding:14px;gap:12px}
+.favorite-news-game{background:var(--content-card);border-color:var(--content-line);border-radius:10px}
+.favorite-news-game>header{border-bottom-color:var(--content-line);background:var(--content-soft)}
+.favorite-notice-list .favorite-notice-button{min-width:0;min-height:64px;border-bottom-color:var(--content-line);color:var(--content-ink)}
+.favorite-notice-list .favorite-notice-button>span{min-width:0;flex-wrap:wrap;row-gap:3px}
+.favorite-notice-list .favorite-notice-button>strong{min-width:0;min-height:0;overflow-wrap:anywhere}
+.favorite-notice-list .favorite-notice-button>svg{grid-column:2;grid-row:2;flex-shrink:0}
+.favorite-news-more{min-height:42px;border-top:1px solid var(--content-line);color:var(--content-muted)}
+.favorite-updates .favorite-empty,.broadcast-room>.broadcast-standby,.broadcast-room>.broadcast-feature{margin:14px;width:auto}
+.broadcast-room>.broadcast-standby{background:var(--content-soft);border:0;border-radius:9px;color:var(--content-muted);padding:18px}
+.broadcast-standby>div{min-width:0;overflow-wrap:anywhere}
+.broadcast-standby strong{color:var(--content-ink)}
+.broadcast-room>.broadcast-tabs{margin:14px 14px 0;padding-bottom:0}
+.broadcast-reminder-link{white-space:nowrap;flex-shrink:0}
+.favorite-news>.simple-news-tabs{margin:12px 14px 0}
+@media(max-width:720px){
+ .favorite-news-grid{padding:12px;gap:10px}
+ .favorite-news>.favorite-section-heading,.broadcast-room>.favorite-section-heading{padding:14px;gap:10px}
+ .favorite-section-heading h2{font-size:1rem}
+ .favorite-section-heading>div{gap:7px}
+ .favorite-updates .favorite-empty,.broadcast-room>.broadcast-standby,.broadcast-room>.broadcast-feature{margin:12px}
+ .broadcast-room>.broadcast-standby{padding:14px;gap:12px}
+ .simple-mode .favorite-news>.favorite-section-heading{margin:0}
+}

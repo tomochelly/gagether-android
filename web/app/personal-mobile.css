@@ -109,7 +109,7 @@
 .simple-mode .calendar-cell{min-height:80px;padding:6px 4px;gap:1px}.simple-mode .calendar-with-games .calendar-cell{min-height:80px}
 .simple-mode .calendar-week-view .calendar-cell{min-height:96px}.simple-mode .calendar-week-view .calendar-cell:not(.selected){opacity:1}
 .simple-mode .calendar-day{font-size:0.75rem;margin-bottom:3px}.simple-mode .calendar-day small{font-size:0.4375rem}
-.simple-mode .calendar-marker{font-size:0.5rem;min-height:0;line-height:1.4;gap:3px}.simple-mode .calendar-marker>span{white-space:normal;overflow-wrap:anywhere}
+.simple-mode .calendar-marker{font-size:0.5rem;min-height:0;line-height:1.4;gap:3px}.simple-mode .calendar-marker>span{white-space:nowrap;overflow-wrap:normal}
 .simple-mode .calendar-cell-game{font-size:0.5rem;line-height:1.35;max-height:22px;overflow:hidden;margin-top:1px}
 .simple-mode .calendar-overflow{font-size:0.5rem;margin-top:3px}
 .simple-mode .calendar-agenda{max-height:none}.simple-mode .calendar-agenda-heading{padding:10px 13px 4px}.simple-mode .calendar-agenda-list{min-height:0;max-height:240px;padding:0 13px}
@@ -119,7 +119,7 @@
 .simple-mode .calendar-footnote{font-size:0.5625rem;padding:7px 13px}
 .simple-mode .favorite-updates{gap:15px;margin:16px 0}.simple-mode .favorite-section-heading{margin-bottom:10px}.simple-mode .favorite-section-heading h2{font-size:0.9375rem}.simple-mode .favorite-section-heading p{display:none}
 .simple-mode .favorite-news-grid{grid-template-columns:1fr}.simple-mode .favorite-news-game>header{padding:10px 13px}.simple-mode .favorite-news-game>header>img{width:28px;height:28px}.simple-mode .favorite-news-game h3{font-size:0.8125rem}
-.simple-mode .favorite-notice-list{max-height:240px;overflow-y:auto;overscroll-behavior:contain}.simple-mode .favorite-notice-list>button{padding:9px 13px;gap:4px}
+.simple-mode .favorite-notice-list{max-height:240px;overflow-y:auto;overscroll-behavior:contain}.simple-mode .favorite-notice-list .favorite-notice-button{padding:9px 13px;gap:4px}
 .simple-mode .favorite-notice-list strong{font-size:0.75rem;min-height:0;line-height:1.45;-webkit-line-clamp:1}
 .simple-mode .favorite-news-more{min-height:38px;padding:8px}.simple-mode .favorite-news-game header button{width:40px;height:40px}
 .simple-news-tabs{display:flex;gap:5px;overflow-x:auto;padding-bottom:8px;scrollbar-width:thin}.simple-news-tabs button{display:flex;align-items:center;gap:6px;min-height:40px;padding:6px 9px;flex-shrink:0;font-size:0.6875rem;border:var(--display-line-188,1px solid #a9bd901f);border-radius:8px;color:var(--display-ink-189,#97a78d)}
