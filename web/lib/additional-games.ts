@@ -143,8 +143,8 @@ export const additionalGames:Game[]=[
     "official": "https://www.hololive-dreams.com/",
     "icon": "https://www.hololive-dreams.com/_astro/appicon.BKQZw3bJ.png",
     "iconSource": "https://www.hololive-dreams.com/en/",
-    "logo": "https://www.hololive-dreams.com/_astro/appicon.BKQZw3bJ.png",
-    "art": "",
+    "logo": "https://www.hololive-dreams.com/_astro/logo.NqsmsYtI.png",
+    "art": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/80e39b3c3c634790a11ab8d43c002a0e/img_banner_full_area-a03_notice.png",
     "sources": [
       {
         "label": "hololive Dreams · 한국어 공식",
