@@ -1,0 +1,319 @@
+{
+  "sources": [
+    {
+      "gameId": "nte",
+      "regions": [
+        "global"
+      ],
+      "kind": "pickup",
+      "names": [
+        {
+          "ko": "아카네 린",
+          "en": "Akane Rin",
+          "ja": "明音凛",
+          "zh": "明音凛"
+        }
+      ],
+      "url": "https://www.kaiden.gg/nte/characters/akane/",
+      "profileId": "nte-akane-rin",
+      "name": {
+        "ko": "아카네 린",
+        "en": "Akane Rin",
+        "ja": "明音凛",
+        "zh": "明音凛"
+      },
+      "traits": [
+        {
+          "id": "rarity",
+          "label": {
+            "ko": "희귀도",
+            "en": "Rarity",
+            "ja": "レアリティ",
+            "zh": "稀有度"
+          },
+          "value": {
+            "ko": "S급",
+            "en": "S-Rank",
+            "ja": "Sランク",
+            "zh": "S级"
+          },
+          "officialLocales": [],
+          "translatedLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ]
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "속성",
+            "en": "Element",
+            "ja": "属性",
+            "zh": "属性"
+          },
+          "value": {
+            "ko": "상",
+            "en": "Lakshana",
+            "ja": "相",
+            "zh": "相"
+          },
+          "officialLocales": [],
+          "translatedLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ],
+          "icon": {
+            "image": "https://www.kaiden.gg/img/nte/elements/Lakshana.webp",
+            "imageSource": "https://www.kaiden.gg/img/nte/elements/Lakshana.webp",
+            "width": 512,
+            "height": 512,
+            "verifiedAt": "2026-10-23T16:03:51.898189+00:00",
+            "imageVerified": true
+          }
+        },
+        {
+          "id": "arc",
+          "label": {
+            "ko": "아크 유형",
+            "en": "Arc type",
+            "ja": "アーク形式",
+            "zh": "弧盘类型"
+          },
+          "value": {
+            "ko": "액체",
+            "en": "Liquid",
+            "ja": "液体",
+            "zh": "液态"
+          },
+          "officialLocales": [],
+          "translatedLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ],
+          "icon": {
+            "image": "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_liquid.webp",
+            "imageSource": "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_liquid.webp",
+            "width": 128,
+            "height": 128,
+            "verifiedAt": "2026-10-23T16:03:51.898189+00:00",
+            "imageVerified": true
+          }
+        }
+      ],
+      "sourceName": "Akane"
+    },
+    {
+      "gameId": "nte",
+      "regions": [
+        "global"
+      ],
+      "kind": "weapon",
+      "names": [
+        {
+          "ko": "달의 대척점",
+          "en": "Far Side of the Moon",
+          "ja": "月のB面",
+          "zh": "月的对跖点"
+        }
+      ],
+      "url": "https://www.kaiden.gg/nte/arcs/far-side-of-the-moon/",
+      "profileId": "nte-far-side-of-the-moon",
+      "name": {
+        "ko": "달의 대척점",
+        "en": "Far Side of the Moon",
+        "ja": "月のB面",
+        "zh": "月的对跖点"
+      },
+      "traits": [
+        {
+          "id": "rarity",
+          "label": {
+            "ko": "희귀도",
+            "en": "Rarity",
+            "ja": "レアリティ",
+            "zh": "稀有度"
+          },
+          "value": {
+            "ko": "S급",
+            "en": "S-Rank",
+            "ja": "Sランク",
+            "zh": "S级"
+          },
+          "officialLocales": [],
+          "translatedLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ]
+        },
+        {
+          "id": "arc",
+          "label": {
+            "ko": "아크 유형",
+            "en": "Arc type",
+            "ja": "アーク形式",
+            "zh": "弧盘类型"
+          },
+          "value": {
+            "ko": "액체",
+            "en": "Liquid",
+            "ja": "液体",
+            "zh": "液态"
+          },
+          "officialLocales": [],
+          "translatedLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ],
+          "icon": {
+            "image": "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_liquid.webp",
+            "imageSource": "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_liquid.webp",
+            "width": 128,
+            "height": 128,
+            "verifiedAt": "2026-10-23T16:03:51.898189+00:00",
+            "imageVerified": true
+          }
+        },
+        {
+          "id": "signature-for",
+          "label": {
+            "ko": "시그니처 대상",
+            "en": "Signature for",
+            "ja": "モチーフ対象",
+            "zh": "适配角色"
+          },
+          "value": {
+            "ko": "아카네 린",
+            "en": "Akane Rin",
+            "ja": "明音凛",
+            "zh": "明音凛"
+          },
+          "officialLocales": [],
+          "translatedLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ]
+        }
+      ],
+      "sourceName": "Far Side of the Moon"
+    }
+  ],
+  "icons": {
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_xuannianwangning.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_xuannianwangning.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_xuannianwangning.webp",
+      "width": 100,
+      "height": 100,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/Worldboss_material_02.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/Worldboss_material_02.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/Worldboss_material_02.webp",
+      "width": 100,
+      "height": 100,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_kewangwangning.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_kewangwangning.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_kewangwangning.webp",
+      "width": 100,
+      "height": 100,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_chaoyanwangning.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_chaoyanwangning.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_chaoyanwangning.webp",
+      "width": 100,
+      "height": 100,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv1.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv1.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv1.webp",
+      "width": 100,
+      "height": 100,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv2.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv2.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv2.webp",
+      "width": 100,
+      "height": 100,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv3.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv3.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/item_100/material_wpbreak_05_lv3.webp",
+      "width": 100,
+      "height": 100,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/AvatarImage/200/player_mingyin.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/AvatarImage/200/player_mingyin.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/AvatarImage/200/player_mingyin.webp",
+      "width": 200,
+      "height": 200,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/Fork/fork_prism_256.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Fork/fork_prism_256.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Fork/fork_prism_256.webp",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/elements/Lakshana.webp": {
+      "image": "https://www.kaiden.gg/img/nte/elements/Lakshana.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/elements/Lakshana.webp",
+      "width": 512,
+      "height": 512,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_liquid.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_liquid.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_liquid.webp",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Melee.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Melee.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Melee.webp",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Skill.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Skill.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Skill.webp",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Ultraskill1.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Ultraskill1.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_Ultraskill1.webp",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    },
+    "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_QTE.webp": {
+      "image": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_QTE.webp",
+      "imageSource": "https://www.kaiden.gg/img/nte/UI/UI_Icon/Skill/Akane_QTE.webp",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T16:03:51.898189+00:00"
+    }
+  }
+}

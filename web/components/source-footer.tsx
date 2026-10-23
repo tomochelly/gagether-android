@@ -31,7 +31,7 @@ export default function SourceFooter({entries,locale,detail=false}:{entries:Entr
  },[entries,locale,byId,t]);
  const latest=entries.map(e=>e.verifiedAt).sort().at(-1);
  const label=(kind:string)=>kind==='official'?t.officialNews:kind==='community'?t.communityInfo:t.videoInfo;
- return <details className={'source-footer'+(detail?' source-footer-detail':'')} open={detail||undefined}>
+ return <details key={entries.map(e=>e.id).join('|')+locale} className={'source-footer'+(detail?' source-footer-detail':'')}>
   <summary>{t.referenceLinks} <span>{sources.length}</span>{latest&&<small>{t.checked} · {new Intl.DateTimeFormat(locale==='ko'?'ko-KR':locale==='ja'?'ja-JP':locale==='zh'?'zh-CN':'en-GB',{month:'2-digit',day:'2-digit',timeZone:zone}).format(new Date(latest))}</small>}</summary>
   <div className="source-footer-links">{sources.map((s,i)=><a key={s.url} href={s.url} target="_blank" rel="noreferrer"><span>[{label(s.kind)}]</span> {s.title} <small>{t.openSource} ↗</small></a>)}</div>
  </details>;

@@ -66,3 +66,19 @@ test('owner-ended broadcasts survive automatic refresh and can be restored from 
  assert.equal((await history.POST(request('/api/editor/history',{seq:rows[0].seq,revision:1,side:'before'}))).status,200);
  assert.equal((await readData()).entries.find(e=>e.id===base.id).broadcast.status,'live');
 });
+test('actual owner SQLite save/reload/automatic-refresh/restore preserves four independent photos and frames across all canonical services',async()=>{
+ const {replaceArtworkSlot,patchArtworkSlot}=await import('../lib/editor-artwork.ts'),{artworkForLocale,serviceArtworkLocale}=await import('../lib/artwork.ts');
+ globalThis.fetch=async(path,options)=>options?.method==='POST'?api.POST(request(path,JSON.parse(options.body))):api.GET(request(path,null,'GET'));
+ try{for(const game of games)for(const region of new Set(game.regions.map(r=>effectiveRegion(game,r)))){
+  const base={...fixture(game,'photo-api-'+game.id+'-'+region),region};let current=await saveInlineEntry(base,{...base},true);
+  for(const locale of ['ko','ja','en','zh']){
+   const next={...current,...replaceArtworkSlot(current,locale,`/assets/fixtures/${game.id}-${region}-${locale}.png`,'https://gagether.wiki',{width:1920,height:1080})};Object.assign(next,patchArtworkSlot(next,locale,{imageFraming:{banner:{x:33,y:47,zoom:.6,fit:'cover'}}}));
+   current=await saveInlineEntry(current,next);const reloaded=await fetchOwnerEntry(base.id);assert.deepEqual(reloaded.localizedArtwork,current.localizedArtwork);
+   for(const l of Object.keys(current.localizedArtwork)){const display=artworkForLocale(reloaded,l,'preview',l);assert.equal(display.image,current.localizedArtwork[l].image);assert.equal(display.imageLocale,l);assert.equal(display.imageFraming.banner.zoom,.6);}
+  }
+  const before=structuredClone(current),removed={...current,...replaceArtworkSlot(current,'ja','','https://gagether.wiki',{width:1,height:1})};current=await saveInlineEntry(current,removed);assert.ok(!artworkForLocale(current,'ja','full','ja').image);assert.equal(current.localizedArtwork.ko.image,before.localizedArtwork.ko.image);
+  const rows=(await (await history.GET(request('/api/editor/history?id='+base.id,null,'GET'))).json()).history;assert.equal((await history.POST(request('/api/editor/history',{seq:rows[0].seq,revision:current.editor.revision,side:'before'}))).status,200);const restored=await fetchOwnerEntry(base.id);assert.equal(restored.localizedArtwork.ja.image,before.localizedArtwork.ja.image);
+  await saveEntries([{...base,title:local('Fresh official headline')}]);const effective=(await readData()).entries.find(e=>e.id===base.id);assert.deepEqual(effective.localizedArtwork,restored.localizedArtwork);
+  const service=serviceArtworkLocale(region,game.id);if(service)assert.equal(artworkForLocale(effective,'ko','full',service).image,effective.localizedArtwork[service].image);
+ }}finally{globalThis.fetch=nativeFetch;}
+});

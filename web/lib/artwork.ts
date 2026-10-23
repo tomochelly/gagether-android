@@ -1,6 +1,7 @@
 import type {EntityArtwork,PreviewFocus,PreviewBounds,Locale,Region,Entry,Game} from './types';
 import {games} from './games';
 import {independentService} from './content-audience';
+import {isolatedArtwork} from './editor-artwork';
 import {artworkPresets} from './artwork-presets';
 export function isBrandArtwork(image:string|undefined,game:Game){return !!image&&[game.logo,game.icon,...Object.values(game.localizedLogos||{})].includes(image);}
 export function previewFocus(art:EntityArtwork):PreviewFocus{
@@ -14,11 +15,11 @@ export function serviceArtworkLocale(region:Region,gameId?:string):Locale|undefi
 export function artworkForLocale(art:EntityArtwork,locale:Locale,mode:'preview'|'full'='preview',serviceLocale?:Locale):EntityArtwork{
  serviceLocale=serviceLocale||serviceArtworkLocale((art as Entry).region,(art as Entry).gameId);
  const targetLocale=serviceLocale||locale;
- const native=serviceLocale&&art.imageLocale===serviceLocale&&art.imageVerified;
- const translated=native?undefined:art.localizedArtwork?.[targetLocale];
- const selected=translated?.imageVerified?{...art,...translated,imageFraming:art.imageFraming||translated.imageFraming,previewFocus:art.previewFocus||translated.previewFocus}:art;
- const preview=art.previewArtwork;
- if(mode==='preview'&&preview?.imageVerified&&(preview.imageLocale==='neutral'||preview.imageLocale===targetLocale))return {...preview,imageFraming:art.imageFraming||preview.imageFraming,previewFocus:art.previewFocus||preview.previewFocus,previewBounds:art.previewBounds||preview.previewBounds};
+ const translated=art.localizedArtwork?.[targetLocale];
+ // An explicit locale slot is authoritative, including an intentionally cleared slot.
+ const selected=translated?isolatedArtwork(art,translated):art;
+ const preview=translated?undefined:art.previewArtwork;
+ if(mode==='preview'&&preview?.imageVerified&&(preview.imageLocale==='neutral'||preview.imageLocale===targetLocale))return isolatedArtwork(art,preview);
  // Selected independent JP/CN services keep their own reviewed current original.
  // Shared services still require the visitor language or verified neutral artwork.
  if(!selected.imageVerified||!selected.imageLocale||selected.imageLocale!=='neutral'&&selected.imageLocale!==targetLocale)return {...selected,image:undefined,imageVerified:false};
@@ -74,4 +75,9 @@ export function detailArtworkForLocale(entry:Entry,locale:Locale){
   if(!selected.image||seen.has(selected.image))return false;
   seen.add(selected.image);return true;
  });
+}
+
+/** Same anchor for the displayed image and the editor's first drag/zoom. */
+export function artworkAnchor(image:{width:number;height:number},box:{width:number;height:number},pixelRatio=1,banner:boolean|'version'=false){
+ return banner==='version'?versionPreviewAnchor(image,box,pixelRatio):banner&&box.width>900?.7:.5;
 }

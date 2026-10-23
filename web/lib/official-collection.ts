@@ -1,3 +1,5 @@
+import {importNteProfiles} from './nte-profile-store';
+import {importMaintainedArtwork} from './maintained-artwork-store';
 import {env} from 'cloudflare:workers';
 import {regionalOfficialSources,regionalDetail,regionalMetadataChanges,type RegionalNotice} from './regional-notices';
 import {noticeEntry,completeNoticeMetadata,type FastNotice} from './fast-notices';
@@ -56,8 +58,12 @@ export async function collectPendingDocuments(){
  }));
  const bodyImport=await importCapturedBodies(undefined,100);
  const weapons=await importWuwaWeapons();
+ const artwork=await importMaintainedArtwork();
+ const profiles=await importNteProfiles();
+ checks.push(...profiles.discovery.checks.map((s:any)=>({...s,source:'profile-index/'+s.url,checkedAt:profiles.discovery.checkedAt})));
+ checks.push(...profiles.sources.map(s=>({source:'profile/'+s.url,url:s.url,checkedAt:s.checkedAt,status:s.status,error:s.error,failureKind:s.failureKind})));
  const all=await reviewQueue(5000),pending=all.filter(d=>d.status!=='reviewed');
- const result={checkedAt:new Date().toISOString(),bodyImport,weapons,checks,pending:pending.length,unavailable:pending.filter(d=>d.status==='unavailable').length,coverage:collectionCoverage(data.entries)};
+ const result={checkedAt:new Date().toISOString(),bodyImport,weapons,artwork,profiles,checks,pending:pending.length,unavailable:pending.filter(d=>d.status==='unavailable').length,coverage:collectionCoverage(data.entries)};
  await env.DB!.prepare("INSERT INTO operations_health(key,payload) VALUES('collection',?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload").bind(JSON.stringify(result)).run();
  return result;
 }

@@ -1,0 +1,742 @@
+[
+  {
+    "gameId": "trickcal",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "그윈",
+        "en": "Guin",
+        "ja": "グウィン",
+        "zh": "瑰恩"
+      }
+    ],
+    "asset": {
+      "image": "https://img.game8.jp/13119174/775c35bfbb23b9d22089326d073a8768.webp/show",
+      "imageSource": "https://game8.jp/trickcal/833948",
+      "imageVerified": true,
+      "imageLocale": "neutral",
+      "imageKind": "character",
+      "width": 474,
+      "height": 632,
+      "verifiedAt": "2026-10-23T15:58:16.933619+00:00",
+      "previewFocus": {
+        "x": 50,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "그윈 기본 의상 일러스트 · Game8",
+        "en": "Guin default-outfit artwork · Game8",
+        "ja": "グウィン・通常衣装イラスト · Game8",
+        "zh": "瑰恩初始服装插画 · Game8"
+      }
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "trickcal",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "그윈의 작은 펭귄 친구들",
+        "en": "Guin's Tiny Penguin Friends",
+        "ja": "グウィンの小さなペンギンの友達",
+        "zh": "瑰恩的小企鵝朋友"
+      }
+    ],
+    "asset": {
+      "image": "https://img.game8.jp/13119865/4f9c9a6fb7bffbc72019d53d19774fa1.webp/show",
+      "imageSource": "https://game8.jp/trickcal",
+      "imageVerified": true,
+      "imageLocale": "neutral",
+      "imageKind": "support",
+      "width": 254,
+      "height": 249,
+      "verifiedAt": "2026-10-23T15:58:16.933619+00:00",
+      "previewFocus": {
+        "x": 50,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "그윈 카드 아이콘 · Game8",
+        "en": "Guin card icon · Game8",
+        "ja": "グウィンのカードアイコン · Game8",
+        "zh": "瑰恩卡牌图标 · Game8"
+      }
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "arknights",
+    "regions": [
+      "cn"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "님프",
+        "en": "Nymph",
+        "ja": "ニンフ",
+        "zh": "妮芙"
+      }
+    ],
+    "asset": {
+      "image": "https://patchwiki.biligame.com/images/arknights/e/e0/5c3kexe3wdvfhprmwzdbr0z5ei19pm8.png",
+      "imageSource": "https://wiki.biligame.com/arknights/妮芙",
+      "imageVerified": true,
+      "imageLocale": "neutral",
+      "imageKind": "character",
+      "width": 2560,
+      "height": 2560,
+      "verifiedAt": "2026-10-23T15:59:01.537044+00:00",
+      "previewFocus": {
+        "x": 50,
+        "y": 39,
+        "zoom": 2
+      },
+      "imageCaption": {
+        "ko": "님프 · 정예2 일러스트 · BWIKI",
+        "en": "Nymph · Elite2 artwork · BWIKI",
+        "ja": "ニンフ · 昇進2イラスト · BWIKI",
+        "zh": "妮芙 · 精英化二立绘 · BWIKI"
+      }
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "arknights",
+    "regions": [
+      "cn"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "지마 더 레이징 타이드",
+        "en": "Zima the Raging Tide",
+        "ja": "怒潮ズィマー",
+        "zh": "怒潮凛冬"
+      }
+    ],
+    "asset": {
+      "image": "https://patchwiki.biligame.com/images/arknights/3/3b/eam1oee9e2kt7sonaez9wjlqljxsn4i.png",
+      "imageSource": "https://wiki.biligame.com/arknights/怒潮凛冬",
+      "imageVerified": true,
+      "imageLocale": "neutral",
+      "imageKind": "character",
+      "width": 2535,
+      "height": 2317,
+      "verifiedAt": "2026-10-23T15:59:01.537044+00:00",
+      "previewFocus": {
+        "x": 51,
+        "y": 39,
+        "zoom": 2.1
+      },
+      "imageCaption": {
+        "ko": "지마 더 레이징 타이드 · 정예2 일러스트 · BWIKI",
+        "en": "Zima the Raging Tide · Elite2 artwork · BWIKI",
+        "ja": "怒潮ズィマー · 昇進2イラスト · BWIKI",
+        "zh": "怒潮凛冬 · 精英化二立绘 · BWIKI"
+      }
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "피닉스",
+        "en": "Phoenix",
+        "ja": "フィオニー",
+        "zh": "菲欧妮"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/7fb7cec2440f88dea5270ac3d0bff9fc_960437781984268467.png",
+      "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/166926",
+      "imageVerified": true,
+      "imageLocale": "ko",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "피닉스",
+        "en": "Phoenix",
+        "ja": "フィオニー",
+        "zh": "菲欧妮"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/22f858f2bf0311542c2975ea1ed11d0d_6769864883705776360.png",
+      "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/166926",
+      "imageVerified": true,
+      "imageLocale": "ja",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "피닉스",
+        "en": "Phoenix",
+        "ja": "フィオニー",
+        "zh": "菲欧妮"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/53161fb7a065d0d77b7e2a0b5f4954ab_8119756647585352241.png",
+      "imageSource": "https://zenless.hoyoverse.com/en-us/news/166926",
+      "imageVerified": true,
+      "imageLocale": "en",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "피닉스",
+        "en": "Phoenix",
+        "ja": "フィオニー",
+        "zh": "菲欧妮"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/0ac74b4a333bdb0b737ccf821e4abe12_6574585210894306035.png",
+      "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/166926",
+      "imageVerified": true,
+      "imageLocale": "zh",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "벨리나",
+        "en": "Velina",
+        "ja": "ヴェリナ",
+        "zh": "维琳娜"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/8c8515f758165f3a495a20dfd46b4beb_5220633429923134665.png",
+      "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/166926",
+      "imageVerified": true,
+      "imageLocale": "ko",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "벨리나",
+        "en": "Velina",
+        "ja": "ヴェリナ",
+        "zh": "维琳娜"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/24cc2075920bb2b7e2590b27299cb3d7_5515633280638298527.png",
+      "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/166926",
+      "imageVerified": true,
+      "imageLocale": "ja",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "벨리나",
+        "en": "Velina",
+        "ja": "ヴェリナ",
+        "zh": "维琳娜"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/ab52894afd4dadd30202f7732cdc6614_7304455758794297474.png",
+      "imageSource": "https://zenless.hoyoverse.com/en-us/news/166926",
+      "imageVerified": true,
+      "imageLocale": "en",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "벨리나",
+        "en": "Velina",
+        "ja": "ヴェリナ",
+        "zh": "维琳娜"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/34f6f6f85808093cdf68531efc084f78_9049835767135528162.png",
+      "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/166926",
+      "imageVerified": true,
+      "imageLocale": "zh",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "열반의 첫 깃",
+        "en": "Plume of Rebirth",
+        "ja": "転生の炎翼",
+        "zh": "涅槃初翎"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/baaf6605154e4ed407c32d09a2baef7c_6376757158076805562.png",
+      "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/166926",
+      "imageVerified": true,
+      "imageLocale": "ko",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "열반의 첫 깃",
+        "en": "Plume of Rebirth",
+        "ja": "転生の炎翼",
+        "zh": "涅槃初翎"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/a552f6d059d1d78c706d474b9dc3d53c_249401436954145770.png",
+      "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/166926",
+      "imageVerified": true,
+      "imageLocale": "ja",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "열반의 첫 깃",
+        "en": "Plume of Rebirth",
+        "ja": "転生の炎翼",
+        "zh": "涅槃初翎"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/953e970ff1219261858e83b974aae49c_6119326381653564573.png",
+      "imageSource": "https://zenless.hoyoverse.com/en-us/news/166926",
+      "imageVerified": true,
+      "imageLocale": "en",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "열반의 첫 깃",
+        "en": "Plume of Rebirth",
+        "ja": "転生の炎翼",
+        "zh": "涅槃初翎"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/ece24b10a9ed38d8b6eb77de5df0c422_171170479266812721.png",
+      "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/166926",
+      "imageVerified": true,
+      "imageLocale": "zh",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "영롱한 금빛 마음",
+        "en": "Joyau Dore",
+        "ja": "金襴の心",
+        "zh": "琳琅璧心"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/40262137ec4df3c219b502fd2be3c715_900829174627603353.png",
+      "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/166926",
+      "imageVerified": true,
+      "imageLocale": "ko",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "영롱한 금빛 마음",
+        "en": "Joyau Dore",
+        "ja": "金襴の心",
+        "zh": "琳琅璧心"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/f11164c5bd90c761368592befa4712a1_902637762942929939.png",
+      "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/166926",
+      "imageVerified": true,
+      "imageLocale": "ja",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "영롱한 금빛 마음",
+        "en": "Joyau Dore",
+        "ja": "金襴の心",
+        "zh": "琳琅璧心"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/65a233370b433c1b7d3126ad5155188b_3431624436222475271.png",
+      "imageSource": "https://zenless.hoyoverse.com/en-us/news/166926",
+      "imageVerified": true,
+      "imageLocale": "en",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "zzz",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "영롱한 금빛 마음",
+        "en": "Joyau Dore",
+        "ja": "金襴の心",
+        "zh": "琳琅璧心"
+      }
+    ],
+    "asset": {
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/3fcfe58f471741216c65d042fb22bba4_5660764495669788320.png",
+      "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/166926",
+      "imageVerified": true,
+      "imageLocale": "zh",
+      "imageKind": "banner",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T15:41:31.557367+00:00",
+      "previewFocus": {
+        "x": 70,
+        "y": 42,
+        "zoom": 1
+      },
+      "imageCaption": {
+        "ko": "2026-10-19 공개 픽업 배너",
+        "en": "Pickup banner published 2026-10-19",
+        "ja": "2026-10-19公開の募集バナー",
+        "zh": "2026-10-19公开的卡池横幅"
+      }
+    },
+    "sourceKind": "official"
+  }
+]

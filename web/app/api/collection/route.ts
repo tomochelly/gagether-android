@@ -1,3 +1,5 @@
+import {importNteProfiles} from '@/lib/nte-profile-store';
+import {importMaintainedArtwork} from '@/lib/maintained-artwork-store';
 import {env} from 'cloudflare:workers';
 import {z} from 'zod';
 import {canWriteData} from '@/lib/write-access';
@@ -16,13 +18,14 @@ export async function GET(request:Request){
  if(!await canWriteData(request))return Response.json({error:'Authorized reviewer required'},{status:403,headers});
  const url=new URL(request.url),id=url.searchParams.get('id');
  if(id){if(!/^[a-f0-9]{64}$/.test(id))return Response.json({error:'Invalid document'},{status:400,headers});const row=await env.DB!.prepare('SELECT payload,body_hash FROM official_documents WHERE id=?').bind(id).first<{payload:string;body_hash:string}>();if(!row)return Response.json({error:'Not found'},{status:404,headers});const body=await env.BUCKET!.get('official-documents/'+id+'/'+row.body_hash);return Response.json({document:JSON.parse(row.payload),body:body?await body.json():null},{headers});}
- const data=await readData({automatic:true});return Response.json({queue:await reviewQueue(250),coverage:collectionCoverage(data.entries),artwork:artworkAudit(data.entries),wiki:wikiCoverage(data.entries)},{headers});
+ const data=await readData({automatic:true});const maintenance=(await env.DB!.prepare("SELECT key,payload FROM operations_health WHERE key IN ('maintained-artwork','nte-profiles')").all<{key:string;payload:string}>()).results;return Response.json({maintenance:Object.fromEntries(maintenance.map(r=>[r.key,JSON.parse(r.payload)])),queue:await reviewQueue(250),coverage:collectionCoverage(data.entries),artwork:artworkAudit(data.entries),wiki:wikiCoverage(data.entries)},{headers});
 }
 export async function POST(request:Request){
  if(!sameOrigin(request)||!await canWriteData(request))return Response.json({error:'Authorized reviewer required'},{status:403,headers});
  try{
   const raw=await request.text();if(raw.length>16000)return Response.json({error:'Payload too large'},{status:413,headers});
   const input=JSON.parse(raw);
+  if(z.object({action:z.literal('enrich')}).strict().safeParse(input).success)return Response.json({ok:true,artwork:await importMaintainedArtwork(),profiles:await importNteProfiles(true)},{headers});
   const importInput=z.object({action:z.literal('import'),ids:z.array(z.string().regex(/^[a-f0-9]{64}$/)).min(1).max(25).optional(),limit:z.number().int().min(1).max(100).optional()}).strict().safeParse(input);
   if(importInput.success)return Response.json({ok:true,...await importCapturedBodies(importInput.data.ids,importInput.data.limit),weapons:await importWuwaWeapons(importInput.data.ids)},{headers});
   const fetchInput=z.object({action:z.literal('fetch'),id:z.string().regex(/^[a-f0-9]{64}$/)}).strict().safeParse(input);

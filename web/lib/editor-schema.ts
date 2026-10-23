@@ -1,3 +1,4 @@
+import {allowsRewards} from './content-roles';
 import {z} from 'zod';
 import {entrySchema,safeImage,safeArtwork,safeExtras,safePickupArchive} from './content-schema';
 import {games} from './games';
@@ -23,7 +24,7 @@ const removableFields=Object.entries(entrySchema.shape).filter(([,schema])=>sche
 export const editRequest=z.object({target:z.enum(['entry','site']),id:z.string().regex(/^[a-zA-Z0-9_-]{1,160}$/).optional(),revision:z.number().int().nonnegative(),changes:z.record(z.unknown()),removeFields:z.array(z.string().refine(k=>removableFields.includes(k))).max(50).optional(),create:z.boolean().optional()}).strict();
 export function validateEditedEntry(value:unknown){
  const result=entrySchema.extend({hidden:z.boolean().optional()}).safeParse(value);if(!result.success)return {ok:false as const,error:result.error.issues.map(i=>`${i.path.join('.')}: ${i.message}`).join('; '),details:result.error.issues};
- const e=result.data;if(!games.some(g=>g.id===e.gameId&&g.regions.includes(e.region)))return {ok:false as const,error:'Invalid game or schedule'};
+ const e=result.data;if(!allowsRewards(e)&&(e.rewards?.length||Object.values(e.rewardNote||{}).some(Boolean)))return {ok:false as const,error:'Rewards belong to event, update or package entries, not character/weapon stats'};if(!games.some(g=>g.id===e.gameId&&g.regions.includes(e.region)))return {ok:false as const,error:'Invalid game or schedule'};
  if(!safePickupArchive(e))return {ok:false as const,error:'Invalid pickup archive or unconfirmed clock'};
  const images=[e,...e.pickupMembers||[]];
  if(!safeExtras(e)||images.some(i=>!safeArtwork(i)))return {ok:false as const,error:'Invalid image URL'};

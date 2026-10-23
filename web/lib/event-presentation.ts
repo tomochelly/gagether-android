@@ -1,3 +1,4 @@
+import {allowsRewards} from './content-roles';
 import type {Entry,Locale,RewardItem,Game} from './types';
 import {dateInZone} from './display-time';
 import {inSchedule} from './presentation';
@@ -9,7 +10,7 @@ export const eventText={
  zh:{title:'值得关注的活动',intro:'一览奖励、参与条件与剩余时间',all:'全部',gacha:'抽卡奖励',collab:'联动',ending:'即将结束',reward:'抽卡货币奖励',ongoingCollab:'联动活动',offline:'线下联动',merchandise:'联动销售',online:'线上联动',ingame:'游戏内联动',starts:'距离开始',ends:'距离结束',dateOnly:'',unknown:'参与时间待确认',today:'今天结束',more:'查看更多活动',empty:'没有符合条件的活动',myGames:'我的游戏',countNote:'公开统计开始后已同步的浏览器选择数。多个设备可能重复计数。',countUnavailable:'无法加载统计',countSync:'正在更新人数',social:'官方频道动态',sourceLanguage:'原文',noLocale:'正在核实此语言的官方频道',blocked:'无法读取帖子列表，请打开官方频道查看',metadata:'已核实标题及公开信息',viewChannel:'打开官方频道',noPosts:'暂无已核实的帖子',free:'奖励',days:'天剩余'}
 };
 export const rewardCategory=(gameId:string,r:RewardItem)=>r.category||rewardDefinition(gameId,r)?.category;
-export const pullRewards=(e:Entry)=>(e.rewards||[]).filter(r=>['gacha-currency','gacha-ticket'].includes(rewardCategory(e.gameId,r)||''));
+export const pullRewards=(e:Entry)=>!allowsRewards(e)?[]:(e.rewards||[]).filter(r=>['gacha-currency','gacha-ticket'].includes(rewardCategory(e.gameId,r)||''));
 export const hasPullRewards=(e:Entry)=>pullRewards(e).length>0;
 export const serviceZone=(e:Entry)=>e.region==='cn'?'Asia/Shanghai':e.region==='jp'?'Asia/Tokyo':e.region==='kr'?'Asia/Seoul':/UTC\+8|UTC\+08|\+08:00/.test(e.server)?'Asia/Shanghai':/UTC-7|UTC−7|UTC-07|\-07:00/.test(e.server)?'Etc/GMT+7':'Asia/Seoul';
 export function eventState(e:Entry,now:number):'active'|'upcoming'|'ended'|'unconfirmed'{

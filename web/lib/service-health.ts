@@ -1,3 +1,4 @@
+import {allowsRewards} from './content-roles';
 import {entryState,liveContent,type Entry} from './types';
 import {pickupPeriod} from './pickup-history';
 import {env} from 'cloudflare:workers';
@@ -19,6 +20,7 @@ export function catalogIssues(entries:Entry[],now=Date.now()){
  const issues:{id:string;code:string;detail:string}[]=[],ids=new Set<string>(),rotations=new Map<string,string>();
  for(const e of entries){
   const add=(code:string,detail:string)=>issues.push({id:e.id,code,detail});
+  if(!allowsRewards(e)&&(e.rewards?.length||Object.values(e.rewardNote||{}).some(Boolean)))add('entity-rewards','Event rewards stored on a character or weapon pool');
   if(ids.has(e.id))add('duplicate-id',e.id);ids.add(e.id);
   if(e.startAt&&e.endAt&&Date.parse(e.startAt)>=Date.parse(e.endAt))add('invalid-window','End is not after start');
   if(e.startAt&&e.endAt&&entryState(e,now)==='active'&&e.pickupArchive?.status!=='forecast'&&!liveContent(e,now))add('active-hidden','Active official rotation excluded');

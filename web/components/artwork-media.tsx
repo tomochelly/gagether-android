@@ -1,7 +1,7 @@
 'use client';
 import {useEffect,useRef,useState,type CSSProperties} from 'react';
 import type {EntityArtwork,Locale} from '@/lib/types';
-import {artworkForLocale,previewFocus,previewGeometry,previewSurface,versionPreviewAnchor} from '@/lib/artwork';
+import {artworkForLocale,previewFocus,previewGeometry,previewSurface,artworkAnchor} from '@/lib/artwork';
 import {imageFrame,frameGeometry,type FrameBox} from '@/lib/image-framing';
 import {ImageOff} from 'lucide-react';
 import {ui} from '@/lib/i18n';
@@ -39,7 +39,7 @@ export default function ArtworkMedia({art:input,alt,mode='preview',priority=fals
  const width=loaded?natural.width:dimensions?.width,height=loaded?natural.height:dimensions?.height;
  const ready=loaded&&target.width>0&&target.height>0;
  const containScale=ready?Math.min(target.width/natural.width,target.height/natural.height,1/Math.max(1,pixelRatio)):1;
- const rawGeometry=ready?(frame?frameGeometry(natural,target,frame,pixelRatio):fitPreview==='contain'?{width:natural.width*containScale,height:natural.height*containScale,left:(target.width-natural.width*containScale)/2,top:(target.height-natural.height*containScale)/2}:previewGeometry(natural,target,focus,pixelRatio,art.previewBounds,banner==='version'?versionPreviewAnchor(natural,target,pixelRatio):banner&&target.width>900?.7:.5)):undefined;
+ const rawGeometry=ready?(frame?frameGeometry(natural,target,frame,pixelRatio):fitPreview==='contain'?{width:natural.width*containScale,height:natural.height*containScale,left:(target.width-natural.width*containScale)/2,top:(target.height-natural.height*containScale)/2}:previewGeometry(natural,target,focus,pixelRatio,art.previewBounds,artworkAnchor(natural,target,pixelRatio,banner))):undefined;
  const geometry=rawGeometry?{...rawGeometry,width:rawGeometry.width*renderScale,height:rawGeometry.height*renderScale,left:rawGeometry.left*renderScale,top:rawGeometry.top*renderScale}:undefined;
  const versionInset=banner==='version'&&geometry&&geometry.width<size.width*.78;
  const surface=geometry?previewSurface(geometry,size,frame||fitPreview==='contain'?undefined:art.previewBounds):undefined;
@@ -48,7 +48,7 @@ export default function ArtworkMedia({art:input,alt,mode='preview',priority=fals
  const available=!!art.image&&failed!==art.image;
  const regionalLabel=art.imageLocale&&art.imageLocale!=='neutral'&&art.imageLocale!==locale&&!(mode==='preview'&&art.textFreePreview&&art.previewBounds);
  const picture=available?<img ref={img} src={art.image} alt={alt} width={width} height={height} style={style} loading={mode==='full'||priority?'eager':'lazy'} decoding="async" fetchPriority={priority?'high':'auto'} onLoad={e=>setNatural({src:art.image||'',width:e.currentTarget.naturalWidth,height:e.currentTarget.naturalHeight})} onError={()=>{setFailed(art.image||'');onUnavailable?.();}}/>:null;
- return <span ref={box} data-art-frame={frameBox?.kind||(banner?(mobile?'mobile':'banner'):'card')} className={'art-media '+mode+' '+className+(available?'':' art-unavailable')+(mode==='preview'&&natural.width/natural.height>3?' wide-banner':'')+(versionInset?' version-art-inset':'')}>
+ return <span ref={box} data-art-banner={banner==='version'?'version':banner?'pickup':undefined} data-art-frame={frameBox?.kind||(banner?(mobile?'mobile':'banner'):'card')} className={'art-media '+mode+' '+className+(available?'':' art-unavailable')+(mode==='preview'&&natural.width/natural.height>3?' wide-banner':'')+(versionInset?' version-art-inset':'')}>
   {available?(mode==='preview'?<span className="art-surface" style={surfaceStyle}>{picture}</span>:!editMode?<ImageLightbox src={art.image!} alt={alt} locale={locale} caption={art.imageCaption?.[locale]}>{picture}</ImageLightbox>:picture):<span className="art-pending"><ImageOff size={24}/>{ui[locale].imagePending}</span>}
   {available&&regionalLabel&&<small className="art-language">{languageLabel(art.imageLocale as Locale,locale)} · {({ko:'원본',en:'Original',ja:'原文',zh:'原文'})[locale]}</small>}
  </span>;

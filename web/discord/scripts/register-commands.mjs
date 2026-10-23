@@ -2,7 +2,8 @@ import {readFileSync} from 'node:fs';
 const args=process.argv.slice(2),value=key=>args[args.indexOf(key)+1];
 const guild=args.includes('--guild')?value('--guild'):process.env.DISCORD_TEST_GUILD_ID;
 const global=args.includes('--global');
-const id=process.env.DISCORD_APPLICATION_ID,token=process.env.DISCORD_BOT_TOKEN;
+const config=JSON.parse(readFileSync(new URL('../wrangler.jsonc',import.meta.url),'utf8'));
+const id=process.env.DISCORD_APPLICATION_ID||config.vars.DISCORD_APPLICATION_ID,token=process.env.DISCORD_BOT_TOKEN;
 const commands=JSON.parse(readFileSync(new URL('../commands.json',import.meta.url),'utf8'));
 if(args.includes('--dry-run')){
   console.log(JSON.stringify({commands:commands.map(c=>'/'+c.name),permissions:84992,gatewayRequired:false},null,2));process.exit(0);

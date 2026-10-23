@@ -68,7 +68,7 @@ test('actual upload preview is immediate, success preserves selected service lan
   for(const serviceLocale of ['zh','ja']){
    await act(async()=>root.render(React.createElement(Harness,{key:serviceLocale,serviceLocale,onBusyChange:(_id,busy)=>pending.push(busy)})));
    updates=[];pending=[];await upload();assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'blob:immediate');assert.deepEqual(pending,[true]);assert.equal(updates.length,0);
-   await act(async()=>finish({ok:true,json:async()=>({url:'/api/media/new.png'})}));assert.equal(updates[0].imageLocale,serviceLocale);assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'/api/media/new.png');assert.deepEqual(pending,[true,false]);
+   await act(async()=>finish({ok:true,json:async()=>({url:'/api/media/new.png'})}));assert.equal(updates[0].localizedArtwork[serviceLocale].imageLocale,serviceLocale);assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'/api/media/new.png');assert.deepEqual(pending,[true,false]);
   }
   updates=[];await upload();await act(async()=>finish({ok:false,json:async()=>({error:'Upload failed'})}));assert.equal(updates.length,0);assert.match(document.querySelector('[role=alert]').textContent,/Upload failed/);assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'blob:immediate');assert.equal(pending.at(-1),true);
   await act(async()=>[...document.querySelectorAll('button')].find(b=>b.textContent.includes('교체 취소')).click());assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'/api/media/new.png');assert.equal(pending.at(-1),false);
@@ -92,6 +92,6 @@ test('the real editor blocks saving while a file is uploading, then saves the co
   const input=document.querySelector('input[type=file]');Object.defineProperty(input,'files',{value:[new File(['png'],'photo.png',{type:'image/png'})]});
   await act(async()=>input.dispatchEvent(new Event('change',{bubbles:true})));let button=document.querySelector('.editor-footer button.editor-primary');assert.equal(button.disabled,true);
   await act(async()=>finish({ok:true,json:async()=>({url:'/api/media/complete.png'})}));button=document.querySelector('.editor-footer button.editor-primary');assert.equal(button.disabled,false);
-  await act(async()=>button.click());assert.equal(savedBody.changes.image,'/api/media/complete.png');assert.equal(savedBody.changes.imageLocale,'zh');assert.equal(savedBody.target,'entry');
+  await act(async()=>button.click());assert.equal(savedBody.changes.localizedArtwork.ko.image,'/api/media/complete.png');assert.equal(savedBody.changes.localizedArtwork.ko.imageLocale,'ko');assert.equal(savedBody.target,'entry');
  }finally{await act(async()=>root.unmount());URL.createObjectURL=realCreate;URL.revokeObjectURL=realRevoke;dom.window.close();for(const[key,descriptor]of saved){if(descriptor)Object.defineProperty(globalThis,key,descriptor);else delete globalThis[key]}}
 });

@@ -1,0 +1,529 @@
+{
+  "createdAt": "2026-10-24",
+  "reason": "Preserve legacy reward facts before separating character/weapon detail roles",
+  "entries": [
+    {
+      "id": "endfield-si",
+      "gameId": "endfield",
+      "kind": "pickup",
+      "region": "global",
+      "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/4489",
+      "rewards": [
+        {
+          "category": "gacha-ticket",
+          "officialLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [],
+          "name": {
+            "ko": "만물의 영혼 헤드헌팅 허가증",
+            "en": "Spirit's Restoration HH Permit",
+            "ja": "「万物宿魂」スカウト券",
+            "zh": "萬物有靈尋訪憑證"
+          },
+          "quantity": "5",
+          "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/4489",
+          "sourceKind": "official"
+        },
+        {
+          "category": "gacha-ticket",
+          "officialLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [],
+          "name": {
+            "ko": "긴급 모집",
+            "en": "Urgent Recruitment",
+            "ja": "緊急招集",
+            "zh": "加急招募"
+          },
+          "quantity": "10",
+          "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/4489",
+          "sourceKind": "official"
+        },
+        {
+          "category": "resource",
+          "officialLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [],
+          "name": {
+            "ko": "헤드헌팅 정보서",
+            "en": "Headhunting Dossier",
+            "ja": "スカウト情報ファイル",
+            "zh": "尋訪情報書"
+          },
+          "quantity": "1",
+          "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/4489",
+          "sourceKind": "official"
+        },
+        {
+          "rewardId": "endfield-oroberyl",
+          "category": "gacha-currency",
+          "officialLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [],
+          "name": {
+            "ko": "오로베릴",
+            "en": "Oroberyl",
+            "ja": "赤晶玉",
+            "zh": "嵌晶玉"
+          },
+          "quantity": "100",
+          "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/4489",
+          "sourceKind": "official"
+        },
+        {
+          "category": "resource",
+          "officialLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [],
+          "name": {
+            "ko": "사의 증표",
+            "en": "Si Token",
+            "ja": "スーの印",
+            "zh": "祀的信物"
+          },
+          "quantity": "1",
+          "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/4489",
+          "sourceKind": "official"
+        }
+      ],
+      "rewardNote": {
+        "ko": "무료 보상은 누적 7일 출석 허가증 5개와 작전 훈련 오로베릴 100개 등입니다. 긴급 모집·정보서·증표는 각각 모집 30·60·240회 조건부 보상이며, 통합 징표 거래의 허가증 5개는 무료가 아닌 교환 상품입니다. 긴급 모집과 전환된 전용 허가증은 해당 모집 종료 후 만료됩니다.",
+        "en": "Free rewards include 5 permits for 7 total sign-ins and 100 Oroberyls from Combat Drills. Urgent Recruitment, the dossier, and Si Token require 30, 60, and 240 pulls; the 5-permit Quota Exchange offer is not free. Urgent Recruitment and converted dedicated permits expire with their applicable banner.",
+        "ja": "無料報酬は累計7日ログインのスカウト券5枚と作戦訓練の赤晶玉100など。緊急招集・情報ファイル・スーの印はそれぞれ30・60・240回スカウトの条件付き報酬で、集成配給交換の券5枚は無料ではありません。緊急招集と変換後の専用券は対象スカウト終了後に失効します。",
+        "zh": "免費獎勵包括累計7日簽到的憑證5張及作戰演練的嵌晶玉100等。加急招募、情報書與祀的信物分別需30、60、240次尋訪；配額交易中的5張憑證並非免費。加急招募及轉換後的專用憑證會在對應尋訪結束後失效。"
+      }
+    },
+    {
+      "id": "wuwa-chisa",
+      "gameId": "wuwa",
+      "kind": "pickup",
+      "region": "global",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "rewards": [
+        {
+          "rewardId": "wuwa-astrite",
+          "category": "gacha-currency",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "name": {
+            "ko": "별의 소리",
+            "en": "Astrite",
+            "ja": "星声",
+            "zh": "星声"
+          },
+          "quantity": "300,",
+          "icon": {
+            "image": "https://patchwiki.biligame.com/images/wutheringwaves/1/12/fju266e14loro53clufzevp21pq8kkc.png",
+            "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/星声",
+            "width": 256,
+            "height": 256,
+            "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+          },
+          "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+          "sourceKind": "official"
+        },
+        {
+          "acquisition": "conditional",
+          "rewardId": "wuwa-radiant-tide",
+          "category": "gacha-ticket",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "name": {
+            "ko": "금빛 파도의 무늬",
+            "en": "Radiant Tide",
+            "ja": "金髄の波模様",
+            "zh": "浮金波纹"
+          },
+          "quantity": "5,",
+          "icon": {
+            "image": "https://patchwiki.biligame.com/images/wutheringwaves/d/d4/6pf5mmq59ygn0yjhlh97ptio82687jf.png",
+            "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/浮金波纹",
+            "width": 256,
+            "height": 256,
+            "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+          },
+          "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+          "sourceKind": "official"
+        }
+      ]
+    },
+    {
+      "id": "wuwa-iuno",
+      "gameId": "wuwa",
+      "kind": "pickup",
+      "region": "global",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "rewards": [
+        {
+          "rewardId": "wuwa-astrite",
+          "category": "gacha-currency",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "name": {
+            "ko": "별의 소리",
+            "en": "Astrite",
+            "ja": "星声",
+            "zh": "星声"
+          },
+          "quantity": "300,",
+          "icon": {
+            "image": "https://patchwiki.biligame.com/images/wutheringwaves/1/12/fju266e14loro53clufzevp21pq8kkc.png",
+            "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/星声",
+            "width": 256,
+            "height": 256,
+            "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+          },
+          "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+          "sourceKind": "official"
+        },
+        {
+          "acquisition": "conditional",
+          "rewardId": "wuwa-radiant-tide",
+          "category": "gacha-ticket",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "name": {
+            "ko": "금빛 파도의 무늬",
+            "en": "Radiant Tide",
+            "ja": "金髄の波模様",
+            "zh": "浮金波纹"
+          },
+          "quantity": "5,",
+          "icon": {
+            "image": "https://patchwiki.biligame.com/images/wutheringwaves/d/d4/6pf5mmq59ygn0yjhlh97ptio82687jf.png",
+            "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/浮金波纹",
+            "width": 256,
+            "height": 256,
+            "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+          },
+          "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+          "sourceKind": "official"
+        }
+      ]
+    },
+    {
+      "id": "wuwa-hsin",
+      "gameId": "wuwa",
+      "kind": "pickup",
+      "region": "global",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+      "rewards": [
+        {
+          "acquisition": "conditional",
+          "rewardId": "wuwa-astrite",
+          "category": "gacha-currency",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "name": {
+            "ko": "별의 소리",
+            "en": "Astrite",
+            "ja": "星声",
+            "zh": "星声"
+          },
+          "quantity": "300,",
+          "icon": {
+            "image": "https://patchwiki.biligame.com/images/wutheringwaves/1/12/fju266e14loro53clufzevp21pq8kkc.png",
+            "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/星声",
+            "width": 256,
+            "height": 256,
+            "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+          },
+          "sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+          "sourceKind": "official"
+        },
+        {
+          "acquisition": "conditional",
+          "rewardId": "wuwa-radiant-tide",
+          "category": "gacha-ticket",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "name": {
+            "ko": "금빛 파도의 무늬",
+            "en": "Radiant Tide",
+            "ja": "金髄の波模様",
+            "zh": "浮金波纹"
+          },
+          "quantity": "5,",
+          "icon": {
+            "image": "https://patchwiki.biligame.com/images/wutheringwaves/d/d4/6pf5mmq59ygn0yjhlh97ptio82687jf.png",
+            "imageSource": "https://wiki.biligame.com/wutheringwaves/道具/浮金波纹",
+            "width": 256,
+            "height": 256,
+            "verifiedAt": "2026-10-20T21:43:11.080854+00:00"
+          },
+          "sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572",
+          "sourceKind": "official"
+        }
+      ]
+    },
+    {
+      "id": "ba-kr-20261013-kisaki",
+      "gameId": "bluearchive",
+      "kind": "pickup",
+      "region": "kr",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "rewards": [
+        {
+          "rewardId": "bluearchive-pyroxene",
+          "category": "gacha-currency",
+          "name": {
+            "ko": "청휘석",
+            "en": "Pyroxenes",
+            "ja": "青輝石",
+            "zh": "青辉石"
+          },
+          "quantity": "480",
+          "icon": {
+            "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/currency_icon_gem.webp",
+            "imageSource": "https://github.com/SchaleDB/SchaleDB",
+            "width": 304,
+            "height": 240,
+            "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+          },
+          "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+          "sourceKind": "official",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ba-kr-20261013-shun",
+      "gameId": "bluearchive",
+      "kind": "pickup",
+      "region": "kr",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "rewards": [
+        {
+          "rewardId": "bluearchive-pyroxene",
+          "category": "gacha-currency",
+          "name": {
+            "ko": "청휘석",
+            "en": "Pyroxenes",
+            "ja": "青輝石",
+            "zh": "青辉石"
+          },
+          "quantity": "480",
+          "icon": {
+            "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/currency_icon_gem.webp",
+            "imageSource": "https://github.com/SchaleDB/SchaleDB",
+            "width": 304,
+            "height": 240,
+            "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+          },
+          "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+          "sourceKind": "official",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ba-global-20261013-kisaki",
+      "gameId": "bluearchive",
+      "kind": "pickup",
+      "region": "global",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "rewards": [
+        {
+          "rewardId": "bluearchive-pyroxene",
+          "category": "gacha-currency",
+          "name": {
+            "ko": "청휘석",
+            "en": "Pyroxenes",
+            "ja": "青輝石",
+            "zh": "青辉石"
+          },
+          "quantity": "480",
+          "icon": {
+            "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/currency_icon_gem.webp",
+            "imageSource": "https://github.com/SchaleDB/SchaleDB",
+            "width": 304,
+            "height": 240,
+            "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+          },
+          "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+          "sourceKind": "official",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ba-global-20261013-shun",
+      "gameId": "bluearchive",
+      "kind": "pickup",
+      "region": "global",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "rewards": [
+        {
+          "rewardId": "bluearchive-pyroxene",
+          "category": "gacha-currency",
+          "name": {
+            "ko": "청휘석",
+            "en": "Pyroxenes",
+            "ja": "青輝石",
+            "zh": "青辉石"
+          },
+          "quantity": "480",
+          "icon": {
+            "image": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/item/full/currency_icon_gem.webp",
+            "imageSource": "https://github.com/SchaleDB/SchaleDB",
+            "width": 304,
+            "height": 240,
+            "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+          },
+          "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+          "sourceKind": "official",
+          "officialLocales": [
+            "ko"
+          ],
+          "translatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arknights-cn-20261009-clementia",
+      "gameId": "arknights",
+      "kind": "pickup",
+      "region": "cn",
+      "sourceUrl": "https://ak.hypergryph.com/news/5101",
+      "rewards": [
+        {
+          "acquisition": "purchase",
+          "rewardId": "arknights-headhunting-permit",
+          "category": "gacha-ticket",
+          "name": {
+            "ko": "헤드헌팅 허가증",
+            "en": "Headhunting Permit",
+            "ja": "スカウト券",
+            "zh": "寻访凭证"
+          },
+          "quantity": "2",
+          "icon": {
+            "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/tkt_gacha.png",
+            "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+            "width": 178,
+            "height": 138,
+            "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+          },
+          "sourceUrl": "https://ak.hypergryph.com/news/5101",
+          "sourceKind": "official",
+          "officialLocales": [],
+          "translatedLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ]
+        },
+        {
+          "acquisition": "purchase",
+          "rewardId": "arknights-headhunting-permit-10",
+          "category": "gacha-ticket",
+          "name": {
+            "ko": "헤드헌팅 10회 허가증",
+            "en": "Ten-roll Headhunting Permit",
+            "ja": "10回スカウト券",
+            "zh": "十连寻访凭证"
+          },
+          "quantity": "1",
+          "icon": {
+            "image": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/items/icons/tkt_gacha_10.png",
+            "imageSource": "https://github.com/ArknightsAssets/ArknightsAssets2",
+            "width": 180,
+            "height": 144,
+            "verifiedAt": "2026-10-20T21:45:12.194195+00:00"
+          },
+          "sourceUrl": "https://ak.hypergryph.com/news/5101",
+          "sourceKind": "official",
+          "officialLocales": [],
+          "translatedLocales": [
+            "ko",
+            "en",
+            "ja",
+            "zh"
+          ]
+        }
+      ]
+    }
+  ]
+}
