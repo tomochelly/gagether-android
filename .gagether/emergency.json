@@ -3,7 +3,7 @@
   "requestId": "nte-locale-restore-20261024-v1",
   "reason": "Restore Korean pickup photo lost by old multilingual editor and preserve Japanese owner upload and framing",
   "action": "edit",
-  "dryRun": true,
+  "dryRun": false,
   "edit": {
     "target": "entry",
     "id": "hist-nte-global-20261021-character-f6a28244912f",
