@@ -33,7 +33,7 @@ export interface PreviewBounds {left:number;top:number;right:number;bottom:numbe
 export interface ArtworkAsset {imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image:string;imageSource:string;imageVerified:boolean;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageLocale?:Locale|'neutral';width:number;height:number;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;verifiedAt:string}
 export interface EntityArtwork {imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image?:string;imageSource?:string;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageFit?:"contain"|"cover";imagePosition?:string;imageVerified?:boolean;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;imageLocale?:Locale|'neutral';previewArtwork?:ArtworkAsset;localizedArtwork?:Partial<Record<Locale,ArtworkAsset>>}
 export interface Game {
- id:string;name:Localized;short:string;genre:Localized;color:string;logo:string;icon?:string;iconSource?:string;art:string;artPosition?:string;
+ id:string;name:Localized;short:string;genre:Localized;color:string;logo:string;localizedLogos?:Partial<Record<Locale,string>>;logoSources?:Partial<Record<Locale,string>>;icon?:string;iconSource?:string;art:string;artPosition?:string;
  official:string;publisher:string;regions:Region[];sources:{label:string;url:string;region:Region}[];
  serviceMode?:"regional"|"shared-global";
  scheduleRegions?:Region[];regionAliases?:Partial<Record<Region,Region>>;

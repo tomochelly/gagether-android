@@ -3,11 +3,14 @@ import {games,isSupportedSchedule} from './games';
 import {ui} from './i18n';
 import type {SiteAnnouncement} from './site-announcements';
 
-export type GameAppearance=Partial<Pick<Game,'name'|'short'|'genre'|'color'|'logo'|'icon'|'iconSource'|'art'|'artPosition'|'official'|'publisher'|'regionLabels'>>;
+export type GameAppearance=Partial<Pick<Game,'name'|'short'|'genre'|'color'|'logo'|'localizedLogos'|'logoSources'|'icon'|'iconSource'|'art'|'artPosition'|'official'|'publisher'|'regionLabels'>>;
 export type SiteSettings={announcements?:SiteAnnouncement[];announcementSeconds?:number;brand?:{name?:string;tagline?:string;logo?:string};carouselSeconds?:number;ui?:Partial<Record<Locale,Partial<Record<keyof typeof ui.ko,string>>>>;games?:Record<string,GameAppearance>};
 export type EditorialRecord={key:string;payload:Record<string,unknown>;revision:number;updatedAt:string};
 export const emptySettings:SiteSettings={};
-export function catalogGames(settings:SiteSettings):Game[]{return games.map(g=>({...g,...settings.games?.[g.id],id:g.id,regions:g.regions,serviceMode:g.serviceMode,scheduleRegions:g.scheduleRegions,regionAliases:g.regionAliases,sources:g.sources}));}
+export function catalogGames(settings:SiteSettings,locale?:Locale):Game[]{return games.map(g=>{
+ const owner=settings.games?.[g.id],localizedLogos={...g.localizedLogos,...owner?.localizedLogos};
+ return {...g,...owner,localizedLogos,logo:locale?(owner?.localizedLogos?.[locale]||owner?.logo||localizedLogos[locale]||g.logo):(owner?.logo||g.logo),id:g.id,regions:g.regions,serviceMode:g.serviceMode,scheduleRegions:g.scheduleRegions,regionAliases:g.regionAliases,sources:g.sources};
+});}
 export const catalogUi=(locale:Locale,settings:SiteSettings)=>({...ui[locale],...settings.ui?.[locale]});
 export function applyEntryPatch(base:Partial<Entry>|undefined,patch:Record<string,unknown>,id:string){
  const { $unset,...values }=patch;const item={...base,...values,id} as unknown as Record<string,unknown>;

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "f35a072f937fc59c657aa1fceb5fce61e9b2cd008d1f67f987b0e4345eb2f3de",
+  "fingerprint": "89e49ebbc368614f2e79440dd0182a165d16ee63621a39398200ca487c1fe609",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -196,7 +196,7 @@
     },
     {
       "path": "app/globals.css",
-      "sha256": "52022750001fbd062a2d1ca1d3e31634145aab2c6bf4f644f27301e4f7f77912"
+      "sha256": "05a8355b8daa0d6c8d1866406f81e1bff96e040534618e12905f0374db522b83"
     },
     {
       "path": "app/google-calendar.css",
@@ -388,7 +388,7 @@
     },
     {
       "path": "components/favorite-updates.tsx",
-      "sha256": "21454131b702ddd3853e3eed66aca670dd2179281fcbe1cc967c4d68f52c1fdb"
+      "sha256": "e4fc551229fd3453f42d4dbaf5a00afbe4e99b4006d4fa24754fb5438cb03121"
     },
     {
       "path": "components/feedback-dialog.tsx",
@@ -424,7 +424,7 @@
     },
     {
       "path": "components/mobile-companion.tsx",
-      "sha256": "3bb43528c356824cab10b8f836adcd76b830ceaee3f5abe70c1ec17d328803a7"
+      "sha256": "fddc4e2a2f44dbd1c1c0fd8033c381f3bd48ed8251527646c811002e0fb215d2"
     },
     {
       "path": "components/my-games-filter.tsx",
@@ -452,7 +452,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "e65a5483c2ee44c1d59048e2c5ced7a5235563a391901be6d37c1753f98dc6f0"
+      "sha256": "3040724b72b6477cd0108b254ae0bdfb5d9752d6b9e2870c7fb6173f8d96afbb"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -784,7 +784,7 @@
     },
     {
       "path": "content/android-release.json",
-      "sha256": "39f227665d7f7e6b3ee90198b372dde80f96d9acc51d23a29bd90daec187cd05"
+      "sha256": "aff719cf4e36101870c02a2767812c62f4a5ba8542d60c53d9e706b1e1693808"
     },
     {
       "path": "content/artwork-audit-2026-10-16.json",
@@ -991,6 +991,10 @@
       "sha256": "0bcc10c78c332119df11edaadd00bea3d20ce90bed07990ecd57e11c71fe6178"
     },
     {
+      "path": "lib/broadcast-reminder-i18n.ts",
+      "sha256": "dd10b5a095c8e6df7d3fa8c721bbfd4f9508920332c87b4eac2bc6161bb7f6ce"
+    },
+    {
       "path": "lib/broadcast-visibility.ts",
       "sha256": "a98d3a1544fd4d8a4dd9788dcdb1bdc751d3c010cc44aca2849a93ce81684b0a"
     },
@@ -1092,11 +1096,11 @@
     },
     {
       "path": "lib/editor-schema.ts",
-      "sha256": "4325538aadd812cc90b8d7ded634192698ad0174f34b903fb462eb63c8314382"
+      "sha256": "8aaae3880b90439e5ea391e4cf55aac8761dd9a83050d704131e42b6db848586"
     },
     {
       "path": "lib/editorial.ts",
-      "sha256": "006744587cdeb2e05a35c652969cbcae1a70412e71764c06974ab7ce70010b7e"
+      "sha256": "9d1675e27d6a0871b5847414856869f4a0133ddd68631eb81be93e96419fc75d"
     },
     {
       "path": "lib/event-overview-items.ts",
@@ -1152,7 +1156,7 @@
     },
     {
       "path": "lib/games.ts",
-      "sha256": "aff31bd948f0a6a5ebd5e4b222f88a295641dabf04c2aa8d3cf1b59a31b108a8"
+      "sha256": "1716517c864ca0a1efbd6f717c2f6a327866f8d17423ff3a2e5f3272e30cb330"
     },
     {
       "path": "lib/google-calendar.ts",
@@ -1184,7 +1188,7 @@
     },
     {
       "path": "lib/mobile.ts",
-      "sha256": "2e8ce805aa44943f663304c60c900b563f8c83ec6464c15f0844abf7e771215c"
+      "sha256": "acb4ce82737d08f233157bdb5aaab09a52cced2ac47d7721ea53c1c5f5a319c7"
     },
     {
       "path": "lib/notification-i18n.ts",
@@ -1336,7 +1340,7 @@
     },
     {
       "path": "lib/types.ts",
-      "sha256": "6cf04d5be5cdae016c5b251d624bc64dfa54f4362732ddbc19aead2dfb535fed"
+      "sha256": "7652ad4127495520d7949bbd7f99955e9d1cec86b7c1a35cd1353bd91c3cf3fa"
     },
     {
       "path": "lib/upcoming-pickups.ts",
