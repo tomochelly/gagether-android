@@ -39,3 +39,10 @@ test('source failure retains published body; a changed body hash is imported sep
  assert.equal(noticeSourceId('https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181792487759078017'),'181792487759078017');
  assert.equal(noticeSourceId('https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3555107'),'3555107');
  });
+
+ test('actual SQLite metadata write merges only metadata into the complete original, retaining nullable clocks, prices and image fields',async()=>{
+ const {collectionEntry}=await import('../lib/collection-projection.ts');const {noticeMetadataChange,completeNoticeMetadata}=await import('../lib/fast-notices.ts');const {saveEntries}=await import('../lib/store.ts');
+ const original={...entry,id:'metadata-roundtrip',versionHero:true,hidden:false,featured:true,publishedAt:null,price:{amount:1500,currency:'JPY',platform:'Android'},rarity:3,detailImages:[{image:'/assets/native.png'}],image:'/assets/native.png',imageVerified:true,imageLocale:'ja'};write(original);const lean=(await readData({automatic:true,collection:true})).entries.find(e=>e.id===original.id);assert.equal(lean.versionHero,1);assert.equal(lean.price,undefined);assert.equal(lean.startAt,undefined);
+ const change=noticeMetadataChange(lean,{...notice,title:'最新の告知',publishedAt:null},'2026-10-23T05:00:00Z');const full=(await readBaseData({id:original.id})).entries[0];await saveEntries([completeNoticeMetadata(full,change)]);const saved=(await readBaseData({id:original.id})).entries[0];
+ for(const key of ['startAt','endAt','publishedAt','versionHero','hidden','featured','price','rarity','detailImages','image','imageLocale','pickupMembers'])assert.deepEqual(saved[key],original[key],key);assert.ok(Object.hasOwn(saved,'startAt'));assert.ok(Object.hasOwn(saved,'endAt'));assert.equal(saved.sourceTitle,'最新の告知');
+ });

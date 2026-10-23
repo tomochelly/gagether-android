@@ -1,7 +1,7 @@
 import {env} from 'cloudflare:workers';
-import {readData,saveEntries} from './store';
+import {readData,readBaseData,saveEntries} from './store';
 import {refreshFeeds} from './feeds';
-import {koreanFastSources,noticeEntry,noticeText,noticeMetadataChange} from './fast-notices';
+import {koreanFastSources,noticeEntry,noticeText,noticeMetadataChange,completeNoticeMetadata} from './fast-notices';
 import {channelVideos,embeddedJson,readBroadcast} from './broadcast-metadata';
 import {localized,type Entry,type Locale,type Region} from './types';
 import {effectiveRegion} from './presentation';
@@ -58,7 +58,10 @@ export async function runFastRefresh(){
    }catch(e){return {source:source.key,url:source.url,checkedAt:at,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   });
   // First persist minimal notices. No pickup dates, prices, images or summaries are inferred.
-  await saveEntries([...noticed,...nativeChanges]);
+  const fullNative=nativeChanges.length?await readBaseData({ids:nativeChanges.map(e=>e.id)}):{entries:[],persistent:true};
+  if(!fullNative.persistent)throw Error('Original notice records unavailable');
+  const nativeMap=new Map(fullNative.entries.map(e=>[e.id,e]));
+  await saveEntries([...noticed,...nativeChanges.map(e=>{const full=nativeMap.get(e.id);if(!full)throw Error('Original notice record missing');return completeNoticeMetadata(full,e);})]);
   for(const {notice,checkedAt} of changedNotices)await captureDocument(notice,undefined,checkedAt);
   const noticeReadback=await readData({automatic:true,collection:true});
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');

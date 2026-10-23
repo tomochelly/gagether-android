@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "a5452bacfc2b8d7c2aeebcaf8a53e8a16ab7e83e306df8e5f04b8db2922668db",
+  "fingerprint": "631019c29772416d9efa44e93698e81830c4f57b0a2202af5330dc0505851fd6",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1180,11 +1180,11 @@
     },
     {
       "path": "lib/fast-notices.ts",
-      "sha256": "909a9bb70a7e4e933f10fc1a79224502914612eb96bd63fec714e8cad3975fa7"
+      "sha256": "5e095d04c8a993e08f01a74f1dcc3d1251fbe445d027c65dc48b5284db69f307"
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "173d96b5d6b05b51a41a367e0b4a424c4020424af6f3fe1230ff22929a593ebc"
+      "sha256": "4f36a6754372d4db5fd076f2c9de6f197f39a95caa460dbf35b20020f0e792f7"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",

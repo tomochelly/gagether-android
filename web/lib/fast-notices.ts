@@ -58,3 +58,6 @@ export function noticeMetadataChange(old:Entry|undefined,n:FastNotice,checkedAt:
  if(old.sourceTitle===sourceTitle&&old.publishedAt===publishedAt&&old.sourceLocale===n.locale)return undefined;
  return {...old,sourceTitle,sourceLocale:n.locale,publishedAt,verifiedAt:checkedAt,title:/^(quick-|feed-)/.test(old.id)?{...old.title,[n.locale]:sourceTitle.slice(0,240)}:old.title};
 }
+
+/** Lean collection rows are read-only projections, never replacement records. */
+export function completeNoticeMetadata(previous:Entry,change:Entry):Entry{return {...previous,sourceTitle:change.sourceTitle,sourceLocale:change.sourceLocale,title:change.title,publishedAt:change.publishedAt??previous.publishedAt,verifiedAt:change.verifiedAt};}
