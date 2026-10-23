@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "verifiedAt": "2026-10-22T22:59:15Z",
+  "verifiedAt": "2026-10-23T03:15:07Z",
   "assets": [
     {
       "path": "assets/app-icons/arknights-app-icon-kr.jpg",
@@ -474,6 +474,18 @@
       "path": "assets/entities/gf2-weapon-transience-d0a31c31.webp",
       "sha256": "ad3642cc2c2fe3e8ddf603d2206aca4bb31f33a24c888b853cffaefa9e60b5c2",
       "bytes": 27998,
+      "ready": true
+    },
+    {
+      "path": "assets/entities/hi3-herrscher-of-time-neutral-native.png",
+      "sha256": "000578aaf7526a0e9263ce786017dec67f0d9a7e2e97a78020eda6708c97ed52",
+      "bytes": 626330,
+      "ready": true
+    },
+    {
+      "path": "assets/entities/hi3-senadina-ja-intro-20260820.png",
+      "sha256": "8fb23420b75b0e7bb41e2c74ba8a1484a7d6c7a07cc62e3e9090246cfcf9cc66",
+      "bytes": 314057,
       "ready": true
     },
     {
@@ -1341,6 +1353,24 @@
       "ready": true
     },
     {
+      "path": "assets/logos/hi3-en.png",
+      "sha256": "aa4d413e776f0f2de2457173e856b07b58d2c457ec43ef2bce1660609bb09810",
+      "bytes": 9672,
+      "ready": true
+    },
+    {
+      "path": "assets/logos/hi3-ja.png",
+      "sha256": "0b986be3d2333d4f410972cbf1b9a2c7b5faf11384f139076095956244ceafa1",
+      "bytes": 9126,
+      "ready": true
+    },
+    {
+      "path": "assets/logos/hi3-ko.png",
+      "sha256": "383dfc330801743e8916d4aaff2e6c4a8e028c9573e34e7b287279625115bc05",
+      "bytes": 9801,
+      "ready": true
+    },
+    {
       "path": "assets/nikke-art.webp",
       "sha256": "66b3291a8818ce76ec712bf034f7681d4e6b22b87b16fd2f021acf482ef25679",
       "bytes": 234558,
@@ -1911,6 +1941,24 @@
       "ready": true
     },
     {
+      "path": "assets/versions/hi3-en-91-update.png",
+      "sha256": "47016e3648c169646bcee6a9962a9992d1b13517ce7ba23200cd97471f1f8759",
+      "bytes": 91245,
+      "ready": true
+    },
+    {
+      "path": "assets/versions/hi3-ja-91-update.png",
+      "sha256": "49233ede047e9bf701cd4b3f043150a426073d89e0d070b32df3e0338afa8789",
+      "bytes": 52660,
+      "ready": true
+    },
+    {
+      "path": "assets/versions/hi3-ko-91-update.png",
+      "sha256": "341738e8f43575800e01dcf799f9d31db2a9743dc0dcb65bb81b41cdaa6da1f4",
+      "bytes": 117083,
+      "ready": true
+    },
+    {
       "path": "assets/versions/hsr-en-us.jpg",
       "sha256": "06cf349dba74e3782d1454453adf4264e273f8f60cb889f6482fce712c638b84",
       "bytes": 873728,
@@ -1956,6 +2004,12 @@
       "path": "assets/versions/nte-update-14.jpg",
       "sha256": "14cd299fc72a3910f1cb0c07f3702c2878017d87fec98b8c63ff3af515f3fef4",
       "bytes": 651543,
+      "ready": true
+    },
+    {
+      "path": "assets/versions/trickcal-ko-kope-update-20261022.png",
+      "sha256": "8835fa9aacb4be1cba73885b9370a46dc44840bf21af87ebf4f7925f4d0ff962",
+      "bytes": 1144105,
       "ready": true
     },
     {

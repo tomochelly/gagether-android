@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "6e68f8c9abacc73654b19c9d88a181272bc17e58fa698bf901dbe144781cd2e9",
+  "fingerprint": "b587698032248341f19cb5912c8c25b2b2335c34dd9d992cb0680057cd76dc66",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1055,6 +1055,10 @@
       "sha256": "6fe8e938f39e607b635d6999405a72809fec837d70170efa090fd434eedc5dca"
     },
     {
+      "path": "lib/collection-projection.ts",
+      "sha256": "74fa0ba1fb45975506471f33ac342992d33fe352f6a8a8613dcd164429c80a4b"
+    },
+    {
       "path": "lib/collection-review.ts",
       "sha256": "393dbff5c92163a5b76fc15ece97448dba34b4eab56d1b4d00adff0c9d26e1a0"
     },
@@ -1144,7 +1148,7 @@
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "76a9f309b1ec7db06f53713c745fbba4b7855c51fb6fd46e36c0f12bc4c5a744"
+      "sha256": "9084f428e7467bfa8b95f50601e4a244436b677e4ee5267f40f89de1d35a91d5"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",
@@ -1168,7 +1172,7 @@
     },
     {
       "path": "lib/feeds.ts",
-      "sha256": "b1a549d0b566b9101ae6e5608027f52acd8c75d9196587755a6f42863272a7b4"
+      "sha256": "7a6f4c011c8fea404f3a1fe61ae69329712a5b35ab0d3203ff69867410638e7a"
     },
     {
       "path": "lib/fetch-catalog.ts",
@@ -1236,7 +1240,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "7ab568a2783428c6e867c0ceb6c4ace2384ca22fe331a06b626508f95c5fd59e"
+      "sha256": "a62cb6757a257e52c715eb964a2f869d889e1c87596098959584b86117c40642"
     },
     {
       "path": "lib/official-social-store.ts",
@@ -1284,7 +1288,7 @@
     },
     {
       "path": "lib/presentation.ts",
-      "sha256": "3aea023249d911c72672a607cc5acfa0e09bd9dd82fdc553c64c0c5eb30738ba"
+      "sha256": "c06d1091f5940ae688c8d0adb038c53eca72aa735d93ecdd4f6d5b9eaa4d8249"
     },
     {
       "path": "lib/price-presentation.ts",
@@ -1368,7 +1372,7 @@
     },
     {
       "path": "lib/store.ts",
-      "sha256": "fb8654ebab2c9a1de575fb08b4b367ef39ffc33dba2141a0b004d6a027c8ef28"
+      "sha256": "834a0ba4fe8ee7146a7a9b16597e94add5e814c32ba8c028db69672aedc9b5e9"
     },
     {
       "path": "lib/studio-i18n.ts",

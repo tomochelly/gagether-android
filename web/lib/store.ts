@@ -5,15 +5,16 @@ import {mergeVerifiedEntry,retainEntityDetails} from './presentation';
 import {applyEditorial,preserveEditedSource,recoverReviewedArtwork,type EditorialRecord,type SiteSettings} from './editorial';
 import type {Entry,SourceCheck} from './types';
 import {catalogEntry} from './catalog-index';
+import {collectionEntry,collectionSql} from './collection-projection';
 import {ensureEditorHistory} from './editor-history';
-export async function readBaseData(options:{index?:boolean;id?:string}={}){
- const seeds=options.id?seedEntries.filter(e=>e.id===options.id):seedEntries;
- const merged=new Map(seeds.map(e=>[e.id,options.index?catalogEntry(e):e]));let sourceChecks:SourceCheck[]=[];let persistent=true;
+export async function readBaseData(options:{index?:boolean;id?:string;ids?:string[];collection?:boolean}={}){
+ const seeds=options.id?seedEntries.filter(e=>e.id===options.id):options.ids?seedEntries.filter(e=>options.ids!.includes(e.id)):seedEntries;
+ const merged=new Map(seeds.map(e=>[e.id,options.collection?collectionEntry(e):options.index?catalogEntry(e):e]));let sourceChecks:SourceCheck[]=[];let persistent=true;
  try{
   // List requests do not transfer every four-language skill table out of D1.
-  const query=options.id?env.DB!.prepare('SELECT payload,updated_at FROM entries WHERE id=?').bind(options.id):env.DB!.prepare(options.index?"SELECT json_remove(payload,'$.entityDetails','$.detailImages','$.detailSections','$.contentBlocks') AS payload,updated_at FROM entries ORDER BY updated_at DESC":'SELECT payload,updated_at FROM entries ORDER BY updated_at DESC');
-  const [rows,checks]=await Promise.all([query.all<{payload:string;updated_at:string}>(),options.id?Promise.resolve({results:[] as SourceCheck[]}):env.DB!.prepare('SELECT game_id AS gameId,checked_at AS checkedAt,status,count,error FROM source_checks').all<SourceCheck>().catch(()=>null)]);
-  for(const row of rows.results){try{const e=JSON.parse(row.payload) as Entry;if(isSupportedSchedule(e.gameId,e.region)){const mergedEntry=mergeVerifiedEntry(merged.get(e.id),e);merged.set(e.id,options.index?catalogEntry(mergedEntry,row.updated_at):mergedEntry);}}catch{persistent=false;}}
+  const query=options.id?env.DB!.prepare('SELECT payload,updated_at FROM entries WHERE id=?').bind(options.id):options.ids?env.DB!.prepare('SELECT payload,updated_at FROM entries WHERE id IN (SELECT value FROM json_each(?))').bind(JSON.stringify(options.ids)):env.DB!.prepare(options.collection?'SELECT '+collectionSql+' AS payload,updated_at FROM entries ORDER BY updated_at DESC':options.index?"SELECT json_remove(payload,'$.entityDetails','$.detailImages','$.detailSections','$.contentBlocks') AS payload,updated_at FROM entries ORDER BY updated_at DESC":'SELECT payload,updated_at FROM entries ORDER BY updated_at DESC');
+  const [rows,checks]=await Promise.all([query.all<{payload:string;updated_at:string}>(),(options.id||options.ids)?Promise.resolve({results:[] as SourceCheck[]}):env.DB!.prepare('SELECT game_id AS gameId,checked_at AS checkedAt,status,count,error FROM source_checks').all<SourceCheck>().catch(()=>null)]);
+  for(const row of rows.results){try{const e=JSON.parse(row.payload) as Entry;if(isSupportedSchedule(e.gameId,e.region)){const mergedEntry=mergeVerifiedEntry(merged.get(e.id),e);merged.set(e.id,options.collection?collectionEntry(mergedEntry):options.index?catalogEntry(mergedEntry,row.updated_at):mergedEntry);}}catch{persistent=false;}}
   sourceChecks=checks?.results||[];if(!checks)persistent=false;
  }catch{persistent=false;}
  return {entries:[...merged.values()],sourceChecks,persistent,serverTime:new Date().toISOString()};
@@ -21,9 +22,9 @@ export async function readBaseData(options:{index?:boolean;id?:string}={}){
 export async function readEditorial(key?:string,onFailure?:()=>void):Promise<EditorialRecord[]>{
  try{const query=key?env.DB!.prepare('SELECT key,payload,revision,updated_at AS updatedAt FROM editorial WHERE key=?').bind(key):env.DB!.prepare('SELECT key,payload,revision,updated_at AS updatedAt FROM editorial');const result=await query.all<{key:string;payload:string;revision:number;updatedAt:string}>();return result.results.flatMap(r=>{try{return [{...r,payload:JSON.parse(r.payload)}];}catch{onFailure?.();return [];}});}catch{onFailure?.();return [];}
 }
-async function readUncachedData(options:{includeHidden?:boolean;automatic?:boolean;index?:boolean}={}){
+async function readUncachedData(options:{includeHidden?:boolean;automatic?:boolean;index?:boolean;collection?:boolean}={}){
  let editorialAvailable=true;
- const [base,records]=await Promise.all([readBaseData({index:options.index}),readEditorial(undefined,()=>{editorialAvailable=false;})]);const settings=records.find(r=>r.key==='site');
+ const [base,records]=await Promise.all([readBaseData({index:options.index,collection:options.collection}),readEditorial(undefined,()=>{editorialAvailable=false;})]);const settings=records.find(r=>r.key==='site');
  let entries=options.automatic?base.entries:applyEditorial(base.entries,records,options.includeHidden);
  // The lightweight list deliberately excludes detail images. Resolve only old
  // owner replacements lacking locale, using a tiny exact-image SQL projection.
@@ -38,7 +39,7 @@ async function readUncachedData(options:{includeHidden?:boolean;automatic?:boole
 // Every request owns its DB work. A disconnected request must never leave a
 // globally shared unresolved promise behind. Public wire snapshots are cached
 // separately only after a complete, editorial-applied read succeeds.
-export async function readData(options:{includeHidden?:boolean;automatic?:boolean;index?:boolean}={}){
+export async function readData(options:{includeHidden?:boolean;automatic?:boolean;index?:boolean;collection?:boolean}={}){
  return readUncachedData(options);
 }
 export async function readEntry(id:string,options:{includeHidden?:boolean;requirePersistent?:boolean}={}){
@@ -48,7 +49,7 @@ export async function readEntry(id:string,options:{includeHidden?:boolean;requir
 }
 export async function saveEntries(list:Entry[]){
  if(!list.length)return;
- const [base,records]=await Promise.all([readBaseData(),readEditorial()]);const previous=new Map(base.entries.map(e=>[e.id,e]));const edits=new Map(records.map(r=>[r.key,r]));
+ const [base,records]=await Promise.all([readBaseData({ids:list.map(e=>e.id)}),readEditorial()]);const previous=new Map(base.entries.map(e=>[e.id,e]));const edits=new Map(records.map(r=>[r.key,r]));
  list=list.map(e=>preserveEditedSource(retainEntityDetails(e,previous.get(e.id)),previous.get(e.id),edits.get('entry:'+e.id))).filter((e):e is Entry=>!!e&&isSupportedSchedule(e.gameId,e.region));
  const now=new Date().toISOString();
  for(let i=0;i<list.length;i+=40){await env.DB!.batch(list.slice(i,i+40).map(e=>env.DB!.prepare('INSERT INTO entries (id,game_id,payload,updated_at) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload, updated_at=excluded.updated_at').bind(e.id,e.gameId,JSON.stringify(e),now)));}

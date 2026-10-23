@@ -76,6 +76,9 @@ export function retainEntityDetails(incoming:Entry,previous:Entry|undefined):Ent
 // previous picture's locale, caption or crop onto a newly supplied file.
 function retainArtwork<T extends import('./types').EntityArtwork>(incoming:T,previous:T|undefined):T{
  const result={...incoming};if(!previous)return result;
+ if(previous.imageVerified&&incoming.image&&incoming.image!==previous.image&&incoming.imageVerified===undefined){
+  for(const key of ['image','imageSource','imageKind','imageFit','imagePosition','imageVerified','imageLocale','imageCaption','originalLanguageFallback','textFreePreview','previewFocus','previewBounds','previewArtwork'] as const){delete result[key];if(previous[key]!==undefined)Object.assign(result,{[key]:previous[key]});}
+ }
  if(previous.imageVerified&&(!incoming.image||incoming.image===previous.image))for(const key of ['image','imageSource','imageKind','imageFit','imagePosition','imageVerified','imageLocale','imageCaption','originalLanguageFallback','textFreePreview','previewFocus','previewBounds','previewArtwork'] as const)if(incoming[key]===undefined&&previous[key]!==undefined)Object.assign(result,{[key]:previous[key]});
  if(previous.localizedArtwork)result.localizedArtwork={...previous.localizedArtwork,...incoming.localizedArtwork};
  return result;

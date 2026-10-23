@@ -35,7 +35,7 @@ export async function runFastRefresh(){
  const lock=await db.prepare("INSERT INTO refresh_jobs (id,lease_until,last_started_at) VALUES ('official-fast',?,?) ON CONFLICT(id) DO UPDATE SET lease_until=excluded.lease_until,last_started_at=excluded.last_started_at WHERE refresh_jobs.lease_until<=? AND (refresh_jobs.last_started_at IS NULL OR refresh_jobs.last_started_at<=?)").bind(now+20*60000,startedAt,now,new Date(now-interval+30000).toISOString()).run();
  if(!lock.meta.changes)return {ok:true,skipped:true,reason:'Already running or checked within ten minutes'};
  try{
-  const before=await readData({automatic:true});if(!before.persistent)throw Error('Persistent storage unavailable');
+  const before=await readData({automatic:true,collection:true});if(!before.persistent)throw Error('Persistent storage unavailable');
   const known=new Set(before.entries.map(e=>normalize(e.sourceUrl)));
   for(const e of before.entries)for(const u of Object.values(e.localizationSources||{}))if(u)known.add(normalize(u));
   const noticed:Entry[]=[];const changedNeedsReview:string[]=[];
@@ -58,11 +58,11 @@ export async function runFastRefresh(){
   });
   // First persist minimal notices. No pickup dates, prices, images or summaries are inferred.
   await saveEntries(noticed);
-  const noticeReadback=await readData({automatic:true});
+  const noticeReadback=await readData({automatic:true,collection:true});
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');
   const feeds=await refreshFeeds();
   const regional=await collectRegionalNotices();
-  const current=await readData({automatic:true});
+  const current=await readData({automatic:true,collection:true});
   const channels=new Map<string,{gameId:string;locale:Locale;region:Region}>();
   for(const e of current.entries)for(const v of e.videos||[])if(v.official)for(const u of v.evidenceUrls||[])if(/^https:\/\/www\.youtube\.com\/(?:@[^/?]+|channel\/[\w-]+)$/.test(u))channels.set(u,{gameId:e.gameId,locale:v.locale,region:effectiveRegion(games.find(g=>g.id===e.gameId)!,e.region)});
   // The reviewed channel registry also covers games with no character videos yet.
@@ -107,7 +107,7 @@ export async function runFastRefresh(){
     await saveEntries([entry]);return {url,checkedAt,status:'ok',broadcastStatus:b.status,added:entry.id};
    }catch(e){return {url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   },2);
-  const [automatic,effective]=await Promise.all([readData({automatic:true}),readData()]);
+  const [automatic,effective]=await Promise.all([readData({automatic:true,collection:true}),readData({collection:true})]);
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
   const collection=await collectPendingDocuments();

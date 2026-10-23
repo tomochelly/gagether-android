@@ -3,7 +3,7 @@ import {regionalOfficialSources,regionalDetail,regionalMetadataChanges,type Regi
 import {noticeEntry,type FastNotice} from './fast-notices';
 import {safeSource} from './types';
 import {retryFetch} from './retry-fetch';
-import {readData,saveEntries} from './store';
+import {readData,readBaseData,saveEntries} from './store';
 import {captureDocument,reviewQueue} from './collection-store';
 import {collectionCoverage,pickupNotice} from './collection-review';
 const fetcher=((url:RequestInfo|URL,init?:RequestInit)=>retryFetch(typeof url==='string'?url:url instanceof URL?url.href:url.url,init)) as typeof fetch;
@@ -18,7 +18,7 @@ export async function fetchReviewDocument(n:FastNotice){
  }catch(error){return await captureDocument(n,undefined,checkedAt,error instanceof Error?error.message:'Source unavailable');}
 }
 export async function collectRegionalNotices(){
- const before=await readData({automatic:true}),known=new Set(before.entries.map(e=>e.sourceUrl));
+ const before=await readData({automatic:true,collection:true}),known=new Set(before.entries.map(e=>e.sourceUrl));
  const notices:RegionalNotice[]=[],inspected:{notice:RegionalNotice;checkedAt:string}[]=[],checks:any[]=[];
  for(let offset=0;offset<regionalOfficialSources.length;offset+=3)await Promise.all(regionalOfficialSources.slice(offset,offset+3).map(async source=>{
   const checkedAt=new Date().toISOString();try{
@@ -29,14 +29,16 @@ export async function collectRegionalNotices(){
    for(const n of rows.slice(0,12))inspected.push({notice:n,checkedAt});
   }catch(e){checks.push({source:source.key,gameId:source.gameId,region:source.region,locale:source.locale,url:source.url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'});}
  }));
- if(notices.length){await saveEntries(notices.map(n=>noticeEntry(n,new Date().toISOString())));const readback=await readData({automatic:true});if(notices.some(n=>!readback.entries.some(e=>e.sourceUrl===n.url)))throw Error('Regional notice readback failed');}
- const metadataChanged=regionalMetadataChanges(before.entries,inspected.map(r=>r.notice),new Date().toISOString());
- if(metadataChanged.length){await saveEntries(metadataChanged);const check=await readData({automatic:true});if(metadataChanged.some(e=>!check.entries.some(x=>x.id===e.id&&x.sourceTitle===e.sourceTitle&&x.publishedAt===e.publishedAt)))throw Error('Regional metadata readback failed');}
+ if(notices.length){await saveEntries(notices.map(n=>noticeEntry(n,new Date().toISOString())));const readback=await readData({automatic:true,collection:true});if(notices.some(n=>!readback.entries.some(e=>e.sourceUrl===n.url)))throw Error('Regional notice readback failed');}
+ const metadataCandidates=regionalMetadataChanges(before.entries,inspected.map(r=>r.notice),new Date().toISOString());
+ const originals=metadataCandidates.length?(await readBaseData({ids:metadataCandidates.map(e=>e.id)})).entries:[];
+ const metadataChanged=metadataCandidates.map(e=>({...originals.find(o=>o.id===e.id),...e}));
+ if(metadataChanged.length){await saveEntries(metadataChanged);const check=await readData({automatic:true,collection:true});if(metadataChanged.some(e=>!check.entries.some(x=>x.id===e.id&&x.sourceTitle===e.sourceTitle&&x.publishedAt===e.publishedAt)))throw Error('Regional metadata readback failed');}
  for(const {notice,checkedAt} of inspected)await captureDocument(notice,notice.bodyHtml,checkedAt);
  return {checks,added:notices.length,metadataChanged:metadataChanged.map(e=>e.id)};
 }
 export async function collectPendingDocuments(){
- const data=await readData({automatic:true}),queue=await reviewQueue(5000),previous=new Map(queue.map(d=>[d.url,d]));
+ const data=await readData({automatic:true,collection:true}),queue=await reviewQueue(5000),previous=new Map(queue.map(d=>[d.url,d]));
  const candidates=data.entries.filter(e=>(e.id.startsWith('quick-')||e.id.startsWith('feed-'))&&(e.sourceKind||'official')==='official').sort((a,b)=>Number(pickupNotice(b.sourceTitle))-Number(pickupNotice(a.sourceTitle))||(b.publishedAt||'').localeCompare(a.publishedAt||''));
  const unique=[...new Map(candidates.map(e=>[e.sourceUrl,e])).values()];
  const chosen=unique.filter(e=>{const old=previous.get(e.sourceUrl);return !old||old.sourceAccess==='metadata'||old.status!=='reviewed'&&Date.now()-Date.parse(old.checkedAt)>60*60000;}).sort((a,b)=>Number(pickupNotice(b.sourceTitle))-Number(pickupNotice(a.sourceTitle))||(Date.parse(previous.get(a.sourceUrl)?.checkedAt||'')||0)-(Date.parse(previous.get(b.sourceUrl)?.checkedAt||'')||0)||(b.publishedAt||'').localeCompare(a.publishedAt||'')).slice(0,10);

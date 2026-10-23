@@ -39,7 +39,7 @@ function combineNotices(rows:Notice[]):Notice[]{
  return [...merged.values()];
 }
 export async function refreshFeeds():Promise<SourceCheck[]>{
- const previous=new Map((await readData({automatic:true})).entries.filter(e=>e.id.startsWith('feed-')).map(e=>[e.id,e]));
+ const previous=new Map((await readData({automatic:true,collection:true})).entries.filter(e=>e.id.startsWith('feed-')).map(e=>[e.id,e]));
  return Promise.all(adapters.map(async cfg=>{
   const checkedAt=new Date().toISOString();
   try{
