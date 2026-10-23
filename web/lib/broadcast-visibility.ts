@@ -12,13 +12,23 @@ export function broadcastState(b:OfficialBroadcast,now:number):'scheduled'|'live
  return age<=24*3600000?'scheduled':'inactive';
 }
 
-/** A display language never selects another service's stream as a fallback. */
-export function gameBroadcasts(entries:Entry[],game:Game,region:Region,locale:Locale,now:number){
+/** Deduplicate before choosing a view so an older reservation cannot revive an ended stream. */
+function scopedBroadcasts(entries:Entry[],game:Game,region:Region,locale:Locale){
  const videos=new Map<string,Entry>();
  for(const e of entries){
-  if(e.hidden||e.gameId!==game.id||!e.broadcast||e.broadcast.locale!==contentLanguage(game,region,locale)||!inSchedule(e,game,region)||broadcastState(e.broadcast,now)==='inactive')continue;
+  if(e.hidden||e.gameId!==game.id||!e.broadcast||!e.broadcast.official||!e.broadcast.metadataVerified||e.broadcast.locale!==contentLanguage(game,region,locale)||!inSchedule(e,game,region))continue;
   const key=e.broadcast.youtubeId||e.id,old=videos.get(key);
-  if(!old||Date.parse(e.broadcast.statusCheckedAt||e.broadcast.verifiedAt)>Date.parse(old.broadcast!.statusCheckedAt||old.broadcast!.verifiedAt))videos.set(key,e);
+  const owner=!!e.editor?.fields.includes('broadcast'),oldOwner=!!old?.editor?.fields.includes('broadcast');
+  if(!old||owner&&!oldOwner||owner===oldOwner&&Date.parse(e.broadcast.statusCheckedAt||e.broadcast.verifiedAt)>Date.parse(old.broadcast!.statusCheckedAt||old.broadcast!.verifiedAt))videos.set(key,e);
  }
- return [...videos.values()].sort((a,b)=>Number(b.broadcast!.status==='live')-Number(a.broadcast!.status==='live')||(Date.parse(a.broadcast!.scheduledAt||a.broadcast!.scheduledDate||'')||Infinity)-(Date.parse(b.broadcast!.scheduledAt||b.broadcast!.scheduledDate||'')||Infinity));
+ return [...videos.values()];
+}
+/** A display language never selects another service's stream as a fallback. */
+export function gameBroadcasts(entries:Entry[],game:Game,region:Region,locale:Locale,now:number){
+ return scopedBroadcasts(entries,game,region,locale).filter(e=>broadcastState(e.broadcast!,now)!=='inactive').sort((a,b)=>Number(b.broadcast!.status==='live')-Number(a.broadcast!.status==='live')||(Date.parse(a.broadcast!.scheduledAt||a.broadcast!.scheduledDate||'')||Infinity)-(Date.parse(b.broadcast!.scheduledAt||b.broadcast!.scheduledDate||'')||Infinity));
+}
+/** Only an explicit ended status enters the archive; elapsed time is not end evidence. */
+export function gameBroadcastArchive(entries:Entry[],game:Game,region:Region,locale:Locale){
+ const time=(e:Entry)=>Date.parse(e.broadcast!.endedAt||e.broadcast!.actualStartAt||e.broadcast!.scheduledAt||e.broadcast!.scheduledDate||e.publishedAt||'')||0;
+ return scopedBroadcasts(entries,game,region,locale).filter(e=>e.broadcast!.status==='ended').sort((a,b)=>time(b)-time(a)||a.id.localeCompare(b.id));
 }

@@ -2,7 +2,7 @@ import type {Entry,Game,Locale,OfficialBroadcast,Region} from './types';
 import {availableInLocale,effectiveRegion,inSchedule} from './presentation';
 import {dayKey} from './schedule';
 import {contentInAudience,audienceRestrictions} from './content-audience';
-import {gameBroadcasts} from './broadcast-visibility';
+import {gameBroadcasts,gameBroadcastArchive} from './broadcast-visibility';
 export {broadcastState} from './broadcast-visibility';
 
 export const preferredService=(game:Game,region:Region,choices:Partial<Record<string,Region>>)=>effectiveRegion(game,effectiveRegion(game,choices[game.id]||region));
@@ -24,4 +24,7 @@ export function favoriteNoticeGroups(entries:Entry[],games:Game[],favorites:stri
 }
 export function favoriteBroadcasts(entries:Entry[],games:Game[],favorites:string[],region:Region,choices:Partial<Record<string,Region>>,locale:Locale,now:number){
  return games.filter(g=>favorites.includes(g.id)).flatMap(game=>gameBroadcasts(entries,game,preferredService(game,region,choices),locale,now));
+}
+export function favoriteBroadcastArchive(entries:Entry[],games:Game[],favorites:string[],region:Region,choices:Partial<Record<string,Region>>,locale:Locale){
+ return games.filter(g=>favorites.includes(g.id)).flatMap(game=>gameBroadcastArchive(entries,game,preferredService(game,region,choices),locale));
 }
