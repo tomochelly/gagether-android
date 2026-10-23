@@ -47,6 +47,7 @@ export interface Game {
 }
 export type ContentBlock={id:string;type:'text';title?:Localized;body:Localized}|{id:string;type:'image';asset:ArtworkAsset};
 export interface Entry extends EntityArtwork {
+ contentRole?:'entity'|'activity'|'notice';
  sourceBodies?:Partial<Record<Locale,SourceBody>>;
  contentBlocks?:ContentBlock[];
  recurring?:{modeId:string;cycleLabel:Localized;sourceKind:"official"|"community";sourceUrls:string[];verifiedAt:string;resetAt?:string|null;resetDate?:string;resetEvidence?:{kind:'owner-confirmed';timeZone:string;note:Localized;verifiedAt:string}};

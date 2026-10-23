@@ -1,0 +1,1871 @@
+{
+  "limbus": {
+    "gameId": "limbus",
+    "canonicalRegion": "global",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "entries": [
+      {
+        "suggestedId": "limbus-global-character-20261015-sinclair",
+        "kind": "pickup",
+        "poolType": "character",
+        "name": {
+          "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+          "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+          "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+          "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+        },
+        "type": "new",
+        "rarity": 3,
+        "startAt": "2026-10-15T12:00:00+09:00",
+        "endAt": "2026-10-29T10:00:00+09:00",
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+        "periodSourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "publishedAt": "2026-10-09T08:59:12+00:00",
+        "imageKey": "current-banner",
+        "previewFocus": {
+          "x": 0.73,
+          "y": 0.45
+        },
+        "detailImageKeys": [
+          "678511862081391684-ko-1",
+          "678511862081391684-ko-2",
+          "678511862081391684-ko-3"
+        ],
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "youtubeId": "Gpj-lvOnAgs"
+      },
+      {
+        "suggestedId": "limbus-global-character-20261029-heathcliff",
+        "kind": "pickup",
+        "poolType": "character",
+        "name": {
+          "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+          "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff",
+          "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ",
+          "zh": "高级定制::Le Rouge 针线之王 希斯克利夫"
+        },
+        "type": "new",
+        "rarity": 3,
+        "startAt": "2026-10-29T12:00:00+09:00",
+        "endAt": "2026-11-12T10:00:00+09:00",
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+        "publishedAt": "2026-10-23T08:59:34+00:00",
+        "imageKey": "next-banner",
+        "previewFocus": {
+          "x": 0.8,
+          "y": 0.45
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "youtubeId": "jWYcZpYtdls"
+      },
+      {
+        "suggestedId": "limbus-global-character-20261029-honglu",
+        "kind": "pickup",
+        "poolType": "character",
+        "name": {
+          "ko": "오트쿠튀르::르누아르 3F 방송실 홍루",
+          "en": "Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+          "ja": "オートクチュール::ル・ノワール 3F放送室 ホンル",
+          "zh": "高级定制::Le Noir 3F 广播室 鸿璐"
+        },
+        "type": "new",
+        "rarity": 3,
+        "startAt": "2026-10-29T12:00:00+09:00",
+        "endAt": "2026-11-12T10:00:00+09:00",
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+        "publishedAt": "2026-10-23T08:59:34+00:00",
+        "imageKey": "next-banner",
+        "previewFocus": {
+          "x": 0.18,
+          "y": 0.45
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "youtubeId": "jWYcZpYtdls"
+      },
+      {
+        "suggestedId": "limbus-global-target-20261015-ishmael",
+        "kind": "pickup",
+        "poolType": "character",
+        "name": {
+          "ko": "특정 추출 [이스마엘]",
+          "en": "Target Extraction [Ishmael]",
+          "ja": "特定抽出 [イシュメール]",
+          "zh": "定向抽取 [以实玛利]"
+        },
+        "type": "rerun",
+        "startAt": "2026-10-15T12:00:00+09:00",
+        "endAt": "2026-10-29T10:00:00+09:00",
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "publishedAt": "2026-10-12T09:14:56+00:00",
+        "imageKey": null,
+        "detailImageKeys": [
+          "678511862081391680-ko-2"
+        ],
+        "note": "Multiple existing identities/EGO; no single unrelated outfit image."
+      },
+      {
+        "suggestedId": "limbus-global-target-20261015-ring",
+        "kind": "pickup",
+        "poolType": "character",
+        "name": {
+          "ko": "특정 추출 [약지]",
+          "en": "Target Extraction [The Ring]",
+          "ja": "特定抽出 [薬指]",
+          "zh": "定向抽取 [环指]"
+        },
+        "type": "rerun",
+        "startAt": "2026-10-15T12:00:00+09:00",
+        "endAt": "2026-10-29T10:00:00+09:00",
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "publishedAt": "2026-10-12T09:14:56+00:00",
+        "imageKey": null,
+        "detailImageKeys": [
+          "678511862081391680-ko-2"
+        ],
+        "featuredNames": {
+          "ko": "약지 야수파 도슨트 로쟈 / 약지 야수파 스튜던트 뫼르소 / 거미집 약지 아비 홍루 / 거미집 약지 제자 파우스트 / 약지 점묘파 스튜던트 이상",
+          "en": "The Ring Fauvist Docent Rodion / The Ring Fauvist Student Meursault / The House of Spiders: The Ring Nursefather Hong Lu / The House of Spiders: The Ring Apprentice Faust / The Ring Pointillist Student Yi Sang",
+          "ja": "薬指野獣派ドーセント ロージャ / 薬指野獣派ステューデント ムルソー / 蜘蛛の巣 薬指の親方 ホンル / 蜘蛛の巣 薬指の子方 ファウスト / 薬指点描派ステューデント イサン",
+          "zh": ""
+        }
+      },
+      {
+        "suggestedId": "limbus-global-event-20261022-maintenance-lunacy",
+        "kind": "event",
+        "name": {
+          "ko": "점검 및 애플리케이션 업데이트 보상",
+          "en": "Maintenance and application update rewards",
+          "ja": "メンテナンス・アプリ更新報酬",
+          "zh": "维护及应用更新奖励"
+        },
+        "startAt": "2026-10-22T12:00:00+09:00",
+        "endAt": "2026-10-29T10:00:00+09:00",
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/690897394695406954?l=koreana",
+        "publishedAt": "2026-10-19T08:59:16+00:00",
+        "reward": {
+          "id": "limbus-lunacy",
+          "quantity": 300,
+          "acquisition": "free"
+        },
+        "conditions": {
+          "ko": "10/29 10:00(KST) 전 생성 계정\n계정당 1회 · 게임 내 우편 수령\n우편 수령 기한 7일",
+          "en": "Account created before Oct29 10:00(KST)\nOnce per account · claim through in-game mail\nMail claim period: 7 days",
+          "ja": "10/29 10:00(KST)より前に作成したアカウント\n1アカウント1回・ゲーム内メールで受取\nメール受取期限：7日",
+          "zh": "10月29日10:00(KST)前创建的账号\n每个账号1次・游戏内邮件领取\n邮件领取期限：7天"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": {
+          "ko": "특별 추출 패키지",
+          "en": "Target Extraction Pack",
+          "ja": "特別抽出パッケージ",
+          "zh": "特别抽取礼包"
+        },
+        "contents": {
+          "ko": "추출 10회 티켓 ×4",
+          "en": "Decaextraction Ticket ×4",
+          "ja": "抽出10回チケット ×4",
+          "zh": "十连抽取券 ×4"
+        },
+        "startAt": "2026-10-15T12:00:00+09:00",
+        "endAt": "2026-10-29T10:00:00+09:00",
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "purchaseLimit": 1,
+        "prices": [
+          {
+            "marketRegion": "kr",
+            "amount": 33000,
+            "currency": "KRW"
+          },
+          {
+            "marketRegion": "jp",
+            "amount": 3000,
+            "currency": "JPY"
+          }
+        ],
+        "unclassifiedPrintedPrice": "$21.99",
+        "detailImageKeys": [
+          "678511862081391680-ko-3",
+          "678511862081391680-english-3",
+          "678511862081391680-japanese-3"
+        ]
+      },
+      {
+        "name": {
+          "ko": "인격 육성 패키지",
+          "en": "Identity Growth Pack",
+          "ja": "人格育成パッケージ",
+          "zh": "人格培养礼包"
+        },
+        "contents": {
+          "ko": "도약 모듈 - 인격 동기화 ×1\n인격 학습 티켓 IV ×90\n인격 학습 티켓 III ×40",
+          "en": "Takeoff Module - ID Uptie ×1\nIdentity Training Ticket IV ×90\nIdentity Training Ticket III ×40",
+          "ja": "跳躍モジュール - 人格同期化 ×1\n人格学習チケット IV ×90\n人格学習チケット III ×40",
+          "zh": "跃升模块 - 人格同步化 ×1\n人格经验券 IV ×90\n人格经验券 III ×40"
+        },
+        "startAt": "2026-10-15T12:00:00+09:00",
+        "endAt": "2026-10-29T10:00:00+09:00",
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "purchaseLimit": 1,
+        "prices": [
+          {
+            "marketRegion": "kr",
+            "amount": 33000,
+            "currency": "KRW"
+          },
+          {
+            "marketRegion": "jp",
+            "amount": 3000,
+            "currency": "JPY"
+          }
+        ],
+        "unclassifiedPrintedPrice": "$21.99",
+        "detailImageKeys": [
+          "678511862081391680-ko-3",
+          "678511862081391680-english-3",
+          "678511862081391680-japanese-3"
+        ]
+      }
+    ],
+    "season": {
+      "version": "Season8",
+      "versionTitle": {
+        "ko": "시즌 8: 푼크툼",
+        "en": "Season 8: PUNCTUM",
+        "ja": "シーズン8：プンクトゥム",
+        "zh": "第8赛季：PUNCTUM"
+      },
+      "imageKey": "season8",
+      "startAt": null,
+      "sourceUrl": "https://www.pickupcal.com/events/925504/",
+      "note": "Poster official; season start not re-verified from official full original, do not infer exact clock."
+    },
+    "rewardCatalog": [
+      {
+        "id": "limbus-lunacy",
+        "name": {
+          "ko": "광기",
+          "en": "Lunacy",
+          "ja": "狂気",
+          "zh": "狂气"
+        },
+        "category": "gacha-currency",
+        "iconKey": "lunacy",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://store.steampowered.com/news/app/1973530/view/690897394695406954?l=koreana",
+          "https://wiki.biligame.com/limbuscompany/5%E6%9C%8825%E6%97%A5%E8%AE%A1%E5%88%92%E6%9B%B4%E6%96%B0"
+        ]
+      }
+    ],
+    "fallback": {
+      "url": "https://www.pickupcal.com/games/limbus/",
+      "sourceKind": "community",
+      "indexFixture": "/tmp/resume18-limbus/pickupcal.html",
+      "currentFixture": "/tmp/resume18-limbus/current-community.html",
+      "nextFixture": "/tmp/resume18-limbus/next-community.html",
+      "currentJsonld": "/tmp/resume18-limbus/current-community-jsonld.json",
+      "nextJsonld": "/tmp/resume18-limbus/next-community-jsonld.json",
+      "shape": "CollectionPage.hasPart WebPage URL list, detail WebPage with about.VideoGame, name, temporalCoverage, citation, dateModified; body explicitly KST. No R2 endpoint access used."
+    },
+    "steam": {
+      "appId": 1973530,
+      "clanId": 43587230,
+      "clanSteamId": "103582791473108638",
+      "nativeLanguages": {
+        "ko": 4,
+        "en": 0,
+        "ja": 10
+      },
+      "currentGid": "678511862081389519",
+      "nextGid": "667254131059070030",
+      "currentStatsGid": "678511862081391684",
+      "metadataNote": "Use jsondata.localized_capsule_image for exact pickup original. localized_title_image is repeated generic Dante-bus image; never use for pickup. Steam event times are not game windows."
+    },
+    "constraints": [
+      "All current/next/season banners are official trilingual ko/en/ja, not neutral. Use matching locale variants for ko/en/ja and preserve full native original; no Chinese art substitution.",
+      "Sinclair skill sheets use X/Y placeholders in effects, not exact numeric attack/HP tables. Do not invent numbers or crop them as clean gacha originals.",
+      "All source images remain unchanged originals. Native stats sheets are detail images; do not substitute them as another entity or other rotation."
+    ]
+  },
+  "dna": {
+    "gameId": "dna",
+    "checkedAt": "2026-10-23T22:42:09.791574+00:00",
+    "canonicalRegion": "global",
+    "acquisitionModel": "direct",
+    "sourceAccess": "body",
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "sourceEventId": "692023294602250673",
+    "sourceUrls": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "sourceLanguageIds": {
+      "ko": 4,
+      "en": 0,
+      "ja": 10,
+      "zh": 7
+    },
+    "websiteFeedStatus": {
+      "ko": "native official body available",
+      "en": "stale native website; current Steam independently available",
+      "ja": "stale native website; current Steam independently available",
+      "zh": "stale native website; current Steam independently available"
+    },
+    "version": {
+      "title": {
+        "ko": "여명 속으로",
+        "en": "Towards the Dawn",
+        "ja": "暁を歩む",
+        "zh": "行於破曉"
+      },
+      "startDate": "2026-10-20",
+      "startAt": null,
+      "endAt": null,
+      "heroImageNeutral": "/assets/dna/towards-dawn-neutral.webp",
+      "localizedImages": {
+        "ko": "/assets/dna/towards-dawn-ko.jpg",
+        "ja": "/assets/dna/towards-dawn-ja.jpg"
+      },
+      "summary": {
+        "ko": "리듬·되살아난 불꽃 / 살아간다는 무게\n신규 스토리·이벤트·의뢰 편지 로테이션",
+        "en": "Rhythm: Flamewrought / Blessed Burden\nNew story, events and Secret Letter rotation",
+        "ja": "リズム・焔を纏う者 / 生きる重さ\n新ストーリー・イベント・依頼密書の更新",
+        "zh": "黎瑟·浴火 / 活著的重量\n新劇情、活動及委託密函輪替"
+      }
+    },
+    "characters": [
+      {
+        "name": {
+          "ko": "리듬·되살아난 불꽃",
+          "en": "Rhythm: Flamewrought",
+          "ja": "リズム・焔を纏う者",
+          "zh": "黎瑟·浴火"
+        },
+        "startDate": "2026-10-20",
+        "startAt": null,
+        "endAt": null,
+        "permanent": true,
+        "image": "/assets/dna/rhythm-flamewrought-neutral.webp",
+        "portrait": "/assets/dna/rhythm-flamewrought-icon.webp",
+        "element": {
+          "ko": "번개",
+          "en": "Electro",
+          "ja": "雷",
+          "zh": "雷"
+        },
+        "weaponMastery": {
+          "ko": "한손검 / 핸드 캐논",
+          "en": "Sword / Grenade Launcher",
+          "ja": "片手剣 / ランチャー",
+          "zh": "單手劍 / 榴炮"
+        },
+        "acquisition": {
+          "ko": "의뢰 편지로 무료 획득 / 상점 구매",
+          "en": "Free via Secret Letter / Shop purchase",
+          "ja": "依頼密書で無料入手 / ショップ購入",
+          "zh": "委託密函免費獲取 / 商店購買"
+        }
+      }
+    ],
+    "weapons": [
+      {
+        "name": {
+          "ko": "살아간다는 무게",
+          "en": "Blessed Burden",
+          "ja": "生きる重さ",
+          "zh": "活著的重量"
+        },
+        "startDate": "2026-10-20",
+        "startAt": null,
+        "endAt": null,
+        "permanent": true,
+        "image": "/assets/dna/blessed-burden-neutral.webp",
+        "portrait": "/assets/dna/blessed-burden-icon.webp",
+        "weaponType": {
+          "ko": "핸드 캐논",
+          "en": "Grenade Launcher",
+          "ja": "ランチャー",
+          "zh": "榴炮"
+        },
+        "acquisition": {
+          "ko": "주조로 무료 획득 / 상점 구매",
+          "en": "Free via Forging / Shop purchase",
+          "ja": "鋳造で無料入手 / ショップ購入",
+          "zh": "鍛造免費獲取 / 商店購買"
+        },
+        "relatedCharacter": {
+          "ko": "리듬·되살아난 불꽃",
+          "en": "Rhythm: Flamewrought",
+          "ja": "リズム・焔を纏う者",
+          "zh": "黎瑟·浴火"
+        },
+        "skillCommunity": {
+          "sourceUrl": "https://game8.jp/duetnightabyss/831456",
+          "basis": {
+            "ko": "제련 0",
+            "en": "Smelting 0",
+            "ja": "溶錬レベル0",
+            "zh": "精煉0"
+          },
+          "description": {
+            "ko": "치명타 피해 +62.5%. 번개 속성 캐릭터가 사격 중 스킬 위력 +75%. 사격 종료 또는 원거리 무기 재장전 시 해제.",
+            "en": "CRIT DMG +62.5%. While an Electro character fires, Skill Power +75%. Ends when firing stops or the ranged weapon reloads.",
+            "ja": "クリティカルダメージ＋62.5％。雷属性キャラクターの射撃中、スキル威力＋75％。射撃終了または遠隔武器のチャージで解除。",
+            "zh": "暴擊傷害+62.5%。雷屬性角色射擊時技能威力+75%；停止射擊或裝填遠端武器時解除。"
+          }
+        }
+      }
+    ],
+    "events": [
+      {
+        "idSuffix": "immersive-theatre-20261020",
+        "title": {
+          "ko": "몰입형 연극 · 리듬·되살아난 불꽃",
+          "en": "Immersive Theatre · Rhythm: Flamewrought",
+          "ja": "体験型劇場 · リズム・焔を纏う者",
+          "zh": "沉浸式戲劇 · 黎瑟·浴火"
+        },
+        "startDate": "2026-10-20",
+        "startAt": null,
+        "endAt": "2026-11-10T11:00:00+09:00",
+        "originalTimes": {
+          "ko": "2026-11-10 11:00 KST",
+          "ja": "2026-11-10 11:00 JST",
+          "en": "2026-11-10 10:00 server time (UTC+8 maintenance notice)",
+          "zh": "2026-11-10 10:00 伺服器時間（維護公告UTC+8）"
+        },
+        "summary": {
+          "ko": "리듬·되살아난 불꽃 의뢰 편지\n「살아간다는 무게」 편지: 관람 기념 상점",
+          "en": "Secret Letter: Rhythm: Flamewrought\nBlessed Burden letter: Memento shop",
+          "ja": "リズム・焔を纏う者の依頼密書\n「生きる重さ」の密書：観劇記念ショップ",
+          "zh": "黎瑟·浴火委託密函\n「活著的重量」密函：觀劇紀念商店"
+        },
+        "condition": {
+          "ko": "황혼의 정박편 「심판의 날」·스페셜 사이드 퀘스트 「새로운 연극」 완료",
+          "en": "Complete Chapter Twilight: The Judgment Day and A New Theatrical Experience.",
+          "ja": "「黄昏の碇泊」篇「審判の日」・特別サブクエスト「新たな劇」クリア",
+          "zh": "完成泊暮篇「審判日」及特殊支線任務「全新戲劇」"
+        }
+      },
+      {
+        "idSuffix": "as-tomorrow-nears-20261020",
+        "title": {
+          "ko": "다가올 내일",
+          "en": "As Tomorrow Nears",
+          "ja": "明日、来たる",
+          "zh": "明日將至"
+        },
+        "startDate": "2026-10-20",
+        "startAt": null,
+        "endAt": "2026-11-30T18:00:00+09:00",
+        "summary": {
+          "ko": "누적 출석\n영롱한 모래시계 ×10",
+          "en": "Cumulative login\nPrismatic Hourglass ×10",
+          "ja": "累計ログイン\n彩りの砂時計 ×10",
+          "zh": "累計簽到\n華彩沙漏 ×10"
+        },
+        "condition": {
+          "ko": "밤의 항해편 「소녀가 말한 저택으로 이동」 완료 / 이벤트 기능 오픈",
+          "en": "Complete Chapter Noctoyager: Head to the house mentioned by the girl; unlock Events.",
+          "ja": "「夜の航海」篇「少女が話した邸宅へ向かう」クリア / イベント機能開放",
+          "zh": "完成夜航篇「前往少女所說的宅邸」並開啟活動功能"
+        },
+        "rewards": [
+          {
+            "rewardId": "dna-prismatic-hourglass",
+            "quantity": 10,
+            "category": "gacha-ticket",
+            "acquisition": "conditional"
+          }
+        ]
+      },
+      {
+        "idSuffix": "maintenance-compensation-20261020",
+        "title": {
+          "ko": "여명 속으로 · 점검 보상",
+          "en": "Towards the Dawn · Maintenance compensation",
+          "ja": "暁を歩む · メンテナンス補填",
+          "zh": "行於破曉 · 維護補償"
+        },
+        "startDate": "2026-10-20",
+        "startAt": null,
+        "endAt": "2026-10-28T00:59:00+09:00",
+        "summary": {
+          "ko": "월석 ×300\n의뢰 수첩 Ⅱ ×6 / Ⅲ ×4\n장난감 망치 ×10",
+          "en": "Phoxene ×300\nCommission Manual Ⅱ ×6 / Ⅲ ×4\nToy Hammer ×10",
+          "ja": "月ノ石 ×300\n依頼手帳Ⅱ ×6 / Ⅲ ×4\nピコピコハンマー ×10",
+          "zh": "月石 ×300\n委託手冊·二 ×6 / 三 ×4\n玩具氣錘 ×10"
+        },
+        "condition": {
+          "ko": "우편 기능 해제 / 기간 내 우편 수령",
+          "en": "Unlock Mailbox; claim the compensation mail before the deadline.",
+          "ja": "メール機能解放 / 期限内に補填メールを受取",
+          "zh": "解鎖信件功能；期限內領取補償信件"
+        },
+        "rewards": [
+          {
+            "rewardId": "dna-phoxene",
+            "quantity": 300,
+            "category": "gacha-currency",
+            "acquisition": "free"
+          }
+        ]
+      }
+    ],
+    "rewardCatalog": [
+      {
+        "id": "dna-phoxene",
+        "name": {
+          "ko": "월석",
+          "en": "Phoxene",
+          "ja": "月ノ石",
+          "zh": "月石"
+        },
+        "category": "gacha-currency",
+        "icon": "/assets/dna/phoxene.webp",
+        "note": "Free currency; distinct from paid Phoxene Plumule. Cosmetic gacha, not character/weapon pulls."
+      },
+      {
+        "id": "dna-prismatic-hourglass",
+        "name": {
+          "ko": "영롱한 모래시계",
+          "en": "Prismatic Hourglass",
+          "ja": "彩りの砂時計",
+          "zh": "華彩沙漏"
+        },
+        "category": "gacha-ticket",
+        "icon": "/assets/dna/prismatic-hourglass.webp",
+        "note": "Cosmetic Myriad ticket, not character/weapon gacha."
+      }
+    ],
+    "profileLimitations": [
+      "Game8 character numeric table gives no visible level basis; omit unqualified numerical character stats. Native official element/mastery are verified.",
+      "No character/weapon pickupArchive records: acquisition is permanent direct/free. Immersive Theatre rotation is a time-limited event, not a character gacha.",
+      "New character/weapon after update start is date-only; maintenance planned end is not a guaranteed actual release clock."
+    ],
+    "steamSourceUrls": {
+      "ko": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "steamPublishedAt": "2026-10-20T02:13:58Z",
+    "nativeWebsiteChecks": {
+      "ko": {
+        "status": "ok",
+        "latestId": "9441",
+        "latestPublishedAt": "2026-10-20T01:47:00+00:00"
+      },
+      "en": {
+        "status": "limited",
+        "latestId": "9149",
+        "latestPublishedAt": "2026-04-05T03:50:00+00:00"
+      },
+      "ja": {
+        "status": "limited",
+        "latestId": "9357",
+        "latestPublishedAt": "2026-07-24T09:03:00+00:00"
+      },
+      "zh": {
+        "status": "limited",
+        "latestId": "9289",
+        "latestPublishedAt": "2026-06-05T10:00:00+00:00"
+      }
+    },
+    "upcomingWeapons": [
+      {
+        "name": {
+          "ko": "모자 장인의 연회",
+          "en": "The Hatter's Banquet",
+          "ja": "帽子屋の宴",
+          "zh": "帽匠的宴會"
+        },
+        "startAt": "2026-11-10T11:00:00+09:00",
+        "endAt": null,
+        "weaponType": {
+          "ko": "장궁",
+          "en": "Longbow",
+          "ja": "弓",
+          "zh": "長弓"
+        },
+        "permanent": true,
+        "acquisition": {
+          "ko": "주조로 무료 획득 / 상점 구매\n의뢰 편지: 악몽의 잔향",
+          "en": "Free via Forging / Shop purchase\nSecret Letter: Nocturnal Echoes",
+          "ja": "製造で無料入手 / ショップ購入\n密書：悪夢の残響",
+          "zh": "鑄造免費獲取 / 商店購買\n密函：夢魘殘聲"
+        }
+      },
+      {
+        "name": {
+          "ko": "답 없는 수수께끼",
+          "en": "Endless Enigma",
+          "ja": "解なき謎",
+          "zh": "無解謎題"
+        },
+        "startAt": "2026-11-10T11:00:00+09:00",
+        "endAt": null,
+        "weaponType": {
+          "ko": "재앙 무기 · 한손검",
+          "en": "Calamity Weapon · Sword",
+          "ja": "カラミティアームズ · 片手剣",
+          "zh": "災厄武器 · 單手劍"
+        },
+        "permanent": true,
+        "acquisition": {
+          "ko": "주조로 무료 획득\n설계도: 몰입형 연극 「관람 기념」 상점",
+          "en": "Free via Forging\nBlueprint: Immersive Theatre Memento shop",
+          "ja": "製造で無料入手\n設計図：体験型劇場「観劇記念」ショップ",
+          "zh": "鑄造免費獲取\n設計稿：沉浸式戲劇「觀劇紀念」商店"
+        }
+      }
+    ],
+    "traits": {
+      "element": {
+        "ko": "번개",
+        "en": "Electro",
+        "ja": "雷",
+        "zh": "雷"
+      },
+      "weaponMastery": {
+        "ko": "한손검 / 핸드 캐논",
+        "en": "Sword / Grenade Launcher",
+        "ja": "片手剣 / ランチャー",
+        "zh": "單手劍 / 榴炮"
+      }
+    },
+    "officialChannels": [
+      {
+        "locale": "ko",
+        "youtube": "https://www.youtube.com/@DuetNightAbyss_KR",
+        "x": "https://x.com/DNAbyss_KR",
+        "sourceUrl": "https://duetnightabyss.dna-panstudio.com/dna-event/",
+        "sourceAccess": "metadata",
+        "note": "Exact native official landing-script footer accounts; no LIVE or video-watch claim."
+      },
+      {
+        "locale": "en",
+        "youtube": "https://www.youtube.com/@DuetNightAbyss_Official",
+        "x": "https://x.com/DNAbyss_EN",
+        "sourceUrl": "https://duetnightabyss.dna-panstudio.com/dna-event/",
+        "sourceAccess": "metadata",
+        "note": "Exact native official landing-script footer accounts; no LIVE or video-watch claim."
+      },
+      {
+        "locale": "ja",
+        "youtube": "https://www.youtube.com/@DuetNightAbyss_JP",
+        "x": "https://x.com/DNAbyssJP",
+        "sourceUrl": "https://duetnightabyss.dna-panstudio.com/dna-event/",
+        "sourceAccess": "metadata",
+        "note": "Exact native official landing-script footer accounts; no LIVE or video-watch claim."
+      },
+      {
+        "locale": "zh",
+        "youtube": "https://www.youtube.com/@DuetNightAbyss_TC",
+        "x": "https://x.com/DNAbyss_TC",
+        "sourceUrl": "https://duetnightabyss.dna-panstudio.com/dna-event/",
+        "sourceAccess": "metadata",
+        "note": "Exact native official landing-script footer accounts; no LIVE or video-watch claim."
+      }
+    ]
+  },
+  "holo": {
+    "gameId": "holodreams",
+    "checkedAt": "2026-10-23T22:49:23.628675+00:00",
+    "canonicalRegion": "global",
+    "separateCn": false,
+    "officialChannels": {
+      "x": {
+        "ja": "https://x.com/hololive_dreams",
+        "en": "https://x.com/holo_dreams_en"
+      },
+      "youtube": {
+        "url": "https://www.youtube.com/@hololivedreams",
+        "channelId": "UCawGfU44CZxd2ZVf_VGijbA",
+        "source": "https://www.hololive-dreams.com/en/news",
+        "watched": false
+      }
+    },
+    "sourceChecks": [
+      {
+        "url": "https://store.steampowered.com/events/ajaxgetpartnereventspageable/?clan_accountid=46191865&appid=4282500&offset=0&count=12&l=koreana",
+        "sourceAccess": "body",
+        "status": "ok",
+        "locale": "ko"
+      },
+      {
+        "url": "https://store.steampowered.com/events/ajaxgetpartnereventspageable/?clan_accountid=46191865&appid=4282500&offset=0&count=12&l=english",
+        "sourceAccess": "body",
+        "status": "ok",
+        "locale": "en"
+      },
+      {
+        "url": "https://store.steampowered.com/events/ajaxgetpartnereventspageable/?clan_accountid=46191865&appid=4282500&offset=0&count=12&l=japanese",
+        "sourceAccess": "body",
+        "status": "ok",
+        "locale": "ja"
+      },
+      {
+        "url": "https://store.steampowered.com/events/ajaxgetpartnereventspageable/?clan_accountid=46191865&appid=4282500&offset=0&count=12&l=schinese",
+        "sourceAccess": "body",
+        "status": "ok",
+        "locale": "zh"
+      },
+      {
+        "url": "https://www.hololive-dreams.com/en/news",
+        "sourceAccess": "body",
+        "status": "limited",
+        "note": "Newest website article is Sep29; native Steam has Oct2. Current pickup/event is absent from this website index."
+      },
+      {
+        "url": "https://gamewith.jp/gamedb/15524/articles",
+        "sourceAccess": "body",
+        "status": "ok",
+        "sourceKind": "community"
+      },
+      {
+        "url": "https://gamewith.jp/gamedb/15524/articles/64568",
+        "sourceAccess": "body",
+        "status": "ok",
+        "sourceKind": "community",
+        "publishedAt": "2026-10-19T11:28:28+09:00"
+      },
+      {
+        "url": "https://www.gamer.ne.jp/news/202610190009/",
+        "sourceAccess": "blocked",
+        "httpStatus": 403,
+        "note": "Raw HTTP403. Search reader exposes article body independently; do not claim raw collection succeeded."
+      },
+      {
+        "url": "https://gamebiz.jp/news/434264",
+        "sourceAccess": "error",
+        "httpStatus": 503
+      }
+    ],
+    "version": {
+      "version": "1.2.1",
+      "publishedAt": "2026-10-02T02:06:47Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/4282500/view/690896126641963156?l=koreana",
+      "summary": {
+        "ko": "오류 수정",
+        "en": "Bug fixes",
+        "ja": "不具合修正",
+        "zh": "修復錯誤"
+      },
+      "startAt": null,
+      "endAt": null,
+      "versionHeroAssetId": "soda-pop-lagoon-scene",
+      "imageCaption": {
+        "ko": "소다팝 라군 구역 안내 이미지 · Ver.1.2.0 공개 원본",
+        "en": "Soda Pop Lagoon area scene originally released for Ver.1.2.0",
+        "ja": "Ver.1.2.0で公開されたソーダポップラグーンのエリア画像",
+        "zh": "Ver.1.2.0公開的Soda Pop Lagoon區域原圖"
+      },
+      "note": "Current1.2.1 has no distinct key visual; area scene is captioned as a1.2.0 scene, never called1.2.1 poster."
+    },
+    "gacha": {
+      "id": "holodreams-global-blissful-seaside-days-20261019",
+      "title": {
+        "ko": "지복의 시사이드 데이즈",
+        "en": "Blissful Seaside Days",
+        "ja": "至福のシーサイドデイズガチャ",
+        "zh": "至福海濱時光"
+      },
+      "officialLocales": [
+        "ja"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "zh"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-29",
+      "startAt": null,
+      "endAt": null,
+      "originalWindow": "2026年10月19日（月）11:00～2026年10月29日（木）10:59",
+      "sourceKind": "community",
+      "evidenceKind": "publisher-release-reprint",
+      "sourceUrl": "https://gamewith.jp/gamedb/15524/articles/64568",
+      "relatedSources": [
+        "https://dengekionline.com/article/202610/91379",
+        "https://www.gamer.ne.jp/news/202610190009/",
+        "https://dreams.wf-calc.net/en/wiki/game-updates"
+      ],
+      "members": [
+        {
+          "member": "常闇トワ",
+          "title": {
+            "ko": "한가로이 보내는 나무 그늘 바캉스",
+            "en": "Shady Hammock Days",
+            "ja": "ゆらゆら過ごす木陰のバカンス",
+            "zh": "樹蔭下的悠閒假期"
+          },
+          "attribute": "キュート",
+          "outfitName": "サンセットホライゾン",
+          "rarity": 5,
+          "illustration_url": "/assets/holodori/00027-5-uniq-0092-00-illustration.webp",
+          "icon_url": "/assets/holodori/00027-5-uniq-0092-00-icon.webp",
+          "stats": {
+            "technique": 11145,
+            "sense": 7828,
+            "performance": 6947
+          },
+          "basis": {
+            "level": 80,
+            "bloomStage": 2,
+            "limitBreak": 4,
+            "sourceKind": "community",
+            "rawTable": "values_by_bloom_and_level",
+            "note": "Flat parameters at this exact growth-table state; skill descriptions have their own levels.",
+            "label": {
+              "ko": "Lv.80 · 한계돌파 4 · 개화 2",
+              "en": "Lv.80 · Limit Break 4 · Bloom 2",
+              "ja": "Lv.80・限界突破4・開花2",
+              "zh": "Lv.80・突破4・開花2"
+            }
+          },
+          "skillsJapanese": {
+            "special": "12秒間スコアサポート効果120% スキル発動率が40%UP",
+            "active": "26秒毎に中確率で9秒間スコアが65%UP キュートタイプ2人以上でスコアが125%UP",
+            "passive": "キュートタイプ2人以上でキュートタイプ2人のテクニックが43%UP",
+            "outfit": "キュートタイプ2人以上で全員のテクニックが80%UP キュートタイプ2人以上で全員のスコアサポート効果25%"
+          },
+          "connect": {
+            "cells": 12,
+            "shape": [
+              "..#..",
+              ".###.",
+              "##@##",
+              ".###.",
+              "..#.."
+            ],
+            "effect_pattern_ref": {
+              "pattern_id": "board-effect-15b189aad300"
+            }
+          },
+          "statPatternRef": {
+            "pattern_id": "r5-stats-3a692eea21f3",
+            "stat_order": [
+              "technique",
+              "sense",
+              "performance"
+            ]
+          },
+          "slug": "towa",
+          "name": {
+            "ko": "토코야미 토와",
+            "en": "Tokoyami Towa",
+            "ja": "常闇トワ",
+            "zh": "常闇永遠"
+          },
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "localizationSourceKind": "community",
+          "sourceUrls": [
+            "https://dreams.wf-calc.net/en/cards",
+            "https://dreams.wf-calc.net/ko/cards",
+            "https://dreams.wf-calc.net/cards?lang=zh-Hant",
+            "https://gamewith.jp/gamedb/15524/articles/64568"
+          ],
+          "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+          "primaryAssetId": "press-image-3",
+          "jaPosterAssetId": "seaside-towa-ja",
+          "portraitAssetId": "seaside-towa-icon",
+          "rawSkills": {
+            "active": [
+              {
+                "level": 1,
+                "cooldown_milliseconds": 26000,
+                "activation_probability_permil": 460,
+                "duration_milliseconds": 9000,
+                "effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 550
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 1050
+                  }
+                ],
+                "additional_triggers": [
+                  {
+                    "type": "deck_card_attribute",
+                    "threshold": 2,
+                    "card_attribute": 1
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "cooldown_milliseconds": 26000,
+                "activation_probability_permil": 460,
+                "duration_milliseconds": 9000,
+                "effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 650
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 1250
+                  }
+                ],
+                "additional_triggers": [
+                  {
+                    "type": "deck_card_attribute",
+                    "threshold": 2,
+                    "card_attribute": 1
+                  }
+                ]
+              }
+            ],
+            "passive": [
+              {
+                "level": 1,
+                "effects": [
+                  {
+                    "type": "technique_up_permil_up",
+                    "value": 320,
+                    "target": {
+                      "id": "live_skill_effect_target-attribute-attribute_1-2",
+                      "type": "attribute",
+                      "target_count": 2,
+                      "card_attribute": 1
+                    }
+                  }
+                ],
+                "triggers": [
+                  {
+                    "type": "deck_card_attribute",
+                    "threshold": 2,
+                    "card_attribute": 1
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "effects": [
+                  {
+                    "type": "technique_up_permil_up",
+                    "value": 430,
+                    "target": {
+                      "id": "live_skill_effect_target-attribute-attribute_1-2",
+                      "type": "attribute",
+                      "target_count": 2,
+                      "card_attribute": 1
+                    }
+                  }
+                ],
+                "triggers": [
+                  {
+                    "type": "deck_card_attribute",
+                    "threshold": 2,
+                    "card_attribute": 1
+                  }
+                ]
+              }
+            ],
+            "special": [
+              {
+                "level": 1,
+                "duration_milliseconds": 12000,
+                "effects": [
+                  {
+                    "type": "score_up_effect_up_permil_up",
+                    "value": 1000
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "live_active_skill_activation_probability_up_permil_up",
+                    "value": 350
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "duration_milliseconds": 12000,
+                "effects": [
+                  {
+                    "type": "score_up_effect_up_permil_up",
+                    "value": 1200
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "live_active_skill_activation_probability_up_permil_up",
+                    "value": 400
+                  }
+                ]
+              }
+            ]
+          },
+          "skillLevelsNote": "Raw per-level values; no implicit use of final skills under the flat-stat Bloom 2 basis."
+        },
+        {
+          "member": "獅白ぼたん",
+          "title": {
+            "ko": "일사불란 후루룩 타임",
+            "en": "Slurping Frenzy",
+            "ja": "一心不乱のちゅるタイム",
+            "zh": "心無旁騖的用餐時光"
+          },
+          "attribute": "キュート",
+          "outfitName": "ワイルドサンシャイン",
+          "rarity": 5,
+          "illustration_url": "/assets/holodori/00032-5-uniq-0093-00-illustration.webp",
+          "icon_url": "/assets/holodori/00032-5-uniq-0093-00-icon.webp",
+          "stats": {
+            "sense": 11145,
+            "performance": 7828,
+            "technique": 6947
+          },
+          "basis": {
+            "level": 80,
+            "bloomStage": 2,
+            "limitBreak": 4,
+            "sourceKind": "community",
+            "rawTable": "values_by_bloom_and_level",
+            "note": "Flat parameters at this exact growth-table state; skill descriptions have their own levels.",
+            "label": {
+              "ko": "Lv.80 · 한계돌파 4 · 개화 2",
+              "en": "Lv.80 · Limit Break 4 · Bloom 2",
+              "ja": "Lv.80・限界突破4・開花2",
+              "zh": "Lv.80・突破4・開花2"
+            }
+          },
+          "skillsJapanese": {
+            "special": "12秒間スコアサポート効果120% スキル発動率が40%UP",
+            "active": "32秒毎に中確率で11秒間スコアが65%UP キュートタイプ2人以上でスコアが125%UP",
+            "passive": "キュートタイプ2人のスコアサポート効果11%",
+            "outfit": "キュートタイプ2人以上で全員のセンスが80%UP キュートタイプ2人以上で全員のスコアサポート効果25%"
+          },
+          "connect": {
+            "cells": 4,
+            "shape": [
+              "..#..",
+              "..#..",
+              "##@..",
+              ".....",
+              "....."
+            ],
+            "effect_pattern_ref": {
+              "pattern_id": "board-effect-6989d6ef0e1a"
+            }
+          },
+          "statPatternRef": {
+            "pattern_id": "r5-stats-3a692eea21f3",
+            "stat_order": [
+              "sense",
+              "performance",
+              "technique"
+            ]
+          },
+          "slug": "botan",
+          "name": {
+            "ko": "시시로 보탄",
+            "en": "Shishiro Botan",
+            "ja": "獅白ぼたん",
+            "zh": "獅白牡丹"
+          },
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "localizationSourceKind": "community",
+          "sourceUrls": [
+            "https://dreams.wf-calc.net/en/cards",
+            "https://dreams.wf-calc.net/ko/cards",
+            "https://dreams.wf-calc.net/cards?lang=zh-Hant",
+            "https://gamewith.jp/gamedb/15524/articles/64568"
+          ],
+          "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+          "primaryAssetId": "press-image-4",
+          "jaPosterAssetId": "seaside-botan-ja",
+          "portraitAssetId": "seaside-botan-icon",
+          "rawSkills": {
+            "active": [
+              {
+                "level": 1,
+                "cooldown_milliseconds": 32000,
+                "activation_probability_permil": 460,
+                "duration_milliseconds": 11000,
+                "effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 550
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 1050
+                  }
+                ],
+                "additional_triggers": [
+                  {
+                    "type": "deck_card_attribute",
+                    "threshold": 2,
+                    "card_attribute": 1
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "cooldown_milliseconds": 32000,
+                "activation_probability_permil": 460,
+                "duration_milliseconds": 11000,
+                "effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 650
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 1250
+                  }
+                ],
+                "additional_triggers": [
+                  {
+                    "type": "deck_card_attribute",
+                    "threshold": 2,
+                    "card_attribute": 1
+                  }
+                ]
+              }
+            ],
+            "passive": [
+              {
+                "level": 1,
+                "effects": [
+                  {
+                    "type": "live_active_skill_effect_up_permil_up",
+                    "value": 80,
+                    "target": {
+                      "id": "live_skill_effect_target-attribute-attribute_1-2",
+                      "type": "attribute",
+                      "target_count": 2,
+                      "card_attribute": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "effects": [
+                  {
+                    "type": "live_active_skill_effect_up_permil_up",
+                    "value": 110,
+                    "target": {
+                      "id": "live_skill_effect_target-attribute-attribute_1-2",
+                      "type": "attribute",
+                      "target_count": 2,
+                      "card_attribute": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "special": [
+              {
+                "level": 1,
+                "duration_milliseconds": 12000,
+                "effects": [
+                  {
+                    "type": "score_up_effect_up_permil_up",
+                    "value": 1000
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "live_active_skill_activation_probability_up_permil_up",
+                    "value": 350
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "duration_milliseconds": 12000,
+                "effects": [
+                  {
+                    "type": "score_up_effect_up_permil_up",
+                    "value": 1200
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "live_active_skill_activation_probability_up_permil_up",
+                    "value": 400
+                  }
+                ]
+              }
+            ]
+          },
+          "skillLevelsNote": "Raw per-level values; no implicit use of final skills under the flat-stat Bloom 2 basis."
+        },
+        {
+          "member": "カエラ・コヴァルスキア",
+          "title": {
+            "ko": "나무 그늘에서 자아내는 Shiny Memory",
+            "en": "Shady Shiny Memory",
+            "ja": "木陰で紡ぐShiny Memory",
+            "zh": "交織在樹蔭下的Shiny Memory"
+          },
+          "attribute": "ハッピー",
+          "outfitName": "パッショナートレアメタル",
+          "rarity": 5,
+          "illustration_url": "/assets/holodori/03008-5-uniq-0095-00-illustration.webp",
+          "icon_url": "/assets/holodori/03008-5-uniq-0095-00-icon.webp",
+          "stats": {
+            "sense": 11145,
+            "technique": 7828,
+            "performance": 6947
+          },
+          "basis": {
+            "level": 80,
+            "bloomStage": 2,
+            "limitBreak": 4,
+            "sourceKind": "community",
+            "rawTable": "values_by_bloom_and_level",
+            "note": "Flat parameters at this exact growth-table state; skill descriptions have their own levels.",
+            "label": {
+              "ko": "Lv.80 · 한계돌파 4 · 개화 2",
+              "en": "Lv.80 · Limit Break 4 · Bloom 2",
+              "ja": "Lv.80・限界突破4・開花2",
+              "zh": "Lv.80・突破4・開花2"
+            }
+          },
+          "skillsJapanese": {
+            "special": "10秒間スコアサポート効果145% ID3期生が2人以上でスキル発動率が55%UP",
+            "active": "34秒毎に高確率で12秒間スコアが115%UP",
+            "passive": "ID3期生2人のセンスが43%UP",
+            "outfit": "ID3期生が2人以上で全員のセンスが135%UP"
+          },
+          "connect": {
+            "cells": 4,
+            "shape": [
+              "..#..",
+              "..#..",
+              "..@..",
+              "..#..",
+              "..#.."
+            ],
+            "effect_pattern_ref": {
+              "pattern_id": "board-effect-6989d6ef0e1a"
+            }
+          },
+          "statPatternRef": {
+            "pattern_id": "r5-stats-3a692eea21f3",
+            "stat_order": [
+              "sense",
+              "technique",
+              "performance"
+            ]
+          },
+          "slug": "kaela",
+          "name": {
+            "ko": "카엘라 코발스키아",
+            "en": "Kaela Kovalskia",
+            "ja": "カエラ・コヴァルスキア",
+            "zh": "Kaela Kovalskia"
+          },
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "localizationSourceKind": "community",
+          "sourceUrls": [
+            "https://dreams.wf-calc.net/en/cards",
+            "https://dreams.wf-calc.net/ko/cards",
+            "https://dreams.wf-calc.net/cards?lang=zh-Hant",
+            "https://gamewith.jp/gamedb/15524/articles/64568"
+          ],
+          "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+          "primaryAssetId": "seaside-kaela-neutral-full",
+          "jaPosterAssetId": "seaside-kaela-ja",
+          "portraitAssetId": "seaside-kaela-icon",
+          "rawSkills": {
+            "active": [
+              {
+                "level": 1,
+                "cooldown_milliseconds": 34000,
+                "activation_probability_permil": 550,
+                "duration_milliseconds": 12000,
+                "effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 950
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "cooldown_milliseconds": 34000,
+                "activation_probability_permil": 550,
+                "duration_milliseconds": 12000,
+                "effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 1150
+                  }
+                ]
+              }
+            ],
+            "passive": [
+              {
+                "level": 1,
+                "effects": [
+                  {
+                    "type": "sense_up_permil_up",
+                    "value": 320,
+                    "target": {
+                      "id": "live_skill_effect_target-character_grouping-grp-indonesia-gen_3-2",
+                      "type": "character_grouping",
+                      "target_count": 2,
+                      "character_grouping_id": "grp-indonesia-gen_3"
+                    }
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "effects": [
+                  {
+                    "type": "sense_up_permil_up",
+                    "value": 430,
+                    "target": {
+                      "id": "live_skill_effect_target-character_grouping-grp-indonesia-gen_3-2",
+                      "type": "character_grouping",
+                      "target_count": 2,
+                      "character_grouping_id": "grp-indonesia-gen_3"
+                    }
+                  }
+                ]
+              }
+            ],
+            "special": [
+              {
+                "level": 1,
+                "duration_milliseconds": 10000,
+                "effects": [
+                  {
+                    "type": "score_up_effect_up_permil_up",
+                    "value": 1200
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "live_active_skill_activation_probability_up_permil_up",
+                    "value": 450
+                  }
+                ],
+                "additional_triggers": [
+                  {
+                    "type": "deck_card_character_grouping",
+                    "threshold": 2,
+                    "character_grouping_id": "grp-indonesia-gen_3"
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "duration_milliseconds": 10000,
+                "effects": [
+                  {
+                    "type": "score_up_effect_up_permil_up",
+                    "value": 1450
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "live_active_skill_activation_probability_up_permil_up",
+                    "value": 550
+                  }
+                ],
+                "additional_triggers": [
+                  {
+                    "type": "deck_card_character_grouping",
+                    "threshold": 2,
+                    "character_grouping_id": "grp-indonesia-gen_3"
+                  }
+                ]
+              }
+            ]
+          },
+          "skillLevelsNote": "Raw per-level values; no implicit use of final skills under the flat-stat Bloom 2 basis."
+        },
+        {
+          "member": "古石ビジュー",
+          "title": {
+            "ko": "미소가 눈부신 Sand castle",
+            "en": "Beaming Sandcastle",
+            "ja": "笑顔輝くSand castle",
+            "zh": "洋溢燦爛笑容的Sand castle"
+          },
+          "attribute": "ハッピー",
+          "outfitName": "スパークルジェム",
+          "rarity": 5,
+          "illustration_url": "/assets/holodori/04014-5-uniq-0094-00-illustration.webp",
+          "icon_url": "/assets/holodori/04014-5-uniq-0094-00-icon.webp",
+          "stats": {
+            "performance": 11145,
+            "technique": 7828,
+            "sense": 6947
+          },
+          "basis": {
+            "level": 80,
+            "bloomStage": 2,
+            "limitBreak": 4,
+            "sourceKind": "community",
+            "rawTable": "values_by_bloom_and_level",
+            "note": "Flat parameters at this exact growth-table state; skill descriptions have their own levels.",
+            "label": {
+              "ko": "Lv.80 · 한계돌파 4 · 개화 2",
+              "en": "Lv.80 · Limit Break 4 · Bloom 2",
+              "ja": "Lv.80・限界突破4・開花2",
+              "zh": "Lv.80・突破4・開花2"
+            }
+          },
+          "skillsJapanese": {
+            "special": "12秒間スコアサポート効果120% Adventが2人以上でスキル発動率が45%UP",
+            "active": "19秒毎に高確率で7秒間スコアが110%UP",
+            "passive": "Adventが2人以上でAdvent2人のスコアサポート効果12%",
+            "outfit": "Adventが2人以上で全員のパフォーマンスが135%UP"
+          },
+          "connect": {
+            "cells": 8,
+            "shape": [
+              "..#..",
+              ".##..",
+              "##@..",
+              ".##..",
+              "..#.."
+            ],
+            "effect_pattern_ref": {
+              "pattern_id": "board-effect-94dee79a7fa3"
+            }
+          },
+          "statPatternRef": {
+            "pattern_id": "r5-stats-3a692eea21f3",
+            "stat_order": [
+              "performance",
+              "technique",
+              "sense"
+            ]
+          },
+          "slug": "bijou",
+          "name": {
+            "ko": "코세키 비쥬",
+            "en": "Koseki Bijou",
+            "ja": "古石ビジュー",
+            "zh": "Koseki Bijou"
+          },
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "localizationSourceKind": "community",
+          "sourceUrls": [
+            "https://dreams.wf-calc.net/en/cards",
+            "https://dreams.wf-calc.net/ko/cards",
+            "https://dreams.wf-calc.net/cards?lang=zh-Hant",
+            "https://gamewith.jp/gamedb/15524/articles/64568"
+          ],
+          "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+          "primaryAssetId": "press-image-6",
+          "jaPosterAssetId": "seaside-bijou-ja",
+          "portraitAssetId": "seaside-bijou-icon",
+          "rawSkills": {
+            "active": [
+              {
+                "level": 1,
+                "cooldown_milliseconds": 19000,
+                "activation_probability_permil": 550,
+                "duration_milliseconds": 7000,
+                "effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 900
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "cooldown_milliseconds": 19000,
+                "activation_probability_permil": 550,
+                "duration_milliseconds": 7000,
+                "effects": [
+                  {
+                    "type": "score_up_permil_up",
+                    "value": 1100
+                  }
+                ]
+              }
+            ],
+            "passive": [
+              {
+                "level": 1,
+                "effects": [
+                  {
+                    "type": "live_active_skill_effect_up_permil_up",
+                    "value": 90,
+                    "target": {
+                      "id": "live_skill_effect_target-character_grouping-grp-advent-2",
+                      "type": "character_grouping",
+                      "target_count": 2,
+                      "character_grouping_id": "grp-advent"
+                    }
+                  }
+                ],
+                "triggers": [
+                  {
+                    "type": "deck_card_character_grouping",
+                    "threshold": 2,
+                    "character_grouping_id": "grp-advent"
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "effects": [
+                  {
+                    "type": "live_active_skill_effect_up_permil_up",
+                    "value": 120,
+                    "target": {
+                      "id": "live_skill_effect_target-character_grouping-grp-advent-2",
+                      "type": "character_grouping",
+                      "target_count": 2,
+                      "character_grouping_id": "grp-advent"
+                    }
+                  }
+                ],
+                "triggers": [
+                  {
+                    "type": "deck_card_character_grouping",
+                    "threshold": 2,
+                    "character_grouping_id": "grp-advent"
+                  }
+                ]
+              }
+            ],
+            "special": [
+              {
+                "level": 1,
+                "duration_milliseconds": 12000,
+                "effects": [
+                  {
+                    "type": "score_up_effect_up_permil_up",
+                    "value": 1000
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "live_active_skill_activation_probability_up_permil_up",
+                    "value": 400
+                  }
+                ],
+                "additional_triggers": [
+                  {
+                    "type": "deck_card_character_grouping",
+                    "threshold": 2,
+                    "character_grouping_id": "grp-advent"
+                  }
+                ]
+              },
+              {
+                "level": 2,
+                "duration_milliseconds": 12000,
+                "effects": [
+                  {
+                    "type": "score_up_effect_up_permil_up",
+                    "value": 1200
+                  }
+                ],
+                "additional_effects": [
+                  {
+                    "type": "live_active_skill_activation_probability_up_permil_up",
+                    "value": 450
+                  }
+                ],
+                "additional_triggers": [
+                  {
+                    "type": "deck_card_character_grouping",
+                    "threshold": 2,
+                    "character_grouping_id": "grp-advent"
+                  }
+                ]
+              }
+            ]
+          },
+          "skillLevelsNote": "Raw per-level values; no implicit use of final skills under the flat-stat Bloom 2 basis."
+        }
+      ],
+      "allSimultaneouslyNew": true,
+      "rarity": 5,
+      "selectionVariant": {
+        "selectionCount": 1,
+        "candidateSlugs": [
+          "towa",
+          "botan",
+          "kaela",
+          "bijou"
+        ],
+        "posterAssetId": "press-image-2",
+        "sourceUrl": "https://x.com/holo_dreams_en/status/2112001885003821550",
+        "sourceAccess": "community-quoted-metadata",
+        "note": "Separate concurrent Select Gacha; do not put selectionCount on normal four-featured pool."
+      },
+      "benefit": {
+        "ko": "해당 멤버 획득 시 파크 의상·라이브 의상 획득",
+        "en": "Obtaining a Member grants her Park Outfit and Live Outfit.",
+        "ja": "対象メンバー獲得でパーク衣装とライブ衣装を獲得",
+        "zh": "獲得對應成員時，同時獲得樂園服裝與演出服裝。"
+      }
+    },
+    "event": {
+      "id": "holodreams-global-sunlit-shoreline-style-20261019",
+      "title": {
+        "ko": "넘치는 빛과 물가의 드레스 코드",
+        "en": "Sunlit Shoreline Style",
+        "ja": "あふれる光と、渚のドレスコード",
+        "zh": "洋溢光芒與渚邊的服裝守則"
+      },
+      "officialLocales": [
+        "ja"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "zh"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-27",
+      "startAt": null,
+      "endAt": null,
+      "sourceKind": "community",
+      "evidenceKind": "publisher-release-reprint",
+      "sourceUrl": "https://gamewith.jp/gamedb/15524/articles/64568",
+      "imageAssetId": "press-image-0",
+      "practicalSummary": {
+        "ko": "리듬 라이브·미니게임 → 이벤트 Pt·배지\nPt: 멤버별 단편 스토리\n배지 교환: 이벤트 메모리·육성 재료",
+        "en": "Lives and minigames → Event Points and Badges\nPoints unlock short stories.\nBadges exchange for Event Memories and training materials.",
+        "ja": "ライブ・ミニゲーム → イベントPt・イベントバッジ\nPtでショートストーリー解放\nバッジ交換: イベントメモリー・育成素材",
+        "zh": "演出・小遊戲 → 活動Pt・徽章\nPt解鎖短篇故事\n徽章兌換: 活動回憶・培育素材"
+      },
+      "chapters": [
+        {
+          "member": "towa",
+          "startDate": "2026-10-19",
+          "endDate": "2026-10-21"
+        },
+        {
+          "member": "kaela",
+          "startDate": "2026-10-21",
+          "endDate": "2026-10-23"
+        },
+        {
+          "member": "botan",
+          "startDate": "2026-10-23",
+          "endDate": "2026-10-25"
+        },
+        {
+          "member": "bijou",
+          "startDate": "2026-10-25",
+          "endDate": "2026-10-27"
+        }
+      ],
+      "rewardQuantities": null,
+      "claimDeadline": null,
+      "participationCondition": null,
+      "dailyLimit": null,
+      "sourceConflict": "AppMedia overall table Nov2 conflicts with publisher reprint Oct27. Preserve publisher Oct27; do not copy AppMedia aggregate end."
+    },
+    "rewardCatalog": [
+      {
+        "id": "holodreams-diamonds",
+        "category": "gacha-currency",
+        "name": {
+          "ko": "다이아",
+          "en": "Diamonds",
+          "ja": "ダイヤ",
+          "zh": "鑽石"
+        },
+        "sourceKind": "community",
+        "iconAssetId": "diamonds",
+        "note": "Generic Diamonds icon. Do not call it free Red Diamonds or paid Blue Diamonds specifically."
+      },
+      {
+        "id": "holodreams-gacha-ticket",
+        "category": "gacha-ticket",
+        "name": {
+          "ko": "가챠 티켓",
+          "en": "Gacha Ticket",
+          "ja": "ガチャチケット",
+          "zh": "抽卡券"
+        },
+        "sourceKind": "community",
+        "iconAssetId": "gacha-ticket"
+      }
+    ],
+    "assetFailures": [
+      {
+        "id": "press-image-1",
+        "url": "https://img.gamewith.jp/img/original_bd5e5cbf10e5d1d1dfe1f8f81c9f49f9.png",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "id": "press-image-5",
+        "url": "https://img.gamewith.jp/img/original_eca36ceaddeefae0028c20c4f4bb89e2.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "recurringFallback": {
+      "indexUrl": "https://gamewith.jp/gamedb/15524/articles",
+      "sourceKind": "community",
+      "sourceAccess": "body",
+      "itemSelector": "ul.gdb-game-article-list a[gtm-ga4-game-id=\"15524\"]",
+      "href": "May be UNQUOTED; require pathname ^/gamedb/15524/articles/[0-9]+$ and same https host.",
+      "title": "gtm-ga4-text or ._title",
+      "publishedAt": "time[datetime], actual source timestamp",
+      "articleBodySelector": "#article-body.gdb-article",
+      "removeSelectors": [
+        ".gamedb-steam-ad",
+        ".gdb-install-btn",
+        ".gdb-console-article-no-store",
+        "script",
+        "style"
+      ],
+      "sourceBodyCaution": "JSON-LD articleBody includes the NTE advertisement too; do not use it without filtering. Restrict to actual article-body; release starts after the advertisement. Stop before editor biography/related lists. Select preview/data-original image URL, not transparent1px tracking image.",
+      "exactCurrentReleaseStart": "『hololive Dreams』（略称「ホロドリ」）のゲーム内イベント「あふれる光と、渚のドレスコード」を10月19日より開催！",
+      "fixtures": {
+        "index": "/tmp/resume18-holo/gamewith-index.html",
+        "detail": "/tmp/resume18-holo/gamewith-current.html"
+      },
+      "rowCompleteness": "This is publisher-release reprint coverage, not proof that all official X or in-game notices were captured."
+    },
+    "cardDataSource": {
+      "page": "https://dreams.wf-calc.net/en/cards",
+      "pageKo": "https://dreams.wf-calc.net/ko/cards",
+      "pageZh": "https://dreams.wf-calc.net/cards?lang=zh-Hant",
+      "presentationChunk": "https://dreams.wf-calc.net/assets/CardEvaluationButton-xn6Mzn8r.js",
+      "rawGrowthChunk": "https://dreams.wf-calc.net/assets/CardDataPage-CdeCo-Qp.js",
+      "parse": "Static JSON.parse literal payload only; no eval or execution. Exact card ID/illustration suffix and Japanese member+title prevent other-outfit mixing.",
+      "profileFile": "/tmp/resume18-holo/current-card-profiles.json",
+      "rawFile": "/tmp/resume18-holo/current-cards-raw.json",
+      "schema": "Raw cards: id/member/title/rarity/attribute/stat_profile_id/level_limits_by_limit_break/potential/skills(level keyed arrays)/connect_effect_id. Presentation cards have stat_pattern_ref.pattern_id+stat_order. Pattern table maximum_level=80, values_by_bloom_and_level[2][80] gives exact flat parameters. Growth keys0,2 are stat milestones; do not infer a different skill level from that stat state."
+    },
+    "youtubeMetadata": [
+      {
+        "youtubeId": "3BEzO_E1aMo",
+        "title": "【ホロドリ】『アマリリス』獅白ぼたん (Full ver.)",
+        "publishedAt": "2026-10-23T12:00:18+00:00",
+        "watched": false,
+        "sourceAccess": "metadata"
+      },
+      {
+        "youtubeId": "BtpR74RBESc",
+        "title": "【ホロドリ】『アマリリス』獅白ぼたん (Official Music Video)",
+        "publishedAt": "2026-10-22T11:00:20+00:00",
+        "watched": false,
+        "sourceAccess": "metadata"
+      },
+      {
+        "youtubeId": "0qlSLsga2r4",
+        "title": "【ホロドリ】『Forge My Soul』Kaela Kovalskia (Full ver.)",
+        "publishedAt": "2026-10-21T12:00:13+00:00",
+        "watched": false,
+        "sourceAccess": "metadata"
+      },
+      {
+        "youtubeId": "8On-I5qQeLw",
+        "title": "【ホロドリ】『Forge My Soul』Kaela Kovalskia (Official Music Video)",
+        "publishedAt": "2026-10-20T11:00:25+00:00",
+        "watched": false,
+        "sourceAccess": "metadata"
+      },
+      {
+        "youtubeId": "HADLHRboKJY",
+        "title": "【ホロドリ】『Shallow Shadow』常闇トワ (Full ver.)",
+        "publishedAt": "2026-10-19T12:00:29+00:00",
+        "watched": false,
+        "sourceAccess": "metadata"
+      },
+      {
+        "youtubeId": "ylpBsZ0jHZc",
+        "title": "【ホロドリ】『Shallow Shadow』常闇トワ (Official Music Video)",
+        "publishedAt": "2026-10-18T11:00:11+00:00",
+        "watched": false,
+        "sourceAccess": "metadata"
+      }
+    ],
+    "broadcast": "No exact new scheduled/live broadcast verified; RSS music videos are never broadcasts."
+  }
+}

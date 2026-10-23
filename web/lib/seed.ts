@@ -13739,4 +13739,5 @@ const rawSeedEntries: Entry[] =[
     }
   }
 ];
-export const seedEntries: Entry[] = rawSeedEntries.map(separateEntityRewards);
+export const seedEntries: Entry[] = [...rawSeedEntries,...additionalGameEntries as Entry[]].map(separateEntityRewards);
+import additionalGameEntries from '../content/additional-game-entries.json' with {type:'json'};

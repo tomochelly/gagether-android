@@ -1,5 +1,8 @@
 // Reviewed official channel links; exact accounts only. See /api/social for provenance.
 export const officialXAccounts:Record<string,string[]>={
+  "limbus": ["limbuscompany_b"],
+  "dna": ["dnabyss_kr","dnabyss_en","dnabyssjp","dnabyss_tc"],
+  "holodreams": ["hololive_dreams","holo_dreams_en"],
   "bluearchive": [
     "kr_bluearchive",
     "blue_archivejp",

@@ -2757,7 +2757,15 @@
     "sourceUrls": [
       "https://limbuscompany.kr/",
       "https://wiki.biligame.com/limbuscompany/5%E6%9C%8825%E6%97%A5%E8%AE%A1%E5%88%92%E6%9B%B4%E6%96%B0"
-    ]
+    ],
+    "icon": {
+      "image": "/assets/limbus/lunacy.png",
+      "imageSource": "https://wiki.biligame.com/limbuscompany/5%E6%9C%8825%E6%97%A5%E8%AE%A1%E5%88%92%E6%9B%B4%E6%96%B0",
+      "width": 183,
+      "height": 160,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+    },
+    "sourceKind": "community"
   },
   {
     "aliases": [
@@ -2785,7 +2793,15 @@
     "sourceUrls": [
       "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
       "https://game8.jp/duetnightabyss/733901"
-    ]
+    ],
+    "icon": {
+      "image": "/assets/dna/phoxene.webp",
+      "imageSource": "https://game8.jp/duetnightabyss/733901",
+      "width": 80,
+      "height": 80,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "community"
   },
   {
     "aliases": [
@@ -2813,7 +2829,15 @@
     "sourceUrls": [
       "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
       "https://game8.jp/duetnightabyss/733918"
-    ]
+    ],
+    "icon": {
+      "image": "/assets/dna/prismatic-hourglass.webp",
+      "imageSource": "https://game8.jp/duetnightabyss/733918",
+      "width": 78,
+      "height": 80,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "community"
   },
   {
     "aliases": [
@@ -2829,7 +2853,7 @@
       "ko": "다이아",
       "en": "Diamonds",
       "ja": "ダイヤ",
-      "zh": "钻石"
+      "zh": "鑽石"
     },
     "officialLocales": [],
     "translatedLocales": [
@@ -2843,11 +2867,46 @@
       "https://dreams.wf-calc.net/en/wiki/items"
     ],
     "icon": {
-      "image": "https://dreams.wf-calc.net/assets/rewards/gem.webp",
+      "image": "/assets/holodreams/diamonds.webp",
       "imageSource": "https://dreams.wf-calc.net/en/wiki/items",
       "width": 168,
       "height": 168,
-      "verifiedAt": "2026-10-23T17:00:00Z"
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
     }
+  },
+  {
+    "id": "holodreams-gacha-ticket",
+    "gameId": "holodreams",
+    "aliases": [
+      "가챠 티켓",
+      "Gacha Ticket",
+      "ガチャチケット",
+      "抽卡券"
+    ],
+    "sourceUrls": [
+      "https://dreams.wf-calc.net/en/wiki/items"
+    ],
+    "name": {
+      "ko": "가챠 티켓",
+      "en": "Gacha Ticket",
+      "ja": "ガチャチケット",
+      "zh": "抽卡券"
+    },
+    "category": "gacha-ticket",
+    "icon": {
+      "image": "/assets/holodreams/gacha-ticket.webp",
+      "imageSource": "https://dreams.wf-calc.net/en/wiki/items",
+      "width": 162,
+      "height": 162,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community"
   }
 ]

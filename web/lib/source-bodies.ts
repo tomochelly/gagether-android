@@ -1,4 +1,5 @@
 import type {Entry,Locale,SourceBody} from './types';
+import {allowsRewards} from './content-roles';
 import {decodeSourceHtml,sourceDocument,type ReviewDocument} from './collection-review';
 import {placeholderText,cleanDisplayText} from './content-display';
 import {games} from './games';
@@ -25,12 +26,12 @@ const escape=(s:string)=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 /** Only explicit item/amount pairs in the source body, never the headline or a price. */
 export function bodyRewards(entry:Entry,body:SourceBody){
  // Version gifts and compensation are not rewards for obtaining equipment.
- if(entry.kind==='weapon'||entry.kind==='pickup')return [];
+ if(!allowsRewards(entry))return [];
  const rows:NonNullable<Entry['rewards']>=[];
  for(const def of rewardCatalog.filter(d=>d.gameId===entry.gameId&&d.category!=='resource')){
   const names=[...new Set([def.name[body.locale],...def.aliases].filter(s=>s&&s.length>1))].sort((a,b)=>b.length-a.length),label=names.map(escape).join('|');
   if(!label)continue;
-  const re=new RegExp('(?:'+label+')[ \\t]*[×xX*＊：:]?[ \\t]*([0-9]+(?:,[0-9]{3})*)[ \\t]*(?:개|장|枚|個|个|份)?(?:$|[ \\t\\n,，.。;；·/｜|])','i'),match=body.text.match(re);
+  const re=new RegExp('(?:'+label+')[」』”"\\]］]?[ \\t]*[×xX*＊：:]?[ \\t]*([0-9]+(?:,[0-9]{3})*)[ \\t]*(?:개|장|枚|個|个|份)?(?:을|를|이|가)?(?:$|[ \\t\\n,，.。;；·/｜|])','i'),match=body.text.match(re);
   if(!match||!Number(match[1].replace(/,/g,''))||Number(match[1].replace(/,/g,''))>1000000)continue;
   const context=body.text.slice(Math.max(0,match.index!-180),match.index!+match[0].length+100),acquisition=/판매|販売|購入|购买|售卖|pack|shop|purchase/i.test(context)?'purchase' as const:/로그인|참여|조건|ログイン|登录|参与|条件|login|complete/i.test(context)?'conditional' as const:undefined;
   rows.push({...(acquisition?{acquisition}:{}),rewardId:def.id,category:def.category,name:{...def.name},quantity:match[1],icon:def.icon,sourceUrl:body.sourceUrl,sourceKind:body.sourceKind,officialLocales:def.officialLocales||[],translatedLocales:def.translatedLocales||[]});

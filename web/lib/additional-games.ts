@@ -30,10 +30,10 @@ export const additionalGames:Game[]=[
     "color": "#dfb34d",
     "publisher": "Project Moon",
     "official": "https://limbuscompany.kr/",
-    "icon": "https://limbuscompany.com/wp-content/uploads/2021/10/cropped-limbus_logo_feather.png",
+    "icon": "/assets/limbus/icon.png",
     "iconSource": "https://limbuscompany.com/",
-    "logo": "https://limbuscompany.com/wp-content/uploads/2021/10/limbus_logo_text_02-1.png",
-    "art": "https://clan.fastly.steamstatic.com/images/43587230/eea21c4a44bf44f828166649e9123f17073aee99.png",
+    "logo": "/assets/limbus/logo.png",
+    "art": "/assets/limbus/season8.png",
     "sources": [
       {
         "label": "림버스 컴퍼니 · 한국 공식",
@@ -83,16 +83,16 @@ export const additionalGames:Game[]=[
     "color": "#b8d9e5",
     "publisher": "PAN STUDIO",
     "official": "https://duetnightabyss.dna-panstudio.com/ko/",
-    "icon": "https://play-lh.googleusercontent.com/wNyltcXoUMKz7txb1KGz0MN4-B-HXv6-iVC6n39cry5FNukJxtoJyQ-sC-KMrg-CNO1a_Ed3r8AaUJNuHWGsjA=s0-br30",
+    "icon": "/assets/dna/app-icon.jpg",
     "iconSource": "https://play.google.com/store/apps/details?id=com.panstudio.gplay.duetnightabyss.arpg.global",
-    "logo": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-kr.png",
+    "logo": "/assets/dna/logo-ko.png",
     "localizedLogos": {
-      "ko": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-kr.png",
-      "en": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-en.png",
-      "ja": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-jp.png",
-      "zh": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-cht.png"
+      "ko": "/assets/dna/logo-ko.png",
+      "en": "/assets/dna/logo-en.png",
+      "ja": "/assets/dna/logo-ja.png",
+      "zh": "/assets/dna/logo-zh.png"
     },
-    "art": "https://cdnstatic.herogame.com/static/duetnightabyss_hd_1_7/imgs/home/pc/bg.webp",
+    "art": "/assets/dna/towards-dawn-neutral.webp",
     "sources": [
       {
         "label": "Duet Night Abyss · ko",
@@ -141,10 +141,10 @@ export const additionalGames:Game[]=[
     "color": "#83dbea",
     "publisher": "QualiArts / COVER",
     "official": "https://www.hololive-dreams.com/",
-    "icon": "https://www.hololive-dreams.com/_astro/appicon.BKQZw3bJ.png",
+    "icon": "/assets/holodreams/app-icon.png",
     "iconSource": "https://www.hololive-dreams.com/en/",
-    "logo": "https://www.hololive-dreams.com/_astro/logo.NqsmsYtI.png",
-    "art": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/80e39b3c3c634790a11ab8d43c002a0e/img_banner_full_area-a03_notice.png",
+    "logo": "/assets/holodreams/logo.png",
+    "art": "/assets/holodreams/soda-pop-lagoon-scene.png",
     "sources": [
       {
         "label": "hololive Dreams · 한국어 공식",

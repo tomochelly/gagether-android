@@ -1,6 +1,7 @@
 import type {Entry,Locale,Region} from './types';
 import {localized,safeSource} from './types';
 import {expandedOfficialSources} from './expanded-notices';
+import {additionalOfficialSources} from './additional-game-notices';
 export type FastNotice={gameId:string;region:Region;id:string;title:string;url:string;locale:Locale;publishedAt:string|null};
 export type FastSource={key:string;gameId:string;url:string;coverage?:'limited-homepage';load:(fetcher:typeof fetch)=>Promise<FastNotice[]>};
 // API titles are plain text: angle brackets can enclose an actual work title.
@@ -44,11 +45,14 @@ for(const label of [496,892]){
 // Failure is explicit when this API is empty; the hourly reviewer also checks the Korean official X channel.
 const ak='https://www.arknights.kr/api/resource/news/list?index=1&size=8';
 sources.push({gameId:'arknights',key:'arknights/kr',url:ak,load:async f=>(await json(f,ak)).data.rows.map((n:any)=>({gameId:'arknights',region:'kr',locale:'ko',id:String(n.id),title:n.title,url:`https://www.arknights.kr/news/${n.id}`,publishedAt:iso(Number(n.publishTime))}))});
-export const koreanFastSources=[...sources,...expandedOfficialSources];
+export const koreanFastSources=[...sources,...expandedOfficialSources,...additionalOfficialSources.filter(s=>s.locale==='ko')];
 export function noticeEntry(n:FastNotice,checkedAt:string):Entry{
  if(!n.title||!safeSource(n.url,n.gameId))throw Error('Unrecognized official notice');
  const title=localized('','','','');title[n.locale]=noticeText(n.title).slice(0,240);
- return {id:`quick-${n.gameId}-${n.region}-${n.id}`,gameId:n.gameId,region:n.region,server:n.region,kind:'update',title,summary:localized('','','',''),sourceUrl:n.url,sourceTitle:title[n.locale],sourceLocale:n.locale,sourceKind:'official',officialLocales:[n.locale],translatedLocales:[],localizationSources:{[n.locale]:n.url},publishedAt:n.publishedAt,verifiedAt:checkedAt,startAt:null,endAt:null,imageVerified:false};
+ // Steam uses the same event ID for each native language. They are independent
+ // originals, so sharing a row ID would silently replace Korean with Japanese.
+ const nativeSuffix=['limbus','dna','holodreams'].includes(n.gameId)?'-'+n.locale:'';
+ return {id:`quick-${n.gameId}-${n.region}-${n.id}${nativeSuffix}`,gameId:n.gameId,region:n.region,server:n.region,kind:'update',title,summary:localized('','','',''),sourceUrl:n.url,sourceTitle:title[n.locale],sourceLocale:n.locale,sourceKind:'official',officialLocales:[n.locale],translatedLocales:[],localizationSources:{[n.locale]:n.url},publishedAt:n.publishedAt,verifiedAt:checkedAt,startAt:null,endAt:null,imageVerified:false};
 }
 
 /** Native metadata changes publish immediately without clearing saved gameplay details. */

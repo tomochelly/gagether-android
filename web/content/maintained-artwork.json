@@ -738,5 +738,899 @@
       }
     },
     "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+        "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+        "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+        "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/current-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      },
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+        "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+        "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+        "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/current-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+        "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+        "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+        "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/current-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프 / 오트쿠튀르::르누아르 3F 방송실 홍루",
+        "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff / Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+        "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ / オートクチュール::ル・ノワール 3F放送室 ホンル",
+        "zh": "高级定制::Le Rouge 针线之王 希斯克利夫 / 高级定制::Le Noir 3F 广播室 鸿璐"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      },
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프 / 오트쿠튀르::르누아르 3F 방송실 홍루",
+        "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff / Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+        "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ / オートクチュール::ル・ノワール 3F放送室 ホンル",
+        "zh": "高级定制::Le Rouge 针线之王 希斯克利夫 / 高级定制::Le Noir 3F 广播室 鸿璐"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프 / 오트쿠튀르::르누아르 3F 방송실 홍루",
+        "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff / Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+        "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ / オートクチュール::ル・ノワール 3F放送室 ホンル",
+        "zh": "高级定制::Le Rouge 针线之王 希斯克利夫 / 高级定制::Le Noir 3F 广播室 鸿璐"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+        "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff",
+        "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ",
+        "zh": "高级定制::Le Rouge 针线之王 希斯克利夫"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      },
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+        "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff",
+        "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ",
+        "zh": "高级定制::Le Rouge 针线之王 希斯克利夫"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+        "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff",
+        "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ",
+        "zh": "高级定制::Le Rouge 针线之王 希斯克利夫"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르누아르 3F 방송실 홍루",
+        "en": "Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+        "ja": "オートクチュール::ル・ノワール 3F放送室 ホンル",
+        "zh": "高级定制::Le Noir 3F 广播室 鸿璐"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      },
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르누아르 3F 방송실 홍루",
+        "en": "Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+        "ja": "オートクチュール::ル・ノワール 3F放送室 ホンル",
+        "zh": "高级定制::Le Noir 3F 广播室 鸿璐"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "오트쿠튀르::르누아르 3F 방송실 홍루",
+        "en": "Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+        "ja": "オートクチュール::ル・ノワール 3F放送室 ホンル",
+        "zh": "高级定制::Le Noir 3F 广播室 鸿璐"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/next-banner.png",
+      "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 800,
+      "height": 450,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "update",
+    "names": [
+      {
+        "ko": "시즌 8: 푼크툼",
+        "en": "Season 8: PUNCTUM",
+        "ja": "シーズン8：プンクトゥム",
+        "zh": "第8赛季：PUNCTUM"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/season8.png",
+      "imageSource": "https://steamcommunity.com/games/1973530/announcements/",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      },
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "update",
+    "names": [
+      {
+        "ko": "시즌 8: 푼크툼",
+        "en": "Season 8: PUNCTUM",
+        "ja": "シーズン8：プンクトゥム",
+        "zh": "第8赛季：PUNCTUM"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/season8.png",
+      "imageSource": "https://steamcommunity.com/games/1973530/announcements/",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "limbus",
+    "regions": [
+      "global"
+    ],
+    "kind": "update",
+    "names": [
+      {
+        "ko": "시즌 8: 푼크툼",
+        "en": "Season 8: PUNCTUM",
+        "ja": "シーズン8：プンクトゥム",
+        "zh": "第8赛季：PUNCTUM"
+      }
+    ],
+    "asset": {
+      "image": "/assets/limbus/season8.png",
+      "imageSource": "https://steamcommunity.com/games/1973530/announcements/",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+      "imageCaption": {
+        "ko": "공식 한국어·영어·일본어 통합 배너",
+        "en": "Official Korean/English/Japanese combined banner",
+        "ja": "公式韓国語・英語・日本語共通バナー",
+        "zh": "官方韓文・英文・日文合併橫幅"
+      }
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "dna",
+    "regions": [
+      "global"
+    ],
+    "kind": "update",
+    "names": [
+      {
+        "ko": "여명 속으로",
+        "en": "Towards the Dawn",
+        "ja": "暁を歩む",
+        "zh": "行於破曉"
+      }
+    ],
+    "asset": {
+      "image": "/assets/dna/towards-dawn-neutral.webp",
+      "imageSource": "https://duetnightabyss.dna-panstudio.com/dna-event/",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "neutral",
+      "imageCaption": {
+        "ko": "공식 버전 장면",
+        "en": "Official version scene",
+        "ja": "公式バージョンシーン",
+        "zh": "官方版本場景"
+      },
+      "width": 2000,
+      "height": 1125,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "dna",
+    "regions": [
+      "global"
+    ],
+    "kind": "update",
+    "names": [
+      {
+        "ko": "여명 속으로",
+        "en": "Towards the Dawn",
+        "ja": "暁を歩む",
+        "zh": "行於破曉"
+      }
+    ],
+    "asset": {
+      "image": "/assets/dna/towards-dawn-ko.jpg",
+      "imageSource": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "dna",
+    "regions": [
+      "global"
+    ],
+    "kind": "update",
+    "names": [
+      {
+        "ko": "여명 속으로",
+        "en": "Towards the Dawn",
+        "ja": "暁を歩む",
+        "zh": "行於破曉"
+      }
+    ],
+    "asset": {
+      "image": "/assets/dna/towards-dawn-ja.jpg",
+      "imageSource": "https://prtimes.jp/main/html/rd/p/000000042.000160794.html",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 3840,
+      "height": 2160,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "dna",
+    "regions": [
+      "global"
+    ],
+    "kind": "update",
+    "names": [
+      {
+        "ko": "리듬·되살아난 불꽃",
+        "en": "Rhythm: Flamewrought",
+        "ja": "リズム・焔を纏う者",
+        "zh": "黎瑟·浴火"
+      }
+    ],
+    "asset": {
+      "image": "/assets/dna/rhythm-flamewrought-neutral.webp",
+      "imageSource": "https://duetnightabyss.dna-panstudio.com/dna-event/",
+      "imageVerified": true,
+      "imageKind": "character",
+      "imageLocale": "neutral",
+      "imageCaption": {
+        "ko": "공식 캐릭터 전체 일러스트",
+        "en": "Official full character illustration",
+        "ja": "公式キャラクター全身イラスト",
+        "zh": "官方角色完整立繪"
+      },
+      "width": 2254,
+      "height": 2100,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "dna",
+    "regions": [
+      "global"
+    ],
+    "kind": "weapon",
+    "names": [
+      {
+        "ko": "살아간다는 무게",
+        "en": "Blessed Burden",
+        "ja": "生きる重さ",
+        "zh": "活著的重量"
+      }
+    ],
+    "asset": {
+      "image": "/assets/dna/blessed-burden-neutral.webp",
+      "imageSource": "https://game8.jp/duetnightabyss/831456",
+      "imageVerified": true,
+      "imageKind": "weapon",
+      "imageLocale": "neutral",
+      "imageCaption": {
+        "ko": "인게임 무기 확인 화면",
+        "en": "In-game weapon inspection",
+        "ja": "ゲーム内武器確認画面",
+        "zh": "遊戲內武器檢視畫面"
+      },
+      "width": 1000,
+      "height": 560,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "update",
+    "names": [
+      {
+        "ko": "Ver.1.2.1",
+        "en": "Ver.1.2.1",
+        "ja": "Ver.1.2.1",
+        "zh": "Ver.1.2.1"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/soda-pop-lagoon-scene.png",
+      "imageSource": "https://www.hololive-dreams.com/en/news",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "neutral",
+      "imageCaption": {
+        "ko": "소다팝 라군 구역 안내 이미지 · Ver.1.2.0 공개 원본",
+        "en": "Soda Pop Lagoon area scene originally released for Ver.1.2.0",
+        "ja": "Ver.1.2.0で公開されたソーダポップラグーンのエリア画像",
+        "zh": "Ver.1.2.0公開的Soda Pop Lagoon區域原圖"
+      },
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "official"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "［한가로이 보내는 나무 그늘 바캉스］토코야미 토와",
+        "en": "［Shady Hammock Days］Tokoyami Towa",
+        "ja": "［ゆらゆら過ごす木陰のバカンス］常闇トワ",
+        "zh": "［樹蔭下的悠閒假期］常闇永遠"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/press-image-3.jpeg",
+      "imageSource": "https://gamewith.jp/gamedb/15524/articles/64568",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "［한가로이 보내는 나무 그늘 바캉스］토코야미 토와",
+        "en": "［Shady Hammock Days］Tokoyami Towa",
+        "ja": "［ゆらゆら過ごす木陰のバカンス］常闇トワ",
+        "zh": "［樹蔭下的悠閒假期］常闇永遠"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/seaside-towa-ja.jpg",
+      "imageSource": "https://holoviewers.net/hololive-dreams-seaside-days-gacha/",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "［일사불란 후루룩 타임］시시로 보탄",
+        "en": "［Slurping Frenzy］Shishiro Botan",
+        "ja": "［一心不乱のちゅるタイム］獅白ぼたん",
+        "zh": "［心無旁騖的用餐時光］獅白牡丹"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/press-image-4.jpeg",
+      "imageSource": "https://gamewith.jp/gamedb/15524/articles/64568",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "［일사불란 후루룩 타임］시시로 보탄",
+        "en": "［Slurping Frenzy］Shishiro Botan",
+        "ja": "［一心不乱のちゅるタイム］獅白ぼたん",
+        "zh": "［心無旁騖的用餐時光］獅白牡丹"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/seaside-botan-ja.jpg",
+      "imageSource": "https://holoviewers.net/hololive-dreams-seaside-days-gacha/",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "［나무 그늘에서 자아내는 Shiny Memory］카엘라 코발스키아",
+        "en": "［Shady Shiny Memory］Kaela Kovalskia",
+        "ja": "［木陰で紡ぐShiny Memory］カエラ・コヴァルスキア",
+        "zh": "［交織在樹蔭下的Shiny Memory］Kaela Kovalskia"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/seaside-kaela-neutral-full.jpg",
+      "imageSource": "https://dengekionline.com/article/202610/91379",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 1280,
+      "height": 720,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "［나무 그늘에서 자아내는 Shiny Memory］카엘라 코발스키아",
+        "en": "［Shady Shiny Memory］Kaela Kovalskia",
+        "ja": "［木陰で紡ぐShiny Memory］カエラ・コヴァルスキア",
+        "zh": "［交織在樹蔭下的Shiny Memory］Kaela Kovalskia"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/seaside-kaela-ja.jpg",
+      "imageSource": "https://holoviewers.net/hololive-dreams-seaside-days-gacha/",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "［미소가 눈부신 Sand castle］코세키 비쥬",
+        "en": "［Beaming Sandcastle］Koseki Bijou",
+        "ja": "［笑顔輝くSand castle］古石ビジュー",
+        "zh": "［洋溢燦爛笑容的Sand castle］Koseki Bijou"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/press-image-6.jpeg",
+      "imageSource": "https://gamewith.jp/gamedb/15524/articles/64568",
+      "imageVerified": true,
+      "imageKind": "splash",
+      "imageLocale": "neutral",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "pickup",
+    "names": [
+      {
+        "ko": "［미소가 눈부신 Sand castle］코세키 비쥬",
+        "en": "［Beaming Sandcastle］Koseki Bijou",
+        "ja": "［笑顔輝くSand castle］古石ビジュー",
+        "zh": "［洋溢燦爛笑容的Sand castle］Koseki Bijou"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/seaside-bijou-ja.jpg",
+      "imageSource": "https://holoviewers.net/hololive-dreams-seaside-days-gacha/",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "gameId": "holodreams",
+    "regions": [
+      "global"
+    ],
+    "kind": "event",
+    "names": [
+      {
+        "ko": "넘치는 빛과 물가의 드레스 코드",
+        "en": "Sunlit Shoreline Style",
+        "ja": "あふれる光と、渚のドレスコード",
+        "zh": "洋溢光芒與渚邊的服裝守則"
+      }
+    ],
+    "asset": {
+      "image": "/assets/holodreams/press-image-0.png",
+      "imageSource": "https://gamewith.jp/gamedb/15524/articles/64568",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1920,
+      "height": 1080,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sourceKind": "community"
   }
 ]
