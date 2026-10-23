@@ -29,3 +29,13 @@ test('DNA native website uses the game identity and real publication order, not 
  const rows=parseDnaNotices({code:0,data:{data:[{...row,id:'1',online_at:1},row,{...row,id:'2',website_id:3}]}},'ko');assert.equal(rows.length,2);assert.equal(rows[0].id,'9441');assert.ok(safeSource(rows[0].url,'dna'));assert.equal(sourceDocument(rows[0].bodyHtml,rows[0].url).access,'body');
  assert.throws(()=>parseDnaNotices({code:503},'ko'));
 });
+
+test('bot catalog accepts the production-to-expanded transition and rejects incomplete, duplicate or unknown games',async()=>{
+ const {catalogGamesSupported}=await import('../discord/src/catalog.ts');
+ assert.equal(catalogGamesSupported(games.slice(0,15)),true);
+ assert.equal(catalogGamesSupported(games),true);
+ assert.equal(catalogGamesSupported(games.slice(0,17)),false);
+ assert.equal(catalogGamesSupported([...games.slice(0,17),games[0]]),false);
+ assert.equal(catalogGamesSupported([...games.slice(0,17),{id:'untrusted'}]),false);
+ assert.equal(catalogGamesSupported(null),false);
+});
