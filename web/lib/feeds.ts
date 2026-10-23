@@ -1,3 +1,4 @@
+import {blueArchiveTitle} from './bluearchive-title';
 import {type Entry,type SourceCheck,type Region,type Locale} from './types';
 import {readData,saveEntries,saveCheck} from './store';
 import {feedEntry,type FeedNotice as Notice} from './feed-entry';
@@ -24,7 +25,7 @@ const adapters:Adapter[]=[...hoyo.map(cfg=>({id:cfg.id,region:'global' as Region
   const rows=results.flatMap(r=>r.status==='fulfilled'?r.value:[]);if(!rows.length)throw new Error('All localized sources unavailable');return rows;
  }},
  {id:'arknights',region:'global',async load(){const d=await json('https://www.arknights.global/api/resource/news/list?index=1&size=8');if(d.code!==0||!Array.isArray(d.data?.rows))throw new Error('Source format changed');return d.data.rows.map((n:any)=>({id:n.id,titles:{en:n.title},urls:{en:`https://www.arknights.global/news/${n.id}`},sourceLocale:'en',date:new Date(n.publishTime).toISOString(),image:n.bigImage||n.smallImage||imageFrom(n.content)}));}},
- {id:'bluearchive',region:'jp',async load(){const d=await json('https://api-web.bluearchive.jp/api/news/list?typeId=0&pageNum=8&pageIndex=1');if(!Array.isArray(d.data?.rows))throw new Error('Source format changed');return d.data.rows.map((n:any)=>({id:n.id,titles:{ja:n.summary||n.title},urls:{ja:`https://bluearchive.jp/news/newsJump/${n.id}`},sourceLocale:'ja',date:null,image:imageFrom(n.content)}));}},
+ {id:'bluearchive',region:'jp',async load(){const d=await json('https://api-web.bluearchive.jp/api/news/list?typeId=0&pageNum=8&pageIndex=1');if(!Array.isArray(d.data?.rows))throw new Error('Source format changed');return d.data.rows.map((n:any)=>({id:n.id,titles:{ja:blueArchiveTitle(n)},urls:{ja:`https://bluearchive.jp/news/newsJump/${n.id}`},sourceLocale:'ja',date:null,image:imageFrom(n.content)}));}},
  {id:'umamusume',region:'global',async load(){const d=await json('https://umamusume.com/api/ajax/pr_info_index?format=json',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({announce_label:0,limit:8,offset:0})});if(!Array.isArray(d.information_list))throw new Error('Source format changed');return d.information_list.map((n:any)=>({id:n.announce_id,titles:{en:n.title},urls:{en:`https://umamusume.com/news/${n.announce_id}`},sourceLocale:'en',date:String(n.post_at||'').slice(0,10),image:n.image||imageFrom(n.message)}));}}
 ];
 export const feedGameIds=adapters.map(a=>a.id);

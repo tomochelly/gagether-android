@@ -32,6 +32,8 @@ export function feedEntry(gameId:string,region:Region,n:FeedNotice,checkedAt:str
   const next={...old!,...metadata};
   return Object.keys(metadata).every(key=>JSON.stringify(next[key as keyof Entry])===JSON.stringify(old![key as keyof Entry]))?old!:{...next,verifiedAt:checkedAt};
  }
+ // A headline edit is metadata, never a deletion of existing gameplay/details.
+ if(old)return {...old,...metadata,publishedAt:n.date||old.publishedAt,verifiedAt:checkedAt};
  const image=typeof n.image==='string'&&n.image.startsWith('https://')?n.image:undefined;
  return {id:`feed-${gameId}-${n.id}`,gameId,kind:'update',summary:generic,region,server:region==='jp'?'Japan · UTC+9':'Global',startAt:null,endAt:null,publishedAt:n.date||null,verifiedAt:checkedAt,image,...metadata};
 }

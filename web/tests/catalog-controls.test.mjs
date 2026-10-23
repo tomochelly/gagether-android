@@ -21,7 +21,7 @@ test('reviewed details survive unchanged collectors and are deferred from list p
  const old={id:'notice',sourceUrl:'https://example.com/news',sourceTitle:'Notice',verifiedAt:art.verifiedAt,detailImages:[art],detailSections:[{title:{ko:'내용'},body:{ko:'검수 내용'}}]};
  const minimal={id:old.id,sourceUrl:old.sourceUrl,sourceTitle:old.sourceTitle,verifiedAt:old.verifiedAt};
  assert.deepEqual(retainEntityDetails(minimal,old).detailImages,[art]);
- assert.equal(retainEntityDetails({...minimal,sourceTitle:'Changed notice'},old).detailSections,undefined);
+ assert.equal(retainEntityDetails({...minimal,sourceTitle:'Changed notice'},old).detailSections,old.detailSections);
  assert.equal(catalogEntry(old).detailImages,undefined);assert.equal(catalogEntry(old).detailSections,undefined);assert.deepEqual(old.detailImages,[art]);
  assert.equal(safeExtras(old),true);assert.equal(safeExtras({...old,detailImages:[{...art,imageVerified:false}]}),false);
 });

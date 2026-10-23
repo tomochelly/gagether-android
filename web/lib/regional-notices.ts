@@ -1,3 +1,4 @@
+import {blueArchiveTitle} from './bluearchive-title';
 import {decodeSourceHtml} from './collection-review';
 import {noticeText,textOnly,type FastNotice,type FastSource} from './fast-notices';
 import {hi3WebsiteSources,parseHi3Website} from './hi3-notices';
@@ -22,7 +23,7 @@ export function parseGflCn(d:any):RegionalNotice[]{
  if(d?.code!==0||!Array.isArray(d?.data?.list))throw Error('Official API format changed');
  return d.data.list.map((n:any)=>({gameId:'gfl2',region:'cn',locale:'zh',id:String(n.Id),title:String(n.Title),url:`https://gf2.sunborngame.com/NewsInfo?id=${n.Id}&typeId=${n.Type}`,publishedAt:date(n.Date),bodyHtml:n.Content||undefined}));
 }
-export function blueArchiveTitle(n:any):string{const heading=typeof n.content==='string'?n.content.match(/<p[^>]*>\s*<(?:strong|b)[^>]*>([\s\S]*?)<\/(?:strong|b)>\s*<\/p>/i)?.[1]:undefined;const summary=String(n.summary||'').trim();return heading&&(!summary||textOnly(heading).startsWith(summary.replace(/[.…]+$/,'').slice(0,30)))?textOnly(heading):summary||String(n.title||'');}
+export {blueArchiveTitle} from "./bluearchive-title";
 export function parseBaJp(d:any):RegionalNotice[]{
  if(!Array.isArray(d?.data?.rows))throw Error('Official API format changed');
  return d.data.rows.map((n:any)=>({gameId:'bluearchive',region:'jp',locale:'ja',id:String(n.id),title:blueArchiveTitle(n),url:'https://bluearchive.jp/news/newsJump/'+n.id,publishedAt:epoch(n.publishTime),bodyHtml:typeof n.content==='string'?n.content:undefined}));

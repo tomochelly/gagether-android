@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "0b1d3bed55bd9713dccfc262a0ecb3396712714d0799b6cd65159d8dd2130e7c",
+  "fingerprint": "bd9fd5e2d4773332b421213ee2ec7b66e0db2ca09fccdb46e4e3f7b614e2445e",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1035,6 +1035,10 @@
       "sha256": "6fc717957135578b8b1a3bfb47e1eaab80d5cc39078f0769d668452a99d329f9"
     },
     {
+      "path": "lib/bluearchive-title.ts",
+      "sha256": "842b8c1fbf72d6ce75edc5a901c2cc84177639915af67cc79d80b63f5fc4bc5b"
+    },
+    {
       "path": "lib/brand.ts",
       "sha256": "123962ddc6b226e1ae330bd6188d69234c60ef94af47c84ff65c247c5cf6d4bd"
     },
@@ -1192,7 +1196,7 @@
     },
     {
       "path": "lib/feed-entry.ts",
-      "sha256": "92a016d7164e316d11f832820db2d04a3494d1f3f7ac7dd1bb37fd82d0702d95"
+      "sha256": "d4368ce7a4fe25ae353b2d969eb9decf821f7d94b221c491a8c68eea5e68c194"
     },
     {
       "path": "lib/feedback-store.ts",
@@ -1204,7 +1208,7 @@
     },
     {
       "path": "lib/feeds.ts",
-      "sha256": "7a6f4c011c8fea404f3a1fe61ae69329712a5b35ab0d3203ff69867410638e7a"
+      "sha256": "f4afddb41ab0cb8031c8ed105ff2fbc1129df1fc4bdd31daa9a630e9013786a2"
     },
     {
       "path": "lib/fetch-catalog.ts",
@@ -1280,7 +1284,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "40ad9740bf711f7e5703aa929872254377124dbb800d610ffe0faf9fb97f8591"
+      "sha256": "e5389af72537ca514ff0ee3188c6298fb70758526add8831dc7afe4bda6309c2"
     },
     {
       "path": "lib/official-social-store.ts",
@@ -1328,7 +1332,7 @@
     },
     {
       "path": "lib/presentation.ts",
-      "sha256": "c5e93e04587cba4fb931e68d51a17db36150679a749154b0c38ca4e8cd55e963"
+      "sha256": "bc55172606d1904298a9e29f8e54d80f34ca26b5f6b305b81ac7c51b195f3787"
     },
     {
       "path": "lib/price-presentation.ts",
@@ -1360,7 +1364,7 @@
     },
     {
       "path": "lib/regional-notices.ts",
-      "sha256": "9c9cb5ad8383f30ac95b2a3e03ea53612dac2ace379cb311a6037021dc30fab3"
+      "sha256": "ce6de9f616bc6ac08dcbf3ef97cbe75ca24319584bd7283ae64169b67af6f7ba"
     },
     {
       "path": "lib/request-layout.ts",

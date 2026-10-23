@@ -14,7 +14,7 @@ test('a changed original invalidates old translations and reviewed content',()=>
  const changed=feedEntry('arknights','global',{...notice,titles:{en:'UPDATED OFFICIAL NOTICE'}},later,reviewed);
  assert.deepEqual(changed.translatedLocales,[]);assert.deepEqual(changed.officialLocales,['en']);
  assert.equal(changed.sourceTitle,'UPDATED OFFICIAL NOTICE');assert.equal(changed.verifiedAt,later);
- assert.equal(changed.detailSections,undefined);assert.equal(changed.startAt,null);
+ assert.deepEqual(changed.detailSections,reviewed.detailSections);assert.equal(changed.startAt,null);
 });
 test('a reviewed Korean original outside the locale window stays primary until the visible original changes',()=>{
  const old={...reviewed,sourceLocale:'ko',sourceTitle:'한국 공식 원문',sourceUrl:'https://example.test/ko/4814',title:{...reviewed.title,ko:'한국 공식 원문',en:notice.titles.en},officialLocales:['ko','en'],translatedLocales:['ja','zh'],localizationSources:{ko:'https://example.test/ko/4814',en:notice.urls.en}};

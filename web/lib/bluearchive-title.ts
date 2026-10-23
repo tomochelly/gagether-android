@@ -1,0 +1,2 @@
+import {textOnly} from './fast-notices';
+export function blueArchiveTitle(n:any):string{const heading=typeof n.content==='string'?n.content.match(/<p[^>]*>\s*<(?:strong|b)[^>]*>([\s\S]*?)<\/(?:strong|b)>\s*<\/p>/i)?.[1]:undefined;const summary=String(n.summary||'').trim();return heading&&(!summary||textOnly(heading).startsWith(summary.replace(/[.…]+$/,'').slice(0,30)))?textOnly(heading):summary||String(n.title||'');}

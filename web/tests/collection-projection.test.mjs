@@ -24,3 +24,12 @@ test('production snapshot collection size and invariant checks can be measured w
  assert.equal(lean.length,rows.length);assert.ok(JSON.stringify(lean).length<JSON.stringify(rows).length/2);
  for(let i=0;i<rows.length;i++){assert.equal(lean[i].id,rows[i].id);assert.equal(lean[i].verifiedAt,rows[i].verifiedAt);}
 });
+
+ test('headline corrections retain stored details and exact artwork through the real lean feed path',async()=>{
+ const {feedEntry}=await import('../lib/feed-entry.ts');const {blueArchiveTitle}=await import('../lib/bluearchive-title.ts');
+ const old={...entry,id:'feed-bluearchive-700',gameId:'bluearchive',region:'jp',sourceLocale:'ja',sourceUrl:'https://bluearchive.jp/news/newsJump/700',sourceTitle:'募集紹介…',detailImages:[{...art,width:1280,height:720}],contents:[title],highlights:[title]};
+ const headline=blueArchiveTitle({summary:'募集紹介…',content:'<p><strong>募集紹介：★3「トモエ」、★3「マリナ」</strong></p>'});assert.equal(headline,'募集紹介：★3「トモエ」、★3「マリナ」');
+ const next=feedEntry('bluearchive','jp',{id:'700',sourceLocale:'ja',titles:{ja:headline},urls:{ja:old.sourceUrl}},'2026-10-23T04:00:00Z',collectionEntry(old));const saved=retainEntityDetails(next,old);
+ assert.equal(saved.startAt,old.startAt);assert.equal(saved.endAt,old.endAt);assert.equal(saved.kind,old.kind);assert.equal(saved.sourceTitle,headline);assert.deepEqual(saved.detailImages,old.detailImages);assert.deepEqual(saved.detailSections,old.detailSections);assert.deepEqual(saved.highlights,old.highlights);assert.deepEqual(saved.contents,old.contents);
+ assert.deepEqual(retainEntityDetails({...next,sourceTitle:'募集紹介…'},saved).detailImages,old.detailImages,'a list excerpt cannot erase the full gallery');
+ });

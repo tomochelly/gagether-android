@@ -8,7 +8,7 @@ import {captureDocument,reviewQueue} from './collection-store';
 import {importCapturedBodies} from './source-body-store';
 import {collectionCoverage,pickupNotice} from './collection-review';
 const fetcher=((url:RequestInfo|URL,init?:RequestInit)=>retryFetch(typeof url==='string'?url:url instanceof URL?url.href:url.url,init)) as typeof fetch;
-export function noticeSourceId(url:string){const u=new URL(url);return u.searchParams.get('id')||u.searchParams.get('announce_id')||u.searchParams.get('content_id')||u.searchParams.get('thread')||u.hash.match(/newsId\?(\d+)/)?.[1]||u.pathname.split('/').filter(Boolean).at(-1)||'';}
+export function noticeSourceId(url:string){const u=new URL(url);return u.searchParams.get('id')||u.searchParams.get('announce_id')||u.searchParams.get('content_id')||u.searchParams.get('news_detail_id')||u.searchParams.get('thread')||u.hash.match(/newsId\?(\d+)/)?.[1]||u.pathname.split('/').filter(Boolean).at(-1)||'';}
 export async function fetchReviewDocument(n:FastNotice){
  if(!safeSource(n.url,n.gameId))throw Error('Unrecognized official source');
  const checkedAt=new Date().toISOString();

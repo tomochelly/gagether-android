@@ -33,3 +33,9 @@ test('source failure retains published body; a changed body hash is imported sep
  await captureDocument(notice,undefined,'2026-10-23T01:00:00Z','HTTP 403');assert.equal((await importCapturedBodies()).changedEntries.length,0);assert.ok((await readBaseData({id:entry.id})).entries[0].sourceBodies.ja.text);
  const d=await captureDocument(notice,'<p>参加条件を変更。全員に青輝石 × 200 個。受取期限11月23日。</p>','2026-10-23T02:00:00Z');const result=await importCapturedBodies();assert.equal(result.importedDocuments,1);assert.match((await readBaseData({id:entry.id})).entries[0].sourceBodies.ja.text,/11月23日/);assert.equal(db.prepare('SELECT reviewed_hash FROM official_documents WHERE id=?').get(d.id).reviewed_hash,null);
 });
+
+ test('stored official document identities preserve long query IDs for Japanese Trickcal',async()=>{
+ const {noticeSourceId}=await import('../lib/official-collection.ts');
+ assert.equal(noticeSourceId('https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181792487759078017'),'181792487759078017');
+ assert.equal(noticeSourceId('https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3555107'),'3555107');
+ });
