@@ -1,271 +1,56 @@
 {
   "version": 1,
-  "requestId": "zzz-locale-pickup-20261024-v1",
-  "reason": "Recover independent locale photos and exact current character banners; retain owner Japanese uploads and full originals",
+  "requestId": "nte-locale-restore-20261024-v1",
+  "reason": "Restore Korean pickup photo lost by old multilingual editor and preserve Japanese owner upload and framing",
   "action": "edit",
-  "dryRun": false,
+  "dryRun": true,
   "edit": {
     "target": "entry",
-    "id": "hist-zzz-global-20261021-character-ad1c2854ac2c",
-    "revision": 5,
+    "id": "hist-nte-global-20261021-character-f6a28244912f",
+    "revision": 10,
     "changes": {
       "localizedArtwork": {
         "ko": {
-          "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/7fb7cec2440f88dea5270ac3d0bff9fc_960437781984268467.png",
-          "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/166926",
-          "imageVerified": true,
-          "imageLocale": "ko",
-          "imageKind": "banner",
-          "width": 1920,
-          "height": 1080,
-          "verifiedAt": "2026-10-23T15:48:30.535035Z",
-          "previewFocus": {
-            "x": 70,
-            "y": 42,
-            "zoom": 1
-          }
-        },
-        "ja": {
-          "image": "/api/media/ae193b80-1999-4f2a-a160-74def0de544e.jpeg",
-          "imageSource": "https://gagether.wiki/api/media/ae193b80-1999-4f2a-a160-74def0de544e.jpeg",
-          "imageVerified": true,
-          "imageKind": "banner",
-          "previewFocus": {
-            "x": 50,
-            "y": 38,
-            "zoom": 1
-          },
-          "imageLocale": "ja",
-          "width": 1920,
-          "height": 1080,
-          "verifiedAt": "2026-10-23T15:15:31.394Z"
-        },
-        "en": {
-          "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/53161fb7a065d0d77b7e2a0b5f4954ab_8119756647585352241.png",
-          "imageSource": "https://zenless.hoyoverse.com/en-us/news/166926",
-          "imageVerified": true,
-          "imageLocale": "en",
-          "imageKind": "banner",
-          "width": 1920,
-          "height": 1080,
-          "verifiedAt": "2026-10-23T15:48:30.535035Z",
-          "previewFocus": {
-            "x": 70,
-            "y": 42,
-            "zoom": 1
-          }
-        },
-        "zh": {
-          "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/0ac74b4a333bdb0b737ccf821e4abe12_6574585210894306035.png",
-          "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/166926",
-          "imageVerified": true,
-          "imageLocale": "zh",
-          "imageKind": "banner",
-          "width": 1920,
-          "height": 1080,
-          "verifiedAt": "2026-10-23T15:48:30.535035Z",
-          "previewFocus": {
-            "x": 70,
-            "y": 42,
-            "zoom": 1
-          }
-        }
-      },
-      "pickupMembers": [
-        {
-          "name": {
-            "ko": "피닉스",
-            "en": "Phoenix",
-            "ja": "フィオニー",
-            "zh": "菲欧妮"
-          },
-          "type": "new",
-          "role": "featured",
-          "image": "/api/media/a4138bfe-49cd-4620-9c48-f2b5742197f8.jpeg",
-          "imageSource": "https://gagether.wiki/api/media/a4138bfe-49cd-4620-9c48-f2b5742197f8.jpeg",
-          "imageKind": "banner",
-          "imageFit": "contain",
-          "imagePosition": "50% 50%",
-          "imageVerified": true,
-          "previewFocus": {
-            "x": 50,
-            "y": 38,
-            "zoom": 1
-          },
-          "imageLocale": "ja",
-          "localizedArtwork": {
-            "ko": {
-              "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/7fb7cec2440f88dea5270ac3d0bff9fc_960437781984268467.png",
-              "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/166926",
-              "imageVerified": true,
-              "imageLocale": "ko",
-              "imageKind": "banner",
-              "width": 1920,
-              "height": 1080,
-              "verifiedAt": "2026-10-23T15:48:30.535035Z",
-              "previewFocus": {
-                "x": 70,
-                "y": 42,
-                "zoom": 1
-              }
-            },
-            "ja": {
-              "image": "/api/media/a4138bfe-49cd-4620-9c48-f2b5742197f8.jpeg",
-              "imageSource": "https://gagether.wiki/api/media/a4138bfe-49cd-4620-9c48-f2b5742197f8.jpeg",
-              "imageVerified": true,
-              "imageKind": "banner",
-              "previewFocus": {
-                "x": 50,
-                "y": 38,
-                "zoom": 1
-              },
-              "imageLocale": "ja",
-              "width": 1920,
-              "height": 1080,
-              "verifiedAt": "2026-10-23T15:48:30.535035Z"
-            },
-            "en": {
-              "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/53161fb7a065d0d77b7e2a0b5f4954ab_8119756647585352241.png",
-              "imageSource": "https://zenless.hoyoverse.com/en-us/news/166926",
-              "imageVerified": true,
-              "imageLocale": "en",
-              "imageKind": "banner",
-              "width": 1920,
-              "height": 1080,
-              "verifiedAt": "2026-10-23T15:48:30.535035Z",
-              "previewFocus": {
-                "x": 70,
-                "y": 42,
-                "zoom": 1
-              }
-            },
-            "zh": {
-              "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/0ac74b4a333bdb0b737ccf821e4abe12_6574585210894306035.png",
-              "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/166926",
-              "imageVerified": true,
-              "imageLocale": "zh",
-              "imageKind": "banner",
-              "width": 1920,
-              "height": 1080,
-              "verifiedAt": "2026-10-23T15:48:30.535035Z",
-              "previewFocus": {
-                "x": 70,
-                "y": 42,
-                "zoom": 1
-              }
-            }
-          }
-        },
-        {
-          "name": {
-            "ko": "벨리나",
-            "en": "Velina",
-            "ja": "ヴェリナ",
-            "zh": "维琳娜"
-          },
-          "type": "rerun",
-          "role": "featured",
-          "imageFraming": {
-            "banner": {
-              "x": 69.01,
-              "y": 49.41,
-              "zoom": 0.6330991819260049,
-              "fit": "cover"
-            }
-          },
           "imageCaption": {
-            "ko": "동일 캐릭터의 공식 초기 전체 픽업 배너(2026-06-15 공개). 현재 복각 일정은 일정란을 확인하세요.",
-            "en": "Official initial full pickup banner for the same character, published 2026-06-15. See the schedule for this rerun.",
-            "ja": "同キャラクターの初回公式全体ガチャバナー（2026-06-15公開）。今回の復刻期間は日程欄をご確認ください。",
-            "zh": "同一角色初次官方完整卡池横幅（2026-06-15发布）。本次复刻日期请查看日程。"
+            "ko": "공식 캐릭터 공개 일러스트(2026-10-15), 「헤테로 파일丨아카네 린」. 가챠 원화가 아니며, 기본 의상과 교실 배경을 담은 전체 일러스트입니다.",
+            "en": "Official character reveal illustration (2026-10-15), “Hetero File | Akane Rin”. Not original gacha artwork; the complete scene shows her default outfit and classroom background.",
+            "ja": "公式キャラクター公開イラスト（2026-10-15）、韓国公式「ヘテロファイル｜明音凛」。ガチャ原画ではなく、通常衣装と教室の背景を含む全体イラストです。",
+            "zh": "官方角色公开插画（2026-10-15），韩国官方「异能者档案｜明音凛」。并非抽卡原画；完整画面包含默认服装与教室背景。"
           },
           "textFreePreview": false,
-          "image": "https://fastcdn.hoyoverse.com/content-v2/nap/164735/28b50da13691d6ce1a223c024b55b3af_3657983366378178937.png",
-          "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/164735",
-          "imageKind": "banner",
+          "image": "https://k.kakaocdn.net/dn/csIEGq/dJMcagtMK90/dquTrjpoVWd2whK0r2Q05K/img_xl.jpg",
+          "imageSource": "https://pf.kakao.com/_uSxfcG/114863492",
           "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "width": 1920,
+          "height": 1080,
+          "verifiedAt": "2026-10-17T09:28:42.038539+00:00"
+        },
+        "ja": {
+          "image": "/api/media/1be6b81a-fc97-4da5-bdb6-01d7765993f3.webp",
+          "imageSource": "https://gagether.wiki/api/media/1be6b81a-fc97-4da5-bdb6-01d7765993f3.webp",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageFraming": {
+            "banner": {
+              "x": 68.5,
+              "y": 49.5,
+              "zoom": 1,
+              "fit": "contain"
+            }
+          },
           "previewFocus": {
-            "x": 72,
-            "y": 42,
+            "x": 50,
+            "y": 38,
             "zoom": 1
           },
-          "imageLocale": "ko",
-          "localizedArtwork": {
-            "ko": {
-              "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/8c8515f758165f3a495a20dfd46b4beb_5220633429923134665.png",
-              "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/166926",
-              "imageVerified": true,
-              "imageLocale": "ko",
-              "imageKind": "banner",
-              "width": 1920,
-              "height": 1080,
-              "verifiedAt": "2026-10-23T15:48:30.535035Z",
-              "previewFocus": {
-                "x": 70,
-                "y": 42,
-                "zoom": 1
-              }
-            },
-            "ja": {
-              "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/24cc2075920bb2b7e2590b27299cb3d7_5515633280638298527.png",
-              "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/166926",
-              "imageVerified": true,
-              "imageLocale": "ja",
-              "imageKind": "banner",
-              "width": 1920,
-              "height": 1080,
-              "verifiedAt": "2026-10-23T15:48:30.535035Z",
-              "previewFocus": {
-                "x": 70,
-                "y": 42,
-                "zoom": 1
-              }
-            },
-            "en": {
-              "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/ab52894afd4dadd30202f7732cdc6614_7304455758794297474.png",
-              "imageSource": "https://zenless.hoyoverse.com/en-us/news/166926",
-              "imageVerified": true,
-              "imageLocale": "en",
-              "imageKind": "banner",
-              "width": 1920,
-              "height": 1080,
-              "verifiedAt": "2026-10-23T15:48:30.535035Z",
-              "previewFocus": {
-                "x": 70,
-                "y": 42,
-                "zoom": 1
-              }
-            },
-            "zh": {
-              "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166926/34f6f6f85808093cdf68531efc084f78_9049835767135528162.png",
-              "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/166926",
-              "imageVerified": true,
-              "imageLocale": "zh",
-              "imageKind": "banner",
-              "width": 1920,
-              "height": 1080,
-              "verifiedAt": "2026-10-23T15:48:30.535035Z",
-              "previewFocus": {
-                "x": 70,
-                "y": 42,
-                "zoom": 1
-              }
-            }
-          }
+          "imageLocale": "ja",
+          "width": 1950,
+          "height": 1097,
+          "verifiedAt": "2026-10-23T15:04:14.313Z"
         }
-      ],
-      "detailImages": [
-        {
-          "image": "/api/media/a171f744-f36d-49ac-a334-e6edc42255f8.webp",
-          "imageSource": "https://gagether.wiki/api/media/a171f744-f36d-49ac-a334-e6edc42255f8.webp",
-          "imageVerified": true,
-          "imageLocale": "neutral",
-          "imageKind": "character",
-          "width": 1692,
-          "height": 2076,
-          "verifiedAt": "2026-10-23T15:48:30.535035Z"
-        }
-      ]
+      }
     }
   }
 }
