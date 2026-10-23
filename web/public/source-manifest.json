@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "6367b8851f9fd1582db9f8d9d21ec08406d2b0c2b2f37a21bb1e057baca6fac2",
+  "fingerprint": "8333ff9d22484b7fdaab2beb8177456760920d04a31fcce1e12dd3110e0d9a17",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -220,7 +220,7 @@
     },
     {
       "path": "app/mobile-density.css",
-      "sha256": "9c2892989bcc9c1f2842d1de6a450079388699fbac5672efda57457dd9793626"
+      "sha256": "b08abfd2e27268fdfdb5d725318cfc18cc3ec825f952bf35358c904a72893522"
     },
     {
       "path": "app/mobile.css",
@@ -396,7 +396,7 @@
     },
     {
       "path": "components/event-overview.tsx",
-      "sha256": "3d6c60357c205c053250f6398b737acfc7276e1b56ce4a229f4d5e0e47301de2"
+      "sha256": "47e33ff9344f3dd44ffe185b56723a56b78ccc861a3bb12956576ce163d53b8c"
     },
     {
       "path": "components/favorite-updates.tsx",
