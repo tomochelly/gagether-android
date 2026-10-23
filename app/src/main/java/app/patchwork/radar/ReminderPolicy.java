@@ -32,8 +32,12 @@ public final class ReminderPolicy {
  }
  public static boolean isBroadcast(JSONObject e){return "broadcast".equals(e.optString("kind"));}
  public static List<JSONObject> records(JSONObject feed){
-  List<JSONObject> out=new ArrayList<>();for(String key:Arrays.asList("entries","broadcasts")){JSONArray rows=feed.optJSONArray(key);if(rows!=null)for(int i=0;i<rows.length();i++){JSONObject e=rows.optJSONObject(i);if(e!=null&&(!key.equals("broadcasts")||isBroadcast(e)))out.add(e);}}return out;
+  List<JSONObject> out=new ArrayList<>();JSONArray entries=feed.optJSONArray("entries");if(entries!=null)for(int i=0;i<entries.length();i++){JSONObject e=entries.optJSONObject(i);if(e!=null&&!isBroadcast(e))out.add(e);}
+  Map<String,JSONObject> broadcasts=new LinkedHashMap<>();JSONArray rows=feed.optJSONArray("broadcasts");if(rows!=null)for(int i=0;i<rows.length();i++){JSONObject e=rows.optJSONObject(i);if(e==null||!isBroadcast(e))continue;JSONObject b=e.optJSONObject("broadcast");String key=e.optString("gameId")+"/"+e.optString("region")+"/"+e.optString("expectedLocale")+"/"+(b==null?e.optString("id"):b.optString("youtubeId",e.optString("id")));JSONObject old=broadcasts.get(key);if(old==null||broadcastCheck(e)>broadcastCheck(old)||broadcastCheck(e)==broadcastCheck(old)&&!broadcastScheduled(e))broadcasts.put(key,e);}
+  out.addAll(broadcasts.values());return out;
  }
+ private static long broadcastCheck(JSONObject e){JSONObject b=e.optJSONObject("broadcast");return b==null?0:epoch(b.optString("statusCheckedAt",b.optString("verifiedAt")));}
+ private static boolean broadcastScheduled(JSONObject e){JSONObject b=e.optJSONObject("broadcast");return b!=null&&"scheduled".equals(b.optString("status"));}
  public static long eventAt(JSONObject e,String event){
   if(isBroadcast(e)){if(!event.equals("broadcast"))return 0;JSONObject b=e.optJSONObject("broadcast");if(b==null)return 0;long program=epoch(b.optString("programStartAt"));return program>0?program:epoch(b.optString("scheduledAt"));}
   return epoch(e.optString(event.equals("start")?"startAt":"endAt"));

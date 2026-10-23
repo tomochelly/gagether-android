@@ -21,9 +21,9 @@ public final class ReminderScheduler {
  public static synchronized void schedule(Context c){
   channel(c);AlarmManager am=c.getSystemService(AlarmManager.class);Set<String> old=new HashSet<>(AppStore.store(c).getStringSet("alarms",Collections.emptySet()));
   List<ReminderPolicy.Reminder> plan=AppStore.fresh(c)&&appAllowed(c)?ReminderPolicy.plan(AppStore.feed(c),AppStore.prefs(c),System.currentTimeMillis(),ZoneId.systemDefault()):Collections.emptyList();Set<String> next=new HashSet<>();
-  for(ReminderPolicy.Reminder r:plan){String channel=r.event.equals("broadcast")?BROADCAST_CHANNEL:CHANNEL;if(allowed(c,channel)&&arm(c,r.fireAt,pending(c,r.key())))next.add(r.key());}
+  int eligible=0;for(ReminderPolicy.Reminder r:plan){String channel=r.event.equals("broadcast")?BROADCAST_CHANNEL:CHANNEL;if(!allowed(c,channel))continue;eligible++;if(arm(c,r.fireAt,pending(c,r.key())))next.add(r.key());}
   for(String key:old)if(!next.contains(key)){PendingIntent p=pending(c,key);am.cancel(p);p.cancel();}
-  AppStore.store(c).edit().putStringSet("alarms",next).putLong("lastScheduledAt",System.currentTimeMillis()).putInt("scheduledCount",next.size()).putString("scheduleError",next.size()<plan.size()?"alarm-scheduling-failed":"").apply();
+  AppStore.store(c).edit().putStringSet("alarms",next).putLong("lastScheduledAt",System.currentTimeMillis()).putInt("scheduledCount",next.size()).putString("scheduleError",next.size()<eligible?"alarm-scheduling-failed":"").apply();
  }
  public static PendingIntent open(Context c,String entry){Intent i=new Intent(c,MainActivity.class).setAction(Intent.ACTION_VIEW).setData(Uri.parse("test".equals(entry)?"patchwork://open":"patchwork://open?entry="+Uri.encode(entry))).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_SINGLE_TOP);return PendingIntent.getActivity(c,0,i,PendingIntent.FLAG_UPDATE_CURRENT|PendingIntent.FLAG_IMMUTABLE);}
  public static boolean show(Context c,String title,String text,String id){return show(c,title,text,id,CHANNEL);}

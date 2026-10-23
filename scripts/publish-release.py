@@ -24,12 +24,20 @@ out=pathlib.Path('release-files');out.mkdir(exist_ok=True);name='GAGETHER-'+vers
 (out/'verification.json').write_text(json.dumps({'version':version,'versionCode':code,'sourceCommit':sha,'sha256':digest,'certificateSha256':cert,'previousCertificateMatched':True,'runtimeWorkflowRun':os.environ.get('RUNTIME_RUN_URL'),'scope':'Android API30/API36 emulator alarms/notification delivery; Galaxy/Fold physical device not tested'},indent=2)+'\n')
 def find_release():
  pages=json.loads(gh('api','repos/'+repo+'/releases?per_page=100','--paginate','--slurp'))
- return next((r for page in pages for r in page if r['tag_name']==tag),None)
+ releases=[r for page in pages for r in page]
+ exact=next((r for r in releases if r['tag_name']==tag),None)
+ if exact:return exact
+ # GitHub may temporarily assign an untagged-* identity to an unpublished draft.
+ drafts=[r for r in releases if r.get('draft') and r.get('name')=='GAGETHER '+version+' — Android' and not r.get('assets')]
+ if len(drafts)>1:raise SystemExit('Ambiguous empty release drafts; refusing publication')
+ return drafts[0] if drafts else None
 release=find_release()
 if release is None:
- subprocess.run(['gh','release','create',tag,'--repo',repo,'--target',sha,'--draft','--title','GAGETHER '+version+' — Android','--notes-file','docs/RELEASE_NOTES_1.0.2.md'],check=True)
- release=find_release()
-if release is None:raise SystemExit('Created draft was not found; stop without publishing')
+ payload={'tag_name':tag,'target_commitish':sha,'draft':True,'name':'GAGETHER '+version+' — Android','body':pathlib.Path('docs/RELEASE_NOTES_1.0.2.md').read_text()}
+ release=json.loads(subprocess.check_output(['gh','api','--method','POST','repos/'+repo+'/releases','--input','-'],input=json.dumps(payload),text=True))
+if not isinstance(release.get('id'),int):raise SystemExit('Release ID unavailable; stop without publishing')
+if release.get('draft'):
+ release=json.loads(gh('api','--method','PATCH','repos/'+repo+'/releases/'+str(release['id']),'-f','tag_name='+tag,'-f','target_commitish='+sha,'-f','body='+pathlib.Path('docs/RELEASE_NOTES_1.0.2.md').read_text()))
 for file in out.iterdir():
  existing=next((a for a in release['assets'] if a['name']==file.name),None)
  if existing:

@@ -32,6 +32,6 @@ public final class ReminderSettings {
   if(current==0||at!=current||now<at-offset*60000L)return false;
   // An early reminder must never arrive after its deadline. An exact-time reminder
   // may be delayed by Android, but is discarded after six hours.
-  return offset==0?now<=at+6*3600000L:now<at;
+  return offset==0?now<=at+(ReminderPolicy.isBroadcast(entry)?10*60000L:6*3600000L):now<at;
  }
 }
