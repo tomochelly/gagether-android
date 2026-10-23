@@ -56,9 +56,27 @@ export function mergeVerifiedEntry(current:Entry|undefined,incoming:Entry):Entry
  return current&&Date.parse(current.verifiedAt)>Date.parse(incoming.verifiedAt)?current:retainEntityDetails(incoming,current);
 }
 export function retainEntityDetails(incoming:Entry,previous:Entry|undefined):Entry{
- const result={...incoming};
+ const result=retainArtwork(incoming,previous);
+ if(previous?.pickupMembers&&incoming.pickupMembers)result.pickupMembers=incoming.pickupMembers.map(member=>{
+  const old=previous.pickupMembers!.find(candidate=>{
+   const common=(['ko','en','ja','zh'] as const).filter(l=>member.name[l]&&candidate.name[l]);
+   return common.length>0&&common.every(l=>member.name[l]===candidate.name[l])&&(member.role||'featured')===(candidate.role||'featured');
+  });
+  return retainArtwork(member,old);
+ });
+ if(incoming.pickupMembers===undefined&&previous?.pickupMembers)result.pickupMembers=previous.pickupMembers;
  for(const key of ['contentBlocks','recurring','signatureWeapons','entityDetails','videos','broadcast','rewards','rewardNote','marketRegion','audienceRegions','collaboration','pickupArchive','startDate','endDate'] as const)if(incoming[key]===undefined&&previous?.[key]!==undefined)Object.assign(result,{[key]:previous[key]});
  if(previous&&incoming.sourceUrl===previous.sourceUrl&&incoming.sourceTitle===previous.sourceTitle)for(const key of ['detailSections','detailImages','highlights','contents'] as const)if(incoming[key]===undefined&&previous[key]!==undefined)Object.assign(result,{[key]:previous[key]});
  if(result.pickupArchive?.status==='forecast'&&!result.pickupArchive.estimate&&!result.pickupArchive.startDate&&previous?.pickupArchive?.estimate)result.pickupArchive={...result.pickupArchive,estimate:previous.pickupArchive.estimate};
+ return result;
+}
+
+// Routine metadata refreshes are sparse. An omitted asset/locale is not a delete.
+// A changed original must carry its own classification/framing; do not graft the
+// previous picture's locale, caption or crop onto a newly supplied file.
+function retainArtwork<T extends import('./types').EntityArtwork>(incoming:T,previous:T|undefined):T{
+ const result={...incoming};if(!previous)return result;
+ if(previous.imageVerified&&(!incoming.image||incoming.image===previous.image))for(const key of ['image','imageSource','imageKind','imageFit','imagePosition','imageVerified','imageLocale','imageCaption','originalLanguageFallback','textFreePreview','previewFocus','previewBounds','previewArtwork'] as const)if(incoming[key]===undefined&&previous[key]!==undefined)Object.assign(result,{[key]:previous[key]});
+ if(previous.localizedArtwork)result.localizedArtwork={...previous.localizedArtwork,...incoming.localizedArtwork};
  return result;
 }

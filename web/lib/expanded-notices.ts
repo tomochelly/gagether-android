@@ -1,4 +1,5 @@
 import type {FastNotice,FastSource} from './fast-notices';
+import {hi3WebsiteSources,parseHi3Website} from './hi3-notices';
 
 const HI3_UID='147839994';
 const HI3_URL=`https://bbs-api-os.hoyolab.com/community/post/wapi/userPost?uid=${HI3_UID}&size=20&offset=0`;
@@ -13,6 +14,10 @@ const sources:FastSource[]=[{
   return parseHi3Official(value);
  }
 }];
+for(const source of hi3WebsiteSources.filter(s=>s.locale==='ko'))sources.unshift({gameId:'hi3',key:'hi3/kr/official-website',url:source.url,async load(fetcher){
+ const r=await fetcher(source.url,{signal:AbortSignal.timeout(15000),redirect:'manual'});if(!r.ok)throw Error('HTTP '+r.status);
+ return parseHi3Website(await r.json(),source);
+}});
 
 
 /** Official role and lounge must both match; user posts must never enter the notice feed. */

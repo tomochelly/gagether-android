@@ -474,6 +474,18 @@
     "sha256": "ad3642cc2c2fe3e8ddf603d2206aca4bb31f33a24c888b853cffaefa9e60b5c2"
   },
   {
+    "path": "public/assets/entities/hi3-herrscher-of-time-neutral-native.png",
+    "url": "https://gagether.wiki/assets/entities/hi3-herrscher-of-time-neutral-native.png",
+    "bytes": 626330,
+    "sha256": "000578aaf7526a0e9263ce786017dec67f0d9a7e2e97a78020eda6708c97ed52"
+  },
+  {
+    "path": "public/assets/entities/hi3-senadina-ja-intro-20260820.png",
+    "url": "https://gagether.wiki/assets/entities/hi3-senadina-ja-intro-20260820.png",
+    "bytes": 314057,
+    "sha256": "8fb23420b75b0e7bb41e2c74ba8a1484a7d6c7a07cc62e3e9090246cfcf9cc66"
+  },
+  {
     "path": "public/assets/entities/native/arknights-7f16f169e5fa.png",
     "url": "https://gagether.wiki/assets/entities/native/arknights-7f16f169e5fa.png",
     "bytes": 7655917,
@@ -1338,6 +1350,24 @@
     "sha256": "360ca609450f21dfd4f3bf5ea6412fc1b48006e59f8ab06e3625dccf2692c713"
   },
   {
+    "path": "public/assets/logos/hi3-en.png",
+    "url": "https://gagether.wiki/assets/logos/hi3-en.png",
+    "bytes": 9672,
+    "sha256": "aa4d413e776f0f2de2457173e856b07b58d2c457ec43ef2bce1660609bb09810"
+  },
+  {
+    "path": "public/assets/logos/hi3-ja.png",
+    "url": "https://gagether.wiki/assets/logos/hi3-ja.png",
+    "bytes": 9126,
+    "sha256": "0b986be3d2333d4f410972cbf1b9a2c7b5faf11384f139076095956244ceafa1"
+  },
+  {
+    "path": "public/assets/logos/hi3-ko.png",
+    "url": "https://gagether.wiki/assets/logos/hi3-ko.png",
+    "bytes": 9801,
+    "sha256": "383dfc330801743e8916d4aaff2e6c4a8e028c9573e34e7b287279625115bc05"
+  },
+  {
     "path": "public/assets/nikke-art.webp",
     "url": "https://gagether.wiki/assets/nikke-art.webp",
     "bytes": 234558,
@@ -1908,6 +1938,24 @@
     "sha256": "3d524252aa557f9139dcd7e3f28f57c64b432f373494969f7a282132de517a25"
   },
   {
+    "path": "public/assets/versions/hi3-en-91-update.png",
+    "url": "https://gagether.wiki/assets/versions/hi3-en-91-update.png",
+    "bytes": 91245,
+    "sha256": "47016e3648c169646bcee6a9962a9992d1b13517ce7ba23200cd97471f1f8759"
+  },
+  {
+    "path": "public/assets/versions/hi3-ja-91-update.png",
+    "url": "https://gagether.wiki/assets/versions/hi3-ja-91-update.png",
+    "bytes": 52660,
+    "sha256": "49233ede047e9bf701cd4b3f043150a426073d89e0d070b32df3e0338afa8789"
+  },
+  {
+    "path": "public/assets/versions/hi3-ko-91-update.png",
+    "url": "https://gagether.wiki/assets/versions/hi3-ko-91-update.png",
+    "bytes": 117083,
+    "sha256": "341738e8f43575800e01dcf799f9d31db2a9743dc0dcb65bb81b41cdaa6da1f4"
+  },
+  {
     "path": "public/assets/versions/hsr-en-us.jpg",
     "url": "https://gagether.wiki/assets/versions/hsr-en-us.jpg",
     "bytes": 873728,
@@ -1954,6 +2002,12 @@
     "url": "https://gagether.wiki/assets/versions/nte-update-14.jpg",
     "bytes": 651543,
     "sha256": "14cd299fc72a3910f1cb0c07f3702c2878017d87fec98b8c63ff3af515f3fef4"
+  },
+  {
+    "path": "public/assets/versions/trickcal-ko-kope-update-20261022.png",
+    "url": "https://gagether.wiki/assets/versions/trickcal-ko-kope-update-20261022.png",
+    "bytes": 1144105,
+    "sha256": "8835fa9aacb4be1cba73885b9370a46dc44840bf21af87ebf4f7925f4d0ff962"
   },
   {
     "path": "public/assets/versions/uma-island-kv.jpg",

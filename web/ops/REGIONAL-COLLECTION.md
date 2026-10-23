@@ -15,3 +15,36 @@ Authenticated `/api/asset-storage` accepts only fixed manifest paths and exact d
 Packaging omits a static original only when its fixed manifest entry matches a ready readback receipt. New/unmigrated assets stay static. The source file is never removed. The archive sanitizer repeats this step because the Site packaging helper may copy public assets again. This removes the 256 MiB deployment-size constraint from growing catalog artwork without compressing or degrading it.
 
 Recovery: use the source original plus manifest digest to repair a missing object through the authenticated endpoint; do not replace a missing asset with unrelated art. A deployment rollback retains R2 objects and fixed URLs. If an older version used static originals, that saved archive remains deployable. Never delete old content-addressed objects during routine collection.
+
+### Artwork recovery and review (v33)
+
+Run `node scripts/audit-artwork.mjs DATA_JSON REPORT_JSON` on a fresh automatic
+snapshot and on the effective snapshot before and after each content/art repair.
+The report covers all15 games, all26 canonical services and four languages.
+It checks current headers and the current/nearest upcoming featured subjects.
+This is classification/coverage evidence, not an HTTP or visual pass. Independently
+check exact originals and their actual dimensions; blocked sources remain gaps.
+The authenticated collection response and owner operations page expose this queue.
+
+For an already stored official document, use authenticated same-origin
+`POST /api/collection {action:"fetch",id:"<stored document id>"}` to re-read its
+fixed official source (one-minute interval limit). No arbitrary URL or user-supplied
+body is accepted. Read the resulting `body.text` and exact `bodyHash`, save only
+reviewed changes through `/api/sync`, read back both views, then mark reviewed.
+Korean Trickcal uses the API used by Naver's public lounge frontend and verifies the
+feed ID and lounge name. A200 JavaScript shell never proves the body was read.
+
+Preserve native assets at fixed `/assets` paths with SHA-256/byte manifests. An
+expired campaign's404 image cannot be replaced with a different current character.
+Retain that historical record and report the missing original. New reviewed current
+headers supersede released versions; never extend an expired anniversary header.
+
+Multi-featured pickup cards are presentation projections of a canonical rotation.
+Do not save these narrowed projections as records or replace owner overrides.
+Calendars, saved IDs, source provenance and owner editing keep the original ID.
+Candidates/selection pools are not split into simultaneous featured characters.
+
+Library LIVE badges use verified official live metadata, never the scheduled clock.
+The visible page rechecks saved data each minute. Source checks run on the existing
+best-effort10-minute workflow; this is not an exact-time push guarantee. Metadata
+blocks are failures, not proof of live/end/cancellation, and stale LIVE expires.

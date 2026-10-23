@@ -1,4 +1,5 @@
 import {noticeText,textOnly,type FastNotice,type FastSource} from './fast-notices';
+import {hi3WebsiteSources,parseHi3Website} from './hi3-notices';
 export type RegionalNotice=FastNotice&{bodyHtml?:string};
 export type RegionalSource=Omit<FastSource,'load'>&{region:FastNotice['region'];locale:FastNotice['locale'];load:(fetcher:typeof fetch)=>Promise<RegionalNotice[]>};
 const date=(s:unknown)=>typeof s==='string'&&/^\d{4}-\d\d-\d\d/.test(s)?s.slice(0,10):null;
@@ -52,8 +53,19 @@ add('reverse1999','cn','zh','https://re.bluepoch.com/activity/official/websites/
 add('stellasora','global','ja','https://stellasora.jp/api/resource/news?index=1&size=12&type=',parseStellaJp);
 add('trickcal','global','ja','https://l11-web-api.biligames.com/game/news/page?game_base_id=113406&show_position=1&client_type=2&lang=ja&type=&page_num=1&page_size=12',parseTrickcalJp);
 add('hi3','kr','ja','https://sg-public-api-static.hoyoverse.com/content_v2_user/app/9f099cd555854c14/getContentList?iChanId=555&iPageSize=12&iPage=1&sLangKey=ja-jp',parseHi3Jp);
+for(const source of hi3WebsiteSources)add('hi3',source.region,source.locale,source.url,d=>parseHi3Website(d,source));
 export const regionalOfficialSources=sources;
 export async function regionalDetail(n:FastNotice,fetcher:typeof fetch):Promise<string|undefined>{
+ const hi3=hi3WebsiteSources.find(s=>n.gameId==='hi3'&&s.region===n.region&&s.locale===n.locale&&n.url===s.site+n.id);
+ if(hi3)return parseHi3Website(await json(fetcher,hi3.url),hi3).find(row=>row.id===n.id)?.bodyHtml;
+ // This is the ordinary public endpoint used by the official lounge frontend.
+ // Match the full known source URL, not a user-supplied API URL or a loose ID.
+ if(n.gameId==='trickcal'&&n.locale==='ko'&&n.url===`https://game.naver.com/lounge/Trickcal/board/detail/${n.id}`){
+  const d=await json(fetcher,'https://comm-api.game.naver.com/nng_main/v1/community/lounge/Trickcal/feed/'+n.id);
+  const feed=d?.content?.feed;
+  if(d?.code!==200||String(feed?.feedId)!==n.id||feed?.loungeId!=='Trickcal'||typeof feed.contents!=='string'||!feed.contents.trim())throw Error('Official lounge body format or identity changed');
+  return feed.contents;
+ }
  if(n.gameId==='bluearchive'&&n.region==='jp')return (await json(fetcher,'https://api-web.bluearchive.jp/api/news/detail?id='+encodeURIComponent(n.id))).data?.news?.content;
  if(n.gameId==='gfl2'&&n.region==='cn')return (await json(fetcher,'https://gf2-web-preregister-api.sunborngame.com/website/news/'+n.id)).data?.Content;
  if(n.gameId==='umamusume'&&n.region==='jp'){const d=await json(fetcher,'https://umamusume.jp/api/ajax/pr_info_detail?format=json&announce_id='+n.id);return d.information?.message||d.message||d.data?.message;}

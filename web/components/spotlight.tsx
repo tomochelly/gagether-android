@@ -11,7 +11,7 @@ import {editorText} from '@/lib/editor-i18n';
 import {pickupBannerLabel,type SpotlightSlide} from '@/lib/spotlight';
 import {useCatalog,editEntryTarget} from './catalog-context';
 import ArtworkMedia from './artwork-media';
-import {artworkForLocale,serviceArtworkLocale} from '@/lib/artwork';
+import {artworkForLocale,serviceArtworkLocale,isBrandArtwork} from '@/lib/artwork';
 import {isPickup,pickupPeriod,pickupStart,pickupEnd,historyText} from '@/lib/pickup-history';
 import {isForecast,pickupEstimate,pickupStartLabel,estimateText} from '@/lib/pickup-estimates';
 
@@ -19,6 +19,8 @@ export default function Spotlight({slides,index,onIndex,locale,now,region,fallba
  const zone=useDisplayZone();const {t,byId,settings,editMode,openEditor}=useCatalog();const labels=editorText[locale];
  const [paused,setPaused]=useState(false);const [hover,setHover]=useState(false);const [focus,setFocus]=useState(false);const [hidden,setHidden]=useState(false);const [reduced,setReduced]=useState(false);
  const current=slides[index%Math.max(1,slides.length)];const e=current?.entry;const art=current?.art;const game=e?byId[e.gameId]:fallbackGame;
+ const candidate=art?artworkForLocale(art,locale,'preview',serviceArtworkLocale(art.region,art.gameId)):undefined;
+ const resolvedArt=candidate&&!isBrandArtwork(candidate.image,game)?candidate:undefined;
  const seconds=settings.carouselSeconds||6;const signature=slides.map(s=>s.id).join('|');const running=!blocked&&!paused&&!hover&&!focus&&!hidden&&!reduced&&slides.length>1;
  useEffect(()=>{const media=window.matchMedia('(prefers-reduced-motion: reduce)');const motion=()=>setReduced(media.matches);const visibility=()=>setHidden(document.hidden);motion();visibility();media.addEventListener('change',motion);document.addEventListener('visibilitychange',visibility);return()=>{media.removeEventListener('change',motion);document.removeEventListener('visibilitychange',visibility);};},[]);
  useEffect(()=>{if(!running)return;const timer=setTimeout(()=>onIndex((index+1)%slides.length),seconds*1000);return()=>clearTimeout(timer);},[running,index,seconds,signature,onIndex,slides.length]);
@@ -28,8 +30,8 @@ export default function Spotlight({slides,index,onIndex,locale,now,region,fallba
  const advance=(n:number)=>onIndex((index+n+slides.length)%slides.length);
  return <div className="owner-banner-frame"><section className={'spotlight'+(art?.imageKind==='banner'?' is-banner':'')+(state==='upcoming'?' is-upcoming':'')+(dateOnly?' is-date-only':'')} aria-label={t.featured} aria-roledescription="carousel" style={{'--spot-color':game.color,'--slide-duration':seconds+'s'} as CSSProperties} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} onFocusCapture={()=>setFocus(true)} onBlurCapture={event=>{if(!event.currentTarget.contains(event.relatedTarget))setFocus(false);}}>
   <div className="spotlight-scene" key={current?.id||game.id}>
-   <div className="spotlight-glow" style={{backgroundImage:`url(${art&&matchedArtwork(art)?artworkForLocale(art,locale,'preview',serviceArtworkLocale(art.region,art.gameId)).image||game.art:game.art})`}}/>
-   <div className="spotlight-visual">{art?(matchedArtwork(art)?<ArtworkMedia locale={locale} serviceLocale={serviceArtworkLocale(art.region,art.gameId)} art={art} alt={entryTitle(art,locale)} priority banner/>:<span className="art-pending"><ImageOff size={32}/>{t.imagePending}</span>):<img src={game.art} alt={game.name[locale]} style={{objectFit:'cover',objectPosition:game.artPosition||'center'}}/>}</div>
+   <div className="spotlight-glow" style={{backgroundImage:resolvedArt?.imageVerified&&resolvedArt.image?`url(${resolvedArt.image})`:undefined}}/>
+   <div className="spotlight-visual">{art?(resolvedArt?.imageVerified&&resolvedArt.image?<ArtworkMedia locale={locale} serviceLocale={serviceArtworkLocale(art.region,art.gameId)} art={art} alt={entryTitle(art,locale)} priority banner/>:<span className="art-pending"><ImageOff size={32}/>{t.imagePending}</span>):<span className="art-pending"><ImageOff size={32}/>{t.imagePending}</span>}</div>
    <div className="spotlight-wash"/>{editMode&&e&&<button className="canvas-image-edit edit-chip" onClick={()=>openEditor({...editEntryTarget(e),focus:e.pickupMembers?.some(m=>m.image)?'members':'image'})}><Pencil size={14}/>{ownerUi[locale].editImage}</button>}
    <div className="spotlight-copy"><div className="spotlight-kicker"><span className="live-dot"/>{e&&isPickup(e)?pickupBannerLabel(e,now,locale):state==='active'?t.now:future?t.upcoming:t.featured}<span>{versionCaption(art||e||({} as Entry),locale)}</span></div><img className="spotlight-logo" src={game.logo} alt={game.name[locale]}/>
     <div className="spotlight-badges">{art?.pickupType&&<span className={'pickup-badge '+art.pickupType}>{art.pickupType==='new'?t.newPickup:art.pickupType==='rerun'?t.rerunPickup:art.pickupType==='mixed'?t.mixedPickup:t.unknownPickup}</span>}<span>{regionLabel(game,e?.region||region,locale,t)}</span></div>

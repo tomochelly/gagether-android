@@ -1,7 +1,8 @@
-import type {EntityArtwork,PreviewFocus,PreviewBounds,Locale,Region,Entry} from './types';
+import type {EntityArtwork,PreviewFocus,PreviewBounds,Locale,Region,Entry,Game} from './types';
 import {games} from './games';
 import {independentService} from './content-audience';
 import {artworkPresets} from './artwork-presets';
+export function isBrandArtwork(image:string|undefined,game:Game){return !!image&&[game.logo,game.icon,...Object.values(game.localizedLogos||{})].includes(image);}
 export function previewFocus(art:EntityArtwork):PreviewFocus{
  return art.previewFocus||artworkPresets[art.image||'']||{x:50,y:art.imageKind==='weapon'?50:art.imageKind?32:50,zoom:art.imageKind==='weapon'?1.15:art.imageKind?1.3:1};
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "ec234051a054cbbab561836561786f3f5276e4b0660fb8cf26b1db9fc9706bd7",
+  "fingerprint": "6e68f8c9abacc73654b19c9d88a181272bc17e58fa698bf901dbe144781cd2e9",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -44,7 +44,7 @@
     },
     {
       "path": "app/api/collection/route.ts",
-      "sha256": "ffe59e75331902eb1ffe3476fc4b744e43e3b306345f6b69ed655dab100408d9"
+      "sha256": "48f97d4d6f38fbb3b99903d00aea6187cb188f7bb3cae98dc5cb3a5a7dcddb10"
     },
     {
       "path": "app/api/community/route.ts",
@@ -116,7 +116,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "9b8c85d9013fa54c4092227d9634f6b7f38f3c0d6e02c18c7cad517f6c87d63f"
+      "sha256": "aa227f0b67227cca833c46d3e27e936b0ace59fcdce5531887db8e38453bcb2b"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -128,7 +128,7 @@
     },
     {
       "path": "app/api/owner/operations/route.ts",
-      "sha256": "cadda15beb1cc1696fb0596c2c9498951584864f0227626c7da741f45ed4bf9d"
+      "sha256": "5bd276b4663645823aa709b1a6b8f2de2cc9a7379adb31e72f965655decd9720"
     },
     {
       "path": "app/api/refresh/route.ts",
@@ -312,7 +312,7 @@
     },
     {
       "path": "build/sites-worker.ts",
-      "sha256": "97a7581c71e1893d386480a2220afa41f841fd94c7591c16a3431d50b3f7cc2f"
+      "sha256": "93f315ef0b0bfa7c4557c28ac175297ddd53552d058953c912974107094e654e"
     },
     {
       "path": "components/account-sync-status.tsx",
@@ -388,7 +388,7 @@
     },
     {
       "path": "components/event-overview.tsx",
-      "sha256": "999fe85c1edef5a23bf8ec56e0764adfaa93d7f109367c4cacddc585c5fbd294"
+      "sha256": "6284f705562da3e19702d41d9d13813c75cbe167b236b83afee4f7a9dd9549ae"
     },
     {
       "path": "components/favorite-updates.tsx",
@@ -440,7 +440,7 @@
     },
     {
       "path": "components/operations-console.tsx",
-      "sha256": "c7e4c448809de17485c557debd0e2f2d623c208ce76ba0a12a4e2f73dc626be3"
+      "sha256": "2a82d2ca2f7c153f29b77cd809840815dd87b2fd5c268caae7ba5817384da978"
     },
     {
       "path": "components/owner-inline-form.tsx",
@@ -472,7 +472,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "3719f81d760dadf17095798e7cdac8013dbb40578166c70bb787b642349b89ad"
+      "sha256": "c98c2718ca1f3b4dce95817e151ea673f466612f5f6fbda2a896501e372fa715"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -508,7 +508,7 @@
     },
     {
       "path": "components/spotlight.tsx",
-      "sha256": "e5dbfb867e9ec9a9effb62fa2f08a0cfb0caaa9062845b1512c949bce4126a4e"
+      "sha256": "957e2fb32a131d9f53db9c27d94c7c6b49bd92b2dc636fbc16e9c7147ccee12f"
     },
     {
       "path": "components/studio-editor.tsx",
@@ -792,7 +792,7 @@
     },
     {
       "path": "components/version-hero.tsx",
-      "sha256": "c56d8deadcb30f5e371b0d6c4362ba251f155dd2432d788e551efada63b3b317"
+      "sha256": "ce2af82c702e4f9da0aca932a4428ca5cc57a2345ab05f0a00f5334c43e300bc"
     },
     {
       "path": "components/video-library.tsx",
@@ -995,12 +995,16 @@
       "sha256": "25ecfca249af69541f6e709bf3bfd75b11ac0298cd064c71b338ba033ce05af7"
     },
     {
+      "path": "lib/artwork-audit.ts",
+      "sha256": "7baf7d91f45ad23ef05316a3c877ae34d66c78cf831955663dbf8615de3435f1"
+    },
+    {
       "path": "lib/artwork-presets.ts",
       "sha256": "67105c21df899f59be73d8fd176348fd41099c73b4198a2bfd4c25e17df59603"
     },
     {
       "path": "lib/artwork.ts",
-      "sha256": "f50961965859a3fd53907ab8081e0f208c1abf0d216911a44c49c13be53097d0"
+      "sha256": "898ec3795c9a12579196c2be7e60351237ce81835463114240da33fbecba3820"
     },
     {
       "path": "lib/brand.ts",
@@ -1028,7 +1032,7 @@
     },
     {
       "path": "lib/catalog-asset-response.ts",
-      "sha256": "5806324ee89c87a74bb984722fc898b6b6964d7457eed05583471f26e7ebc038"
+      "sha256": "7204dda75371ada2c4bc4047bcbe5ca03daf19f21346de31025a4b3fd6413f5a"
     },
     {
       "path": "lib/catalog-assets.ts",
@@ -1132,7 +1136,7 @@
     },
     {
       "path": "lib/expanded-notices.ts",
-      "sha256": "65a97fb7539710a49353994cba3450eba6473ea8c234505c0cab7d69720652a8"
+      "sha256": "d850e4fff3ba82bad6d38d7c29d774d703cb59b5dc333522f50cd7ffd9560706"
     },
     {
       "path": "lib/fast-notices.ts",
@@ -1176,7 +1180,7 @@
     },
     {
       "path": "lib/games.ts",
-      "sha256": "1716517c864ca0a1efbd6f717c2f6a327866f8d17423ff3a2e5f3272e30cb330"
+      "sha256": "9e73484c33e48bee7ff1fba03615bb65bc6144f136b4b270416adf4039e1207b"
     },
     {
       "path": "lib/google-calendar.ts",
@@ -1185,6 +1189,10 @@
     {
       "path": "lib/google-login.ts",
       "sha256": "8f2a55bdc418259d3eff5f5f729133ce14c47b08dc698e962b21259c578e294d"
+    },
+    {
+      "path": "lib/hi3-notices.ts",
+      "sha256": "b56504e0c001e446fa1dd68f259b50a4244730914983b978d59a30b802628799"
     },
     {
       "path": "lib/history-game-filter.ts",
@@ -1228,7 +1236,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "44b7fef525350476e7939e83ca1ff9f18839c92fd0c9e00c21d04beab5fc1a3a"
+      "sha256": "7ab568a2783428c6e867c0ceb6c4ace2384ca22fe331a06b626508f95c5fd59e"
     },
     {
       "path": "lib/official-social-store.ts",
@@ -1263,6 +1271,10 @@
       "sha256": "d7dc4702c3e4e538d3d81c0534bbced86e8ec58dbaf4d7dd05a17f8f9dfa47f2"
     },
     {
+      "path": "lib/pickup-cards.ts",
+      "sha256": "ae2c257c3265acc13185a893b69a96b222be719f0ed35b54846ff0f564e5157c"
+    },
+    {
       "path": "lib/pickup-estimates.ts",
       "sha256": "6cbb3a6387ca7bd0fc52e4fe02510f2888c9a1fd54416061fae9fbf2988be978"
     },
@@ -1272,7 +1284,7 @@
     },
     {
       "path": "lib/presentation.ts",
-      "sha256": "8cb5c1ce310b36981a981fbeac5adff8f7138b0c3d5279babd53619156d843a0"
+      "sha256": "3aea023249d911c72672a607cc5acfa0e09bd9dd82fdc553c64c0c5eb30738ba"
     },
     {
       "path": "lib/price-presentation.ts",
@@ -1304,7 +1316,7 @@
     },
     {
       "path": "lib/regional-notices.ts",
-      "sha256": "7d750dfa1c15a5c16e539308ce851d1accfd2e02add7c3f0ef595d110f189e58"
+      "sha256": "ef9b8fa8e171d5159bf5924bb6a75ea21a81ff9558abc9f16b890aa8c316334c"
     },
     {
       "path": "lib/request-layout.ts",

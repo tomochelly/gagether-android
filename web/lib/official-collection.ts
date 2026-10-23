@@ -1,11 +1,22 @@
 import {env} from 'cloudflare:workers';
 import {regionalOfficialSources,regionalDetail,regionalMetadataChanges,type RegionalNotice} from './regional-notices';
 import {noticeEntry,type FastNotice} from './fast-notices';
+import {safeSource} from './types';
 import {retryFetch} from './retry-fetch';
 import {readData,saveEntries} from './store';
 import {captureDocument,reviewQueue} from './collection-store';
 import {collectionCoverage,pickupNotice} from './collection-review';
 const fetcher=((url:RequestInfo|URL,init?:RequestInit)=>retryFetch(typeof url==='string'?url:url instanceof URL?url.href:url.url,init)) as typeof fetch;
+export async function fetchReviewDocument(n:FastNotice){
+ if(!safeSource(n.url,n.gameId))throw Error('Unrecognized official source');
+ const checkedAt=new Date().toISOString();
+ try{
+  let body=await regionalDetail(n,fetcher);
+  if(!body){const r=await fetcher(n.url,{redirect:'manual',signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('HTTP '+r.status);body=await r.text();}
+  if(body.length>2000000)throw Error('Official body exceeds review limit');
+  return await captureDocument(n,body,checkedAt);
+ }catch(error){return await captureDocument(n,undefined,checkedAt,error instanceof Error?error.message:'Source unavailable');}
+}
 export async function collectRegionalNotices(){
  const before=await readData({automatic:true}),known=new Set(before.entries.map(e=>e.sourceUrl));
  const notices:RegionalNotice[]=[],inspected:{notice:RegionalNotice;checkedAt:string}[]=[],checks:any[]=[];
@@ -33,11 +44,7 @@ export async function collectPendingDocuments(){
  for(let i=0;i<chosen.length;i+=3)await Promise.all(chosen.slice(i,i+3).map(async e=>{
   const checkedAt=new Date().toISOString(),id=e.sourceUrl.match(/(?:[?&](?:id|announce_id)=|\/)(\d+)(?:[?#]|$)/)?.[1]||e.id.split('-').at(-1)!;
   const n:FastNotice={gameId:e.gameId,region:e.region,locale:e.sourceLocale||'ko',id,title:e.sourceTitle,url:e.sourceUrl,publishedAt:e.publishedAt};
-  try{
-   let body=await regionalDetail(n,fetcher);
-   if(!body){const r=await fetcher(n.url,{redirect:'manual',signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('HTTP '+r.status);body=await r.text();if(body.length>2000000)throw Error('Official body exceeds review limit');}
-   const d=await captureDocument(n,body,checkedAt);checks.push({source:'body/'+d.id,url:n.url,checkedAt,status:d.sourceAccess==='body'?'ok':'error',sourceAccess:d.sourceAccess,detailStatus:d.status,error:d.sourceAccess==='body'?undefined:'Original body remains unreadable'});
-  }catch(error){const message=error instanceof Error?error.message:'Source unavailable';await captureDocument(n,undefined,checkedAt,message);checks.push({source:'body/'+e.id,url:n.url,checkedAt,status:'error',error:message});}
+  const d=await fetchReviewDocument(n);checks.push({source:'body/'+d.id,url:n.url,checkedAt:d.checkedAt,status:d.sourceAccess==='body'?'ok':'error',sourceAccess:d.sourceAccess,detailStatus:d.status,error:d.error||(d.sourceAccess==='body'?undefined:'Original body remains unreadable')});
  }));
  const all=await reviewQueue(5000),pending=all.filter(d=>d.status!=='reviewed');
  const result={checkedAt:new Date().toISOString(),checks,pending:pending.length,unavailable:pending.filter(d=>d.status==='unavailable').length,coverage:collectionCoverage(data.entries)};

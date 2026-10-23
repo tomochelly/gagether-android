@@ -21,3 +21,13 @@ test('one featured owner replacement remains authoritative and candidate lists a
  assert.deepEqual(pickupArtwork(e,'ko').map(x=>x.art.image),['/api/media/owner.png']);
  assert.equal(pickupArtwork({...base,pickupMembers:[member('candidate','candidate')]},'ko').length,0);
 });
+
+test('sparse refresh preserves reviewed root/member languages and never grafts a previous character or file crop',async()=>{
+ const {retainEntityDetails}=await import('../lib/presentation.ts');
+ const previous={...base,...member('pool'),localizedArtwork:{ja:{image:'/ja-pool.png',imageVerified:true,imageLocale:'ja'}},pickupMembers:[{...member('first'),localizedArtwork:{ja:{image:'/ja-first.png',imageVerified:true,imageLocale:'ja'}}},member('second')]};
+ const next=retainEntityDetails({...base,pickupMembers:[{name:loc('first'),type:'rerun',role:'featured'},{name:loc('third'),type:'new',role:'featured'}]},previous);
+ assert.equal(next.image,previous.image);assert.equal(next.localizedArtwork.ja.image,'/ja-pool.png');assert.equal(next.pickupMembers[0].localizedArtwork.ja.image,'/ja-first.png');assert.equal(next.pickupMembers[1].image,undefined);
+ const replaced=retainEntityDetails({...base,image:'/new-unclassified.png'}, {...previous,previewBounds:{left:20,top:10,right:80,bottom:90}});
+ assert.equal(replaced.image,'/new-unclassified.png');assert.equal(replaced.imageLocale,undefined);assert.equal(replaced.previewBounds,undefined);
+ const corrected=retainEntityDetails({...previous,imageVerified:false},previous);assert.equal(corrected.imageVerified,false,'explicit audit corrections survive');
+});

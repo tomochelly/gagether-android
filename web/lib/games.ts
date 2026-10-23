@@ -619,7 +619,9 @@ export const games:Game[]=[
       "zh": "动作RPG"
     },
     "color": "#b5a1ff",
-    "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/2f/9e/b92f9ea0-d35b-64a7-d184-95813768407f/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
+    "logo": "/assets/logos/hi3-ko.png",
+    "localizedLogos": {"ko":"/assets/logos/hi3-ko.png","en":"/assets/logos/hi3-en.png","ja":"/assets/logos/hi3-ja.png"},
+    "logoSources": {"ko":"https://honkaiimpact3.hoyoverse.com/kr/ko-kr/home","en":"https://honkaiimpact3.hoyoverse.com/global/en-us/home","ja":"https://www.houkai3rd.com/"},
     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/2f/9e/b92f9ea0-d35b-64a7-d184-95813768407f/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
     "iconSource": "https://apps.apple.com/kr/app/id1286705196",
     "art": "https://upload-os-bbs.hoyolab.com/upload/community/2026/08/13/ea619406f1616de92d62b13ad4240c64_5698590394152952864.jpg",
