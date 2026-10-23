@@ -107,6 +107,9 @@ export async function regionalDetail(n:FastNotice,fetcher:typeof fetch):Promise<
  if(n.gameId==='bluearchive'&&n.region==='jp')return (await json(fetcher,'https://api-web.bluearchive.jp/api/news/detail?id='+encodeURIComponent(n.id))).data?.news?.content;
  if(n.gameId==='gfl2'&&n.region==='cn')return (await json(fetcher,'https://gf2-web-preregister-api.sunborngame.com/website/news/'+n.id)).data?.Content;
  if(n.gameId==='umamusume'&&n.region==='jp'){const d=await json(fetcher,'https://umamusume.jp/api/ajax/pr_info_detail?format=json&announce_id='+n.id);return d.detail?.message||d.information?.message||d.message||d.data?.message;}
+ if(n.gameId==='arknights'&&n.region==='global'&&n.url==='https://www.arknights.global/news/'+n.id){
+  const d=await json(fetcher,'https://www.arknights.global/api/resource/news/detail?id='+encodeURIComponent(n.id));if(d.code!==0||String(d.data?.id)!==n.id||typeof d.data?.content!=='string')throw Error('Official body identity mismatch');return d.data.content;
+ }
  if(n.gameId==='arknights'&&n.region==='jp')return (await json(fetcher,'https://arknights.jp/api/resource/news/detail?id='+n.id)).data?.content;
  if(n.gameId==='stellasora'&&n.locale==='ja')return (await json(fetcher,'https://stellasora.jp/api/resource/news/'+n.id)).data?.news?.content;
  if(n.gameId==='trickcal'&&n.locale==='ja')return (await json(fetcher,'https://l11-web-api.biligames.com/game/news/detail?game_base_id=113406&show_position=1&client_type=2&lang=ja&news_id='+n.id)).data?.content;

@@ -3,7 +3,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const {readBroadcast,channelVideos}=await import('../lib/broadcast-metadata.ts');
-const {parseEndfield,parseNte,parseSteam,noticeEntry,noticeText}=await import('../lib/fast-notices.ts');
+const {parseEndfield,parseNte,parseSteam,noticeEntry,noticeText,noticeMetadataChange}=await import('../lib/fast-notices.ts');
 const {verifyRefreshIdentity,refreshAudience,refreshWorkflow}=await import('../lib/refresh-identity.ts');
 const at='2026-10-17T12:00:00Z';
 function page(overrides={}){return 'var ytInitialPlayerResponse = '+JSON.stringify({playabilityStatus:{status:'LIVE_STREAM_OFFLINE'},videoDetails:{videoId:'abcdefghijk',channelId:'trusted',author:'Official',title:'Official program',isLiveContent:true,isUpcoming:true},microformat:{playerMicroformatRenderer:{liveBroadcastDetails:{startTimestamp:'2026-10-24T09:30:00Z',isLiveNow:false}}},...overrides})+';';}
@@ -33,3 +33,8 @@ test('OIDC requires trusted signature, repository identity, workflow, audience a
  for(const patch of [{repository_id:'attacker'},{repository_owner_id:'attacker'},{aud:'other'},{ref:'refs/pull/1/merge'},{workflow_ref:'other'},{event_name:'pull_request'},{exp:sec-1}])assert.equal(await verifyRefreshIdentity(await token({...claims,...patch}),fetcher,now),false);
  const valid=await token(claims);assert.equal(await verifyRefreshIdentity(valid.slice(0,-12)+'invalid',fetcher,now),false);
 });
+
+ test('changed Korean source headlines publish immediately while preserving content, clocks and identical-check timestamps',()=>{
+ const n={gameId:'trickcal',region:'kr',locale:'ko',id:'123',title:'변경된 공지(추가)',url:'https://game.naver.com/lounge/Trickcal/board/detail/123',publishedAt:'2026-10-23'};const old={...noticeEntry({...n,title:'이전 공지'},at),summary:{ko:'기존 상세',en:'',ja:'',zh:''},detailImages:[{image:'/assets/original.png'}],startAt:'2026-10-22T02:00:00Z',endAt:'2026-11-05T01:59:00Z'};
+ const next=noticeMetadataChange(old,n,'2026-10-23T05:00:00Z');assert.equal(next.title.ko,n.title);assert.equal(next.sourceTitle,n.title);assert.equal(next.startAt,old.startAt);assert.equal(next.endAt,old.endAt);assert.deepEqual(next.detailImages,old.detailImages);assert.deepEqual(next.summary,old.summary);assert.equal(noticeMetadataChange(next,n,'2026-10-23T06:00:00Z'),undefined);
+ });

@@ -1,7 +1,7 @@
 import {env} from 'cloudflare:workers';
 import {readData,saveEntries} from './store';
 import {refreshFeeds} from './feeds';
-import {koreanFastSources,noticeEntry,noticeText} from './fast-notices';
+import {koreanFastSources,noticeEntry,noticeText,noticeMetadataChange} from './fast-notices';
 import {channelVideos,embeddedJson,readBroadcast} from './broadcast-metadata';
 import {localized,type Entry,type Locale,type Region} from './types';
 import {effectiveRegion} from './presentation';
@@ -9,6 +9,7 @@ import {games} from './games';
 import {readOfficialChannels} from './official-social-store';
 import {retryFetch} from './retry-fetch';
 import {refreshHealth,recordHealth,readbackIssues} from './service-health';
+import {captureDocument} from './collection-store';
 import {collectRegionalNotices,collectPendingDocuments} from './official-collection';
 const interval=10*60*1000;
 async function html(url:string){
@@ -38,7 +39,7 @@ export async function runFastRefresh(){
   const before=await readData({automatic:true,collection:true});if(!before.persistent)throw Error('Persistent storage unavailable');
   const known=new Set(before.entries.map(e=>normalize(e.sourceUrl)));
   for(const e of before.entries)for(const u of Object.values(e.localizationSources||{}))if(u)known.add(normalize(u));
-  const noticed:Entry[]=[];const changedNeedsReview:string[]=[];
+  const noticed:Entry[]=[];const nativeChanges:Entry[]=[];const changedNotices:{notice:import("./fast-notices").FastNotice;checkedAt:string}[]=[];const changedNeedsReview:string[]=[];
   // Korean official sources are queried before the existing localized/regional feeds.
   const koreanChecks=await pool(koreanFastSources,async source=>{
    const at=new Date().toISOString();
@@ -48,7 +49,7 @@ export async function runFastRefresh(){
     for(const n of rows.slice(0,20)){
      const url=normalize(n.url);if(known.has(url)){
       const old=before.entries.find(e=>normalize(e.sourceUrl)===url&&e.sourceLocale===n.locale);
-      if(old&&noticeText(old.sourceTitle)!==noticeText(n.title).slice(0,240))changedNeedsReview.push(old.id);
+      const changed=noticeMetadataChange(old,n,at);if(changed){nativeChanges.push(changed);changedNotices.push({notice:n,checkedAt:at});changedNeedsReview.push(changed.id);}
       continue;
      }
      const entry=noticeEntry(n,at);known.add(url);noticed.push(entry);added++;
@@ -57,7 +58,8 @@ export async function runFastRefresh(){
    }catch(e){return {source:source.key,url:source.url,checkedAt:at,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   });
   // First persist minimal notices. No pickup dates, prices, images or summaries are inferred.
-  await saveEntries(noticed);
+  await saveEntries([...noticed,...nativeChanges]);
+  for(const {notice,checkedAt} of changedNotices)await captureDocument(notice,undefined,checkedAt);
   const noticeReadback=await readData({automatic:true,collection:true});
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');
   const feeds=await refreshFeeds();

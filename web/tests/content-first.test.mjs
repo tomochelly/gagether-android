@@ -75,3 +75,7 @@ test('ordinary official body adapters use exact identities, correct languages an
  assert.equal(await regionalDetail({...n,url:n.url.replace('1018','7')},f),undefined);
  const b=bodyFromDocument({...doc,title:'実際の日本語タイトル'},{text:'参加条件の全文です。'});const e=importBody({...base,sourceLocale:'ko',sourceTitle:'한국어 제목',title:blank},b);assert.equal(e.title.ja,'実際の日本語タイトル');assert.equal(e.title.ko,'');
  });
+
+ test('Arknights Global reads its native current body from the observed public frontend API',async()=>{
+ const n={gameId:'arknights',region:'global',locale:'en',id:'4980',url:'https://www.arknights.global/news/4980'};const body=await regionalDetail(n,async u=>{assert.equal(u,'https://www.arknights.global/api/resource/news/detail?id=4980');return Response.json({code:0,data:{id:4980,content:'<p>Full native Global notice.</p>'}});});assert.match(body,/Full native Global/);await assert.rejects(()=>regionalDetail(n,async()=>Response.json({code:0,data:{id:7,content:'wrong'}})),/identity mismatch/);
+ });

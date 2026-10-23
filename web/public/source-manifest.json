@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "bd9fd5e2d4773332b421213ee2ec7b66e0db2ca09fccdb46e4e3f7b614e2445e",
+  "fingerprint": "a5452bacfc2b8d7c2aeebcaf8a53e8a16ab7e83e306df8e5f04b8db2922668db",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1180,11 +1180,11 @@
     },
     {
       "path": "lib/fast-notices.ts",
-      "sha256": "5768e3c1d04ca40cc0c560ae2aba622e2004777e1705380cfa2162128b2b51c9"
+      "sha256": "909a9bb70a7e4e933f10fc1a79224502914612eb96bd63fec714e8cad3975fa7"
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "581a1adf33e1979da373740c8fc57739332061d3056b6f0987e840360c94b96f"
+      "sha256": "173d96b5d6b05b51a41a367e0b4a424c4020424af6f3fe1230ff22929a593ebc"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",
@@ -1364,7 +1364,7 @@
     },
     {
       "path": "lib/regional-notices.ts",
-      "sha256": "ce6de9f616bc6ac08dcbf3ef97cbe75ca24319584bd7283ae64169b67af6f7ba"
+      "sha256": "361a1e702c209635fc7419ff811d522adaf06417d7933ee780f879349b62b6ff"
     },
     {
       "path": "lib/request-layout.ts",

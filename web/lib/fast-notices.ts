@@ -50,3 +50,11 @@ export function noticeEntry(n:FastNotice,checkedAt:string):Entry{
  const title=localized('','','','');title[n.locale]=noticeText(n.title).slice(0,240);
  return {id:`quick-${n.gameId}-${n.region}-${n.id}`,gameId:n.gameId,region:n.region,server:n.region,kind:'update',title,summary:localized('','','',''),sourceUrl:n.url,sourceTitle:title[n.locale],sourceLocale:n.locale,sourceKind:'official',officialLocales:[n.locale],translatedLocales:[],localizationSources:{[n.locale]:n.url},publishedAt:n.publishedAt,verifiedAt:checkedAt,startAt:null,endAt:null,imageVerified:false};
 }
+
+/** Native metadata changes publish immediately without clearing saved gameplay details. */
+export function noticeMetadataChange(old:Entry|undefined,n:FastNotice,checkedAt:string):Entry|undefined{
+ if(!old||old.gameId!==n.gameId||old.sourceUrl!==n.url)return undefined;
+ const sourceTitle=noticeText(n.title).slice(0,800),publishedAt=n.publishedAt||old.publishedAt;
+ if(old.sourceTitle===sourceTitle&&old.publishedAt===publishedAt&&old.sourceLocale===n.locale)return undefined;
+ return {...old,sourceTitle,sourceLocale:n.locale,publishedAt,verifiedAt:checkedAt,title:/^(quick-|feed-)/.test(old.id)?{...old.title,[n.locale]:sourceTitle.slice(0,240)}:old.title};
+}
