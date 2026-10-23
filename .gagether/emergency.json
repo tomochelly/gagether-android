@@ -3,7 +3,7 @@
   "requestId": "zzz-locale-hero-20261024-v1",
   "reason": "Restore locale artwork lost by owner image replacement while preserving uploaded originals and framing",
   "action": "edit",
-  "dryRun": true,
+  "dryRun": false,
   "edit": {
     "target": "entry",
     "id": "feed-zzz-166963",
