@@ -26,3 +26,5 @@ jobs:
         working-directory: web
       - run: pnpm exec tsc --noEmit
         working-directory: web
+      - run: python3 -m unittest discover -s ops -p 'test_refresh_request.py'
+        working-directory: web

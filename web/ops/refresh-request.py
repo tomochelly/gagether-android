@@ -1,4 +1,4 @@
-import json, os, time, urllib.request, urllib.parse, urllib.error
+import json, os, time, http.client, urllib.request, urllib.parse, urllib.error
 endpoint='https://gagether.wiki/api/fast-refresh'
 agent='GAGETHER-OfficialRefresh/1.0 (+https://github.com/tomochelly/gagether-android)'
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -12,7 +12,7 @@ for attempt in range(4):
         req=urllib.request.Request(endpoint,data=b'',method='POST',headers={'X-Gagether-Refresh-Identity':token,'Accept':'application/json','User-Agent':agent})
         with opener.open(req,timeout=420) as r: result=json.load(r)
         break
-    except (urllib.error.URLError,TimeoutError) as error:
+    except (urllib.error.URLError,TimeoutError,ConnectionError,http.client.IncompleteRead) as error:
         if isinstance(error,urllib.error.HTTPError) and error.code not in [429,500,502,503,504]: raise
         if attempt==3: raise
         time.sleep(min(2**(attempt+1),12))
