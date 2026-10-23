@@ -40,3 +40,12 @@
 ## 검증 범위
 
 실제 컴포넌트 마운트/하이드레이션 검사와 격리된 SQLite/R2의 실제 API 경로로 드래그·키보드·축소·확대, 카드/배너별 저장값, 원본 보존, 15개 게임 재화 선택, 4개 언어 표시, 순서 변경, 저장 실패·충돌·이력 복원을 검증합니다. 운영자 실데이터를 시험용 값으로 바꾸지 않습니다. 현재 관리형 미리보기 환경의 기존 서버 충돌 때문에 실제 브라우저 시각 검수와 운영자 로그인 세션에서의 실서비스 저장 시연은 미검증입니다. 컴포넌트 검사를 실제 브라우저 검사로 부르지 않습니다.
+
+## 운영 반영 확인 (2026-10-23)
+
+- Site v96 배포 성공, 운영 런타임 fingerprint `bf72c2cee14db636737ab7e936e7a547a0e5158ba216592b2ef0e17983e8a640` 일치.
+- 전체 217개 테스트, TypeScript, 격리된 실제 SQLite/R2 편집 API 검증 통과.
+- 배포 전후 automatic/effective 각 1,790개 항목, 관리자 수정 5개와 사이트 설정의 값이 동일함을 재조회로 확인.
+- 운영 KO/EN/JA/ZH 서버 렌더링과 모바일 초기 셸 확인. 자동 수집 토큰의 설정 편집 요청은 403으로 거부됨.
+- [웹 소스 CI](https://github.com/tomochelly/gagether-android/actions/runs/39900024390), [운영 코드 일치 검사](https://github.com/tomochelly/gagether-android/actions/runs/39900024311), [Android 검사](https://github.com/tomochelly/gagether-android/actions/runs/39900024328) 모두 성공.
+- 실제 브라우저 시각 검수와 운영자 실세션 쓰기 시연은 위 환경 제약으로 미검증이며, 이를 완료로 표시하지 않음. 운영자 콘텐츠를 시험 값으로 수정하지 않음.
