@@ -3689,5 +3689,80 @@
       "height": 56,
       "verifiedAt": "2026-10-16T19:34:19.827175Z"
     }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "직검"
+      ],
+      "en": [
+        "Sword"
+      ],
+      "ja": [
+        "迅刀"
+      ],
+      "zh": [
+        "迅刀"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-weapon-2.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/d27ac36725815b69dcc8f1e9da3c5b07/fb5c81ed3a220004b71069645f112867.png",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-23T11:49:28.071405+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "권총"
+      ],
+      "en": [
+        "Pistols"
+      ],
+      "ja": [
+        "拳銃"
+      ],
+      "zh": [
+        "佩枪"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-weapon-3.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/d27ac36725815b69dcc8f1e9da3c5b07/10fb15c77258a991b0028080a64fb42d.png",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-23T11:49:28.071405+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "id": "weapon",
+    "values": {
+      "ko": [
+        "증폭기"
+      ],
+      "en": [
+        "Rectifier"
+      ],
+      "ja": [
+        "増幅器"
+      ],
+      "zh": [
+        "音感仪"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-weapon-5.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/d27ac36725815b69dcc8f1e9da3c5b07/8266e4bfeda1bd42d8f9794eb4ea0a13.png",
+      "width": 128,
+      "height": 128,
+      "verifiedAt": "2026-10-23T11:49:28.071405+00:00"
+    }
   }
 ]

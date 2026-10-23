@@ -13,3 +13,5 @@ Authenticated `/api/collection` includes `wiki` coverage with live profile, nati
 Regression checks: `node --test tests/wiki-details.test.mjs` covers profile matching, service/outfit isolation, sparse refresh preservation, material validation/rendering, BA icon aliases, curated notice-body collection, reward isolation and all15source records. Full project regression: `node --test tests/*.test.mjs`.
 
 Body-fetch scheduling uses one slot per actual game/service before filling additional slots, ordered by the oldest actual body attempt. Metadata-only feed touches do not advance that attempt timestamp. Bounded retries and reviewed-body protection remain unchanged.
+
+Type checking is required before packaging: `node node_modules/typescript/bin/tsc --noEmit --incremental false`. The production Vinext build does not replace this check.

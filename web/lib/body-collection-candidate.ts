@@ -5,7 +5,7 @@ export function bodyCollectionCandidate(entry:Entry){
  return !entry.id.startsWith('custom-')&&!entry.pickupArchive&&!entry.broadcast&&(entry.sourceKind||'official')==='official'&&!/^https:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)\//.test(entry.sourceUrl);
 }
 /** One source-heavy game must not monopolize the bounded body-fetch budget. */
-export function selectBodyCandidates(entries:Entry[],previous:Map<string,ReviewDocument>,now:number,limit=10){
+export function selectBodyCandidates(entries:Entry[],previous:ReadonlyMap<string,ReviewDocument&{status?:string}>,now:number,limit=10){
  const service=(e:{gameId:string;region:string})=>e.gameId+'|'+e.region;
  const lastAttempt=new Map<string,number>();
  for(const d of previous.values())if(d.sourceAccess!=='metadata')lastAttempt.set(service(d),Math.max(lastAttempt.get(service(d))||0,Date.parse(d.checkedAt)||0));

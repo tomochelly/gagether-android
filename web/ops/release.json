@@ -1,17 +1,17 @@
 {
   "siteProjectId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a",
   "productionUrl": "https://gagether.wiki/",
-  "siteVersion": 109,
-  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_af2e7f71da8481918d9b72dbc95b8165",
-  "siteCommit": "3b8ee274ee73b7233a381a4b4a3b3c0affd977ea",
-  "deploymentId": "appgdep_6adb52738f8481918f8fa49dbb0743b8",
-  "deployedAt": "2026-10-23T12:26:51.213413+00:00",
-  "runtimeFingerprint": "a7fc2cf605f77c891e681d072539b41f629ff70dd68848233ccd18c0479ba208",
+  "siteVersion": 110,
+  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_793342696b24819185f545ec4e330089",
+  "siteCommit": "4d43df076650fd5a38401e3ee9c5e8b32362a237",
+  "deploymentId": "appgdep_6adb54e1d4e88191ac6a9b460b780fe5",
+  "deployedAt": "2026-10-23T12:37:07.618525+00:00",
+  "runtimeFingerprint": "249794dfa07478aa3f2e9348653e31ee091375136b0a9345d9ac8e6a30faf0b0",
   "githubRepository": "tomochelly/gagether-android",
   "sourceDirectory": "web",
   "codeAutoDeploy": false,
   "verificationReport": "ops/wiki-details.md",
-  "previousHealthySiteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_00148cbdbcf481919b1f6fcde6ec4b5b",
-  "verifiedAt": "2026-10-23T12:31:42.041Z",
-  "status": "production-deployed; wiki/native-icon/material enrichment verified"
+  "previousHealthySiteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_af2e7f71da8481918d9b72dbc95b8165",
+  "verifiedAt": "2026-10-23T12:37:11.499Z",
+  "status": "production-deployed; typecheck and wiki/native-icon/material enrichment verified"
 }

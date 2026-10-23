@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "a7fc2cf605f77c891e681d072539b41f629ff70dd68848233ccd18c0479ba208",
+  "fingerprint": "249794dfa07478aa3f2e9348653e31ee091375136b0a9345d9ac8e6a30faf0b0",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -968,11 +968,11 @@
     },
     {
       "path": "content/stat-icons.json",
-      "sha256": "a98aa43390f2916e3db0a93c3d584efe6b1e16e5c460ef23fb8ec62fb3c71625"
+      "sha256": "8051f5c56bf7803de768071c598cdc5681f29a02a15116d598facedb71172384"
     },
     {
       "path": "content/trait-icons.json",
-      "sha256": "1f9c6d5a7aed132f1042d8dec88279d9eb0e90513ba748a39661161a5b90ea35"
+      "sha256": "af58165ecbdc4b4303e1e79f680a5847dafaa177eccb4db1c3f8c71e342bf3c0"
     },
     {
       "path": "content/uma-selection-art-review-2026-10-17.json",
@@ -1088,7 +1088,7 @@
     },
     {
       "path": "lib/body-collection-candidate.ts",
-      "sha256": "fa3234aeb4ef2e420c4c3c4db9375ca04d56848c9ab7a593c660db4ae9025026"
+      "sha256": "b06cfb68d11f3b3a99b1684458184d83efc1485eeac8378d442f1aa21ed169d1"
     },
     {
       "path": "lib/brand.ts",

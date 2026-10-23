@@ -170,5 +170,102 @@
       "height": 54,
       "verifiedAt": "2026-10-23T11:37:46.850836+00:00"
     }
+  },
+  {
+    "gameId": "wuwa",
+    "labels": {
+      "ko": [
+        "공격력"
+      ],
+      "en": [
+        "ATK"
+      ],
+      "ja": [
+        "攻撃力"
+      ],
+      "zh": [
+        "攻击",
+        "攻击力"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-stat-7-1.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/e53083b543f0bc7daf7a1ab06e50486f/4d91bbee2d5d5a90f1aa1758ecaf9d18.png",
+      "width": 96,
+      "height": 96,
+      "verifiedAt": "2026-10-23T11:49:28.071405+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "labels": {
+      "ko": [
+        "크리티컬 확률"
+      ],
+      "en": [
+        "Crit. Rate"
+      ],
+      "ja": [
+        "クリティカル率"
+      ],
+      "zh": [
+        "暴击率"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-stat-8-2.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/e53083b543f0bc7daf7a1ab06e50486f/010c99bb1c2d524ba20fc04878a3ae87.png",
+      "width": 96,
+      "height": 96,
+      "verifiedAt": "2026-10-23T11:49:28.071405+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "labels": {
+      "ko": [
+        "크리티컬 피해"
+      ],
+      "en": [
+        "Crit. DMG"
+      ],
+      "ja": [
+        "クリティカルダメージ"
+      ],
+      "zh": [
+        "暴击伤害"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-stat-9-2.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/e53083b543f0bc7daf7a1ab06e50486f/5df14d26f9f055fbae519b370db8f18f.png",
+      "width": 96,
+      "height": 96,
+      "verifiedAt": "2026-10-23T11:49:28.071405+00:00"
+    }
+  },
+  {
+    "gameId": "wuwa",
+    "labels": {
+      "ko": [
+        "공명 효율"
+      ],
+      "en": [
+        "Energy Regen"
+      ],
+      "ja": [
+        "共鳴効率"
+      ],
+      "zh": [
+        "共鸣效率"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/wuwa-stat-11-2.png",
+      "imageSource": "https://guide-res.aki-game.net/introduction/material/e53083b543f0bc7daf7a1ab06e50486f/90b1c8a1d3c8d4d6065aee893213bab5.png",
+      "width": 96,
+      "height": 96,
+      "verifiedAt": "2026-10-23T11:49:28.071405+00:00"
+    }
   }
 ]

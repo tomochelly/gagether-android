@@ -46,6 +46,7 @@ test('material names can be blank in a locale; exact icon and quantity remain wi
 
 test('Blue Archive legacy and current trait IDs both resolve correct native glyph/color, stat IDs remain game-specific',()=>{
  for(const id of ['attack','attack-type']){const t={id,label:loc('Attack'),value:{ko:'폭발',en:'Explosive',ja:'爆発',zh:'爆发'}};assert.match(traitIcon('bluearchive',t).image,/type-attack/);assert.equal(traitTone('bluearchive',t),'ba-type-explosive');assert.equal(traitIcon('wuwa',t),undefined);}
+ assert.match(traitIcon('wuwa',{id:'weapon',label:loc('Weapon'),value:loc('Sword')}).image,/wuwa-weapon-2/);
  const indoor={id:'terrain',label:loc('Terrain'),value:loc('Indoor')};assert.match(traitIcon('bluearchive',indoor).image,/terrain-indoor/);
  const accuracy={label:{ko:'기본 명중',en:'Base accuracy',ja:'基礎命中値',zh:'基础命中值'},value:'100'};assert.match(statIcon('bluearchive',accuracy).image,/accuracypoint/);assert.equal(statIcon('wuwa',accuracy),undefined);const custom={...accuracy,icon:catalog[0].profile.stats[1].icon};assert.strictEqual(statIcon('bluearchive',custom),custom.icon);
 });
