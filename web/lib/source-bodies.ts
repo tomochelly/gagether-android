@@ -11,12 +11,12 @@ export function bodyFromDocument(document:ReviewDocument,raw:{text?:string;image
  const text=decodeSourceHtml(raw.text||'');const encoded=/<(?:p|div|img|br|table|section|h[1-6])\b/i.test(text),parsed=encoded?sourceDocument(text,document.url):{text,images:[],links:[]};
  const images=[...new Set([...raw.images||[],...parsed.images])].filter(url=>{try{const u=new URL(url);return u.protocol==='https:'&&!u.username&&!u.password&&!excludedSourceImages.some(x=>url.split('?')[0]===x)&&!/logo|favicon|loading|footer|share[_/-]|social[_/-]|tracking|공지사항-(?:상|하)/i.test(decodeURIComponent(u.pathname));}catch{return false;}}).slice(0,20);
  if(!parsed.text.trim()&&!images.length)return null;
- return {locale:document.locale,sourceUrl:document.url,text:parsed.text.slice(0,200000),images,links:(raw.links||parsed.links||[]).slice(0,40),bodyHash:document.bodyHash,importedAt:document.checkedAt,sourceKind:'official'};
+ return {title:document.title.slice(0,400),locale:document.locale,sourceUrl:document.url,text:parsed.text.slice(0,200000),images,links:(raw.links||parsed.links||[]).slice(0,40),bodyHash:document.bodyHash,importedAt:document.checkedAt,sourceKind:'official'};
 }
 export function sourceExcerpt(text:string,title=''){return text.split('\n').map(s=>s.trim()).filter(s=>s&&s!==title&&!/^(?:안녕하세요[.!]?|함장님[,!]?|여행자님[,!]?|Dear .*[,!]|尊敬的.*[：:]|こんにちは[。！]?)$/i.test(s)).join(' ').slice(0,320);}
 export function importBody(entry:Entry,body:SourceBody):Entry{
- const old=entry.sourceBodies?.[body.locale];if(old&&old.bodyHash===body.bodyHash&&old.text===body.text&&JSON.stringify(old.images)===JSON.stringify(body.images)&&JSON.stringify(old.links||[])===JSON.stringify(body.links||[]))return entry;
- const title={...entry.title},summary={...entry.summary};if(placeholderText(title[body.locale]))title[body.locale]=entry.sourceTitle;
+ const old=entry.sourceBodies?.[body.locale];if(old&&old.bodyHash===body.bodyHash&&old.text===body.text&&JSON.stringify(old.images)===JSON.stringify(body.images)&&JSON.stringify(old.links||[])===JSON.stringify(body.links||[])&&old.title===body.title)return entry;
+ const title={...entry.title},summary={...entry.summary};if(placeholderText(title[body.locale]))title[body.locale]=(body.title||(body.locale===entry.sourceLocale?entry.sourceTitle:"")).slice(0,240);
  if(placeholderText(summary[body.locale]))summary[body.locale]=sourceExcerpt(body.text,title[body.locale]);
  const rewards=entry.rewards?.length?entry.rewards:bodyRewards(entry,body);
  return {...entry,title,summary,sourceBodies:{...entry.sourceBodies,[body.locale]:body},...(rewards.length?{rewards}:{} )};

@@ -97,6 +97,12 @@ export async function regionalDetail(n:FastNotice,fetcher:typeof fetch):Promise<
  }
  const hoyo={genshin:'a1b1f9d3315447cc',hsr:'113fe6d3b4514cdd',zzz:'3e9196a4b9274bd7'}[n.gameId as 'genshin'|'hsr'|'zzz'];
  if(hoyo){const lang={ko:'ko-kr',en:'en-us',ja:'ja-jp',zh:n.gameId==='genshin'?'zh-tw':'zh-cn'}[n.locale];const d=await json(fetcher,`https://sg-public-api-static.hoyoverse.com/content_v2_user/app/${hoyo}/getContent?iInfoId=${encodeURIComponent(n.id)}&sLangKey=${lang}`);if(d.retcode!==0||String(d.data?.iInfoId)!==n.id||typeof d.data?.sContent!=='string')throw Error('Notice body identity mismatch');return d.data.sContent;}
+ if(n.gameId==='bluearchive'&&n.locale==='ko'){
+  const u=new URL(n.url),board=u.searchParams.get('board');
+  if(u.hostname!=='forum.nexon.com'||u.pathname!=='/bluearchive/board_view'||!['1018','1076'].includes(board||'')||u.searchParams.get('thread')!==n.id)return undefined;
+  const d=await json(fetcher,'https://forum.nexon.com/api/v1/thread/'+encodeURIComponent(n.id));
+  if(String(d.threadId)!==n.id||String(d.boardId)!==board||String(d.communityId)!=='148'||!d.user?.isAdmin||d.isDelete||d.isWebHide||typeof d.content!=='string'||!d.content.trim())throw Error('Official thread body identity mismatch');return d.content;
+ }
  if(n.gameId==='bluearchive'&&n.region==='jp')return (await json(fetcher,'https://api-web.bluearchive.jp/api/news/detail?id='+encodeURIComponent(n.id))).data?.news?.content;
  if(n.gameId==='gfl2'&&n.region==='cn')return (await json(fetcher,'https://gf2-web-preregister-api.sunborngame.com/website/news/'+n.id)).data?.Content;
  if(n.gameId==='umamusume'&&n.region==='jp'){const d=await json(fetcher,'https://umamusume.jp/api/ajax/pr_info_detail?format=json&announce_id='+n.id);return d.detail?.message||d.information?.message||d.message||d.data?.message;}

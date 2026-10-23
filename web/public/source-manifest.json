@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "6dd15885ab81171f2303a46ed180be7e1036a75b999f0fb6ec605c2aa4be8a12",
+  "fingerprint": "0b1d3bed55bd9713dccfc262a0ecb3396712714d0799b6cd65159d8dd2130e7c",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1120,11 +1120,11 @@
     },
     {
       "path": "lib/content-display.ts",
-      "sha256": "f62f6337cd987a6ebfcf14bff63257e756684c075cc350a45a19183b436f1cff"
+      "sha256": "7910b64f7b81ce57010ee4a22cb01c32afbafa6d3a510640eafd1a9cdf92d169"
     },
     {
       "path": "lib/content-schema.ts",
-      "sha256": "bffb2c35fe62571a51a953951bec51900cbf8c3db3cdfa674ec1e59f1459d620"
+      "sha256": "5890a3c4925f1a170de1d0aecdf18aeee8f90d0ca33b4b5bb0ec944ce9df9a2d"
     },
     {
       "path": "lib/display-preferences.ts",
@@ -1236,7 +1236,7 @@
     },
     {
       "path": "lib/i18n.ts",
-      "sha256": "36e7802f7d97a9d159dc4b1ff932798e8c35a4c361370e6495ccc8a3fc51cb8c"
+      "sha256": "352b941b697eb023df1d13e96cf71054a0298d8bbb7a8a03a0a7756840d33ba8"
     },
     {
       "path": "lib/image-framing.ts",
@@ -1360,7 +1360,7 @@
     },
     {
       "path": "lib/regional-notices.ts",
-      "sha256": "295ce50b8b4cb0ac39b4f5f0d1fbbceafaa2c1f81bdf4b90c7cc63cebd3488d1"
+      "sha256": "9c9cb5ad8383f30ac95b2a3e03ea53612dac2ace379cb311a6037021dc30fab3"
     },
     {
       "path": "lib/request-layout.ts",
@@ -1416,7 +1416,7 @@
     },
     {
       "path": "lib/source-bodies.ts",
-      "sha256": "8833cd618fcbf71489456a952ba444521361ef09b17d7ff3d2de7b28f48a7e80"
+      "sha256": "a648421dd5f371ba2668589f2e61f64eeaf04dc7c2995500c43b8c59263645b9"
     },
     {
       "path": "lib/source-body-store.ts",
@@ -1436,7 +1436,7 @@
     },
     {
       "path": "lib/types.ts",
-      "sha256": "843fcfbc386d5748a86a662c8aa6204aa3b17341b1f15b971ae4de4b2004da41"
+      "sha256": "e37e762f32331960b20eccc64dd18421ce74acad616d71c98732a31fde8dbce5"
     },
     {
       "path": "lib/upcoming-pickups.ts",

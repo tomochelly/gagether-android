@@ -13,7 +13,7 @@ export type SourceKind = "official" | "community" | "video";
 export interface RelatedSource {kind:SourceKind;url:string;title:string;publisher?:string;publishedAt?:string}
 export interface GameIcon {image:string;imageSource:string;width:number;height:number;verifiedAt:string}
 export interface EntityTrait {id:string;label:Localized;value:Localized;icon?:GameIcon;officialLocales?:Locale[];translatedLocales?:Locale[]}
-export interface SourceBody {locale:Locale;sourceUrl:string;text:string;images:string[];links?:{label:string;url:string}[];bodyHash:string;importedAt:string;sourceKind:"official"|"community"}
+export interface SourceBody {title?:string;locale:Locale;sourceUrl:string;text:string;images:string[];links?:{label:string;url:string}[];bodyHash:string;importedAt:string;sourceKind:"official"|"community"}
 export interface RewardItem {note?:Localized;acquisition?:"free"|"conditional"|"purchase";rewardId?:string;category?:'gacha-currency'|'gacha-ticket'|'resource';officialLocales?:Locale[];translatedLocales?:Locale[];name:Localized;quantity?:string;icon?:GameIcon;sourceUrl:string;sourceKind:"official"|"community"}
 export interface VideoClip {originalTitle?:string;titleOfficialLocales?:Locale[];titleTranslatedLocales?:Locale[];youtubeId:string;kind:"character"|"version";format?:"pv"|"intro"|"demo";title:Localized;locale:Locale;channel:string;sourceUrl:string;publishedAt?:string|null;verifiedAt:string;official:boolean;metadataVerified:boolean;watched:false;entityNames?:Localized[];evidenceUrls?:string[]}
 export interface OfficialBroadcast {

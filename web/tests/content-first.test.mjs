@@ -67,3 +67,11 @@ test('ordinary official body adapters use exact identities, correct languages an
  const stream='<script>self.__next_f.push('+JSON.stringify([1,'1a:T123,<p>维护内容与补偿 合成玉100</p>'])+')</script>';
  assert.match(await regionalDetail(ak,async()=>new Response(stream)),/维护内容/);
 });
+
+ test('Korean Blue Archive uses its own exact official thread body, not a JavaScript shell',async()=>{
+ const n={gameId:'bluearchive',region:'kr',locale:'ko',id:'12345',url:'https://forum.nexon.com/bluearchive/board_view?board=1018&thread=12345'};
+ const f=async()=>Response.json({threadId:12345,boardId:1018,communityId:148,user:{isAdmin:true},isDelete:false,isWebHide:false,content:'<p>공식 한국 공지의 전체 본문입니다.</p>'});
+ assert.match(await regionalDetail(n,f),/전체 본문/);await assert.rejects(()=>regionalDetail(n,async()=>Response.json({threadId:12345,boardId:7,content:'wrong'})),/identity mismatch/);
+ assert.equal(await regionalDetail({...n,url:n.url.replace('1018','7')},f),undefined);
+ const b=bodyFromDocument({...doc,title:'実際の日本語タイトル'},{text:'参加条件の全文です。'});const e=importBody({...base,sourceLocale:'ko',sourceTitle:'한국어 제목',title:blank},b);assert.equal(e.title.ja,'実際の日本語タイトル');assert.equal(e.title.ko,'');
+ });
