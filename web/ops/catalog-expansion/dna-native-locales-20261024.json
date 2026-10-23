@@ -1,0 +1,1500 @@
+{
+  "entries": [
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "별빛 기념록 Ⅱ",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[별빛 기념록 Ⅱ]\n 이벤트 기간 중 의뢰를 완료하여 보상을 획득하세요.\n 이벤트 기간: 2026년 11월 5일 11:00 ~ 2026년 11월 16일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "b098db3e2c5baf3822a0d8f80046fc7db2c393544782f640384aef24e7ee3aab",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Starry Gleanings Ⅱ",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Complete commissions during the event to earn rewards.\n Event Period:\n November 5, 2026, 10:00 – November 16, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "2533d2c394eda49e0f4a3e04ebc781cc3657c9b5aa9a3e832a7636935c8af901",
+          "importedAt": "2026-10-23T23:38:16.926Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "スターメモリアル・Ⅱ",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "イベント期間中、依頼を完了するとプレゼントを受け取れます。\n 開催期間：2026年11月5日11:00～2026年11月16日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "6ccdd630adcdc7cd6b0f72a012283bfff41f67a3424e7b560dea116d220408be",
+          "importedAt": "2026-10-23T23:38:16.928Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "星耀紀念·Ⅱ",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "活動期間完成委託領取贈禮\n 活動時間：2026年11月5日 10:00 ~ 2026年11月16日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能",
+          "images": [],
+          "links": [],
+          "bodyHash": "d72e2a54fcc70a4c8efe3ed176360d147ba8c23d69f000752259609d8ca7177f",
+          "importedAt": "2026-10-23T23:38:16.928Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-16",
+      "id": "dna-event-45cfb4-2522cad5-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "별빛 기념록 Ⅱ",
+        "en": "Starry Gleanings Ⅱ",
+        "ja": "スターメモリアル・Ⅱ",
+        "zh": "星耀紀念·Ⅱ"
+      },
+      "summary": {
+        "ko": "이벤트 기간 중 의뢰를 완료하여 보상을 획득하세요.\n 이벤트 기간: 2026년 11월 5일 11:00 ~ 2026년 11월 16일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n November 5, 2026, 10:00 – November 16, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年11月5日11:00～2026年11月16日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年11月5日 10:00 ~ 2026年11月16日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-05T11:00:00+09:00",
+      "endAt": "2026-11-16T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "별빛 기념록 Ⅱ",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "몰입형 연극·함께하는 무대",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[몰입형 연극·함께하는 무대]\n 극중 이야기의 흐름을 결정하고, 연극에 몰입하여 함께 완벽한 결말을 맞이하세요.\n 이벤트 기간: 2026년 11월 6일 11:00 ~ 2026년 12월 3일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "bd862ec4291e0992c83119f6e1d9af2bfa94f14d389519a12f3af123434fc0a0",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Immersive Theatre: Ensemble Act",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Together, we decide where the story will lead. Step onto the stage, and let us bring this performance to its perfect finale.\n Event Period:\n November 6, 2026, 10:00 – December 3, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "66ba5c302f56f863dda0d4e8989bf1b7970b568082c37420af84cc698d1456d9",
+          "importedAt": "2026-10-23T23:38:16.933Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "体験型劇場・華麗なる共演",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "私たちは劇中の物語の行方を決め、この舞台に没入し、ともに物語の完璧な終幕を迎える。\n 開催期間：2026年11月6日11:00～2026年12月3日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "60643360d5c69829e8eb7ed91fa0b5129d62eb81b699611093680528b98bddbf",
+          "importedAt": "2026-10-23T23:38:16.933Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "沉浸式戲劇·聯袂演繹",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "我們將決定劇中故事的走向，沉浸於我們的劇目，共同迎接故事的完美終局。\n 活動時間：2026年11月6日 10:00 ~ 2026年12月3日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能。",
+          "images": [],
+          "links": [],
+          "bodyHash": "bfc92f44dd71113e7759431682d0c631990f63f0c542b15da22b2a2561f34aba",
+          "importedAt": "2026-10-23T23:38:16.934Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-06",
+      "endDate": "2026-12-03",
+      "id": "dna-event-45cfb4-8140f07-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "몰입형 연극·함께하는 무대",
+        "en": "Immersive Theatre: Ensemble Act",
+        "ja": "体験型劇場・華麗なる共演",
+        "zh": "沉浸式戲劇·聯袂演繹"
+      },
+      "summary": {
+        "ko": "극중 이야기의 흐름을 결정하고, 연극에 몰입하여 함께 완벽한 결말을 맞이하세요.\n 이벤트 기간: 2026년 11월 6일 11:00 ~ 2026년 12월 3일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n November 6, 2026, 10:00 – December 3, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年11月6日11:00～2026年12月3日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年11月6日 10:00 ~ 2026年12月3日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-06T11:00:00+09:00",
+      "endAt": "2026-12-03T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "몰입형 연극·함께하는 무대",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "몰입형 연극",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[몰입형 연극] 인기 레퍼토리에 참여하고 답 없는 수수께끼 설계도를 획득하세요!\n 몰입형 연극이 오픈되었습니다. 무대에 올라 당신만의 연극을 연출하세요.\n 이벤트 기간: 2026년 11월 10일 11:00 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 황혼의 정박편 스토리 [심판의 날]과 스페셜 사이드 퀘스트 [새로운 연극] 완료",
+          "images": [],
+          "links": [],
+          "bodyHash": "80cd8885544abbe50d9aeece1105c49e9c1853510661ba3bad3ebe1111852957",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Immersive Theatre – Blueprint: Endless Enigma",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "The Immersive Theatre beckons – take the stage and put on your show.\n Event Period:\n November 10, 2026, 10:00 – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Twilight – The Judgment Day] and the special side quest [A New Theatrical Experience].",
+          "images": [],
+          "links": [],
+          "bodyHash": "f59214645ac9cf5247bd7c9ad38fa343ad2acb35ce46079aefe47001cf9c4b02",
+          "importedAt": "2026-10-23T23:38:16.935Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "体験型劇場",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "体験型劇場が開幕。舞台に上がり、あなただけの物語を演じよう。\n 開催期間：2026年11月10日11:00～2026年11月30日18:00（JST）\n 開放条件：「黄昏の碇泊」篇のストーリー【審判の日】と特別サブクエスト【新たな劇】をクリア。",
+          "images": [],
+          "links": [],
+          "bodyHash": "3871302eff8a522c75df49fd4abedb5647be9288305a6d3b38cbeb4d49dbe53b",
+          "importedAt": "2026-10-23T23:38:16.935Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "沉浸式戲劇",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "沉浸式戲劇已開啟，踏上舞台，演繹屬於你的劇目。\n 活動時間：2026年11月10日 10:00 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成泊暮篇劇情【審判日】與特殊支線任務【全新戲劇】。",
+          "images": [],
+          "links": [],
+          "bodyHash": "2aa05bbc6a4c29364d8de662187deb48a7e70fb211259f31d3357cbaed712963",
+          "importedAt": "2026-10-23T23:38:16.935Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-30",
+      "id": "dna-event-45cfb4-ee178618-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "몰입형 연극",
+        "en": "Immersive Theatre – Blueprint: Endless Enigma",
+        "ja": "体験型劇場",
+        "zh": "沉浸式戲劇"
+      },
+      "summary": {
+        "ko": "몰입형 연극이 오픈되었습니다. 무대에 올라 당신만의 연극을 연출하세요.\n 이벤트 기간: 2026년 11월 10일 11:00 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 황혼의 정박편 스토리 [심판의 날]과 스페셜 사이드 퀘스트 [새로운 연극] 완료",
+        "en": " Event Period:\n November 10, 2026, 10:00 – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Twilight – The Judgment Day] and the special side quest [A New Theatrical Experience].",
+        "ja": " 開催期間：2026年11月10日11:00～2026年11月30日18:00（JST）\n 開放条件：「黄昏の碇泊」篇のストーリー【審判の日】と特別サブクエスト【新たな劇】をクリア。",
+        "zh": " 活動時間：2026年11月10日 10:00 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成泊暮篇劇情【審判日】與特殊支線任務【全新戲劇】。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-10T11:00:00+09:00",
+      "endAt": "2026-11-30T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "몰입형 연극",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "캔디 드림팩토리",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[캔디 드림팩토리] 리사벨&트러플과 헤이즐넛 신규 코스튬 등장!\n 이벤트 기간에 [캔디 풀하우스] 시리즈 캐릭터 코스튬과 기타 외형을 획득할 수 있습니다.\n 이벤트 기간: 2026년 11월 10일 11:00 ~ 2026년 12월 21일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "e946c1b7465eee2297b9b7378af1b5582b83f44c9f6ad420919737396515d670",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Atelier of Candy Dreams",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "New skins for Lisbell & Truffle and Filbert.\n During the event, you can obtain skins from the [Treats Galore] series along with other cosmetic rewards.\n Event Period:\n November 10, 2026, 10:00 – December 21, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "2027cfc846a63cc5c3db0ef10f952fb1407d47ed54dd7801d20fb403bf120b99",
+          "importedAt": "2026-10-23T23:38:16.936Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "お菓子の夢工場",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "イベント期間中、[お菓子の家]シリーズのキャラクタースキンやその他の外見アイテムを獲得できます。\n 開催期間：2026年11月10日11:00～2026年12月21日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "e7be49026c57c30943331de809c95f7a261f7309c5488497abe4837537185335",
+          "importedAt": "2026-10-23T23:38:16.937Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "糖果夢工廠",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "活動期間可獲取[糖霜滿屋]系列角色形象及其他外觀\n 活動時間：2026年11月10日 10:00 ~ 2026年12月21日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能。",
+          "images": [],
+          "links": [],
+          "bodyHash": "c2385af2ede61cc867fee1bc9a55ebcc446dd1d8571a7e55505a194bb6fdc8d6",
+          "importedAt": "2026-10-23T23:38:16.937Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-10",
+      "endDate": "2026-12-21",
+      "id": "dna-event-45cfb4-80362736-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "캔디 드림팩토리",
+        "en": "Atelier of Candy Dreams",
+        "ja": "お菓子の夢工場",
+        "zh": "糖果夢工廠"
+      },
+      "summary": {
+        "ko": "이벤트 기간에 [캔디 풀하우스] 시리즈 캐릭터 코스튬과 기타 외형을 획득할 수 있습니다.\n 이벤트 기간: 2026년 11월 10일 11:00 ~ 2026년 12월 21일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n November 10, 2026, 10:00 – December 21, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年11月10日11:00～2026年12月21日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年11月10日 10:00 ~ 2026年12月21日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-10T11:00:00+09:00",
+      "endAt": "2026-12-21T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "캔디 드림팩토리",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "문명 대결",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[문명 대결]\n &quot;잠잠잠, 깐만! 때리지 마! 이번엔 좀 더 평화로운 방법으로 해결하자고! ...내, 내기를 하는 건 어때? 네가 이걸 해낸다면 물건을 넘겨줄게!&quot;\n ——쪼그리고 앉아 머리를 감싸고 있는 말더듬이 강, 강도 루나\n 이벤트 기간: 2026년 11월 12일 11:00 ~ 2026년 11월 23일 18:00 (KST)\n 오픈 조건: 밤의 항해편 제1장 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "fb3b380572000c5025b0d2d90b40461ab7b24209cf420e733b30f40847e36e7e",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Friendly Games",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "&quot;H—H—Hey, wait, WAIT! Let's settle this nice and civil for once, alright!? Like... with a wager! Beat my little challenge and the loot's all yours!&quot;\n — Lulu Lunoloot, curled up on the ground, begging for mercy\n Event Period:\n November 12, 2026, 10:00 – November 23, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "a4f272c31b750002d1ba44d5f9052142f1eaacff64c1691f15054d71f1c1bf76",
+          "importedAt": "2026-10-23T23:38:16.938Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "平和な賭け事",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "「ま、ま、待って、殴らないで！今回はもっと平和な方法にしようよ！たとえば……賭けをしよう！これをやり遂げられたら、品物はあげるから！」\n ——頭を抱えて地面にしゃがみ込む天下御免の大泥棒\n 開催期間：2026年11月12日11:00～2026年11月23日18:00（JST）\n 開放条件：「夜の航海」篇第1章のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "7a854612a20aa39179fbf1e98d25bfdd2d97f66d914c28fb0e1239a076ccfa12",
+          "importedAt": "2026-10-23T23:38:16.939Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "文明博弈",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "「先先先別打，這次我們換個文明點的方式好不好！比如…… 打個賭吧！只要你能做到這些事，我就把東西給你！」\n —— 抱頭蹲在地上的打打打打打劫皎皎\n 活動時間：2026年11月12日 10:00 ~ 2026年11月23日 17:00（伺服器時間）\n 開放條件：完成夜航篇第一章劇情【前往少女所說的宅邸】並開啟【活動】功能。",
+          "images": [],
+          "links": [],
+          "bodyHash": "182127cbdcb0ab4f36f2cea89e1ec747738fbca03e1f5179edd879e687a1ebae",
+          "importedAt": "2026-10-23T23:38:16.951Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-23",
+      "id": "dna-event-45cfb4-8d6b28e0-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "문명 대결",
+        "en": "Friendly Games",
+        "ja": "平和な賭け事",
+        "zh": "文明博弈"
+      },
+      "summary": {
+        "ko": "&quot;잠잠잠, 깐만! 때리지 마! 이번엔 좀 더 평화로운 방법으로 해결하자고! ...내, 내기를 하는 건 어때? 네가 이걸 해낸다면 물건을 넘겨줄게!&quot;\n ——쪼그리고 앉아 머리를 감싸고 있는 말더듬이 강, 강도 루나\n 이벤트 기간: 2026년 11월 12일 11:00 ~ 2026년 11월 23일 18:00 (KST)\n 오픈 조건: 밤의 항해편 제1장 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n November 12, 2026, 10:00 – November 23, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年11月12日11:00～2026年11月23日18:00（JST）\n 開放条件：「夜の航海」篇第1章のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年11月12日 10:00 ~ 2026年11月23日 17:00（伺服器時間）\n 開放條件：完成夜航篇第一章劇情【前往少女所說的宅邸】並開啟【活動】功能。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-12T11:00:00+09:00",
+      "endAt": "2026-11-23T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "문명 대결",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "정상을 향해",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[정상을 향해]\n 이벤트 기간: 2026년 11월 18일 11:00 ~ 2026년 12월 5일 06:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "79385024f0723dfbfe0403d8924ea944be2f31c054d5b44c73fe0d26cc23551c",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Phoxhunter Summit",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Event Period:\n November 18, 2026, 10:00 – December 5, 2026, 05:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "26d17232185398b8c0f0458431bf6bde0c03617d6d1d50737f4e96c7ca577b08",
+          "importedAt": "2026-10-23T23:38:16.952Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "月狩り人の階段",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "開催期間：2026年11月18日11:00～2026年12月5日06:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "12a2f593fff3dc09e5c51b9d296f907bdb1e30978174159dda6bd9e623f96a38",
+          "importedAt": "2026-10-23T23:38:16.952Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "狩月人之階",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "活動時間：2026年11月18日 10:00 ~ 2026年12月5日 05:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能",
+          "images": [],
+          "links": [],
+          "bodyHash": "e2722390efe8c8dce52e95d95ed25cdd49f62682c4e6e51a2c84ad304da64ac5",
+          "importedAt": "2026-10-23T23:38:16.952Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-18",
+      "endDate": "2026-12-05",
+      "id": "dna-event-45cfb4-292d4a12-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "정상을 향해",
+        "en": "Phoxhunter Summit",
+        "ja": "月狩り人の階段",
+        "zh": "狩月人之階"
+      },
+      "summary": {
+        "ko": "이벤트 기간: 2026년 11월 18일 11:00 ~ 2026년 12월 5일 06:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": "Event Period:\n November 18, 2026, 10:00 – December 5, 2026, 05:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": "開催期間：2026年11月18日11:00～2026年12月5日06:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": "活動時間：2026年11月18日 10:00 ~ 2026年12月5日 05:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-18T11:00:00+09:00",
+      "endAt": "2026-12-05T06:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "정상을 향해",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "무유생의 기묘한 모험",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[무유생의 기묘한 모험]\n 이루지 못한 소망, 끝맺지 못한 마음... 어디선가 생겨난 이 영혼들과 함께, 모험으로 되살아난다.\n 이벤트 기간: 2026년 11월 19일 11:00 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 사이드 퀘스트 [마령아 마령아] 완료",
+          "images": [],
+          "links": [],
+          "bodyHash": "c2726ca3a019bff767038516286650d9e55a3686f15dc70bb46cc9d133dbafd5",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Wishen's Daring Adventures",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Unfulfilled thoughts, ungranted wishes... With the arrival of these inexplicable beings, adventure stirs once more.\n Event Period:\n November 19, 2026, 10:00 – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete the side quest [Go, Geniemons!].",
+          "images": [],
+          "links": [],
+          "bodyHash": "264daddb76c6b6284b5d09376da7c52d246c6c28cd79d1af728163642472968c",
+          "importedAt": "2026-10-23T23:38:16.953Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "ムユウセイ奇譚",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "未完の想い、消えない願い……ムユウセイたちとの奇妙な冒険がはじまる。\n 開催期間：2026年11月19日11:00～2026年11月30日18:00（JST）\n 開放条件：サブストーリー【おお、ジェネモンよ】をクリア。",
+          "images": [],
+          "links": [],
+          "bodyHash": "35c3f4583b811ce42a4be45c3de7472c2dc33763ae77179313c4586f02ebda54",
+          "importedAt": "2026-10-23T23:38:16.953Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "無由履險奇譚",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "未竟之念，未了的心願……伴隨著這些無由而來的生靈們，歷險悄然甦生。\n 活動時間：2026年11月19日 10:00 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成支線任務【魔靈啊魔靈】",
+          "images": [],
+          "links": [],
+          "bodyHash": "2e2cfcc0c9035592e6d0edaabd0e89942388ae3c89e9c81ace09e3bf670feeeb",
+          "importedAt": "2026-10-23T23:38:16.953Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-30",
+      "id": "dna-event-45cfb4-3e3599a6-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "무유생의 기묘한 모험",
+        "en": "Wishen's Daring Adventures",
+        "ja": "ムユウセイ奇譚",
+        "zh": "無由履險奇譚"
+      },
+      "summary": {
+        "ko": "이루지 못한 소망, 끝맺지 못한 마음... 어디선가 생겨난 이 영혼들과 함께, 모험으로 되살아난다.\n 이벤트 기간: 2026년 11월 19일 11:00 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 사이드 퀘스트 [마령아 마령아] 완료",
+        "en": " Event Period:\n November 19, 2026, 10:00 – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete the side quest [Go, Geniemons!].",
+        "ja": " 開催期間：2026年11月19日11:00～2026年11月30日18:00（JST）\n 開放条件：サブストーリー【おお、ジェネモンよ】をクリア。",
+        "zh": " 活動時間：2026年11月19日 10:00 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成支線任務【魔靈啊魔靈】"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-19T11:00:00+09:00",
+      "endAt": "2026-11-30T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "무유생의 기묘한 모험",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "보물찾기 훈련",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[보물찾기 훈련]\n 화서의 '봉향 영웅대회'를 본뜬 모의 훈련. 훈련 스테이지를 완료하고 대량의 보상을 획득하세요.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 12월 1일 06:00 (KST)\n 오픈 조건: 퀘스트 [세계 기행·거궐의 공격] 완료",
+          "images": [],
+          "links": [],
+          "bodyHash": "0b5b64d0a38b9aa02db4e3fd8dbb24872459f440bd7fbff594c0c3d71a196ade",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Treasure Hunt Trials",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "A simulation modelled on Huaxu's Incense Proving. Clear trial stages to earn generous rewards.\n Event Period:\n After the October 20, 2026 update (UTC+8) – December 1, 2026, 05:00 (server time)\n Prerequisites:\n Complete [Journey Across the Lands – The Terracolossus Strikes].",
+          "images": [],
+          "links": [],
+          "bodyHash": "8cb55a752bd877b0c04e450e58e485860478ca631c0bee534760ef5e792977e3",
+          "importedAt": "2026-10-23T23:38:16.954Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "秘宝探索演習",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "華胥の大会「奉香英雄大会」を模したシミュレーション演習。演習ステージをクリアすると、大量の報酬を獲得できます。\n 開催期間：2026年10月20日メンテナンス後～2026年12月1日06:00（JST）\n 開放条件：クエスト【ワールドジャーニー・巨闕、鋒を驚かす】をクリア。",
+          "images": [],
+          "links": [],
+          "bodyHash": "4cc02c6085c2071e3a24914492d3def0be1cdf5385dfe33ccd31c9db22bb57e2",
+          "importedAt": "2026-10-23T23:38:16.954Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "尋珍演練",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "仿照華胥賽事「奉香群英試」的模擬推演。完成演練關卡，獲得大量獎勵。\n 活動時間：2026年10月20日更新後 ~ 2026年12月1日 05:00（伺服器時間）\n 開放條件：完成任務【世界紀游·巨闕驚鋒】",
+          "images": [],
+          "links": [],
+          "bodyHash": "009aab668a982340e7b2d2e59da35fd01a74890b4616c3f9ed81107d2404722d",
+          "importedAt": "2026-10-23T23:38:16.954Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-10-20",
+      "endDate": "2026-12-01",
+      "id": "dna-event-45cfb4-424d53d3-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "보물찾기 훈련",
+        "en": "Treasure Hunt Trials",
+        "ja": "秘宝探索演習",
+        "zh": "尋珍演練"
+      },
+      "summary": {
+        "ko": "화서의 '봉향 영웅대회'를 본뜬 모의 훈련. 훈련 스테이지를 완료하고 대량의 보상을 획득하세요.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 12월 1일 06:00 (KST)\n 오픈 조건: 퀘스트 [세계 기행·거궐의 공격] 완료",
+        "en": " Event Period:\n After the October 20, 2026 update (UTC+8) – December 1, 2026, 05:00 (server time)\n Prerequisites:\n Complete [Journey Across the Lands – The Terracolossus Strikes].",
+        "ja": " 開催期間：2026年10月20日メンテナンス後～2026年12月1日06:00（JST）\n 開放条件：クエスト【ワールドジャーニー・巨闕、鋒を驚かす】をクリア。",
+        "zh": " 活動時間：2026年10月20日更新後 ~ 2026年12月1日 05:00（伺服器時間）\n 開放條件：完成任務【世界紀游·巨闕驚鋒】"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": null,
+      "endAt": "2026-12-01T06:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "보물찾기 훈련",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "축제 기념 선물",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[축제 기념 선물]\n 이벤트 기간 중 선물을 수령하세요.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 밤의 항해편 제1장 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "ef00d0463b50d6c4967e10d66c2adabddfd57e7527955b23c67c70453abd3397",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Anniversary Splendor",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Claim your gifts during the event.\n Event Period:\n After the October 20, 2026 update (UTC+8) – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "4861021185b9e74608ebbc16d1a0858a16d14aba06efd4d213c5b42f2cc6fcb9",
+          "importedAt": "2026-10-23T23:38:16.955Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "祝典ギフト",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "イベント期間中、プレゼントを受け取れます。\n 開催期間：2026年10月20日メンテナンス後～2026年11月30日18:00（JST）\n 開放条件：「夜の航海」篇第1章のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "bea7e06b9c23060c3038005307a15f133de08b9b95a627bf44760e6d3794c626",
+          "importedAt": "2026-10-23T23:38:16.955Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "盛典禮贈",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "活動期間領取贈禮\n 活動時間：2026年10月20日更新後 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成夜航篇第一章劇情【前往少女所說的宅邸】並開啟【活動】功能。",
+          "images": [],
+          "links": [],
+          "bodyHash": "2db9d5efacabb15d18de187c4aef888e0783c9406678b6e98813fedb928cf3b1",
+          "importedAt": "2026-10-23T23:38:16.955Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-10-20",
+      "endDate": "2026-11-30",
+      "id": "dna-event-45cfb4-cf1de714-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "축제 기념 선물",
+        "en": "Anniversary Splendor",
+        "ja": "祝典ギフト",
+        "zh": "盛典禮贈"
+      },
+      "summary": {
+        "ko": "이벤트 기간 중 선물을 수령하세요.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 밤의 항해편 제1장 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n After the October 20, 2026 update (UTC+8) – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年10月20日メンテナンス後～2026年11月30日18:00（JST）\n 開放条件：「夜の航海」篇第1章のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年10月20日更新後 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成夜航篇第一章劇情【前往少女所說的宅邸】並開啟【活動】功能。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": null,
+      "endAt": "2026-11-30T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "축제 기념 선물",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "등불이 될 그녀",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[등불이 될 그녀] 리듬·되살아난 불꽃 캐릭터 스토리 이벤트\n 꺼진 등대 아래, 그 낯익고도 매서운 아이스레이크 시티의 바람은 여전히 휭휭 불고 있다.\n 소녀는 하나하나 문을 두드리며 사람들에게 온기를 건넨다.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [용의자의 등장] 완료",
+          "images": [],
+          "links": [],
+          "bodyHash": "474ad578401688190f4133bcde7c8b2622948ef6bb57ac52ae154f4f203d35ee",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "The Flame She'll Be",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Character Story Event for Rhythm: Flamewrought\n Beneath the darkened lighthouse, the wind of Icelake remains bitterly cold.\n She knocks on doors, bringing warmth to those within.\n Event Period:\n After the October 20, 2026 update (UTC+8) – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – The Suspect Emerges].",
+          "images": [],
+          "links": [],
+          "bodyHash": "7b3691f294ce8119697c9631034dace72c157106b63d0201a8fbb6446303e6e8",
+          "importedAt": "2026-10-23T23:38:16.955Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "彼女は灯火となる",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "光を失った灯台の下、アイスレイク城には、変わらず馴染みの冷たい風が吹いている。\n 少女は一軒また一軒と扉を叩き、人々にぬくもりを届ける。\n 開催期間：2026年10月20日メンテナンス後～2026年11月30日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【容疑者の出現】をクリア。",
+          "images": [],
+          "links": [],
+          "bodyHash": "69241893354b2c04a87fb75733317c52b2d6854cad02e04b1c88276bb95d85a9",
+          "importedAt": "2026-10-23T23:38:16.956Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "她將成為燈火",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "熄滅的燈塔下，冰湖城的風依舊熟悉而冷冽。\n 少女叩響一扇扇門扉，為人們帶來暖意。\n 活動時間：2026年10月20日更新後 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【嫌疑人的現身】。",
+          "images": [],
+          "links": [],
+          "bodyHash": "6db069e1809cdf0e6860cd3628eecb60a30c04a3af2c133774da38b89c9ed22f",
+          "importedAt": "2026-10-23T23:38:16.956Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-10-20",
+      "endDate": "2026-11-30",
+      "id": "dna-event-45cfb4-46e48ebd-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "등불이 될 그녀",
+        "en": "The Flame She'll Be",
+        "ja": "彼女は灯火となる",
+        "zh": "她將成為燈火"
+      },
+      "summary": {
+        "ko": "꺼진 등대 아래, 그 낯익고도 매서운 아이스레이크 시티의 바람은 여전히 휭휭 불고 있다.\n 소녀는 하나하나 문을 두드리며 사람들에게 온기를 건넨다.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [용의자의 등장] 완료",
+        "en": " Event Period:\n After the October 20, 2026 update (UTC+8) – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – The Suspect Emerges].",
+        "ja": " 開催期間：2026年10月20日メンテナンス後～2026年11月30日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【容疑者の出現】をクリア。",
+        "zh": " 活動時間：2026年10月20日更新後 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【嫌疑人的現身】。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": null,
+      "endAt": "2026-11-30T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "등불이 될 그녀",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "한밤의 망각의 강",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[한밤의 망각의 강] 피나&리듬 「기이한 속삭임」 캐릭터 코스튬 기간 한정 복각!\n 달 그림자가 연못에 비치고, 낡은 책 속에선 한가로이 귀신 이야기를 전하네.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "2dabcfabfd9df9e25b1a8d335f85809b6ee6ce0cc423c19807ed3294cff12a3c",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Fading Echoes Adrift",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Shadows adrift beneath the moonlight; the restless whispering among the pages.\n Event Period:\n After the October 20, 2026 update (UTC+8) – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "5f92a5da622d2234099445400ed532f37b60b790e6845830b9bc7ea185912b41",
+          "importedAt": "2026-10-23T23:38:16.956Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "三途川の夜話",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "月夜にひとたまりの影が降り、半巻のしおりが鬼神を語る。\n 開催期間：2026年10月20日メンテナンス後～2026年11月30日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "dc274062322059b0874b5fcdd28c1f1fe528853589704272134c5d617861d559",
+          "importedAt": "2026-10-23T23:38:16.957Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "忘川夜話",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "一汪幽影灑月夜，半卷書籤話鬼神。\n 活動時間：2026年10月20日更新後 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能。",
+          "images": [],
+          "links": [],
+          "bodyHash": "8d2de93db91d4e7b6a098c23254bb61d0474fdbf5b69318833a46a9d5e4fe863",
+          "importedAt": "2026-10-23T23:38:16.957Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-10-20",
+      "endDate": "2026-11-30",
+      "id": "dna-event-45cfb4-7699f7a4-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "한밤의 망각의 강",
+        "en": "Fading Echoes Adrift",
+        "ja": "三途川の夜話",
+        "zh": "忘川夜話"
+      },
+      "summary": {
+        "ko": "달 그림자가 연못에 비치고, 낡은 책 속에선 한가로이 귀신 이야기를 전하네.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n After the October 20, 2026 update (UTC+8) – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年10月20日メンテナンス後～2026年11月30日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年10月20日更新後 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": null,
+      "endAt": "2026-11-30T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "한밤의 망각의 강",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "수려한 화폭",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[수려한 화폭]\n 이벤트 기간 동안 지정된 외형을 수집하고 포인트를 획득하여, 풍성한 보상을 획득하세요.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "0278835cdc4b84244ed64920f19ee058cd0d69eb82762db991800829d3362661",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Vibrant Strokes",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Collect eligible skins during the event to earn points and unlock rewards.\n Event Period:\n After the October 20, 2026 update (UTC+8) – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "256a8e8eae13ffbb4fbd0ef59850cee42cb437f5a70a3167bf21077abbbfbfd2",
+          "importedAt": "2026-10-23T23:38:16.957Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "彩りの絵とき",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "イベント期間中、指定の外見アイテムを集めてポイントを獲得すると、豪華報酬を解放して受け取れます。\n 開催期間：2026年10月20日メンテナンス後～2026年11月30日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "3992cfd2c719e149a1c0302c4c4e05e85882611b1a4749e208f4f6c9cd4c64da",
+          "importedAt": "2026-10-23T23:38:16.957Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "華彩圖記",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "活動期間收集指定外觀以獲得積分，解鎖後即可獲得豐富獎勵\n 活動時間：2026年10月20日更新後 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能",
+          "images": [],
+          "links": [],
+          "bodyHash": "43c7a4c569787f05087da0a084ff45531b519b8b08b07388521838306d20a72a",
+          "importedAt": "2026-10-23T23:38:16.958Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-10-20",
+      "endDate": "2026-11-30",
+      "id": "dna-event-45cfb4-a15864a6-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "수려한 화폭",
+        "en": "Vibrant Strokes",
+        "ja": "彩りの絵とき",
+        "zh": "華彩圖記"
+      },
+      "summary": {
+        "ko": "이벤트 기간 동안 지정된 외형을 수집하고 포인트를 획득하여, 풍성한 보상을 획득하세요.\n 이벤트 기간: 2026년 10월 20일 업데이트 후 ~ 2026년 11월 30일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n After the October 20, 2026 update (UTC+8) – November 30, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年10月20日メンテナンス後～2026年11月30日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年10月20日更新後 ~ 2026年11月30日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": null,
+      "endAt": "2026-11-30T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "수려한 화폭",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "수확일 · 1",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[수확일]\n 1차 이벤트 기간: 2026년 10월 29일 11:00 ~ 2026년 11월 5일 06:00 (KST)\n 2차 이벤트 기간: 2026년 11월 12일 11:00 ~ 2026년 11월 19일 06:00 (KST)\n 오픈 조건: [녹토 보이저 지침서] 및 [이벤트] 기능 해제",
+          "images": [],
+          "links": [],
+          "bodyHash": "2fe140c4bf5ef5e58bbeff47ba4317868da31e58840e4c71c18d758414bfa8de",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Bountiful Day",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Event Period:\n Phase Ⅰ: October 29, 2026, 10:00 – November 5, 2026, 05:00 (server time)\n Phase Ⅱ: November 12, 2026, 10:00 – November 19, 2026, 05:00 (server time)\n Prerequisites:\n Unlock [Noctoyager Manual] and [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "cdc639b3fefd35260447455f74f9e06fe33562896f797ce97090736f780f7bfa",
+          "importedAt": "2026-10-23T23:38:16.958Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "収穫の日",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "第1期開催期間：2026年10月29日11:00～2026年11月5日06:00（JST）\n 第2期開催期間：2026年11月12日11:00～2026年11月19日06:00（JST）\n 開放条件：【ノクトボイジャー手帳】と【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "d3f0c784063833cd7eb69c260661833807ac373979e5b939fe35388ee9fe5887",
+          "importedAt": "2026-10-23T23:38:16.958Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "收穫日",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "活動時間：第一期 2026年10月29日 10:00 ~ 2026年11月5日 05:00（伺服器時間）\n 活動時間：第二期 2026年11月12日 10:00 ~ 2026年11月19日 05:00（伺服器時間）\n 開放條件：解鎖【夜航手冊】與【活動】功能",
+          "images": [],
+          "links": [],
+          "bodyHash": "1a6ba95db42026abbd5e3653fd6cb3a17d5365a58c91bb9faa44c4ad6e8c87c8",
+          "importedAt": "2026-10-23T23:38:16.958Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-05",
+      "id": "dna-event-45cfb4-4ae6bce4-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "수확일 · 1",
+        "en": "Bountiful Day",
+        "ja": "収穫の日",
+        "zh": "收穫日"
+      },
+      "summary": {
+        "ko": "1차 이벤트 기간: 2026년 10월 29일 11:00 ~ 2026년 11월 5일 06:00 (KST)\n 2차 이벤트 기간: 2026년 11월 12일 11:00 ~ 2026년 11월 19일 06:00 (KST)\n 오픈 조건: [녹토 보이저 지침서] 및 [이벤트] 기능 해제",
+        "en": "Event Period:\n Phase Ⅰ: October 29, 2026, 10:00 – November 5, 2026, 05:00 (server time)\n Phase Ⅱ: November 12, 2026, 10:00 – November 19, 2026, 05:00 (server time)\n Prerequisites:\n Unlock [Noctoyager Manual] and [Events].",
+        "ja": "第1期開催期間：2026年10月29日11:00～2026年11月5日06:00（JST）\n 第2期開催期間：2026年11月12日11:00～2026年11月19日06:00（JST）\n 開放条件：【ノクトボイジャー手帳】と【イベント】機能を開放。",
+        "zh": "活動時間：第一期 2026年10月29日 10:00 ~ 2026年11月5日 05:00（伺服器時間）\n 活動時間：第二期 2026年11月12日 10:00 ~ 2026年11月19日 05:00（伺服器時間）\n 開放條件：解鎖【夜航手冊】與【活動】功能"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-10-29T11:00:00+09:00",
+      "endAt": "2026-11-05T06:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "수확일 · 1",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "수확일 · 2",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[수확일]\n 1차 이벤트 기간: 2026년 10월 29일 11:00 ~ 2026년 11월 5일 06:00 (KST)\n 2차 이벤트 기간: 2026년 11월 12일 11:00 ~ 2026년 11월 19일 06:00 (KST)\n 오픈 조건: [녹토 보이저 지침서] 및 [이벤트] 기능 해제",
+          "images": [],
+          "links": [],
+          "bodyHash": "cc1b68bd5991021209706751a2da1d6a4b613b52807cb84a74796e2fade7027e",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Bountiful Day",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Event Period:\n Phase Ⅰ: October 29, 2026, 10:00 – November 5, 2026, 05:00 (server time)\n Phase Ⅱ: November 12, 2026, 10:00 – November 19, 2026, 05:00 (server time)\n Prerequisites:\n Unlock [Noctoyager Manual] and [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "cdc639b3fefd35260447455f74f9e06fe33562896f797ce97090736f780f7bfa",
+          "importedAt": "2026-10-23T23:38:16.959Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "収穫の日",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "第1期開催期間：2026年10月29日11:00～2026年11月5日06:00（JST）\n 第2期開催期間：2026年11月12日11:00～2026年11月19日06:00（JST）\n 開放条件：【ノクトボイジャー手帳】と【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "d3f0c784063833cd7eb69c260661833807ac373979e5b939fe35388ee9fe5887",
+          "importedAt": "2026-10-23T23:38:16.959Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "收穫日",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "活動時間：第一期 2026年10月29日 10:00 ~ 2026年11月5日 05:00（伺服器時間）\n 活動時間：第二期 2026年11月12日 10:00 ~ 2026年11月19日 05:00（伺服器時間）\n 開放條件：解鎖【夜航手冊】與【活動】功能",
+          "images": [],
+          "links": [],
+          "bodyHash": "1a6ba95db42026abbd5e3653fd6cb3a17d5365a58c91bb9faa44c4ad6e8c87c8",
+          "importedAt": "2026-10-23T23:38:16.959Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-19",
+      "id": "dna-event-45cfb4-4ae6bce4-1",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "수확일 · 2",
+        "en": "Bountiful Day",
+        "ja": "収穫の日",
+        "zh": "收穫日"
+      },
+      "summary": {
+        "ko": "1차 이벤트 기간: 2026년 10월 29일 11:00 ~ 2026년 11월 5일 06:00 (KST)\n 2차 이벤트 기간: 2026년 11월 12일 11:00 ~ 2026년 11월 19일 06:00 (KST)\n 오픈 조건: [녹토 보이저 지침서] 및 [이벤트] 기능 해제",
+        "en": "Event Period:\n Phase Ⅰ: October 29, 2026, 10:00 – November 5, 2026, 05:00 (server time)\n Phase Ⅱ: November 12, 2026, 10:00 – November 19, 2026, 05:00 (server time)\n Prerequisites:\n Unlock [Noctoyager Manual] and [Events].",
+        "ja": "第1期開催期間：2026年10月29日11:00～2026年11月5日06:00（JST）\n 第2期開催期間：2026年11月12日11:00～2026年11月19日06:00（JST）\n 開放条件：【ノクトボイジャー手帳】と【イベント】機能を開放。",
+        "zh": "活動時間：第一期 2026年10月29日 10:00 ~ 2026年11月5日 05:00（伺服器時間）\n 活動時間：第二期 2026年11月12日 10:00 ~ 2026年11月19日 05:00（伺服器時間）\n 開放條件：解鎖【夜航手冊】與【活動】功能"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-12T11:00:00+09:00",
+      "endAt": "2026-11-19T06:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "수확일 · 2",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "별빛 순회",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[별빛 순회]\n 이벤트 기간 중 구역 멀티 누적 접속 시간에 따라 보상을 수령하세요.\n 이벤트 기간: 2026년 10월 29일 11:00 ~ 2026년 11월 16일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "1128b7f853567683fb37c7f402f49a4f4ea5c1025ace5189d279870da1bd2e99",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Starry Sojourn",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Earn rewards based on your total time spent in Regional Co-op during the event.\n Event Period:\n October 29, 2026, 10:00 – November 16, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "477918dc14c51a4dd181731eac58f733962c172bbffbc7a348cdb48b04b8e27d",
+          "importedAt": "2026-10-23T23:38:16.960Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "スターパレード",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "イベント期間中、エリア連携の累計オンライン時間に応じてプレゼントを受け取れます。\n 開催期間：2026年10月29日11:00～2026年11月16日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "f731d24062a5878a189dce9bdb2c44742f3af067fd8b6499588e9d88ef020749",
+          "importedAt": "2026-10-23T23:38:16.960Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "星耀巡遊",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "活動期間累計區域聯機在線時長領取贈禮。\n 活動時間：2026年10月29日 10:00 ~ 2026年11月16日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能",
+          "images": [],
+          "links": [],
+          "bodyHash": "40e0b410869416442e317e4486f98f68578e2d9078aba688a29d90594feb99fc",
+          "importedAt": "2026-10-23T23:38:16.960Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-16",
+      "id": "dna-event-45cfb4-f1e5c2ba-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "별빛 순회",
+        "en": "Starry Sojourn",
+        "ja": "スターパレード",
+        "zh": "星耀巡遊"
+      },
+      "summary": {
+        "ko": "이벤트 기간 중 구역 멀티 누적 접속 시간에 따라 보상을 수령하세요.\n 이벤트 기간: 2026년 10월 29일 11:00 ~ 2026년 11월 16일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n October 29, 2026, 10:00 – November 16, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年10月29日11:00～2026年11月16日18:00（JST）\n 開放条件：「夜の航海」篇のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年10月29日 10:00 ~ 2026年11月16日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-10-29T11:00:00+09:00",
+      "endAt": "2026-11-16T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "별빛 순회",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "영원한 악몽",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "text": "[영원한 악몽]\n 끝없이 이어지는 악몽을 이겨 내고, 성장하여 새롭게 거듭나세요.\n 이벤트 기간 동안 강적에 도전하고 보상을 수령하세요.\n 이벤트 기간: 2026년 11월 2일 11:00 ~ 2026년 11월 22일 18:00 (KST)\n 오픈 조건: 밤의 항해편 제1장 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "2d89c92886dc3c439087beb12858006dacf0bfd667aa77ac5cbefdcf721329ae",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Nocturnal Evermore",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "text": "Conquer the nightmare that never ends — grow, evolve, and emerge anew.\n Confront formidable foes during the event to earn rewards.\n Event Period:\n November 2, 2026, 10:00 – November 22, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+          "images": [],
+          "links": [],
+          "bodyHash": "1acf513cc798bd2728357d3229224eb05dd176f81f0d52edcf442127ad817d1e",
+          "importedAt": "2026-10-23T23:38:16.960Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "終わらぬ悪夢",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "text": "果てしない悪夢を乗り越え、成長し、そして生まれ変わる。\n イベント期間中、強敵に挑戦してプレゼントを受け取ろう。\n 開催期間：2026年11月2日11:00～2026年11月22日18:00（JST）\n 開放条件：「夜の航海」篇第1章のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+          "images": [],
+          "links": [],
+          "bodyHash": "05b77c52af2c2837bce9d8db91ef62a6be2fea7e2f9b787d30643545ac6d47ff",
+          "importedAt": "2026-10-23T23:38:16.961Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "永恆夢魘",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "text": "戰勝永無止境的夢魘——成長、而後蛻變。\n 活動期間挑戰強敵領取贈禮\n 活動時間：2026年11月2日 10:00 ~ 2026年11月22日 17:00（伺服器時間）\n 開放條件：完成夜航篇第一章劇情【前往少女所說的宅邸】並開啟【活動】功能。",
+          "images": [],
+          "links": [],
+          "bodyHash": "bc3e97f4bb270fe8b66ad66bcd63740120816099b66bf9b00ff10a7c279eff49",
+          "importedAt": "2026-10-23T23:38:16.961Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-22",
+      "id": "dna-event-45cfb4-c7274fda-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "영원한 악몽",
+        "en": "Nocturnal Evermore",
+        "ja": "終わらぬ悪夢",
+        "zh": "永恆夢魘"
+      },
+      "summary": {
+        "ko": "끝없이 이어지는 악몽을 이겨 내고, 성장하여 새롭게 거듭나세요.\n 이벤트 기간 동안 강적에 도전하고 보상을 수령하세요.\n 이벤트 기간: 2026년 11월 2일 11:00 ~ 2026년 11월 22일 18:00 (KST)\n 오픈 조건: 밤의 항해편 제1장 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n November 2, 2026, 10:00 – November 22, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events].",
+        "ja": " 開催期間：2026年11月2日11:00～2026年11月22日18:00（JST）\n 開放条件：「夜の航海」篇第1章のストーリー【少女が話した邸宅へ向かう】をクリアし、【イベント】機能を開放。",
+        "zh": " 活動時間：2026年11月2日 10:00 ~ 2026年11月22日 17:00（伺服器時間）\n 開放條件：完成夜航篇第一章劇情【前往少女所說的宅邸】並開啟【活動】功能。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-11-02T11:00:00+09:00",
+      "endAt": "2026-11-22T18:00:00+09:00",
+      "publishedAt": "2026-10-20T02:13:58.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "sourceTitle": "영원한 악몽",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    },
+    {
+      "sourceBodies": {
+        "ko": {
+          "title": "기이한 악장",
+          "locale": "ko",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/676256891013171559?l=koreana",
+          "text": "[기이한 악장] 베레니카&프시케 신규 코스튬 등장!\n 댄서는 끊없이 춤추고, 무도회는 영원히 막을 내리지 않는다.\n 이벤트 기간: 2026년 9월 29일 11:00 ~ 2026년 11월 9일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+          "images": [],
+          "links": [],
+          "bodyHash": "4a3b6d606d97206bc7875b129855f0a9f38bccd63337624504d794532f3c0865",
+          "importedAt": "2026-10-23T23:14:04.017Z",
+          "sourceKind": "official"
+        },
+        "en": {
+          "title": "Capriccio of Whimsy",
+          "locale": "en",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/676256891013171559?l=english",
+          "text": "The dancer spins unceasingly, and the ball never fades.\n Event Period:\n September 29, 2026, 10:00 – November 9, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events]",
+          "images": [],
+          "links": [],
+          "bodyHash": "66f3b2a4ab17e490e29b99f3bf3ea7231150f10a1a7cbb397aa1d448ddc17703",
+          "importedAt": "2026-10-23T23:42:03.233Z",
+          "sourceKind": "official"
+        },
+        "ja": {
+          "title": "幻想曲",
+          "locale": "ja",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/676256891013171559?l=japanese",
+          "text": "踊り手は回り続け、舞踏会は決して終わらない。\n 開催期間：2026年9月29日(火)11：00 ~ 2026年11月9日(月)18：00（JST）\n 開放条件： 夜の航海篇「少女が話した邸宅へ向かう」をクリアし、なおかつ「イベント」機能を開放",
+          "images": [],
+          "links": [],
+          "bodyHash": "03ae8aac2f865d0430ef7ee70e9b4c43820258b945b50c8176800dc2d6ef6075",
+          "importedAt": "2026-10-23T23:42:03.239Z",
+          "sourceKind": "official"
+        },
+        "zh": {
+          "title": "奇想樂章",
+          "locale": "zh",
+          "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/676256891013171559?l=tchinese",
+          "text": "舞者不斷旋轉，舞會永不落幕。\n 活動時間：2026年9月29日 10:00 ~ 2026年11月9日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能。",
+          "images": [],
+          "links": [],
+          "bodyHash": "4a05c5e71e81394ccf93f0cbd663d9788bbcef14a96898a5ce2e2475532a04da",
+          "importedAt": "2026-10-23T23:42:03.241Z",
+          "sourceKind": "official"
+        }
+      },
+      "startDate": "2026-09-29",
+      "endDate": "2026-11-09",
+      "id": "dna-event-3610cd66-77aa49d2-0",
+      "gameId": "dna",
+      "kind": "event",
+      "title": {
+        "ko": "기이한 악장",
+        "en": "Capriccio of Whimsy",
+        "ja": "幻想曲",
+        "zh": "奇想樂章"
+      },
+      "summary": {
+        "ko": "댄서는 끊없이 춤추고, 무도회는 영원히 막을 내리지 않는다.\n 이벤트 기간: 2026년 9월 29일 11:00 ~ 2026년 11월 9일 18:00 (KST)\n 오픈 조건: 밤의 항해편 스토리 [소녀가 말한 저택으로 이동] 완료 및 [이벤트] 기능 오픈",
+        "en": " Event Period:\n September 29, 2026, 10:00 – November 9, 2026, 17:00 (server time)\n Prerequisites:\n Complete [Chapter Noctoyager – Head to the house mentioned by the girl] and unlock [Events]",
+        "ja": " 開催期間：2026年9月29日(火)11：00 ~ 2026年11月9日(月)18：00（JST）\n 開放条件： 夜の航海篇「少女が話した邸宅へ向かう」をクリアし、なおかつ「イベント」機能を開放",
+        "zh": " 活動時間：2026年9月29日 10:00 ~ 2026年11月9日 17:00（伺服器時間）\n 開放條件：完成夜航篇劇情【前往少女所說的宅邸】並開啟【活動】功能。"
+      },
+      "region": "global",
+      "server": "global",
+      "startAt": "2026-09-29T11:00:00+09:00",
+      "endAt": "2026-11-09T18:00:00+09:00",
+      "publishedAt": "2026-09-08T04:13:36.000Z",
+      "verifiedAt": "2026-10-23T23:14:04.017Z",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/676256891013171559?l=koreana",
+      "sourceTitle": "기이한 악장",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "sourceLocale": "ko",
+      "localizationSources": {
+        "en": "https://store.steampowered.com/news/app/3950020/view/676256891013171559?l=english",
+        "ja": "https://store.steampowered.com/news/app/3950020/view/676256891013171559?l=japanese",
+        "zh": "https://store.steampowered.com/news/app/3950020/view/676256891013171559?l=tchinese"
+      },
+      "sourceKind": "official",
+      "rewards": []
+    }
+  ]
+}
