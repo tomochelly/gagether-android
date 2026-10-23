@@ -102,8 +102,8 @@ export async function runFastRefresh(){
      return {url,checkedAt,status:updated.meta.changes?'ok':'review',broadcastStatus:b.status,persisted:!!updated.meta.changes};
     }
     if(b.status==='ended')return {url,checkedAt,status:'ok',broadcastStatus:'ended',historical:true};
-    const title=localized('공식 방송 · 현지화 확인 중','Official broadcast · localization pending','公式番組・翻訳確認中','官方直播·本地化待核实');title[meta.locale]=b.originalTitle;
-    const entry:Entry={id:`broadcast-${meta.gameId}-${meta.locale}-${id}`,gameId:meta.gameId,region:meta.region,server:meta.region,kind:'update',title,summary:localized('공식 방송 메타데이터를 확인했습니다. 발표 내용은 별도 검수 후 반영합니다.','Official broadcast metadata checked. Announcements await separate review.','公式番組のメタデータを確認しました。発表内容は別途確認後に反映します。','已核实官方直播元数据，发布内容将另行核实。'),sourceUrl:url,sourceTitle:b.originalTitle,sourceLocale:meta.locale,sourceKind:'video',officialLocales:[meta.locale],translatedLocales:[],startAt:null,endAt:null,publishedAt:b.announcedAt,verifiedAt:checkedAt,broadcast:b};
+    const title=localized('','','','');title[meta.locale]=b.originalTitle;
+    const entry:Entry={id:`broadcast-${meta.gameId}-${meta.locale}-${id}`,gameId:meta.gameId,region:meta.region,server:meta.region,kind:'update',title,summary:localized('','','',''),sourceUrl:url,sourceTitle:b.originalTitle,sourceLocale:meta.locale,sourceKind:'video',officialLocales:[meta.locale],translatedLocales:[],startAt:null,endAt:null,publishedAt:b.announcedAt,verifiedAt:checkedAt,broadcast:b};
     await saveEntries([entry]);return {url,checkedAt,status:'ok',broadcastStatus:b.status,added:entry.id};
    }catch(e){return {url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   },2);
@@ -112,7 +112,7 @@ export async function runFastRefresh(){
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
   const collection=await collectPendingDocuments();
   const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks],!validationIssues.length);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticed.length+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'persisted-review-queue',intervalMinutes:10};
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticed.length+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
   await recordHealth(result);await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(result.finishedAt,JSON.stringify(result),startedAt).run();return result;
  }catch(e){const failed={ok:false,outcome:'failed',finishedAt:new Date().toISOString(),error:e instanceof Error?e.message:'Refresh failed'};await recordHealth(failed).catch(()=>{});await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(failed.finishedAt,JSON.stringify(failed),startedAt).run();throw e;}
 }

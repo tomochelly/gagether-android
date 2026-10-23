@@ -32,7 +32,7 @@ test('regional API adapters preserve official identity and unknown publication t
  const reverse=parsers.parseReverseCn({code:200,data:{pageData:[{id:102,title:'4.0',status:1,onlineTime:'2026-10-15 10:00:00',content:'full body'},{id:103,status:0}]}});
  assert.equal(reverse.length,1);assert.equal(reverse[0].url,'https://re.bluepoch.com/home/detail.html#newsId?102');assert.equal(reverse[0].bodyHtml,'full body');
  const cn=parsers.parseAkCn({code:0,data:{list:[{cid:3020,title:'公告',displayTime:1792512000}]}})[0];assert.equal(cn.region,'cn');assert.match(cn.publishedAt,/Z$/);
- assert.equal(parsers.regionalOfficialSources.length,11);
+ assert.equal(parsers.regionalOfficialSources.length,15);
 });
 test('a multi-character detail gallery retains its official pool poster alongside member originals',()=>{
  const art={image:'/assets/pool.png',imageVerified:true,imageLocale:'ja'};

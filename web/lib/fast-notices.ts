@@ -47,6 +47,6 @@ sources.push({gameId:'arknights',key:'arknights/kr',url:ak,load:async f=>(await 
 export const koreanFastSources=[...sources,...expandedOfficialSources];
 export function noticeEntry(n:FastNotice,checkedAt:string):Entry{
  if(!n.title||!safeSource(n.url,n.gameId))throw Error('Unrecognized official notice');
- const title=localized('현지화 확인 중','Localization pending','現地表記を確認中','本地化名称核实中');title[n.locale]=noticeText(n.title).slice(0,240);
- return {id:`quick-${n.gameId}-${n.region}-${n.id}`,gameId:n.gameId,region:n.region,server:n.region,kind:'update',title,summary:localized('공식 새 공지입니다. 상세 조건과 현지화는 검수 중입니다.','New official notice. Details and localization are awaiting review.','公式の新しいお知らせです。詳細条件と各言語表記は確認中です。','官方新公告，详细条件及本地化正在核实。'),sourceUrl:n.url,sourceTitle:title[n.locale],sourceLocale:n.locale,sourceKind:'official',officialLocales:[n.locale],translatedLocales:[],localizationSources:{[n.locale]:n.url},publishedAt:n.publishedAt,verifiedAt:checkedAt,startAt:null,endAt:null,imageVerified:false};
+ const title=localized('','','','');title[n.locale]=noticeText(n.title).slice(0,240);
+ return {id:`quick-${n.gameId}-${n.region}-${n.id}`,gameId:n.gameId,region:n.region,server:n.region,kind:'update',title,summary:localized('','','',''),sourceUrl:n.url,sourceTitle:title[n.locale],sourceLocale:n.locale,sourceKind:'official',officialLocales:[n.locale],translatedLocales:[],localizationSources:{[n.locale]:n.url},publishedAt:n.publishedAt,verifiedAt:checkedAt,startAt:null,endAt:null,imageVerified:false};
 }

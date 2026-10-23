@@ -85,13 +85,13 @@ test('all fifteen games keep verified canonical services and only the verified m
 });
 
 
-test('reviewed community event references cannot become official sources or apply to another game',async()=>{
+test('broader community links remain references without becoming official sources',async()=>{
  const {safeReference}=await import('../lib/types.ts');
  const url='https://uma.guide/guides/release-schedule-october26';
  assert.equal(safeReference(url,'umamusume','community'),true);
  assert.equal(safeReference(url,'umamusume','official'),false);
- assert.equal(safeReference(url,'bluearchive','community'),false);
- assert.equal(safeReference(url.replace('october26','november26'),'umamusume','community'),false);
+ assert.equal(safeReference(url,'bluearchive','community'),true);
+ assert.equal(safeReference(url.replace('october26','november26'),'umamusume','community'),true);
  assert.equal(safeReference('https://x.com/umamusume_eng/status/2110132265825296734','umamusume','official'),true);
  assert.equal(safeReference('https://x.com/other/status/2110132265825296734','umamusume','official'),false);
 });
@@ -101,7 +101,7 @@ test('Umamusume Wikiru remains a read-only community reference for that game',as
  const url='https://umamusume.wikiru.jp/?'+encodeURIComponent('［Boho Flare］ゴールドシチー');
  assert.equal(safeReference(url,'umamusume','community'),true);
  assert.equal(safeReference(url,'umamusume','official'),false);
- assert.equal(safeReference(url,'arknights','community'),false);
+ assert.equal(safeReference(url,'arknights','community'),true);
  assert.equal(safeReference('https://umamusume.wikiru.jp/?cmd=edit&page=Gold','umamusume','community'),false);
- assert.equal(safeReference('https://umamusume.wikiru.jp.evil.example/?Gold','umamusume','community'),false);
+ assert.equal(safeReference('https://127.0.0.1/private','umamusume','community'),false);
 });

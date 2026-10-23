@@ -26,7 +26,9 @@ export const entityProfileSchema=z.object({
 });
 const longLocalized=z.object({ko:z.string().max(40000),en:z.string().max(40000),ja:z.string().max(40000),zh:z.string().max(40000)});
 export const contentBlockSchema=z.discriminatedUnion('type',[z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),type:z.literal('text'),title:localized.optional(),body:longLocalized}).strict(),z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),type:z.literal('image'),asset}).strict()]);
+const sourceBody=z.object({locale,sourceUrl:z.string().url().max(1500),text:z.string().max(200000),images:z.array(z.string().url().max(2000)).max(20),links:z.array(z.object({label:z.string().max(240),url:z.string().url().max(2000)}).strict()).max(40).optional(),bodyHash:z.string().regex(/^[a-f0-9]{64}$/),importedAt:z.string().datetime({offset:true}),sourceKind:z.enum(["official","community"])}).strict();
 export const entrySchema=z.object({
+ sourceBodies:z.object({ko:sourceBody.optional(),en:sourceBody.optional(),ja:sourceBody.optional(),zh:sourceBody.optional()}).strict().optional(),
  contentBlocks:z.array(contentBlockSchema).max(50).refine(rows=>new Set(rows.map(r=>r.id)).size===rows.length,'Duplicate content block ID').optional(),
  recurring:z.object({modeId:z.string().regex(/^[a-z0-9_-]{1,100}$/),cycleLabel:localized,sourceKind:z.enum(["official","community"]),sourceUrls:z.array(z.string().url()).min(1).max(10),verifiedAt:z.string().datetime({offset:true}),resetAt:date.optional(),resetDate:z.string().date().optional(),resetEvidence:z.object({kind:z.literal("owner-confirmed"),timeZone:z.string().min(1).max(100),note:localized,verifiedAt:z.string().datetime({offset:true})}).optional()}).optional(),
  collaboration:z.object({partner:localized,scope:z.enum(['ingame','offline','merchandise','online']),sourceUrls:z.array(z.string().url()).min(1).max(10),verifiedAt:z.string().datetime({offset:true})}).optional(),
@@ -53,6 +55,7 @@ export function safeArtwork(art:import('./types').EntityArtwork){
 
 export const safeIcon=(icon?:import('./types').GameIcon)=>!icon||(safeImage(icon.image)&&!!icon.image&&safeHttps(icon.imageSource)&&Date.parse(icon.verifiedAt)<=Date.now()+300000);
 export function safeExtras(e:import('./types').Entry){
+ if(Object.entries(e.sourceBodies||{}).some(([l,b])=>b.locale!==l||!safeReference(b.sourceUrl,e.gameId,b.sourceKind)||b.links?.some(l=>!safeHttps(l.url))||b.images.some(u=>!safeImage(u)||!/^https:\/\//.test(u))||Date.parse(b.importedAt)>Date.now()+300000))return false;
  if(e.recurring&&(e.kind!=="event"||!!e.pickupArchive||Date.parse(e.recurring.verifiedAt)>Date.now()+300000||e.recurring.sourceUrls.some(u=>!safeReference(u,e.gameId,e.recurring!.sourceKind))||e.recurring.sourceKind!=="official"&&!e.recurring.resetEvidence&&(e.recurring.resetAt||e.recurring.resetDate)))return false;
  if(e.recurring?.resetEvidence){const x=e.recurring.resetEvidence;if(Date.parse(x.verifiedAt)>Date.now()+300000||Object.values(x.note).some(v=>!v.trim()))return false;try{new Intl.DateTimeFormat("en",{timeZone:x.timeZone});}catch{return false;}}
  if(e.collaboration&&(e.collaboration.sourceUrls.some(u=>!safeReference(u,e.gameId,'official'))||Date.parse(e.collaboration.verifiedAt)>Date.now()+300000))return false;

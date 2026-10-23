@@ -7,7 +7,8 @@ import {collectionCoverage} from '@/lib/collection-review';
 import {effectiveRegion} from '@/lib/presentation';
 import {games} from '@/lib/games';
 import {artworkAudit} from '@/lib/artwork-audit';
-import {fetchReviewDocument} from '@/lib/official-collection';
+import {importCapturedBodies} from '@/lib/source-body-store';
+import {fetchReviewDocument,noticeSourceId} from '@/lib/official-collection';
 const headers={'Cache-Control':'no-store'};
 export async function GET(request:Request){
  if(!await canWriteData(request))return Response.json({error:'Authorized reviewer required'},{status:403,headers});
@@ -20,13 +21,15 @@ export async function POST(request:Request){
  try{
   const raw=await request.text();if(raw.length>16000)return Response.json({error:'Payload too large'},{status:413,headers});
   const input=JSON.parse(raw);
+  const importInput=z.object({action:z.literal('import'),ids:z.array(z.string().regex(/^[a-f0-9]{64}$/)).min(1).max(25).optional(),limit:z.number().int().min(1).max(100).optional()}).strict().safeParse(input);
+  if(importInput.success)return Response.json({ok:true,...await importCapturedBodies(importInput.data.ids,importInput.data.limit)},{headers});
   const fetchInput=z.object({action:z.literal('fetch'),id:z.string().regex(/^[a-f0-9]{64}$/)}).strict().safeParse(input);
   if(fetchInput.success){
    const row=await env.DB!.prepare('SELECT payload FROM official_documents WHERE id=?').bind(fetchInput.data.id).first<{payload:string}>();
    if(!row)return Response.json({error:'Known official document required'},{status:404,headers});
    const d=JSON.parse(row.payload);
    if(Date.now()-Date.parse(d.checkedAt)<60000)return Response.json({error:'Document recently fetched; retry later'},{status:429,headers});
-   const sourceId=d.url.match(/(?:[?&](?:id|announce_id)=|\/)(\d+)(?:[?#]|$)/)?.[1];
+   const sourceId=noticeSourceId(d.url);
    if(!sourceId)return Response.json({error:'Unsupported stored source identity'},{status:400,headers});
    const document=await fetchReviewDocument({gameId:d.gameId,region:d.region,locale:d.locale,id:sourceId,title:d.title,url:d.url,publishedAt:d.publishedAt});
    return Response.json({ok:document.sourceAccess==='body',document},{headers});

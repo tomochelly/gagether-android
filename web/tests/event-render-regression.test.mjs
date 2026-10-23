@@ -37,8 +37,8 @@ test('duplicate event cards collapse without merging different events, windows o
  const foreign={...base,id:'untranslated',title:{...title,ko:title.ja},summary:{...summary,ko:summary.ja}};
  const missing={...base,id:'missing',title:{...title,ko:''}};
  const rows=eventOverviewItems([base,richer,another,otherWindow,otherService,foreign,missing],'ko',now);
- assert.deepEqual(new Set(rows.map(e=>e.id)),new Set([richer.id,another.id,otherWindow.id,otherService.id]));
- assert.equal(rows.filter(e=>e.sourceUrl===base.sourceUrl).length,4,'a shared version notice does not mean a shared event');
+ assert.deepEqual(new Set(rows.map(e=>e.id)),new Set([richer.id,another.id,otherWindow.id,otherService.id,foreign.id,missing.id]));
+ assert.equal(rows.filter(e=>e.sourceUrl===base.sourceUrl).length,6,'a shared version notice does not mean a shared event');
 });
 
 test('actual dashboard renders each event once, keeps notices, and uses the selected language',()=>{
@@ -46,7 +46,7 @@ test('actual dashboard renders each event once, keeps notices, and uses the sele
  const copy={...base,id:'reviewed-copy'};
  const foreign={...base,id:'foreign-only',title:{ko:title.ja,en:'',ja:title.ja,zh:''},summary:{ko:summary.ja,en:'',ja:summary.ja,zh:''}};
  for(const locale of ['ko','en','ja','zh']){
-  const markup=renderToStaticMarkup(React.createElement(Radar,{initialLocale:locale,initialLocaleManual:true,initialData:{entries:[base,copy,notice,...(locale==='ko'?[foreign]:[])],settings:{},sourceChecks:[],serverTime:new Date(now).toISOString()}}));
+  const markup=renderToStaticMarkup(React.createElement(Radar,{initialLocale:locale,initialLocaleManual:true,initialData:{entries:[base,copy,notice],settings:{},sourceChecks:[],serverTime:new Date(now).toISOString()}}));
   const dom=new JSDOM(markup);const doc=dom.window.document;
   assert.equal(doc.querySelectorAll('.event-tile').length,1,locale);
   assert.equal(doc.querySelector('.event-title').textContent,title[locale]);

@@ -23,7 +23,7 @@ test('past reset never rolls forward and community dates never become a countdow
  const past={...base,recurring:{...base.recurring,resetAt:'2026-10-20T00:00:00Z'}};assert.equal(recurringReset(past,now),null);
  const estimated={...base,recurring:{...base.recurring,sourceKind:'community',resetAt:'2026-10-26T00:00:00Z'}};assert.equal(recurringReset(estimated,now),null);assert.equal(safeExtras(estimated),false);
  const dated={...base,recurring:{...base.recurring,resetDate:'2026-10-26'}};
- const html=renderToStaticMarkup(React.createElement(ResetClock,{entry:dated,locale:'ko',now}));assert.match(html,/2026-10-26/);assert.match(html,/시각 미확인/);assert.doesNotMatch(html,/00:00|초기화까지/);
+ const html=renderToStaticMarkup(React.createElement(ResetClock,{entry:dated,locale:'ko',now}));assert.match(html,/2026-10-26/);assert.doesNotMatch(html,/시각 미확인|날짜 기준/);assert.doesNotMatch(html,/00:00|초기화까지/);
 });
 test('metadata survives transport and routine omissions; invalid source/kind rejected',()=>{
  assert.deepEqual(entrySchema.parse(base).recurring,base.recurring);assert.deepEqual(catalogEntry(base).recurring,base.recurring);

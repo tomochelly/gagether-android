@@ -1,20 +1,18 @@
 import type {Entry,Locale} from './types';
+import {originalName} from './content-display';
 import {availableInLocale} from './presentation';
 import {eventState,sortEvents} from './event-presentation';
 
 /** Presentation only: never delete a source record or merge distinct service windows. */
 export function eventTextForLocale(value:Partial<Record<Locale,string>>|undefined,locale:Locale){
- const text=value?.[locale]?.trim()||'';
- if(locale==='ko'&&/[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}]/u.test(text)&&!/[\p{Script=Hangul}]/u.test(text))return '';
- if(locale!=='ko'&&/[\p{Script=Hangul}]/u.test(text))return '';
- return text;
+ return value?originalName({ko:value.ko||'',en:value.en||'',ja:value.ja||'',zh:value.zh||''},locale):'';
 }
 const normalized=(text:string)=>text.normalize('NFKC').toLowerCase().replace(/[\p{P}\p{Z}\s]/gu,'');
 function sameWindow(a:Entry,b:Entry){
  return (a.startAt||a.startDate||'')===(b.startAt||b.startDate||'')&&(a.endAt||a.endDate||'')===(b.endAt||b.endDate||'');
 }
 export function eventOverviewItems(entries:Entry[],locale:Locale,now:number){
- const candidates=entries.filter(e=>(e.kind==='event'||!!e.collaboration)&&!e.hidden&&!e.pickupArchive&&availableInLocale(e,locale)&&eventTextForLocale(e.title,locale)&&eventTextForLocale(e.summary,locale)&&eventState(e,now)!=='ended');
+ const candidates=entries.filter(e=>(e.kind==='event'||!!e.collaboration)&&!e.hidden&&!e.pickupArchive&&availableInLocale(e,locale)&&eventTextForLocale(e.title,locale)&&eventState(e,now)!=='ended');
  const chosen:Entry[]=[];
  for(const e of candidates){
   const i=chosen.findIndex(p=>p.id===e.id||p.gameId===e.gameId&&p.region===e.region&&p.kind===e.kind&&normalized(eventTextForLocale(p.title,locale))===normalized(eventTextForLocale(e.title,locale))&&sameWindow(p,e));

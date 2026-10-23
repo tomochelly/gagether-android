@@ -1,4 +1,6 @@
 import type {Entry,Game,Locale,Region,Localized} from './types';
+import {displayTitle,originalName} from './content-display';
+import {games} from './games';
 import {ui} from './i18n';
 
 export const regionLabel=(game:Game,region:Region,locale:Locale,labels=ui[locale])=>game.serviceMode==='shared-global'&&region==='global'?labels.unifiedSchedule:game.regionLabels?.[region]?.[locale]||labels[region];
@@ -8,8 +10,8 @@ export const inSchedule=(entry:Entry,game:Game,requested:Region)=>(requested!=='
 export const matchedArtwork=(entry:Entry)=>!!(entry.image&&entry.imageVerified);
 export const featuredMembers=(entry:Entry)=>entry.pickupMembers?.filter(m=>m.role!=='rate-up'&&m.role!=='candidate');
 export const editedEntryArtwork=(entry:Entry)=>featuredMembers(entry)?.length===1&&entry.editor?.fields.some(key=>['image','localizedArtwork','imageFraming','previewFocus','previewBounds','previewArtwork','imagePosition','imageLocale'].includes(key));
-export const entryTitle=(entry:Entry,locale:Locale)=>entry.title[locale]||ui[locale].localizationPending;
-export const localizedName=(name:Localized,locale:Locale)=>name[locale]||ui[locale].localizationPending;
+export const entryTitle=(entry:Entry,locale:Locale)=>displayTitle(entry,locale);
+export const localizedName=(name:Localized,locale:Locale)=>originalName(name,locale);
 export const platformLabel=(platform:string,locale:Locale)=>({
  'In-game shop; platform not specified':{ko:'게임 내 상점 · 결제 플랫폼 미공개',en:'In-game shop · payment platform unspecified',ja:'ゲーム内ショップ・決済プラットフォーム未公表',zh:'游戏内商店 · 支付平台未公布'},
  'Japan in-game shop; platform unspecified':{ko:'일본 게임 내 상점 · 결제 플랫폼 미공개',en:'Japan in-game shop · payment platform unspecified',ja:'日本版ゲーム内ショップ・決済プラットフォーム未公表',zh:'日本游戏内商店 · 支付平台未公布'},
@@ -31,13 +33,7 @@ export const languageLabel=(language:Locale,locale:Locale)=>new Intl.DisplayName
 export const versionCaption=(entry:Entry,locale:Locale)=>entry.versionTitle?.[locale]||(entry.version&&/^\d+(\.\d+)*$/.test(entry.version)?'V'+entry.version:locale==='en'?entry.version:undefined);
 // Name-localization evidence can predate the current rotation. Open the current notice.
 export const entrySource=(entry:Entry,_locale:Locale)=>entry.sourceUrl;
-export function availableInLocale(entry:Entry,locale:Locale){
- if(!entry.id.startsWith('feed-'))return true;
- if(entry.officialLocales||entry.translatedLocales)return [...(entry.officialLocales||[]),...(entry.translatedLocales||[])].includes(locale);
- // Older feed rows copied one source title into all four fields. Only show the original language.
- const native=entry.sourceLocale||(entry.gameId==='bluearchive'?'ja':'en');
- return locale===native||entry.title[locale]!==entry.title[native];
-}
+export function availableInLocale(entry:Entry,locale:Locale){const game=games.find(g=>g.id===entry.gameId);if(!game||!entry.sourceLocale||!(/^(quick-|feed-)/.test(entry.id))||entry.broadcast)return true;const canonical=effectiveRegion(game,entry.region),independent=game.serviceMode!=='shared-global'&&!Object.entries(game.regionAliases||{}).some(([alias,target])=>alias!==canonical&&target===canonical);const target=independent?({kr:'ko',jp:'ja',cn:'zh',global:'en'} as const)[canonical]:locale;return target===entry.sourceLocale||!!entry.localizationSources?.[target]||!!entry.sourceBodies?.[target];}
 export type PickupGroup={id:string;gameId:string;region:Region;poolType:string;entries:Entry[]};
 export function groupPickups(entries:Entry[]):PickupGroup[]{
  const groups=new Map<string,PickupGroup>();
@@ -57,6 +53,7 @@ export function mergeVerifiedEntry(current:Entry|undefined,incoming:Entry):Entry
 }
 export function retainEntityDetails(incoming:Entry,previous:Entry|undefined):Entry{
  const result=retainArtwork(incoming,previous);
+ if(previous?.sourceBodies)result.sourceBodies={...previous.sourceBodies,...incoming.sourceBodies};
  if(previous?.pickupMembers&&incoming.pickupMembers)result.pickupMembers=incoming.pickupMembers.map(member=>{
   const old=previous.pickupMembers!.find(candidate=>{
    const common=(['ko','en','ja','zh'] as const).filter(l=>member.name[l]&&candidate.name[l]);
@@ -65,7 +62,7 @@ export function retainEntityDetails(incoming:Entry,previous:Entry|undefined):Ent
   return retainArtwork(member,old);
  });
  if(incoming.pickupMembers===undefined&&previous?.pickupMembers)result.pickupMembers=previous.pickupMembers;
- for(const key of ['contentBlocks','recurring','signatureWeapons','entityDetails','videos','broadcast','rewards','rewardNote','marketRegion','audienceRegions','collaboration','pickupArchive','startDate','endDate'] as const)if(incoming[key]===undefined&&previous?.[key]!==undefined)Object.assign(result,{[key]:previous[key]});
+ for(const key of ['sourceBodies','contentBlocks','recurring','signatureWeapons','entityDetails','videos','broadcast','rewards','rewardNote','marketRegion','audienceRegions','collaboration','pickupArchive','startDate','endDate'] as const)if(incoming[key]===undefined&&previous?.[key]!==undefined)Object.assign(result,{[key]:previous[key]});
  if(previous&&incoming.sourceUrl===previous.sourceUrl&&incoming.sourceTitle===previous.sourceTitle)for(const key of ['detailSections','detailImages','highlights','contents'] as const)if(incoming[key]===undefined&&previous[key]!==undefined)Object.assign(result,{[key]:previous[key]});
  if(result.pickupArchive?.status==='forecast'&&!result.pickupArchive.estimate&&!result.pickupArchive.startDate&&previous?.pickupArchive?.estimate)result.pickupArchive={...result.pickupArchive,estimate:previous.pickupArchive.estimate};
  return result;

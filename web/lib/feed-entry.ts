@@ -2,8 +2,8 @@ import {localized,type Entry,type Locale,type Localized,type Region} from './typ
 
 export type FeedNotice={id:string|number;titles:Partial<Localized>;urls:Partial<Record<Locale,string>>;sourceLocale:Locale;image?:string;date?:string|null};
 const locales:Locale[]=['ko','en','ja','zh'];
-const pending=localized('현지화 확인 중','Localization pending','現地表記を確認中','本地化名称核实中');
-const generic=localized('공식 새 소식입니다. 상세 내용과 적용 조건은 원문에서 확인하세요.','Official news. Read the source for details and eligibility.','公式からのお知らせです。詳細や適用条件は原文をご確認ください。','官方最新消息。详情与适用条件请查看原文。');
+const pending=localized('','','','');
+const generic=localized('','','','');
 
 export function feedEntry(gameId:string,region:Region,n:FeedNotice,checkedAt:string,old?:Entry):Entry{
  const native=n.sourceLocale;

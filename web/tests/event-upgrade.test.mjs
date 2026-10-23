@@ -29,7 +29,7 @@ test('collaboration badges use confirmed participation window and selected actua
 test('date-only events stay date-only, expire in source service day, never get a seconds clock',()=>{
  const e={...base,region:'cn',startAt:null,endAt:null,startDate:'2026-10-15',endDate:'2026-10-21'};
  assert.equal(eventState(e,Date.parse('2026-10-21T15:59:59Z')),'active');assert.equal(eventState(e,Date.parse('2026-10-21T16:00:00Z')),'ended');
- const html=renderToStaticMarkup(React.createElement(EventClock,{entry:e,locale:'ko',now}));assert.match(html,/종료 시각 미공개/);assert.doesNotMatch(html,/00초|00:00|00분/);
+ const html=renderToStaticMarkup(React.createElement(EventClock,{entry:e,locale:'ko',now}));assert.doesNotMatch(html,/시각 미공개|날짜 기준/);assert.doesNotMatch(html,/00초|00:00|00분/);
  assert.equal(eventEndingSoon(e,now),true);
 });
 test('only reviewed pull rewards trigger emphasis, unrelated resource names do not',()=>{

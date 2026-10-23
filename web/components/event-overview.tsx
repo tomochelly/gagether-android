@@ -20,8 +20,8 @@ export function EventRewards({entry,locale}:{entry:Entry;locale:Locale}){const r
 export function EventClock({entry:e,locale,now,compact=false}:{entry:Entry;locale:Locale;now:number;compact?:boolean}){const t=eventText[locale],state=eventState(e,now),start=state==='upcoming',clock=start?e.startAt:e.endAt,date=start?e.startDate:e.endDate;
  if(state==='ended')return <span className="event-clock ended">{({ko:'종료',en:'Ended',ja:'終了',zh:'已结束'})[locale]}</span>;
  if(clock)return <span className={'event-clock'+(eventEndingSoon(e,now)?' urgent':'')}><Clock3 size={compact?12:16}/><span><small>{t[start?'starts':'ends']}</small><b>{compact?remainingTime(clock,now,locale).split(' ').slice(0,2).join(' '):remainingTime(clock,now,locale)}</b></span></span>;
- if(date){const days=(Date.parse(date)-Date.parse(dateInZone(now,serviceZone(e))))/86400000;return <span className="event-clock date-only"><Clock3 size={16}/><span><b>{!start&&days===0?t.today:`${date} · ${start?t.starts:`${days} ${t.days}`}`}</b><small>{t.dateOnly}</small></span></span>;}
- return <span className="event-clock unconfirmed">{t.unknown}</span>;
+ if(date){const days=(Date.parse(date)-Date.parse(dateInZone(now,serviceZone(e))))/86400000;return <span className="event-clock date-only"><Clock3 size={16}/><span><b>{!start&&days===0?t.today:`${date} · ${start?t.starts:`${days} ${t.days}`}`}</b></span></span>;}
+ return null;
 }
 const overviewCopy={
  ko:{title:'게임별 이벤트',intro:'게임별 주요 이벤트와 남은 기간을 확인하세요.',all:'이벤트 전체 보기',gameTitle:'이벤트',hint:'이벤트를 누르면 참여 방법과 보상을 볼 수 있어요.'},
@@ -55,7 +55,7 @@ export default function EventOverview({entries,locale,now,onOpen,gameId,region,o
  const matches=(e:Entry,f:typeof filter)=>f==='all'||f==='gacha'&&hasPullRewards(e)||f==='collab'&&!!e.collaboration||f==='ending'&&eventEndingSoon(e,now);
  const shown=all.filter(e=>matches(e,filter));
  const groups=games.map(game=>({game,entries:shown.filter(e=>e.gameId===game.id)})).filter(g=>g.entries.length);
- return <section className={'event-overview'+(!gameId?' event-dashboard':'')} id="gagether-events" data-game-id={gameId} aria-labelledby="gagether-events-title">
+ return <section className={'content-panel event-overview'+(!gameId?' event-dashboard':'')} id="gagether-events" data-game-id={gameId} aria-labelledby="gagether-events-title">
   <header><div><span className="event-section-kicker">EVENTS</span><h2 id="gagether-events-title">{gameId?copy.gameTitle:copy.title}<small>{all.length}</small></h2><p>{gameId?copy.hint:copy.intro}</p></div></header>
   <div className="event-filters" role="group" aria-label={t.title}>{(['all','gacha','collab','ending'] as const).map(f=><button key={f} type="button" aria-pressed={f===filter} onClick={()=>{setFilter(f);setLimit(6);}}>{t[f]}<small>{all.filter(e=>matches(e,f)).length}</small></button>)}</div>
   {gameId?<div className="event-overview-grid">{shown.slice(0,limit).map(e=><EventTile key={e.id+':'+locale} entry={e} locale={locale} now={now} onOpen={onOpen}/>)}</div>:<div className="event-game-grid">{groups.map(({game,entries:items})=><section className="event-game-group" key={game.id} data-game-id={game.id} style={{'--event-game-color':game.color} as CSSProperties}>

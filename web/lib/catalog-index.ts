@@ -3,7 +3,7 @@ import type {Entry} from './types';
 /** Transport-only metadata. Full records and owner edits remain in the store. */
 export type CatalogEntry=Entry&{detailsDeferred?:true;detailRevision?:string};
 export function catalogEntry(entry:Entry,revision?:string):CatalogEntry{
- const {entityDetails,detailImages,detailSections,contentBlocks,...summary}=entry as CatalogEntry;
+ const {sourceBodies,entityDetails,detailImages,detailSections,contentBlocks,...summary}=entry as CatalogEntry;
  return {...summary,detailsDeferred:true,detailRevision:revision||summary.detailRevision||entry.verifiedAt};
 }
 export function detailKey(entry:Entry){

@@ -1,3 +1,15 @@
+# Content-first collection (v35, 2026-10-23)
+
+This section overrides older review gates below. Publish accessible native original bodies immediately. Manual review and translations enrich the record later, never hold usable source text or images back. KR/JP/CN actual services use ko/ja/zh sources; shared services prefer the visitor market language. Community and game sites are allowed with community provenance. Google Images is discovery, not proof of reading the linked page. Do not fabricate blocked content, exact dates, quantities, official names or sources.
+
+Normal collection captures full readable bodies and imports them into `sourceBodies` with `locale`, `sourceUrl`, `sourceKind`, `text`, `images`, participation `links`, `bodyHash`, and actual `importedAt`. Owner/curated details remain intact. Captured images display in native-service language only and are not falsely marked manually verified. Scripts and HTML event handlers are stripped; links require HTTPS. `sourceBodies` is deferred from the public catalog index and loaded with the item detail.
+
+Authenticated same-origin `POST /api/collection {action:"import", ids:["64hex"]}` imports up to25 stored bodies; omit ids for the next bounded batch (limit up to100). Import receipts are separate from human review receipts and advance only after automatic-data readback. A repeated hash leaves content and verification clocks unchanged; access failures retain prior published body. `action:"reviewed"` remains optional human audit, not a publication gate.
+
+Parser recovery covers escaped HI3/GFL2/BA HTML, full Wuwa article JSON, HoYo getContent, Naver lounge bodies, Kakao source posts, Uma JP detail.message and AK CN Next Flight text records. NIKKE polls both NEWS496 and NOTICE892 in ko/ja/en with disabled language fallback and exact content IDs. Normal API403/429/JS-only/error remain distinct source failures. Never bypass them.
+
+Public content omits workflow waiting messages and date-only unknown-clock boilerplate. Actual dates remain date-only and never generate synthetic notification times. Compact reward rows use actual catalog icons and explicit body quantities, keeping free/conditional/purchase distinctions. Unchanged owner values, native artwork, layout and visitor preferences are preserved.
+
 # Official collection and original asset recovery
 
 The official notice collector and pickup publication are separate steps. Run the existing authenticated `/api/fast-refresh` job: Korean sources first, then nine regional public API adapters. New headlines are saved/read back before body capture. The collector never extracts speculative pickup clocks or automatically blesses artwork. Regional adapters cover Arknights JP/CN, Uma JP, GFL2 CN, Blue Archive JP, Reverse CN, Stella JP, Trickcal JP and HI3 JP, preserving the catalog canonical service mapping.

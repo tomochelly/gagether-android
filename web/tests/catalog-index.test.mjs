@@ -24,7 +24,7 @@ test('index defers detail-only fields; dates, exact native artwork, localization
  assert.equal(index.contentBlocks,undefined);assert.deepEqual(full.contentBlocks,base.contentBlocks);assert.equal(index.entityDetails,undefined);assert.equal(index.detailSections,undefined);assert.equal(index.detailImages,undefined);assert.deepEqual(full.detailSections,base.detailSections);assert.deepEqual(full.detailImages,base.detailImages);assert.equal(index.startAt,null);
  assert.deepEqual(full.entityDetails,ownerDetails);assert.deepEqual(index.localizedArtwork,base.localizedArtwork);
  assert.deepEqual(index.previewFocus,{x:40,y:50,zoom:1});
- assert.ok(queries.some(q=>q.includes("json_remove(payload,'$.entityDetails','$.detailImages','$.detailSections','$.contentBlocks')")));
+ assert.ok(queries.some(q=>q.includes("json_remove(payload,'$.entityDetails','$.detailImages','$.detailSections','$.contentBlocks','$.sourceBodies')")));
  assert.ok(queries.some(q=>q.includes('FROM entries WHERE id=?')));
  const automatic=(await readData({automatic:true})).entries.find(e=>e.id===base.id);
  assert.deepEqual(automatic.entityDetails,base.entityDetails);

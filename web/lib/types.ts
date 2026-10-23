@@ -13,6 +13,7 @@ export type SourceKind = "official" | "community" | "video";
 export interface RelatedSource {kind:SourceKind;url:string;title:string;publisher?:string;publishedAt?:string}
 export interface GameIcon {image:string;imageSource:string;width:number;height:number;verifiedAt:string}
 export interface EntityTrait {id:string;label:Localized;value:Localized;icon?:GameIcon;officialLocales?:Locale[];translatedLocales?:Locale[]}
+export interface SourceBody {locale:Locale;sourceUrl:string;text:string;images:string[];links?:{label:string;url:string}[];bodyHash:string;importedAt:string;sourceKind:"official"|"community"}
 export interface RewardItem {note?:Localized;acquisition?:"free"|"conditional"|"purchase";rewardId?:string;category?:'gacha-currency'|'gacha-ticket'|'resource';officialLocales?:Locale[];translatedLocales?:Locale[];name:Localized;quantity?:string;icon?:GameIcon;sourceUrl:string;sourceKind:"official"|"community"}
 export interface VideoClip {originalTitle?:string;titleOfficialLocales?:Locale[];titleTranslatedLocales?:Locale[];youtubeId:string;kind:"character"|"version";format?:"pv"|"intro"|"demo";title:Localized;locale:Locale;channel:string;sourceUrl:string;publishedAt?:string|null;verifiedAt:string;official:boolean;metadataVerified:boolean;watched:false;entityNames?:Localized[];evidenceUrls?:string[]}
 export interface OfficialBroadcast {
@@ -44,6 +45,7 @@ export interface Game {
 }
 export type ContentBlock={id:string;type:'text';title?:Localized;body:Localized}|{id:string;type:'image';asset:ArtworkAsset};
 export interface Entry extends EntityArtwork {
+ sourceBodies?:Partial<Record<Locale,SourceBody>>;
  contentBlocks?:ContentBlock[];
  recurring?:{modeId:string;cycleLabel:Localized;sourceKind:"official"|"community";sourceUrls:string[];verifiedAt:string;resetAt?:string|null;resetDate?:string;resetEvidence?:{kind:'owner-confirmed';timeZone:string;note:Localized;verifiedAt:string}};
  audienceRegions?:Region[];
@@ -109,7 +111,7 @@ export function safeReference(url:string,gameId:string,kind:SourceKind):boolean{
    if(host==='wuwaguide.kurogames.com'&&u.pathname==='/ko/'&&/^\d+$/.test(u.searchParams.get('role_id')||'')&&/^\d+$/.test(u.searchParams.get('strategy_id')||''))return true;
   }
   if(gameId==='arknights'&&((host==='m.namu.moe'&&decodeURIComponent(u.pathname)==='/w/명일방주/헤드헌팅')||(host==='gameludens.com'&&u.pathname==='/arknights/259/')))return true;
-  return ['inven.co.kr','vortexgaming.io','arca.live','dcinside.com'].some(h=>host===h||host.endsWith('.'+h));
+  return kind==='community'&&host.includes('.')&&!/^(?:localhost|.*\.localhost|.*\.local|.*\.internal)$/.test(host)&&!/^\d{1,3}(?:\.\d{1,3}){3}$/.test(host)&&!host.includes(':');
  }catch{return false;}
 }
 export interface SourceCheck {gameId:string;checkedAt:string;status:string;count:number;error?:string}
