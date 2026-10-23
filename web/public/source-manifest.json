@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "3c3e9fc2a2fd50b6c48a4fca33b9e10cb5e2a1904a3a8384b736c36073db077b",
+  "fingerprint": "b19b3c11bf54fdf1771dff6cf6dfe3388d0d3cb21fbd22de7f0bd3e08ecf8d86",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1140,7 +1140,7 @@
     },
     {
       "path": "lib/content-display.ts",
-      "sha256": "eab99f0ae3dbd522b94320b8ed8793fdc57e02a4374b3bdfd98c9eb1dee9f6cc"
+      "sha256": "09a87ebc3208bd9fa5f46bba8682fa4dad852d0c0a30c6558c268b791dd8a0c8"
     },
     {
       "path": "lib/content-schema.ts",

@@ -36,3 +36,9 @@ test('every game/service uses the same icon-led detail component in all language
  for(const game of games)for(const region of game.regions)for(const locale of ['ko','en','ja','zh']){const html=renderToStaticMarkup(React.createElement(CatalogContext.Provider,{value:{t:ui[locale]}},React.createElement(EntityDetails,{profiles:[profile],gameId:game.id,locale})));assert.match(html,/stat-icon/);assert.match(html,/12,345/);assert.match(html,/<details class="stat-assumptions">/);assert.doesNotMatch(html,/<table|검수|확인했습니다/);}
  const native=traitIcon('wuwa',{id:'element',value:{ko:'인멸',en:'Havoc',ja:'消滅',zh:'湮灭'}});const html=renderToStaticMarkup(React.createElement(EntityDetails,{profiles:[{...profile,traits:[{id:'element',label:loc('속성'),value:loc('인멸'),icon:native}]}],locale:'ko',gameId:'wuwa'}));assert.match(html,/trait-icon/);assert.match(html,/wuwa-element-6/);
 });
+
+
+test('passive collector narration is removed in native English, Japanese and Chinese without erasing actual participation instructions',()=>{
+ for(const text of ['Only the title and publication date were verified. The full post was blocked; rewards remain unverified.','The title says 10/30; no precise start/end time was verified.','10月16日付の告知はタイトルと掲載日のみ確認。本文がアクセス制限のため、報酬は未確認です。','仅核对标题与日期。正文访问受限，奖励未确认。'])assert.equal(cleanDisplayText(text),'');
+ assert.equal(cleanDisplayText('Decode the hidden message and leave a comment. Deadline: October 30.'),'Decode the hidden message and leave a comment.\nDeadline: October 30.');
+});
