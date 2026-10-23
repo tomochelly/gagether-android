@@ -1,37 +1,82 @@
 {
   "version": 1,
-  "requestId": "operator-template-dryrun-20261023",
-  "reason": "Safe operator recovery template: validate only; never public game content",
+  "requestId": "zzz-locale-hero-20261024-v1",
+  "reason": "Restore locale artwork lost by owner image replacement while preserving uploaded originals and framing",
   "action": "edit",
   "dryRun": true,
   "edit": {
     "target": "entry",
-    "id": "custom-recovery-template-20261023",
-    "revision": 0,
-    "create": true,
+    "id": "feed-zzz-166963",
+    "revision": 10,
     "changes": {
-      "gameId": "wuwa",
-      "kind": "update",
-      "title": {
-        "ko": "복구 검증 전용 — 공개하지 않음",
-        "en": "Recovery validation only — never public",
-        "ja": "復旧検証専用・非公開",
-        "zh": "仅用于恢复验证・不公开"
-      },
-      "summary": {
-        "ko": "관리자 비상 수정 경로 검증용 숨김 항목입니다. 게임 공지가 아닙니다.",
-        "en": "Hidden operator recovery validation. This is not a game announcement.",
-        "ja": "管理者の緊急復旧検証用の非公開項目です。ゲームのお知らせではありません。",
-        "zh": "管理员紧急恢复验证用的隐藏条目，并非游戏公告。"
-      },
-      "region": "global",
-      "server": "Recovery validation",
-      "startAt": null,
-      "endAt": null,
-      "publishedAt": null,
-      "sourceUrl": "https://github.com/tomochelly/gagether-android/blob/main/web/ops/RECOVERY.ko.md",
-      "sourceTitle": "Operator recovery procedure; not a game source",
-      "hidden": true
+      "localizedArtwork": {
+        "ko": {
+          "imageCaption": {
+            "ko": "2026년 10월 21일 공개된 3.3 버전 공식 업데이트 안내 이미지. 픽업 원본이 아닌 공지용 포스터입니다.",
+            "en": "Official Version 3.3 update-notice poster published October 21, 2026; not gacha splash artwork.",
+            "ja": "2026年10月21日公開のVer.3.3公式更新案内画像。ガチャの原画ではなく告知ポスターです。",
+            "zh": "2026年10月21日发布的3.3版本官方更新公告图，并非抽卡立绘。"
+          },
+          "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166963/858eb5b7a2fc97d1f49ea3ffcb4b626c_2819950641715726917.png",
+          "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/166963",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "width": 1920,
+          "height": 1080,
+          "verifiedAt": "2026-10-20T23:17:47.471407+00:00"
+        },
+        "en": {
+          "imageCaption": {
+            "ko": "2026년 10월 21일 공개된 3.3 버전 공식 업데이트 안내 이미지. 픽업 원본이 아닌 공지용 포스터입니다.",
+            "en": "Official Version 3.3 update-notice poster published October 21, 2026; not gacha splash artwork.",
+            "ja": "2026年10月21日公開のVer.3.3公式更新案内画像。ガチャの原画ではなく告知ポスターです。",
+            "zh": "2026年10月21日发布的3.3版本官方更新公告图，并非抽卡立绘。"
+          },
+          "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166963/37a154a8f356e778fd7a95a790aa5467_6747244478962798640.png",
+          "imageSource": "https://zenless.hoyoverse.com/en-us/news/166963",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "width": 1920,
+          "height": 1080,
+          "verifiedAt": "2026-10-20T23:17:47.471407+00:00"
+        },
+        "ja": {
+          "image": "/api/media/24c5ea9c-6da6-4230-b9ea-66692f5a0cb3.jpeg",
+          "imageSource": "https://gagether.wiki/api/media/24c5ea9c-6da6-4230-b9ea-66692f5a0cb3.jpeg",
+          "imageVerified": true,
+          "imageLocale": "ja",
+          "imageKind": "banner",
+          "width": 1920,
+          "height": 1080,
+          "verifiedAt": "2026-10-23T15:19:45.011Z",
+          "imageFraming": {
+            "banner": {
+              "x": 68.36,
+              "y": 83.5,
+              "zoom": 0.6330991819260049,
+              "fit": "cover"
+            }
+          }
+        },
+        "zh": {
+          "imageCaption": {
+            "ko": "2026년 10월 21일 공개된 3.3 버전 공식 업데이트 안내 이미지. 픽업 원본이 아닌 공지용 포스터입니다.",
+            "en": "Official Version 3.3 update-notice poster published October 21, 2026; not gacha splash artwork.",
+            "ja": "2026年10月21日公開のVer.3.3公式更新案内画像。ガチャの原画ではなく告知ポスターです。",
+            "zh": "2026年10月21日发布的3.3版本官方更新公告图，并非抽卡立绘。"
+          },
+          "image": "https://fastcdn.hoyoverse.com/content-v2/nap/166963/f3dd530ddebbe0f7b1598b09ecd18e83_8504542611913175563.png",
+          "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/166963",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "zh",
+          "width": 1920,
+          "height": 1080,
+          "verifiedAt": "2026-10-20T23:17:47.471407+00:00"
+        }
+      }
     }
   }
 }
