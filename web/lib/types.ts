@@ -39,7 +39,9 @@ export interface Game {
  scheduleRegions?:Region[];regionAliases?:Partial<Record<Region,Region>>;
  regionLabels?:Partial<Record<Region,Localized>>;
 }
+export type ContentBlock={id:string;type:'text';title?:Localized;body:Localized}|{id:string;type:'image';asset:ArtworkAsset};
 export interface Entry extends EntityArtwork {
+ contentBlocks?:ContentBlock[];
  recurring?:{modeId:string;cycleLabel:Localized;sourceKind:"official"|"community";sourceUrls:string[];verifiedAt:string;resetAt?:string|null;resetDate?:string;resetEvidence?:{kind:'owner-confirmed';timeZone:string;note:Localized;verifiedAt:string}};
  audienceRegions?:Region[];
  collaboration?:{partner:Localized;scope:'ingame'|'offline'|'merchandise'|'online';sourceUrls:string[];verifiedAt:string};

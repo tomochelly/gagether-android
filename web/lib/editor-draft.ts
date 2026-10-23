@@ -8,5 +8,6 @@ export function draftProblems(e:Entry):string[]{
  for(const [i,m] of (e.pickupMembers||[]).entries())if(!Object.values(m.name||{}).some(v=>v.trim()&&(!/^\d+$/.test(v.trim())||e.gameId==='reverse1999'&&['6','37','210'].includes(v.trim()))))errors.push(`pickupMembers.${i}.name: Enter a character or support-card name, not a number.`);
  if(e.selectionCount&&(!(e.pickupMembers||[]).some(m=>m.role==='candidate')||e.selectionCount>(e.pickupMembers||[]).filter(m=>m.role==='candidate').length))errors.push('selectionCount: Set candidate members before entering the number to choose.');
  if(e.startAt&&e.endAt&&Date.parse(e.startAt)>=Date.parse(e.endAt))errors.push('endAt: End must follow start.');
+ for(const [i,b] of (e.contentBlocks||[]).entries())if(b.type==='image'&&(!b.asset.image||!b.asset.imageVerified||!b.asset.imageLocale))errors.push(`contentBlocks.${i}.asset: Upload or apply the image, or remove the empty image block.`);
  return errors;
 }

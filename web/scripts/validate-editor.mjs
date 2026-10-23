@@ -288,6 +288,21 @@ try{
  r=await historyRoute.POST(request({seq:history.history[0].seq,side:'before',revision:1}));assert.equal(r.status,200);assert.ok(!(await store.readData({includeHidden:true})).entries.some(e=>e.id==='reliability-drill'));
 }finally{globalThis.fetch=realFetch;}
 console.log(JSON.stringify({emergencySignedOIDC:true,dryRun:true,createHidden:true,replayDeduplication:true,revisionConflict:true,historyRollback:true}));
+globalThis.__patchworkTest.identity={userId:'owner-fixture',email:'owner@example.test'};
+// Owner in-place details use scoped reads, all locales and immutable original bytes.
+const inlineBody={ko:'직접 쓴 상세\n두 번째 줄 '.repeat(1500),en:'Owner English details',ja:'自分で書いた詳細',zh:'直接输入详情'};
+for(const game of games){
+ const id='custom-inline-'+game.id,changes={gameId:game.id,kind:'event',region:game.regions[0],server:game.publisher,title:{ko:'비공개 검증',en:'Private fixture',ja:'非公開検証',zh:'非公开验证'},summary:inlineBody,sourceUrl:game.official,sourceTitle:'Owner fixture',publishedAt:null,startAt:null,endAt:null,hidden:true,contentBlocks:[{id:'text',type:'text',body:inlineBody},{id:'image',type:'image',asset:{image:'/assets/fixture.png',imageSource:game.official,imageVerified:true,imageLocale:'neutral',width:2560,height:1440,verifiedAt:new Date().toISOString()}}]};
+ const req=new Request(origin+'/api/editor?view=entry',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({target:'entry',id,revision:0,create:true,changes})});
+ const created=await editor.POST(req);assert.equal(created.status,200,game.id);const value=await created.json();assert.equal(value.entry.hidden,true);assert.deepEqual(value.entry.contentBlocks,changes.contentBlocks);assert.deepEqual(value.entry.summary,inlineBody);assert.equal(value.entries,undefined);
+ const read=await editor.GET(new Request(origin+'/api/editor?id='+id));assert.equal(read.status,200);assert.deepEqual((await read.json()).entry.contentBlocks,changes.contentBlocks);
+ assert.equal((await store.readEntry(id)),undefined,'public detail must hide owner test');
+ const duplicate=await editor.POST(new Request(req.url,{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({target:'entry',id,revision:0,create:true,changes})}));assert.equal(duplicate.status,409);
+ const reset=await editor.DELETE(new Request(origin+'/api/editor',{method:'DELETE',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({target:'entry',id,revision:1})}));assert.equal(reset.status,200);
+}
+globalThis.__patchworkTest.identity=null;assert.equal((await editor.GET(new Request(origin+'/api/editor?id=custom-inline-wuwa'))).status,403);
+console.log(JSON.stringify({inlineScopedOwnerReadback:true,all15Games:true,fourLocaleLongDetails:true,photosPreserved:true,duplicateCreateBlocked:true,privateAndReversible:true}));
+
 sql.close();delete globalThis.__patchworkTest;
 console.log(JSON.stringify({ok:true,checks:['owner authorization','cross-origin rejection','editor SQLite roundtrip','optimistic conflicts','manual field preservation','optional field removal','hidden/manual item lifecycle','localized site settings','invalid URLs and dates','R2 upload/readback','exact multi-pickup slides','lower rarity exclusion','CN restricted to three reviewed services','Chinese locale retained']}));
 

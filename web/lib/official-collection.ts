@@ -1,5 +1,5 @@
 import {env} from 'cloudflare:workers';
-import {regionalOfficialSources,regionalDetail,type RegionalNotice} from './regional-notices';
+import {regionalOfficialSources,regionalDetail,regionalMetadataChanges,type RegionalNotice} from './regional-notices';
 import {noticeEntry,type FastNotice} from './fast-notices';
 import {retryFetch} from './retry-fetch';
 import {readData,saveEntries} from './store';
@@ -19,8 +19,10 @@ export async function collectRegionalNotices(){
   }catch(e){checks.push({source:source.key,gameId:source.gameId,region:source.region,locale:source.locale,url:source.url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'});}
  }));
  if(notices.length){await saveEntries(notices.map(n=>noticeEntry(n,new Date().toISOString())));const readback=await readData({automatic:true});if(notices.some(n=>!readback.entries.some(e=>e.sourceUrl===n.url)))throw Error('Regional notice readback failed');}
+ const metadataChanged=regionalMetadataChanges(before.entries,inspected.map(r=>r.notice),new Date().toISOString());
+ if(metadataChanged.length){await saveEntries(metadataChanged);const check=await readData({automatic:true});if(metadataChanged.some(e=>!check.entries.some(x=>x.id===e.id&&x.sourceTitle===e.sourceTitle&&x.publishedAt===e.publishedAt)))throw Error('Regional metadata readback failed');}
  for(const {notice,checkedAt} of inspected)await captureDocument(notice,notice.bodyHtml,checkedAt);
- return {checks,added:notices.length};
+ return {checks,added:notices.length,metadataChanged:metadataChanged.map(e=>e.id)};
 }
 export async function collectPendingDocuments(){
  const data=await readData({automatic:true}),queue=await reviewQueue(5000),previous=new Map(queue.map(d=>[d.url,d]));

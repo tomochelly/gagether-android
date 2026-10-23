@@ -1,0 +1,26 @@
+'use client';
+import {createContext,lazy,Suspense,useContext,useEffect,useId,useImperativeHandle,useRef,useState,type ReactNode,type Ref} from 'react';
+import {Pencil,Plus} from 'lucide-react';
+import type {Entry,Locale} from '@/lib/types';
+import type {EditorPreview} from '@/lib/editor-preview';
+import {useCatalog} from './catalog-context';
+const InlineForm=lazy(()=>import('./owner-inline-form'));
+export type InlineScope='content'|'image'|'details'|'all'|`section:${number}`|`detail-image:${number}`;
+export type OwnerInlineHandle={leave:()=>boolean;openEntry:(id:string,scope?:InlineScope)=>boolean};
+type InlineApi={enabled:boolean;active:string|null;open:(key:string,replace?:boolean)=>boolean;close:(key:string)=>void;guard:(key:string,fn:()=>boolean)=>()=>void;saved:(e:Entry)=>void;preview:(p:EditorPreview|null)=>void};
+const Context=createContext<InlineApi>({enabled:false,active:null,open:()=>false,close:()=>{},guard:()=>()=>{},saved:()=>{},preview:()=>{}});
+export function OwnerInlineProvider({enabled,children,onSaved,onPreview,onActive,ref}:{enabled:boolean;children:ReactNode;onSaved:(e:Entry)=>void;onPreview:(p:EditorPreview|null)=>void;onActive:(active:boolean)=>void;ref?:Ref<OwnerInlineHandle>}){
+ const [active,setActive]=useState<string|null>(null),state=useRef<string|null>(null),guard=useRef<{key:string;fn:()=>boolean}|null>(null);state.current=active;
+ function leave(){if(guard.current&&!guard.current.fn())return false;guard.current=null;state.current=null;setActive(null);onPreview(null);onActive(false);return true;}
+ function open(key:string,replace=false){if(state.current===key&&!replace)return true;if(!leave())return false;state.current=key;setActive(key);onActive(true);return true;}
+ useImperativeHandle(ref,()=>({leave,openEntry:(id,scope='all')=>{const nodes=[...document.querySelectorAll<HTMLElement>('[data-owner-entry]')].filter(n=>n.dataset.ownerEntry===id),node=nodes.find(n=>n.closest('dialog[open]'))||nodes[0];if(!node)return false;node.dispatchEvent(new CustomEvent('gagether:inline-open',{detail:scope}));node.scrollIntoView?.({block:'nearest'});return true;}}));
+ return <Context.Provider value={{enabled,active,open,close:key=>{if(state.current===key)leave();},guard:(key,fn)=>{guard.current={key,fn};return()=>{if(guard.current?.key===key)guard.current=null;};},saved:onSaved,preview:onPreview}}><div className="owner-inline-root" onClickCapture={e=>{if(!state.current||!enabled)return;const target=e.target as Element;if(target.closest('[data-owner-inline-key]')?.getAttribute('data-owner-inline-key')===state.current||!target.closest('button,a,input,select,summary,[role=button]'))return;if(!leave()){e.preventDefault();e.stopPropagation();}}}>{children}</div></Context.Provider>;
+}
+export function EntryEdit({entry,locale,scope='all',label,compact=false,create=false}:{entry:Entry;locale:Locale;scope?:InlineScope;label?:string;compact?:boolean;create?:boolean}){
+ const api=useContext(Context),key=useId(),ref=useRef<HTMLDivElement>(null),[chosen,setChosen]=useState(scope);const active=api.active===key;
+ useEffect(()=>{const node=ref.current;if(!node)return;const open=(event:Event)=>{const next=(event as CustomEvent).detail||scope;if(api.open(key,active&&next!==chosen))setChosen(next);};node.addEventListener('gagether:inline-open',open);return()=>node.removeEventListener('gagether:inline-open',open);},[api.enabled,api.active,key,scope,chosen]);
+ if(!api.enabled)return null;
+ const text={ko:{edit:'편집',image:'사진',details:'상세',content:'글'},en:{edit:'Edit',image:'Image',details:'Details',content:'Text'},ja:{edit:'編集',image:'画像',details:'詳細',content:'文'},zh:{edit:'编辑',image:'图片',details:'详情',content:'文字'}}[locale];
+ return <div ref={ref} data-owner-entry={entry.id} data-owner-inline-key={key} className={'owner-inline-slot'+(compact?' compact':'')} onClick={e=>e.stopPropagation()}><div className="owner-inline-tools"><button type="button" className="owner-edit-small" aria-expanded={active} onClick={()=>{if(active)api.close(key);else if(api.open(key))setChosen(scope);}}><Pencil size={12}/>{label||text.edit}</button>{!active&&scope==='all'&&(['content','image','details'] as const).map(s=><button type="button" className="owner-edit-small" key={s} onClick={()=>{if(api.open(key))setChosen(s);}}>{text[s]}</button>)}</div>{active&&<Suspense fallback={<p role="status">…</p>}><InlineForm key={entry.id+chosen} entry={entry} locale={locale} scope={chosen} create={create} onSaved={e=>{api.saved(e);api.preview(null);}} onPreview={api.preview} register={fn=>api.guard(key,fn)} onClose={()=>api.close(key)}/></Suspense>}</div>;
+}
+export function AddEntryHere({gameId,locale,region}:{gameId:string;locale:Locale;region:Entry['region']}){const {byId}=useCatalog(),api=useContext(Context),[id]=useState(()=>`custom-${crypto.randomUUID()}`),g=byId[gameId];if(!api.enabled||!g)return null;const b={ko:'',en:'',ja:'',zh:''},entry:Entry={id,gameId,kind:'event',region:g.regions.includes(region)?region:g.regions[0],title:b,summary:b,server:g.publisher,sourceUrl:g.official,sourceTitle:'Owner entry',publishedAt:null,startAt:null,endAt:null,verifiedAt:new Date().toISOString()};return <EntryEdit entry={entry} locale={locale} create label={{ko:'여기에 새 항목 추가',en:'Add an item here',ja:'ここに項目を追加',zh:'在此添加条目'}[locale]}/>;}

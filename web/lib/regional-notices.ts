@@ -1,4 +1,4 @@
-import type {FastNotice,FastSource} from './fast-notices';
+import {noticeText,textOnly,type FastNotice,type FastSource} from './fast-notices';
 export type RegionalNotice=FastNotice&{bodyHtml?:string};
 export type RegionalSource=Omit<FastSource,'load'>&{region:FastNotice['region'];locale:FastNotice['locale'];load:(fetcher:typeof fetch)=>Promise<RegionalNotice[]>};
 const date=(s:unknown)=>typeof s==='string'&&/^\d{4}-\d\d-\d\d/.test(s)?s.slice(0,10):null;
@@ -20,9 +20,10 @@ export function parseGflCn(d:any):RegionalNotice[]{
  if(d?.code!==0||!Array.isArray(d?.data?.list))throw Error('Official API format changed');
  return d.data.list.map((n:any)=>({gameId:'gfl2',region:'cn',locale:'zh',id:String(n.Id),title:String(n.Title),url:`https://gf2.sunborngame.com/NewsInfo?id=${n.Id}&typeId=${n.Type}`,publishedAt:date(n.Date),bodyHtml:n.Content||undefined}));
 }
+export function blueArchiveTitle(n:any):string{const heading=typeof n.content==='string'?n.content.match(/<p[^>]*>\s*<(?:strong|b)[^>]*>([\s\S]*?)<\/(?:strong|b)>\s*<\/p>/i)?.[1]:undefined;const summary=String(n.summary||'').trim();return heading&&(!summary||textOnly(heading).startsWith(summary.replace(/[.…]+$/,'').slice(0,30)))?textOnly(heading):summary||String(n.title||'');}
 export function parseBaJp(d:any):RegionalNotice[]{
  if(!Array.isArray(d?.data?.rows))throw Error('Official API format changed');
- return d.data.rows.map((n:any)=>({gameId:'bluearchive',region:'jp',locale:'ja',id:String(n.id),title:String(n.title||n.summary),url:'https://bluearchive.jp/news/newsJump/'+n.id,publishedAt:epoch(n.publishTime),bodyHtml:typeof n.content==='string'?n.content:undefined}));
+ return d.data.rows.map((n:any)=>({gameId:'bluearchive',region:'jp',locale:'ja',id:String(n.id),title:blueArchiveTitle(n),url:'https://bluearchive.jp/news/newsJump/'+n.id,publishedAt:epoch(n.publishTime),bodyHtml:typeof n.content==='string'?n.content:undefined}));
 }
 export function parseReverseCn(d:any):RegionalNotice[]{
  if(d?.code!==200||!Array.isArray(d?.data?.pageData))throw Error('Official API format changed');
@@ -53,10 +54,19 @@ add('trickcal','global','ja','https://l11-web-api.biligames.com/game/news/page?g
 add('hi3','kr','ja','https://sg-public-api-static.hoyoverse.com/content_v2_user/app/9f099cd555854c14/getContentList?iChanId=555&iPageSize=12&iPage=1&sLangKey=ja-jp',parseHi3Jp);
 export const regionalOfficialSources=sources;
 export async function regionalDetail(n:FastNotice,fetcher:typeof fetch):Promise<string|undefined>{
+ if(n.gameId==='bluearchive'&&n.region==='jp')return (await json(fetcher,'https://api-web.bluearchive.jp/api/news/detail?id='+encodeURIComponent(n.id))).data?.news?.content;
  if(n.gameId==='gfl2'&&n.region==='cn')return (await json(fetcher,'https://gf2-web-preregister-api.sunborngame.com/website/news/'+n.id)).data?.Content;
  if(n.gameId==='umamusume'&&n.region==='jp'){const d=await json(fetcher,'https://umamusume.jp/api/ajax/pr_info_detail?format=json&announce_id='+n.id);return d.information?.message||d.message||d.data?.message;}
  if(n.gameId==='arknights'&&n.region==='jp')return (await json(fetcher,'https://arknights.jp/api/resource/news/detail?id='+n.id)).data?.content;
  if(n.gameId==='stellasora'&&n.locale==='ja')return (await json(fetcher,'https://stellasora.jp/api/resource/news/'+n.id)).data?.news?.content;
  if(n.gameId==='trickcal'&&n.locale==='ja')return (await json(fetcher,'https://l11-web-api.biligames.com/game/news/detail?game_base_id=113406&show_position=1&client_type=2&lang=ja&news_id='+n.id)).data?.content;
  return undefined;
+}
+
+// Only feed metadata is automatic here. Full details and translations still require review.
+export function regionalMetadataChanges(entries:import('./types').Entry[],notices:RegionalNotice[],checkedAt:string){
+ return notices.flatMap(n=>entries.filter(e=>e.sourceUrl===n.url&&e.gameId===n.gameId&&e.region===n.region&&e.sourceLocale===n.locale&&/^(quick-|feed-)/.test(e.id)).flatMap(e=>{
+  const title=noticeText(n.title);if(e.sourceTitle===title&&e.publishedAt===n.publishedAt)return [];
+  return [{...e,sourceTitle:title,title:{...e.title,[n.locale]:title},publishedAt:n.publishedAt,verifiedAt:checkedAt}];
+ }));
 }

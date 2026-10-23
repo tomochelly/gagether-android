@@ -57,7 +57,7 @@ export function mergeVerifiedEntry(current:Entry|undefined,incoming:Entry):Entry
 }
 export function retainEntityDetails(incoming:Entry,previous:Entry|undefined):Entry{
  const result={...incoming};
- for(const key of ['recurring','signatureWeapons','entityDetails','videos','broadcast','rewards','rewardNote','marketRegion','audienceRegions','collaboration','pickupArchive','startDate','endDate'] as const)if(incoming[key]===undefined&&previous?.[key]!==undefined)Object.assign(result,{[key]:previous[key]});
+ for(const key of ['contentBlocks','recurring','signatureWeapons','entityDetails','videos','broadcast','rewards','rewardNote','marketRegion','audienceRegions','collaboration','pickupArchive','startDate','endDate'] as const)if(incoming[key]===undefined&&previous?.[key]!==undefined)Object.assign(result,{[key]:previous[key]});
  if(previous&&incoming.sourceUrl===previous.sourceUrl&&incoming.sourceTitle===previous.sourceTitle)for(const key of ['detailSections','detailImages','highlights','contents'] as const)if(incoming[key]===undefined&&previous[key]!==undefined)Object.assign(result,{[key]:previous[key]});
  if(result.pickupArchive?.status==='forecast'&&!result.pickupArchive.estimate&&!result.pickupArchive.startDate&&previous?.pickupArchive?.estimate)result.pickupArchive={...result.pickupArchive,estimate:previous.pickupArchive.estimate};
  return result;

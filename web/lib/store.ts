@@ -11,7 +11,7 @@ export async function readBaseData(options:{index?:boolean;id?:string}={}){
  const merged=new Map(seeds.map(e=>[e.id,options.index?catalogEntry(e):e]));let sourceChecks:SourceCheck[]=[];let persistent=true;
  try{
   // List requests do not transfer every four-language skill table out of D1.
-  const query=options.id?env.DB!.prepare('SELECT payload,updated_at FROM entries WHERE id=?').bind(options.id):env.DB!.prepare(options.index?"SELECT json_remove(payload,'$.entityDetails','$.detailImages','$.detailSections') AS payload,updated_at FROM entries ORDER BY updated_at DESC":'SELECT payload,updated_at FROM entries ORDER BY updated_at DESC');
+  const query=options.id?env.DB!.prepare('SELECT payload,updated_at FROM entries WHERE id=?').bind(options.id):env.DB!.prepare(options.index?"SELECT json_remove(payload,'$.entityDetails','$.detailImages','$.detailSections','$.contentBlocks') AS payload,updated_at FROM entries ORDER BY updated_at DESC":'SELECT payload,updated_at FROM entries ORDER BY updated_at DESC');
   const [rows,checks]=await Promise.all([query.all<{payload:string;updated_at:string}>(),options.id?Promise.resolve({results:[] as SourceCheck[]}):env.DB!.prepare('SELECT game_id AS gameId,checked_at AS checkedAt,status,count,error FROM source_checks').all<SourceCheck>().catch(()=>null)]);
   for(const row of rows.results){try{const e=JSON.parse(row.payload) as Entry;if(isSupportedSchedule(e.gameId,e.region)){const mergedEntry=mergeVerifiedEntry(merged.get(e.id),e);merged.set(e.id,options.index?catalogEntry(mergedEntry,row.updated_at):mergedEntry);}}catch{persistent=false;}}
   sourceChecks=checks?.results||[];if(!checks)persistent=false;
@@ -41,9 +41,10 @@ async function readUncachedData(options:{includeHidden?:boolean;automatic?:boole
 export async function readData(options:{includeHidden?:boolean;automatic?:boolean;index?:boolean}={}){
  return readUncachedData(options);
 }
-export async function readEntry(id:string){
- const [base,records]=await Promise.all([readBaseData({id}),readEditorial('entry:'+id)]);
- return applyEditorial(base.entries,records).find(e=>e.id===id);
+export async function readEntry(id:string,options:{includeHidden?:boolean;requirePersistent?:boolean}={}){
+ let available=true;const [base,records]=await Promise.all([readBaseData({id}),readEditorial('entry:'+id,()=>{available=false;})]);
+ if(options.requirePersistent&&(!base.persistent||!available))throw Error('Persistent record unavailable');
+ return applyEditorial(base.entries,records,options.includeHidden).find(e=>e.id===id);
 }
 export async function saveEntries(list:Entry[]){
  if(!list.length)return;

@@ -1,4 +1,5 @@
 'use client';
+import {EntryEdit} from './owner-inline';
 import {useState,type CSSProperties} from 'react';
 import {CalendarClock,ArrowUpRight,ChevronDown} from 'lucide-react';
 import type {Entry,Locale} from '@/lib/types';
@@ -22,7 +23,7 @@ function UpcomingCard({item,locale,onOpen,weaponEntries}:{weaponEntries:Entry[];
  const forecast=entry.pickupArchive?.status==='forecast'||(entry.sourceKind||'official')!=='official';
  const estimate=pickupEstimate(entry),dateText=estimateText[locale];
  return <article className={'upcoming-card'+(!hasArt?' without-art':'')+(simpleMode?' compact':'')} style={{'--upcoming-accent':game.color} as CSSProperties}>
-  {!simpleMode&&artwork}
+  <EntryEdit entry={entry} locale={locale}/>{!simpleMode&&artwork}
   <button className="upcoming-info" onClick={()=>onOpen(entry)}>
    <span className="upcoming-game"><img src={game.icon||game.logo} alt="" loading="lazy"/>{game.name[locale]}<small>{regionLabel(game,entry.region,locale,t)}</small></span>
    <span className="upcoming-name"><strong>{name}</strong><ArrowUpRight size={17}/></span>

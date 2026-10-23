@@ -11,7 +11,7 @@ globalThis.__catalogTestEnv={DB:{prepare(sql){queries.push(sql);let args=[];retu
 registerHooks({resolve(specifier,context,next){return specifier==='cloudflare:workers'?{url:'data:text/javascript,export const env=globalThis.__catalogTestEnv',shortCircuit:true}:next(specifier,context)}});
 const {readData,readEntry}=await import('../lib/store.ts');
 const name={ko:'검수',en:'Review',ja:'検証',zh:'验证'};
-const base={id:'performance-test',gameId:'wuwa',region:'global',kind:'pickup',title:name,summary:name,sourceUrl:'https://wutheringwaves.kurogames.com/kr/main',sourceTitle:'source',verifiedAt:'2026-10-17T00:00:00Z',startAt:null,endAt:null,startDate:'2026-10-22',detailSections:[{title:name,body:name}],detailImages:[{image:'/assets/exact-original.webp',width:3840,height:2160}],entityDetails:[{id:'base',name}],image:'/assets/exact-original.webp',localizedArtwork:{ja:{image:'/assets/exact-ja.webp',width:3840,height:2160}},videos:[{youtubeId:'abcdefghijk'}]};
+const base={id:'performance-test',gameId:'wuwa',region:'global',kind:'pickup',title:name,summary:name,sourceUrl:'https://wutheringwaves.kurogames.com/kr/main',sourceTitle:'source',verifiedAt:'2026-10-17T00:00:00Z',startAt:null,endAt:null,startDate:'2026-10-22',contentBlocks:[{id:'free-text',type:'text',body:name}],detailSections:[{title:name,body:name}],detailImages:[{image:'/assets/exact-original.webp',width:3840,height:2160}],entityDetails:[{id:'base',name}],image:'/assets/exact-original.webp',localizedArtwork:{ja:{image:'/assets/exact-ja.webp',width:3840,height:2160}},videos:[{youtubeId:'abcdefghijk'}]};
 const write=(e,revision='r1')=>db.prepare('INSERT OR REPLACE INTO entries VALUES (?,?,?)').run(e.id,JSON.stringify(e),revision);
 write(base);write({...base,id:'hidden-test'});
 const ownerDetails=[{id:'owner',name,notes:[name]}];
@@ -21,10 +21,10 @@ test('index defers detail-only fields; dates, exact native artwork, localization
  const index=(await readData({index:true})).entries.find(e=>e.id===base.id);
  const full=await readEntry(base.id);
  assert.deepEqual(index,catalogEntry(full,'r1'));
- assert.equal(index.entityDetails,undefined);assert.equal(index.detailSections,undefined);assert.equal(index.detailImages,undefined);assert.deepEqual(full.detailSections,base.detailSections);assert.deepEqual(full.detailImages,base.detailImages);assert.equal(index.startAt,null);
+ assert.equal(index.contentBlocks,undefined);assert.deepEqual(full.contentBlocks,base.contentBlocks);assert.equal(index.entityDetails,undefined);assert.equal(index.detailSections,undefined);assert.equal(index.detailImages,undefined);assert.deepEqual(full.detailSections,base.detailSections);assert.deepEqual(full.detailImages,base.detailImages);assert.equal(index.startAt,null);
  assert.deepEqual(full.entityDetails,ownerDetails);assert.deepEqual(index.localizedArtwork,base.localizedArtwork);
  assert.deepEqual(index.previewFocus,{x:40,y:50,zoom:1});
- assert.ok(queries.some(q=>q.includes("json_remove(payload,'$.entityDetails','$.detailImages','$.detailSections')")));
+ assert.ok(queries.some(q=>q.includes("json_remove(payload,'$.entityDetails','$.detailImages','$.detailSections','$.contentBlocks')")));
  assert.ok(queries.some(q=>q.includes('FROM entries WHERE id=?')));
  const automatic=(await readData({automatic:true})).entries.find(e=>e.id===base.id);
  assert.deepEqual(automatic.entityDetails,base.entityDetails);
@@ -79,7 +79,7 @@ test('the actual compact index repairs an old owner photo without transferring d
  write(owned,'photo-r1');const payload=JSON.stringify({image:'/api/media/reviewed.png',$unset:['imageLocale']});
  db.prepare('INSERT INTO editorial VALUES (?,?,?,?)').run('entry:'+owned.id,payload,3,'2026-10-17T01:00:00Z');
  const index=(await readData({index:true})).entries.find(e=>e.id===owned.id),full=await readEntry(owned.id);
- assert.equal(index.imageLocale,'neutral');assert.equal(index.imageKind,'character');assert.equal(index.image,full.image);assert.equal(index.detailImages,undefined);assert.equal(index.entityDetails,undefined);assert.equal(index.editor.revision,3);assert.equal(index.verifiedAt,base.verifiedAt);
+ assert.equal(index.imageLocale,'neutral');assert.equal(index.imageKind,'character');assert.equal(index.image,full.image);assert.equal(index.detailImages,undefined);assert.equal(index.contentBlocks,undefined);assert.deepEqual(full.contentBlocks,base.contentBlocks);assert.equal(index.entityDetails,undefined);assert.equal(index.editor.revision,3);assert.equal(index.verifiedAt,base.verifiedAt);
  assert.ok(queries.some(q=>q.includes('json_each')&&q.includes('LIMIT 1')));assert.equal(db.prepare('SELECT payload FROM editorial WHERE key=?').get('entry:'+owned.id).payload,payload);
  write({...owned,detailImages:[{...owned.detailImages[0],image:'/another.png'}]},'photo-r2');assert.equal((await readData({index:true})).entries.find(e=>e.id===owned.id).imageLocale,undefined);
 });

@@ -53,11 +53,11 @@ test('private photo inspection does not loosen public service-language filtering
   assert.equal(html.includes(art.image),editing);
  }
 });
-test('actual upload preview is immediate, success preserves selected service language, failure preserves the previous file, unmount aborts',async()=>{
+test('actual upload preview is immediate, success preserves selected service language, failure keeps a retryable local draft and preserves saved data, unmount aborts',async()=>{
  const dom=new JSDOM('<div id="root"></div>',{url:'https://gagether.wiki',pretendToBeVisual:true}),saved=new Map();
  const replace=(key,value)=>{saved.set(key,Object.getOwnPropertyDescriptor(globalThis,key));Object.defineProperty(globalThis,key,{value,writable:true,configurable:true})};
  for(const key of ['window','document','HTMLElement','Element','Node','Event','MouseEvent','File','FormData'])replace(key,dom.window[key]);
- replace('IS_REACT_ACT_ENVIRONMENT',true);replace('ResizeObserver',class{observe(){}disconnect(){}});
+ replace('Image',class{naturalWidth=1600;naturalHeight=900;set src(v){if(v)queueMicrotask(()=>this.onload?.());}});replace('IS_REACT_ACT_ENVIRONMENT',true);replace('ResizeObserver',class{observe(){}disconnect(){}});
  const realCreate=URL.createObjectURL,realRevoke=URL.revokeObjectURL;const revoked=[];URL.createObjectURL=()=> 'blob:immediate';URL.revokeObjectURL=url=>revoked.push(url);
  let finish,request,updates=[],pending=[];
  replace('fetch',async(_url,options)=>{request=options;return new Promise(resolve=>{finish=resolve;options.signal.addEventListener('abort',()=>resolve({ok:false,json:async()=>({error:'aborted'})}))})});
@@ -70,14 +70,15 @@ test('actual upload preview is immediate, success preserves selected service lan
    updates=[];pending=[];await upload();assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'blob:immediate');assert.deepEqual(pending,[true]);assert.equal(updates.length,0);
    await act(async()=>finish({ok:true,json:async()=>({url:'/api/media/new.png'})}));assert.equal(updates[0].imageLocale,serviceLocale);assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'/api/media/new.png');assert.deepEqual(pending,[true,false]);
   }
-  updates=[];await upload();await act(async()=>finish({ok:false,json:async()=>({error:'Upload failed'})}));assert.equal(updates.length,0);assert.match(document.querySelector('[role=alert]').textContent,/Upload failed/);assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'/api/media/new.png');
+  updates=[];await upload();await act(async()=>finish({ok:false,json:async()=>({error:'Upload failed'})}));assert.equal(updates.length,0);assert.match(document.querySelector('[role=alert]').textContent,/Upload failed/);assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'blob:immediate');assert.equal(pending.at(-1),true);
+  await act(async()=>[...document.querySelectorAll('button')].find(b=>b.textContent.includes('교체 취소')).click());assert.equal(document.querySelector('.editor-photo-preview img').getAttribute('src'),'/api/media/new.png');assert.equal(pending.at(-1),false);
   await upload();await act(async()=>root.unmount());assert.equal(request.signal.aborted,true);assert.equal(updates.length,0);assert.ok(revoked.length>=4);
  }finally{await act(async()=>root.unmount());URL.createObjectURL=realCreate;URL.revokeObjectURL=realRevoke;dom.window.close();for(const [key,descriptor]of saved){if(descriptor)Object.defineProperty(globalThis,key,descriptor);else delete globalThis[key]}}
 });
 test('the real editor blocks saving while a file is uploading, then saves the completed image metadata',async()=>{
  const dom=new JSDOM('<div id="root"></div>',{url:'https://gagether.wiki',pretendToBeVisual:true}),saved=new Map();
  const replace=(key,value)=>{saved.set(key,Object.getOwnPropertyDescriptor(globalThis,key));Object.defineProperty(globalThis,key,{value,writable:true,configurable:true})};
- for(const key of ['window','document','HTMLElement','Element','Node','Event','MouseEvent','File','FormData'])replace(key,dom.window[key]);replace('IS_REACT_ACT_ENVIRONMENT',true);replace('ResizeObserver',class{observe(){}disconnect(){}});
+ for(const key of ['window','document','HTMLElement','Element','Node','Event','MouseEvent','File','FormData'])replace(key,dom.window[key]);replace('Image',class{naturalWidth=1600;naturalHeight=900;set src(v){if(v)queueMicrotask(()=>this.onload?.());}});replace('IS_REACT_ACT_ENVIRONMENT',true);replace('ResizeObserver',class{observe(){}disconnect(){}});
  const realCreate=URL.createObjectURL,realRevoke=URL.revokeObjectURL;URL.createObjectURL=()=> 'blob:pending';URL.revokeObjectURL=()=>{};
  const data={entries:[{...entry,imageLocale:undefined}],settings:{},settingsRevision:0,sourceChecks:[]};let finish,savedBody;
  replace('fetch',async(path,options)=>{

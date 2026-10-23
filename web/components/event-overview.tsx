@@ -1,4 +1,5 @@
 'use client';
+import {EntryEdit} from './owner-inline';
 import {useState,type CSSProperties} from 'react';
 import {Clock3,Sparkles,ArrowUpRight,Star,Radio} from 'lucide-react';
 import type {Entry,Locale,Region} from '@/lib/types';
@@ -41,7 +42,7 @@ function EventTile({entry:e,locale,now,onOpen,compact=false}:{entry:Entry;locale
     <EventClock entry={e} locale={locale} now={now} compact={compact}/>
    </span>
   </button>
- </article>;
+ <EntryEdit entry={e} locale={locale} compact={compact}/></article>;
 }
 
 export default function EventOverview({entries,locale,now,onOpen,gameId,region,onGame}:{entries:Entry[];locale:Locale;now:number;onOpen:(e:Entry)=>void;gameId?:string;region:Region;onGame:(id:string,region:Region)=>void}){
