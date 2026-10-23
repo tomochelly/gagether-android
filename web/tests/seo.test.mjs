@@ -2,7 +2,7 @@ import './load-typescript.mjs';
 import {test} from 'node:test';import assert from 'node:assert/strict';import React,{act} from 'react';import {renderToString} from 'react-dom/server';import {hydrateRoot} from 'react-dom/client';import {JSDOM} from 'jsdom';
 const {default:sitemap}=await import('../app/sitemap.ts');const {catalogMetadata}=await import('../lib/seo.ts');const {catalogPath,catalogLocation,catalogLocaleHeaders,supportedLocales}=await import('../lib/catalog-paths.ts');const {games,byId}=await import('../lib/games.ts');const {default:Radar}=await import('../components/radar.tsx');const {emptyCatalog}=await import('../lib/initial-shell.ts');
 test('69 discoverable URLs have reciprocal language links and self canonicals',()=>{
- const pages=sitemap();assert.equal(pages.length,69);assert.equal(new Set(pages.map(p=>p.url)).size,69);
+ const pages=sitemap();assert.equal(pages.length,81);assert.equal(new Set(pages.map(p=>p.url)).size,81);
  for(const locale of supportedLocales)for(const game of [undefined,...games]){
   const meta=catalogMetadata(locale,game?{id:game.id,name:game.name[locale]}:undefined);const url='https://gagether.wiki'+catalogPath(locale,game?.id);assert.equal(meta.alternates.canonical,url);assert.equal(meta.alternates.languages[locale],url);assert.equal(pages.find(p=>p.url===url).alternates.languages[locale],url);
   assert.ok(meta.description.length>30);assert.equal(meta.robots.index,true);assert.equal(meta.keywords,undefined);if(game)assert.ok(meta.title.includes(game.name[locale]));
@@ -26,7 +26,7 @@ test('localized game SSR includes actual stored content and crawlable game/langu
  for(const locale of supportedLocales){
   const entry={id:'seo-hsr',gameId:'hsr',region:'global',kind:'pickup',title:titles,summary:titles,startAt:'2026-10-01T00:00:00+09:00',endAt:'2026-11-01T00:00:00+09:00',publishedAt:null,verifiedAt:'2026-10-20T00:00:00Z',sourceUrl:'https://hsr.hoyoverse.com/',sourceTitle:'Official',officialLocales:['ko','en','ja','zh']};
   const html=renderToString(React.createElement(Radar,{initialLocale:locale,initialLocaleManual:true,initialView:'game',initialGameId:'hsr',initialRegion:'global',initialData:{...emptyCatalog(),persistent:true,serverTime:'2026-10-21T18:00:00Z',entries:[entry]},initialComplete:false,initialDeferred:true}));
-  const dom=new JSDOM(html);assert.equal(dom.window.document.querySelector('.breadcrumb strong').textContent,byId.hsr.name[locale]);assert.ok(dom.window.document.body.textContent.includes(titles[locale]));assert.equal(dom.window.document.querySelectorAll('.game-nav-link[href]').length,15);assert.equal(dom.window.document.querySelectorAll('.site-language-links a[href]').length,4);assert.equal(dom.window.document.querySelector('.site-language-links a[hreflang="ja"]').getAttribute('href'),'/ja/games/hsr');dom.window.close();
+  const dom=new JSDOM(html);assert.equal(dom.window.document.querySelector('.breadcrumb strong').textContent,byId.hsr.name[locale]);assert.ok(dom.window.document.body.textContent.includes(titles[locale]));assert.equal(dom.window.document.querySelectorAll('.game-nav-link[href]').length,18);assert.equal(dom.window.document.querySelectorAll('.site-language-links a[href]').length,4);assert.equal(dom.window.document.querySelector('.site-language-links a[hreflang="ja"]').getAttribute('href'),'/ja/games/hsr');dom.window.close();
  }
 });
 test('language links preserve an independently selected gameplay service',()=>{

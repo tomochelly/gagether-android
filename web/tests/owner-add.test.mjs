@@ -56,7 +56,7 @@ test('real owner canvas: add, retry, consecutive creation, library game/text edi
   await act(async()=>document.querySelector('.editor-footer button.editor-primary').click());assert.equal(document.querySelector('.library-heading>span').textContent,'My edited library');
   // Every library tile has a real owner-only edit control.
   const nav=[...document.querySelectorAll('.sidebar nav')].find(n=>n.querySelector('button.active'));
-  await act(async()=>nav.querySelectorAll('button')[1].click());assert.equal(document.querySelectorAll('.game-tile .tile-edit').length,15);
+  await act(async()=>nav.querySelectorAll('button')[1].click());assert.equal(document.querySelectorAll('.game-tile .tile-edit').length,18);
   await act(async()=>document.querySelector('.game-tile .tile-edit').click());assert.ok(document.querySelector('.editor-inspector .editor-field input'));
   assert.deepEqual(recovered,[]);assert.equal(errors.filter(e=>/same key|cannot be a descendant|hydration|Maximum update/.test(e)).length,0,errors.join('\n'));
  }finally{await act(async()=>root?.unmount());console.error=oldError;Date.now=originalNow;dom.window.close();for(const[k,d] of old){if(d)Object.defineProperty(globalThis,k,d);else delete globalThis[k];}}

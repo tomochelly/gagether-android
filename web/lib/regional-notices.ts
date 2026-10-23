@@ -1,10 +1,11 @@
+import {additionalOfficialSources,additionalNoticeBody} from './additional-game-notices';
 import {blueArchiveTitle} from './bluearchive-title';
 import {naverBody} from './naver-body';
 import {decodeSourceHtml} from './collection-review';
 import {noticeText,textOnly,type FastNotice,type FastSource} from './fast-notices';
 import {hi3WebsiteSources,parseHi3Website} from './hi3-notices';
 export type RegionalNotice=FastNotice&{bodyHtml?:string};
-export type RegionalSource=Omit<FastSource,'load'>&{region:FastNotice['region'];locale:FastNotice['locale'];load:(fetcher:typeof fetch)=>Promise<RegionalNotice[]>};
+export type RegionalSource=Omit<FastSource,'load'>&{region:FastNotice['region'];locale:FastNotice['locale'];staleAfterDays?:number;load:(fetcher:typeof fetch)=>Promise<RegionalNotice[]>};
 const date=(s:unknown)=>typeof s==='string'&&/^\d{4}-\d\d-\d\d/.test(s)?s.slice(0,10):null;
 const epoch=(v:unknown)=>Number(v)>0?new Date(Number(v)).toISOString():null;
 async function json(f:typeof fetch,url:string,init?:RequestInit){const r=await f(url,{...init,redirect:'manual',signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('HTTP '+r.status);try{return await r.json() as any;}catch{throw Error('HTTP 200 non-JSON/JavaScript shell');}}
@@ -65,8 +66,9 @@ for(const locale of ['ja','en'] as const)for(const label of [496,892]){
   return d.data.info_content.map((n:any)=>({gameId:'nikke',region,locale,id:n.content_id,title:n.title,url:`https://nikke-${locale==='ja'?'jp':'en'}.com/newsdetail.html?content_id=${n.content_id}`,publishedAt:epoch(Number(n.pub_timestamp)*1000)}));
  }});
 }
-export const regionalOfficialSources=sources;
+export const regionalOfficialSources=[...sources,...additionalOfficialSources];
 export async function regionalDetail(n:FastNotice,fetcher:typeof fetch):Promise<string|undefined>{
+ if(['limbus','dna','holodreams'].includes(n.gameId))return additionalNoticeBody(n,fetcher);
  const hi3=hi3WebsiteSources.find(s=>n.gameId==='hi3'&&s.region===n.region&&s.locale===n.locale&&n.url===s.site+n.id);
  if(hi3)return parseHi3Website(await json(fetcher,hi3.url),hi3).find(row=>row.id===n.id)?.bodyHtml;
  // This is the ordinary public endpoint used by the official lounge frontend.

@@ -29,7 +29,7 @@ test('web/mobile frames render all four languages even when the database is unav
   assert.match(markup,/data-catalog-state="shell"/);
   assert.match(markup,/class="sidebar ?"/);
   assert.match(markup,/catalog-pending/);
-  assert.equal((markup.match(/class="game-nav-link"/g)||[]).length,15);
+  assert.equal((markup.match(/class="game-nav-link"/g)||[]).length,18);
   assert.doesNotMatch(markup,/class="ambient"|id="S:|empty-state/);
   assert.ok(Buffer.byteLength(markup)<80000,Buffer.byteLength(markup));
  }

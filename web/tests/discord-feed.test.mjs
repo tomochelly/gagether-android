@@ -12,7 +12,7 @@ const entries=games.flatMap(game=>[...new Set(game.regions.map(r=>effectiveRegio
 
 test('15 games × 4 languages × requested services retain actual schedule/market scope without private fields',()=>{
   for(const locale of ['ko','en','ja','zh'])for(const requested of ['kr','jp','global','cn']){
-    const feed=discordFeed(entries,{},locale,requested,now);assert.equal(feed.games.length,15);
+    const feed=discordFeed(entries,{},locale,requested,now);assert.equal(feed.games.length,18);
     assert.ok(!JSON.stringify(feed).includes('"editor"'));assert.ok(!JSON.stringify(feed).includes('"entityDetails"'));
     if(requested==='cn')assert.deepEqual([...new Set(feed.entries.map(e=>e.gameId))].sort(),['arknights','gfl2','reverse1999']);
     for(const item of feed.entries){

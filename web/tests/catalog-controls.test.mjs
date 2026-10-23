@@ -75,7 +75,7 @@ test('new Korean notice feeds reject ordinary community posts and do not invent 
 
 test('all fifteen games keep verified canonical services and only the verified mainland catalogs',async()=>{
  const {games}=await import('../lib/games.ts');const {effectiveRegion}=await import('../lib/presentation.ts');const {safeSource}=await import('../lib/types.ts');
- assert.equal(games.length,15);assert.equal(new Set(games.map(g=>g.id)).size,15);
+ assert.equal(games.length,18);assert.equal(new Set(games.map(g=>g.id)).size,18);
  for(const id of ['trickcal','hi3','reverse1999','stellasora']){const g=games.find(g=>g.id===id);assert.ok(g);assert.equal(g.regions.includes('cn'),id==='reverse1999');for(const locale of ['ko','en','ja','zh'])assert.ok(g.name[locale]);}
  assert.equal(effectiveRegion(games.find(g=>g.id==='reverse1999'),'cn'),'cn');for(const g of games)assert.equal(g.regions.includes('cn'),['arknights','gfl2','reverse1999'].includes(g.id));
  assert.equal(effectiveRegion(games.find(g=>g.id==='trickcal'),'jp'),'global');assert.equal(effectiveRegion(games.find(g=>g.id==='hi3'),'jp'),'kr');

@@ -60,7 +60,7 @@ test('version gifts never become weapon/pickup rewards, and punctuation is not s
 });
 
 test('duplicate timezone/date narration disappears, practical timing conditions remain and all15 games have reachable wiki paths recorded',()=>{
- assert.equal(displayTimingNote({...base,timingNote:loc('Asia/Seoul')},'ko'),'');assert.equal(displayTimingNote({...base,startAt:'2026-10-22T11:00:00+09:00',endAt:'2026-11-11T12:59:00+09:00',timingNote:loc('2026-10-22 11:00 ~ 2026-11-11 12:59')},'ko'),'');assert.equal(displayTimingNote({...base,timingNote:loc('보상 수령: 종료 후 7일')},'ko'),'보상 수령: 종료 후 7일');const coverage=wikiCoverage([]);assert.equal(coverage.length,15);assert.ok(coverage.every(g=>g.sources.length));
+ assert.equal(displayTimingNote({...base,timingNote:loc('Asia/Seoul')},'ko'),'');assert.equal(displayTimingNote({...base,startAt:'2026-10-22T11:00:00+09:00',endAt:'2026-11-11T12:59:00+09:00',timingNote:loc('2026-10-22 11:00 ~ 2026-11-11 12:59')},'ko'),'');assert.equal(displayTimingNote({...base,timingNote:loc('보상 수령: 종료 후 7일')},'ko'),'보상 수령: 종료 후 7일');const coverage=wikiCoverage([]);assert.equal(coverage.length,18);assert.ok(coverage.every(g=>g.sources.length));
 });
 
 test('body fetch slots rotate across actual services without one weapon-heavy game consuming the budget',async()=>{

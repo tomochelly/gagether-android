@@ -31,7 +31,8 @@ export async function collectRegionalNotices(){
    const rows=await source.load(fetcher);if(!rows.length)throw Error('HTTP 200 without readable official notices');
    const fresh=rows.filter(n=>!known.has(n.url));for(const n of fresh){known.add(n.url);notices.push(n);}
    // Index success is explicitly separate from body review and pickup application.
-   checks.push({source:source.key,gameId:source.gameId,region:source.region,locale:source.locale,url:source.url,checkedAt,status:'ok',count:rows.length,added:fresh.length});
+   const latestPublishedAt=rows.map(n=>n.publishedAt).filter(Boolean).sort().at(-1),stale=!!(source.staleAfterDays&&latestPublishedAt&&Date.now()-Date.parse(latestPublishedAt)>source.staleAfterDays*86400000);
+   checks.push({source:source.key,gameId:source.gameId,region:source.region,locale:source.locale,url:source.url,checkedAt,status:stale?'limited':'ok',count:rows.length,added:fresh.length,latestPublishedAt,...(stale?{error:'Official language feed is stale; current native Steam notices are checked independently'}:{})});
    for(const n of rows.slice(0,12))inspected.push({notice:n,checkedAt});
   }catch(e){checks.push({source:source.key,gameId:source.gameId,region:source.region,locale:source.locale,url:source.url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'});}
  }));

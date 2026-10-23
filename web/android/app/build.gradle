@@ -1,0 +1,52 @@
+plugins { id 'com.android.application' }
+
+// Owner-managed release credentials only. Never sign a release with the debug key.
+def releaseVariables = ['GAGETHER_KEYSTORE_FILE', 'GAGETHER_KEYSTORE_PASSWORD', 'GAGETHER_KEY_ALIAS', 'GAGETHER_KEY_PASSWORD']
+def releaseValues = releaseVariables.collectEntries { key -> [(key): providers.environmentVariable(key).orNull] }
+def hasReleaseSigning = releaseValues.values().every { it != null && !it.isEmpty() }
+if (releaseValues.values().any { it != null && !it.isEmpty() } && !hasReleaseSigning) {
+ throw new GradleException('Set all four GAGETHER release signing variables; partial signing configuration is not allowed.')
+}
+if (providers.gradleProperty('requireReleaseSigning').orNull == 'true' && !hasReleaseSigning) {
+ throw new GradleException('Release signing is required. Configure the owner-managed GAGETHER signing variables first.')
+}
+android {
+ namespace 'app.patchwork.radar'
+ compileSdk 36
+ defaultConfig {
+  applicationId 'app.patchwork.radar'
+  minSdk 26
+  targetSdk 36
+  versionCode 10
+  versionName '1.0.3'
+  testInstrumentationRunner 'app.patchwork.radar.ReminderInstrumentation'
+  buildConfigField 'String', 'SITE_ORIGIN', '"https://gagether.wiki"'
+ }
+ buildFeatures { buildConfig true }
+ signingConfigs {
+  if (hasReleaseSigning) {
+   release {
+    storeFile file(releaseValues.GAGETHER_KEYSTORE_FILE)
+    storePassword releaseValues.GAGETHER_KEYSTORE_PASSWORD
+    keyAlias releaseValues.GAGETHER_KEY_ALIAS
+    keyPassword releaseValues.GAGETHER_KEY_PASSWORD
+   }
+  }
+ }
+ buildTypes {
+  debug { applicationIdSuffix '.beta'; versionNameSuffix '-debug' }
+  release {
+   debuggable false
+   if (hasReleaseSigning) signingConfig signingConfigs.release
+   minifyEnabled false
+   proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),'proguard-rules.pro'
+  }
+ }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+ testOptions { unitTests.returnDefaultValues = true }
+}
+dependencies {
+ implementation 'androidx.webkit:webkit:1.14.0'
+ testImplementation 'junit:junit:4.13.2'
+ testImplementation 'org.json:json:20240303'
+}
