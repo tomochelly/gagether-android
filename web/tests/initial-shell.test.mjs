@@ -9,7 +9,7 @@ import {JSDOM} from 'jsdom';
 const {emptyCatalog,isInitialShellRequest}=await import('../lib/initial-shell.ts');
 const {packCatalog}=await import('../lib/catalog-transport.ts');
 const {default:Radar}=await import('../components/radar.tsx');
-const {byId}=await import('../lib/games.ts');
+const {byId,games}=await import('../lib/games.ts');
 let reads=0;
 globalThis.__shellEnv={DB:{prepare(){reads++;throw Error('Catalog is deliberately unavailable')}}};
 globalThis.__shellLocale='ko';
@@ -31,7 +31,8 @@ test('web/mobile frames render all four languages even when the database is unav
   assert.match(markup,/catalog-pending/);
   assert.equal((markup.match(/class="game-nav-link"/g)||[]).length,18);
   assert.doesNotMatch(markup,/class="ambient"|id="S:|empty-state/);
-  assert.ok(Buffer.byteLength(markup)<80000,Buffer.byteLength(markup));
+  // Retain the original 15-game byte budget per game as the catalog expands.
+  assert.ok(Buffer.byteLength(markup)<80000*games.length/15,Buffer.byteLength(markup));
  }
  assert.equal(reads,0);
  assert.equal(isInitialShellRequest(new Request('https://example.test/')),true);

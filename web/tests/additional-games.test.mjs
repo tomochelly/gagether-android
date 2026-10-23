@@ -2,6 +2,7 @@ import './load-typescript.mjs';
 import {test} from 'node:test';import assert from 'node:assert/strict';
 const {games}=await import('../lib/games.ts'),{mobileFeed}=await import('../lib/mobile.ts'),{legacyMobileGameIds,supportsExpandedCatalog}=await import('../lib/mobile-compatibility.ts'),{safeSource}=await import('../lib/types.ts'),{collectionCoverage}=await import('../lib/collection-review.ts'),{normalizeGameOrder}=await import('../lib/game-order.ts');
 const {parseSteamEvents,steamGames,steamBodyHtml,parseDnaNotices,additionalOfficialSources}=await import('../lib/additional-game-notices.ts');
+const {effectiveRegion}=await import('../lib/presentation.ts');
 const {sourceDocument}=await import('../lib/collection-review.ts');
 const text=s=>({ko:s,en:s,ja:s,zh:s});
 test('catalog expands to eighteen without changing old ordering, private preferences or the three CN catalogs',()=>{
@@ -13,7 +14,7 @@ test('catalog expands to eighteen without changing old ordering, private prefere
 test('distributed native apps retain a fifteen-game feed while the update receives all eighteen',()=>{
  for(const ua of ['GAGETHER-Android/1.0.2','Mozilla Android GAGETHER/1.0.2','GAGETHER/0.2.2'])assert.equal(supportsExpandedCatalog(ua),false);
  for(const ua of [null,'Mozilla/5.0','GAGETHER/1.0.3','GAGETHER-Android/1.1.0','GAGETHER/2.0.0'])assert.equal(supportsExpandedCatalog(ua),true);
- const entries=games.map(g=>({id:'compat-'+g.id,gameId:g.id,region:g.regions[0],kind:g.id==='dna'?'event':'pickup',title:text(g.id),summary:text(''),server:'Global',startAt:'2026-10-20T00:00:00Z',endAt:'2026-11-01T00:00:00Z',sourceUrl:g.official,sourceTitle:'Source',verifiedAt:'2026-10-23T00:00:00Z',publishedAt:null}));
+ const entries=games.map(g=>({id:'compat-'+g.id,gameId:g.id,region:effectiveRegion(g,'kr'),kind:g.id==='dna'?'event':'pickup',title:text(g.id),summary:text(''),server:'Global',startAt:'2026-10-20T00:00:00Z',endAt:'2026-11-01T00:00:00Z',sourceUrl:g.official,sourceTitle:'Source',verifiedAt:'2026-10-23T00:00:00Z',publishedAt:null}));
  const modern=mobileFeed(entries,{},'ko'),old=mobileFeed(entries,{},'ko',legacyMobileGameIds);assert.equal(modern.games.length,18);assert.equal(old.games.length,15);assert.equal(old.entries.length,15);assert.ok(old.entries.every(e=>legacyMobileGameIds.includes(e.gameId)));
 });
 test('Steam native bodies require the exact app, publisher and language; metadata windows never become gameplay dates',()=>{

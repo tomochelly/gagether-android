@@ -6,7 +6,7 @@ import {renderToString} from 'react-dom/server';
 import {hydrateRoot} from 'react-dom/client';
 import {JSDOM} from 'jsdom';
 const {default:Radar}=await import('../components/radar.tsx');
-const {byId}=await import('../lib/games.ts');
+const {byId,games}=await import('../lib/games.ts');
 const clock=Date.parse('2026-10-21T00:00:00Z');
 const text=n=>{const id=n.replace(/[^0-9]/g,'');return {ko:n,en:'Event '+id,ja:'イベント '+id,zh:'活动 '+id}};
 const fixture=(gameId,n)=>({id:`${gameId}-event-${n}`,gameId,region:'global',kind:'event',server:'Asia · UTC+8',title:text(`이벤트 ${n}`),summary:text(`이벤트 ${n} 참여 안내`),startAt:'2026-10-01T00:00:00Z',endAt:'2026-11-01T00:00:00Z',sourceUrl:'https://example.com/notice/'+n,sourceTitle:'Original',verifiedAt:'2026-10-20T00:00:00Z',...(n===0?{image:`/test/${gameId}-poster.png`,imageVerified:true,imageLocale:'neutral',imageKind:'banner'}:{})});
@@ -41,7 +41,7 @@ test('event sections stay singular across clock ticks, scroll, data refresh and 
   assert.ok(document.querySelector('.sidebar').classList.contains('is-open'));
   await act(async()=>document.querySelector('.sidebar-scrim').click());
   assert.equal(document.querySelector('.workspace').hasAttribute('inert'),false);
-  assert.equal(document.querySelector('.library-heading .library-count').textContent,'15');
+  assert.equal(document.querySelector('.library-heading .library-count').textContent,String(games.length));
   assert.equal(document.querySelectorAll('a[href="/owner/analytics"]').length,0);
   assert.equal(document.querySelector('.visitor-account-link').getAttribute('href'),'/account?locale=ko');
   assert.ok(document.querySelector('.main-nav>button:nth-of-type(6)').nextElementSibling.matches('.nav-account'));
