@@ -2104,5 +2104,23 @@
     "url": "https://gagether.wiki/assets/zzz-logo.png",
     "bytes": 6441,
     "sha256": "08ac54113febcbda2a7e12dde00128ca7d56bde685d1e6e15d5e522bad158e05"
+  },
+  {
+    "path": "public/assets/weapons/wuwa-37-phase2-unspoken-rue-ko.jpg",
+    "url": "https://gagether.wiki/assets/weapons/wuwa-37-phase2-unspoken-rue-ko.jpg",
+    "bytes": 1295440,
+    "sha256": "1533a9d2ae052a650d7eb1557d21c3f3dd98ef7b110588fa1b7fb9029081d426"
+  },
+  {
+    "path": "public/assets/weapons/wuwa-37-phase2-freeze-frame-ko.jpg",
+    "url": "https://gagether.wiki/assets/weapons/wuwa-37-phase2-freeze-frame-ko.jpg",
+    "bytes": 1197202,
+    "sha256": "f13e9aa94b20daae3826f55b309cc93aa683dbd27123144c06dc75d10823030d"
+  },
+  {
+    "path": "public/assets/weapons/wuwa-37-phase2-spectrum-blaster-ko.jpg",
+    "url": "https://gagether.wiki/assets/weapons/wuwa-37-phase2-spectrum-blaster-ko.jpg",
+    "bytes": 1515869,
+    "sha256": "b8622caddb7364aaacc2fffc6c9a055a18679664d4b2a5b49b9194951faf7320"
   }
 ]

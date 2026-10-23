@@ -21,16 +21,16 @@ for(const source of hi3WebsiteSources.filter(s=>s.locale==='ko'))sources.unshift
 
 
 /** Official role and lounge must both match; user posts must never enter the notice feed. */
-export function parseNaverOfficial(value:any,gameId:'trickcal'|'stellasora',lounge:string,region:'kr'|'global'):FastNotice[]{
+export function parseNaverOfficial(value:any,gameId:'trickcal'|'stellasora'|'wuwa',lounge:string,region:'kr'|'global'):FastNotice[]{
  if(value?.code!==200||!Array.isArray(value?.content?.feeds))throw Error('Official API format changed');
  return value.content.feeds.filter((n:any)=>n?.user?.userRoleCode==='game_manager'&&String(n?.feed?.loungeId).toLowerCase()===lounge.toLowerCase()&&!n.feed.hideByCleanBot&&/^\d+$/.test(String(n.feed.feedId))).map((n:any)=>{
   const stamp=String(n.feed.createdDate||'');
   // This public API does not declare its clock zone. Retain its publication date only.
   const publishedAt=/^\d{14}$/.test(stamp)?`${stamp.slice(0,4)}-${stamp.slice(4,6)}-${stamp.slice(6,8)}`:null;
-  return {gameId,region,locale:'ko',id:String(n.feed.feedId),title:String(n.feed.title||''),url:`https://game.naver.com/lounge/${lounge}/board/detail/${n.feed.feedId}`,publishedAt};
+  return {gameId,region,locale:'ko',id:String(n.feed.feedId),title:String(n.feed.title||'').replace(/&#x([0-9a-f]+);/gi,(_:string,c:string)=>String.fromCodePoint(parseInt(c,16))).replace(/&#([0-9]+);/g,(_:string,c:string)=>String.fromCodePoint(Number(c))),url:`https://game.naver.com/lounge/${lounge}/board/detail/${n.feed.feedId}`,publishedAt};
  });
 }
-for(const config of [{gameId:'trickcal',lounge:'Trickcal',region:'kr',boards:[3,11,13,22,8]},{gameId:'stellasora',lounge:'stellasora',region:'global',boards:[3,16,1]}] as const){
+for(const config of [{gameId:'wuwa',lounge:'WutheringWaves',region:'global',boards:[28,1]},{gameId:'trickcal',lounge:'Trickcal',region:'kr',boards:[3,11,13,22,8]},{gameId:'stellasora',lounge:'stellasora',region:'global',boards:[3,16,1]}] as const){
  for(const board of config.boards){
   const url=`https://comm-api.game.naver.com/nng_main/v1/community/lounge/${config.lounge}/feed?offset=0&limit=30&order=NEW&buffFilteringYN=N&boardId=${board}`;
   sources.push({gameId:config.gameId,key:`${config.gameId}/kr/naver/${board}`,url,async load(fetcher){

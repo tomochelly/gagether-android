@@ -1,4 +1,5 @@
 import {blueArchiveTitle} from './bluearchive-title';
+import {naverBody} from './naver-body';
 import {decodeSourceHtml} from './collection-review';
 import {noticeText,textOnly,type FastNotice,type FastSource} from './fast-notices';
 import {hi3WebsiteSources,parseHi3Website} from './hi3-notices';
@@ -70,12 +71,13 @@ export async function regionalDetail(n:FastNotice,fetcher:typeof fetch):Promise<
  if(hi3)return parseHi3Website(await json(fetcher,hi3.url),hi3).find(row=>row.id===n.id)?.bodyHtml;
  // This is the ordinary public endpoint used by the official lounge frontend.
  // Match the full known source URL, not a user-supplied API URL or a loose ID.
- const lounge={trickcal:'Trickcal',stellasora:'stellasora',reverse1999:'reverse1999'}[n.gameId as 'trickcal'|'stellasora'|'reverse1999'];
+ const lounge={trickcal:'Trickcal',stellasora:'stellasora',reverse1999:'reverse1999',wuwa:'WutheringWaves'}[n.gameId as 'trickcal'|'stellasora'|'reverse1999'|'wuwa'];
  if(lounge&&n.locale==='ko'&&n.url===`https://game.naver.com/lounge/${lounge}/board/detail/${n.id}`){
   const d=await json(fetcher,'https://comm-api.game.naver.com/nng_main/v1/community/lounge/'+lounge+'/feed/'+n.id);
   const feed=d?.content?.feed;
   if(d?.code!==200||String(feed?.feedId)!==n.id||feed?.loungeId!==lounge||typeof feed.contents!=='string'||!feed.contents.trim())throw Error('Official lounge body format or identity changed');
-  return feed.contents;
+  if(n.gameId==='wuwa'&&d.content?.user?.userRoleCode!=='game_manager')throw Error('Official lounge author identity changed');
+  return naverBody(feed.contents);
  }
  if(n.gameId==='wuwa'){
   const language={ko:'kr',ja:'jp',en:'en',zh:'zh'}[n.locale],d=await json(fetcher,`https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/${language}/article/${encodeURIComponent(n.id)}.json`);

@@ -36,10 +36,11 @@ const reviewed:Record<string,{entryId:string;memberName?:string}[]>={
  'genshin-71-skirk':[{entryId:'genshin-71-weapon',memberName:'Azurelight'}],
  'genshin-71-escoffier':[{entryId:'genshin-71-weapon',memberName:'Symphonist of Scents'}],
 };
+export const reviewedSignatureRefs=(character:Entry)=>character.signatureWeapons??reviewed[character.id]??[];
 export interface WeaponLink {entry:Entry;art:EntityArtwork;name:Localized;key:string}
 export function signatureWeapons(character:Entry,entries:Entry[]):WeaponLink[]{
  if(character.kind!=='pickup'||character.poolType==='support'||character.poolType==='weapon'||character.selectionCount||character.pickupArchive?.status==='past')return [];
- const refs=character.signatureWeapons??reviewed[character.id]??[];
+ const refs=reviewedSignatureRefs(character);
  const result:WeaponLink[]=[];
  for(const ref of refs){
   const weapon=entries.find(e=>e.id===ref.entryId&&e.gameId===character.gameId&&e.region===character.region&&e.kind==='weapon'&&!e.pickupArchive&&!e.hidden);

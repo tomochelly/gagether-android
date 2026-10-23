@@ -2,7 +2,7 @@ import type {Entry,Locale,Region} from './types';
 import {games} from './games';
 import {effectiveRegion} from './presentation';
 import {pickupPeriod,pickupEnd} from './pickup-history';
-export const pickupNotice=(title:string)=>/헤드헌팅|픽업|모집|스카우트|확률|概率|確率|寻访|招募|募集|召喚|召唤|スカウト|ガチャ|ピックアップ|供給|供给|招集|headhunt|recruit|conven[ei]|banner|rate.up|gacha/i.test(title);
+export const pickupNotice=(title:string)=>/튜닝|集音|헤드헌팅|픽업|모집|스카우트|확률|概率|確率|寻访|招募|募集|召喚|召唤|スカウト|ガチャ|ピックアップ|供給|供给|招集|headhunt|recruit|conven[ei]|banner|rate.up|gacha/i.test(title);
 export function decodeSourceHtml(input:string){
  let html=input;
  for(let i=0;i<3;i++){

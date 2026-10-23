@@ -6,6 +6,7 @@ import {retryFetch} from './retry-fetch';
 import {readData,readBaseData,saveEntries} from './store';
 import {captureDocument,reviewQueue} from './collection-store';
 import {importCapturedBodies} from './source-body-store';
+import {importWuwaWeapons} from './wuwa-weapon-store';
 import {collectionCoverage,pickupNotice} from './collection-review';
 const fetcher=((url:RequestInfo|URL,init?:RequestInit)=>retryFetch(typeof url==='string'?url:url instanceof URL?url.href:url.url,init)) as typeof fetch;
 export function noticeSourceId(url:string){const u=new URL(url);return u.searchParams.get('id')||u.searchParams.get('announce_id')||u.searchParams.get('content_id')||u.searchParams.get('news_detail_id')||u.searchParams.get('thread')||u.hash.match(/newsId\?(\d+)/)?.[1]||u.pathname.split('/').filter(Boolean).at(-1)||'';}
@@ -53,8 +54,9 @@ export async function collectPendingDocuments(){
   const d=await fetchReviewDocument(n);checks.push({source:'body/'+d.id,url:n.url,checkedAt:d.checkedAt,status:d.sourceAccess==='body'?'ok':'error',sourceAccess:d.sourceAccess,detailStatus:d.status,error:d.error||(d.sourceAccess==='body'?undefined:'Original body remains unreadable')});
  }));
  const bodyImport=await importCapturedBodies(undefined,100);
+ const weapons=await importWuwaWeapons();
  const all=await reviewQueue(5000),pending=all.filter(d=>d.status!=='reviewed');
- const result={checkedAt:new Date().toISOString(),bodyImport,checks,pending:pending.length,unavailable:pending.filter(d=>d.status==='unavailable').length,coverage:collectionCoverage(data.entries)};
+ const result={checkedAt:new Date().toISOString(),bodyImport,weapons,checks,pending:pending.length,unavailable:pending.filter(d=>d.status==='unavailable').length,coverage:collectionCoverage(data.entries)};
  await env.DB!.prepare("INSERT INTO operations_health(key,payload) VALUES('collection',?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload").bind(JSON.stringify(result)).run();
  return result;
 }

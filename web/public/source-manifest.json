@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "8333ff9d22484b7fdaab2beb8177456760920d04a31fcce1e12dd3110e0d9a17",
+  "fingerprint": "24b125e3a078ec453cbebcf21aa3d9db8056bfa38694f07d80ca983576e8aa0e",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -44,7 +44,7 @@
     },
     {
       "path": "app/api/collection/route.ts",
-      "sha256": "72931f88d69fd5392deb2c9266f835945cfba28ce7e00d485bd184779f0b8f98"
+      "sha256": "eda772e89c6f39676dc807c1d20cb6cb42bf0338420d309ec7793b82ba1b97c2"
     },
     {
       "path": "app/api/community/route.ts",
@@ -116,7 +116,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "f55272e031aa06cf2ffc1069412b7fb6f524afdd2fea5d06c85e684a6002f298"
+      "sha256": "b1c24207cc32e71129bf5a9fe2e8f36a7caec76bc7eae2e5d3e94b7f6d4ba6ba"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -1096,7 +1096,7 @@
     },
     {
       "path": "lib/collection-review.ts",
-      "sha256": "ce374f4be3a3f4beb27a4ee1b422c38d3adab265885ed6cd303811dcf6ae5d8e"
+      "sha256": "149a6fba0d1a2269748c1eafeecfb2537b6f5ba363ff6114c9018d8f059d79e8"
     },
     {
       "path": "lib/collection-store.ts",
@@ -1180,7 +1180,7 @@
     },
     {
       "path": "lib/expanded-notices.ts",
-      "sha256": "d850e4fff3ba82bad6d38d7c29d774d703cb59b5dc333522f50cd7ffd9560706"
+      "sha256": "8d9c42ab00b2a8a62399205e818c7373540699d3b68f368a74b66fbccbbab402"
     },
     {
       "path": "lib/fast-notices.ts",
@@ -1188,7 +1188,7 @@
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "4f36a6754372d4db5fd076f2c9de6f197f39a95caa460dbf35b20020f0e792f7"
+      "sha256": "dd1cb5aaf6f528468f63b36a8b9de6a62121e75e785b271372f254d2f5c57466"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",
@@ -1275,6 +1275,10 @@
       "sha256": "acb4ce82737d08f233157bdb5aaab09a52cced2ac47d7721ea53c1c5f5a319c7"
     },
     {
+      "path": "lib/naver-body.ts",
+      "sha256": "f1c79453221b33e351b2333f34a94a1ab3724e7f5017394b22e0ace03bea5eca"
+    },
+    {
       "path": "lib/notification-i18n.ts",
       "sha256": "32b9640e72d2d9ba45604eb27cb44f0c388923eddaf641c8c593b0fb24f14ade"
     },
@@ -1288,7 +1292,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "5f926b55d866bea8e65307a6eef78fa2513b1426912b45a3e8fb8e2c20be32f2"
+      "sha256": "c7d268706cb5f72ae347dbf773f30b862bbe1285e2aaf9b67b52bdb7a3a24957"
     },
     {
       "path": "lib/official-social-store.ts",
@@ -1368,7 +1372,7 @@
     },
     {
       "path": "lib/regional-notices.ts",
-      "sha256": "361a1e702c209635fc7419ff811d522adaf06417d7933ee780f879349b62b6ff"
+      "sha256": "0774c87b3cd2615dce8a4da70f2bc7daea8cbbb00ab74f1ef0e39c80bf1cc641"
     },
     {
       "path": "lib/request-layout.ts",
@@ -1444,7 +1448,7 @@
     },
     {
       "path": "lib/types.ts",
-      "sha256": "e37e762f32331960b20eccc64dd18421ce74acad616d71c98732a31fde8dbce5"
+      "sha256": "631aeefe74167ff853053bd1b75ed5877289ea9208a69b60d42057739f6c5401"
     },
     {
       "path": "lib/upcoming-pickups.ts",
@@ -1480,7 +1484,7 @@
     },
     {
       "path": "lib/weapon-links.ts",
-      "sha256": "ec7a348a5e98434ddf21eb5c62e4e04ed19ecaecb5d2858e5ec7ba3f1ce2a974"
+      "sha256": "6da8725178d6ed4f72ba18e6df1239773e3840077c9868fb6411ba96a4d6ba9c"
     },
     {
       "path": "lib/write-access.ts",
@@ -1489,6 +1493,14 @@
     {
       "path": "lib/write-token.ts",
       "sha256": "c8f10767005b02fa9c37f2ca05fff7e661273b40cef989e1d66d47876de512a9"
+    },
+    {
+      "path": "lib/wuwa-weapon-store.ts",
+      "sha256": "8946376def7d6de4c03e6e25a6ddae999232d9484b5f4e0021e87dff9d4312d9"
+    },
+    {
+      "path": "lib/wuwa-weapons.ts",
+      "sha256": "d5c7418f5039e34d030801633d2f75fefdbf8dd13c5eee4fab78170873037403"
     },
     {
       "path": "package.json",

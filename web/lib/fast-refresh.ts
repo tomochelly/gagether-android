@@ -112,11 +112,12 @@ export async function runFastRefresh(){
     await saveEntries([entry]);return {url,checkedAt,status:'ok',broadcastStatus:b.status,added:entry.id};
    }catch(e){return {url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   },2);
+  const collection=await collectPendingDocuments();
   const [automatic,effective]=await Promise.all([readData({automatic:true,collection:true}),readData({collection:true})]);
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
-  const collection=await collectPendingDocuments();
-  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks],!validationIssues.length);
+  const weaponCheck={source:'wuwa/global/weapons',status:collection.weapons.issues.length?'error':'ok',checkedAt:collection.weapons.checkedAt,count:collection.weapons.changedEntries.length,error:collection.weapons.issues.join('; ')||undefined};
+  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks,...collection.checks,weaponCheck],!validationIssues.length);
   const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticed.length+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
   await recordHealth(result);await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(result.finishedAt,JSON.stringify(result),startedAt).run();return result;
  }catch(e){const failed={ok:false,outcome:'failed',finishedAt:new Date().toISOString(),error:e instanceof Error?e.message:'Refresh failed'};await recordHealth(failed).catch(()=>{});await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(failed.finishedAt,JSON.stringify(failed),startedAt).run();throw e;}
