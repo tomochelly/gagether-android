@@ -1,0 +1,2664 @@
+[
+  {
+    "id": "limbus-global-character-20261015-sinclair",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "pickup",
+    "title": {
+      "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+      "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+      "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+      "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+    },
+    "summary": {
+      "ko": "신규 인격 특정 추출",
+      "en": "New Identity Target Extraction",
+      "ja": "新規人格特定抽出",
+      "zh": "新人格定向抽取"
+    },
+    "startAt": "2026-10-15T12:00:00+09:00",
+    "endAt": "2026-10-29T10:00:00+09:00",
+    "publishedAt": "2026-10-09T08:59:12+00:00",
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+    "sourceTitle": "오트쿠튀르::르루주 붉은 신 싱클레어",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "poolType": "character",
+    "pickupType": "new",
+    "pickupGroup": "limbus-global-character-20261015-sinclair",
+    "bannerName": {
+      "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+      "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+      "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+      "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+    },
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+          "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+          "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+          "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+        },
+        "type": "new",
+        "role": "featured",
+        "rarity": 3,
+        "image": "/assets/limbus/current-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "/assets/limbus/current-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          },
+          "en": {
+            "image": "/assets/limbus/current-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          },
+          "ja": {
+            "image": "/assets/limbus/current-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          }
+        },
+        "previewFocus": {
+          "x": 73.0,
+          "y": 45.0,
+          "zoom": 1
+        }
+      }
+    ],
+    "image": "/assets/limbus/current-banner.png",
+    "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+    "imageVerified": true,
+    "imageKind": "banner",
+    "imageLocale": "ko",
+    "imageCaption": {
+      "ko": "공식 한국어·영어·일본어 통합 배너",
+      "en": "Official Korean/English/Japanese combined banner",
+      "ja": "公式韓国語・英語・日本語共通バナー",
+      "zh": "官方韓文・英文・日文合併橫幅"
+    },
+    "localizedArtwork": {
+      "ko": {
+        "image": "/assets/limbus/current-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "width": 800,
+        "height": 450,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      },
+      "en": {
+        "image": "/assets/limbus/current-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "en",
+        "width": 800,
+        "height": 450,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      },
+      "ja": {
+        "image": "/assets/limbus/current-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "width": 800,
+        "height": 450,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      }
+    },
+    "relatedSources": [
+      {
+        "kind": "official",
+        "url": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "title": "기간 및 구성"
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "Gpj-lvOnAgs",
+        "kind": "character",
+        "format": "pv",
+        "title": {
+          "ko": "LimbusCompany [000] 오트쿠튀르::르루주 붉은 신 싱클레어",
+          "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+          "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+          "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+        },
+        "locale": "ko",
+        "channel": "ProjectMoon Official",
+        "sourceUrl": "https://www.youtube.com/watch?v=Gpj-lvOnAgs",
+        "publishedAt": null,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "official": true,
+        "metadataVerified": true,
+        "watched": false,
+        "entityNames": [
+          {
+            "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+            "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+            "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
+            "zh": "高级定制::Le Rouge 赤之神 辛克莱"
+          }
+        ],
+        "evidenceUrls": [
+          "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+          "https://www.youtube.com/@ProjectMoonOfficial"
+        ],
+        "originalTitle": "LimbusCompany [000] 오트쿠튀르::르루주 붉은 신 싱클레어",
+        "titleOfficialLocales": [
+          "ko"
+        ],
+        "titleTranslatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      }
+    ],
+    "detailImages": [
+      {
+        "image": "/assets/limbus/678511862081391684-ko-1.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=koreana",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "ko",
+        "width": 1950,
+        "height": 2813,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      },
+      {
+        "image": "/assets/limbus/678511862081391684-ko-2.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=koreana",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "ko",
+        "width": 3072,
+        "height": 3570,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      },
+      {
+        "image": "/assets/limbus/678511862081391684-ko-3.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=koreana",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "ko",
+        "width": 1950,
+        "height": 2935,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      },
+      {
+        "image": "/assets/limbus/678511862081391684-english-1.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=english",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "en",
+        "width": 1950,
+        "height": 2813,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      },
+      {
+        "image": "/assets/limbus/678511862081391684-english-2.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=english",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "en",
+        "width": 3072,
+        "height": 3570,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      },
+      {
+        "image": "/assets/limbus/678511862081391684-english-3.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=english",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "en",
+        "width": 1950,
+        "height": 2935,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      },
+      {
+        "image": "/assets/limbus/678511862081391684-japanese-1.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=japanese",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "ja",
+        "width": 1950,
+        "height": 2813,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      },
+      {
+        "image": "/assets/limbus/678511862081391684-japanese-2.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=japanese",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "ja",
+        "width": 3072,
+        "height": 3570,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      },
+      {
+        "image": "/assets/limbus/678511862081391684-japanese-3.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391684?l=japanese",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "ja",
+        "width": 1950,
+        "height": 2935,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-character-20261029-heathcliff-honglu",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "pickup",
+    "title": {
+      "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프 / 오트쿠튀르::르누아르 3F 방송실 홍루",
+      "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff / Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+      "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ / オートクチュール::ル・ノワール 3F放送室 ホンル",
+      "zh": "高级定制::Le Rouge 针线之王 希斯克利夫 / 高级定制::Le Noir 3F 广播室 鸿璐"
+    },
+    "summary": {
+      "ko": "신규 인격 특정 추출",
+      "en": "New Identity Target Extraction",
+      "ja": "新規人格特定抽出",
+      "zh": "新人格定向抽取"
+    },
+    "startAt": "2026-10-29T12:00:00+09:00",
+    "endAt": "2026-11-12T10:00:00+09:00",
+    "publishedAt": "2026-10-23T08:59:34+00:00",
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+    "sourceTitle": "오트쿠튀르::르루주 바느질의 왕 히스클리프 / 오트쿠튀르::르누아르 3F 방송실 홍루",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "poolType": "character",
+    "pickupType": "new",
+    "pickupGroup": "limbus-global-character-20261029-heathcliff-honglu",
+    "bannerName": {
+      "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프 / 오트쿠튀르::르누아르 3F 방송실 홍루",
+      "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff / Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+      "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ / オートクチュール::ル・ノワール 3F放送室 ホンル",
+      "zh": "高级定制::Le Rouge 针线之王 希斯克利夫 / 高级定制::Le Noir 3F 广播室 鸿璐"
+    },
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+          "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff",
+          "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ",
+          "zh": "高级定制::Le Rouge 针线之王 希斯克利夫"
+        },
+        "type": "new",
+        "role": "featured",
+        "rarity": 3,
+        "image": "/assets/limbus/next-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "/assets/limbus/next-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          },
+          "en": {
+            "image": "/assets/limbus/next-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          },
+          "ja": {
+            "image": "/assets/limbus/next-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          }
+        },
+        "previewFocus": {
+          "x": 80.0,
+          "y": 45.0,
+          "zoom": 1
+        }
+      },
+      {
+        "name": {
+          "ko": "오트쿠튀르::르누아르 3F 방송실 홍루",
+          "en": "Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+          "ja": "オートクチュール::ル・ノワール 3F放送室 ホンル",
+          "zh": "高级定制::Le Noir 3F 广播室 鸿璐"
+        },
+        "type": "new",
+        "role": "featured",
+        "rarity": 3,
+        "image": "/assets/limbus/next-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "/assets/limbus/next-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          },
+          "en": {
+            "image": "/assets/limbus/next-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          },
+          "ja": {
+            "image": "/assets/limbus/next-banner.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 800,
+            "height": 450,
+            "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+            "imageCaption": {
+              "ko": "공식 한국어·영어·일본어 통합 배너",
+              "en": "Official Korean/English/Japanese combined banner",
+              "ja": "公式韓国語・英語・日本語共通バナー",
+              "zh": "官方韓文・英文・日文合併橫幅"
+            }
+          }
+        },
+        "previewFocus": {
+          "x": 18.0,
+          "y": 45.0,
+          "zoom": 1
+        }
+      }
+    ],
+    "image": "/assets/limbus/next-banner.png",
+    "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+    "imageVerified": true,
+    "imageKind": "banner",
+    "imageLocale": "ko",
+    "imageCaption": {
+      "ko": "공식 한국어·영어·일본어 통합 배너",
+      "en": "Official Korean/English/Japanese combined banner",
+      "ja": "公式韓国語・英語・日本語共通バナー",
+      "zh": "官方韓文・英文・日文合併橫幅"
+    },
+    "localizedArtwork": {
+      "ko": {
+        "image": "/assets/limbus/next-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "width": 800,
+        "height": 450,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      },
+      "en": {
+        "image": "/assets/limbus/next-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "en",
+        "width": 800,
+        "height": 450,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      },
+      "ja": {
+        "image": "/assets/limbus/next-banner.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "width": 800,
+        "height": 450,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      }
+    },
+    "videos": [
+      {
+        "youtubeId": "jWYcZpYtdls",
+        "kind": "character",
+        "format": "pv",
+        "title": {
+          "ko": "LimbusCompany [000] 오트쿠튀르::르루주 바느질의 왕 히스클리프  / [000] 오트쿠튀르::르누아르 3F 방송실 홍루",
+          "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff / Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+          "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ / オートクチュール::ル・ノワール 3F放送室 ホンル",
+          "zh": "高级定制::Le Rouge 针线之王 希斯克利夫 / 高级定制::Le Noir 3F 广播室 鸿璐"
+        },
+        "locale": "ko",
+        "channel": "ProjectMoon Official",
+        "sourceUrl": "https://www.youtube.com/watch?v=jWYcZpYtdls",
+        "publishedAt": null,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "official": true,
+        "metadataVerified": true,
+        "watched": false,
+        "entityNames": [
+          {
+            "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+            "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff",
+            "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ",
+            "zh": "高级定制::Le Rouge 针线之王 希斯克利夫"
+          },
+          {
+            "ko": "오트쿠튀르::르누아르 3F 방송실 홍루",
+            "en": "Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+            "ja": "オートクチュール::ル・ノワール 3F放送室 ホンル",
+            "zh": "高级定制::Le Noir 3F 广播室 鸿璐"
+          }
+        ],
+        "evidenceUrls": [
+          "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+          "https://www.youtube.com/@ProjectMoonOfficial"
+        ],
+        "originalTitle": "LimbusCompany [000] 오트쿠튀르::르루주 바느질의 왕 히스클리프  / [000] 오트쿠튀르::르누아르 3F 방송실 홍루",
+        "titleOfficialLocales": [
+          "ko"
+        ],
+        "titleTranslatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-target-20261015-ishmael",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "pickup",
+    "title": {
+      "ko": "특정 추출 [이스마엘]",
+      "en": "Target Extraction [Ishmael]",
+      "ja": "特定抽出 [イシュメール]",
+      "zh": "定向抽取 [以实玛利]"
+    },
+    "summary": {
+      "ko": "특정 추출",
+      "en": "Target Extraction",
+      "ja": "特定抽出",
+      "zh": "定向抽取"
+    },
+    "startAt": "2026-10-15T12:00:00+09:00",
+    "endAt": "2026-10-29T10:00:00+09:00",
+    "publishedAt": "2026-10-12T09:14:56+00:00",
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+    "sourceTitle": "특정 추출 [이스마엘]",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "poolType": "character",
+    "pickupType": "rerun",
+    "pickupGroup": "limbus-global-target-20261015-ishmael",
+    "bannerName": {
+      "ko": "특정 추출 [이스마엘]",
+      "en": "Target Extraction [Ishmael]",
+      "ja": "特定抽出 [イシュメール]",
+      "zh": "定向抽取 [以实玛利]"
+    },
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "특정 추출 [이스마엘]",
+          "en": "Target Extraction [Ishmael]",
+          "ja": "特定抽出 [イシュメール]",
+          "zh": "定向抽取 [以实玛利]"
+        },
+        "type": "rerun",
+        "role": "featured"
+      }
+    ],
+    "detailImages": [
+      {
+        "image": "/assets/limbus/678511862081391680-ko-2.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "width": 700,
+        "height": 1149,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-target-20261015-ring",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "pickup",
+    "title": {
+      "ko": "특정 추출 [약지]",
+      "en": "Target Extraction [The Ring]",
+      "ja": "特定抽出 [薬指]",
+      "zh": "定向抽取 [环指]"
+    },
+    "summary": {
+      "ko": "특정 추출",
+      "en": "Target Extraction",
+      "ja": "特定抽出",
+      "zh": "定向抽取"
+    },
+    "startAt": "2026-10-15T12:00:00+09:00",
+    "endAt": "2026-10-29T10:00:00+09:00",
+    "publishedAt": "2026-10-12T09:14:56+00:00",
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+    "sourceTitle": "특정 추출 [약지]",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "poolType": "character",
+    "pickupType": "rerun",
+    "pickupGroup": "limbus-global-target-20261015-ring",
+    "bannerName": {
+      "ko": "특정 추출 [약지]",
+      "en": "Target Extraction [The Ring]",
+      "ja": "特定抽出 [薬指]",
+      "zh": "定向抽取 [环指]"
+    },
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "특정 추출 [약지]",
+          "en": "Target Extraction [The Ring]",
+          "ja": "特定抽出 [薬指]",
+          "zh": "定向抽取 [环指]"
+        },
+        "type": "rerun",
+        "role": "featured"
+      }
+    ],
+    "detailImages": [
+      {
+        "image": "/assets/limbus/678511862081391680-ko-2.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "width": 700,
+        "height": 1149,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      }
+    ],
+    "detailSections": [
+      {
+        "title": {
+          "ko": "대상",
+          "en": "Pool",
+          "ja": "対象",
+          "zh": "對象"
+        },
+        "body": {
+          "ko": "약지 야수파 도슨트 로쟈 / 약지 야수파 스튜던트 뫼르소 / 거미집 약지 아비 홍루 / 거미집 약지 제자 파우스트 / 약지 점묘파 스튜던트 이상",
+          "en": "The Ring Fauvist Docent Rodion / The Ring Fauvist Student Meursault / The House of Spiders: The Ring Nursefather Hong Lu / The House of Spiders: The Ring Apprentice Faust / The Ring Pointillist Student Yi Sang",
+          "ja": "薬指野獣派ドーセント ロージャ / 薬指野獣派ステューデント ムルソー / 蜘蛛の巣 薬指の親方 ホンル / 蜘蛛の巣 薬指の子方 ファウスト / 薬指点描派ステューデント イサン",
+          "zh": ""
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-event-20261022-maintenance-lunacy",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "event",
+    "title": {
+      "ko": "점검 및 애플리케이션 업데이트 보상",
+      "en": "Maintenance and application update rewards",
+      "ja": "メンテナンス・アプリ更新報酬",
+      "zh": "维护及应用更新奖励"
+    },
+    "summary": {
+      "ko": "10/29 10:00(KST) 전 생성 계정\n계정당 1회 · 게임 내 우편 수령\n우편 수령 기한 7일",
+      "en": "Account created before Oct29 10:00(KST)\nOnce per account · claim through in-game mail\nMail claim period: 7 days",
+      "ja": "10/29 10:00(KST)より前に作成したアカウント\n1アカウント1回・ゲーム内メールで受取\nメール受取期限：7日",
+      "zh": "10月29日10:00(KST)前创建的账号\n每个账号1次・游戏内邮件领取\n邮件领取期限：7天"
+    },
+    "startAt": "2026-10-22T12:00:00+09:00",
+    "endAt": "2026-10-29T10:00:00+09:00",
+    "publishedAt": "2026-10-19T08:59:16+00:00",
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/690897394695406954?l=koreana",
+    "sourceTitle": "점검 및 애플리케이션 업데이트 보상",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "rewards": [
+      {
+        "rewardId": "limbus-lunacy",
+        "category": "gacha-currency",
+        "name": {
+          "ko": "광기",
+          "en": "Lunacy",
+          "ja": "狂気",
+          "zh": "狂气"
+        },
+        "quantity": "300",
+        "acquisition": "conditional",
+        "icon": {
+          "image": "/assets/limbus/lunacy.png",
+          "imageSource": "https://wiki.biligame.com/limbuscompany/5%E6%9C%8825%E6%97%A5%E8%AE%A1%E5%88%92%E6%9B%B4%E6%96%B0",
+          "width": 183,
+          "height": 160,
+          "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+        },
+        "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/690897394695406954?l=koreana",
+        "sourceKind": "official",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-season-8-punctum",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "update",
+    "title": {
+      "ko": "시즌 8: 푼크툼",
+      "en": "Season 8: PUNCTUM",
+      "ja": "シーズン8：プンクトゥム",
+      "zh": "第8赛季：PUNCTUM"
+    },
+    "summary": {
+      "ko": "",
+      "en": "",
+      "ja": "",
+      "zh": ""
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://www.pickupcal.com/events/925504/",
+    "sourceTitle": "시즌 8: 푼크툼",
+    "sourceKind": "community",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "version": "Season 8",
+    "versionHero": true,
+    "versionTitle": {
+      "ko": "시즌 8: 푼크툼",
+      "en": "Season 8: PUNCTUM",
+      "ja": "シーズン8：プンクトゥム",
+      "zh": "第8赛季：PUNCTUM"
+    },
+    "image": "/assets/limbus/season8.png",
+    "imageSource": "https://steamcommunity.com/games/1973530/announcements/",
+    "imageVerified": true,
+    "imageKind": "banner",
+    "imageLocale": "ko",
+    "imageCaption": {
+      "ko": "공식 한국어·영어·일본어 통합 배너",
+      "en": "Official Korean/English/Japanese combined banner",
+      "ja": "公式韓国語・英語・日本語共通バナー",
+      "zh": "官方韓文・英文・日文合併橫幅"
+    },
+    "localizedArtwork": {
+      "ko": {
+        "image": "/assets/limbus/season8.png",
+        "imageSource": "https://steamcommunity.com/games/1973530/announcements/",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "width": 1920,
+        "height": 1080,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      },
+      "en": {
+        "image": "/assets/limbus/season8.png",
+        "imageSource": "https://steamcommunity.com/games/1973530/announcements/",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "en",
+        "width": 1920,
+        "height": 1080,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      },
+      "ja": {
+        "image": "/assets/limbus/season8.png",
+        "imageSource": "https://steamcommunity.com/games/1973530/announcements/",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "width": 1920,
+        "height": 1080,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+        "imageCaption": {
+          "ko": "공식 한국어·영어·일본어 통합 배너",
+          "en": "Official Korean/English/Japanese combined banner",
+          "ja": "公式韓国語・英語・日本語共通バナー",
+          "zh": "官方韓文・英文・日文合併橫幅"
+        }
+      }
+    }
+  },
+  {
+    "id": "limbus-global-package-20261015-0-kr",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "package",
+    "title": {
+      "ko": "특별 추출 패키지",
+      "en": "Target Extraction Pack",
+      "ja": "特別抽出パッケージ",
+      "zh": "特别抽取礼包"
+    },
+    "summary": {
+      "ko": "계정당 1회 구매",
+      "en": "One purchase per account",
+      "ja": "1アカウント1回購入可能",
+      "zh": "每個帳號限購1次"
+    },
+    "startAt": "2026-10-15T12:00:00+09:00",
+    "endAt": "2026-10-29T10:00:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+    "sourceTitle": "특별 추출 패키지",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "marketRegion": "kr",
+    "price": {
+      "amount": 33000,
+      "currency": "KRW",
+      "platform": "In-game shop"
+    },
+    "contents": [
+      {
+        "ko": "추출 10회 티켓 ×4",
+        "en": "Decaextraction Ticket ×4",
+        "ja": "抽出10回チケット ×4",
+        "zh": "十连抽取券 ×4"
+      }
+    ],
+    "detailImages": [
+      {
+        "image": "/assets/limbus/678511862081391680-ko-3.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "width": 800,
+        "height": 1729,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-package-20261015-0-jp",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "package",
+    "title": {
+      "ko": "특별 추출 패키지",
+      "en": "Target Extraction Pack",
+      "ja": "特別抽出パッケージ",
+      "zh": "特别抽取礼包"
+    },
+    "summary": {
+      "ko": "계정당 1회 구매",
+      "en": "One purchase per account",
+      "ja": "1アカウント1回購入可能",
+      "zh": "每個帳號限購1次"
+    },
+    "startAt": "2026-10-15T12:00:00+09:00",
+    "endAt": "2026-10-29T10:00:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+    "sourceTitle": "특별 추출 패키지",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "marketRegion": "jp",
+    "price": {
+      "amount": 3000,
+      "currency": "JPY",
+      "platform": "In-game shop"
+    },
+    "contents": [
+      {
+        "ko": "추출 10회 티켓 ×4",
+        "en": "Decaextraction Ticket ×4",
+        "ja": "抽出10回チケット ×4",
+        "zh": "十连抽取券 ×4"
+      }
+    ],
+    "detailImages": [
+      {
+        "image": "/assets/limbus/678511862081391680-japanese-3.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=japanese",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "width": 800,
+        "height": 1757,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-package-20261015-1-kr",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "package",
+    "title": {
+      "ko": "인격 육성 패키지",
+      "en": "Identity Growth Pack",
+      "ja": "人格育成パッケージ",
+      "zh": "人格培养礼包"
+    },
+    "summary": {
+      "ko": "계정당 1회 구매",
+      "en": "One purchase per account",
+      "ja": "1アカウント1回購入可能",
+      "zh": "每個帳號限購1次"
+    },
+    "startAt": "2026-10-15T12:00:00+09:00",
+    "endAt": "2026-10-29T10:00:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+    "sourceTitle": "인격 육성 패키지",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "marketRegion": "kr",
+    "price": {
+      "amount": 33000,
+      "currency": "KRW",
+      "platform": "In-game shop"
+    },
+    "contents": [
+      {
+        "ko": "도약 모듈 - 인격 동기화 ×1\n인격 학습 티켓 IV ×90\n인격 학습 티켓 III ×40",
+        "en": "Takeoff Module - ID Uptie ×1\nIdentity Training Ticket IV ×90\nIdentity Training Ticket III ×40",
+        "ja": "跳躍モジュール - 人格同期化 ×1\n人格学習チケット IV ×90\n人格学習チケット III ×40",
+        "zh": "跃升模块 - 人格同步化 ×1\n人格经验券 IV ×90\n人格经验券 III ×40"
+      }
+    ],
+    "detailImages": [
+      {
+        "image": "/assets/limbus/678511862081391680-ko-3.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "width": 800,
+        "height": 1729,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-package-20261015-1-jp",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "global",
+    "kind": "package",
+    "title": {
+      "ko": "인격 육성 패키지",
+      "en": "Identity Growth Pack",
+      "ja": "人格育成パッケージ",
+      "zh": "人格培养礼包"
+    },
+    "summary": {
+      "ko": "계정당 1회 구매",
+      "en": "One purchase per account",
+      "ja": "1アカウント1回購入可能",
+      "zh": "每個帳號限購1次"
+    },
+    "startAt": "2026-10-15T12:00:00+09:00",
+    "endAt": "2026-10-29T10:00:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=koreana",
+    "sourceTitle": "인격 육성 패키지",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "marketRegion": "jp",
+    "price": {
+      "amount": 3000,
+      "currency": "JPY",
+      "platform": "In-game shop"
+    },
+    "contents": [
+      {
+        "ko": "도약 모듈 - 인격 동기화 ×1\n인격 학습 티켓 IV ×90\n인격 학습 티켓 III ×40",
+        "en": "Takeoff Module - ID Uptie ×1\nIdentity Training Ticket IV ×90\nIdentity Training Ticket III ×40",
+        "ja": "跳躍モジュール - 人格同期化 ×1\n人格学習チケット IV ×90\n人格学習チケット III ×40",
+        "zh": "跃升模块 - 人格同步化 ×1\n人格经验券 IV ×90\n人格经验券 III ×40"
+      }
+    ],
+    "detailImages": [
+      {
+        "image": "/assets/limbus/678511862081391680-japanese-3.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=japanese",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "width": 800,
+        "height": 1757,
+        "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+      }
+    ]
+  },
+  {
+    "id": "dna-global-towards-dawn-20261020",
+    "gameId": "dna",
+    "region": "global",
+    "server": "global",
+    "kind": "update",
+    "title": {
+      "ko": "여명 속으로",
+      "en": "Towards the Dawn",
+      "ja": "暁を歩む",
+      "zh": "行於破曉"
+    },
+    "summary": {
+      "ko": "리듬·되살아난 불꽃 / 살아간다는 무게\n신규 스토리·이벤트·의뢰 편지 로테이션",
+      "en": "Rhythm: Flamewrought / Blessed Burden\nNew story, events and Secret Letter rotation",
+      "ja": "リズム・焔を纏う者 / 生きる重さ\n新ストーリー・イベント・依頼密書の更新",
+      "zh": "黎瑟·浴火 / 活著的重量\n新劇情、活動及委託密函輪替"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+    "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+    "sourceTitle": "여명 속으로",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "version": "Towards the Dawn",
+    "versionHero": true,
+    "versionTitle": {
+      "ko": "여명 속으로",
+      "en": "Towards the Dawn",
+      "ja": "暁を歩む",
+      "zh": "行於破曉"
+    },
+    "startDate": "2026-10-20",
+    "localizationSources": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "image": "/assets/dna/towards-dawn-neutral.webp",
+    "imageSource": "https://duetnightabyss.dna-panstudio.com/dna-event/",
+    "imageVerified": true,
+    "imageKind": "banner",
+    "imageLocale": "neutral",
+    "imageCaption": {
+      "ko": "공식 버전 장면",
+      "en": "Official version scene",
+      "ja": "公式バージョンシーン",
+      "zh": "官方版本場景"
+    },
+    "localizedArtwork": {
+      "ko": {
+        "image": "/assets/dna/towards-dawn-ko.jpg",
+        "imageSource": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "width": 3840,
+        "height": 2160,
+        "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+      },
+      "ja": {
+        "image": "/assets/dna/towards-dawn-ja.jpg",
+        "imageSource": "https://prtimes.jp/main/html/rd/p/000000042.000160794.html",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "width": 3840,
+        "height": 2160,
+        "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+      }
+    }
+  },
+  {
+    "id": "dna-global-rhythm-flamewrought-20261020",
+    "gameId": "dna",
+    "region": "global",
+    "server": "global",
+    "kind": "update",
+    "title": {
+      "ko": "리듬·되살아난 불꽃",
+      "en": "Rhythm: Flamewrought",
+      "ja": "リズム・焔を纏う者",
+      "zh": "黎瑟·浴火"
+    },
+    "summary": {
+      "ko": "의뢰 편지로 무료 획득 / 상점 구매",
+      "en": "Free via Secret Letter / Shop purchase",
+      "ja": "依頼密書で無料入手 / ショップ購入",
+      "zh": "委託密函免費獲取 / 商店購買"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+    "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+    "sourceTitle": "리듬·되살아난 불꽃",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "startDate": "2026-10-20",
+    "localizationSources": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "featured": true,
+    "image": "/assets/dna/rhythm-flamewrought-neutral.webp",
+    "imageSource": "https://duetnightabyss.dna-panstudio.com/dna-event/",
+    "imageVerified": true,
+    "imageKind": "character",
+    "imageLocale": "neutral",
+    "imageCaption": {
+      "ko": "공식 캐릭터 전체 일러스트",
+      "en": "Official full character illustration",
+      "ja": "公式キャラクター全身イラスト",
+      "zh": "官方角色完整立繪"
+    },
+    "entityDetails": [
+      {
+        "id": "dna-rhythm-flamewrought",
+        "name": {
+          "ko": "리듬·되살아난 불꽃",
+          "en": "Rhythm: Flamewrought",
+          "ja": "リズム・焔を纏う者",
+          "zh": "黎瑟·浴火"
+        },
+        "category": {
+          "ko": "캐릭터",
+          "en": "Character",
+          "ja": "キャラクター",
+          "zh": "角色"
+        },
+        "basis": {
+          "ko": "공식 캐릭터 분류",
+          "en": "Official character classifications",
+          "ja": "公式キャラクター分類",
+          "zh": "官方角色分類"
+        },
+        "traits": [
+          {
+            "id": "element",
+            "label": {
+              "ko": "속성",
+              "en": "Element",
+              "ja": "属性",
+              "zh": "屬性"
+            },
+            "value": {
+              "ko": "번개",
+              "en": "Electro",
+              "ja": "雷",
+              "zh": "雷"
+            }
+          },
+          {
+            "id": "mastery",
+            "label": {
+              "ko": "무기 숙련",
+              "en": "Weapon mastery",
+              "ja": "武器適性",
+              "zh": "武器精通"
+            },
+            "value": {
+              "ko": "한손검 / 핸드 캐논",
+              "en": "Sword / Grenade Launcher",
+              "ja": "片手剣 / ランチャー",
+              "zh": "單手劍 / 榴炮"
+            }
+          }
+        ],
+        "stats": [],
+        "statSourceKind": "official",
+        "groups": [
+          {
+            "title": {
+              "ko": "획득",
+              "en": "Acquisition",
+              "ja": "入手",
+              "zh": "獲取"
+            },
+            "body": {
+              "ko": "의뢰 편지로 무료 획득 / 상점 구매",
+              "en": "Free via Secret Letter / Shop purchase",
+              "ja": "依頼密書で無料入手 / ショップ購入",
+              "zh": "委託密函免費獲取 / 商店購買"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "kind": "official",
+            "url": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+            "title": "여명 속으로"
+          }
+        ],
+        "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "translatedLocales": []
+      }
+    ],
+    "contentRole": "entity"
+  },
+  {
+    "id": "dna-global-blessed-burden-20261020",
+    "gameId": "dna",
+    "region": "global",
+    "server": "global",
+    "kind": "weapon",
+    "title": {
+      "ko": "살아간다는 무게",
+      "en": "Blessed Burden",
+      "ja": "生きる重さ",
+      "zh": "活著的重量"
+    },
+    "summary": {
+      "ko": "주조로 무료 획득 / 상점 구매",
+      "en": "Free via Forging / Shop purchase",
+      "ja": "鋳造で無料入手 / ショップ購入",
+      "zh": "鍛造免費獲取 / 商店購買"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+    "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+    "sourceTitle": "살아간다는 무게",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "poolType": "weapon",
+    "localizationSources": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "startDate": "2026-10-20",
+    "image": "/assets/dna/blessed-burden-neutral.webp",
+    "imageSource": "https://game8.jp/duetnightabyss/831456",
+    "imageVerified": true,
+    "imageKind": "weapon",
+    "imageLocale": "neutral",
+    "imageCaption": {
+      "ko": "인게임 무기 확인 화면",
+      "en": "In-game weapon inspection",
+      "ja": "ゲーム内武器確認画面",
+      "zh": "遊戲內武器檢視畫面"
+    },
+    "entityDetails": [
+      {
+        "id": "dna-blessed-burden",
+        "name": {
+          "ko": "살아간다는 무게",
+          "en": "Blessed Burden",
+          "ja": "生きる重さ",
+          "zh": "活著的重量"
+        },
+        "category": {
+          "ko": "무기",
+          "en": "Weapon",
+          "ja": "武器",
+          "zh": "武器"
+        },
+        "basis": {
+          "ko": "제련 0",
+          "en": "Smelting 0",
+          "ja": "溶錬レベル0",
+          "zh": "精煉0"
+        },
+        "traits": [
+          {
+            "id": "weapon-type",
+            "label": {
+              "ko": "종류",
+              "en": "Type",
+              "ja": "種別",
+              "zh": "類型"
+            },
+            "value": {
+              "ko": "핸드 캐논",
+              "en": "Grenade Launcher",
+              "ja": "ランチャー",
+              "zh": "榴炮"
+            }
+          }
+        ],
+        "stats": [],
+        "statSourceKind": "official",
+        "groups": [
+          {
+            "title": {
+              "ko": "획득",
+              "en": "Acquisition",
+              "ja": "入手",
+              "zh": "獲取"
+            },
+            "body": {
+              "ko": "주조로 무료 획득 / 상점 구매",
+              "en": "Free via Forging / Shop purchase",
+              "ja": "鋳造で無料入手 / ショップ購入",
+              "zh": "鍛造免費獲取 / 商店購買"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+            ]
+          },
+          {
+            "title": {
+              "ko": "무기 효과",
+              "en": "Weapon effect",
+              "ja": "武器効果",
+              "zh": "武器效果"
+            },
+            "body": {
+              "ko": "치명타 피해 +62.5%. 번개 속성 캐릭터가 사격 중 스킬 위력 +75%. 사격 종료 또는 원거리 무기 재장전 시 해제.",
+              "en": "CRIT DMG +62.5%. While an Electro character fires, Skill Power +75%. Ends when firing stops or the ranged weapon reloads.",
+              "ja": "クリティカルダメージ＋62.5％。雷属性キャラクターの射撃中、スキル威力＋75％。射撃終了または遠隔武器のチャージで解除。",
+              "zh": "暴擊傷害+62.5%。雷屬性角色射擊時技能威力+75%；停止射擊或裝填遠端武器時解除。"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://game8.jp/duetnightabyss/831456"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "kind": "official",
+            "url": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+            "title": "여명 속으로"
+          },
+          {
+            "kind": "community",
+            "url": "https://game8.jp/duetnightabyss/831456",
+            "title": "Game8 · 生きる重さ"
+          }
+        ],
+        "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "translatedLocales": []
+      }
+    ]
+  },
+  {
+    "id": "dna-global-hatters-banquet-20261020",
+    "gameId": "dna",
+    "region": "global",
+    "server": "global",
+    "kind": "weapon",
+    "title": {
+      "ko": "모자 장인의 연회",
+      "en": "The Hatter's Banquet",
+      "ja": "帽子屋の宴",
+      "zh": "帽匠的宴會"
+    },
+    "summary": {
+      "ko": "주조로 무료 획득 / 상점 구매\n의뢰 편지: 악몽의 잔향",
+      "en": "Free via Forging / Shop purchase\nSecret Letter: Nocturnal Echoes",
+      "ja": "製造で無料入手 / ショップ購入\n密書：悪夢の残響",
+      "zh": "鑄造免費獲取 / 商店購買\n密函：夢魘殘聲"
+    },
+    "startAt": "2026-11-10T11:00:00+09:00",
+    "endAt": null,
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+    "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+    "sourceTitle": "모자 장인의 연회",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "poolType": "weapon",
+    "localizationSources": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "entityDetails": [
+      {
+        "id": "dna-hatters-banquet",
+        "name": {
+          "ko": "모자 장인의 연회",
+          "en": "The Hatter's Banquet",
+          "ja": "帽子屋の宴",
+          "zh": "帽匠的宴會"
+        },
+        "category": {
+          "ko": "무기",
+          "en": "Weapon",
+          "ja": "武器",
+          "zh": "武器"
+        },
+        "basis": {
+          "ko": "공식 무기 분류",
+          "en": "Official weapon type",
+          "ja": "公式武器分類",
+          "zh": "官方武器分類"
+        },
+        "traits": [
+          {
+            "id": "weapon-type",
+            "label": {
+              "ko": "종류",
+              "en": "Type",
+              "ja": "種別",
+              "zh": "類型"
+            },
+            "value": {
+              "ko": "장궁",
+              "en": "Longbow",
+              "ja": "弓",
+              "zh": "長弓"
+            }
+          }
+        ],
+        "stats": [],
+        "statSourceKind": "official",
+        "groups": [
+          {
+            "title": {
+              "ko": "획득",
+              "en": "Acquisition",
+              "ja": "入手",
+              "zh": "獲取"
+            },
+            "body": {
+              "ko": "주조로 무료 획득 / 상점 구매\n의뢰 편지: 악몽의 잔향",
+              "en": "Free via Forging / Shop purchase\nSecret Letter: Nocturnal Echoes",
+              "ja": "製造で無料入手 / ショップ購入\n密書：悪夢の残響",
+              "zh": "鑄造免費獲取 / 商店購買\n密函：夢魘殘聲"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "kind": "official",
+            "url": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+            "title": "여명 속으로"
+          }
+        ],
+        "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "translatedLocales": []
+      }
+    ]
+  },
+  {
+    "id": "dna-global-endless-enigma-20261020",
+    "gameId": "dna",
+    "region": "global",
+    "server": "global",
+    "kind": "weapon",
+    "title": {
+      "ko": "답 없는 수수께끼",
+      "en": "Endless Enigma",
+      "ja": "解なき謎",
+      "zh": "無解謎題"
+    },
+    "summary": {
+      "ko": "주조로 무료 획득\n설계도: 몰입형 연극 「관람 기념」 상점",
+      "en": "Free via Forging\nBlueprint: Immersive Theatre Memento shop",
+      "ja": "製造で無料入手\n設計図：体験型劇場「観劇記念」ショップ",
+      "zh": "鑄造免費獲取\n設計稿：沉浸式戲劇「觀劇紀念」商店"
+    },
+    "startAt": "2026-11-10T11:00:00+09:00",
+    "endAt": null,
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+    "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+    "sourceTitle": "답 없는 수수께끼",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "poolType": "weapon",
+    "localizationSources": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "entityDetails": [
+      {
+        "id": "dna-endless-enigma",
+        "name": {
+          "ko": "답 없는 수수께끼",
+          "en": "Endless Enigma",
+          "ja": "解なき謎",
+          "zh": "無解謎題"
+        },
+        "category": {
+          "ko": "무기",
+          "en": "Weapon",
+          "ja": "武器",
+          "zh": "武器"
+        },
+        "basis": {
+          "ko": "공식 무기 분류",
+          "en": "Official weapon type",
+          "ja": "公式武器分類",
+          "zh": "官方武器分類"
+        },
+        "traits": [
+          {
+            "id": "weapon-type",
+            "label": {
+              "ko": "종류",
+              "en": "Type",
+              "ja": "種別",
+              "zh": "類型"
+            },
+            "value": {
+              "ko": "재앙 무기 · 한손검",
+              "en": "Calamity Weapon · Sword",
+              "ja": "カラミティアームズ · 片手剣",
+              "zh": "災厄武器 · 單手劍"
+            }
+          }
+        ],
+        "stats": [],
+        "statSourceKind": "official",
+        "groups": [
+          {
+            "title": {
+              "ko": "획득",
+              "en": "Acquisition",
+              "ja": "入手",
+              "zh": "獲取"
+            },
+            "body": {
+              "ko": "주조로 무료 획득\n설계도: 몰입형 연극 「관람 기념」 상점",
+              "en": "Free via Forging\nBlueprint: Immersive Theatre Memento shop",
+              "ja": "製造で無料入手\n設計図：体験型劇場「観劇記念」ショップ",
+              "zh": "鑄造免費獲取\n設計稿：沉浸式戲劇「觀劇紀念」商店"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "kind": "official",
+            "url": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+            "title": "여명 속으로"
+          }
+        ],
+        "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "translatedLocales": []
+      }
+    ]
+  },
+  {
+    "id": "dna-global-event-immersive-theatre-20261020",
+    "gameId": "dna",
+    "region": "global",
+    "server": "global",
+    "kind": "event",
+    "title": {
+      "ko": "몰입형 연극 · 리듬·되살아난 불꽃",
+      "en": "Immersive Theatre · Rhythm: Flamewrought",
+      "ja": "体験型劇場 · リズム・焔を纏う者",
+      "zh": "沉浸式戲劇 · 黎瑟·浴火"
+    },
+    "summary": {
+      "ko": "리듬·되살아난 불꽃 의뢰 편지\n「살아간다는 무게」 편지: 관람 기념 상점",
+      "en": "Secret Letter: Rhythm: Flamewrought\nBlessed Burden letter: Memento shop",
+      "ja": "リズム・焔を纏う者の依頼密書\n「生きる重さ」の密書：観劇記念ショップ",
+      "zh": "黎瑟·浴火委託密函\n「活著的重量」密函：觀劇紀念商店"
+    },
+    "startAt": null,
+    "endAt": "2026-11-10T11:00:00+09:00",
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+    "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+    "sourceTitle": "몰입형 연극 · 리듬·되살아난 불꽃",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "startDate": "2026-10-20",
+    "localizationSources": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 조건",
+          "en": "Requirements",
+          "ja": "参加条件",
+          "zh": "參與條件"
+        },
+        "body": {
+          "ko": "황혼의 정박편 「심판의 날」·스페셜 사이드 퀘스트 「새로운 연극」 완료",
+          "en": "Complete Chapter Twilight: The Judgment Day and A New Theatrical Experience.",
+          "ja": "「黄昏の碇泊」篇「審判の日」・特別サブクエスト「新たな劇」クリア",
+          "zh": "完成泊暮篇「審判日」及特殊支線任務「全新戲劇」"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dna-global-event-as-tomorrow-nears-20261020",
+    "gameId": "dna",
+    "region": "global",
+    "server": "global",
+    "kind": "event",
+    "title": {
+      "ko": "다가올 내일",
+      "en": "As Tomorrow Nears",
+      "ja": "明日、来たる",
+      "zh": "明日將至"
+    },
+    "summary": {
+      "ko": "누적 출석\n영롱한 모래시계 ×10",
+      "en": "Cumulative login\nPrismatic Hourglass ×10",
+      "ja": "累計ログイン\n彩りの砂時計 ×10",
+      "zh": "累計簽到\n華彩沙漏 ×10"
+    },
+    "startAt": null,
+    "endAt": "2026-11-30T18:00:00+09:00",
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+    "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+    "sourceTitle": "다가올 내일",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "startDate": "2026-10-20",
+    "localizationSources": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 조건",
+          "en": "Requirements",
+          "ja": "参加条件",
+          "zh": "參與條件"
+        },
+        "body": {
+          "ko": "밤의 항해편 「소녀가 말한 저택으로 이동」 완료 / 이벤트 기능 오픈",
+          "en": "Complete Chapter Noctoyager: Head to the house mentioned by the girl; unlock Events.",
+          "ja": "「夜の航海」篇「少女が話した邸宅へ向かう」クリア / イベント機能開放",
+          "zh": "完成夜航篇「前往少女所說的宅邸」並開啟活動功能"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+        ]
+      }
+    ],
+    "rewards": [
+      {
+        "rewardId": "dna-prismatic-hourglass",
+        "quantity": "10",
+        "category": "gacha-ticket",
+        "acquisition": "conditional",
+        "name": {
+          "ko": "영롱한 모래시계",
+          "en": "Prismatic Hourglass",
+          "ja": "彩りの砂時計",
+          "zh": "華彩沙漏"
+        },
+        "icon": {
+          "image": "/assets/dna/prismatic-hourglass.webp",
+          "imageSource": "https://game8.jp/duetnightabyss/733918",
+          "width": 78,
+          "height": 80,
+          "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+        },
+        "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+        "sourceKind": "official",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "translatedLocales": []
+      }
+    ]
+  },
+  {
+    "id": "dna-global-event-maintenance-compensation-20261020",
+    "gameId": "dna",
+    "region": "global",
+    "server": "global",
+    "kind": "event",
+    "title": {
+      "ko": "여명 속으로 · 점검 보상",
+      "en": "Towards the Dawn · Maintenance compensation",
+      "ja": "暁を歩む · メンテナンス補填",
+      "zh": "行於破曉 · 維護補償"
+    },
+    "summary": {
+      "ko": "월석 ×300\n의뢰 수첩 Ⅱ ×6 / Ⅲ ×4\n장난감 망치 ×10",
+      "en": "Phoxene ×300\nCommission Manual Ⅱ ×6 / Ⅲ ×4\nToy Hammer ×10",
+      "ja": "月ノ石 ×300\n依頼手帳Ⅱ ×6 / Ⅲ ×4\nピコピコハンマー ×10",
+      "zh": "月石 ×300\n委託手冊·二 ×6 / 三 ×4\n玩具氣錘 ×10"
+    },
+    "startAt": null,
+    "endAt": "2026-10-28T00:59:00+09:00",
+    "publishedAt": "2026-10-20T01:47:00+00:00",
+    "verifiedAt": "2026-10-23T22:42:09.791574+00:00",
+    "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+    "sourceTitle": "여명 속으로 · 점검 보상",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "startDate": "2026-10-20",
+    "localizationSources": {
+      "ko": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+      "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+      "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 조건",
+          "en": "Requirements",
+          "ja": "参加条件",
+          "zh": "參與條件"
+        },
+        "body": {
+          "ko": "우편 기능 해제 / 기간 내 우편 수령",
+          "en": "Unlock Mailbox; claim the compensation mail before the deadline.",
+          "ja": "メール機能解放 / 期限内に補填メールを受取",
+          "zh": "解鎖信件功能；期限內領取補償信件"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+        ]
+      }
+    ],
+    "rewards": [
+      {
+        "rewardId": "dna-phoxene",
+        "quantity": "300",
+        "category": "gacha-currency",
+        "acquisition": "free",
+        "name": {
+          "ko": "월석",
+          "en": "Phoxene",
+          "ja": "月ノ石",
+          "zh": "月石"
+        },
+        "icon": {
+          "image": "/assets/dna/phoxene.webp",
+          "imageSource": "https://game8.jp/duetnightabyss/733901",
+          "width": 80,
+          "height": 80,
+          "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+        },
+        "sourceUrl": "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+        "sourceKind": "official",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "translatedLocales": []
+      }
+    ]
+  },
+  {
+    "id": "holodreams-global-version-1-2-1",
+    "gameId": "holodreams",
+    "region": "global",
+    "server": "global",
+    "kind": "update",
+    "title": {
+      "ko": "Ver.1.2.1",
+      "en": "Ver.1.2.1",
+      "ja": "Ver.1.2.1",
+      "zh": "Ver.1.2.1"
+    },
+    "summary": {
+      "ko": "오류 수정",
+      "en": "Bug fixes",
+      "ja": "不具合修正",
+      "zh": "修復錯誤"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": "2026-10-02T02:06:47Z",
+    "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+    "sourceUrl": "https://store.steampowered.com/news/app/4282500/view/690896126641963156?l=koreana",
+    "sourceTitle": "Ver.1.2.1",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "version": "1.2.1",
+    "versionHero": true,
+    "versionTitle": {
+      "ko": "Ver.1.2.1",
+      "en": "Ver.1.2.1",
+      "ja": "Ver.1.2.1",
+      "zh": "Ver.1.2.1"
+    },
+    "image": "/assets/holodreams/soda-pop-lagoon-scene.png",
+    "imageSource": "https://www.hololive-dreams.com/en/news",
+    "imageVerified": true,
+    "imageKind": "banner",
+    "imageLocale": "neutral",
+    "imageCaption": {
+      "ko": "소다팝 라군 구역 안내 이미지 · Ver.1.2.0 공개 원본",
+      "en": "Soda Pop Lagoon area scene originally released for Ver.1.2.0",
+      "ja": "Ver.1.2.0で公開されたソーダポップラグーンのエリア画像",
+      "zh": "Ver.1.2.0公開的Soda Pop Lagoon區域原圖"
+    }
+  },
+  {
+    "id": "holodreams-global-blissful-seaside-days-20261019",
+    "gameId": "holodreams",
+    "region": "global",
+    "server": "global",
+    "kind": "pickup",
+    "title": {
+      "ko": "지복의 시사이드 데이즈",
+      "en": "Blissful Seaside Days",
+      "ja": "至福のシーサイドデイズガチャ",
+      "zh": "至福海濱時光"
+    },
+    "summary": {
+      "ko": "신규 ★5 4명 동시 등장\n획득 시 해당 수영복의 파크·라이브 의상 획득",
+      "en": "Four new ★5 members, available simultaneously\nObtain each card to unlock its swimsuit park and live outfits.",
+      "ja": "新★5メンバー4名が同時登場\nカード獲得で水着モチーフのパーク衣装・ライブ衣装を獲得",
+      "zh": "4名新★5成員同時登場\n獲得卡片可解鎖對應泳裝的樂園及演出服裝"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": "2026-10-19T11:28:28+09:00",
+    "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+    "sourceUrl": "https://gamewith.jp/gamedb/15524/articles/64568",
+    "sourceTitle": "지복의 시사이드 데이즈",
+    "sourceKind": "community",
+    "sourceLocale": "ja",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-29",
+    "poolType": "character",
+    "pickupType": "new",
+    "pickupGroup": "holodreams-global-blissful-seaside-days-20261019",
+    "bannerName": {
+      "ko": "지복의 시사이드 데이즈",
+      "en": "Blissful Seaside Days",
+      "ja": "至福のシーサイドデイズガチャ",
+      "zh": "至福海濱時光"
+    },
+    "rarity": 5,
+    "pickupMembers": [
+      {
+        "name": {
+          "ko": "［한가로이 보내는 나무 그늘 바캉스］토코야미 토와",
+          "en": "［Shady Hammock Days］Tokoyami Towa",
+          "ja": "［ゆらゆら過ごす木陰のバカンス］常闇トワ",
+          "zh": "［樹蔭下的悠閒假期］常闇永遠"
+        },
+        "type": "new",
+        "role": "featured",
+        "rarity": 5,
+        "image": "/assets/holodreams/press-image-3.jpeg",
+        "imageSource": "https://gamewith.jp/gamedb/15524/articles/64568",
+        "imageVerified": true,
+        "imageKind": "splash",
+        "imageLocale": "neutral",
+        "localizedArtwork": {
+          "ja": {
+            "image": "/assets/holodreams/seaside-towa-ja.jpg",
+            "imageSource": "https://holoviewers.net/hololive-dreams-seaside-days-gacha/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+          }
+        }
+      },
+      {
+        "name": {
+          "ko": "［일사불란 후루룩 타임］시시로 보탄",
+          "en": "［Slurping Frenzy］Shishiro Botan",
+          "ja": "［一心不乱のちゅるタイム］獅白ぼたん",
+          "zh": "［心無旁騖的用餐時光］獅白牡丹"
+        },
+        "type": "new",
+        "role": "featured",
+        "rarity": 5,
+        "image": "/assets/holodreams/press-image-4.jpeg",
+        "imageSource": "https://gamewith.jp/gamedb/15524/articles/64568",
+        "imageVerified": true,
+        "imageKind": "splash",
+        "imageLocale": "neutral",
+        "localizedArtwork": {
+          "ja": {
+            "image": "/assets/holodreams/seaside-botan-ja.jpg",
+            "imageSource": "https://holoviewers.net/hololive-dreams-seaside-days-gacha/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+          }
+        }
+      },
+      {
+        "name": {
+          "ko": "［나무 그늘에서 자아내는 Shiny Memory］카엘라 코발스키아",
+          "en": "［Shady Shiny Memory］Kaela Kovalskia",
+          "ja": "［木陰で紡ぐShiny Memory］カエラ・コヴァルスキア",
+          "zh": "［交織在樹蔭下的Shiny Memory］Kaela Kovalskia"
+        },
+        "type": "new",
+        "role": "featured",
+        "rarity": 5,
+        "image": "/assets/holodreams/seaside-kaela-neutral-full.jpg",
+        "imageSource": "https://dengekionline.com/article/202610/91379",
+        "imageVerified": true,
+        "imageKind": "splash",
+        "imageLocale": "neutral",
+        "localizedArtwork": {
+          "ja": {
+            "image": "/assets/holodreams/seaside-kaela-ja.jpg",
+            "imageSource": "https://holoviewers.net/hololive-dreams-seaside-days-gacha/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+          }
+        }
+      },
+      {
+        "name": {
+          "ko": "［미소가 눈부신 Sand castle］코세키 비쥬",
+          "en": "［Beaming Sandcastle］Koseki Bijou",
+          "ja": "［笑顔輝くSand castle］古石ビジュー",
+          "zh": "［洋溢燦爛笑容的Sand castle］Koseki Bijou"
+        },
+        "type": "new",
+        "role": "featured",
+        "rarity": 5,
+        "image": "/assets/holodreams/press-image-6.jpeg",
+        "imageSource": "https://gamewith.jp/gamedb/15524/articles/64568",
+        "imageVerified": true,
+        "imageKind": "splash",
+        "imageLocale": "neutral",
+        "localizedArtwork": {
+          "ja": {
+            "image": "/assets/holodreams/seaside-bijou-ja.jpg",
+            "imageSource": "https://holoviewers.net/hololive-dreams-seaside-days-gacha/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+          }
+        }
+      }
+    ],
+    "entityDetails": [
+      {
+        "id": "holodreams-seaside-towa",
+        "name": {
+          "ko": "［한가로이 보내는 나무 그늘 바캉스］토코야미 토와",
+          "en": "［Shady Hammock Days］Tokoyami Towa",
+          "ja": "［ゆらゆら過ごす木陰のバカンス］常闇トワ",
+          "zh": "［樹蔭下的悠閒假期］常闇永遠"
+        },
+        "category": {
+          "ko": "★5 멤버",
+          "en": "★5 member",
+          "ja": "★5メンバー",
+          "zh": "★5成員"
+        },
+        "basis": {
+          "ko": "Lv.80 · 한계돌파 4 · 개화 2",
+          "en": "Lv.80 · Limit Break 4 · Bloom 2",
+          "ja": "Lv.80・限界突破4・開花2",
+          "zh": "Lv.80・突破4・開花2"
+        },
+        "traits": [
+          {
+            "id": "attribute",
+            "label": {
+              "ko": "속성",
+              "en": "Attribute",
+              "ja": "タイプ",
+              "zh": "屬性"
+            },
+            "value": {
+              "ko": "큐트",
+              "en": "Cute",
+              "ja": "キュート",
+              "zh": "可愛"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "label": {
+              "ko": "테크닉",
+              "en": "Technique",
+              "ja": "テクニック",
+              "zh": "技巧"
+            },
+            "value": "11145"
+          },
+          {
+            "label": {
+              "ko": "센스",
+              "en": "Sense",
+              "ja": "センス",
+              "zh": "感性"
+            },
+            "value": "7828"
+          },
+          {
+            "label": {
+              "ko": "퍼포먼스",
+              "en": "Performance",
+              "ja": "パフォーマンス",
+              "zh": "表現"
+            },
+            "value": "6947"
+          }
+        ],
+        "statSourceKind": "community",
+        "groups": [],
+        "sources": [
+          {
+            "kind": "community",
+            "url": "https://dreams.wf-calc.net/en/cards",
+            "title": "hololive Dreams Calculator · exact card and growth table"
+          }
+        ],
+        "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      },
+      {
+        "id": "holodreams-seaside-botan",
+        "name": {
+          "ko": "［일사불란 후루룩 타임］시시로 보탄",
+          "en": "［Slurping Frenzy］Shishiro Botan",
+          "ja": "［一心不乱のちゅるタイム］獅白ぼたん",
+          "zh": "［心無旁騖的用餐時光］獅白牡丹"
+        },
+        "category": {
+          "ko": "★5 멤버",
+          "en": "★5 member",
+          "ja": "★5メンバー",
+          "zh": "★5成員"
+        },
+        "basis": {
+          "ko": "Lv.80 · 한계돌파 4 · 개화 2",
+          "en": "Lv.80 · Limit Break 4 · Bloom 2",
+          "ja": "Lv.80・限界突破4・開花2",
+          "zh": "Lv.80・突破4・開花2"
+        },
+        "traits": [
+          {
+            "id": "attribute",
+            "label": {
+              "ko": "속성",
+              "en": "Attribute",
+              "ja": "タイプ",
+              "zh": "屬性"
+            },
+            "value": {
+              "ko": "큐트",
+              "en": "Cute",
+              "ja": "キュート",
+              "zh": "可愛"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "label": {
+              "ko": "센스",
+              "en": "Sense",
+              "ja": "センス",
+              "zh": "感性"
+            },
+            "value": "11145"
+          },
+          {
+            "label": {
+              "ko": "퍼포먼스",
+              "en": "Performance",
+              "ja": "パフォーマンス",
+              "zh": "表現"
+            },
+            "value": "7828"
+          },
+          {
+            "label": {
+              "ko": "테크닉",
+              "en": "Technique",
+              "ja": "テクニック",
+              "zh": "技巧"
+            },
+            "value": "6947"
+          }
+        ],
+        "statSourceKind": "community",
+        "groups": [],
+        "sources": [
+          {
+            "kind": "community",
+            "url": "https://dreams.wf-calc.net/en/cards",
+            "title": "hololive Dreams Calculator · exact card and growth table"
+          }
+        ],
+        "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      },
+      {
+        "id": "holodreams-seaside-kaela",
+        "name": {
+          "ko": "［나무 그늘에서 자아내는 Shiny Memory］카엘라 코발스키아",
+          "en": "［Shady Shiny Memory］Kaela Kovalskia",
+          "ja": "［木陰で紡ぐShiny Memory］カエラ・コヴァルスキア",
+          "zh": "［交織在樹蔭下的Shiny Memory］Kaela Kovalskia"
+        },
+        "category": {
+          "ko": "★5 멤버",
+          "en": "★5 member",
+          "ja": "★5メンバー",
+          "zh": "★5成員"
+        },
+        "basis": {
+          "ko": "Lv.80 · 한계돌파 4 · 개화 2",
+          "en": "Lv.80 · Limit Break 4 · Bloom 2",
+          "ja": "Lv.80・限界突破4・開花2",
+          "zh": "Lv.80・突破4・開花2"
+        },
+        "traits": [
+          {
+            "id": "attribute",
+            "label": {
+              "ko": "속성",
+              "en": "Attribute",
+              "ja": "タイプ",
+              "zh": "屬性"
+            },
+            "value": {
+              "ko": "해피",
+              "en": "Happy",
+              "ja": "ハッピー",
+              "zh": "快樂"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "label": {
+              "ko": "센스",
+              "en": "Sense",
+              "ja": "センス",
+              "zh": "感性"
+            },
+            "value": "11145"
+          },
+          {
+            "label": {
+              "ko": "테크닉",
+              "en": "Technique",
+              "ja": "テクニック",
+              "zh": "技巧"
+            },
+            "value": "7828"
+          },
+          {
+            "label": {
+              "ko": "퍼포먼스",
+              "en": "Performance",
+              "ja": "パフォーマンス",
+              "zh": "表現"
+            },
+            "value": "6947"
+          }
+        ],
+        "statSourceKind": "community",
+        "groups": [],
+        "sources": [
+          {
+            "kind": "community",
+            "url": "https://dreams.wf-calc.net/en/cards",
+            "title": "hololive Dreams Calculator · exact card and growth table"
+          }
+        ],
+        "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      },
+      {
+        "id": "holodreams-seaside-bijou",
+        "name": {
+          "ko": "［미소가 눈부신 Sand castle］코세키 비쥬",
+          "en": "［Beaming Sandcastle］Koseki Bijou",
+          "ja": "［笑顔輝くSand castle］古石ビジュー",
+          "zh": "［洋溢燦爛笑容的Sand castle］Koseki Bijou"
+        },
+        "category": {
+          "ko": "★5 멤버",
+          "en": "★5 member",
+          "ja": "★5メンバー",
+          "zh": "★5成員"
+        },
+        "basis": {
+          "ko": "Lv.80 · 한계돌파 4 · 개화 2",
+          "en": "Lv.80 · Limit Break 4 · Bloom 2",
+          "ja": "Lv.80・限界突破4・開花2",
+          "zh": "Lv.80・突破4・開花2"
+        },
+        "traits": [
+          {
+            "id": "attribute",
+            "label": {
+              "ko": "속성",
+              "en": "Attribute",
+              "ja": "タイプ",
+              "zh": "屬性"
+            },
+            "value": {
+              "ko": "해피",
+              "en": "Happy",
+              "ja": "ハッピー",
+              "zh": "快樂"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "label": {
+              "ko": "퍼포먼스",
+              "en": "Performance",
+              "ja": "パフォーマンス",
+              "zh": "表現"
+            },
+            "value": "11145"
+          },
+          {
+            "label": {
+              "ko": "테크닉",
+              "en": "Technique",
+              "ja": "テクニック",
+              "zh": "技巧"
+            },
+            "value": "7828"
+          },
+          {
+            "label": {
+              "ko": "센스",
+              "en": "Sense",
+              "ja": "センス",
+              "zh": "感性"
+            },
+            "value": "6947"
+          }
+        ],
+        "statSourceKind": "community",
+        "groups": [],
+        "sources": [
+          {
+            "kind": "community",
+            "url": "https://dreams.wf-calc.net/en/cards",
+            "title": "hololive Dreams Calculator · exact card and growth table"
+          }
+        ],
+        "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "holodreams-global-sunlit-shoreline-style-20261019",
+    "gameId": "holodreams",
+    "region": "global",
+    "server": "global",
+    "kind": "event",
+    "title": {
+      "ko": "넘치는 빛과 물가의 드레스 코드",
+      "en": "Sunlit Shoreline Style",
+      "ja": "あふれる光と、渚のドレスコード",
+      "zh": "洋溢光芒與渚邊的服裝守則"
+    },
+    "summary": {
+      "ko": "리듬 라이브·미니게임 → 이벤트 Pt·배지\nPt: 멤버별 단편 스토리\n배지 교환: 이벤트 메모리·육성 재료",
+      "en": "Lives and minigames → Event Points and Badges\nPoints unlock short stories.\nBadges exchange for Event Memories and training materials.",
+      "ja": "ライブ・ミニゲーム → イベントPt・イベントバッジ\nPtでショートストーリー解放\nバッジ交換: イベントメモリー・育成素材",
+      "zh": "演出・小遊戲 → 活動Pt・徽章\nPt解鎖短篇故事\n徽章兌換: 活動回憶・培育素材"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": "2026-10-19T11:28:28+09:00",
+    "verifiedAt": "2026-10-23T22:49:23.628675+00:00",
+    "sourceUrl": "https://gamewith.jp/gamedb/15524/articles/64568",
+    "sourceTitle": "넘치는 빛과 물가의 드레스 코드",
+    "sourceKind": "community",
+    "sourceLocale": "ja",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-27",
+    "image": "/assets/holodreams/press-image-0.png",
+    "imageSource": "https://gamewith.jp/gamedb/15524/articles/64568",
+    "imageVerified": true,
+    "imageKind": "banner",
+    "imageLocale": "ja"
+  }
+]

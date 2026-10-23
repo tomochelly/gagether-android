@@ -82,5 +82,101 @@
     },
     "sha256": "a2ae03f8f77212a7012fcd89b1167902f5fcefc3372a006c60b93307c56d82b5",
     "imageLocale": "neutral"
+  },
+  {
+    "gameId": "holodreams",
+    "names": [
+      {
+        "ko": "［한가로이 보내는 나무 그늘 바캉스］토코야미 토와",
+        "en": "［Shady Hammock Days］Tokoyami Towa",
+        "ja": "［ゆらゆら過ごす木陰のバカンス］常闇トワ",
+        "zh": "［樹蔭下的悠閒假期］常闇永遠"
+      }
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://dreams.wf-calc.net/en/cards"
+    ],
+    "icon": {
+      "image": "/assets/holodreams/seaside-towa-icon-community.webp",
+      "imageSource": "https://dreams.wf-calc.net/en/cards",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sha256": "3dab9f26956be66f0170a98d01aee05e0b087c81e4c68f6dda07e56d7d97c1c8",
+    "imageLocale": "neutral"
+  },
+  {
+    "gameId": "holodreams",
+    "names": [
+      {
+        "ko": "［일사불란 후루룩 타임］시시로 보탄",
+        "en": "［Slurping Frenzy］Shishiro Botan",
+        "ja": "［一心不乱のちゅるタイム］獅白ぼたん",
+        "zh": "［心無旁騖的用餐時光］獅白牡丹"
+      }
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://dreams.wf-calc.net/en/cards"
+    ],
+    "icon": {
+      "image": "/assets/holodreams/seaside-botan-icon-community.webp",
+      "imageSource": "https://dreams.wf-calc.net/en/cards",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sha256": "32dbe3ca3289f830cf13bfc25f26024a90323734651720dafcc527cdcf13e64c",
+    "imageLocale": "neutral"
+  },
+  {
+    "gameId": "holodreams",
+    "names": [
+      {
+        "ko": "［나무 그늘에서 자아내는 Shiny Memory］카엘라 코발스키아",
+        "en": "［Shady Shiny Memory］Kaela Kovalskia",
+        "ja": "［木陰で紡ぐShiny Memory］カエラ・コヴァルスキア",
+        "zh": "［交織在樹蔭下的Shiny Memory］Kaela Kovalskia"
+      }
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://dreams.wf-calc.net/en/cards"
+    ],
+    "icon": {
+      "image": "/assets/holodreams/seaside-kaela-icon-community.webp",
+      "imageSource": "https://dreams.wf-calc.net/en/cards",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sha256": "a93adf724ec527138052bcfebfb9ca3b0ad9ba4fd0a45d77e1447cbe2be52ab1",
+    "imageLocale": "neutral"
+  },
+  {
+    "gameId": "holodreams",
+    "names": [
+      {
+        "ko": "［미소가 눈부신 Sand castle］코세키 비쥬",
+        "en": "［Beaming Sandcastle］Koseki Bijou",
+        "ja": "［笑顔輝くSand castle］古石ビジュー",
+        "zh": "［洋溢燦爛笑容的Sand castle］Koseki Bijou"
+      }
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://dreams.wf-calc.net/en/cards"
+    ],
+    "icon": {
+      "image": "/assets/holodreams/seaside-bijou-icon-community.webp",
+      "imageSource": "https://dreams.wf-calc.net/en/cards",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "sha256": "08d8d8ef95be599a31bdef66d6cf3f36091fda6664e19d629046a9c76e4bc9aa",
+    "imageLocale": "neutral"
   }
 ]

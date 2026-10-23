@@ -2729,5 +2729,184 @@
       "height": 243,
       "verifiedAt": "2026-10-20T21:52:14.646268+00:00"
     }
+  },
+  {
+    "aliases": [
+      "광기",
+      "Lunacy",
+      "狂気",
+      "狂气"
+    ],
+    "id": "limbus-lunacy",
+    "gameId": "limbus",
+    "category": "gacha-currency",
+    "name": {
+      "ko": "광기",
+      "en": "Lunacy",
+      "ja": "狂気",
+      "zh": "狂气"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "translatedLocales": [
+      "zh"
+    ],
+    "sourceUrls": [
+      "https://limbuscompany.kr/",
+      "https://wiki.biligame.com/limbuscompany/5%E6%9C%8825%E6%97%A5%E8%AE%A1%E5%88%92%E6%9B%B4%E6%96%B0"
+    ],
+    "icon": {
+      "image": "/assets/limbus/lunacy.png",
+      "imageSource": "https://wiki.biligame.com/limbuscompany/5%E6%9C%8825%E6%97%A5%E8%AE%A1%E5%88%92%E6%9B%B4%E6%96%B0",
+      "width": 183,
+      "height": 160,
+      "verifiedAt": "2026-10-23T22:42:40.473482+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "aliases": [
+      "월석",
+      "Phoxene",
+      "月ノ石",
+      "月石"
+    ],
+    "id": "dna-phoxene",
+    "gameId": "dna",
+    "category": "gacha-currency",
+    "name": {
+      "ko": "월석",
+      "en": "Phoxene",
+      "ja": "月ノ石",
+      "zh": "月石"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceUrls": [
+      "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "https://game8.jp/duetnightabyss/733901"
+    ],
+    "icon": {
+      "image": "/assets/dna/phoxene.webp",
+      "imageSource": "https://game8.jp/duetnightabyss/733901",
+      "width": 80,
+      "height": 80,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "aliases": [
+      "영롱한 모래시계",
+      "Prismatic Hourglass",
+      "彩りの砂時計",
+      "華彩沙漏"
+    ],
+    "id": "dna-prismatic-hourglass",
+    "gameId": "dna",
+    "category": "gacha-ticket",
+    "name": {
+      "ko": "영롱한 모래시계",
+      "en": "Prismatic Hourglass",
+      "ja": "彩りの砂時計",
+      "zh": "華彩沙漏"
+    },
+    "officialLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translatedLocales": [],
+    "sourceUrls": [
+      "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867",
+      "https://game8.jp/duetnightabyss/733918"
+    ],
+    "icon": {
+      "image": "/assets/dna/prismatic-hourglass.webp",
+      "imageSource": "https://game8.jp/duetnightabyss/733918",
+      "width": 78,
+      "height": 80,
+      "verifiedAt": "2026-10-23T22:42:09.791574+00:00"
+    },
+    "sourceKind": "community"
+  },
+  {
+    "aliases": [
+      "다이아",
+      "Diamonds",
+      "ダイヤ",
+      "钻石"
+    ],
+    "id": "holodreams-diamonds",
+    "gameId": "holodreams",
+    "category": "gacha-currency",
+    "name": {
+      "ko": "다이아",
+      "en": "Diamonds",
+      "ja": "ダイヤ",
+      "zh": "鑽石"
+    },
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://dreams.wf-calc.net/en/wiki/items"
+    ],
+    "icon": {
+      "image": "/assets/holodreams/diamonds.webp",
+      "imageSource": "https://dreams.wf-calc.net/en/wiki/items",
+      "width": 168,
+      "height": 168,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    }
+  },
+  {
+    "id": "holodreams-gacha-ticket",
+    "gameId": "holodreams",
+    "aliases": [
+      "가챠 티켓",
+      "Gacha Ticket",
+      "ガチャチケット",
+      "抽卡券"
+    ],
+    "sourceUrls": [
+      "https://dreams.wf-calc.net/en/wiki/items"
+    ],
+    "name": {
+      "ko": "가챠 티켓",
+      "en": "Gacha Ticket",
+      "ja": "ガチャチケット",
+      "zh": "抽卡券"
+    },
+    "category": "gacha-ticket",
+    "icon": {
+      "image": "/assets/holodreams/gacha-ticket.webp",
+      "imageSource": "https://dreams.wf-calc.net/en/wiki/items",
+      "width": 162,
+      "height": 162,
+      "verifiedAt": "2026-10-23T22:49:23.628675+00:00"
+    },
+    "officialLocales": [],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceKind": "community"
   }
 ]

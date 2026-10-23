@@ -8,7 +8,7 @@ const {detailArtworkForLocale}=await import('../lib/artwork.ts');
 const loc=s=>({ko:s,en:s,ja:s,zh:s});
 test('all fifteen games and only their canonical services are audited, including independent pools',()=>{
  const rows=collectionCoverage([],Date.parse('2026-10-23T01:00:00Z'));
- assert.equal(new Set(rows.map(r=>r.gameId)).size,15);
+ assert.equal(new Set(rows.map(r=>r.gameId)).size,18);
  assert.deepEqual([...new Set(rows.filter(r=>r.region==='cn').map(r=>r.gameId))].sort(),['arknights','gfl2','reverse1999']);
  assert.equal(rows.filter(r=>r.gameId==='stellasora').every(r=>r.region==='global'),true);
  for(const game of games)assert.ok(rows.some(r=>r.gameId===game.id));
@@ -32,7 +32,7 @@ test('regional API adapters preserve official identity and unknown publication t
  const reverse=parsers.parseReverseCn({code:200,data:{pageData:[{id:102,title:'4.0',status:1,onlineTime:'2026-10-15 10:00:00',content:'full body'},{id:103,status:0}]}});
  assert.equal(reverse.length,1);assert.equal(reverse[0].url,'https://re.bluepoch.com/home/detail.html#newsId?102');assert.equal(reverse[0].bodyHtml,'full body');
  const cn=parsers.parseAkCn({code:0,data:{list:[{cid:3020,title:'公告',displayTime:1792512000}]}})[0];assert.equal(cn.region,'cn');assert.match(cn.publishedAt,/Z$/);
- assert.equal(parsers.regionalOfficialSources.length,15);
+ assert.equal(parsers.regionalOfficialSources.length,30);
 });
 test('a multi-character detail gallery retains its official pool poster alongside member originals',()=>{
  const art={image:'/assets/pool.png',imageVerified:true,imageLocale:'ja'};

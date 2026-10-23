@@ -312,7 +312,7 @@ function EntryCard({entry:e,editingEntry=e,locale,now,saved,onSave,onOpen,weapon
  const {t,byId,editMode,openEditor,simpleMode}=useCatalog();const game=byId[e.gameId];const state=e.pickupArchive?(pickupPeriod(e,now)==='past'?'ended':pickupPeriod(e,now)==='current'?'active':pickupPeriod(e,now)==='upcoming'?'upcoming':'notice'):entryState(e,now);const Icon=kindIcons[e.kind];
  const [failedImage,setFailedImage]=useState('');const image=artworkForLocale(e,locale,'preview',serviceArtworkLocale(e.region,e.gameId)).image;
  const listItem=!!e.pickupArchive&&!pickupHasArtwork(e,locale)||textOnlyEntry(e,locale)||((e.kind==='event'||e.kind==='package'||e.kind==='update')&&!!image&&failedImage===image);
- const status=<span className={'entry-state '+state}><i/>{state==='active'?t.now:state==='upcoming'?t.upcoming:state==='ended'?t.ended:t.notice}</span>;
+ const status=<span className={'entry-state '+state}><i/>{state==='active'?t.now:state==='upcoming'?t.upcoming:state==='ended'?t.ended:e.sourceKind==='community'?t.communityInfo:e.sourceKind==='video'?t.videoInfo:t.notice}</span>;
  if(simpleMode){
   const art=artworkForLocale(e,locale,'preview',serviceArtworkLocale(e.region,e.gameId));
   const hasArt=!listItem&&(art.imageVerified&&!!art.image||e.pickupMembers?.some(m=>{const a=artworkForLocale(m,locale,'preview',serviceArtworkLocale(e.region,e.gameId));return a.imageVerified&&a.image;}));

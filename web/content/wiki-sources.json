@@ -421,6 +421,62 @@
         }
       ],
       "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "limbus",
+      "name": "Limbus Company",
+      "sources": [
+        {
+          "url": "https://www.pickupcal.com/games/limbus/",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "pickup-dates",
+            "roster"
+          ],
+          "finding": "SSR listing readable; public-data.json blocked. Do not promote community data to official."
+        }
+      ]
+    },
+    {
+      "gameId": "dna",
+      "name": "Duet Night Abyss",
+      "sources": [
+        {
+          "url": "https://game8.jp/duetnightabyss/733901",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "currency-icons"
+          ],
+          "finding": "Exact free Phoxene item; characters and weapons use direct acquisition, cosmetic gacha is distinct."
+        }
+      ]
+    },
+    {
+      "gameId": "holodreams",
+      "name": "hololive Dreams",
+      "sources": [
+        {
+          "url": "https://gamewith.jp/gamedb/15524/articles/64568",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "event",
+            "gacha"
+          ],
+          "finding": "Publisher release republication. Exclude unrelated advertisements; original X access blocked."
+        },
+        {
+          "url": "https://dreams.wf-calc.net/en/wiki/items",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "currency-icons"
+          ],
+          "finding": "Community catalog; do not promote translated labels to official."
+        }
+      ]
     }
   ]
 }

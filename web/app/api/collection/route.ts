@@ -1,4 +1,5 @@
 import {importNteProfiles} from '@/lib/nte-profile-store';
+import {importAdditionalGameContent} from '@/lib/additional-content-store';
 import {importMaintainedArtwork} from '@/lib/maintained-artwork-store';
 import {env} from 'cloudflare:workers';
 import {z} from 'zod';
@@ -25,7 +26,7 @@ export async function POST(request:Request){
  try{
   const raw=await request.text();if(raw.length>16000)return Response.json({error:'Payload too large'},{status:413,headers});
   const input=JSON.parse(raw);
-  if(z.object({action:z.literal('enrich')}).strict().safeParse(input).success)return Response.json({ok:true,artwork:await importMaintainedArtwork(),profiles:await importNteProfiles(true)},{headers});
+  if(z.object({action:z.literal('enrich')}).strict().safeParse(input).success)return Response.json({ok:true,additionalContent:await importAdditionalGameContent(),artwork:await importMaintainedArtwork(),profiles:await importNteProfiles(true)},{headers});
   const importInput=z.object({action:z.literal('import'),ids:z.array(z.string().regex(/^[a-f0-9]{64}$/)).min(1).max(25).optional(),limit:z.number().int().min(1).max(100).optional()}).strict().safeParse(input);
   if(importInput.success)return Response.json({ok:true,...await importCapturedBodies(importInput.data.ids,importInput.data.limit),weapons:await importWuwaWeapons(importInput.data.ids)},{headers});
   const fetchInput=z.object({action:z.literal('fetch'),id:z.string().regex(/^[a-f0-9]{64}$/)}).strict().safeParse(input);

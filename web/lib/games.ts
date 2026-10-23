@@ -1,4 +1,5 @@
 import type {Game,Region} from "./types";
+import {additionalGames} from "./additional-games";
 export const games:Game[]=[
   {
     "id": "wuwa",
@@ -814,7 +815,8 @@ export const games:Game[]=[
         "region": "cn"
       }
     ]
-  }
+  },
+  ...additionalGames
 ];
 export const byId=Object.fromEntries(games.map(g=>[g.id,g])) as Record<string,Game>;
 

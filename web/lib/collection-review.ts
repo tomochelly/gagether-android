@@ -2,7 +2,7 @@ import type {Entry,Locale,Region} from './types';
 import {games} from './games';
 import {effectiveRegion} from './presentation';
 import {pickupPeriod,pickupEnd} from './pickup-history';
-export const pickupNotice=(title:string)=>/튜닝|集音|헤드헌팅|픽업|모집|스카우트|확률|概率|確率|寻访|招募|募集|召喚|召唤|スカウト|ガチャ|ピックアップ|供給|供给|招集|headhunt|recruit|conven[ei]|banner|rate.up|gacha/i.test(title);
+export const pickupNotice=(title:string)=>/추출|抽出|抽取|extraction|튜닝|集音|헤드헌팅|픽업|모집|스카우트|확률|概率|確率|寻访|招募|募集|召喚|召唤|スカウト|ガチャ|ピックアップ|供給|供给|招集|headhunt|recruit|conven[ei]|banner|rate.up|gacha/i.test(title);
 export function decodeSourceHtml(input:string){
  let html=input;
  for(let i=0;i<3;i++){
@@ -26,8 +26,10 @@ export function sourceDocument(input:string,base:string){
  const links=[...new Map([...inner.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)].flatMap(m=>{try{const u=new URL(m[1].replace(/&amp;/g,'&'),base),label=m[2].replace(/<[^>]*>/g,' ').replace(/&gt;/g,'>').replace(/&lt;/g,'<').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim().slice(0,240);return label&&u.protocol==='https:'&&!u.username&&!u.password?[[u.href,{label,url:u.href}] as const]:[];}catch{return [];}})).values()].slice(0,40);
  return {access:'body' as const,text:plain.slice(0,200000),images,links};
 }
+type CoverageRow={gameId:string;region:Region;pool:string;status:string;currentIds:string[];upcomingIds:string[];lastEndedId?:string;lastEnd?:string;reason?:string};
 export function collectionCoverage(entries:Entry[],now=Date.now()){
- return games.flatMap(game=>[...new Set(game.regions.map(r=>effectiveRegion(game,r)))].flatMap(region=>{
+ return games.flatMap(game=>[...new Set(game.regions.map(r=>effectiveRegion(game,r)))].flatMap<CoverageRow>(region=>{
+  if(game.acquisitionModel==='direct')return [{gameId:game.id,region,pool:'acquisition',status:'not-applicable',currentIds:[],upcomingIds:[],reason:'No character or weapon gacha'}];
   const all=entries.filter(e=>e.gameId===game.id&&effectiveRegion(game,e.region)===region&&e.kind==='pickup'&&!e.hidden&&e.pickupArchive?.status!=='forecast');
   const keys=game.id==='arknights'?['character','standard','kernel']:game.id==='umamusume'?['character','support']:['character'];
   return keys.map(pool=>{

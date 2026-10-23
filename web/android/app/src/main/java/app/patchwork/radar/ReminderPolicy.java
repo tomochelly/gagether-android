@@ -1,0 +1,87 @@
+package app.patchwork.radar;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+import java.time.Instant;
+import java.time.ZoneId;
+import java.util.*;
+
+/** Pure scheduling rules, shared by background sync, reminders and widget selection. */
+public final class ReminderPolicy {
+ public static final Set<String> GAME_IDS=new HashSet<>(Arrays.asList("wuwa","bluearchive","nikke","endfield","umamusume","nte","gfl2","arknights","genshin","hsr","zzz","trickcal","hi3","reverse1999","stellasora","limbus","dna","holodreams"));
+ public static boolean supportsRegion(String game,String region){
+  return GAME_IDS.contains(game)&&(Arrays.asList("kr","jp","global").contains(region)||("cn".equals(region)&&("arknights".equals(game)||"gfl2".equals(game)||"reverse1999".equals(game))));
+ }
+ public static long epoch(String iso){try{return Instant.parse(iso).toEpochMilli();}catch(Exception ignored){try{return java.time.OffsetDateTime.parse(iso).toInstant().toEpochMilli();}catch(Exception ignored2){return 0;}}}
+ public static String text(JSONObject value,String locale){if(value==null)return "";String s=value.optString(locale,"");return s.isEmpty()?value.optString("en",""):s;}
+ public static boolean contains(JSONArray values,String key){if(values==null)return false;for(int i=0;i<values.length();i++)if(key.equals(values.optString(i)))return true;return false;}
+ public static boolean quietAt(long time,JSONObject prefs,ZoneId zone){
+  if(!prefs.optBoolean("quietEnabled",true))return false;int hour=Instant.ofEpochMilli(time).atZone(zone).getHour(),start=prefs.optInt("quietStart",23),end=prefs.optInt("quietEnd",8);
+  return start==end?false:start<end?hour>=start&&hour<end:hour>=start||hour<end;
+ }
+ public static boolean matches(JSONObject entry,JSONObject prefs,JSONObject feed){
+  String game=entry.optString("gameId"),wanted=prefs.optString("region","kr");
+  if(!supportsRegion(game,entry.optString("region")))return false;
+  if(!contains(prefs.optJSONArray("games"),game))return false;
+  if(isBroadcast(entry)?!prefs.optBoolean("broadcastsEnabled",false):!contains(prefs.optJSONArray("kinds"),entry.optString("kind")))return false;
+  JSONObject overrides=prefs.optJSONObject("gameRegions");if(overrides!=null)wanted=overrides.optString(game,wanted);
+  if(!supportsRegion(game,wanted))return false;
+  JSONArray games=feed.optJSONArray("games");if(games==null)return false;
+  for(int i=0;i<games.length();i++){JSONObject g=games.optJSONObject(i);if(g!=null&&game.equals(g.optString("id"))){JSONObject mapping=g.optJSONObject("canonicalRegions");return entry.optString("region").equals(mapping==null?wanted:mapping.optString(wanted,wanted));}}
+  return false;
+ }
+ public static boolean isBroadcast(JSONObject e){return "broadcast".equals(e.optString("kind"));}
+ public static List<JSONObject> records(JSONObject feed){
+  List<JSONObject> out=new ArrayList<>();JSONArray entries=feed.optJSONArray("entries");if(entries!=null)for(int i=0;i<entries.length();i++){JSONObject e=entries.optJSONObject(i);if(e!=null&&!isBroadcast(e))out.add(e);}
+  Map<String,JSONObject> broadcasts=new LinkedHashMap<>();JSONArray rows=feed.optJSONArray("broadcasts");if(rows!=null)for(int i=0;i<rows.length();i++){JSONObject e=rows.optJSONObject(i);if(e==null||!isBroadcast(e))continue;JSONObject b=e.optJSONObject("broadcast");String key=e.optString("gameId")+"/"+e.optString("region")+"/"+e.optString("expectedLocale")+"/"+(b==null?e.optString("id"):b.optString("youtubeId",e.optString("id")));JSONObject old=broadcasts.get(key);if(old==null||broadcastCheck(e)>broadcastCheck(old)||broadcastCheck(e)==broadcastCheck(old)&&!broadcastScheduled(e))broadcasts.put(key,e);}
+  out.addAll(broadcasts.values());return out;
+ }
+ private static long broadcastCheck(JSONObject e){JSONObject b=e.optJSONObject("broadcast");return b==null?0:epoch(b.optString("statusCheckedAt",b.optString("verifiedAt")));}
+ private static boolean broadcastScheduled(JSONObject e){JSONObject b=e.optJSONObject("broadcast");return b!=null&&"scheduled".equals(b.optString("status"));}
+ public static long eventAt(JSONObject e,String event){
+  if(isBroadcast(e)){if(!event.equals("broadcast"))return 0;JSONObject b=e.optJSONObject("broadcast");if(b==null)return 0;long program=epoch(b.optString("programStartAt"));return program>0?program:epoch(b.optString("scheduledAt"));}
+  return epoch(e.optString(event.equals("start")?"startAt":"endAt"));
+ }
+ public static boolean broadcastEligible(JSONObject e,long now){
+  if(!isBroadcast(e))return false;JSONObject b=e.optJSONObject("broadcast");if(b==null)return false;
+  long checked=epoch(b.optString("statusCheckedAt",b.optString("verifiedAt"))),age=now-checked;
+  return b.optBoolean("official")&&b.optBoolean("metadataVerified")&&"scheduled".equals(b.optString("status"))&&epoch(b.optString("endedAt"))==0&&age>=-300000&&age<=24*3600000L&&b.optString("locale").equals(e.optString("expectedLocale"))&&Arrays.asList("ko","en","ja","zh").contains(e.optString("expectedLocale"));
+ }
+ public static List<JSONObject> deadlines(JSONObject feed,JSONObject prefs,long now){
+  List<JSONObject> list=new ArrayList<>();JSONArray entries=feed.optJSONArray("entries");if(entries==null)return list;
+  for(int i=0;i<entries.length();i++){JSONObject e=entries.optJSONObject(i);if(e!=null&&matches(e,prefs,feed)&&epoch(e.optString("endAt"))>now&& (epoch(e.optString("startAt"))==0||epoch(e.optString("startAt"))<=now))list.add(e);}
+  list.sort(Comparator.comparingLong(e->epoch(e.optString("endAt"))));return list;
+ }
+ public static final class Reminder {
+  public final String entryId,event;public final long eventAt,fireAt;public final int offset;
+  Reminder(String id,String event,long at,long fire,int offset){this.entryId=id;this.event=event;eventAt=at;fireAt=fire;this.offset=offset;}
+  public String key(){return entryId+"|"+event+"|"+eventAt+"|"+offset;}
+ }
+ public static String groupKey(JSONObject e,String event,long at){
+  String group=e.optString("notificationGroup");
+  if(isBroadcast(e)){JSONObject b=e.optJSONObject("broadcast");String video=b==null?"":b.optString("youtubeId");return e.optString("gameId")+"/"+e.optString("region")+"/"+(video.isEmpty()?e.optString("id"):video)+"|"+event+"|"+at;}
+  return ("pickup".equals(e.optString("kind"))&&!group.isEmpty()?e.optString("gameId")+"/"+e.optString("region")+"/"+group:e.optString("id"))+"|"+event+"|"+at;
+ }
+ public static List<JSONObject> groupEntries(JSONObject feed,JSONObject prefs,JSONObject entry,String event,long at){
+  List<JSONObject> peers=new ArrayList<>();List<JSONObject> all=records(feed);String key=groupKey(entry,event,at);
+  for(JSONObject e:all){if(matches(e,prefs,feed)&&eventAt(e,event)==at&&key.equals(groupKey(e,event,at)))peers.add(e);}
+  peers.sort(Comparator.comparing(e->e.optString("id")));if(peers.isEmpty())peers.add(entry);return peers;
+ }
+ public static List<Reminder> plan(JSONObject feed,JSONObject prefs,long now,ZoneId zone){
+  List<Reminder> result=new ArrayList<>();if(!prefs.optBoolean("enabled",false))return result;
+  Set<String> seen=new HashSet<>();
+  List<JSONObject> ordered=records(feed);ordered.sort(Comparator.comparing(e->e.optString("id")));
+  for(JSONObject e:ordered){
+   if(!matches(e,prefs,feed)||isBroadcast(e)&&!broadcastEligible(e,now))continue;String id=e.optString("id");long start=epoch(e.optString("startAt"));
+   for(String event:isBroadcast(e)?Collections.singletonList("broadcast"):Arrays.asList("start","end")){
+    long at=eventAt(e,event);if(at<=now)continue;
+    for(int offset:ReminderSettings.offsets(prefs,e.optString("kind"),event)){
+     long fire=at-offset*60000L;String identity=groupKey(e,event,at)+"|"+offset;
+     if(fire>now&&fire<now+90L*86400000&&(event.equals("broadcast")||event.equals("start")||start==0||fire>=start)&&!quietAt(fire,prefs,zone)&&seen.add(identity))result.add(new Reminder(id,event,at,fire,offset));
+    }
+   }
+  }
+  result.sort(Comparator.comparingLong((Reminder r)->r.fireAt).thenComparing(r->r.entryId));return result.subList(0,Math.min(80,result.size()));
+ }
+ public static String gameName(JSONObject feed,String id,String locale){JSONArray gs=feed.optJSONArray("games");if(gs!=null)for(int i=0;i<gs.length();i++){JSONObject g=gs.optJSONObject(i);if(g!=null&&id.equals(g.optString("id")))return text(g.optJSONObject("name"),locale);}return id;}
+}
