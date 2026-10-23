@@ -3,7 +3,7 @@
   "requestId": "zzz-locale-pickup-20261024-v1",
   "reason": "Recover independent locale photos and exact current character banners; retain owner Japanese uploads and full originals",
   "action": "edit",
-  "dryRun": true,
+  "dryRun": false,
   "edit": {
     "target": "entry",
     "id": "hist-zzz-global-20261021-character-ad1c2854ac2c",
