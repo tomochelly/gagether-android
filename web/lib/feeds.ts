@@ -1,6 +1,6 @@
 import {blueArchiveTitle} from './bluearchive-title';
 import {type Entry,type SourceCheck,type Region,type Locale} from './types';
-import {readData,saveEntries,saveCheck} from './store';
+import {readData,readBaseData,saveEntries,saveCheck} from './store';
 import {feedEntry,type FeedNotice as Notice} from './feed-entry';
 import {retryFetch} from './retry-fetch';
 type Adapter={id:string;region:Region;load:()=>Promise<Notice[]>};
@@ -46,7 +46,11 @@ export async function refreshFeeds():Promise<SourceCheck[]>{
   try{
    const notices=combineNotices(await cfg.load());
    const entries:Entry[]=notices.map(n=>feedEntry(cfg.id,cfg.region,n,checkedAt,previous.get(`feed-${cfg.id}-${n.id}`)));
-   await saveEntries(entries.filter(e=>JSON.stringify(e)!==JSON.stringify(previous.get(e.id))));const check:SourceCheck={gameId:cfg.id,checkedAt,status:'ok',count:entries.length};await saveCheck(check);return check;
+   const changed=entries.filter(e=>JSON.stringify(e)!==JSON.stringify(previous.get(e.id)));
+   const originals=changed.length?await readBaseData({ids:changed.map(e=>e.id)}):{entries:[],persistent:true};if(!originals.persistent)throw Error('Full original feed records unavailable');
+   const complete=new Map(originals.entries.map(e=>[e.id,e]));
+   const updates=changed.map(e=>{const n=notices.find(n=>`feed-${cfg.id}-${n.id}`===e.id)!;return feedEntry(cfg.id,cfg.region,n,checkedAt,complete.get(e.id));});
+   await saveEntries(updates);const check:SourceCheck={gameId:cfg.id,checkedAt,status:'ok',count:entries.length};await saveCheck(check);return check;
   }catch(error){const check:SourceCheck={gameId:cfg.id,checkedAt,status:'error',count:0,error:error instanceof Error?error.message:'Source unavailable'};await saveCheck(check);return check;}
  }));
 }

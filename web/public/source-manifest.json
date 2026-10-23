@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "631019c29772416d9efa44e93698e81830c4f57b0a2202af5330dc0505851fd6",
+  "fingerprint": "454b393831379c8829346cfe52177848178fc2c95cd5fc04ca9f09a72fae6267",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1208,7 +1208,7 @@
     },
     {
       "path": "lib/feeds.ts",
-      "sha256": "f4afddb41ab0cb8031c8ed105ff2fbc1129df1fc4bdd31daa9a630e9013786a2"
+      "sha256": "e85f7e3cd288d602c3833b410a8793ec07fd3dfbce6cd388da0df0d467a61c95"
     },
     {
       "path": "lib/fetch-catalog.ts",
@@ -1284,7 +1284,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "e5389af72537ca514ff0ee3188c6298fb70758526add8831dc7afe4bda6309c2"
+      "sha256": "5f926b55d866bea8e65307a6eef78fa2513b1426912b45a3e8fb8e2c20be32f2"
     },
     {
       "path": "lib/official-social-store.ts",

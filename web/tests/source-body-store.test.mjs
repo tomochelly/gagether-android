@@ -46,3 +46,9 @@ test('source failure retains published body; a changed body hash is imported sep
  const change=noticeMetadataChange(lean,{...notice,title:'最新の告知',publishedAt:null},'2026-10-23T05:00:00Z');const full=(await readBaseData({id:original.id})).entries[0];await saveEntries([completeNoticeMetadata(full,change)]);const saved=(await readBaseData({id:original.id})).entries[0];
  for(const key of ['startAt','endAt','publishedAt','versionHero','hidden','featured','price','rarity','detailImages','image','imageLocale','pickupMembers'])assert.deepEqual(saved[key],original[key],key);assert.ok(Object.hasOwn(saved,'startAt'));assert.ok(Object.hasOwn(saved,'endAt'));assert.equal(saved.sourceTitle,'最新の告知');
  });
+
+ test('the actual multi-game feed refresh rehydrates full records before saving a native title edit',async()=>{
+ const {refreshFeeds}=await import('../lib/feeds.ts');const original={...entry,id:'feed-bluearchive-700',sourceTitle:'古い見出し',sourceLocale:'ja',publishedAt:null,versionHero:true,featured:true,rarity:3,price:{amount:1500,currency:'JPY',platform:'Android'},relatedSources:[{kind:'community',title:'Guide',url:'https://game8.jp/blue-archive/1'}],detailImages:[{image:'/assets/native.png'}]};write(original);const savedFetch=globalThis.fetch;
+ globalThis.fetch=async u=>String(u).includes('api-web.bluearchive.jp/api/news/list')?Response.json({data:{rows:[{id:700,summary:'最新の告知…',content:'<p><strong>最新の告知：全内容</strong></p>'}]}}):Response.json({retcode:1,code:1});
+ try{const results=await refreshFeeds();assert.equal(results.find(r=>r.gameId==='bluearchive').status,'ok');const updated=(await readBaseData({id:original.id})).entries[0];for(const key of ['startAt','endAt','publishedAt','versionHero','featured','rarity','price','relatedSources','detailImages'])assert.deepEqual(updated[key],original[key],key);assert.equal(updated.sourceTitle,'最新の告知：全内容');}finally{globalThis.fetch=savedFetch;}
+ });

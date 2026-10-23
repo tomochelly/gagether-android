@@ -1,6 +1,6 @@
 import {env} from 'cloudflare:workers';
 import {regionalOfficialSources,regionalDetail,regionalMetadataChanges,type RegionalNotice} from './regional-notices';
-import {noticeEntry,type FastNotice} from './fast-notices';
+import {noticeEntry,completeNoticeMetadata,type FastNotice} from './fast-notices';
 import {safeSource} from './types';
 import {retryFetch} from './retry-fetch';
 import {readData,readBaseData,saveEntries} from './store';
@@ -33,8 +33,8 @@ export async function collectRegionalNotices(){
  }));
  if(notices.length){await saveEntries(notices.map(n=>noticeEntry(n,new Date().toISOString())));const readback=await readData({automatic:true,collection:true});if(notices.some(n=>!readback.entries.some(e=>e.sourceUrl===n.url)))throw Error('Regional notice readback failed');}
  const metadataCandidates=regionalMetadataChanges(before.entries,inspected.map(r=>r.notice),new Date().toISOString());
- const originals=metadataCandidates.length?(await readBaseData({ids:metadataCandidates.map(e=>e.id)})).entries:[];
- const metadataChanged=metadataCandidates.map(e=>({...originals.find(o=>o.id===e.id),...e}));
+ const stored=metadataCandidates.length?await readBaseData({ids:metadataCandidates.map(e=>e.id)}):{entries:[],persistent:true};if(!stored.persistent)throw Error('Full original regional records unavailable');const originals=stored.entries;
+ const metadataChanged=metadataCandidates.map(e=>{const full=originals.find(o=>o.id===e.id);if(!full)throw Error('Original regional notice unavailable');return completeNoticeMetadata(full,e);});
  if(metadataChanged.length){await saveEntries(metadataChanged);const check=await readData({automatic:true,collection:true});if(metadataChanged.some(e=>!check.entries.some(x=>x.id===e.id&&x.sourceTitle===e.sourceTitle&&x.publishedAt===e.publishedAt)))throw Error('Regional metadata readback failed');}
  for(const {notice,checkedAt} of inspected)await captureDocument(notice,notice.bodyHtml,checkedAt);
  return {checks,added:notices.length,metadataChanged:metadataChanged.map(e=>e.id)};
