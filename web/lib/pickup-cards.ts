@@ -9,7 +9,7 @@ export function pickupCards(entries:Entry[]){
   const members=featuredMembers(entry)||[];
   if(entry.kind!=='pickup'||entry.selectionCount||members.length<2)return [{key:entry.id,entry,display:entry}];
   return members.map(member=>{
-   const display={...entry,title:member.name,pickupType:member.type,rarity:member.rarity||entry.rarity,pickupMembers:[member]};
+   const display={...entry,title:member.name,pickupType:member.type,rarity:member.rarity||entry.rarity,pickupMembers:[member,...(entry.pickupMembers||[]).filter(m=>m.role==='rate-up')]};
    // A pool poster or another member's illustration cannot fill this character.
    for(const key of artworkKeys)delete (display as EntityArtwork)[key];
    for(const key of artworkKeys)if(member[key]!==undefined)Object.assign(display,{[key]:member[key]});

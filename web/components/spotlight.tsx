@@ -1,5 +1,7 @@
 'use client';
 import {EntryEdit} from './owner-inline';
+import type {OpenEntry} from '@/lib/pickup-detail';
+import SecondaryPickups from './secondary-pickups';
 import {useDisplayZone} from './display-time';
 import {ownerUi} from '@/lib/owner-ui';
 import {useEffect,useState,type CSSProperties} from 'react';
@@ -15,7 +17,7 @@ import {artworkForLocale,serviceArtworkLocale,isBrandArtwork} from '@/lib/artwor
 import {isPickup,pickupPeriod,pickupStart,pickupEnd,historyText} from '@/lib/pickup-history';
 import {isForecast,pickupEstimate,pickupStartLabel,estimateText} from '@/lib/pickup-estimates';
 
-export default function Spotlight({slides,index,onIndex,locale,now,region,fallbackGame,gameView,blocked=false,onOpen,onGame,favorite,onFavorite}:{slides:SpotlightSlide[];index:number;onIndex:(n:number)=>void;locale:Locale;now:number;region:Region;fallbackGame:Game;gameView:boolean;blocked?:boolean;onOpen:(entry:Entry)=>void;onGame:(id:string)=>void;favorite:boolean;onFavorite:()=>void}){
+export default function Spotlight({slides,index,onIndex,locale,now,region,fallbackGame,gameView,blocked=false,onOpen,onGame,favorite,onFavorite}:{slides:SpotlightSlide[];index:number;onIndex:(n:number)=>void;locale:Locale;now:number;region:Region;fallbackGame:Game;gameView:boolean;blocked?:boolean;onOpen:OpenEntry;onGame:(id:string)=>void;favorite:boolean;onFavorite:()=>void}){
  const zone=useDisplayZone();const {t,byId,settings,editMode,openEditor}=useCatalog();const labels=editorText[locale];
  const [paused,setPaused]=useState(false);const [hover,setHover]=useState(false);const [focus,setFocus]=useState(false);const [hidden,setHidden]=useState(false);const [reduced,setReduced]=useState(false);
  const current=slides[index%Math.max(1,slides.length)];const e=current?.entry;const art=current?.art;const game=e?byId[e.gameId]:fallbackGame;
@@ -35,9 +37,9 @@ export default function Spotlight({slides,index,onIndex,locale,now,region,fallba
    <div className="spotlight-wash"/>{editMode&&e&&<button className="canvas-image-edit edit-chip" onClick={()=>openEditor({...editEntryTarget(e),focus:e.pickupMembers?.some(m=>m.image)?'members':'image'})}><Pencil size={14}/>{ownerUi[locale].editImage}</button>}
    <div className="spotlight-copy"><div className="spotlight-kicker"><span className="live-dot"/>{e&&isPickup(e)?pickupBannerLabel(e,now,locale):state==='active'?t.now:future?t.upcoming:t.featured}<span>{versionCaption(art||e||({} as Entry),locale)}</span></div><img className="spotlight-logo" src={game.logo} alt={game.name[locale]}/>
     <div className="spotlight-badges">{art?.pickupType&&<span className={'pickup-badge '+art.pickupType}>{art.pickupType==='new'?t.newPickup:art.pickupType==='rerun'?t.rerunPickup:art.pickupType==='mixed'?t.mixedPickup:t.unknownPickup}</span>}<span>{regionLabel(game,e?.region||region,locale,t)}</span></div>
-    <h2>{art?entryTitle(art,locale):game.name[locale]}</h2><p>{e?.summary[locale]||game.genre[locale]}</p>
+    <h2>{art?entryTitle(art,locale):game.name[locale]}</h2><p>{e?.summary[locale]||game.genre[locale]}</p>{e&&<SecondaryPickups entry={e} locale={locale}/>}
     {time?<div className="spotlight-deadline"><Clock3 size={14}/><span>{future?t.starts:t.ends} <b>{time}</b> <small>{zone}</small></span></div>:e&&isPickup(e)&&<div className="spotlight-deadline"><Clock3 size={14}/><span><b>{future?pickupStartLabel(e,locale,pickupStart(e,zone)):pickupEnd(e)?t.ends+' '+pickupEnd(e)!.replaceAll('-','.'):pickupStartLabel(e,locale,pickupStart(e,zone))}</b><small>{estimate?.scope==='version'?estimateText[locale].version:forecast?estimateText[locale][estimate?.method==='cycle'?'cycle':'community']:historyText[locale].dateOnly}</small></span></div>}
-    <div className="spotlight-actions"><button className="primary-button" onClick={()=>gameView&&e?onOpen(e):onGame(game.id)}>{gameView?t.more:t.openGame}<ArrowUpRight size={18}/></button></div>
+    <div className="spotlight-actions"><button className="primary-button" onClick={()=>gameView&&e?onOpen(e,art?.title):onGame(game.id)}>{gameView?t.more:t.openGame}<ArrowUpRight size={18}/></button></div>
    </div>
   </div>
   <div className="spotlight-top"><span>{game.short} / {art?.poolType==='support'?t.supportPool:t.characterPool}</span><div>{editMode&&<button className="edit-chip" onClick={()=>openEditor(e?editEntryTarget(e):{tab:'games',gameId:game.id})}><Pencil size={13}/>{labels.editor}</button>}{gameView&&<button className={'spotlight-follow '+(favorite?'followed':'')} onClick={onFavorite} aria-label={favorite?t.unfavorite:t.favorite}><Star size={17} fill={favorite?'currentColor':'none'}/></button>}</div></div>

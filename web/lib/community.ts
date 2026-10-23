@@ -3,7 +3,7 @@ export type CommunityMember={key:string;name:Localized};
 // Rotation-scoped: never silently merge different outfits, services or reruns.
 export function communityMembers(entry:Entry):CommunityMember[]{
  if(entry.kind!=='pickup'||entry.poolType==='support'||entry.poolType==='weapon')return [];
- const names=entry.pickupMembers?.length?entry.pickupMembers.map(m=>m.name):entry.entityDetails?.length?entry.entityDetails.map(p=>p.name):[entry.title];
+ const names=entry.pickupMembers?.length?entry.pickupMembers.filter(m=>m.role!=='rate-up').map(m=>m.name):entry.entityDetails?.length?entry.entityDetails.map(p=>p.name):[entry.title];
  const seen=new Set<string>();return names.flatMap(name=>{const key=(name.ko||name.en||name.ja||name.zh||'').normalize('NFC').trim();if(!key||seen.has(key))return [];seen.add(key);return [{key,name}];});
 }
 export type CommunityReview={id:string;author:string;stars:number;body:string;updatedAt:number;likes:number;liked:boolean;mine:boolean;reported:boolean;reports?:number;revision:number};

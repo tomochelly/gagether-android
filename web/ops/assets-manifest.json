@@ -2122,5 +2122,23 @@
     "url": "https://gagether.wiki/assets/weapons/wuwa-37-phase2-spectrum-blaster-ko.jpg",
     "bytes": 1515869,
     "sha256": "b8622caddb7364aaacc2fffc6c9a055a18679664d4b2a5b49b9194951faf7320"
+  },
+  {
+    "path": "public/assets/portraits/wuwa-chixia.png",
+    "url": "https://gagether.wiki/assets/portraits/wuwa-chixia.png",
+    "bytes": 31421,
+    "sha256": "d4bbb1f1149b5ba44e28fc9a05322140a9461ea10ebb7fee46e78c10b50680be"
+  },
+  {
+    "path": "public/assets/portraits/wuwa-danjin.png",
+    "url": "https://gagether.wiki/assets/portraits/wuwa-danjin.png",
+    "bytes": 26858,
+    "sha256": "06ba5647d06bae48ae1cb02cb595b6e156f48e8339558117fc0664f851b04cc4"
+  },
+  {
+    "path": "public/assets/portraits/wuwa-lumi.png",
+    "url": "https://gagether.wiki/assets/portraits/wuwa-lumi.png",
+    "bytes": 38172,
+    "sha256": "a2ae03f8f77212a7012fcd89b1167902f5fcefc3372a006c60b93307c56d82b5"
   }
 ]

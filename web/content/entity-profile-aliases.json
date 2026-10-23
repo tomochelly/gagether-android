@@ -1,0 +1,51 @@
+[
+  {
+    "gameId": "umamusume",
+    "profileId": "umamusume-106802-kitasan-black",
+    "regions": [
+      "global"
+    ],
+    "names": [
+      {
+        "ko": "키타산 블랙(신년)",
+        "en": "Kitasan Black (New Year)",
+        "ja": "キタサンブラック（正月）",
+        "zh": "北部玄驹（新年）"
+      },
+      {
+        "ko": "키타산 블랙(신년)",
+        "en": "[Crane's Ambition] Kitasan Black",
+        "ja": "キタサンブラック（正月）",
+        "zh": "北部玄驹（新年）"
+      }
+    ],
+    "sourceUrls": [
+      "https://gametora.com/umamusume/characters/106802-kitasan-black"
+    ]
+  },
+  {
+    "gameId": "umamusume",
+    "profileId": "umamusume-106702-satono-diamond",
+    "regions": [
+      "global"
+    ],
+    "names": [
+      {
+        "ko": "사토노 다이아몬드(신년)",
+        "en": "Satono Diamond (New Year)",
+        "ja": "サトノダイヤモンド（正月）",
+        "zh": "里见光钻（新年）"
+      },
+      {
+        "ko": "사토노 다이아몬드(신년)",
+        "en": "[Jade's Prosperity] Satono Diamond",
+        "ja": "サトノダイヤモンド（正月）",
+        "zh": "里见光钻（新年）"
+      }
+    ],
+    "sourceUrls": [
+      "https://gametora.com/umamusume/characters/106702-satono-diamond",
+      "https://umamusu.wiki/Game:Satono_Diamond_(花形・弥栄之翠)"
+    ]
+  }
+]

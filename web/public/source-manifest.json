@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "85c988341396e4a33b4a232c4ed54621b1b13a235d3b726a72123fd395bd7d99",
+  "fingerprint": "50bd3af4bafaef7c6226b76375c5443b4cd1e3a49b287fa9bb00d16d5809122b",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -116,7 +116,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "518163fe724d9e72635afbfe310ccec337d35ba55d72ae473b68365f335426e7"
+      "sha256": "898b2f4539f82b10daa2b28522871a11d78aa1dfa18847365de2637d93bfb42e"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -200,7 +200,7 @@
     },
     {
       "path": "app/globals.css",
-      "sha256": "553ba9b5e83ea044f0ffdad0784766966835065436f9257f11480fe3b6171d57"
+      "sha256": "887bee392b84b5f9a002165343b6973abf3beef32c556dabe2164194a77f9464"
     },
     {
       "path": "app/google-calendar.css",
@@ -512,7 +512,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "27549aab4e0d38b72428b8f475e49e81ebfcaf1914ef8bae60fdfd32d6f6104d"
+      "sha256": "1bda57fd5937fec36266cd66e99188640bab92491629726f972baeb210dc0839"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -533,6 +533,10 @@
     {
       "path": "components/schedule-calendar.tsx",
       "sha256": "f229e69904efb346e597b125d16f4500ea043cfb2982196194a83991bd805efe"
+    },
+    {
+      "path": "components/secondary-pickups.tsx",
+      "sha256": "34fcc092669b36998816c644e1142d608a46d4a108018ba0d360744e218958dc"
     },
     {
       "path": "components/signature-weapons.tsx",
@@ -556,7 +560,7 @@
     },
     {
       "path": "components/spotlight.tsx",
-      "sha256": "957e2fb32a131d9f53db9c27d94c7c6b49bd92b2dc636fbc16e9c7147ccee12f"
+      "sha256": "7d24ebec21491811bdc798cdf2aa04cd37dd9e555beb611588f2ad7d4a3c3ff2"
     },
     {
       "path": "components/studio-editor.tsx",
@@ -808,7 +812,7 @@
     },
     {
       "path": "components/upcoming-pickups.tsx",
-      "sha256": "993f60bdd7ab4cb3ebf4db2e98afacdd54c8276a88efae6d8db2fb940e6c9894"
+      "sha256": "1150932c899cf82c94884606a1fe7e988598a27a0c35f3599e74962eff24cf5b"
     },
     {
       "path": "components/update-status.tsx",
@@ -887,6 +891,10 @@
       "sha256": "fda47d01bacff13243d75075fd59009f113c6e0bf42ebca21426dec6860bb218"
     },
     {
+      "path": "content/entity-profile-aliases.json",
+      "sha256": "60e2b3049f682e5b6ff66a9b044c3020395bfafd77a7ef517637a957830d8d0b"
+    },
+    {
       "path": "content/excluded-source-images.json",
       "sha256": "ace7c047680ebbd42097ec9087ebb4a5497540a072c31d20d2f962ea065ef5ad"
     },
@@ -941,6 +949,10 @@
     {
       "path": "content/others-localized.json",
       "sha256": "42f154beaa02fc04dbd6f8e9c7c6c43189a0be8675b3b1ddad804ec9d309732f"
+    },
+    {
+      "path": "content/pickup-member-icons.json",
+      "sha256": "4092f810349bbef4425285a32dfb949110913611e9a5f24bd1093d24e71de9d7"
     },
     {
       "path": "content/recurring-sources.json",
@@ -1164,7 +1176,7 @@
     },
     {
       "path": "lib/community.ts",
-      "sha256": "78a59bb92228cbff7ec958fefd5e32219683e5e5e6fa9af86adc046112fa769b"
+      "sha256": "dbb5397d3fb7c0e4f9a528fd971b7959eecf373442f42b3c4437855e97f83c5b"
     },
     {
       "path": "lib/connector-context.ts",
@@ -1388,7 +1400,11 @@
     },
     {
       "path": "lib/pickup-cards.ts",
-      "sha256": "b75c611f323403a31a62f509d54f4d8e9d063021c92e7406be63dc11b7b94325"
+      "sha256": "bfae1288124a0bf94f97df8678b1700ec835b9df187a36c6571abc9c2f7f7693"
+    },
+    {
+      "path": "lib/pickup-detail.ts",
+      "sha256": "c55d7a2b2c38ccf7d00d429d7edc12c541e0a8b2b0b81a64857d31cbeeeb3343"
     },
     {
       "path": "lib/pickup-estimates.ts",
@@ -1397,6 +1413,10 @@
     {
       "path": "lib/pickup-history.ts",
       "sha256": "3da0733e617688cd8d2439f8e468678987e015ad3bf9363e07cbc979a474dd1e"
+    },
+    {
+      "path": "lib/pickup-member-icons.ts",
+      "sha256": "93981db64687149ff83127031f7e8272289f9204316db257524250b323215566"
     },
     {
       "path": "lib/presentation.ts",

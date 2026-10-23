@@ -1,0 +1,36 @@
+{
+  "entriesBefore": 1871,
+  "entriesAfter": 1872,
+  "automaticEntriesUnchanged": false,
+  "ownerEntries": 6,
+  "ownerFieldsUnchanged": true,
+  "settingsUnchanged": true,
+  "sourceManifestMatches": true,
+  "operationsVersion": 41,
+  "assets": [
+    {
+      "name": "Chixia",
+      "bytes": 31421,
+      "originalMatches": true,
+      "sha256Matches": true
+    },
+    {
+      "name": "Danjin",
+      "bytes": 26858,
+      "originalMatches": true,
+      "sha256Matches": true
+    },
+    {
+      "name": "Lumi",
+      "bytes": 38172,
+      "originalMatches": true,
+      "sha256Matches": true
+    }
+  ],
+  "wuwaPage": {
+    "bytes": 1674175,
+    "compactMemberStrips": 4,
+    "lumiPhotoInPage": true,
+    "loadError": false
+  }
+}

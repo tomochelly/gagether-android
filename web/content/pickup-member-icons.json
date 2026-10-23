@@ -1,0 +1,86 @@
+[
+  {
+    "gameId": "wuwa",
+    "names": [
+      {
+        "ko": "치샤",
+        "en": "Chixia",
+        "ja": "熾霞",
+        "zh": "熾霞"
+      },
+      {
+        "ko": "치샤",
+        "en": "Chixia",
+        "ja": "熾霞",
+        "zh": "炽霞"
+      }
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ryanbenson/wuthering-waves-assets"
+    ],
+    "icon": {
+      "image": "/assets/portraits/wuwa-chixia.png",
+      "imageSource": "https://raw.githubusercontent.com/ryanbenson/wuthering-waves-assets/e69260313edc04ca9b8ca1d52fec1bb485c6c1b1/images/Chixia.png",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T13:52:27.411528+00:00"
+    },
+    "sha256": "d4bbb1f1149b5ba44e28fc9a05322140a9461ea10ebb7fee46e78c10b50680be",
+    "imageLocale": "neutral"
+  },
+  {
+    "gameId": "wuwa",
+    "names": [
+      {
+        "ko": "단근",
+        "en": "Danjin",
+        "ja": "丹瑾",
+        "zh": "丹瑾"
+      }
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ryanbenson/wuthering-waves-assets"
+    ],
+    "icon": {
+      "image": "/assets/portraits/wuwa-danjin.png",
+      "imageSource": "https://raw.githubusercontent.com/ryanbenson/wuthering-waves-assets/e69260313edc04ca9b8ca1d52fec1bb485c6c1b1/images/Danjin.png",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T13:52:27.411528+00:00"
+    },
+    "sha256": "06ba5647d06bae48ae1cb02cb595b6e156f48e8339558117fc0664f851b04cc4",
+    "imageLocale": "neutral"
+  },
+  {
+    "gameId": "wuwa",
+    "names": [
+      {
+        "ko": "루미",
+        "en": "Lumi",
+        "ja": "灯灯",
+        "zh": "燈燈"
+      },
+      {
+        "ko": "루미",
+        "en": "Lumi",
+        "ja": "灯灯",
+        "zh": "灯灯"
+      }
+    ],
+    "sourceKind": "community",
+    "sourceUrls": [
+      "https://github.com/ryanbenson/wuthering-waves-assets"
+    ],
+    "icon": {
+      "image": "/assets/portraits/wuwa-lumi.png",
+      "imageSource": "https://raw.githubusercontent.com/ryanbenson/wuthering-waves-assets/e69260313edc04ca9b8ca1d52fec1bb485c6c1b1/images/Lumi.png",
+      "width": 256,
+      "height": 256,
+      "verifiedAt": "2026-10-23T13:52:27.411528+00:00"
+    },
+    "sha256": "a2ae03f8f77212a7012fcd89b1167902f5fcefc3372a006c60b93307c56d82b5",
+    "imageLocale": "neutral"
+  }
+]
