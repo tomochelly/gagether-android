@@ -128,7 +128,7 @@ export function entryState(e:Entry,now:number):"active"|"upcoming"|"ended"|"noti
  if(!e.startAt&&start&&start>today)return "upcoming";
  if(!e.endAt&&end&&end<today)return "ended";
  if(e.endAt)return "active";
- if((e.sourceKind||'official')==='official'&&start&&start<=today&&end)return "active";
+ if(start&&start<=today&&end)return "active";
  return "notice";
 }
 // History metadata records provenance. Official clock windows drive every live view.

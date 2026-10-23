@@ -2143,433 +2143,433 @@
   },
   {
     "path": "public/assets/limbus/icon.png",
-    "url": "https://limbuscompany.com/wp-content/uploads/2021/10/cropped-limbus_logo_feather.png",
+    "url": "https://gagether.wiki/assets/limbus/icon.png",
     "bytes": 113016,
     "sha256": "a4577cd5bc397e4d77c686a0549c6d486d741b315d75f0497f4225ea3f87e3fb"
   },
   {
     "path": "public/assets/limbus/logo.png",
-    "url": "https://limbuscompany.com/wp-content/uploads/2021/10/limbus_logo_text_02-1.png",
+    "url": "https://gagether.wiki/assets/limbus/logo.png",
     "bytes": 1120572,
     "sha256": "8904f1a45f531e97c8d239082b6082e4db2341ccb1447143b8166f0e777d269d"
   },
   {
     "path": "public/assets/limbus/current-banner.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/326ce33e8a999d22971325185ddb5d5ba0b2e2be.png",
+    "url": "https://gagether.wiki/assets/limbus/current-banner.png",
     "bytes": 646062,
     "sha256": "797ba6467d3e722f989ac377bbf2b40bc36fc05243461fc14fb70a62c7556638"
   },
   {
     "path": "public/assets/limbus/next-banner.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/aea5cd17100307544d29ad1b318bca630da0a07d.png",
+    "url": "https://gagether.wiki/assets/limbus/next-banner.png",
     "bytes": 633062,
     "sha256": "200b3e1ed0cb23d1b9a0c1102f9891eb5fde779c4fe44d91fc3237c7d2cb85db"
   },
   {
     "path": "public/assets/limbus/season8.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/eea21c4a44bf44f828166649e9123f17073aee99.png",
+    "url": "https://gagether.wiki/assets/limbus/season8.png",
     "bytes": 1595718,
     "sha256": "79a64c06220ebab90656712a211bfb3fd1e1cf2f2d1503ace1f1e0d83b24453a"
   },
   {
     "path": "public/assets/limbus/690897394695406954-ko-1.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/8b1c8df5d113621a7f0a6cfe00c738c4f1b15da8.png",
+    "url": "https://gagether.wiki/assets/limbus/690897394695406954-ko-1.png",
     "bytes": 67810,
     "sha256": "653670daec897630bcb0066bd1d6dbd8e1549f100f90eb4affc762a7524a2189"
   },
   {
     "path": "public/assets/limbus/690897394695406954-ko-2.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/869d9b423c2c9404c176a94e4b745004a45710da.png",
+    "url": "https://gagether.wiki/assets/limbus/690897394695406954-ko-2.png",
     "bytes": 210441,
     "sha256": "487873e332732176744a5d5c8441dea70e6c096cc51b1d1242fa569ebe55d350"
   },
   {
     "path": "public/assets/limbus/690897394695406954-ko-3.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/5dc07b3736fc04f7a0578d5cb12b21d9f93143af.png",
+    "url": "https://gagether.wiki/assets/limbus/690897394695406954-ko-3.png",
     "bytes": 192965,
     "sha256": "1c2cf2f26021bc06d24b6d8e35a6fa36d41605b2ead2efd68e0ba7c4538e9b3e"
   },
   {
     "path": "public/assets/limbus/690897394695406954-ko-4.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/c643d2d07456f3c2997aff316e4ac793dd16b53a.png",
+    "url": "https://gagether.wiki/assets/limbus/690897394695406954-ko-4.png",
     "bytes": 146633,
     "sha256": "f6c727f2affcaeb6866893ac9df93ae9c31a5b4961634d75292e4abeaf4baf39"
   },
   {
     "path": "public/assets/limbus/678511862081391684-ko-1.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/bc7c4979fb0aaa11a319ba3c3007834184a002e9.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-ko-1.png",
     "bytes": 3389517,
     "sha256": "823c971ba8575cf464953e54a8800e57812206880b80ea83ea72c203af887943"
   },
   {
     "path": "public/assets/limbus/678511862081391684-ko-2.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/357eff65e90bf70bdc512ff152ccc6dfc519bec7.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-ko-2.png",
     "bytes": 4025732,
     "sha256": "d0df5e3a41bd5f0fdc68c8cc86b6d0ee3721f31a3526ba412f26fbf61bab82f6"
   },
   {
     "path": "public/assets/limbus/678511862081391684-ko-3.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/9384f824d72ab43a980468c427bbd36c267cc9ad.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-ko-3.png",
     "bytes": 2203810,
     "sha256": "818b428e5d06bf688edc112d7da2d4a29a12655a3f8899242676764b3f452b1e"
   },
   {
     "path": "public/assets/limbus/678511862081391680-ko-1.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/2534de6918ca970da45d0b66a37b2f114ad4a698.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-ko-1.png",
     "bytes": 107084,
     "sha256": "d86b4733183d5a87d421db4a3e0cbe2486ad6b22ade9d114d5a9f3576a4bbc52"
   },
   {
     "path": "public/assets/limbus/678511862081391680-ko-2.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/ffefa81714dee7e2dd9ab1d5ab2b1a10933abaaa.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-ko-2.png",
     "bytes": 136286,
     "sha256": "842b7fc600e1ff363facd5ed79cccf52243b4d4bdae433aaea2c487d1ae0f0ba"
   },
   {
     "path": "public/assets/limbus/678511862081391680-ko-3.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/49c5e8b6bd055f82440acffa74eb8e965906f748.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-ko-3.png",
     "bytes": 252138,
     "sha256": "69cb2da17b45aed9bd85ccaced89bcb1c7c9a8a72e1c2c9feb9de22eec5ec67e"
   },
   {
     "path": "public/assets/limbus/678511862081391680-ko-4.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/02853379a0a82625b8c9a861ca7af69f3311c577.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-ko-4.png",
     "bytes": 199521,
     "sha256": "6aa6686d9c24e2f5536d1928d92ea1ad88a9fc0d8395963bb7d5e9d3d7596085"
   },
   {
     "path": "public/assets/limbus/678511862081391680-ko-5.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/ba9872468c725aa975595076822c798d0e168291.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-ko-5.png",
     "bytes": 146482,
     "sha256": "c10bfeb5d8fafe43f83d476358a65df09dc23de8f42321ef06fa0b16b934846b"
   },
   {
     "path": "public/assets/limbus/lunacy.png",
-    "url": "https://patchwiki.biligame.com/images/limbuscompany/a/af/nte0h949ntqutsan6koe0f3oquxxg35.png",
+    "url": "https://gagether.wiki/assets/limbus/lunacy.png",
     "bytes": 30632,
     "sha256": "ce5a3be3460456a294b1be41402d1fa0e2bdad5a043f0ee6e6ad681b5d8f4e3d"
   },
   {
     "path": "public/assets/limbus/678511862081391684-english-1.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/c250eb1a074b7d6bc9a016dc6b108f7cdafbdaa5.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-english-1.png",
     "bytes": 3351052,
     "sha256": "292172b588d3ce60ec786a7e6d8af3be715670c8102620196bd79887317eabc3"
   },
   {
     "path": "public/assets/limbus/678511862081391684-english-2.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/aea52c5ba88d1abba3a71bb62f9c7c5841ef44dd.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-english-2.png",
     "bytes": 4059554,
     "sha256": "4a2bf51cecfcc67da806b7e887034bc7095a16b1e274289bf3e1e33432bfb636"
   },
   {
     "path": "public/assets/limbus/678511862081391684-english-3.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/9080e062f5abe465095be84b9ea4bd924e37c3d0.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-english-3.png",
     "bytes": 2313697,
     "sha256": "246f8ba94ac2a1e28786c29e19c8152737640311c4106ffbd591377014255036"
   },
   {
     "path": "public/assets/limbus/678511862081391680-english-1.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/54ed5ee39ff566a3ab1d569d3dd57c25b799c370.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-english-1.png",
     "bytes": 117712,
     "sha256": "0ce49ba27281aa39705a20b2e1a9ca8cf5cb536f81239233c2c014d472d5beb0"
   },
   {
     "path": "public/assets/limbus/678511862081391680-english-2.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/cb171c32a90fe9dcd6f6eea6b5d289c01d0a98bc.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-english-2.png",
     "bytes": 173410,
     "sha256": "4a9d87d65cd88c9e1897a46fabad6b5deb0a386db4320294a600da1dbdf2c425"
   },
   {
     "path": "public/assets/limbus/678511862081391680-english-3.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/2c0e0ab8d95bf5575a15d46f62cc9f60f6461dd0.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-english-3.png",
     "bytes": 254102,
     "sha256": "059cf0d9a162c8e65f3e74c0fad0f52c2c6dbe54a3c92daa72ecf5a6084b4c8e"
   },
   {
     "path": "public/assets/limbus/678511862081391680-english-4.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/5b7283b75307e82b0eee70e517939cd9fe2f3b3f.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-english-4.png",
     "bytes": 216466,
     "sha256": "e94e7ba328fee57c3e34ea9618335e56e5f389fbb7de2ff01ac9a2104c492142"
   },
   {
     "path": "public/assets/limbus/678511862081391680-english-5.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/ca51fa6d8b727ae94d5832b09ffd1f8ef4ed2cd3.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-english-5.png",
     "bytes": 180977,
     "sha256": "9b7ffa6d18eee07475ddb7c46dc3cf51f1437399ff4d8365b4dc3e952b7528df"
   },
   {
     "path": "public/assets/limbus/678511862081391684-japanese-1.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/fd19cd193ee11bf7dd417248af4834d7179f6b2b.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-japanese-1.png",
     "bytes": 3411209,
     "sha256": "c59b3ee1a9218a6484978576f17736562c15cfd4097cb01cc6a4e37ab68bf7f9"
   },
   {
     "path": "public/assets/limbus/678511862081391684-japanese-2.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/6c54de4bbdeb32d4f8ca412a418573e977d85556.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-japanese-2.png",
     "bytes": 4422733,
     "sha256": "86a9d24dcd8cf6c625c178b2c8d107911ffa01090b40528b2b9ae9b120a2481f"
   },
   {
     "path": "public/assets/limbus/678511862081391684-japanese-3.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/6d3ac2cefb2eb231a28bf475d7573ba111d80568.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391684-japanese-3.png",
     "bytes": 2571721,
     "sha256": "742c58ebbf719c26e07b07d7de512a029595e38184b9a619ab3787b5c4b1f2fd"
   },
   {
     "path": "public/assets/limbus/678511862081391680-japanese-1.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/cd6f99a531121526d7d481a5f9da475bf3cf568b.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-japanese-1.png",
     "bytes": 150726,
     "sha256": "5e2bbf49630141786a7198640b151360e1da40fe7127a66710a9749185ebbacb"
   },
   {
     "path": "public/assets/limbus/678511862081391680-japanese-2.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/e6ac3247005f3b9c1eb953e9dcd4a9d8a9a9d9f2.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-japanese-2.png",
     "bytes": 187580,
     "sha256": "2a737efdb4fd0ecb4e4e19586c052ccb05934b815115b13644cc0a26f3722737"
   },
   {
     "path": "public/assets/limbus/678511862081391680-japanese-3.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/aed668bee929af2e98b0dff45ae42f15740b582e.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-japanese-3.png",
     "bytes": 269127,
     "sha256": "46dc6836c01d1e7c43b27a39479267ef9074ff210b342113d5a5ada8790ff663"
   },
   {
     "path": "public/assets/limbus/678511862081391680-japanese-4.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/23e0c337f4e01476ece0d25f76999f1afd4ff672.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-japanese-4.png",
     "bytes": 276386,
     "sha256": "5af51bbef63ddecf036b640a5bacc80318c585d9c11fe763828c98a8487519b2"
   },
   {
     "path": "public/assets/limbus/678511862081391680-japanese-5.png",
-    "url": "https://clan.fastly.steamstatic.com/images/43587230/7cb6d5ae8a186d41d1038fb816b7f4d23276cd0c.png",
+    "url": "https://gagether.wiki/assets/limbus/678511862081391680-japanese-5.png",
     "bytes": 219589,
     "sha256": "4616f10fe4b257ef7436e31fb5988ca0b732c63368255a7d9e66c0c2d8791521"
   },
   {
     "path": "public/assets/dna/app-icon.jpg",
-    "url": "https://play-lh.googleusercontent.com/wNyltcXoUMKz7txb1KGz0MN4-B-HXv6-iVC6n39cry5FNukJxtoJyQ-sC-KMrg-CNO1a_Ed3r8AaUJNuHWGsjA=s0-br30",
+    "url": "https://gagether.wiki/assets/dna/app-icon.jpg",
     "bytes": 82349,
     "sha256": "9d73c6e645d1f40c1d26fb8cd122ba03d5ff8332c06abdd9e45790b4eb9594ac"
   },
   {
     "path": "public/assets/dna/logo-ko.png",
-    "url": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-kr.png",
+    "url": "https://gagether.wiki/assets/dna/logo-ko.png",
     "bytes": 19566,
     "sha256": "8e278b3ed9f529dcaeb95a2fa96bffabda52577d94a9dfcfb61a2e75d350bff6"
   },
   {
     "path": "public/assets/dna/logo-en.png",
-    "url": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-en.png",
+    "url": "https://gagether.wiki/assets/dna/logo-en.png",
     "bytes": 16843,
     "sha256": "c3cec05c974f98f1aa2846af78156e4482ccde03a9477a188ca1704f5371685a"
   },
   {
     "path": "public/assets/dna/logo-ja.png",
-    "url": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-jp.png",
+    "url": "https://gagether.wiki/assets/dna/logo-ja.png",
     "bytes": 20110,
     "sha256": "a2f5a3dd6af2d1e35380ef03acbb550f941ec8e9365c80d91cbda2831071cd1f"
   },
   {
     "path": "public/assets/dna/logo-zh.png",
-    "url": "https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_7/imgs/icon/white-logo-cht.png",
+    "url": "https://gagether.wiki/assets/dna/logo-zh.png",
     "bytes": 18656,
     "sha256": "d2c9f611bd4ed5d9a160b7cce012f23839de959e61a0a5b07174ec768a42de07"
   },
   {
     "path": "public/assets/dna/towards-dawn-ko.jpg",
-    "url": "https://gwhw-cdn.herogame.com/slxhw/98e3950aedfded47cb25af51bf6fb603.jpg",
+    "url": "https://gagether.wiki/assets/dna/towards-dawn-ko.jpg",
     "bytes": 6664424,
     "sha256": "11cc4aef9a7e962df7a45db50e967429cfd009a9c193944ec7100b07ae5eb578"
   },
   {
     "path": "public/assets/dna/towards-dawn-ja.jpg",
-    "url": "https://prcdn.freetls.fastly.net/release_image/160794/42/160794-42-1bd6d88f819243485c6ec3d86864768e-3840x2160.jpg",
+    "url": "https://gagether.wiki/assets/dna/towards-dawn-ja.jpg",
     "bytes": 1026759,
     "sha256": "930b4bb3493cce6ddfc0ba17bfbe5bcbad851d8699a77544fb52dc97d82bc1ba"
   },
   {
     "path": "public/assets/dna/towards-dawn-neutral.webp",
-    "url": "https://cdnstatic.herogame.com/static/duetnightabyss_hd_1_7/imgs/home/pc/bg.webp",
+    "url": "https://gagether.wiki/assets/dna/towards-dawn-neutral.webp",
     "bytes": 615602,
     "sha256": "4decf3a64403f7e059c018b0b73b7ac867caba08d9e86901bb549c2738fb3fad"
   },
   {
     "path": "public/assets/dna/rhythm-flamewrought-neutral.webp",
-    "url": "https://cdnstatic.herogame.com/static/duetnightabyss_hd_1_7/imgs/character/pc/image-rhythm.webp",
+    "url": "https://gagether.wiki/assets/dna/rhythm-flamewrought-neutral.webp",
     "bytes": 884536,
     "sha256": "928697e8562d78b176e43d9bdfc61ee46db1a113f2e364d886b5a4b129199359"
   },
   {
     "path": "public/assets/dna/phoxene.webp",
-    "url": "https://img.game8.jp/11915389/bc861d879d192091cc451356f7393a5c.webp/show",
+    "url": "https://gagether.wiki/assets/dna/phoxene.webp",
     "bytes": 1698,
     "sha256": "bb412c6daac027a696e3c8b23fce05f30a0be03df69a0759d64b60e47f509401"
   },
   {
     "path": "public/assets/dna/prismatic-hourglass.webp",
-    "url": "https://img.game8.jp/11915184/057a49b0b915f456410620831b2453b1.webp/show",
+    "url": "https://gagether.wiki/assets/dna/prismatic-hourglass.webp",
     "bytes": 1916,
     "sha256": "8fd05ca969666e59bb9e7ce620148f4425a2ead5a858e569f7fc8d31870b7943"
   },
   {
     "path": "public/assets/dna/blessed-burden-icon.webp",
-    "url": "https://img.game8.jp/13114295/59612982742ab34b1f7fbf361abc4c58.webp/show",
+    "url": "https://gagether.wiki/assets/dna/blessed-burden-icon.webp",
     "bytes": 10768,
     "sha256": "a751c090259665de34ecb7fdc83b2765212a239607f98ff448464755a404bdf2"
   },
   {
     "path": "public/assets/dna/blessed-burden-neutral.webp",
-    "url": "https://img.game8.jp/13115354/c9557ccb1bf64e25c78c3e8de1f73ddb.webp/original",
+    "url": "https://gagether.wiki/assets/dna/blessed-burden-neutral.webp",
     "bytes": 30040,
     "sha256": "96122bb309ecd1ba243d8b67c5d5f817acebc830850d364add3eab1d07ab7b93"
   },
   {
     "path": "public/assets/dna/rhythm-flamewrought-icon.webp",
-    "url": "https://img.game8.jp/13112845/495fc4591f15d0f5c0f57c5bb740539b.webp/show",
+    "url": "https://gagether.wiki/assets/dna/rhythm-flamewrought-icon.webp",
     "bytes": 14026,
     "sha256": "6c6a0ec7ab5ae74c739299ec64f232e31e1b4c0dc947cd6d7d1fe830d8294521"
   },
   {
     "path": "public/assets/holodreams/logo.png",
-    "url": "https://www.hololive-dreams.com/_astro/logo.NqsmsYtI.png",
+    "url": "https://gagether.wiki/assets/holodreams/logo.png",
     "bytes": 251990,
     "sha256": "7679c3e121ea2d88bc8b63cb982b524f63c93f920e0d8ad2890ebdc78dd3697e"
   },
   {
     "path": "public/assets/holodreams/app-icon.png",
-    "url": "https://www.hololive-dreams.com/_astro/appicon.BKQZw3bJ.png",
+    "url": "https://gagether.wiki/assets/holodreams/app-icon.png",
     "bytes": 121939,
     "sha256": "c0fe1368a5181c0c7b85e4ab19d4f532fbb6d6b4592e4e4277a8b223b4360091"
   },
   {
     "path": "public/assets/holodreams/soda-pop-lagoon-scene.png",
-    "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/80e39b3c3c634790a11ab8d43c002a0e/img_banner_full_area-a03_notice.png",
+    "url": "https://gagether.wiki/assets/holodreams/soda-pop-lagoon-scene.png",
     "bytes": 1684327,
     "sha256": "584c43da5e686c3ffa854f33f20a063b482cf0fbf15dc355159a7574ab12a6d2"
   },
   {
     "path": "public/assets/holodreams/seaside-towa-ja.jpg",
-    "url": "https://holoviewers.net/wp-content/uploads/2026/10/holodori_card_seaside_towa.jpg",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-towa-ja.jpg",
     "bytes": 452696,
     "sha256": "acdd48b955efc3bd816d0f646b3182e10a23ca7888c4d337392cdc7ec06ae58f"
   },
   {
     "path": "public/assets/holodreams/seaside-kaela-ja.jpg",
-    "url": "https://holoviewers.net/wp-content/uploads/2026/10/holodori_card_seaside_kaela.jpg",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-kaela-ja.jpg",
     "bytes": 488453,
     "sha256": "3517db61f3821fc11c9c80b2485b8c52280649835ae44dcd3a909b473050971c"
   },
   {
     "path": "public/assets/holodreams/seaside-botan-ja.jpg",
-    "url": "https://holoviewers.net/wp-content/uploads/2026/10/holodori_card_seaside_botan.jpg",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-botan-ja.jpg",
     "bytes": 523829,
     "sha256": "7169a92dd352426a6c524f50e4f310c1e2018e20594fe8f5ef33476f21b2d819"
   },
   {
     "path": "public/assets/holodreams/seaside-bijou-ja.jpg",
-    "url": "https://holoviewers.net/wp-content/uploads/2026/10/holodori_card_seaside_bijou.jpg",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-bijou-ja.jpg",
     "bytes": 482281,
     "sha256": "c3a64b2b11d98ee4ff53c3d4f6221fee2d75a086c1c650e0167ed24d01c9b51e"
   },
   {
     "path": "public/assets/holodreams/diamonds.webp",
-    "url": "https://dreams.wf-calc.net/assets/rewards/gem.webp",
+    "url": "https://gagether.wiki/assets/holodreams/diamonds.webp",
     "bytes": 5730,
     "sha256": "2ded859b0b8961e9e1de999acbf833dbfadf85b99ea41e1d244189522f65a802"
   },
   {
     "path": "public/assets/holodreams/gacha-ticket.webp",
-    "url": "https://dreams.wf-calc.net/assets/rewards/ticket.webp",
+    "url": "https://gagether.wiki/assets/holodreams/gacha-ticket.webp",
     "bytes": 4912,
     "sha256": "b746c08d43fd28de4b4896eb919671038a91e7034a65914c9b4a47dcf5dd0e27"
   },
   {
     "path": "public/assets/holodreams/seaside-towa-illustration-community.webp",
-    "url": "https://dreams.wf-calc.net/assets/holodori/00027-5-uniq-0092-00-illustration.webp",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-towa-illustration-community.webp",
     "bytes": 110268,
     "sha256": "9230e647cd93a328f2b501429757d80dfb83cc787842e9cc1f6218398e33de93"
   },
   {
     "path": "public/assets/holodreams/seaside-towa-icon-community.webp",
-    "url": "https://dreams.wf-calc.net/assets/holodori/00027-5-uniq-0092-00-icon.webp",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-towa-icon-community.webp",
     "bytes": 25436,
     "sha256": "3dab9f26956be66f0170a98d01aee05e0b087c81e4c68f6dda07e56d7d97c1c8"
   },
   {
     "path": "public/assets/holodreams/seaside-botan-illustration-community.webp",
-    "url": "https://dreams.wf-calc.net/assets/holodori/00032-5-uniq-0093-00-illustration.webp",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-botan-illustration-community.webp",
     "bytes": 123554,
     "sha256": "bba05f2ba7f870a0797f83e0026eb48378b65aff1db8cb88ec3af10083696656"
   },
   {
     "path": "public/assets/holodreams/seaside-botan-icon-community.webp",
-    "url": "https://dreams.wf-calc.net/assets/holodori/00032-5-uniq-0093-00-icon.webp",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-botan-icon-community.webp",
     "bytes": 27480,
     "sha256": "32dbe3ca3289f830cf13bfc25f26024a90323734651720dafcc527cdcf13e64c"
   },
   {
     "path": "public/assets/holodreams/seaside-kaela-illustration-community.webp",
-    "url": "https://dreams.wf-calc.net/assets/holodori/03008-5-uniq-0095-00-illustration.webp",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-kaela-illustration-community.webp",
     "bytes": 122340,
     "sha256": "86917ae2a5b6d39f4d0521e7b3c66873792a3e1d58f143f07103328a56474ca3"
   },
   {
     "path": "public/assets/holodreams/seaside-kaela-icon-community.webp",
-    "url": "https://dreams.wf-calc.net/assets/holodori/03008-5-uniq-0095-00-icon.webp",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-kaela-icon-community.webp",
     "bytes": 29174,
     "sha256": "a93adf724ec527138052bcfebfb9ca3b0ad9ba4fd0a45d77e1447cbe2be52ab1"
   },
   {
     "path": "public/assets/holodreams/seaside-bijou-illustration-community.webp",
-    "url": "https://dreams.wf-calc.net/assets/holodori/04014-5-uniq-0094-00-illustration.webp",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-bijou-illustration-community.webp",
     "bytes": 117424,
     "sha256": "a304e2c5fda6be98328c87af8c759c477e02759bd4c06a8563ed40b18ebb71df"
   },
   {
     "path": "public/assets/holodreams/seaside-bijou-icon-community.webp",
-    "url": "https://dreams.wf-calc.net/assets/holodori/04014-5-uniq-0094-00-icon.webp",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-bijou-icon-community.webp",
     "bytes": 28362,
     "sha256": "08d8d8ef95be599a31bdef66d6cf3f36091fda6664e19d629046a9c76e4bc9aa"
   },
   {
     "path": "public/assets/holodreams/press-image-0.png",
-    "url": "https://img.gamewith.jp/img/original_471e3c909f1456fec62a4baa2c60b315.png",
+    "url": "https://gagether.wiki/assets/holodreams/press-image-0.png",
     "bytes": 3204026,
     "sha256": "ab60f51c04f07dabbfa2aec3782edb3f79b78991d83d1fc78e41ec0cafe72d28"
   },
   {
     "path": "public/assets/holodreams/press-image-2.jpeg",
-    "url": "https://img.gamewith.jp/img/original_ccbe8c1b663e40243c33bb357bcb9384.png",
+    "url": "https://gagether.wiki/assets/holodreams/press-image-2.jpeg",
     "bytes": 639864,
     "sha256": "0232388a765b37952ae90ca9af3f5828136a6b91156dfc4b9ab18d71934cc93d"
   },
   {
     "path": "public/assets/holodreams/press-image-3.jpeg",
-    "url": "https://img.gamewith.jp/img/original_b8fd52a00a2e7d94ce219d5c2dcdbfa9.png",
+    "url": "https://gagether.wiki/assets/holodreams/press-image-3.jpeg",
     "bytes": 511337,
     "sha256": "46a9a8b2b675ac938cdecbc909020f734de4d96f3847e1a01ab3901ae6f298ca"
   },
   {
     "path": "public/assets/holodreams/press-image-4.jpeg",
-    "url": "https://img.gamewith.jp/img/original_6e234e7ad328e0583dc3bc574bd1bfcd.png",
+    "url": "https://gagether.wiki/assets/holodreams/press-image-4.jpeg",
     "bytes": 733968,
     "sha256": "6edc914b189aca5b3608183eca4a83d63451359d0cdbc2c1f5733fff3132b4b5"
   },
   {
     "path": "public/assets/holodreams/press-image-6.jpeg",
-    "url": "https://img.gamewith.jp/img/original_2f97428ff3a7aa7d2f920de7d0082bda.png",
+    "url": "https://gagether.wiki/assets/holodreams/press-image-6.jpeg",
     "bytes": 696532,
     "sha256": "564269b28fd1fb93a6d5b75807331f4662e7314fd8f5f70d088aba5bdbf1590a"
   },
   {
     "path": "public/assets/holodreams/press-image-7.png",
-    "url": "https://img.gamewith.jp/img/original_63470b83ab7a00c4fefdc65d4986e5aa.png",
+    "url": "https://gagether.wiki/assets/holodreams/press-image-7.png",
     "bytes": 1496767,
     "sha256": "d4d36dbce3a574d81559c4e8ff811d962ecbfe4913bbad1f7168c5f63cf561ea"
   },
   {
     "path": "public/assets/holodreams/seaside-kaela-neutral-full.jpg",
-    "url": "https://cimg.kgl-systems.io/camion/files/dengeki/91379/a11ce904f785d8641273644711dd522ff.jpg",
+    "url": "https://gagether.wiki/assets/holodreams/seaside-kaela-neutral-full.jpg",
     "bytes": 222944,
     "sha256": "fce1a3b4e6da1605b80836ecc11b2d1a09f15f7f926510b6dbfab6d1e33a474b"
   }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "verifiedAt": "2026-10-23T03:15:07Z",
+  "verifiedAt": "2026-10-23T23:20:14Z",
   "assets": [
     {
       "path": "assets/app-icons/arknights-app-icon-kr.jpg",
@@ -2106,6 +2106,474 @@
       "path": "assets/zzz-logo.png",
       "sha256": "08ac54113febcbda2a7e12dde00128ca7d56bde685d1e6e15d5e522bad158e05",
       "bytes": 6441,
+      "ready": true
+    },
+    {
+      "path": "assets/weapons/wuwa-37-phase2-unspoken-rue-ko.jpg",
+      "sha256": "1533a9d2ae052a650d7eb1557d21c3f3dd98ef7b110588fa1b7fb9029081d426",
+      "bytes": 1295440,
+      "ready": true
+    },
+    {
+      "path": "assets/weapons/wuwa-37-phase2-freeze-frame-ko.jpg",
+      "sha256": "f13e9aa94b20daae3826f55b309cc93aa683dbd27123144c06dc75d10823030d",
+      "bytes": 1197202,
+      "ready": true
+    },
+    {
+      "path": "assets/weapons/wuwa-37-phase2-spectrum-blaster-ko.jpg",
+      "sha256": "b8622caddb7364aaacc2fffc6c9a055a18679664d4b2a5b49b9194951faf7320",
+      "bytes": 1515869,
+      "ready": true
+    },
+    {
+      "path": "assets/portraits/wuwa-chixia.png",
+      "sha256": "d4bbb1f1149b5ba44e28fc9a05322140a9461ea10ebb7fee46e78c10b50680be",
+      "bytes": 31421,
+      "ready": true
+    },
+    {
+      "path": "assets/portraits/wuwa-danjin.png",
+      "sha256": "06ba5647d06bae48ae1cb02cb595b6e156f48e8339558117fc0664f851b04cc4",
+      "bytes": 26858,
+      "ready": true
+    },
+    {
+      "path": "assets/portraits/wuwa-lumi.png",
+      "sha256": "a2ae03f8f77212a7012fcd89b1167902f5fcefc3372a006c60b93307c56d82b5",
+      "bytes": 38172,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/icon.png",
+      "sha256": "a4577cd5bc397e4d77c686a0549c6d486d741b315d75f0497f4225ea3f87e3fb",
+      "bytes": 113016,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/logo.png",
+      "sha256": "8904f1a45f531e97c8d239082b6082e4db2341ccb1447143b8166f0e777d269d",
+      "bytes": 1120572,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/current-banner.png",
+      "sha256": "797ba6467d3e722f989ac377bbf2b40bc36fc05243461fc14fb70a62c7556638",
+      "bytes": 646062,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/next-banner.png",
+      "sha256": "200b3e1ed0cb23d1b9a0c1102f9891eb5fde779c4fe44d91fc3237c7d2cb85db",
+      "bytes": 633062,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/season8.png",
+      "sha256": "79a64c06220ebab90656712a211bfb3fd1e1cf2f2d1503ace1f1e0d83b24453a",
+      "bytes": 1595718,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/690897394695406954-ko-1.png",
+      "sha256": "653670daec897630bcb0066bd1d6dbd8e1549f100f90eb4affc762a7524a2189",
+      "bytes": 67810,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/690897394695406954-ko-2.png",
+      "sha256": "487873e332732176744a5d5c8441dea70e6c096cc51b1d1242fa569ebe55d350",
+      "bytes": 210441,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/690897394695406954-ko-3.png",
+      "sha256": "1c2cf2f26021bc06d24b6d8e35a6fa36d41605b2ead2efd68e0ba7c4538e9b3e",
+      "bytes": 192965,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/690897394695406954-ko-4.png",
+      "sha256": "f6c727f2affcaeb6866893ac9df93ae9c31a5b4961634d75292e4abeaf4baf39",
+      "bytes": 146633,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-ko-1.png",
+      "sha256": "823c971ba8575cf464953e54a8800e57812206880b80ea83ea72c203af887943",
+      "bytes": 3389517,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-ko-2.png",
+      "sha256": "d0df5e3a41bd5f0fdc68c8cc86b6d0ee3721f31a3526ba412f26fbf61bab82f6",
+      "bytes": 4025732,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-ko-3.png",
+      "sha256": "818b428e5d06bf688edc112d7da2d4a29a12655a3f8899242676764b3f452b1e",
+      "bytes": 2203810,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-ko-1.png",
+      "sha256": "d86b4733183d5a87d421db4a3e0cbe2486ad6b22ade9d114d5a9f3576a4bbc52",
+      "bytes": 107084,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-ko-2.png",
+      "sha256": "842b7fc600e1ff363facd5ed79cccf52243b4d4bdae433aaea2c487d1ae0f0ba",
+      "bytes": 136286,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-ko-3.png",
+      "sha256": "69cb2da17b45aed9bd85ccaced89bcb1c7c9a8a72e1c2c9feb9de22eec5ec67e",
+      "bytes": 252138,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-ko-4.png",
+      "sha256": "6aa6686d9c24e2f5536d1928d92ea1ad88a9fc0d8395963bb7d5e9d3d7596085",
+      "bytes": 199521,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-ko-5.png",
+      "sha256": "c10bfeb5d8fafe43f83d476358a65df09dc23de8f42321ef06fa0b16b934846b",
+      "bytes": 146482,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/lunacy.png",
+      "sha256": "ce5a3be3460456a294b1be41402d1fa0e2bdad5a043f0ee6e6ad681b5d8f4e3d",
+      "bytes": 30632,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-english-1.png",
+      "sha256": "292172b588d3ce60ec786a7e6d8af3be715670c8102620196bd79887317eabc3",
+      "bytes": 3351052,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-english-2.png",
+      "sha256": "4a2bf51cecfcc67da806b7e887034bc7095a16b1e274289bf3e1e33432bfb636",
+      "bytes": 4059554,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-english-3.png",
+      "sha256": "246f8ba94ac2a1e28786c29e19c8152737640311c4106ffbd591377014255036",
+      "bytes": 2313697,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-english-1.png",
+      "sha256": "0ce49ba27281aa39705a20b2e1a9ca8cf5cb536f81239233c2c014d472d5beb0",
+      "bytes": 117712,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-english-2.png",
+      "sha256": "4a9d87d65cd88c9e1897a46fabad6b5deb0a386db4320294a600da1dbdf2c425",
+      "bytes": 173410,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-english-3.png",
+      "sha256": "059cf0d9a162c8e65f3e74c0fad0f52c2c6dbe54a3c92daa72ecf5a6084b4c8e",
+      "bytes": 254102,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-english-4.png",
+      "sha256": "e94e7ba328fee57c3e34ea9618335e56e5f389fbb7de2ff01ac9a2104c492142",
+      "bytes": 216466,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-english-5.png",
+      "sha256": "9b7ffa6d18eee07475ddb7c46dc3cf51f1437399ff4d8365b4dc3e952b7528df",
+      "bytes": 180977,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-japanese-1.png",
+      "sha256": "c59b3ee1a9218a6484978576f17736562c15cfd4097cb01cc6a4e37ab68bf7f9",
+      "bytes": 3411209,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-japanese-2.png",
+      "sha256": "86a9d24dcd8cf6c625c178b2c8d107911ffa01090b40528b2b9ae9b120a2481f",
+      "bytes": 4422733,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391684-japanese-3.png",
+      "sha256": "742c58ebbf719c26e07b07d7de512a029595e38184b9a619ab3787b5c4b1f2fd",
+      "bytes": 2571721,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-japanese-1.png",
+      "sha256": "5e2bbf49630141786a7198640b151360e1da40fe7127a66710a9749185ebbacb",
+      "bytes": 150726,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-japanese-2.png",
+      "sha256": "2a737efdb4fd0ecb4e4e19586c052ccb05934b815115b13644cc0a26f3722737",
+      "bytes": 187580,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-japanese-3.png",
+      "sha256": "46dc6836c01d1e7c43b27a39479267ef9074ff210b342113d5a5ada8790ff663",
+      "bytes": 269127,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-japanese-4.png",
+      "sha256": "5af51bbef63ddecf036b640a5bacc80318c585d9c11fe763828c98a8487519b2",
+      "bytes": 276386,
+      "ready": true
+    },
+    {
+      "path": "assets/limbus/678511862081391680-japanese-5.png",
+      "sha256": "4616f10fe4b257ef7436e31fb5988ca0b732c63368255a7d9e66c0c2d8791521",
+      "bytes": 219589,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/app-icon.jpg",
+      "sha256": "9d73c6e645d1f40c1d26fb8cd122ba03d5ff8332c06abdd9e45790b4eb9594ac",
+      "bytes": 82349,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/logo-ko.png",
+      "sha256": "8e278b3ed9f529dcaeb95a2fa96bffabda52577d94a9dfcfb61a2e75d350bff6",
+      "bytes": 19566,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/logo-en.png",
+      "sha256": "c3cec05c974f98f1aa2846af78156e4482ccde03a9477a188ca1704f5371685a",
+      "bytes": 16843,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/logo-ja.png",
+      "sha256": "a2f5a3dd6af2d1e35380ef03acbb550f941ec8e9365c80d91cbda2831071cd1f",
+      "bytes": 20110,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/logo-zh.png",
+      "sha256": "d2c9f611bd4ed5d9a160b7cce012f23839de959e61a0a5b07174ec768a42de07",
+      "bytes": 18656,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/towards-dawn-ko.jpg",
+      "sha256": "11cc4aef9a7e962df7a45db50e967429cfd009a9c193944ec7100b07ae5eb578",
+      "bytes": 6664424,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/towards-dawn-ja.jpg",
+      "sha256": "930b4bb3493cce6ddfc0ba17bfbe5bcbad851d8699a77544fb52dc97d82bc1ba",
+      "bytes": 1026759,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/towards-dawn-neutral.webp",
+      "sha256": "4decf3a64403f7e059c018b0b73b7ac867caba08d9e86901bb549c2738fb3fad",
+      "bytes": 615602,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/rhythm-flamewrought-neutral.webp",
+      "sha256": "928697e8562d78b176e43d9bdfc61ee46db1a113f2e364d886b5a4b129199359",
+      "bytes": 884536,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/phoxene.webp",
+      "sha256": "bb412c6daac027a696e3c8b23fce05f30a0be03df69a0759d64b60e47f509401",
+      "bytes": 1698,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/prismatic-hourglass.webp",
+      "sha256": "8fd05ca969666e59bb9e7ce620148f4425a2ead5a858e569f7fc8d31870b7943",
+      "bytes": 1916,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/blessed-burden-icon.webp",
+      "sha256": "a751c090259665de34ecb7fdc83b2765212a239607f98ff448464755a404bdf2",
+      "bytes": 10768,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/blessed-burden-neutral.webp",
+      "sha256": "96122bb309ecd1ba243d8b67c5d5f817acebc830850d364add3eab1d07ab7b93",
+      "bytes": 30040,
+      "ready": true
+    },
+    {
+      "path": "assets/dna/rhythm-flamewrought-icon.webp",
+      "sha256": "6c6a0ec7ab5ae74c739299ec64f232e31e1b4c0dc947cd6d7d1fe830d8294521",
+      "bytes": 14026,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/logo.png",
+      "sha256": "7679c3e121ea2d88bc8b63cb982b524f63c93f920e0d8ad2890ebdc78dd3697e",
+      "bytes": 251990,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/app-icon.png",
+      "sha256": "c0fe1368a5181c0c7b85e4ab19d4f532fbb6d6b4592e4e4277a8b223b4360091",
+      "bytes": 121939,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/soda-pop-lagoon-scene.png",
+      "sha256": "584c43da5e686c3ffa854f33f20a063b482cf0fbf15dc355159a7574ab12a6d2",
+      "bytes": 1684327,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-towa-ja.jpg",
+      "sha256": "acdd48b955efc3bd816d0f646b3182e10a23ca7888c4d337392cdc7ec06ae58f",
+      "bytes": 452696,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-kaela-ja.jpg",
+      "sha256": "3517db61f3821fc11c9c80b2485b8c52280649835ae44dcd3a909b473050971c",
+      "bytes": 488453,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-botan-ja.jpg",
+      "sha256": "7169a92dd352426a6c524f50e4f310c1e2018e20594fe8f5ef33476f21b2d819",
+      "bytes": 523829,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-bijou-ja.jpg",
+      "sha256": "c3a64b2b11d98ee4ff53c3d4f6221fee2d75a086c1c650e0167ed24d01c9b51e",
+      "bytes": 482281,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/diamonds.webp",
+      "sha256": "2ded859b0b8961e9e1de999acbf833dbfadf85b99ea41e1d244189522f65a802",
+      "bytes": 5730,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/gacha-ticket.webp",
+      "sha256": "b746c08d43fd28de4b4896eb919671038a91e7034a65914c9b4a47dcf5dd0e27",
+      "bytes": 4912,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-towa-illustration-community.webp",
+      "sha256": "9230e647cd93a328f2b501429757d80dfb83cc787842e9cc1f6218398e33de93",
+      "bytes": 110268,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-towa-icon-community.webp",
+      "sha256": "3dab9f26956be66f0170a98d01aee05e0b087c81e4c68f6dda07e56d7d97c1c8",
+      "bytes": 25436,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-botan-illustration-community.webp",
+      "sha256": "bba05f2ba7f870a0797f83e0026eb48378b65aff1db8cb88ec3af10083696656",
+      "bytes": 123554,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-botan-icon-community.webp",
+      "sha256": "32dbe3ca3289f830cf13bfc25f26024a90323734651720dafcc527cdcf13e64c",
+      "bytes": 27480,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-kaela-illustration-community.webp",
+      "sha256": "86917ae2a5b6d39f4d0521e7b3c66873792a3e1d58f143f07103328a56474ca3",
+      "bytes": 122340,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-kaela-icon-community.webp",
+      "sha256": "a93adf724ec527138052bcfebfb9ca3b0ad9ba4fd0a45d77e1447cbe2be52ab1",
+      "bytes": 29174,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-bijou-illustration-community.webp",
+      "sha256": "a304e2c5fda6be98328c87af8c759c477e02759bd4c06a8563ed40b18ebb71df",
+      "bytes": 117424,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-bijou-icon-community.webp",
+      "sha256": "08d8d8ef95be599a31bdef66d6cf3f36091fda6664e19d629046a9c76e4bc9aa",
+      "bytes": 28362,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/press-image-0.png",
+      "sha256": "ab60f51c04f07dabbfa2aec3782edb3f79b78991d83d1fc78e41ec0cafe72d28",
+      "bytes": 3204026,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/press-image-2.jpeg",
+      "sha256": "0232388a765b37952ae90ca9af3f5828136a6b91156dfc4b9ab18d71934cc93d",
+      "bytes": 639864,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/press-image-3.jpeg",
+      "sha256": "46a9a8b2b675ac938cdecbc909020f734de4d96f3847e1a01ab3901ae6f298ca",
+      "bytes": 511337,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/press-image-4.jpeg",
+      "sha256": "6edc914b189aca5b3608183eca4a83d63451359d0cdbc2c1f5733fff3132b4b5",
+      "bytes": 733968,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/press-image-6.jpeg",
+      "sha256": "564269b28fd1fb93a6d5b75807331f4662e7314fd8f5f70d088aba5bdbf1590a",
+      "bytes": 696532,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/press-image-7.png",
+      "sha256": "d4d36dbce3a574d81559c4e8ff811d962ecbfe4913bbad1f7168c5f63cf561ea",
+      "bytes": 1496767,
+      "ready": true
+    },
+    {
+      "path": "assets/holodreams/seaside-kaela-neutral-full.jpg",
+      "sha256": "fce1a3b4e6da1605b80836ecc11b2d1a09f15f7f926510b6dbfab6d1e33a474b",
+      "bytes": 222944,
       "ready": true
     }
   ]

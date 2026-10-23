@@ -13,7 +13,8 @@ const {default:Radar,EntryArtwork}=await import('../components/radar.tsx');
 const {CatalogContext}=await import('../components/catalog-context.tsx');
 const {catalogGames,catalogUi}=await import('../lib/editorial.ts');
 const {catalogEntry}=await import('../lib/catalog-index.ts');
-const icons=JSON.parse(readFileSync(new URL('../content/pickup-member-icons.json',import.meta.url),'utf8'));
+const iconRegistry=JSON.parse(readFileSync(new URL('../content/pickup-member-icons.json',import.meta.url),'utf8'));
+const icons=iconRegistry.filter(r=>r.gameId==='wuwa');
 const games=catalogGames({}),context=locale=>({games,byId:Object.fromEntries(games.map(g=>[g.id,g])),t:catalogUi(locale,{}),settings:{},canEdit:false,editMode:false,simpleMode:false,openEditor(){}});
 const loc=s=>({ko:s,en:s,ja:s,zh:s}),stamp='2026-10-23T10:00:00Z',now=Date.parse(stamp);
 const member=(s,role='featured')=>({name:loc(s),role,type:'rerun',rarity:role==='rate-up'?4:5,image:'/assets/'+s+'.png',imageSource:'https://example.com/'+s,imageLocale:'neutral',imageVerified:true,imageKind:'banner'});
@@ -45,6 +46,15 @@ test('Wuwa rate-ups have exact immutable small portraits and never create full d
   const html=renderToStaticMarkup(React.createElement(SecondaryPickups,{entry:e,locale})),dom=new JSDOM(html);assert.equal(dom.window.document.querySelectorAll('.secondary-pickup').length,3);assert.equal(dom.window.document.querySelectorAll('.secondary-pickup img').length,3);for(const m of rateups)assert.ok(dom.window.document.body.textContent.includes(m.name[locale]));dom.window.close();
   const art=renderToStaticMarkup(React.createElement(CatalogContext.Provider,{value:context(locale)},React.createElement(EntryArtwork,{entry:e,locale,variant:'detail'})));assert.ok(!art.includes('member-art-panel'));assert.ok(!art.includes('art-pending'));assert.ok(!art.includes('wuwa-lumi.png'));
  }
+});
+test('expanded portrait registry resolves the exact outfit only within its game and pins every original hash',async()=>{
+ const {pickupMemberIcon}=await import('../lib/pickup-member-icons.ts');
+ for(const row of iconRegistry){
+  const bytes=readFileSync(new URL('../public'+row.icon.image,import.meta.url));assert.equal(createHash('sha256').update(bytes).digest('hex'),row.sha256);
+  assert.equal(row.imageLocale,'neutral');assert.equal(pickupMemberIcon(row.gameId,row.names[0])?.image,row.icon.image);
+  assert.equal(pickupMemberIcon('other-game',row.names[0]),undefined);
+ }
+ assert.equal(iconRegistry.filter(r=>r.gameId==='holodreams').length,4);
 });
 test('mounted detail opens the clicked Blue Archive character, survives full-detail fetching/polling and switches only its own kit in all locales',async()=>{
  const dom=new JSDOM('<div id="root"></div>',{url:'https://gagether.wiki/ko',pretendToBeVisual:true}),old=new Map(),originalNow=Date.now;Date.now=()=>now;

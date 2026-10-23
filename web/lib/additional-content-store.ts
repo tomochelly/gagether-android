@@ -10,6 +10,10 @@ const sources=[{gameId:'limbus',url:'https://www.pickupcal.com/games/limbus/'},{
 async function html(url:string){const r=await retryFetch(url,{redirect:'manual',signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('HTTP '+r.status);const body=await r.text();if(body.length>3000000||!body.trim())throw Error('Empty or excessive source response');return body;}
 /** Predefined, bounded normal collection. No visitor URL, editor API or private upload writes. */
 export async function importAdditionalGameContent(){
+ const startedAt=new Date().toISOString(),now=Date.now();
+ const lease=await env.DB!.prepare("INSERT INTO refresh_jobs(id,lease_until,last_started_at) VALUES('additional-content',?,?) ON CONFLICT(id) DO UPDATE SET lease_until=excluded.lease_until,last_started_at=excluded.last_started_at WHERE refresh_jobs.lease_until<=?").bind(now+20*60000,startedAt,now).run();
+ if(!lease.meta.changes)return {checkedAt:startedAt,changedEntries:[],checks:[{source:'additional-content/lease',checkedAt:startedAt,status:'skipped',error:'Another authenticated collection is running'}],outcome:'partial'};
+ try{
  const ids=await env.DB!.prepare("SELECT id FROM entries WHERE game_id IN ('limbus','dna','holodreams')").all<{id:string}>();
  const stored=await readBaseData({ids:ids.results.map(r=>r.id)});if(!stored.persistent)throw Error('New-game originals unavailable');
  const all=new Map(stored.entries.map(e=>[e.id,e])),changed=new Map<string,Entry>(),checks:any[]=[];
@@ -37,4 +41,5 @@ export async function importAdditionalGameContent(){
  if(!saved.persistent||updates.some(e=>!saved.entries.some(s=>s.id===e.id&&(protectedField(e.id,'title')||sameEditValue(s.title,e.title))&&(protectedField(e.id,'sourceBodies')||sameEditValue(s.sourceBodies,e.sourceBodies)))))throw Error('New-game content readback failed');
  const result={checkedAt,changedEntries:updates.map(e=>e.id),checks,outcome:checks.every(c=>c.status==='ok')?'complete':checks.some(c=>c.status==='ok')?'partial':'failed'};
  await env.DB!.prepare("INSERT INTO operations_health(key,payload) VALUES('additional-content',?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload").bind(JSON.stringify(result)).run();return result;
+ }finally{await env.DB!.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=? WHERE id='additional-content' AND last_started_at=?").bind(new Date().toISOString(),startedAt).run();}
 }

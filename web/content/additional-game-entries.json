@@ -195,7 +195,7 @@
         "kind": "character",
         "format": "pv",
         "title": {
-          "ko": "오트쿠튀르::르루주 붉은 신 싱클레어",
+          "ko": "LimbusCompany [000] 오트쿠튀르::르루주 붉은 신 싱클레어",
           "en": "Haute Couture::The Crimson God of Le Rouge Sinclair",
           "ja": "オートクチュール::ル・ルージュ 赤き神 シンクレア",
           "zh": "高级定制::Le Rouge 赤之神 辛克莱"
@@ -203,7 +203,7 @@
         "locale": "ko",
         "channel": "ProjectMoon Official",
         "sourceUrl": "https://www.youtube.com/watch?v=Gpj-lvOnAgs",
-        "publishedAt": "2026-10-09T08:59:12+00:00",
+        "publishedAt": null,
         "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
         "official": true,
         "metadataVerified": true,
@@ -217,7 +217,17 @@
           }
         ],
         "evidenceUrls": [
-          "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana"
+          "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=koreana",
+          "https://www.youtube.com/@ProjectMoonOfficial"
+        ],
+        "originalTitle": "LimbusCompany [000] 오트쿠튀르::르루주 붉은 신 싱클레어",
+        "titleOfficialLocales": [
+          "ko"
+        ],
+        "titleTranslatedLocales": [
+          "en",
+          "ja",
+          "zh"
         ]
       }
     ],
@@ -580,15 +590,15 @@
         "kind": "character",
         "format": "pv",
         "title": {
-          "ko": "오트쿠튀르::르누아르 3F 방송실 홍루",
-          "en": "Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
-          "ja": "オートクチュール::ル・ノワール 3F放送室 ホンル",
-          "zh": "高级定制::Le Noir 3F 广播室 鸿璐"
+          "ko": "LimbusCompany [000] 오트쿠튀르::르루주 바느질의 왕 히스클리프  / [000] 오트쿠튀르::르누아르 3F 방송실 홍루",
+          "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff / Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+          "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ / オートクチュール::ル・ノワール 3F放送室 ホンル",
+          "zh": "高级定制::Le Rouge 针线之王 希斯克利夫 / 高级定制::Le Noir 3F 广播室 鸿璐"
         },
         "locale": "ko",
         "channel": "ProjectMoon Official",
         "sourceUrl": "https://www.youtube.com/watch?v=jWYcZpYtdls",
-        "publishedAt": "2026-10-23T08:59:34+00:00",
+        "publishedAt": null,
         "verifiedAt": "2026-10-23T22:42:40.473482+00:00",
         "official": true,
         "metadataVerified": true,
@@ -608,7 +618,17 @@
           }
         ],
         "evidenceUrls": [
-          "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana"
+          "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=koreana",
+          "https://www.youtube.com/@ProjectMoonOfficial"
+        ],
+        "originalTitle": "LimbusCompany [000] 오트쿠튀르::르루주 바느질의 왕 히스클리프  / [000] 오트쿠튀르::르누아르 3F 방송실 홍루",
+        "titleOfficialLocales": [
+          "ko"
+        ],
+        "titleTranslatedLocales": [
+          "en",
+          "ja",
+          "zh"
         ]
       }
     ]

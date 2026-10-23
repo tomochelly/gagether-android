@@ -5,6 +5,13 @@ const {parseSteamEvents,steamGames,steamBodyHtml,parseDnaNotices,additionalOffic
 const {effectiveRegion}=await import('../lib/presentation.ts');
 const {sourceDocument}=await import('../lib/collection-review.ts');
 const text=s=>({ko:s,en:s,ja:s,zh:s});
+test('published supplemental date-only periods show their current state without becoming alarm or calendar clocks',async()=>{
+ const {entryState}=await import('../lib/types.ts');const {calendarEvent}=await import('../lib/google-calendar.ts');
+ const e={id:'native-reprint-period',gameId:'holodreams',region:'global',kind:'pickup',title:text('Seaside'),summary:text(''),sourceKind:'community',sourceUrl:'https://gamewith.jp/gamedb/15524/articles/64568',sourceTitle:'Reprint',verifiedAt:'2026-10-23T00:00:00Z',publishedAt:null,server:'global',startAt:null,endAt:null,startDate:'2026-10-19',endDate:'2026-10-29'};
+ assert.equal(entryState(e,Date.parse('2026-10-24T03:00:00Z')),'active');assert.equal(entryState(e,Date.parse('2026-10-30T03:00:00Z')),'ended');
+ assert.equal(entryState({...e,pickupArchive:{status:'forecast'}},Date.parse('2026-10-24T03:00:00Z')),'upcoming');
+ assert.ok(!mobileFeed([e],{},'ko').entries.some(r=>r.id===e.id));assert.equal(calendarEvent(e,games.find(g=>g.id==='holodreams'),'ko'),null);
+});
 test('catalog expands to eighteen without changing old ordering, private preferences or the three CN catalogs',()=>{
  assert.equal(games.length,18);for(const id of ['limbus','dna','holodreams']){const g=games.find(g=>g.id===id);assert.ok(g);assert.equal(g.serviceMode,'shared-global');assert.deepEqual(g.regions,['global']);for(const l of ['ko','en','ja','zh'])assert.ok(g.name[l]);}
  assert.deepEqual(games.filter(g=>g.regions.includes('cn')).map(g=>g.id).sort(),['arknights','gfl2','reverse1999']);
