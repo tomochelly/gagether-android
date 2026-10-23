@@ -24,7 +24,20 @@ public class FeedValidatorTest {
   assertEquals(2,ReminderPolicy.deadlines(f,p,now).size());
   assertTrue(ReminderPolicy.plan(f,p,now,ZoneId.of("Asia/Tokyo")).stream().allMatch(r->r.entryId.equals("arknights-cn")||r.entryId.equals("gfl2-kr")));
  }
- @Test public void allFifteenGamesHaveNativeCoverage(){assertEquals(15,ReminderPolicy.GAME_IDS.size());}
+ @Test public void allEighteenGamesHaveNativeCoverage(){assertEquals(18,ReminderPolicy.GAME_IDS.size());}
+ @Test public void addedGamesUseCanonicalGlobalWithoutChangingStoredChoices()throws Exception{
+  long now=Instant.parse("2026-10-17T03:00:00Z").toEpochMilli();
+  for(String game:Arrays.asList("limbus","dna","holodreams")){
+   JSONObject e=entry(game,"global");if(game.equals("dna"))e.put("kind","event");
+   JSONObject f=feed(e).put("games",new JSONArray().put(new JSONObject().put("id",game).put("canonicalRegions",new JSONObject().put("kr","global").put("jp","global").put("global","global"))));
+   assertTrue(FeedValidator.encode(f).length>0);
+   for(String region:Arrays.asList("kr","jp","global")){
+    JSONObject p=new JSONObject().put("enabled",true).put("games",new JSONArray().put(game)).put("region",region).put("kinds",new JSONArray().put(e.getString("kind"))).put("quietEnabled",false).put("offsets",new JSONArray().put(60));
+    assertTrue(ReminderPolicy.matches(e,p,f));assertEquals(1,ReminderPolicy.deadlines(f,p,now).size());assertEquals(region,p.getString("region"));
+    e.put("endAt",JSONObject.NULL);assertEquals(0,ReminderPolicy.deadlines(f,p,now).size());e.put("endAt","2026-10-19T03:00:00Z");
+   }
+  }
+ }
  @Test public void malformedFeedRemainsRejected()throws Exception{
   assertThrows(JSONException.class,()->FeedValidator.encode(feed().put("schemaVersion",2)));
   assertThrows(JSONException.class,()->FeedValidator.encode(feed(entry("arknights","cn").put("id","../bad"))));

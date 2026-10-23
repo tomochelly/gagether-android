@@ -8,7 +8,7 @@ import java.util.*;
 
 /** Pure scheduling rules, shared by background sync, reminders and widget selection. */
 public final class ReminderPolicy {
- public static final Set<String> GAME_IDS=new HashSet<>(Arrays.asList("wuwa","bluearchive","nikke","endfield","umamusume","nte","gfl2","arknights","genshin","hsr","zzz","trickcal","hi3","reverse1999","stellasora"));
+ public static final Set<String> GAME_IDS=new HashSet<>(Arrays.asList("wuwa","bluearchive","nikke","endfield","umamusume","nte","gfl2","arknights","genshin","hsr","zzz","trickcal","hi3","reverse1999","stellasora","limbus","dna","holodreams"));
  public static boolean supportsRegion(String game,String region){
   return GAME_IDS.contains(game)&&(Arrays.asList("kr","jp","global").contains(region)||("cn".equals(region)&&("arknights".equals(game)||"gfl2".equals(game)||"reverse1999".equals(game))));
  }

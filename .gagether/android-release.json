@@ -1,1 +1,6 @@
-{"version":"1.0.2","versionCode":9,"publish":true,"reason":"Owner requested separate My games official broadcast reminders and localized game assets"}
+{
+  "version": "1.0.3",
+  "versionCode": 10,
+  "publish": true,
+  "reason": "Owner requested Limbus Company, Duet Night Abyss, hololive Dreams with native notifications/widgets and an app update"
+}

@@ -26,6 +26,14 @@ public final class ReminderInstrumentation extends Instrumentation {
    for(StatusBarNotification n:manager.getActiveNotifications())if(n.getId()==broadcast.getString("id").hashCode())check(ReminderScheduler.BROADCAST_CHANNEL.equals(n.getNotification().getChannelId()),"Broadcast delivered on separate Android channel");
    int broadcastSent=AppStore.store(c).getStringSet("sent",Collections.emptySet()).size();c.sendBroadcast(new Intent(c,ReminderReceiver.class).putExtra("key",broadcastKey));Thread.sleep(400);check(AppStore.store(c).getStringSet("sent",Collections.emptySet()).size()==broadcastSent,"Broadcast duplicate suppressed");
    broadcast.getJSONObject("broadcast").put("scheduledAt",Instant.ofEpochMilli(System.currentTimeMillis()+3600000).toString());AppStore.saveFeed(c,broadcastFeed);ReminderScheduler.schedule(c);check(AppStore.store(c).getInt("scheduledCount",0)==1,"Rescheduled broadcast replaces old alarm");broadcast.getJSONObject("broadcast").put("status","cancelled");AppStore.saveFeed(c,broadcastFeed);ReminderScheduler.schedule(c);check(AppStore.store(c).getInt("scheduledCount",-1)==0,"Cancelled broadcast removes pending alarm");
+   // New catalog games exercise the same real receiver and notification path.
+   for(String game:new String[]{"limbus","dna","holodreams"}){
+    manager.cancelAll();JSONObject next=entry("runtime-"+game,System.currentTimeMillis()+6000).put("gameId",game).put("region","global").put("kind",game.equals("dna")?"event":"pickup");
+    JSONObject nextFeed=feed(next).put("games",new JSONArray().put(new JSONObject().put("id",game).put("name",new JSONObject().put("ja",game)).put("canonicalRegions",new JSONObject().put("kr","global").put("jp","global").put("global","global"))));
+    check(FeedValidator.encode(nextFeed).length>0,"New game feed accepted: "+game);
+    AppStore.setPrefs(c,new JSONObject(base.toString()).put("games",new JSONArray().put(game)).put("kinds",new JSONArray().put(next.getString("kind"))));
+    AppStore.saveFeed(c,nextFeed);ReminderScheduler.schedule(c);check(AppStore.store(c).getInt("scheduledCount",0)==1,"New game alarm armed: "+game);await(manager,next.getString("id").hashCode());
+   }
    AppStore.store(c).edit().putLong("lastSyncAt",System.currentTimeMillis()-25*3600000L).commit();ReminderScheduler.schedule(c);check(AppStore.store(c).getInt("scheduledCount",-1)==0,"Stale feed cancels pending game reminders");
   }
   out.putString("stream",new JSONObject().put("ok",true).put("api",Build.VERSION.SDK_INT).put("phase",args.getString("phase")).put("checks",new JSONArray(checks)).toString()+"\n");finish(Activity.RESULT_OK,out);
