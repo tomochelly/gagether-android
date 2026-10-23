@@ -1,0 +1,200 @@
+[
+  {
+    "name": "명조",
+    "description": "명조 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "블아",
+    "description": "블아 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "명일방주",
+    "description": "명일방주 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "원신",
+    "description": "원신 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "스타레일",
+    "description": "스타레일 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "젠레스",
+    "description": "젠레스 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "니케",
+    "description": "니케 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "우마무스메",
+    "description": "우마무스메 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "소녀전선2",
+    "description": "소녀전선2 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "엔드필드",
+    "description": "엔드필드 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "이환",
+    "description": "이환 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "트릭컬",
+    "description": "트릭컬 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "붕괴3",
+    "description": "붕괴3 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "리버스",
+    "description": "리버스 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "스텔라소라",
+    "description": "스텔라소라 픽업·일정·공지·방송",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ]
+  },
+  {
+    "name": "검색",
+    "description": "가게더 게임·일정·공지 검색",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ],
+    "options": [
+      {
+        "type": 3,
+        "name": "검색어",
+        "description": "캐릭터·이벤트·공지 이름",
+        "required": false,
+        "min_length": 1,
+        "max_length": 100
+      }
+    ]
+  },
+  {
+    "name": "알림",
+    "description": "버튼으로 자동 알림 설정",
+    "type": 1,
+    "contexts": [
+      0
+    ],
+    "integration_types": [
+      0
+    ],
+    "default_member_permissions": "32"
+  }
+]

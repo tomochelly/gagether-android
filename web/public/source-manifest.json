@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "50bd3af4bafaef7c6226b76375c5443b4cd1e3a49b287fa9bb00d16d5809122b",
+  "fingerprint": "849929952f9f5a68d2c7a95a7dfcaed5dadd27ea0555f52a14c5ab34c9787a71",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -57,6 +57,10 @@
     {
       "path": "app/api/data/route.ts",
       "sha256": "5cc66bf2ed461cb75d8ae49304e9e08c0283e6e73da2d1fd51001fc1f14696bc"
+    },
+    {
+      "path": "app/api/discord/data/route.ts",
+      "sha256": "497bbc180568ca693e44dccdd3bf6bd16017224ca73ad3c3300dc688fd63d16a"
     },
     {
       "path": "app/api/editor/history/route.ts",
@@ -116,7 +120,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "898b2f4539f82b10daa2b28522871a11d78aa1dfa18847365de2637d93bfb42e"
+      "sha256": "f47ec1fb37f9a7584263ea087b786872b77678d98d96b4a67abe33bac838200f"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -1201,6 +1205,10 @@
     {
       "path": "lib/content-schema.ts",
       "sha256": "ce296f7aa924fdd336c9f39676142412ddea18b1200d98d1a6fc5b521311dbe6"
+    },
+    {
+      "path": "lib/discord-feed.ts",
+      "sha256": "51868219860771f0d59a3261402d713a64fb815c9513e6b3117d51c04a45200a"
     },
     {
       "path": "lib/display-preferences.ts",

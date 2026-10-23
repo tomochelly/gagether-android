@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const configPath=new URL('../wrangler.jsonc',import.meta.url);
+const config=JSON.parse(readFileSync(configPath,'utf8'));
+const app=process.env.DISCORD_APPLICATION_ID,database=process.env.DISCORD_DATABASE_ID;
+if(!/^\d{15,22}$/.test(app||'')||!(/^[a-f\d]{8}(?:-[a-f\d]{4}){3}-[a-f\d]{12}$/i.test(database||''))||database==='00000000-0000-0000-0000-000000000000')throw new Error('Set actual DISCORD_APPLICATION_ID and DISCORD_DATABASE_ID');
+config.vars.DISCORD_APPLICATION_ID=app;
+config.vars.BOT_ENABLED=process.env.BOT_ENABLED==='true'?'true':'false';
+config.vars.SCHEDULER_ENABLED=process.env.SCHEDULER_ENABLED==='true'?'true':'false';
+config.d1_databases[0].database_id=database;
+writeFileSync(configPath,JSON.stringify(config,null,2)+'\n');
+console.log('Public deployment configuration prepared; no secrets written.');

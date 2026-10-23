@@ -1,0 +1,81 @@
+# Installed at .github/workflows/gagether-discord.yml in the GitHub mirror.
+name: GAGETHER Discord bot
+on:
+  push:
+    paths: ['web/discord/**', 'web/lib/discord-feed.ts', 'web/app/api/discord/**', 'web/tests/discord*.test.mjs', '.github/workflows/gagether-discord.yml']
+  pull_request:
+    paths: ['web/discord/**', 'web/lib/discord-feed.ts', 'web/app/api/discord/**', 'web/tests/discord*.test.mjs', '.github/workflows/gagether-discord.yml']
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Deploy the bot to the configured Cloudflare account
+        type: boolean
+        default: false
+      enable_notifications:
+        description: Enable scheduled channel notifications
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: gagether-discord-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.22.0'
+      - run: bash scripts/install-pnpm.sh
+      - run: node node_modules/typescript/bin/tsc --noEmit --incremental false
+      - run: node --test tests/discord*.test.mjs
+      - run: node discord/scripts/register-commands.mjs --dry-run
+      - run: node node_modules/wrangler/bin/wrangler.js deploy --config discord/wrangler.jsonc --dry-run --outdir /tmp/gagether-discord-build
+        env:
+          WRANGLER_SEND_METRICS: 'false'
+  deploy:
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy && github.ref == 'refs/heads/main'
+    needs: checks
+    runs-on: ubuntu-latest
+    environment: discord-production
+    defaults:
+      run:
+        working-directory: web
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      DISCORD_APPLICATION_ID: ${{ vars.DISCORD_APPLICATION_ID }}
+      DISCORD_DATABASE_ID: ${{ vars.DISCORD_DATABASE_ID }}
+      DISCORD_TEST_GUILD_ID: ${{ vars.DISCORD_TEST_GUILD_ID }}
+      DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+      DISCORD_PUBLIC_KEY: ${{ secrets.DISCORD_PUBLIC_KEY }}
+      BOT_ENABLED: 'true'
+      SCHEDULER_ENABLED: ${{ inputs.enable_notifications && 'true' || 'false' }}
+      WRANGLER_SEND_METRICS: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.22.0'
+      - run: bash scripts/install-pnpm.sh
+      - run: node discord/scripts/configure.mjs
+      - name: Validate required secrets
+        run: |
+          node --input-type=module -e 'for (const key of ["CLOUDFLARE_API_TOKEN","CLOUDFLARE_ACCOUNT_ID","DISCORD_BOT_TOKEN","DISCORD_PUBLIC_KEY","DISCORD_TEST_GUILD_ID"]) if (!process.env[key]) throw new Error("Missing "+key)'
+      - run: node node_modules/wrangler/bin/wrangler.js d1 migrations apply DB --config discord/wrangler.jsonc --remote
+      - name: Set runtime secrets
+        run: |
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          for (const name of ['DISCORD_BOT_TOKEN','DISCORD_PUBLIC_KEY']) {
+            const r=spawnSync(process.execPath,['node_modules/wrangler/bin/wrangler.js','secret','put',name,'--config','discord/wrangler.jsonc'],{input:process.env[name]+'\n',encoding:'utf8',stdio:['pipe','inherit','inherit']});
+            if(r.status!==0) process.exit(r.status||1);
+          }
+          NODE
+      - run: node node_modules/wrangler/bin/wrangler.js deploy --config discord/wrangler.jsonc
+      - run: node discord/scripts/register-commands.mjs
