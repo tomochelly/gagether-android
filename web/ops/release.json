@@ -1,17 +1,17 @@
 {
   "siteProjectId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a",
   "productionUrl": "https://gagether.wiki/",
-  "siteVersion": 112,
-  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_f18d1f60c8e48191a83d213871e1f529",
-  "siteCommit": "94a63f46b3ab9a673dafa5bf0f8d9af44a67df8d",
-  "deploymentId": "appgdep_6adb696a34f88191b62d66587e1bfc4e",
-  "deployedAt": "2026-10-23T14:04:45.058894+00:00",
-  "runtimeFingerprint": "50bd3af4bafaef7c6226b76375c5443b4cd1e3a49b287fa9bb00d16d5809122b",
+  "siteVersion": 113,
+  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_193624d354e8819190a9cf380f20df20",
+  "siteCommit": "0aac46b64c3ca25cf320e96170f7dbfb9638c0bc",
+  "deploymentId": "appgdep_6adb7b071b408191be9cf460f1bfbcb0",
+  "deployedAt": "2026-10-23T15:19:54.342665+00:00",
+  "runtimeFingerprint": "849929952f9f5a68d2c7a95a7dfcaed5dadd27ea0555f52a14c5ab34c9787a71",
   "githubRepository": "tomochelly/gagether-android",
   "sourceDirectory": "web",
   "codeAutoDeploy": false,
-  "verificationReport": "ops/PICKUP-MEMBER-DETAILS.ko.md",
-  "previousHealthySiteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_76cc60dcacf48191afd33fbe5d0345a7",
-  "verifiedAt": "2026-10-23T14:07:34.144Z",
-  "status": "production-deployed; 266 tests/typecheck and 133 stored featured-subject mappings verified; native mobile pixel/touch QA unavailable"
+  "verificationReport": "ops/discord-bot-verification-20261023.json",
+  "previousHealthySiteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_f18d1f60c8e48191a83d213871e1f529",
+  "verifiedAt": "2026-10-23T15:25:44.920Z",
+  "status": "Site read-only Discord API deployed; 290 tests/typecheck/builds pass; standalone bot source prepared, actual Discord/Cloudflare integration pending"
 }

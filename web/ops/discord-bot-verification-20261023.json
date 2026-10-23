@@ -1,0 +1,220 @@
+{
+  "checkedAt": "2026-10-23T15:25:45.349Z",
+  "sourceCommit": "0aac46b64c3ca25cf320e96170f7dbfb9638c0bc",
+  "siteVersion": 113,
+  "tests": {
+    "total": 290,
+    "passed": 290,
+    "discord": 24,
+    "typecheck": true,
+    "workerDryRun": true,
+    "siteBuild": true
+  },
+  "api": {
+    "projections": [
+      {
+        "locale": "ko",
+        "region": "kr",
+        "status": 200,
+        "etag304": true,
+        "entries": 1038
+      },
+      {
+        "locale": "ja",
+        "region": "jp",
+        "status": 200,
+        "etag304": true,
+        "entries": 922
+      },
+      {
+        "locale": "zh",
+        "region": "cn",
+        "status": 200,
+        "etag304": true,
+        "entries": 168
+      },
+      {
+        "locale": "en",
+        "region": "global",
+        "status": 200,
+        "etag304": true,
+        "entries": 881
+      },
+      {
+        "locale": "ko",
+        "region": "jp",
+        "status": 200,
+        "etag304": true,
+        "entries": 944
+      },
+      {
+        "locale": "ko",
+        "region": "cn",
+        "status": 200,
+        "etag304": true,
+        "entries": 168
+      }
+    ],
+    "invalidRegion": 400,
+    "sourceFingerprint": "849929952f9f5a68d2c7a95a7dfcaed5dadd27ea0555f52a14c5ab34c9787a71",
+    "discordLiveDeliveryVerified": false,
+    "cloudflareBotDeploymentVerified": false
+  },
+  "projectionAudit": {
+    "records": 1872,
+    "ownerEdited": 8,
+    "counts": [
+      {
+        "locale": "ko",
+        "region": "kr",
+        "entries": 1038,
+        "timed": 309,
+        "broadcasts": 5
+      },
+      {
+        "locale": "ko",
+        "region": "jp",
+        "entries": 944,
+        "timed": 324,
+        "broadcasts": 7
+      },
+      {
+        "locale": "ko",
+        "region": "global",
+        "entries": 922,
+        "timed": 401,
+        "broadcasts": 5
+      },
+      {
+        "locale": "ko",
+        "region": "cn",
+        "entries": 168,
+        "timed": 3,
+        "broadcasts": 1
+      },
+      {
+        "locale": "en",
+        "region": "kr",
+        "entries": 993,
+        "timed": 292,
+        "broadcasts": 1
+      },
+      {
+        "locale": "en",
+        "region": "jp",
+        "entries": 912,
+        "timed": 316,
+        "broadcasts": 3
+      },
+      {
+        "locale": "en",
+        "region": "global",
+        "entries": 881,
+        "timed": 384,
+        "broadcasts": 2
+      },
+      {
+        "locale": "en",
+        "region": "cn",
+        "entries": 168,
+        "timed": 3,
+        "broadcasts": 1
+      },
+      {
+        "locale": "ja",
+        "region": "kr",
+        "entries": 1003,
+        "timed": 294,
+        "broadcasts": 3
+      },
+      {
+        "locale": "ja",
+        "region": "jp",
+        "entries": 922,
+        "timed": 318,
+        "broadcasts": 5
+      },
+      {
+        "locale": "ja",
+        "region": "global",
+        "entries": 891,
+        "timed": 386,
+        "broadcasts": 4
+      },
+      {
+        "locale": "ja",
+        "region": "cn",
+        "entries": 168,
+        "timed": 3,
+        "broadcasts": 1
+      },
+      {
+        "locale": "zh",
+        "region": "kr",
+        "entries": 992,
+        "timed": 292,
+        "broadcasts": 0
+      },
+      {
+        "locale": "zh",
+        "region": "jp",
+        "entries": 911,
+        "timed": 316,
+        "broadcasts": 2
+      },
+      {
+        "locale": "zh",
+        "region": "global",
+        "entries": 880,
+        "timed": 384,
+        "broadcasts": 1
+      },
+      {
+        "locale": "zh",
+        "region": "cn",
+        "entries": 168,
+        "timed": 3,
+        "broadcasts": 1
+      }
+    ]
+  },
+  "dataReadback": {
+    "automatic": {
+      "before": 1872,
+      "after": 1872,
+      "removed": [],
+      "changed": 78,
+      "ownerEdited": 0,
+      "ownerPreserved": true,
+      "settingsPreserved": true
+    },
+    "effective": {
+      "before": 1872,
+      "after": 1872,
+      "removed": [],
+      "changed": 79,
+      "ownerEdited": 8,
+      "ownerPreserved": false,
+      "settingsPreserved": true
+    }
+  },
+  "contentWritesByThisTask": 0,
+  "editorWritesByThisTask": 0,
+  "concurrentOwnerEdits": {
+    "higherRevisions": 2,
+    "unchangedOwnerRecords": 6,
+    "note": "Two owner records advanced revisions during this run; full-row equality is not an owner-preservation test across those independent changes. No rollback or rewrite was attempted."
+  },
+  "bot": {
+    "implemented": true,
+    "deployed": false,
+    "actualMessageReceiptVerified": false,
+    "cronLatencyMeasured": false,
+    "externalHostAccessVerified": false,
+    "requiredConnections": [
+      "Discord application ID/public key and secret bot token",
+      "test guild invitation and channel permissions",
+      "Cloudflare account and dedicated bot D1/Worker credentials"
+    ]
+  }
+}
