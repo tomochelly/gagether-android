@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-24",
+  "site": {
+    "project_id": "appgprj_6ad1ef24b5c08191a367cd141de63a3a",
+    "source_commit": "68f07068c7f074ae8d29ddf7a8608db2c4ee116e",
+    "version_id": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_2ea20ddb9e78819188cb261d568bf20e",
+    "version_number": 116,
+    "deployment_id": "appgdep_6adb8e707ad48191885f511fc246df90",
+    "status": "succeeded",
+    "url": "https://gagether.tomochelly.chatgpt.site",
+    "fingerprint": "3e990dbc725f65ed2aea54a80c502bf3866f8e33bbc8cd91b777d1f3dbab8938"
+  },
+  "github_source_commit": "098daeacf6f6443be8a94431f9ea3e09e1423496",
+  "operations_version": 44,
+  "verification": {
+    "node_tests": 303,
+    "typescript": "passed",
+    "editor_sqlite_integration": "passed",
+    "production_automatic_entries": 1872,
+    "production_effective_entries": 1872,
+    "games": 15,
+    "entity_reward_contamination_remaining": 0,
+    "reward_records_backed_up_and_corrected": 9,
+    "nte_character_stats": 6,
+    "nte_weapon_stats": 4,
+    "enrich_first_profile_changes": 1,
+    "enrich_repeat_profile_changes": 0,
+    "unchanged_profile_verifiedAt_preserved": true,
+    "source_fingerprint_matches": true,
+    "github_runs": [
+      {
+        "id": 39989165649,
+        "conclusion": "success"
+      },
+      {
+        "id": 39989165741,
+        "conclusion": "success"
+      },
+      {
+        "id": 39989165716,
+        "conclusion": "success"
+      },
+      {
+        "id": 39989165863,
+        "conclusion": "success"
+      }
+    ]
+  },
+  "limitations": [
+    "Managed browser preview could not start because of an existing Vinext process conflict; browser pixel and physical touch QA remain unverified.",
+    "Artwork audit covers 26 canonical services and four UI languages; covered is not proof that every external asset URL or source body was fetched or visually reviewed.",
+    "Exact Japanese Trickcal event banner and other locale artwork gaps remain; owner uploads and verified originals are protected.",
+    "Discord Application ID is configured; production bot deployment is not enabled and still requires private credentials and Cloudflare bindings."
+  ]
+}
