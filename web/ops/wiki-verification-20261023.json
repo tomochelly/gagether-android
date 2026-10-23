@@ -1,0 +1,20 @@
+{
+  "siteVersion": 109,
+  "operationsVersion": 39,
+  "testsPassed": 256,
+  "typesPassed": true,
+  "productionRecordsVerified": 25,
+  "ownerEditedRecordsPreserved": 7,
+  "siteSettingsPreserved": true,
+  "nativeAssets": {
+    "checked": 181,
+    "originalBytesMatched": 181,
+    "issues": 0
+  },
+  "wikiSourcesGames": 15,
+  "notes": [
+    "Source and exact new native assets synchronized; code auto-deploy from GitHub to Sites is not enabled.",
+    "Browser preview connection unavailable: live pixel/layout inspection not completed.",
+    "Some native icons remain unavailable; no unrelated glyphs or invented numerical stats substituted."
+  ]
+}

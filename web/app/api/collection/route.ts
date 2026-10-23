@@ -7,6 +7,7 @@ import {collectionCoverage} from '@/lib/collection-review';
 import {effectiveRegion} from '@/lib/presentation';
 import {games} from '@/lib/games';
 import {artworkAudit} from '@/lib/artwork-audit';
+import {wikiCoverage} from '@/lib/wiki-coverage';
 import {importCapturedBodies} from '@/lib/source-body-store';
 import {importWuwaWeapons} from '@/lib/wuwa-weapon-store';
 import {fetchReviewDocument,noticeSourceId} from '@/lib/official-collection';
@@ -15,7 +16,7 @@ export async function GET(request:Request){
  if(!await canWriteData(request))return Response.json({error:'Authorized reviewer required'},{status:403,headers});
  const url=new URL(request.url),id=url.searchParams.get('id');
  if(id){if(!/^[a-f0-9]{64}$/.test(id))return Response.json({error:'Invalid document'},{status:400,headers});const row=await env.DB!.prepare('SELECT payload,body_hash FROM official_documents WHERE id=?').bind(id).first<{payload:string;body_hash:string}>();if(!row)return Response.json({error:'Not found'},{status:404,headers});const body=await env.BUCKET!.get('official-documents/'+id+'/'+row.body_hash);return Response.json({document:JSON.parse(row.payload),body:body?await body.json():null},{headers});}
- const data=await readData({automatic:true});return Response.json({queue:await reviewQueue(250),coverage:collectionCoverage(data.entries),artwork:artworkAudit(data.entries)},{headers});
+ const data=await readData({automatic:true});return Response.json({queue:await reviewQueue(250),coverage:collectionCoverage(data.entries),artwork:artworkAudit(data.entries),wiki:wikiCoverage(data.entries)},{headers});
 }
 export async function POST(request:Request){
  if(!sameOrigin(request)||!await canWriteData(request))return Response.json({error:'Authorized reviewer required'},{status:403,headers});

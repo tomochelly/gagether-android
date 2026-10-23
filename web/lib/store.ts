@@ -5,6 +5,7 @@ import {mergeVerifiedEntry,retainEntityDetails} from './presentation';
 import {applyEditorial,preserveEditedSource,recoverReviewedArtwork,type EditorialRecord,type SiteSettings} from './editorial';
 import type {Entry,SourceCheck} from './types';
 import {catalogEntry} from './catalog-index';
+import {enrichEntityDetails} from './entity-catalog';
 import {collectionEntry,collectionSql} from './collection-projection';
 import {ensureEditorHistory} from './editor-history';
 export async function readBaseData(options:{index?:boolean;id?:string;ids?:string[];collection?:boolean}={}){
@@ -54,7 +55,7 @@ export async function readEntry(id:string,options:{includeHidden?:boolean;requir
 export async function saveEntries(list:Entry[]){
  if(!list.length)return;
  const [base,records]=await Promise.all([readBaseData({ids:list.map(e=>e.id)}),readEditorial()]);const previous=new Map(base.entries.map(e=>[e.id,e]));const edits=new Map(records.map(r=>[r.key,r]));
- list=list.map(e=>preserveEditedSource(retainEntityDetails(e,previous.get(e.id)),previous.get(e.id),edits.get('entry:'+e.id))).filter((e):e is Entry=>!!e&&isSupportedSchedule(e.gameId,e.region));
+ list=list.map(e=>preserveEditedSource(enrichEntityDetails(retainEntityDetails(e,previous.get(e.id))),previous.get(e.id),edits.get('entry:'+e.id))).filter((e):e is Entry=>!!e&&isSupportedSchedule(e.gameId,e.region));
  const now=new Date().toISOString();
  for(let i=0;i<list.length;i+=40){await env.DB!.batch(list.slice(i,i+40).map(e=>env.DB!.prepare('INSERT INTO entries (id,game_id,payload,updated_at) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload, updated_at=excluded.updated_at').bind(e.id,e.gameId,JSON.stringify(e),now)));}
 }

@@ -23,9 +23,10 @@ export interface OfficialBroadcast {
  thumbnailUrl?:string;official:true;metadataVerified:true;watched:false;verifiedAt:string;statusCheckedAt?:string;
 }
 export interface StatRow {label:Localized;value:string;note?:Localized;icon?:GameIcon}
+export interface MaterialGroup {id:string;title:Localized;basis?:Localized;items:{id:string;name?:Localized;quantity:string;icon?:GameIcon;sourceUrl:string;sourceKind:'official'|'community'}[]}
 export interface EntityProfile {
  id:string;name:Localized;category:Localized;basis:Localized;officialLocales?:Locale[];translatedLocales?:Locale[];
- traits?:EntityTrait[];stats:StatRow[];statSourceKind:SourceKind;
+ traits?:EntityTrait[];stats:StatRow[];statSourceKind:SourceKind;materials?:MaterialGroup[];
  groups:{title:Localized;body:Localized;sourceKind:SourceKind;sourceUrls?:string[];rows?:StatRow[]}[];
  sources:RelatedSource[];verifiedAt:string;notes?:Localized[];
 }

@@ -1,0 +1,1397 @@
+{
+  "checkedAt": "2026-10-23T11:43:59.119585+00:00",
+  "icons": [
+    {
+      "gameId": "gfl2",
+      "id": "element",
+      "values": {
+        "ko": [
+          "물리"
+        ],
+        "en": [
+          "Physical"
+        ],
+        "ja": [
+          "物理"
+        ],
+        "zh": [
+          "物理"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-physical.svg",
+        "imageSource": "https://gfl2.help/static/images/attributes/physical.svg",
+        "width": 800.0,
+        "height": 800.0,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "gfl2",
+      "id": "element",
+      "values": {
+        "ko": [
+          "빙결"
+        ],
+        "en": [
+          "Freeze"
+        ],
+        "ja": [
+          "氷結"
+        ],
+        "zh": [
+          "冷凝"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-freeze.svg",
+        "imageSource": "https://gfl2.help/static/images/attributes/freeze.svg",
+        "width": 800.0,
+        "height": 800.0,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "gfl2",
+      "id": "element",
+      "values": {
+        "ko": [
+          "공명"
+        ],
+        "en": [
+          "Resonance"
+        ],
+        "ja": [
+          "共鳴"
+        ],
+        "zh": [
+          "源谐"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-resonance.svg",
+        "imageSource": "https://gfl2.help/static/images/attributes/resonance.svg",
+        "width": 800.0,
+        "height": 800.0,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "gfl2",
+      "id": "element",
+      "values": {
+        "ko": [
+          "탁류"
+        ],
+        "en": [
+          "Hydro"
+        ],
+        "ja": [
+          "濁流"
+        ],
+        "zh": [
+          "浊刻"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-hydro.svg",
+        "imageSource": "https://gfl2.help/static/images/attributes/hydro.svg",
+        "width": 800.0,
+        "height": 800.0,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "gfl2",
+      "id": "element",
+      "values": {
+        "ko": [
+          "전도"
+        ],
+        "en": [
+          "Electric"
+        ],
+        "ja": [
+          "電導"
+        ],
+        "zh": [
+          "电导"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-electric.svg",
+        "imageSource": "https://gfl2.help/static/images/attributes/electric.svg",
+        "width": 800.0,
+        "height": 800.0,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "gfl2",
+      "id": "ammo",
+      "values": {
+        "ko": [
+          "경량탄"
+        ],
+        "en": [
+          "Light Ammo"
+        ],
+        "ja": [
+          "軽量弾"
+        ],
+        "zh": [
+          "轻型弹"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-light-ammo.svg",
+        "imageSource": "https://gfl2.help/static/images/attributes/light-ammo.svg",
+        "width": 800.0,
+        "height": 800.0,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "gfl2",
+      "id": "ammo",
+      "values": {
+        "ko": [
+          "중형탄"
+        ],
+        "en": [
+          "Medium Ammo"
+        ],
+        "ja": [
+          "中型弾"
+        ],
+        "zh": [
+          "中型弹"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-medium-ammo.svg",
+        "imageSource": "https://gfl2.help/static/images/attributes/medium-ammo.svg",
+        "width": 800.0,
+        "height": 800.0,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "gfl2",
+      "id": "ammo",
+      "values": {
+        "ko": [
+          "근접"
+        ],
+        "en": [
+          "Melee"
+        ],
+        "ja": [
+          "近接"
+        ],
+        "zh": [
+          "近战"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-melee.svg",
+        "imageSource": "https://gfl2.help/static/images/attributes/melee.svg",
+        "width": 800.0,
+        "height": 800.0,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "endfield",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "한손검"
+        ],
+        "en": [
+          "Sword"
+        ],
+        "ja": [
+          "片手剣"
+        ],
+        "zh": [
+          "单手剑"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/endfield-sword.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/arknights-endfield/icons/weapon_sword.webp",
+        "width": 34,
+        "height": 34,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "endfield",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "양손검"
+        ],
+        "en": [
+          "Great Sword"
+        ],
+        "ja": [
+          "両手剣"
+        ],
+        "zh": [
+          "双手剑"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/endfield-greatsword.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/arknights-endfield/icons/weapon_greatsword.webp",
+        "width": 34,
+        "height": 34,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "endfield",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "권총"
+        ],
+        "en": [
+          "Handcannon"
+        ],
+        "ja": [
+          "拳銃"
+        ],
+        "zh": [
+          "手铳"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/endfield-handcannon.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/arknights-endfield/icons/weapon_guns.webp",
+        "width": 34,
+        "height": 34,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "hsr",
+      "id": "path",
+      "values": {
+        "ko": [
+          "공허"
+        ],
+        "en": [
+          "Nihility"
+        ],
+        "ja": [
+          "虚無"
+        ],
+        "zh": [
+          "虚无"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/hsr-nihility.webp",
+        "imageSource": "https://cdn.starrailstation.com/assets/dd7360026f025513baae7d6891bfd20d8a74c89d99e8b74c45a4092c07f2f2bc.webp",
+        "width": 512,
+        "height": 512,
+        "verifiedAt": "2026-10-23T11:41:44.871710+00:00"
+      },
+      "visuallyChecked": true
+    },
+    {
+      "gameId": "trickcal",
+      "id": "personality",
+      "values": {
+        "ko": [
+          "냉정"
+        ],
+        "en": [
+          "Composed"
+        ],
+        "ja": [
+          "冷静"
+        ],
+        "zh": [
+          "冷静"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-element_composed.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/element_composed.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "personality",
+      "values": {
+        "ko": [
+          "우울"
+        ],
+        "en": [
+          "Depressed"
+        ],
+        "ja": [
+          "憂鬱"
+        ],
+        "zh": [
+          "忧郁"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-element_depressed.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/element_depressed.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "personality",
+      "values": {
+        "ko": [
+          "순수"
+        ],
+        "en": [
+          "Innocence"
+        ],
+        "ja": [
+          "純粋"
+        ],
+        "zh": [
+          "纯真"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-element_innocence.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/element_innocence.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "personality",
+      "values": {
+        "ko": [
+          "광기"
+        ],
+        "en": [
+          "Madness"
+        ],
+        "ja": [
+          "狂気"
+        ],
+        "zh": [
+          "狂气"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-element_madness.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/element_madness.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "personality",
+      "values": {
+        "ko": [
+          "공명"
+        ],
+        "en": [
+          "Resonance"
+        ],
+        "ja": [
+          "共鳴"
+        ],
+        "zh": [
+          "共鸣"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-element_resonance.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/element_resonance.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "personality",
+      "values": {
+        "ko": [
+          "활발"
+        ],
+        "en": [
+          "Vivacious"
+        ],
+        "ja": [
+          "活発"
+        ],
+        "zh": [
+          "活泼"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-element_vivacious.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/element_vivacious.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "race",
+      "values": {
+        "ko": [
+          "용족"
+        ],
+        "en": [
+          "Dragon"
+        ],
+        "ja": [
+          "竜族"
+        ],
+        "zh": [
+          "龙族"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-race_dragons.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/race_dragons.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "race",
+      "values": {
+        "ko": [
+          "정령"
+        ],
+        "en": [
+          "Elemental"
+        ],
+        "ja": [
+          "精霊"
+        ],
+        "zh": [
+          "精灵"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-race_elementals.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/race_elementals.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "race",
+      "values": {
+        "ko": [
+          "엘프"
+        ],
+        "en": [
+          "Elf"
+        ],
+        "ja": [
+          "エルフ"
+        ],
+        "zh": [
+          "精灵族"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-race_elves.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/race_elves.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "race",
+      "values": {
+        "ko": [
+          "신비"
+        ],
+        "en": [
+          "Mystic"
+        ],
+        "ja": [
+          "神秘"
+        ],
+        "zh": [
+          "神秘"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-race_mystic.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/race_mystic.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "race",
+      "values": {
+        "ko": [
+          "유령"
+        ],
+        "en": [
+          "Phantom"
+        ],
+        "ja": [
+          "幽霊"
+        ],
+        "zh": [
+          "幽灵"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-race_phantoms.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/race_phantoms.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "race",
+      "values": {
+        "ko": [
+          "요정"
+        ],
+        "en": [
+          "Sprite"
+        ],
+        "ja": [
+          "妖精"
+        ],
+        "zh": [
+          "妖精"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-race_sprites.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/race_sprites.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "race",
+      "values": {
+        "ko": [
+          "수인"
+        ],
+        "en": [
+          "Werebeast"
+        ],
+        "ja": [
+          "獣人"
+        ],
+        "zh": [
+          "兽人"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-race_werebeast.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/race_werebeast.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "race",
+      "values": {
+        "ko": [
+          "마녀"
+        ],
+        "en": [
+          "Witch"
+        ],
+        "ja": [
+          "魔女"
+        ],
+        "zh": [
+          "魔女"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-race_witches.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/race_witches.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "role",
+      "values": {
+        "ko": [
+          "딜러"
+        ],
+        "en": [
+          "DPS"
+        ],
+        "ja": [
+          "アタッカー"
+        ],
+        "zh": [
+          "输出"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-class_dps.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/class_dps.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "role",
+      "values": {
+        "ko": [
+          "서포터"
+        ],
+        "en": [
+          "Support"
+        ],
+        "ja": [
+          "サポーター"
+        ],
+        "zh": [
+          "辅助"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-class_support.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/class_support.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "role",
+      "values": {
+        "ko": [
+          "탱커"
+        ],
+        "en": [
+          "Tank"
+        ],
+        "ja": [
+          "タンク"
+        ],
+        "zh": [
+          "坦克"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-class_tank.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/class_tank.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "position",
+      "values": {
+        "ko": [
+          "후열"
+        ],
+        "en": [
+          "Back"
+        ],
+        "ja": [
+          "後列"
+        ],
+        "zh": [
+          "后排"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-position_back.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/position_back.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "position",
+      "values": {
+        "ko": [
+          "전열"
+        ],
+        "en": [
+          "Front"
+        ],
+        "ja": [
+          "前列"
+        ],
+        "zh": [
+          "前排"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-position_front.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/position_front.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "trickcal",
+      "id": "position",
+      "values": {
+        "ko": [
+          "중열"
+        ],
+        "en": [
+          "Middle"
+        ],
+        "ja": [
+          "中列"
+        ],
+        "zh": [
+          "中排"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-trickcal-position_middle.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/trickcal/icons/position_middle.webp",
+        "width": 40,
+        "height": 40,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "reverse1999",
+      "id": "afflatus",
+      "values": {
+        "ko": [
+          "암석"
+        ],
+        "en": [
+          "Mineral"
+        ],
+        "ja": [
+          "岩"
+        ],
+        "zh": [
+          "岩"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-reverse-afl_big_mineral.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/re1999/icons/afl_big_mineral.webp",
+        "width": 30,
+        "height": 50,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "reverse1999",
+      "id": "afflatus",
+      "values": {
+        "ko": [
+          "야수"
+        ],
+        "en": [
+          "Beast"
+        ],
+        "ja": [
+          "獣"
+        ],
+        "zh": [
+          "兽"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-reverse-afl_big_beast.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/re1999/icons/afl_big_beast.webp",
+        "width": 30,
+        "height": 50,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "reverse1999",
+      "id": "afflatus",
+      "values": {
+        "ko": [
+          "나무"
+        ],
+        "en": [
+          "Plant"
+        ],
+        "ja": [
+          "木"
+        ],
+        "zh": [
+          "木"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-reverse-afl_big_plant.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/re1999/icons/afl_big_plant.webp",
+        "width": 30,
+        "height": 50,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "reverse1999",
+      "id": "afflatus",
+      "values": {
+        "ko": [
+          "천체"
+        ],
+        "en": [
+          "Star"
+        ],
+        "ja": [
+          "星"
+        ],
+        "zh": [
+          "星"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-reverse-afl_big_star.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/re1999/icons/afl_big_star.webp",
+        "width": 30,
+        "height": 50,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "stellasora",
+      "id": "element",
+      "values": {
+        "ko": [
+          "수속성",
+          "물"
+        ],
+        "en": [
+          "Aqua"
+        ],
+        "ja": [
+          "水",
+          "水属性"
+        ],
+        "zh": [
+          "水",
+          "水系"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-stella-icon_common_property_1.png",
+        "imageSource": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/common/icon_common_property_1.png",
+        "width": 93,
+        "height": 93,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "stellasora",
+      "id": "element",
+      "values": {
+        "ko": [
+          "화염",
+          "불"
+        ],
+        "en": [
+          "Ignis"
+        ],
+        "ja": [
+          "火",
+          "火属性"
+        ],
+        "zh": [
+          "火",
+          "火系"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-stella-icon_common_property_2.png",
+        "imageSource": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/common/icon_common_property_2.png",
+        "width": 93,
+        "height": 93,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "stellasora",
+      "id": "element",
+      "values": {
+        "ko": [
+          "대지",
+          "땅"
+        ],
+        "en": [
+          "Terra"
+        ],
+        "ja": [
+          "地",
+          "地属性"
+        ],
+        "zh": [
+          "地",
+          "地系"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-stella-icon_common_property_3.png",
+        "imageSource": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/common/icon_common_property_3.png",
+        "width": 93,
+        "height": 93,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "stellasora",
+      "id": "element",
+      "values": {
+        "ko": [
+          "바람"
+        ],
+        "en": [
+          "Ventus"
+        ],
+        "ja": [
+          "風",
+          "風属性"
+        ],
+        "zh": [
+          "风",
+          "风系"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-stella-icon_common_property_4.png",
+        "imageSource": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/common/icon_common_property_4.png",
+        "width": 93,
+        "height": 93,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "stellasora",
+      "id": "element",
+      "values": {
+        "ko": [
+          "광속성",
+          "빛"
+        ],
+        "en": [
+          "Lux"
+        ],
+        "ja": [
+          "光",
+          "光属性"
+        ],
+        "zh": [
+          "光",
+          "光系"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-stella-icon_common_property_5.png",
+        "imageSource": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/common/icon_common_property_5.png",
+        "width": 93,
+        "height": 93,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "stellasora",
+      "id": "element",
+      "values": {
+        "ko": [
+          "암속성",
+          "어둠"
+        ],
+        "en": [
+          "Umbra"
+        ],
+        "ja": [
+          "闇",
+          "闇属性"
+        ],
+        "zh": [
+          "暗",
+          "暗系"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/wiki-stella-icon_common_property_6.png",
+        "imageSource": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/common/icon_common_property_6.png",
+        "width": 93,
+        "height": 93,
+        "verifiedAt": "2026-10-23T11:43:59.119585+00:00"
+      }
+    },
+    {
+      "gameId": "nte",
+      "id": "arc",
+      "values": {
+        "ko": [
+          "기체"
+        ],
+        "en": [
+          "Gas"
+        ],
+        "ja": [
+          "気体"
+        ],
+        "zh": [
+          "气态"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/nte-arc-gas.webp",
+        "imageSource": "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_gas.webp",
+        "width": 128,
+        "height": 128,
+        "verifiedAt": "2026-10-23T12:17:27.423658+00:00"
+      }
+    },
+    {
+      "gameId": "nte",
+      "id": "arc",
+      "values": {
+        "ko": [
+          "액체"
+        ],
+        "en": [
+          "Liquid"
+        ],
+        "ja": [
+          "液体"
+        ],
+        "zh": [
+          "液态"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/nte-arc-liquid.webp",
+        "imageSource": "https://www.kaiden.gg/img/nte/UI/Player/YH_UI_icon_liquid.webp",
+        "width": 128,
+        "height": 128,
+        "verifiedAt": "2026-10-23T12:17:27.423658+00:00"
+      }
+    },
+    {
+      "gameId": "arknights",
+      "id": "branch",
+      "values": {
+        "ko": [
+          "크러셔"
+        ],
+        "en": [
+          "Crusher"
+        ],
+        "ja": [
+          "重剣士"
+        ],
+        "zh": [
+          "重剑手"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/arknights-branch-crusher.png",
+        "imageSource": "https://media.prts.wiki/f/f2/%E8%81%8C%E4%B8%9A%E5%88%86%E6%94%AF%E5%9B%BE%E6%A0%87_%E9%87%8D%E5%89%91%E6%89%8B.png?v=g5i58yv5qexg7w2v0skih3bbx09ciam",
+        "width": 64,
+        "height": 64,
+        "verifiedAt": "2026-10-23T12:17:27.423658+00:00"
+      }
+    },
+    {
+      "gameId": "gfl2",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "권총"
+        ],
+        "en": [
+          "Handgun"
+        ],
+        "ja": [
+          "ハンドガン"
+        ],
+        "zh": [
+          "手枪"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-weapon-handgun.png",
+        "imageSource": "https://gfl2.help/static/images/handgun.png",
+        "width": 256,
+        "height": 256,
+        "verifiedAt": "2026-10-23T12:17:27.423658+00:00"
+      }
+    },
+    {
+      "gameId": "gfl2",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "기관단총"
+        ],
+        "en": [
+          "Submachine Gun"
+        ],
+        "ja": [
+          "サブマシンガン"
+        ],
+        "zh": [
+          "冲锋枪"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-weapon-submachine.png",
+        "imageSource": "https://gfl2.help/static/images/submachine.png",
+        "width": 256,
+        "height": 256,
+        "verifiedAt": "2026-10-23T12:17:27.423658+00:00"
+      }
+    },
+    {
+      "gameId": "gfl2",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "저격소총"
+        ],
+        "en": [
+          "Sniper Rifle"
+        ],
+        "ja": [
+          "スナイパーライフル"
+        ],
+        "zh": [
+          "狙击枪"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-weapon-rifle.png",
+        "imageSource": "https://gfl2.help/static/images/rifle.png",
+        "width": 256,
+        "height": 256,
+        "verifiedAt": "2026-10-23T12:17:27.423658+00:00"
+      }
+    },
+    {
+      "gameId": "gfl2",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "돌격소총"
+        ],
+        "en": [
+          "Assault Rifle"
+        ],
+        "ja": [
+          "アサルトライフル"
+        ],
+        "zh": [
+          "突击步枪"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-weapon-assault-rifle.png",
+        "imageSource": "https://gfl2.help/static/images/assault-rifle.png",
+        "width": 256,
+        "height": 256,
+        "verifiedAt": "2026-10-23T12:17:27.423658+00:00"
+      }
+    },
+    {
+      "gameId": "gfl2",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "도검"
+        ],
+        "en": [
+          "Blade"
+        ],
+        "ja": [
+          "ブレード"
+        ],
+        "zh": [
+          "刀"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/gfl2-weapon-blade.png",
+        "imageSource": "https://gfl2.help/static/images/melee-weapon.png",
+        "width": 256,
+        "height": 256,
+        "verifiedAt": "2026-10-23T12:17:27.423658+00:00"
+      }
+    },
+    {
+      "gameId": "hsr",
+      "id": "element",
+      "values": {
+        "ko": [
+          "화염"
+        ],
+        "en": [
+          "Fire"
+        ],
+        "ja": [
+          "炎"
+        ],
+        "zh": [
+          "火"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/hsr-fire.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/honkai-star-rail/icons/ele_fire.webp",
+        "width": 34,
+        "height": 34,
+        "verifiedAt": "2026-10-23T12:18:17.845254+00:00"
+      }
+    },
+    {
+      "gameId": "zzz",
+      "id": "element",
+      "values": {
+        "ko": [
+          "불"
+        ],
+        "en": [
+          "Fire"
+        ],
+        "ja": [
+          "炎"
+        ],
+        "zh": [
+          "火"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/zzz-fire.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/zenless-zone-zero/icons/ele_fire.webp",
+        "width": 34,
+        "height": 34,
+        "verifiedAt": "2026-10-23T12:18:17.846633+00:00"
+      }
+    },
+    {
+      "gameId": "nikke",
+      "id": "class",
+      "values": {
+        "ko": [
+          "지원형"
+        ],
+        "en": [
+          "Supporter"
+        ],
+        "ja": [
+          "支援型"
+        ],
+        "zh": [
+          "辅助型",
+          "輔助型"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/nikke-supporter.webp",
+        "imageSource": "https://cdn.prydwen.gg/images/nikke/icons/class_support.webp",
+        "width": 25,
+        "height": 25,
+        "verifiedAt": "2026-10-23T12:18:17.847199+00:00"
+      }
+    },
+    {
+      "gameId": "bluearchive",
+      "id": "weapon",
+      "values": {
+        "ko": [
+          "HG",
+          "AR",
+          "RL",
+          "GL"
+        ],
+        "en": [
+          "HG",
+          "AR",
+          "RL",
+          "GL"
+        ],
+        "ja": [
+          "HG",
+          "AR",
+          "RL",
+          "GL"
+        ],
+        "zh": [
+          "HG",
+          "AR",
+          "RL",
+          "GL"
+        ]
+      },
+      "icon": {
+        "image": "/assets/status/ba-Common_Icon_CharacterWeapon_off.png",
+        "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Common_Icon_CharacterWeapon_off.png",
+        "width": 62,
+        "height": 56,
+        "verifiedAt": "2026-10-16T19:34:19.827175Z"
+      }
+    }
+  ]
+}

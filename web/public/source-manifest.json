@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "b19b3c11bf54fdf1771dff6cf6dfe3388d0d3cb21fbd22de7f0bd3e08ecf8d86",
+  "fingerprint": "a7fc2cf605f77c891e681d072539b41f629ff70dd68848233ccd18c0479ba208",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -44,7 +44,7 @@
     },
     {
       "path": "app/api/collection/route.ts",
-      "sha256": "eda772e89c6f39676dc807c1d20cb6cb42bf0338420d309ec7793b82ba1b97c2"
+      "sha256": "1e9f1782b2cf13b72d820075f885fb4e959e7238f78d25123e5c675a6bb1bfc3"
     },
     {
       "path": "app/api/community/route.ts",
@@ -116,7 +116,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "5ce9fde929f78ac943bc29d492a55b0bb24e87d34cd9c13996b5f2971abea12c"
+      "sha256": "93e19fb16c0f480d3877cbc64bc5f39ee409bd35fef3843bbcf08f34149597ab"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -268,7 +268,7 @@
     },
     {
       "path": "app/practical-details.css",
-      "sha256": "0cd76b13673e2c30217f43f03272289dec85ae3876299f078f756c2da28a6bd1"
+      "sha256": "895a61a6366eed5a55e3804bdb8cfa2d7a94da62e0d80e7eea41f734ce045864"
     },
     {
       "path": "app/refinement.css",
@@ -396,11 +396,15 @@
     },
     {
       "path": "components/entity-details-editor.tsx",
-      "sha256": "bb704c098b0b26f2ed7aacae59088840d25c295ced60ff6e3c047abd650b2ff5"
+      "sha256": "fa0450a5579f9c4768a3e1e4bfc039bb5542f2dad9bab092aadbba370b2c771f"
     },
     {
       "path": "components/entity-details.tsx",
-      "sha256": "82cb305233d26b45ab445a1ee0b536b7dcbf240afd51f3932835cdb9c987ad7d"
+      "sha256": "77d96d5eed2c35c2d8a05c292ccdb6c6e9b47b4357fc43943e202d3da7a7d058"
+    },
+    {
+      "path": "components/entity-materials.tsx",
+      "sha256": "3d99ad9081d3dea624df5729f539487462f1a1ba1af9f7edadf18849509b5450"
     },
     {
       "path": "components/event-overview.tsx",
@@ -445,6 +449,10 @@
     {
       "path": "components/localized-catalog.tsx",
       "sha256": "0ac706c00bdbb796ff52a8bc697f4e4d08f93f1a0d7aa63e33ce1d1362cd6ea1"
+    },
+    {
+      "path": "components/materials-editor.tsx",
+      "sha256": "8b9f07f6cd679c16cf3310d51ad076fdce7aed5e7bc594a929c880e31488594b"
     },
     {
       "path": "components/mobile-companion.tsx",
@@ -492,7 +500,7 @@
     },
     {
       "path": "components/pickup-history.tsx",
-      "sha256": "20f6c4b64d7f7543ee0163bed542b332d0f1ab4a5674e480b4e8cc019be1b684"
+      "sha256": "0d01a6d381b5690a8cd55065125a7c2f6a7527809644d8a9270435ffd975fb79"
     },
     {
       "path": "components/pickup-portraits.tsx",
@@ -500,7 +508,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "8f4e8259b7d827a2d8cdd792f80844639feae12ad014d3691df3d29569bdf518"
+      "sha256": "8a651465f4d1ca0a6e0c009f852738e9c0b6ff09d5e930b422bed57e74147f4a"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -512,7 +520,7 @@
     },
     {
       "path": "components/reward-display.tsx",
-      "sha256": "b47ffa7ac7c89d9e4f70cbc4d2b097cb7bb61b733861469f7615498bc5855a05"
+      "sha256": "530bec556b9249090f2c1f9435e88b7bf436a19be6a6a23b7c525e8679f68930"
     },
     {
       "path": "components/reward-editor.tsx",
@@ -871,6 +879,10 @@
       "sha256": "7a351dff13ee84db7a05b9ca52e2536597bb5034920698c1d8f5b8c3e811c911"
     },
     {
+      "path": "content/entity-catalog.json",
+      "sha256": "fda47d01bacff13243d75075fd59009f113c6e0bf42ebca21426dec6860bb218"
+    },
+    {
       "path": "content/excluded-source-images.json",
       "sha256": "ace7c047680ebbd42097ec9087ebb4a5497540a072c31d20d2f962ea065ef5ad"
     },
@@ -901,6 +913,10 @@
     {
       "path": "content/kuro-localized.json",
       "sha256": "a51c2481b73cfee75d6069bbce3b0c9efcb1309183f5c9e4d1cee36463710ef5"
+    },
+    {
+      "path": "content/native-icon-provenance.json",
+      "sha256": "4413d6bcdac06409ec808b2253e1984186f552dee15f50d3b6672997cffb109a"
     },
     {
       "path": "content/others-adapters-assets.json",
@@ -951,8 +967,12 @@
       "sha256": "01735ddd5bd056bfcb37f4832d159921d8c734231c0b9735a764ef2ed02231ef"
     },
     {
+      "path": "content/stat-icons.json",
+      "sha256": "a98aa43390f2916e3db0a93c3d584efe6b1e16e5c460ef23fb8ec62fb3c71625"
+    },
+    {
       "path": "content/trait-icons.json",
-      "sha256": "0de9c2cbd2c78f3870e217fe61933b21094cebfab83544a7793210655d58b64f"
+      "sha256": "1f9c6d5a7aed132f1042d8dec88279d9eb0e90513ba748a39661161a5b90ea35"
     },
     {
       "path": "content/uma-selection-art-review-2026-10-17.json",
@@ -961,6 +981,18 @@
     {
       "path": "content/version-art-review-2026-10-17.json",
       "sha256": "ad474fa909b130743ad56e1e70d7e7d9f6519ebd2e52c8f5dd6ae09ec3ff9cf9"
+    },
+    {
+      "path": "content/wiki-icon-additions.json",
+      "sha256": "5b2c36723846b1fa53f6c77044478343af788fde71c0c61bb58d0fb7895e0be5"
+    },
+    {
+      "path": "content/wiki-sources.json",
+      "sha256": "7e5bd7e13ca1e1f7173cd488f97d9688e32bde227e4f47c3fc972bedd3a851f5"
+    },
+    {
+      "path": "content/wuwa-material-provenance.json",
+      "sha256": "3636eb3ce418931a770f3f2c6ee28ef8cbd700b4c7cfbb82f81e00a5caaba0e0"
     },
     {
       "path": "db/schema.ts",
@@ -1055,6 +1087,10 @@
       "sha256": "842b8c1fbf72d6ce75edc5a901c2cc84177639915af67cc79d80b63f5fc4bc5b"
     },
     {
+      "path": "lib/body-collection-candidate.ts",
+      "sha256": "fa3234aeb4ef2e420c4c3c4db9375ca04d56848c9ab7a593c660db4ae9025026"
+    },
+    {
       "path": "lib/brand.ts",
       "sha256": "123962ddc6b226e1ae330bd6188d69234c60ef94af47c84ff65c247c5cf6d4bd"
     },
@@ -1140,11 +1176,11 @@
     },
     {
       "path": "lib/content-display.ts",
-      "sha256": "09a87ebc3208bd9fa5f46bba8682fa4dad852d0c0a30c6558c268b791dd8a0c8"
+      "sha256": "519143de9e620699ea830f9d44197379b499716c60ba0f091632c5584fd7043f"
     },
     {
       "path": "lib/content-schema.ts",
-      "sha256": "be4fd4cee2431b44a6fe9a484019176472456bfdba4cb96d2878fea20d106a3d"
+      "sha256": "ce296f7aa924fdd336c9f39676142412ddea18b1200d98d1a6fc5b521311dbe6"
     },
     {
       "path": "lib/display-preferences.ts",
@@ -1176,11 +1212,15 @@
     },
     {
       "path": "lib/editor-schema.ts",
-      "sha256": "274fc9a90f6c8528e1794b44e70e19ebeeac823e1c2d219ff57128eb98192555"
+      "sha256": "df9a91eaa1b368b7dfe822529a097d36cf5876eb64bfd202f3e8286a01bd86f8"
     },
     {
       "path": "lib/editorial.ts",
       "sha256": "ac356eda7b68fe9cb4ae6e8314f6ac15e82863385506f709fa166b949a2c4d4b"
+    },
+    {
+      "path": "lib/entity-catalog.ts",
+      "sha256": "8f446fc343cc5fa6a3f895af8ccc4d623b81701599becd7d1031a2047c6004d9"
     },
     {
       "path": "lib/event-overview-items.ts",
@@ -1304,7 +1344,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "2f1d0075d5607e03c84f596728f1b19f3329192b48cffcf55c3723f7f4ecb38e"
+      "sha256": "184c77d207ffaa34aa63668bcbe9d27606cc7299156e88450a741fd09a9dc258"
     },
     {
       "path": "lib/official-social-store.ts",
@@ -1352,7 +1392,7 @@
     },
     {
       "path": "lib/presentation.ts",
-      "sha256": "bc55172606d1904298a9e29f8e54d80f34ca26b5f6b305b81ac7c51b195f3787"
+      "sha256": "8fac3e99234ce21580feee6649a5406fad1feb497b0857af230a246c85ba5cf9"
     },
     {
       "path": "lib/price-presentation.ts",
@@ -1440,7 +1480,7 @@
     },
     {
       "path": "lib/source-bodies.ts",
-      "sha256": "88044b3bfcc8b75d5913defcc1d6625b66efd978fe5a1b294efdce23a33b7ea3"
+      "sha256": "6b415b029df50d8106fb26e8b9cfd1c87471697d91de3aa8de79c1d4cdda1903"
     },
     {
       "path": "lib/source-body-store.ts",
@@ -1451,8 +1491,12 @@
       "sha256": "5226e8c84276f56e4080ddd609abca9321ad0f9206defba39fc1e4fa7548356d"
     },
     {
+      "path": "lib/stat-icons.ts",
+      "sha256": "53902f2606394a4554af8e752c40eb0b3a37852facca409e4dcc919d2cc4112c"
+    },
+    {
       "path": "lib/store.ts",
-      "sha256": "bfdfb03cbf74a06a39c5ec520dc3d72186373960eb9501983e09c1e0fde47c83"
+      "sha256": "0e61fa2990e3d073fb4714d3df84356bf244496a1412f76292be6b1dff87ca8d"
     },
     {
       "path": "lib/studio-i18n.ts",
@@ -1460,11 +1504,11 @@
     },
     {
       "path": "lib/trait-icons.ts",
-      "sha256": "e3eac7d4effb0e2da85a51fe21105fd29d95e4f22788c6c5dc1a76a76f00c710"
+      "sha256": "904593392639bc8bc8406e15ec1efa70b2c8d19b581e96ac4d45784745581157"
     },
     {
       "path": "lib/types.ts",
-      "sha256": "412eb449333b539822ea22d401dddb81be468c34c26b7cd6af8bf06ca17b3857"
+      "sha256": "6e2935e74d827960f8a9a2237f5ca29ae1b327af0917480285e547ebf3ec6656"
     },
     {
       "path": "lib/upcoming-pickups.ts",
@@ -1501,6 +1545,10 @@
     {
       "path": "lib/weapon-links.ts",
       "sha256": "6da8725178d6ed4f72ba18e6df1239773e3840077c9868fb6411ba96a4d6ba9c"
+    },
+    {
+      "path": "lib/wiki-coverage.ts",
+      "sha256": "c7ee173337968ec1db8bdb5431bcb6016c61ddd4f6e33355fd7953f04d8e5e60"
     },
     {
       "path": "lib/write-access.ts",

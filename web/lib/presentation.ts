@@ -53,6 +53,7 @@ export function mergeVerifiedEntry(current:Entry|undefined,incoming:Entry):Entry
 }
 export function retainEntityDetails(incoming:Entry,previous:Entry|undefined):Entry{
  const result=retainArtwork(incoming,previous);
+ if(incoming.entityDetails&&previous?.entityDetails)result.entityDetails=incoming.entityDetails.map(profile=>{const old=previous.entityDetails!.find(p=>p.id===profile.id);return old&&profile.materials===undefined&&old.materials?{...profile,materials:old.materials}:profile;});
  if(previous?.sourceBodies)result.sourceBodies={...previous.sourceBodies,...incoming.sourceBodies};
  if(previous?.pickupMembers&&incoming.pickupMembers)result.pickupMembers=incoming.pickupMembers.map(member=>{
   const old=previous.pickupMembers!.find(candidate=>{

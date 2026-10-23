@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-10-23T11:37:46.850836+00:00",
+  "bluearchive": [
+    {
+      "path": "ui/Terrain_Indoor.png",
+      "filename": "bluearchive-terrain-indoor.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Terrain_Indoor.png",
+      "width": 68,
+      "height": 68
+    },
+    {
+      "path": "ui/Terrain_Outdoor.png",
+      "filename": "bluearchive-terrain-outdoor.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Terrain_Outdoor.png",
+      "width": 68,
+      "height": 68
+    },
+    {
+      "path": "ui/Terrain_Street.png",
+      "filename": "bluearchive-terrain-street.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Terrain_Street.png",
+      "width": 68,
+      "height": 68
+    },
+    {
+      "path": "ui/Type_Attack.png",
+      "filename": "bluearchive-type-attack.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Type_Attack.png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "ui/Type_Defense.png",
+      "filename": "bluearchive-type-defense.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Type_Defense.png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "ui/Role_Healer.png",
+      "filename": "bluearchive-role-healer.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Role_Healer.png",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "path": "ui/Role_Vehicle.png",
+      "filename": "bluearchive-role-vehicle.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/ui/Role_Vehicle.png",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "path": "staticon/Stat_MaxHP.png",
+      "filename": "bluearchive-stat-maxhp.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_MaxHP.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_AttackPower.png",
+      "filename": "bluearchive-stat-attackpower.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_AttackPower.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_DefensePower.png",
+      "filename": "bluearchive-stat-defensepower.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_DefensePower.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_AccuracyPoint.png",
+      "filename": "bluearchive-stat-accuracypoint.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_AccuracyPoint.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_DodgePoint.png",
+      "filename": "bluearchive-stat-dodgepoint.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_DodgePoint.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_CriticalPoint.png",
+      "filename": "bluearchive-stat-criticalpoint.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_CriticalPoint.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_CriticalDamageRate.png",
+      "filename": "bluearchive-stat-criticaldamagerate.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_CriticalDamageRate.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_HealPower.png",
+      "filename": "bluearchive-stat-healpower.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_HealPower.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_StabilityPoint.png",
+      "filename": "bluearchive-stat-stabilitypoint.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_StabilityPoint.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_Range.png",
+      "filename": "bluearchive-stat-range.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_Range.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_RegenCost.png",
+      "filename": "bluearchive-stat-regencost.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_RegenCost.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_AttackSpeed.png",
+      "filename": "bluearchive-stat-attackspeed.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_AttackSpeed.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_DefensePenetration.png",
+      "filename": "bluearchive-stat-defensepenetration.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_DefensePenetration.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_CriticalChanceResistPoint.png",
+      "filename": "bluearchive-stat-criticalchanceresistpoint.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_CriticalChanceResistPoint.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_CriticalDamageResistRate.png",
+      "filename": "bluearchive-stat-criticaldamageresistrate.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_CriticalDamageResistRate.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_MoveSpeed.png",
+      "filename": "bluearchive-stat-movespeed.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_MoveSpeed.png",
+      "width": 47,
+      "height": 54
+    },
+    {
+      "path": "staticon/Stat_AmmoCount.png",
+      "filename": "bluearchive-stat-ammocount.png",
+      "sourceUrl": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_AmmoCount.png",
+      "width": 47,
+      "height": 54
+    }
+  ],
+  "visualReview": "Terrain symbols, sword/shield, role and named statistic glyphs viewed on original-pixel contact sheet; no asset recoloring or scaling in source."
+}

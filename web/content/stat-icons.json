@@ -1,0 +1,174 @@
+[
+  {
+    "gameId": "bluearchive",
+    "labels": {
+      "ko": [
+        "EX 코스트",
+        "기본 코스트 회복력"
+      ],
+      "en": [
+        "Base cost recovery",
+        "EX cost"
+      ],
+      "ja": [
+        "EXコスト",
+        "基礎コスト回復力"
+      ],
+      "zh": [
+        "EX费用",
+        "基础费用回复力"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/bluearchive-stat-regencost.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_RegenCost.png",
+      "width": 47,
+      "height": 54,
+      "verifiedAt": "2026-10-23T11:37:46.850836+00:00"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "labels": {
+      "ko": [
+        "기본 명중"
+      ],
+      "en": [
+        "Base accuracy"
+      ],
+      "ja": [
+        "基礎命中値"
+      ],
+      "zh": [
+        "基础命中值"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/bluearchive-stat-accuracypoint.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_AccuracyPoint.png",
+      "width": 47,
+      "height": 54,
+      "verifiedAt": "2026-10-23T11:37:46.850836+00:00"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "labels": {
+      "ko": [
+        "기본 회피"
+      ],
+      "en": [
+        "Base evasion"
+      ],
+      "ja": [
+        "基礎回避値"
+      ],
+      "zh": [
+        "基础闪避值"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/bluearchive-stat-dodgepoint.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_DodgePoint.png",
+      "width": 47,
+      "height": 54,
+      "verifiedAt": "2026-10-23T11:37:46.850836+00:00"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "labels": {
+      "ko": [
+        "기본 치명 수치"
+      ],
+      "en": [
+        "Base critical stat"
+      ],
+      "ja": [
+        "基礎会心値"
+      ],
+      "zh": [
+        "基础暴击值"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/bluearchive-stat-criticalpoint.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_CriticalPoint.png",
+      "width": 47,
+      "height": 54,
+      "verifiedAt": "2026-10-23T11:37:46.850836+00:00"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "labels": {
+      "ko": [
+        "기본 치명 피해"
+      ],
+      "en": [
+        "Base critical damage"
+      ],
+      "ja": [
+        "基礎会心ダメージ"
+      ],
+      "zh": [
+        "基础暴击伤害"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/bluearchive-stat-criticaldamagerate.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_CriticalDamageRate.png",
+      "width": 47,
+      "height": 54,
+      "verifiedAt": "2026-10-23T11:37:46.850836+00:00"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "labels": {
+      "ko": [
+        "기본 안정 수치"
+      ],
+      "en": [
+        "Base stability"
+      ],
+      "ja": [
+        "基礎安定値"
+      ],
+      "zh": [
+        "基础稳定值"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/bluearchive-stat-stabilitypoint.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_StabilityPoint.png",
+      "width": 47,
+      "height": 54,
+      "verifiedAt": "2026-10-23T11:37:46.850836+00:00"
+    }
+  },
+  {
+    "gameId": "bluearchive",
+    "labels": {
+      "ko": [
+        "기본 사거리"
+      ],
+      "en": [
+        "Base range"
+      ],
+      "ja": [
+        "基礎射程"
+      ],
+      "zh": [
+        "基础射程"
+      ]
+    },
+    "icon": {
+      "image": "/assets/status/bluearchive-stat-range.png",
+      "imageSource": "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images/staticon/Stat_Range.png",
+      "width": 47,
+      "height": 54,
+      "verifiedAt": "2026-10-23T11:37:46.850836+00:00"
+    }
+  }
+]

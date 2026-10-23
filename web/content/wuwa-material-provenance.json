@@ -1,0 +1,1106 @@
+{
+  "checkedAt": "2026-10-23T11:49:28.071405+00:00",
+  "atlasExtraction": "Exact sourceRect from declared native CSS atlas; original native pixel size retained.",
+  "items": [
+    {
+      "id": "item_2",
+      "name": {
+        "ko": "클램 코인",
+        "en": "Shell Credit",
+        "ja": "シェルコイン",
+        "zh": "贝币"
+      },
+      "quantity": "330000",
+      "width": 63,
+      "height": 63,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_2",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 2103,
+        "y": 4028,
+        "width": 63,
+        "height": 63
+      },
+      "sourceKind": "community",
+      "sha256": "0931a4c30ac8d664b58cd32dc6e5a65750c015fe889091dd240f41f6c340a830"
+    },
+    {
+      "id": "item_41100021",
+      "name": {
+        "ko": "저주파수 포효 성핵",
+        "en": "LF Howler Core",
+        "ja": "低音・叫び音核",
+        "zh": "低频啸叫声核"
+      },
+      "quantity": "25",
+      "width": 60,
+      "height": 60,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100021",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3294,
+        "y": 4094,
+        "width": 60,
+        "height": 60
+      },
+      "sourceKind": "community",
+      "sha256": "8d70f5e5aa3ef75e16156d3fc2e45c9a69c13a827b2de0514653677b1af47df9"
+    },
+    {
+      "id": "item_41100022",
+      "name": {
+        "ko": "중주파수 포효 성핵",
+        "en": "MF Howler Core",
+        "ja": "中音・叫び音核",
+        "zh": "中频啸叫声核"
+      },
+      "quantity": "28",
+      "width": 62,
+      "height": 62,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100022",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 4114,
+        "y": 4028,
+        "width": 62,
+        "height": 62
+      },
+      "sourceKind": "community",
+      "sha256": "0910d696a3c57cca9b4ee1f0ee8e97712bb94f34c77c30baeb54cc5656abf4ac"
+    },
+    {
+      "id": "item_41100023",
+      "name": {
+        "ko": "고주파수 포효 성핵",
+        "en": "HF Howler Core",
+        "ja": "高音・叫び音核",
+        "zh": "高频啸叫声核"
+      },
+      "quantity": "40",
+      "width": 59,
+      "height": 59,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100023",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1861,
+        "y": 4158,
+        "width": 59,
+        "height": 59
+      },
+      "sourceKind": "community",
+      "sha256": "73dfacad6913eb96b74125139614482f09b7e79fd783834951dd672d3ebfb54d"
+    },
+    {
+      "id": "item_41100024",
+      "name": {
+        "ko": "전주파수 포효 성핵",
+        "en": "FF Howler Core",
+        "ja": "広域・叫び音核",
+        "zh": "全频啸叫声核"
+      },
+      "quantity": "57",
+      "width": 61,
+      "height": 61,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100024",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1723,
+        "y": 4094,
+        "width": 61,
+        "height": 61
+      },
+      "sourceKind": "community",
+      "sha256": "a07c13c3e8c482564ac8ba8af853c2157b584ef9e62c23bb66373a2d2040d58a"
+    },
+    {
+      "id": "item_41400344",
+      "name": {
+        "ko": "가짜 선인의 한숨",
+        "en": "Forged Empyrean's Sigh",
+        "ja": "偽仙の嘆き",
+        "zh": "赝仙的嗟叹"
+      },
+      "quantity": "46",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41400344",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1586,
+        "y": 3566,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "565275cdc0795519c98663b064cd7cf1b94bef01350deb3133569b2274d05a7b"
+    },
+    {
+      "id": "item_42601640",
+      "name": {
+        "ko": "악장의 흔적이 남은 그루터기",
+        "en": "Miasmic Branch",
+        "ja": "瘴痕の枯れ木",
+        "zh": "瘴痕残株"
+      },
+      "quantity": "60",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_42601640",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 2378,
+        "y": 3566,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "f637642ce450a42e19f7dbe1aa7d685bd96726bcc930b96b48390c8b83d6cace"
+    },
+    {
+      "id": "item_43021011",
+      "name": {
+        "ko": "손상 날개 편광체",
+        "en": "Broken Wing Polarizer",
+        "ja": "残翼の偏光体",
+        "zh": "残翼偏振体"
+      },
+      "quantity": "6",
+      "width": 35,
+      "height": 35,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021011",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 4030,
+        "y": 4220,
+        "width": 35,
+        "height": 35
+      },
+      "sourceKind": "community",
+      "sha256": "ffbd6f970cbef1fa234b606d51de9255435cb3309209c648270ce073f3a793fe"
+    },
+    {
+      "id": "item_43021012",
+      "name": {
+        "ko": "한쪽 날개 편광체",
+        "en": "Monowing Polarizer",
+        "ja": "片翼の偏光体",
+        "zh": "单翼偏振体"
+      },
+      "quantity": "8",
+      "width": 55,
+      "height": 55,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021012",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1626,
+        "y": 4220,
+        "width": 55,
+        "height": 55
+      },
+      "sourceKind": "community",
+      "sha256": "f53443a0bac2f3111c82e51be10a9e2f7de4c01b7f5b4225f31fb8aa24efb056"
+    },
+    {
+      "id": "item_43021013",
+      "name": {
+        "ko": "여러 날개 편광체",
+        "en": "Polywing Polarizer",
+        "ja": "多翼の偏光体",
+        "zh": "多翼偏振体"
+      },
+      "quantity": "6",
+      "width": 62,
+      "height": 62,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021013",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 770,
+        "y": 4094,
+        "width": 62,
+        "height": 62
+      },
+      "sourceKind": "community",
+      "sha256": "e354cf53eb527b3cf3bad6c9d53ce7783288c37cdaffadebbf6bb9a9f6ac6fdf"
+    },
+    {
+      "id": "item_43021014",
+      "name": {
+        "ko": "중첩 날개 편광체",
+        "en": "Layered Wing Polarizer",
+        "ja": "重翼の偏光体",
+        "zh": "叠翼偏振体"
+      },
+      "quantity": "20",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021014",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 68,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "497688a3076312548e5672bd0d9befbdbb4987cd581e0a30507f9c05621b67cc"
+    },
+    {
+      "id": "item_41400354",
+      "name": {
+        "ko": "천연륜 잔해",
+        "en": "Remnant of the Wheel",
+        "ja": "天演の円環の空蝉",
+        "zh": "演轮残蜕"
+      },
+      "quantity": "26",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41400354",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 2246,
+        "y": 3566,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "4daf6912730ee7f86c5c7651d693bb7b0c3e2a0a43823d1b8583d64b9fe82ff0"
+    },
+    {
+      "id": "item_41100071",
+      "name": {
+        "ko": "저주파수 메카 성핵",
+        "en": "LF Mech Core",
+        "ja": "低音・鋭稜音核",
+        "zh": "低频锐棱声核"
+      },
+      "quantity": "6",
+      "width": 44,
+      "height": 44,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100071",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3939,
+        "y": 4220,
+        "width": 44,
+        "height": 44
+      },
+      "sourceKind": "community",
+      "sha256": "c35f33383004d379777eda4f055449432022f5144e211682f7977a95757b0d15"
+    },
+    {
+      "id": "item_41100072",
+      "name": {
+        "ko": "중주파수 메카 성핵",
+        "en": "MF Mech Core",
+        "ja": "中音・鋭稜音核",
+        "zh": "中频锐棱声核"
+      },
+      "quantity": "6",
+      "width": 49,
+      "height": 49,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100072",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3352,
+        "y": 4220,
+        "width": 49,
+        "height": 49
+      },
+      "sourceKind": "community",
+      "sha256": "0904e38454e54b39f53e2613c358a34d9fb9b5328512438e5bea357a74e424f2"
+    },
+    {
+      "id": "item_41100073",
+      "name": {
+        "ko": "고주파수 메카 성핵",
+        "en": "HF Mech Core",
+        "ja": "高音・鋭稜音核",
+        "zh": "高频锐棱声核"
+      },
+      "quantity": "10",
+      "width": 58,
+      "height": 58,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100073",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3555,
+        "y": 4158,
+        "width": 58,
+        "height": 58
+      },
+      "sourceKind": "community",
+      "sha256": "c51157f4da069a77b704467a595c54eae4b3904c2d9a66a19ffe3388d54450e9"
+    },
+    {
+      "id": "item_41100074",
+      "name": {
+        "ko": "전주파수 메카 성핵",
+        "en": "FF Mech Core",
+        "ja": "広域・鋭稜音核",
+        "zh": "全频锐棱声核"
+      },
+      "quantity": "12",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100074",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1652,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "019c15ce004bd9557e47394e5a56be830135d58bd9ea165ca42f1934d161dde0"
+    },
+    {
+      "id": "item_41400264",
+      "name": {
+        "ko": "태양을 노리는 손끝",
+        "en": "Suncoveter's Reach",
+        "ja": "太陽を覬う者の指先",
+        "zh": "觊日者的指尖"
+      },
+      "quantity": "46",
+      "width": 63,
+      "height": 63,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41400264",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3663,
+        "y": 4028,
+        "width": 63,
+        "height": 63
+      },
+      "sourceKind": "community",
+      "sha256": "c5bcca82be240e6642f710dc00739de29e35fb871d26af1a0db806de56ff01eb"
+    },
+    {
+      "id": "item_42601500",
+      "name": {
+        "ko": "물망초",
+        "en": "Forget-Me-Not",
+        "ja": "ワスレナグサ",
+        "zh": "勿忘我"
+      },
+      "quantity": "60",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_42601500",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1718,
+        "y": 3434,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "722d1c4d71fe5f2596c3632e92b7ba201d896df2a196c56e25e54d0ad1303db4"
+    },
+    {
+      "id": "item_43021031",
+      "name": {
+        "ko": "긁어모은 현",
+        "en": "Spliced String",
+        "ja": "継ぎ接ぎの弦",
+        "zh": "拼凑的弦线"
+      },
+      "quantity": "6",
+      "width": 49,
+      "height": 49,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021031",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3250,
+        "y": 4220,
+        "width": 49,
+        "height": 49
+      },
+      "sourceKind": "community",
+      "sha256": "c19de470ee353c4141b4cabafe7b1addfe99ebc4b78c3551f959824b35e65d14"
+    },
+    {
+      "id": "item_43021032",
+      "name": {
+        "ko": "끊어진 현",
+        "en": "Broken String",
+        "ja": "途切れた弦",
+        "zh": "断续的弦线"
+      },
+      "quantity": "8",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021032",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 200,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "07570f6ea03d93203309eec6ba8275ae201526f3646c3e4289ac6b94ea187625"
+    },
+    {
+      "id": "item_43021033",
+      "name": {
+        "ko": "응고된 현",
+        "en": "Solidified String",
+        "ja": "凝固した弦",
+        "zh": "凝固的弦线"
+      },
+      "quantity": "6",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021033",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 266,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "ae14f0bcd42e181e99086080fd1a63182ad81faf70d5bc031c3c847e108fd6f3"
+    },
+    {
+      "id": "item_43021034",
+      "name": {
+        "ko": "노래하는 현",
+        "en": "Melodic String",
+        "ja": "歌うような弦",
+        "zh": "如歌的弦线"
+      },
+      "quantity": "20",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021034",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 332,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "7500acf1c51c0287c964e12e01dc47221c9b216677bb7c87c486dc21c15278d7"
+    },
+    {
+      "id": "item_41400304",
+      "name": {
+        "ko": "되묻는 우리",
+        "en": "We Who Question",
+        "ja": "問いかける私たち",
+        "zh": "质问的我们"
+      },
+      "quantity": "26",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41400304",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1322,
+        "y": 3434,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "f29bf039ed79423995fcced234dfbfb3105552665d43e6a239973bf43bffed5f"
+    },
+    {
+      "id": "item_41100061",
+      "name": {
+        "ko": "저주파수 엑소스웜 성핵",
+        "en": "LF Exoswarm Core",
+        "ja": "低音・機花音核",
+        "zh": "低频隧花声核"
+      },
+      "quantity": "6",
+      "width": 50,
+      "height": 50,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100061",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 2994,
+        "y": 4220,
+        "width": 50,
+        "height": 50
+      },
+      "sourceKind": "community",
+      "sha256": "7bc633ead8da067b9622c94618fc57ff13c3ed8563cf2dd40210b93994b46346"
+    },
+    {
+      "id": "item_41100062",
+      "name": {
+        "ko": "중주파수 엑소스웜 성핵",
+        "en": "MF Exoswarm Core",
+        "ja": "中音・機花音核",
+        "zh": "中频隧花声核"
+      },
+      "quantity": "6",
+      "width": 55,
+      "height": 55,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100062",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1683,
+        "y": 4220,
+        "width": 55,
+        "height": 55
+      },
+      "sourceKind": "community",
+      "sha256": "c844a78fc25257c2f3f65039ef7e96a0389f750745cbb8fc6579b9fe9629bf0c"
+    },
+    {
+      "id": "item_41100063",
+      "name": {
+        "ko": "고주파수 엑소스웜 성핵",
+        "en": "HF Exoswarm Core",
+        "ja": "高音・機花音核",
+        "zh": "高频隧花声核"
+      },
+      "quantity": "10",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100063",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1520,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "377c2a2a6fa9a42a5520c1036afd24eb0a255fd0131ecc607e406d54845caf6e"
+    },
+    {
+      "id": "item_41100064",
+      "name": {
+        "ko": "전주파수 엑소스웜 성핵",
+        "en": "FF Exoswarm Core",
+        "ja": "広域・機花音核",
+        "zh": "全频隧花声核"
+      },
+      "quantity": "12",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100064",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1586,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "fb52c5332d2e1e820503f0e15cd7d7aaa5403b9edde3d9ed436bff63893bb184"
+    },
+    {
+      "id": "item_42601390",
+      "name": {
+        "ko": "서리꽃",
+        "en": "Rimewisp",
+        "ja": "霜の便り",
+        "zh": "霜信花"
+      },
+      "quantity": "60",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_42601390",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1058,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "800ab3e50eea1424d7122796186c90b8d3b4e4bafc0ee17e206e895a6d32faf0"
+    },
+    {
+      "id": "item_43021021",
+      "name": {
+        "ko": "결손 응집 연소체",
+        "en": "Incomplete Combustor",
+        "ja": "欠損した集燃体",
+        "zh": "缺损聚燃体"
+      },
+      "quantity": "6",
+      "width": 34,
+      "height": 34,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021021",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 4067,
+        "y": 4220,
+        "width": 34,
+        "height": 34
+      },
+      "sourceKind": "community",
+      "sha256": "63dc1241a3cf1da10dcbd19b5431bce605e9048844855f7ab10fe82633769ef1"
+    },
+    {
+      "id": "item_43021022",
+      "name": {
+        "ko": "잔음 응집 연소체",
+        "en": "Aftertune Combustor",
+        "ja": "余韻の集燃体",
+        "zh": "余音聚燃体"
+      },
+      "quantity": "8",
+      "width": 46,
+      "height": 46,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021022",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3798,
+        "y": 4220,
+        "width": 46,
+        "height": 46
+      },
+      "sourceKind": "community",
+      "sha256": "37bb04e9a51fc79201d3a1457911a7b40fcd3a4fe91b66a3fc514c4bf18de00d"
+    },
+    {
+      "id": "item_43021023",
+      "name": {
+        "ko": "잔향 응집 연소체",
+        "en": "Remnant Combustor",
+        "ja": "残響の集燃体",
+        "zh": "残响聚燃体"
+      },
+      "quantity": "6",
+      "width": 58,
+      "height": 58,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021023",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3435,
+        "y": 4158,
+        "width": 58,
+        "height": 58
+      },
+      "sourceKind": "community",
+      "sha256": "6d65e1dcb557b44bfdc2df01285e275ce711e2107acb7ce604e3d78628ae1c3b"
+    },
+    {
+      "id": "item_43021024",
+      "name": {
+        "ko": "울림 응집 연소체",
+        "en": "Reverb Combustor",
+        "ja": "反響の集燃体",
+        "zh": "回音聚燃体"
+      },
+      "quantity": "20",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_43021024",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 134,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "df485763a7584d82139764abab8b556380da39421563809ab2c7eecdd7e59c6c"
+    },
+    {
+      "id": "item_41400124",
+      "name": {
+        "ko": "무망의 깃털",
+        "en": "Dreamless Feather",
+        "ja": "無妄の羽",
+        "zh": "无妄之羽"
+      },
+      "quantity": "26",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41400124",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3170,
+        "y": 2576,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "35af2184398f375fecc14c241da5cead9a7776214353fe7a0616a205f70728d5"
+    },
+    {
+      "id": "item_41100091",
+      "name": {
+        "ko": "저주파수 기관 인형 중추 핵심",
+        "en": "LF Autopuppet Kernel",
+        "ja": "低音・機傀の機心",
+        "zh": "低频机傀枢芯"
+      },
+      "quantity": "4",
+      "width": 51,
+      "height": 51,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100091",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 2732,
+        "y": 4220,
+        "width": 51,
+        "height": 51
+      },
+      "sourceKind": "community",
+      "sha256": "ddbfdbd345ce41cdc9c0538f713fc75df9ebc554b13689d8ebede532d4133941"
+    },
+    {
+      "id": "item_41100092",
+      "name": {
+        "ko": "중주파수 기관 인형 중추 핵심",
+        "en": "MF Autopuppet Kernel",
+        "ja": "中音・機傀の機心",
+        "zh": "中频机傀枢芯"
+      },
+      "quantity": "12",
+      "width": 60,
+      "height": 60,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100092",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1552,
+        "y": 4158,
+        "width": 60,
+        "height": 60
+      },
+      "sourceKind": "community",
+      "sha256": "085fb04080d1435e9bcc9b7824822f324d01b318c1a52003e14513659afdb58d"
+    },
+    {
+      "id": "item_41100093",
+      "name": {
+        "ko": "고주파수 기관 인형 중추 핵심",
+        "en": "HF Autopuppet Kernel",
+        "ja": "高音・機傀の機心",
+        "zh": "高频机傀枢芯"
+      },
+      "quantity": "12",
+      "width": 58,
+      "height": 58,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100093",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3795,
+        "y": 4158,
+        "width": 58,
+        "height": 58
+      },
+      "sourceKind": "community",
+      "sha256": "d01a363b481f3142fc5d7a2d75bfd82ad0bf5f3cf514fd9d24006a9d6d7bebb0"
+    },
+    {
+      "id": "item_41100094",
+      "name": {
+        "ko": "전주파수 기관 인형 중추 핵심",
+        "en": "FF Autopuppet Kernel",
+        "ja": "広域・機傀の機心",
+        "zh": "全频机傀枢芯"
+      },
+      "quantity": "4",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100094",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3698,
+        "y": 3500,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "9d0d39e3a21b842c83724e14b8032c7cdb354565cad6bec407e388af49e079e4"
+    },
+    {
+      "id": "item_41400334",
+      "name": {
+        "ko": "화염에 새겨진 정의",
+        "en": "Solidarity's Loneflame",
+        "ja": "孤焔に刻まれし義",
+        "zh": "孤焰酬义"
+      },
+      "quantity": "46",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41400334",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1256,
+        "y": 3500,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "94a22ca879053049f1f550eb0aa6e704429b5c04686e41ee31724e1f1de6b5cd"
+    },
+    {
+      "id": "item_42601630",
+      "name": {
+        "ko": "염원을 기울인 꽃",
+        "en": "Bloom of Hearkening",
+        "ja": "想念華",
+        "zh": "倾念华"
+      },
+      "quantity": "60",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_42601630",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 2312,
+        "y": 3566,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "e34b0a558a836f81adffb3ca8681c1b5e4fd640ca72db3873dfd6c32c1ed72a3"
+    },
+    {
+      "id": "item_41100041",
+      "name": {
+        "ko": "저주파수 취합 성핵",
+        "en": "LF Polygon Core",
+        "ja": "低音・螺旋音核",
+        "zh": "低频聚方声核"
+      },
+      "quantity": "4",
+      "width": 63,
+      "height": 63,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100041",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3208,
+        "y": 4028,
+        "width": 63,
+        "height": 63
+      },
+      "sourceKind": "community",
+      "sha256": "944a8b5ce775698e1e64117a4993d64b55bcc36763f8b01236cc24f373822b2b"
+    },
+    {
+      "id": "item_41100042",
+      "name": {
+        "ko": "중주파수 취합 성핵",
+        "en": "MF Polygon Core",
+        "ja": "中音・螺旋音核",
+        "zh": "中频聚方声核"
+      },
+      "quantity": "12",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100042",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3170,
+        "y": 2972,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "e52d5a8799df3e9e1bd063beea203743571c2e5aea33482d759538288011037e"
+    },
+    {
+      "id": "item_41100043",
+      "name": {
+        "ko": "고주파수 취합 성핵",
+        "en": "HF Polygon Core",
+        "ja": "高音・螺旋音核",
+        "zh": "高频聚方声核"
+      },
+      "quantity": "12",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100043",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3236,
+        "y": 2972,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "6d2df2a389f31e69904785932668b9838fdec871a83159f0c6fb060e13ca0e86"
+    },
+    {
+      "id": "item_41100044",
+      "name": {
+        "ko": "전주파수 취합 성핵",
+        "en": "FF Polygon Core",
+        "ja": "広域・螺旋音核",
+        "zh": "全频聚方声核"
+      },
+      "quantity": "4",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100044",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 3302,
+        "y": 2972,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "df67a51b0a01d8feb26d3d006aea8fdfd81609c7cd6c2d0a1be18381c12c7cd2"
+    },
+    {
+      "id": "item_41400244",
+      "name": {
+        "ko": "심해에 남은 침식물",
+        "en": "Abyssal Husk",
+        "ja": "深海の残蝕",
+        "zh": "深海余蚀"
+      },
+      "quantity": "46",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41400244",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 860,
+        "y": 3236,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "708f4e51bf16c97d29dac40dffb643b646219360b8208844f5c2476754714426"
+    },
+    {
+      "id": "item_42601310",
+      "name": {
+        "ko": "영원한 여름",
+        "en": "Summer Flower",
+        "ja": "夏長き花",
+        "zh": "长夏花"
+      },
+      "quantity": "60",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_42601310",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 2906,
+        "y": 3236,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "f31c8f7151c87c052435ac322c2b0bb7004a4d2a057458f29f0defd91ad85212"
+    },
+    {
+      "id": "item_42601290",
+      "name": {
+        "ko": "달맞이꽃",
+        "en": "Sliverglow Bloom",
+        "ja": "ルナフローラ",
+        "zh": "见月花"
+      },
+      "quantity": "60",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_42601290",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 200,
+        "y": 3236,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "d6bb22f99aa12b605fcc501426c0cca7e956a3640cae5b9dd259649962e5b135"
+    },
+    {
+      "id": "item_41100081",
+      "name": {
+        "ko": "파손된 엑소스웜 펜던트",
+        "en": "Fractured Exoswarm Pendant",
+        "ja": "破損したメカパーツチェーン",
+        "zh": "破损隧体绳链"
+      },
+      "quantity": "6",
+      "width": 61,
+      "height": 61,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100081",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 2794,
+        "y": 4094,
+        "width": 61,
+        "height": 61
+      },
+      "sourceKind": "community",
+      "sha256": "10d5fbd2b127a60313961ba513c80cc100c737ed9f331ef0b6c2ab23b3ef7ac6"
+    },
+    {
+      "id": "item_41100082",
+      "name": {
+        "ko": "허름한 엑소스웜 펜던트",
+        "en": "Worn Exoswarm Pendant",
+        "ja": "古びたメカパーツチェーン",
+        "zh": "残旧隧体绳链"
+      },
+      "quantity": "6",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100082",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1718,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "a453ecee06d510a9caf274b92791ecffceea41b00ca8bcfc6f909c9ab89adfb2"
+    },
+    {
+      "id": "item_41100083",
+      "name": {
+        "ko": "흠집이 있는 엑소스웜 펜던트",
+        "en": "Chipped Exoswarm Pendant",
+        "ja": "微損したメカパーツチェーン",
+        "zh": "微损隧体绳链"
+      },
+      "quantity": "10",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100083",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1784,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "84734344a378d1b9b8362d20551c41703fd4ecf1b8d969703a25d5d2e88a1fbe"
+    },
+    {
+      "id": "item_41100084",
+      "name": {
+        "ko": "완전한 엑소스웜 펜던트",
+        "en": "Intact Exoswarm Pendant",
+        "ja": "完全なメカパーツチェーン",
+        "zh": "完整隧体绳链"
+      },
+      "quantity": "12",
+      "width": 64,
+      "height": 64,
+      "sourceUrl": "https://wuthering.th.gl/db/inventory/item_41100084",
+      "assetSourceUrl": "https://cdn.th.gl/wuthering-waves/icons/icons.d7e6c8d99477e0c413781cbe711fbc15.webp",
+      "sourceRect": {
+        "x": 1850,
+        "y": 3302,
+        "width": 64,
+        "height": 64
+      },
+      "sourceKind": "community",
+      "sha256": "7d4d27d84bf847e774df35afe604294edc5d69a4ffbacd4a63d001d05b0d8f65"
+    }
+  ]
+}

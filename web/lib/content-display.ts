@@ -24,3 +24,10 @@ export function detailText(text:string|undefined){
 export function displayTitle(entry:Entry,locale:Locale){const local=entry.title[locale];return !placeholderText(local)?local:entry.title[entry.sourceLocale||'ko']&&!placeholderText(entry.title[entry.sourceLocale||'ko'])?entry.title[entry.sourceLocale||'ko']:entry.sourceTitle;}
 export function displaySummary(entry:Entry,locale:Locale){return cleanDisplayText(entry.summary[locale])||cleanDisplayText(entry.summary[entry.sourceLocale||'ko'])||'';}
 export const originalName=(name:Localized,locale:Locale)=>cleanDisplayText(name[locale])||(['ko','en','ja','zh'] as const).map(l=>cleanDisplayText(name[l])).find(Boolean)||'';
+
+/** Schedule widgets already show exact clocks and the visitor timezone. */
+export function displayTimingNote(entry:Entry,locale:Locale){
+ const note=cleanDisplayText(entry.timingNote?.[locale]);
+ if(!note)return '';
+ return note.split('\n').filter(line=>!/^\s*(?:Asia\/[A-Za-z_]+|UTC\s*[+−-]\s*\d{1,2}(?::\d{2})?)\s*$/.test(line)).filter(line=>!(entry.startAt&&entry.endAt&&/^[\d\s/:.,–—~～至年月日時时分()·+−-]+(?:UTC\s*\+\d+|日本標準時)?$/.test(line.replace(/(?:Oct|Nov|Dec|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep)\.?/g,'')))).join('\n');
+}

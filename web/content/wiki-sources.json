@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+  "countNotes": [
+    "Counts include historical/future entries and repeated profiles across services.",
+    "Traits without native icons account for direct icons and the current exact game/trait/value registry.",
+    "Stats without direct icons exclude any future runtime fallback added after this snapshot.",
+    "Entries without profiles count pickup entries only and are coverage gaps, not all necessarily user-visible defects."
+  ],
+  "games": [
+    {
+      "gameId": "wuwa",
+      "name": "Wuthering Waves",
+      "sources": [
+        {
+          "url": "https://www.prydwen.gg/wuthering-waves/characters/lucilla",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "skills",
+            "resonance-chain",
+            "icons"
+          ],
+          "finding": "Lucilla identifies Glacio/Rectifier and includes skills; avoid treating target build stats as base stats. Material payload was null in the downloaded profile."
+        },
+        {
+          "url": "https://wutheringwaves.fandom.com/wiki/Lucilla",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "traits",
+            "materials"
+          ],
+          "finding": "Search-index result only; no body-read claim."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "bluearchive",
+      "name": "Blue Archive",
+      "sources": [
+        {
+          "url": "https://github.com/SchaleDB/SchaleDB",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "stats",
+            "materials",
+            "bosses",
+            "icons"
+          ],
+          "finding": "Repository provides Blue Archive data/assets. It is archived, so reuse unchanged native UI icons, not current-roster facts without a newer source."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "nikke",
+      "name": "GODDESS OF VICTORY: NIKKE",
+      "sources": [
+        {
+          "url": "https://www.prydwen.gg/nikke/guides/team-building",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "mechanics",
+            "icons"
+          ],
+          "finding": "Burst types and elemental system described, including actual element reference artwork."
+        },
+        {
+          "url": "https://www.prydwen.gg/nikke/characters",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "characters"
+          ],
+          "finding": "Current character directory indexed; individual skill/base-stat profiles require exact costume identity."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "endfield",
+      "name": "Arknights: Endfield",
+      "sources": [
+        {
+          "url": "https://www.prydwen.gg/arknights-endfield/characters",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "icons"
+          ],
+          "finding": "Character directory contains class, element and weapon filter icons."
+        },
+        {
+          "url": "https://endfield.wiki.gg/wiki/Character",
+          "sourceKind": "community",
+          "sourceAccess": "blocked",
+          "capabilities": [],
+          "finding": "HTTP403. No content or image verification claimed."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "umamusume",
+      "name": "Umamusume: Pretty Derby",
+      "sources": [
+        {
+          "url": "https://gametora.com/ja/umamusume/characters/105101-nishino-flower",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "stats",
+            "skills",
+            "materials",
+            "icons"
+          ],
+          "finding": "Exact costume record has 3/5star base stats, growth rates, terrain/distance/style aptitude grades, skills and awakening material quantities. Do not apply one costume to another."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "nte",
+      "name": "Neverness to Everness",
+      "sources": [
+        {
+          "url": "https://wikiwiki.jp/nte/キャラクター",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "stats",
+            "icons"
+          ],
+          "finding": "Native wiki markup is accessible, with Lv80 HP/ATK/DEF, attributes, Arc affinities and character/attribute image references."
+        },
+        {
+          "url": "https://www.prydwen.gg/neverness-to-everness/characters",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "characters",
+            "traits"
+          ],
+          "finding": "Character directory indexed; full individual data not reviewed in this audit."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "gfl2",
+      "name": "GIRLS’ FRONTLINE 2: EXILIUM",
+      "sources": [
+        {
+          "url": "https://gfl2.help/en/characters",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "icons"
+          ],
+          "finding": "Directory exposes exact classes, phase types and ammo types with native image links."
+        },
+        {
+          "url": "https://www.iopwiki.com/wiki/GFL2",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "mechanics",
+            "icons"
+          ],
+          "finding": "Article distinguishes classes, phases, weapons and enhancement systems; includes native phase icons and links to doll/items databases."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "arknights",
+      "name": "Arknights",
+      "sources": [
+        {
+          "url": "https://arknights.wikiru.jp/",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "service-events",
+            "characters"
+          ],
+          "finding": "Japanese community wiki body accessible; current Japan schedule must not be copied to China."
+        },
+        {
+          "url": "https://arknights.wiki.gg/wiki/Promotion_material",
+          "sourceKind": "community",
+          "sourceAccess": "blocked",
+          "capabilities": [],
+          "finding": "HTTP403; search index describes promotion materials but the body was not available."
+        },
+        {
+          "url": "https://arknights.wiki.gg/wiki/Operator/List",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "traits",
+            "characters"
+          ],
+          "finding": "Search-index evidence only. Exact operator profile and level/promotion basis still required before stat import."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "genshin",
+      "name": "Genshin Impact",
+      "sources": [
+        {
+          "url": "https://wikiwiki.jp/genshinwiki/キャラクター育成",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "stats",
+            "materials",
+            "icons"
+          ],
+          "finding": "Native wiki markup includes base-stat definitions and per-character ascension/talent material image references. Do not confuse the baseline CRIT/ER values with ascension bonuses."
+        },
+        {
+          "url": "https://genshin-impact.fandom.com/wiki/Character/Ascension",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "materials"
+          ],
+          "finding": "Search index exposes ascension material table headings; body not claimed as reviewed."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "hsr",
+      "name": "Honkai: Star Rail",
+      "sources": [
+        {
+          "url": "https://www.prydwen.gg/star-rail/stats",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "stats",
+            "traits",
+            "icons"
+          ],
+          "finding": "Stat table has HP/ATK/DEF/Speed/energy and native element/path/stat icons. It reports last updated04March2026, so newer characters need individual current source."
+        },
+        {
+          "url": "https://starrailstation.com/en/characters",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "icons"
+          ],
+          "finding": "Character directory includes native element/path icons and exact individual record links."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "zzz",
+      "name": "Zenless Zone Zero",
+      "sources": [
+        {
+          "url": "https://www.prydwen.gg/zenless/guides/agents-attributes",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "stats",
+            "traits",
+            "icons"
+          ],
+          "finding": "Explains HP/ATK/DEF/Impact/critical/anomaly stats and attributes/specialties; guide dated15December2024 is unsuitable as sole evidence for new special attributes."
+        },
+        {
+          "url": "https://zzz.gg/characters-stats",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "stats",
+            "traits"
+          ],
+          "finding": "Indexed Lv60 stat comparison; body not read in this audit."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "trickcal",
+      "name": "Trickcal:Chibi Go",
+      "sources": [
+        {
+          "url": "https://www.prydwen.gg/trickcal/guides/beginner-guide",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "mechanics",
+            "icons"
+          ],
+          "finding": "Includes personality/race system and actual race image links. Exact live Korean/global apostle profiles remain to enrich."
+        },
+        {
+          "url": "https://wikiwiki.jp/thetrickal/性格解説",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "traits",
+            "icons"
+          ],
+          "finding": "Japanese community personality article indexed with native personality image references; not an official localization guarantee."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "hi3",
+      "name": "Honkai Impact 3rd",
+      "sources": [
+        {
+          "url": "https://wikiwiki.jp/houkai/戦乙女",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "stats",
+            "mechanics"
+          ],
+          "finding": "Native wiki markup distinguishes BIO/PSY/MECH/QUA/IMG/SD from Physical/Fire/Ice/Lightning and explains base-stat and equipment influence."
+        },
+        {
+          "url": "https://marisaimpact.com/classroom/dmgelement",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "mechanics",
+            "icons"
+          ],
+          "finding": "Community guide includes exact damage categories, an image and relationship with bleed/ignite. Version8.2scope."
+        },
+        {
+          "url": "https://honkaiimpact3.fandom.com/wiki/Types",
+          "sourceKind": "community",
+          "sourceAccess": "blocked",
+          "capabilities": [],
+          "finding": "Reader reported restricted URL; search index visible but body not read."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "stellasora",
+      "name": "Stella Sora",
+      "sources": [
+        {
+          "url": "https://www.kaiden.gg/stella-sora/characters/firenze/",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "skills",
+            "stats",
+            "icons"
+          ],
+          "finding": "Exact Firenze guide body available. Conflicting HP across databases requires matching level/progression basis; do not publish missing DEF0 as real stat."
+        },
+        {
+          "url": "https://stellasora.wikiru.jp/",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "characters"
+          ],
+          "finding": "Japanese fan wiki indexed; no full-page review claim."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    },
+    {
+      "gameId": "reverse1999",
+      "name": "Reverse: 1999",
+      "sources": [
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/cornerstone",
+          "sourceKind": "community",
+          "sourceAccess": "body",
+          "capabilities": [
+            "traits",
+            "skills",
+            "stats",
+            "icons"
+          ],
+          "finding": "Exact Cornerstone record identifies Mineral/Reality, rarity6, skills and status conditions. Global record is not evidence for China service schedule."
+        },
+        {
+          "url": "https://www.gacha.gg/reverse-1999/characters/cornerstone",
+          "sourceKind": "community",
+          "sourceAccess": "search-index",
+          "capabilities": [
+            "traits",
+            "skills"
+          ],
+          "finding": "Indexed alternate exact character record; full body not read in this audit."
+        }
+      ],
+      "auditScope": "Source reachability and existing stored profile/icon coverage; not a completed import or visual audit of every item."
+    }
+  ]
+}
