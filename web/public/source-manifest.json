@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "ff862e4713ab4917cbb7762f99c09388353a03eaf550d78e0171887f808ece13",
+  "fingerprint": "a8e97af8fc41d1fa187e8a453ffcc126f0d3d7e57833b6d53af05e6f7b799e4c",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -216,7 +216,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "76d6c6766b5d98d9991e5f65a9186e6b9c26b7adc99bcf6706719268f155ac7d"
+      "sha256": "28faea7e0f4f7ea4e9ef996a4b100b1979e28f3255845976e3317181c96f0893"
     },
     {
       "path": "app/chatgpt-auth.ts",
