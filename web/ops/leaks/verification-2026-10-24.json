@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-10-24T04:33:09.335384+00:00",
+  "production": "https://gagether.wiki",
+  "deepLink": "https://gagether.wiki/ko/games/wuwa?tab=leaks",
+  "siteSourceCommit": "10c85ff70d72e9897f4c66d3cfb822c8977ff16b",
+  "githubCodeCommit": "6b4981e5dc27e640d281db3c69501b15bb0df29d",
+  "deploymentId": "appgdep_6adc33e5776c8191a768123217892071",
+  "deploymentStatus": "succeeded",
+  "sourceFingerprint": "7cc7f51b908ac3ea594caddb373ef20f81570b99872fcfbf0971fd8cec52482e",
+  "tests": {
+    "node": {
+      "passed": 351,
+      "failed": 0
+    },
+    "typescript": "passed",
+    "ownerEditorSQLiteValidation": "passed",
+    "refreshPythonTests": 6,
+    "freshWorkerAPIRoutesVerified": 35,
+    "staleWorkerNegativeTest": "passed",
+    "githubWebCI": "https://github.com/tomochelly/gagether-android/actions/runs/40062536112",
+    "githubAndroidCI": "https://github.com/tomochelly/gagether-android/actions/runs/40062536068",
+    "githubDeploymentDriftCI": "https://github.com/tomochelly/gagether-android/actions/runs/40062536111",
+    "githubCodeChecks": "all succeeded"
+  },
+  "liveReadback": {
+    "operationsVersion": 50,
+    "tabs": 18,
+    "items": 6,
+    "games": [
+      "genshin",
+      "hsr",
+      "wuwa",
+      "zzz"
+    ],
+    "allItemsFourLocales": true,
+    "originalImages": 1,
+    "automaticItems": 5,
+    "localizedAutomaticItemsRetainAutomaticFlag": true,
+    "historyRevisions": [
+      2,
+      1
+    ],
+    "withoutSpoilerAcknowledgementHTTP": 428,
+    "apiRobots": "noindex, nofollow, noarchive"
+  },
+  "automaticCollection": {
+    "cadenceHours": 6,
+    "sources": [
+      "https://meicho.marcsimz.com/feed/",
+      "https://gachanews.net/feed/"
+    ],
+    "feeds": "both fetched and parsed in production",
+    "scheduledFastRefreshFinishedAt": "2026-10-24T04:29:04.371Z",
+    "scheduledLeakStageObserved": true,
+    "scheduledOutcome": "partial",
+    "machineTranslationProduction": "HTTP 429; not marked successful; no quota bypass",
+    "currentItemsTranslation": "all six items have editorial/original ko/en/ja/zh summaries",
+    "futureMachineTranslation": "wired and tested with fixtures; production service rate limit unresolved"
+  },
+  "dataProtection": {
+    "entryCountBefore": 2100,
+    "entryCountAfter": 2102,
+    "removedEntryIds": 0,
+    "ownerEditedEntries": 11,
+    "ownerEditedContentUnchanged": true,
+    "settingsUnchanged": true,
+    "ordinaryConcurrentRefresh": "two entries added and other automatic facts changed by existing refresh; leak API never writes ordinary entries/editorial"
+  },
+  "browser": {
+    "warningBeforeConsent": true,
+    "noLeakImagesBeforeConsent": true,
+    "hiyukiImageLoadedNativeSize": [
+      800,
+      422
+    ],
+    "koEnJaZhDisplay": "verified",
+    "gameSwitchResetsConsent": "verified",
+    "reloadResetsConsent": "verified",
+    "otherGameNeverDisplaysHiyuki": "verified",
+    "warningScreenshot": "gagether-leaks-warning-verified.jpg"
+  },
+  "limits": [
+    "Only four games currently have researched public leak sources; eighteen tabs do not mean complete coverage.",
+    "Only Hiyuki exact render is currently published; other current cards lack exact source images.",
+    "Free translation provider returned HTTP429 from production; automated target-language completion is not guaranteed.",
+    "Actual phone viewport and native Android gesture were not tested; existing app WebView shares the web interface.",
+    "Local managed preview was blocked by an existing process; JSDOM and deployed-browser checks were used."
+  ]
+}
