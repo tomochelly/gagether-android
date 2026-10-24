@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "3572c16b9e6c211270c489f29b8331798bcace2cb227e1127b1b4221c7a72bac",
+  "fingerprint": "6e7d9914715455ac6e28409b5599d7416fdb5b3b5396f28125d8cef12da3d8a9",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -996,7 +996,7 @@
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "167243f3f7ff5e316defd2b52ed1dec3ff80237d5684c548f8dcf83135433337"
+      "sha256": "f7b95a180886ba498d1f41b671eac7a386f6122a6f5817b6c4434e56d4b7f21c"
     },
     {
       "path": "content/community-current-research.json",
@@ -1344,7 +1344,7 @@
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "c9a1421d6fe6c149aa6a7ccbdb182036c24fcaebfb0788f8334c3e584444467c"
+      "sha256": "31d5387135fb92ea9462302bbd44baa541f0986b098d32814cb6dff5d4e753e3"
     },
     {
       "path": "lib/collaboration-sources.ts",
