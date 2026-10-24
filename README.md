@@ -21,24 +21,24 @@
 
 **시작하기:** 웹에서 로그인 없이 둘러볼 수 있습니다. Android 설치 파일과 소스 압축은 구분해서 제공하며, 현재 배포 상태는 아래 안내와 Releases에서 확인할 수 있습니다. 알림은 기기 예약 방식입니다.
 
-## 1.0.0 다운로드
+## 1.0.3 다운로드
 
-출시용 키로 서명한 **[GAGETHER 1.0.0 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.0)**를 배포합니다. 릴리스의 Assets에서 `GAGETHER-1.0.0.apk`를 다운로드하세요. versionName 1.0.0 / versionCode 7이며, release 단위 테스트·APK/AAB 빌드·APK 서명 검증을 통과했습니다. Play Store/Galaxy Store 출시는 아직 완료하지 않았습니다.
+출시용 키로 서명한 **[GAGETHER 1.0.3 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.3)**를 배포합니다. 릴리스의 Assets에서 `GAGETHER-1.0.3.apk`를 다운로드하세요. versionName 1.0.3 / versionCode 10이며, release 단위 테스트·APK/AAB 빌드·APK 서명 검증을 통과했습니다. Play Store/Galaxy Store 출시는 아직 완료하지 않았습니다.
 
 ## 포트폴리오 소개
 
 게임과 서비스별로 흩어진 공지·일정을 한곳에서 확인하려는 문제에서 시작한 개인 기획 프로젝트입니다. 기획자가 정보 우선순위와 이용자 피드백에 따른 개선 방향을 정하고, AI 도구를 활용해 구현·조사·테스트를 진행했습니다. 기획·구현·검증의 범위는 문서로 구분하고, 실기기 검증이나 성능 측정이 남은 부분도 함께 기록합니다.
 
-이 저장소는 Android Java 기반 WebView, 네이티브 예약 알림, RemoteViews 위젯과 데이터 검증을 다룹니다. 웹 서비스는 별도의 React/TypeScript 코드이며 운영 DB·서명 키·게임 이미지 원본은 여기에 포함하지 않습니다. 핵심 설계는 웹과 앱의 역할 분리, 실제 서버와 표시 언어의 분리, 불확실한 일정의 알림 제외, 사용자 데이터 보존입니다. 구현 범위와 미검증 항목을 아래 문서에서 구분합니다.
+이 저장소는 Android Java 기반 WebView, 네이티브 예약 알림, RemoteViews 위젯과 데이터 검증을 다룹니다. 웹 서비스는 `web/`의 React/TypeScript 코드로 함께 공개하며 운영 DB·개인 서명 키·비공개 사용자 자료는 포함하지 않습니다. [웹 포트폴리오와 공개 범위](web/PORTFOLIO.md)에서 구현·검증 범위를 확인할 수 있습니다. 핵심 설계는 웹과 앱의 역할 분리, 실제 서버와 표시 언어의 분리, 불확실한 일정의 알림 제외, 사용자 데이터 보존입니다. 구현 범위와 미검증 항목을 아래 문서에서 구분합니다.
 
-가게더 가챠 게임 캘린더의 Android 앱입니다. [gagether.wiki](https://gagether.wiki)의 모바일 화면에 기기 알림과 홈 화면 위젯을 결합합니다. Android 8.0(API 26) 이상을 지원하며 Android 16(API 36)을 대상으로 빌드합니다. 1.0.0 APK는 출시용 키로 서명한 release 빌드입니다. Play Store/Galaxy Store 출시는 아직 완료하지 않았습니다.
+가게더 가챠 게임 캘린더의 Android 앱입니다. [gagether.wiki](https://gagether.wiki)의 모바일 화면에 기기 알림과 홈 화면 위젯을 결합합니다. Android 8.0(API 26) 이상을 지원하며 Android 16(API 36)을 대상으로 빌드합니다. 1.0.3 APK는 출시용 키로 서명한 release 빌드입니다. Play Store/Galaxy Store 출시는 아직 완료하지 않았습니다.
 
 소스 코드와 빌드 문서는 이 저장소에, 설치 파일은 GitHub Releases에 둡니다. GitHub의 `Source code (zip/tar.gz)`는 소스 압축이며 설치 파일이 아닙니다. [배포·서명 안내](docs/RELEASE.md) · [변경 이력](CHANGELOG.md)
 
 ## 설치 및 설정
 
-1. [1.0.0 릴리스](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.0)의 Assets에서 `GAGETHER-1.0.0.apk`를 다운로드합니다. `Source code`는 설치 파일이 아닙니다. 스토어 밖 APK에는 Galaxy의 설치 출처 경고가 표시될 수 있습니다.
-2. 앱을 열면 로그인 없이 일정 화면이 표시됩니다. 1.0.0의 앱 ID는 `app.patchwork.radar`로, 기존 `.beta` 앱과 별도로 설치됩니다. 베타의 설정·개인 기록은 자동 이전되지 않습니다.
+1. [1.0.3 릴리스](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.3)의 Assets에서 `GAGETHER-1.0.3.apk`를 다운로드합니다. `Source code`는 설치 파일이 아닙니다. 스토어 밖 APK에는 Galaxy의 설치 출처 경고가 표시될 수 있습니다.
+2. 앱을 열면 로그인 없이 일정 화면이 표시됩니다. 1.0.3의 앱 ID는 `app.patchwork.radar`로, 기존 `.beta` 앱과 별도로 설치됩니다. 베타의 설정·개인 기록은 자동 이전되지 않습니다.
 3. 대시보드에서 **내 게임**을 등록한 뒤 하단 **앱 설정 → 내 게임과 연동**을 켭니다. 별도 게임 선택도 가능합니다.
 4. **일정 알림**을 켜고 알림 권한을 허용합니다. 픽업·무기·이벤트·패키지별 시작/종료 알림을 켜고, 3일·2일·1일·1시간 전·정시 또는 직접 입력(0~7일)을 각각 선택합니다. 야간 시간의 알림은 생략합니다.
 5. **테스트 알림**으로 권한을 확인하고 **홈 화면 위젯 추가**를 누릅니다. 위젯 크기를 늘리면 스크롤 가능한 일정이 표시됩니다.
@@ -49,7 +49,7 @@
 
 - 앱 본문: `https://gagether.wiki/mobile`
 - 공통 데이터: 기존 `/api/data`의 사용자 편집이 적용된 결과.
-- 네이티브 일정: `/api/mobile/data?locale=ko`의 읽기 전용 요약. 실제 서버별 canonicalRegion을 따르며 중국 서버는 명일방주·소녀전선2만 독립적으로 지원합니다.
+- 네이티브 일정: `/api/mobile/data?locale=ko`의 읽기 전용 요약. 실제 서버별 canonicalRegion을 따르며 중국 서버는 명일방주·소녀전선2·리버스1999를 독립적으로 지원합니다.
 - 열린 앱은 20초마다 변경 여부를 확인합니다. 화면 소스 배포도 버전 변경을 감지하여 다시 읽습니다. 앱 복귀 시에도 동기화합니다.
 - 백그라운드는 Android JobScheduler로 15분 주기의 동기화를 요청합니다. 실행 시각은 OS와 절전 상태가 결정하며 정확한 15분 간격을 보장하지 않습니다.
 - 알림은 기기 예약 알림입니다. 네트워크 연결 여부와 별개로 저장된 일정을 사용하지만 24시간 이상 동기화되지 않은 데이터의 알림은 억제합니다. 데이터에서 삭제·변경된 일정은 다음 동기화에서 취소·재예약합니다.
@@ -85,7 +85,7 @@ JDK 17, Android SDK Platform 36, Build Tools 35.0.0이 필요합니다.
 
 기존 알림 규칙 테스트에 혼합 서버 피드 수신, 중국 서버 허용 범위, 게임별 서버 선택, 잘못된 데이터 거부 검사를 추가했습니다. 로컬 검증의 정확한 결과는 `docs/VALIDATION.md`에 기록합니다. GitHub Actions의 결과는 저장소 업로드 후 별도로 확인해야 합니다.
 
-실제 Galaxy/에뮬레이터와 브라우저 화면 검수는 이 환경에서 수행하지 못했습니다. 설치 후 다음 항목을 확인해야 합니다.
+Android 1.0.3은 API30·36 에뮬레이터에서 알람 예약과 실제 알림 수신을 확인했습니다. 웹 검증과 자동 갱신 결과는 [검증 기록](web/ops/catalog-expansion/verification-20261024.json)에 남깁니다. 실제 Galaxy/Fold의 절전·런처 동작은 아래 항목을 추가 확인해야 합니다.
 
 | 확인 환경 | 확인 항목 |
 | --- | --- |

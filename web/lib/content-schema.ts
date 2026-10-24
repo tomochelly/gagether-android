@@ -25,10 +25,13 @@ export const entityProfileSchema=z.object({
  groups:z.array(z.object({title:localized,body:localized,sourceKind,sourceUrls:z.array(z.string().url()).max(10).optional(),rows:z.array(statRow).max(30).optional()})).max(18),
  sources:z.array(reference).min(1).max(10),verifiedAt:z.string().datetime({offset:true}),notes:z.array(localized).max(10).optional()
 });
+const textAppearance=z.object({titleSize:z.number().min(12).max(56).optional(),bodySize:z.number().min(10).max(32).optional(),lineHeight:z.number().min(1.2).max(2.4).optional()}).strict();
+export const localizedTextStyle=z.object({ko:textAppearance.optional(),en:textAppearance.optional(),ja:textAppearance.optional(),zh:textAppearance.optional()}).strict();
 const longLocalized=z.object({ko:z.string().max(40000),en:z.string().max(40000),ja:z.string().max(40000),zh:z.string().max(40000)});
-export const contentBlockSchema=z.discriminatedUnion('type',[z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),type:z.literal('text'),title:localized.optional(),body:longLocalized}).strict(),z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),type:z.literal('image'),asset}).strict()]);
+export const contentBlockSchema=z.discriminatedUnion('type',[z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),type:z.literal('text'),title:localized.optional(),body:longLocalized,textStyle:localizedTextStyle.optional()}).strict(),z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),type:z.literal('image'),asset}).strict()]);
 const sourceBody=z.object({title:z.string().max(400).optional(),locale,sourceUrl:z.string().url().max(1500),text:z.string().max(200000),images:z.array(z.string().url().max(2000)).max(20),links:z.array(z.object({label:z.string().max(240),url:z.string().url().max(2000)}).strict()).max(40).optional(),bodyHash:z.string().regex(/^[a-f0-9]{64}$/),importedAt:z.string().datetime({offset:true}),sourceKind:z.enum(["official","community"])}).strict();
 export const entrySchema=z.object({
+ textStyle:localizedTextStyle.optional(),
  contentRole:z.enum(['entity','activity','notice']).optional(),
  sourceBodies:z.object({ko:sourceBody.optional(),en:sourceBody.optional(),ja:sourceBody.optional(),zh:sourceBody.optional()}).strict().optional(),
  contentBlocks:z.array(contentBlockSchema).max(50).refine(rows=>new Set(rows.map(r=>r.id)).size===rows.length,'Duplicate content block ID').optional(),

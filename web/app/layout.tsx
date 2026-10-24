@@ -24,15 +24,16 @@ import "./feedback.css";
 import "./content-refresh.css";
 import "./mobile-density.css";
 import "./practical-details.css";
+import "./mobile-editor-refinement.css";
 import {requestLocale} from '@/lib/request-locale';
 import {brandOrigin} from '@/lib/brand';
 import {displayBootstrap} from '@/lib/display-preferences';
-import {websiteStructuredData} from '@/lib/seo';
+import {websiteStructuredData,homeMetadata} from '@/lib/seo';
 export const viewport:Viewport={width:'device-width',initialScale:1,viewportFit:'cover',themeColor:'#f5f7f2'};
 export const metadata: Metadata = {
  metadataBase: new URL(brandOrigin),
  title: "GAGETHER | 가게더 · 가챠 게임 캘린더",
- description: "가챠 게임 캘린더 가게더(GAGETHER). 15개 게임의 픽업, 무기, 이벤트, 판매 패키지와 업데이트 일정. 한국어 · English · 日本語 · 中文.",
+ description: homeMetadata.description,
  icons: { icon: "/favicon.svg" },
 };
 export default async function RootLayout({children}:Readonly<{children:React.ReactNode}>) {

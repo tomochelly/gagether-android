@@ -1,8 +1,17 @@
 import './load-typescript.mjs';
 import {test} from 'node:test';import assert from 'node:assert/strict';import React,{act} from 'react';import {renderToString} from 'react-dom/server';import {hydrateRoot} from 'react-dom/client';import {JSDOM} from 'jsdom';
 const {default:sitemap}=await import('../app/sitemap.ts');const {catalogMetadata}=await import('../lib/seo.ts');const {catalogPath,catalogLocation,catalogLocaleHeaders,supportedLocales}=await import('../lib/catalog-paths.ts');const {games,byId}=await import('../lib/games.ts');const {default:Radar}=await import('../components/radar.tsx');const {emptyCatalog}=await import('../lib/initial-shell.ts');
-test('69 discoverable URLs have reciprocal language links and self canonicals',()=>{
- const pages=sitemap();assert.equal(pages.length,81);assert.equal(new Set(pages.map(p=>p.url)).size,81);
+test('every hreflang alternative preserves the same actual service and every expanded game is discoverable',async()=>{
+ const {effectiveRegion}=await import('../lib/presentation.ts'),{defaultRegionForLocale}=await import('../lib/visitor-locale.ts'),{siteIntro,seoCopy}=await import('../lib/seo.ts');const pages=sitemap();
+ for(const game of games)for(const actual of new Set(game.regions.map(r=>effectiveRegion(game,r))))for(const locale of supportedLocales){
+  const metadata=catalogMetadata(locale,{id:game.id,name:game.name[locale]},false,actual);assert.ok(pages.some(p=>p.url===metadata.alternates.canonical));
+  for(const other of supportedLocales){const url=new URL(metadata.alternates.languages[other]);const resolved=effectiveRegion(game,url.searchParams.get('region')||defaultRegionForLocale(other));assert.equal(resolved,actual,game.id+' '+locale+' → '+other);assert.ok(pages.some(p=>p.url===url.href));}
+ }
+ assert.ok(seoCopy.ko.description.includes(String(games.length)));for(const name of ['림버스 컴퍼니','듀엣 나이트 어비스','hololive Dreams'])assert.ok(siteIntro.ko.body.includes(name));
+ assert.ok(pages.filter(p=>p.url.includes('region=cn')).every(p=>/games\/(arknights|gfl2|reverse1999)\?/.test(p.url)));
+});
+test('every actual game service has reciprocal language links and self canonicals',()=>{
+ const pages=sitemap();assert.ok(pages.length>=81);assert.equal(new Set(pages.map(p=>p.url)).size,pages.length);
  for(const locale of supportedLocales)for(const game of [undefined,...games]){
   const meta=catalogMetadata(locale,game?{id:game.id,name:game.name[locale]}:undefined);const url='https://gagether.wiki'+catalogPath(locale,game?.id);assert.equal(meta.alternates.canonical,url);assert.equal(meta.alternates.languages[locale],url);assert.equal(pages.find(p=>p.url===url).alternates.languages[locale],url);
   assert.ok(meta.description.length>30);assert.equal(meta.robots.index,true);assert.equal(meta.keywords,undefined);if(game)assert.ok(meta.title.includes(game.name[locale]));

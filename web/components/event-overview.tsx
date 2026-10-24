@@ -1,4 +1,5 @@
 'use client';
+import {textAppearance,textAppearanceStyle,authoredField} from '@/lib/text-appearance';
 import {allowsRewards} from '@/lib/content-roles';
 import {EntryEdit} from './owner-inline';
 import {useState,type CSSProperties} from 'react';
@@ -37,9 +38,9 @@ function EventTile({entry:e,locale,now,onOpen,compact=false}:{entry:Entry;locale
   <button type="button" onClick={()=>onOpen(e)}>
    {art.image&&failed!==art.image&&<span className="event-poster"><ArtworkMedia art={e} alt="" locale={locale} fitPreview="focus" onUnavailable={()=>setFailed(art.image!)}/></span>}
    <span className="event-tile-content">
-    <GameBadge gameId={e.gameId} locale={locale}/><strong className="event-title"><span>{entryTitle(e,locale)}</span>{!compact&&<ArrowUpRight size={17}/>}</strong>
+    <GameBadge gameId={e.gameId} locale={locale}/><strong className="event-title" style={textAppearanceStyle(textAppearance(e,locale),'title')}><span>{entryTitle(e,locale)}</span>{!compact&&<ArrowUpRight size={17}/>}</strong>
     <EventBadges entry={e} locale={locale} compact={compact}/>
-    {!compact&&<><span className="event-summary">{eventTextForLocale(e.summary,locale)}</span><EventRewards entry={e} locale={locale}/></>}
+    {!compact&&<><span className="event-summary" style={textAppearanceStyle(textAppearance(e,locale))}>{authoredField(e,'summary')?e.summary[locale]:eventTextForLocale(e.summary,locale)}</span><EventRewards entry={e} locale={locale}/></>}
     <EventClock entry={e} locale={locale} now={now} compact={compact}/>
    </span>
   </button>

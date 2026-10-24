@@ -22,7 +22,7 @@
 
 ## Release status
 
-Android companion for [GAGETHER](https://gagether.wiki), a multilingual calendar for gacha-game banners, events and shop packages. **[GAGETHER 1.0.0 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.0)** is available as a release-signed build (versionCode 7). Download `GAGETHER-1.0.0.apk` from Assets; source archives are not installers. Release unit tests, APK/AAB builds and APK signature verification passed. Google Play/Galaxy Store publication is not complete.
+Android companion for [GAGETHER](https://gagether.wiki), a multilingual calendar for gacha-game banners, events and shop packages. **[GAGETHER 1.0.3 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.3)** is available as a release-signed build (versionCode 10). Download `GAGETHER-1.0.3.apk` from Assets; source archives are not installers. Release unit tests, APK/AAB builds and APK signature verification passed. Google Play/Galaxy Store publication is not complete.
 
 Application ID `app.patchwork.radar` installs separately from the older `.beta` app. Settings and personal records are not migrated automatically.
 
@@ -39,7 +39,7 @@ Schedules and announcements are scattered across games and services. GAGETHER co
 - Optional character-inspired reminder text, explicitly fan-written; factual fallback for unreviewed characters/languages.
 
 ## Engineering decisions
-Android Java, WebView/WebMessage, JobScheduler, AlarmManager and RemoteViews form the native layer. The hosted UI is a separate React/TypeScript service. This repository contains the Android companion, not the production web backend or its database.
+Android Java, WebView/WebMessage, JobScheduler, AlarmManager and RemoteViews form the native layer. The hosted UI is a separate React/TypeScript service. This repository contains the Android companion and the React/TypeScript service source in `web/`. Production databases, private signing keys and private user data are excluded. See [Web portfolio and publication scope](web/PORTFOLIO.md) and the [verification record](web/ops/catalog-expansion/verification-20261024.json).
 - Display language does not redefine a game's service schedule.
 - Unverified, forecast and date-only schedules do not become exact alarms.
 - No updater credentials or owner-session secrets belong in the app.

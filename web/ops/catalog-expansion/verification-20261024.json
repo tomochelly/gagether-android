@@ -1,22 +1,23 @@
 {
   "web": {
-    "version": 122,
-    "nativeSource": "66aa7ea44d89f36f057af1c788af970bb512deaa",
-    "fingerprint": "29b2a3010cb5f6626d9ee2280114fa5ca5286615225cec412ca52c9f7626fbfe",
+    "version": 123,
+    "nativeSource": "049eb6636fe96432d712c847d37afaec0118fd77",
+    "fingerprint": "071cbaa4dd1a46b68f14b6d25768a4fda44db54c71f54179fabae62b69db8751",
     "url": "https://gagether.wiki",
-    "operationsVersion": 47
+    "operationsVersion": 48,
+    "deployedAt": "2026-10-24T01:30:16.296067+00:00"
   },
   "pipeline": {
-    "startedAt": "2026-10-24T00:33:06.212Z",
-    "finishedAt": "2026-10-24T00:41:07.372Z",
+    "startedAt": "2026-10-24T00:46:11.036Z",
+    "finishedAt": "2026-10-24T00:53:54.546Z",
     "outcome": "partial",
-    "successful": 261,
-    "failed": 31,
+    "successful": 264,
+    "failed": 28,
     "total": 292,
     "statusCounts": {
-      "ok": 261,
+      "ok": 264,
       "limited": 4,
-      "error": 8,
+      "error": 5,
       "unconfirmed": 18,
       "review": 1
     },
@@ -26,33 +27,23 @@
       "effective": 2100
     },
     "noticesAdded": 0,
-    "bodyImport": {
-      "importedDocuments": 5,
-      "unchangedDocuments": 15,
-      "changedEntries": [
-        "feed-arknights-4797",
-        "arknights-global-20261008-daily-rewards",
-        "arknights-global-20261008-terra-login",
-        "nte-kr-notice-114863492",
-        "reverse1999-global-atomic-heart-event-20260723",
-        "reverse1999-global-atomic-heart-twins-20260723",
-        "arknights-cn-20261008-standard",
-        "quick-gfl2-kr-697640745127903411"
-      ]
+    "testedWebVersion": 122,
+    "authentication": "GitHub Actions OIDC; full resumable continuation loop completed",
+    "githubRun": {
+      "id": 40044957120,
+      "attempt": 2,
+      "jobId": 120729620695,
+      "url": "https://github.com/tomochelly/gagether-android/actions/runs/40044957120/attempts/2"
     },
-    "newGames": "complete",
-    "testedWebVersion": 121,
-    "requests": 39,
-    "authentication": "existing authenticated Site updater; GitHub OIDC accepted separately",
-    "note": "The complete production run used v121. v122 additionally bounds Korean/regional sources to 3 per checkpoint, covered by real SQLite source-batch and continuation tests. No full v122 run is claimed here."
+    "note": "Partial source results remain distinct from complete success. Existing data preserved; final automatic/effective readback completed."
   },
   "preservation": {
     "previousEntries": 1872,
     "removedEntries": 0,
     "automaticEntries": 2100,
     "effectiveEntries": 2100,
-    "ownerEditedRecords": 10,
-    "ownerProtectedFields": 53,
+    "ownerEditedRecords": 9,
+    "ownerProtectedFields": 45,
     "ownerMismatches": 0,
     "settingsPreserved": true,
     "dnaActivitySections": 51,
@@ -62,17 +53,24 @@
       "ja": 51,
       "zh": 51
     },
-    "falseVersionCompensationOnActivities": 0
+    "falseVersionCompensationOnActivities": 0,
+    "comparison": "Before-addition automatic/effective differences (excluding editor metadata) compared with post-v123 effective data",
+    "explicitEditorRecords": 8,
+    "explicitEditorFields": 44
   },
   "tests": {
-    "web": 324,
+    "web": 328,
     "refreshCallerPython": 6,
     "typescript": true,
     "editorSQLiteRestoreAndAuth": true,
     "androidEmulatorApiLevels": [
       30,
       36
-    ]
+    ],
+    "mobileMountedTouch": true,
+    "typographyLocaleIsolation": true,
+    "exactOwnerLineBreaks": true,
+    "invalidTextStyleAndStaleRevisionRejected": true
   },
   "android": {
     "version": "1.0.3",
@@ -81,11 +79,35 @@
     "sha256": "7aa75d24bf64aef76baddebe245b5ce022426ed917f8c921a2a70ceb534d0f4b"
   },
   "limitations": [
-    "Full production refresh is partial: 8 errors, 4 limited feeds, 18 unconfirmed broadcasts and 1 title review.",
+    "Full production refresh is partial: 5 errors, 4 limited feeds, 18 unconfirmed broadcasts and 1 title review.",
     "Future character numerical profiles are not all automatically discovered and filled.",
     "Some exact locale/outfit artwork remains absent; no substitute image is fabricated.",
     "Public asset restoration from this execution client's unauthenticated HTTP was blocked by Cloudflare; authenticated R2 digest validation and production browser display passed.",
     "GitHub commits do not automatically deploy Sites source; normal data updates need no deployment.",
-    "Physical manufacturer battery/background notification behavior was not tested."
-  ]
+    "Physical manufacturer battery/background notification behavior was not tested.",
+    "Physical phone edge-swipe behavior and system gesture interaction were not tested; mounted DOM touch tests passed.",
+    "Google keyword ranking, Search Console coverage and reindex submission have not been verified.",
+    "Current tracked-source credential pattern scan does not constitute a full Git history or secret-scanning audit."
+  ],
+  "seo": {
+    "sitemapURLs": 125,
+    "uniqueURLs": 125,
+    "privateURLs": 0,
+    "robotsHTTP": 200,
+    "sitemapHTTP": 200,
+    "koreanTitle": "가게더 | 픽업 캘린더 · 게임 픽업·복각·이벤트 일정",
+    "sameActualServiceHreflang": true,
+    "searchConsoleVerified": false,
+    "googleRankingVerified": false
+  },
+  "ui": {
+    "leftEdgeSwipe": "mounted DOM touch events passed",
+    "modalEscapeIsolation": true,
+    "verticalScrollIsolation": true,
+    "wideScreenUnlock": true,
+    "ownerFontSize": true,
+    "ownerBlankLinesAndIndentation": true,
+    "productionBrowserHeadAndCatalog": true,
+    "physicalTouchscreenTested": false
+  }
 }

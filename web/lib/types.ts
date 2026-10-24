@@ -45,8 +45,11 @@ export interface Game {
  scheduleRegions?:Region[];regionAliases?:Partial<Record<Region,Region>>;
  regionLabels?:Partial<Record<Region,Localized>>;
 }
-export type ContentBlock={id:string;type:'text';title?:Localized;body:Localized}|{id:string;type:'image';asset:ArtworkAsset};
+export interface TextAppearance {titleSize?:number;bodySize?:number;lineHeight?:number}
+export type LocalizedTextStyle=Partial<Record<Locale,TextAppearance>>;
+export type ContentBlock={id:string;type:'text';title?:Localized;body:Localized;textStyle?:LocalizedTextStyle}|{id:string;type:'image';asset:ArtworkAsset};
 export interface Entry extends EntityArtwork {
+ textStyle?:LocalizedTextStyle;
  contentRole?:'entity'|'activity'|'notice';
  sourceBodies?:Partial<Record<Locale,SourceBody>>;
  contentBlocks?:ContentBlock[];

@@ -320,6 +320,17 @@ for(const game of games){
  const duplicate=await editor.POST(new Request(req.url,{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({target:'entry',id,revision:0,create:true,changes})}));assert.equal(duplicate.status,409);
  const reset=await editor.DELETE(new Request(origin+'/api/editor',{method:'DELETE',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({target:'entry',id,revision:1})}));assert.equal(reset.status,200);
 }
+// Real owner API persistence for locale-isolated typography and literal line breaks.
+const textId='custom-text-appearance',textEntry={...fixture,id:textId,kind:'event',hidden:true,title:{...fixture.title,ko:'첫째 줄\n둘째 줄'},summary:{...fixture.summary,ko:'첫 줄\n\n  들여쓴 줄'},textStyle:{ko:{titleSize:24,bodySize:17,lineHeight:1.8},ja:{titleSize:20}}};
+let textResponse=await editor.POST(new Request(origin+'/api/editor?view=entry',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({target:'entry',id:textId,revision:0,create:true,changes:Object.fromEntries(Object.entries(textEntry).filter(([key])=>!['id','verifiedAt'].includes(key)))})}));assert.equal(textResponse.status,200);let textValue=(await textResponse.json()).entry;
+assert.deepEqual(textValue.textStyle,textEntry.textStyle);assert.equal(textValue.summary.ko,textEntry.summary.ko);assert.equal(textValue.title.ko,textEntry.title.ko);
+const updatedTextStyle={...textValue.textStyle,ja:{bodySize:19}};
+textResponse=await editor.POST(request({target:'entry',id:textId,revision:1,changes:{textStyle:updatedTextStyle}}));assert.equal(textResponse.status,200);
+let textRead=await editor.GET(new Request(origin+'/api/editor?id='+textId));textValue=(await textRead.json()).entry;assert.deepEqual(textValue.textStyle.ko,textEntry.textStyle.ko);assert.equal(textValue.textStyle.ja.bodySize,19);assert.equal(textValue.summary.ko,textEntry.summary.ko);
+assert.equal((await save({target:'entry',id:textId,revision:2,changes:{textStyle:{ko:{titleSize:999}}}})).status,400);
+assert.equal((await save({target:'entry',id:textId,revision:1,changes:{textStyle:{ko:{titleSize:12}}}})).status,409);
+assert.equal((await editor.DELETE(new Request(origin+'/api/editor',{method:'DELETE',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({target:'entry',id:textId,revision:2})}))).status,200);
+console.log(JSON.stringify({typographyOwnerRoundtrip:true,localeIsolation:true,exactLineBreaks:true,invalidStyleRejected:true,staleEditRejected:true}));
 globalThis.__patchworkTest.identity=null;assert.equal((await editor.GET(new Request(origin+'/api/editor?id=custom-inline-wuwa'))).status,403);
 console.log(JSON.stringify({inlineScopedOwnerReadback:true,all15Games:true,fourLocaleLongDetails:true,photosPreserved:true,duplicateCreateBlocked:true,privateAndReversible:true}));
 

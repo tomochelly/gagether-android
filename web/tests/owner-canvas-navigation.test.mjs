@@ -31,7 +31,7 @@ test('owner buttons are on the real hydrated canvas across 15 games and 4 langua
     const control=tile.querySelector('.owner-edit-small');assert.ok(control,game.id+' '+locale+' needs an edit control');
     await act(async()=>{control.click();await import('../components/owner-inline-form.tsx');});
     const form=tile.querySelector('.owner-inline-form');assert.ok(form,game.id+' opens in its own tile');assert.equal(document.querySelector('.editor-inspector'),null);
-    assert.equal(form.querySelector('.editor-field input').value,entries.find(e=>e.id===form.closest('[data-owner-entry]').dataset.ownerEntry).title[locale]);
+    assert.equal(form.querySelector('.editor-field textarea').value,entries.find(e=>e.id===form.closest('[data-owner-entry]').dataset.ownerEntry).title[locale]);
     assert.equal(form.closest('button'),null,'no nested interactive editor inside a button');
     await act(async()=>form.querySelector('header>button').click());assert.equal(document.querySelector('.owner-inline-form'),null);
    }

@@ -5,6 +5,7 @@ import React,{act} from 'react';
 import {renderToString} from 'react-dom/server';
 
 import {JSDOM} from 'jsdom';
+const {editorText}=await import('../lib/editor-i18n.ts');
 const {default:Radar}=await import('../components/radar.tsx');
 const {games}=await import('../lib/games.ts');
 const {effectiveRegion}=await import('../lib/presentation.ts');
@@ -30,20 +31,20 @@ test('real owner canvas: add, retry, consecutive creation, library game/text edi
   await act(async()=>{root=hydrateRoot(document.getElementById('root'),React.createElement(Radar,props),{onRecoverableError:e=>recovered.push(e.message)});});
   await act(async()=>{document.querySelector('.editor-toolbar button:nth-of-type(2)').click();await import('../components/editor-panel.tsx');});
   assert.ok(document.querySelector('.editor-inspector'),'Add opens the editor');
-  assert.ok(document.querySelector('.editor-inspector .editor-field input'),'New item fields render');
+  assert.ok(document.querySelector('.editor-inspector textarea[aria-label="'+editorText.ko.title+'"]'),'New item fields render');
   assert.equal(document.querySelector('.owner-settings-inline').parentElement.tagName,'MAIN','Editor must not be buried in reorderable sections');
-  let title=document.querySelector('.editor-inspector .editor-field input');
+  let title=document.querySelector('.editor-inspector textarea[aria-label="'+editorText.ko.title+'"]');
   await act(async()=>document.querySelector('.editor-footer button.editor-primary').click());assert.match(document.querySelector('.editor-error').textContent,/title/);
   await act(async()=>typeValue(title,'New pickup'));
   failSave=true;await act(async()=>{document.querySelector('.editor-footer button.editor-primary').click();document.querySelector('.editor-footer button.editor-primary').click();});assert.equal(posts.length,1);assert.equal(title.value,'New pickup');assert.match(document.querySelector('.editor-error').textContent,/Temporary failure/);
   failSave=false;await act(async()=>document.querySelector('.editor-footer button.editor-primary').click());assert.equal(posts[1].create,true);assert.equal(posts[1].revision,0);const first=posts[1].id;
-  await act(async()=>document.querySelector('.editor-toolbar button:nth-of-type(2)').click());title=document.querySelector('.editor-inspector .editor-field input');assert.equal(title.value,'');await act(async()=>typeValue(title,'Another new pickup'));await act(async()=>document.querySelector('.editor-footer button.editor-primary').click());assert.equal(posts[2].create,true);assert.notEqual(posts[2].id,first);
+  await act(async()=>document.querySelector('.editor-toolbar button:nth-of-type(2)').click());title=document.querySelector('.editor-inspector textarea[aria-label="'+editorText.ko.title+'"]');assert.equal(title.value,'');await act(async()=>typeValue(title,'Another new pickup'));await act(async()=>document.querySelector('.editor-footer button.editor-primary').click());assert.equal(posts[2].create,true);assert.notEqual(posts[2].id,first);
   await act(async()=>document.querySelector('.editor-header button:last-child').click());
   const addHere=()=>[...document.querySelectorAll('.owner-edit-small')].find(b=>b.textContent==='여기에 새 항목 추가');
   const inlineIds=[];
   for(let i=0;i<2;i++){
    await act(async()=>{addHere().click();await import('../components/owner-inline-form.tsx');});const form=document.querySelector('.owner-inline-form');inlineIds.push(form.closest('[data-owner-entry]').dataset.ownerEntry);
-   await act(async()=>typeValue(form.querySelector('.editor-field input'),'Inline created '+i));await act(async()=>form.querySelector('.editor-primary').click());assert.equal(document.querySelector('.owner-inline-form'),null);assert.equal(posts.at(-1).create,true);
+   await act(async()=>typeValue(form.querySelector('textarea[aria-label="'+editorText.ko.title+'"]'),'Inline created '+i));await act(async()=>form.querySelector('.editor-primary').click());assert.equal(document.querySelector('.owner-inline-form'),null);assert.equal(posts.at(-1).create,true);
   }
   assert.notEqual(inlineIds[0],inlineIds[1]);
   // Sidebar game edits must close the mobile menu and remove inert before opening.

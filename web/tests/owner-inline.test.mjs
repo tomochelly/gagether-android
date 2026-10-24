@@ -8,6 +8,7 @@ const {entryDiff,mergeInlineDraft,saveInlineEntry}=await import('../lib/inline-e
 const {entrySchema,safeExtras}=await import('../lib/content-schema.ts');
 const {catalogEntry}=await import('../lib/catalog-index.ts');
 const {OwnerInlineProvider,EntryEdit}=await import('../components/owner-inline.tsx');
+const {editorText}=await import('../lib/editor-i18n.ts');
 const {default:Form}=await import('../components/owner-inline-form.tsx');
 const {CatalogContext}=await import('../components/catalog-context.tsx');
 const {catalogGames,catalogUi}=await import('../lib/editorial.ts');
@@ -53,7 +54,7 @@ test('mounted inline editor: input retained on failure, double submit blocked, r
  try{
   await act(async()=>root.render(provide(React.createElement(Form,props))));
   // Native event dispatch drives React's actual textarea handler.
-  const input=document.querySelector('textarea');
+  const input=document.querySelector('textarea[aria-label="'+editorText.ko.summary+'"]');
   await act(async()=>{Object.getOwnPropertyDescriptor(dom.window.HTMLTextAreaElement.prototype,'value').set.call(input,'Typed detail\nSecond line');input.dispatchEvent(new dom.window.Event('input',{bubbles:true}));input.dispatchEvent(new dom.window.Event('change',{bubbles:true}));});
   assert.equal(input.value,'Typed detail\nSecond line');
   let button=document.querySelector('.owner-inline-actions .editor-primary');

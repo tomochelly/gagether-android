@@ -22,7 +22,7 @@
 
 ## リリース状況
 
-[GAGETHER](https://gagether.wiki) のAndroidコンパニオンアプリです。ガチャゲームのピックアップ、イベント、販売パックの日程をまとめます。リリース用署名済み **[GAGETHER 1.0.0 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.0)**（versionCode 7）を公開しています。Assetsの `GAGETHER-1.0.0.apk` をダウンロードしてください。ソース圧縮ファイルはインストーラーではありません。release単体テスト、APK/AABビルド、APK署名検証が成功しました。Google Play／Galaxy Storeではまだ公開していません。
+[GAGETHER](https://gagether.wiki) のAndroidコンパニオンアプリです。ガチャゲームのピックアップ、イベント、販売パックの日程をまとめます。リリース用署名済み **[GAGETHER 1.0.3 APK](https://github.com/tomochelly/gagether-android/releases/tag/v1.0.3)**（versionCode 10）を公開しています。Assetsの `GAGETHER-1.0.3.apk` をダウンロードしてください。ソース圧縮ファイルはインストーラーではありません。release単体テスト、APK/AABビルド、APK署名検証が成功しました。Google Play／Galaxy Storeではまだ公開していません。
 
 アプリIDは `app.patchwork.radar` です。従来の `.beta` アプリとは別にインストールされ、設定や個人記録は自動移行されません。
 
@@ -39,7 +39,7 @@
 - 任意のキャラクター風通知文。公式台詞ではなく創作文と明記し、未検証の人物・言語では通常文を使用。
 
 ## 技術と判断
-Android側はJava、WebView/WebMessage、JobScheduler、AlarmManager、RemoteViewsを使用します。Web側は別途ホストされたReact/TypeScriptサービスです。このリポジトリにはAndroidアプリを収録し、運用Webサーバーやデータベースは含めません。
+Android側はJava、WebView/WebMessage、JobScheduler、AlarmManager、RemoteViewsを使用します。Web側は別途ホストされたReact/TypeScriptサービスです。このリポジトリにはAndroidアプリと `web/` のReact/TypeScriptサービスソースを収録しています。運用データベース・個人署名鍵・非公開ユーザーデータは含めません。[Webポートフォリオと公開範囲](web/PORTFOLIO.md)・[検証記録](web/ops/catalog-expansion/verification-20261024.json)を参照してください。
 
 表示言語とゲームのサービス地域は分離しています。未確認・予測・日付のみの予定から正確な通知時刻を生成しません。更新用認証情報や管理者セッションをアプリに埋め込まず、個人メモも公開データへ送信しません。
 

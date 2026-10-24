@@ -153,3 +153,8 @@
 
 ## Catalog expansion v45 · owner request 2026-10-24
 - Maintain 18 games including limbus, dna and holodreams through the same source-body, editorial, calendar, image and native companion paths. They use canonical global; no new independent CN schedules. DNA character/weapon acquisition is direct, not gacha; cosmetic tickets are distinct. Native Steam sources require exact app/publisher/language identities, never use Steam event metadata as gameplay windows. Preserve older APK feed compatibility and visitor settings. The catalog is live from Site v117; production/source recovery evidence and remaining limits are in ops/ADD-THREE-GAMES.ko.md.
+
+## Owner text and mobile navigation v48 · 2026-10-24
+- Preserve numeric Entry.textStyle by locale and text-block style during metadata updates. Owner-written text retains Enter, blank lines and indentation; automatic prose cleanup applies only to collected copy. Never insert raw HTML or erase another locale when resetting styles. Use existing authorization, revision/history and owner readback.
+- Mobile edge gestures open the existing drawer, never a second menu. Ignore vertical scroll, forms, image editing and dialogs; close/inert/scroll/focus restoration and Fold desktop resizing must stay correct. Retain the visible menu button for system-reserved gestures.
+- Sitemap and hreflang enumerate actual canonical services, including shared-global games, with a language-specific default path. Keep private/API routes out and never fabricate lastModified clocks. Registry expansion must update visible/SEO game counts.

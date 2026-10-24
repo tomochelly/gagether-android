@@ -1,5 +1,6 @@
 'use client';
 import {EntryEdit} from './owner-inline';
+import {textAppearance,textAppearanceStyle} from '@/lib/text-appearance';
 import type {OpenEntry} from '@/lib/pickup-detail';
 import SecondaryPickups from './secondary-pickups';
 import {useDisplayZone} from './display-time';
@@ -37,7 +38,7 @@ export default function Spotlight({slides,index,onIndex,locale,now,region,fallba
    <div className="spotlight-wash"/>{editMode&&e&&<button className="canvas-image-edit edit-chip" onClick={()=>openEditor({...editEntryTarget(e),focus:e.pickupMembers?.some(m=>m.image)?'members':'image'})}><Pencil size={14}/>{ownerUi[locale].editImage}</button>}
    <div className="spotlight-copy"><div className="spotlight-kicker"><span className="live-dot"/>{e&&isPickup(e)?pickupBannerLabel(e,now,locale):state==='active'?t.now:future?t.upcoming:t.featured}<span>{versionCaption(art||e||({} as Entry),locale)}</span></div><img className="spotlight-logo" src={game.logo} alt={game.name[locale]}/>
     <div className="spotlight-badges">{art?.pickupType&&<span className={'pickup-badge '+art.pickupType}>{art.pickupType==='new'?t.newPickup:art.pickupType==='rerun'?t.rerunPickup:art.pickupType==='mixed'?t.mixedPickup:t.unknownPickup}</span>}<span>{regionLabel(game,e?.region||region,locale,t)}</span></div>
-    <h2>{art?entryTitle(art,locale):game.name[locale]}</h2><p>{e?.summary[locale]||game.genre[locale]}</p>{e&&<SecondaryPickups entry={e} locale={locale}/>}
+    <h2 style={textAppearanceStyle(textAppearance(e,locale),'title')}>{art?entryTitle(art,locale):game.name[locale]}</h2><p style={textAppearanceStyle(textAppearance(e,locale))}>{e?.summary[locale]||game.genre[locale]}</p>{e&&<SecondaryPickups entry={e} locale={locale}/>}
     {time?<div className="spotlight-deadline"><Clock3 size={14}/><span>{future?t.starts:t.ends} <b>{time}</b> <small>{zone}</small></span></div>:e&&isPickup(e)&&<div className="spotlight-deadline"><Clock3 size={14}/><span><b>{future?pickupStartLabel(e,locale,pickupStart(e,zone)):pickupEnd(e)?t.ends+' '+pickupEnd(e)!.replaceAll('-','.'):pickupStartLabel(e,locale,pickupStart(e,zone))}</b><small>{estimate?.scope==='version'?estimateText[locale].version:forecast?estimateText[locale][estimate?.method==='cycle'?'cycle':'community']:historyText[locale].dateOnly}</small></span></div>}
     <div className="spotlight-actions"><button className="primary-button" onClick={()=>gameView&&e?onOpen(e,art?.title):onGame(game.id)}>{gameView?t.more:t.openGame}<ArrowUpRight size={18}/></button></div>
    </div>
