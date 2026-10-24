@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "9af0160ab0b31dfffe0a03c9cd60c3bc74f4706104461ecda1bc087cf1f61bb8",
+  "fingerprint": "26e864825feb3fe5a39d50450791adbdd05622abc1b1677553154a4d47da90dd",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -340,7 +340,7 @@
     },
     {
       "path": "app/wuwa-reference.css",
-      "sha256": "8b9f559ea83950f8455ad23b5b6fc05972db4478123aa0dcd3be08bbce3602d4"
+      "sha256": "99bcf6d3043966de6fd6d5e61d40b6fb202d14b19b86152f2a7cd31e1a6a3d6f"
     },
     {
       "path": "build/connector-preview-plugin.mjs",
@@ -476,7 +476,7 @@
     },
     {
       "path": "components/image-lightbox.tsx",
-      "sha256": "22efc931e6f92ac79711855d37ad548911c880eb981a5ccd6c465bd374867e75"
+      "sha256": "bc81c533883475f846e4c1e0b28f2ad403b3f3567d179a132373c19be2baf3a6"
     },
     {
       "path": "components/leaks-panel.tsx",
@@ -900,7 +900,7 @@
     },
     {
       "path": "components/wuwa-reference.tsx",
-      "sha256": "0571d736f50925c4f274b67b02a8d800581f8d000ac322ef7b0c26ee78552d4b"
+      "sha256": "97dc39a87a373a4dfe7cfb47ae713a0d289e6b0f9ecb33cb443ebb35c59fa0b3"
     },
     {
       "path": "content/additional-game-assets.json",
@@ -1085,6 +1085,10 @@
     {
       "path": "content/wuwa-reference-artwork.json",
       "sha256": "82b9ea04f8fa0eceec47955302ebb86e713562918911232693a97984fdfff47b"
+    },
+    {
+      "path": "content/wuwa-reference-framing.json",
+      "sha256": "4a58085ef7c99ae64bbd066e2a407a9c88eea805b3722da88d46615030aadb6a"
     },
     {
       "path": "content/wuwa-reference-splashes.json",
@@ -1745,6 +1749,10 @@
     {
       "path": "lib/wuwa-reference-art.ts",
       "sha256": "80398672d1492bbccb50bfcd8cfff681aa847e1db191df1c7c1541671e018383"
+    },
+    {
+      "path": "lib/wuwa-reference-framing.ts",
+      "sha256": "32bf7b8293e8144f1f2c132f3c43d7fa55f4ffd2a19192b6f11e8d506acda00a"
     },
     {
       "path": "lib/wuwa-reference-store.ts",

@@ -88,3 +88,27 @@
 @media(max-width:350px){.reference-gallery>.reference-gallery-panel{height:285px}.reference-panel-copy{left:27px;right:22px}.reference-roster .reference-panel-copy>strong{font-size:1rem}.reference-panel-copy>span{font-size:.6rem}.reference-dialog-bar nav{gap:3px}.reference-dialog-bar nav>span{min-width:48px}.reference-dialog-bar>span{font-size:.65rem}}
 @media(prefers-reduced-motion:reduce){.reference-gallery-panel,.reference-panel-copy>svg{transition:none!important}}
 .reference-art-sources{display:flex;flex-wrap:wrap;gap:0 18px}.reference-art-sources .reference-source-link{width:auto;flex:0 1 auto}
+
+/* Alternating, contiguous parallelograms: all four outside edges remain visible.
+   Padding equals half the shared slant, so adjacent row seams meet exactly. */
+.reference-roster.reference-gallery{--gallery-slant:60px;gap:0;overflow:visible;padding:0 calc(var(--gallery-slant)/2);margin-bottom:24px}
+.reference-gallery>.reference-gallery-panel{--panel-clip:polygon(var(--gallery-slant) 0,100% 0,calc(100% - var(--gallery-slant)) 100%,0 100%);width:calc(100% + var(--gallery-slant));margin-left:calc(var(--gallery-slant)/-2);clip-path:var(--panel-clip)}
+.reference-gallery>.reference-gallery-panel[data-row-wide="1"]{--panel-clip:polygon(0 0,calc(100% - var(--gallery-slant)) 0,100% 100%,var(--gallery-slant) 100%)}
+.reference-gallery-panel::before{background:linear-gradient(0deg,color-mix(in srgb,var(--bg) 94%,transparent),color-mix(in srgb,var(--bg) 82%,transparent) 16%,transparent 52%)}
+.reference-gallery-panel::after{display:none;transform:none;border:0}.reference-gallery-panel:focus-visible::after{display:block;background:color-mix(in srgb,var(--accent) 13%,transparent);box-shadow:inset 0 0 0 3px var(--accent)}
+.reference-gallery-art>.reference-full-art{mask-image:none}
+.reference-panel-copy{left:24px;right:calc(var(--gallery-slant) + 18px);bottom:20px}
+.reference-gallery-panel[data-row-wide="1"] .reference-panel-copy{left:calc(var(--gallery-slant) + 18px);right:24px}
+.reference-character-dialog .reference-hero-visual{inset:0 0 128px}
+.reference-character-dialog .reference-character-title{padding:30px 28px 20px;background:linear-gradient(0deg,var(--panel) 60%,color-mix(in srgb,var(--panel) 90%,transparent) 82%,transparent)}
+@media(max-width:1000px){.reference-character-dialog .reference-hero-visual{inset:0 0 128px}}
+@media(max-width:720px){
+ .reference-roster.reference-gallery{--gallery-slant:38px;gap:0}
+ .reference-gallery>.reference-gallery-panel[data-row-narrow="0"]{--panel-clip:polygon(var(--gallery-slant) 0,100% 0,calc(100% - var(--gallery-slant)) 100%,0 100%)}
+ .reference-gallery>.reference-gallery-panel[data-row-narrow="1"]{--panel-clip:polygon(0 0,calc(100% - var(--gallery-slant)) 0,100% 100%,var(--gallery-slant) 100%)}
+ .reference-gallery-panel[data-row-narrow="0"] .reference-panel-copy{left:18px;right:calc(var(--gallery-slant) + 12px);bottom:17px}
+ .reference-gallery-panel[data-row-narrow="1"] .reference-panel-copy{left:calc(var(--gallery-slant) + 12px);right:18px}
+ .reference-character-dialog .reference-character-hero{height:clamp(520px,78dvh,840px)}
+ .reference-character-dialog .reference-hero-visual{inset:0 0 124px}
+ .reference-character-dialog .reference-character-title{padding:28px 20px 18px}
+}
