@@ -48,3 +48,5 @@
 :root[data-theme=light] .reference-stat-icon{color:var(--text)}
 :root[data-theme=light] .reference-roster>.reference-resonator-card.is-selected{border-color:var(--content-accent,#55752f);box-shadow:inset 0 0 0 1px var(--content-accent,#55752f)}
 :root[data-theme=light] .reference-card-indicator{background:var(--content-accent,#55752f)}
+/* Definite image bounds prevent intrinsic grid sizing from cropping the original. */
+.reference-card-art>.reference-full-art,.reference-hero-visual>.reference-full-art{position:absolute;inset:0;margin:auto;min-height:0;width:100%;height:100%;object-fit:contain}

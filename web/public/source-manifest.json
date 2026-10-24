@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "9d3111d9c7322614bc78842453071ecf4992226c516ec7ef1e686d384ad7d46d",
+  "fingerprint": "6b79a03e925bf771e861f1d3a622628d01bf194387c00cec5838b5f16c727cb2",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -336,7 +336,7 @@
     },
     {
       "path": "app/wuwa-reference.css",
-      "sha256": "c2c861151a7fe15c067beb35279e111cfc9faf4ae75b68d719ec70dfc4fb4c4a"
+      "sha256": "7f8a63b654b9d5fcdf36ff264b944f83492d438e94613c8058b4fdd3f9a8c358"
     },
     {
       "path": "build/connector-preview-plugin.mjs",
