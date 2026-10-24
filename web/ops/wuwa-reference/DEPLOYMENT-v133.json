@@ -1,0 +1,20 @@
+{
+  "version": 133,
+  "sourceCommit": "c83299824a4b2123bacb9b6d42952216e857d291",
+  "runtimeFingerprint": "9af0160ab0b31dfffe0a03c9cd60c3bc74f4706104461ecda1bc087cf1f61bb8",
+  "deploymentId": "appgdep_6adc63e5f3a88191a48dad7428d0e258",
+  "versionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_0e927f8b16088191bcfe2babc6763f43",
+  "changes": "Native Android back now closes the image lightbox before the character detail. Mounted native bridge regression passes. All60 forms retain complete originals.",
+  "verification": {
+    "baselineSuitePassed": 360,
+    "additionalAffectedTestsPassed": 9,
+    "typecheck": "pass",
+    "emittedApiRoutes": 36,
+    "immutableOriginals": 58,
+    "originalBytes": 19851248,
+    "originalStorageReadback": "all58 passed",
+    "previousGithubWebCI": "success",
+    "previousGithubAndroidCI": "success"
+  },
+  "publicUrl": "https://gagether.wiki/ko/games/wuwa?tab=characters"
+}

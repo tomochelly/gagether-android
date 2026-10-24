@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "98ee633a5a11209fe7ea29298b1abd58b3327724940845b8c5d2e67947c896ba",
+  "fingerprint": "9af0160ab0b31dfffe0a03c9cd60c3bc74f4706104461ecda1bc087cf1f61bb8",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -548,7 +548,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "3495a33a8b35d95de96f598014d5f3a6bc23bd323badce09cb0a8729f528834f"
+      "sha256": "c1f337078e6b427fecd2220fe5c932ac87464edca8ad660d3b00f2a8b2b115f4"
     },
     {
       "path": "components/recurring-overview.tsx",
