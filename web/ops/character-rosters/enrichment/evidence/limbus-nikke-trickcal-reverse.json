@@ -1,0 +1,3868 @@
+{
+  "checkedAt": "2026-10-24T20:45:05.820438Z",
+  "games": [
+    {
+      "nativeNameMatches": 184,
+      "baseLocalizationGaps": [
+        "190",
+        "191",
+        "192",
+        "193",
+        "194",
+        "195"
+      ],
+      "detailReads": 190,
+      "detailFailures": [],
+      "nameSourceFailures": [],
+      "note": "All stable Prydwen IDs retained; native title+name matched by exact normalized English title and native game-localization ID. Original Prydwen full_image is never guessed from a filename.",
+      "gameId": "limbus",
+      "count": 190,
+      "koreanNames": 190,
+      "stats": 189,
+      "fullArt": 177,
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hakutou29/LimbusStoryReader/main/LocalizeLimbusCompany/EN/Personalities.json",
+          "checkedAt": "2026-10-24T20:37:14.009185Z",
+          "sha256": "71736415781a09a157ec81f4b785c3bf0c3b6dc68b02a819b06c9b83498b98a8",
+          "bytes": 33164,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hakutou29/LimbusStoryReader/main/LocalizeLimbusCompany/KR/Personalities.json",
+          "checkedAt": "2026-10-24T20:37:14.009347Z",
+          "sha256": "8d5b01c76d99fd9462b1018ee6cd3684e1bb26979d1cfcbc654a8d3da795b766",
+          "bytes": 35353,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hakutou29/LimbusStoryReader/main/LocalizeLimbusCompany/JP/Personalities.json",
+          "checkedAt": "2026-10-24T20:37:14.009466Z",
+          "sha256": "ddfa6e714d979a60191ce76bad5b0e8a51756b2ac3d7ce61a0059ba9857f8157",
+          "bytes": 37170,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/g-corp-manager-corporal-gregor/",
+          "checkedAt": "2026-10-24T20:37:14.054294Z",
+          "sha256": "d7b064fe86646d7a57ec03ca1c5b616dd814a7d11e5b4b02a6a9e77e9eb5ee9a",
+          "bytes": 337939,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-sinclair/",
+          "checkedAt": "2026-10-24T20:38:19.367922Z",
+          "sha256": "dc81a637ced25538c6136d649bff6c2b1316a87b9003ec0ec2b71e9bdde2a77d",
+          "bytes": 338416,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/wuthering-heights-butler-faust/",
+          "checkedAt": "2026-10-24T20:38:19.360069Z",
+          "sha256": "c0274d4fa1f525f7c81823188b7e221acf3e771696aa0aee6dcf5fad525a7e41",
+          "bytes": 340072,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/edgar-family-butler-ishmael/",
+          "checkedAt": "2026-10-24T20:38:19.440117Z",
+          "sha256": "af21195f1a2f04514d89b150ee25b4ea1dbd2f3840c45958a77f04eabf095747",
+          "bytes": 343557,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/edgar-family-chief-butler-ryoshu/",
+          "checkedAt": "2026-10-24T20:38:19.556703Z",
+          "sha256": "1e97339f63fb03cf9d80b70b0cb7e56144f59dcc2f3596ee26c6e1589a5fca9a",
+          "bytes": 344054,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/dawn-office-fixer-sinclair/",
+          "checkedAt": "2026-10-24T20:38:19.492092Z",
+          "sha256": "f4e86bd248d7f87ed6972764fa2ebc18bbe7a4de9206b92465b4ef99a18e5f11",
+          "bytes": 350097,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-ring-pointillist-student-yi-sang/",
+          "checkedAt": "2026-10-24T20:38:19.451882Z",
+          "sha256": "514ecca6a1d114fb4222ef923854ead6e8d131fa3c5ca743caeb68857dd037d1",
+          "bytes": 347207,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/t-corp-class-3-collection-staff-don-quixote/",
+          "checkedAt": "2026-10-24T20:38:30.327901Z",
+          "sha256": "45388c7b3a08db70b6924e91cb5e656dba8ecb139177e3a72291edc164a659e0",
+          "bytes": 347976,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/district-20-yurodivy-ryoshu/",
+          "checkedAt": "2026-10-24T20:38:30.380133Z",
+          "sha256": "906dff9f623cf6280564881988004a433137f8cdc9dd131c7f670f98a5cc42a3",
+          "bytes": 342433,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-ring-pointillist-student-outis/",
+          "checkedAt": "2026-10-24T20:38:30.392433Z",
+          "sha256": "aae0fec9b1a8b160beea6a692120e79172672b3eab362e5aee23c86f9b1f33f7",
+          "bytes": 344780,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/district-20-yurodivy-hong-lu/",
+          "checkedAt": "2026-10-24T20:38:30.360102Z",
+          "sha256": "d081e29abfd045435b3e8f0bae0506cec8efc472a425a8fddac9c942e6d9ac0a",
+          "bytes": 345309,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-director-meursault/",
+          "checkedAt": "2026-10-24T20:38:41.157095Z",
+          "sha256": "e53cd1b904b79b4321ade83e26ed38a8055a075c9d3f3510ab8e394097cae51a",
+          "bytes": 344033,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/t-corp-class-2-collection-staff-rodion/",
+          "checkedAt": "2026-10-24T20:38:30.351909Z",
+          "sha256": "d589e6f88e8fa01ec537bb50f798567ffde85540dc51d6ba637dde7b9a4a1157",
+          "bytes": 345445,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/multicrack-office-rep-faust/",
+          "checkedAt": "2026-10-24T20:38:41.206908Z",
+          "sha256": "648f78d6f4436bef0e3df31bd79c271e051f8724f516ca0306adaae8d307ef88",
+          "bytes": 345166,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/liu-association-south-section-6-gregor/",
+          "checkedAt": "2026-10-24T20:38:30.964440Z",
+          "sha256": "375e5a0e7b88f8628da352f3f7bfb5563f365fe032d791fe93a87487d9508f94",
+          "bytes": 337926,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/w-corp-l3-cleanup-captain-outis/",
+          "checkedAt": "2026-10-24T20:38:41.269426Z",
+          "sha256": "3ade802a2b23ead7b861ec204bf4aa2b2ea41491b73ebcf18fc3bd187c354da9",
+          "bytes": 348846,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/multicrack-office-fixer-heathcliff/",
+          "checkedAt": "2026-10-24T20:38:41.236136Z",
+          "sha256": "18f5f2c41b6a59375d3ba030bee4a66ff8dcd6345b789d1c59566361beda049f",
+          "bytes": 346983,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/wild-hunt-heathcliff/",
+          "checkedAt": "2026-10-24T20:38:41.892280Z",
+          "sha256": "c90f1aeeb63e5c11ed8d3dc0f5684b3ed15c402f4a9c9573300c0c33abf169c9",
+          "bytes": 364455,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-solemn-lament-yi-sang/",
+          "checkedAt": "2026-10-24T20:38:52.406420Z",
+          "sha256": "14271a3b049ee2821ba224ab11c7564630e4e0d999a720fe5931a5d272b49e9c",
+          "bytes": 354695,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-red-eyes-and-penitence-ryoshu/",
+          "checkedAt": "2026-10-24T20:38:41.200519Z",
+          "sha256": "9842353e4d49845f18fd4469b08e104c2f0e41ebaf4b3e449e4a97ff713c7f79",
+          "bytes": 363184,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/devyat-assoc-north-section-3-rodion/",
+          "checkedAt": "2026-10-24T20:38:52.395823Z",
+          "sha256": "ba5a03b0b0429777b6c978ee552e44736a9d74cebb005e7a0f9db01c6b25163b",
+          "bytes": 355293,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-barber-of-la-manchaland-outis/",
+          "checkedAt": "2026-10-24T20:39:03.168116Z",
+          "sha256": "1af2730ded2b92baf1af0e419f25403fef3cbb2dad43303693e78b991aa1dad9",
+          "bytes": 353956,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-west-section-3-meursault/",
+          "checkedAt": "2026-10-24T20:38:52.388007Z",
+          "sha256": "0687c5965cf29347b1ec1c0cfc788ccb5fb9724026310729d9d61e959db5594d",
+          "bytes": 352360,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/g-corp-head-manager-outis/",
+          "checkedAt": "2026-10-24T20:38:52.372120Z",
+          "sha256": "59c33451f33e79d3b936142fa61cde357c820924c8ea4aceee9de023d80790a7",
+          "bytes": 338254,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/zwei-assoc-west-section-3-sinclair/",
+          "checkedAt": "2026-10-24T20:38:52.380355Z",
+          "sha256": "d2d933f511305246b287652ba2ac6679b8bc790a947f2a503d5a14b8fd76c5e4",
+          "bytes": 346273,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/zwei-assoc-west-section-3-ishmael/",
+          "checkedAt": "2026-10-24T20:38:52.292103Z",
+          "sha256": "8f2bf0d6023db4a4d378bc9fb04ce3e65b51d624ff571bb834debc9de0056c4b",
+          "bytes": 354147,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/fanghunt-office-fixer-hong-lu/",
+          "checkedAt": "2026-10-24T20:39:03.271914Z",
+          "sha256": "5412f7c548480e8a615e57a909c753ecd9e6f4b59d0d46f38f51071cb5ab6558",
+          "bytes": 347379,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-manager-of-la-manchaland-don-quixote/",
+          "checkedAt": "2026-10-24T20:39:03.196174Z",
+          "sha256": "414cafc50070e5e47492e50c8254c159ee740307e407437a4e591b9dba5149ee",
+          "bytes": 373900,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-princess-of-la-manchaland-rodion/",
+          "checkedAt": "2026-10-24T20:39:03.236211Z",
+          "sha256": "a911c274159663546c0db6728a4b97c86a8138333d07cf2fd712b8d95874f7bb",
+          "bytes": 363410,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/devyat-assoc-north-section-3-sinclair/",
+          "checkedAt": "2026-10-24T20:39:03.212009Z",
+          "sha256": "9334dd7d4f11f8468401c9bc033a0848d09d351cab67137c4d595aaab697e12a",
+          "bytes": 356081,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/full-stop-office-rep-hong-lu/",
+          "checkedAt": "2026-10-24T20:39:14.123889Z",
+          "sha256": "b5c465c25cee6bb242f7aa547ae849c683bf885bdb069e2e3de9002681f41c84",
+          "bytes": 363174,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-priest-of-la-manchaland-gregor/",
+          "checkedAt": "2026-10-24T20:39:03.280123Z",
+          "sha256": "34b0da79eefd08f54686df346515bb1b8ff757162bef3b5083c1315ff279fc16",
+          "bytes": 356184,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/full-stop-office-fixer-heathcliff/",
+          "checkedAt": "2026-10-24T20:39:14.104280Z",
+          "sha256": "5248ae6203d33c5ea40db61d2e1700d305f300711d0816d5c9cdb248454fe0e0",
+          "bytes": 358600,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-captain-ishmael/",
+          "checkedAt": "2026-10-24T20:39:20.468685Z",
+          "sha256": "82ec6bf1fb5cfeb67b9fd4a0c8d0206fd99e495424a666b5ece1793f0fd55612",
+          "bytes": 352208,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/blade-lineage-cutthroat-outis/",
+          "checkedAt": "2026-10-24T20:39:14.079874Z",
+          "sha256": "a88d7fb823663bf74b27ac1f3d41d99acc8ca081de16263db0b4a36343955f2b",
+          "bytes": 337458,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-ardor-blossom-star-faust/",
+          "checkedAt": "2026-10-24T20:39:14.095984Z",
+          "sha256": "821310d554a3ede5e2ffa81479e57bbc370b74550a084e678f11e09a9d0de0dd",
+          "bytes": 356766,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/liu-association-south-section-3-yi-sang/",
+          "checkedAt": "2026-10-24T20:39:20.485497Z",
+          "sha256": "20578424b902bb6098f8f238cfdc28e8d561f81346a83f44bc7af4d08c488d40",
+          "bytes": 346567,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-lantern-yi-sang/",
+          "checkedAt": "2026-10-24T20:39:14.087862Z",
+          "sha256": "6bb0815ce5cb7e22a146c291dcb6996fae6b79561e47b7accfc76af359523f9a",
+          "bytes": 352139,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-heathcliff/",
+          "checkedAt": "2026-10-24T20:39:14.020380Z",
+          "sha256": "acc2c95a778316d35568babd5da4f85b638a274f131ae2dfb7b6f3477e54f75a",
+          "bytes": 353957,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-east-section-3-don-quixote/",
+          "checkedAt": "2026-10-24T20:39:20.501774Z",
+          "sha256": "26f633dbe3a7ad9d61e101ae6199630bdb40aee4a77b2e98df379974f3462698",
+          "bytes": 349885,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-outis/",
+          "checkedAt": "2026-10-24T20:39:20.379908Z",
+          "sha256": "f3fde70077ef2e9e2aa3e7d97067763882f74a02e366016ecb4da4f184ccbb04",
+          "bytes": 352577,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/firefist-office-survivor-gregor/",
+          "checkedAt": "2026-10-24T20:39:20.485253Z",
+          "sha256": "19646556a7c55134303ae85f8bea158fcda4dc0668c5a8e06b19293a624ecfa0",
+          "bytes": 348063,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/zwei-association-south-section-6-sinclair/",
+          "checkedAt": "2026-10-24T20:39:26.412441Z",
+          "sha256": "d8d7e150943db0a7c8ee96ab3483f3df23415a6eb02a8ec5951519ca62bc4584",
+          "bytes": 338297,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-middle-little-brother-sinclair/",
+          "checkedAt": "2026-10-24T20:39:26.419055Z",
+          "sha256": "d13c997f99dcc2c0ac01e06633cd2ca4ddc8c126ec1f79c97c9b92709e9a3c06",
+          "bytes": 357333,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-ryoshu/",
+          "checkedAt": "2026-10-24T20:39:20.425840Z",
+          "sha256": "366b5e75b320bbdafc40c935543e4ece02a653c8aafdc6258ba85bd157cb0c74",
+          "bytes": 349653,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-reindeer-hong-lu/",
+          "checkedAt": "2026-10-24T20:39:26.472072Z",
+          "sha256": "44fe4542ab146e97104eb965b21840dfadc3680e153682aa55ca81bc0ae10c1a",
+          "bytes": 351424,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-si-branch-gregor/",
+          "checkedAt": "2026-10-24T20:39:26.516996Z",
+          "sha256": "cb532a0e77c4767984f7477691c37d9551ee38c90e111cd29bf56768eb3eecaf",
+          "bytes": 349107,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-adept-faust/",
+          "checkedAt": "2026-10-24T20:39:26.526637Z",
+          "sha256": "5fb4c478867e8088f6f112ce69bba6a881b49218859df7e0a9cf255990fd55e0",
+          "bytes": 365944,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/family-hierarch-candidate-ishmael/",
+          "checkedAt": "2026-10-24T20:39:32.653200Z",
+          "sha256": "36d4f80e82a581168b246532a16e802adfb8d5fa31c85b8dd31b7fac15d1ae85",
+          "bytes": 359747,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-thumb-east-capo-iiii-meursault/",
+          "checkedAt": "2026-10-24T20:39:32.653449Z",
+          "sha256": "10c92eda3beb0629d75c86124c1fdd45f572b140eb7cce47caafc32b524de698",
+          "bytes": 367219,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-si-branch-rodion/",
+          "checkedAt": "2026-10-24T20:39:26.404518Z",
+          "sha256": "1c32b1602022e660c0a4d86377f2f75aba77b96a74d2ddedcfb3c33b5fff2eab",
+          "bytes": 349387,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote/",
+          "checkedAt": "2026-10-24T20:39:32.653987Z",
+          "sha256": "6518545a847f3dcd93cb981bec93959a5aec6d6f8915e88cc687353012e28ebd",
+          "bytes": 370694,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/n-corp-e-g-o-fell-bullet-yi-sang/",
+          "checkedAt": "2026-10-24T20:39:32.768585Z",
+          "sha256": "090e81e3dd9dcec7394d8deb30d661bccd6ba4a9350e911c4947caf59c5e4e17",
+          "bytes": 354843,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-thumb-east-soldato-ii-sinclair/",
+          "checkedAt": "2026-10-24T20:39:32.624113Z",
+          "sha256": "28e9d7d2b8ecb7055c935196e29f0b1690901148d0b9778750cd02d37e69f105",
+          "bytes": 357982,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion/",
+          "checkedAt": "2026-10-24T20:39:32.797121Z",
+          "sha256": "d85c6c29c4d44c1a9574cce639e52d629835b44448e99625422f20a5c42637cc",
+          "bytes": 376449,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-you-branch-sinclair/",
+          "checkedAt": "2026-10-24T20:39:41.152080Z",
+          "sha256": "eaf0f02844a204d4a64bee779ecdd71843838efebfee6eeb668c08822258fff5",
+          "bytes": 357694,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-lord-of-hongyuan-hong-lu/",
+          "checkedAt": "2026-10-24T20:39:41.165288Z",
+          "sha256": "632ca65dc7a34750b5344afa390dae3abbf82fe380a2bb0db6c45a2aa0a2c5cf",
+          "bytes": 375146,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lccb-assistant-manager-rodion/",
+          "checkedAt": "2026-10-24T20:39:41.170756Z",
+          "sha256": "7f311b391369338d22e08c3cceb5e2dc812254669522756fb17098525ce546f5",
+          "bytes": 338139,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-wu-branch-adept-yi-sang/",
+          "checkedAt": "2026-10-24T20:39:41.064014Z",
+          "sha256": "2caaae1aabe1bc0e4db4d32c203713c1e602336a4a0ebf839a501879fef98263",
+          "bytes": 367034,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/t-corp-class-3-vdcu-staff-outis/",
+          "checkedAt": "2026-10-24T20:39:41.159876Z",
+          "sha256": "f904991ce496e3cc5ad428a227f5acb012441eb9c9a5c6ec063221b7ccbcb486",
+          "bytes": 350700,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-prince-of-la-manchaland-meursault/",
+          "checkedAt": "2026-10-24T20:39:48.327964Z",
+          "sha256": "e708026ff5a89cfa97a135bc875045286a0e187e5485aa0b7c8787c615d0981e",
+          "bytes": 365476,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/n-corp-e-g-o-contempt-awe-ry-shu/",
+          "checkedAt": "2026-10-24T20:39:41.176541Z",
+          "sha256": "95db4359975c16c3a8f32ecba0ba9c5707390ea39ecf8807c50fde651f3ee1f8",
+          "bytes": 371749,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/w-corp-l4-cleanup-agent-cca-heathcliff/",
+          "checkedAt": "2026-10-24T20:39:48.315924Z",
+          "sha256": "0842804c11f98fdb7a6eb42349f629df86412dca3c308b392a7f63a72b7130f9",
+          "bytes": 355986,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/jeongs-office-rep-ishmael/",
+          "checkedAt": "2026-10-24T20:39:48.333182Z",
+          "sha256": "c549616022401c8ac7ef356fbe35901616fa522e06d30fa92eb9007b397bc5fe",
+          "bytes": 363830,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lccb-assistant-manager-ishmael/",
+          "checkedAt": "2026-10-24T20:39:48.187867Z",
+          "sha256": "902caec1715742125db7cfe86fa2150f7e8d535dbb257262998d478d04ae684e",
+          "bytes": 340858,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-wei-branch-don-quixote/",
+          "checkedAt": "2026-10-24T20:39:54.431998Z",
+          "sha256": "d4e74542124868244820c96c70bdd6e743c5308982bb615fc5d6a811982fc994",
+          "bytes": 358838,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/shi-assoc-east-section-3-faust/",
+          "checkedAt": "2026-10-24T20:39:48.232130Z",
+          "sha256": "f79d7d1fd16a7106d3d10e6aec6807b0b3b011c994c6648eedd5df3820366c99",
+          "bytes": 360985,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/night-awls-capitano-gregor/",
+          "checkedAt": "2026-10-24T20:39:48.304005Z",
+          "sha256": "30ec4f2c279884b2b6bc15305d781e618ff6924b8bed882e59d7e749ec12703b",
+          "bytes": 360380,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-index-proselyte-paper-slip-faust/",
+          "checkedAt": "2026-10-24T20:39:54.489109Z",
+          "sha256": "43a31045aeb046382b347a1f9d88770911d4bac42e15e4af4ada7a821b118083",
+          "bytes": 358713,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/drifting-blade-of-hongyuan-ry-shu/",
+          "checkedAt": "2026-10-24T20:39:54.455904Z",
+          "sha256": "d8cda19f755402aaac8e0d13ac9d8cc73f53a84f21bd720f74b8f23d6eec165c",
+          "bytes": 354558,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/heishou-pack-you-branch-adept-heathcliff/",
+          "checkedAt": "2026-10-24T20:39:54.509569Z",
+          "sha256": "b56178155abc92ba6aa7e5f93c5d9cc424f5fb5f4e385ce613a2983d80c58ec1",
+          "bytes": 365411,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lca-udjat-vanguard-team-3-leader-outis/",
+          "checkedAt": "2026-10-24T20:39:54.500179Z",
+          "sha256": "aa526a9f1a6be5849f531aac58978219ff792c85350c8f767bad460ffd0a7d45",
+          "bytes": 354215,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-lamp-gregor/",
+          "checkedAt": "2026-10-24T20:40:00.195983Z",
+          "sha256": "9a185437ce61004a843548d525f7c2797a72942e6a1aaf2a272941d33c370380",
+          "bytes": 355243,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-pinky-apprentice-sinclair/",
+          "checkedAt": "2026-10-24T20:40:00.167860Z",
+          "sha256": "17e92cdb88f521e6428a3d70b7aba2fc7d99042dfcf3dba78a6af2a7dfcdaf42",
+          "bytes": 353289,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-reindeer-rodion/",
+          "checkedAt": "2026-10-24T20:39:54.499975Z",
+          "sha256": "a441355237696b841887d1d8a3e5d0143d8af8860ddc0dccd8adb3ae1727afbd",
+          "bytes": 351211,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-index-proxy-effloresced-e-g-o-procuration-don-quixote/",
+          "checkedAt": "2026-10-24T20:40:00.181996Z",
+          "sha256": "4a84d9940563f506aa3afc1678d50f9016d413f1d70536f2460bd984236ffcac",
+          "bytes": 378333,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-middle-apprentice-ishmael/",
+          "checkedAt": "2026-10-24T20:40:00.181669Z",
+          "sha256": "b18226c5cf472ff3837f44f0b6f274e6d71ec8c30b2fbd06c7b17e35acfbd2df",
+          "bytes": 363483,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/shi-association-south-section-5-heathcliff/",
+          "checkedAt": "2026-10-24T20:40:00.152660Z",
+          "sha256": "738c03d0d209fd2af3f60143b675913a8eed0127d7ab23c8ef5af1a0801e97f0",
+          "bytes": 338633,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-index-nursefather-yi-sang/",
+          "checkedAt": "2026-10-24T20:40:00.247982Z",
+          "sha256": "4c0a610548e2ac636f30958afa08194c87bd0c08ff6d48c69ab68182f15fa2b7",
+          "bytes": 379183,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-aedd-gregor/",
+          "checkedAt": "2026-10-24T20:40:06.336008Z",
+          "sha256": "678380da862a5aa02922729ec4c8a88788c52167d5a98b03139b76459b663962",
+          "bytes": 368130,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-hornet-alteration-meursault/",
+          "checkedAt": "2026-10-24T20:40:06.467851Z",
+          "sha256": "2d8370bcc2b178a429adb1f3e1d337ec405eb42ffd360ae500ca04915f080876",
+          "bytes": 361232,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-ring-nursefather-hong-lu/",
+          "checkedAt": "2026-10-24T20:40:06.499922Z",
+          "sha256": "bb826431f91c1220bf2487fe11b6375fdadf6c6c4cbd8b9cdf37b443f6eeaedb",
+          "bytes": 374408,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu/",
+          "checkedAt": "2026-10-24T20:40:06.584980Z",
+          "sha256": "1ea387b98089177a1a60ccf146497906725650484f708913b8b6777af87784ea",
+          "bytes": 363348,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-ring-apprentice-faust/",
+          "checkedAt": "2026-10-24T20:40:06.507832Z",
+          "sha256": "f1574ada0a89551dbe46292b6b4c3e316ef0c85f2b5fd11c757b1c9e283908fe",
+          "bytes": 379467,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-ring-fauvist-student-meursault/",
+          "checkedAt": "2026-10-24T20:40:06.579997Z",
+          "sha256": "a8cb8c18a1f6554b1d4dd1a3deaef780a1b3832fabe56012733832aa3b69109b",
+          "bytes": 352191,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-ring-fauvist-docent-rodion/",
+          "checkedAt": "2026-10-24T20:40:18.127975Z",
+          "sha256": "4cd09761403012fdf43325796fac9412b775581fe06c2010b0fda6a5d60a68c6",
+          "bytes": 371697,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-middle-big-brother-heathcliff/",
+          "checkedAt": "2026-10-24T20:40:17.495955Z",
+          "sha256": "8c563283b221a1cac3f7ef62b725fca217e3f5fbdec8f7bab1e43f47502f2da5",
+          "bytes": 361560,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcd-osir-team-ishmael/",
+          "checkedAt": "2026-10-24T20:40:17.503861Z",
+          "sha256": "6fcc92a9fc0496fe096882a56781ebcb39b9fc585290ae99bf70b510328a0d0d",
+          "bytes": 376514,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-middle-nursefather-outis/",
+          "checkedAt": "2026-10-24T20:40:17.412008Z",
+          "sha256": "0034740c72b459d47dff36f85f8bfaae2447d32396f1a2da63532d855e94b867",
+          "bytes": 409604,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-hong-lu/",
+          "checkedAt": "2026-10-24T20:40:17.468012Z",
+          "sha256": "026bb8b765b17dec08ecd412d9e78c86ce2fedcf816bbc0defa11c880a687652",
+          "bytes": 337651,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/blade-of-the-house-of-spiders-ryoshu/",
+          "checkedAt": "2026-10-24T20:40:17.531859Z",
+          "sha256": "d968dc812eae86d589dd7c9dd22eeb0df54f7b59face0eaa85615fcc76c20e88",
+          "bytes": 391871,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/dawn-office-fixer-faust/",
+          "checkedAt": "2026-10-24T20:40:28.353795Z",
+          "sha256": "823dcff0a7ca79a168e608b593aa4e1d972232de5b16fd1d427edbc0fad5cde7",
+          "bytes": 376821,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/s-corp-ch-unokkun-hong-lu/",
+          "checkedAt": "2026-10-24T20:40:28.301527Z",
+          "sha256": "6c0fd9138288ee89bf46903d963f60708af278b0b28444ed795d18b230938a74",
+          "bytes": 360024,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/dawn-office-rep-gregor/",
+          "checkedAt": "2026-10-24T20:40:28.316027Z",
+          "sha256": "2e74dda82ead245adc587f6a4ba607efb23e5505e797c008b1a9727dd45ef38f",
+          "bytes": 374081,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-thumb-apprentice-heathcliff/",
+          "checkedAt": "2026-10-24T20:40:28.379838Z",
+          "sha256": "2ba24093e8850536265890f0d2bed38f943a36b6e64fbce18b53eed861cc4906",
+          "bytes": 381193,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-dimension-shredder-yi-sang/",
+          "checkedAt": "2026-10-24T20:40:28.404104Z",
+          "sha256": "2c1f5f3ba0e175cb2f509d286b4b66843959d777ada6ba4f7cecf3e05df789c0",
+          "bytes": 363553,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/liu-association-south-section-6-meursault/",
+          "checkedAt": "2026-10-24T20:40:39.204923Z",
+          "sha256": "a18d1f532d5a452a05e27b1a26f01cdf9d3a260a29cafdbf1f44d11e4aec8391",
+          "bytes": 337885,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-thumb-nursefather-rodion/",
+          "checkedAt": "2026-10-24T20:40:28.296002Z",
+          "sha256": "32ee0b522590dfd0174f3856d7519f8e9c8701673a7c422d32c9b97a07ab0ae4",
+          "bytes": 395294,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-east-section-3-hong-lu/",
+          "checkedAt": "2026-10-24T20:40:39.116047Z",
+          "sha256": "91dd1a944afb822d3f34decd7cf35c3cad70ce7cd9f2d4b0aca74cce3c98924a",
+          "bytes": 354985,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/haute-couture-boutique-du-rouge-ishmael/",
+          "checkedAt": "2026-10-24T20:40:39.205061Z",
+          "sha256": "8fa66e003db3d891b405d7a86399934eb3804fdf15f2eb632a9bba5db5fcbb15",
+          "bytes": 366244,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/haute-couture-le-noir-brand-manager-don-quixote/",
+          "checkedAt": "2026-10-24T20:40:39.155933Z",
+          "sha256": "0bd3e43819164fec3a575bb4a36d0226fffe35f174efeba348bdb9e57cc019bd",
+          "bytes": 380664,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-rodion/",
+          "checkedAt": "2026-10-24T20:40:50.051916Z",
+          "sha256": "4e4229943f0a9f0fb133f3d784df86d6168ebc46f15bc1689ddd8f05d08d6664",
+          "bytes": 337928,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/haute-couture-le-noir-footwear-hall-ryoshu/",
+          "checkedAt": "2026-10-24T20:40:39.188035Z",
+          "sha256": "f3a9c152fad2f54dc40adcb136e04920701df1b5fdf377d691248e73fa0c2e62",
+          "bytes": 371080,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/haute-couture-the-crimson-god-of-le-rouge-sinclair/",
+          "checkedAt": "2026-10-24T20:40:50.016289Z",
+          "sha256": "99f5bd4dcc316557fab267683b0d08ceff5b0b88c65c4969677dd83c44df6e50",
+          "bytes": 407686,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/haute-couture-alteration-shop-rodion/",
+          "checkedAt": "2026-10-24T20:40:39.163857Z",
+          "sha256": "42eb0a6a59ce343324a14fe8161096d4aa2b2cd7bfd7e73d1f076668b3bc6076",
+          "bytes": 366325,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-corp-remnant-faust/",
+          "checkedAt": "2026-10-24T20:40:50.071889Z",
+          "sha256": "5650447c3fe7ab527b66111839215b58f1687f791f2c97dd604fd5fff65c63a0",
+          "bytes": 338283,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/shi-association-south-section-5-director-don-quixote/",
+          "checkedAt": "2026-10-24T20:40:50.029296Z",
+          "sha256": "380fc500e62aba205c0388382f2f301b634797a3b9aee299a0ace7d59f2e151d",
+          "bytes": 337754,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/seven-association-south-section-6-ryoshu/",
+          "checkedAt": "2026-10-24T20:40:50.026651Z",
+          "sha256": "8547d50db523e489d3fb1c2a341502b58b87b57d37d9a91f8d01b365f77c5c43",
+          "bytes": 339020,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/seven-association-south-section-6-yi-sang/",
+          "checkedAt": "2026-10-24T20:40:58.647950Z",
+          "sha256": "86138d3fd7b0061761bbd5f9bef521af698430f28998c8192c8eeb2074e1df68",
+          "bytes": 338998,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/los-mariachis-jefe-sinclair/",
+          "checkedAt": "2026-10-24T20:40:58.719876Z",
+          "sha256": "d446c57a98f7c7ed5393ea6455d5dfdcd5f1a71528f950f843639c720aec4ac3",
+          "bytes": 337696,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-don-quixote/",
+          "checkedAt": "2026-10-24T20:40:58.727828Z",
+          "sha256": "d9d174bae78a1eefa442897b68479f429ebe5233a9f0f98a91aec3e394d22da6",
+          "bytes": 335514,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-faust/",
+          "checkedAt": "2026-10-24T20:40:50.115960Z",
+          "sha256": "2b116f548bba31da0302b89275186ffc635ebf7e15f9b5edf0c4c4da6485e4c8",
+          "bytes": 338999,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-faust/",
+          "checkedAt": "2026-10-24T20:40:58.664165Z",
+          "sha256": "994c616eaf87bd30d6594f94d5d3fbe97926d99f34ab772a85993d74264e8d42",
+          "bytes": 336257,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-yi-sang/",
+          "checkedAt": "2026-10-24T20:40:58.679881Z",
+          "sha256": "e9393b04064ab3d1d1c740da78ab7000c8eeb3dc13f635ba8c667499deb3b2ef",
+          "bytes": 337070,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-reindeer-ishmael/",
+          "checkedAt": "2026-10-24T20:41:05.604008Z",
+          "sha256": "36c225f23e5070480b6b26f235168623000036c62ffb1a0607d98375edaf5e89",
+          "bytes": 341711,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-hong-lu/",
+          "checkedAt": "2026-10-24T20:41:05.348010Z",
+          "sha256": "37100256119fcb38caac6bbf69db80eb5aa8f6fb58fa619acc110ed1e3a4a8cd",
+          "bytes": 335554,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-ryoshu/",
+          "checkedAt": "2026-10-24T20:40:58.685787Z",
+          "sha256": "5d969144eb08ee0beaa923d8aef86c17b9ed1857a2d1ee93cc4aea4dbdab45de",
+          "bytes": 336138,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-rodion/",
+          "checkedAt": "2026-10-24T20:41:05.348130Z",
+          "sha256": "87f29aef2f90f52ab968054394a51fb35d459f6321939b63f7e14bd57fd6c4a1",
+          "bytes": 335556,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-heathcliff/",
+          "checkedAt": "2026-10-24T20:41:05.514603Z",
+          "sha256": "eb553b6a2f7bedaa2bfef5da55abe883030b48c2494fb235bcb408aa7cae7847",
+          "bytes": 336752,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-ishmael/",
+          "checkedAt": "2026-10-24T20:41:05.331942Z",
+          "sha256": "0a314ff82e1cc1db93382bc1afc84f000a68199ba1b10354f6117231d07f4ed8",
+          "bytes": 336790,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-meursault/",
+          "checkedAt": "2026-10-24T20:41:05.388039Z",
+          "sha256": "fde2c1343e17792032bdbbacc8b48745026f46e50de476431ff4a0f9c1a66608",
+          "bytes": 336502,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-sinclair/",
+          "checkedAt": "2026-10-24T20:41:11.215986Z",
+          "sha256": "f97a71c1f7f494e74fee0925d3644fa8dfa8bf155a619eef801b3d94d6b85384",
+          "bytes": 335217,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-outis/",
+          "checkedAt": "2026-10-24T20:41:11.177882Z",
+          "sha256": "7dfafa9bbe20ed493c20515e03019c4988289d215c6005d0138a92f980aa117e",
+          "bytes": 336394,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-gregor/",
+          "checkedAt": "2026-10-24T20:41:11.104069Z",
+          "sha256": "9a34049b7139f33aa2cd256c7f6df75dffb0bfb6b4d154c192fb3916834e1a4d",
+          "bytes": 335074,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-rabbit-heathcliff/",
+          "checkedAt": "2026-10-24T20:41:11.163964Z",
+          "sha256": "69340ad490f21e87c2a98812b13c89d3ad0342162f68e377fceff7099253a34a",
+          "bytes": 342264,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/shi-association-south-section-5-ishmael/",
+          "checkedAt": "2026-10-24T20:41:11.496024Z",
+          "sha256": "af2088738cf08669810d7746d5f9f467211c9e969176db3e6cc20c0ef351bef0",
+          "bytes": 339130,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/n-corp-mittelhammer-rodion/",
+          "checkedAt": "2026-10-24T20:41:11.171246Z",
+          "sha256": "2d92ff40465d776c57293d6222b27429a1270f23a25b871ba362b12d9b177eea",
+          "bytes": 339029,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-one-who-grips-faust/",
+          "checkedAt": "2026-10-24T20:41:22.027980Z",
+          "sha256": "1a2f2a2c56acb5c32bc4c58e53d20b42bf7a26410752e56b0c4ef796f1c31024",
+          "bytes": 339430,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/n-corp-kleinhammer-heathcliff/",
+          "checkedAt": "2026-10-24T20:41:22.075981Z",
+          "sha256": "c099140f8357afb4d3875a4935f9322bccad5ed5e2737c1aeed40412c3b01c84",
+          "bytes": 338297,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/seven-association-south-section-6-director-outis/",
+          "checkedAt": "2026-10-24T20:41:22.104423Z",
+          "sha256": "96b19a7e196f2604302c8d30619c3bea62ecfa5e60f1a66d4988abe613508dc3",
+          "bytes": 341004,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/n-corp-grosshammer-meursault/",
+          "checkedAt": "2026-10-24T20:41:22.211932Z",
+          "sha256": "2ed68b20f5bb68d99f3b463efa02e7ee5d106f08b57f54043a090e88f9d6b613",
+          "bytes": 339266,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/liu-association-south-section-5-hong-lu/",
+          "checkedAt": "2026-10-24T20:41:22.132140Z",
+          "sha256": "f489f41da46764bb9742d102d45c4f37ce5c97fc95f7b1d2c4a2789a4315492b",
+          "bytes": 337647,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/r-b-sous-chef-gregor/",
+          "checkedAt": "2026-10-24T20:41:22.148169Z",
+          "sha256": "4223a28c44842731e5155ddf3c6772127fc0d88b19bbc1e0b381d449ddc7a3df",
+          "bytes": 337139,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-rep-rodion/",
+          "checkedAt": "2026-10-24T20:41:28.624000Z",
+          "sha256": "67e6701ddb432745dba39115c4fd6d6937305a179aabf285c156a8c786def2ef",
+          "bytes": 341971,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/n-corp-mittelhammer-don-quixote/",
+          "checkedAt": "2026-10-24T20:41:27.984170Z",
+          "sha256": "cd5cae00cd4247cdcfec488eb4bed5aa7fcc6dae24336fa9fc80b896ab5ffaff",
+          "bytes": 337466,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/tingtang-gang-gangleader-hong-lu/",
+          "checkedAt": "2026-10-24T20:41:27.949845Z",
+          "sha256": "698d0fd4650eb71dab6889850dbded24a1df40f5c71e22568ff917aee4208c94",
+          "bytes": 339159,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-fixer-gregor/",
+          "checkedAt": "2026-10-24T20:41:34.251992Z",
+          "sha256": "05ccf56db5b16173ff35943cad4bd25c2b021d42f0a80f3fca2da6cac05db759",
+          "bytes": 340600,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-fixer-meursault/",
+          "checkedAt": "2026-10-24T20:41:27.983936Z",
+          "sha256": "87f2979f72aa3a4e4faf76ac666e66813bc4b4f2b49529958efab142b79d12d3",
+          "bytes": 339697,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-one-who-shall-grip-sinclair/",
+          "checkedAt": "2026-10-24T20:41:28.012207Z",
+          "sha256": "6d62c4e5538aecdeb665579dd4afdb7cd817b134901088f073ea4c22ed638daa",
+          "bytes": 339974,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-sunshower-heathcliff/",
+          "checkedAt": "2026-10-24T20:41:27.943945Z",
+          "sha256": "10f6e2d7139ebba7f69fe0b7a8a2421a74f868af63849a804fa5a8b6ec96c31b",
+          "bytes": 342796,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-sloshing-ishmael/",
+          "checkedAt": "2026-10-24T20:41:34.363982Z",
+          "sha256": "ae3f9808c46d6eb94586b0998fd6dec00cd681172b00849ed0d3b4b018e5491d",
+          "bytes": 340614,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/k-corp-class-3-excision-staff-hong-lu/",
+          "checkedAt": "2026-10-24T20:41:34.252241Z",
+          "sha256": "3398ce86a1cf82e39673c0e07fea05bf3b54ab2e4150a06dc929bf5329e107a8",
+          "bytes": 339400,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-red-sheet-sinclair/",
+          "checkedAt": "2026-10-24T20:41:34.327949Z",
+          "sha256": "91ee80e24c7c8ed1243bd8ec1a576456871f0d51bfe44bc47587e7a906ca1161",
+          "bytes": 339436,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/r-b-chef-de-cuisine-ryoshu/",
+          "checkedAt": "2026-10-24T20:41:34.216468Z",
+          "sha256": "5c2c92c56ff4b5bbb4a2e002c8ea4a905f0299a90af2b921539d35a7db184e67",
+          "bytes": 339695,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/liu-south-section-4-ishmael/",
+          "checkedAt": "2026-10-24T20:41:34.272811Z",
+          "sha256": "6db6202b9eaac27ff8a7843c2ce06630d31b2e74a4b7616e5488bac34e241962",
+          "bytes": 339980,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/liu-assoc-south-section-4-ryoshu/",
+          "checkedAt": "2026-10-24T20:41:43.259785Z",
+          "sha256": "b601bd9f6453890b77d6328785c46ca73a0ee44ee1650a84209fc224c6d7ba14",
+          "bytes": 341734,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-meursault/",
+          "checkedAt": "2026-10-24T20:41:43.220049Z",
+          "sha256": "bf32b52d783b391de6282c64491ec02f686bfe8469c15e5e4a2a0c2e1b6d34cc",
+          "bytes": 339770,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-5-director-don-quixote/",
+          "checkedAt": "2026-10-24T20:41:43.259673Z",
+          "sha256": "3f2e84b9ac8d5002baa8e598d9ed5b0d1253beeabb35af4332b67c54c6eac958",
+          "bytes": 339463,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/boatworks-fixer-sinclair/",
+          "checkedAt": "2026-10-24T20:41:50.871932Z",
+          "sha256": "1d942e3a5a562774259589a688e4f29c33ea169c76e93fd5eba57470b7a6cfad",
+          "bytes": 337737,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/zwei-south-section-5-rodion/",
+          "checkedAt": "2026-10-24T20:41:43.235943Z",
+          "sha256": "8f67b5df634d1c9e69b7f719c68460315ed520f27dacd1dc0219538312512248",
+          "bytes": 339029,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/zwei-association-south-section-4-gregor/",
+          "checkedAt": "2026-10-24T20:41:50.865486Z",
+          "sha256": "bc4cfa08d780b46d01a218b842ac924ca48d1ec34286d108f85fec2c33244824",
+          "bytes": 340924,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-rhino-meursault/",
+          "checkedAt": "2026-10-24T20:41:43.432360Z",
+          "sha256": "1f167bbcd4a5f3c44156feb33dc09aede1abcc339fcc4bdfbae4110d407bc7ed",
+          "bytes": 339833,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/zwei-association-south-section-4-faust/",
+          "checkedAt": "2026-10-24T20:41:50.891927Z",
+          "sha256": "eff470dc6886e665ca14c60c78deb51c970ce2dc3bc7d69f3551203b870803d8",
+          "bytes": 340650,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/effloresced-e-g-o-spicebush-yi-sang/",
+          "checkedAt": "2026-10-24T20:41:43.380043Z",
+          "sha256": "00af1f6af95078814ec356e43b67e0c271c16cb99095405036cd916cf510e18a",
+          "bytes": 341190,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/w-corp-l3-cleanup-agent-ryoshu/",
+          "checkedAt": "2026-10-24T20:41:50.911886Z",
+          "sha256": "6369c4363f6a79872daa06bb9feaffc069bf227e7c3b06879da329fa361511b2",
+          "bytes": 342536,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/seven-south-section-4-faust/",
+          "checkedAt": "2026-10-24T20:42:01.811941Z",
+          "sha256": "0b0bb32858f50037a385c13588ebdecca7d4b65604704968b39871ccf22e100a",
+          "bytes": 340790,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-hong-lu/",
+          "checkedAt": "2026-10-24T20:41:50.839990Z",
+          "sha256": "dfc2fc49075569851f0e7b32f64ba3878dbe02ca6ba272c1cfc11f9a8c199917",
+          "bytes": 339010,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/seven-south-section-4-heathcliff/",
+          "checkedAt": "2026-10-24T20:42:01.929944Z",
+          "sha256": "f26b72335f1bc38ecc24719e406ebe0728ce371a29dcb794bf035670118e4697",
+          "bytes": 341024,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/totally-not-molar-boatworks-fixer-ishmael/",
+          "checkedAt": "2026-10-24T20:41:50.855897Z",
+          "sha256": "7b5d323cc91df9d6b42d148ee3aca7aed12e48dfb0b63b859c1f6a3e4c2a2875",
+          "bytes": 340396,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-ryoshu/",
+          "checkedAt": "2026-10-24T20:42:01.759986Z",
+          "sha256": "a67a7cde2d25574f773a52d936c97dcfbf73d0e36fecd80876764c8d2896ba31",
+          "bytes": 337221,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/molar-office-fixer-yi-sang/",
+          "checkedAt": "2026-10-24T20:42:01.743974Z",
+          "sha256": "8a984c74d302425f62124c227ec4d15caa266c4a45593edc03cd39fc401709bb",
+          "bytes": 339902,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/molar-office-fixer-outis/",
+          "checkedAt": "2026-10-24T20:42:01.976107Z",
+          "sha256": "37e4bd77883bce36c2588642a098fcf057fde9ff54762a560f53feb13af2eb1a",
+          "bytes": 341677,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/dieci-south-section-4-rodion/",
+          "checkedAt": "2026-10-24T20:42:01.981254Z",
+          "sha256": "74e61c5aee2dc815c0b1321cbd2c4ffd9ea0fa857a9d818f360a56071f5583b7",
+          "bytes": 342706,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/w-corp-l3-cleanup-agent-yi-sang/",
+          "checkedAt": "2026-10-24T20:42:12.827922Z",
+          "sha256": "71509791f98702c27f68ed7f6e324a1e7c05bb27ba2425792fbccc926f51c352",
+          "bytes": 344312,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-regret-faust/",
+          "checkedAt": "2026-10-24T20:42:12.988144Z",
+          "sha256": "29a1df46e2511423296f042eac7c0f45819b473febbba5d228c85d6fdc4666f5",
+          "bytes": 342595,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/hook-office-fixer-hong-lu/",
+          "checkedAt": "2026-10-24T20:42:12.752210Z",
+          "sha256": "e87fc5a6f578816d5b5bb4598dcedad745d981fc6d7a7dca8977fceed15d2104",
+          "bytes": 338236,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lccb-assistant-manager-ryoshu/",
+          "checkedAt": "2026-10-24T20:42:12.993792Z",
+          "sha256": "a4fc79d54eebbc9eb0ae402f538e24ccdca8ba29f7a2ec2cc1ae6128c5dae250",
+          "bytes": 341743,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/w-corp-l3-cleanup-agent-don-quixote/",
+          "checkedAt": "2026-10-24T20:42:13.015429Z",
+          "sha256": "d64d88e802a91251449d3e2a83cba6e72186cadfd0b57ad3e736c46f1c45f778",
+          "bytes": 338223,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-middle-little-sister-don-quixote/",
+          "checkedAt": "2026-10-24T20:42:23.583876Z",
+          "sha256": "80f3bc5d058452aa6d5df8c529d0879b7b2578c8ac217711d2a1a761c951afae",
+          "bytes": 344042,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/twinhook-pirates-first-mate-gregor/",
+          "checkedAt": "2026-10-24T20:42:12.815927Z",
+          "sha256": "af22dc1b704c54435e85d24cb6ce0b2a397179e5714bfe70a5d9161cbdeebfe1",
+          "bytes": 341999,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-middle-little-brother-meursault/",
+          "checkedAt": "2026-10-24T20:42:23.704000Z",
+          "sha256": "184cc279c7f2eb0ad828f1b1a505c44e8cc8bc9a8f8fd8bf74ab209894901a3e",
+          "bytes": 341490,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-pequod-first-mate-yi-sang/",
+          "checkedAt": "2026-10-24T20:42:23.572423Z",
+          "sha256": "e92d395ced701d965d4463c06ecc318180336243579e88c3fe938cd3d083300d",
+          "bytes": 340459,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-4-director-sinclair/",
+          "checkedAt": "2026-10-24T20:42:23.650500Z",
+          "sha256": "73cd5566543c2aacada5beb245d3b60bfea0ea8f517889faec80f88fa2fb6da2",
+          "bytes": 340463,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-pequod-harpooner-heathcliff/",
+          "checkedAt": "2026-10-24T20:42:23.640227Z",
+          "sha256": "2e74afa9b46b4a3bc93b8dc210cb96c00b2268c417797f0d01be67b401a2f6a1",
+          "bytes": 342693,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-yi-sang/",
+          "checkedAt": "2026-10-24T20:42:34.388093Z",
+          "sha256": "4d6a28f0c033436b7f9aaf591b6acc91ed934f53dd8c9c04f557c4063634883c",
+          "bytes": 341729,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-magic-bullet-outis/",
+          "checkedAt": "2026-10-24T20:42:34.399854Z",
+          "sha256": "b05a811f1c1d3a3ae5f7592ac6cec572b8f5dfb482d905aee7fc92c69492d9f0",
+          "bytes": 344096,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-4-outis/",
+          "checkedAt": "2026-10-24T20:42:23.640137Z",
+          "sha256": "a0fe24cb4d9369b5748c90c27519fe830e9ffcad59211b3065ecc3f0f764f4c7",
+          "bytes": 340965,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-hong-lu/",
+          "checkedAt": "2026-10-24T20:42:34.615353Z",
+          "sha256": "546bb70d7fa6566bd1fb0bb49c3fb0526ce3b2e2cab4800e49238b44390daf6f",
+          "bytes": 341402,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-lantern-don-quixote/",
+          "checkedAt": "2026-10-24T20:42:34.579663Z",
+          "sha256": "43efec820d95e33385d2eea8ba7ef1289220828f03848a33cc6035dece8071a4",
+          "bytes": 341784,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-yi-sang/",
+          "checkedAt": "2026-10-24T20:42:34.424134Z",
+          "sha256": "44eef286fb40227e6c8a702a7656cb5b05e687919b22fdb064cfcd37f4c21d09",
+          "bytes": 337019,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/blade-lineage-mentor-meursault/",
+          "checkedAt": "2026-10-24T20:42:45.403964Z",
+          "sha256": "457c5799496fd2b420f49da841144054f560eb0c57933009f6511e4cfddf2b1b",
+          "bytes": 351731,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-don-quixote/",
+          "checkedAt": "2026-10-24T20:42:45.599975Z",
+          "sha256": "a04eec939d2176bf0ac4d2fc39ea2e33972822a47fc0b56324e9cf15920f2089",
+          "bytes": 341533,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/kurokomo-clan-captain-gregor/",
+          "checkedAt": "2026-10-24T20:42:45.508362Z",
+          "sha256": "9aa85b41a7d3abb5a43b0f723fa5b3a9d9e247e3ce7258b2a99a874af705a7d2",
+          "bytes": 340327,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-faust/",
+          "checkedAt": "2026-10-24T20:42:45.323883Z",
+          "sha256": "5befde83f14794f11de4f9d5cb0adba4482526e171d6b9b6b733173638fe5800",
+          "bytes": 342723,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/the-pequod-captain-ishmael/",
+          "checkedAt": "2026-10-24T20:42:34.664471Z",
+          "sha256": "cf7527fa5dd9681f64ef788c4f23841e22017ce8ff4f8a197c36f60ee8402348",
+          "bytes": 351654,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/liu-assoc-south-section-4-director-rodion/",
+          "checkedAt": "2026-10-24T20:42:45.363515Z",
+          "sha256": "646e39706ac7b21b383818337497fa8c9a74563244d962d6caa33b891c7ba561",
+          "bytes": 342280,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/dead-rabbits-boss-meursault/",
+          "checkedAt": "2026-10-24T20:42:56.256078Z",
+          "sha256": "afbe83b98588dc321f786ed1bbd00d9ac156d3290b1c75d6c1d18fc7a4c758e8",
+          "bytes": 341411,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/wuthering-heights-chief-butler-outis/",
+          "checkedAt": "2026-10-24T20:42:56.283978Z",
+          "sha256": "fce08a93e166755a265815b263c0a68adb40c03f82beab2c108c3395164d1d82",
+          "bytes": 344922,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/edgar-family-heir-gregor/",
+          "checkedAt": "2026-10-24T20:42:56.224167Z",
+          "sha256": "a9df64c832f6dd22f52ca6636e49a0fdad3d1cf5988c75af97ca616fdf4a3019",
+          "bytes": 345259,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/limbus-company/identities/oeufi-assoc-south-section-3-heathcliff/",
+          "checkedAt": "2026-10-24T20:42:45.415876Z",
+          "sha256": "1dda806be6b0bc563cedfc061586d18b070542d9135b722df6f00413f43c3f72",
+          "bytes": 342036,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://store.steampowered.com/feeds/news/app/1973530/?l=koreana",
+          "checkedAt": "2026-10-24T20:39:08.396256Z",
+          "sha256": "7217aadabb71e61e633c29549f6453f24c25c80cda952c57aedcefad06d890f9",
+          "bytes": 31230,
+          "httpStatus": 200
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "nameMatches": 203,
+      "unmatchedNames": [],
+      "detailReads": 203,
+      "detailFailures": [],
+      "note": "NIKKE official BlablaLink tables exposed through public community API; full files remain original same-character default outfits, not alternate costume assets.",
+      "gameId": "nikke",
+      "count": 203,
+      "koreanNames": 203,
+      "stats": 203,
+      "fullArt": 203,
+      "sources": [
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes",
+          "checkedAt": "2026-10-24T20:37:13.973124Z",
+          "sha256": "46db177c4e18663e43e1e70218f1cd975bec10f97e4ebabc56ada024b425d41e",
+          "bytes": 379547,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/209001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:23.027655Z",
+          "sha256": "c77f859f036cdf216b4292639274c11c20e8e9d0328cfd8ab5eacb7b23d960b2",
+          "bytes": 29826,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/218001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:23.051911Z",
+          "sha256": "82e730fa5a06589fb41de3acde445270016a6826b20bec71219b1f4159c15dc7",
+          "bytes": 29833,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/581101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:23.059970Z",
+          "sha256": "919f1120bd8920f059304dafe8e5243b501d58cd6259843522e8bf2f2e5b2d5b",
+          "bytes": 29885,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/232101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:23.035955Z",
+          "sha256": "4f6d02694ecacb9bf035617fc875d7dc240e5ea24fa08ec508581bb91cdf5e56",
+          "bytes": 29929,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/145001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:23.136435Z",
+          "sha256": "e1d751745080ccea48935c809d3ee89f78f4172c856d82ef79457d59639130b0",
+          "bytes": 29901,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/145101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:28.331961Z",
+          "sha256": "b764acbc54eea9f5e0fc73928796e08f8e87b2e874f49e4f012c9c7077e1299a",
+          "bytes": 29836,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/422401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:28.332168Z",
+          "sha256": "53f30594a77bbff294a3c142547d868c1edaf08917fbb8c05f0b1ac21bbbb7c5",
+          "bytes": 30051,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/319401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:28.315971Z",
+          "sha256": "395923d768c067e98f58df91a259f5a1319dc92f56c5eceb71e171f774856724",
+          "bytes": 29912,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/447001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:28.319922Z",
+          "sha256": "b919c5a1a2c14de68c54fdd28f68ea23b7c1ffd1e4a17a698a3b05fc6a7435eb",
+          "bytes": 29845,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/581201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:22.939913Z",
+          "sha256": "cab8b88fe025f6394f746cd8a121089c1148cfaf0677428263a6237b9bf63c28",
+          "bytes": 29660,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/119201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:28.367837Z",
+          "sha256": "24013de327af1a028f7c6fd9ef4978fd8fb1f0d0e5d41e03b740a3c18e68724b",
+          "bytes": 29920,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/203301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:28.347788Z",
+          "sha256": "8c422f65e7be438cb8b8d986556e0ef363287cec67da3126206431e2d44d5e60",
+          "bytes": 29910,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/306201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:33.663863Z",
+          "sha256": "5bb8e89572936da4d2065404afd7cdf9032d43bb067ee6eceb6cb65ab0b7360a",
+          "bytes": 29906,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/110201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:33.700448Z",
+          "sha256": "140d53db253aa9a954e0a006c87552cc446bba191758cefcc5ff00db2903ced7",
+          "bytes": 29843,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/422501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:33.727917Z",
+          "sha256": "342a419297350294fd8aa74c677b72d427b8735e4288f97ddd32b57d79b3522d",
+          "bytes": 29961,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/231301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:33.683845Z",
+          "sha256": "f50a4ef07f5038f706ec27368f2b2ca2f118949563b2baa8ee231fda211fd952",
+          "bytes": 30009,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/338201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:33.700608Z",
+          "sha256": "16300ade4c66baa48d2743595efabe7ed2e7fee8917fa595fdd436d7b949c0c6",
+          "bytes": 29911,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/204301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:39.075985Z",
+          "sha256": "d6b8bbf8cef91cce97b03485cac9d6f7df2ba5dfc3f62094f7f2ee41899228d3",
+          "bytes": 29881,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/150001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:39.119968Z",
+          "sha256": "16026c0ccd48b3087a2ffb5c9a5092ad4c863ceca472f924ce76a05ec41cbb32",
+          "bytes": 29836,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/328101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:33.664078Z",
+          "sha256": "e71b5a863cde2bab9e15dc308f91818af6d2ad8834942142ee3382832c4ca39a",
+          "bytes": 29860,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/582101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:39.027996Z",
+          "sha256": "bde1c8c0dd81509effd97a2ec3e70feba3376512762a6d3388109f5c0f56dd57",
+          "bytes": 29919,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/582201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:39.031829Z",
+          "sha256": "7f26c430f53863580dbe35e68c8cf373da4bea805241914e50f05afc7c9020a5",
+          "bytes": 29505,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/116001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:39.031798Z",
+          "sha256": "a9ba08764ffb85c45b3ad7a5a38731057c8c15e5bbf310ec8615e47f06869100",
+          "bytes": 29834,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/582001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:39.039750Z",
+          "sha256": "9d2aaa84569f12f510beb35d2c6c1e658b37221a29900e811e8e64bc4946f042",
+          "bytes": 29822,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/433001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:44.408016Z",
+          "sha256": "3cb9e50a83c7e380e42779c7087738c2b5d4d98e4f9e59dd86a3880a5918d037",
+          "bytes": 29776,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/355001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:44.383916Z",
+          "sha256": "5085067427dee109f89c417938406dd239097aa9030bf601388ca7d7fd12cdea",
+          "bytes": 29833,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/136101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:44.432391Z",
+          "sha256": "1623acbe91367a029e6c8d82920e173621e66806925418c660af89d59d356ef3",
+          "bytes": 29769,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/150101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:44.403884Z",
+          "sha256": "75f112c9ebe50016ab758fc9fbda2531df8cd92bda8b48dff1cb02cdd34d0676",
+          "bytes": 29832,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/355101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:54.335772Z",
+          "sha256": "71b69fbe786193ea9705fd6a075cc1be8f710b88f232c33a840d03c91c7c5ec6",
+          "bytes": 29848,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/331401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:44.432121Z",
+          "sha256": "f6d437152e50867fb5340b9ef4b3679dbd0d4f82d7cfce0c02f41cdf5373cf5d",
+          "bytes": 29983,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/328301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:54.378312Z",
+          "sha256": "98cd896e39db695260b56d81e5c46195f2a926008ce2f5f7edead144c290af24",
+          "bytes": 30002,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/319501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:44.432223Z",
+          "sha256": "ac8369e542f30619d566f770723ae5691e633db869eef52681a7b06c42fda65b",
+          "bytes": 29940,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/328401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:54.287997Z",
+          "sha256": "c7353eb2db1292f336edefcb289de29d70fe1d256966e6f34991c58242ac9233",
+          "bytes": 30025,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/139101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:54.332003Z",
+          "sha256": "c24e29f6e5e78f7c4ba2503742e5515510d7d1dc26ae366b2b3e04090c922958",
+          "bytes": 29821,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/583001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:58.464040Z",
+          "sha256": "4b318b270929aa6e1b7c73ecc65e3f969443ef0fe475636552d5fc2eb2fcc8ff",
+          "bytes": 29939,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/115001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:54.466177Z",
+          "sha256": "cf759e6de4a3145a6d699a8bd12332d8dce6fc45d5c89c28e5444fb61098d24d",
+          "bytes": 29942,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/583301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:58.419907Z",
+          "sha256": "37a643aab5e7ea90ab32d80d87a31f9537702c13721efa2194987b6d0fc3ee4b",
+          "bytes": 29588,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/239001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:54.379912Z",
+          "sha256": "98c6ef32ef92371802658fb445f2b0a32323d2fa1edbdbd19f4e9e168c392a9f",
+          "bytes": 29910,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/583101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:58.427733Z",
+          "sha256": "018d482f684ebcee21e6b7315fbcc8480c7ece43158c8ec0f2a5392913a26b10",
+          "bytes": 29811,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/583201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:58.459815Z",
+          "sha256": "b2cbbdf9256d514e364095d7e4cd58a2d378594c01a1baa43a75e3597ea26f16",
+          "bytes": 29831,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/324001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:03.707839Z",
+          "sha256": "b9443ec51327b9567cc61e6dea8a25b00b0699179a742f6b98c15da3dc53baf3",
+          "bytes": 29845,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/140301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:58.464078Z",
+          "sha256": "f8b9a8dc9fe5ef9fc3dadd4e8d7088b01ec2dfb454277f7e8d7b0313508087c5",
+          "bytes": 29925,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/258001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:03.744011Z",
+          "sha256": "d91228a5343ac1285d0529a4732b3073b0309e448690581971b25dfd3009ee96",
+          "bytes": 29944,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/327201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:37:58.461135Z",
+          "sha256": "16457b56326442266cad81005214a6cf6a74e6eac84072dc140bb418b6d5f66c",
+          "bytes": 29838,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/451101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:03.704129Z",
+          "sha256": "a5b6e121f6794045467c3c2ec711380712ca54f0f16c4456599a0c55aa3eb98b",
+          "bytes": 29861,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/451401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:03.739831Z",
+          "sha256": "130eb0821d6f5df91766827c634e4122974d8f8611bdd406f4fcd57c3d550aeb",
+          "bytes": 29933,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/108001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:03.755976Z",
+          "sha256": "4e8f09ac18fe59e3acae66283a1083fcec242f3db52d045841528cfa16f21e46",
+          "bytes": 29838,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/141101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:08.960689Z",
+          "sha256": "36496ac669c043e6b0f20dc7d18660deb61cbd2a1536f80c898f2b36dcdb9b36",
+          "bytes": 29839,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/422601?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:03.735979Z",
+          "sha256": "a2d0494627f64baacbf8bbe8d3f464d8d485a30ad236b3d76d4c373daa397276",
+          "bytes": 29865,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/218201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:08.959877Z",
+          "sha256": "aa3b5bfb0d104ff87d45cd0e80ac11b551d804e20af2f52f6e3017f7726df7de",
+          "bytes": 30032,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/201601?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:08.912002Z",
+          "sha256": "75264b14d466fdc482db1e8b44118340f733ff6b2040326ba48e1998d2cf959f",
+          "bytes": 29874,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/218301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:08.964141Z",
+          "sha256": "54705bb750e4f9033960b066326de72ea395196c92919458530f26d9c0804e4e",
+          "bytes": 29910,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/235401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:08.923794Z",
+          "sha256": "96b6b8169d3fc63108b4e00cbe968d6b4ff3103bff08ec92d97cdde02bb04b3f",
+          "bytes": 29920,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/129001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:08.947969Z",
+          "sha256": "63d365f29c3d3ce290537615d9a99850fd7dec482043e9fde15d31194c84d233",
+          "bytes": 29929,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/110101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:14.307749Z",
+          "sha256": "4655eeb3e34ae4a0268bfcfd17bf5505de352a026e17cff4e059c0a69e5e0890",
+          "bytes": 29909,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/235501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:14.288050Z",
+          "sha256": "a26d65ebe400a613b3d4e2a8d43bcc1d5a2d8b6a3e98815308ef0abd30ea5973",
+          "bytes": 29999,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/141201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:19.647796Z",
+          "sha256": "3f54f16b2cce71ce58e83efa6596733dc1b922ae2aa768f7614d560d0d8fa4d5",
+          "bytes": 29916,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/111001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:14.295932Z",
+          "sha256": "122596aed402d8788eccb2244cb5dc0a305e4f4d51d690254ff07b9406fbe3af",
+          "bytes": 29783,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/583401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:14.288094Z",
+          "sha256": "662cca9df523697016db2f00627ef9cd0159c4c8569132e61b2d4821bc47f5c9",
+          "bytes": 29975,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/583501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:14.263900Z",
+          "sha256": "73530d6a2ffbe56055b22596cb4b4ea6504132ef30e105cbfd5b4c99d288e09f",
+          "bytes": 29856,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/583601?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:14.295754Z",
+          "sha256": "6fda0948ebc76b998199d4708cc08217bd8a40873b6e587608b7422b5facf099",
+          "bytes": 29585,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/352001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:19.615750Z",
+          "sha256": "fc5c2e7d18caf39c6d3f39f694eac1839adc941f130e413ca3422d135e87e910",
+          "bytes": 29836,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/352101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:19.603771Z",
+          "sha256": "67ceadfbf3e243ffefa6559abf42a4d2bf1917651323913fe441277c6df467ee",
+          "bytes": 29925,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/451301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:19.600144Z",
+          "sha256": "1931a66eb09047aad5fcf896ac9d519d4b8ae4167cf14c833bc5790daad3d696",
+          "bytes": 29886,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/116201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:19.611727Z",
+          "sha256": "ef62c2129e740971f99c96bd87e375417457b31498b4dc973ffb31cd06954fde",
+          "bytes": 29905,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/204101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:23.316188Z",
+          "sha256": "487aae81dd6f2dcabba1a666d17bbab79b69ccee5f56625d2e806091fc90a172",
+          "bytes": 29815,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/159001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:19.600107Z",
+          "sha256": "00399ea84798b575a285d51700724254751b201f8a6468319219a224d939afb1",
+          "bytes": 29859,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/585201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:23.367776Z",
+          "sha256": "c15745f4a82be7262a180dd2a1ab97255c2006d86e8de5859dc43b8809ccb440",
+          "bytes": 29583,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/117201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:23.343772Z",
+          "sha256": "f95f68f9f044cb9a5686ec3452f18a1a9f7b52fe96c16f26c3b1da037e1b2145",
+          "bytes": 29840,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/258101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:23.351760Z",
+          "sha256": "ec0f81e8430bb31bf84debfbc2b10e84c045be473ece95fec827b73ede22362f",
+          "bytes": 29926,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/585001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:23.331936Z",
+          "sha256": "2ef8972ddfe2da9cd3cb2390cc2afefa327a1400a90d376148240e9e0fcc68b0",
+          "bytes": 29928,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/253201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:27.283724Z",
+          "sha256": "dcd06e2eab8f7cbb4a7524651a5ab0844d58d376631a7acad2abf8cef158e18d",
+          "bytes": 29906,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/585101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:23.316120Z",
+          "sha256": "8e64744bf3e6f5eb17bde3252562b812641f76117c389c240f2bb370aca0e5e6",
+          "bytes": 29909,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/150201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:27.227799Z",
+          "sha256": "41ed9431bcb724bb4e2d0a9ae71cd3cfa39225cff18333afc2e766594f86e3bf",
+          "bytes": 29913,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/423401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:27.307785Z",
+          "sha256": "5cfba62f26f99485e0e21b22bebeff865510f41625517209101ec4c0842ed88d",
+          "bytes": 29981,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/209301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:27.273343Z",
+          "sha256": "e156ad3ad88092cb12a4d78bdd45c906a57c1c65c7e4f876a7a91b0ce858a071",
+          "bytes": 29908,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/314001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:27.273145Z",
+          "sha256": "7b100496d743a9c449b2786f46060fc3ffea55102f4335b8effb476158b97df4",
+          "bytes": 29900,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/209501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:27.271838Z",
+          "sha256": "bc9f340a6961d8775e79fb1b84b6df839829f02d91f2d546901e7eea8f809ccc",
+          "bytes": 29906,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/584101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:31.205048Z",
+          "sha256": "8887743a3813899a752675b5c8722c22d21c989350859b9c168f496eda118260",
+          "bytes": 29926,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/209401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:31.200384Z",
+          "sha256": "66d95c7ba5543eb3bf55d9f8a46ea033b38291b0680c624a5aae1f368e9cc036",
+          "bytes": 29997,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/584001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:31.239909Z",
+          "sha256": "e199bb46f308a48b31a8737e3b4d138d5cb6bf94f784fb3df5210d9a0226b16c",
+          "bytes": 29904,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/314301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:31.200481Z",
+          "sha256": "a48f7bb9f008ad6967467621a0d3e241c05e993425bec21e32968f58e280ec46",
+          "bytes": 29908,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/584201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:31.200116Z",
+          "sha256": "1326bd661d0eeb00e52993262d261caa6b775d888a3db613758c6792a46b786e",
+          "bytes": 29657,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/331501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:31.211731Z",
+          "sha256": "c472e72ce6fbb60e6bddedf479bc00708bbbe15c04c90805425a580cd2dee56f",
+          "bytes": 29919,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/426201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:33.983853Z",
+          "sha256": "a9ed69b2669c028a8aafbdcc6931fba70453914c4da723b46194e1d7a3885a82",
+          "bytes": 29854,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/319101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:33.936053Z",
+          "sha256": "f932e64ebc9a6333a8a81af6e8d2658bf1607784de48a2e61af9bcd8199cc117",
+          "bytes": 29829,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/502301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:33.988459Z",
+          "sha256": "13bfbcc65e3a7bff29e70e34706526d2a6ee05a09096be64b5229e80ee61ac50",
+          "bytes": 29841,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/433101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:33.988198Z",
+          "sha256": "9203b2a3d3049d8eb2f0709d28b6dc7fd066664a5eea11642151f58fa45fe11e",
+          "bytes": 29846,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/422301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:33.988388Z",
+          "sha256": "fdd45af853fe6bf96d1ed0be9675b66d3138264531dd9fb03ce519414c6d5b97",
+          "bytes": 29850,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/207301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:38.616266Z",
+          "sha256": "3bb9b09ca040113f8dc302e91902e34eab14a2feedbfb6031a313df84b2a1ef8",
+          "bytes": 29994,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/331601?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:38.651825Z",
+          "sha256": "2f14e4ea0ebaea7e37ccaaa9a2e61af21af7bf7490628b7d6a15386bc22398d2",
+          "bytes": 29825,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/207401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:33.980102Z",
+          "sha256": "1898085ce8ea8fdff714e8ba6143ac8752751b6373d4d96ebecd6b383caabe06",
+          "bytes": 29984,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/258201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:38.656029Z",
+          "sha256": "fd93eb56740f29df0aaede0943830f084eeca19362ff8bed93e4356ad97459fa",
+          "bytes": 29849,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/207501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:38.644044Z",
+          "sha256": "49648947e0bed62b4f5439afe0a8b81bf42eaa00c62bb6de98fbb3cd37e4253e",
+          "bytes": 29992,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/447101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:38.644172Z",
+          "sha256": "1bcf9913dd86643bdb3ab56c9b2e67250e10d4027afb4a494e0525a95594ff7e",
+          "bytes": 29887,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/586001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:42.139847Z",
+          "sha256": "f8fe1c6d52b9c15d8283fcb115d3117ce64d4828e8c6d5c6c30a467b9f123ed3",
+          "bytes": 29822,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/217001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:38.679874Z",
+          "sha256": "43434db253717e148cce7e0837d0becaef694a8ed9f398f776c9740c64ce7d19",
+          "bytes": 29953,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/314201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:42.175982Z",
+          "sha256": "20bf139c9e4b6915d07ea69fa7f134a137844437439b912fe4ca15c324bda1e8",
+          "bytes": 29838,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/586101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:42.179898Z",
+          "sha256": "9cc33aae13eaa85d7822d4f8a56122cab6405b84e4b2333937d1b2e3345e0d8c",
+          "bytes": 29822,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/211301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:42.227844Z",
+          "sha256": "c50f0b110758ec74eafd7f3cd57d96d2ada8a8aa13240dcf936bf313fc19a6b6",
+          "bytes": 29812,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/258301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:42.220224Z",
+          "sha256": "3838773b8781e42e45a985095dd8dc733475b3b70f28a7272dd0b481475f5ea8",
+          "bytes": 29950,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/586201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:42.183888Z",
+          "sha256": "9d34d275b82714209ce9644a16cc0686dad28b091bcacb576a4ee060b4146b09",
+          "bytes": 29667,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/162001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:45.191918Z",
+          "sha256": "619950261d5015bc9d58373989307551113a18477c37eca9ebb68e2b683151ae",
+          "bytes": 29762,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/301701?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:45.203791Z",
+          "sha256": "43160659f3c47024cce28a747e7b76005c94832591f4a6f91439ff2b9b6050eb",
+          "bytes": 29850,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/101801?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:45.192068Z",
+          "sha256": "26fa872e134d17188b2329f0dca1047b9a2e28bb508f0634330fa1f59f1c2615",
+          "bytes": 29937,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/313001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:45.227804Z",
+          "sha256": "bfd8e3299e11d0469e5835a3ad30de0a2da0e9d24f483d2f0642841220bc47d5",
+          "bytes": 29910,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/244101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:45.223806Z",
+          "sha256": "aacfe696d78ed393f15251bd10f960f6ed8ce4b9c3ed9dfa5cccb35a683b0c40",
+          "bytes": 29824,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/451501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:45.195817Z",
+          "sha256": "dc4a34eb5b61dbfe81fdca5b27b17775de2238b40046ea7427794e178b9a19b6",
+          "bytes": 29888,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/232201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:47.909056Z",
+          "sha256": "3b761f579306313c5e2a698734fa4e3c40d22b2bccf3ac1f2fae54ad8d268573",
+          "bytes": 29991,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/110301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:47.907782Z",
+          "sha256": "9c95491c8c449890f8999d51cb521af32b83d974c5fc8c576bdca0490a2276b4",
+          "bytes": 29970,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/357001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:47.904026Z",
+          "sha256": "90e25032d1ce020e3ad80e8bd850aa1989e8120f9e3eff07e8d0f1c7b5be190c",
+          "bytes": 29973,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/360101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:47.904384Z",
+          "sha256": "7215a2840d0e0d8c713273bf906e55cc8675f516bde656917113fc502782d56f",
+          "bytes": 29821,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/587001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:50.851973Z",
+          "sha256": "44384dce89f539dbf9f116679453aa2f15615993ff280bb94da501899860fad6",
+          "bytes": 29909,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/319001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:47.904179Z",
+          "sha256": "e2290b0634a5c7f9b3cdc8e96d973b65a820e99803169340a325dc6dbcefa682",
+          "bytes": 29793,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/587101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:50.924389Z",
+          "sha256": "27dd2efbf2b38b53a9e0b6863c33d6690e466d0b3b7a2cacf4c6ea6808b92054",
+          "bytes": 29803,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/360001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:50.787878Z",
+          "sha256": "da636dac2facdd55f5b0640543e451eed6eeb8275c95b078ef38a0d582811ae1",
+          "bytes": 29892,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/110501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:47.919867Z",
+          "sha256": "546bd202d5ec7493e3997d85d1931e5ad6ece98d268bf9bf4e8151e7c63f210d",
+          "bytes": 29915,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/140401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:50.784218Z",
+          "sha256": "41b8cbf6265970d5ea86c0b801be047cb67b50a6fb1a3f09cfa795825d94cdce",
+          "bytes": 29867,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/587201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:50.787853Z",
+          "sha256": "e260052185ec73f1f53ada0bf2cb6ab9ccb0892be66bac34ff5674b0bb64e6f3",
+          "bytes": 29576,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/306301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:53.360060Z",
+          "sha256": "3c6ea0f30f1e47160131f812191417bf24f5b71408fc137a436b8323aa07cfd1",
+          "bytes": 29962,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/110401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:50.744074Z",
+          "sha256": "b9df8ad6a9a898762fb71b09aa940f36533267cb1ba241f4d9353ab8778c173a",
+          "bytes": 29897,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/320101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:53.324036Z",
+          "sha256": "ee28d360ad522f6ebc1d4fac17e31d31ee2e23a20a92b943400fee9c2592d22a",
+          "bytes": 29899,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/140501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:53.379844Z",
+          "sha256": "a30d7e43c00c67bdac5e6125770045d77f7490164964c53f9d05ce92b991b8d0",
+          "bytes": 29860,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/343201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:53.361172Z",
+          "sha256": "5fe8be039e6b3743408e87f65d4bb479a994657e6ce08e5e34bf76e0c045a63d",
+          "bytes": 29821,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/343001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:53.362179Z",
+          "sha256": "bd843b1e7489324aab53d9c0acd6bf89b7732ed697ff5b9cc691c3b3ad01f5e9",
+          "bytes": 29916,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/324101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:53.367749Z",
+          "sha256": "d64cb3761bb0371100d1dec4256288a346d3abae8c149bbb4b112984f2d80db9",
+          "bytes": 29850,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/422001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:56.047486Z",
+          "sha256": "ce023f6950147dd4268927a592bef30c0dc5e3bbda1263d25103d05a49bedf79",
+          "bytes": 29969,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/343101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:56.043996Z",
+          "sha256": "54c286b4c8b5cba8ee13ae1d2e7e24416351743d65573fbdd02c5bb0d47a4c23",
+          "bytes": 29844,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/423201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:55.999923Z",
+          "sha256": "54986b8947ae1bf682fa8ed38d756245534e6594a3697fe71fec9d7ec9ddae3b",
+          "bytes": 29834,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/422201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:56.051884Z",
+          "sha256": "4da7af294298ff50db0b22fba53c3694f2b6ca0606f874c65fab4bafa7b6af1f",
+          "bytes": 29932,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/423001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:56.044331Z",
+          "sha256": "e714ea02f44c6056532c43f5fdf435426398639521d68c9f6f3bf1b8aae07ed4",
+          "bytes": 29934,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/201001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:58.835833Z",
+          "sha256": "70b3e7ece5ae280545bf01f8b68a16b6222fa3b7f46445ada4ffb1c1474625e8",
+          "bytes": 29684,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/321001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:58.783950Z",
+          "sha256": "0a7c4dd81150cdd361e43bf72ffe3805b0006fbfa6974d01a9dab423f1714a47",
+          "bytes": 29846,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/201101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:58.843713Z",
+          "sha256": "30874a84ccce4fa2b265c4ad77049b40a8f6d5e4a610eb552e16f35acab1c5f7",
+          "bytes": 29644,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/202201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:56.046176Z",
+          "sha256": "03f10da34f8402dba43dbd407c29faa2bc1698dda2cd16c3a9d61e772e9f4a26",
+          "bytes": 29844,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/112001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:58.827845Z",
+          "sha256": "4f50c27243a38ccbd562f018b50c3290553cb8b0f5cad5ee892c169d2967da8e",
+          "bytes": 29640,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/202001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:58.845408Z",
+          "sha256": "0bc84ab74b710ddec975ed635b1b481f4d662281f4631a2513592d07a491eba2",
+          "bytes": 29516,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/116101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:38:58.990263Z",
+          "sha256": "ec99766caf94515ab0bdddb5d55053a1c5c9be12f9979e313f12b3c327c8fbbe",
+          "bytes": 29694,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/203001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:01.700249Z",
+          "sha256": "2393442b2385f4021ea402a4d8cd243b18f315efcbd5b4979700b0cdfd1def48",
+          "bytes": 29834,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/129101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:01.700328Z",
+          "sha256": "46a424069245aea494116c480fbbcf7001815204aa504b04698a3b298775c068",
+          "bytes": 29589,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/306001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:01.711832Z",
+          "sha256": "20944487f78b432e696761ba36817fef1e3f7dc83982168480002605f75cf310",
+          "bytes": 29687,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/324201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:01.675884Z",
+          "sha256": "a6877a3e6871ded2c8bb4296c95bfcf58860e53e489771250639e9d1866d4c26",
+          "bytes": 29881,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/301201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:01.660408Z",
+          "sha256": "8c6e126534dc0d465665d8179414e6ab2d66745e197d5b1e505c393711b7b6de",
+          "bytes": 29600,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/320201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:04.379796Z",
+          "sha256": "7d4d1a27244db8e0827c882cb72421e13b39bb900737cd01bb833d168b7d30c4",
+          "bytes": 29835,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/423101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:04.368165Z",
+          "sha256": "005d8163ca1edb4f7acb26ae11036f4bb621ebbcb4d8632a0a3062f1d146ec69",
+          "bytes": 29909,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/306101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:01.699953Z",
+          "sha256": "10124a56025af5c5f62fa5df23f4a8b67ae54774725a09b5cea7acb0034346fe",
+          "bytes": 29646,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/235201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:04.319957Z",
+          "sha256": "8710fa37734d8999e09e2389bec6d02f2538179397906297f1382757f89b8b36",
+          "bytes": 29822,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/110001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:04.375718Z",
+          "sha256": "a99f63cdaf6f954b56b56b6f309278f64ebf494f451fb7b598b8cde9bd181629",
+          "bytes": 29920,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/218101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:04.324215Z",
+          "sha256": "fe46b1646ed33efca51fe046c0839d1c6ccd361751037050f7def0aeeace0aef",
+          "bytes": 29904,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/108201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:04.371827Z",
+          "sha256": "b7de093dba21d4e25d59b8e61fb33ae74a517b99ff795c3afbb81f31a44505d7",
+          "bytes": 29843,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/113101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:07.399856Z",
+          "sha256": "0aa459d66d32f2e56333c65909eb4275870323d3dd5c431c09de6726d03adf74",
+          "bytes": 29909,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/314101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:07.392050Z",
+          "sha256": "debeb7e9b925edf329ee876d9fdd18ba0a1cb25a602d1922bcbab7b66ad19136",
+          "bytes": 29822,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/203201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:07.380316Z",
+          "sha256": "2c64a435879296c3880cc7034b057219c9d07488409f357122fcc249e2c9a467",
+          "bytes": 29854,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/209101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:10.267845Z",
+          "sha256": "bdff211e135e21f3e04b2c537ed1d63737eed1bda4a5264156feeccc4fb7e6fa",
+          "bytes": 29914,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/320001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:07.343832Z",
+          "sha256": "dcc4af2002dc120326e68304d3cc021ffea69feb517af25d0d5084da43afadad",
+          "bytes": 29930,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/321201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:07.391750Z",
+          "sha256": "ab4d84045c94fe8ca0a5fc0ab4dab236cd776527701e79970e06d4fa5649c801",
+          "bytes": 29778,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/422101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:07.380188Z",
+          "sha256": "137551106a105e78f2e7a52b56b04ce05a4e0934fe70cc731974dea75f5968fd",
+          "bytes": 29931,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/330401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:10.156054Z",
+          "sha256": "aa41bfc7c878f5cbc02b96415f62b73604217ed66a59eb11a42564e889776ffa",
+          "bytes": 29481,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/317101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:10.231993Z",
+          "sha256": "111dc93cf01eb2cfb76a24b593f8fba39340836ca3d1e4d8f9f6f90b1ce0a481",
+          "bytes": 29826,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/130201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:10.188289Z",
+          "sha256": "fc66a69e14867c75c463ca1eb7f5165a893adac4afbc9ce6e26a92da1c617b64",
+          "bytes": 29442,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/230601?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:10.223819Z",
+          "sha256": "b9a6886e031719e873f38cc62011a35bb84fbd2095a97931c60bde005c25fcaf",
+          "bytes": 29471,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/130701?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:13.063825Z",
+          "sha256": "61984a98db043f003bb48558b619f393af277ea4d2fd3136a3119d24d4c491f2",
+          "bytes": 29517,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/330501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:10.187946Z",
+          "sha256": "632f31e5c55532222bd1bdb7a518c5efa0cb904d5c8c4493e4e02a48c1a38d1b",
+          "bytes": 29476,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/230101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:13.060022Z",
+          "sha256": "3c8a0074d36b0e7d0e70f07a604a6f68c2aaf29b83b495e1b71dc0b2e754d7e7",
+          "bytes": 29471,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/207001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:13.052352Z",
+          "sha256": "03b26d0ca6343d9bbb66f7ddda78a02a95fed91acf5740e78a594bac89acaea4",
+          "bytes": 29941,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/130301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:13.099953Z",
+          "sha256": "eb2f5243bbc73084d2e98bfcab36093fbd1fb5cc05e317e74ef31f14c620e50e",
+          "bytes": 29464,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/319301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:16.163908Z",
+          "sha256": "c3d3512ef17b2c0b7c4898f8f3bced06f7ba30b8425ef90c155a9a3f7373a57a",
+          "bytes": 29662,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/330801?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:13.103794Z",
+          "sha256": "fede7b3d82c5f4e93cf656a3fabc52a6fe88d5ec03a6509ff9a0aed863bf498f",
+          "bytes": 29549,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/230001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:13.056936Z",
+          "sha256": "cfaf0588d96cf0276a7f03fb9336256a424c26c6a332f4486cfb6fd1234fa573",
+          "bytes": 29562,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/320301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:16.131957Z",
+          "sha256": "d5aded1af69a8defcb906d9881ce973dacbb0753abeb17edfe62255d18035d11",
+          "bytes": 29943,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/207101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:16.136490Z",
+          "sha256": "3b4bc5ef88527d731e6964274e8b209b9295ce61ed5e8ecde891f4cc8f8097e6",
+          "bytes": 29838,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/426001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:16.084212Z",
+          "sha256": "c9bc04c36c1f8cf45d04eee50a9c3b4887f3bca80b2ecce02a13afc8f0e3f79c",
+          "bytes": 29831,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/111101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:16.092024Z",
+          "sha256": "e0859ff2e194f902f375b7f0b3cb6f14d09db618d492c5770293da11dc81637c",
+          "bytes": 29845,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/140101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:19.632550Z",
+          "sha256": "4e466739c291235e7e45bc9ac524685d1460ee5e432aba6301940cf58c7c8f0b",
+          "bytes": 29849,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/311201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:19.584214Z",
+          "sha256": "c4d144e280213adf837f13dc39e9970a20bb97dfca7881d0966b3538a1b7c319",
+          "bytes": 29900,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/112101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:16.132363Z",
+          "sha256": "ace2e283cc5dd9d2f8b9ab07d6385fb3750dc5856b65b9290d1aa147971338d3",
+          "bytes": 29985,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/331101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:19.631982Z",
+          "sha256": "d31a2b22014524dc88e6bbbdaa688c661953c04d65f8e59ddf8f6e501779aaeb",
+          "bytes": 29838,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/140001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:19.591970Z",
+          "sha256": "5c7d7cc5bc33b952770bd6f3be45c0fba0c354a381149e1007917ccdf1be0594",
+          "bytes": 29901,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/140201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:19.624472Z",
+          "sha256": "54c3ac1f8008608b8c0a9d193b2c770e4419272a1a02434a6fc17ecd26258b9d",
+          "bytes": 29850,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/580101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:25.016057Z",
+          "sha256": "19fbcbe7e09ec8f97b0160bce0ad8d7221a2083af842d600963ab43af7291a2c",
+          "bytes": 29903,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/580001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:25.011995Z",
+          "sha256": "00999bd2e41b88691c473449b3053077b3df728a77cd7ee9659c850413c34344",
+          "bytes": 29782,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/331201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:19.663834Z",
+          "sha256": "941bd6cbe2dab9e832c3663f4ded6f826a31f75cf19e80452a70cf2063b6587c",
+          "bytes": 29829,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/207201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:25.203419Z",
+          "sha256": "115e33086b24a4fdc53d3a4d93b4c343e786e737b7c10b370f3934865a4fa3bc",
+          "bytes": 29780,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/580201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:25.097888Z",
+          "sha256": "acd044c732f588d842d331c3ac866f74a86b47aea5b0c5f503734e5b6371e988",
+          "bytes": 29571,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/331001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:25.012341Z",
+          "sha256": "329a16de7dd6bfb59a2d754544e4b7b0730be08218903a91d6d2f7b0a96678cb",
+          "bytes": 29922,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/338101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:25.016221Z",
+          "sha256": "02263833bec7336dbcb251dcda77c526faf3e9f85bf4a74be23024895a5de7e8",
+          "bytes": 29921,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/328201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:40:22.408012Z",
+          "sha256": "dc8ef57bc08eb7ff6460fdb95850fabf2d76af22da62f4764ec45580927fbf9c",
+          "bytes": 29839,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/426101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:30.395900Z",
+          "sha256": "494f2d5e91de699739e01597ca9025e57fd093cfedf3ead5f94fc63a2bc965ee",
+          "bytes": 29852,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/339201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:40:22.371887Z",
+          "sha256": "40c9e355af4d2671c6d9987313480ae2df9e117d2b147a97f619e3475a9cf811",
+          "bytes": 29770,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/204001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:30.419972Z",
+          "sha256": "27fcf15fc8b93e7fc904aa543fa84a26b4a4876d20a4622bcfc7bde4c2f7e4d2",
+          "bytes": 29815,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/228001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:30.383989Z",
+          "sha256": "f267908eec2b3d327bdbafd89269e1eb0b4997706641125fa3b302be09a1f9ec",
+          "bytes": 29827,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/327001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:30.344305Z",
+          "sha256": "7a7cf3b67b2c8abc56f5a0e25a5e155bb784d52420cbdf8583ec94a532ea2c3a",
+          "bytes": 29863,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/423301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:30.395753Z",
+          "sha256": "3b69be43dc611d8353751d55caed3045315cbfdf9fdd37f10f63a6ffd418811b",
+          "bytes": 29932,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/327101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:30.384203Z",
+          "sha256": "512477849dcf5281d1a3406b7b33feb3f70fcf8312ba743784e1eeadcfe557a1",
+          "bytes": 29905,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/209201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:35.644020Z",
+          "sha256": "d7433a4da3f63bb0b330973d7ae77c916cbc3d8431c3bd5bb7d59f50b29c54c5",
+          "bytes": 29824,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/338001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:35.700447Z",
+          "sha256": "eba1cd0b924edf41a3e3ae6500963079bb94da47b7781610333eea8ab1e2f5af",
+          "bytes": 29771,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/313201?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:35.691775Z",
+          "sha256": "ce2f3eee2f1be5e2149c9c0fee9b0bddb9a19306274437388db23ba6e57eb19c",
+          "bytes": 29908,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/201401?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:35.719905Z",
+          "sha256": "8d510eeb87b5c878159d3294f0a8fd28aa02c107b525afbba33aec8bb5409079",
+          "bytes": 29888,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/235001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:35.660154Z",
+          "sha256": "bc76f72ad7db51f00cd3b7d948194313491623e929ec80b47e3355291b5c97b7",
+          "bytes": 29848,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/301501?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:35.688131Z",
+          "sha256": "79d307bb578c4b469c4dc18b4b969e9ac1abc12e75f451fa6093d22cdf335623",
+          "bytes": 30001,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/235101?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:38.491832Z",
+          "sha256": "70d9ea9f4b68a9459271d0db9f54e31b69438de8a07c50abded19e365cf385e0",
+          "bytes": 29599,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/581001?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:38.459812Z",
+          "sha256": "88432c3def510af17964002d4f4893ae40970e86194d9d2a66ff3cd870d63203",
+          "bytes": 29845,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://nikke-api-gunwoos-projects.vercel.app/api/nikkes/235301?fields=id,name,details.statsPerLevel,details.combat",
+          "checkedAt": "2026-10-24T20:39:38.447914Z",
+          "sha256": "93b97846adea24e52b147227c4522fb6a6de47e1208f4df1f391ce84f05d9779",
+          "bytes": 29995,
+          "httpStatus": 200
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "nameMatches": 128,
+      "unmatchedNames": [],
+      "sourceCount": 136,
+      "note": "lsbim/foods explicitly provides multilingual same-apostle names. This source supplies grade/personality but no HP/ATK/DEF table; no numerical combat stats were invented.",
+      "gameId": "trickcal",
+      "count": 128,
+      "koreanNames": 128,
+      "stats": 0,
+      "fullArt": 0,
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/lsbim/foods/master/src/data/i18n/charInfo.js",
+          "checkedAt": "2026-10-24T20:37:14.054807Z",
+          "sha256": "6e7bc1fbf6720fc96f3ec88ee807c6322facd6e8ef0ad2fb2cdbd6272259a91c",
+          "bytes": 44010,
+          "httpStatus": 200
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "nativeNameMatches": 131,
+      "unmatchedNames": [
+        "135",
+        "136",
+        "137",
+        "138"
+      ],
+      "detailReads": 129,
+      "detailFailures": [
+        {
+          "id": "110",
+          "error": "ValueError: Missing character"
+        },
+        {
+          "id": "124",
+          "error": "ValueError: Missing character"
+        },
+        {
+          "id": "78",
+          "error": "ValueError: Missing character"
+        },
+        {
+          "id": "90",
+          "error": "ValueError: Missing character"
+        },
+        {
+          "id": "93",
+          "error": "ValueError: Missing character"
+        },
+        {
+          "id": "99",
+          "error": "ValueError: Missing character"
+        }
+      ],
+      "note": "Korean native names joined through the exact client name key and published English identity; absent CN-first names remain reported gaps. Stats retain their actual Insight 0 Lv.1 basis.",
+      "gameId": "reverse1999",
+      "count": 135,
+      "koreanNames": 135,
+      "stats": 131,
+      "fullArt": 133,
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/St-Pavlov-Foundation/re1999-data-global/main/data/json/character.json",
+          "checkedAt": "2026-10-24T20:37:14.108308Z",
+          "sha256": "787dc9f07341a144ff4db26c4490d4861903877213b03d1133c3130147d1a337",
+          "bytes": 138300,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://raw.githubusercontent.com/St-Pavlov-Foundation/re1999-data-global/main/data/configs/language/language_kr.json",
+          "checkedAt": "2026-10-24T20:37:14.119788Z",
+          "sha256": "681f6ef47c5bbdf61ce86c2ae82961debaa180aec3631a7e09233e7050f949ec",
+          "bytes": 22257001,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://raw.githubusercontent.com/St-Pavlov-Foundation/re1999-data-global/main/data/configs/language/language_en.json",
+          "checkedAt": "2026-10-24T20:37:14.145197Z",
+          "sha256": "d2482b385e02732c717c180ac72b692c927eb790ce7fe01638a372abe4f76eda",
+          "bytes": 20937550,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/an-an-lee/",
+          "checkedAt": "2026-10-24T20:37:14.205536Z",
+          "sha256": "2b09a90f66037dedf54ad4092c2e0719b31255804292089c668df477144699c1",
+          "bytes": 323813,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/druvis-iii/",
+          "checkedAt": "2026-10-24T20:39:13.952256Z",
+          "sha256": "59fb137f155091642a048ce8beef2a47eea27d4b020b522fec59eda9e0422b51",
+          "bytes": 323538,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/hissabeth/",
+          "checkedAt": "2026-10-24T20:39:13.872077Z",
+          "sha256": "8d3b84d3a7009ffe7339970b0a33f7e9398eb56cb7c360b88e1f0e62c3fe1d4f",
+          "bytes": 332003,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/eternity/",
+          "checkedAt": "2026-10-24T20:39:13.965151Z",
+          "sha256": "064e2ff6f4d36ba811ccc5e57dbda1ab8adbaa8b2f2322667d151a5b6a266745",
+          "bytes": 325960,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/noire/",
+          "checkedAt": "2026-10-24T20:39:13.903899Z",
+          "sha256": "05cdd6e5cd9134d8695bb753e360f2607499c98ef674c91aef019a6dfc088f25",
+          "bytes": 320831,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/recoleta/",
+          "checkedAt": "2026-10-24T20:39:13.960038Z",
+          "sha256": "35bec33f31927ec2d3ab4054aa16960b44d0747e1925ec862bcf53e58258c778",
+          "bytes": 331772,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/aleph/",
+          "checkedAt": "2026-10-24T20:39:13.888006Z",
+          "sha256": "82cdbebe793567701b9f3c985923fe5ae5626d96433ca25e7ac72b8d7bc3f3a1",
+          "bytes": 318895,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/kiperina/",
+          "checkedAt": "2026-10-24T20:39:22.647971Z",
+          "sha256": "b0632e7f37ec8f2da537719ac646ba8830ea1140ba19ad52bfeebd6e801f22e5",
+          "bytes": 308995,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/nautika/",
+          "checkedAt": "2026-10-24T20:39:22.458590Z",
+          "sha256": "c3b8188eab855277dbd37770bf871572e6380730edefa8dac44edce4bf018332",
+          "bytes": 331201,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/name-day/",
+          "checkedAt": "2026-10-24T20:39:22.557267Z",
+          "sha256": "b01d54954ba763138bf5cc6c6b6796064e75c3897e6f72dbce4deee342a6593c",
+          "bytes": 321948,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/buddy-fairchild/",
+          "checkedAt": "2026-10-24T20:39:23.260685Z",
+          "sha256": "e89413d9c5b5a645663319df899d774daee959925c9f3190fccb9e51c0900c42",
+          "bytes": 305436,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ulrich/",
+          "checkedAt": "2026-10-24T20:39:22.612215Z",
+          "sha256": "0f6b1888eeb8b6ae8b24bec9d7b62479ce1f044714abbad331272a824398024e",
+          "bytes": 326158,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ms-newbabel/",
+          "checkedAt": "2026-10-24T20:39:28.540899Z",
+          "sha256": "fb9ba3d88cb5246884c83d2c699b8f7dfd35811a8893b34b7311592206390ae7",
+          "bytes": 316590,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/moldir/",
+          "checkedAt": "2026-10-24T20:39:22.624320Z",
+          "sha256": "afae690dcdf8ba745e9bbf7b1a1aa2d125a40c53b9cf76e5fe82fae75f301aa3",
+          "bytes": 339189,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/sentinel/",
+          "checkedAt": "2026-10-24T20:39:28.663905Z",
+          "sha256": "1b3079b09df458cbc4ea6ccdbe7fe135144a393c3422165c1d76212b96c98a00",
+          "bytes": 319484,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/charon/",
+          "checkedAt": "2026-10-24T20:39:28.646092Z",
+          "sha256": "a75394abd519de398eedb2d63887fe507fece19f1e3830a04a326da6c0cea891",
+          "bytes": 325851,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/rubuska/",
+          "checkedAt": "2026-10-24T20:39:34.852045Z",
+          "sha256": "b225256ecb75d89c96190b736657f472f49407ce7a68178cb584a26be697722a",
+          "bytes": 299583,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/kassandra/",
+          "checkedAt": "2026-10-24T20:39:28.652401Z",
+          "sha256": "6d1353d34a4edb684ee14ee6551fd6bd188a05bf494ac0ca6da224538079f681",
+          "bytes": 316749,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/beryl/",
+          "checkedAt": "2026-10-24T20:39:34.927987Z",
+          "sha256": "af866115c55d635ee25b327e8143102f01d89c34e6371be6bd15d3873796b499",
+          "bytes": 299376,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/alexios/",
+          "checkedAt": "2026-10-24T20:39:28.683986Z",
+          "sha256": "bbfce5f50320fcac5392001ecb957e4d9b1eba5facb7a8152e49a764205e62c2",
+          "bytes": 303745,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ezio-auditore/",
+          "checkedAt": "2026-10-24T20:39:28.664379Z",
+          "sha256": "a848a600999cb2b026e44601d2231081889f3b3764acaa11aafe3b7f861b10b5",
+          "bytes": 343421,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/corvus/",
+          "checkedAt": "2026-10-24T20:39:34.888121Z",
+          "sha256": "5cdf2b2b32e4978de49e6146ea89876c21fa8b7d1dcd637772e6814c5a4607fc",
+          "bytes": 343616,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/brume/",
+          "checkedAt": "2026-10-24T20:39:34.836175Z",
+          "sha256": "a719701db7b60130cecdc51fd6bf518a867e2018a527b6edf6e2a4422945d78d",
+          "bytes": 326035,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/marsha/",
+          "checkedAt": "2026-10-24T20:39:34.940055Z",
+          "sha256": "5f2ce5822cf9b82dd244e0c935ee03d45564e22392a874ee4fbafbeda8fb68d7",
+          "bytes": 304941,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/igor/",
+          "checkedAt": "2026-10-24T20:39:45.408534Z",
+          "sha256": "eeb528ae15a0cfda1d48b8ddbcce3072e01f37128a1639b6dc3bff8cdd857c2b",
+          "bytes": 296956,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/reed/",
+          "checkedAt": "2026-10-24T20:39:45.396340Z",
+          "sha256": "ca5dafb3a5f74fa1bcf421d7c8b76e152e08ecb2aa8e93184ae71e833529826f",
+          "bytes": 276559,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/paper-heron/",
+          "checkedAt": "2026-10-24T20:39:45.396503Z",
+          "sha256": "9424a2f601260c0e5326d441455852a76ca71a8636ec6699b99305b38a169101",
+          "bytes": 315070,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/lorentz-butterfly/",
+          "checkedAt": "2026-10-24T20:39:45.419826Z",
+          "sha256": "eb41d06cec6b5466311c228b7fb1ae09822f3d4a5704f704970906d888adf003",
+          "bytes": 306037,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/cheng-heguang/",
+          "checkedAt": "2026-10-24T20:39:45.420043Z",
+          "sha256": "6d9d8af339015f34289df4ef093b81722b89d219587653ca0a0f78b6834357ec",
+          "bytes": 302172,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/x/",
+          "checkedAt": "2026-10-24T20:39:34.899933Z",
+          "sha256": "9454eb6e125675a274090c1bd77547b6d0e31dfad9274c01ffac26d9e0a315ce",
+          "bytes": 304920,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/rhiannon/",
+          "checkedAt": "2026-10-24T20:39:51.511981Z",
+          "sha256": "108f713c783748f20fa5fe750162ea0eac94e4ea7a21a9bba964287e3b55264e",
+          "bytes": 343751,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/silverwing-eagle/",
+          "checkedAt": "2026-10-24T20:39:51.554478Z",
+          "sha256": "b7166916c0b15f1ef8013b04e3e0cbb04db8ff49d072b0feaabd6d8bfa6de3fa",
+          "bytes": 321523,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ms-stranger/",
+          "checkedAt": "2026-10-24T20:39:51.595932Z",
+          "sha256": "86c36038460d363c6d989ec1e0d393b7c22b2a099e8973cfa66e80160c1ecd3d",
+          "bytes": 325825,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/coppelia/",
+          "checkedAt": "2026-10-24T20:39:51.519927Z",
+          "sha256": "55d881ae2516b2079e4a176dd35bfab654a9d3d36aac3ed7e15a5adf3481846f",
+          "bytes": 299852,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/enigma/",
+          "checkedAt": "2026-10-24T20:39:51.600308Z",
+          "sha256": "fa47e4003d2fa97f32bf86f5583c028af70b76b6830aadb91eef7bc86832e628",
+          "bytes": 312712,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ramona/",
+          "checkedAt": "2026-10-24T20:39:45.408265Z",
+          "sha256": "ed5364f945e70eb852fb10c3342a39302304edcbaf71632c3527397f7d72c19a",
+          "bytes": 285923,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/sweetheart/",
+          "checkedAt": "2026-10-24T20:39:51.567857Z",
+          "sha256": "a5e9e78842edf226eebff81fc76d0984f083b4242e4395a02ab5566cf6a410dc",
+          "bytes": 306050,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/cornerstone/",
+          "checkedAt": "2026-10-24T20:40:01.208339Z",
+          "sha256": "b974a5c23ca7b1b48b285dc094b9d21ac14c73aae91b26f89ad3979bbc7dee94",
+          "bytes": 324425,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/hedone/",
+          "checkedAt": "2026-10-24T20:40:01.199915Z",
+          "sha256": "c0577b9961ca49a58e57d92d7bcbf317b36769b8c2d3815f921e604c83d729fa",
+          "bytes": 285587,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/nora/",
+          "checkedAt": "2026-10-24T20:40:01.207965Z",
+          "sha256": "b889c2831f369c55f417b8a33bd9ef4f7c22a60996c3a3a5bbd35e808acc169a",
+          "bytes": 292054,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/the-twins/",
+          "checkedAt": "2026-10-24T20:40:01.208255Z",
+          "sha256": "fccffd8b8b42d26aa2079f2f1b5010b12588d36a9347476290bebdf9a1cfc19b",
+          "bytes": 301275,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/narcissus/",
+          "checkedAt": "2026-10-24T20:40:01.192576Z",
+          "sha256": "b66aea13848b1ac182c5ff61738de3f2fe5c69717a2705c3bd516cb2eedf3b17",
+          "bytes": 306676,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/everecho/",
+          "checkedAt": "2026-10-24T20:40:01.188010Z",
+          "sha256": "b547b5f05f97ec41575ff2b3d996ed2130bc1de4555c8ae73f9615ae5a690d45",
+          "bytes": 318635,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/huntsworn-lilya/",
+          "checkedAt": "2026-10-24T20:40:09.692006Z",
+          "sha256": "cc6e29466c15553bfb0a2c46dc4031defd33a3efa8eb6c791718e53b81e286e7",
+          "bytes": 295168,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/charlie/",
+          "checkedAt": "2026-10-24T20:40:09.699877Z",
+          "sha256": "78277d3d327123797b1d6ccaa82410b5087710502f67c385e07a6697518689e6",
+          "bytes": 307079,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/sonetto/",
+          "checkedAt": "2026-10-24T20:40:15.308036Z",
+          "sha256": "36fd4d46d6d03e2741c89625ce76b2dd81b6db271506d5bac213f529d7a1cad3",
+          "bytes": 302165,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/bkornblume/",
+          "checkedAt": "2026-10-24T20:40:09.712348Z",
+          "sha256": "42ff20c03faf53556f0195567e0b60518b2efd90568f826ca07351a1cbf4c53d",
+          "bytes": 315082,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/glyndwr/",
+          "checkedAt": "2026-10-24T20:40:09.675892Z",
+          "sha256": "966df7289ae54c77acc9b9f3aec10d325321a420965ae65d8f326545c3e6ea4a",
+          "bytes": 278354,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/baby-blue/",
+          "checkedAt": "2026-10-24T20:40:09.707802Z",
+          "sha256": "3f55ed6bd84cabb1dc19aceced50ea2e7eb638cabc0569b23d65042ac38aab86",
+          "bytes": 308843,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/necrologist/",
+          "checkedAt": "2026-10-24T20:40:15.283930Z",
+          "sha256": "a67166444a898ebf48cba4ebcf30ef6f4934714b513646108e8160905de2034f",
+          "bytes": 303843,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/balloon-party/",
+          "checkedAt": "2026-10-24T20:40:15.317285Z",
+          "sha256": "a16c87c5f3762169f1a743ca571da1659ebfd7e55a962daab9da8d04a244cea4",
+          "bytes": 309112,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/dikke/",
+          "checkedAt": "2026-10-24T20:40:09.700044Z",
+          "sha256": "ee9b182b0b77bfd1568eca809b5446a1dc2c685ffad2eba684451e9fdcbc734b",
+          "bytes": 306690,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/satsuki/",
+          "checkedAt": "2026-10-24T20:40:15.308139Z",
+          "sha256": "5ce0a32bcd1f574caf2519c0820d5d9ca50e625318dca647e693d42a44b34bfa",
+          "bytes": 307593,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/sotheby/",
+          "checkedAt": "2026-10-24T20:40:15.317571Z",
+          "sha256": "b74d4b0b06cc85fa91e6d818aaa4a8803d10d698a4571efe5c8d9bb441884a70",
+          "bytes": 317539,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/nick-bottom/",
+          "checkedAt": "2026-10-24T20:40:21.155864Z",
+          "sha256": "faa83ea9f84cb916ab5a642b6a801fbbd722e0ee28d90111419f7faca407cb16",
+          "bytes": 305437,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/tennant/",
+          "checkedAt": "2026-10-24T20:40:15.317428Z",
+          "sha256": "fa3d56762e3a06d4d2e2954a6550b919d9aa4c4aa4bcf3fde42c143dd8076200",
+          "bytes": 314376,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/winter/",
+          "checkedAt": "2026-10-24T20:40:21.051952Z",
+          "sha256": "2578a49e57cd181639a8d90960b1de7391128c1350dba55bfbc2d704a2e62335",
+          "bytes": 303005,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/click/",
+          "checkedAt": "2026-10-24T20:40:21.124912Z",
+          "sha256": "0711ed7fda0ea05d15c5534b591775b7253abe75428af2d41d200ea7cf4d7d94",
+          "bytes": 307101,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/eagle/",
+          "checkedAt": "2026-10-24T20:40:21.108055Z",
+          "sha256": "579601f947a9486ade44e30d60e021742ddd31997e536cd96a9fda8cbe30bfc3",
+          "bytes": 304969,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/pavia/",
+          "checkedAt": "2026-10-24T20:40:21.147906Z",
+          "sha256": "a215cdad7e877a6d3b92d3bf0ddf9f3df9cf63f010495c5b5530960edec87f49",
+          "bytes": 302925,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/bunny-bunny/",
+          "checkedAt": "2026-10-24T20:40:21.119906Z",
+          "sha256": "08c6dfae4905e0e332c797baf9d309406ed5280da0d2bcf83359940da52b6c4b",
+          "bytes": 301627,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/regulus/",
+          "checkedAt": "2026-10-24T20:40:29.952150Z",
+          "sha256": "3cb379ec2fb824088433e3b92dcf0b62c26205d7bad5961450d8486806eccb46",
+          "bytes": 326661,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/oliver-fog/",
+          "checkedAt": "2026-10-24T20:40:30.044312Z",
+          "sha256": "31320a5b102793169d4adfafc9e7065b8495a6773e705bf8c125e5f8a56c9ec5",
+          "bytes": 299661,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ttt/",
+          "checkedAt": "2026-10-24T20:40:30.040057Z",
+          "sha256": "9a8dc8e6cf25cca89eff61a76df489a703f538aa3a216e6a6eb53487c3912c11",
+          "bytes": 299153,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/cristallo/",
+          "checkedAt": "2026-10-24T20:40:30.051988Z",
+          "sha256": "e6c8b372555945a264b5a86fa1d98e8c565615e69a5e5ee9d2fe45276c31275f",
+          "bytes": 307636,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/apple/",
+          "checkedAt": "2026-10-24T20:40:30.052198Z",
+          "sha256": "bb739a806d761d3e083b18ed43ba335d1797a5d73d83ae1aec7e0f1af0c507fe",
+          "bytes": 302884,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/rabies/",
+          "checkedAt": "2026-10-24T20:40:30.052285Z",
+          "sha256": "e47e17bf0825d9489425604ebdbef24d83e53b9d2598a02b6751ee263c752f01",
+          "bytes": 299459,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ms-moissan/",
+          "checkedAt": "2026-10-24T20:40:36.000003Z",
+          "sha256": "3bd18b43cb7a9baf7e0e8d90844075dbbff551f7d95ed9b045866c425eb95b19",
+          "bytes": 302152,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/poltergeist/",
+          "checkedAt": "2026-10-24T20:40:36.027828Z",
+          "sha256": "0d30f27e1f853ac341d09cd4c4b05fb036787ea6d962bd1c00036fd08fd5c4d7",
+          "bytes": 304277,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/erick/",
+          "checkedAt": "2026-10-24T20:40:36.005215Z",
+          "sha256": "4a5ba8e68da3374b7ba2b52e7d3589cafbe3bd0e4d3c806f620c70dbdf2af661",
+          "bytes": 299959,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/mesmer-jr/",
+          "checkedAt": "2026-10-24T20:40:35.984098Z",
+          "sha256": "8c4aab9beef02bf6b6478fcd894c220c3fefd0e7b1224d547b4ab44a0ef6a2c3",
+          "bytes": 300531,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/alien-t/",
+          "checkedAt": "2026-10-24T20:40:42.012981Z",
+          "sha256": "91b4a843c49e73c383c41b9e406846bf2ab8c7d46814db9ffd83be720e14aa28",
+          "bytes": 300926,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/the-fool/",
+          "checkedAt": "2026-10-24T20:40:35.939990Z",
+          "sha256": "246ec4b9c3db8de88543868cf59060010043fe0309578b7e57207648a0931a27",
+          "bytes": 303447,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/twins-sleep/",
+          "checkedAt": "2026-10-24T20:40:42.012713Z",
+          "sha256": "d70b3860fa0d4dee54066dd0ba3f620d434fc1ee2d574bc4c27b2f65c488414d",
+          "bytes": 301974,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/leilani/",
+          "checkedAt": "2026-10-24T20:40:42.004065Z",
+          "sha256": "6337ca5bf6373b12048ddf9ac2b1d9af461dea4a3131dc68e4cf8301a35b53b9",
+          "bytes": 302613,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/lilya/",
+          "checkedAt": "2026-10-24T20:40:42.025700Z",
+          "sha256": "f8e2f1b2d9de23f9ad085107912881341344bf26fbf82047d74e325bb3c7dc90",
+          "bytes": 315396,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/john-titor/",
+          "checkedAt": "2026-10-24T20:40:41.995949Z",
+          "sha256": "8a311b55766800d398e073fd951bb91a2dab0e6ce391bf941832bdf86ac5d1ab",
+          "bytes": 302424,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/la-source/",
+          "checkedAt": "2026-10-24T20:40:36.004947Z",
+          "sha256": "f6927a958327b6ecef139ce295315d53fcb6a080b1ac5ca4e1471ad29adfb119",
+          "bytes": 299101,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/bette/",
+          "checkedAt": "2026-10-24T20:40:42.012618Z",
+          "sha256": "c486a4a924ea914a67bc2c9c7171fcf64d1c8c9814cf15782ab959f253bc5f8a",
+          "bytes": 300363,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/door/",
+          "checkedAt": "2026-10-24T20:40:48.868298Z",
+          "sha256": "924d4690e45a5add175424b12043d3d9100285e18b105d87862841b1a534c0a0",
+          "bytes": 301591,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/onion/",
+          "checkedAt": "2026-10-24T20:40:48.895971Z",
+          "sha256": "c8cc26fc256593b811e863810d7169d3f47e4c37f0916db518ffebc5e806bbe7",
+          "bytes": 301978,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/darley-clatter/",
+          "checkedAt": "2026-10-24T20:40:48.848038Z",
+          "sha256": "4785de642f41d5aaa26d4238146c71fc886ae70b44ad57f84bf2e9796d06612b",
+          "bytes": 304396,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ms-radio/",
+          "checkedAt": "2026-10-24T20:40:48.868615Z",
+          "sha256": "38235f0df3fafc34f42d1033ba389002c12404c2f67de134edb4ecc8121a4d15",
+          "bytes": 298323,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/sputnik/",
+          "checkedAt": "2026-10-24T20:40:48.804180Z",
+          "sha256": "34de9677d5c998958975716cfbaf809dbeaa94d0e3bb4ca4418a1831908085a5",
+          "bytes": 302128,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/mondlicht/",
+          "checkedAt": "2026-10-24T20:40:55.319809Z",
+          "sha256": "9eb652958992b175f25db33b45e802ef0ffeb59a86a9062cdd9e48fa3c128a9d",
+          "bytes": 300944,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/matilda/",
+          "checkedAt": "2026-10-24T20:40:55.220005Z",
+          "sha256": "028316ecdd8b85aa699ae9f065bbd433926cbcc277a9fd23b7adf2ecc0d03d6e",
+          "bytes": 312559,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/pickles/",
+          "checkedAt": "2026-10-24T20:40:55.276219Z",
+          "sha256": "4e3b8873ad6d98bafd96e95f16c6315500af695be933384d0248c0b790e1e6cf",
+          "bytes": 316722,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/melania/",
+          "checkedAt": "2026-10-24T20:40:55.275865Z",
+          "sha256": "c4979941071cefdd7c952101da235778f9a67b7da7feff1cd2a81ec8d7ecb624",
+          "bytes": 325460,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/diggers/",
+          "checkedAt": "2026-10-24T20:40:55.225605Z",
+          "sha256": "639ed01b10de5a05cade8a048d28867d8d5f25448768dd1acfc985fd65a594cd",
+          "bytes": 308618,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/centurion/",
+          "checkedAt": "2026-10-24T20:40:48.903872Z",
+          "sha256": "e42f646c8a3b7ffdb7ddcdf3b1d171c3f34450d6d8b605cd36c198a3e41c05b9",
+          "bytes": 314805,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/jessica/",
+          "checkedAt": "2026-10-24T20:41:05.901970Z",
+          "sha256": "196566f0b6f046ba990f1551ae718911a835819d99d6eb5c2b76d3b4707678d0",
+          "bytes": 328078,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/blonney/",
+          "checkedAt": "2026-10-24T20:41:05.892263Z",
+          "sha256": "db2979db1b4d5bacf48df10e85de91cf914274d214fd0e45d74671e781ddfee2",
+          "bytes": 306246,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/horropedia/",
+          "checkedAt": "2026-10-24T20:41:05.901650Z",
+          "sha256": "ac637e9b09f6d9ef2850aa2d6fc2f39fb56660907dffcde95f35cae2dc3c35d7",
+          "bytes": 306671,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/tooth-fairy/",
+          "checkedAt": "2026-10-24T20:40:55.311878Z",
+          "sha256": "18c536210d22a12495af91ed4713d621c6c91658f7ab8d6d943d2a4f18170c8e",
+          "bytes": 314137,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/kanjira/",
+          "checkedAt": "2026-10-24T20:41:05.892006Z",
+          "sha256": "76404c0848ac55491f0cd5cd6db3f4c5b13bd82f05612e9006061edf8b7cbd87",
+          "bytes": 313734,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/shamane/",
+          "checkedAt": "2026-10-24T20:41:05.900549Z",
+          "sha256": "7b02f64857e4d73054571182831f1f5fca73d8d427daad32a3e761b7b2d759e8",
+          "bytes": 312849,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/kaalaa-baunaa/",
+          "checkedAt": "2026-10-24T20:41:05.875915Z",
+          "sha256": "bd84838d49e2ce3516ec7c522a3d9edc32d6a91c9877cfe7948aed682d5c9cc6",
+          "bytes": 324256,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/6/",
+          "checkedAt": "2026-10-24T20:41:14.807919Z",
+          "sha256": "f8a066448eaed334cd0fdad67d33c4be9690c5349cdfa61e0dc24e8178306c21",
+          "bytes": 341493,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ezra-theodore/",
+          "checkedAt": "2026-10-24T20:41:14.764106Z",
+          "sha256": "59604cd0af4cc750810bd837856a81cdcec57767209505a8adbe6c1c5b0b8bb0",
+          "bytes": 337279,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/desert-flannel/",
+          "checkedAt": "2026-10-24T20:41:14.783825Z",
+          "sha256": "10246a1967db44687d7733bda48acb98e8c8eea0eb1b19540ff54f711eb10331",
+          "bytes": 310328,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/37/",
+          "checkedAt": "2026-10-24T20:41:14.711871Z",
+          "sha256": "1c3395314a977eb1654315ec49bbe6b49e8c4e208b3b83d434db707576db0d01",
+          "bytes": 311500,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/ulu/",
+          "checkedAt": "2026-10-24T20:41:14.776048Z",
+          "sha256": "08c71bbefc603f73baa0df6a1e0eac915b777ca9850aea6beea1f9fcb4cb5b72",
+          "bytes": 310902,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/a-knight/",
+          "checkedAt": "2026-10-24T20:41:12.016510Z",
+          "sha256": "e4f7f20e3cb021f11799664a276cc3cb1743b1142f3436e4f5b079d36e9c8a01",
+          "bytes": 328798,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/yenisei/",
+          "checkedAt": "2026-10-24T20:41:12.047992Z",
+          "sha256": "419186c96a55101aff80caed518e7dbdc7e33e2b7a952fd25f8d54ecc39433a9",
+          "bytes": 310647,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/marcus/",
+          "checkedAt": "2026-10-24T20:41:12.035890Z",
+          "sha256": "c04d723f29b678e6c007573f2452fe1cc767f5f1352da93d75f0067f8f8c4223",
+          "bytes": 316253,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/getian/",
+          "checkedAt": "2026-10-24T20:41:12.011953Z",
+          "sha256": "3eda868a024d8aedf9ac7cfd78ab2fc37b3208a6461598d5fdbbda392f3f2bf2",
+          "bytes": 348285,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/jiu-niangzi/",
+          "checkedAt": "2026-10-24T20:41:14.732917Z",
+          "sha256": "6389938cfefe7aa119973b0f216301e3bffafe757dcd6e06aec58aaf88b84d0f",
+          "bytes": 326026,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/spathodea/",
+          "checkedAt": "2026-10-24T20:41:11.995916Z",
+          "sha256": "c8dc777487d3d9bb4740c9a6b96947564787380813dab76935f2195d56ca1a61",
+          "bytes": 321364,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/isolde/",
+          "checkedAt": "2026-10-24T20:41:12.021238Z",
+          "sha256": "0a913dffdc3349c28079bd6731e543548c18a993334b38acd79207d6589e971e",
+          "bytes": 333146,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/medicine-pocket/",
+          "checkedAt": "2026-10-24T20:41:21.792010Z",
+          "sha256": "ab6d83cbd56f2759f778a8c51cffce61bc9b0d6969a8c9a8dd86b3017ebe8d66",
+          "bytes": 314009,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/vila/",
+          "checkedAt": "2026-10-24T20:41:21.820065Z",
+          "sha256": "c2d14654d3cdd5a9a7ce4c618036eec69ebdb63a7c75f14dcf768d2097dc8ef4",
+          "bytes": 323803,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/windsong/",
+          "checkedAt": "2026-10-24T20:41:21.841316Z",
+          "sha256": "9fcc2e6dc01d555091a6e3e5f88d779fb8368441414de60b8640ac924136cf3e",
+          "bytes": 325542,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/avgust/",
+          "checkedAt": "2026-10-24T20:41:21.786032Z",
+          "sha256": "a51f2a5fa41313b17bc1ae44e23721b4283261e539ceaff33a0b9d97119e219c",
+          "bytes": 305974,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/semmelweis/",
+          "checkedAt": "2026-10-24T20:41:21.832055Z",
+          "sha256": "5fec5883040a43344a84d27add6b5211df8b89a8ccf80812dfe4ba49cd32943e",
+          "bytes": 329585,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/lucy/",
+          "checkedAt": "2026-10-24T20:41:21.780332Z",
+          "sha256": "6811961b2e6401c1a7792bdb1f34e620281c3cd1e7dc020a882d66a6d3ec14aa",
+          "bytes": 329486,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/kakania/",
+          "checkedAt": "2026-10-24T20:41:32.492131Z",
+          "sha256": "96348b4c2e12a8a060826b4893bce53b83b5cefb876ed479afd466590528aa40",
+          "bytes": 311669,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/pioneer/",
+          "checkedAt": "2026-10-24T20:41:32.692104Z",
+          "sha256": "e32a5d1ddb277d71bd79dcffe42cad7a86b093af8052a58b3342e8aaf567f7f5",
+          "bytes": 310541,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/mercuria/",
+          "checkedAt": "2026-10-24T20:41:32.497732Z",
+          "sha256": "3d7c31ca158e7b7621fa78d3a60a2509344d5b867fcc89b57e101f192cb7914a",
+          "bytes": 322287,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/barbara/",
+          "checkedAt": "2026-10-24T20:41:40.727651Z",
+          "sha256": "d015f76ffebdcf6e57616e3c652c7f021af3e21e779ab1708acd497f60153dc6",
+          "bytes": 314895,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/j/",
+          "checkedAt": "2026-10-24T20:41:32.455881Z",
+          "sha256": "723d33254eb98769d7ad6b87d6c3c085343c8dd69a21da6ddd0732382e104ed7",
+          "bytes": 361206,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/lorelei/",
+          "checkedAt": "2026-10-24T20:41:32.443938Z",
+          "sha256": "14d655b7023bdb69720250e3cd6b83f6a016d2a64c7fcfc8eb24f14823feb754",
+          "bytes": 312007,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/tuesday/",
+          "checkedAt": "2026-10-24T20:41:32.692435Z",
+          "sha256": "345cec9e0875c718ce0e4cff2a3eb490db7f0781a0f7f2c1a3dd7b4b7837fa7b",
+          "bytes": 322050,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/lopera/",
+          "checkedAt": "2026-10-24T20:41:39.500187Z",
+          "sha256": "5238691606071a7fad7c7f48b9d7cd8cd09610d1eb02366b6ce7db46655e43c2",
+          "bytes": 311361,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/mr-duncan/",
+          "checkedAt": "2026-10-24T20:41:40.708038Z",
+          "sha256": "df3b047fbf8a40ddbc35747dabf613cdd2df4ea7139ce0eb88a1a69b11e4902b",
+          "bytes": 310570,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/anjo-nala/",
+          "checkedAt": "2026-10-24T20:41:40.713760Z",
+          "sha256": "031a587007b9dab2cc875ca215f84fbe5f9f970571d08b706c5e263c95d72f6d",
+          "bytes": 332539,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/voyager/",
+          "checkedAt": "2026-10-24T20:41:40.728128Z",
+          "sha256": "325cc2d28e8dbfef7185daaab51cb7fd9cf8cb8527d8e25d83c894f1b0b04bd2",
+          "bytes": 321180,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/argus/",
+          "checkedAt": "2026-10-24T20:41:40.743772Z",
+          "sha256": "87a661fb3a928be37b25552ed3d9a23c2d464bdd71ad9e6df716f8ff3b3e781e",
+          "bytes": 320533,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/white-rum/",
+          "checkedAt": "2026-10-24T20:41:40.735767Z",
+          "sha256": "96c37290f8cfbfa76dc1784c91bd8e65a0df8670c733740757d965a755bbd7f2",
+          "bytes": 306515,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/willow/",
+          "checkedAt": "2026-10-24T20:41:39.439973Z",
+          "sha256": "cd1e7db66cad2549a9d95aef4970d98892ed211830f24fc92e34c5c77da0ff27",
+          "bytes": 325400,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/flutterpage/",
+          "checkedAt": "2026-10-24T20:41:39.468197Z",
+          "sha256": "2df01eb108698c5fe18068d2b5b17753de692797fcc067b21941600d70fd6615",
+          "bytes": 340691,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/liang-yue/",
+          "checkedAt": "2026-10-24T20:41:48.788014Z",
+          "sha256": "bdd6ea8600ea95762a7fed21b371875703c4041763493c2c42ae3d17016800ad",
+          "bytes": 353445,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/fatutu/",
+          "checkedAt": "2026-10-24T20:41:39.452022Z",
+          "sha256": "9b34e3b52edb5fafe58faa8fadf1c11e629b78ebd7060c8879ad314d3a09ddc3",
+          "bytes": 308489,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/brimley/",
+          "checkedAt": "2026-10-24T20:41:39.456427Z",
+          "sha256": "611287734badc9e5fb585b76bc71c7fd28a82b5b512f8cd5db3d1a4899585ced",
+          "bytes": 313207,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/loggerhead/",
+          "checkedAt": "2026-10-24T20:41:48.828050Z",
+          "sha256": "7855c42d68de101bd5ba291386174d065bc4bd6cb72b23b059c213f8a524abd7",
+          "bytes": 312649,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.prydwen.gg/re1999/characters/barcarola/",
+          "checkedAt": "2026-10-24T20:41:39.559997Z",
+          "sha256": "82da1c181f9399c9df30b7597f4de04457177ccd2a59c306a743b9ab4c567a1a",
+          "bytes": 324104,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://raw.githubusercontent.com/St-Pavlov-Foundation/re1999-data-global/main/data/json/character_level.json",
+          "checkedAt": "2026-10-24T20:44:22.440139Z",
+          "sha256": "3e7af5b1c461f54f80bc03275213e3f46904633e8b44587f87b3d7d649b24c62",
+          "bytes": 150741,
+          "httpStatus": 200
+        }
+      ],
+      "status": "partial"
+    }
+  ]
+}

@@ -1,0 +1,847 @@
+{
+  "checkedAt": "2026-10-24T20:37:03.616260Z",
+  "results": [
+    {
+      "gameId": "genshin",
+      "status": "ok",
+      "characters": 124,
+      "stats": 124,
+      "koreanNames": 124,
+      "sources": [
+        {
+          "key": "gi_stats",
+          "url": "https://raw.githubusercontent.com/theBowja/genshin-db/main/src/data/stats/characters.json",
+          "sha256": "00c40710eba757f5f6cf1fefc3f13905204b9381798310726a81082435f6035c",
+          "checkedAt": "2026-10-24T20:36:24.457213Z",
+          "status": 200,
+          "etag": "\"b75e6a38785fb819e5de2a68e920940fcfed9fc4c518576ee6c628d4375f7d48\"",
+          "lastModified": null
+        },
+        {
+          "key": "gi_curve",
+          "url": "https://raw.githubusercontent.com/theBowja/genshin-db/main/src/data/curve/characters.json",
+          "sha256": "51c4f9c13e61f227af59660f8a89336f1397009d84d7ce479593fd7a4c62709c",
+          "checkedAt": "2026-10-24T20:36:29.268008Z",
+          "status": 200,
+          "etag": "\"e576d0e209923996557f1fc85830cfa8c35cd7989544f6bb553d8efbf2e64dc2\"",
+          "lastModified": null
+        },
+        {
+          "key": "gi_index",
+          "url": "https://raw.githubusercontent.com/theBowja/genshin-db/main/src/data/index/English/characters.json",
+          "sha256": "a84ec0e6ea22596df61c78bf65c293fe31644efe5dc27dc9c0bb24942842d23f",
+          "checkedAt": "2026-10-24T20:36:33.981257Z",
+          "status": 200,
+          "etag": "\"33b16ddeea9a55844be8fc4e0b305baae168b09c6f6e4581079b18e060c8d978\"",
+          "lastModified": null
+        }
+      ],
+      "missingStatsIds": [],
+      "level": 90,
+      "ascension": 6,
+      "originalTraitValues": [],
+      "outputSha256": "3ce56df5655e65fe35be041207e32fff6c1a419160a6dbbdf1e7e9485df3f2f7"
+    },
+    {
+      "gameId": "hsr",
+      "status": "ok",
+      "characters": 98,
+      "stats": 98,
+      "koreanNames": 98,
+      "sources": [
+        {
+          "key": "hsr_promotions",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/character_promotions.json",
+          "sha256": "2439bb73262a8438e5658c74309687012e02c5b3b14f0ec4d2f8513f6694588c",
+          "checkedAt": "2026-10-24T20:36:24.454651Z",
+          "status": 200,
+          "etag": "\"e6282ce5fc3efbfba86a53368425bac2b3210e71c8476140f4a7525d0e7fa55e\"",
+          "lastModified": null
+        },
+        {
+          "key": "hsr_paths_ko",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/kr/paths.json",
+          "sha256": "8b3044ffb902331638e8d2a56194879c29fc1a11f7483dc276ea1d4316fc308b",
+          "checkedAt": "2026-10-24T20:36:29.224916Z",
+          "status": 200,
+          "etag": "\"50cff64293edeb08d0becaa802d3cf3e5d7071b6cd8390cbbefc83835e797081\"",
+          "lastModified": null
+        },
+        {
+          "key": "hsr_paths_en",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/paths.json",
+          "sha256": "69b0e46042b35029d90c76e7c2ace0bdcc1b75e2c3f86197563e59ad996586df",
+          "checkedAt": "2026-10-24T20:36:34.088331Z",
+          "status": 200,
+          "etag": "\"4633db8442aeffb6389811b41f433c2e77bd167eaf8e27b7dc96ec654c182c45\"",
+          "lastModified": null
+        },
+        {
+          "key": "hsr_paths_ja",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/jp/paths.json",
+          "sha256": "00f6cc389c733e35263bcc78216c84e6b083349e550d4ebfb942fbd634599ef9",
+          "checkedAt": "2026-10-24T20:36:38.948457Z",
+          "status": 200,
+          "etag": "\"f6fb7c8555c53382aa606f55f40160c4b6c92a69e8da9cb00696a3599842146f\"",
+          "lastModified": null
+        },
+        {
+          "key": "hsr_paths_zh",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/cn/paths.json",
+          "sha256": "ed86537d2fa626fa13fa4f46d676eb13746336af0ae5025747e5de26527a8a9f",
+          "checkedAt": "2026-10-24T20:36:44.018065Z",
+          "status": 200,
+          "etag": "\"55b569c87f680eb10d6c5f267e9c3f8a7ac8f6c45e17e78885c252f0582cc3bd\"",
+          "lastModified": null
+        },
+        {
+          "key": "hsr_elements_ko",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/kr/elements.json",
+          "sha256": "17c83cd02863a311e2bb7cbb256cbc27c5f36c64c43a0394cf16846ea1b7e79f",
+          "checkedAt": "2026-10-24T20:36:48.934659Z",
+          "status": 200,
+          "etag": "\"28686d7880771f8197f08cb5d907c087742ba8b0accc06f0dfaddc5696f66671\"",
+          "lastModified": null
+        },
+        {
+          "key": "hsr_elements_en",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/elements.json",
+          "sha256": "709997e7219d05d2631e5ec86127979ce193da087b40535a876d1b73231e3fcf",
+          "checkedAt": "2026-10-24T20:36:53.840109Z",
+          "status": 200,
+          "etag": "\"10585c215f87019b4e5ebb8b07bb87cf48ad3b7699ae9d91f8ad28a8c316554f\"",
+          "lastModified": null
+        },
+        {
+          "key": "hsr_elements_ja",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/jp/elements.json",
+          "sha256": "f5af9d7b74fe7cb0080f127182e7905cde5de2db6f320d662a58709f9106c489",
+          "checkedAt": "2026-10-24T20:36:58.712986Z",
+          "status": 200,
+          "etag": "\"b1d635806bb278e71bba342d67458dbbeb1e03c55b21307574a640fbcd5bff8a\"",
+          "lastModified": null
+        },
+        {
+          "key": "hsr_elements_zh",
+          "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/cn/elements.json",
+          "sha256": "2c879352d6e5f8de32cd899923e7c53fce419df1c35984e800573b5c8161b2a7",
+          "checkedAt": "2026-10-24T20:37:03.603154Z",
+          "status": 200,
+          "etag": "\"c7ca3f18bffbfb181041daf5d807e5f7e970ed348e4ae22b63b58cbca455e4c7\"",
+          "lastModified": null
+        }
+      ],
+      "missingStatsIds": [],
+      "level": 1,
+      "ascension": 0,
+      "originalTraitValues": [],
+      "outputSha256": "85fd7378bbfe35e5214f22cd1d18b659434ccc33b7be7b836b244df9a012a578"
+    },
+    {
+      "gameId": "zzz",
+      "status": "ok",
+      "characters": 61,
+      "stats": 61,
+      "koreanNames": 61,
+      "sources": [
+        {
+          "key": "zzz_avatars",
+          "url": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+          "sha256": "301b1e25ec597171cc04fdd0a801ae7469750fa4623af61d51e51ab2793713da",
+          "via": "parent-source-receipt",
+          "parentMeta": {
+            "url": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+            "checkedAt": "2026-10-24T20:30:05.737160Z",
+            "httpStatus": 200,
+            "status": "changed",
+            "sha256": "301b1e25ec597171cc04fdd0a801ae7469750fa4623af61d51e51ab2793713da",
+            "etag": "\"127cf8b661dafb4d473325fad6a0e75186c41c914f579d635ce9d77ee3233309\"",
+            "lastModified": null,
+            "bytes": 152638
+          }
+        },
+        {
+          "key": "zzz_properties",
+          "url": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/property.json",
+          "sha256": "7c8a3607d2722146ee6f4e99d29d6686f6bb7aeeb432155a3208af5bf369147c",
+          "checkedAt": "2026-10-24T20:36:24.440387Z",
+          "status": 200,
+          "etag": "\"8568d66dc7c262c80662d7b866c6c4284d946bf48d4afd5de917434fac744508\"",
+          "lastModified": null
+        }
+      ],
+      "missingStatsIds": [],
+      "level": 1,
+      "promotion": 0,
+      "coreEnhancement": 0,
+      "originalTraitValues": [
+        "element:Lumen",
+        "element:ZhenZhenAssault, Physics",
+        "specialty:Armorer"
+      ],
+      "outputSha256": "a16c91d656b5387b4049c57a4d58acf272fe3bba7a95ab465e5e95ca7a443c58"
+    },
+    {
+      "gameId": "arknights",
+      "status": "ok",
+      "characters": 432,
+      "stats": 432,
+      "koreanNames": 432,
+      "sources": [
+        {
+          "key": "ak_ko",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/ko_KR/gamedata/excel/character_table.json",
+          "sha256": "336e1124339584808b2ffd4d01d053106af22611ff56d8561c8ad9adbee5beac",
+          "via": "parent-source-receipt",
+          "parentMeta": {
+            "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/ko_KR/gamedata/excel/character_table.json",
+            "checkedAt": "2026-10-24T20:30:09.890586Z",
+            "httpStatus": 200,
+            "status": "changed",
+            "sha256": "336e1124339584808b2ffd4d01d053106af22611ff56d8561c8ad9adbee5beac",
+            "etag": "\"a8dbb26b54112367dd0800c33c185bf32f1e1354c180688580d33ffdcac80bde\"",
+            "lastModified": null,
+            "bytes": 11504211
+          }
+        },
+        {
+          "key": "ak_en",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/en_US/gamedata/excel/character_table.json",
+          "sha256": "cf86d1690bdae2bf02378081ef8ae61731da042902bb284d339b7c0d889e66a9",
+          "via": "parent-source-receipt",
+          "parentMeta": {
+            "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/en_US/gamedata/excel/character_table.json",
+            "checkedAt": "2026-10-24T20:30:06.294585Z",
+            "httpStatus": 200,
+            "status": "changed",
+            "sha256": "cf86d1690bdae2bf02378081ef8ae61731da042902bb284d339b7c0d889e66a9",
+            "etag": "\"52d2a3b009c316474f1150d765c4fd9f4f698d34e3c091693ba6e27dd50dead3\"",
+            "lastModified": null,
+            "bytes": 11459107
+          }
+        },
+        {
+          "key": "ak_ja",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/ja_JP/gamedata/excel/character_table.json",
+          "sha256": "c0186e6eb3f6c3e6d06c1e838c847485411665b0503a75851d5d573bc093de4f",
+          "via": "parent-source-receipt",
+          "parentMeta": {
+            "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/ja_JP/gamedata/excel/character_table.json",
+            "checkedAt": "2026-10-24T20:30:12.696720Z",
+            "httpStatus": 200,
+            "status": "changed",
+            "sha256": "c0186e6eb3f6c3e6d06c1e838c847485411665b0503a75851d5d573bc093de4f",
+            "etag": "\"cf8f11cd930bed9acfa8a1b4e4027bf2bfdb1964511ecffb8cec33b84f2038f7\"",
+            "lastModified": null,
+            "bytes": 11521595
+          }
+        },
+        {
+          "key": "ak_zh",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "sha256": "e8f42a2dd5c5e72ec3fc7282ee7c0d06aadb5ccdfb2c0b63dd6da55de6c17ba5",
+          "via": "parent-source-receipt",
+          "parentMeta": {
+            "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+            "checkedAt": "2026-10-24T20:30:15.073340Z",
+            "httpStatus": 200,
+            "status": "changed",
+            "sha256": "e8f42a2dd5c5e72ec3fc7282ee7c0d06aadb5ccdfb2c0b63dd6da55de6c17ba5",
+            "etag": "\"75190d496a6fb819004a750d1720a4d2e91d45b3f447871a0218b194154fe41f\"",
+            "lastModified": null,
+            "bytes": 15099388
+          }
+        }
+      ],
+      "originalTraitValues": [],
+      "missingStatsIds": [],
+      "level": 1,
+      "elite": 0,
+      "regionalDifferences": 0,
+      "editorialNames": [
+        {
+          "id": "char_1015_aglna2",
+          "locale": "ko",
+          "value": "소망의 안젤리나",
+          "sourceName": "予愿安洁莉娜",
+          "sourceAppellation": "Angelina the Mellow Wish",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1022_flwr2",
+          "locale": "ko",
+          "value": "정수의 퍼퓨머",
+          "sourceName": "撷英调香师",
+          "sourceAppellation": "Perfumer the Distilled",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1043_leizi2",
+          "locale": "ko",
+          "value": "뇌명의 레이즈",
+          "sourceName": "司霆惊蛰",
+          "sourceAppellation": "Leizi the Thunderbringer",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1044_hsgma2",
+          "locale": "ko",
+          "value": "돌파의 호시구마",
+          "sourceName": "斩业星熊",
+          "sourceAppellation": "Hoshiguma the Breacher",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1045_svash2",
+          "locale": "ko",
+          "value": "서리 군주의 실버애쉬",
+          "sourceName": "凛御银灰",
+          "sourceAppellation": "SilverAsh the Reignfrost",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1046_sbell2",
+          "locale": "ko",
+          "value": "성청의 프라마닉스",
+          "sourceName": "圣聆初雪",
+          "sourceAppellation": "Pramanix the Prerita",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1047_halo2",
+          "locale": "ko",
+          "value": "빛을 좇는 아스테지니",
+          "sourceName": "溯光星源",
+          "sourceAppellation": "Astgenne the Lightchaser",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1048_orchd2",
+          "locale": "ko",
+          "value": "타마미츠네 희소종 오키드",
+          "sourceName": "焰狐龙梓兰",
+          "sourceAppellation": "Violet Mizutsune Orchid",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1049_catap2",
+          "locale": "ko",
+          "value": "진오우거 S 캐터펄트",
+          "sourceName": "雷狼龙S空爆",
+          "sourceAppellation": "Zinogre S Catapult",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1050_chen3",
+          "locale": "ko",
+          "value": "새벽 칼날의 첸",
+          "sourceName": "赤刃明霄陈",
+          "sourceAppellation": "Ch'en the Dawnstreak",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1051_headb2",
+          "locale": "ko",
+          "value": "성난 파도의 지마",
+          "sourceName": "怒潮凛冬",
+          "sourceAppellation": "Zima the Raging Tide",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_1052_kalts2",
+          "locale": "ko",
+          "value": "켈시·에스페란타",
+          "sourceName": "凯尔希·思衡托",
+          "sourceAppellation": "Kal'tsit·Esperanta",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_2027_wang",
+          "locale": "ko",
+          "value": "왕",
+          "sourceName": "望",
+          "sourceAppellation": "Wang",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_393_toledo",
+          "locale": "ko",
+          "value": "데 톨레도",
+          "sourceName": "德·托莱多",
+          "sourceAppellation": "de Toledo",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_394_hadiya",
+          "locale": "ko",
+          "value": "하디야",
+          "sourceName": "哈蒂娅",
+          "sourceAppellation": "Hadiya",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4031_liesel",
+          "locale": "ko",
+          "value": "리프레사",
+          "sourceName": "复奏",
+          "sourceAppellation": "Ripresa",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4037_demetr",
+          "locale": "ko",
+          "value": "벨로네",
+          "sourceName": "贝洛内",
+          "sourceAppellation": "Bellone",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4051_akkord",
+          "locale": "ko",
+          "value": "아코르드",
+          "sourceName": "协律",
+          "sourceAppellation": "Akkord",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4056_titi",
+          "locale": "ko",
+          "value": "티티",
+          "sourceName": "缇缇",
+          "sourceAppellation": "Titi",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4166_varkis",
+          "locale": "ko",
+          "value": "바르카리스",
+          "sourceName": "摆渡人",
+          "sourceAppellation": "Varkáris",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4182_oblvns",
+          "locale": "ko",
+          "value": "토가와 사키코",
+          "sourceName": "丰川祥子",
+          "sourceAppellation": "Togawa Sakiko",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4183_mortis",
+          "locale": "ko",
+          "value": "와카바 무츠미",
+          "sourceName": "若叶睦",
+          "sourceAppellation": "Wakaba Mutsumi",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4184_dolris",
+          "locale": "ko",
+          "value": "미스미 우이카",
+          "sourceName": "三角初华",
+          "sourceAppellation": "Misumi Uika",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4185_amoris",
+          "locale": "ko",
+          "value": "유텐지 냐무",
+          "sourceName": "祐天寺若麦",
+          "sourceAppellation": "Yūtenji Nyamu",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4186_tmoris",
+          "locale": "ko",
+          "value": "야하타 우미리",
+          "sourceName": "八幡海铃",
+          "sourceAppellation": "Yahata Umiri",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4195_radian",
+          "locale": "ko",
+          "value": "레이디언",
+          "sourceName": "电弧",
+          "sourceAppellation": "Raidian",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4196_reckpr",
+          "locale": "ko",
+          "value": "기록관",
+          "sourceName": "录武官",
+          "sourceAppellation": "Record Keeper",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4199_makiri",
+          "locale": "ko",
+          "value": "마츠키리",
+          "sourceName": "松桐",
+          "sourceAppellation": "Matsukiri",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4202_haruka",
+          "locale": "ko",
+          "value": "하루카",
+          "sourceName": "遥",
+          "sourceAppellation": "Haruka",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4203_kichi",
+          "locale": "ko",
+          "value": "키치세이",
+          "sourceName": "吉星",
+          "sourceAppellation": "Kichisei",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4204_mantra",
+          "locale": "ko",
+          "value": "만트라",
+          "sourceName": "真言",
+          "sourceAppellation": "Mantra",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4207_branch",
+          "locale": "ko",
+          "value": "베토치키",
+          "sourceName": "折桠",
+          "sourceAppellation": "Веточки",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4208_wintim",
+          "locale": "ko",
+          "value": "스네구로치카",
+          "sourceName": "冬时",
+          "sourceAppellation": "Снегурочка",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4211_snhunt",
+          "locale": "ko",
+          "value": "스노우 헌터",
+          "sourceName": "雪猎",
+          "sourceAppellation": "Snow Hunter",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4212_nasti",
+          "locale": "ko",
+          "value": "나스티",
+          "sourceName": "娜斯提",
+          "sourceAppellation": "Nasti",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4213_skybx",
+          "locale": "ko",
+          "value": "스카이박스",
+          "sourceName": "天空盒",
+          "sourceAppellation": "Skybox",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4214_cairn",
+          "locale": "ko",
+          "value": "케언",
+          "sourceName": "响石",
+          "sourceAppellation": "Cairn",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4215_buddy",
+          "locale": "ko",
+          "value": "로도스 아일랜드 정찰대",
+          "sourceName": "罗德岛隐秘队",
+          "sourceAppellation": "Rhodes Island Recon",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4217_makoto",
+          "locale": "ko",
+          "value": "유키 마코토",
+          "sourceName": "结城理",
+          "sourceAppellation": "Makoto Yuki",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4218_aigis",
+          "locale": "ko",
+          "value": "아이기스",
+          "sourceName": "埃癸斯",
+          "sourceAppellation": "Aegis",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4219_yukari",
+          "locale": "ko",
+          "value": "타케바 유카리",
+          "sourceName": "岳羽由加莉",
+          "sourceAppellation": "Yukari Takeba",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4220_kormr",
+          "locale": "ko",
+          "value": "코로마루",
+          "sourceName": "虎狼丸",
+          "sourceAppellation": "Koromaru",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4221_ju",
+          "locale": "ko",
+          "value": "쥐",
+          "sourceName": "矩",
+          "sourceAppellation": "Ju",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4222_taraxa",
+          "locale": "ko",
+          "value": "타락사쿰",
+          "sourceName": "风絮",
+          "sourceAppellation": "Taraxacum",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4223_botany",
+          "locale": "ko",
+          "value": "보타니",
+          "sourceName": "伯塔尼",
+          "sourceAppellation": "Ботани",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4224_turdus",
+          "locale": "ko",
+          "value": "우쿠시크",
+          "sourceName": "乌啾",
+          "sourceAppellation": "Укусик",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4225_tanya",
+          "locale": "ko",
+          "value": "크랙본",
+          "sourceName": "裂响",
+          "sourceAppellation": "Crackborne",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4226_veen",
+          "locale": "ko",
+          "value": "비이",
+          "sourceName": "维伊",
+          "sourceAppellation": "Вий",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4227_gallus",
+          "locale": "ko",
+          "value": "갈루스²",
+          "sourceName": "GALLUS²",
+          "sourceAppellation": "GALLUS²",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4228_closur",
+          "locale": "ko",
+          "value": "클로저",
+          "sourceName": "可露希尔",
+          "sourceAppellation": "Closure",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4229_aphris",
+          "locale": "ko",
+          "value": "아프리사",
+          "sourceName": "谬因",
+          "sourceAppellation": "Aphrissa",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4230_mcnist",
+          "locale": "ko",
+          "value": "메카니스트",
+          "sourceName": "机械师",
+          "sourceAppellation": "Mechanist",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4231_clemnt",
+          "locale": "ko",
+          "value": "클레멘티아",
+          "sourceName": "克莱门莎",
+          "sourceAppellation": "Clementia",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4232_hbound",
+          "locale": "ko",
+          "value": "홈바운드",
+          "sourceName": "旅骨",
+          "sourceAppellation": "Homebound",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4234_pedro",
+          "locale": "ko",
+          "value": "페드로",
+          "sourceName": "佩德洛",
+          "sourceAppellation": "Pedro",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4235_thumpy",
+          "locale": "ko",
+          "value": "섬피",
+          "sourceName": "珊比",
+          "sourceAppellation": "Thumpy",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4236_tmslot",
+          "locale": "ko",
+          "value": "타임슬롯",
+          "sourceName": "时隙",
+          "sourceAppellation": "Timeslot",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        },
+        {
+          "id": "char_4237_jcinta",
+          "locale": "ko",
+          "value": "하신타",
+          "sourceName": "嘉辛塔",
+          "sourceAppellation": "Jacinta",
+          "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+          "kind": "translation",
+          "note": "Editorial Korean rendering of the exact Chinese-service name/appellation; not an official Korean release name."
+        }
+      ],
+      "outputSha256": "6389f5e8b3af8baca1589936d7e40178ebde7f6ccad6b04de4c957a76886cf39"
+    }
+  ],
+  "partial": false
+}

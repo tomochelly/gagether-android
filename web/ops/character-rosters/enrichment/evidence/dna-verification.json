@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-25",
+  "officialSourceBug": {
+    "roleKey": "Kezhou",
+    "officialKoreanName": "지류",
+    "keptKoreanName": "각주",
+    "reason": "Official KO localization duplicates Zhiliu; exact EN role identity Kezhou maps art to char_1503 without changing its existing Korean name."
+  },
+  "images": {
+    "count": 29,
+    "classification": "official character introduction cards with diagonal lower composition",
+    "textFreeContactSheetInspected": true,
+    "notFullBody": true,
+    "notGachaSplash": true,
+    "reviewPath": "/tmp/gagether-enrichment/d/dna-all29-review.jpg"
+  },
+  "limits": {
+    "dnaCharactersWithoutOfficialIntroArt": [
+      "char_3203",
+      "char_5402"
+    ],
+    "stellaCharactersWithoutArt": [
+      "130",
+      "155",
+      "160"
+    ]
+  }
+}

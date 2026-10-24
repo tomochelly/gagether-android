@@ -1,0 +1,292 @@
+{
+  "char_1015_aglna2": {
+    "ko": "소망의 안젤리나",
+    "sourceName": "予愿安洁莉娜",
+    "sourceAppellation": "Angelina the Mellow Wish"
+  },
+  "char_1022_flwr2": {
+    "ko": "정수의 퍼퓨머",
+    "sourceName": "撷英调香师",
+    "sourceAppellation": "Perfumer the Distilled"
+  },
+  "char_1043_leizi2": {
+    "ko": "뇌명의 레이즈",
+    "sourceName": "司霆惊蛰",
+    "sourceAppellation": "Leizi the Thunderbringer"
+  },
+  "char_1044_hsgma2": {
+    "ko": "돌파의 호시구마",
+    "sourceName": "斩业星熊",
+    "sourceAppellation": "Hoshiguma the Breacher"
+  },
+  "char_1045_svash2": {
+    "ko": "서리 군주의 실버애쉬",
+    "sourceName": "凛御银灰",
+    "sourceAppellation": "SilverAsh the Reignfrost"
+  },
+  "char_1046_sbell2": {
+    "ko": "성청의 프라마닉스",
+    "sourceName": "圣聆初雪",
+    "sourceAppellation": "Pramanix the Prerita"
+  },
+  "char_1047_halo2": {
+    "ko": "빛을 좇는 아스테지니",
+    "sourceName": "溯光星源",
+    "sourceAppellation": "Astgenne the Lightchaser"
+  },
+  "char_1048_orchd2": {
+    "ko": "타마미츠네 희소종 오키드",
+    "sourceName": "焰狐龙梓兰",
+    "sourceAppellation": "Violet Mizutsune Orchid"
+  },
+  "char_1049_catap2": {
+    "ko": "진오우거 S 캐터펄트",
+    "sourceName": "雷狼龙S空爆",
+    "sourceAppellation": "Zinogre S Catapult"
+  },
+  "char_1050_chen3": {
+    "ko": "새벽 칼날의 첸",
+    "sourceName": "赤刃明霄陈",
+    "sourceAppellation": "Ch'en the Dawnstreak"
+  },
+  "char_1051_headb2": {
+    "ko": "성난 파도의 지마",
+    "sourceName": "怒潮凛冬",
+    "sourceAppellation": "Zima the Raging Tide"
+  },
+  "char_1052_kalts2": {
+    "ko": "켈시·에스페란타",
+    "sourceName": "凯尔希·思衡托",
+    "sourceAppellation": "Kal'tsit·Esperanta"
+  },
+  "char_2027_wang": {
+    "ko": "왕",
+    "sourceName": "望",
+    "sourceAppellation": "Wang"
+  },
+  "char_393_toledo": {
+    "ko": "데 톨레도",
+    "sourceName": "德·托莱多",
+    "sourceAppellation": "de Toledo"
+  },
+  "char_394_hadiya": {
+    "ko": "하디야",
+    "sourceName": "哈蒂娅",
+    "sourceAppellation": "Hadiya"
+  },
+  "char_4031_liesel": {
+    "ko": "리프레사",
+    "sourceName": "复奏",
+    "sourceAppellation": "Ripresa"
+  },
+  "char_4037_demetr": {
+    "ko": "벨로네",
+    "sourceName": "贝洛内",
+    "sourceAppellation": "Bellone"
+  },
+  "char_4051_akkord": {
+    "ko": "아코르드",
+    "sourceName": "协律",
+    "sourceAppellation": "Akkord"
+  },
+  "char_4056_titi": {
+    "ko": "티티",
+    "sourceName": "缇缇",
+    "sourceAppellation": "Titi"
+  },
+  "char_4166_varkis": {
+    "ko": "바르카리스",
+    "sourceName": "摆渡人",
+    "sourceAppellation": "Varkáris"
+  },
+  "char_4182_oblvns": {
+    "ko": "토가와 사키코",
+    "sourceName": "丰川祥子",
+    "sourceAppellation": "Togawa Sakiko"
+  },
+  "char_4183_mortis": {
+    "ko": "와카바 무츠미",
+    "sourceName": "若叶睦",
+    "sourceAppellation": "Wakaba Mutsumi"
+  },
+  "char_4184_dolris": {
+    "ko": "미스미 우이카",
+    "sourceName": "三角初华",
+    "sourceAppellation": "Misumi Uika"
+  },
+  "char_4185_amoris": {
+    "ko": "유텐지 냐무",
+    "sourceName": "祐天寺若麦",
+    "sourceAppellation": "Yūtenji Nyamu"
+  },
+  "char_4186_tmoris": {
+    "ko": "야하타 우미리",
+    "sourceName": "八幡海铃",
+    "sourceAppellation": "Yahata Umiri"
+  },
+  "char_4195_radian": {
+    "ko": "레이디언",
+    "sourceName": "电弧",
+    "sourceAppellation": "Raidian"
+  },
+  "char_4196_reckpr": {
+    "ko": "기록관",
+    "sourceName": "录武官",
+    "sourceAppellation": "Record Keeper"
+  },
+  "char_4199_makiri": {
+    "ko": "마츠키리",
+    "sourceName": "松桐",
+    "sourceAppellation": "Matsukiri"
+  },
+  "char_4202_haruka": {
+    "ko": "하루카",
+    "sourceName": "遥",
+    "sourceAppellation": "Haruka"
+  },
+  "char_4203_kichi": {
+    "ko": "키치세이",
+    "sourceName": "吉星",
+    "sourceAppellation": "Kichisei"
+  },
+  "char_4204_mantra": {
+    "ko": "만트라",
+    "sourceName": "真言",
+    "sourceAppellation": "Mantra"
+  },
+  "char_4207_branch": {
+    "ko": "베토치키",
+    "sourceName": "折桠",
+    "sourceAppellation": "Веточки"
+  },
+  "char_4208_wintim": {
+    "ko": "스네구로치카",
+    "sourceName": "冬时",
+    "sourceAppellation": "Снегурочка"
+  },
+  "char_4211_snhunt": {
+    "ko": "스노우 헌터",
+    "sourceName": "雪猎",
+    "sourceAppellation": "Snow Hunter"
+  },
+  "char_4212_nasti": {
+    "ko": "나스티",
+    "sourceName": "娜斯提",
+    "sourceAppellation": "Nasti"
+  },
+  "char_4213_skybx": {
+    "ko": "스카이박스",
+    "sourceName": "天空盒",
+    "sourceAppellation": "Skybox"
+  },
+  "char_4214_cairn": {
+    "ko": "케언",
+    "sourceName": "响石",
+    "sourceAppellation": "Cairn"
+  },
+  "char_4215_buddy": {
+    "ko": "로도스 아일랜드 정찰대",
+    "sourceName": "罗德岛隐秘队",
+    "sourceAppellation": "Rhodes Island Recon"
+  },
+  "char_4217_makoto": {
+    "ko": "유키 마코토",
+    "sourceName": "结城理",
+    "sourceAppellation": "Makoto Yuki"
+  },
+  "char_4218_aigis": {
+    "ko": "아이기스",
+    "sourceName": "埃癸斯",
+    "sourceAppellation": "Aegis"
+  },
+  "char_4219_yukari": {
+    "ko": "타케바 유카리",
+    "sourceName": "岳羽由加莉",
+    "sourceAppellation": "Yukari Takeba"
+  },
+  "char_4220_kormr": {
+    "ko": "코로마루",
+    "sourceName": "虎狼丸",
+    "sourceAppellation": "Koromaru"
+  },
+  "char_4221_ju": {
+    "ko": "쥐",
+    "sourceName": "矩",
+    "sourceAppellation": "Ju"
+  },
+  "char_4222_taraxa": {
+    "ko": "타락사쿰",
+    "sourceName": "风絮",
+    "sourceAppellation": "Taraxacum"
+  },
+  "char_4223_botany": {
+    "ko": "보타니",
+    "sourceName": "伯塔尼",
+    "sourceAppellation": "Ботани"
+  },
+  "char_4224_turdus": {
+    "ko": "우쿠시크",
+    "sourceName": "乌啾",
+    "sourceAppellation": "Укусик"
+  },
+  "char_4225_tanya": {
+    "ko": "크랙본",
+    "sourceName": "裂响",
+    "sourceAppellation": "Crackborne"
+  },
+  "char_4226_veen": {
+    "ko": "비이",
+    "sourceName": "维伊",
+    "sourceAppellation": "Вий"
+  },
+  "char_4227_gallus": {
+    "ko": "갈루스²",
+    "sourceName": "GALLUS²",
+    "sourceAppellation": "GALLUS²"
+  },
+  "char_4228_closur": {
+    "ko": "클로저",
+    "sourceName": "可露希尔",
+    "sourceAppellation": "Closure"
+  },
+  "char_4229_aphris": {
+    "ko": "아프리사",
+    "sourceName": "谬因",
+    "sourceAppellation": "Aphrissa"
+  },
+  "char_4230_mcnist": {
+    "ko": "메카니스트",
+    "sourceName": "机械师",
+    "sourceAppellation": "Mechanist"
+  },
+  "char_4231_clemnt": {
+    "ko": "클레멘티아",
+    "sourceName": "克莱门莎",
+    "sourceAppellation": "Clementia"
+  },
+  "char_4232_hbound": {
+    "ko": "홈바운드",
+    "sourceName": "旅骨",
+    "sourceAppellation": "Homebound"
+  },
+  "char_4234_pedro": {
+    "ko": "페드로",
+    "sourceName": "佩德洛",
+    "sourceAppellation": "Pedro"
+  },
+  "char_4235_thumpy": {
+    "ko": "섬피",
+    "sourceName": "珊比",
+    "sourceAppellation": "Thumpy"
+  },
+  "char_4236_tmslot": {
+    "ko": "타임슬롯",
+    "sourceName": "时隙",
+    "sourceAppellation": "Timeslot"
+  },
+  "char_4237_jcinta": {
+    "ko": "하신타",
+    "sourceName": "嘉辛塔",
+    "sourceAppellation": "Jacinta"
+  }
+}

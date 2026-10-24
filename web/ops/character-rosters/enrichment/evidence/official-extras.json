@@ -1,0 +1,231 @@
+{
+  "results": [
+    {
+      "gameId": "hi3",
+      "sources": [
+        {
+          "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/f4395662cb524b05/getContent?iInfoId=109619&sLangKey=ko-kr",
+          "status": 200,
+          "checkedAt": "2026-10-24T20:33:33.748505Z",
+          "sha256": "3d141b218a6e3751deaff288d8dc39f48523c0796af13a927f06ce045475af29",
+          "bytes": 7036,
+          "verification": "normalization replay of freshly fetched source bytes"
+        },
+        {
+          "url": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210111/2021011114105830624.png",
+          "status": 200,
+          "checkedAt": "2026-10-24T20:33:48.028069Z",
+          "sha256": "f9f5c98bcf117b7bf0d8a5cf0ad93a62d926b4ea8684f84860ab28ef96470a69",
+          "bytes": 582021,
+          "verification": "normalization replay of freshly fetched source bytes"
+        }
+      ],
+      "checkedAt": "2026-10-24T20:37:34.347924Z",
+      "koreanNameAdditions": 1,
+      "exactIntroductionImageAdditions": 1,
+      "statsAdded": 0,
+      "limit": "Official showcase has no numeric base combat table; no values fabricated.",
+      "changed": true
+    },
+    {
+      "gameId": "endfield",
+      "sources": [
+        {
+          "url": "https://endfield.gryphline.com/ko-kr",
+          "status": 200,
+          "checkedAt": "2026-10-24T20:32:01.502814Z",
+          "sha256": "711d65843d72ae3d6222421e4e6fc38e2be5ff95a27250817ba5cfb181206962",
+          "bytes": 574129,
+          "verification": "normalization replay of freshly fetched source bytes"
+        },
+        {
+          "url": "https://api.github.com/repos/3aKHP/EndFieldGameData/releases?per_page=10",
+          "status": 200,
+          "checkedAt": "2026-10-24T20:32:36.500974Z",
+          "sha256": "367d11e4bc0ee99bade99cb1bf4fb4d001dd724dce31cc2126e5b97da45978e8",
+          "bytes": 5914,
+          "verification": "normalization replay of freshly fetched source bytes"
+        },
+        {
+          "url": "https://github.com/3aKHP/EndFieldGameData/releases/download/v0.3.0/endfield-tables.zip",
+          "status": 200,
+          "checkedAt": "2026-10-24T20:32:47.850364Z",
+          "sha256": "f36942c203637611b0ae41bc7d5c50a912daea364ac289f8ab74b88cbf55c926",
+          "bytes": 23260882,
+          "verification": "normalization replay of freshly fetched source bytes"
+        }
+      ],
+      "checkedAt": "2026-10-24T20:37:34.357613Z",
+      "statsAdded": 28,
+      "matchedIds": [
+        "endministrator2",
+        "endministrator1",
+        "perlica",
+        "chen",
+        "mifu",
+        "zhuangfy",
+        "tangtang",
+        "rossi",
+        "laevatain",
+        "yvonne",
+        "gilberta",
+        "ardelia",
+        "ember",
+        "lastrite",
+        "lifeng",
+        "pogranichnik",
+        "alesh",
+        "arclight",
+        "avywenna",
+        "dapan",
+        "snowshine",
+        "wulfgard",
+        "xaihi",
+        "akekuri",
+        "antal",
+        "catcher",
+        "estella",
+        "fluorite"
+      ],
+      "sourceIdentityMap": {
+        "endministrator2": [
+          "chr_0002_endminm",
+          "chr_0003_endminf"
+        ],
+        "endministrator1": [
+          "chr_0002_endminm",
+          "chr_0003_endminf"
+        ],
+        "perlica": [
+          "chr_0004_pelica"
+        ],
+        "chen": [
+          "chr_0005_chen"
+        ],
+        "mifu": [
+          "chr_0031_mifu"
+        ],
+        "zhuangfy": [
+          "chr_0030_zhuangfy"
+        ],
+        "tangtang": [
+          "chr_0027_tangtang"
+        ],
+        "rossi": [
+          "chr_0028_wulfa"
+        ],
+        "laevatain": [
+          "chr_0016_laevat"
+        ],
+        "yvonne": [
+          "chr_0017_yvonne"
+        ],
+        "gilberta": [
+          "chr_0013_aglina"
+        ],
+        "ardelia": [
+          "chr_0025_ardelia"
+        ],
+        "ember": [
+          "chr_0009_azrila"
+        ],
+        "lastrite": [
+          "chr_0026_lastrite"
+        ],
+        "lifeng": [
+          "chr_0015_lifeng"
+        ],
+        "pogranichnik": [
+          "chr_0029_pograni"
+        ],
+        "alesh": [
+          "chr_0024_deepfin"
+        ],
+        "arclight": [
+          "chr_0007_ikut"
+        ],
+        "avywenna": [
+          "chr_0012_avywen"
+        ],
+        "dapan": [
+          "chr_0018_dapan"
+        ],
+        "snowshine": [
+          "chr_0014_aurora"
+        ],
+        "wulfgard": [
+          "chr_0006_wolfgd"
+        ],
+        "xaihi": [
+          "chr_0011_seraph"
+        ],
+        "akekuri": [
+          "chr_0019_karin"
+        ],
+        "antal": [
+          "chr_0023_antal"
+        ],
+        "catcher": [
+          "chr_0020_meurs"
+        ],
+        "estella": [
+          "chr_0021_whiten"
+        ],
+        "fluorite": [
+          "chr_0022_bounda"
+        ]
+      },
+      "missingStatsIds": [
+        "jsspsi",
+        "minghe",
+        "typhoea",
+        "purrche",
+        "lizhiyan",
+        "liino",
+        "camille"
+      ],
+      "tableVersion": "v0.3.0",
+      "tablePublishedAt": "2026-06-21T23:52:53Z",
+      "limit": "Only explicit Lv.90 breakStage4 raw values; newer official forms absent from this export remain blank. No derived final panel values.",
+      "changed": true
+    },
+    {
+      "gameId": "bluearchive",
+      "sources": [
+        {
+          "url": "https://api.github.com/repos/nico0748/SchaleDB/git/trees/main?recursive=1",
+          "status": 200,
+          "checkedAt": "2026-10-24T20:35:19.852329Z",
+          "sha256": "313f75ee31b8973f66ee7dedf062abde822403c614be4406c4f53ade46c3f414",
+          "bytes": 1607068,
+          "verification": "normalization replay of freshly fetched source bytes"
+        }
+      ],
+      "checkedAt": "2026-10-24T20:37:34.735510Z",
+      "statsAdded": 0,
+      "existingStats": 278,
+      "missingImageIds": [
+        "20061",
+        "10151",
+        "20062",
+        "10152"
+      ],
+      "missingDeclaredPaths": [
+        "images/student/portrait/20061.webp",
+        "images/student/portrait/10151.webp",
+        "images/student/portrait/20062.webp",
+        "images/student/portrait/10152.webp"
+      ],
+      "newDeclaredImagePaths": [],
+      "limit": "Existing native names/stat basis retained. Missing art checked against a complete source tree; any newly declared paths are review candidates, not automatically verified illustrations.",
+      "changed": false
+    }
+  ],
+  "additionalSourceFailures": [
+    {
+      "url": "https://endfieldhub.org/database/operators",
+      "status": 403,
+      "action": "not retried or bypassed"
+    }
+  ]
+}

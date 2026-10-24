@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-24T20:35:14.254258Z",
+  "games": {
+    "dna": {
+      "status": "updated",
+      "characters": 31,
+      "stats": 31,
+      "art": 29,
+      "warnings": []
+    },
+    "stellasora": {
+      "status": "updated",
+      "characters": 41,
+      "stats": 41,
+      "art": 38,
+      "warnings": []
+    }
+  }
+}

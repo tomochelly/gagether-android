@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "6a07259bb309f0c2c7636cd87cd1cb19aba5b5cb088d91bd158994e19a2463f5",
+  "fingerprint": "3442ebb05d9e0305eaa1c7283a060d7b4d22eb05e0cac59a693df646c71268e2",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -216,7 +216,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "e2e38abe8569b3f708d39caaecb79503cc8a832dea3304e524cc1b6f3cc068a9"
+      "sha256": "febaa05fc228a1b661f8e07be799bc25802e4b76270b0eb77550f8e49fcb9f06"
     },
     {
       "path": "app/chatgpt-auth.ts",
@@ -444,7 +444,7 @@
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "93e40875868cafdcbfb8582c7180f73229f98db89376aba72b9e0eae8a9006b3"
+      "sha256": "002bc043faf45344ed25708f5743f15567277b5aff429f36ede3b3dfc1647090"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -995,8 +995,12 @@
       "sha256": "487bcfdaf6e9b87710d556d60d736caf03a98b493e570ba9058930054bd746f7"
     },
     {
+      "path": "content/character-rosters/artwork-manifest.json",
+      "sha256": "624b32a4fd72000e8b6090ec1d84fbe53a69413caa7f0066b6bd67424c4fe6d8"
+    },
+    {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "f7b95a180886ba498d1f41b671eac7a386f6122a6f5817b6c4434e56d4b7f21c"
+      "sha256": "15272a190bf1cb0f9acd74aab3f3db7d930e1638827278d6f650bd6bff3438c2"
     },
     {
       "path": "content/community-current-research.json",
@@ -1335,16 +1339,20 @@
       "sha256": "df82b6febb89480ceeb9c76fb6f5ab618c8556d7250f09bf412adffb0b84be99"
     },
     {
+      "path": "lib/character-roster-enrichment.ts",
+      "sha256": "9bcfc472cbd7759a7fff265d4a07e8c3ccb475b02965e1b2eaabd528ef4a8f70"
+    },
+    {
       "path": "lib/character-roster-refresh.ts",
       "sha256": "dc67aacc02aadb506f399ec94bd7948f3349e19c5dfa967485f146d25bd2f813"
     },
     {
       "path": "lib/character-roster-store.ts",
-      "sha256": "f927643bcef3370182429ce9badbc876fa013bb97c108f3dc200cd8b4a164c47"
+      "sha256": "6af40f8fdd7ba79cc32d44ebe1d3ce9f195b27e534b1d761d8364baa7e0e61ee"
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "31d5387135fb92ea9462302bbd44baa541f0986b098d32814cb6dff5d4e753e3"
+      "sha256": "81c75c0a22c469ca225a5d8db7b02023eb318198cd634a66e2601016f1d98c84"
     },
     {
       "path": "lib/collaboration-sources.ts",
@@ -1868,7 +1876,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "0d77c51e18ab72e62c5d67575c788efd29e52d3db1e8e11889da6ca48e7b7270"
+      "sha256": "38a88182af925bb67b85a5649b8782ad25beac9ce53008e58ca328fb349b4140"
     },
     {
       "path": "pnpm-lock.yaml",

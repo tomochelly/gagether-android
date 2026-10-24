@@ -1,0 +1,1559 @@
+{
+  "holodreams": {
+    "airani-iofifteen": "아이라니 이오피프틴",
+    "akai-haato": "아카이 하아토",
+    "aki-rosenthal": "아키 로젠탈",
+    "anya-melfissa": "아냐 멜핏사",
+    "ayunda-risu": "아윤다 리스",
+    "azki": "아즈키",
+    "fuwawa-abyssgard": "후와와 어비스가드",
+    "hakos-baelz": "하코스 벨즈",
+    "hakui-koyori": "하쿠이 코요리",
+    "himemori-luna": "히메모리 루나",
+    "hoshimachi-suisei": "호시마치 스이세이",
+    "houshou-marine": "호쇼 마린",
+    "ichijou-ririka": "이치조 리리카",
+    "inugami-korone": "이누가미 코로네",
+    "irys": "아이리스",
+    "juufuutei-raden": "주우후테이 라덴",
+    "kaela-kovalskia": "카엘라 코발스키아",
+    "kazama-iroha": "카자마 이로하",
+    "kobo-kanaeru": "코보 카나에루",
+    "koseki-bijou": "코세키 비쥬",
+    "kureiji-ollie": "쿠레이지 올리",
+    "la-darknesss": "라플라스 다크니스",
+    "mococo-abyssgard": "모코코 어비스가드",
+    "momosuzu-nene": "모모스즈 네네",
+    "moona-hoshinova": "무나 호시노바",
+    "mori-calliope": "모리 칼리오페",
+    "nakiri-ayame": "나키리 아야메",
+    "natsuiro-matsuri": "나츠이로 마츠리",
+    "nekomata-okayu": "네코마타 오카유",
+    "nerissa-ravencroft": "네리사 레이븐크로프트",
+    "ninomae-inanis": "니노마에 이나니스",
+    "omaru-polka": "오마루 폴카",
+    "ookami-mio": "오오카미 미오",
+    "oozora-subaru": "오오조라 스바루",
+    "otonose-kanade": "오토노세 카나데",
+    "ouro-kronii": "오로 크로니",
+    "pavolia-reine": "파볼리아 레이네",
+    "roboco-san": "로보코상",
+    "sakuramiko": "사쿠라 미코",
+    "shiori-novella": "시오리 노벨라",
+    "shirakami-fubuki": "시라카미 후부키",
+    "shiranui-flare": "시라누이 플레어",
+    "shirogane-noel": "시로가네 노엘",
+    "shishiro-botan": "시시로 보탄",
+    "takanashi-kiara": "타카나시 키아라",
+    "takane-lui": "타카네 루이",
+    "todoroki-hajime": "토도로키 하지메",
+    "tokino-sora": "토키노 소라",
+    "tokoyami-towa": "토코야미 토와",
+    "tsunomaki-watame": "츠노마키 와타메",
+    "usada-pekora": "우사다 페코라",
+    "vestia-zeta": "베스티아 제타",
+    "yukihana-lamy": "유키하나 라미",
+    "yuzuki-choco": "유즈키 초코"
+  },
+  "nte": {
+    "Zero": "제로",
+    "Adler": "아들러",
+    "Baicang": "백장",
+    "Chiz": "치즈",
+    "Daffodill": "다포딜",
+    "Edgar": "에드가",
+    "Fadia": "파디아",
+    "Haniel": "하니엘",
+    "Hathor": "하토르",
+    "Hotori": "호토리",
+    "Jiuyuan": "구원",
+    "Lacrimosa": "라크리모사",
+    "Mint": "민트",
+    "Nanally": "나나리",
+    "Sakiri": "사키리",
+    "Skia": "스키아",
+    "Aurelia": "우미츠키",
+    "Chaos": "카오스",
+    "Shinku": "신쿠",
+    "Iroi": "일로이",
+    "Zankou": "잔홍",
+    "Linko": "링코",
+    "Blackbird": "레이븐",
+    "Akane Rin": "아카네 린"
+  },
+  "umamusumeBase": {
+    "1113": "후사이치 판도라",
+    "1095": "빌리브",
+    "1135": "스테이 골드",
+    "1137": "키세키",
+    "1143": "빅투아르 피사",
+    "1118": "어드마이어 그루브",
+    "1136": "레드 디자이어",
+    "1145": "룰러십",
+    "1141": "에피파네이아",
+    "1149": "팔레놉시스",
+    "1144": "로즈 킹덤"
+  },
+  "umamusumeOutfits": {
+    "110902": "영원한 페어리테일",
+    "111301": "어소티드 큐트니스♡",
+    "108802": "맑은 섬의 꽃다운 아름다움",
+    "108902": "여름 잔잔한 네이비 드롭",
+    "109102": "여름의 빛",
+    "109701": "붉은 마음의 맹세 의상",
+    "109302": "가을빛 안단테",
+    "110602": "해피 리틀 노츠",
+    "108101": "레드 데빌 기어",
+    "109501": "정수",
+    "102802": "매직 나이트 갈런드",
+    "105502": "트릭☆리보네타",
+    "104803": "하이키☆핼러드",
+    "109201": "한가운데◎스포트라이트",
+    "108002": "땅거미 네오 카구라",
+    "110002": "부드러운 등불·온천 향의 의상",
+    "111401": "순수한 히로인",
+    "104902": "축제의 유희",
+    "111902": "눈처럼 흰 꿈길",
+    "100603": "신데렐라 그레이",
+    "113501": "햇살 속 아웃사이더",
+    "106302": "소요, 정연한 길을",
+    "107602": "새싹",
+    "112402": "새벽빛",
+    "113701": "미라클 오서",
+    "101003": "바아 바아 파티스리",
+    "110202": "소나타 알라 멘타",
+    "110301": "영감을 주는 천재",
+    "112901": "더 체인저",
+    "113202": "사랑으로 이어진 아스터",
+    "114301": "천사의 빛",
+    "104103": "춘뢰의 위타천",
+    "108202": "옅은 물빛의 섬광",
+    "113001": "백절불요의 의상",
+    "111801": "빙하의 여왕",
+    "100503": "블랑슈 에투알",
+    "109402": "버밀리언 헤드",
+    "111201": "데어링 달링!",
+    "113601": "신성한 의상",
+    "102503": "유현한 장미",
+    "111602": "완벽한 숙녀",
+    "113401": "꽃 깃든 쿠튀르",
+    "107703": "만복 용탕전·정점",
+    "102203": "면화 황채전·극",
+    "114501": "모노크롬 지엠",
+    "102003": "물가의 변덕스러운 오랑주",
+    "107403": "해변의 엘레강스 시폰",
+    "111302": "마음을 훔쳐서♡",
+    "114101": "운명이 선택한 별",
+    "104302": "와구와구☆말썽꾸러기",
+    "112702": "강인한 보랏빛 불꽃",
+    "114901": "절경의 새벽 어둠",
+    "114401": "장미 정원의 빛",
+    "101703": "금강의 군주",
+    "101803": "유구한 헤카테이아",
+    "110802": "클라레 노스페라투"
+  },
+  "expected": {
+    "holodreams": {
+      "airani-iofifteen": {
+        "en": "Airani Iofifteen",
+        "ja": "アイラニ・イオフィフティーン"
+      },
+      "akai-haato": {
+        "en": "Akai Haato",
+        "ja": "赤井はあと"
+      },
+      "aki-rosenthal": {
+        "en": "Aki Rosenthal",
+        "ja": "アキ・ローゼンタール"
+      },
+      "anya-melfissa": {
+        "en": "Anya Melfissa",
+        "ja": "アーニャ・メルフィッサ"
+      },
+      "ayunda-risu": {
+        "en": "Ayunda Risu",
+        "ja": "アユンダ・リス"
+      },
+      "azki": {
+        "en": "AZKi",
+        "ja": "AZKi"
+      },
+      "fuwawa-abyssgard": {
+        "en": "Fuwawa Abyssgard",
+        "ja": "フワワ・アビスガード"
+      },
+      "hakos-baelz": {
+        "en": "Hakos Baelz",
+        "ja": "ハコス・ベールズ"
+      },
+      "hakui-koyori": {
+        "en": "Hakui Koyori",
+        "ja": "博衣こより"
+      },
+      "himemori-luna": {
+        "en": "Himemori Luna",
+        "ja": "姫森ルーナ"
+      },
+      "hoshimachi-suisei": {
+        "en": "Hoshimachi Suisei",
+        "ja": "星街すいせい"
+      },
+      "houshou-marine": {
+        "en": "Houshou Marine",
+        "ja": "宝鐘マリン"
+      },
+      "ichijou-ririka": {
+        "en": "Ichijou Ririka",
+        "ja": "一条莉々華"
+      },
+      "inugami-korone": {
+        "en": "Inugami Korone",
+        "ja": "戌神ころね"
+      },
+      "irys": {
+        "en": "IRyS",
+        "ja": "IRyS"
+      },
+      "juufuutei-raden": {
+        "en": "Juufuutei Raden",
+        "ja": "儒烏風亭らでん"
+      },
+      "kaela-kovalskia": {
+        "en": "Kaela Kovalskia",
+        "ja": "カエラ・コヴァルスキア"
+      },
+      "kazama-iroha": {
+        "en": "Kazama Iroha",
+        "ja": "風真いろは"
+      },
+      "kobo-kanaeru": {
+        "en": "Kobo Kanaeru",
+        "ja": "こぼ・かなえる"
+      },
+      "koseki-bijou": {
+        "en": "Koseki Bijou",
+        "ja": "古石ビジュー"
+      },
+      "kureiji-ollie": {
+        "en": "Kureiji Ollie",
+        "ja": "クレイジー・オリー"
+      },
+      "la-darknesss": {
+        "en": "La+ Darknesss",
+        "ja": "ラプラス・ダークネス"
+      },
+      "mococo-abyssgard": {
+        "en": "Mococo Abyssgard",
+        "ja": "モココ・アビスガード"
+      },
+      "momosuzu-nene": {
+        "en": "Momosuzu Nene",
+        "ja": "桃鈴ねね"
+      },
+      "moona-hoshinova": {
+        "en": "Moona Hoshinova",
+        "ja": "ムーナ・ホシノヴァ"
+      },
+      "mori-calliope": {
+        "en": "Mori Calliope",
+        "ja": "森カリオペ"
+      },
+      "nakiri-ayame": {
+        "en": "Nakiri Ayame",
+        "ja": "百鬼あやめ"
+      },
+      "natsuiro-matsuri": {
+        "en": "Natsuiro Matsuri",
+        "ja": "夏色まつり"
+      },
+      "nekomata-okayu": {
+        "en": "Nekomata Okayu",
+        "ja": "猫又おかゆ"
+      },
+      "nerissa-ravencroft": {
+        "en": "Nerissa Ravencroft",
+        "ja": "ネリッサ・レイヴンクロフト"
+      },
+      "ninomae-inanis": {
+        "en": "Ninomae Ina'nis",
+        "ja": "一伊那尓栖"
+      },
+      "omaru-polka": {
+        "en": "Omaru Polka",
+        "ja": "尾丸ポルカ"
+      },
+      "ookami-mio": {
+        "en": "Ookami Mio",
+        "ja": "大神ミオ"
+      },
+      "oozora-subaru": {
+        "en": "Oozora Subaru",
+        "ja": "大空スバル"
+      },
+      "otonose-kanade": {
+        "en": "Otonose Kanade",
+        "ja": "音乃瀬奏"
+      },
+      "ouro-kronii": {
+        "en": "Ouro Kronii",
+        "ja": "オーロ・クロニー"
+      },
+      "pavolia-reine": {
+        "en": "Pavolia Reine",
+        "ja": "パヴォリア・レイネ"
+      },
+      "roboco-san": {
+        "en": "Robocosan",
+        "ja": "ロボ子さん"
+      },
+      "sakuramiko": {
+        "en": "Sakura Miko",
+        "ja": "さくらみこ"
+      },
+      "shiori-novella": {
+        "en": "Shiori Novella",
+        "ja": "シオリ・ノヴェラ"
+      },
+      "shirakami-fubuki": {
+        "en": "Shirakami Fubuki",
+        "ja": "白上フブキ"
+      },
+      "shiranui-flare": {
+        "en": "Shiranui Flare",
+        "ja": "不知火フレア"
+      },
+      "shirogane-noel": {
+        "en": "Shirogane Noel",
+        "ja": "白銀ノエル"
+      },
+      "shishiro-botan": {
+        "en": "Shishiro Botan",
+        "ja": "獅白ぼたん"
+      },
+      "takanashi-kiara": {
+        "en": "Takanashi Kiara",
+        "ja": "小鳥遊キアラ"
+      },
+      "takane-lui": {
+        "en": "Takane Lui",
+        "ja": "鷹嶺ルイ"
+      },
+      "todoroki-hajime": {
+        "en": "Todoroki Hajime",
+        "ja": "轟はじめ"
+      },
+      "tokino-sora": {
+        "en": "Tokino Sora",
+        "ja": "ときのそら"
+      },
+      "tokoyami-towa": {
+        "en": "Tokoyami Towa",
+        "ja": "常闇トワ"
+      },
+      "tsunomaki-watame": {
+        "en": "Tsunomaki Watame",
+        "ja": "角巻わため"
+      },
+      "usada-pekora": {
+        "en": "Usada Pekora",
+        "ja": "兎田ぺこら"
+      },
+      "vestia-zeta": {
+        "en": "Vestia Zeta",
+        "ja": "ベスティア・ゼータ"
+      },
+      "yukihana-lamy": {
+        "en": "Yukihana Lamy",
+        "ja": "雪花ラミィ"
+      },
+      "yuzuki-choco": {
+        "en": "Yuzuki Choco",
+        "ja": "癒月ちょこ"
+      }
+    },
+    "nte": {
+      "1": {
+        "en": "Zero",
+        "ja": ""
+      },
+      "10": {
+        "en": "Hotori",
+        "ja": ""
+      },
+      "11": {
+        "en": "Jiuyuan",
+        "ja": ""
+      },
+      "12": {
+        "en": "Lacrimosa",
+        "ja": ""
+      },
+      "13": {
+        "en": "Mint",
+        "ja": ""
+      },
+      "14": {
+        "en": "Nanally",
+        "ja": ""
+      },
+      "15": {
+        "en": "Sakiri",
+        "ja": ""
+      },
+      "16": {
+        "en": "Skia",
+        "ja": ""
+      },
+      "17": {
+        "en": "Aurelia",
+        "ja": ""
+      },
+      "18": {
+        "en": "Chaos",
+        "ja": ""
+      },
+      "19": {
+        "en": "Shinku",
+        "ja": ""
+      },
+      "2": {
+        "en": "Adler",
+        "ja": ""
+      },
+      "20": {
+        "en": "Iroi",
+        "ja": ""
+      },
+      "21": {
+        "en": "Zankou",
+        "ja": ""
+      },
+      "22": {
+        "en": "Linko",
+        "ja": ""
+      },
+      "23": {
+        "en": "Blackbird",
+        "ja": ""
+      },
+      "24": {
+        "en": "Akane Rin",
+        "ja": ""
+      },
+      "3": {
+        "en": "Baicang",
+        "ja": ""
+      },
+      "4": {
+        "en": "Chiz",
+        "ja": ""
+      },
+      "5": {
+        "en": "Daffodill",
+        "ja": ""
+      },
+      "6": {
+        "en": "Edgar",
+        "ja": ""
+      },
+      "7": {
+        "en": "Fadia",
+        "ja": ""
+      },
+      "8": {
+        "en": "Haniel",
+        "ja": ""
+      },
+      "9": {
+        "en": "Hathor",
+        "ja": ""
+      }
+    },
+    "umamusume": {
+      "100101": {
+        "en": "Special Week [Special Dreamer]",
+        "ja": "スペシャルウィーク [スペシャルドリーマー]"
+      },
+      "100102": {
+        "en": "Special Week [Hopp'n♪Happy Heart]",
+        "ja": "スペシャルウィーク [ほっぴん♪ビタミンハート]"
+      },
+      "100201": {
+        "en": "Silence Suzuka [Innocent Silence]",
+        "ja": "サイレンススズカ [サイレントイノセンス]"
+      },
+      "100301": {
+        "en": "Tokai Teio [Peak Joy]",
+        "ja": "トウカイテイオー [トップ・オブ・ジョイフル]"
+      },
+      "100302": {
+        "en": "Tokai Teio [Beyond the Horizon]",
+        "ja": "トウカイテイオー [ビヨンド・ザ・ホライズン]"
+      },
+      "100401": {
+        "en": "Maruzensky [Formula R]",
+        "ja": "マルゼンスキー [フォーミュラオブルージュ]"
+      },
+      "100402": {
+        "en": "Maruzensky [Hot☆Summer Night]",
+        "ja": "マルゼンスキー [ぶっとび☆さまーナイト]"
+      },
+      "100501": {
+        "en": "Fuji Kiseki [Shooting Star Revue]",
+        "ja": "フジキセキ [シューティンスタァ・ルヴュ]"
+      },
+      "100601": {
+        "en": "Oguri Cap [Starlight Beat]",
+        "ja": "オグリキャップ [スターライトビート]"
+      },
+      "100701": {
+        "en": "Gold Ship [Red Strife]",
+        "ja": "ゴールドシップ [レッドストライフ]"
+      },
+      "100801": {
+        "en": "Vodka [Wild Top Gear]",
+        "ja": "ウオッカ [ワイルドトップギア]"
+      },
+      "100901": {
+        "en": "Daiwa Scarlet [Peak Blue]",
+        "ja": "ダイワスカーレット [トップ・オブ・ブルー]"
+      },
+      "101001": {
+        "en": "Taiki Shuttle [Wild Frontier]",
+        "ja": "タイキシャトル [ワイルド・フロンティア]"
+      },
+      "101101": {
+        "en": "Grass Wonder [Stone-Piercing Blue]",
+        "ja": "グラスワンダー [岩穿つ青]"
+      },
+      "101102": {
+        "en": "Grass Wonder [Saintly Jade Cleric]",
+        "ja": "グラスワンダー [セイントジェード・ヒーラー]"
+      },
+      "101201": {
+        "en": "Hishi Amazon [Azure Amazon]",
+        "ja": "ヒシアマゾン [アマゾネス・ラピス]"
+      },
+      "101301": {
+        "en": "Mejiro McQueen [Frontline Elegance]",
+        "ja": "メジロマックイーン [エレガンス・ライン]"
+      },
+      "101302": {
+        "en": "Mejiro McQueen [End of the Skies]",
+        "ja": "メジロマックイーン [エンド・オブ・スカイ]"
+      },
+      "101401": {
+        "en": "El Condor Pasa [El☆Número 1]",
+        "ja": "エルコンドルパサー [エル☆Número 1]"
+      },
+      "101402": {
+        "en": "El Condor Pasa [Kukulkan Warrior]",
+        "ja": "エルコンドルパサー [ククルカン・モンク]"
+      },
+      "101501": {
+        "en": "TM Opera O [O Sole Suo!]",
+        "ja": "テイエムオペラオー [オー・ソレ・スーオ！]"
+      },
+      "101601": {
+        "en": "Narita Brian [Maverick]",
+        "ja": "ナリタブライアン [Maverick]"
+      },
+      "101701": {
+        "en": "Symboli Rudolf [Emperor's Path]",
+        "ja": "シンボリルドルフ [ロード・オブ・エンペラー]"
+      },
+      "101801": {
+        "en": "Air Groove [Empress Road]",
+        "ja": "エアグルーヴ [エンプレスロード]"
+      },
+      "101802": {
+        "en": "Air Groove [Quercus Civilis]",
+        "ja": "エアグルーヴ [クエルクス・キウィーリス]"
+      },
+      "101901": {
+        "en": "Agnes Digital [Full-Color Fangirling]",
+        "ja": "アグネスデジタル [超特急！フルカラー特殊PP]"
+      },
+      "102001": {
+        "en": "Seiun Sky [Reeling in the Big One]",
+        "ja": "セイウンスカイ [あおぐもサミング]"
+      },
+      "102301": {
+        "en": "Biwa Hayahide [pf. Winning Equation...]",
+        "ja": "ビワハヤヒデ [pf.Victory formula...]"
+      },
+      "102401": {
+        "en": "Mayano Top Gun [Scramble☆Zone]",
+        "ja": "マヤノトップガン [すくらんぶる☆ゾーン]"
+      },
+      "102402": {
+        "en": "Mayano Top Gun [Sunlight Bouquet]",
+        "ja": "マヤノトップガン [サンライト・ブーケ]"
+      },
+      "102601": {
+        "en": "Mihono Bourbon [MB-19890425]",
+        "ja": "ミホノブルボン [MB-19890425]"
+      },
+      "102701": {
+        "en": "Mejiro Ryan [Down the Line]",
+        "ja": "メジロライアン [ストレート・ライン]"
+      },
+      "102801": {
+        "en": "Hishi Akebono [Buono ☆ Alla Moda]",
+        "ja": "ヒシアケボノ [ボーノ☆アラモーダ]"
+      },
+      "103001": {
+        "en": "Rice Shower [Rosy Dreams]",
+        "ja": "ライスシャワー [ローゼスドリーム]"
+      },
+      "103201": {
+        "en": "Agnes Tachyon [tach-nology]",
+        "ja": "アグネスタキオン [tach-nology]"
+      },
+      "103501": {
+        "en": "Winning Ticket [Get to Winning!]",
+        "ja": "ウイニングチケット [Go To Winning!]"
+      },
+      "103701": {
+        "en": "Eishin Flash [Meisterschaft]",
+        "ja": "エイシンフラッシュ [Meisterschaft]"
+      },
+      "103801": {
+        "en": "Curren Chan [Fille Éclair]",
+        "ja": "カレンチャン [フィーユ・エクレール]"
+      },
+      "104001": {
+        "en": "Gold City [Authentic / 1928]",
+        "ja": "ゴールドシチー [オーセンティック/1928]"
+      },
+      "104101": {
+        "en": "Sakura Bakushin O [Blossom in Learning]",
+        "ja": "サクラバクシンオー [サクラ、すすめ！]"
+      },
+      "104501": {
+        "en": "Super Creek [Murmuring Stream]",
+        "ja": "スーパークリーク [マーマリングストリーム]"
+      },
+      "104601": {
+        "en": "Smart Falcon [LOVE☆4EVER]",
+        "ja": "スマートファルコン [あぶそりゅーと☆LOVE]"
+      },
+      "105001": {
+        "en": "Narita Taishin [Nevertheless]",
+        "ja": "ナリタタイシン [Nevertheless]"
+      },
+      "105201": {
+        "en": "Haru Urara [Bestest Prize ♪]",
+        "ja": "ハルウララ [うららん一等賞♪]"
+      },
+      "105601": {
+        "en": "Matikanefukukitaru [Rising☆Fortune]",
+        "ja": "マチカネフクキタル [運気上昇☆幸福万来]"
+      },
+      "105602": {
+        "en": "Matikanefukukitaru [Lucky Tidings]",
+        "ja": "マチカネフクキタル [吉兆・初あらし]"
+      },
+      "105801": {
+        "en": "Meisho Doto [Turbulent Blue]",
+        "ja": "メイショウドトウ [ブルー/レイジング]"
+      },
+      "106001": {
+        "en": "Nice Nature [Poinsettia Ribbon]",
+        "ja": "ナイスネイチャ [ポインセチア・リボン]"
+      },
+      "106101": {
+        "en": "King Halo [King of Emeralds]",
+        "ja": "キングヘイロー [キング・オブ・エメラルド]"
+      },
+      "103002": {
+        "en": "Rice Shower [Vampire Makeover!]",
+        "ja": "ライスシャワー [Make up Vampire!]"
+      },
+      "104502": {
+        "en": "Super Creek [Chiffon-Wrapped Mummy]",
+        "ja": "スーパークリーク [シフォンリボンマミー]"
+      },
+      "103901": {
+        "en": "Kawakami Princess [Princess of Pink]",
+        "ja": "カワカミプリンセス [プリンセス・オブ・ピンク]"
+      },
+      "102501": {
+        "en": "Manhattan Cafe [Creeping Shadow]",
+        "ja": "マンハッタンカフェ [Creeping Black]"
+      },
+      "101702": {
+        "en": "Symboli Rudolf [Archer by Moonlight]",
+        "ja": "シンボリルドルフ [皓月の弓取り]"
+      },
+      "104002": {
+        "en": "Gold City [Autumn Cosmos]",
+        "ja": "ゴールドシチー [秋桜ダンツァトリーチェ]"
+      },
+      "104801": {
+        "en": "Tosen Jordan [Jokester ☆ Vibes]",
+        "ja": "トーセンジョーダン [ポップス☆ジョーカー]"
+      },
+      "105901": {
+        "en": "Mejiro Dober [Off the Line]",
+        "ja": "メジロドーベル [ツイステッド・ライン]"
+      },
+      "100602": {
+        "en": "Oguri Cap [Ashen Miracle]",
+        "ja": "オグリキャップ [キセキの白星]"
+      },
+      "102302": {
+        "en": "Biwa Hayahide [Rouge Caroler]",
+        "ja": "ビワハヤヒデ [ノエルージュ・キャロル]"
+      },
+      "102201": {
+        "en": "Fine Motion [Noble Seamair]",
+        "ja": "ファインモーション [Noble Seamair]"
+      },
+      "102101": {
+        "en": "Tamamo Cross [Fast as Lightning]",
+        "ja": "タマモクロス [疾風迅雷]"
+      },
+      "101502": {
+        "en": "TM Opera O [New Year, Same Radiance!]",
+        "ja": "テイエムオペラオー [初晴・青き絢爛]"
+      },
+      "105202": {
+        "en": "Haru Urara [New Year ♪ New Urara!]",
+        "ja": "ハルウララ [初うらら♪さくさくら]"
+      },
+      "106901": {
+        "en": "Sakura Chiyono O [Strength in Full Bloom]",
+        "ja": "サクラチヨノオー [日下開山・花あかり]"
+      },
+      "102602": {
+        "en": "Mihono Bourbon [CODE: ICING]",
+        "ja": "ミホノブルボン [CODE：グラサージュ]"
+      },
+      "103702": {
+        "en": "Eishin Flash [Precise Chocolatier]",
+        "ja": "エイシンフラッシュ [コレクト・ショコラティエ]"
+      },
+      "107101": {
+        "en": "Mejiro Ardan [Crystalline]",
+        "ja": "メジロアルダン [クリノクロア・ライン]"
+      },
+      "103301": {
+        "en": "Admire Vega [Starry Nocturne]",
+        "ja": "アドマイヤベガ [Starry Nocturne]"
+      },
+      "106201": {
+        "en": "Matikanetannhauser [Clippety-Tippety-Clop]",
+        "ja": "マチカネタンホイザ [ぱんぱかティルトット]"
+      },
+      "106801": {
+        "en": "Kitasan Black [Gilded Shrine to Glory]",
+        "ja": "キタサンブラック [錦上・大判御輿]"
+      },
+      "106701": {
+        "en": "Satono Diamond [Natural Brilliance]",
+        "ja": "サトノダイヤモンド [Natural Brilliance]"
+      },
+      "107401": {
+        "en": "Mejiro Bright [Brunissage Line]",
+        "ja": "メジロブライト [ブリュニサージュ・ライン]"
+      },
+      "100502": {
+        "en": "Fuji Kiseki [Succès Étoilé]",
+        "ja": "フジキセキ [シュクセ・エトワーレ]"
+      },
+      "102002": {
+        "en": "Seiun Sky [Soirée des Chatons]",
+        "ja": "セイウンスカイ [ソワレ・ド・シャトン]"
+      },
+      "105101": {
+        "en": "Nishino Flower [Layered Petals]",
+        "ja": "ニシノフラワー [ティアード・ペタル]"
+      },
+      "107201": {
+        "en": "Yaeno Muteki [Blazed Head, Covered Fists]",
+        "ja": "ヤエノムテキ [四白流星の襲]"
+      },
+      "106002": {
+        "en": "Nice Nature [Run & Win]",
+        "ja": "ナイスネイチャ [RUN＆WIN]"
+      },
+      "106102": {
+        "en": "King Halo [Cheerleader in Noble White]",
+        "ja": "キングヘイロー [白く気高き激励の装]"
+      },
+      "103101": {
+        "en": "Ines Fujin [Always Electrifying]",
+        "ja": "アイネスフウジン [オールタイム・フィーバー]"
+      },
+      "106401": {
+        "en": "Mejiro Palmer [Line Breakthrough]",
+        "ja": "メジロパーマー [Line Breakthrough]"
+      },
+      "102202": {
+        "en": "Fine Motion [Titania]",
+        "ja": "ファインモーション [Titania]"
+      },
+      "103802": {
+        "en": "Curren Chan [Ma Chérie of the New Moon]",
+        "ja": "カレンチャン [朔月のマ・シェリ]"
+      },
+      "103401": {
+        "en": "Inari One [Edomurasaki]",
+        "ja": "イナリワン [稲荷所縁江戸紫]"
+      },
+      "104401": {
+        "en": "Sweep Tosho [Platanus Witch]",
+        "ja": "スイープトウショウ [プラタナス・ウィッチ]"
+      },
+      "101002": {
+        "en": "Taiki Shuttle [Bubblegum☆Memories]",
+        "ja": "タイキシャトル [Bubblegum☆Memories]"
+      },
+      "105902": {
+        "en": "Mejiro Dober [Sapphire Sojourn]",
+        "ja": "メジロドーベル [バカンス・サフィール]"
+      },
+      "103601": {
+        "en": "Air Shakur [unsigned]",
+        "ja": "エアシャカール [unsigned]"
+      },
+      "100103": {
+        "en": "Special Week [Ruler of Japan]",
+        "ja": "スペシャルウィーク [日之本一の総大将]"
+      },
+      "100702": {
+        "en": "Gold Ship [RUN! RUIN! LAUNCHER!]",
+        "ja": "ゴールドシップ [RUN！乱！ランチャー！！]"
+      },
+      "101303": {
+        "en": "Mejiro McQueen [Fair Lady of the Waves]",
+        "ja": "メジロマックイーン [さざ波フェアレディ]"
+      },
+      "105301": {
+        "en": "Bamboo Memory [Iron Ambition]",
+        "ja": "バンブーメモリー [黒鉄の大志]"
+      },
+      "109801": {
+        "en": "Copano Rickey [Eightfold☆Fortune]",
+        "ja": "コパノリッキー [陰陽八卦☆開運衣]"
+      },
+      "104602": {
+        "en": "Smart Falcon [Twilight Triumph]",
+        "ja": "スマートファルコン [黄昏トライアンフ]"
+      },
+      "103502": {
+        "en": "Winning Ticket [Dream Deliverer]",
+        "ja": "ウイニングチケット [Dream Deliverer]"
+      },
+      "105002": {
+        "en": "Narita Taishin [Difference Engineer]",
+        "ja": "ナリタタイシン [ディファレンス・エンジニア]"
+      },
+      "102901": {
+        "en": "Yukino Bijin [Darl'n Snowflake]",
+        "ja": "ユキノビジン [めんこいめんこいむつのはな]"
+      },
+      "104201": {
+        "en": "Seeking the Pearl [Rocket☆Star]",
+        "ja": "シーキングザパール [Rocket☆Star]"
+      },
+      "101902": {
+        "en": "Agnes Digital [Fanatic♡Jiangshi]",
+        "ja": "アグネスデジタル [愛麗♡キョンシー]"
+      },
+      "105802": {
+        "en": "Meisho Doto [Dot-o'-Lantern]",
+        "ja": "メイショウドトウ [Dot-o'-Lantern]"
+      },
+      "108701": {
+        "en": "Aston Machan [Flare]",
+        "ja": "アストンマーチャン [Flare]"
+      },
+      "107801": {
+        "en": "Yamanin Zephyr [Fluttertail Spirit]",
+        "ja": "ヤマニンゼファー [Fluttertail Spirit]"
+      },
+      "102102": {
+        "en": "Tamamo Cross [Raging Thunder]",
+        "ja": "タマモクロス [猛ル鳴神]"
+      },
+      "103402": {
+        "en": "Inari One [Golden Dream]",
+        "ja": "イナリワン [夢ノ金原]"
+      },
+      "104901": {
+        "en": "Nakayama Festa [Desperate Measures]",
+        "ja": "ナカヤマフェスタ [死中求活]"
+      },
+      "110001": {
+        "en": "Wonder Acute [Butterfly Sting]",
+        "ja": "ワンダーアキュート [Butterfly Sting]"
+      },
+      "100802": {
+        "en": "Vodka [Fiery Aqua Vitae]",
+        "ja": "ウオッカ [不凍のアクア・ウィタエ]"
+      },
+      "100902": {
+        "en": "Daiwa Scarlet [Nuit Étoilée de Scarlet]",
+        "ja": "ダイワスカーレット [緋色のニュイ・エトワレ]"
+      },
+      "104701": {
+        "en": "Zenno Rob Roy [Heroic Author]",
+        "ja": "ゼンノロブロイ [Heroic Author]"
+      },
+      "101602": {
+        "en": "Narita Brian [Ravenous Wolf]",
+        "ja": "ナリタブライアン [餓狼]"
+      },
+      "106702": {
+        "en": "Satono Diamond [Jade's Prosperity]",
+        "ja": "サトノダイヤモンド [花形・弥栄之翠]"
+      },
+      "106802": {
+        "en": "Kitasan Black [Crane's Ambition]",
+        "ja": "キタサンブラック [真打・慶鶴之志]"
+      },
+      "109901": {
+        "en": "Hokko Tarumae [Starry Lightship]",
+        "ja": "ホッコータルマエ [スター・ライト・シップ]"
+      },
+      "106501": {
+        "en": "Daitaku Helios [Fun☆Fun☆Party Night]",
+        "ja": "ダイタクヘリオス [Fun☆Fun☆ぱりない]"
+      },
+      "102702": {
+        "en": "Mejiro Ryan [Marguerite Latte]",
+        "ja": "メジロライアン [マーガレット・ラッテ]"
+      },
+      "103102": {
+        "en": "Ines Fujin [Melt Your Heart]",
+        "ja": "アイネスフウジン [MELTY GIFT]"
+      },
+      "104301": {
+        "en": "Shinko Windy [Wicked Punk]",
+        "ja": "シンコウウインディ [Wicked Punk]"
+      },
+      "105701": {
+        "en": "Mr. C.B. [Clear Bliss]",
+        "ja": "ミスターシービー [Clear Bliss]"
+      },
+      "106601": {
+        "en": "Twin Turbo [Turbo Engine! Full Throttle!]",
+        "ja": "ツインターボ [爆走！ターボエンジン]"
+      },
+      "108501": {
+        "en": "Daiichi Ruby [Opulent Gem]",
+        "ja": "ダイイチルビー [華麗なる紅玉]"
+      },
+      "108301": {
+        "en": "Symboli Kris S [Onyx Soldier]",
+        "ja": "シンボリクリスエス [Onyx Soldier]"
+      },
+      "106902": {
+        "en": "Sakura Chiyono O [Fleur Enneigée]",
+        "ja": "サクラチヨノオー [Fleur Enneigée]"
+      },
+      "107102": {
+        "en": "Mejiro Ardan [Neige Émeraude]",
+        "ja": "メジロアルダン [Neige Émeraude]"
+      },
+      "107601": {
+        "en": "Sakura Laurel [Saisir le rêve]",
+        "ja": "サクラローレル [Saisir le rêve]"
+      },
+      "110501": {
+        "en": "Neo Universe [Universe-Naut]",
+        "ja": "ネオユニヴァース [Universe-Naut]"
+      },
+      "104102": {
+        "en": "Sakura Bakushin O [Red Hot☆Leader]",
+        "ja": "サクラバクシンオー [レッドホット☆リーダー]"
+      },
+      "106202": {
+        "en": "Matikanetannhauser [Blue Turbulence]",
+        "ja": "マチカネタンホイザ [ブルー・タービュランス]"
+      },
+      "110601": {
+        "en": "Hishi Miracle [Miracle Maker]",
+        "ja": "ヒシミラクル [みらくるめーくあっぷ！]"
+      },
+      "108401": {
+        "en": "Tanino Gimlet [Mantle of Keravnos]",
+        "ja": "タニノギムレット [身に纏うケラヴノス]"
+      },
+      "101202": {
+        "en": "Hishi Amazon [Hungry Veil]",
+        "ja": "ヒシアマゾン [Hungry Veil]"
+      },
+      "105102": {
+        "en": "Nishino Flower [Sweet Juneberry]",
+        "ja": "ニシノフラワー [Sweet Juneberry]"
+      },
+      "105501": {
+        "en": "Marvelous Sunday [★Super∞Marvel∞Tastic☆]",
+        "ja": "マーベラスサンデー [☆キラ★ドキ☆ワク∞マベ∞]"
+      },
+      "104802": {
+        "en": "Tosen Jordan [Aurore☆Vacances]",
+        "ja": "トーセンジョーダン [Aurore☆Vacances]"
+      },
+      "105302": {
+        "en": "Bamboo Memory [Ultra☆Marine]",
+        "ja": "バンブーメモリー [Ultra☆Marine]"
+      },
+      "110401": {
+        "en": "Katsuragi Ace [Dragon Rising]",
+        "ja": "カツラギエース [登竜之頂]"
+      },
+      "107001": {
+        "en": "Sirius Symboli [Féroce]",
+        "ja": "シリウスシンボリ [Féroce]"
+      },
+      "100202": {
+        "en": "Silence Suzuka [Emerald Tidings]",
+        "ja": "サイレンススズカ [波間のエメラルド]"
+      },
+      "103202": {
+        "en": "Agnes Tachyon [Lunatic Lab]",
+        "ja": "アグネスタキオン [Lunatic Lab]"
+      },
+      "107701": {
+        "en": "Narita Top Road [The Proud Road]",
+        "ja": "ナリタトップロード [The Proud Road]"
+      },
+      "100703": {
+        "en": "Gold Ship [La Mode 564]",
+        "ja": "ゴールドシップ [La mode 564]"
+      },
+      "106703": {
+        "en": "Satono Diamond [Chevalier Bleu]",
+        "ja": "サトノダイヤモンド [シュヴァリエ・ブル]"
+      },
+      "109301": {
+        "en": "K.S.Miracle [Prism]",
+        "ja": "ケイエスミラクル [Prism]"
+      },
+      "103602": {
+        "en": "Air Shakur [Belphegor's Prime]",
+        "ja": "エアシャカール [Belphegor's Prime]"
+      },
+      "108302": {
+        "en": "Symboli Kris S [Jetblack Automaton]",
+        "ja": "シンボリクリスエス [Jetblack Automaton]"
+      },
+      "108601": {
+        "en": "Mejiro Ramonu [Onyx Line]",
+        "ja": "メジロラモーヌ [オニキス・ライン]"
+      },
+      "100303": {
+        "en": "Tokai Teio [Dream Butterfly of Purple Clouds]",
+        "ja": "トウカイテイオー [紫雲の夢見取り]"
+      },
+      "103902": {
+        "en": "Kawakami Princess [Suikan Beauty]",
+        "ja": "カワカミプリンセス [水干撫子]"
+      },
+      "110701": {
+        "en": "Tap Dance City [GLITTER!]",
+        "ja": "タップダンスシチー [GLITTER!]"
+      },
+      "106402": {
+        "en": "Mejiro Palmer [Warm-Hearted Reindeer]",
+        "ja": "メジロパーマー [赤心のトナカイさん]"
+      },
+      "107402": {
+        "en": "Mejiro Bright [Starry Snow Lolita]",
+        "ja": "メジロブライト [清らに星澄むスノーロリィタ]"
+      },
+      "108801": {
+        "en": "Satono Crown [Emerald Journey]",
+        "ja": "サトノクラウン [黒翠千里行]"
+      },
+      "108901": {
+        "en": "Cheval Grand [Grand Itinéraire]",
+        "ja": "シュヴァルグラン [Grand itinéraire]"
+      },
+      "106803": {
+        "en": "Kitasan Black [Final Bloom]",
+        "ja": "キタサンブラック [結願のしまい華]"
+      },
+      "106003": {
+        "en": "Nice Nature [Converging Wishes]",
+        "ja": "ナイスネイチャ [ネガイノカサネ]"
+      },
+      "109101": {
+        "en": "Vivlos [Voyage Étincelant]",
+        "ja": "ヴィブロス [Voyage étincelant]"
+      },
+      "102502": {
+        "en": "Manhattan Cafe [Willow-Green Evening]",
+        "ja": "マンハッタンカフェ [柳緑小夜]"
+      },
+      "102902": {
+        "en": "Yukino Bijin [Snowy Girl of Tea and Cake]",
+        "ja": "ユキノビジン [茶の子雪ん子]"
+      },
+      "105401": {
+        "en": "Biko Pegasus [Gale Pegasus Type Zero]",
+        "ja": "ビコーペガサス [疾風ペガサス・零式]"
+      },
+      "106301": {
+        "en": "Ikuno Dictus [Mantle of Steel]",
+        "ja": "イクノディクタス [Mantle of Steel]"
+      },
+      "110801": {
+        "en": "Duramente [Red in Black]",
+        "ja": "ドゥラメンテ [Red in Black]"
+      },
+      "108001": {
+        "en": "Transcend [ZOKU-ZOKU GIZMO]",
+        "ja": "トランセンド [ZOKU-ZOKU GIZMO]"
+      },
+      "110901": {
+        "en": "Rhein Kraft [Dream Successor]",
+        "ja": "ラインクラフト [Dream Successor]"
+      },
+      "106502": {
+        "en": "Daitaku Helios [Joyful Jamboree!]",
+        "ja": "ダイタクヘリオス [Joyful Jamboree!]"
+      },
+      "108502": {
+        "en": "Daiichi Ruby [Flowing Blue]",
+        "ja": "ダイイチルビー [Flowing Blue]"
+      },
+      "103503": {
+        "en": "Winning Ticket [Glorious Coat]",
+        "ja": "ウイニングチケット [Glorious Coat]"
+      },
+      "110201": {
+        "en": "Sounds of Earth [Ritmo Della Terra]",
+        "ja": "サウンズオブアース [リトモ・デッラ・テッラ]"
+      },
+      "104503": {
+        "en": "Super Creek [Flowery Shadow Amongst the Gentle Rain]",
+        "ja": "スーパークリーク [慈雨華影]"
+      },
+      "107202": {
+        "en": "Yaeno Muteki [Black General, Zen]",
+        "ja": "ヤエノムテキ [黒将Zen]"
+      },
+      "103203": {
+        "en": "Agnes Tachyon [Σ Experiment]",
+        "ja": "アグネスタキオン [Σ Experiment]"
+      },
+      "108201": {
+        "en": "North Flight [Looking Fly!]",
+        "ja": "ノースフライト [Looking Fly!]"
+      },
+      "104402": {
+        "en": "Sweep Tosho [Realize・Rune]",
+        "ja": "スイープトウショウ [リアライズ・ルーン]"
+      },
+      "106103": {
+        "en": "King Halo [Evergreen Identity]",
+        "ja": "キングヘイロー [Evergreen Identity]"
+      },
+      "109401": {
+        "en": "Jungle Pocket [Ruler's Battle Cry]",
+        "ja": "ジャングルポケット [王者の喊声]"
+      },
+      "111901": {
+        "en": "Dream Journey [Dreamland Memento]",
+        "ja": "ドリームジャーニー [夢路のよすが]"
+      },
+      "103003": {
+        "en": "Rice Shower [Yummy Dreamy Fairy]",
+        "ja": "ライスシャワー [Yummy Dreamy Fairy]"
+      },
+      "112001": {
+        "en": "Calstone Light O [One True Path]",
+        "ja": "カルストンライトオ [真実一路]"
+      },
+      "103703": {
+        "en": "Eishin Flash [Reines Plätschern]",
+        "ja": "エイシンフラッシュ [Reines Plätschern]"
+      },
+      "109902": {
+        "en": "Hokko Tarumae [Pastel Marine Locodol]",
+        "ja": "ホッコータルマエ [パステルマリン・ロコドル]"
+      },
+      "111601": {
+        "en": "Gentildonna [Regina dei Fiori]",
+        "ja": "ジェンティルドンナ [Regina dei fiori]"
+      },
+      "104702": {
+        "en": "Zenno Rob Roy [Inlaid Stories]",
+        "ja": "ゼンノロブロイ [Inlaid Stories]"
+      },
+      "110502": {
+        "en": "Neo Universe [Like “ZEER”]",
+        "ja": "ネオユニヴァース [Like “ZEER”]"
+      },
+      "111001": {
+        "en": "Cesario [Future Weaver]",
+        "ja": "シーザリオ [Future Weaver]"
+      },
+      "112101": {
+        "en": "Durandal [Chevalier Fidèle]",
+        "ja": "デュランダル [Chevalier fidèle]"
+      },
+      "102403": {
+        "en": "Mayano Top Gun [Rocking☆MewMeow]",
+        "ja": "マヤノトップガン [ろっきん☆MewMeow]"
+      },
+      "104202": {
+        "en": "Seeking the Pearl [Be♪Witched]",
+        "ja": "シーキングザパール [Be♪Witched]"
+      },
+      "112401": {
+        "en": "Bubble Gum Fellow [POPPING!]",
+        "ja": "バブルガムフェロー [POPPING!]"
+      },
+      "102303": {
+        "en": "Biwa Hayahide [Engineered Victory]",
+        "ja": "ビワハヤヒデ [Engineered Victory]"
+      },
+      "105003": {
+        "en": "Narita Taishin [Stray Light Override]",
+        "ja": "ナリタタイシン [迷光オーヴァライド]"
+      },
+      "111101": {
+        "en": "Air Messiah [Inherited Hope]",
+        "ja": "エアメサイア [Inherited Hope]"
+      },
+      "103302": {
+        "en": "Admire Vega [Glacialis Vega]",
+        "ja": "アドマイヤベガ [Glacialis Vega]"
+      },
+      "107702": {
+        "en": "Narita Top Road [Celestial Road]",
+        "ja": "ナリタトップロード [Celestial Road]"
+      },
+      "111701": {
+        "en": "Win Variation [Dramatic Tutu]",
+        "ja": "ウインバリアシオン [ドラマティック・チュチュ]"
+      },
+      "101103": {
+        "en": "Grass Wonder [Honor of the Azure Flame]",
+        "ja": "グラスワンダー [蒼炎の誉]"
+      },
+      "105702": {
+        "en": "Mr. C.B. [Dazzling Kabuki Flower]",
+        "ja": "ミスターシービー [絢爛花道歌舞く君]"
+      },
+      "110402": {
+        "en": "Katsuragi Ace [Pen Name: Ink Dragon]",
+        "ja": "カツラギエース [雅号・墨龍]"
+      },
+      "100403": {
+        "en": "Maruzensky [Auspicious Maiden of Divine Speed]",
+        "ja": "マルゼンスキー [祝ひ寿ぐ神速天女]"
+      },
+      "107901": {
+        "en": "Furioso [Triumphant Return of the Auspicious Star]",
+        "ja": "フリオーソ [衣錦還郷の瑞星]"
+      },
+      "107802": {
+        "en": "Yamanin Zephyr [Sugary Wind]",
+        "ja": "ヤマニンゼファー [Sugary Wind]"
+      },
+      "108702": {
+        "en": "Aston Machan [Everlasting Sweet Treat]",
+        "ja": "アストンマーチャン [溶けない砂糖菓子]"
+      },
+      "107301": {
+        "en": "Tsurumaru Tsuyoshi [Dream Bold, Stand Tall, Tsuyoshi!]",
+        "ja": "ツルマルツヨシ [志、高し、強し！]"
+      },
+      "111501": {
+        "en": "Orfevre [Total Dominion]",
+        "ja": "オルフェーヴル [総攬]"
+      },
+      "113101": {
+        "en": "Gran Alegria [sMile My Way!]",
+        "ja": "グランアレグリア [すまいる・まい・うぇい！]"
+      },
+      "109601": {
+        "en": "No Reason [Swift Crimson Armor]",
+        "ja": "ノーリーズン [紅色塗早駆具足]"
+      },
+      "108402": {
+        "en": "Tanino Gimlet [With a Twist]",
+        "ja": "タニノギムレット [With a Twist]"
+      },
+      "110702": {
+        "en": "Tap Dance City [Tap! Tap! Tap!]",
+        "ja": "タップダンスシチー [Tap! Tap! Tap!]"
+      },
+      "107002": {
+        "en": "Sirius Symboli [Louve Stellaire]",
+        "ja": "シリウスシンボリ [Louve stellaire]"
+      },
+      "112701": {
+        "en": "Fenomeno [Black Flame of Righteousness]",
+        "ja": "フェノーメノ [義心の黒焔]"
+      },
+      "104603": {
+        "en": "Smart Falcon [Luminous ☆ Twirler]",
+        "ja": "スマートファルコン [ルミナス☆トワラー]"
+      },
+      "109802": {
+        "en": "Copano Rickey [Dazzling ☆ Lucky Wear]",
+        "ja": "コパノリッキー [光彩陸離☆招福衣]"
+      },
+      "109001": {
+        "en": "Verxina [Le Beau Sommet]",
+        "ja": "ヴィルシーナ [Le beau sommet]"
+      },
+      "113201": {
+        "en": "Loves Only You [9927 Wishes]",
+        "ja": "ラヴズオンリーユー [9927 Wishes]"
+      },
+      "108602": {
+        "en": "Mejiro Ramonu [Untouchable Eden]",
+        "ja": "メジロラモーヌ [Untouchable Eden]"
+      },
+      "111002": {
+        "en": "Cesario [Twinbell Queen]",
+        "ja": "シーザリオ [Twinbell Queen]"
+      },
+      "113301": {
+        "en": "Chrono Genesis [Prismatic Curator]",
+        "ja": "クロノジェネシス [陸離の編纂者]"
+      },
+      "104003": {
+        "en": "Gold City [Boho Flare]",
+        "ja": "ゴールドシチー [Boho Flare]"
+      },
+      "103103": {
+        "en": "Ines Fujin [Hello Hello Island]",
+        "ja": "アイネスフウジン [Hello Hello Island]"
+      },
+      "110902": {
+        "en": "Rhein Kraft [Eternal Fairytale]",
+        "ja": "ラインクラフト [Eternal Fairytale]"
+      },
+      "111301": {
+        "en": "Fusaichi Pandora [Assorted Cuteness♡]",
+        "ja": "フサイチパンドラ [Assorted Cuteness♡]"
+      },
+      "108802": {
+        "en": "Satono Crown [Sunny Island Floral Beauty]",
+        "ja": "サトノクラウン [晴島花麗]"
+      },
+      "108902": {
+        "en": "Cheval Grand [Summer Lull Navy Drop]",
+        "ja": "シュヴァルグラン [夏凪ネイビードロップ]"
+      },
+      "109102": {
+        "en": "Vivlos [Éclat d'été]",
+        "ja": "ヴィブロス [Éclat d'été]"
+      },
+      "109701": {
+        "en": "Still in Love [Scarlet Vow Raiment]",
+        "ja": "スティルインラブ [緋想の誓衣]"
+      },
+      "109302": {
+        "en": "K.S.Miracle [Andante in Autumn Hues]",
+        "ja": "ケイエスミラクル [秋日色アンダンテ]"
+      },
+      "110602": {
+        "en": "Hishi Miracle [Happy Little Notes]",
+        "ja": "ヒシミラクル [ハッピー・リトル・ノーツ]"
+      },
+      "108101": {
+        "en": "Espoir City [Red Devil Gear]",
+        "ja": "エスポワールシチー [Red Devil Gear]"
+      },
+      "109501": {
+        "en": "Believe [Purity]",
+        "ja": "ビリーヴ [精粋]"
+      },
+      "102802": {
+        "en": "Hishi Akebono [Magic Night Garland]",
+        "ja": "ヒシアケボノ [マジックナイトガーランド]"
+      },
+      "105502": {
+        "en": "Marvelous Sunday [Trick ☆ Ribonetta]",
+        "ja": "マーベラスサンデー [トリック☆リボネッタ]"
+      },
+      "104803": {
+        "en": "Tosen Jordan [Highkey ☆ Hallowed]",
+        "ja": "トーセンジョーダン [Highkey☆Hallowed]"
+      },
+      "109201": {
+        "en": "Dantsu Flame [Center ◎ Spotlight]",
+        "ja": "ダンツフレーム [まんなか◎スポットライト]"
+      },
+      "108002": {
+        "en": "Transcend [Twilit Neo-Kagura]",
+        "ja": "トランセンド [宵闇ネオカグラ]"
+      },
+      "110002": {
+        "en": "Wonder Acute [Soft Light・Hot Spring Scent]",
+        "ja": "ワンダーアキュート [柔灯・湯の香の装い]"
+      },
+      "111401": {
+        "en": "Buena Vista [Heroína Inocente]",
+        "ja": "ブエナビスタ [Heroína Inocente]"
+      },
+      "104902": {
+        "en": "Nakayama Festa [Festive Play]",
+        "ja": "ナカヤマフェスタ [祝祭遊戯]"
+      },
+      "111902": {
+        "en": "Dream Journey [Snow-White Dream Road]",
+        "ja": "ドリームジャーニー [雪白の夢路]"
+      },
+      "100603": {
+        "en": "Oguri Cap [Cinderella Gray]",
+        "ja": "オグリキャップ [シンデレラグレイ]"
+      },
+      "113501": {
+        "en": "Stay Gold [Sunlit Outsider]",
+        "ja": "ステイゴールド [Sunlit Outsider]"
+      },
+      "106302": {
+        "en": "Ikuno Dictus [Strolling an Orderly Path]",
+        "ja": "イクノディクタス [逍遥、整然たる路を]"
+      },
+      "107602": {
+        "en": "Sakura Laurel [Nouvelle Pousse]",
+        "ja": "サクラローレル [Nouvelle pousse]"
+      },
+      "112402": {
+        "en": "Bubble Gum Fellow [Dawn Light]",
+        "ja": "バブルガムフェロー [暁光]"
+      },
+      "113701": {
+        "en": "Kiseki [Miracle Author]",
+        "ja": "キセキ [Miracle Author]"
+      },
+      "101003": {
+        "en": "Taiki Shuttle [Baa Baa Patisserie]",
+        "ja": "タイキシャトル [Baa Baa Patisserie]"
+      },
+      "110202": {
+        "en": "Sounds of Earth [Sonata alla Menta]",
+        "ja": "サウンズオブアース [ソナタ・アッラ・メンタ]"
+      },
+      "110301": {
+        "en": "Royce and Royce [Inspiring Genius]",
+        "ja": "ロイスアンドロイス [Inspiring Genius]"
+      },
+      "112901": {
+        "en": "Almond Eye [The Changer]",
+        "ja": "アーモンドアイ [The Changer]"
+      },
+      "113202": {
+        "en": "Loves Only You [Love-Linked Aster]",
+        "ja": "ラヴズオンリーユー [Love-Linked Aster]"
+      },
+      "114301": {
+        "en": "Victoire Pisa [Lueur Angélique]",
+        "ja": "ヴィクトワールピサ [Lueur Angélique]"
+      },
+      "104103": {
+        "en": "Sakura Bakushin O [Spring-Thunder Speedster]",
+        "ja": "サクラバクシンオー [春雷の韋駄天]"
+      },
+      "108202": {
+        "en": "North Flight [Pale-Blue Flash]",
+        "ja": "ノースフライト [水縹の一閃]"
+      },
+      "113001": {
+        "en": "Lucky Lilac [Standard of Unyielding Resolve]",
+        "ja": "ラッキーライラック [万折不撓の纏]"
+      },
+      "111801": {
+        "en": "Admire Groove [Glacial Queen]",
+        "ja": "アドマイヤグルーヴ [Glacial Queen]"
+      },
+      "100503": {
+        "en": "Fuji Kiseki [Blanche Étoile]",
+        "ja": "フジキセキ [ブランシュ・エトワール]"
+      },
+      "109402": {
+        "en": "Jungle Pocket [Vermilion Head]",
+        "ja": "ジャングルポケット [ヴァーミリオン・ヘッド]"
+      },
+      "111201": {
+        "en": "Daring Heart [Daring Darling!]",
+        "ja": "デアリングハート [Daring Darling!]"
+      },
+      "113601": {
+        "en": "Red Desire [Divine Raiment]",
+        "ja": "レッドディザイア [Divine Raiment]"
+      },
+      "102503": {
+        "en": "Manhattan Cafe [Ethereal Rose]",
+        "ja": "マンハッタンカフェ [幽玄薔薇]"
+      },
+      "111602": {
+        "en": "Gentildonna [La dama perfetta]",
+        "ja": "ジェンティルドンナ [La dama perfetta]"
+      },
+      "113401": {
+        "en": "Curren Bouquetd'or [Couture in Bloom]",
+        "ja": "カレンブーケドール [花宿しのクチュール]"
+      },
+      "107703": {
+        "en": "Narita Top Road [Bountiful Dragon Broth Saga]",
+        "ja": "ナリタトップロード [万福龍湯伝・頂]"
+      },
+      "102203": {
+        "en": "Fine Motion [Radiant Noodle Splendor Saga]",
+        "ja": "ファインモーション [麺華煌彩伝・極]"
+      },
+      "114501": {
+        "en": "Rulership [Monochrome GM]",
+        "ja": "ルーラーシップ [Monochrome GM]"
+      },
+      "102003": {
+        "en": "Seiun Sky [Shoreline Whimsy in Orange]",
+        "ja": "セイウンスカイ [渚のきまぐれオランジュ]"
+      },
+      "107403": {
+        "en": "Mejiro Bright [Seaside Elegance in Chiffon]",
+        "ja": "メジロブライト [海辺のエレガンスシフォン]"
+      },
+      "111302": {
+        "en": "Fusaichi Pandora [Snatchin' Hearts ♡]",
+        "ja": "フサイチパンドラ [Snatchin' Hearts ♡]"
+      },
+      "114101": {
+        "en": "Epiphaneia [Fate's Chosen Star]",
+        "ja": "エピファネイア [Fate's Chosen Star]"
+      },
+      "104302": {
+        "en": "Shinko Windy [Chomp-Chomp ☆ Scamp]",
+        "ja": "シンコウウインディ [ガブガブ☆スキャンプ]"
+      },
+      "112702": {
+        "en": "Fenomeno [Violet Flame of Fortitude]",
+        "ja": "フェノーメノ [剛毅なる紫焔]"
+      },
+      "114901": {
+        "en": "Phalaenopsis [None]",
+        "ja": "ファレノプシス [絶佳の暁闇]"
+      },
+      "114401": {
+        "en": "Rose Kingdom [Éclat de Roseraie]",
+        "ja": "ローズキングダム [Éclat de Roseraie]"
+      },
+      "101703": {
+        "en": "Symboli Rudolf [Adamant Sovereign]",
+        "ja": "シンボリルドルフ [Adamant Sovereign]"
+      },
+      "101803": {
+        "en": "Air Groove [Eternal Hekateia]",
+        "ja": "エアグルーヴ [悠久なるヘカテイア]"
+      },
+      "110802": {
+        "en": "Duramente [Claret Nosferatu]",
+        "ja": "ドゥラメンテ [Claret Nosferatu]"
+      }
+    }
+  }
+}

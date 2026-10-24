@@ -52,6 +52,13 @@ try:
   if row.get('status') in ['ok','updated','unchanged','success']:eligible[game]=WORK/'official/normalized'/(game+'.json')
   else:errors[game]=row.get('error','Official source failed')
 except Exception as e:errors.update({g:str(e)for g in ['hi3','endfield']})
+# Optional reference facts are isolated from canonical roster eligibility.
+# Supplemental failure never deletes published names/art/numerical facts.
+import importlib.util
+_enrich_spec=importlib.util.spec_from_file_location('gagether_roster_enrichment',ROOT/'enrichment/run.py')
+_enrich=importlib.util.module_from_spec(_enrich_spec);_enrich_spec.loader.exec_module(_enrich)
+enrich_files=_enrich.enrich_files
+eligible,enrichment_reports=enrich_files(eligible,WORK/'enrichment')
 receipts=[]
 for game in GAMES:
  try:
@@ -66,7 +73,8 @@ for game in GAMES:
    post({'action':'health','gameId':game,'status':'failed','error':error})
    receipts.append({'gameId':game,'status':'failed','error':error})
  except Exception as e:receipts.append({'gameId':game,'status':'delivery-failed','error':str(e)[:2000]})
-report={'receipts':receipts,'partial':any(r['status']!='ok'for r in receipts)}
+enrichment_partial=any(r['status']in ['failed','partial']or r.get('validationErrors')for r in enrichment_reports.values())
+report={'enrichment':enrichment_reports,'receipts':receipts,'partial':any(r['status']!='ok'for r in receipts)or enrichment_partial}
 (WORK/'delivery.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
 with open(os.environ.get('GITHUB_STEP_SUMMARY','/dev/null'),'a')as f:
  f.write('## Character roster collection\n\n| Game | Status | Forms |\n|---|---|---|\n')
