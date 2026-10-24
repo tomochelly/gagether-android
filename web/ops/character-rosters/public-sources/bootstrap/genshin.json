@@ -1,0 +1,6061 @@
+{
+  "gameId": "genshin",
+  "sourceName": "genshin-db + HoYo-Assets",
+  "sourceUrls": [
+    "https://genshin-db-api.vercel.app/api/v5/characters?query=names&matchCategories=true&verboseCategories=true",
+    "https://api.github.com/repos/ScobbleQ/HoYo-Assets/git/trees/main?recursive=1"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "10000002",
+      "name": {
+        "ko": "카미사토 아야카",
+        "en": "Kamisato Ayaka",
+        "ja": "神里綾華",
+        "zh": "神里绫华"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000002.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000003",
+      "name": {
+        "ko": "진",
+        "en": "Jean",
+        "ja": "ジン",
+        "zh": "琴"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Jean",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000003.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000005",
+      "name": {
+        "ko": "아이테르",
+        "en": "Aether",
+        "ja": "空",
+        "zh": "空"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Aether",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "없음",
+            "en": "None",
+            "ja": "無",
+            "zh": "无"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000005.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000006",
+      "name": {
+        "ko": "리사",
+        "en": "Lisa",
+        "ja": "リサ",
+        "zh": "丽莎"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Lisa",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000006.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000007",
+      "name": {
+        "ko": "루미네",
+        "en": "Lumine",
+        "ja": "蛍",
+        "zh": "荧"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Lumine",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "없음",
+            "en": "None",
+            "ja": "無",
+            "zh": "无"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000007.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000014",
+      "name": {
+        "ko": "바바라",
+        "en": "Barbara",
+        "ja": "バーバラ",
+        "zh": "芭芭拉"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Barbara",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000014.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000015",
+      "name": {
+        "ko": "케이아",
+        "en": "Kaeya",
+        "ja": "ガイア",
+        "zh": "凯亚"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Kaeya",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000015.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000016",
+      "name": {
+        "ko": "다이루크",
+        "en": "Diluc",
+        "ja": "ディルック",
+        "zh": "迪卢克"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Diluc",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000016.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000020",
+      "name": {
+        "ko": "레이저",
+        "en": "Razor",
+        "ja": "レザー",
+        "zh": "雷泽"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Razor",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000020.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000021",
+      "name": {
+        "ko": "엠버",
+        "en": "Amber",
+        "ja": "アンバー",
+        "zh": "安柏"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Amber",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000021.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000022",
+      "name": {
+        "ko": "벤티",
+        "en": "Venti",
+        "ja": "ウェンティ",
+        "zh": "温迪"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Venti",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000022.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000023",
+      "name": {
+        "ko": "향릉",
+        "en": "Xiangling",
+        "ja": "香菱",
+        "zh": "香菱"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Xiangling",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000023.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000024",
+      "name": {
+        "ko": "북두",
+        "en": "Beidou",
+        "ja": "北斗",
+        "zh": "北斗"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Beidou",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000024.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000025",
+      "name": {
+        "ko": "행추",
+        "en": "Xingqiu",
+        "ja": "行秋",
+        "zh": "行秋"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Xingqiu",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000025.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000026",
+      "name": {
+        "ko": "소",
+        "en": "Xiao",
+        "ja": "魈",
+        "zh": "魈"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Xiao",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000026.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000027",
+      "name": {
+        "ko": "응광",
+        "en": "Ningguang",
+        "ja": "凝光",
+        "zh": "凝光"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Ningguang",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000027.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000029",
+      "name": {
+        "ko": "클레",
+        "en": "Klee",
+        "ja": "クレー",
+        "zh": "可莉"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Klee",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000029.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000030",
+      "name": {
+        "ko": "종려",
+        "en": "Zhongli",
+        "ja": "鍾離",
+        "zh": "钟离"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Zhongli",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000030.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000031",
+      "name": {
+        "ko": "피슬",
+        "en": "Fischl",
+        "ja": "フィッシュル",
+        "zh": "菲谢尔"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Fischl",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000031.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000032",
+      "name": {
+        "ko": "베넷",
+        "en": "Bennett",
+        "ja": "ベネット",
+        "zh": "班尼特"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Bennett",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000032.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000033",
+      "name": {
+        "ko": "타르탈리아",
+        "en": "Tartaglia",
+        "ja": "タルタリヤ",
+        "zh": "达达利亚"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Tartaglia",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000033.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000034",
+      "name": {
+        "ko": "노엘",
+        "en": "Noelle",
+        "ja": "ノエル",
+        "zh": "诺艾尔"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Noelle",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000034.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000035",
+      "name": {
+        "ko": "치치",
+        "en": "Qiqi",
+        "ja": "七七",
+        "zh": "七七"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Qiqi",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000035.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000036",
+      "name": {
+        "ko": "중운",
+        "en": "Chongyun",
+        "ja": "重雲",
+        "zh": "重云"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Chongyun",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000036.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000037",
+      "name": {
+        "ko": "감우",
+        "en": "Ganyu",
+        "ja": "甘雨",
+        "zh": "甘雨"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Ganyu",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000037.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000038",
+      "name": {
+        "ko": "알베도",
+        "en": "Albedo",
+        "ja": "アルベド",
+        "zh": "阿贝多"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Albedo",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000038.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000039",
+      "name": {
+        "ko": "디오나",
+        "en": "Diona",
+        "ja": "ディオナ",
+        "zh": "迪奥娜"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Diona",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000039.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000041",
+      "name": {
+        "ko": "모나",
+        "en": "Mona",
+        "ja": "モナ",
+        "zh": "莫娜"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Mona",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000041.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000042",
+      "name": {
+        "ko": "각청",
+        "en": "Keqing",
+        "ja": "刻晴",
+        "zh": "刻晴"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Keqing",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000042.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000043",
+      "name": {
+        "ko": "설탕",
+        "en": "Sucrose",
+        "ja": "スクロース",
+        "zh": "砂糖"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Sucrose",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000043.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000044",
+      "name": {
+        "ko": "신염",
+        "en": "Xinyan",
+        "ja": "辛炎",
+        "zh": "辛焱"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Xinyan",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000044.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000045",
+      "name": {
+        "ko": "로자리아",
+        "en": "Rosaria",
+        "ja": "ロサリア",
+        "zh": "罗莎莉亚"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Rosaria",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000045.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000046",
+      "name": {
+        "ko": "호두",
+        "en": "Hu Tao",
+        "ja": "胡桃",
+        "zh": "胡桃"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Hu_Tao",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000046.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000047",
+      "name": {
+        "ko": "카에데하라 카즈하",
+        "en": "Kaedehara Kazuha",
+        "ja": "楓原万葉",
+        "zh": "枫原万叶"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Kaedehara_Kazuha",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000047.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000048",
+      "name": {
+        "ko": "연비",
+        "en": "Yanfei",
+        "ja": "煙緋",
+        "zh": "烟绯"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Yanfei",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000048.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000049",
+      "name": {
+        "ko": "요이미야",
+        "en": "Yoimiya",
+        "ja": "宵宮",
+        "zh": "宵宫"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Yoimiya",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000049.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000050",
+      "name": {
+        "ko": "토마",
+        "en": "Thoma",
+        "ja": "トーマ",
+        "zh": "托马"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Thoma",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000050.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000051",
+      "name": {
+        "ko": "유라",
+        "en": "Eula",
+        "ja": "エウルア",
+        "zh": "优菈"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Eula",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000051.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000052",
+      "name": {
+        "ko": "라이덴 쇼군",
+        "en": "Raiden Shogun",
+        "ja": "雷電将軍",
+        "zh": "雷电将军"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000052.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000053",
+      "name": {
+        "ko": "사유",
+        "en": "Sayu",
+        "ja": "早柚",
+        "zh": "早柚"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Sayu",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000053.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000054",
+      "name": {
+        "ko": "산고노미야 코코미",
+        "en": "Sangonomiya Kokomi",
+        "ja": "珊瑚宮心海",
+        "zh": "珊瑚宫心海"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000054.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000055",
+      "name": {
+        "ko": "고로",
+        "en": "Gorou",
+        "ja": "ゴロー",
+        "zh": "五郎"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Gorou",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000055.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000056",
+      "name": {
+        "ko": "쿠죠 사라",
+        "en": "Kujou Sara",
+        "ja": "九条裟羅",
+        "zh": "九条裟罗"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Kujou_Sara",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000056.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000057",
+      "name": {
+        "ko": "아라타키 이토",
+        "en": "Arataki Itto",
+        "ja": "荒瀧一斗",
+        "zh": "荒泷一斗"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Arataki_Itto",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000057.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000058",
+      "name": {
+        "ko": "야에 미코",
+        "en": "Yae Miko",
+        "ja": "八重神子",
+        "zh": "八重神子"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Yae_Miko",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000058.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000059",
+      "name": {
+        "ko": "시카노인 헤이조",
+        "en": "Shikanoin Heizou",
+        "ja": "鹿野院平蔵",
+        "zh": "鹿野院平藏"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000059.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000060",
+      "name": {
+        "ko": "야란",
+        "en": "Yelan",
+        "ja": "夜蘭",
+        "zh": "夜兰"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000060.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000061",
+      "name": {
+        "ko": "키라라",
+        "en": "Kirara",
+        "ja": "綺良々",
+        "zh": "绮良良"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000061.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000062",
+      "name": {
+        "ko": "에일로이",
+        "en": "Aloy",
+        "ja": "アーロイ",
+        "zh": "埃洛伊"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Aloy",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000062.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000063",
+      "name": {
+        "ko": "신학",
+        "en": "Shenhe",
+        "ja": "申鶴",
+        "zh": "申鹤"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Shenhe",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000063.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000064",
+      "name": {
+        "ko": "운근",
+        "en": "Yun Jin",
+        "ja": "雲菫",
+        "zh": "云堇"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Yun_Jin",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000064.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000065",
+      "name": {
+        "ko": "쿠키 시노부",
+        "en": "Kuki Shinobu",
+        "ja": "久岐忍",
+        "zh": "久岐忍"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000065.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000066",
+      "name": {
+        "ko": "카미사토 아야토",
+        "en": "Kamisato Ayato",
+        "ja": "神里綾人",
+        "zh": "神里绫人"
+      },
+      "sourceUrl": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayato",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000066.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000067",
+      "name": {
+        "ko": "콜레이",
+        "en": "Collei",
+        "ja": "コレイ",
+        "zh": "柯莱"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000067.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000068",
+      "name": {
+        "ko": "도리",
+        "en": "Dori",
+        "ja": "ドリー",
+        "zh": "多莉"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000068.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000069",
+      "name": {
+        "ko": "타이나리",
+        "en": "Tighnari",
+        "ja": "ティナリ",
+        "zh": "提纳里"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000069.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000070",
+      "name": {
+        "ko": "닐루",
+        "en": "Nilou",
+        "ja": "ニィロウ",
+        "zh": "妮露"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000070.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000071",
+      "name": {
+        "ko": "사이노",
+        "en": "Cyno",
+        "ja": "セノ",
+        "zh": "赛诺"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000071.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000072",
+      "name": {
+        "ko": "캔디스",
+        "en": "Candace",
+        "ja": "キャンディス",
+        "zh": "坎蒂丝"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000072.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000073",
+      "name": {
+        "ko": "나히다",
+        "en": "Nahida",
+        "ja": "ナヒーダ",
+        "zh": "纳西妲"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000073.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000074",
+      "name": {
+        "ko": "레일라",
+        "en": "Layla",
+        "ja": "レイラ",
+        "zh": "莱依拉"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000074.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000075",
+      "name": {
+        "ko": "방랑자",
+        "en": "Wanderer",
+        "ja": "放浪者",
+        "zh": "流浪者"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000075.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000076",
+      "name": {
+        "ko": "파루잔",
+        "en": "Faruzan",
+        "ja": "ファルザン",
+        "zh": "珐露珊"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000076.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000077",
+      "name": {
+        "ko": "요요",
+        "en": "Yaoyao",
+        "ja": "ヨォーヨ",
+        "zh": "瑶瑶"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000077.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000078",
+      "name": {
+        "ko": "알하이탐",
+        "en": "Alhaitham",
+        "ja": "アルハイゼン",
+        "zh": "艾尔海森"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000078.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000079",
+      "name": {
+        "ko": "데히야",
+        "en": "Dehya",
+        "ja": "ディシア",
+        "zh": "迪希雅"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000079.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000080",
+      "name": {
+        "ko": "미카",
+        "en": "Mika",
+        "ja": "ミカ",
+        "zh": "米卡"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000080.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000081",
+      "name": {
+        "ko": "카베",
+        "en": "Kaveh",
+        "ja": "カーヴェ",
+        "zh": "卡维"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000081.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000082",
+      "name": {
+        "ko": "백출",
+        "en": "Baizhu",
+        "ja": "白朮",
+        "zh": "白术"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000082.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000083",
+      "name": {
+        "ko": "리넷",
+        "en": "Lynette",
+        "ja": "リネット",
+        "zh": "琳妮特"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000083.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000084",
+      "name": {
+        "ko": "리니",
+        "en": "Lyney",
+        "ja": "リネ",
+        "zh": "林尼"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000084.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000085",
+      "name": {
+        "ko": "프레미네",
+        "en": "Freminet",
+        "ja": "フレミネ",
+        "zh": "菲米尼"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000085.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000086",
+      "name": {
+        "ko": "라이오슬리",
+        "en": "Wriothesley",
+        "ja": "リオセスリ",
+        "zh": "莱欧斯利"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000086.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000087",
+      "name": {
+        "ko": "느비예트",
+        "en": "Neuvillette",
+        "ja": "ヌヴィレット",
+        "zh": "那维莱特"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000087.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000088",
+      "name": {
+        "ko": "샤를로트",
+        "en": "Charlotte",
+        "ja": "シャルロット",
+        "zh": "夏洛蒂"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000088.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000089",
+      "name": {
+        "ko": "푸리나",
+        "en": "Furina",
+        "ja": "フリーナ",
+        "zh": "芙宁娜"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000089.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000090",
+      "name": {
+        "ko": "슈브르즈",
+        "en": "Chevreuse",
+        "ja": "シュヴルーズ",
+        "zh": "夏沃蕾"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000090.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000091",
+      "name": {
+        "ko": "나비아",
+        "en": "Navia",
+        "ja": "ナヴィア",
+        "zh": "娜维娅"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000091.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000092",
+      "name": {
+        "ko": "가명",
+        "en": "Gaming",
+        "ja": "嘉明",
+        "zh": "嘉明"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000092.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000093",
+      "name": {
+        "ko": "한운",
+        "en": "Xianyun",
+        "ja": "閑雲",
+        "zh": "闲云"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000093.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000094",
+      "name": {
+        "ko": "치오리",
+        "en": "Chiori",
+        "ja": "千織",
+        "zh": "千织"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000094.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000095",
+      "name": {
+        "ko": "시그윈",
+        "en": "Sigewinne",
+        "ja": "シグウィン",
+        "zh": "希格雯"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000095.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000096",
+      "name": {
+        "ko": "아를레키노",
+        "en": "Arlecchino",
+        "ja": "アルレッキーノ",
+        "zh": "阿蕾奇诺"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000096.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000097",
+      "name": {
+        "ko": "세토스",
+        "en": "Sethos",
+        "ja": "セトス",
+        "zh": "赛索斯"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000097.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000098",
+      "name": {
+        "ko": "클로린드",
+        "en": "Clorinde",
+        "ja": "クロリンデ",
+        "zh": "克洛琳德"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000098.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000099",
+      "name": {
+        "ko": "에밀리",
+        "en": "Emilie",
+        "ja": "エミリエ",
+        "zh": "艾梅莉埃"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000099.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000100",
+      "name": {
+        "ko": "카치나",
+        "en": "Kachina",
+        "ja": "カチーナ",
+        "zh": "卡齐娜"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000100.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000101",
+      "name": {
+        "ko": "키니치",
+        "en": "Kinich",
+        "ja": "キィニチ",
+        "zh": "基尼奇"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000101.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000102",
+      "name": {
+        "ko": "말라니",
+        "en": "Mualani",
+        "ja": "ムアラニ",
+        "zh": "玛拉妮"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000102.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000103",
+      "name": {
+        "ko": "실로닌",
+        "en": "Xilonen",
+        "ja": "シロネン",
+        "zh": "希诺宁"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000103.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000104",
+      "name": {
+        "ko": "차스카",
+        "en": "Chasca",
+        "ja": "チャスカ",
+        "zh": "恰斯卡"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000104.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000105",
+      "name": {
+        "ko": "올로룬",
+        "en": "Ororon",
+        "ja": "オロルン",
+        "zh": "欧洛伦"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000105.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000106",
+      "name": {
+        "ko": "마비카",
+        "en": "Mavuika",
+        "ja": "マーヴィカ",
+        "zh": "玛薇卡"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000106.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000107",
+      "name": {
+        "ko": "시틀라리",
+        "en": "Citlali",
+        "ja": "シトラリ",
+        "zh": "茜特菈莉"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000107.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000108",
+      "name": {
+        "ko": "남연",
+        "en": "Lan Yan",
+        "ja": "藍硯",
+        "zh": "蓝砚"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000108.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000109",
+      "name": {
+        "ko": "유메미즈키 미즈키",
+        "en": "Yumemizuki Mizuki",
+        "ja": "夢見月瑞希",
+        "zh": "梦见月瑞希"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000109.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000110",
+      "name": {
+        "ko": "얀사",
+        "en": "Iansan",
+        "ja": "イアンサ",
+        "zh": "伊安珊"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000110.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000111",
+      "name": {
+        "ko": "바레사",
+        "en": "Varesa",
+        "ja": "ヴァレサ",
+        "zh": "瓦雷莎"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000111.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/ScobbleQ/HoYo-Assets",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10000112",
+      "name": {
+        "ko": "에스코피에",
+        "en": "Escoffier",
+        "ja": "エスコフィエ",
+        "zh": "爱可菲"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000113",
+      "name": {
+        "ko": "이파",
+        "en": "Ifa",
+        "ja": "イファ",
+        "zh": "伊法"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000114",
+      "name": {
+        "ko": "스커크",
+        "en": "Skirk",
+        "ja": "スカーク",
+        "zh": "丝柯克"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000115",
+      "name": {
+        "ko": "달리아",
+        "en": "Dahlia",
+        "ja": "ダリア",
+        "zh": "塔利雅"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000116",
+      "name": {
+        "ko": "이네파",
+        "en": "Ineffa",
+        "ja": "イネファ",
+        "zh": "伊涅芙"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000117",
+      "name": {
+        "ko": "별인형·남성",
+        "en": "Manekin",
+        "ja": "ドール（男）",
+        "zh": "奇偶·男性"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "없음",
+            "en": "None",
+            "ja": "無",
+            "zh": "无"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000118",
+      "name": {
+        "ko": "별인형·여성",
+        "en": "Manekina",
+        "ja": "ドール（女）",
+        "zh": "奇偶·女性"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "없음",
+            "en": "None",
+            "ja": "無",
+            "zh": "无"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000119",
+      "name": {
+        "ko": "라우마",
+        "en": "Lauma",
+        "ja": "ラウマ",
+        "zh": "菈乌玛"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000120",
+      "name": {
+        "ko": "플린스",
+        "en": "Flins",
+        "ja": "フリンズ",
+        "zh": "菲林斯"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000121",
+      "name": {
+        "ko": "아이노",
+        "en": "Aino",
+        "ja": "アイノ",
+        "zh": "爱诺"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000122",
+      "name": {
+        "ko": "네페르",
+        "en": "Nefer",
+        "ja": "ネフェル",
+        "zh": "奈芙尔"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "풀",
+            "en": "Dendro",
+            "ja": "草",
+            "zh": "草"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000123",
+      "name": {
+        "ko": "두린",
+        "en": "Durin",
+        "ja": "ドゥリン",
+        "zh": "杜林"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000124",
+      "name": {
+        "ko": "야호다",
+        "en": "Jahoda",
+        "ja": "ヤフォダ",
+        "zh": "雅珂达"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000125",
+      "name": {
+        "ko": "콜롬비나",
+        "en": "Columbina",
+        "ja": "コロンビーナ",
+        "zh": "哥伦比娅"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000126",
+      "name": {
+        "ko": "자백",
+        "en": "Zibai",
+        "ja": "兹白",
+        "zh": "兹白"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000127",
+      "name": {
+        "ko": "일루가",
+        "en": "Illuga",
+        "ja": "イルーガ",
+        "zh": "叶洛亚"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000128",
+      "name": {
+        "ko": "바르카",
+        "en": "Varka",
+        "ja": "ファルカ",
+        "zh": "法尔伽"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000129",
+      "name": {
+        "ko": "로엔",
+        "en": "Lohen",
+        "ja": "ローエン",
+        "zh": "洛恩"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000130",
+      "name": {
+        "ko": "린네아",
+        "en": "Linnea",
+        "ja": "リンネア",
+        "zh": "莉奈娅"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바위",
+            "en": "Geo",
+            "ja": "岩",
+            "zh": "岩"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "활",
+            "en": "Bow",
+            "ja": "弓",
+            "zh": "弓"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000131",
+      "name": {
+        "ko": "니콜",
+        "en": "Nicole",
+        "ja": "ニコ",
+        "zh": "尼可"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "불",
+            "en": "Pyro",
+            "ja": "炎",
+            "zh": "火"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000132",
+      "name": {
+        "ko": "프루네",
+        "en": "Prune",
+        "ja": "プルーネ",
+        "zh": "布伦妮"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000133",
+      "name": {
+        "ko": "산드로네",
+        "en": "Sandrone",
+        "ja": "サンドローネ",
+        "zh": "桑多涅"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "양손검",
+            "en": "Claymore",
+            "ja": "両手剣",
+            "zh": "双手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000140",
+      "name": {
+        "ko": "보댜니차",
+        "en": "Vodyanitsa",
+        "ja": "ヴォジャニーツァ",
+        "zh": "沃雅妮莎"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "물",
+            "en": "Hydro",
+            "ja": "水",
+            "zh": "水"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "법구",
+            "en": "Catalyst",
+            "ja": "法器",
+            "zh": "法器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000143",
+      "name": {
+        "ko": "베스나",
+        "en": "Vesna",
+        "ja": "ヴェスナ",
+        "zh": "薇斯纳"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "바람",
+            "en": "Anemo",
+            "ja": "風",
+            "zh": "风"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000148",
+      "name": {
+        "ko": "알료샤",
+        "en": "Alyosha",
+        "ja": "アリョーシャ",
+        "zh": "阿罗夏"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "번개",
+            "en": "Electro",
+            "ja": "雷",
+            "zh": "雷"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "장병기",
+            "en": "Polearm",
+            "ja": "長柄武器",
+            "zh": "长柄武器"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10000150",
+      "name": {
+        "ko": "오데트",
+        "en": "Odette",
+        "ja": "オデット",
+        "zh": "奥黛塔"
+      },
+      "sourceUrl": "https://github.com/theBowja/genshin-db",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "얼음",
+            "en": "Cryo",
+            "ja": "氷",
+            "zh": "冰"
+          }
+        },
+        {
+          "id": "weapon",
+          "label": {
+            "ko": "",
+            "en": "Weapon",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "한손검",
+            "en": "Sword",
+            "ja": "片手剣",
+            "zh": "单手剑"
+          }
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "sourceCount": 124,
+    "includedCount": 124,
+    "note": "Source catalog. Character IDs include separate traveler genders; no release timestamps supplied. Full splash only where exact asset tree membership is observed. Missing native names remain empty."
+  },
+  "sourceVersion": "7.1"
+}

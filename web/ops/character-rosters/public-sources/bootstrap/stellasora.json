@@ -1,0 +1,2625 @@
+{
+  "gameId": "stellasora",
+  "sourceName": "sstoy native data",
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+    "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/EN/Character.json",
+    "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/KR/Character.json",
+    "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/JP/Character.json",
+    "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/CN/Character.json"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "103",
+      "name": {
+        "ko": "코하쿠",
+        "en": "Amber",
+        "ja": "コハク",
+        "zh": "琥珀"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/10301_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "107",
+      "name": {
+        "ko": "틸리아",
+        "en": "Tilia",
+        "ja": "ティリア",
+        "zh": "缇莉娅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "5",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/10701_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "108",
+      "name": {
+        "ko": "카시미라",
+        "en": "Kasimira",
+        "ja": "カシミラ",
+        "zh": "卡西米拉"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/10801_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "110",
+      "name": {
+        "ko": "피렌",
+        "en": "Firenze",
+        "ja": "フィレン",
+        "zh": "翡冷翠"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "6",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11001_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "111",
+      "name": {
+        "ko": "아야메",
+        "en": "Iris",
+        "ja": "アヤメ",
+        "zh": "鸢尾"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11101_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "112",
+      "name": {
+        "ko": "세이나",
+        "en": "Noya",
+        "ja": "セイナ",
+        "zh": "尘沙"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "4",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11201_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "113",
+      "name": {
+        "ko": "시먀오",
+        "en": "Shimiao",
+        "ja": "シーミャオ",
+        "zh": "师渺"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11301_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "114",
+      "name": {
+        "ko": "샤통",
+        "en": "Chaton",
+        "ja": "シャトン",
+        "zh": "猫眼"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11401_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "115",
+      "name": {
+        "ko": "호타루",
+        "en": "Firefly",
+        "ja": "ホタル",
+        "zh": "火垂"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "5",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11501_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "116",
+      "name": {
+        "ko": "레이센",
+        "en": "Ridge",
+        "ja": "レイセン",
+        "zh": "岭川"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11601_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "117",
+      "name": {
+        "ko": "징린",
+        "en": "Jinglin",
+        "ja": "ジンリン",
+        "zh": "璟麟"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "5",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11701_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "118",
+      "name": {
+        "ko": "크루니스",
+        "en": "Coronis",
+        "ja": "クルニス",
+        "zh": "科洛妮丝"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "6",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11801_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "119",
+      "name": {
+        "ko": "나노하",
+        "en": "Nanoha",
+        "ja": "ナノハ",
+        "zh": "花原"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "4",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/11901_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "120",
+      "name": {
+        "ko": "카나체",
+        "en": "Canace",
+        "ja": "カナーチェ",
+        "zh": "卡娜丝"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "4",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/12001_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "123",
+      "name": {
+        "ko": "안즈",
+        "en": "Ann",
+        "ja": "アンズ",
+        "zh": "杏子"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "4",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/12301_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "125",
+      "name": {
+        "ko": "프리지아",
+        "en": "Freesia",
+        "ja": "フリージア",
+        "zh": "苍兰"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/12501_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "126",
+      "name": {
+        "ko": "플로라",
+        "en": "Flora",
+        "ja": "フローラ",
+        "zh": "紫槿"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/12601_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "127",
+      "name": {
+        "ko": "테레사",
+        "en": "Teresa",
+        "ja": "テレサ",
+        "zh": "特丽莎"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/12701_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "130",
+      "name": {
+        "ko": "토나",
+        "en": "Donna",
+        "ja": "トーナ",
+        "zh": "多娜"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "name": {
+        "ko": "미네르바",
+        "en": "Minova",
+        "ja": "ミネルバ",
+        "zh": "密涅瓦"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "5",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/13201_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "133",
+      "name": {
+        "ko": "나츠카",
+        "en": "Nazuka",
+        "ja": "ナツカ",
+        "zh": "夏花"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "4",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/13301_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "134",
+      "name": {
+        "ko": "후유카",
+        "en": "Fuyuka",
+        "ja": "フユカ",
+        "zh": "冬香"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/13401_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "135",
+      "name": {
+        "ko": "미스티",
+        "en": "Mistique",
+        "ja": "ミスティ",
+        "zh": "雾语"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "6",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/13501_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "137",
+      "name": {
+        "ko": "엘레노어",
+        "en": "Eleanor",
+        "ja": "エレノア",
+        "zh": "埃莉诺"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "4",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/13701_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "139",
+      "name": {
+        "ko": "엘리",
+        "en": "Allie",
+        "ja": "エリー",
+        "zh": "艾蕾"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/13901_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "140",
+      "name": {
+        "ko": "스파클",
+        "en": "Sparkla",
+        "ja": "スパクル",
+        "zh": "斯帕克拉"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/14001_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "141",
+      "name": {
+        "ko": "치시아",
+        "en": "Chixia",
+        "ja": "チーシア",
+        "zh": "赤霞"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/14101_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "142",
+      "name": {
+        "ko": "코제트",
+        "en": "Cosette",
+        "ja": "コゼット",
+        "zh": "珂赛特"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "6",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/14201_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "143",
+      "name": {
+        "ko": "레이스",
+        "en": "Wraith",
+        "ja": "レイス",
+        "zh": "风影"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "4",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/14301_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "144",
+      "name": {
+        "ko": "치토세",
+        "en": "Chitose",
+        "ja": "チトセ",
+        "zh": "千都世"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/14401_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "145",
+      "name": {
+        "ko": "오토하",
+        "en": "Otoha",
+        "ja": "オトハ",
+        "zh": "乙叶"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "6",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/14501_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "147",
+      "name": {
+        "ko": "캐러멜",
+        "en": "Caramel",
+        "ja": "キャラメル",
+        "zh": "焦糖"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "6",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/14701_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "149",
+      "name": {
+        "ko": "그레이",
+        "en": "Gerie",
+        "ja": "グレイ",
+        "zh": "格芮"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/14901_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "150",
+      "name": {
+        "ko": "라루",
+        "en": "Laru",
+        "ja": "ラール",
+        "zh": "菈露"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "5",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/15001_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "155",
+      "name": {
+        "ko": "시아",
+        "en": "Shia",
+        "ja": "シア",
+        "zh": "希娅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "5",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "name": {
+        "ko": "나즈나",
+        "en": "Nazuna",
+        "ja": "ナズナ",
+        "zh": "小禾"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/15601_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "157",
+      "name": {
+        "ko": "카린",
+        "en": "Karin",
+        "ja": "カリン",
+        "zh": "花铃"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "6",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/15701_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "158",
+      "name": {
+        "ko": "라루(이브)",
+        "en": "Snowish Laru",
+        "ja": "ラール（聖夜）",
+        "zh": "菈露（圣夜）"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/15801_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "159",
+      "name": {
+        "ko": "크루니스(새해)",
+        "en": "Springseek Coronis",
+        "ja": "クルニス（華服）",
+        "zh": "科洛妮丝（新春）"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "2",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/15901_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "160",
+      "name": {
+        "ko": "윌로(여름)",
+        "en": "Suntide Willow",
+        "ja": "ウィロー（水着）",
+        "zh": "薇洛（盛夏）"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "3",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "name": {
+        "ko": "세이나(기원)",
+        "en": "Firstlight Noya",
+        "ja": "セイナ（原点）",
+        "zh": "尘沙（源初）"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "source-grade",
+          "label": {
+            "ko": "",
+            "en": "Source-Grade",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-class",
+          "label": {
+            "ko": "",
+            "en": "Source-Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "1",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "source-element",
+          "label": {
+            "ko": "",
+            "en": "Source-Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "5",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/16201_CG.png",
+        "kind": "splash",
+        "sourceUrl": "https://github.com/JforPlay/sstoy",
+        "locale": "neutral"
+      }
+    }
+  ],
+  "coverage": {
+    "sourceCount": 44,
+    "includedCount": 41,
+    "note": "Filter Visible && Available:44source rows,41available. Native string keys join c.Name. Raw Grade enum intentionally not mapped into stars. Artwork uses declared DefaultSkinId plus exact tree membership."
+  }
+}

@@ -1,0 +1,1960 @@
+{
+  "gameId": "holodreams",
+  "sourceName": "hololive Dreams official members",
+  "sourceUrls": [
+    "https://hololive-dreams.com/en/",
+    "https://hololive-dreams.com/"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "airani-iofifteen",
+      "name": {
+        "ko": "",
+        "en": "Airani Iofifteen",
+        "ja": "アイラニ・イオフィフティーン",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/ad82301cc0cf46ac922b6e321ff42131/airani-iofifteen.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "akai-haato",
+      "name": {
+        "ko": "",
+        "en": "Akai Haato",
+        "ja": "赤井はあと",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/818ef49f7f0f486db0550b451f03558f/akai-haato.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "aki-rosenthal",
+      "name": {
+        "ko": "",
+        "en": "Aki Rosenthal",
+        "ja": "アキ・ローゼンタール",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/2155f73e8a094a8b9d1d76275ba6c3dc/aki-rosenthal.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "anya-melfissa",
+      "name": {
+        "ko": "",
+        "en": "Anya Melfissa",
+        "ja": "アーニャ・メルフィッサ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/5f2ed8a152b04b93ba4de128d914920a/anya-melfissa.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "ayunda-risu",
+      "name": {
+        "ko": "",
+        "en": "Ayunda Risu",
+        "ja": "アユンダ・リス",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/c936a7145f784379896100c0061584f7/ayunda-risu.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "azki",
+      "name": {
+        "ko": "",
+        "en": "AZKi",
+        "ja": "AZKi",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/7617075627584fe680ee9bb246a0ac40/azki.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "fuwawa-abyssgard",
+      "name": {
+        "ko": "",
+        "en": "Fuwawa Abyssgard",
+        "ja": "フワワ・アビスガード",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/bb5858eeb2354de1aa523b5a0d5ecb3f/fuwawa-abyssgard.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "hakos-baelz",
+      "name": {
+        "ko": "",
+        "en": "Hakos Baelz",
+        "ja": "ハコス・ベールズ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/117be6ed14bd42f5a487eb8b6a785d4e/hakos-baelz.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "hakui-koyori",
+      "name": {
+        "ko": "",
+        "en": "Hakui Koyori",
+        "ja": "博衣こより",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/e862f451b5bb49b7be6d3009069e2159/hakui-koyori.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "himemori-luna",
+      "name": {
+        "ko": "",
+        "en": "Himemori Luna",
+        "ja": "姫森ルーナ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/2ccfd46e6c4c42408aea0e35ce1a5e98/himemori-luna.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "hoshimachi-suisei",
+      "name": {
+        "ko": "",
+        "en": "Hoshimachi Suisei",
+        "ja": "星街すいせい",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/2a756b41125b464f9a1b3d2704f10212/hoshimachi-suisei.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "houshou-marine",
+      "name": {
+        "ko": "",
+        "en": "Houshou Marine",
+        "ja": "宝鐘マリン",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/4afe779c8d45420cb1305a23891e965b/houshou-marine.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "ichijou-ririka",
+      "name": {
+        "ko": "",
+        "en": "Ichijou Ririka",
+        "ja": "一条莉々華",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "dev-is",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/2e680bd535a14ca5aa8f261260e6ed72/ichijou-ririka.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "inugami-korone",
+      "name": {
+        "ko": "",
+        "en": "Inugami Korone",
+        "ja": "戌神ころね",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/3c57d338c8cc474dae27be4502b846e5/inugami-korone.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "irys",
+      "name": {
+        "ko": "",
+        "en": "IRyS",
+        "ja": "IRyS",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/32a8a788007b451aad3b7ad80b50e8b2/irys.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "juufuutei-raden",
+      "name": {
+        "ko": "",
+        "en": "Juufuutei Raden",
+        "ja": "儒烏風亭らでん",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "dev-is",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/411d87defc334122a2f28076c7db581d/juufuutei-raden.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "kaela-kovalskia",
+      "name": {
+        "ko": "",
+        "en": "Kaela Kovalskia",
+        "ja": "カエラ・コヴァルスキア",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/f02f6fb6c43a40f6b088966c00ec701e/kaela-kovalskia.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "kazama-iroha",
+      "name": {
+        "ko": "",
+        "en": "Kazama Iroha",
+        "ja": "風真いろは",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/21620897804d4c4aa0503474200934a8/kazama-iroha.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "kobo-kanaeru",
+      "name": {
+        "ko": "",
+        "en": "Kobo Kanaeru",
+        "ja": "こぼ・かなえる",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/c5c6773af4544bc6ab9db7d79013433b/kobo-kanaeru.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "koseki-bijou",
+      "name": {
+        "ko": "",
+        "en": "Koseki Bijou",
+        "ja": "古石ビジュー",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/f5ad1212d0874928b59bd1b5fe3d2686/koseki-bijou.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "kureiji-ollie",
+      "name": {
+        "ko": "",
+        "en": "Kureiji Ollie",
+        "ja": "クレイジー・オリー",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/fb2df4736ed94868bd4f85fca3ababc0/kureiji-ollie.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "la-darknesss",
+      "name": {
+        "ko": "",
+        "en": "La+ Darknesss",
+        "ja": "ラプラス・ダークネス",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/d3d007175df340ba92b9971199809e2d/la-darknesss.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "mococo-abyssgard",
+      "name": {
+        "ko": "",
+        "en": "Mococo Abyssgard",
+        "ja": "モココ・アビスガード",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/501949ae45ed41749d8fb759bae14241/mococo-abyssgard.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "momosuzu-nene",
+      "name": {
+        "ko": "",
+        "en": "Momosuzu Nene",
+        "ja": "桃鈴ねね",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/bfb2f6f63c874cb0a6e29bec9fbe01fc/momosuzu-nene.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "moona-hoshinova",
+      "name": {
+        "ko": "",
+        "en": "Moona Hoshinova",
+        "ja": "ムーナ・ホシノヴァ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/3254d49847a649078628f2f21071dc1a/moona-hoshinova.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "mori-calliope",
+      "name": {
+        "ko": "",
+        "en": "Mori Calliope",
+        "ja": "森カリオペ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/4087ff7195b145c7be2dd5291dac8ae2/mori-calliope.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "nakiri-ayame",
+      "name": {
+        "ko": "",
+        "en": "Nakiri Ayame",
+        "ja": "百鬼あやめ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/bf5943740c5f40459208dcbce8f45a77/nakiri-ayame.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "natsuiro-matsuri",
+      "name": {
+        "ko": "",
+        "en": "Natsuiro Matsuri",
+        "ja": "夏色まつり",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/20a4dcd56e234581a193a3320887b924/natsuiro-matsuri.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "nekomata-okayu",
+      "name": {
+        "ko": "",
+        "en": "Nekomata Okayu",
+        "ja": "猫又おかゆ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/bd6ac716d8d3436b9c6b7437ec44ffc0/nekomata-okayu.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "nerissa-ravencroft",
+      "name": {
+        "ko": "",
+        "en": "Nerissa Ravencroft",
+        "ja": "ネリッサ・レイヴンクロフト",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/6df911db4d17419ab05205982d34c743/nerissa-ravencroft.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "ninomae-inanis",
+      "name": {
+        "ko": "",
+        "en": "Ninomae Ina'nis",
+        "ja": "一伊那尓栖",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/fdf4453f422144dc8dff7d2f752f1981/ninomae-ina'nis.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "omaru-polka",
+      "name": {
+        "ko": "",
+        "en": "Omaru Polka",
+        "ja": "尾丸ポルカ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/0b661f3dc18c4b81929ade6a5dfde465/omaru-polka.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "ookami-mio",
+      "name": {
+        "ko": "",
+        "en": "Ookami Mio",
+        "ja": "大神ミオ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/f1c0784926d14c87bac57bc4450bca76/ookami-mio.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "oozora-subaru",
+      "name": {
+        "ko": "",
+        "en": "Oozora Subaru",
+        "ja": "大空スバル",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/769c7e9cab714152862acac0dd667567/oozora-subaru.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "otonose-kanade",
+      "name": {
+        "ko": "",
+        "en": "Otonose Kanade",
+        "ja": "音乃瀬奏",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "dev-is",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/f1659bfb19d14e1da7b2dc4d1f96eb2b/otonose-kanade.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "ouro-kronii",
+      "name": {
+        "ko": "",
+        "en": "Ouro Kronii",
+        "ja": "オーロ・クロニー",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/e024d84e3ce34642a708487d5d80ab8a/ouro-kronii.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "pavolia-reine",
+      "name": {
+        "ko": "",
+        "en": "Pavolia Reine",
+        "ja": "パヴォリア・レイネ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/73c1a99fde2b494bb03ffc23adc95cc3/pavolia-reine.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "roboco-san",
+      "name": {
+        "ko": "",
+        "en": "Robocosan",
+        "ja": "ロボ子さん",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/e17b98e070314c53875f0b055be04e10/robocosan.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "sakuramiko",
+      "name": {
+        "ko": "",
+        "en": "Sakura Miko",
+        "ja": "さくらみこ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/3382e6d7746642cc82cd3727bb848bfa/sakura-miko.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "shiori-novella",
+      "name": {
+        "ko": "",
+        "en": "Shiori Novella",
+        "ja": "シオリ・ノヴェラ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/90d35011c29742169e89bb1eb232f001/shiori-novella.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "shirakami-fubuki",
+      "name": {
+        "ko": "",
+        "en": "Shirakami Fubuki",
+        "ja": "白上フブキ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/be5eb6c1a1c84c7bb34d4bc5e1a20597/shirakami-fubuki.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "shiranui-flare",
+      "name": {
+        "ko": "",
+        "en": "Shiranui Flare",
+        "ja": "不知火フレア",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/1b44094e237043508c5c1e25ad4c81ab/shiranui-flare.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "shirogane-noel",
+      "name": {
+        "ko": "",
+        "en": "Shirogane Noel",
+        "ja": "白銀ノエル",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/4de7ace330db4246898859533bf61532/shirogane-noel.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "shishiro-botan",
+      "name": {
+        "ko": "",
+        "en": "Shishiro Botan",
+        "ja": "獅白ぼたん",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/176fb1b07270472ba2a2e5b7b62c725b/shishiro-botan.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "takanashi-kiara",
+      "name": {
+        "ko": "",
+        "en": "Takanashi Kiara",
+        "ja": "小鳥遊キアラ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-en",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/f9777c8b8f4f49949f1a3b78e101052a/takanashi-kiara.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "takane-lui",
+      "name": {
+        "ko": "",
+        "en": "Takane Lui",
+        "ja": "鷹嶺ルイ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/db15e16247c84318ae4cc8afdbf8d99b/takane-lui.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "todoroki-hajime",
+      "name": {
+        "ko": "",
+        "en": "Todoroki Hajime",
+        "ja": "轟はじめ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "dev-is",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/f34b0ce1c2984ce58f4ca2a14c28bab2/todoroki-hajime.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "tokino-sora",
+      "name": {
+        "ko": "",
+        "en": "Tokino Sora",
+        "ja": "ときのそら",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/769e132ff8644baead78c058d3000b27/tokino-sora.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "tokoyami-towa",
+      "name": {
+        "ko": "",
+        "en": "Tokoyami Towa",
+        "ja": "常闇トワ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/5eada45cbc3a4a88b2d373a5d0cde96f/tokoyami-towa.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "tsunomaki-watame",
+      "name": {
+        "ko": "",
+        "en": "Tsunomaki Watame",
+        "ja": "角巻わため",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/3ec55d4b3f2f4ec8a3f94fb8b709e2e0/tsunomaki-watame.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "usada-pekora",
+      "name": {
+        "ko": "",
+        "en": "Usada Pekora",
+        "ja": "兎田ぺこら",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/c6ab58eaac924abb95fe18851acb28ee/usada-pekora.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "vestia-zeta",
+      "name": {
+        "ko": "",
+        "en": "Vestia Zeta",
+        "ja": "ベスティア・ゼータ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive-id",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/4f09602c286547ed83fc9b2871d8ee7b/vestia-zeta.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "yukihana-lamy",
+      "name": {
+        "ko": "",
+        "en": "Yukihana Lamy",
+        "ja": "雪花ラミィ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/384db14ea05f4b53b07cd8d202d5b31c/yukihana-lamy.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "yuzuki-choco",
+      "name": {
+        "ko": "",
+        "en": "Yuzuki Choco",
+        "ja": "癒月ちょこ",
+        "zh": ""
+      },
+      "sourceUrl": "https://hololive-dreams.com/en/",
+      "sourceKind": "official",
+      "traits": [
+        {
+          "id": "group",
+          "label": {
+            "ko": "",
+            "en": "Group",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "hololive",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/37ff7ef3bc3643d98f879cc5573f0814/yuzuki-choco.png?w=1558&h=952&dpr=1&fm=webp",
+        "kind": "portrait",
+        "sourceUrl": "https://hololive-dreams.com/en/",
+        "width": 1558,
+        "height": 952,
+        "locale": "neutral"
+      }
+    }
+  ],
+  "coverage": {
+    "sourceCount": 54,
+    "includedCount": 54,
+    "note": "Official54member roster; this is member identity, not162card/outfit variants. Full art provided in official modal. No rarity or release date asserted. Native rendered Japanese alt joined when available."
+  }
+}

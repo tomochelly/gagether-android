@@ -6,7 +6,7 @@ export function catalogLocation(pathname:string){
  const parts=pathname.replace(/\/$/,'').split('/').slice(1);
  if(!isLocale(parts[0]))return null;
  if(parts.length===1)return {locale:parts[0],gameId:undefined};
- if(parts.length===3&&parts[1]==='games'&&/^[a-z0-9-]+$/.test(parts[2]))return {locale:parts[0],gameId:parts[2]};
+ if(parts.length>=3&&parts[1]==='games'&&((parts.length===3)||(parts.length===4&&['leaks','characters'].includes(parts[3]))||(parts.length===5&&['items','characters','leaks'].includes(parts[3])&&!!parts[4]))&&/^[a-z0-9-]+$/.test(parts[2]))return {locale:parts[0],gameId:parts[2]};
  return null;
 }
 

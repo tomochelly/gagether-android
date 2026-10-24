@@ -1,0 +1,1845 @@
+{
+  "gameId": "nte",
+  "sourceName": "Prydwen Institute",
+  "sourceUrls": [
+    "https://www.prydwen.gg/neverness-to-everness/characters/"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "1",
+      "name": {
+        "ko": "",
+        "en": "Zero",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/zero/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Cosmos",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Solid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/zero_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10",
+      "name": {
+        "ko": "",
+        "en": "Hotori",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/hotori/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Cosmos",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Buff",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Solid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": {
+        "ko": "",
+        "en": "Jiuyuan",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/jiuyuan/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anima",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Solid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/jiuyuan_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "12",
+      "name": {
+        "ko": "",
+        "en": "Lacrimosa",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/lacrimosa/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Chaos",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Liquid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/lacrimosa_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "13",
+      "name": {
+        "ko": "",
+        "en": "Mint",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/mint/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anima",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Liquid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "A",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/mint_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "14",
+      "name": {
+        "ko": "",
+        "en": "Nanally",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/nanally/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anima",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plasma",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/nanally_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "15",
+      "name": {
+        "ko": "",
+        "en": "Sakiri",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/sakiri/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Incantation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Buff",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Gas",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/sakiri_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "16",
+      "name": {
+        "ko": "",
+        "en": "Skia",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/skia/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lakshana",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Gas",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "A",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": {
+        "ko": "",
+        "en": "Aurelia",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/aurelia/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Psyche",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plasma",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "A",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": {
+        "ko": "",
+        "en": "Chaos",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/chaos/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lakshana",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Condensate",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": {
+        "ko": "",
+        "en": "Shinku",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/shinku/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Cosmos",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Condensate",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": {
+        "ko": "",
+        "en": "Adler",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/adler/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Incantation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Survival",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Condensate",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "A",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/adler_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "20",
+      "name": {
+        "ko": "",
+        "en": "Iroi",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/iroi/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anima",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Survival",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Liquid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": {
+        "ko": "",
+        "en": "Zankou",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/zankou/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Incantation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Gas",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": {
+        "ko": "",
+        "en": "Linko",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/linko/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anima",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plasma",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": {
+        "ko": "",
+        "en": "Blackbird",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/blackbird/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Psyche",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Gas",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": {
+        "ko": "",
+        "en": "Akane Rin",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/akane-rin/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lakshana",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Liquid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": {
+        "ko": "",
+        "en": "Baicang",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/baicang/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Incantation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Condensate",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/baicang_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "4",
+      "name": {
+        "ko": "",
+        "en": "Chiz",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/chiz/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Cosmos",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Gas",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/chiz_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "5",
+      "name": {
+        "ko": "",
+        "en": "Daffodill",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/daffodil/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Chaos",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Liquid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/daffodil_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "6",
+      "name": {
+        "ko": "",
+        "en": "Edgar",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/edgar/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Cosmos",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Survival",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Liquid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "A",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": {
+        "ko": "",
+        "en": "Fadia",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/fadia/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Psyche",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Survival",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Condensate",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/fadia_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8",
+      "name": {
+        "ko": "",
+        "en": "Haniel",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/haniel/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Psyche",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Buff",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Solid",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "A",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/haniel_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "9",
+      "name": {
+        "ko": "",
+        "en": "Hathor",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/hathor/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lakshana",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "role",
+          "label": {
+            "ko": "",
+            "en": "Role",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Damage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "arcCompatibility",
+          "label": {
+            "ko": "",
+            "en": "Arccompatibility",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plasma",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "S",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/nte/characters/hathor_small.webp",
+        "kind": "portrait",
+        "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/",
+        "locale": "neutral"
+      }
+    }
+  ],
+  "coverage": {
+    "sourceCount": 24,
+    "includedCount": 24,
+    "note": "English community source names; native locale values intentionally empty. Source index availability does not assert release dates. Preserve exact form/identity ids."
+  }
+}

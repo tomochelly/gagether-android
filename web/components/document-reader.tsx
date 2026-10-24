@@ -1,0 +1,20 @@
+import type {Entry,Locale} from '@/lib/types';
+import {games} from '@/lib/games';
+import {supportedLocales} from '@/lib/catalog-paths';
+import {canonicalCatalogPath} from '@/lib/seo';
+import {discoveryWords,entryPath,discoverableEntry,entryStructuredData} from '@/lib/discovery';
+import {displayTitle,displaySummary,displaySection} from '@/lib/content-display';
+import {contentInAudience,audienceMarket} from '@/lib/content-audience';
+import {detailArtworkForLocale,artworkForLocale,serviceArtworkLocale} from '@/lib/artwork';
+import {authoredField} from '@/lib/text-appearance';
+import ArtworkMedia from './artwork-media';
+import DetailCopy from './detail-copy';
+import SourceArticle from './source-article';
+import EntityDetails from './entity-details';
+import {RewardDetails} from './reward-display';
+import ContentBlocks from './content-blocks';
+export default function DocumentReader({entry:e,locale}:{entry:Entry;locale:Locale}){
+ const game=games.find(g=>g.id===e.gameId)!,t=discoveryWords[locale],art=artworkForLocale(e,locale,'full',serviceArtworkLocale(e.region,e.gameId)),title=displayTitle(e,locale),summary=displaySummary(e,locale),market=audienceMarket(game,e.region,locale);
+ const sections=e.detailSections?.filter(s=>(authoredField(e,'detailSections')&&s.body[locale]||displaySection(s.title[locale],s.body[locale]))&&(!s.audienceRegions?.length||s.audienceRegions.includes(market)))||[];
+ return <main className="document-reader"><nav className="document-navigation"><a href={canonicalCatalogPath(locale)}>GAGETHER <small>가게더</small></a><a href={canonicalCatalogPath(locale,game.id,e.region)}>← {game.name[locale]}</a></nav><article><header className="document-header"><p>{game.name[locale]} · {t[e.kind]}</p><h1>{title}</h1>{e.publishedAt&&<time dateTime={e.publishedAt}>{t.published} · {e.publishedAt.slice(0,10)}</time>}</header>{art.image&&<div className="document-hero"><ArtworkMedia art={e} alt={title} mode="full" locale={locale} serviceLocale={serviceArtworkLocale(e.region,e.gameId)}/></div>}{summary&&<DetailCopy text={summary} locale={locale} gameId={game.id} preserve={authoredField(e,'summary')}/>}{(e.startAt||e.endAt||e.startDate||e.endDate)&&<dl className="document-dates"><dt>{t.period}</dt><dd>{e.startAt||e.startDate||''}{(e.startAt||e.startDate)&&(e.endAt||e.endDate)?' — ':''}{e.endAt||e.endDate||''}</dd></dl>}<SourceArticle entry={e} locale={locale}/><RewardDetails entry={e} locale={locale}/>{!!e.entityDetails?.length&&<EntityDetails profiles={e.entityDetails} locale={locale} gameId={game.id}/>}<div className="content-details">{sections.map((s,i)=><section className="detail-section" key={i}><h2>{s.title[locale]}</h2><DetailCopy text={s.body[locale]} locale={locale} gameId={game.id} preserve={authoredField(e,'detailSections')}/></section>)}</div>{!!e.contents?.length&&<ul className="document-contents">{e.contents.filter(c=>c[locale]).map((c,i)=><li key={i}>{c[locale]}</li>)}</ul>}{detailArtworkForLocale(e,locale).map(a=><figure key={a.image}><ArtworkMedia art={a} alt={a.imageCaption?.[locale]||title} locale={locale} serviceLocale={serviceArtworkLocale(e.region,e.gameId)} mode="full"/>{a.imageCaption?.[locale]&&<figcaption>{a.imageCaption[locale]}</figcaption>}</figure>)}<ContentBlocks entry={e} locale={locale}/><footer className="document-sources"><a href={e.sourceUrl} target="_blank" rel="noreferrer">{t.source} ↗</a>{!!e.relatedSources?.length&&<details><summary>{t.guides}</summary>{e.relatedSources.map(s=><a key={s.url} href={s.url} target="_blank" rel="noreferrer">{s.title} ↗</a>)}</details>}<nav aria-label="Languages">{supportedLocales.filter(l=>discoverableEntry(e,l)&&contentInAudience(e,game,e.region,l)).map(l=><a key={l} href={entryPath(l,e)} hrefLang={l} lang={l} aria-current={l===locale?'page':undefined}>{({ko:'한국어',en:'English',ja:'日本語',zh:'中文'})[l]}</a>)}</nav></footer></article><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(entryStructuredData(e,locale)).replace(/</g,'\\u003c')}}/></main>;
+}

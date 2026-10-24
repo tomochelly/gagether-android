@@ -1,0 +1,250 @@
+{
+  "genshin": [
+    {
+      "key": "en",
+      "url": "https://genshin-db-api.vercel.app/api/v5/characters?query=names&matchCategories=true&verboseCategories=true",
+      "kind": "json",
+      "minimum": 90
+    },
+    {
+      "key": "ko",
+      "url": "https://genshin-db-api.vercel.app/api/v5/characters?query=names&matchCategories=true&verboseCategories=true&resultLanguage=Korean",
+      "kind": "json",
+      "minimum": 90
+    },
+    {
+      "key": "ja",
+      "url": "https://genshin-db-api.vercel.app/api/v5/characters?query=names&matchCategories=true&verboseCategories=true&resultLanguage=Japanese",
+      "kind": "json",
+      "minimum": 90
+    },
+    {
+      "key": "zh",
+      "url": "https://genshin-db-api.vercel.app/api/v5/characters?query=names&matchCategories=true&verboseCategories=true&resultLanguage=ChineseSimplified",
+      "kind": "json",
+      "minimum": 90
+    },
+    {
+      "key": "art",
+      "url": "https://api.github.com/repos/ScobbleQ/HoYo-Assets/git/trees/main?recursive=1",
+      "kind": "tree",
+      "minimum": 90
+    }
+  ],
+  "hsr": [
+    {
+      "key": "en",
+      "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "kind": "json",
+      "minimum": 70
+    },
+    {
+      "key": "ko",
+      "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/kr/characters.json",
+      "kind": "json",
+      "minimum": 70
+    },
+    {
+      "key": "ja",
+      "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/jp/characters.json",
+      "kind": "json",
+      "minimum": 70
+    },
+    {
+      "key": "zh",
+      "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/cn/characters.json",
+      "kind": "json",
+      "minimum": 70
+    },
+    {
+      "key": "info",
+      "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/info.json",
+      "kind": "json",
+      "minimum": 1
+    },
+    {
+      "key": "release",
+      "url": "https://www.prydwen.gg/star-rail/characters/",
+      "kind": "py:characters",
+      "minimum": 70
+    }
+  ],
+  "zzz": [
+    {
+      "key": "avatars",
+      "url": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "kind": "json",
+      "minimum": 40
+    },
+    {
+      "key": "locs",
+      "url": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/locs.json",
+      "kind": "json",
+      "minimum": 4
+    },
+    {
+      "key": "release",
+      "url": "https://www.prydwen.gg/zenless/characters/",
+      "kind": "py:characters",
+      "minimum": 40
+    }
+  ],
+  "arknights": [
+    {
+      "key": "en",
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/en_US/gamedata/excel/character_table.json",
+      "kind": "json",
+      "minimum": 600
+    },
+    {
+      "key": "ko",
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/ko_KR/gamedata/excel/character_table.json",
+      "kind": "json",
+      "minimum": 600
+    },
+    {
+      "key": "ja",
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/main/ja_JP/gamedata/excel/character_table.json",
+      "kind": "json",
+      "minimum": 600
+    },
+    {
+      "key": "zh",
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json",
+      "kind": "json",
+      "minimum": 900
+    },
+    {
+      "key": "art",
+      "url": "https://api.github.com/repos/Aceship/Arknight-Images/git/trees/main?recursive=1",
+      "kind": "tree",
+      "minimum": 1000
+    }
+  ],
+  "nikke": [
+    {
+      "key": "characters",
+      "url": "https://www.prydwen.gg/nikke/characters/",
+      "kind": "py:characters",
+      "minimum": 150
+    }
+  ],
+  "nte": [
+    {
+      "key": "characters",
+      "url": "https://www.prydwen.gg/neverness-to-everness/characters/",
+      "kind": "py:characters",
+      "minimum": 15
+    }
+  ],
+  "trickcal": [
+    {
+      "key": "characters",
+      "url": "https://www.prydwen.gg/trickcal/characters/",
+      "kind": "py:characters",
+      "minimum": 80
+    }
+  ],
+  "reverse1999": [
+    {
+      "key": "characters",
+      "url": "https://www.prydwen.gg/re1999/characters/",
+      "kind": "py:characters",
+      "minimum": 80
+    }
+  ],
+  "limbus": [
+    {
+      "key": "characters",
+      "url": "https://www.prydwen.gg/limbus-company/identities/",
+      "kind": "py:allIdentities",
+      "minimum": 120
+    }
+  ],
+  "stellasora": [
+    {
+      "key": "characters",
+      "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/Character.json",
+      "kind": "json",
+      "minimum": 30
+    },
+    {
+      "key": "en",
+      "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/EN/Character.json",
+      "kind": "json",
+      "minimum": 30
+    },
+    {
+      "key": "ko",
+      "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/KR/Character.json",
+      "kind": "json",
+      "minimum": 30
+    },
+    {
+      "key": "ja",
+      "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/JP/Character.json",
+      "kind": "json",
+      "minimum": 30
+    },
+    {
+      "key": "zh",
+      "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/data/CN/Character.json",
+      "kind": "json",
+      "minimum": 30
+    },
+    {
+      "key": "art",
+      "url": "https://api.github.com/repos/JforPlay/sstoy/git/trees/main?recursive=1",
+      "kind": "tree",
+      "minimum": 1000
+    }
+  ],
+  "gfl2": [
+    {
+      "key": "characters",
+      "url": "https://gfl2.help/en/characters",
+      "kind": "gfl2",
+      "minimum": 40
+    }
+  ],
+  "holodreams": [
+    {
+      "key": "en",
+      "url": "https://hololive-dreams.com/en/",
+      "kind": "holo",
+      "minimum": 40
+    },
+    {
+      "key": "ja",
+      "url": "https://hololive-dreams.com/",
+      "kind": "holo",
+      "minimum": 40
+    }
+  ],
+  "dna": [
+    {
+      "key": "en",
+      "url": "https://duetnightabyss.th.gl/db/characters",
+      "kind": "dna",
+      "minimum": 20
+    },
+    {
+      "key": "ko",
+      "url": "https://duetnightabyss.th.gl/ko/db/characters",
+      "kind": "dna",
+      "minimum": 20
+    },
+    {
+      "key": "ja",
+      "url": "https://duetnightabyss.th.gl/ja/db/characters",
+      "kind": "dna",
+      "minimum": 20
+    },
+    {
+      "key": "zh",
+      "url": "https://duetnightabyss.th.gl/zh-CN/db/characters",
+      "kind": "dna",
+      "minimum": 20
+    }
+  ]
+}

@@ -1,0 +1,3791 @@
+{
+  "gameId": "gfl2",
+  "sourceName": "GFL2 HELP",
+  "sourceUrls": [
+    "https://gfl2.help/en/characters"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "Alva",
+      "name": {
+        "ko": "",
+        "en": "Alva",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Alva",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, freeze",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Alva.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Alva",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Andoris",
+      "name": {
+        "ko": "",
+        "en": "Andoris",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Andoris",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "bulwark",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, electric",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Andoris.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Andoris",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Balthilde",
+      "name": {
+        "ko": "",
+        "en": "Balthilde",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Balthilde",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Balthilde.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Balthilde",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Basti",
+      "name": {
+        "ko": "",
+        "en": "Basti",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Basti",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Basti.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Basti",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Belka",
+      "name": {
+        "ko": "",
+        "en": "Belka",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Belka",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, electric",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Belka.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Belka",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Centaureissi",
+      "name": {
+        "ko": "",
+        "en": "Centaureissi",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Centaureissi",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Centaureissi.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Centaureissi",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Cheeta",
+      "name": {
+        "ko": "",
+        "en": "Cheeta",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Cheeta",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Cheeta.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Cheeta",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Cheyanne",
+      "name": {
+        "ko": "",
+        "en": "Cheyanne",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Cheyanne",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Cheyanne.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Cheyanne",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Colphne",
+      "name": {
+        "ko": "",
+        "en": "Colphne",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Colphne",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Colphne.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Colphne",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Daiyan",
+      "name": {
+        "ko": "",
+        "en": "Daiyan",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Daiyan",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, light-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Daiyan.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Daiyan",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Dushevnaya",
+      "name": {
+        "ko": "",
+        "en": "Dushevnaya",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Dushevnaya",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, freeze",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Dushevnaya.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Dushevnaya",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Faye",
+      "name": {
+        "ko": "",
+        "en": "Faye",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Faye",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, melee, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Faye.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Faye",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Florence",
+      "name": {
+        "ko": "",
+        "en": "Florence",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Florence",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Florence.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Florence",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Groza",
+      "name": {
+        "ko": "",
+        "en": "Groza",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Groza",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "bulwark",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Groza.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Groza",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Harpsy",
+      "name": {
+        "ko": "",
+        "en": "Harpsy",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Harpsy",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Harpsy.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Harpsy",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Helen",
+      "name": {
+        "ko": "",
+        "en": "Helen",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Helen",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "bulwark",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "shotgun-ammo, freeze",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Helen.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Helen",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Jiangyu",
+      "name": {
+        "ko": "",
+        "en": "Jiangyu",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Jiangyu",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, electric",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Jiangyu.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Jiangyu",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Klukai",
+      "name": {
+        "ko": "",
+        "en": "Klukai",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Klukai",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Klukai.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Klukai",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Krolik",
+      "name": {
+        "ko": "",
+        "en": "Krolik",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Krolik",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "melee, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Krolik.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Krolik",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Ksenia",
+      "name": {
+        "ko": "",
+        "en": "Ksenia",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Ksenia",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Ksenia.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Ksenia",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Lainie",
+      "name": {
+        "ko": "",
+        "en": "Lainie",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Lainie",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Lainie.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Lainie",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Lenna",
+      "name": {
+        "ko": "",
+        "en": "Lenna",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Lenna",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, electric",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Lenna.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Lenna",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Leva",
+      "name": {
+        "ko": "",
+        "en": "Leva",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Leva",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, electric",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Leva.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Leva",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Lewis",
+      "name": {
+        "ko": "",
+        "en": "Lewis",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Lewis",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Lewis.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Lewis",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Lind",
+      "name": {
+        "ko": "",
+        "en": "Lind",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Lind",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "shotgun-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Lind.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Lind",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Littara",
+      "name": {
+        "ko": "",
+        "en": "Littara",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Littara",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Littara.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Littara",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Liushih",
+      "name": {
+        "ko": "",
+        "en": "Liushih",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Liushih",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Liushih.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Liushih",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Loreley",
+      "name": {
+        "ko": "",
+        "en": "Loreley",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Loreley",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Loreley.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Loreley",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Lotta",
+      "name": {
+        "ko": "",
+        "en": "Lotta",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Lotta",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "shotgun-ammo, freeze",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Lotta.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Lotta",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Makiatto",
+      "name": {
+        "ko": "",
+        "en": "Makiatto",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Makiatto",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, freeze",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Makiatto.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Makiatto",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Mechty",
+      "name": {
+        "ko": "",
+        "en": "Mechty",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Mechty",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Mechty.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Mechty",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Mityl",
+      "name": {
+        "ko": "",
+        "en": "Mityl",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Mityl",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Mityl.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Mityl",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Mosin-Nagant",
+      "name": {
+        "ko": "",
+        "en": "Mosin-Nagant",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Mosin-Nagant",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, electric",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Mosin-Nagant.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Mosin-Nagant",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Nagant",
+      "name": {
+        "ko": "",
+        "en": "Nagant",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Nagant",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Nagant.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Nagant",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Nemesis",
+      "name": {
+        "ko": "",
+        "en": "Nemesis",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Nemesis",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Nemesis.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Nemesis",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Nemesis: Gnosis",
+      "name": {
+        "ko": "",
+        "en": "Nemesis: Gnosis",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Nemesis: Gnosis",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Nemesis: Gnosis.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Nemesis: Gnosis",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Nikketa",
+      "name": {
+        "ko": "",
+        "en": "Nikketa",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Nikketa",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Nikketa.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Nikketa",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "OTs-14",
+      "name": {
+        "ko": "",
+        "en": "OTs-14",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/OTs-14",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, resonance",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/OTs-14.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/OTs-14",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Papasha",
+      "name": {
+        "ko": "",
+        "en": "Papasha",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Papasha",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Papasha.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Papasha",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Peri",
+      "name": {
+        "ko": "",
+        "en": "Peri",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Peri",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "bulwark",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Peri.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Peri",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Peritya",
+      "name": {
+        "ko": "",
+        "en": "Peritya",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Peritya",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Peritya.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Peritya",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Phaetusa",
+      "name": {
+        "ko": "",
+        "en": "Phaetusa",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Phaetusa",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "melee, corrosion",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Phaetusa.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Phaetusa",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Qiongjiu",
+      "name": {
+        "ko": "",
+        "en": "Qiongjiu",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Qiongjiu",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Qiongjiu.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Qiongjiu",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Qiuhua",
+      "name": {
+        "ko": "",
+        "en": "Qiuhua",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Qiuhua",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "shotgun-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Qiuhua.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Qiuhua",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Robella",
+      "name": {
+        "ko": "",
+        "en": "Robella",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Robella",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, freeze",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Robella.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Robella",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Sabrina",
+      "name": {
+        "ko": "",
+        "en": "Sabrina",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Sabrina",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "bulwark",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "shotgun-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Sabrina.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Sabrina",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Sakura",
+      "name": {
+        "ko": "",
+        "en": "Sakura",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Sakura",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Sakura.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Sakura",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Sextans",
+      "name": {
+        "ko": "",
+        "en": "Sextans",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Sextans",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "melee, electric",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Sextans.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Sextans",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Sharkry",
+      "name": {
+        "ko": "",
+        "en": "Sharkry",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Sharkry",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Standard",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Sharkry.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Sharkry",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Soppo",
+      "name": {
+        "ko": "",
+        "en": "Soppo",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Soppo",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, freeze, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Soppo.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Soppo",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Springfield",
+      "name": {
+        "ko": "",
+        "en": "Springfield",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Springfield",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "heavy-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Springfield.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Springfield",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Suomi",
+      "name": {
+        "ko": "",
+        "en": "Suomi",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Suomi",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, freeze",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Suomi.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Suomi",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Tololo",
+      "name": {
+        "ko": "",
+        "en": "Tololo",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Tololo",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Tololo.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Tololo",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Ullrid",
+      "name": {
+        "ko": "",
+        "en": "Ullrid",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Ullrid",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "melee, light-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Ullrid.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Ullrid",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Vector",
+      "name": {
+        "ko": "",
+        "en": "Vector",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Vector",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, burn",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Vector.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Vector",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Vepley",
+      "name": {
+        "ko": "",
+        "en": "Vepley",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Vepley",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "shotgun-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Vepley.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Vepley",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Voymastina",
+      "name": {
+        "ko": "",
+        "en": "Voymastina",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Voymastina",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "sentinel",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "melee, medium-ammo",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Voymastina.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Voymastina",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Yoohee",
+      "name": {
+        "ko": "",
+        "en": "Yoohee",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Yoohee",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "medium-ammo, physical",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Yoohee.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Yoohee",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "Zhaohui",
+      "name": {
+        "ko": "",
+        "en": "Zhaohui",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://gfl2.help/en/characters/Zhaohui",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "class",
+          "label": {
+            "ko": "",
+            "en": "Class",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "vanguard",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "attributes",
+          "label": {
+            "ko": "",
+            "en": "Attributes",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "light-ammo, hydro",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "rank",
+          "label": {
+            "ko": "",
+            "en": "Rank",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elite",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://gfl2.help/static/images/chara/full/Zhaohui.png",
+        "kind": "portrait",
+        "sourceUrl": "https://gfl2.help/en/characters/Zhaohui",
+        "locale": "neutral"
+      }
+    }
+  ],
+  "coverage": {
+    "sourceCount": 59,
+    "includedCount": 59,
+    "note": "English source catalog;59declared rows. Stable declared name path IDs retained; no region-release flags in this list. Native names remain empty. Full-body image src observed inside matching character anchor."
+  }
+}

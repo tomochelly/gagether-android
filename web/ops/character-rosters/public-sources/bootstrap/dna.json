@@ -1,0 +1,883 @@
+{
+  "gameId": "dna",
+  "sourceName": "TH.GL Duet Night Abyss database",
+  "sourceUrls": [
+    "https://duetnightabyss.th.gl/db/characters"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "char_1101",
+      "name": {
+        "ko": "베레니카",
+        "en": "Berenica",
+        "ja": "ベレニカ",
+        "zh": "贝蕾妮卡"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_1101",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Umbro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_1102",
+      "name": {
+        "ko": "플로라",
+        "en": "Flora",
+        "ja": "フローラ",
+        "zh": "芙罗拉"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_1102",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Umbro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_1103",
+      "name": {
+        "ko": "환상",
+        "en": "Phantasio",
+        "ja": "ファンタジオ",
+        "zh": "幻景"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_1103",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Umbro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_1501",
+      "name": {
+        "ko": "리사벨",
+        "en": "Lisbell",
+        "ja": "リズベル",
+        "zh": "莉兹贝尔"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_1501",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lumino",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_1502",
+      "name": {
+        "ko": "나이플 부인",
+        "en": "Lady Nifle",
+        "ja": "ニフル夫人",
+        "zh": "妮弗尔夫人"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_1502",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lumino",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_1503",
+      "name": {
+        "ko": "각주",
+        "en": "Kezhou",
+        "ja": "カシュウ",
+        "zh": "刻舟"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_1503",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lumino",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_1504",
+      "name": {
+        "ko": "소을",
+        "en": "Su Yi",
+        "ja": "スーイー",
+        "zh": "苏乙"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_1504",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lumino",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_1801",
+      "name": {
+        "ko": "피나",
+        "en": "Fina",
+        "ja": "フィーナ",
+        "zh": "菲娜"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_1801",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lumino",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_2101",
+      "name": {
+        "ko": "레베카",
+        "en": "Rebecca",
+        "ja": "レベッカ",
+        "zh": "丽蓓卡"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_2101",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Hydro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_2102",
+      "name": {
+        "ko": "이브",
+        "en": "Eve",
+        "ja": "イブ",
+        "zh": "伊薇"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_2102",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Hydro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_2301",
+      "name": {
+        "ko": "타비사",
+        "en": "Tabethe",
+        "ja": "タビテ",
+        "zh": "塔比瑟"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_2301",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Hydro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_2401",
+      "name": {
+        "ko": "부소",
+        "en": "Fushu",
+        "ja": "フーシュ",
+        "zh": "扶疏"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_2401",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Hydro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_3101",
+      "name": {
+        "ko": "린",
+        "en": "Lynn",
+        "ja": "リーン",
+        "zh": "琳恩"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_3101",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Pyro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_3102",
+      "name": {
+        "ko": "힐다",
+        "en": "Hilda",
+        "ja": "ヒルダ",
+        "zh": "希尔妲"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_3102",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Pyro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_3103",
+      "name": {
+        "ko": "예일과 올리버",
+        "en": "Yale and Oliver",
+        "ja": "イェールとオリバー",
+        "zh": "耶尔与奥利弗"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_3103",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Pyro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_3104",
+      "name": {
+        "ko": "펄시",
+        "en": "Falsi",
+        "ja": "フォルス",
+        "zh": "法露茜"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_3104",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Pyro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_3201",
+      "name": {
+        "ko": "헬파이어",
+        "en": "Hellfire",
+        "ja": "ヘルファイア",
+        "zh": "海尔法"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_3201",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Pyro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_3202",
+      "name": {
+        "ko": "카밀라",
+        "en": "Camilla",
+        "ja": "カミラ",
+        "zh": "卡米拉"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_3202",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Pyro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_3203",
+      "name": {
+        "ko": "카지아",
+        "en": "Katya",
+        "ja": "カーチャ",
+        "zh": "卡嘉"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_3203",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Pyro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_3301",
+      "name": {
+        "ko": "마르제",
+        "en": "Margie",
+        "ja": "マギー",
+        "zh": "玛尔洁"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_3301",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Pyro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_4101",
+      "name": {
+        "ko": "리듬",
+        "en": "Rhythm",
+        "ja": "リズム",
+        "zh": "黎瑟"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_4101",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Electro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_4102",
+      "name": {
+        "ko": "지류",
+        "en": "Zhiliu",
+        "ja": "シリュウ",
+        "zh": "止流"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_4102",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Electro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_4103",
+      "name": {
+        "ko": "리듬·되살아난 불꽃",
+        "en": "Rhythm: Flamewrought",
+        "ja": "リズム・焔を纏う者",
+        "zh": "黎瑟·浴火"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_4103",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Electro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_4201",
+      "name": {
+        "ko": "욱명",
+        "en": "Yuming",
+        "ja": "ユーミン",
+        "zh": "煜明"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_4201",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Electro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_4202",
+      "name": {
+        "ko": "랜디",
+        "en": "Randy",
+        "ja": "ランディー",
+        "zh": "兰迪"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_4202",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Electro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_4301",
+      "name": {
+        "ko": "시빌라",
+        "en": "Sibylle",
+        "ja": "シビル",
+        "zh": "西比尔"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_4301",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Electro",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_5101",
+      "name": {
+        "ko": "트러플과 헤이즐넛",
+        "en": "Truffle and Filbert",
+        "ja": "トリュフ&ヘーゼルナッツ",
+        "zh": "松露与榛子"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_5101",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anemo",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_5102",
+      "name": {
+        "ko": "아웃사이더",
+        "en": "Outsider",
+        "ja": "アウトサイダー",
+        "zh": "奥特赛德"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_5102",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anemo",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_5301",
+      "name": {
+        "ko": "프시케",
+        "en": "Psyche",
+        "ja": "サイキ",
+        "zh": "赛琪"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_5301",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anemo",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_5401",
+      "name": {
+        "ko": "다프네",
+        "en": "Daphne",
+        "ja": "ダフネ",
+        "zh": "达芙涅"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_5401",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anemo",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "char_5402",
+      "name": {
+        "ko": "리리코",
+        "en": "Lirico",
+        "ja": "リリコ",
+        "zh": "莉莉蔻"
+      },
+      "sourceUrl": "https://duetnightabyss.th.gl/db/characters/char_5402",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anemo",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "sourceCount": 31,
+    "includedCount": 31,
+    "note": "Source catalog31characters. No release flag. Sprite atlas icons intentionally omitted: full atlas is not a valid character illustration. No invented star rarity; characters/weapons are not obtained from character gacha."
+  }
+}

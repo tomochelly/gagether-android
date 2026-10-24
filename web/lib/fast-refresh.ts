@@ -3,6 +3,7 @@ import {env} from 'cloudflare:workers';
 import {readData,readBaseData,saveEntries} from './store';
 import {refreshFeeds} from './feeds';
 import {koreanFastSources,noticeEntry,noticeText,noticeMetadataChange,completeNoticeMetadata} from './fast-notices';
+import {queueBroadcastRecap,publishBroadcastRecapsStep} from './broadcast-recaps';
 import {channelVideos,embeddedJson,readBroadcast} from './broadcast-metadata';
 import {localized,type Entry,type Locale,type Region} from './types';
 import {effectiveRegion} from './presentation';
@@ -13,6 +14,7 @@ import {refreshHealth,recordHealth,readbackIssues} from './service-health';
 import {captureDocument} from './collection-store';
 import {collectRegionalNotices,collectPendingDocuments} from './official-collection';
 import {refreshWuwaReferenceStep} from './wuwa-reference-store';
+import {refreshCharacterRostersStep} from './character-roster-refresh';
 import {refreshLeaksStep} from './leaks-store';
 const interval=10*60*1000;
 async function html(url:string){
@@ -115,29 +117,32 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
     if(meta.old){
      // Patch only the broadcast object, using compare-and-swap to avoid overwriting an hourly review.
      const old=meta.old.broadcast!;
-     if(old.originalTitle!==b.originalTitle){changedNeedsReview.push(meta.old.id);return {url,checkedAt,status:'review',error:'Original title changed; localization review required'};}
+     if(old.originalTitle!==b.originalTitle)changedNeedsReview.push(meta.old.id);
      const updated=await db.prepare("UPDATE entries SET payload=json_set(payload,'$.broadcast',json(?)),updated_at=? WHERE id=? AND json_extract(payload,'$.broadcast')=json(?)").bind(JSON.stringify(b),checkedAt,meta.old.id,JSON.stringify(old)).run();
-     return {url,checkedAt,status:updated.meta.changes?'ok':'review',broadcastStatus:b.status,persisted:!!updated.meta.changes};
+     let recap:unknown;try{if(updated.meta.changes&&b.status==='ended')recap=await queueBroadcastRecap(meta,b,page);}catch(e){recap={queued:false,error:e instanceof Error?e.message:'Recap queue failed'};}
+     return {url,checkedAt,status:updated.meta.changes?'ok':'review',broadcastStatus:b.status,persisted:!!updated.meta.changes,...(recap?{recap}:{})};
     }
-    if(b.status==='ended')return {url,checkedAt,status:'ok',broadcastStatus:'ended',historical:true};
+    if(b.status==='ended')return {url,checkedAt,status:'ok',broadcastStatus:'ended',recap:await queueBroadcastRecap(meta,b,page)};
     const title=localized('','','','');title[meta.locale]=b.originalTitle;
     const entry:Entry={id:`broadcast-${meta.gameId}-${meta.locale}-${id}`,gameId:meta.gameId,region:meta.region,server:meta.region,kind:'update',title,summary:localized('','','',''),sourceUrl:url,sourceTitle:b.originalTitle,sourceLocale:meta.locale,sourceKind:'video',officialLocales:[meta.locale],translatedLocales:[],startAt:null,endAt:null,publishedAt:b.announcedAt,verifiedAt:checkedAt,broadcast:b};
     await saveEntries([entry]);return {url,checkedAt,status:'ok',broadcastStatus:b.status,added:entry.id};
    }catch(e){return {url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   },2);
   const cursor=(p.cursor||0)+6;
-  return {...p,stage:cursor>=watches.size?'collection':'broadcasts',cursor:cursor>=watches.size?0:cursor,broadcastChecks:[...(p.broadcastChecks||[]),...broadcastChecks],changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
+  return {...p,stage:cursor>=watches.size?'recaps':'broadcasts',cursor:cursor>=watches.size?0:cursor,broadcastChecks:[...(p.broadcastChecks||[]),...broadcastChecks],changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
  }
+ if(p.stage==='recaps')return {...p,stage:'collection',recapCheck:await publishBroadcastRecapsStep()};
  if(p.stage==='collection')return {...p,stage:'reference',collection:await collectPendingDocuments()};
  if(p.stage==='reference'){const check=await refreshWuwaReferenceStep();return {...p,stage:check.done?'leaks':'reference',referenceCheck:check};}
- if(p.stage==='leaks'){const check=await refreshLeaksStep();return {...p,stage:check.done?'finalize':'leaks',leakCheck:check};}
+ if(p.stage==='rosters')return {...p,stage:'finalize',rosterCheck:await refreshCharacterRostersStep()};
+ if(p.stage==='leaks'){const check=await refreshLeaksStep();return {...p,stage:check.done?'rosters':'leaks',leakCheck:check};}
  if(p.stage!=='finalize')throw Error('Unknown refresh stage');
   const {koreanChecks=[],feeds=[],regional={checks:[],added:0},channelChecks=[],broadcastChecks=[],collection,noticedCount=0,changedNeedsReview=[]}=p;
   const [automatic,effective]=await Promise.all([readData({automatic:true,collection:true}),readData({collection:true})]);
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
   const weaponCheck={source:'wuwa/global/weapons',status:collection.weapons.issues.length?'error':'ok',checkedAt:collection.weapons.checkedAt,count:collection.weapons.changedEntries.length,error:collection.weapons.issues.join('; ')||undefined};
-  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks,...collection.checks,weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[])],!validationIssues.length);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,structuredChecks:[weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
+  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks,...collection.checks,weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],!validationIssues.length);
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,structuredChecks:[weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
   return result;
 }

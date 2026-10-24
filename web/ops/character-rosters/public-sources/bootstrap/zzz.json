@@ -1,0 +1,3006 @@
+{
+  "gameId": "zzz",
+  "sourceName": "EnkaNetwork + Prydwen release exclusions",
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/locs.json",
+    "https://www.prydwen.gg/zenless/characters/"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "1011",
+      "name": {
+        "ko": "엔비",
+        "en": "Anby",
+        "ja": "アンビー",
+        "zh": "安比"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/anby-demara_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/anby-demara/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1021",
+      "name": {
+        "ko": "네코마타",
+        "en": "Nekomata",
+        "ja": "猫又",
+        "zh": "猫又"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/nekomata_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/nekomata/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1031",
+      "name": {
+        "ko": "니콜",
+        "en": "Nicole",
+        "ja": "ニコ",
+        "zh": "妮可"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/nicole-demara_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/nicole-demara/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1041",
+      "name": {
+        "ko": "「11호」",
+        "en": "Soldier 11",
+        "ja": "「11号」",
+        "zh": "「11号」"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/soldier-11_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/soldier-11/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1051",
+      "name": {
+        "ko": "이드하리",
+        "en": "Yidhari",
+        "ja": "イドリー",
+        "zh": "伊德海莉"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rupture",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/yidhari_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/yidhari/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1061",
+      "name": {
+        "ko": "코린",
+        "en": "Corin",
+        "ja": "カリン",
+        "zh": "可琳"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/corin_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/corin/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1071",
+      "name": {
+        "ko": "카이사르",
+        "en": "Caesar",
+        "ja": "シーザー",
+        "zh": "凯撒"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Defense",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/caesar_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/caesar/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1081",
+      "name": {
+        "ko": "빌리",
+        "en": "Billy",
+        "ja": "ビリー",
+        "zh": "比利"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/billy-kid_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/billy-kid/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1091",
+      "name": {
+        "ko": "미야비",
+        "en": "Miyabi",
+        "ja": "星見雅",
+        "zh": "雅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "FireFrost, Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/miyabi_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/miyabi/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1101",
+      "name": {
+        "ko": "콜레다",
+        "en": "Koleda",
+        "ja": "クレタ",
+        "zh": "珂蕾妲"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/koleda_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/koleda/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1111",
+      "name": {
+        "ko": "앤톤",
+        "en": "Anton",
+        "ja": "アンドー",
+        "zh": "安东"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/anton_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/anton/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1121",
+      "name": {
+        "ko": "벤",
+        "en": "Ben",
+        "ja": "ベン",
+        "zh": "本"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Defense",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ben_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/ben/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1131",
+      "name": {
+        "ko": "소우카쿠",
+        "en": "Soukaku",
+        "ja": "蒼角",
+        "zh": "苍角"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/soukaku_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/soukaku/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1141",
+      "name": {
+        "ko": "리카온",
+        "en": "Lycaon",
+        "ja": "ライカン",
+        "zh": "莱卡恩"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lycaon_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/lycaon/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1151",
+      "name": {
+        "ko": "루시",
+        "en": "Lucy",
+        "ja": "ルーシー",
+        "zh": "露西"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucy_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/lucy/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1161",
+      "name": {
+        "ko": "라이터",
+        "en": "Lighter",
+        "ja": "ライト",
+        "zh": "莱特"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lighter_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/lighter/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1171",
+      "name": {
+        "ko": "버니스",
+        "en": "Burnice",
+        "ja": "バーニス",
+        "zh": "柏妮思"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/burnice_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/burnice/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1181",
+      "name": {
+        "ko": "그레이스",
+        "en": "Grace",
+        "ja": "グレース",
+        "zh": "格莉丝"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/grace-howard_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/grace-howard/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1191",
+      "name": {
+        "ko": "엘렌",
+        "en": "Ellen",
+        "ja": "エレン",
+        "zh": "艾莲"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ellen_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/ellen/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1201",
+      "name": {
+        "ko": "하루마사",
+        "en": "Harumasa",
+        "ja": "浅羽悠真",
+        "zh": "悠真"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/harumasa_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/harumasa/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1211",
+      "name": {
+        "ko": "리나",
+        "en": "Rina",
+        "ja": "リナ",
+        "zh": "丽娜"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/rina_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/rina/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1221",
+      "name": {
+        "ko": "야나기",
+        "en": "Yanagi",
+        "ja": "月城柳",
+        "zh": "柳"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/yanagi_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/yanagi/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1241",
+      "name": {
+        "ko": "주연",
+        "en": "Zhu Yuan",
+        "ja": "朱鳶",
+        "zh": "朱鸢"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/zhu-yuan_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/zhu-yuan/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1251",
+      "name": {
+        "ko": "청의",
+        "en": "Qingyi",
+        "ja": "青衣",
+        "zh": "青衣"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/qingyi_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/qingyi/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1261",
+      "name": {
+        "ko": "제인",
+        "en": "Jane",
+        "ja": "ジェーン",
+        "zh": "简"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/jane-doe_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/jane-doe/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1271",
+      "name": {
+        "ko": "세스",
+        "en": "Seth",
+        "ja": "セス",
+        "zh": "赛斯"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Defense",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/seth_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/seth/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1281",
+      "name": {
+        "ko": "파이퍼",
+        "en": "Piper",
+        "ja": "パイパー",
+        "zh": "派派"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/piper_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/piper/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1291",
+      "name": {
+        "ko": "휴고",
+        "en": "Hugo",
+        "ja": "ヒューゴ",
+        "zh": "雨果"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/hugo_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/hugo/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1301",
+      "name": {
+        "ko": "오피&「도깨비불」",
+        "en": "Orphie & Magus",
+        "ja": "オルペウス&「鬼火」",
+        "zh": "奥菲丝&「鬼火」"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/orphie-and-magus_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/orphie-and-magus/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1311",
+      "name": {
+        "ko": "아스트라",
+        "en": "Astra Yao",
+        "ja": "アストラ",
+        "zh": "耀嘉音"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/astra-yao_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/astra-yao/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1321",
+      "name": {
+        "ko": "이블린",
+        "en": "Evelyn",
+        "ja": "イヴリン",
+        "zh": "伊芙琳"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/evelyn_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/evelyn/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1331",
+      "name": {
+        "ko": "비비안",
+        "en": "Vivian",
+        "ja": "ビビアン",
+        "zh": "薇薇安"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/vivian_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/vivian/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1341",
+      "name": {
+        "ko": "자오",
+        "en": "Zhao",
+        "ja": "照",
+        "zh": "照"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Defense",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/zhao_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/zhao/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1351",
+      "name": {
+        "ko": "펄크라",
+        "en": "Pulchra",
+        "ja": "プルクラ",
+        "zh": "波可娜"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/pulchra_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/pulchra/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1361",
+      "name": {
+        "ko": "「트리거」",
+        "en": "Trigger",
+        "ja": "「トリガー」",
+        "zh": "「扳机」"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/trigger_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/trigger/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1371",
+      "name": {
+        "ko": "의현",
+        "en": "Yixuan",
+        "ja": "儀玄",
+        "zh": "仪玄"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rupture",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "AuricEther, Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/yixuan_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/yixuan/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1381",
+      "name": {
+        "ko": "0호·엔비",
+        "en": "Soldier 0 - Anby",
+        "ja": "0号・アンビー",
+        "zh": "零号·安比"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/anby-demara-soldier-0_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/anby-demara-soldier-0/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1391",
+      "name": {
+        "ko": "귤복복",
+        "en": "Ju Fufu",
+        "ja": "橘福福",
+        "zh": "橘福福"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ju-fufu_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/ju-fufu/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1401",
+      "name": {
+        "ko": "앨리스",
+        "en": "Alice",
+        "ja": "アリス",
+        "zh": "爱丽丝"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/alice_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/alice/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1411",
+      "name": {
+        "ko": "유즈하",
+        "en": "Yuzuha",
+        "ja": "浮波柚葉",
+        "zh": "柚叶"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ukinami-yuzuha_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/ukinami-yuzuha/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1421",
+      "name": {
+        "ko": "반인호",
+        "en": "Pan Yinhu",
+        "ja": "潘引壺",
+        "zh": "潘引壶"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Defense",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/pan-yinhu_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/pan-yinhu/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1431",
+      "name": {
+        "ko": "엽빛나",
+        "en": "Ye Shunguang",
+        "ja": "葉瞬光",
+        "zh": "叶瞬光"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "ZhenZhenAssault, Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ye-shunguang_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/ye-shunguang/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1441",
+      "name": {
+        "ko": "마나토",
+        "en": "Manato",
+        "ja": "狛野真斗",
+        "zh": "真斗"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rupture",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/manato_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/manato/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1451",
+      "name": {
+        "ko": "루시아",
+        "en": "Lucia",
+        "ja": "リュシア",
+        "zh": "卢西娅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucia_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/lucia/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1461",
+      "name": {
+        "ko": "「시드」",
+        "en": "Seed",
+        "ja": "「シード」",
+        "zh": "「席德」"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/seed_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/seed/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1471",
+      "name": {
+        "ko": "반악",
+        "en": "Banyue",
+        "ja": "盤岳",
+        "zh": "般岳"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rupture",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/banyue_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/banyue/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1481",
+      "name": {
+        "ko": "다이아린",
+        "en": "Dialyn",
+        "ja": "ダイアリン",
+        "zh": "琉音"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/dialyn_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/dialyn/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1491",
+      "name": {
+        "ko": "수나",
+        "en": "Sunna",
+        "ja": "千夏",
+        "zh": "千夏"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Support",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sunna_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/sunna/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1501",
+      "name": {
+        "ko": "아리아",
+        "en": "Aria",
+        "ja": "アリア",
+        "zh": "爱芮"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/aria_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/aria/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1511",
+      "name": {
+        "ko": "남궁우",
+        "en": "Nangong Yu",
+        "ja": "南宮羽",
+        "zh": "南宫羽"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/nangong-yu_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/nangong-yu/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1521",
+      "name": {
+        "ko": "시시아",
+        "en": "Cissia",
+        "ja": "シーシィア",
+        "zh": "希希芙"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/cissia_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/cissia/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1531",
+      "name": {
+        "ko": "스타라이트·빌리",
+        "en": "Starlight - Billy",
+        "ja": "スターライト･ビリー",
+        "zh": "星徽·比利"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rupture",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physics",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/billy-starlight_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/billy-starlight/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1541",
+      "name": {
+        "ko": "프로미아",
+        "en": "Promeia",
+        "ja": "プロメイア",
+        "zh": "普罗米娅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/promeia_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/promeia/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1551",
+      "name": {
+        "ko": "피로이스",
+        "en": "Pyrois",
+        "ja": "ピュロイス",
+        "zh": "佩洛伊斯"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ether",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/pyrois_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/pyrois/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1561",
+      "name": {
+        "ko": "벨리나",
+        "en": "Velina",
+        "ja": "ヴェリナ",
+        "zh": "维琳娜"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/velina_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/velina/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1571",
+      "name": {
+        "ko": "노르마",
+        "en": "Norma",
+        "ja": "ノルムー",
+        "zh": "诺姆"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/norma_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/norma/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1581",
+      "name": {
+        "ko": "레미엘",
+        "en": "Remielle",
+        "ja": "レミエール",
+        "zh": "蕾米埃尔"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Lumen",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/remielle_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/remielle/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1591",
+      "name": {
+        "ko": "시그리드",
+        "en": "Sigrid",
+        "ja": "シグリッド",
+        "zh": "希格莉德"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Attack",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sigrid_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/sigrid/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1611",
+      "name": {
+        "ko": "클라렛",
+        "en": "Claret",
+        "ja": "クラレッタ",
+        "zh": "克拉蕾"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Armorer",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elec",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/claret_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/claret/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1621",
+      "name": {
+        "ko": "록시",
+        "en": "Roxy",
+        "ja": "ロクシー",
+        "zh": "洛克茜"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Stun",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/roxy_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/roxy/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1641",
+      "name": {
+        "ko": "피닉스",
+        "en": "Phoenix",
+        "ja": "フィオニー",
+        "zh": "菲欧妮"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "specialty",
+          "label": {
+            "ko": "",
+            "en": "Specialty",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Anomaly",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/phoenix_card.webp",
+        "kind": "card",
+        "sourceUrl": "https://www.prydwen.gg/zenless/characters/phoenix/",
+        "locale": "neutral"
+      }
+    }
+  ],
+  "coverage": {
+    "sourceCount": 62,
+    "includedCount": 61,
+    "note": "Enka source catalog with native names; exact-name matching to Prydwen upcoming:true excludes known future units. Enka image host returned403; use exact declared Prydwen card image joined by English name plus3 explicit observed naming aliases. No release timestamps or full-body art asserted. Rarity enum omitted to avoid false star conversion."
+  }
+}

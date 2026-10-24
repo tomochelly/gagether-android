@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "classificationScope": "Representative source asset classes. No assertion that every library image was visually audited. Exact file overrides precede class policy. Unknown classes stay unclassified.",
+  "assetClasses": [
+    {
+      "gameId": "arknights",
+      "urlPattern": "^https://raw\\.githubusercontent\\.com/Aceship/Arknight-Images/main/characters/char_[^/]+_1\\.png$",
+      "locale": null,
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/Aceship/Arknight-Images/main/characters/char_285_medic2_1.png"
+      ],
+      "note": "Mixed class: Lancet-2 has EMERGENCY and Amiya has RHODES ISLAND printed in-world. No class-wide neutral assertion."
+    },
+    {
+      "gameId": "genshin",
+      "urlPattern": "^https://raw\\.githubusercontent\\.com/ScobbleQ/HoYo-Assets/main/genshin/splash/[0-9]+\\.png$",
+      "locale": "neutral",
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000005.png"
+      ],
+      "note": "Aether: full transparent character illustration; no readable language text."
+    },
+    {
+      "gameId": "gfl2",
+      "urlPattern": "^https://gfl2\\.help/static/images/chara/full/[^/]+\\.png$",
+      "locale": "neutral",
+      "kind": "portrait",
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://gfl2.help/static/images/chara/full/Vepley.png"
+      ],
+      "note": "Vepley: cropped vertical character portrait; no readable language text; filename /full/ does not mean full-body."
+    },
+    {
+      "gameId": "holodreams",
+      "urlPattern": "^https://images\\.microcms-assets\\.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/[^/]+/[^/?]+\\.png\\?",
+      "locale": "neutral",
+      "kind": "portrait",
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/bd6ac716d8d3436b9c6b7437ec44ffc0/nekomata-okayu.png?w=1558&h=952&dpr=1&fm=webp"
+      ],
+      "note": "Nekomata Okayu: official upper-body illustration; no readable language text; not full-body."
+    },
+    {
+      "gameId": "hsr",
+      "urlPattern": "^https://raw\\.githubusercontent\\.com/Mar-7th/StarRailRes/master/image/character_portrait/[0-9]+\\.png$",
+      "locale": "neutral",
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1001.png"
+      ],
+      "note": "March7th: character splash with effects; no readable language text."
+    },
+    {
+      "gameId": "limbus",
+      "urlPattern": "^https://cdn\\.prydwen\\.gg/images/limbus-company/characters/[^/]+_(?:mid|small)\\.webp$",
+      "locale": "neutral",
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://cdn.prydwen.gg/images/limbus-company/characters/lca-udjat-vanguard-team-3-leader-outis_mid.webp"
+      ],
+      "note": "Outis identity165: cropped character portrait; no printed title or identity name."
+    },
+    {
+      "gameId": "nikke",
+      "urlPattern": "^https://cdn\\.prydwen\\.gg/images/nikke/characters/[^/]+_card\\.webp$",
+      "locale": "neutral",
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://cdn.prydwen.gg/images/nikke/characters/2b_card.webp"
+      ],
+      "note": "2B: character-only cropped vertical card; no name/type text."
+    },
+    {
+      "gameId": "nte",
+      "urlPattern": "^https://cdn\\.prydwen\\.gg/images/nte/characters/[^/]+_small\\.webp$",
+      "locale": "neutral",
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://cdn.prydwen.gg/images/nte/characters/adler_small.webp"
+      ],
+      "note": "Adler: cropped head portrait; no readable language text."
+    },
+    {
+      "gameId": "reverse1999",
+      "urlPattern": "^https://cdn\\.prydwen\\.gg/images/re1999/characters/[^/]+_full\\.webp$",
+      "locale": "neutral",
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://cdn.prydwen.gg/images/re1999/characters/37_full.webp"
+      ],
+      "note": "37: full-body transparent illustration; no readable language text."
+    },
+    {
+      "gameId": "stellasora",
+      "urlPattern": "^https://raw\\.githubusercontent\\.com/JforPlay/sstoy/main/public/assets/char/[0-9]+_CG\\.png$",
+      "locale": "neutral",
+      "kind": "splash",
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/10301_CG.png"
+      ],
+      "note": "Amber10301: character in illustrated background scene; no readable language text. This is CG/splash, not guaranteed full-body."
+    },
+    {
+      "gameId": "trickcal",
+      "urlPattern": "^https://cdn\\.prydwen\\.gg/images/trickcal/characters/[^/]+\\.webp$",
+      "locale": "neutral",
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://cdn.prydwen.gg/images/trickcal/characters/alice.webp"
+      ],
+      "note": "Alice: cropped character head icon; no readable language text."
+    },
+    {
+      "gameId": "zzz",
+      "urlPattern": "^https://cdn\\.prydwen\\.gg/images/zenless-zone-zero/characters/[^/]+_card\\.webp$",
+      "locale": "neutral",
+      "kind": null,
+      "basis": "representative source asset class visual inspection; not per-file visual audit",
+      "evidenceUrls": [
+        "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/anby-demara_card.webp"
+      ],
+      "note": "Anby: cropped character portrait/card; no readable natural-language label (stylized costume marks are not a title overlay)."
+    }
+  ],
+  "fileExceptions": [
+    {
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/main/characters/char_285_medic2_1.png",
+      "locale": "en",
+      "note": "Lancet-2 visibly has EMERGENCY livery, strict text-language exception."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/main/characters/char_002_amiya_1.png",
+      "locale": "en",
+      "note": "Amiya visibly has RHODES ISLAND livery, strict text-language exception."
+    }
+  ],
+  "visualEvidence": [
+    {
+      "gameId": "arknights",
+      "id": "char_285_medic2",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/main/characters/char_285_medic2_1.png",
+      "httpStatus": 200,
+      "width": 1024,
+      "height": 1024,
+      "format": "PNG",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/arknights.img",
+      "sha256": "c03322b087a58d55294fb40c33b797f0c9667157adfb75629c85019a0bbcc2fd",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "en",
+      "note": "Mixed class: Lancet-2 has EMERGENCY and Amiya has RHODES ISLAND printed in-world. No class-wide neutral assertion.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "genshin",
+      "id": "10000005",
+      "url": "https://raw.githubusercontent.com/ScobbleQ/HoYo-Assets/main/genshin/splash/10000005.png",
+      "httpStatus": 200,
+      "width": 1198,
+      "height": 1350,
+      "format": "PNG",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/genshin.img",
+      "sha256": "8434080564c3feb6b842167a2d196cb7400a46454d3495213e853c7a0557f83f",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "Aether: full transparent character illustration; no readable language text.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "gfl2",
+      "id": "Vepley",
+      "url": "https://gfl2.help/static/images/chara/full/Vepley.png",
+      "httpStatus": 200,
+      "width": 376,
+      "height": 512,
+      "format": "WEBP",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/gfl2.img",
+      "sha256": "fb311009ee5b2afb3641f7ac7fb6fbe101b4a0fe4ed616bcd242606fa7dbbc84",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "Vepley: cropped vertical character portrait; no readable language text; filename /full/ does not mean full-body.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "holodreams",
+      "id": "nekomata-okayu",
+      "url": "https://images.microcms-assets.io/assets/f5f18e8e6a3c4c81af28f013b94e7f38/bd6ac716d8d3436b9c6b7437ec44ffc0/nekomata-okayu.png?w=1558&h=952&dpr=1&fm=webp",
+      "httpStatus": 200,
+      "width": 1558,
+      "height": 952,
+      "format": "WEBP",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/holodreams.img",
+      "sha256": "9740b020c84eb14b715debf799e9d8536f997c0faff9a0fbaf2c8e36eb6c7ea8",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "Nekomata Okayu: official upper-body illustration; no readable language text; not full-body.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "hsr",
+      "id": "1001",
+      "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1001.png",
+      "httpStatus": 200,
+      "width": 2048,
+      "height": 2048,
+      "format": "PNG",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/hsr.img",
+      "sha256": "faf16b576963b56c0da702c3a7974eddd38a833c7f717601e1fa17d7f95cb6fd",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "March7th: character splash with effects; no readable language text.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "limbus",
+      "id": "165",
+      "url": "https://cdn.prydwen.gg/images/limbus-company/characters/lca-udjat-vanguard-team-3-leader-outis_mid.webp",
+      "httpStatus": 200,
+      "width": 140,
+      "height": 216,
+      "format": "WEBP",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/limbus.img",
+      "sha256": "c952c4c13d5a55f26d50ca01d2e5416a75f9fcf5ac4e9bdadf6a556380cb265e",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "Outis identity165: cropped character portrait; no printed title or identity name.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "nikke",
+      "id": "99",
+      "url": "https://cdn.prydwen.gg/images/nikke/characters/2b_card.webp",
+      "httpStatus": 200,
+      "width": 262,
+      "height": 358,
+      "format": "WEBP",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/nikke.img",
+      "sha256": "916ec653d270d2ec4cf83ee69d9c62d6dbefa4e2e24d63f6ad4512ee0403829b",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "2B: character-only cropped vertical card; no name/type text.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "nte",
+      "id": "2",
+      "url": "https://cdn.prydwen.gg/images/nte/characters/adler_small.webp",
+      "httpStatus": 200,
+      "width": 160,
+      "height": 160,
+      "format": "WEBP",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/nte.img",
+      "sha256": "2c86ebe27778c289df7466232d51bc5de7a7735e52f192e1dff021fb5c6af81a",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "Adler: cropped head portrait; no readable language text.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "reverse1999",
+      "id": "64",
+      "url": "https://cdn.prydwen.gg/images/re1999/characters/37_full.webp",
+      "httpStatus": 200,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/reverse1999.img",
+      "sha256": "a5b846872b2066507beaffa2008e366a39723a695295e87566e9e51a12057fcf",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "37: full-body transparent illustration; no readable language text.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "stellasora",
+      "id": "103",
+      "url": "https://raw.githubusercontent.com/JforPlay/sstoy/main/public/assets/char/10301_CG.png",
+      "httpStatus": 200,
+      "width": 2400,
+      "height": 1700,
+      "format": "PNG",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/stellasora.img",
+      "sha256": "6ac6b4fcc98de862b93ae31ebed7233fc98aa4b3d964d4952c055e19c769b950",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "Amber10301: character in illustrated background scene; no readable language text. This is CG/splash, not guaranteed full-body.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "trickcal",
+      "id": "alice",
+      "url": "https://cdn.prydwen.gg/images/trickcal/characters/alice.webp",
+      "httpStatus": 200,
+      "width": 160,
+      "height": 160,
+      "format": "WEBP",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/trickcal.img",
+      "sha256": "eed05c9c1d6943116b479b5104e6e4e2e6ed10fffd6a7ded0ce74a39148f83b8",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "Alice: cropped character head icon; no readable language text.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "zzz",
+      "id": "1011",
+      "url": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/anby-demara_card.webp",
+      "httpStatus": 200,
+      "width": 374,
+      "height": 512,
+      "format": "WEBP",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/zzz.img",
+      "sha256": "9efb6a93486ef9f661ff0fad3491bc0f5de9a8fe882e06e624ce25457d2f323c",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "neutral",
+      "note": "Anby: cropped character portrait/card; no readable natural-language label (stylized costume marks are not a title overlay).",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    },
+    {
+      "gameId": "arknights",
+      "id": "char_002_amiya",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/main/characters/char_002_amiya_1.png",
+      "localEvidenceFile": "/tmp/gagether-roster-research/visual-samples/arknights-amiya.img",
+      "sha256": "7f807f112293f135e26511e7a5fcaf3e2def37fe903eca690eb4915beaf5ef3d",
+      "inspectionMethod": "view_image visual inspection",
+      "observedLocale": "en",
+      "note": "RHODES ISLAND English livery on outfit. Strict text-language classification.",
+      "inspectedAt": "2026-10-24T11:28:53.688573+00:00"
+    }
+  ]
+}

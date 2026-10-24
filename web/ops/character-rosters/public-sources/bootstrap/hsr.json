@@ -1,0 +1,4919 @@
+{
+  "gameId": "hsr",
+  "sourceName": "StarRailRes",
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+    "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/kr/characters.json",
+    "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/jp/characters.json",
+    "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/cn/characters.json"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "1001",
+      "name": {
+        "ko": "Mar. 7th",
+        "en": "March 7th",
+        "ja": "三月なのか",
+        "zh": "三月七"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Knight",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1001.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1002",
+      "name": {
+        "ko": "단항",
+        "en": "Dan Heng",
+        "ja": "丹恒",
+        "zh": "丹恒"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1002.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1003",
+      "name": {
+        "ko": "히메코",
+        "en": "Himeko",
+        "ja": "姫子",
+        "zh": "姬子"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1003.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1004",
+      "name": {
+        "ko": "웰트",
+        "en": "Welt",
+        "ja": "ヴェルト",
+        "zh": "瓦尔特"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1004.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1005",
+      "name": {
+        "ko": "카프카",
+        "en": "Kafka",
+        "ja": "カフカ",
+        "zh": "卡芙卡"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1005.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1006",
+      "name": {
+        "ko": "은랑",
+        "en": "Silver Wolf",
+        "ja": "銀狼",
+        "zh": "银狼"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1006.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1008",
+      "name": {
+        "ko": "아를란",
+        "en": "Arlan",
+        "ja": "アーラン",
+        "zh": "阿兰"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1008.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1009",
+      "name": {
+        "ko": "아스타",
+        "en": "Asta",
+        "ja": "アスター",
+        "zh": "艾丝妲"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1009.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1013",
+      "name": {
+        "ko": "헤르타",
+        "en": "Herta",
+        "ja": "ヘルタ",
+        "zh": "黑塔"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1013.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1014",
+      "name": {
+        "ko": "세이버",
+        "en": "Saber",
+        "ja": "セイバー",
+        "zh": "Saber"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1014.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1015",
+      "name": {
+        "ko": "아처",
+        "en": "Archer",
+        "ja": "アーチャー",
+        "zh": "Archer"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1015.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1101",
+      "name": {
+        "ko": "브로냐",
+        "en": "Bronya",
+        "ja": "ブローニャ",
+        "zh": "布洛妮娅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1101.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1102",
+      "name": {
+        "ko": "제레",
+        "en": "Seele",
+        "ja": "ゼーレ",
+        "zh": "希儿"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1102.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1103",
+      "name": {
+        "ko": "서벌",
+        "en": "Serval",
+        "ja": "セーバル",
+        "zh": "希露瓦"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1103.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1104",
+      "name": {
+        "ko": "게파드",
+        "en": "Gepard",
+        "ja": "ジェパード",
+        "zh": "杰帕德"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Knight",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1104.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1105",
+      "name": {
+        "ko": "나타샤",
+        "en": "Natasha",
+        "ja": "ナターシャ",
+        "zh": "娜塔莎"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Priest",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1105.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1106",
+      "name": {
+        "ko": "페라",
+        "en": "Pela",
+        "ja": "ペラ",
+        "zh": "佩拉"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1106.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1107",
+      "name": {
+        "ko": "클라라",
+        "en": "Clara",
+        "ja": "クラーラ",
+        "zh": "克拉拉"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1107.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1108",
+      "name": {
+        "ko": "삼포",
+        "en": "Sampo",
+        "ja": "サンポ",
+        "zh": "桑博"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1108.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1109",
+      "name": {
+        "ko": "후크",
+        "en": "Hook",
+        "ja": "フック",
+        "zh": "虎克"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1109.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1110",
+      "name": {
+        "ko": "링스",
+        "en": "Lynx",
+        "ja": "リンクス",
+        "zh": "玲可"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Priest",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1110.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1111",
+      "name": {
+        "ko": "루카",
+        "en": "Luka",
+        "ja": "ルカ",
+        "zh": "卢卡"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1111.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1112",
+      "name": {
+        "ko": "토파즈&복순이",
+        "en": "Topaz & Numby",
+        "ja": "トパーズ&カブ",
+        "zh": "托帕&账账"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1112.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1201",
+      "name": {
+        "ko": "청작",
+        "en": "Qingque",
+        "ja": "青雀",
+        "zh": "青雀"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1201.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1202",
+      "name": {
+        "ko": "정운",
+        "en": "Tingyun",
+        "ja": "停雲",
+        "zh": "停云"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1202.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1203",
+      "name": {
+        "ko": "나찰",
+        "en": "Luocha",
+        "ja": "羅刹",
+        "zh": "罗刹"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Priest",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1203.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1204",
+      "name": {
+        "ko": "경원",
+        "en": "Jing Yuan",
+        "ja": "景元",
+        "zh": "景元"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1204.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1205",
+      "name": {
+        "ko": "블레이드",
+        "en": "Blade",
+        "ja": "刃",
+        "zh": "刃"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1205.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1206",
+      "name": {
+        "ko": "소상",
+        "en": "Sushang",
+        "ja": "素裳",
+        "zh": "素裳"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1206.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1207",
+      "name": {
+        "ko": "어공",
+        "en": "Yukong",
+        "ja": "御空",
+        "zh": "驭空"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1207.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1208",
+      "name": {
+        "ko": "부현",
+        "en": "Fu Xuan",
+        "ja": "符玄",
+        "zh": "符玄"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Knight",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1208.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1209",
+      "name": {
+        "ko": "연경",
+        "en": "Yanqing",
+        "ja": "彦卿",
+        "zh": "彦卿"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1209.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1210",
+      "name": {
+        "ko": "계네빈",
+        "en": "Guinaifen",
+        "ja": "桂乃芬",
+        "zh": "桂乃芬"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1210.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1211",
+      "name": {
+        "ko": "백로",
+        "en": "Bailu",
+        "ja": "白露",
+        "zh": "白露"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Priest",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1211.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1212",
+      "name": {
+        "ko": "경류",
+        "en": "Jingliu",
+        "ja": "鏡流",
+        "zh": "镜流"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1212.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1213",
+      "name": {
+        "ko": "단항•음월",
+        "en": "Dan Heng • Imbibitor Lunae",
+        "ja": "丹恒・飲月",
+        "zh": "丹恒•饮月"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1213.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1214",
+      "name": {
+        "ko": "설의",
+        "en": "Xueyi",
+        "ja": "雪衣",
+        "zh": "雪衣"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1214.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1215",
+      "name": {
+        "ko": "한아",
+        "en": "Hanya",
+        "ja": "寒鴉",
+        "zh": "寒鸦"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1215.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1217",
+      "name": {
+        "ko": "곽향",
+        "en": "Huohuo",
+        "ja": "フォフォ",
+        "zh": "藿藿"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Priest",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1217.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1218",
+      "name": {
+        "ko": "초구",
+        "en": "Jiaoqiu",
+        "ja": "椒丘",
+        "zh": "椒丘"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1218.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1220",
+      "name": {
+        "ko": "비소",
+        "en": "Feixiao",
+        "ja": "飛霄",
+        "zh": "飞霄"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1220.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1221",
+      "name": {
+        "ko": "운리",
+        "en": "Yunli",
+        "ja": "雲璃",
+        "zh": "云璃"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1221.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1222",
+      "name": {
+        "ko": "영사",
+        "en": "Lingsha",
+        "ja": "霊砂",
+        "zh": "灵砂"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Priest",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1222.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1223",
+      "name": {
+        "ko": "맥택",
+        "en": "Moze",
+        "ja": "モゼ",
+        "zh": "貊泽"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1223.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1224",
+      "name": {
+        "ko": "Mar. 7th",
+        "en": "March 7th",
+        "ja": "三月なのか",
+        "zh": "三月七"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1224.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1225",
+      "name": {
+        "ko": "망귀인",
+        "en": "Fugue",
+        "ja": "帰忘の流離人",
+        "zh": "忘归人"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1225.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1301",
+      "name": {
+        "ko": "갤러거",
+        "en": "Gallagher",
+        "ja": "ギャラガー",
+        "zh": "加拉赫"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Priest",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1301.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1302",
+      "name": {
+        "ko": "아젠티",
+        "en": "Argenti",
+        "ja": "アルジェンティ",
+        "zh": "银枝"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1302.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1303",
+      "name": {
+        "ko": "완•매",
+        "en": "Ruan Mei",
+        "ja": "ルアン・メェイ",
+        "zh": "阮•梅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1303.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1304",
+      "name": {
+        "ko": "어벤츄린",
+        "en": "Aventurine",
+        "ja": "アベンチュリン",
+        "zh": "砂金"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Knight",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1304.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1305",
+      "name": {
+        "ko": "Dr. 레이시오",
+        "en": "Dr. Ratio",
+        "ja": "Dr.レイシオ",
+        "zh": "真理医生"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1305.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1306",
+      "name": {
+        "ko": "스파클",
+        "en": "Sparkle",
+        "ja": "花火",
+        "zh": "花火"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1306.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1307",
+      "name": {
+        "ko": "블랙 스완",
+        "en": "Black Swan",
+        "ja": "ブラックスワン",
+        "zh": "黑天鹅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1307.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1308",
+      "name": {
+        "ko": "아케론",
+        "en": "Acheron",
+        "ja": "黄泉",
+        "zh": "黄泉"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1308.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1309",
+      "name": {
+        "ko": "로빈",
+        "en": "Robin",
+        "ja": "ロビン",
+        "zh": "知更鸟"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1309.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1310",
+      "name": {
+        "ko": "반디",
+        "en": "Firefly",
+        "ja": "ホタル",
+        "zh": "流萤"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1310.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1312",
+      "name": {
+        "ko": "미샤",
+        "en": "Misha",
+        "ja": "ミーシャ",
+        "zh": "米沙"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 4,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1312.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1313",
+      "name": {
+        "ko": "선데이",
+        "en": "Sunday",
+        "ja": "サンデー",
+        "zh": "星期日"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1313.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1314",
+      "name": {
+        "ko": "제이드",
+        "en": "Jade",
+        "ja": "ジェイド",
+        "zh": "翡翠"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1314.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1315",
+      "name": {
+        "ko": "부트힐",
+        "en": "Boothill",
+        "ja": "ブートヒル",
+        "zh": "波提欧"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1315.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1317",
+      "name": {
+        "ko": "라파",
+        "en": "Rappa",
+        "ja": "乱破",
+        "zh": "乱破"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1317.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1321",
+      "name": {
+        "ko": "달리아",
+        "en": "The Dahlia",
+        "ja": "ダリア",
+        "zh": "大丽花"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1321.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1401",
+      "name": {
+        "ko": "더 헤르타",
+        "en": "The Herta",
+        "ja": "マダム・ヘルタ",
+        "zh": "大黑塔"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1401.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1402",
+      "name": {
+        "ko": "아글라이아",
+        "en": "Aglaea",
+        "ja": "アグライア",
+        "zh": "阿格莱雅"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Memory",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1402.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1403",
+      "name": {
+        "ko": "트리비",
+        "en": "Tribbie",
+        "ja": "トリビー",
+        "zh": "缇宝"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1403.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1404",
+      "name": {
+        "ko": "마이데이",
+        "en": "Mydei",
+        "ja": "モーディス",
+        "zh": "万敌"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1404.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1405",
+      "name": {
+        "ko": "아낙사",
+        "en": "Anaxa",
+        "ja": "アナイクス",
+        "zh": "那刻夏"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1405.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1406",
+      "name": {
+        "ko": "사이퍼",
+        "en": "Cipher",
+        "ja": "サフェル",
+        "zh": "赛飞儿"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1406.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1407",
+      "name": {
+        "ko": "카스토리스",
+        "en": "Castorice",
+        "ja": "キャストリス",
+        "zh": "遐蝶"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Memory",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1407.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1408",
+      "name": {
+        "ko": "파이논",
+        "en": "Phainon",
+        "ja": "ファイノン",
+        "zh": "白厄"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1408.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1409",
+      "name": {
+        "ko": "히아킨",
+        "en": "Hyacine",
+        "ja": "ヒアンシー",
+        "zh": "风堇"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Memory",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1409.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1410",
+      "name": {
+        "ko": "히실렌스",
+        "en": "Hysilens",
+        "ja": "セイレンス",
+        "zh": "海瑟音"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1410.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1412",
+      "name": {
+        "ko": "케리드라",
+        "en": "Cerydra",
+        "ja": "ケリュドラ",
+        "zh": "刻律德菈"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1412.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1413",
+      "name": {
+        "ko": "에버나이트",
+        "en": "Evernight",
+        "ja": "長夜月",
+        "zh": "长夜月"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Memory",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1413.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1414",
+      "name": {
+        "ko": "단항•등황",
+        "en": "Dan Heng • Permansor Terrae",
+        "ja": "丹恒・騰荒",
+        "zh": "丹恒•腾荒"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Knight",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1414.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1415",
+      "name": {
+        "ko": "키레네",
+        "en": "Cyrene",
+        "ja": "キュレネ",
+        "zh": "昔涟"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Memory",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1415.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1501",
+      "name": {
+        "ko": "스파키",
+        "en": "Sparxie",
+        "ja": "火花",
+        "zh": "火花"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1501.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1502",
+      "name": {
+        "ko": "효광",
+        "en": "Yao Guang",
+        "ja": "爻光",
+        "zh": "爻光"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1502.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1503",
+      "name": {
+        "ko": "펄",
+        "en": "Pearl",
+        "ja": "パール",
+        "zh": "真珠"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1503.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1504",
+      "name": {
+        "ko": "애쉬베일",
+        "en": "Ashveil",
+        "ja": "不死途",
+        "zh": "不死途"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Rogue",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1504.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1505",
+      "name": {
+        "ko": "에바네시아",
+        "en": "Evanescia",
+        "ja": "緋英",
+        "zh": "绯英"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1505.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1506",
+      "name": {
+        "ko": "은랑 LV.999",
+        "en": "Silver Wolf LV.999",
+        "ja": "銀狼LV.999",
+        "zh": "银狼LV.999"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1506.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1507",
+      "name": {
+        "ko": "천야•블레이드",
+        "en": "Mortenax Blade",
+        "ja": "千冶・刃",
+        "zh": "千冶•刃"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warlock",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1507.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1508",
+      "name": {
+        "ko": "토오사카 린",
+        "en": "Rin Tohsaka",
+        "ja": "遠坂凛",
+        "zh": "远坂凛"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1508.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1509",
+      "name": {
+        "ko": "길가메시",
+        "en": "Gilgamesh",
+        "ja": "ギルガメッシュ",
+        "zh": "吉尔伽美什"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1509.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1510",
+      "name": {
+        "ko": "히메코•노바",
+        "en": "Himeko • Nova",
+        "ja": "姫子・旅立ち",
+        "zh": "姬子•启行"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mage",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1510.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1512",
+      "name": {
+        "ko": "로빈•서머레토",
+        "en": "Robin • Summeretto",
+        "ja": "ロビン・夏空の歌",
+        "zh": "知更鸟•晴歌"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Memory",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Wind",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1512.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1513",
+      "name": {
+        "ko": "어벤츄린•웨이브",
+        "en": "Aventurine • Waveflair",
+        "ja": "アベンチュリン・波と戯れる夏",
+        "zh": "砂金•戏浪"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Quantum",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/1513.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8001",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8001.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8002",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Warrior",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Physical",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8002.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8003",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Knight",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8003.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8004",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Knight",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Fire",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8004.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8005",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8005.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8006",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Shaman",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Imaginary",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8006.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8007",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Memory",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8007.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8008",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Memory",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Ice",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8008.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8009",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8009.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8010",
+      "name": {
+        "ko": "{NICKNAME}",
+        "en": "{NICKNAME}",
+        "ja": "{NICKNAME}",
+        "zh": "{NICKNAME}"
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+      "sourceKind": "community",
+      "rarity": 5,
+      "traits": [
+        {
+          "id": "path",
+          "label": {
+            "ko": "",
+            "en": "Path",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Elation",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "element",
+          "label": {
+            "ko": "",
+            "en": "Element",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Thunder",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "image": {
+        "url": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/image/character_portrait/8010.png",
+        "kind": "splash",
+        "sourceUrl": "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/en/characters.json",
+        "locale": "neutral"
+      }
+    }
+  ],
+  "coverage": {
+    "sourceCount": 98,
+    "includedCount": 98,
+    "note": "Source catalog availability; no released flag or chronological dates in rows. Distinct source form IDs preserved."
+  },
+  "sourceVersion": "4.6.0"
+}

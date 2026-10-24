@@ -1,0 +1,7549 @@
+{
+  "gameId": "reverse1999",
+  "sourceName": "Prydwen Institute",
+  "sourceUrls": [
+    "https://www.prydwen.gg/re1999/characters/"
+  ],
+  "checkedAt": "2026-10-24T11:12:32.842981Z",
+  "characters": [
+    {
+      "id": "0",
+      "name": {
+        "ko": "",
+        "en": "An-an Lee",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/an-an-lee/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/an-an-lee_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "1",
+      "name": {
+        "ko": "",
+        "en": "Druvis III",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/druvis-iii/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/druvis-iii_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "10",
+      "name": {
+        "ko": "",
+        "en": "Eternity",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/eternity/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/eternity_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "100",
+      "name": {
+        "ko": "",
+        "en": "Noire",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/noire/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/noire_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "101",
+      "name": {
+        "ko": "",
+        "en": "Recoleta",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/recoleta/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/recoleta_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "102",
+      "name": {
+        "ko": "",
+        "en": "Aleph",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/aleph/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/aleph_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "103",
+      "name": {
+        "ko": "",
+        "en": "Hissabeth",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/hissabeth/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/hissabeth_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "104",
+      "name": {
+        "ko": "",
+        "en": "Name Day",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/name-day/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/name-day_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "105",
+      "name": {
+        "ko": "",
+        "en": "Kiperina",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/kiperina/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/kiperina_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "106",
+      "name": {
+        "ko": "",
+        "en": "Nautika",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/nautika/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/nautika_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "107",
+      "name": {
+        "ko": "",
+        "en": "Ulrich",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ulrich/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ulrich_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "108",
+      "name": {
+        "ko": "",
+        "en": "Buddy Fairchild",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/buddy-fairchild/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/buddy-fairchild_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "109",
+      "name": {
+        "ko": "",
+        "en": "Moldir",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/moldir/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/moldir_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "11",
+      "name": {
+        "ko": "",
+        "en": "Ms. NewBabel",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ms-newbabel/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ms-newbabel_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "110",
+      "name": {
+        "ko": "",
+        "en": "Sentinel",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/sentinel/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/sentinel_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "111",
+      "name": {
+        "ko": "",
+        "en": "Charon",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/charon/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/charon_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "112",
+      "name": {
+        "ko": "",
+        "en": "Ezio Auditore",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ezio-auditore/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ezio-auditore_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "113",
+      "name": {
+        "ko": "",
+        "en": "Kassandra",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/kassandra/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/kassandra_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "114",
+      "name": {
+        "ko": "",
+        "en": "Alexios",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/alexios/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/alexios_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "115",
+      "name": {
+        "ko": "",
+        "en": "Rubuska",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/rubuska/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/rubuska_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "116",
+      "name": {
+        "ko": "",
+        "en": "Corvus",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/corvus/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/corvus_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "117",
+      "name": {
+        "ko": "",
+        "en": "Beryl",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/beryl/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/beryl_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "118",
+      "name": {
+        "ko": "",
+        "en": "Brume",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/brume/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/brume_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "119",
+      "name": {
+        "ko": "",
+        "en": "Marsha",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/marsha/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/marsha_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "12",
+      "name": {
+        "ko": "",
+        "en": "X",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/x/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/x_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "120",
+      "name": {
+        "ko": "",
+        "en": "Igor",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/igor/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/igor_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "121",
+      "name": {
+        "ko": "",
+        "en": "Paper Heron",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/paper-heron/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/paper-heron_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "122",
+      "name": {
+        "ko": "",
+        "en": "Reed",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/reed/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/reed_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "123",
+      "name": {
+        "ko": "",
+        "en": "Cheng Heguang",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/cheng-heguang/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/cheng-heguang_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "124",
+      "name": {
+        "ko": "",
+        "en": "Lorentz Butterfly",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/lorentz-butterfly/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/lorentz-butterfly_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "125",
+      "name": {
+        "ko": "",
+        "en": "Ramona",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ramona/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ramona_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "126",
+      "name": {
+        "ko": "",
+        "en": "Enigma",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/enigma/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/enigma_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "127",
+      "name": {
+        "ko": "",
+        "en": "Rhiannon",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/rhiannon/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/rhiannon_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "128",
+      "name": {
+        "ko": "",
+        "en": "Coppélia",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/coppelia/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/coppelia_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "129",
+      "name": {
+        "ko": "",
+        "en": "Silverwing Eagle",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/silverwing-eagle/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/silverwing-eagle_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "13",
+      "name": {
+        "ko": "",
+        "en": "Sweetheart",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/sweetheart/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/sweetheart_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "130",
+      "name": {
+        "ko": "",
+        "en": "Ms. Stranger",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ms-stranger/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ms-stranger_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "131",
+      "name": {
+        "ko": "",
+        "en": "Everecho",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/everecho/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ]
+    },
+    {
+      "id": "132",
+      "name": {
+        "ko": "",
+        "en": "Cornerstone",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/cornerstone/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/cornerstone_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "133",
+      "name": {
+        "ko": "",
+        "en": "The Twins",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/the-twins/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ]
+    },
+    {
+      "id": "134",
+      "name": {
+        "ko": "",
+        "en": "NORA",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/nora/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/nora_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "135",
+      "name": {
+        "ko": "",
+        "en": "Hedone",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/hedone/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/hedone_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "136",
+      "name": {
+        "ko": "",
+        "en": "Narcissus",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/narcissus/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/narcissus_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "137",
+      "name": {
+        "ko": "",
+        "en": "Huntsworn Lilya",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/huntsworn-lilya/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/generic/1790557001031-d451149859debf0fc0a4ec4168b57a21.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/"
+      }
+    },
+    {
+      "id": "138",
+      "name": {
+        "ko": "",
+        "en": "Glyndŵr",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/glyndwr/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/generic/1790561738790-377080453673fe17516fd485a5397a34.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/"
+      }
+    },
+    {
+      "id": "14",
+      "name": {
+        "ko": "",
+        "en": "Baby Blue",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/baby-blue/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/baby-blue_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "15",
+      "name": {
+        "ko": "",
+        "en": "Charlie",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/charlie/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/charlie_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "16",
+      "name": {
+        "ko": "",
+        "en": "Bkornblume",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/bkornblume/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/bkornblume_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "17",
+      "name": {
+        "ko": "",
+        "en": "Dikke",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/dikke/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/dikke_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "18",
+      "name": {
+        "ko": "",
+        "en": "Sonetto",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/sonetto/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/sonetto_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "19",
+      "name": {
+        "ko": "",
+        "en": "Balloon Party",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/balloon-party/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/balloon-party_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "2",
+      "name": {
+        "ko": "",
+        "en": "Sotheby",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/sotheby/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/sotheby_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "20",
+      "name": {
+        "ko": "",
+        "en": "Necrologist",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/necrologist/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/necrologist_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "21",
+      "name": {
+        "ko": "",
+        "en": "Satsuki",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/satsuki/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/satsuki_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "22",
+      "name": {
+        "ko": "",
+        "en": "Tennant",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/tennant/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/tennant_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "23",
+      "name": {
+        "ko": "",
+        "en": "Click",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/click/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/click_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "24",
+      "name": {
+        "ko": "",
+        "en": "Nick Bottom",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/nick-bottom/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/nick-bottom_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "25",
+      "name": {
+        "ko": "",
+        "en": "Eagle",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/eagle/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/eagle_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "26",
+      "name": {
+        "ko": "",
+        "en": "Зима",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/winter/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/winter_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "27",
+      "name": {
+        "ko": "",
+        "en": "Bunny Bunny",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/bunny-bunny/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/bunny-bunny_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "28",
+      "name": {
+        "ko": "",
+        "en": "Pavia",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/pavia/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/pavia_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "29",
+      "name": {
+        "ko": "",
+        "en": "Oliver Fog",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/oliver-fog/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/oliver-fog_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "3",
+      "name": {
+        "ko": "",
+        "en": "Regulus",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/regulus/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/regulus_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "30",
+      "name": {
+        "ko": "",
+        "en": "APPLe",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/apple/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/apple_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "31",
+      "name": {
+        "ko": "",
+        "en": "Cristallo",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/cristallo/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/cristallo_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "32",
+      "name": {
+        "ko": "",
+        "en": "TTT",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ttt/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ttt_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "33",
+      "name": {
+        "ko": "",
+        "en": "Rabies",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/rabies/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/rabies_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "34",
+      "name": {
+        "ko": "",
+        "en": "Ms. Moissan",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ms-moissan/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ms-moissan_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "35",
+      "name": {
+        "ko": "",
+        "en": "Poltergeist",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/poltergeist/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/poltergeist_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "36",
+      "name": {
+        "ko": "",
+        "en": "Mesmer Jr.",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/mesmer-jr/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/mesmer-jr_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "37",
+      "name": {
+        "ko": "",
+        "en": "Erick",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/erick/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/erick_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "38",
+      "name": {
+        "ko": "",
+        "en": "The Fool",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/the-fool/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/the-fool_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "39",
+      "name": {
+        "ko": "",
+        "en": "La Source",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/la-source/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/la-source_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "4",
+      "name": {
+        "ko": "",
+        "en": "Lilya",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/lilya/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/lilya_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "40",
+      "name": {
+        "ko": "",
+        "en": "aliEn T",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/alien-t/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/alien-t_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "41",
+      "name": {
+        "ko": "",
+        "en": "Leilani",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/leilani/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/leilani_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "42",
+      "name": {
+        "ko": "",
+        "en": "John Titor",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/john-titor/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/john-titor_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "43",
+      "name": {
+        "ko": "",
+        "en": "Twins Sleep",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/twins-sleep/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/twins-sleep_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "44",
+      "name": {
+        "ko": "",
+        "en": "Bette",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/bette/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/bette_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "45",
+      "name": {
+        "ko": "",
+        "en": "Darley Clatter",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/darley-clatter/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/darley-clatter_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "46",
+      "name": {
+        "ko": "",
+        "en": "ONiON",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/onion/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/onion_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "47",
+      "name": {
+        "ko": "",
+        "en": "Sputnik",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/sputnik/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/sputnik_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "48",
+      "name": {
+        "ko": "",
+        "en": "Ms. Radio",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ms-radio/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 2,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ms-radio_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "49",
+      "name": {
+        "ko": "",
+        "en": "Door",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/door/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 2,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/door_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "5",
+      "name": {
+        "ko": "",
+        "en": "Centurion",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/centurion/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/centurion_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "50",
+      "name": {
+        "ko": "",
+        "en": "Mondlicht",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/mondlicht/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/mondlicht_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "51",
+      "name": {
+        "ko": "",
+        "en": "Matilda",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/matilda/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/matilda_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "53",
+      "name": {
+        "ko": "",
+        "en": "Melania",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/melania/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/melania_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "54",
+      "name": {
+        "ko": "",
+        "en": "Pickles",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/pickles/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/pickles_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "55",
+      "name": {
+        "ko": "",
+        "en": "Diggers",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/diggers/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/diggers_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "56",
+      "name": {
+        "ko": "",
+        "en": "Tooth Fairy",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/tooth-fairy/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/tooth-fairy_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "57",
+      "name": {
+        "ko": "",
+        "en": "Blonney",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/blonney/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/blonney_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "58",
+      "name": {
+        "ko": "",
+        "en": "Jessica",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/jessica/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/jessica_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "59",
+      "name": {
+        "ko": "",
+        "en": "Horropedia",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/horropedia/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/horropedia_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "60",
+      "name": {
+        "ko": "",
+        "en": "Shamane",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/shamane/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/shamane_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "61",
+      "name": {
+        "ko": "",
+        "en": "Kanjira",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/kanjira/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/kanjira_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "62",
+      "name": {
+        "ko": "",
+        "en": "Kaalaa Baunaa",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/kaalaa-baunaa/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/kaalaa-baunaa_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "64",
+      "name": {
+        "ko": "",
+        "en": "37",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/37/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/37_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "65",
+      "name": {
+        "ko": "",
+        "en": "6",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/6/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/6_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "66",
+      "name": {
+        "ko": "",
+        "en": "Ezra Theodore",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ezra-theodore/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ezra-theodore_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "67",
+      "name": {
+        "ko": "",
+        "en": "Ulu",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/ulu/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/ulu_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "68",
+      "name": {
+        "ko": "",
+        "en": "Desert Flannel",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/desert-flannel/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/desert-flannel_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "69",
+      "name": {
+        "ko": "",
+        "en": "Jiu Niangzi",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/jiu-niangzi/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/jiu-niangzi_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "7",
+      "name": {
+        "ko": "",
+        "en": "A Knight",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/a-knight/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/a-knight_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "70",
+      "name": {
+        "ko": "",
+        "en": "Spathodea",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/spathodea/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/spathodea_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "71",
+      "name": {
+        "ko": "",
+        "en": "Yenisei",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/yenisei/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/yenisei_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "72",
+      "name": {
+        "ko": "",
+        "en": "Getian",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/getian/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/getian_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "73",
+      "name": {
+        "ko": "",
+        "en": "Isolde",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/isolde/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/isolde_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "74",
+      "name": {
+        "ko": "",
+        "en": "Marcus",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/marcus/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/marcus_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "76",
+      "name": {
+        "ko": "",
+        "en": "Vila",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/vila/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/vila_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "77",
+      "name": {
+        "ko": "",
+        "en": "Avgust",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/avgust/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/avgust_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "78",
+      "name": {
+        "ko": "",
+        "en": "Windsong",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/windsong/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/windsong_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "79",
+      "name": {
+        "ko": "",
+        "en": "Lucy",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/lucy/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/lucy_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "8",
+      "name": {
+        "ko": "",
+        "en": "Medicine Pocket ",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/medicine-pocket/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/medicine-pocket_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "80",
+      "name": {
+        "ko": "",
+        "en": "Semmelweis",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/semmelweis/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/semmelweis_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "81",
+      "name": {
+        "ko": "",
+        "en": "Lorelei",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/lorelei/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/lorelei_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "82",
+      "name": {
+        "ko": "",
+        "en": "Kakania",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/kakania/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/kakania_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "83",
+      "name": {
+        "ko": "",
+        "en": "J",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/j/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/j_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "84",
+      "name": {
+        "ko": "",
+        "en": "Pioneer",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/pioneer/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 3,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/pioneer_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "85",
+      "name": {
+        "ko": "",
+        "en": "Mercuria",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/mercuria/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/mercuria_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "86",
+      "name": {
+        "ko": "",
+        "en": "Tuesday",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/tuesday/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/tuesday_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "87",
+      "name": {
+        "ko": "",
+        "en": "Barbara",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/barbara/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Spirit",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/barbara_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "88",
+      "name": {
+        "ko": "",
+        "en": "Argus",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/argus/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/argus_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "89",
+      "name": {
+        "ko": "",
+        "en": "Anjo Nala",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/anjo-nala/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/anjo-nala_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "9",
+      "name": {
+        "ko": "",
+        "en": "Voyager",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/voyager/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/voyager_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "90",
+      "name": {
+        "ko": "",
+        "en": "Mr. Duncan",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/mr-duncan/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/mr-duncan_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "91",
+      "name": {
+        "ko": "",
+        "en": "White Rum",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/white-rum/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Intellect",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 4,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/white-rum_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "92",
+      "name": {
+        "ko": "",
+        "en": "Lopera",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/lopera/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Beast",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/lopera_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "93",
+      "name": {
+        "ko": "",
+        "en": "Willow",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/willow/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/willow_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "94",
+      "name": {
+        "ko": "",
+        "en": "Flutterpage",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/flutterpage/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/flutterpage_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "95",
+      "name": {
+        "ko": "",
+        "en": "Brimley",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/brimley/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/brimley_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "96",
+      "name": {
+        "ko": "",
+        "en": "Barcarola",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/barcarola/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/barcarola_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "97",
+      "name": {
+        "ko": "",
+        "en": "Fatutu",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/fatutu/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mineral",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/fatutu_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "98",
+      "name": {
+        "ko": "",
+        "en": "Liang Yue",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/liang-yue/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Star",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Reality",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 6,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/liang-yue_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    },
+    {
+      "id": "99",
+      "name": {
+        "ko": "",
+        "en": "Loggerhead",
+        "ja": "",
+        "zh": ""
+      },
+      "sourceUrl": "https://www.prydwen.gg/re1999/characters/loggerhead/",
+      "sourceKind": "community",
+      "traits": [
+        {
+          "id": "afflatus",
+          "label": {
+            "ko": "",
+            "en": "Afflatus",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Plant",
+            "ja": "",
+            "zh": ""
+          }
+        },
+        {
+          "id": "damageType",
+          "label": {
+            "ko": "",
+            "en": "Damagetype",
+            "ja": "",
+            "zh": ""
+          },
+          "value": {
+            "ko": "",
+            "en": "Mental",
+            "ja": "",
+            "zh": ""
+          }
+        }
+      ],
+      "rarity": 5,
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "image": {
+        "url": "https://cdn.prydwen.gg/images/re1999/characters/loggerhead_full.webp",
+        "kind": "full-body",
+        "sourceUrl": "https://www.prydwen.gg/re1999/characters/",
+        "locale": "neutral"
+      }
+    }
+  ],
+  "coverage": {
+    "sourceCount": 135,
+    "includedCount": 135,
+    "note": "English community source names; native locale values intentionally empty. Source index availability does not assert release dates. Preserve exact form/identity ids. availableInGlobal false restricts to cn; no future CN schedule copied to other regions."
+  }
+}

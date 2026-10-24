@@ -1,0 +1,14 @@
+[
+  {
+    "file": "TSCharacters.txt",
+    "sourceUrl": "https://raw.githubusercontent.com/BYVoid/OpenCC/master/data/dictionary/TSCharacters.txt",
+    "sha256": "9ff46a7d30e5765375eb13d33f2b03a34d298913caf2b120380679f33ae1642d",
+    "purpose": "Traditional-to-Simplified script normalization only; not a character-name translation"
+  },
+  {
+    "file": "TSPhrases.txt",
+    "sourceUrl": "https://raw.githubusercontent.com/BYVoid/OpenCC/master/data/dictionary/TSPhrases.txt",
+    "sha256": "9a23666e95c97dbf8668b5d71ca19f09f33b4f3a3aa9e05677dab4b608cef102",
+    "purpose": "Traditional-to-Simplified script normalization only; not a character-name translation"
+  }
+]

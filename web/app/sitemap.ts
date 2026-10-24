@@ -4,10 +4,12 @@ import {games} from '@/lib/games';
 import {supportedLocales} from '@/lib/catalog-paths';
 import {catalogAlternates,canonicalCatalogPath} from '@/lib/seo';
 import {effectiveRegion} from '@/lib/presentation';
+import {gameSectionPath} from '@/lib/discovery';
 export default function sitemap():MetadataRoute.Sitemap{
  const pages:MetadataRoute.Sitemap=[{url:brandOrigin+'/',changeFrequency:'daily',priority:1,alternates:{languages:catalogAlternates()}}];
  for(const locale of supportedLocales){
   pages.push({url:brandOrigin+'/'+locale+'/download',changeFrequency:'monthly',priority:.6,alternates:{languages:Object.fromEntries(supportedLocales.map(l=>[l,brandOrigin+'/'+l+'/download']))}},{url:brandOrigin+'/'+locale,changeFrequency:'daily',priority:.9,alternates:{languages:catalogAlternates()}});
+  for(const game of games)for(const section of ['leaks','characters'] as const)pages.push({url:brandOrigin+gameSectionPath(locale,game.id,section),changeFrequency:'daily',priority:.6,alternates:{languages:Object.fromEntries(supportedLocales.map(l=>[l,brandOrigin+gameSectionPath(l,game.id,section)]))}});
   for(const game of games)for(const service of [...new Set(game.regions.map(r=>effectiveRegion(game,r)))])pages.push({url:brandOrigin+canonicalCatalogPath(locale,game.id,service),changeFrequency:'daily',priority:.8,alternates:{languages:catalogAlternates(game.id,service)}});
  }
  return [...new Map(pages.map(p=>[p.url,p])).values()];

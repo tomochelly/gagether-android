@@ -10,7 +10,7 @@ export function embeddedJson(html:string,name:string):any{
 export function channelVideos(html:string):{channelId:string;ids:string[]}{
  const data=embeddedJson(html,'ytInitialData');const ids=new Set<string>();
  function walk(x:any){if(!x||typeof x!=='object')return;if(x.videoRenderer?.videoId)ids.add(x.videoRenderer.videoId);if(x.lockupViewModel?.contentId)ids.add(x.lockupViewModel.contentId);for(const v of Object.values(x))if(v&&typeof v==='object')walk(v);}
- walk(data);return {channelId:data?.metadata?.channelMetadataRenderer?.externalId||'',ids:[...ids].filter(x=>/^[\w-]{11}$/.test(x)).slice(0,3)};
+ walk(data);return {channelId:data?.metadata?.channelMetadataRenderer?.externalId||'',ids:[...ids].filter(x=>/^[\w-]{11}$/.test(x)).slice(0,8)};
 }
 export function readBroadcast(html:string,id:string,channelId:string,locale:OfficialBroadcast['locale'],checkedAt:string,old?:OfficialBroadcast):OfficialBroadcast|null{
  const p=embeddedJson(html,'ytInitialPlayerResponse'),v=p?.videoDetails,m=p?.microformat?.playerMicroformatRenderer,l=m?.liveBroadcastDetails;

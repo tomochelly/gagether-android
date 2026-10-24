@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-24T11:32:59.545668Z",
+  "finishedAt": "2026-10-24T11:33:25.136066Z",
+  "results": [
+    {
+      "gameId": "holodreams",
+      "status": "unchanged",
+      "eligibleForIngest": true,
+      "changed": false,
+      "path": "/tmp/gagether-roster-research/collector-test/normalized/holodreams.json",
+      "includedCount": 54,
+      "images": 54,
+      "preservedImages": 0,
+      "sources": [
+        {
+          "key": "en",
+          "url": "https://hololive-dreams.com/en/",
+          "checkedAt": "2026-10-24T11:33:12.018832Z",
+          "httpStatus": 200,
+          "status": "changed",
+          "sha256": "bc8e24393d8e6024f567163ec83c1de7c6b96be05db3a48cf0808f2100c8573d",
+          "etag": null,
+          "lastModified": null,
+          "bytes": 2681534
+        },
+        {
+          "key": "ja",
+          "url": "https://hololive-dreams.com/",
+          "checkedAt": "2026-10-24T11:33:25.116339Z",
+          "httpStatus": 200,
+          "status": "changed",
+          "sha256": "e8dadb940dd442be7877041cf9fdb606f69413871729193cd1df94a32faccf77",
+          "etag": null,
+          "lastModified": null,
+          "bytes": 2671640
+        }
+      ],
+      "checkedAt": "2026-10-24T11:33:25.133948Z"
+    },
+    {
+      "gameId": "gfl2",
+      "status": "updated",
+      "eligibleForIngest": true,
+      "changed": true,
+      "path": "/tmp/gagether-roster-research/collector-test/normalized/gfl2.json",
+      "includedCount": 59,
+      "images": 59,
+      "preservedImages": 0,
+      "sources": [
+        {
+          "key": "characters",
+          "url": "https://gfl2.help/en/characters",
+          "checkedAt": "2026-10-24T11:33:04.823236Z",
+          "httpStatus": 200,
+          "status": "changed",
+          "sha256": "98a295d26e94fa8da50073f340b0a6e9bec89706ba976fdcc973a597d10b7378",
+          "etag": null,
+          "lastModified": null,
+          "bytes": 46649
+        }
+      ],
+      "checkedAt": "2026-10-24T11:33:04.834872Z"
+    }
+  ],
+  "summary": {
+    "games": 2,
+    "succeeded": 2,
+    "failed": 0,
+    "changed": 1
+  },
+  "ingestFiles": [
+    "/tmp/gagether-roster-research/collector-test/normalized/holodreams.json",
+    "/tmp/gagether-roster-research/collector-test/normalized/gfl2.json"
+  ],
+  "changedFiles": [
+    "/tmp/gagether-roster-research/collector-test/normalized/gfl2.json"
+  ]
+}
