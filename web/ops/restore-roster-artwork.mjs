@@ -12,3 +12,4 @@ for(const a of rows){
  const b=Buffer.from(await r.arrayBuffer());if(!valid(b))throw Error('Original hash mismatch: '+a.path);mkdirSync(dirname(path),{recursive:true});writeFileSync(path,b);
 }
 console.log('Verified/restored',rows.length,'immutable roster originals');
+

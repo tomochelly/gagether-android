@@ -1,7 +1,7 @@
 import './load-typescript.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {retainCharacterFacts,enrichCharacterRoster} from '../lib/character-roster-enrichment.ts';
+const {retainCharacterFacts,enrichCharacterRoster}=await import('../lib/character-roster-enrichment.ts');
 import bootstrap from '../content/character-rosters/bootstrap.json' with {type:'json'};
 const copy=s=>({ko:s,en:s,ja:s,zh:s});
 test('sparse and empty source fields preserve exact-ID localized names, full originals and service-specific stats',()=>{

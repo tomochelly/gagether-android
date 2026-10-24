@@ -1,5 +1,6 @@
 import bootstrap from '../content/character-rosters/bootstrap.json' with {type:'json'};
 import artwork from '../content/character-rosters/artwork-manifest.json' with {type:'json'};
+import {cleanRosterArt} from './character-roster-art-guard';
 import type {CharacterRoster,RosterCharacter} from './character-roster';
 
 const snapshots=new Map((bootstrap as CharacterRoster[]).map(r=>[r.gameId,r]));
@@ -14,6 +15,7 @@ function mergeStats(primary:RosterCharacter['stats'],extra:RosterCharacter['stat
 /** Supplements a sparse source response with exact-ID, source-backed saved facts.
  * New source values win; a missing field is not an instruction to erase facts. */
 export function retainCharacterFacts(c:RosterCharacter,extra:RosterCharacter):RosterCharacter{
+  c=cleanRosterArt(c);extra=cleanRosterArt(extra);
   const full=extra.image&&extra.image.kind!=='portrait'&&c.image?.kind==='portrait';
   const oldTraits=new Map(extra.traits?.map(t=>[t.id,t])||[]);
   const traits=c.traits?.length?c.traits.map(t=>{const old=oldTraits.get(t.id);if(!old)return t;return {...old,...t,label:fillCopy(t.label,old.label),value:fillCopy(t.value,old.value),icon:t.icon||old.icon};}):extra.traits;
@@ -23,7 +25,7 @@ export function retainCharacterFacts(c:RosterCharacter,extra:RosterCharacter):Ro
   for(const l of locales)if(c.name[l]&&c.name[l]!==extra.name[l]&&!c.nameSources?.[l])delete nameSources[l];
   const variantDetails={...extra.variantDetails};
   for(const [id,v]of Object.entries(c.variantDetails||{})){const old=extra.variantDetails?.[id];variantDetails[id]=old&&old.sourceId===v.sourceId?{...old,...v,stats:mergeStats(v.stats,old.stats),skillTables:v.skillTables?.length?v.skillTables:old.skillTables,sections:v.sections?.length?v.sections:old.sections}:v;}
-  return {...extra,...c,name:fillCopy(c.name,extra.name),nameSources,traits,
+  return {...extra,...c,detailSources:[...new Map([...(extra.detailSources||[]),...(c.detailSources||[])].map(s=>[s.url,s])).values()].slice(0,40),name:fillCopy(c.name,extra.name),nameSources,traits,
    image:full?extra.image:c.image||extra.image,
    images:[...new Map([...(extra.images||[]),...(c.images||[])].map(a=>[a.url,a])).values()],
    stats:mergeStats(c.stats,extra.stats),...Object.keys(variantDetails).length?{variantDetails}:{},statProgression:c.statProgression||extra.statProgression,statGrowth:c.statGrowth||extra.statGrowth,skillTables:c.skillTables?.length?c.skillTables:extra.skillTables,sections:c.sections?.length?c.sections:extra.sections,
@@ -32,7 +34,14 @@ export function retainCharacterFacts(c:RosterCharacter,extra:RosterCharacter):Ro
 export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
  const reference=snapshots.get(data.gameId);if(!reference)return data;
  const known=new Map(reference.characters.map(c=>[c.id,c]));
- const characters=data.characters.map(c=>{const extra=known.get(c.id);known.delete(c.id);return extra?retainCharacterFacts(c,extra):c;});
+ const characters=data.characters.map(raw=>{
+  let c=raw;
+  if(data.gameId==='hsr'&&/^80(?:0[1-9]|10)$/.test(c.id)&&Object.values(c.name).some(v=>v.includes('{NICKNAME}'))){
+   const path=c.traits?.find(t=>t.id==='path')?.value;const headings={ko:'개척자',en:'Trailblazer',ja:'開拓者',zh:'开拓者'};
+   c={...c,name:{...c.name}};for(const l of locales)if(c.name[l].includes('{NICKNAME}'))c.name[l]=headings[l]+(path?.[l]?' · '+path[l]:'');
+  }
+  const extra=known.get(c.id);known.delete(c.id);return extra?retainCharacterFacts(c,extra):c;
+ });
  characters.push(...known.values());characters.sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
  const pin=(id:string,a:RosterCharacter['image'])=>{if(!a)return a;const saved=artwork.find(s=>s.gameId===data.gameId&&s.characterId===id&&s.url===a.url);return saved?{...a,url:saved.publicUrl}:a;};
  const pinned=characters.map(c=>({...c,image:pin(c.id,c.image),...(c.images?{images:c.images.map(a=>pin(c.id,a)!)}:{})}));

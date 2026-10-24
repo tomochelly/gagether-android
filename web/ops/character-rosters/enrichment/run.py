@@ -3,6 +3,7 @@ No credentials, writes to Site, or publication. Outputs are ingested by the pare
 """
 import concurrent.futures,json,os,pathlib,shutil,subprocess,sys,tempfile
 ROOT=pathlib.Path(__file__).resolve().parent
+REPAIR_ROOT=ROOT
 GROUPS={'a':['limbus','nikke','trickcal','reverse1999'],'b':['umamusume','gfl2','holodreams','nte'],'c':['genshin','hsr','zzz','arknights'],'d':['dna','stellasora'],'e':['hi3','endfield','bluearchive']}
 def enrich_files(files,work):
  work=pathlib.Path(work);inputs=work/'input';inputs.mkdir(parents=True,exist_ok=True)
@@ -77,5 +78,30 @@ def enrich_files(files,work):
     if len(json.dumps(d,ensure_ascii=False).encode())>4400000:raise ValueError('Supplement exceeds ingest bound')
     result[game]=path
    except Exception as e:reports[key].setdefault('validationErrors',[]).append(game+': '+str(e))
+ # Audited secondary source forms extend the primary inventory without renumbering it.
+ spec=__import__('importlib.util',fromlist=['util']).spec_from_file_location('roster_repairs',REPAIR_ROOT/'repairs/run.py')
+ repairs=__import__('importlib.util',fromlist=['util']).module_from_spec(spec);spec.loader.exec_module(repairs)
+ sys.path.insert(0,str(REPAIR_ROOT));from localized_traits import localize
+ allowed={'trickcal':{'trickcal:wikiwiki:'+s for s in ['kyuri','patula','daya-pure-shine','ronnie','maison','mynx','aurora','veroo']},'reverse1999':{'huiji-3136'}}
+ reports['repairs']={'status':'completed','games':{}};dest=work/'repaired';dest.mkdir(exist_ok=True)
+ def fixed(game):
+  original=json.loads(pathlib.Path(result[game]).read_text());data,audit=repairs.repair(original)
+  prior={c['id']for c in original['characters']};current={c['id']for c in data['characters']}
+  if not prior.issubset(current)or current-prior-allowed.get(game,set()):raise ValueError('Unexpected supplemental identity change')
+  data=localize(data)
+  if len(json.dumps(data,ensure_ascii=False).encode())>4400000:raise ValueError('Supplement exceeds ingest bound')
+  missing=[]if game=='holodreams'else[c['id']for c in data['characters']if not(c.get('stats')or c.get('regionalStats'))]
+  audit['missingStatsIds']=missing
+  if missing:audit['status']='partial'
+  if data==original:return game,pathlib.Path(result[game]),audit
+  path=dest/(game+'.json');path.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n');return game,path,audit
+ with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:
+  jobs={pool.submit(fixed,g):g for g in result}
+  for job in concurrent.futures.as_completed(jobs):
+   g=jobs[job]
+   try:
+    _,path,audit=job.result();result[g]=path;reports['repairs']['games'][g]=audit
+    if audit.get('status')=='partial':reports['repairs']['status']='partial'
+   except Exception as e:reports['repairs']['status']='partial';reports['repairs']['games'][g]={'status':'failed','error':str(e)}
  (work/'summary.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2)+'\n')
  return result,reports
