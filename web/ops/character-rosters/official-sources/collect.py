@@ -63,6 +63,11 @@ class Collector:
   path=self.normal/(game+'.json');old=read_json(path) if path.exists() else None
   required={'id','name','sourceUrl','sourceKind'}
   rows=data['characters'];ids=[r['id'] for r in rows]
+  overrides=read_json(ROOT/'asset-overrides.json') or {}
+  for row in rows:
+   for art in [row.get('image'),*row.get('images',[])]:
+    change=overrides.get(art.get('url')) if art else None
+    if change and change['characterId']==row['id']:art.update({k:change[k] for k in ['locale','kind','width','height']})
   if not rows or len(ids)!=len(set(ids)):raise ValueError('Empty/duplicate normalized IDs')
   if any(not required.issubset(r) or set(r['name'])!={'ko','en','ja','zh'} for r in rows):raise ValueError('Invalid normalized character schema')
   # A source disappearance never deletes a previously accepted character.

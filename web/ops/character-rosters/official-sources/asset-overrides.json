@@ -1,0 +1,82 @@
+{
+  "https://uploadstatic.mihoyo.com/contentweb/20201222/2020122214241092224.png": {
+    "locale": "neutral",
+    "kind": "portrait",
+    "width": 419,
+    "height": 122,
+    "sha256": "28d1b728a87880e65630f8d94ee0aa8e4ea6245c2ba24115373eeba962ac6aab",
+    "characterId": "hi3-129944",
+    "inspectedAt": "2026-10-24",
+    "evidence": "Direct visual inspection of the exact original; no language lettering."
+  },
+  "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201029/2020102914425341879.png": {
+    "locale": "neutral",
+    "kind": "splash",
+    "width": 1198,
+    "height": 1151,
+    "sha256": "2d501ebe89153f2ec802fe9c7d1677bfe168ccce88603e3c47ca4f476dd27905",
+    "characterId": "hi3-129942",
+    "inspectedAt": "2026-10-24",
+    "evidence": "Direct visual inspection of the exact original; no language lettering."
+  },
+  "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200927/2020092710591120268.png": {
+    "locale": "neutral",
+    "kind": "splash",
+    "width": 1198,
+    "height": 1151,
+    "sha256": "9424b30854c4ce1e055c5c8d5ba89da9dd15543f3d4313a551ecab96209e92fe",
+    "characterId": "hi3-129941",
+    "inspectedAt": "2026-10-24",
+    "evidence": "Direct visual inspection of the exact original; no language lettering."
+  },
+  "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200702/2020070216120263757.png": {
+    "locale": "neutral",
+    "kind": "splash",
+    "width": 1198,
+    "height": 1151,
+    "sha256": "fbb37d911d3db8598d715a1acc31858462200577cc36a1c52eb3a0a24ef29a04",
+    "characterId": "hi3-129933",
+    "inspectedAt": "2026-10-24",
+    "evidence": "Direct visual inspection of the exact original; no language lettering."
+  },
+  "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200721/2020072117445136273.png": {
+    "locale": "neutral",
+    "kind": "splash",
+    "width": 1198,
+    "height": 1151,
+    "sha256": "3a5be1b05dbd09b4e4df8037d50515e672dedbcacd253bbc860e946889b55db4",
+    "characterId": "hi3-129931",
+    "inspectedAt": "2026-10-24",
+    "evidence": "Direct visual inspection of the exact original; no language lettering."
+  },
+  "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200618/2020061821155482920.png": {
+    "locale": "neutral",
+    "kind": "splash",
+    "width": 1198,
+    "height": 1151,
+    "sha256": "40cd1caa12a691ec8605cdac0a1fd2d05743058e1096639ab094cf3da4411aa7",
+    "characterId": "hi3-129930",
+    "inspectedAt": "2026-10-24",
+    "evidence": "Direct visual inspection of the exact original; no language lettering."
+  },
+  "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200619/2020061916542075564.png": {
+    "locale": "neutral",
+    "kind": "splash",
+    "width": 1198,
+    "height": 1151,
+    "sha256": "4629f500a9645986108f4d911af17d558eb9519ee88e7ceca29ff8fd19028fbc",
+    "characterId": "hi3-129925",
+    "inspectedAt": "2026-10-24",
+    "evidence": "Direct visual inspection of the exact original; no language lettering."
+  },
+  "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200623/2020062314270037913.png": {
+    "locale": "neutral",
+    "kind": "splash",
+    "width": 1198,
+    "height": 1151,
+    "sha256": "d2d1906296028b31125d56801b75bac0d30928befecb942ae269ceb8c76a8d00",
+    "characterId": "hi3-129924",
+    "inspectedAt": "2026-10-24",
+    "evidence": "Direct visual inspection of the exact original; no language lettering."
+  }
+}

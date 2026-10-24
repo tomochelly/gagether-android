@@ -2,18 +2,20 @@
 import concurrent.futures, hashlib, json, os, pathlib, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 ROOT=pathlib.Path(__file__).resolve().parent
 WORK=pathlib.Path(os.environ.get('ROSTER_WORKDIR','/tmp/gagether-rosters')).resolve()
-ENDPOINT='https://gagether.wiki/api/characters'
+ENDPOINT='https://gagether.tomochelly.chatgpt.site/api/characters'
+AUDIENCE='https://gagether.wiki/api/characters'
+AGENT='GAGETHER-CharacterCollector/1.0 (+https://github.com/tomochelly/gagether-android)'
 GAMES=['genshin','hsr','zzz','arknights','nikke','nte','trickcal','reverse1999','limbus','stellasora','gfl2','holodreams','dna','bluearchive','umamusume','hi3','endfield']
 class NoRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,*args,**kwargs):return None
 opener=urllib.request.build_opener(NoRedirect)
 def post(body):
  for attempt in range(3):
-  oidc=os.environ['ACTIONS_ID_TOKEN_REQUEST_URL']+'&audience='+urllib.parse.quote(ENDPOINT,safe='')
+  oidc=os.environ['ACTIONS_ID_TOKEN_REQUEST_URL']+'&audience='+urllib.parse.quote(AUDIENCE,safe='')
   with opener.open(urllib.request.Request(oidc,headers={'Authorization':'Bearer '+os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']}),timeout=20)as r:token=json.load(r)['value']
   print('::add-mask::'+token,flush=True)
   try:
-   req=urllib.request.Request(ENDPOINT,data=json.dumps(body,ensure_ascii=False).encode(),method='POST',headers={'Content-Type':'application/json','Accept':'application/json','X-Gagether-Collection-OIDC':token})
+   req=urllib.request.Request(ENDPOINT,data=json.dumps(body,ensure_ascii=False).encode(),method='POST',headers={'Content-Type':'application/json','Accept':'application/json','X-Gagether-Collection-OIDC':token,'User-Agent':AGENT})
    with opener.open(req,timeout=120)as r:result=json.load(r)
    if result.get('error'):raise RuntimeError(result['error'])
    return result
