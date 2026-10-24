@@ -1,0 +1,14 @@
+import '../../tests/load-typescript.mjs';
+import fs from 'node:fs';
+import path from 'node:path';
+import {normalizeWuwaCharacters,normalizeWutherTower,normalizeWutherSlash,normalizeWutherMatrix,validateWuwaReference,localText} from '../../lib/wuwa-reference.ts';
+const input=process.argv[2];if(!input)throw Error('Pass the directory of inspected public source JSON');
+const read=n=>JSON.parse(fs.readFileSync(path.join(input,n),'utf8'));
+const locales={ko:'ko',en:'en',ja:'ja',zh:'zh-Hans'};
+const byLocale=(type,id)=>Object.fromEntries(Object.entries(locales).map(([key,l])=>[key,read('wuther-'+type+'-'+l+'-'+id+'.json')]));
+const characters=normalizeWuwaCharacters(read('characters.txt'),read('release-evidence.json').entries);
+const now=new Date().toISOString();
+const cycles=[...['41','42'].map(id=>normalizeWutherTower(byLocale('tower',id))),...['22','23'].map(id=>normalizeWutherSlash(byLocale('slash',id))),normalizeWutherMatrix(byLocale('matrix','8'))];
+const snapshot=validateWuwaReference({version:1,gameId:'wuwa',service:'global',sourceVersion:'3.7.8',updatedAt:now,characters,cycles,statistics:{available:false,sources:[{name:'EOD',url:'https://eoddb.com/wuwa/usage',metrics:['appearance','teams'],scope:localText('제출된 편성 표본 · 역경의 탑은 중앙 심연의 탑 4개 층','Submitted-team sample; Tower data covers the four central Hazard Tower floors','投稿編成の標本。逆境深塔は中央の深塔4階が対象','提交编队样本；深塔仅涵盖中央高塔四层'),access:'restricted-details',checkedAt:now}]},sources:[{name:'WuWaBuild · character data',url:'https://github.com/DommyMM/wuwabuild',kind:'community',checkedAt:now},{name:'wuther.in · challenge data',url:'https://wuther.in/ko/toa/',kind:'community',checkedAt:now},{name:'Release-date evidence',url:'https://gachatracker.app/games/wuwa/characters/',kind:'community',checkedAt:now}],coverage:{characterForms:characters.length,sourceCharacters:characters.reduce((n,c)=>n+c.sourceIds.length,0),debutDates:characters.filter(c=>c.debut).length,combatCycles:cycles.length,notes:localText('방랑자는 속성별로 구분하며 성별 원본은 한 항목에 묶습니다.','Rover forms are separated by attribute; gender variants share one entry.','漂泊者は属性別、男女差分は同じ項目にまとめます。','漂泊者按属性区分，男女版本归入同一条目。')}});
+fs.writeFileSync('content/wuwa-reference.json',JSON.stringify(snapshot)+'\n');
+console.log(JSON.stringify({characters:characters.length,sourceCharacters:snapshot.coverage.sourceCharacters,debutDates:snapshot.coverage.debutDates,cycles:cycles.map(c=>({id:c.id,floors:c.floors.length,enemies:c.floors.reduce((n,f)=>n+f.enemies.length,0)})),bytes:fs.statSync('content/wuwa-reference.json').size}));

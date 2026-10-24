@@ -1,0 +1,6 @@
+import {readWuwaReference,refreshWuwaReferenceStep} from '@/lib/wuwa-reference-store';
+import {canWriteData} from '@/lib/write-access';
+import {sameOrigin} from '@/lib/store';
+export const dynamic='force-dynamic';
+export async function GET(request:Request){try{const {data,hash,delivery}=await readWuwaReference(),etag='"wuwa-reference-'+hash+'"',headers={'Cache-Control':'public, max-age=60, stale-while-revalidate=300',ETag:etag};if(request.headers.get('If-None-Match')===etag)return new Response(null,{status:304,headers});return Response.json({data,delivery},{headers});}catch{return Response.json({error:'Reference data temporarily unavailable'},{status:503,headers:{'Cache-Control':'no-store'}});}}
+export async function POST(request:Request){if(!sameOrigin(request)||!await canWriteData(request))return Response.json({error:'Owner or updater required'},{status:403});try{const body=await request.json();if(!body||typeof body!=='object'||!('action' in body)||body.action!=='refresh'||Object.keys(body).some(k=>k!=='action'))return Response.json({error:'Only the fixed refresh action is supported'},{status:400});return Response.json(await refreshWuwaReferenceStep(true),{headers:{'Cache-Control':'no-store'}});}catch{return Response.json({error:'Reference refresh failed'},{status:503});}}

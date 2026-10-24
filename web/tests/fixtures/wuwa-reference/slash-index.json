@@ -1,0 +1,2522 @@
+{
+  "version": "",
+  "seasons": [
+    {
+      "id": "23",
+      "begin": "2026-10-26",
+      "end": "2026-11-23",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "139",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "140",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            139
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "141",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            140
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "142",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            140
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "143",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            140
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "144",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            141,
+            142,
+            143
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "begin": "2026-09-28",
+      "end": "2026-10-26",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "133",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "134",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            133
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "135",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            134
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "136",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            134
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "137",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            134
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "138",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            135,
+            136,
+            137
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "begin": "2026-08-31",
+      "end": "2026-09-28",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "127",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "128",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            127
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "129",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            128
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "130",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            128
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "131",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            128
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "132",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            129,
+            130,
+            131
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "begin": "2026-08-03",
+      "end": "2026-08-31",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "121",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "122",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            121
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "123",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            122
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "124",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            122
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "125",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            122
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "126",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            123,
+            124,
+            125
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "begin": "2026-07-06",
+      "end": "2026-08-03",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "115",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "116",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            115
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "117",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            116
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "118",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            116
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "119",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            116
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "120",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            117,
+            118,
+            119
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "begin": "2026-06-08",
+      "end": "2026-07-06",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "109",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "110",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            109
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "111",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            110
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "112",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            110
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "113",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            110
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "114",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            111,
+            112,
+            113
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "begin": "2026-05-11",
+      "end": "2026-06-08",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "103",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "104",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            103
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "105",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            104
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "106",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            104
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "107",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            104
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "108",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            105,
+            106,
+            107
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "begin": "2026-04-13",
+      "end": "2026-05-11",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "97",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "98",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            97
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "99",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            98
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "100",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            98
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "101",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            98
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "102",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            99,
+            100,
+            101
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "begin": "2026-03-16",
+      "end": "2026-04-13",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "91",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "92",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            91
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "93",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            92
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "94",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            92
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "95",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            92
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "96",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            93,
+            94,
+            95
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "begin": "2026-02-16",
+      "end": "2026-03-16",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "85",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            1006,
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "86",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            85
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "87",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            86
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "88",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            86
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "89",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            86
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "90",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            87,
+            88,
+            89
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "begin": "2026-01-19",
+      "end": "2026-02-16",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "79",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "80",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            79
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "81",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            80
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "82",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            80
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "83",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            80
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "84",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            81,
+            82,
+            83
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "begin": "2025-12-22",
+      "end": "2026-01-19",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "73",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "74",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            73
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "75",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            74
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "76",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            74
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "77",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            74
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "78",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            75,
+            76,
+            77
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "begin": "2025-11-24",
+      "end": "2025-12-22",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "67",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "68",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            67
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "69",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            68
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "70",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            68
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "71",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            68
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "72",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            69,
+            70,
+            71
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "begin": "2025-10-27",
+      "end": "2025-11-24",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "61",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "62",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            61
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "63",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            62
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "64",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            62
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "65",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            62
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "66",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            63,
+            64,
+            65
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "begin": "2025-09-29",
+      "end": "2025-10-27",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "55",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "56",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            55
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "57",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            56
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "58",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            56
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "59",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            56
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "60",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            57,
+            58,
+            59
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "begin": "2025-09-01",
+      "end": "2025-09-29",
+      "battleScoreId": 26,
+      "hotOpen": true,
+      "areas": [
+        {
+          "id": "49",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "50",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            49
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "51",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            50
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "52",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            50
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "53",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            50
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "54",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            51,
+            52,
+            53
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "begin": "2025-08-04",
+      "end": "2025-09-01",
+      "battleScoreId": 2,
+      "hotOpen": false,
+      "areas": [
+        {
+          "id": "43",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "44",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            43
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "45",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            44
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "46",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            44
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "47",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            44
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "48",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            45,
+            46,
+            47
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "begin": "2025-07-07",
+      "end": "2025-08-04",
+      "battleScoreId": 2,
+      "hotOpen": false,
+      "areas": [
+        {
+          "id": "37",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "38",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            37
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "39",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            38
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "40",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            38
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "41",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            38
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "42",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            39,
+            40,
+            41
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "begin": "2025-06-09",
+      "end": "2025-07-07",
+      "battleScoreId": 2,
+      "hotOpen": false,
+      "areas": [
+        {
+          "id": "31",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "32",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            31
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "33",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            32
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "34",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            32
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "35",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            32
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "36",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            33,
+            34,
+            35
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "begin": "2025-05-12",
+      "end": "2025-06-09",
+      "battleScoreId": 2,
+      "hotOpen": false,
+      "areas": [
+        {
+          "id": "25",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "26",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            25
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "27",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            26
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "28",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            26
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "29",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            26
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "30",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            27,
+            28,
+            29
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "begin": "2025-04-14",
+      "end": "2025-05-12",
+      "battleScoreId": 2,
+      "hotOpen": false,
+      "areas": [
+        {
+          "id": "19",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "20",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            19
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "21",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            20
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "22",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            20
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "23",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            20
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "24",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            21,
+            22,
+            23
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "begin": "2025-03-17",
+      "end": "2025-04-14",
+      "battleScoreId": 2,
+      "hotOpen": false,
+      "areas": [
+        {
+          "id": "13",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "14",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            13
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "15",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            14
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "16",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            14
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "17",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            14
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "18",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            15,
+            16,
+            17
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "begin": "2025-02-17",
+      "end": "2025-03-17",
+      "battleScoreId": 2,
+      "hotOpen": false,
+      "areas": [
+        {
+          "id": "7",
+          "name": "험난한 바닷가",
+          "floorCount": 2,
+          "orderIndex": 7,
+          "preLevel": [
+            6
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "8",
+          "name": "소용돌이",
+          "floorCount": 2,
+          "orderIndex": 8,
+          "preLevel": [
+            7
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2000,
+            2500
+          ],
+          "endless": false
+        },
+        {
+          "id": "9",
+          "name": "급물살",
+          "floorCount": 2,
+          "orderIndex": 9,
+          "preLevel": [
+            8
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "10",
+          "name": "난류",
+          "floorCount": 2,
+          "orderIndex": 10,
+          "preLevel": [
+            8
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "11",
+          "name": "바다의 악몽",
+          "floorCount": 2,
+          "orderIndex": 11,
+          "preLevel": [
+            8
+          ],
+          "passScore": 1000,
+          "targetScore": [
+            1500,
+            2500,
+            3500
+          ],
+          "endless": false
+        },
+        {
+          "id": "12",
+          "name": "끝 없는 심연",
+          "floorCount": 2,
+          "orderIndex": 12,
+          "preLevel": [
+            9,
+            10,
+            11
+          ],
+          "passScore": 999999,
+          "targetScore": [
+            3500,
+            4000,
+            4500,
+            5000,
+            5500
+          ],
+          "endless": true
+        }
+      ]
+    }
+  ]
+}

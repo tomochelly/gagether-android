@@ -1,0 +1,1097 @@
+{
+  "version": "",
+  "seasons": [
+    {
+      "id": "42",
+      "begin": "2026-11-09",
+      "end": "2026-12-07",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "begin": "2026-10-12",
+      "end": "2026-11-09",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "begin": "2026-09-14",
+      "end": "2026-10-12",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "begin": "2026-08-17",
+      "end": "2026-09-14",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "begin": "2026-07-20",
+      "end": "2026-08-17",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "begin": "2026-06-22",
+      "end": "2026-07-20",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "begin": "2026-05-25",
+      "end": "2026-06-22",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "begin": "2026-04-27",
+      "end": "2026-05-25",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "begin": "2026-03-30",
+      "end": "2026-04-27",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "begin": "2026-03-02",
+      "end": "2026-03-30",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "begin": "2026-02-02",
+      "end": "2026-03-02",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "begin": "2026-01-05",
+      "end": "2026-02-02",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "begin": "2025-12-08",
+      "end": "2026-01-05",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "begin": "2025-11-10",
+      "end": "2025-12-08",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "begin": "2025-10-13",
+      "end": "2025-11-10",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "begin": "2025-09-15",
+      "end": "2025-10-13",
+      "rewardGroup": 2,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "begin": "2025-08-18",
+      "end": "2025-09-15",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "begin": "2025-07-21",
+      "end": "2025-08-18",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "begin": "2025-06-23",
+      "end": "2025-07-21",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "begin": "2025-05-26",
+      "end": "2025-06-23",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "begin": "2025-04-28",
+      "end": "2025-05-26",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "begin": "2025-03-31",
+      "end": "2025-04-28",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "begin": "2025-03-03",
+      "end": "2025-03-31",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "begin": "2025-02-03",
+      "end": "2025-03-03",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "begin": "2025-01-20",
+      "end": "2025-02-03",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "begin": "2025-01-06",
+      "end": "2025-01-20",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "begin": "2024-12-23",
+      "end": "2025-01-06",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "begin": "2024-12-09",
+      "end": "2024-12-23",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "begin": "2024-11-25",
+      "end": "2024-12-09",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "begin": "2024-11-11",
+      "end": "2024-11-25",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "begin": "2024-10-28",
+      "end": "2024-11-11",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "begin": "2024-10-14",
+      "end": "2024-10-28",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "begin": "2024-09-30",
+      "end": "2024-10-14",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "begin": "2024-09-16",
+      "end": "2024-09-30",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "begin": "2024-09-02",
+      "end": "2024-09-16",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "begin": "2024-08-19",
+      "end": "2024-09-02",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "begin": "2024-08-05",
+      "end": "2024-08-19",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "begin": "2024-07-22",
+      "end": "2024-08-05",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "begin": "2024-07-08",
+      "end": "2024-07-22",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "begin": "2024-06-24",
+      "end": "2024-07-08",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "begin": "2024-06-10",
+      "end": "2024-06-24",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "begin": "2024-05-27",
+      "end": "2024-06-10",
+      "rewardGroup": 1,
+      "areas": [
+        {
+          "id": "1",
+          "name": "잔향의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        },
+        {
+          "id": "2",
+          "name": "심연의 탑",
+          "difficulty": 3,
+          "floorCount": 2
+        },
+        {
+          "id": "3",
+          "name": "울림의 탑",
+          "difficulty": 3,
+          "floorCount": 4
+        }
+      ]
+    }
+  ]
+}
