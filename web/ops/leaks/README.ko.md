@@ -66,3 +66,6 @@ https://mymemory.translated.net/doc/usagelimits.php
 첫 운영 검증에서 새 클라이언트가 게시됐지만 API 서버가 이전 생성 파일로 남아 `/api/leaks`404, operations49로 응답하는 불일치를 발견했다. 기존 생성 출력이 남아 있으면 클라이언트의 source-manifest 검사만으로 이를 감지하지 못했다.
 
 현재 build는 기존 dist를 임시 백업으로 옮긴 뒤 새로 만들고, Worker 엔트리 생성 시각·전체 현재 API 경로·클라이언트 소스 지문을 검사한다. 하나라도 다르면 패키징을 중단한다. 원본 public 파일·owner 미디어·DB는 이동/삭제하지 않는다. 실제 이전 Worker 파일을 새 타임스탬프로 복사해도 새 API가 없으면 거부되는 음성 검사를 통과했다. 로컬 프로필은 공식 configure-execution-profile helper로 복구했다.
+
+### 번역 서비스가 제한되는 경우
+공개 번역 서비스의 429는 번역 실패로 유지하며 다른 IP나 계정으로 우회하지 않습니다. 인증된 `POST /api/leaks`의 `localize` 작업은 기존 항목의 `id`, `expectedRevision`, `bodyHash`, `localized`만 받습니다. 원문 해시가 일치하는 번역·요약을 추가할 수 있고, 자동 수집 항목은 자동 상태를 유지합니다. 원문·이미지·일정·사용자 편집 보호값은 이 작업으로 변경되지 않습니다. 원문이 바뀌면 이전 번역은 완료로 인정되지 않습니다.
