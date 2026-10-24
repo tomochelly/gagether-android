@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "ab40479e7599366e0a38cbdc5afc483aee923aa4ebee42fac0dac8f96810a7f6",
+  "fingerprint": "4d2ab5bd26f8d3f31f92b887048261b3254eba1554020e8a0a88679869e6324e",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -120,7 +120,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "d217094d55c2863aedaecc0241b83092502ffdfd2b739cb06d9a14b49de4bf06"
+      "sha256": "e40d4aff7beee4107481de7e2c9ad16f2ac8c92a3e9d13d8a1e496ebf169eee7"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -1312,7 +1312,7 @@
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "41667f08ba237eb1c6502354f589197acf995df0601826b59305334111364f36"
+      "sha256": "5480bc8e74b013260cdd561b44d1a639a17b25f4153a4c3b4e31ffac5bd0ec82"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",
@@ -1521,6 +1521,10 @@
     {
       "path": "lib/refresh-identity.ts",
       "sha256": "0dd0ccb293cf9885f7dc210bf83157ca7fe932cfcac33ec4f596c70b460a329d"
+    },
+    {
+      "path": "lib/refresh-progress.ts",
+      "sha256": "0301128a9bf0fba037800b5da417e9943ac4fc05d278346980a2789c388f8f5a"
     },
     {
       "path": "lib/regional-notices.ts",

@@ -31,5 +31,11 @@ class RefreshRequestTest(unittest.TestCase):
   failure=urllib.error.HTTPError('https://example.invalid',403,'Forbidden',{},None)
   error,calls,sleeps,_=self.run_script([failure])
   self.assertIs(error,failure);self.assertEqual(calls,['POST']);self.assertEqual(sleeps,[])
+ def test_durable_stages_and_busy_response_continue_until_actual_readback(self):
+  error,calls,sleeps,out=self.run_script([{'ok':True,'continuation':True,'stage':'channels','cursor':6},{'ok':True,'continuation':True,'busy':True},{'ok':True,'continuation':True,'stage':'collection'},{'ok':True,'outcome':'partial','readback':{'automatic':18,'effective':18}}])
+  self.assertIsNone(error);self.assertEqual(calls,['POST']*4+['GET']);self.assertEqual(sleeps,[5]);self.assertIn('Partial source failure',out)
+ def test_incomplete_stages_are_bounded_and_never_claim_completed(self):
+  error,calls,sleeps,out=self.run_script([{'ok':True,'continuation':True,'busy':True}]*80)
+  self.assertIsInstance(error,RuntimeError);self.assertEqual(calls,['POST']*80);self.assertNotIn('"outcome": "complete"',out)
 
 if __name__=='__main__':unittest.main()

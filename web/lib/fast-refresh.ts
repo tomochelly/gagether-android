@@ -1,3 +1,4 @@
+import {checkpointedRefresh,type RefreshProgress} from './refresh-progress';
 import {env} from 'cloudflare:workers';
 import {readData,readBaseData,saveEntries} from './store';
 import {refreshFeeds} from './feeds';
@@ -30,12 +31,11 @@ async function html(url:string){
 }
 async function pool<T,R>(items:T[],fn:(x:T)=>Promise<R>,n=3){const out:R[]=[];let i=0;await Promise.all(Array.from({length:Math.min(n,items.length)},async()=>{while(i<items.length){const index=i++;out[index]=await fn(items[index]);}}));return out;}
 const normalize=(u:string)=>{try{const x=new URL(u);x.protocol='https:';x.hostname=x.hostname.replace(/^www\./,'');if(!(x.hostname==='re.bluepoch.com'&&x.pathname==='/home/detail.html'&&/^#newsId\?\d+$/.test(x.hash)))x.hash='';x.searchParams.sort();return x.href.replace(/\/$/,'');}catch{return u;}};
-export async function runFastRefresh(){
- const db=env.DB;if(!db)throw Error('Persistent storage unavailable');
- const now=Date.now(),startedAt=new Date(now).toISOString();
- const lock=await db.prepare("INSERT INTO refresh_jobs (id,lease_until,last_started_at) VALUES ('official-fast',?,?) ON CONFLICT(id) DO UPDATE SET lease_until=excluded.lease_until,last_started_at=excluded.last_started_at WHERE refresh_jobs.lease_until<=? AND (refresh_jobs.last_started_at IS NULL OR refresh_jobs.last_started_at<=?)").bind(now+20*60000,startedAt,now,new Date(now-interval+30000).toISOString()).run();
- if(!lock.meta.changes)return {ok:true,skipped:true,reason:'Already running or checked within ten minutes'};
- try{
+export async function runFastRefresh(){return checkpointedRefresh(performRefreshStage);}
+export async function performRefreshStage(p:RefreshProgress):Promise<any>{
+ const db=env.DB!;
+ const startedAt=p.startedAt;
+ if(p.stage==='korean'){
   const before=await readData({automatic:true,collection:true});if(!before.persistent)throw Error('Persistent storage unavailable');
   const known=new Set(before.entries.map(e=>normalize(e.sourceUrl)));
   for(const e of before.entries)for(const u of Object.values(e.localizationSources||{}))if(u)known.add(normalize(u));
@@ -65,8 +65,11 @@ export async function runFastRefresh(){
   for(const {notice,checkedAt} of changedNotices)await captureDocument(notice,undefined,checkedAt);
   const noticeReadback=await readData({automatic:true,collection:true});
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');
-  const feeds=await refreshFeeds();
-  const regional=await collectRegionalNotices();
+  return {...p,stage:'feeds',koreanChecks,noticedCount:noticed.length,changedNeedsReview};
+ }
+ if(p.stage==='feeds')return {...p,stage:'regional',feeds:await refreshFeeds()};
+ if(p.stage==='regional')return {...p,stage:'channels',regional:await collectRegionalNotices(),cursor:0};
+ if(p.stage==='channels'){
   const current=await readData({automatic:true,collection:true});
   const channels=new Map<string,{gameId:string;locale:Locale;region:Region}>();
   for(const e of current.entries)for(const v of e.videos||[])if(v.official)for(const u of v.evidenceUrls||[])if(/^https:\/\/www\.youtube\.com\/(?:@[^/?]+|channel\/[\w-]+)$/.test(u))channels.set(u,{gameId:e.gameId,locale:v.locale,region:effectiveRegion(games.find(g=>g.id===e.gameId)!,e.region)});
@@ -78,13 +81,14 @@ export async function runFastRefresh(){
    for(const [key,meta] of channels)if(meta.gameId===c.gameId&&meta.locale===c.locale&&meta.region===effectiveRegion(game,c.region))channels.delete(key);
    channels.set(url,{gameId:c.gameId,locale:c.locale,region:effectiveRegion(game,c.region)});
   }
-  const watches=new Map<string,{gameId:string;locale:Locale;region:Region;channelId:string;old?:Entry}>();
+  if(p.channelRows){channels.clear();for(const [url,meta] of p.channelRows)channels.set(url,meta);}else p.channelRows=[...channels];
+  const watches=new Map<string,{gameId:string;locale:Locale;region:Region;channelId:string;old?:Entry}>(p.watchRows||[]);
   const queueStored=(meta:{gameId:string;locale:Locale;region:Region},channelId:string)=>{
    for(const e of current.entries)if(e.broadcast?.youtubeId&&['scheduled','live'].includes(e.broadcast.status)&&e.gameId===meta.gameId&&e.broadcast.locale===meta.locale&&effectiveRegion(games.find(g=>g.id===e.gameId)!,e.region)===meta.region)watches.set(e.broadcast.youtubeId,{...meta,channelId,old:e});
   };
   // A failed listing must not prevent checks of already known watch URLs.
   for(const [url,meta] of channels){const id=/\/channel\/(UC[\w-]+)$/.exec(url)?.[1];if(id)queueStored(meta,id);}
-  const channelChecks=await pool([...channels],async([url,meta])=>{
+  const channelChecks=await pool([...channels].slice(p.cursor||0,(p.cursor||0)+6),async([url,meta])=>{
    const checkedAt=new Date().toISOString();try{
     const data=channelVideos(await html(url+'/streams'));if(!data.channelId)throw Error('HTTP 200 without official channel metadata');
     const expected=/\/channel\/(UC[\w-]+)$/.exec(url)?.[1];if(expected&&data.channelId!==expected)throw Error('Official channel identity mismatch');
@@ -93,7 +97,13 @@ export async function runFastRefresh(){
     return {url:url+'/streams',checkedAt,status:'ok'};
    }catch(e){return {url:url+'/streams',checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   },2);
-  const broadcastChecks=await pool([...watches],async([id,meta])=>{
+  const cursor=(p.cursor||0)+6;
+  return {...p,stage:cursor>=channels.size?'broadcasts':'channels',cursor:cursor>=channels.size?0:cursor,channelChecks:[...(p.channelChecks||[]),...channelChecks],watchRows:[...watches].map(([id,m])=>[id,{...m,...(m.old?{old:{id:m.old.id,broadcast:m.old.broadcast}}:{})}])};
+ }
+ if(p.stage==='broadcasts'){
+ const changedNeedsReview:string[]=[];
+  const watches=new Map<string,{gameId:string;locale:Locale;region:Region;channelId:string;old?:Entry}>(p.watchRows||[]);
+  const broadcastChecks=await pool([...watches].slice(p.cursor||0,(p.cursor||0)+6),async([id,meta])=>{
    const checkedAt=new Date().toISOString(),url='https://www.youtube.com/watch?v='+id;
    try{
     const page=await html(url),p=embeddedJson(page,'ytInitialPlayerResponse');
@@ -112,13 +122,17 @@ export async function runFastRefresh(){
     await saveEntries([entry]);return {url,checkedAt,status:'ok',broadcastStatus:b.status,added:entry.id};
    }catch(e){return {url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   },2);
-  const collection=await collectPendingDocuments();
+  const cursor=(p.cursor||0)+6;
+  return {...p,stage:cursor>=watches.size?'collection':'broadcasts',cursor:cursor>=watches.size?0:cursor,broadcastChecks:[...(p.broadcastChecks||[]),...broadcastChecks],changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
+ }
+ if(p.stage==='collection')return {...p,stage:'finalize',collection:await collectPendingDocuments()};
+ if(p.stage!=='finalize')throw Error('Unknown refresh stage');
+  const {koreanChecks=[],feeds=[],regional={checks:[],added:0},channelChecks=[],broadcastChecks=[],collection,noticedCount=0,changedNeedsReview=[]}=p;
   const [automatic,effective]=await Promise.all([readData({automatic:true,collection:true}),readData({collection:true})]);
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
   const weaponCheck={source:'wuwa/global/weapons',status:collection.weapons.issues.length?'error':'ok',checkedAt:collection.weapons.checkedAt,count:collection.weapons.changedEntries.length,error:collection.weapons.issues.join('; ')||undefined};
   const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks,...collection.checks,weaponCheck],!validationIssues.length);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticed.length+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,structuredChecks:[weaponCheck],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
-  await recordHealth(result);await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(result.finishedAt,JSON.stringify(result),startedAt).run();return result;
- }catch(e){const failed={ok:false,outcome:'failed',finishedAt:new Date().toISOString(),error:e instanceof Error?e.message:'Refresh failed'};await recordHealth(failed).catch(()=>{});await db.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id='official-fast' AND last_started_at=?").bind(failed.finishedAt,JSON.stringify(failed),startedAt).run();throw e;}
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,structuredChecks:[weaponCheck],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
+  return result;
 }
