@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "66e96c6be25bc1daafceae96ae34b2f2794938724fb1339c22506980fd198cd0",
+  "fingerprint": "ff862e4713ab4917cbb7762f99c09388353a03eaf550d78e0171887f808ece13",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -216,7 +216,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "0fa4617a5abee30b0bf12ddabbfe70943d16952300fafded36ff0a2c8be85f3d"
+      "sha256": "76d6c6766b5d98d9991e5f65a9186e6b9c26b7adc99bcf6706719268f155ac7d"
     },
     {
       "path": "app/chatgpt-auth.ts",
@@ -632,7 +632,7 @@
     },
     {
       "path": "components/roster-stat-details.tsx",
-      "sha256": "c9f436a2dea141623e4d4abe0d98b0c472e50c8bacc08e65566f38d344350673"
+      "sha256": "5bb70e1e84bdb048e7f7b6406a06110a20e96345b2adfdaf43520c9fb1f49e9a"
     },
     {
       "path": "components/schedule-calendar.tsx",
@@ -1008,7 +1008,7 @@
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "f9805b620fd744db9c8533905c967663d82bdf145ed3ad06cef3dc3e0b3efa93"
+      "sha256": "1175340948e0853a2014a141f913465cea643fa82596f21f3be9d475c302c7b1"
     },
     {
       "path": "content/community-current-research.json",
@@ -1356,7 +1356,11 @@
     },
     {
       "path": "lib/character-roster-enrichment.ts",
-      "sha256": "f21cd9995c73cc63b9ef55bd17603bb6dae857883dd22fc62aa8134ea974eff7"
+      "sha256": "64608287827fa035263e85cd0a4f8fb3ca184135becdc928658f71d5e373c374"
+    },
+    {
+      "path": "lib/character-roster-metrics.ts",
+      "sha256": "ba4deaa2f76c41f69e9f841b31675747815eefa2fff29f2e82d13753564b4734"
     },
     {
       "path": "lib/character-roster-refresh.ts",
@@ -1368,7 +1372,7 @@
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "68a091755b587b8127b06d52c9946bbb4fca401dea768723b8b6675dc2f7527e"
+      "sha256": "594d580af68388d59f5e9569fcb126426ce51f5a2c44f88e0ed1fad85b4f78e0"
     },
     {
       "path": "lib/collaboration-sources.ts",

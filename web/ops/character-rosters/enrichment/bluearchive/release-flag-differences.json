@@ -1,0 +1,58 @@
+[
+  {
+    "id": 20058,
+    "name": "Erika",
+    "fork": [
+      true,
+      false,
+      false
+    ],
+    "joe": [
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "id": 10141,
+    "name": "Haruka (Dress)",
+    "fork": [
+      true,
+      false,
+      false
+    ],
+    "joe": [
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "id": 20059,
+    "name": "Mutsuki (Dress)",
+    "fork": [
+      true,
+      false,
+      false
+    ],
+    "joe": [
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "id": 10142,
+    "name": "Nagusa (Swimsuit)",
+    "fork": [
+      true,
+      false,
+      false
+    ],
+    "joe": [
+      true,
+      true,
+      false
+    ]
+  }
+]

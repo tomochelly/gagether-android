@@ -1,0 +1,877 @@
+[
+  {
+    "id": "10000",
+    "name": "아루",
+    "naturalStarGrade": 3,
+    "raw": {
+      "MaxHP": [
+        2236,
+        19390
+      ],
+      "AttackPower": [
+        369,
+        3690
+      ],
+      "DefensePower": [
+        19,
+        119
+      ],
+      "HealPower": [
+        1408,
+        4225
+      ]
+    },
+    "samples": [
+      {
+        "level": 1,
+        "stars": 3,
+        "values": {
+          "MaxHP": 2505,
+          "AttackPower": 451,
+          "DefensePower": 19,
+          "HealPower": 1655
+        }
+      },
+      {
+        "level": 1,
+        "stars": 5,
+        "values": {
+          "MaxHP": 3019,
+          "AttackPower": 565,
+          "DefensePower": 19,
+          "HealPower": 2035
+        }
+      },
+      {
+        "level": 10,
+        "stars": 3,
+        "values": {
+          "MaxHP": 4251,
+          "AttackPower": 819,
+          "DefensePower": 28,
+          "HealPower": 1956
+        }
+      },
+      {
+        "level": 10,
+        "stars": 5,
+        "values": {
+          "MaxHP": 5124,
+          "AttackPower": 1027,
+          "DefensePower": 28,
+          "HealPower": 2405
+        }
+      },
+      {
+        "level": 35,
+        "stars": 3,
+        "values": {
+          "MaxHP": 9103,
+          "AttackPower": 1841,
+          "DefensePower": 53,
+          "HealPower": 2791
+        }
+      },
+      {
+        "level": 35,
+        "stars": 5,
+        "values": {
+          "MaxHP": 10972,
+          "AttackPower": 2309,
+          "DefensePower": 53,
+          "HealPower": 3432
+        }
+      },
+      {
+        "level": 80,
+        "stars": 3,
+        "values": {
+          "MaxHP": 17836,
+          "AttackPower": 3684,
+          "DefensePower": 99,
+          "HealPower": 4296
+        }
+      },
+      {
+        "level": 80,
+        "stars": 5,
+        "values": {
+          "MaxHP": 21499,
+          "AttackPower": 4620,
+          "DefensePower": 99,
+          "HealPower": 5283
+        }
+      },
+      {
+        "level": 90,
+        "stars": 3,
+        "values": {
+          "MaxHP": 19776,
+          "AttackPower": 4094,
+          "DefensePower": 109,
+          "HealPower": 4630
+        }
+      },
+      {
+        "level": 90,
+        "stars": 5,
+        "values": {
+          "MaxHP": 23837,
+          "AttackPower": 5134,
+          "DefensePower": 109,
+          "HealPower": 5694
+        }
+      }
+    ]
+  },
+  {
+    "id": "10005",
+    "name": "호시노",
+    "naturalStarGrade": 3,
+    "raw": {
+      "MaxHP": [
+        2924,
+        48880
+      ],
+      "AttackPower": [
+        174,
+        1749
+      ],
+      "DefensePower": [
+        175,
+        1052
+      ],
+      "HealPower": [
+        1435,
+        4305
+      ]
+    },
+    "samples": [
+      {
+        "level": 1,
+        "stars": 3,
+        "values": {
+          "MaxHP": 3275,
+          "AttackPower": 213,
+          "DefensePower": 175,
+          "HealPower": 1687
+        }
+      },
+      {
+        "level": 1,
+        "stars": 5,
+        "values": {
+          "MaxHP": 3948,
+          "AttackPower": 267,
+          "DefensePower": 175,
+          "HealPower": 2074
+        }
+      },
+      {
+        "level": 10,
+        "stars": 3,
+        "values": {
+          "MaxHP": 7954,
+          "AttackPower": 387,
+          "DefensePower": 255,
+          "HealPower": 1993
+        }
+      },
+      {
+        "level": 10,
+        "stars": 5,
+        "values": {
+          "MaxHP": 9587,
+          "AttackPower": 486,
+          "DefensePower": 255,
+          "HealPower": 2451
+        }
+      },
+      {
+        "level": 35,
+        "stars": 3,
+        "values": {
+          "MaxHP": 20950,
+          "AttackPower": 873,
+          "DefensePower": 476,
+          "HealPower": 2845
+        }
+      },
+      {
+        "level": 35,
+        "stars": 5,
+        "values": {
+          "MaxHP": 25252,
+          "AttackPower": 1094,
+          "DefensePower": 476,
+          "HealPower": 3499
+        }
+      },
+      {
+        "level": 80,
+        "stars": 3,
+        "values": {
+          "MaxHP": 44349,
+          "AttackPower": 1746,
+          "DefensePower": 875,
+          "HealPower": 4377
+        }
+      },
+      {
+        "level": 80,
+        "stars": 5,
+        "values": {
+          "MaxHP": 53456,
+          "AttackPower": 2190,
+          "DefensePower": 875,
+          "HealPower": 5383
+        }
+      },
+      {
+        "level": 90,
+        "stars": 3,
+        "values": {
+          "MaxHP": 49547,
+          "AttackPower": 1940,
+          "DefensePower": 963,
+          "HealPower": 4718
+        }
+      },
+      {
+        "level": 90,
+        "stars": 5,
+        "values": {
+          "MaxHP": 59722,
+          "AttackPower": 2433,
+          "DefensePower": 963,
+          "HealPower": 5802
+        }
+      }
+    ]
+  },
+  {
+    "id": "10010",
+    "name": "시로코",
+    "naturalStarGrade": 3,
+    "raw": {
+      "MaxHP": [
+        2225,
+        22260
+      ],
+      "AttackPower": [
+        278,
+        2788
+      ],
+      "DefensePower": [
+        19,
+        118
+      ],
+      "HealPower": [
+        1414,
+        4244
+      ]
+    },
+    "samples": [
+      {
+        "level": 1,
+        "stars": 3,
+        "values": {
+          "MaxHP": 2492,
+          "AttackPower": 340,
+          "DefensePower": 19,
+          "HealPower": 1662
+        }
+      },
+      {
+        "level": 1,
+        "stars": 5,
+        "values": {
+          "MaxHP": 3004,
+          "AttackPower": 426,
+          "DefensePower": 19,
+          "HealPower": 2044
+        }
+      },
+      {
+        "level": 10,
+        "stars": 3,
+        "values": {
+          "MaxHP": 4532,
+          "AttackPower": 618,
+          "DefensePower": 28,
+          "HealPower": 1964
+        }
+      },
+      {
+        "level": 10,
+        "stars": 5,
+        "values": {
+          "MaxHP": 5463,
+          "AttackPower": 775,
+          "DefensePower": 28,
+          "HealPower": 2415
+        }
+      },
+      {
+        "level": 35,
+        "stars": 3,
+        "values": {
+          "MaxHP": 10198,
+          "AttackPower": 1391,
+          "DefensePower": 53,
+          "HealPower": 2804
+        }
+      },
+      {
+        "level": 35,
+        "stars": 5,
+        "values": {
+          "MaxHP": 12292,
+          "AttackPower": 1745,
+          "DefensePower": 53,
+          "HealPower": 3448
+        }
+      },
+      {
+        "level": 80,
+        "stars": 3,
+        "values": {
+          "MaxHP": 20399,
+          "AttackPower": 2783,
+          "DefensePower": 98,
+          "HealPower": 4315
+        }
+      },
+      {
+        "level": 80,
+        "stars": 5,
+        "values": {
+          "MaxHP": 24588,
+          "AttackPower": 3490,
+          "DefensePower": 98,
+          "HealPower": 5307
+        }
+      },
+      {
+        "level": 90,
+        "stars": 3,
+        "values": {
+          "MaxHP": 22665,
+          "AttackPower": 3092,
+          "DefensePower": 108,
+          "HealPower": 4651
+        }
+      },
+      {
+        "level": 90,
+        "stars": 5,
+        "values": {
+          "MaxHP": 27319,
+          "AttackPower": 3878,
+          "DefensePower": 108,
+          "HealPower": 5720
+        }
+      }
+    ]
+  },
+  {
+    "id": "10045",
+    "name": "호시노(수영복)",
+    "naturalStarGrade": 3,
+    "raw": {
+      "MaxHP": [
+        2280,
+        31610
+      ],
+      "AttackPower": [
+        199,
+        1999
+      ],
+      "DefensePower": [
+        123,
+        738
+      ],
+      "HealPower": [
+        1522,
+        4568
+      ]
+    },
+    "samples": [
+      {
+        "level": 1,
+        "stars": 3,
+        "values": {
+          "MaxHP": 2554,
+          "AttackPower": 243,
+          "DefensePower": 123,
+          "HealPower": 1789
+        }
+      },
+      {
+        "level": 1,
+        "stars": 5,
+        "values": {
+          "MaxHP": 3078,
+          "AttackPower": 305,
+          "DefensePower": 123,
+          "HealPower": 2200
+        }
+      },
+      {
+        "level": 10,
+        "stars": 3,
+        "values": {
+          "MaxHP": 5540,
+          "AttackPower": 443,
+          "DefensePower": 179,
+          "HealPower": 2114
+        }
+      },
+      {
+        "level": 10,
+        "stars": 5,
+        "values": {
+          "MaxHP": 6678,
+          "AttackPower": 556,
+          "DefensePower": 179,
+          "HealPower": 2600
+        }
+      },
+      {
+        "level": 35,
+        "stars": 3,
+        "values": {
+          "MaxHP": 13835,
+          "AttackPower": 997,
+          "DefensePower": 334,
+          "HealPower": 3018
+        }
+      },
+      {
+        "level": 35,
+        "stars": 5,
+        "values": {
+          "MaxHP": 16676,
+          "AttackPower": 1251,
+          "DefensePower": 334,
+          "HealPower": 3711
+        }
+      },
+      {
+        "level": 80,
+        "stars": 3,
+        "values": {
+          "MaxHP": 28768,
+          "AttackPower": 1995,
+          "DefensePower": 614,
+          "HealPower": 4645
+        }
+      },
+      {
+        "level": 80,
+        "stars": 5,
+        "values": {
+          "MaxHP": 34675,
+          "AttackPower": 2502,
+          "DefensePower": 614,
+          "HealPower": 5713
+        }
+      },
+      {
+        "level": 90,
+        "stars": 3,
+        "values": {
+          "MaxHP": 32086,
+          "AttackPower": 2217,
+          "DefensePower": 676,
+          "HealPower": 5006
+        }
+      },
+      {
+        "level": 90,
+        "stars": 5,
+        "values": {
+          "MaxHP": 38675,
+          "AttackPower": 2781,
+          "DefensePower": 676,
+          "HealPower": 6156
+        }
+      }
+    ]
+  },
+  {
+    "id": "13009",
+    "name": "츠바키",
+    "naturalStarGrade": 2,
+    "raw": {
+      "MaxHP": [
+        3048,
+        50940
+      ],
+      "AttackPower": [
+        171,
+        1719
+      ],
+      "DefensePower": [
+        30,
+        182
+      ],
+      "HealPower": [
+        1377,
+        4132
+      ]
+    },
+    "samples": [
+      {
+        "level": 1,
+        "stars": 2,
+        "values": {
+          "MaxHP": 3201,
+          "AttackPower": 189,
+          "DefensePower": 30,
+          "HealPower": 1481
+        }
+      },
+      {
+        "level": 1,
+        "stars": 5,
+        "values": {
+          "MaxHP": 4115,
+          "AttackPower": 262,
+          "DefensePower": 30,
+          "HealPower": 1990
+        }
+      },
+      {
+        "level": 10,
+        "stars": 2,
+        "values": {
+          "MaxHP": 7772,
+          "AttackPower": 344,
+          "DefensePower": 44,
+          "HealPower": 1750
+        }
+      },
+      {
+        "level": 10,
+        "stars": 5,
+        "values": {
+          "MaxHP": 9992,
+          "AttackPower": 478,
+          "DefensePower": 44,
+          "HealPower": 2352
+        }
+      },
+      {
+        "level": 35,
+        "stars": 2,
+        "values": {
+          "MaxHP": 20469,
+          "AttackPower": 774,
+          "DefensePower": 82,
+          "HealPower": 2498
+        }
+      },
+      {
+        "level": 35,
+        "stars": 5,
+        "values": {
+          "MaxHP": 26317,
+          "AttackPower": 1076,
+          "DefensePower": 82,
+          "HealPower": 3357
+        }
+      },
+      {
+        "level": 80,
+        "stars": 2,
+        "values": {
+          "MaxHP": 43330,
+          "AttackPower": 1547,
+          "DefensePower": 151,
+          "HealPower": 3844
+        }
+      },
+      {
+        "level": 80,
+        "stars": 5,
+        "values": {
+          "MaxHP": 55710,
+          "AttackPower": 2152,
+          "DefensePower": 151,
+          "HealPower": 5166
+        }
+      },
+      {
+        "level": 90,
+        "stars": 2,
+        "values": {
+          "MaxHP": 48409,
+          "AttackPower": 1720,
+          "DefensePower": 167,
+          "HealPower": 4144
+        }
+      },
+      {
+        "level": 90,
+        "stars": 5,
+        "values": {
+          "MaxHP": 62240,
+          "AttackPower": 2392,
+          "DefensePower": 167,
+          "HealPower": 5570
+        }
+      }
+    ]
+  },
+  {
+    "id": "20027",
+    "name": "시로코(수영복)",
+    "naturalStarGrade": 3,
+    "raw": {
+      "MaxHP": [
+        1967,
+        14697
+      ],
+      "AttackPower": [
+        304,
+        3045
+      ],
+      "DefensePower": [
+        65,
+        393
+      ],
+      "HealPower": [
+        1636,
+        4908
+      ]
+    },
+    "samples": [
+      {
+        "level": 1,
+        "stars": 3,
+        "values": {
+          "MaxHP": 2204,
+          "AttackPower": 371,
+          "DefensePower": 65,
+          "HealPower": 1923
+        }
+      },
+      {
+        "level": 1,
+        "stars": 5,
+        "values": {
+          "MaxHP": 2656,
+          "AttackPower": 466,
+          "DefensePower": 65,
+          "HealPower": 2365
+        }
+      },
+      {
+        "level": 10,
+        "stars": 3,
+        "values": {
+          "MaxHP": 3499,
+          "AttackPower": 675,
+          "DefensePower": 95,
+          "HealPower": 2272
+        }
+      },
+      {
+        "level": 10,
+        "stars": 5,
+        "values": {
+          "MaxHP": 4218,
+          "AttackPower": 847,
+          "DefensePower": 95,
+          "HealPower": 2794
+        }
+      },
+      {
+        "level": 35,
+        "stars": 3,
+        "values": {
+          "MaxHP": 7099,
+          "AttackPower": 1519,
+          "DefensePower": 178,
+          "HealPower": 3243
+        }
+      },
+      {
+        "level": 35,
+        "stars": 5,
+        "values": {
+          "MaxHP": 8557,
+          "AttackPower": 1905,
+          "DefensePower": 178,
+          "HealPower": 3989
+        }
+      },
+      {
+        "level": 80,
+        "stars": 3,
+        "values": {
+          "MaxHP": 13582,
+          "AttackPower": 3040,
+          "DefensePower": 327,
+          "HealPower": 4991
+        }
+      },
+      {
+        "level": 80,
+        "stars": 5,
+        "values": {
+          "MaxHP": 16371,
+          "AttackPower": 3812,
+          "DefensePower": 327,
+          "HealPower": 6137
+        }
+      },
+      {
+        "level": 90,
+        "stars": 3,
+        "values": {
+          "MaxHP": 15021,
+          "AttackPower": 3377,
+          "DefensePower": 360,
+          "HealPower": 5380
+        }
+      },
+      {
+        "level": 90,
+        "stars": 5,
+        "values": {
+          "MaxHP": 18105,
+          "AttackPower": 4236,
+          "DefensePower": 360,
+          "HealPower": 6616
+        }
+      }
+    ]
+  },
+  {
+    "id": "26003",
+    "name": "세리나",
+    "naturalStarGrade": 1,
+    "raw": {
+      "MaxHP": [
+        2482,
+        18550
+      ],
+      "AttackPower": [
+        167,
+        1678
+      ],
+      "DefensePower": [
+        24,
+        148
+      ],
+      "HealPower": [
+        2431,
+        7294
+      ]
+    },
+    "samples": [
+      {
+        "level": 1,
+        "stars": 1,
+        "values": {
+          "MaxHP": 2482,
+          "AttackPower": 167,
+          "DefensePower": 24,
+          "HealPower": 2431
+        }
+      },
+      {
+        "level": 1,
+        "stars": 5,
+        "values": {
+          "MaxHP": 3351,
+          "AttackPower": 256,
+          "DefensePower": 24,
+          "HealPower": 3513
+        }
+      },
+      {
+        "level": 10,
+        "stars": 1,
+        "values": {
+          "MaxHP": 3943,
+          "AttackPower": 304,
+          "DefensePower": 35,
+          "HealPower": 2873
+        }
+      },
+      {
+        "level": 10,
+        "stars": 5,
+        "values": {
+          "MaxHP": 5324,
+          "AttackPower": 466,
+          "DefensePower": 35,
+          "HealPower": 4152
+        }
+      },
+      {
+        "level": 35,
+        "stars": 1,
+        "values": {
+          "MaxHP": 8000,
+          "AttackPower": 686,
+          "DefensePower": 67,
+          "HealPower": 4101
+        }
+      },
+      {
+        "level": 35,
+        "stars": 5,
+        "values": {
+          "MaxHP": 10800,
+          "AttackPower": 1050,
+          "DefensePower": 67,
+          "HealPower": 5926
+        }
+      },
+      {
+        "level": 80,
+        "stars": 1,
+        "values": {
+          "MaxHP": 15304,
+          "AttackPower": 1373,
+          "DefensePower": 123,
+          "HealPower": 6312
+        }
+      },
+      {
+        "level": 80,
+        "stars": 5,
+        "values": {
+          "MaxHP": 20661,
+          "AttackPower": 2101,
+          "DefensePower": 123,
+          "HealPower": 9121
+        }
+      },
+      {
+        "level": 90,
+        "stars": 1,
+        "values": {
+          "MaxHP": 16927,
+          "AttackPower": 1525,
+          "DefensePower": 135,
+          "HealPower": 6803
+        }
+      },
+      {
+        "level": 90,
+        "stars": 5,
+        "values": {
+          "MaxHP": 22852,
+          "AttackPower": 2334,
+          "DefensePower": 135,
+          "HealPower": 9831
+        }
+      }
+    ]
+  }
+]

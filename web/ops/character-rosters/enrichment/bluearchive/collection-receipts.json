@@ -1,0 +1,1641 @@
+{
+  "gameId": "bluearchive",
+  "checkedAt": "2026-10-24T23:01:17.077444Z",
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/nico0748/SchaleDB/git/trees/main?recursive=1",
+      "method": "GET",
+      "path": "tree.json",
+      "status": 200,
+      "bytes": 1607068,
+      "sha256": "313f75ee31b8973f66ee7dedf062abde822403c614be4406c4f53ade46c3f414",
+      "checkedAt": "2026-10-24T22:46:17.130665Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/kr/students.json",
+      "method": "GET",
+      "path": "data/kr/students.json",
+      "status": 200,
+      "bytes": 5067724,
+      "sha256": "00f43fdafe97d0200b27a01d7412d89da1030e1ebb8cd7c5702c3ca31f1a91b1",
+      "checkedAt": "2026-10-24T22:46:40.603587Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/kr/localization.json",
+      "method": "GET",
+      "path": "data/kr/localization.json",
+      "status": 200,
+      "bytes": 106863,
+      "sha256": "0d6dc1e90d4b20db03d8bdd607ddc419f57820386b1fea5e89d27eecefbcbf23",
+      "checkedAt": "2026-10-24T22:46:40.228434Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/en/students.json",
+      "method": "GET",
+      "path": "data/en/students.json",
+      "status": 200,
+      "bytes": 5045869,
+      "sha256": "4ac9498b7d289d7a1095bd2d774ab16b433870d25ddbedf2afa2ba8ddd685919",
+      "checkedAt": "2026-10-24T22:46:40.678710Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/en/localization.json",
+      "method": "GET",
+      "path": "data/en/localization.json",
+      "status": 200,
+      "bytes": 101137,
+      "sha256": "e40d895c2afaddd8bea409249c53251cbebdaa57133d272cf3280d4893fd9993",
+      "checkedAt": "2026-10-24T22:46:40.261701Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/jp/students.json",
+      "method": "GET",
+      "path": "data/jp/students.json",
+      "status": 200,
+      "bytes": 5126451,
+      "sha256": "340f8b7a4f3f38ea41555641bb9fa18ef3a9e1755fab8f87d0af120ef5d8d89f",
+      "checkedAt": "2026-10-24T22:46:40.530746Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/jp/localization.json",
+      "method": "GET",
+      "path": "data/jp/localization.json",
+      "status": 200,
+      "bytes": 111259,
+      "sha256": "f43d3bdab331b072c0a5330a4f9946cfee6d6ccd0041c0163c8131d9f14c1640",
+      "checkedAt": "2026-10-24T22:46:44.434114Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/zh/students.json",
+      "method": "GET",
+      "path": "data/zh/students.json",
+      "status": 200,
+      "bytes": 5128563,
+      "sha256": "f98c0a6bbd61e2fefea62af550a2f30c35c3fc89d2ad028521bbeda2ab27047e",
+      "checkedAt": "2026-10-24T22:46:44.621986Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/zh/localization.json",
+      "method": "GET",
+      "path": "data/zh/localization.json",
+      "status": 200,
+      "bytes": 107542,
+      "sha256": "ae8c5c7364962e3a4f2b51456bcc373bc12a6d288daa296be9ab1a04ed49d5cf",
+      "checkedAt": "2026-10-24T22:46:44.469573Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/js/common.js",
+      "method": "GET",
+      "path": "js/common.js",
+      "status": 200,
+      "bytes": 560040,
+      "sha256": "1f56e5ba4888ecae782d1094fc9c5afc783e31c4cea297ccf9c2dd6e45e59fb3",
+      "checkedAt": "2026-10-24T22:46:44.553526Z",
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nico0748/SchaleDB/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/data/config.json",
+      "method": "GET",
+      "path": "data/config.json",
+      "status": 200,
+      "bytes": 56316,
+      "sha256": "fd8870bdb72f4715533cb8ab7a031a70adbe7d3ecf31d22cc3d32662099e8bde",
+      "checkedAt": "2026-10-24T22:46:44.388775Z",
+      "cached": true
+    },
+    {
+      "url": "https://ba.joexyz.online/api/students",
+      "method": "GET",
+      "path": "joe-students.json",
+      "status": 200,
+      "bytes": 604424,
+      "sha256": "fbc032d85f827bbc9a6e3678f016dab224351fafd8c9b0d96a40b90be3094ba7",
+      "checkedAt": "2026-10-24T22:48:29.106267Z",
+      "cached": true
+    },
+    {
+      "url": "https://ba.joexyz.online/mcp",
+      "method": "POST read-only tools/call",
+      "path": "joe-mcp-kasumi_swimsuit.json",
+      "status": 200,
+      "bytes": 5720,
+      "sha256": "c1a0d44219ec5480928db528777ba602ba43b70f1d01370da9b43048c640a8d2",
+      "checkedAt": "2026-10-24T22:50:25.409726Z",
+      "cached": true
+    },
+    {
+      "url": "https://ba.joexyz.online/mcp",
+      "method": "POST read-only tools/call",
+      "path": "joe-mcp-anna.json",
+      "status": 200,
+      "bytes": 5724,
+      "sha256": "3aedc389d56cd1ec5f452b891fbab3d3589b19012f66b3f1d86b3d6da0e26cec",
+      "checkedAt": "2026-10-24T22:50:25.813610Z",
+      "cached": true
+    },
+    {
+      "url": "https://ba.joexyz.online/mcp",
+      "method": "POST read-only tools/call",
+      "path": "joe-mcp-erina.json",
+      "status": 200,
+      "bytes": 5462,
+      "sha256": "5de271e445680d02843e6f189950b8faf3f4e03d63332a02ae6cab6ea15b730b",
+      "checkedAt": "2026-10-24T22:50:25.877539Z",
+      "cached": true
+    },
+    {
+      "url": "https://ba.joexyz.online/mcp",
+      "method": "POST read-only tools/call",
+      "path": "joe-mcp-tsumugi.json",
+      "status": 200,
+      "bytes": 5265,
+      "sha256": "dbfc89777833575b7621bf32dc33c563c56e7a8c65caf98b7753756049396262",
+      "checkedAt": "2026-10-24T22:50:25.825518Z",
+      "cached": true
+    }
+  ],
+  "omissions": [
+    {
+      "id": "20007",
+      "skill": "Ex",
+      "childId": "SM999901Passive01",
+      "reason": "Child rank rows do not bind to parent skill rank; not guessed"
+    },
+    {
+      "id": "20043",
+      "skill": "Ex",
+      "childId": "SM019701Passive01",
+      "reason": "Child rank rows do not bind to parent skill rank; not guessed"
+    },
+    {
+      "id": "20047",
+      "skill": "Ex",
+      "childId": "SM030001Passive01",
+      "reason": "Child rank rows do not bind to parent skill rank; not guessed"
+    },
+    {
+      "id": "10140",
+      "skill": "Ex",
+      "childId": "CH0173ExtraPassive02",
+      "reason": "Child rank rows do not bind to parent skill rank; not guessed"
+    }
+  ],
+  "rangeOnlyIds": [
+    "20061",
+    "10151",
+    "20062",
+    "10152"
+  ],
+  "normalizedRateParameters": [
+    {
+      "id": "10000",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10001",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "HealEffectivenessRate_Base",
+      "raw": [
+        "1000",
+        "1050",
+        "1100",
+        "1300",
+        "1350",
+        "1400",
+        "1600",
+        "1650",
+        "1700",
+        "1900"
+      ],
+      "display": [
+        "10%p",
+        "10.5%p",
+        "11%p",
+        "13%p",
+        "13.5%p",
+        "14%p",
+        "16%p",
+        "16.5%p",
+        "17%p",
+        "19%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10007",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10008",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10009",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "HealEffectivenessRate_Base",
+      "raw": [
+        "1000",
+        "1050",
+        "1100",
+        "1300",
+        "1350",
+        "1400",
+        "1600",
+        "1650",
+        "1700",
+        "1900"
+      ],
+      "display": [
+        "10%p",
+        "10.5%p",
+        "11%p",
+        "13%p",
+        "13.5%p",
+        "14%p",
+        "16%p",
+        "16.5%p",
+        "17%p",
+        "19%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "13003",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "13004",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "13009",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "13010",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "BlockRate_Base",
+      "raw": [
+        "1000",
+        "1050",
+        "1100",
+        "1300",
+        "1350",
+        "1400",
+        "1600",
+        "1650",
+        "1700",
+        "1900"
+      ],
+      "display": [
+        "10%p",
+        "10.5%p",
+        "11%p",
+        "13%p",
+        "13.5%p",
+        "14%p",
+        "16%p",
+        "16.5%p",
+        "17%p",
+        "19%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "16001",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "16002",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10014",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10018",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10024",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "13012",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10031",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "20013",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10036",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10039",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "20017",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10046",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10048",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10051",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "16012",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "20024",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10067",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "AttackSpeed_Base",
+      "raw": [
+        "1400",
+        "1470",
+        "1540",
+        "1820",
+        "1890",
+        "1960",
+        "2240",
+        "2310",
+        "2380",
+        "2660"
+      ],
+      "display": [
+        "14%p",
+        "14.7%p",
+        "15.4%p",
+        "18.2%p",
+        "18.9%p",
+        "19.6%p",
+        "22.4%p",
+        "23.1%p",
+        "23.8%p",
+        "26.6%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "26010",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10074",
+      "skill": "WeaponPassive",
+      "parameter": 2,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "1600",
+        "1640",
+        "1680",
+        "1840",
+        "1880",
+        "1920",
+        "2080",
+        "2120",
+        "2160",
+        "2320"
+      ],
+      "display": [
+        "16%p",
+        "16.4%p",
+        "16.8%p",
+        "18.4%p",
+        "18.8%p",
+        "19.2%p",
+        "20.8%p",
+        "21.2%p",
+        "21.6%p",
+        "23.2%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10078",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10082",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10088",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10092",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10093",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10100",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "20040",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10115",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10116",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10118",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10119",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10122",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "20049",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10130",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10133",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10134",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "20056",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    },
+    {
+      "id": "10141",
+      "skill": "WeaponPassive",
+      "parameter": 1,
+      "effectStat": "CriticalDamageRate_Base",
+      "raw": [
+        "2000",
+        "2100",
+        "2200",
+        "2600",
+        "2700",
+        "2800",
+        "3200",
+        "3300",
+        "3400",
+        "3800"
+      ],
+      "display": [
+        "20%p",
+        "21%p",
+        "22%p",
+        "26%p",
+        "27%p",
+        "28%p",
+        "32%p",
+        "33%p",
+        "34%p",
+        "38%p"
+      ],
+      "rule": "Exact effect.Value array binding; common.js CharacterStats.isRateStat / getTotalString rate scale100."
+    }
+  ],
+  "status": "ok",
+  "sourceRef": "14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04",
+  "sourceNativeCount": 274,
+  "detailedStatCount": 278,
+  "perRankSkillStudentCount": 274,
+  "skillTableCount": 1474,
+  "rangeOnlySkillCount": 16,
+  "sourceFormula": "https://github.com/nico0748/SchaleDB/blob/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/js/common.js",
+  "officialGrowthGuide": "https://forum.nexon.com/bluearchive/board_view?board=1071&thread=2719465",
+  "inventoryAnchorCrossChecks": 2192,
+  "snapshotLevelBound": 90,
+  "liveServerCapClaim": false,
+  "compactBytes": 4022047,
+  "defaultJsonBytes": 4295084,
+  "changed": true
+}

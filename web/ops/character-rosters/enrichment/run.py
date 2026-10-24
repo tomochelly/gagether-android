@@ -41,6 +41,23 @@ def enrich_files(files,work):
      else:report['status']='partial'
     except Exception as e:
      report['status']='partial';report.setdefault('nteErrors',[]).append(helper+': '+str(e))
+  if key=='e' and 'bluearchive'in files:
+   target=output/'enrich_bluearchive_details';target.mkdir(exist_ok=True)
+   command=[sys.executable,str(ROOT/'enrich_bluearchive_details.py'),'--input',str(output/'bluearchive.json'),'--output-dir',str(target),'--cache-dir',str(target/'sources')]
+   try:
+    result=subprocess.run(command,check=False,timeout=1200)
+    candidate=target/'bluearchive.json'
+    details=json.loads((target/'manifest.json').read_text())if(target/'manifest.json').exists()else{}
+    report['bluearchiveEnrichment']={'exitCode':result.returncode,'details':details}
+    if details.get('status')in ['failed','error','partial']:report['status']='partial'
+    if result.returncode==0 and candidate.exists():
+     d=json.loads(candidate.read_text());prior=json.loads((output/'bluearchive.json').read_text())
+     if d.get('gameId')!='bluearchive'or{c['id']for c in d['characters']}!={c['id']for c in prior['characters']}:raise ValueError('Blue Archive detail identity mismatch')
+     if len(json.dumps(d,ensure_ascii=False).encode())>4400000:raise ValueError('Blue Archive detail exceeds ingest bound')
+     shutil.copyfile(candidate,output/'bluearchive.json')
+    else:report['status']='partial'
+   except Exception as e:
+    report['status']='partial';report['bluearchiveError']=str(e)
   return key,report
  reports={}
  with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:

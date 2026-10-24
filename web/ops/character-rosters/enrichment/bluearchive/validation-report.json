@@ -1,0 +1,190 @@
+{
+  "checkedAt": "2026-10-24T22:52:28.214572+00:00",
+  "upstreamRepository": "nico0748/SchaleDB",
+  "sourceCommit": "14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04",
+  "commitDate": "2026-08-31T02:27:20Z",
+  "configBuild": 1788007318,
+  "configBuildAt": "2026-08-29T12:41:58Z",
+  "levelLimits": {
+    "Jp": 90,
+    "Global": 90,
+    "meaning": "Bounded source snapshot calculator cap, not a claim of live latest service caps"
+  },
+  "regionalMapping": {
+    "ja": "Jp",
+    "ko": "Global",
+    "en": "Global",
+    "zh": "display language only; never enable BA independent CN service"
+  },
+  "formula": {
+    "sourceUrl": "https://github.com/nico0748/SchaleDB/blob/14bbca9ff89f3a9cf1c77d5d86dd359f45fd8c04/js/common.js#L829",
+    "levelScale": "Number(((level-1)/99).toFixed(4))",
+    "interpolatedInteger": "Math.round((stat1+(stat100-stat1)*levelScale).toFixed(4))",
+    "starTotal": "Math.ceil((interpolatedInteger*starMultiplier).toFixed(4))",
+    "starIncrementsScale": 10000,
+    "starIncrements": {
+      "AttackPower": [
+        0,
+        1000,
+        1200,
+        1400,
+        1700
+      ],
+      "MaxHP": [
+        0,
+        500,
+        700,
+        900,
+        1400
+      ],
+      "HealPower": [
+        0,
+        750,
+        1000,
+        1200,
+        1500
+      ]
+    },
+    "DefensePowerMultiplier": 1,
+    "excluded": [
+      "equipment",
+      "unique item",
+      "weapon",
+      "bond and alternate-character bond",
+      "passive skills including weapon passive",
+      "potential",
+      "external/support/team buffs"
+    ],
+    "endpoint100Meaning": "Interpolation anchor; source calculator max90, do not publish this as playableLv100"
+  },
+  "officialEvidence": [
+    {
+      "url": "https://forum.nexon.com/bluearchive/board_view?board=1071&thread=2719465",
+      "apiUrl": "https://forum.nexon.com/api/v1/thread/2719465",
+      "title": "학생 성장",
+      "adminVerified": true,
+      "guideAsOf": "2026-08-18",
+      "facts": [
+        "Student level cannot exceed account level",
+        "Mystic unlock changes star grade and stats and unlocks skills",
+        "Potential gains are separate from gear and skill gains",
+        "Unique item T2 upgrades basic skill"
+      ]
+    },
+    {
+      "url": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=1749035",
+      "apiUrl": "https://forum.nexon.com/api/v1/thread/1749035",
+      "title": "5/31(화) 업데이트 상세 안내",
+      "adminVerified": true,
+      "facts": [
+        "UE unlocks atstudent5stars",
+        "UE2 upgradespassiveskill",
+        "UE3 upgradesnamedterrain"
+      ]
+    },
+    {
+      "url": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3141076",
+      "apiUrl": "https://forum.nexon.com/api/v1/thread/3141076",
+      "title": "9/23(화) 업데이트 상세 안내",
+      "adminVerified": true,
+      "facts": [
+        "2025UE4 expansion; maxUElevel60",
+        "Do notlabelUE3 aslatestweaponmax"
+      ]
+    },
+    {
+      "url": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=2603029",
+      "apiUrl": "https://forum.nexon.com/api/v1/thread/2603029",
+      "title": "7/23(화) 업데이트 상세 안내",
+      "adminVerified": true,
+      "facts": [
+        "2024accountlevelcap87→90; thishistoricalnoticeisnotprooftherewasnofurtherchange"
+      ]
+    }
+  ],
+  "new4Skills": {
+    "sourceUrl": "https://ba.joexyz.online/mcp",
+    "declaredBy": "https://github.com/jozsefsallai/ba-tools/blob/fd70147df536d9d6656e4d8d8c513cf17bbef829/src/lib/mcp/server.json",
+    "implementation": "https://github.com/jozsefsallai/ba-tools/blob/fd70147df536d9d6656e4d8d8c513cf17bbef829/src/lib/mcp/tools/get-student.ts",
+    "tool": "get_student",
+    "ids": {
+      "anna": 10151,
+      "erina": 20062,
+      "tsumugi": 10152,
+      "kasumi_swimsuit": 20061
+    },
+    "coverage": "4skills each,16total, English original names and descriptions, costs and publishedLv1-maxranges only; do notinventintermediatecoefficients",
+    "unresolvedMarkup": "Some serializedbuffName.* and angledmarkup need inert plain text/localization, never rawHTML",
+    "rawLiveAttempt": {
+      "urls": [
+        "https://schaledb.com/data/kr/students.min.json",
+        "https://schaledb.com/data/en/students.min.json",
+        "https://schaledb.com/data/jp/students.min.json",
+        "https://schaledb.com/data/zh/students.min.json"
+      ],
+      "status": "HTTP403 all4, no bypass"
+    }
+  },
+  "receipts": [
+    {
+      "file": "js-common.js",
+      "bytes": 560040,
+      "sha256": "1f56e5ba4888ecae782d1094fc9c5afc783e31c4cea297ccf9c2dd6e45e59fb3"
+    },
+    {
+      "file": "data-config.json",
+      "bytes": 56316,
+      "sha256": "fd8870bdb72f4715533cb8ab7a031a70adbe7d3ecf31d22cc3d32662099e8bde"
+    },
+    {
+      "file": "official-growth.json",
+      "bytes": 36016,
+      "sha256": "821f9898d699a92197931ab1ce5a800421dea0c50c67a9e912533afb13aa181a"
+    },
+    {
+      "file": "official-weapon.json",
+      "bytes": 360309,
+      "sha256": "c8f4a20bba5ab2752be4517d5fc48b854733060a2fe90a0a1b49a58df638a241"
+    },
+    {
+      "file": "official-weapon4.json",
+      "bytes": 274003,
+      "sha256": "50a2d37ee53ddd7f40f258f2b1c59e45d2a1f581a2e6c0c1edfb39bfd8608093"
+    },
+    {
+      "file": "official-cap90.json",
+      "bytes": 141935,
+      "sha256": "24eb66c739564613706605bddf44f2ddb751a36617f3016ddbde57a7acbda4c4"
+    },
+    {
+      "file": "joe-api.json",
+      "bytes": 604424,
+      "sha256": "fbc032d85f827bbc9a6e3678f016dab224351fafd8c9b0d96a40b90be3094ba7"
+    },
+    {
+      "file": "fork-commit.json",
+      "bytes": 4919,
+      "sha256": "49c78c554f84eb090e270259650547ef348f886898255eea023195e16237e2b4"
+    },
+    {
+      "file": "joe-mcp-kasumi_swimsuit.parsed.json",
+      "bytes": 4995,
+      "sha256": "91c77b4a18448b644aaa9207cfcf5c932c0a84332a56439e07600c3a5bd5a3f7"
+    },
+    {
+      "file": "joe-mcp-anna.parsed.json",
+      "bytes": 5023,
+      "sha256": "d6b191efc17dd840d7ac2b917a4d374d176bef7bed9f40c916fdcb5f2ffa2f82"
+    },
+    {
+      "file": "joe-mcp-tsumugi.parsed.json",
+      "bytes": 4587,
+      "sha256": "ca4b375c7765f384aae83d33c47ab5171c9f077b5e935bc462f2dbe847b631cc"
+    },
+    {
+      "file": "joe-mcp-erina.parsed.json",
+      "bytes": 4801,
+      "sha256": "fb56dfa5a0b04b8009d7cd10aa1045b49e6a210f549d285ca08506c8c96e5332"
+    }
+  ]
+}

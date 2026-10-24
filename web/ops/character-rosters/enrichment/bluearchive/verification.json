@@ -1,0 +1,19 @@
+{
+  "identityCount": 278,
+  "independentFormulaFixtureChecks": 280,
+  "sparseInputFactsPreserved": true,
+  "exactReplayIdentical": true,
+  "unchangedReplayChangedFalse": true,
+  "defaultJsonBytes": 4295084,
+  "compactBytes": 4022047,
+  "gearTables": 67,
+  "gearGlobalCount": 64,
+  "gearJpOnlyIds": [
+    "23005",
+    "10027",
+    "20016"
+  ],
+  "weaponPassiveTables": 274,
+  "gearT2AndWeapon2StarConditionsVerified": true,
+  "noIndependentBaCnSkillScope": true
+}
