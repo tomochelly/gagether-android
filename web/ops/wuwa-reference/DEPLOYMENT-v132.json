@@ -1,0 +1,24 @@
+{
+  "version": 132,
+  "sourceCommit": "55baa37b92966dc00cef42b3cc093911c685aaea",
+  "runtimeFingerprint": "98ee633a5a11209fe7ea29298b1abd58b3327724940845b8c5d2e67947c896ba",
+  "galleryForms": 60,
+  "sourceIds": 64,
+  "uniqueFullOriginals": 58,
+  "tests": {
+    "passed": 360,
+    "failed": 0,
+    "typecheck": "pass",
+    "editorRegression": "pass",
+    "workerApiRoutes": 36,
+    "viewports": [
+      320,
+      390,
+      1348
+    ]
+  },
+  "publicUrl": "https://gagether.wiki/ko/games/wuwa?tab=characters",
+  "nativeVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_5613948a8eec8191ade7938135b5a322",
+  "deploymentId": "appgdep_6adc5e93a7408191bd770afb858b6b95",
+  "scope": "WuWa encyclopedia only; source entries, owner editorial, media and visitor preferences preserved."
+}

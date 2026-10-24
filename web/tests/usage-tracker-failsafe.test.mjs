@@ -1,0 +1,7 @@
+import './load-typescript.mjs';
+import {test} from 'node:test';import assert from 'node:assert/strict';import React,{act} from 'react';import {createRoot} from 'react-dom/client';import {JSDOM} from 'jsdom';
+const {default:UsageTracker}=await import('../components/usage-tracker.tsx');
+test('missing browser UUID support disables optional analytics while the application keeps rendering',async()=>{
+ const dom=new JSDOM('<div id="root"></div>',{url:'http://localhost/'}),saved=new Map();const set=(k,v)=>{saved.set(k,Object.getOwnPropertyDescriptor(globalThis,k));Object.defineProperty(globalThis,k,{value:v,writable:true,configurable:true})};set('window',dom.window);set('document',dom.window.document);set('crypto',{});set('IS_REACT_ACT_ENVIRONMENT',true);let requests=0;set('fetch',async()=>{requests++;return Response.json({ok:true})});const root=createRoot(document.getElementById('root'));
+ try{await act(async()=>root.render(React.createElement(React.Fragment,null,React.createElement(UsageTracker,{enabled:true,view:'game',gameId:'wuwa',locale:'ko',appMode:false}),React.createElement('main',null,'Browse characters'))));assert.equal(document.querySelector('main').textContent,'Browse characters');assert.equal(requests,0);}finally{await act(async()=>root.unmount());dom.window.close();for(const[k,v]of saved){if(v)Object.defineProperty(globalThis,k,v);else delete globalThis[k];}}
+});

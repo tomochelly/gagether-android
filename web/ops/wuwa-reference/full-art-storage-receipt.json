@@ -1,0 +1,420 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-24T07:44:31.124133+00:00",
+  "assets": [
+    {
+      "sha256": "0196b82542d06d051cd85a06e1122a618aa025fbe10c08bd547d41e692c1b0cc",
+      "bytes": 384396,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "0843980c890b0a3dc1f9b566e78acd1ca78f67d930bef9eeb7b224de31518127",
+      "bytes": 190002,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "0bb04fdc8fb4a464b542acdaaf9f438db2bed92eb60805c417e045864b2d2ebe",
+      "bytes": 479980,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "0f3c43d53d97fbdd8f47bca3cfbf11c28ca25e972821adc3a7c2b76a44750a71",
+      "bytes": 379958,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "10ad1f4b5fae8683c44e29405034b9b44f29b754766583ea2c3ae302f0ce13fe",
+      "bytes": 197110,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "15825fa4d219568929b6731fe84e39f9c219b4d490df9a6e61b544373aab322e",
+      "bytes": 244762,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "1d80e6d70e8755f29a615bb5128a0e2b37aa7d362730ab4ea4a22805370a2769",
+      "bytes": 319906,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "1efa21c4eb5d55fdc03189e2d5a48ac94e0011d91ebf55b7e86cfa1c940f0151",
+      "bytes": 150566,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "bytes": 136524,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "266109f17d824c5f1f2f66d114cab9465f269dbf3884453de3966a2a38b73f95",
+      "bytes": 238166,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "29a12ff5a60703b0b8601a5b2b271b06695e7bb6ebcb13ede6ee7707e525421a",
+      "bytes": 292098,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "2c8155b52d61c699e2b8891f5e5b7a6582a4170a7e1ca3fdd6c3f86694edbe87",
+      "bytes": 219642,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "2e1e674483035bdd932118bcb4f3460e362c3269cddb352700efa2fab52c630a",
+      "bytes": 249222,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "314de6b0ead544dd2abedf3195afa5fdbc4098ac8cb31d6d698c8775ca34ce65",
+      "bytes": 550411,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "34bb38f48c96e02befc6f18502200a6fdf0e223c7d316622af06614e0fecb76f",
+      "bytes": 177220,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "3caff0263e1dfca12401c2c8533acb3b67f0431e32a890cf23b2adc49241ec43",
+      "bytes": 239766,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "3d7ed6628709b1f4f206ebe6a8f45533a3d04fca5d61e8e9af9c29042cab63f6",
+      "bytes": 198216,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "4250e8bcfe283bca099d97706130f03db5145f449748e8179adfed45e7d3f5da",
+      "bytes": 271258,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "52eb48e4e85a9debb72e76aacfcd403b8d87e23f5a85dbfe6bcf282c7e08d82a",
+      "bytes": 249492,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "5a8a12e6661cc4a39c5dbbed5221b00c04f0b4626016a1baed2acdc8417690f5",
+      "bytes": 190032,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "5e826a04d7f5ac66bec87f2de412323573686441ea0019c532252a567bac22df",
+      "bytes": 193108,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "5fd14844576531ec1223de7dcac7c9e9b48c6a75ba386442e314d751f7b80588",
+      "bytes": 351708,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "630e221d5fd4e7f5ee9e3c65ea9851b561968986543f5a19c0f917d41032a402",
+      "bytes": 296624,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "63f0219544bcc43ba2f944eaf894904e0b4e01aae76fd8cda30ddd4d80a24539",
+      "bytes": 332968,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "bytes": 171678,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "70d2965b81f50ddbe4afa9a4a11580d30bd859bbf0763e55db4295357a3c5610",
+      "bytes": 336642,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "7330285ca7550e9ea8f5011fd96af34ca72a1b710edf6fc5b8d1d1e9794d8400",
+      "bytes": 999619,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "735e96996285f08189f4555fb60d6e153a3c5880176197bb658bd5b9b91d7e44",
+      "bytes": 200028,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "73c5abb68181d6bf96d4e65710819b3986fa6b137efda1c293cc5a62e94ddf6e",
+      "bytes": 1161869,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "773f4dd41627cebb9aec0bb628dde66e9e8524d530fbb51afa5a17db4f970182",
+      "bytes": 209366,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "7e78ae3ca7ef1f85c0c6732e2dc5bbce7742fca63b89a64e09d9510dea96d1b9",
+      "bytes": 247956,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "81b66bab806e35c0aa631ff77608bd7a2754e6d52bdb982362fe15405452bff6",
+      "bytes": 197396,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "822a31af761bf34e72b7a79ee36ad723dfe4dd3579d05c593d14bf33043d86a6",
+      "bytes": 831341,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "88d3fc208cdb7f4cdececb3d0baaa1aa8083d749e44aa9a24d179e178b56fbea",
+      "bytes": 217138,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "89517e159b217162f0a7c8710fa69722c5ae860c45ee8e3127390a87d5624dc7",
+      "bytes": 1556728,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "8b38a444fae54e8b3685dc7ab97a478a50a989ccff1cca98567b49e4d0cab833",
+      "bytes": 446475,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "90a9e2659add29e44c9628b4ce155edee814c34c7a5282b4a85d015e55f9901e",
+      "bytes": 268634,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "9141b5cf66dc587fd49538778d6edc469e3da7a58bab0aa48eceec9941707ac7",
+      "bytes": 180888,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "9679cd8e4ec54c3c18d267169446d411707798d7769c103318359c8b08640cec",
+      "bytes": 240744,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "97b9c12b26610ade7a2ad3bbaeaae210b8197533579daafb1ca1704892a623d3",
+      "bytes": 464358,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "a336869249ce5bf4720c5d49e3c69651b1758d2b1cdbe990b25214a0afaa4291",
+      "bytes": 281812,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "aade2d7af21dce4685f944bfad5ba4ef92799093dfcb2f5bc0b947ab39f0ab91",
+      "bytes": 241594,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "af0a8be7cb554e641e29af37dc3e8aac5c1c1600d6f750dccd21b94c674fe074",
+      "bytes": 242264,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "b504e115d1efb878457352240318c28d477d7bb0a440b45f46f499d55feb73a4",
+      "bytes": 216830,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "c15cd3d50789884c5c84d659b181c756d5aea1290aab61257b0aef0472b35699",
+      "bytes": 278154,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "c28534e96c79300af9a78db81e97f9ceadcf518a2b32b9e9745166349a7f83a7",
+      "bytes": 1102493,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "c4b2564380f8ce6563de3deb7810d6ddebfa1ec9898f74d80eaff2e1f8faab55",
+      "bytes": 286526,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "cbe3dd3b0de13586095c9cc670098d4976d86b38cfdc594ea0e9bb3a648b6daa",
+      "bytes": 224534,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "cdc960488cb37e0b6ed2c100213fcef902980f1f83e1c7c0e5af55ff1cdd6cdd",
+      "bytes": 254448,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "d338f2f0b5bf5ad7f58aa9fa6ce369af8b75803bed706fdcd3bf089c6c4d2848",
+      "bytes": 171800,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "dd16aeb8afbfc7e44367776d163569532112c61c36880035c2fddc44f1baf987",
+      "bytes": 249646,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "e02631eb7a654de7a22cc53d7cf53b0f8f68b5253f54291795d95a0ad3d1b069",
+      "bytes": 236936,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "e8e64a4aa066315160745ea6a8eb1504cd5b9543a3e6bf42136c80d92c85b1fb",
+      "bytes": 572586,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "f086506dd81201eb8a2359cebceabd688a9d65ceccd547d42653c8ba9be3c8e3",
+      "bytes": 312588,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "f68d7f5b37e2ff4f7bd9a75212561901307d2e478f35c92ae26187c2bcc494fa",
+      "bytes": 138300,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "fb4775712ba26c0f9255c8d95d88a39b0e5fc7ca036f69a84829b2dea5986ba1",
+      "bytes": 276954,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "fbe3f41ba79f806e38d426fbae20af824efcb00315a49d7e1c9bfbdd38adcc7c",
+      "bytes": 250350,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    },
+    {
+      "sha256": "fc170272ea1baf115e517df1820c2a684c1181ca8df78fbdc3bbb9bb7c649a9a",
+      "bytes": 249438,
+      "ready": true,
+      "storageReadback": true,
+      "publicReadback": true
+    }
+  ],
+  "verificationMode": "Exact bytes and SHA-256 through the public image route using the Site capability for automated readback; anonymous browser gallery and detail rendering separately confirmed.",
+  "publicBrowser": {
+    "galleryForms": 60,
+    "missingOriginalReferences": 0,
+    "firstPageNativeImagesLoaded": 12,
+    "detailWholeOriginal": true,
+    "nestedLightboxEscapePreservesDetail": true
+  }
+}

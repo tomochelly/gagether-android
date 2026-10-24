@@ -5,7 +5,7 @@ export default function UsageTracker({enabled,view,gameId,locale,appMode,pageKey
  const current=useRef({view,gameId,locale,appMode});current.current={view,gameId,locale,appMode};
  const pending=useRef<{key:string;id:string}|null>(null);
  useEffect(()=>{
-  if(!enabled)return;
+  if(!enabled||typeof globalThis.crypto?.randomUUID!=='function')return;
   const key=view+':'+(gameId||'')+':'+(pageKey||'');
   if(pending.current?.key!==key)pending.current={key,id:crypto.randomUUID()};
   const eventId=pending.current.id;let disposed=false,sent=false,busy=false;

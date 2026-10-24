@@ -1,3 +1,4 @@
+import {parseWuwaSplashResolver} from './wuwa-splash-source';
 import {env} from 'cloudflare:workers';
 import bootstrap from '../content/wuwa-reference.json' with {type:'json'};
 import releaseEvidence from '../content/wuwa-release-evidence.json' with {type:'json'};
@@ -74,10 +75,10 @@ export async function refreshWuwaReferenceStep(force=false){
    const heroes=await db().prepare("SELECT payload FROM entries WHERE game_id='wuwa' AND json_extract(payload,'$.versionHero')=1").all<{payload:string}>();
    const known=heroes.results.map(r=>JSON.parse(r.payload)).flatMap(e=>Object.values(e.title||{}) as string[]).flatMap(t=>t.match(/\b\d+\.\d+\b/g)||[]);
    if(known.length&&!known.includes(p.version.split('.').slice(0,2).join('.')))throw Error('Data version differs from the published game version');
-   const [rows,disabled,index]=await Promise.all([json('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/Data/Characters.json'),boundedText('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/constants/disabledEntries.ts',20000),json(base+'/data/'+p.version+'/ko/character/index.json',500000)]);
+   const [rows,disabled,index,splashResolver]=await Promise.all([json('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/Data/Characters.json'),boundedText('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/constants/disabledEntries.ts',20000),json(base+'/data/'+p.version+'/ko/character/index.json',500000),boundedText('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/splashArt.ts',100000)]);
    const block=/DISABLED_CHARACTER_IDS[^=]*=[\s\S]*?\[([\s\S]*?)\]/.exec(disabled);if(!block)throw Error('Missing release-status gate');const excluded=[...block[1].matchAll(/["'](\d+)["']/g)].map(m=>Number(m[1]));
    const ids=new Set(index.map((r:any)=>r.Id));if(rows.some((r:any)=>!ids.has(r.id))||ids.size!==rows.length)throw Error('Independent character inventories differ');
-   p.characters=normalizeWuwaCharacters(rows,releaseEvidence.entries,excluded);
+   p.characters=normalizeWuwaCharacters(rows,releaseEvidence.entries,excluded,parseWuwaSplashResolver(splashResolver));
    const old=(await readWuwaReference()).data;const newIds=new Set(p.characters.flatMap(c=>c.sourceIds));if(old.characters.some(c=>c.sourceIds.some(id=>!newIds.has(id))))throw Error('Published character inventory regressed');p.phase=1;
   }else if(p.phase===1){
    const [tower,slash,html]=await Promise.all([json(base+'/data/'+p.version+'/ko/tower/index.json',500000),json(base+'/data/'+p.version+'/ko/slash/index.json',500000),boundedText('https://wuther.in/ko/matrix/',3000000)]);

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "6b79a03e925bf771e861f1d3a622628d01bf194387c00cec5838b5f16c727cb2",
+  "fingerprint": "98ee633a5a11209fe7ea29298b1abd58b3327724940845b8c5d2e67947c896ba",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -157,6 +157,10 @@
     {
       "path": "app/api/sync/route.ts",
       "sha256": "ab0be9b7b78766748761b9d303bf1f1e09904f84a27fb326e958e77c9c35f9b0"
+    },
+    {
+      "path": "app/api/wuwa/artwork/[hash]/route.ts",
+      "sha256": "b653453e8bfdd3e89f95d986eee1991b76d28dfd8482f2ae3bf6b33289268ab9"
     },
     {
       "path": "app/api/wuwa/library/route.ts",
@@ -336,7 +340,7 @@
     },
     {
       "path": "app/wuwa-reference.css",
-      "sha256": "7f8a63b654b9d5fcdf36ff264b944f83492d438e94613c8058b4fdd3f9a8c358"
+      "sha256": "8b9f559ea83950f8455ad23b5b6fc05972db4478123aa0dcd3be08bbce3602d4"
     },
     {
       "path": "build/connector-preview-plugin.mjs",
@@ -544,7 +548,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "8c8f42684651112d1207fa82219133fa921024ff509875b76b016db97eb04449"
+      "sha256": "3495a33a8b35d95de96f598014d5f3a6bc23bd323badce09cb0a8729f528834f"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -864,7 +868,7 @@
     },
     {
       "path": "components/usage-tracker.tsx",
-      "sha256": "8601af1475461d689085a3aade512732012afe3818520d0c468fc260294e3bc0"
+      "sha256": "d5f19967479f23e9ce4533fd5ef82640678b24d9c854b6f29adfc7902d5d1b02"
     },
     {
       "path": "components/use-entry-detail.ts",
@@ -896,7 +900,7 @@
     },
     {
       "path": "components/wuwa-reference.tsx",
-      "sha256": "92abd201926259ee03721955e36d0a433c452846aa1637c5abc9cad9c4d7a9ed"
+      "sha256": "0571d736f50925c4f274b67b02a8d800581f8d000ac322ef7b0c26ee78552d4b"
     },
     {
       "path": "content/additional-game-assets.json",
@@ -1081,6 +1085,10 @@
     {
       "path": "content/wuwa-reference-artwork.json",
       "sha256": "82b9ea04f8fa0eceec47955302ebb86e713562918911232693a97984fdfff47b"
+    },
+    {
+      "path": "content/wuwa-reference-splashes.json",
+      "sha256": "f70ea03c8b1873de509cc967b76aac8d780cb022a098d46cbe5297bfcb0213a1"
     },
     {
       "path": "content/wuwa-reference.json",
@@ -1735,16 +1743,24 @@
       "sha256": "c8f10767005b02fa9c37f2ca05fff7e661273b40cef989e1d66d47876de512a9"
     },
     {
+      "path": "lib/wuwa-reference-art.ts",
+      "sha256": "80398672d1492bbccb50bfcd8cfff681aa847e1db191df1c7c1541671e018383"
+    },
+    {
       "path": "lib/wuwa-reference-store.ts",
-      "sha256": "0d3acaef2aa1e49341d42079f56616c9cbb3fd031617c8f8000f1339d05c4fa3"
+      "sha256": "c9563ddab9041b69acaab8b4da1f033d986f43426bf406235a7e07eb84ae9c09"
     },
     {
       "path": "lib/wuwa-reference-view.ts",
-      "sha256": "f4d0e139dca7c307d0790332c15d2583f9ca58e22ab1974fd43f714ab42cfa32"
+      "sha256": "49073ecbddf832f35f4ec479f0125ebae9193b9d06668e10d5a63b8bb3b6cbee"
     },
     {
       "path": "lib/wuwa-reference.ts",
-      "sha256": "4afb7258f2a7d09b6a9ce2c5e63dffbbbfa7c3d03a13c070477aaa30c2856f28"
+      "sha256": "7491f2fc470e1780f7b22c7887ff3eb8037261853136382dac48a9117237a7c8"
+    },
+    {
+      "path": "lib/wuwa-splash-source.ts",
+      "sha256": "da19705f7c36e7bd454e2a812176138b9ebf6848fb6b386a40ed59aed6ef4124"
     },
     {
       "path": "lib/wuwa-weapon-store.ts",
@@ -1756,7 +1772,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "6828c647f192a987d00e23552e8847959d313c6559925bf618ece08d7948da18"
+      "sha256": "0d77c51e18ab72e62c5d67575c788efd29e52d3db1e8e11889da6ca48e7b7270"
     },
     {
       "path": "pnpm-lock.yaml",

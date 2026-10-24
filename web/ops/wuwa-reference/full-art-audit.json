@@ -1,0 +1,1062 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+  "sourceIds": 64,
+  "characterForms": 60,
+  "uniqueOriginals": 58,
+  "inspection": "All58 originals visually compared in alpha-aware contact sheets; default outfits and whole figures retained. Full-splash scenic originals preferred; exact full-standing art used where needed. No menu-cropped or round portrait fallback.",
+  "entries": {
+    "1102": {
+      "url": "/api/wuwa/artwork/e8e64a4aa066315160745ea6a8eb1504cd5b9543a3e6bf42136c80d92c85b1fb",
+      "originalUrl": "https://patchwiki.biligame.com/images/wutheringwaves/2/2e/1ejnlvn1tpa8fv98plpnr95p9lw082v.png",
+      "sourceUrl": "https://wiki.biligame.com/wutheringwaves/%E5%85%B1%E9%B8%A3%E8%80%85/%E6%95%A3%E5%8D%8E",
+      "width": 1084,
+      "height": 1500,
+      "bytes": 572586,
+      "sha256": "e8e64a4aa066315160745ea6a8eb1504cd5b9543a3e6bf42136c80d92c85b1fb",
+      "extension": "png",
+      "contentType": "image/png",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1103": {
+      "url": "/api/wuwa/artwork/822a31af761bf34e72b7a79ee36ad723dfe4dd3579d05c593d14bf33043d86a6",
+      "originalUrl": "https://patchwiki.biligame.com/images/wutheringwaves/5/5b/r0wr4fjaqwv1pv5a48nzk9a0hwfueq4.png",
+      "sourceUrl": "https://wiki.biligame.com/wutheringwaves/%E5%85%B1%E9%B8%A3%E8%80%85/%E7%99%BD%E8%8A%B7",
+      "width": 1048,
+      "height": 1500,
+      "bytes": 831341,
+      "sha256": "822a31af761bf34e72b7a79ee36ad723dfe4dd3579d05c593d14bf33043d86a6",
+      "extension": "png",
+      "contentType": "image/png",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1104": {
+      "url": "/api/wuwa/artwork/73c5abb68181d6bf96d4e65710819b3986fa6b137efda1c293cc5a62e94ddf6e",
+      "originalUrl": "https://patchwiki.biligame.com/images/wutheringwaves/f/fd/5619bkawjrlrigorebhl922yzb4uqrw.png",
+      "sourceUrl": "https://wiki.biligame.com/wutheringwaves/%E5%85%B1%E9%B8%A3%E8%80%85/%E5%87%8C%E9%98%B3",
+      "width": 1290,
+      "height": 1500,
+      "bytes": 1161869,
+      "sha256": "73c5abb68181d6bf96d4e65710819b3986fa6b137efda1c293cc5a62e94ddf6e",
+      "extension": "png",
+      "contentType": "image/png",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1105": {
+      "url": "/api/wuwa/artwork/15825fa4d219568929b6731fe84e39f9c219b4d490df9a6e61b544373aab322e",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1105.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 244762,
+      "sha256": "15825fa4d219568929b6731fe84e39f9c219b4d490df9a6e61b544373aab322e",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 53.4091,
+        "y": 54.5455
+      }
+    },
+    "1106": {
+      "url": "/api/wuwa/artwork/c28534e96c79300af9a78db81e97f9ceadcf518a2b32b9e9745166349a7f83a7",
+      "originalUrl": "https://patchwiki.biligame.com/images/wutheringwaves/5/53/01of9issych47shs0fa79otxwlrh38i.png",
+      "sourceUrl": "https://wiki.biligame.com/wutheringwaves/%E5%85%B1%E9%B8%A3%E8%80%85/%E9%87%89%E7%91%9A",
+      "width": 1080,
+      "height": 1762,
+      "bytes": 1102493,
+      "sha256": "c28534e96c79300af9a78db81e97f9ceadcf518a2b32b9e9745166349a7f83a7",
+      "extension": "png",
+      "contentType": "image/png",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1107": {
+      "url": "/api/wuwa/artwork/5e826a04d7f5ac66bec87f2de412323573686441ea0019c532252a567bac22df",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1107.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 193108,
+      "sha256": "5e826a04d7f5ac66bec87f2de412323573686441ea0019c532252a567bac22df",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 57.0312,
+        "y": 54.1667
+      }
+    },
+    "1108": {
+      "url": "/api/wuwa/artwork/266109f17d824c5f1f2f66d114cab9465f269dbf3884453de3966a2a38b73f95",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1108.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 238166,
+      "sha256": "266109f17d824c5f1f2f66d114cab9465f269dbf3884453de3966a2a38b73f95",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 57.1429,
+        "y": 52.381
+      }
+    },
+    "1109": {
+      "url": "/api/wuwa/artwork/88d3fc208cdb7f4cdececb3d0baaa1aa8083d749e44aa9a24d179e178b56fbea",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1109.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 217138,
+      "sha256": "88d3fc208cdb7f4cdececb3d0baaa1aa8083d749e44aa9a24d179e178b56fbea",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 60.6534,
+        "y": 53.0303
+      }
+    },
+    "1110": {
+      "url": "/api/wuwa/artwork/a336869249ce5bf4720c5d49e3c69651b1758d2b1cdbe990b25214a0afaa4291",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1110.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 281812,
+      "sha256": "a336869249ce5bf4720c5d49e3c69651b1758d2b1cdbe990b25214a0afaa4291",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1202": {
+      "url": "/api/wuwa/artwork/d338f2f0b5bf5ad7f58aa9fa6ce369af8b75803bed706fdcd3bf089c6c4d2848",
+      "originalUrl": "https://cdn.prydwen.gg/images/wuthering-waves/characters/chixia_full.webp",
+      "sourceUrl": "https://www.prydwen.gg/wuthering-waves/characters/chixia",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 171800,
+      "sha256": "d338f2f0b5bf5ad7f58aa9fa6ce369af8b75803bed706fdcd3bf089c6c4d2848",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1203": {
+      "url": "/api/wuwa/artwork/0f3c43d53d97fbdd8f47bca3cfbf11c28ca25e972821adc3a7c2b76a44750a71",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1203.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 379958,
+      "sha256": "0f3c43d53d97fbdd8f47bca3cfbf11c28ca25e972821adc3a7c2b76a44750a71",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 51.875,
+        "y": 50.0
+      }
+    },
+    "1204": {
+      "url": "/api/wuwa/artwork/314de6b0ead544dd2abedf3195afa5fdbc4098ac8cb31d6d698c8775ca34ce65",
+      "originalUrl": "https://patchwiki.biligame.com/images/wutheringwaves/7/76/aljxo9uhu1k88df1btze5lxn0gty48z.png",
+      "sourceUrl": "https://wiki.biligame.com/wutheringwaves/%E5%85%B1%E9%B8%A3%E8%80%85/%E8%8E%AB%E7%89%B9%E6%96%90",
+      "width": 1023,
+      "height": 1500,
+      "bytes": 550411,
+      "sha256": "314de6b0ead544dd2abedf3195afa5fdbc4098ac8cb31d6d698c8775ca34ce65",
+      "extension": "png",
+      "contentType": "image/png",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1205": {
+      "url": "/api/wuwa/artwork/0843980c890b0a3dc1f9b566e78acd1ca78f67d930bef9eeb7b224de31518127",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1205.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 190002,
+      "sha256": "0843980c890b0a3dc1f9b566e78acd1ca78f67d930bef9eeb7b224de31518127",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 46.5179,
+        "y": 49.5238
+      }
+    },
+    "1206": {
+      "url": "/api/wuwa/artwork/b504e115d1efb878457352240318c28d477d7bb0a440b45f46f499d55feb73a4",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1206.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 216830,
+      "sha256": "b504e115d1efb878457352240318c28d477d7bb0a440b45f46f499d55feb73a4",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 61.413,
+        "y": 53.6232
+      }
+    },
+    "1207": {
+      "url": "/api/wuwa/artwork/cbe3dd3b0de13586095c9cc670098d4976d86b38cfdc594ea0e9bb3a648b6daa",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1207.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 224534,
+      "sha256": "cbe3dd3b0de13586095c9cc670098d4976d86b38cfdc594ea0e9bb3a648b6daa",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 56.5625,
+        "y": 50.0
+      }
+    },
+    "1208": {
+      "url": "/api/wuwa/artwork/e02631eb7a654de7a22cc53d7cf53b0f8f68b5253f54291795d95a0ad3d1b069",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1208.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 236936,
+      "sha256": "e02631eb7a654de7a22cc53d7cf53b0f8f68b5253f54291795d95a0ad3d1b069",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 59.375,
+        "y": 50.0
+      }
+    },
+    "1209": {
+      "url": "/api/wuwa/artwork/fc170272ea1baf115e517df1820c2a684c1181ca8df78fbdc3bbb9bb7c649a9a",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1209.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 249438,
+      "sha256": "fc170272ea1baf115e517df1820c2a684c1181ca8df78fbdc3bbb9bb7c649a9a",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 64.0625,
+        "y": 50.0
+      }
+    },
+    "1210": {
+      "url": "/api/wuwa/artwork/c4b2564380f8ce6563de3deb7810d6ddebfa1ec9898f74d80eaff2e1f8faab55",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1210.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 286526,
+      "sha256": "c4b2564380f8ce6563de3deb7810d6ddebfa1ec9898f74d80eaff2e1f8faab55",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 65.375,
+        "y": 50.0
+      }
+    },
+    "1211": {
+      "url": "/api/wuwa/artwork/1d80e6d70e8755f29a615bb5128a0e2b37aa7d362730ab4ea4a22805370a2769",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1211.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 319906,
+      "sha256": "1d80e6d70e8755f29a615bb5128a0e2b37aa7d362730ab4ea4a22805370a2769",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 55.625,
+        "y": 50.0
+      }
+    },
+    "1212": {
+      "url": "/api/wuwa/artwork/aade2d7af21dce4685f944bfad5ba4ef92799093dfcb2f5bc0b947ab39f0ab91",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1212.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 241594,
+      "sha256": "aade2d7af21dce4685f944bfad5ba4ef92799093dfcb2f5bc0b947ab39f0ab91",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 58.1522,
+        "y": 53.0435
+      }
+    },
+    "1301": {
+      "url": "/api/wuwa/artwork/7330285ca7550e9ea8f5011fd96af34ca72a1b710edf6fc5b8d1d1e9794d8400",
+      "originalUrl": "https://patchwiki.biligame.com/images/wutheringwaves/8/86/ccd8316uw93pq1mcytcrxjp9901entf.png",
+      "sourceUrl": "https://wiki.biligame.com/wutheringwaves/%E5%85%B1%E9%B8%A3%E8%80%85/%E5%8D%A1%E5%8D%A1%E7%BD%97",
+      "width": 1217,
+      "height": 1500,
+      "bytes": 999619,
+      "sha256": "7330285ca7550e9ea8f5011fd96af34ca72a1b710edf6fc5b8d1d1e9794d8400",
+      "extension": "png",
+      "contentType": "image/png",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1302": {
+      "url": "/api/wuwa/artwork/1efa21c4eb5d55fdc03189e2d5a48ac94e0011d91ebf55b7e86cfa1c940f0151",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1302.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 150566,
+      "sha256": "1efa21c4eb5d55fdc03189e2d5a48ac94e0011d91ebf55b7e86cfa1c940f0151",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 50.0,
+        "y": 56.5217
+      }
+    },
+    "1303": {
+      "url": "/api/wuwa/artwork/f68d7f5b37e2ff4f7bd9a75212561901307d2e478f35c92ae26187c2bcc494fa",
+      "originalUrl": "https://cdn.prydwen.gg/images/wuthering-waves/characters/yuanwu_full.webp",
+      "sourceUrl": "https://www.prydwen.gg/wuthering-waves/characters/yuanwu",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 138300,
+      "sha256": "f68d7f5b37e2ff4f7bd9a75212561901307d2e478f35c92ae26187c2bcc494fa",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1304": {
+      "url": "/api/wuwa/artwork/c15cd3d50789884c5c84d659b181c756d5aea1290aab61257b0aef0472b35699",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1304.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 278154,
+      "sha256": "c15cd3d50789884c5c84d659b181c756d5aea1290aab61257b0aef0472b35699",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 50.0,
+        "y": 54.5455
+      }
+    },
+    "1305": {
+      "url": "/api/wuwa/artwork/4250e8bcfe283bca099d97706130f03db5145f449748e8179adfed45e7d3f5da",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1305.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 271258,
+      "sha256": "4250e8bcfe283bca099d97706130f03db5145f449748e8179adfed45e7d3f5da",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 56.8182,
+        "y": 54.5455
+      }
+    },
+    "1306": {
+      "url": "/api/wuwa/artwork/63f0219544bcc43ba2f944eaf894904e0b4e01aae76fd8cda30ddd4d80a24539",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1306.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 332968,
+      "sha256": "63f0219544bcc43ba2f944eaf894904e0b4e01aae76fd8cda30ddd4d80a24539",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 60.3125,
+        "y": 50.0
+      }
+    },
+    "1307": {
+      "url": "/api/wuwa/artwork/89517e159b217162f0a7c8710fa69722c5ae860c45ee8e3127390a87d5624dc7",
+      "originalUrl": "https://patchwiki.biligame.com/images/wutheringwaves/d/d3/mwyw24yhcmf562j8detyans04rypsz6.png",
+      "sourceUrl": "https://wiki.biligame.com/wutheringwaves/%E5%85%B1%E9%B8%A3%E8%80%85/%E5%8D%9C%E7%81%B5",
+      "width": 1419,
+      "height": 1875,
+      "bytes": 1556728,
+      "sha256": "89517e159b217162f0a7c8710fa69722c5ae860c45ee8e3127390a87d5624dc7",
+      "extension": "png",
+      "contentType": "image/png",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1308": {
+      "url": "/api/wuwa/artwork/0bb04fdc8fb4a464b542acdaaf9f438db2bed92eb60805c417e045864b2d2ebe",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1308.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 479980,
+      "sha256": "0bb04fdc8fb4a464b542acdaaf9f438db2bed92eb60805c417e045864b2d2ebe",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 64.0625,
+        "y": 50.0
+      }
+    },
+    "1309": {
+      "url": "/api/wuwa/artwork/6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "originalUrl": "https://wutherin.cn-nb1.rains3.com/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNanzhu.webp",
+      "sourceUrl": "https://wuther.in/character/1501",
+      "width": 2048,
+      "height": 2032,
+      "bytes": 171678,
+      "sha256": "6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1310": {
+      "url": "/api/wuwa/artwork/252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "originalUrl": "https://wutherin.cn-nb1.rains3.com/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNvzhu.webp",
+      "sourceUrl": "https://wuther.in/character/1502",
+      "width": 2048,
+      "height": 2032,
+      "bytes": 136524,
+      "sha256": "252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1311": {
+      "url": "/api/wuwa/artwork/3caff0263e1dfca12401c2c8533acb3b67f0431e32a890cf23b2adc49241ec43",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1311.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 239766,
+      "sha256": "3caff0263e1dfca12401c2c8533acb3b67f0431e32a890cf23b2adc49241ec43",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 61.1685,
+        "y": 48.6957
+      }
+    },
+    "1312": {
+      "url": "/api/wuwa/artwork/34bb38f48c96e02befc6f18502200a6fdf0e223c7d316622af06614e0fecb76f",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1312.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 177220,
+      "sha256": "34bb38f48c96e02befc6f18502200a6fdf0e223c7d316622af06614e0fecb76f",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 59.1193,
+        "y": 53.1818
+      }
+    },
+    "1402": {
+      "url": "/api/wuwa/artwork/735e96996285f08189f4555fb60d6e153a3c5880176197bb658bd5b9b91d7e44",
+      "originalUrl": "https://cdn.prydwen.gg/images/wuthering-waves/characters/yangyang_full.webp",
+      "sourceUrl": "https://www.prydwen.gg/wuthering-waves/characters/yangyang",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 200028,
+      "sha256": "735e96996285f08189f4555fb60d6e153a3c5880176197bb658bd5b9b91d7e44",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1403": {
+      "url": "/api/wuwa/artwork/8b38a444fae54e8b3685dc7ab97a478a50a989ccff1cca98567b49e4d0cab833",
+      "originalUrl": "https://patchwiki.biligame.com/images/wutheringwaves/e/e6/1wtircd55c8an80a9ppj62g4ylss0nv.png",
+      "sourceUrl": "https://wiki.biligame.com/wutheringwaves/%E5%85%B1%E9%B8%A3%E8%80%85/%E7%A7%8B%E6%B0%B4",
+      "width": 965,
+      "height": 1500,
+      "bytes": 446475,
+      "sha256": "8b38a444fae54e8b3685dc7ab97a478a50a989ccff1cca98567b49e4d0cab833",
+      "extension": "png",
+      "contentType": "image/png",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1404": {
+      "url": "/api/wuwa/artwork/7e78ae3ca7ef1f85c0c6732e2dc5bbce7742fca63b89a64e09d9510dea96d1b9",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1404.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 247956,
+      "sha256": "7e78ae3ca7ef1f85c0c6732e2dc5bbce7742fca63b89a64e09d9510dea96d1b9",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 58.4375,
+        "y": 50.0
+      }
+    },
+    "1405": {
+      "url": "/api/wuwa/artwork/97b9c12b26610ade7a2ad3bbaeaae210b8197533579daafb1ca1704892a623d3",
+      "originalUrl": "https://cdn.prydwen.gg/images/wuthering-waves/characters/jianxin_full.webp",
+      "sourceUrl": "https://www.prydwen.gg/wuthering-waves/characters/jianxin",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 464358,
+      "sha256": "97b9c12b26610ade7a2ad3bbaeaae210b8197533579daafb1ca1704892a623d3",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1406": {
+      "url": "/api/wuwa/artwork/6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "originalUrl": "https://wutherin.cn-nb1.rains3.com/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNanzhu.webp",
+      "sourceUrl": "https://wuther.in/character/1501",
+      "width": 2048,
+      "height": 2032,
+      "bytes": 171678,
+      "sha256": "6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1407": {
+      "url": "/api/wuwa/artwork/773f4dd41627cebb9aec0bb628dde66e9e8524d530fbb51afa5a17db4f970182",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1407.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 209366,
+      "sha256": "773f4dd41627cebb9aec0bb628dde66e9e8524d530fbb51afa5a17db4f970182",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 55.7065,
+        "y": 53.6232
+      }
+    },
+    "1408": {
+      "url": "/api/wuwa/artwork/252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "originalUrl": "https://wutherin.cn-nb1.rains3.com/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNvzhu.webp",
+      "sourceUrl": "https://wuther.in/character/1502",
+      "width": 2048,
+      "height": 2032,
+      "bytes": 136524,
+      "sha256": "252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1409": {
+      "url": "/api/wuwa/artwork/9679cd8e4ec54c3c18d267169446d411707798d7769c103318359c8b08640cec",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1409.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 240744,
+      "sha256": "9679cd8e4ec54c3c18d267169446d411707798d7769c103318359c8b08640cec",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 65.375,
+        "y": 50.3333
+      }
+    },
+    "1410": {
+      "url": "/api/wuwa/artwork/fbe3f41ba79f806e38d426fbae20af824efcb00315a49d7e1c9bfbdd38adcc7c",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1410.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 250350,
+      "sha256": "fbe3f41ba79f806e38d426fbae20af824efcb00315a49d7e1c9bfbdd38adcc7c",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 60.3125,
+        "y": 50.0
+      }
+    },
+    "1411": {
+      "url": "/api/wuwa/artwork/81b66bab806e35c0aa631ff77608bd7a2754e6d52bdb982362fe15405452bff6",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1411.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 197396,
+      "sha256": "81b66bab806e35c0aa631ff77608bd7a2754e6d52bdb982362fe15405452bff6",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 53.75,
+        "y": 50.0
+      }
+    },
+    "1412": {
+      "url": "/api/wuwa/artwork/70d2965b81f50ddbe4afa9a4a11580d30bd859bbf0763e55db4295357a3c5610",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1412.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 336642,
+      "sha256": "70d2965b81f50ddbe4afa9a4a11580d30bd859bbf0763e55db4295357a3c5610",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 60.3125,
+        "y": 50.0
+      }
+    },
+    "1413": {
+      "url": "/api/wuwa/artwork/dd16aeb8afbfc7e44367776d163569532112c61c36880035c2fddc44f1baf987",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1413.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 249646,
+      "sha256": "dd16aeb8afbfc7e44367776d163569532112c61c36880035c2fddc44f1baf987",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 55.1136,
+        "y": 52.4242
+      }
+    },
+    "1501": {
+      "url": "/api/wuwa/artwork/6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "originalUrl": "https://wutherin.cn-nb1.rains3.com/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNanzhu.webp",
+      "sourceUrl": "https://wuther.in/character/1501",
+      "width": 2048,
+      "height": 2032,
+      "bytes": 171678,
+      "sha256": "6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1502": {
+      "url": "/api/wuwa/artwork/252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "originalUrl": "https://wutherin.cn-nb1.rains3.com/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNvzhu.webp",
+      "sourceUrl": "https://wuther.in/character/1502",
+      "width": 2048,
+      "height": 2032,
+      "bytes": 136524,
+      "sha256": "252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1503": {
+      "url": "/api/wuwa/artwork/90a9e2659add29e44c9628b4ce155edee814c34c7a5282b4a85d015e55f9901e",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1503.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 268634,
+      "sha256": "90a9e2659add29e44c9628b4ce155edee814c34c7a5282b4a85d015e55f9901e",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 63.2812,
+        "y": 58.3333
+      }
+    },
+    "1504": {
+      "url": "/api/wuwa/artwork/3d7ed6628709b1f4f206ebe6a8f45533a3d04fca5d61e8e9af9c29042cab63f6",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1504.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 198216,
+      "sha256": "3d7ed6628709b1f4f206ebe6a8f45533a3d04fca5d61e8e9af9c29042cab63f6",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 50.0,
+        "y": 50.0
+      }
+    },
+    "1505": {
+      "url": "/api/wuwa/artwork/52eb48e4e85a9debb72e76aacfcd403b8d87e23f5a85dbfe6bcf282c7e08d82a",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1505.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 249492,
+      "sha256": "52eb48e4e85a9debb72e76aacfcd403b8d87e23f5a85dbfe6bcf282c7e08d82a",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1506": {
+      "url": "/api/wuwa/artwork/2e1e674483035bdd932118bcb4f3460e362c3269cddb352700efa2fab52c630a",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1506.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 249222,
+      "sha256": "2e1e674483035bdd932118bcb4f3460e362c3269cddb352700efa2fab52c630a",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 58.5227,
+        "y": 50.0
+      }
+    },
+    "1507": {
+      "url": "/api/wuwa/artwork/f086506dd81201eb8a2359cebceabd688a9d65ceccd547d42653c8ba9be3c8e3",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1507.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 312588,
+      "sha256": "f086506dd81201eb8a2359cebceabd688a9d65ceccd547d42653c8ba9be3c8e3",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 48.2955,
+        "y": 54.5455
+      }
+    },
+    "1508": {
+      "url": "/api/wuwa/artwork/fb4775712ba26c0f9255c8d95d88a39b0e5fc7ca036f69a84829b2dea5986ba1",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1508.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 276954,
+      "sha256": "fb4775712ba26c0f9255c8d95d88a39b0e5fc7ca036f69a84829b2dea5986ba1",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 66.875,
+        "y": 50.0
+      }
+    },
+    "1509": {
+      "url": "/api/wuwa/artwork/5fd14844576531ec1223de7dcac7c9e9b48c6a75ba386442e314d751f7b80588",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1509.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 351708,
+      "sha256": "5fd14844576531ec1223de7dcac7c9e9b48c6a75ba386442e314d751f7b80588",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 58.4375,
+        "y": 50.0
+      }
+    },
+    "1510": {
+      "url": "/api/wuwa/artwork/af0a8be7cb554e641e29af37dc3e8aac5c1c1600d6f750dccd21b94c674fe074",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1510.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 242264,
+      "sha256": "af0a8be7cb554e641e29af37dc3e8aac5c1c1600d6f750dccd21b94c674fe074",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 61.0795,
+        "y": 54.5455
+      }
+    },
+    "1511": {
+      "url": "/api/wuwa/artwork/630e221d5fd4e7f5ee9e3c65ea9851b561968986543f5a19c0f917d41032a402",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1511.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 296624,
+      "sha256": "630e221d5fd4e7f5ee9e3c65ea9851b561968986543f5a19c0f917d41032a402",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 68.75,
+        "y": 52.381
+      }
+    },
+    "1601": {
+      "url": "/api/wuwa/artwork/5a8a12e6661cc4a39c5dbbed5221b00c04f0b4626016a1baed2acdc8417690f5",
+      "originalUrl": "https://cdn.prydwen.gg/images/wuthering-waves/characters/taoqi_full.webp",
+      "sourceUrl": "https://www.prydwen.gg/wuthering-waves/characters/taoqi",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 190032,
+      "sha256": "5a8a12e6661cc4a39c5dbbed5221b00c04f0b4626016a1baed2acdc8417690f5",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1602": {
+      "url": "/api/wuwa/artwork/9141b5cf66dc587fd49538778d6edc469e3da7a58bab0aa48eceec9941707ac7",
+      "originalUrl": "https://cdn.prydwen.gg/images/wuthering-waves/characters/danjin_full.webp",
+      "sourceUrl": "https://www.prydwen.gg/wuthering-waves/characters/danjin",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 180888,
+      "sha256": "9141b5cf66dc587fd49538778d6edc469e3da7a58bab0aa48eceec9941707ac7",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1603": {
+      "url": "/api/wuwa/artwork/10ad1f4b5fae8683c44e29405034b9b44f29b754766583ea2c3ae302f0ce13fe",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1603.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 197110,
+      "sha256": "10ad1f4b5fae8683c44e29405034b9b44f29b754766583ea2c3ae302f0ce13fe",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 49.1071,
+        "y": 52.381
+      }
+    },
+    "1604": {
+      "url": "/api/wuwa/artwork/252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "originalUrl": "https://wutherin.cn-nb1.rains3.com/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNvzhu.webp",
+      "sourceUrl": "https://wuther.in/character/1502",
+      "width": 2048,
+      "height": 2032,
+      "bytes": 136524,
+      "sha256": "252679de6d19642d9c871da06cb368fd3a72a889e350bb8758be75b9152a0bcd",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1605": {
+      "url": "/api/wuwa/artwork/6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "originalUrl": "https://wutherin.cn-nb1.rains3.com/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNanzhu.webp",
+      "sourceUrl": "https://wuther.in/character/1501",
+      "width": 2048,
+      "height": 2032,
+      "bytes": 171678,
+      "sha256": "6b391ad6fe5268d954407a233c4c91307d7b6ffee93cfb7e6c0d7fbc91d2100a",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-standing",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    },
+    "1606": {
+      "url": "/api/wuwa/artwork/2c8155b52d61c699e2b8891f5e5b7a6582a4170a7e1ca3fdd6c3f86694edbe87",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1606.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 219642,
+      "sha256": "2c8155b52d61c699e2b8891f5e5b7a6582a4170a7e1ca3fdd6c3f86694edbe87",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 59.375,
+        "y": 54.5455
+      }
+    },
+    "1607": {
+      "url": "/api/wuwa/artwork/29a12ff5a60703b0b8601a5b2b271b06695e7bb6ebcb13ede6ee7707e525421a",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1607.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 292098,
+      "sha256": "29a12ff5a60703b0b8601a5b2b271b06695e7bb6ebcb13ede6ee7707e525421a",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 62.2727,
+        "y": 54.5455
+      }
+    },
+    "1608": {
+      "url": "/api/wuwa/artwork/0196b82542d06d051cd85a06e1122a618aa025fbe10c08bd547d41e692c1b0cc",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1608.webp",
+      "sourceUrl": "https://github.com/DommyMM/wuwabuild/blob/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 384396,
+      "sha256": "0196b82542d06d051cd85a06e1122a618aa025fbe10c08bd547d41e692c1b0cc",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00",
+      "focus": {
+        "x": 49.0625,
+        "y": 50.0
+      }
+    },
+    "1610": {
+      "url": "/api/wuwa/artwork/cdc960488cb37e0b6ed2c100213fcef902980f1f83e1c7c0e5af55ff1cdd6cdd",
+      "originalUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/images/splash/1610.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/splashArt.ts",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 254448,
+      "sha256": "cdc960488cb37e0b6ed2c100213fcef902980f1f83e1c7c0e5af55ff1cdd6cdd",
+      "extension": "webp",
+      "contentType": "image/webp",
+      "kind": "full-splash",
+      "imageLocale": "neutral",
+      "checkedAt": "2026-10-24T07:16:56.468673+00:00"
+    }
+  }
+}

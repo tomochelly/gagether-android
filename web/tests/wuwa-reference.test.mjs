@@ -44,6 +44,7 @@ test('the predefined automatic collector completes real SQLite checkpoints, chec
   if(u==='https://wuther.in/ko/toa/')html='<script src="https://wutherin.cn-nb1.rains3.com/_next/static/chunks/source.js"></script>';
   else if(u.endsWith('/source.js'))html='e.s(["LATEST_DATA_VERSION",0,"3.7.8"]);';
   else if(u.endsWith('/Characters.json'))value=characters;
+  else if(u.endsWith('/splashArt.ts'))html=readFileSync(new URL('./fixtures/wuwa-reference/splashArt.ts.txt',import.meta.url),'utf8');
   else if(u.endsWith('/disabledEntries.ts'))html='export const DISABLED_CHARACTER_IDS = new Set<string>([]);';
   else if(u.endsWith('/ko/character/index.json'))value=characters.map(c=>({Id:c.id}));
   else if(u.endsWith('/ko/tower/index.json'))value={seasons:tower.seasons.filter(c=>c.id==='41')};
@@ -61,5 +62,5 @@ test('the public API uses conditional immutable reads while cross-origin and una
 });
 
 test('full artwork survives automatic normalization for every exact source ID including both Rover variants',()=>{
- const characters=model.normalizeWuwaCharacters(read('characters.json'),[]);const sourceById=new Map(read('characters.json').map(c=>[c.id,c]));assert.equal(characters.length,60);for(const c of characters)for(const p of c.portraits)assert.equal(p.artwork,model.wuwaBuildAsset(sourceById.get(p.id).icon.banner));const havoc=characters.find(c=>c.id==='rover-havoc');assert.equal(havoc.portraits.length,2);assert.notEqual(havoc.portraits[0].artwork,havoc.portraits[1].artwork);assert.equal(model.validateWuwaReference(snapshot),snapshot,'v1 snapshots without art remain compatible');
+ const characters=model.normalizeWuwaCharacters(read('characters.json'),[]);const sourceById=new Map(read('characters.json').map(c=>[c.id,c]));assert.equal(characters.length,60);for(const c of characters)for(const p of c.portraits){assert.equal(p.artwork,model.wuwaBuildAsset(sourceById.get(p.id).icon.banner));assert.ok(p.fullArtwork);assert.ok(!p.fullArtwork.includes('IconRolePile'));}const havoc=characters.find(c=>c.id==='rover-havoc');assert.equal(havoc.portraits.length,2);assert.notEqual(havoc.portraits[0].artwork,havoc.portraits[1].artwork);assert.equal(model.validateWuwaReference(snapshot),snapshot,'v1 snapshots without art remain compatible');
 });
