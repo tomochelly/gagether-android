@@ -15,3 +15,9 @@ test('every game offers a character tab; WuWa keeps its combat tab; lazy navigat
 
  }finally{if(root)await act(async()=>root.unmount());dom.window.close();for(const[k,d]of saved){if(d)Object.defineProperty(globalThis,k,d);else delete globalThis[k];}}
 });
+test('other game navigation uses generic native character terminology in every locale',()=>{
+ const labels={ko:'캐릭터 도감',en:'Character database',ja:'キャラクター図鑑',zh:'角色图鉴'};
+ for(const [locale,label]of Object.entries(labels)){
+  const html=renderToString(React.createElement(Radar,{initialLocale:locale,initialLocaleManual:true,initialView:'game',initialGameId:'hi3',initialRegion:'kr',initialData:{...emptyCatalog(),persistent:true,serverTime:new Date().toISOString()},initialComplete:true,initialDeferred:false}));const dom=new JSDOM(html);const tabs=[...dom.window.document.querySelectorAll('.game-section-tabs>button')].map(b=>b.textContent);assert.ok(tabs.includes(label),locale+': '+tabs.join('|'));dom.window.close();
+ }
+});
