@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "377fc0ea05a2977b264b34a982b82ff104dfc1d8499c7a71c5ecb3d1a2dfa0b8",
+  "fingerprint": "f9eb25a83994ba4ed95f716ba7e8756e83d4b6fc2969069e539a264e6e5ea15d",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -116,7 +116,7 @@
     },
     {
       "path": "app/api/leaks/route.ts",
-      "sha256": "268aaecaaf16307a901612f2cbdee327ebfb3be52601049a0a1ccf8e150b2e40"
+      "sha256": "9bf18ee6bc36a6dcc35fdc65eeec99f6461e09370a98a6f319a0cb9725155084"
     },
     {
       "path": "app/api/media/[file]/route.ts",
@@ -1444,11 +1444,11 @@
     },
     {
       "path": "lib/leaks-store.ts",
-      "sha256": "a5e2413fa0e0cff387887b7b025651c46aec367898f0899d3eb59bc19deb703a"
+      "sha256": "4ec9f6bed74042cfb36b521305be6ee9ae54a9c2c73bf94bd4b16c7112144302"
     },
     {
       "path": "lib/leaks.ts",
-      "sha256": "d99f33b237fcbc090d1531829703a82435ce2bb2cd9e61be24737061127295e0"
+      "sha256": "02089c2cff3578370e934ba925a667296b282c8fa89491afd0d2e3157863d828"
     },
     {
       "path": "lib/maintained-artwork-store.ts",

@@ -2575,6 +2575,12 @@
       "sha256": "fce1a3b4e6da1605b80836ecc11b2d1a09f15f7f926510b6dbfab6d1e33a474b",
       "bytes": 222944,
       "ready": true
+    },
+    {
+      "path": "assets/leaks/wuwa-hiyuki-3-8-b6542500c3ac.jpg",
+      "sha256": "b6542500c3ac6b2e82ecb15cb84b7527c71bc6a5c69825d48f70729d0ed86f9a",
+      "bytes": 32236,
+      "ready": true
     }
   ]
 }

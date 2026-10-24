@@ -38,7 +38,7 @@ Reddit 일부 피드429, 단일 본문 JS-only 및 JSON403은 조사 제한으�
 기존 GitHub Actions → 인증된 `/api/fast-refresh`에서 공식 정보 → 명조 도감 이후 `leaks` 단계를 실행한다. 새로운 작업이나 인증 예외는 만들지 않는다.
 
 - 기본6시간 주기. 실패한 피드는1시간 뒤 다시 확인한다. 제한된 재시도/15초 타임아웃, 독립 요청 lease, 영속 체크포인트를 사용한다.
-- 요청 하나에 고정 피드 하나 또는 문서 하나의 번역 언어 하나를 처리한다. 피드별 최신3개 후보, 한 실행 최대6개 문서를 다룬다. 이는 최근 공개 피드 점검이며 전체 웹의 완전 수집이 아니다.
+- 요청 하나에 고정 피드 하나 또는 문서 하나의 번역 언어 하나를 처리한다. 본문이 포함된 피드는 최대12개 후보, 요약 전용 피드는 새 글 우선3개와 기존 글 순환 점검, 한 실행 최대6개 문서를 다룬다. 게임별 최신 문서를 먼저 한 건씩 배정해 한 게임 때문에 다른 게임이 계속 밀리지 않게 한다. 이는 최근 공개 피드 점검이며 전체 웹의 완전 수집이 아니다.
 - 원문 텍스트/그림 목록의 해시가 같으면 내용·검수 시각·기존 번역을 다시 저장하지 않는다. 게시 순서는 실제 발행일을 사용한다.
 - 이미지 원본은 MIME 매직·실제 치수·크기·해시를 확인해 기존 버킷의 별도 `leak-assets/<sha256>`에 저장하고 재조회한다. 원본을 삭제/재인코딩하지 않는다. 수동 업로드/기존 catalog/제보 저장소를 건드리지 않는다. 자동 이미지는 `source-image`, `visuallyInspected:false`, 언어 미분류로 표시한다. 직접 확인한 렌더만 확인됨 메타데이터를 가진다.
 - 원문이 바뀌면 변경된 자료로 번역을 진행한다. 직접 편집된 `manual:true` 항목은 자동으로 덮어쓰지 않으며, 바뀐 원문은 관리 큐에 남긴다. 실패한 수집은 마지막 게시값을 지우지 않는다.
@@ -52,7 +52,7 @@ https://mymemory.translated.net/doc/usagelimits.php
 ## 관리·수정·복원
 
 - `GET /api/leaks?game=wuwa&ack=1` 공개 읽기. ack가 없으면428. 관리용 `GET /api/leaks?manage=1`은 기존 owner/updater 인증을 요구한다. 원문/번역 대기 큐, 소스 상태, 저장 항목을 제공한다.
-- `POST /api/leaks {"action":"refresh"}`는 같은 origin+기존 owner/updater 인증에서만 고정 수집 한 단계를 실행한다. done:false면 같은 요청을 반복하고, done:true 뒤 공개 목록·관리 큐를 재조회한다. 임의 수집 URL은 받지 않는다.
+- `POST /api/leaks {"action":"refresh"}`는 같은 origin+기존 owner/updater 인증에서만 고정 수집 한 단계를 실행한다. done:false면 같은 요청을 반복하고, done:true 뒤 공개 목록·관리 큐를 재조회한다. 임의 수집 URL은 받지 않는다. 기본 요청은 완료된 작업을 중복 시작하지 않으며, 운영자의 명시적 재점검에는 force:true를 쓸 수 있다.
 - `POST /api/leaks {action:"sync",items:[{item:<strict LeakItem>,expectedRevision:N}]}`로 검증된 요약/번역/이미지 메타데이터를 저장한다. 아이템 ID는 `gameId + '-' + SHA256(sourceUrl)의 앞24자`. 새 항목 expectedRevision0. 전체 검증과 revision 충돌 보호, 변경 이력과 저장 재조회를 적용한다. 사용자 편집은 manual:true로 보호한다. API는 실제 응답의 수정 결과를 확인해야 한다.
 - `GET /api/leaks?manage=1&id=<id>`로 이력을 확인한다. 같은 인증의 `POST /api/leaks {action:"restore",id,expectedRevision,restoreRevision}`는 예전 스냅샷을 새 리비전으로 복원한다. 무조건 덮어쓰기나 물리 삭제는 없다.
 - D1 `operations_health`의 `leaks:` 네임스페이스만 사용한다. `leaks:item`, `document`, `history`, `run`, `translation`, `translation-budget`은 다른 콘텐츠와 독립적이다. R2는 leak-assets만 사용한다. 일반 데이터 수정에는 재배포하지 않는다.
