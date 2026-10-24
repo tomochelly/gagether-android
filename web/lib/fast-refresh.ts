@@ -54,7 +54,7 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
       const changed=noticeMetadataChange(old,n,at);if(changed){nativeChanges.push(changed);changedNotices.push({notice:n,checkedAt:at});changedNeedsReview.push(changed.id);}
       continue;
      }
-     const entry=noticeEntry(n,at);known.add(url);noticed.push(entry);added++;
+     const entry=noticeEntry(n,at);known.add(url);noticed.push(entry);changedNotices.push({notice:n,checkedAt:at});added++;
     }
     return {source:source.key,url:source.url,checkedAt:at,status:source.coverage?'limited':'ok',count:rows.length,added,...(source.coverage?{coverage:source.coverage,error:'Only homepage headlines are readable; full official notice feed requires separate review'}:{})};
    }catch(e){return {source:source.key,url:source.url,checkedAt:at,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
@@ -64,9 +64,9 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   if(!fullNative.persistent)throw Error('Original notice records unavailable');
   const nativeMap=new Map(fullNative.entries.map(e=>[e.id,e]));
   await saveEntries([...noticed,...nativeChanges.map(e=>{const full=nativeMap.get(e.id);if(!full)throw Error('Original notice record missing');return completeNoticeMetadata(full,e);})]);
-  for(const {notice,checkedAt} of changedNotices)await captureDocument(notice,undefined,checkedAt);
   const noticeReadback=await readData({automatic:true,collection:true});
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');
+  for(const {notice,checkedAt} of changedNotices)await captureDocument(notice,undefined,checkedAt);
   const cursor=(p.cursor||0)+3;
   return {...p,stage:cursor>=koreanFastSources.length?'feeds':'korean',cursor:cursor>=koreanFastSources.length?0:cursor,koreanChecks:[...(p.koreanChecks||[]),...koreanChecks],noticedCount:(p.noticedCount||0)+noticed.length,changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
  }

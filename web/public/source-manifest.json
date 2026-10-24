@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "4cd00c32aa10d55a37f9b1317268f9f79bece6e6a505baba8687d26c3757d689",
+  "fingerprint": "6d543f3d3165cffbc5c3413478c0e06df9d019243a4a366534df661f53767e2f",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -44,7 +44,7 @@
     },
     {
       "path": "app/api/collection/route.ts",
-      "sha256": "91287c32504cfdbcb1c7be086844a9b5b419a7b8c194d44db7993febadc665ba"
+      "sha256": "7c51eba6d34f2d4e5b809c91db3f879b03e3798cee46f634103a9fe6d3956b95"
     },
     {
       "path": "app/api/community/route.ts",
@@ -552,7 +552,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "c1f337078e6b427fecd2220fe5c932ac87464edca8ad660d3b00f2a8b2b115f4"
+      "sha256": "1753ce6cffc9f0858a8bb9057f04d16783385dc45764cbeaba8c127d642559ea"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -592,7 +592,7 @@
     },
     {
       "path": "components/source-article.tsx",
-      "sha256": "a4e12da00264bd324dc34cc95fd6d55dad2b3b89b99f3fe7ba9567451534a209"
+      "sha256": "14dd01bdf7b6e74f146abff0030c503f234aeed7cc168aebed567e55565c3aa5"
     },
     {
       "path": "components/source-footer.tsx",
@@ -1220,7 +1220,7 @@
     },
     {
       "path": "lib/body-collection-candidate.ts",
-      "sha256": "b06cfb68d11f3b3a99b1684458184d83efc1485eeac8378d442f1aa21ed169d1"
+      "sha256": "cc72f96a630d46511301f14a535b4a9a26ab7bc614a6c1dc36c0aee85b9aadcb"
     },
     {
       "path": "lib/brand.ts",
@@ -1280,11 +1280,11 @@
     },
     {
       "path": "lib/collection-review.ts",
-      "sha256": "0a3a3e6c6fc0aa676f4170146b8d0679f45658035271cc181f280a9853f281aa"
+      "sha256": "a378bcba8f62d175cb79f648ae7f4ad4059b51e31e073a2c5dd534490d42f47e"
     },
     {
       "path": "lib/collection-store.ts",
-      "sha256": "84e9259d40ea3b9c7799fcbced65974bb22d839b3c0a8f3bff80ddd22ff9954f"
+      "sha256": "a1c5ede99cc999c6d193486ddd96ebe9f4c451dec9f592baa65b779dec52d507"
     },
     {
       "path": "lib/community-summary-client.ts",
@@ -1388,7 +1388,7 @@
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "35be7734ecb5d255be63b0140a20b07445d278738b6f99a78af1adb278305b63"
+      "sha256": "bb63c072c72b438bdbf925b99529ddf72a92fbe650b6a54168682276a74c489d"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",

@@ -4,7 +4,8 @@ import {importMaintainedArtwork} from '@/lib/maintained-artwork-store';
 import {env} from 'cloudflare:workers';
 import {z} from 'zod';
 import {canWriteData} from '@/lib/write-access';
-import {readData,sameOrigin} from '@/lib/store';
+import {readData,readBaseData,sameOrigin} from '@/lib/store';
+import {bodyCollectionCandidate} from '@/lib/body-collection-candidate';
 import {reviewQueue} from '@/lib/collection-store';
 import {collectionCoverage} from '@/lib/collection-review';
 import {effectiveRegion} from '@/lib/presentation';
@@ -29,12 +30,25 @@ export async function POST(request:Request){
   if(z.object({action:z.literal('enrich')}).strict().safeParse(input).success)return Response.json({ok:true,additionalContent:await importAdditionalGameContent(),artwork:await importMaintainedArtwork(),profiles:await importNteProfiles(true)},{headers});
   const importInput=z.object({action:z.literal('import'),ids:z.array(z.string().regex(/^[a-f0-9]{64}$/)).min(1).max(25).optional(),limit:z.number().int().min(1).max(100).optional()}).strict().safeParse(input);
   if(importInput.success)return Response.json({ok:true,...await importCapturedBodies(importInput.data.ids,importInput.data.limit),weapons:await importWuwaWeapons(importInput.data.ids)},{headers});
-  const fetchInput=z.object({action:z.literal('fetch'),id:z.string().regex(/^[a-f0-9]{64}$/)}).strict().safeParse(input);
+  const fetchInput=z.union([
+   z.object({action:z.literal('fetch'),id:z.string().regex(/^[a-f0-9]{64}$/)}).strict(),
+   z.object({action:z.literal('fetch'),entryId:z.string().min(1).max(160)}).strict()
+  ]).safeParse(input);
   if(fetchInput.success){
-   const row=await env.DB!.prepare('SELECT payload FROM official_documents WHERE id=?').bind(fetchInput.data.id).first<{payload:string}>();
-   if(!row)return Response.json({error:'Known official document required'},{status:404,headers});
-   const d=JSON.parse(row.payload);
-   if(Date.now()-Date.parse(d.checkedAt)<60000)return Response.json({error:'Document recently fetched; retry later'},{status:429,headers});
+   let d;
+   if('entryId' in fetchInput.data){
+    const entryId=fetchInput.data.entryId,saved=await readBaseData({id:entryId});if(!saved.persistent)throw Error('Saved source unavailable');
+    const e=saved.entries.find(e=>e.id===entryId);
+    if(!e||!bodyCollectionCandidate(e))return Response.json({error:'Known official notice required'},{status:404,headers});
+    d={gameId:e.gameId,region:e.region,locale:e.sourceLocale||'ko',url:e.sourceUrl,title:e.sourceTitle,publishedAt:e.publishedAt};
+    const recent=await env.DB!.prepare('SELECT payload FROM official_documents WHERE game_id=? AND region=? AND url=?').bind(d.gameId,d.region,d.url).first<{payload:string}>();
+    if(recent){const old=JSON.parse(recent.payload);d={...d,checkedAt:old.bodyCheckedAt||(old.sourceAccess!=='metadata'?old.checkedAt:undefined)};}
+   }else{
+    const row=await env.DB!.prepare('SELECT payload FROM official_documents WHERE id=?').bind(fetchInput.data.id).first<{payload:string}>();
+    if(!row)return Response.json({error:'Known official document required'},{status:404,headers});
+    d=JSON.parse(row.payload);d.checkedAt=d.bodyCheckedAt||(d.sourceAccess!=='metadata'?d.checkedAt:undefined);
+   }
+   if(d.checkedAt&&Date.now()-Date.parse(d.checkedAt)<60000)return Response.json({error:'Document recently fetched; retry later'},{status:429,headers});
    const sourceId=noticeSourceId(d.url);
    if(!sourceId)return Response.json({error:'Unsupported stored source identity'},{status:400,headers});
    const document=await fetchReviewDocument({gameId:d.gameId,region:d.region,locale:d.locale,id:sourceId,title:d.title,url:d.url,publishedAt:d.publishedAt});

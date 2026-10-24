@@ -40,4 +40,4 @@ export function collectionCoverage(entries:Entry[],now=Date.now()){
   });
  }));
 }
-export type ReviewDocument={id:string;gameId:string;region:Region;locale:Locale;url:string;title:string;publishedAt:string|null;sourceAccess:'body'|'metadata'|'js-only'|'blocked'|'error'|'search-index';bodyHash:string;images:string[];checkedAt:string;error?:string};
+export type ReviewDocument={id:string;gameId:string;region:Region;locale:Locale;url:string;title:string;publishedAt:string|null;sourceAccess:'body'|'metadata'|'js-only'|'blocked'|'error'|'search-index';bodyHash:string;images:string[];checkedAt:string;bodyCheckedAt?:string;error?:string};

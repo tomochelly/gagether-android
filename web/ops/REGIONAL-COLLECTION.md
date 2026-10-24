@@ -60,3 +60,11 @@ Library LIVE badges use verified official live metadata, never the scheduled clo
 The visible page rechecks saved data each minute. Source checks run on the existing
 best-effort10-minute workflow; this is not an exact-time push guarantee. Metadata
 blocks are failures, not proof of live/end/cancellation, and stale LIVE expires.
+
+## Missing notice body recovery · 2026-10-24
+
+New Korean headlines now get a durable document index after the headline write/readback. Body slots rotate by actual service; within a service, newest unread headlines precede failed retries and already readable pending bodies. Pickup priority only breaks a same-date tie. Index captures are not body attempts: `bodyCheckedAt` records actual requests, empty/failed reads retry after one hour and readable pending bodies after six hours. Reviewed bodies remain untouched until source metadata changes. Manual review is still independent from publication.
+
+For an existing title-only notice with no document yet, authenticated same-origin `POST /api/collection {"action":"fetch","entryId":"<saved entry id>"}` derives the official source from the stored automatic original; arbitrary URLs, owner-created items, broadcasts and community records are rejected. It returns the stable document ID and current source access. Then `POST /api/collection {"action":"import","ids":["<returned document id>"]}` publishes the readable body using full originals and readback. This never edits the owner's overrides or grants human review. A recent actual body request is rate-limited; an index-only capture does not prevent the first read.
+
+Primary update-notice bodies open by default, including when a curated outline is present. Original source text uses the safe verbatim text renderer; editorial workflow-word filters must not remove source issue/eligibility sentences. Entity/pickup supplemental originals and the separate guide/reference footer keep their folding behavior.
