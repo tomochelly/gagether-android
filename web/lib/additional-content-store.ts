@@ -38,7 +38,7 @@ export async function importAdditionalGameContent(){
  const updates=[...changed.values()];for(let i=0;i<updates.length;i+=10)await saveEntries(updates.slice(i,i+10));
  const saved=updates.length?await readBaseData({ids:updates.map(e=>e.id)}):{entries:[],persistent:true};
  const owner=await readEditorial(),protectedField=(id:string,field:string)=>{const p=owner.find(r=>r.key==='entry:'+id)?.payload;return !!p&&(field in p||(p.$unset as string[]||[]).includes(field));};
- if(!saved.persistent||updates.some(e=>!saved.entries.some(s=>s.id===e.id&&(protectedField(e.id,'title')||sameEditValue(s.title,e.title))&&(protectedField(e.id,'sourceBodies')||sameEditValue(s.sourceBodies,e.sourceBodies)))))throw Error('New-game content readback failed');
+ if(!saved.persistent||updates.some(e=>!saved.entries.some(s=>s.id===e.id&&(protectedField(e.id,'title')||sameEditValue(s.title,e.title))&&(protectedField(e.id,'sourceBodies')||Object.values(e.sourceBodies||{}).every(body=>sameEditValue(body,s.sourceBodies?.[body.locale]))))))throw Error('New-game content readback failed');
  const result={checkedAt,changedEntries:updates.map(e=>e.id),checks,outcome:checks.every(c=>c.status==='ok')?'complete':checks.some(c=>c.status==='ok')?'partial':'failed'};
  await env.DB!.prepare("INSERT INTO operations_health(key,payload) VALUES('additional-content',?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload").bind(JSON.stringify(result)).run();return result;
  }finally{await env.DB!.prepare("UPDATE refresh_jobs SET lease_until=0,last_finished_at=? WHERE id='additional-content' AND last_started_at=?").bind(new Date().toISOString(),startedAt).run();}

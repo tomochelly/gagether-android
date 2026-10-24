@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "03ac3cc806e081ecdec713b6ca5abdddd06724b97858b1fc85f5dffb32447c0f",
+  "fingerprint": "ab40479e7599366e0a38cbdc5afc483aee923aa4ebee42fac0dac8f96810a7f6",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1104,11 +1104,11 @@
     },
     {
       "path": "lib/additional-content-store.ts",
-      "sha256": "9b1e70c5eec788a3f7f8b1f1a36053b2b09845fd7723cd818e6a8c43c8fdbcaf"
+      "sha256": "4117536910205d8abbc3001a02909e20a31110744e1861a36c7a95c1b9398be1"
     },
     {
       "path": "lib/additional-game-content.ts",
-      "sha256": "cbe24f60f6afb0b941f0a18ad6401e7e1da18ffd176b0ddd13e21c7d93821adf"
+      "sha256": "3828beb081f863ce6239829b19cf6484fe8d21e9e12e4bec9ea765a8df952efc"
     },
     {
       "path": "lib/additional-game-notices.ts",
@@ -1436,7 +1436,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "7d88872b0e4cd959a1dbd7948ec7cba77dea860d302616dd944222600f3a0aa8"
+      "sha256": "a6142983882e6c7c1a4b65c6124999b97999851cf8ef8a5087b41102ecc513c7"
     },
     {
       "path": "lib/official-social-store.ts",
@@ -1584,7 +1584,7 @@
     },
     {
       "path": "lib/source-body-store.ts",
-      "sha256": "e654364e6f3feaf18dfcd9a0926043d03a3e2c5d9f4c122ebf9760c4b31fe113"
+      "sha256": "82e9ef2bea8a9e37e70500b56276bb509210d2841e4feff592c83cf6308c082c"
     },
     {
       "path": "lib/spotlight.ts",

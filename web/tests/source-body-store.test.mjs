@@ -62,3 +62,37 @@ test('actual D1/R2 weapon collection publishes schedules, retains owner override
  const saved=(await readBaseData({id:weapon.id})).entries[0],effective=(await readData()).entries.find(e=>e.id===weapon.id);assert.equal(saved.endAt,'2026-11-11T12:59:00+09:00');assert.equal(saved.image,weapon.image);assert.equal(effective.image,'/api/media/owner-weapon.png');assert.equal(effective.summary.ko,'Owner weapon detail');assert.equal(db.prepare('SELECT payload FROM editorial WHERE key=?').get('entry:'+weapon.id).payload,ownerPayload);
  const stamp=db.prepare('SELECT updated_at FROM entries WHERE id=?').get(weapon.id).updated_at;assert.deepEqual((await importWuwaWeapons([document.id])).changedEntries,[]);assert.equal(db.prepare('SELECT updated_at FROM entries WHERE id=?').get(weapon.id).updated_at,stamp);assert.equal(db.prepare('SELECT reviewed_hash FROM official_documents WHERE id=?').get(document.id).reviewed_hash,null);
 });
+
+test('body readback accepts reordered JSON keys and respects an explicit owner source-body override',async()=>{
+ const id='body-order-roundtrip',n={...notice,id:'799',url:'https://bluearchive.jp/news/newsJump/799'};
+ write({...entry,id,sourceUrl:n.url});const d=await captureDocument(n,'<p>参加条件：メインストーリーの任務3-1をクリア。青輝石 × 100 個。イベントページから参加し、ゲーム内メールで報酬を受け取ってください。受取期限は11月22日です。</p>',time);
+ const originalBatch=globalThis.__bodyStoreEnv.DB.batch;
+ globalThis.__bodyStoreEnv.DB.batch=async qs=>{const result=await originalBatch(qs);const row=db.prepare('SELECT payload FROM entries WHERE id=?').get(id);if(row){const e=JSON.parse(row.payload);if(e.sourceBodies?.ja){e.sourceBodies.ja=Object.fromEntries(Object.entries(e.sourceBodies.ja).reverse());e.sourceBodies.en={...e.sourceBodies.ja,locale:'en',text:'Native English body saved after the collector snapshot.',bodyHash:'b'.repeat(64)};db.prepare('UPDATE entries SET payload=? WHERE id=?').run(JSON.stringify(e),id);}}return result;};
+ try{assert.ok((await importCapturedBodies([d.id])).changedEntries.includes(id));}finally{globalThis.__bodyStoreEnv.DB.batch=originalBatch;}
+ const before=(await readBaseData({id})).entries[0].sourceBodies;
+ db.prepare('INSERT INTO editorial(key,payload,revision,updated_at,updated_by) VALUES (?,?,?,?,?)').run('entry:'+id,JSON.stringify({sourceBodies:{ja:{...before.ja,text:'Owner source note'}}}),1,time,'owner');
+ const changed=await captureDocument(n,'<p>参加条件：メインストーリーの任務3-2をクリア。青輝石 × 200 個。イベントページから参加し、ゲーム内メールで報酬を受け取ってください。受取期限は11月23日です。</p>','2026-10-23T07:00:00Z');
+ await assert.doesNotReject(()=>importCapturedBodies([changed.id]));assert.deepEqual((await readBaseData({id})).entries[0].sourceBodies,before);assert.equal((await readData()).entries.find(e=>e.id===id).sourceBodies.ja.text,'Owner source note');
+});
+
+test('body readback still rejects actual missing storage and identifies the affected public record',async()=>{
+ const id='body-missing-roundtrip',n={...notice,id:'798',url:'https://bluearchive.jp/news/newsJump/798'};write({...entry,id,sourceUrl:n.url});const d=await captureDocument(n,'<p>参加条件：メインストーリーの任務4-1をクリア。青輝石 × 150 個。イベントページから参加し、ゲーム内メールで報酬を受け取ってください。受取期限は11月24日です。</p>',time);
+ const originalBatch=globalThis.__bodyStoreEnv.DB.batch;
+ globalThis.__bodyStoreEnv.DB.batch=async qs=>{const result=await originalBatch(qs);db.prepare("UPDATE entries SET payload=json_remove(payload,'$.sourceBodies') WHERE id=?").run(id);return result;};
+ try{await assert.rejects(()=>importCapturedBodies([d.id]),new RegExp(id));}finally{globalThis.__bodyStoreEnv.DB.batch=originalBatch;}
+ assert.equal(db.prepare('SELECT payload FROM operations_health WHERE key=?').get('body-import:'+d.id),undefined);
+});
+
+test('whole version notices cannot replace structured activity sections or copy compensation into them',async()=>{
+ const n={...notice,id:'797',url:'https://bluearchive.jp/news/newsJump/797'},activity={...entry,id:'structured-section',kind:'event',contentRole:'activity',sourceUrl:n.url,sourceBodies:{ja:{locale:'ja',sourceUrl:n.url,text:'This activity has its own participation requirements.',images:[],bodyHash:'c'.repeat(64),importedAt:time,sourceKind:'official'}}};write(activity);write({...entry,id:'whole-version-notice',sourceUrl:n.url});
+ const d=await captureDocument(n,'<p>アップデート記念のお知らせです。補填として青輝石 × 300 個を配布します。受取期限は11月24日であり、すべてのアカウントはゲーム内メールから報酬を受け取れます。</p>',time);
+ const result=await importCapturedBodies([d.id]);assert.ok(result.changedEntries.includes('whole-version-notice'));assert.ok(!result.changedEntries.includes(activity.id));
+ const saved=(await readBaseData({id:activity.id})).entries[0];assert.deepEqual(saved.sourceBodies,activity.sourceBodies);assert.equal(saved.rewards,undefined);
+});
+
+test('bounded body batches continue from persisted receipts instead of reimporting the first page',async()=>{
+ const ids=[];for(let i=0;i<25;i++){const n={...notice,id:String(900+i),url:'https://bluearchive.jp/news/newsJump/'+(900+i)},id='bounded-body-'+i;write({...entry,id,sourceUrl:n.url});ids.push(id);await captureDocument(n,'<p>イベント参加条件：メインストーリーの任務4-1をクリア。青輝石 × 150 個。受取期限は11月24日で、ゲーム内メールから受け取れます。対象のお知らせ番号は'+i+'です。</p>',time);}
+ const first=await importCapturedBodies(undefined,20);assert.ok(first.changedEntries.length<=20);const second=await importCapturedBodies(undefined,20);assert.ok(second.changedEntries.length>0);
+ for(const id of ids)assert.ok((await readBaseData({id})).entries[0].sourceBodies?.ja,id);
+ const before=ids.map(id=>db.prepare('SELECT updated_at FROM entries WHERE id=?').get(id).updated_at);await importCapturedBodies(undefined,20);assert.deepEqual(ids.map(id=>db.prepare('SELECT updated_at FROM entries WHERE id=?').get(id).updated_at),before);
+});

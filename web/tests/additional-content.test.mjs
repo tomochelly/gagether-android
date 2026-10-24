@@ -25,7 +25,9 @@ test('real Korean DNA body separates eighteen explicit windows, repeating theatr
  assert.equal(events.length,18);assert.equal(new Set(events.map(e=>e.id)).size,18);
  const theatres=events.filter(e=>e.title.ko==='몰입형 연극');assert.equal(theatres.length,2);assert.notEqual(theatres[0].id,theatres[1].id);assert.equal(theatres[0].startAt,null);assert.equal(theatres[0].endAt,'2026-11-10T11:00:00+09:00');assert.equal(theatres[1].startAt,'2026-11-10T11:00:00+09:00');
  assert.equal(events.find(e=>e.title.ko==='다가올 내일').rewards[0].quantity,'10');
- assert.ok(events.every(e=>e.kind==='event'&&!e.pickupArchive));
+ assert.ok(events.every(e=>e.kind==='event'&&e.contentRole==='activity'&&!e.pickupArchive));
+ const polluted={...events[1],contentRole:undefined,rewards:[{name:{ko:'월석',en:'Phoxene',ja:'月ノ石',zh:'月石'},quantity:'300'}]};
+ assert.deepEqual(applyAdditionalContent([polluted],[events[1]])[0].rewards,events[1].rewards);
  assert.equal(allowsRewards({kind:'update',contentRole:'entity'}),false);assert.deepEqual(bodyRewards({kind:'update',contentRole:'entity',gameId:'dna'},body),[]);
  const unchanged=await nativeBody('ko',n.url,n.title,n.bodyHtml,'official','2026-10-24T02:00:00Z');assert.equal(unchanged.bodyHash,body.bodyHash);
  assert.deepEqual(applyAdditionalContent(events,await dnaEventEntries(unchanged,n.publishedAt)),[]);

@@ -58,8 +58,10 @@ export async function collectPendingDocuments(){
   const n:FastNotice={gameId:e.gameId,region:e.region,locale:e.sourceLocale||'ko',id:sourceId,title:e.sourceTitle,url:e.sourceUrl,publishedAt:e.publishedAt};
   const d=await fetchReviewDocument(n);checks.push({source:'body/'+d.id,url:n.url,checkedAt:d.checkedAt,status:d.sourceAccess==='body'?'ok':'error',sourceAccess:d.sourceAccess,detailStatus:d.status,error:d.error||(d.sourceAccess==='body'?undefined:'Original body remains unreadable')});
  }));
- const bodyImport=await importCapturedBodies(undefined,100);
  const additionalContent=await importAdditionalGameContent();
+ // Keep the scheduled HTTP request below the hosting request lifetime.
+ // Durable receipts let the next run continue the remaining native bodies.
+ const bodyImport=await importCapturedBodies(undefined,20);
  checks.push(...additionalContent.checks);
  const weapons=await importWuwaWeapons();
  const artwork=await importMaintainedArtwork();

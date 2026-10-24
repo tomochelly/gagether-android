@@ -95,7 +95,7 @@ export async function dnaEventEntries(body:SourceBody,publishedAt:string|null):P
    const startAt=m[4]==='업데이트 후'?null:`${startDate}T${m[4].padStart(5,'0')}:00+09:00`,endAt=`${endDate}T${m[8].padStart(2,'0')}:${m[9]}:00+09:00`;
    const name=periods.length>1?title+' · '+(i+1):title;
    const heading=section[0].split('\n')[0].trim();
-   const e={...base('dna','dna-event-'+key(body.sourceUrl)+'-'+key(heading)+'-'+i,'event',name,'ko',body.sourceUrl,'official',body.importedAt,publishedAt),startDate,endDate,startAt,endAt};
+   const e={...base('dna','dna-event-'+key(body.sourceUrl)+'-'+key(heading)+'-'+i,'event',name,'ko',body.sourceUrl,'official',body.importedAt,publishedAt),contentRole:'activity' as const,startDate,endDate,startAt,endAt};
    // Keep only this event's conditions/rewards, never other package or character sections.
    const native=await nativeBody('ko',body.sourceUrl,name,'<article><p>'+esc(heading.replace(/^◆|◆$/g,''))+'</p>'+text.trim().split('\n').map(t=>'<p>'+esc(t)+'</p>').join('')+'</article>','official',body.importedAt);
    out.push({...importBody(e,native),summary:{...blank(),ko:text.trim()},rewards:bodyRewards(e,native)});
@@ -115,6 +115,7 @@ export function applyAdditionalContent(entries:Entry[],incoming:Entry[]){
   if(old.sourceKind==='official'&&fresh.sourceKind==='community')continue;
   let next:Entry={...old,title:{...old.title,...Object.fromEntries(Object.entries(fresh.title).filter(([,v])=>v))},summary:{...fresh.summary,...Object.fromEntries(Object.entries(old.summary).filter(([,v])=>v))},sourceUrl:fresh.sourceUrl,sourceTitle:fresh.sourceTitle,sourceLocale:fresh.sourceLocale,sourceKind:fresh.sourceKind,publishedAt:fresh.publishedAt??old.publishedAt};
   for(const b of Object.values(fresh.sourceBodies||{}))next=importBody(next,b);
+  if(fresh.contentRole==='activity'){next.contentRole='activity';next.rewards=fresh.rewards||[];}
   if(fresh.pickupArchive)next.pickupArchive=fresh.pickupArchive;
   if(fresh.startDate)next.startDate=fresh.startDate;if(fresh.endDate)next.endDate=fresh.endDate;
   if(fresh.startAt)next.startAt=fresh.startAt;if(fresh.endAt)next.endAt=fresh.endAt;
