@@ -13,6 +13,7 @@ import {refreshHealth,recordHealth,readbackIssues} from './service-health';
 import {captureDocument} from './collection-store';
 import {collectRegionalNotices,collectPendingDocuments} from './official-collection';
 import {refreshWuwaReferenceStep} from './wuwa-reference-store';
+import {refreshLeaksStep} from './leaks-store';
 const interval=10*60*1000;
 async function html(url:string){
  for(let hop=0;hop<4;hop++){
@@ -128,14 +129,15 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   return {...p,stage:cursor>=watches.size?'collection':'broadcasts',cursor:cursor>=watches.size?0:cursor,broadcastChecks:[...(p.broadcastChecks||[]),...broadcastChecks],changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
  }
  if(p.stage==='collection')return {...p,stage:'reference',collection:await collectPendingDocuments()};
- if(p.stage==='reference'){const check=await refreshWuwaReferenceStep();return {...p,stage:check.done?'finalize':'reference',referenceCheck:check};}
+ if(p.stage==='reference'){const check=await refreshWuwaReferenceStep();return {...p,stage:check.done?'leaks':'reference',referenceCheck:check};}
+ if(p.stage==='leaks'){const check=await refreshLeaksStep();return {...p,stage:check.done?'finalize':'leaks',leakCheck:check};}
  if(p.stage!=='finalize')throw Error('Unknown refresh stage');
   const {koreanChecks=[],feeds=[],regional={checks:[],added:0},channelChecks=[],broadcastChecks=[],collection,noticedCount=0,changedNeedsReview=[]}=p;
   const [automatic,effective]=await Promise.all([readData({automatic:true,collection:true}),readData({collection:true})]);
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
   const weaponCheck={source:'wuwa/global/weapons',status:collection.weapons.issues.length?'error':'ok',checkedAt:collection.weapons.checkedAt,count:collection.weapons.changedEntries.length,error:collection.weapons.issues.join('; ')||undefined};
-  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks,...collection.checks,weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[])],!validationIssues.length);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,structuredChecks:[weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
+  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks,...collection.checks,weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[])],!validationIssues.length);
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,structuredChecks:[weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
   return result;
 }

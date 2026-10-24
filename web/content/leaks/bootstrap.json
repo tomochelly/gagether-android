@@ -1,0 +1,77 @@
+[
+  {
+    "id": "wuwa-e59da6968b380d1d65222deb",
+    "gameId": "wuwa",
+    "version": "3.8",
+    "status": "unconfirmed",
+    "sourceUrl": "https://meicho.marcsimz.com/3-8matome/",
+    "sourceTitle": "【鳴潮】3.8リーク情報まとめ【ベータ版】",
+    "publisher": "ソラリス速報",
+    "sourceLocale": "ja",
+    "sourceAccess": "body",
+    "publishedAt": "2026-10-23T15:56:32+09:00",
+    "bodyHash": "dce1e8f225c0147d0d07e8f49ed4303896fab599773f87329b4ade9e6669b4a4",
+    "importedAt": "2026-10-24T03:28:02.338561+00:00",
+    "updatedAt": "2026-10-24T03:54:13.657627+00:00",
+    "revision": 0,
+    "manual": true,
+    "localized": {
+      "ko": {
+        "title": "3.8 히유키 신규 의상 유출",
+        "body": "3.8 히유키 신규 의상으로 공유된 렌더\n검정·흰색 의상 · 긴 머리\n앞·뒤·옆 모습",
+        "method": "editorial",
+        "sourceHash": "dce1e8f225c0147d0d07e8f49ed4303896fab599773f87329b4ade9e6669b4a4"
+      },
+      "en": {
+        "title": "3.8 Hiyuki outfit leak",
+        "body": "Community render attributed to Hiyuki’s 3.8 outfit\nBlack-and-white dress · long hair\nFront, back and side views",
+        "method": "editorial",
+        "sourceHash": "dce1e8f225c0147d0d07e8f49ed4303896fab599773f87329b4ade9e6669b4a4"
+      },
+      "ja": {
+        "title": "3.8 緋雪の新衣装リーク",
+        "body": "緋雪の3.8新衣装として共有されたレンダー\n白黒の衣装・長い髪\n正面・背面・側面",
+        "method": "original",
+        "sourceHash": "dce1e8f225c0147d0d07e8f49ed4303896fab599773f87329b4ade9e6669b4a4"
+      },
+      "zh": {
+        "title": "3.8 绯雪新服装爆料",
+        "body": "社区以绯雪3.8新服装名义分享的渲染图\n黑白配色服装・长发\n正面、背面和侧面",
+        "method": "editorial",
+        "sourceHash": "dce1e8f225c0147d0d07e8f49ed4303896fab599773f87329b4ade9e6669b4a4"
+      }
+    },
+    "images": [
+      {
+        "url": "/assets/leaks/wuwa-hiyuki-3-8-b6542500c3ac.jpg",
+        "originalUrl": "https://meicho.marcsimz.com/wp-content/uploads/hiyuki-skin1-1.jpg",
+        "sourceUrl": "https://meicho.marcsimz.com/3-8matome/",
+        "width": 800,
+        "height": 422,
+        "sha256": "b6542500c3ac6b2e82ecb15cb84b7527c71bc6a5c69825d48f70729d0ed86f9a",
+        "locale": "en",
+        "kind": "render",
+        "visuallyInspected": true,
+        "caption": {
+          "ko": "커뮤니티 공유 렌더 · Team Gemberry78",
+          "en": "Community-shared render · Team Gemberry78",
+          "ja": "コミュニティ共有レンダー · Team Gemberry78",
+          "zh": "社区分享渲染图 · Team Gemberry78"
+        }
+      }
+    ],
+    "relatedSources": [
+      {
+        "url": "https://www.reddit.com/r/WutheringWavesLeaks/comments/1x8t1r4/38_hiyuki_skin_render_via_gemberry/",
+        "title": "3.8 |Hiyuki Skin Render via Gemberry",
+        "publisher": "r/WutheringWavesLeaks"
+      },
+      {
+        "url": "https://meicho.marcsimz.com/3-8play/",
+        "title": "【鳴潮】リリーのプレイ動画まとめ【ver3.8リーク】",
+        "publisher": "ソラリス速報"
+      }
+    ],
+    "sourceExcerpt": "緋雪の3.8新衣装として共有されたコミュニティのレンダー。"
+  }
+]

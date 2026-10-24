@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "221612b10421a4f968b2b58035ef0ae0132886f6a7fb40b08fb7470a5989ef82",
+  "fingerprint": "09879a99a23bfd88e177c5ccb9340e46b684dd4aa75d7124726f7b9e98810c78",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -111,6 +111,14 @@
       "sha256": "75968b404a9ef0a33ba17749e7292f3ad472ad79fe0f02fc915490b1866e4dae"
     },
     {
+      "path": "app/api/leaks/media/[hash]/route.ts",
+      "sha256": "5a316dde53a0040500e93063b4d86d34153bfa10cc311d30aade930e7d4f15f2"
+    },
+    {
+      "path": "app/api/leaks/route.ts",
+      "sha256": "268aaecaaf16307a901612f2cbdee327ebfb3be52601049a0a1ccf8e150b2e40"
+    },
+    {
       "path": "app/api/media/[file]/route.ts",
       "sha256": "1b49865a933d2993d3cb8dd44503dcacea443cfa805a2daa8f0b49a78a01ce6f"
     },
@@ -120,7 +128,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "de418f5767c9ce495e2a2c3bf9075fab8591e1cc1de361395fc8e3acb78d6278"
+      "sha256": "f5bcde3abadbd4591d5869b2a803a88a77b85da8933b3c7c18f4a4322ce7699e"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -220,7 +228,11 @@
     },
     {
       "path": "app/layout.tsx",
-      "sha256": "e6fc9e34895d82e5cbe7b518c270566a60bdb7fc60338855d7d2d269f90f4d22"
+      "sha256": "26e49545b934391dcc28d4e212cf74621759c174c1ae2788066bdd12823a32e0"
+    },
+    {
+      "path": "app/leaks.css",
+      "sha256": "67e381c3055fe6b606da7f201608d07ee8b40c90c0a1ec0ecc73fe80ee54434f"
     },
     {
       "path": "app/light-theme.css",
@@ -463,6 +475,10 @@
       "sha256": "22efc931e6f92ac79711855d37ad548911c880eb981a5ccd6c465bd374867e75"
     },
     {
+      "path": "components/leaks-panel.tsx",
+      "sha256": "3371317c0716e7cac98e721c9c32e2b9acaeda3c30521689ff0b5a6af8632840"
+    },
+    {
       "path": "components/localized-catalog.tsx",
       "sha256": "0ac706c00bdbb796ff52a8bc697f4e4d08f93f1a0d7aa63e33ce1d1362cd6ea1"
     },
@@ -528,7 +544,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "6e4de81536ee2f8f7b9838b80e57287615a6a7e920be6060bb9e6341ef330967"
+      "sha256": "8c8f42684651112d1207fa82219133fa921024ff509875b76b016db97eb04449"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -963,6 +979,10 @@
       "sha256": "a51c2481b73cfee75d6069bbce3b0c9efcb1309183f5c9e4d1cee36463710ef5"
     },
     {
+      "path": "content/leaks/bootstrap.json",
+      "sha256": "ac69f12f22d89360d3bb6911db7d56fd67fe2d1c5283672d3681be181f7e6e52"
+    },
+    {
       "path": "content/maintained-artwork.json",
       "sha256": "f4e4a4b989ef02afbad28ff986ad58269b4acaddf9e6c383b8192bba9a577c04"
     },
@@ -1344,7 +1364,7 @@
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "01626ee7cb189307a884afed9e1dc763886bcefb374e0810c6158361161327fd"
+      "sha256": "35be7734ecb5d255be63b0140a20b07445d278738b6f99a78af1adb278305b63"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",
@@ -1421,6 +1441,14 @@
     {
       "path": "lib/layout-edit.ts",
       "sha256": "3c347e7d9a1d745bbc4fcc8a831839b7a09e76ad7fd67ee7ec5c47bec4c84b10"
+    },
+    {
+      "path": "lib/leaks-store.ts",
+      "sha256": "a5e2413fa0e0cff387887b7b025651c46aec367898f0899d3eb59bc19deb703a"
+    },
+    {
+      "path": "lib/leaks.ts",
+      "sha256": "d99f33b237fcbc090d1531829703a82435ce2bb2cd9e61be24737061127295e0"
     },
     {
       "path": "lib/maintained-artwork-store.ts",
