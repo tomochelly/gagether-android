@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-24T09:27:00.894340+00:00",
+  "sourceVersion": "3.7.8",
+  "characterSource": {
+    "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/Data/Characters.json",
+    "sha256": "4fd9bd77f6738a402dc7c3daaf663e3d5664ffa856d61cda6583cb91c409b50f",
+    "bytes": 10402904
+  },
+  "independentStatsSample": {
+    "url": "https://wutherin.cn-nb1.rains3.com/data/3.7.8/ko/character/1208.json",
+    "level": 90,
+    "ascension": 6,
+    "raw": {
+      "Life": 10300,
+      "Atk": 462.5,
+      "Def": 1112.2202
+    },
+    "displayRounding": "truncate base HP/ATK/DEF to integer"
+  },
+  "nativeChainDescriptions": {
+    "sourceIds": 64,
+    "chains": 384,
+    "locales": [
+      "ko",
+      "en",
+      "ja",
+      "zh-Hans"
+    ],
+    "unboundParameters": 0
+  },
+  "scope": "Character reference only; no Entry, editorial, media or visitor-setting writes."
+}

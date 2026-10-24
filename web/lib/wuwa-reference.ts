@@ -1,9 +1,11 @@
+import growth from '../content/wuwa-character-growth.json' with {type:'json'};
 import {fullCharacterArt,declaredFullArtwork} from './wuwa-reference-art';
 import type {Locale,Localized} from './types';
 
 export type WuwaReferencePart='characters'|'combat'|'statistics';
 export type WuwaIconFact={id:number;name:Localized;icon?:string};
-export type WuwaCharacter={id:string;sourceIds:number[];name:Localized;rarity:number;element:WuwaIconFact;weapon:WuwaIconFact;portraits:{id:number;icon?:string;artwork?:string;fullArtwork?:string}[];tags:{name:Localized;icon?:string}[];stats:{hp:number;atk:number;def:number;crit:number;critDamage:number};skills:{id:number;type:number;name:Localized;icon?:string;values:{name:Localized;levels:string[]}[]}[];chains:{id:number;name:Localized;icon?:string}[];debut?:{date:string;sourceUrl:string;sourceKind:'official'|'community'};sourceUrl:string};
+export type WuwaStats={hp:number;atk:number;def:number;crit:number;critDamage:number};
+export type WuwaCharacter={id:string;sourceIds:number[];name:Localized;rarity:number;element:WuwaIconFact;weapon:WuwaIconFact;portraits:{id:number;icon?:string;artwork?:string;fullArtwork?:string}[];tags:{name:Localized;icon?:string}[];stats:WuwaStats;stats90?:WuwaStats;skills:{id:number;type:number;name:Localized;icon?:string;values:{name:Localized;levels:string[]}[]}[];chains:{id:number;name:Localized;description?:Localized;icon?:string}[];debut?:{date:string;sourceUrl:string;sourceKind:'official'|'community'};sourceUrl:string};
 export type WuwaEnemy={id:string;name:Localized;icon?:string;elements:number[];level?:number;count?:number;wave?:number;resistanceTags?:Localized[]};
 export type WuwaFloor={id:string;area:number;floor:number;name:Localized;recommendedElements:number[];enemies:WuwaEnemy[];buffs:{name:Localized;text:Localized;icon?:string}[]};
 export type WuwaCombatCycle={id:string;modeId:string;name:Localized;startDate:string|null;endDate:string|null;conditions?:Localized;floors:WuwaFloor[];sourceUrl:string};
@@ -20,8 +22,17 @@ export function wuwaUnrealAsset(value:unknown){if(typeof value!=='string'||!valu
 /** This is the independent provider's published public frontend asset resolver. */
 export function wuwaWutherAsset(value:unknown){if(typeof value!=='string'||!/^\/Game\/Aki\/UI\/UIResources\/[A-Za-z0-9_./-]+$/.test(value)||value.includes('..'))return undefined;let path=value.slice('/Game/Aki'.length).replace(/\/([^/]+)\.\1$/,'/$1.png');if(!/\.(png|webp|jpg)$/i.test(path))path+='.png';return 'https://wutherin.cn-nb1.rains3.com'+path.replace(/\.(png|jpg)$/i,'.webp');}
 export function wuwaPublicAsset(value:unknown){if(typeof value!=='string')return undefined;try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&['wutherin.cn-nb1.rains3.com','raw.githubusercontent.com'].includes(u.hostname)?u.href:undefined;}catch{return undefined;}}
+/** Source curves are scaled by10000; integer panels truncate, without equipment/tree/sequence bonuses. */
+export function wuwaLevel90Stats(stats:WuwaStats,curve:{HP:number;ATK:number;DEF:number}=growth.CHARACTER_CURVE['90']):WuwaStats{
+ if(Object.values(stats).some(n=>!Number.isFinite(n)||n<0)||!curve||[curve.HP,curve.ATK,curve.DEF].some(n=>!Number.isFinite(n)||n<10000||n>300000))throw Error('Invalid character growth curve');
+ return {hp:Math.floor(stats.hp*curve.HP/10000),atk:Math.floor(stats.atk*curve.ATK/10000),def:Math.floor(stats.def*curve.DEF/10000),crit:stats.crit,critDamage:stats.critDamage};
+}
+/** Native source markup and parameter placeholders become inert, readable plain text. */
+export function wuwaChainDescription(value:any,params:unknown[]=[]):Localized{
+ return Object.fromEntries(Object.entries(langs).map(([locale,key])=>{const text=typeof value?.[key]==='string'?value[key]:'';return [locale,plainText(text.replace(/\{(\d+)(?::[^}]*)?\}/g,(_:string,n:string)=>typeof params[Number(n)]==='string'?params[Number(n)] as string:'{'+n+'}'),12000)]})) as Localized;
+}
 const rovers=new Map([[1501,'rover-spectro'],[1502,'rover-spectro'],[1604,'rover-havoc'],[1605,'rover-havoc'],[1406,'rover-aero'],[1408,'rover-aero'],[1309,'rover-electro'],[1310,'rover-electro']]);
-export function normalizeWuwaCharacters(rows:any[],releases:any[],disabled:number[]=[],fullSplashes:Record<string,string>={}):WuwaCharacter[]{
+export function normalizeWuwaCharacters(rows:any[],releases:any[],disabled:number[]=[],fullSplashes:Record<string,string>={},curve90:{HP:number;ATK:number;DEF:number}=growth.CHARACTER_CURVE['90']):WuwaCharacter[]{
  if(!Array.isArray(rows)||rows.length<30||rows.length>200)throw Error('Character inventory is incomplete or invalid');
  const output=new Map<string,WuwaCharacter>(),seen=new Set<number>();
  for(const row of rows){
@@ -36,7 +47,7 @@ export function normalizeWuwaCharacters(rows:any[],releases:any[],disabled:numbe
   const stats={hp:Number(row.stats?.life),atk:Number(row.stats?.atk),def:Number(row.stats?.def),crit:Number(row.stats?.crit),critDamage:Number(row.stats?.critDamage)};
   if(Object.values(stats).some(v=>!Number.isFinite(v)||v<0))throw Error('Invalid level-one base stats');
   const sourceUrl='https://wuwa.build/characters/'+row.id;
-  output.set(id,{id,sourceIds:[row.id],name,rarity:row.rarity.id,element,weapon:{id:row.weapon.id,name:wuwaText(row.weapon.name),icon:wuwaBuildAsset(row.weapon.icon)},portraits:[{id:row.id,icon:wuwaBuildAsset(row.icon?.iconRound),artwork:wuwaBuildAsset(row.icon?.banner),fullArtwork:fullCharacterArt[String(row.id)]?.originalUrl||declaredFullArtwork(fullSplashes[String(row.id)])}],tags:(row.tags||[]).map((t:any)=>({name:wuwaText(t.name),icon:wuwaBuildAsset(t.icon)})),stats,skills:(row.moves||[]).map((m:any)=>({id:m.id,type:m.type,name:wuwaText(m.name),icon:wuwaBuildAsset(row.skillIcons?.[({1:'normal-attack',2:'skill',3:'liberation',4:'intro',5:'circuit',6:'outro'} as Record<number,string>)[m.type]]),values:(m.values||[]).map((v:any)=>({name:wuwaText(v.name),levels:(v.values||[]).map((x:unknown)=>plainText(x,150))}))})),chains:(row.chains||[]).map((c:any)=>({id:c.id,name:wuwaText(c.name),icon:wuwaBuildAsset(c.icon)})),...(typeof date==='string'&&/^\d{4}-\d\d-\d\d$/.test(date)?{debut:{date,sourceUrl:release.sourceUrl,sourceKind:release.sourceKind==='official'?'official' as const:'community' as const}}:{}),sourceUrl});
+  output.set(id,{id,sourceIds:[row.id],name,rarity:row.rarity.id,element,weapon:{id:row.weapon.id,name:wuwaText(row.weapon.name),icon:wuwaBuildAsset(row.weapon.icon)},portraits:[{id:row.id,icon:wuwaBuildAsset(row.icon?.iconRound),artwork:wuwaBuildAsset(row.icon?.banner),fullArtwork:fullCharacterArt[String(row.id)]?.originalUrl||declaredFullArtwork(fullSplashes[String(row.id)])}],tags:(row.tags||[]).map((t:any)=>({name:wuwaText(t.name),icon:wuwaBuildAsset(t.icon)})),stats,stats90:wuwaLevel90Stats(stats,curve90),skills:(row.moves||[]).map((m:any)=>({id:m.id,type:m.type,name:wuwaText(m.name),icon:wuwaBuildAsset(row.skillIcons?.[({1:'normal-attack',2:'skill',3:'liberation',4:'intro',5:'circuit',6:'outro'} as Record<number,string>)[m.type]]),values:(m.values||[]).map((v:any)=>({name:wuwaText(v.name),levels:(v.values||[]).map((x:unknown)=>plainText(x,150))}))})),chains:(row.chains||[]).map((c:any)=>({id:c.id,name:wuwaText(c.name),description:wuwaChainDescription(c.description,c.param),icon:wuwaBuildAsset(c.icon)})),...(typeof date==='string'&&/^\d{4}-\d\d-\d\d$/.test(date)?{debut:{date,sourceUrl:release.sourceUrl,sourceKind:release.sourceKind==='official'?'official' as const:'community' as const}}:{}),sourceUrl});
  }
  return [...output.values()].sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
 }
@@ -79,7 +90,7 @@ export function normalizeWutherMatrix(data:Record<Locale,any>):WuwaCombatCycle{
 }
 export function validateWuwaReference(data:WuwaReference){
  if(!data||data.version!==1||data.gameId!=='wuwa'||data.service!=='global'||!Array.isArray(data.characters)||!data.characters.length||!Array.isArray(data.cycles)||new Set(data.characters.map(c=>c.id)).size!==data.characters.length)throw Error('Invalid reference snapshot');
- for(const c of data.characters){if(!c.id||![4,5].includes(c.rarity)||!Array.isArray(c.sourceIds)||!c.sourceIds.length||!c.stats||Object.values(c.stats).some(n=>!Number.isFinite(n)||n<0)||!Array.isArray(c.skills)||!Array.isArray(c.chains)||!Array.isArray(c.portraits)||(Object.keys(langs) as Locale[]).some(l=>!c.name?.[l]||!c.element?.name?.[l]||!c.weapon?.name?.[l]))throw Error('Invalid resonator identity or base stats');}
+ for(const c of data.characters){if(!c.id||![4,5].includes(c.rarity)||!Array.isArray(c.sourceIds)||!c.sourceIds.length||!c.stats||Object.values(c.stats).some(n=>!Number.isFinite(n)||n<0)||(c.stats90&&Object.values(c.stats90).some(n=>!Number.isFinite(n)||n<0))||!Array.isArray(c.skills)||!Array.isArray(c.chains)||!Array.isArray(c.portraits)||(Object.keys(langs) as Locale[]).some(l=>!c.name?.[l]||!c.element?.name?.[l]||!c.weapon?.name?.[l]))throw Error('Invalid resonator identity or base stats');}
  if(!data.coverage||data.coverage.characterForms!==data.characters.length||typeof data.sourceVersion!=='string'||!data.updatedAt||!Array.isArray(data.sources)||!data.sources.length)throw Error('Invalid snapshot coverage');
  const cycleIds=new Set<string>();for(const c of data.cycles){if(!c.id||!Array.isArray(c.floors)||!c.floors.length||cycleIds.has(c.id)||c.startDate&&c.endDate&&c.startDate>=c.endDate)throw Error('Invalid challenge cycle');cycleIds.add(c.id);for(const f of c.floors)if(!Array.isArray(f.enemies)||!Array.isArray(f.buffs)||f.enemies.some(e=>!e.id||!e.name||(Object.keys(langs) as Locale[]).some(l=>!e.name[l])))throw Error('Unresolved enemy identity');}
  if(data.statistics?.available!==false||!Array.isArray(data.statistics?.sources))throw Error('Aggregate numbers require a separately validated denominator');

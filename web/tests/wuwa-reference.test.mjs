@@ -9,8 +9,8 @@ class Statement{constructor(query,args=[]){this.query=query;this.args=args}bind(
 globalThis.__wuwaReferenceTestEnv={DB:{prepare:q=>new Statement(q),batch:async queries=>{sql.exec('BEGIN');try{const results=await Promise.all(queries.map(q=>q.run()));sql.exec('COMMIT');return results}catch(e){sql.exec('ROLLBACK');throw e}}}};
 registerHooks({resolve(s,c,n){if(s==='cloudflare:workers')return {url:'test:wuwa-reference-env',shortCircuit:true};return n(s,c)},load(u,c,n){return u==='test:wuwa-reference-env'?{format:'module',source:'export const env=globalThis.__wuwaReferenceTestEnv',shortCircuit:true}:n(u,c)}});
 const store=await import('../lib/wuwa-reference-store.ts');
-test('full released reference has 60 forms / 64 source IDs, four native languages, dated evidence and bounded level-one facts',()=>{
- assert.equal(model.validateWuwaReference(snapshot),snapshot);assert.equal(snapshot.characters.length,60);assert.equal(snapshot.coverage.sourceCharacters,64);assert.equal(snapshot.coverage.debutDates,38);assert.equal(snapshot.characters.filter(c=>c.id.startsWith('rover-')).length,4);assert.equal(snapshot.characters.some(c=>c.name.en==='Lily'),false);
+test('full released reference has 60 forms / 64 source IDs, four native languages, dated evidence and level90 panels and retained level-one inputs',()=>{
+ assert.equal(model.validateWuwaReference(snapshot),snapshot);assert.equal(snapshot.characters.length,60);assert.equal(snapshot.coverage.sourceCharacters,64);assert.equal(snapshot.coverage.debutDates,39);assert.equal(snapshot.characters.filter(c=>c.id.startsWith('rover-')).length,4);assert.equal(snapshot.characters.some(c=>c.name.en==='Lily'),false);
  for(const c of snapshot.characters){for(const l of ['ko','en','ja','zh'])assert.ok(c.name[l]&&c.element.name[l]&&c.weapon.name[l]);assert.ok(c.stats.hp>0);assert.ok(!('rewards'in c));}
  const suoming=snapshot.characters.find(c=>c.name.en==='Suoming');assert.equal(suoming.debut.date,'2026-10-22');assert.equal(snapshot.cycles.find(c=>c.id==='tower-of-adversity:41').floors.length,12);assert.equal(snapshot.cycles.find(c=>c.id==='tower-of-adversity:41').floors.reduce((n,f)=>n+f.enemies.length,0),27);
  const bad=structuredClone(snapshot);bad.characters[0].name.ja='';assert.throws(()=>model.validateWuwaReference(bad));
@@ -44,6 +44,7 @@ test('the predefined automatic collector completes real SQLite checkpoints, chec
   if(u==='https://wuther.in/ko/toa/')html='<script src="https://wutherin.cn-nb1.rains3.com/_next/static/chunks/source.js"></script>';
   else if(u.endsWith('/source.js'))html='e.s(["LATEST_DATA_VERSION",0,"3.7.8"]);';
   else if(u.endsWith('/Characters.json'))value=characters;
+  else if(u.endsWith('/CharacterCurve.json'))value=JSON.parse(readFileSync(new URL('../content/wuwa-character-growth.json',import.meta.url),'utf8'));
   else if(u.endsWith('/splashArt.ts'))html=readFileSync(new URL('./fixtures/wuwa-reference/splashArt.ts.txt',import.meta.url),'utf8');
   else if(u.endsWith('/disabledEntries.ts'))html='export const DISABLED_CHARACTER_IDS = new Set<string>([]);';
   else if(u.endsWith('/ko/character/index.json'))value=characters.map(c=>({Id:c.id}));
@@ -53,6 +54,7 @@ test('the predefined automatic collector completes real SQLite checkpoints, chec
   else {const m=/\/(ko|en|ja|zh-Hans)\/(tower|slash|matrix)\/(41|22|8)\.json$/.exec(u);if(!m)throw Error('Unexpected source '+u);value=read(m[2]+'-'+m[1]+'.json');}
   return new Response(html??JSON.stringify(value),{headers:{'Content-Type':html?'text/html':'application/json'}});
  };
+ sql.prepare('INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload').run('wuwa-reference:progress',JSON.stringify({schemaRevision:1,phase:7,version:'3.7.8',plans:[],cycles:[],checks:[],checkedAt:'2026-10-23T00:00:00Z',lastSuccessAt:'2026-10-24T01:00:00Z'}));
  try{let result;for(let n=0;n<8;n++){result=await store.refreshWuwaReferenceStep(true);assert.equal(result.status,'ok',result.error);if(result.done)break;}assert.equal(result.done,true);assert.ok(calls>=20);const data=(await store.readWuwaReference()).data;assert.equal(data.characters.length,60);assert.equal(data.cycles.find(c=>c.id==='tower-of-adversity:41').floors.length,12);assert.ok(data.cycles.some(c=>c.id==='tower-of-adversity:42'));const count=calls;assert.equal((await store.refreshWuwaReferenceStep()).skipped,true);assert.equal(calls,count);assert.equal(sql.prepare('SELECT payload FROM entries').get().payload,'{"owner":"keep"}');}
  finally{globalThis.fetch=nativeFetch;globalThis.Date=NativeDate;}
 });
@@ -63,4 +65,11 @@ test('the public API uses conditional immutable reads while cross-origin and una
 
 test('full artwork survives automatic normalization for every exact source ID including both Rover variants',()=>{
  const characters=model.normalizeWuwaCharacters(read('characters.json'),[]);const sourceById=new Map(read('characters.json').map(c=>[c.id,c]));assert.equal(characters.length,60);for(const c of characters)for(const p of c.portraits){assert.equal(p.artwork,model.wuwaBuildAsset(sourceById.get(p.id).icon.banner));assert.ok(p.fullArtwork);assert.ok(!p.fullArtwork.includes('IconRolePile'));}const havoc=characters.find(c=>c.id==='rover-havoc');assert.equal(havoc.portraits.length,2);assert.notEqual(havoc.portraits[0].artwork,havoc.portraits[1].artwork);assert.equal(model.validateWuwaReference(snapshot),snapshot,'v1 snapshots without art remain compatible');
+});
+
+
+test('level90 panels use the published ascended curve and integer display, retaining base inputs and exact chain values in four languages',()=>{
+ const input={hp:824,atk:37,def:91,crit:5,critDamage:150};assert.deepEqual(model.wuwaLevel90Stats(input),{hp:10300,atk:462,def:1112,crit:5,critDamage:150});assert.equal(input.atk,37);assert.equal(model.wuwaLevel90Stats({...input,def:0}).def,0);assert.throws(()=>model.wuwaLevel90Stats(input,{HP:NaN,ATK:125000,DEF:122222}));
+ let count=0;for(const c of snapshot.characters){assert.deepEqual(c.stats90,model.wuwaLevel90Stats(c.stats));assert.equal(c.chains.length,6);for(const chain of c.chains)for(const lang of ['ko','en','ja','zh']){assert.ok(chain.description[lang]);assert.ok(!/<[^>]+>|\{\d+(?::[^}]*)?\}/.test(chain.description[lang]));count++;}}
+ assert.equal(count,1440);const galbrena=snapshot.characters.find(c=>c.id==='1208');assert.match(galbrena.chains[0].description.ko,/2%/);assert.match(galbrena.chains[0].description.ko,/80%/);assert.match(galbrena.chains[0].description.en,/2%/);assert.ok(galbrena.chains[0].description.ja.includes('2%'));
 });

@@ -27,6 +27,7 @@ import "./practical-details.css";
 import "./mobile-editor-refinement.css";
 import "./wuwa-reference.css";
 import "./leaks.css";
+import "./navigation-controls.css";
 import {requestLocale} from '@/lib/request-locale';
 import {brandOrigin} from '@/lib/brand';
 import {displayBootstrap} from '@/lib/display-preferences';

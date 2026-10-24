@@ -5,10 +5,10 @@ import releaseEvidence from '../content/wuwa-release-evidence.json' with {type:'
 import {retryFetch} from './retry-fetch';
 import {normalizeWuwaCharacters,normalizeWutherTower,normalizeWutherSlash,normalizeWutherMatrix,validateWuwaReference,type WuwaReference,type WuwaCombatCycle} from './wuwa-reference';
 import type {Locale} from './types';
-const base='https://wutherin.cn-nb1.rains3.com',prefix='wuwa-reference:',cadence=6*3600000;
+const base='https://wutherin.cn-nb1.rains3.com',prefix='wuwa-reference:',cadence=6*3600000,detailRevision=2;
 const locales={ko:'ko',en:'en',ja:'ja',zh:'zh-Hans'} as const;
 type Plan={type:'tower'|'slash'|'matrix';id:string;expectedFloors?:number};
-type Progress={phase:number;version:string;plans:Plan[];checkedAt:string;characters?:WuwaReference['characters'];cycles:WuwaCombatCycle[];checks:any[];lastSuccessAt?:string};
+type Progress={schemaRevision?:number;phase:number;version:string;plans:Plan[];checkedAt:string;characters?:WuwaReference['characters'];cycles:WuwaCombatCycle[];checks:any[];lastSuccessAt?:string};
 const db=()=>{if(!env.DB)throw Error('Reference storage unavailable');return env.DB;};
 async function get<T>(key:string):Promise<T|undefined>{const row=await db().prepare('SELECT payload FROM operations_health WHERE key=?').bind(prefix+key).first<{payload:string}>();return row?JSON.parse(row.payload):undefined;}
 async function put(key:string,value:unknown){await db().prepare('INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload').bind(prefix+key,JSON.stringify(value)).run();}
@@ -69,16 +69,18 @@ export async function refreshWuwaReferenceStep(force=false){
  let p:Progress|undefined;const at=new Date().toISOString();
  try{
   p=await get<Progress>('progress');
-  if(!p||p.phase===-1){if(!force&&p?.lastSuccessAt&&now-Date.parse(p.lastSuccessAt)<cadence)return {done:true,skipped:true,status:'ok',source:'wuwa/global/reference',checkedAt:at};p={phase:0,version:'',plans:[],cycles:[],checks:[],checkedAt:at,lastSuccessAt:p?.lastSuccessAt};}
+  if(!p||p.phase===-1||p.schemaRevision!==detailRevision){if(!force&&p?.schemaRevision===detailRevision&&p?.lastSuccessAt&&now-Date.parse(p.lastSuccessAt)<cadence)return {done:true,skipped:true,status:'ok',source:'wuwa/global/reference',checkedAt:at};p={schemaRevision:detailRevision,phase:0,version:'',plans:[],cycles:[],checks:[],checkedAt:at,lastSuccessAt:p?.lastSuccessAt};}
   if(p.phase===0){
    p.version=await discoverWuwaReferenceVersion();
    const heroes=await db().prepare("SELECT payload FROM entries WHERE game_id='wuwa' AND json_extract(payload,'$.versionHero')=1").all<{payload:string}>();
    const known=heroes.results.map(r=>JSON.parse(r.payload)).flatMap(e=>Object.values(e.title||{}) as string[]).flatMap(t=>t.match(/\b\d+\.\d+\b/g)||[]);
    if(known.length&&!known.includes(p.version.split('.').slice(0,2).join('.')))throw Error('Data version differs from the published game version');
-   const [rows,disabled,index,splashResolver]=await Promise.all([json('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/Data/Characters.json'),boundedText('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/constants/disabledEntries.ts',20000),json(base+'/data/'+p.version+'/ko/character/index.json',500000),boundedText('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/splashArt.ts',100000)]);
+   const [rows,disabled,index,splashResolver,growth]=await Promise.all([json('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/Data/Characters.json'),boundedText('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/constants/disabledEntries.ts',20000),json(base+'/data/'+p.version+'/ko/character/index.json',500000),boundedText('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/lib/splashArt.ts',100000),json('https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/Data/CharacterCurve.json',100000)]);
    const block=/DISABLED_CHARACTER_IDS[^=]*=[\s\S]*?\[([\s\S]*?)\]/.exec(disabled);if(!block)throw Error('Missing release-status gate');const excluded=[...block[1].matchAll(/["'](\d+)["']/g)].map(m=>Number(m[1]));
    const ids=new Set(index.map((r:any)=>r.Id));if(rows.some((r:any)=>!ids.has(r.id))||ids.size!==rows.length)throw Error('Independent character inventories differ');
-   p.characters=normalizeWuwaCharacters(rows,releaseEvidence.entries,excluded,parseWuwaSplashResolver(splashResolver));
+   if(!growth?.CHARACTER_CURVE?.['90'])throw Error('Missing published character level90 curve');
+   p.characters=normalizeWuwaCharacters(rows,releaseEvidence.entries,excluded,parseWuwaSplashResolver(splashResolver),growth?.CHARACTER_CURVE?.['90']);
+   if(p.characters.some(c=>!c.stats90||c.chains.length!==6||c.chains.some(chain=>Object.values(chain.description||{}).length!==4||Object.values(chain.description||{}).some(text=>!text||/\{\d+/.test(text)))))throw Error('Incomplete level90 or native resonance-chain detail');
    const old=(await readWuwaReference()).data;const newIds=new Set(p.characters.flatMap(c=>c.sourceIds));if(old.characters.some(c=>c.sourceIds.some(id=>!newIds.has(id))))throw Error('Published character inventory regressed');p.phase=1;
   }else if(p.phase===1){
    const [tower,slash,html]=await Promise.all([json(base+'/data/'+p.version+'/ko/tower/index.json',500000),json(base+'/data/'+p.version+'/ko/slash/index.json',500000),boundedText('https://wuther.in/ko/matrix/',3000000)]);
