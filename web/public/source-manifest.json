@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "3442ebb05d9e0305eaa1c7283a060d7b4d22eb05e0cac59a693df646c71268e2",
+  "fingerprint": "66e96c6be25bc1daafceae96ae34b2f2794938724fb1339c22506980fd198cd0",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -144,7 +144,7 @@
     },
     {
       "path": "app/api/leaks/route.ts",
-      "sha256": "2c82ca29a5f4e70d6888c0c5dfbf5267e43a10e8222b2c3ee74bb950bee36941"
+      "sha256": "9aa4d225d4ba2b47724323cae0a360749d192cc52ab616762631c6f877866833"
     },
     {
       "path": "app/api/media/[file]/route.ts",
@@ -216,7 +216,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "febaa05fc228a1b661f8e07be799bc25802e4b76270b0eb77550f8e49fcb9f06"
+      "sha256": "0fa4617a5abee30b0bf12ddabbfe70943d16952300fafded36ff0a2c8be85f3d"
     },
     {
       "path": "app/chatgpt-auth.ts",
@@ -272,7 +272,7 @@
     },
     {
       "path": "app/leaks.css",
-      "sha256": "67e381c3055fe6b606da7f201608d07ee8b40c90c0a1ec0ecc73fe80ee54434f"
+      "sha256": "081155117bb094348d6f1a0df5335ee3c1f071d4a7e2b8beafcd6e23e6eab237"
     },
     {
       "path": "app/light-theme.css",
@@ -444,7 +444,7 @@
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "002bc043faf45344ed25708f5743f15567277b5aff429f36ede3b3dfc1647090"
+      "sha256": "fafc02d2cfd1f9363b36c1057b760a91a9c3e6e6023ae4bcaff2e4afbf58570c"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -539,8 +539,12 @@
       "sha256": "88fe0e12116587661d07a6deff18058cdb530ad342ad5ec11578f25b2c4b294c"
     },
     {
+      "path": "components/leak-video.tsx",
+      "sha256": "01bf7d274e756baa53114ab24a472357eb091fbad8617bf8de969bff4cd7ba34"
+    },
+    {
       "path": "components/leaks-panel.tsx",
-      "sha256": "c8068bfc738b28eb28bf20fdd570c7869d045606befd8e39cc970becb073aeb0"
+      "sha256": "2bd70bf5f7c793bfec3bf29a54fe354680bafbb51659b2223420208b25205aaa"
     },
     {
       "path": "components/localized-catalog.tsx",
@@ -625,6 +629,10 @@
     {
       "path": "components/reward-editor.tsx",
       "sha256": "93b87344ab9a5236732fc94ac67992e7950d19cad3e21a1888d0a18c43e5980e"
+    },
+    {
+      "path": "components/roster-stat-details.tsx",
+      "sha256": "c9f436a2dea141623e4d4abe0d98b0c472e50c8bacc08e65566f38d344350673"
     },
     {
       "path": "components/schedule-calendar.tsx",
@@ -996,11 +1004,11 @@
     },
     {
       "path": "content/character-rosters/artwork-manifest.json",
-      "sha256": "624b32a4fd72000e8b6090ec1d84fbe53a69413caa7f0066b6bd67424c4fe6d8"
+      "sha256": "65fdf1d8f348e4e382533cd5266c60ef86cdd86e27edff2d1846ec5a3b542229"
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "15272a190bf1cb0f9acd74aab3f3db7d930e1638827278d6f650bd6bff3438c2"
+      "sha256": "f9805b620fd744db9c8533905c967663d82bdf145ed3ad06cef3dc3e0b3efa93"
     },
     {
       "path": "content/community-current-research.json",
@@ -1052,7 +1060,15 @@
     },
     {
       "path": "content/leaks/bootstrap.json",
-      "sha256": "ac69f12f22d89360d3bb6911db7d56fd67fe2d1c5283672d3681be181f7e6e52"
+      "sha256": "8e794b3c0eada4d2711b55652f9061c416ce5700fa280351881a4888f8605414"
+    },
+    {
+      "path": "content/leaks/wuwa-verse-source.json",
+      "sha256": "05da53bcfae4c051de29c7e8de36be64a281db1c9d14fc6f15108b37f6c8c0c0"
+    },
+    {
+      "path": "content/leaks/x-artwork-manifest.json",
+      "sha256": "399d7fafad798cf76d56b8154423382bace9cb63dea6be76f550a0fad77fcf41"
     },
     {
       "path": "content/maintained-artwork.json",
@@ -1340,7 +1356,7 @@
     },
     {
       "path": "lib/character-roster-enrichment.ts",
-      "sha256": "9bcfc472cbd7759a7fff265d4a07e8c3ccb475b02965e1b2eaabd528ef4a8f70"
+      "sha256": "f21cd9995c73cc63b9ef55bd17603bb6dae857883dd22fc62aa8134ea974eff7"
     },
     {
       "path": "lib/character-roster-refresh.ts",
@@ -1352,7 +1368,7 @@
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "81c75c0a22c469ca225a5d8db7b02023eb318198cd634a66e2601016f1d98c84"
+      "sha256": "68a091755b587b8127b06d52c9946bbb4fca401dea768723b8b6675dc2f7527e"
     },
     {
       "path": "lib/collaboration-sources.ts",
@@ -1556,11 +1572,15 @@
     },
     {
       "path": "lib/leaks-store.ts",
-      "sha256": "c272c3bda6bbee2f2802c8ce72a5c32f5c2553eba1667052e0098d6221ddb874"
+      "sha256": "9f5a1b1e8290593cc8bcf9b219f1e75c132b641d2d14f89a02259da646398ce2"
+    },
+    {
+      "path": "lib/leaks-x.ts",
+      "sha256": "d9563210224d095eb87ecba99264f705c795ef50afbd94bc526bdcaf77d9fbc2"
     },
     {
       "path": "lib/leaks.ts",
-      "sha256": "bab3d77de466780a493dd71c596116daa9742f6881baa4cc7cad3347c6084009"
+      "sha256": "229eb988b9821dbb42c552d3033cb0ea4b76ac7e473b7d71eb04b709b2072bec"
     },
     {
       "path": "lib/maintained-artwork-store.ts",
@@ -1876,7 +1896,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "38a88182af925bb67b85a5649b8782ad25beac9ce53008e58ca328fb349b4140"
+      "sha256": "76f6a3afb533cfc62b406de91ace6430aff44900f40955fbd2808a9834196350"
     },
     {
       "path": "pnpm-lock.yaml",

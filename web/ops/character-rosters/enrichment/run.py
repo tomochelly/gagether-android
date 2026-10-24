@@ -20,6 +20,27 @@ def enrich_files(files,work):
   for name in ['enrichment-report.json','enrichment-a-report.json','enrichment-report-b.json','manifest.json']:
    path=output/name
    if path.exists():report['sourceReport']=json.loads(path.read_text());break
+  if key=='b' and 'nte'in files:
+   # Keep the exact art and rich client facts in the same scoped reference path.
+   # The detail helper deliberately pins its verified Global client version.
+   for helper in ['collect_nte_art.py','enrich_nte_details.py']:
+    target=output/helper.removesuffix('.py');target.mkdir(exist_ok=True)
+    command=[sys.executable,str(ROOT/helper),'--input',str(output/'nte.json'),'--output-dir',str(target)]
+    if helper=='enrich_nte_details.py':command+=['--cache-dir',str(target/'sources')]
+    try:
+     result=subprocess.run(command,check=False,timeout=1200)
+     candidate=target/'nte.json'
+     details=json.loads((target/'manifest.json').read_text())if(target/'manifest.json').exists()else{}
+     report.setdefault('nteEnrichment',[]).append({'helper':helper,'exitCode':result.returncode,'details':details})
+     if details.get('status')in ['failed','error','partial']:report['status']='partial'
+     if result.returncode==0 and candidate.exists():
+      d=json.loads(candidate.read_text());prior=json.loads((output/'nte.json').read_text())
+      if d.get('gameId')!='nte'or{c['id']for c in d['characters']}!={c['id']for c in prior['characters']}:raise ValueError('NTE detail identity mismatch')
+      if len(json.dumps(d,ensure_ascii=False).encode())>4400000:raise ValueError('NTE detail exceeds ingest bound')
+      shutil.copyfile(candidate,output/'nte.json')
+     else:report['status']='partial'
+    except Exception as e:
+     report['status']='partial';report.setdefault('nteErrors',[]).append(helper+': '+str(e))
   return key,report
  reports={}
  with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:

@@ -1,6 +1,7 @@
 import './load-typescript.mjs';
 import {test} from 'node:test';import assert from 'node:assert/strict';import React,{act} from 'react';import {renderToString,renderToStaticMarkup} from 'react-dom/server';import {JSDOM} from 'jsdom';
-import seed from '../content/leaks/bootstrap.json' with {type:'json'};
+import allSeed from '../content/leaks/bootstrap.json' with {type:'json'};
+const seed=allSeed.slice(0,1); // Keep the original warning/navigation fixture independent of catalog growth.
 const {default:Panel}=await import('../components/leaks-panel.tsx'),{default:Radar}=await import('../components/radar.tsx'),{games}=await import('../lib/games.ts'),{emptyCatalog}=await import('../lib/initial-shell.ts');
 test('all eighteen games have their own leak entry; no SSR warning/content render exposes leak claims or images',()=>{
  for(const game of games){const html=renderToStaticMarkup(React.createElement(Radar,{initialView:'game',initialGameId:game.id,initialRegion:'global',initialLocale:'ko',initialData:emptyCatalog(),initialComplete:true}));const dom=new JSDOM(html);assert.ok([...dom.window.document.querySelectorAll('.game-section-tabs button')].some(b=>b.textContent==='유출 정보'));assert.ok(!html.includes('hiyuki-skin1-1'));dom.window.close();}

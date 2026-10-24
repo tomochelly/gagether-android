@@ -1,0 +1,288 @@
+{
+  "checkedAt": "2026-10-24T21:10:35.784240Z",
+  "account": {
+    "id": "wuwa-verse1",
+    "gameId": "wuwa",
+    "name": "WuWa Universe",
+    "handle": "WuWa_Verse1",
+    "accountId": "1794837038853734401",
+    "profileUrl": "https://x.com/WuWa_Verse1",
+    "sourceKind": "community",
+    "coverage": "curated-post refresh plus exact links discovered in independently readable source documents; not complete profile monitoring",
+    "postIds": [
+      "2114039529564713238",
+      "2113963023681388685",
+      "2113585909702561922",
+      "2113426381988077758",
+      "2113331118552338586",
+      "2113303921909211432",
+      "2113302894443118757",
+      "2113322228502938106",
+      "2113361612589740499",
+      "2113299515780563278",
+      "2113296132361056594",
+      "2113295508735217730"
+    ],
+    "leakVersion": "3.8",
+    "profileAccess": {
+      "status": "blocked",
+      "httpStatus": 403
+    },
+    "metadataMechanism": "credentialless X public oEmbed and public embed syndication JSON; deterministic ID checksum, no auth/guest/session token",
+    "mechanismReferences": [
+      "https://github.com/vercel/react-tweet/blob/main/packages/react-tweet/src/api/fetch-tweet.ts",
+      "https://help.x.com/en/using-x/embed-x-feed",
+      "https://create.twitter.com/en/products/embedded-tweets"
+    ]
+  },
+  "profileOembed": {
+    "status": 200,
+    "bytes": 329,
+    "sha256": "bebd00ba583d17db50e8f8841731e4dd432feae83baebb4bb3391fedf21555ed",
+    "containsStatusLinks": false,
+    "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1&omit_script=true"
+  },
+  "receipts": [
+    {
+      "id": "2114039529564713238",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2114039529564713238&lang=en&token=54hg8kfzz2v",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 3720,
+      "sha256": "2f61de5289ca5f5af39c02c9c798a85d4ac854187a65d33c60f153084876e0e6",
+      "checkedAt": "2026-10-24T21:09:42.056284Z"
+    },
+    {
+      "id": "2114039529564713238",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2114039529564713238&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 884,
+      "sha256": "089d34fcaa76807b0f122cbbcf85360cc036c382a2a688a1cfa6ff9460bdad67",
+      "checkedAt": "2026-10-24T21:09:47.987378Z"
+    },
+    {
+      "id": "2113963023681388685",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113963023681388685&lang=en&token=54h7l2nr5uv",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 5455,
+      "sha256": "9a2d6ffaeb9c604ecf7ab7c4a90f8974436ea0d07fd99c74df31aa8a0db67e06",
+      "checkedAt": "2026-10-24T21:09:41.967735Z"
+    },
+    {
+      "id": "2113963023681388685",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113963023681388685&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 850,
+      "sha256": "af1331b4135505de732153af231cc62edfbc718ce22a261b37299f1349a94485",
+      "checkedAt": "2026-10-24T21:09:48.055370Z"
+    },
+    {
+      "id": "2113585909702561922",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113585909702561922&lang=en&token=54gxni6f",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 2140,
+      "sha256": "0928b06329685ab6a1e16c946bb65a8917ecd689b71a67159813f350d03422eb",
+      "checkedAt": "2026-10-24T21:09:44.998326Z"
+    },
+    {
+      "id": "2113585909702561922",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113585909702561922&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 852,
+      "sha256": "8da736f72024e78f8591985040e99a73c28fd1ac3be4f2b0df3ce502040e354f",
+      "checkedAt": "2026-10-24T21:09:52.949692Z"
+    },
+    {
+      "id": "2113426381988077758",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113426381988077758&lang=en&token=54fiw4vhmf",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 3422,
+      "sha256": "a0856829a759eeddb01f8cb64f5d0a1feba73759ef46fbb789f8facaccdeec3a",
+      "checkedAt": "2026-10-24T21:09:51.258837Z"
+    },
+    {
+      "id": "2113426381988077758",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113426381988077758&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 868,
+      "sha256": "b3561ecf3427967e4854817b913babe947cdbc4763f8639228ebb33ce0afdf3f",
+      "checkedAt": "2026-10-24T21:09:52.956331Z"
+    },
+    {
+      "id": "2113331118552338586",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113331118552338586&lang=en&token=54f849pd92h",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 2113,
+      "sha256": "1d5c58a1ed507d02f5356147e88b85591a3706dbc1fffab08b04fbed10fc4add",
+      "checkedAt": "2026-10-24T21:09:54.402461Z"
+    },
+    {
+      "id": "2113331118552338586",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113331118552338586&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 844,
+      "sha256": "fad60a2a4b1387278d1e52adc29d423c6ad5ca076cdb98229a47b9c5ff4573fb",
+      "checkedAt": "2026-10-24T21:10:03.584917Z"
+    },
+    {
+      "id": "2113303921909211432",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113303921909211432&lang=en&token=54f51jdocwo",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 2113,
+      "sha256": "62af4ad5a5e05e92107337806a75a3e01927b9f98bf6f4c05465ddba0ab11f5b",
+      "checkedAt": "2026-10-24T21:09:54.398646Z"
+    },
+    {
+      "id": "2113303921909211432",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113303921909211432&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 845,
+      "sha256": "c519e50185f469a3e0f3efac4c41c50bb2dea96e5352a53ef98820d0e7c2d1a5",
+      "checkedAt": "2026-10-24T21:10:03.530169Z"
+    },
+    {
+      "id": "2113302894443118757",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113302894443118757&lang=en&token=54f4xcs2swa",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 2140,
+      "sha256": "89e97b7b3cb17027e1e58a068d749e4bc1d6b614dfaf933a551e742067a1c96a",
+      "checkedAt": "2026-10-24T21:09:57.258199Z"
+    },
+    {
+      "id": "2113302894443118757",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113302894443118757&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 860,
+      "sha256": "ac6b2100a9dc3244eaa583bb3f20996beef2c697811be51c3f2c4fe95169cbe4",
+      "checkedAt": "2026-10-24T21:10:03.572226Z"
+    },
+    {
+      "id": "2113322228502938106",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113322228502938106&lang=en&token=54f742nimnr",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 3094,
+      "sha256": "36c8309d0d35b490591eb75483cfe9af2953265778967897d4ab905da2ecf6d5",
+      "checkedAt": "2026-10-24T21:10:08.895951Z"
+    },
+    {
+      "id": "2113322228502938106",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113322228502938106&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 840,
+      "sha256": "4273820881572cbb648f9868a935fb913b302a3d0c627f0e3c6ce9cec0a3fbe9",
+      "checkedAt": "2026-10-24T21:10:09.660101Z"
+    },
+    {
+      "id": "2113361612589740499",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113361612589740499&lang=en&token=54fbkfcbhp",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 3396,
+      "sha256": "7f02e08ab9643dab90a695f62c734694fea9a277ff8e41a81b0fa7ce7f9fb18c",
+      "checkedAt": "2026-10-24T21:10:08.868382Z"
+    },
+    {
+      "id": "2113361612589740499",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113361612589740499&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 843,
+      "sha256": "dce85bbc583febd9942b4583489619ca7a49fb12658c7b2011f0691cd5bd4533",
+      "checkedAt": "2026-10-24T21:10:19.301177Z"
+    },
+    {
+      "id": "2113299515780563278",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113299515780563278&lang=en&token=54f4jljzqtf",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 5406,
+      "sha256": "2146a68a349190576c40573d3fe7a35969ad2ece7c1f8d421f3b86dc448ed87d",
+      "checkedAt": "2026-10-24T21:10:12.578242Z"
+    },
+    {
+      "id": "2113299515780563278",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113299515780563278&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 860,
+      "sha256": "a92a57b51aa0b394eaa523ed93cf7c57b1c847abc1a6f4f7d7f3bf2b5e2939ab",
+      "checkedAt": "2026-10-24T21:10:19.303129Z"
+    },
+    {
+      "id": "2113296132361056594",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113296132361056594&lang=en&token=54f45tmt21",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 2230,
+      "sha256": "77d539e02a618903d4e56aaf2cf670d438cfc6851b9ce500e95349f651924b7f",
+      "checkedAt": "2026-10-24T21:10:15.457978Z"
+    },
+    {
+      "id": "2113296132361056594",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113296132361056594&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 969,
+      "sha256": "85c9428e4bbfb51970519fc42136f895a0cb37ff3e4f9f9a68ba298a7ab1c101",
+      "checkedAt": "2026-10-24T21:10:19.317702Z"
+    },
+    {
+      "id": "2113295508735217730",
+      "kind": "syndication",
+      "url": "https://cdn.syndication.twimg.com/tweet-result?id=2113295508735217730&lang=en&token=54f43a8516y",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 2125,
+      "sha256": "0915a51238239251f842d2f9d40d4d21039ced3e907399d377a6f311b9191d6a",
+      "checkedAt": "2026-10-24T21:10:24.612515Z"
+    },
+    {
+      "id": "2113295508735217730",
+      "kind": "oembed",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FWuWa_Verse1%2Fstatus%2F2113295508735217730&omit_script=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "bytes": 856,
+      "sha256": "eda69b43b362afade532331f3f72b96af1f4951058d48322ad7fc55efa04304f",
+      "checkedAt": "2026-10-24T21:10:25.258459Z"
+    }
+  ],
+  "partial": false
+}

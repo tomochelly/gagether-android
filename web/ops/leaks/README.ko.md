@@ -69,3 +69,17 @@ https://mymemory.translated.net/doc/usagelimits.php
 
 ### 번역 서비스가 제한되는 경우
 공개 번역 서비스의 429는 번역 실패로 유지하며 다른 IP나 계정으로 우회하지 않습니다. 인증된 `POST /api/leaks`의 `localize` 작업은 기존 항목의 `id`, `expectedRevision`, `bodyHash`, `localized`만 받습니다. 원문 해시가 일치하는 번역·요약을 추가할 수 있고, 자동 수집 항목은 자동 상태를 유지합니다. 원문·이미지·일정·사용자 편집 보호값은 이 작업으로 변경되지 않습니다. 원문이 바뀌면 이전 번역은 완료로 인정되지 않습니다.
+
+## WuWa_Verse1 이미지·영상 · 2026-10-25
+
+사용자가 지정한 https://x.com/WuWa_Verse1 의 작성자ID1794837038853734401을 고정했다. 일반프로필403과 공개임베드 성공은 다른 접근결과로 기록한다. 공개X임베드와Vercel/react-tweet에 문서화된 공개ID checksum으로12게시물의 정확한작성자·게시일·짧은원문·선언미디어를 확인했다. 로그인·쿠키·게스트토큰·사설API·지문변경은 사용하지 않는다. oEmbed HTML을 실행하거나 그대로 삽입하지 않는다.
+
+현재이미지14개·영상4개를 수록했다. 사진14개와영상포스터4개는 원래바이트5,742,202bytes를 해시·실제치수 검증후 leak-bootstrap의고정원본으로 보존했다. 영상은video.twimg.com에서 실제로 선언된MP4 변형만 사용한다. 선택한원본4개는HTTP200/video/mp4를확인했지만 watched와playbackVerified는false다. 영상 시청·해석을 완료했다고 하지 않는다. 원본화질목록과원문링크를 유지하고 자동재생하지 않는다.
+
+유출경고동의전에는 이미지·포스터·동영상·API요청을 만들지 않는다. 동의후에도 영상은사용자가눌러불러온다. Simple모드에서는미디어를펼치기전포스터도요청하지 않는다. 실패시해당원문링크로이어지며 다른자료의썸네일로대체하지 않는다. 영상·화질선택은일정/픽업/공식공지/앱알림으로전달하지 않는다.
+
+자료는 sourceAccess:embed로 공개임베드에서읽었다고 기록한다. 원문페이지전체를열었거나영상을봤다는뜻은아니다. 출처표기GameData/Pero/NeonTeam/Seele/Nanoka/Hiragara/Tester/FS는 제보자의주장으로유지하고 공식자료로승격하지 않는다. 3.8픽업구성과시그리카복각주장도 유출영역에만둔다.
+
+자동수집은12개선정게시물 재확인과, 기존에읽을수있는유출RSS/본문에서발견한 정확한WuWa_Verse1/status링크를 대상으로 한다. 새링크는 작성자ID와유출성격을다시검사한다. 계정전체타임라인의연속자동감시나모든게시물수집을확보한것은아니다. 일반뉴스·공식발표·팬아트·giveaway는유출로자동분류하지 않는다. 원문해시불변시번역/검수시각을재작성하지 않고 실패시마지막자료를보존한다.
+
+코드·원본근거는wuwa-verse/,계정등록은content/leaks/wuwa-verse-source.json,원본manifest는content/leaks/x-artwork-manifest.json에있다. 세부준수범위와공개임베드원리는wuwa-verse/README.md를참조한다. GitHub소스복구시 `node ops/restore-reference-artwork.mjs`가로스터와유출고정원본을함께해시검사한다.

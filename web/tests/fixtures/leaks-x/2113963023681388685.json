@@ -1,0 +1,302 @@
+{
+  "__typename": "Tweet",
+  "id_str": "2113963023681388685",
+  "text": "Lily Screenshots \n\nVia Pero\n\n#WutheringWaves https://t.co/ZRiZU01i7O",
+  "created_at": "2026-10-24T11:57:15.000Z",
+  "lang": "en",
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/ZRiZU01i7O",
+      "expanded_url": "https://x.com/WuWa_Verse1/status/2113963023681388685/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        45,
+        68
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HVZOJbeWQAAkPRD.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1434,
+            "w": 2560,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 1440,
+            "x": 496,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 1263,
+            "x": 585,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 720,
+            "x": 856,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 2560,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1440,
+        "width": 2560
+      },
+      "sizes": {
+        "large": {
+          "h": 1152,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 675,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 383,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/ZRiZU01i7O"
+    },
+    {
+      "display_url": "pic.x.com/ZRiZU01i7O",
+      "expanded_url": "https://x.com/WuWa_Verse1/status/2113963023681388685/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        45,
+        68
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HVZOJybWYAAAA3X.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1434,
+            "w": 2560,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 1440,
+            "x": 880,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 1263,
+            "x": 969,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 720,
+            "x": 1240,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 2560,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1440,
+        "width": 2560
+      },
+      "sizes": {
+        "large": {
+          "h": 1152,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 675,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 383,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/ZRiZU01i7O"
+    },
+    {
+      "display_url": "pic.x.com/ZRiZU01i7O",
+      "expanded_url": "https://x.com/WuWa_Verse1/status/2113963023681388685/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        45,
+        68
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HVZOKLIWwAAv_z0.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1434,
+            "w": 2560,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 1440,
+            "x": 240,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 1263,
+            "x": 329,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 720,
+            "x": 600,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 2560,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1440,
+        "width": 2560
+      },
+      "sizes": {
+        "large": {
+          "h": 1152,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 675,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 383,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/ZRiZU01i7O"
+    },
+    {
+      "display_url": "pic.x.com/ZRiZU01i7O",
+      "expanded_url": "https://x.com/WuWa_Verse1/status/2113963023681388685/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        45,
+        68
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HVZOKiVWoAAAFMB.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1434,
+            "w": 2560,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 1440,
+            "x": 624,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 1263,
+            "x": 713,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 720,
+            "x": 984,
+            "y": 0
+          },
+          {
+            "h": 1440,
+            "w": 2560,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1440,
+        "width": 2560
+      },
+      "sizes": {
+        "large": {
+          "h": 1152,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 675,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 383,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/ZRiZU01i7O"
+    }
+  ],
+  "user": {
+    "id_str": "1794837038853734401",
+    "screen_name": "WuWa_Verse1",
+    "name": "WuWa Universe"
+  }
+}

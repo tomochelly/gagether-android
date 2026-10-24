@@ -1,0 +1,1005 @@
+{
+  "gameId": "nte",
+  "zeroVariants": {
+    "maleSourceId": "1046",
+    "femaleSourceId": "1051",
+    "sameBasePack": true,
+    "sameUpgradePack": true,
+    "sameBreakthroughPack": true,
+    "mechanicalCoefficientsEquivalent": false,
+    "default": "female",
+    "note": "Base/growth pointers identical; source ability IDs and coefficient expressions differ, so each gender has separate source-bound skill tables."
+  },
+  "sourceRef": "cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7",
+  "version": "1.4.5 Global",
+  "identity": {
+    "1": "1051",
+    "10": "1052",
+    "11": "1055",
+    "12": "1004",
+    "13": "1019",
+    "14": "1010",
+    "15": "1003",
+    "16": "1008",
+    "17": "1070",
+    "18": "1071",
+    "19": "1076",
+    "2": "1033",
+    "20": "1075",
+    "21": "1036",
+    "22": "1072",
+    "23": "1042",
+    "24": "1057",
+    "3": "1023",
+    "4": "1073",
+    "5": "1054",
+    "6": "1021",
+    "7": "1039",
+    "8": "1020",
+    "9": "1025"
+  },
+  "coverage": [
+    {
+      "id": "1",
+      "clientId": "1051",
+      "name": "Zero",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 11,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Female051_Melee/6: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Female051_Skill/2: Unbound source coefficient template",
+        "GA_Female051_Skill/3: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Female051_UltraSkill/1: Unbound source coefficient template",
+        "GA_Female051_UltraSkill/2: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "10",
+      "clientId": "1052",
+      "name": "Hotori",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 20,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Jin_Melee/5: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Jin_Skill/1: Missing/ambiguous source curve Skill_Heterochrome_Show"
+      ]
+    },
+    {
+      "id": "11",
+      "clientId": "1055",
+      "name": "Jiuyuan",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 19,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Kuhara_Melee/9: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Kuhara_Skill/2: Unbound source coefficient template",
+        "GA_Kuhara_Skill/3: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Kuhara_UltraSkill/1: Unbound source coefficient template",
+        "GA_Kuhara_UltraSkill/2: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "12",
+      "clientId": "1004",
+      "name": "Lacrimosa",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 29,
+      "passives": 2,
+      "awakening": 7,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Lacrimosa_Melee/18: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Lacrimosa_Skill/6: Unbound source coefficient template",
+        "GA_Lacrimosa_Skill/7: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Lacrimosa_UltraSkill/3: Unbound source coefficient template",
+        "GA_Lacrimosa_UltraSkill/4: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "13",
+      "clientId": "1019",
+      "name": "Mint",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 16,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Mint019_Melee/6: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Mint019_Skill/1: Unbound source coefficient template",
+        "GA_Mint019_Skill/2: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Mint019_UltraSkill/3: Unbound source coefficient template",
+        "GA_Mint019_UltraSkill/4: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "14",
+      "clientId": "1010",
+      "name": "Nanally",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 27,
+      "passives": 2,
+      "awakening": 7,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Nanally_Melee/10: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Nanally_Skill/1: Unbound source coefficient template",
+        "GA_Nanally_Skill/2: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Nanally_UltraSkill/4: Incomplete source damage array None",
+        "GA_Nanally_UltraSkill/14: Unbound source coefficient template",
+        "GA_Nanally_UltraSkill/15: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "15",
+      "clientId": "1003",
+      "name": "Sakiri",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 15,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Sagiri_Melee/6: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Sagiri_Skill/2: Unbound source coefficient template",
+        "GA_Sagiri_Skill/3: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Sagiri_UltraSkill/1: Unbound source coefficient template",
+        "GA_Sagiri_UltraSkill/2: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "16",
+      "clientId": "1008",
+      "name": "Skia",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 21,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Skia_Melee/7: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Skia_Skill/7: Unbound source coefficient template",
+        "GA_Skia_Skill/8: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Skia_UltraSkill/5: Unbound source coefficient template",
+        "GA_Skia_UltraSkill/6: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "17",
+      "clientId": "1070",
+      "name": "Aurelia",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 15,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Mitsuki_Melee/8: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Mitsuki_Skill/3: Unbound source coefficient template",
+        "GA_Mitsuki_Skill/4: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Mitsuki_UltraSkill/1: Unbound source coefficient template",
+        "GA_Mitsuki_UltraSkill/2: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "18",
+      "clientId": "1071",
+      "name": "Chaos",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 21,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Chaos071_Melee/9: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Chaos071_Skill/2: Unbound source coefficient template",
+        "GA_Chaos071_Skill/3: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Chaos071_UltraSkill/4: Unbound source coefficient template",
+        "GA_Chaos071_UltraSkill/5: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "19",
+      "clientId": "1076",
+      "name": "Shinku",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 31,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Shinku_Melee/7: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Shinku_Skill/2: Unbound source coefficient template",
+        "GA_Shinku_Skill/3: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Shinku_Skill/6: Missing/ambiguous source curve Skill2_Heterochrome_Show",
+        "GA_Shinku_UltraSkill/1: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "2",
+      "clientId": "1033",
+      "name": "Adler",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 16,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Adler_Melee/8: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Adler_Skill/6: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Adler_Skill/7: Unbound source coefficient template",
+        "GA_Adler_UltraSkill/1: Unbound source coefficient template",
+        "GA_Adler_UltraSkill/2: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "20",
+      "clientId": "1075",
+      "name": "Iroi",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 35,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Oneiroi_Melee/5: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Oneiroi_Skill/4: Unbound source coefficient template",
+        "GA_Oneiroi_UltraSkill/6: Unbound source coefficient template",
+        "GA_Oneiroi_UltraSkill/7: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "21",
+      "clientId": "1036",
+      "name": "Zankou",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 44,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Zankou_Skill/4: Unbound source coefficient template",
+        "GA_Zankou_UltraSkill/3: Unbound source coefficient template",
+        "GA_Zankou_UltraSkill/4: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "22",
+      "clientId": "1072",
+      "name": "Linko",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 27,
+      "passives": 2,
+      "awakening": 7,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Radio072_Melee/5: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Radio072_Skill/5: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Radio072_Skill/6: Unbound source coefficient template",
+        "GA_Radio072_UltraSkill/5: Unbound source coefficient template",
+        "GA_Radio072_UltraSkill/6: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "23",
+      "clientId": "1042",
+      "name": "Blackbird",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 47,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_BlackBird_Skill/3: Unbound source coefficient template",
+        "GA_BlackBird_UltraSkill/2: Unbound source coefficient template",
+        "GA_BlackBird_UltraSkill/4: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "24",
+      "clientId": "1057",
+      "name": "Akane Rin",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 16,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Akane_Melee/4: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Akane_Skill/6: Unbound source coefficient template",
+        "GA_Akane_Skill/8: Unbound source coefficient template",
+        "GA_Akane_UltraSkill/2: Unbound source coefficient template",
+        "GA_Akane_UltraSkill/3: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "3",
+      "clientId": "1023",
+      "name": "Baicang",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 24,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Cang_Melee/11: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Cang_Skill/4: Unbound source coefficient template",
+        "GA_Cang_Skill/5: Unbound source coefficient template",
+        "GA_Cang_Skill/6: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Cang_UltraSkill/8: Unbound source coefficient template",
+        "GA_Cang_UltraSkill/9: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "4",
+      "clientId": "1073",
+      "name": "Chiz",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 19,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Chiichan073_Melee/5: Missing/ambiguous source curve Chiichan_CoinMelee1",
+        "GA_Chiichan073_Melee/6: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Chiichan073_Melee/8: Missing/ambiguous source curve Chiichan_CoinBranch",
+        "GA_Chiichan073_Melee/10: Missing/ambiguous source curve Chiichan_CoinBranch",
+        "GA_Chiichan073_Melee/11: Missing/ambiguous source curve Chiichan_FixFons_1",
+        "GA_Chiichan073_Melee/12: Unbound source coefficient template",
+        "GA_Chiichan073_Melee/13: Unbound source coefficient template",
+        "GA_Chiichan073_Melee/15: Missing/ambiguous source curve Chiichan_CoinMelee1",
+        "GA_Chiichan073_Melee/17: Missing/ambiguous source curve Chiichan_CoinEvadeAttackshow",
+        "GA_Chiichan073_Skill/7: Unbound source coefficient template",
+        "GA_Chiichan073_Skill/8: Missing/ambiguous source curve Skill1_Heterochrome_Show",
+        "GA_Chiichan073_Skill/9: Missing/ambiguous source curve Skill2_Heterochrome_Show",
+        "GA_Chiichan073_Skill/10: Missing/ambiguous source curve Skill3_Heterochrome_Show",
+        "GA_Chiichan073_UltraSkill/2: Unbound source coefficient template",
+        "GA_Chiichan073_UltraSkill/3: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "5",
+      "clientId": "1054",
+      "name": "Daffodill",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 18,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Daffodill_Melee/5: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Daffodill_Melee/8: Missing/ambiguous source curve Branch_Heterochrome_Show",
+        "GA_Daffodill_Skill/1: Missing/ambiguous source curve Skill1_Heterochrome_Show",
+        "GA_Daffodill_Skill/4: Incomplete source damage array None",
+        "GA_Daffodill_Skill/5: Missing/ambiguous source curve Skill2_Heterochrome_Show",
+        "GA_Daffodill_Skill/6: Unbound source coefficient template",
+        "GA_Daffodill_UltraSkill/1: Unbound source coefficient template",
+        "GA_Daffodill_UltraSkill/2: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "6",
+      "clientId": "1021",
+      "name": "Edgar",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 15,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Edgar_Melee/7: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Edgar_Skill/2: Unbound source coefficient template",
+        "GA_Edgar_Skill/4: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Edgar_UltraSkill/4: Unbound source coefficient template",
+        "GA_Edgar_UltraSkill/5: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "7",
+      "clientId": "1039",
+      "name": "Fadia",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 25,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Fadia_Melee/6: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Fadia_Skill/4: Unbound source coefficient template",
+        "GA_Fadia_Skill/5: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Fadia_UltraSkill/10: Missing/ambiguous source curve FadiaQLimitHp",
+        "GA_Fadia_UltraSkill/13: Unbound source coefficient template",
+        "GA_Fadia_UltraSkill/14: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "8",
+      "clientId": "1020",
+      "name": "Haniel",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 17,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Haniel_Melee/8: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Haniel_Skill/1: Incomplete source damage array None",
+        "GA_Haniel_Skill/4: Unbound source coefficient template",
+        "GA_Haniel_Skill/5: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Haniel_UltraSkill/5: Unbound source coefficient template",
+        "GA_Haniel_UltraSkill/6: Unbound source coefficient template"
+      ]
+    },
+    {
+      "id": "9",
+      "clientId": "1025",
+      "name": "Hathor",
+      "progressionRows": 80,
+      "skillTables": 4,
+      "skillValues": 21,
+      "passives": 2,
+      "awakening": 8,
+      "console": 1,
+      "omittedCoefficientRows": [
+        "GA_Hathor_Melee/7: Missing/ambiguous source curve Melee_Heterochrome_Show",
+        "GA_Hathor_Skill/4: Unbound source coefficient template",
+        "GA_Hathor_Skill/5: Missing/ambiguous source curve Skill_Heterochrome_Show",
+        "GA_Hathor_Skill/9: Missing/ambiguous source curve Skill1_Heterochrome_Show",
+        "GA_Hathor_Skill/10: Missing/ambiguous source curve Skill2_Heterochrome_Show",
+        "GA_Hathor_Skill/11: Missing/ambiguous source curve Skill3_Heterochrome_Show",
+        "GA_Hathor_UltraSkill/2: Unbound source coefficient template",
+        "GA_Hathor_UltraSkill/3: Unbound source coefficient template"
+      ]
+    }
+  ],
+  "notes": [
+    "1004 awakening omitted incomplete/unbound locale: Effect1",
+    "1010 awakening omitted incomplete/unbound locale: Effect3",
+    "1072 awakening omitted incomplete/unbound locale: Effect4"
+  ],
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/DT_CharacterElementTypeData.json",
+      "sha256": "e9c9d6fbea637a0559df9e80216c1107f71dda46fee105917f0bed8fc0a19153",
+      "bytes": 2822,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Fork/DT_ForkTypeData.json",
+      "sha256": "79df6282ff0ddeed2e08efb9a63ac0a275cdd59c25cffcf45866e696e0cc1094",
+      "bytes": 4629,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/DT_Character.json",
+      "sha256": "e129d676db29d8bb62044a30f7295d28d20482dc1a2f2aa0ccf6784cb2184f2e",
+      "bytes": 374870,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/PackData/DT_PlayerPackData.json",
+      "sha256": "c808b13d1b8724d045143395ff519d3c4e193243f91b32843d6b4ac16a280765",
+      "bytes": 59777,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/DT_CharacterAbilityConfig.json",
+      "sha256": "507f255b5e843eb598a572f96adeec4b61d4daaf29fac5cdf456414f6e922360",
+      "bytes": 1078106,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/DT_GameplayAbilityTipsData.json",
+      "sha256": "ccfa647f983817804defadf40ef076190eded21e681739a666f8e82f7d0a6f92",
+      "bytes": 1644150,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/DT_SkillDamageData.json",
+      "sha256": "9c36e94b9b452b88d2160385dc7f6453e1584063c3020e33657e03773f77bf7a",
+      "bytes": 976994,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/Localization/ko/game.json",
+      "sha256": "a96bd0e497fe0ed7e8ec6f95000c98b99ece8d28cdc9fd02db5f2c28f16ea174",
+      "bytes": 11932099,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/Localization/en/game.json",
+      "sha256": "8f4a751f62bf4615fbb05d97d3189514df84e00f72da04177e83a8a3a79c7ddc",
+      "bytes": 10699910,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/Localization/ja/game.json",
+      "sha256": "abc1e4203b3756eb19e00b65a8d813f3361a950578aca14449823e96ad9bcf48",
+      "bytes": 12587748,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/Localization/zh-CN/game.json",
+      "sha256": "b57df42c17ef801ca7f2bbbf99c3048d7a3c810d9a0acbf16b85360edf89205b",
+      "bytes": 10107397,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_AICharacterEffectFigure.json",
+      "sha256": "df9d8a369efe253ce3c96195b1de5b3577eb332647f47ad3405477d8c0d47fa9",
+      "bytes": 733,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_AdlerEffectFigure.json",
+      "sha256": "150ab1d10ffcb15e4285415286c2f28c43554c3cff4d0283552dd7160c1dc6e7",
+      "bytes": 9428,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_AkaneEffectFigure.json",
+      "sha256": "0101ab9125b447b41042f44b75b45c791080d24a2f3d09d7dd80d59819c2199e",
+      "bytes": 36308,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_BlackBirdEffectFigure.json",
+      "sha256": "be3006fb6a3392865d2fc5fa4d8afd231fbe98dd3b30a4d5c02153a89332bebe",
+      "bytes": 39863,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_CangEffectFigure.json",
+      "sha256": "cd085c98a0f7794de535ba3bf6c0483f803fec64defac2241802108684038738",
+      "bytes": 10931,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_ChaosEffectFigure.json",
+      "sha256": "a6dc661a2fa55c7e51b91f39876eee30a8149d36b84fe05db730261b90c75534",
+      "bytes": 22394,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_ChiichanEffectFigure.json",
+      "sha256": "443dccbac41cb659548d42a7013633428e7550402a6ee72d8b5ba7e7274daf87",
+      "bytes": 13182,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_DaffodillEffectFigure.json",
+      "sha256": "9f297b51c7d0cec23e14347ef4bb9cc097fb5ad547b5ccec40095fe4c3db8205",
+      "bytes": 7433,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_EdgarEffectFigure.json",
+      "sha256": "17419f4e78b092711c9d3bf5f63acc19f7747c3fbdb4ee518ac28fb9cfc3d21a",
+      "bytes": 12236,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_FadiaEffectFigure.json",
+      "sha256": "315ff2cd56fb1ea5ce7ac1d12c535c632dde814978b279d391cde58768083a14",
+      "bytes": 8831,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_Female051EffectFigure.json",
+      "sha256": "51dd85d8fbe135b3ed1dde779b71c718728030a04d8b043fba799cbbd9b1cb91",
+      "bytes": 5733,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_FemaleEffectFigure.json",
+      "sha256": "419bd36c5d486763f36b29935b3c5d802d5fcf7a9907a43229afa55d6de31d25",
+      "bytes": 2996,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_HanielEffectFigure.json",
+      "sha256": "9ea8d0121b58608eab54f586037c0b1d46510de68436e999315725512764f64c",
+      "bytes": 7621,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_HathorEffectFigure.json",
+      "sha256": "b169782cf6b22d667c0689263f8f81b287d8139fe89d5671bad373986934b2df",
+      "bytes": 8620,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_JinEffectFigure.json",
+      "sha256": "1f70a306cd5ddde970840d185f4df591268b2a5e7f2bb6fcc90768b785623c33",
+      "bytes": 7327,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_KuharaEffectFigure.json",
+      "sha256": "518fa643fc491d6325283fa60ed12a2424bdb9b0a29c88d9376c17034e766ad6",
+      "bytes": 6624,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_LacrimosaEffectFigure.json",
+      "sha256": "4c896952c6cd15255c9c6ad90209744e8981b44f76058ac7e4e82456c18d837f",
+      "bytes": 8566,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_LinkoEffectFigure.json",
+      "sha256": "f1dd868cfdee95a931cadccd614e31bc9c39895990029e55ed3b4414b039288a",
+      "bytes": 8606,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_MintEffectFigure.json",
+      "sha256": "4b75ff005e8764379eabf0d20df10d45a5b8b9aea89fb4013b17e81f660cb688",
+      "bytes": 6504,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_MitsukiEffectFigure.json",
+      "sha256": "7d2567fe41fd6ce8c56ad630809f66415e7f06110b98374249f9c7e0dc3f6b10",
+      "bytes": 6548,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_NanallyEffectFigure.json",
+      "sha256": "0ac5195d476d541934a00bdd4b704554070ee42c3359083383a88cdb81063b48",
+      "bytes": 6906,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_OneiroiEffectFigure.json",
+      "sha256": "d8f0b028627d65ae19b45f478b012eb19e418231ef7ba6a602fc399406bb4a1d",
+      "bytes": 25348,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_SagiriEffectFigure.json",
+      "sha256": "f3cc17cfda5fd05e9a32b5cb6b1038e297fb0ae66d75ed11b97d5265226f1b25",
+      "bytes": 7311,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_ShinkuEffectFigure.json",
+      "sha256": "e8bb8df8ec8ac1ea9650e9663eaacdc569653674a33106d74ad58e1a1027ae42",
+      "bytes": 14730,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_SkiaEffectFigure.json",
+      "sha256": "d3e25dfefdb089b1d98f96ad5b9ac657662209e39f8ee88b726848e42c4b9996",
+      "bytes": 9773,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Skill/GlobalCharacterData/DT_ZankouEffectFigure.json",
+      "sha256": "33f520de4b1e42d4a3110a490d33de2e2fd6a0ba3310154175c06fff2c79abd2",
+      "bytes": 15132,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/zero/",
+      "sha256": "8b674857e74bed5b3bcbcf76d71fea5d7e69b3ede9ed115dcc51c1f8d219f39a",
+      "bytes": 646275,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1051AwakenEffect.json",
+      "sha256": "aa33915f247606007cb78d288334a60aa5201c9d04202e6a36b8fef2b9b4a82d",
+      "bytes": 12049,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/hotori/",
+      "sha256": "3e3b726b35fbb77cd498b9d28590de20d137ce3882cd835a11684c4c0afd609e",
+      "bytes": 618416,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1052AwakenEffect.json",
+      "sha256": "5f9cbcd057cc530a5b18639ad21111c12ded450e901c19cf69f0ddbc77967b5c",
+      "bytes": 12292,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/jiuyuan/",
+      "sha256": "23ec91e4d9ad3e97118f2da3b23ba65ab59d86511ed25380b8b28eeb96f3d454",
+      "bytes": 619655,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1055AwakenEffect.json",
+      "sha256": "def28afa6c30b98157909c125da529a1e5761b00683dd12a7810718450e74128",
+      "bytes": 13305,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/lacrimosa/",
+      "sha256": "0892a89fe5e27265434836967af898c4b9141baa3ce56f9bcf64d52271ec6bbb",
+      "bytes": 658874,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1004AwakenEffect.json",
+      "sha256": "a0da228c99bc92e5f4406d394a82d6b095d4dd9fa428ae2cf6b471a26bf05830",
+      "bytes": 14337,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/mint/",
+      "sha256": "faf19f380234e4d9634d458b2cf0b8240f4b626c47a2f088ed7ffe44e88505f3",
+      "bytes": 614136,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1019AwakenEffect1.json",
+      "sha256": "9ba1e818f5f165af19908d1f7a906a747da290bd1daccedae58a26895cb8b51d",
+      "bytes": 12037,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/nanally/",
+      "sha256": "c998dd5e8f0c0e639b1167433636337fbc62f3bc49663107a2a1b18c4f619b11",
+      "bytes": 657896,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1010AwakenEffect.json",
+      "sha256": "9ba11fd24e676f140310b81ed8b0fec322eb1edab1d50916cd3ae82e6f86af35",
+      "bytes": 12874,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/sakiri/",
+      "sha256": "ec9743bb953e8b8cec0648819d3cc94f79c8f4880c9a7a5c09034f929ad8e954",
+      "bytes": 669255,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1003AwakenEffect.json",
+      "sha256": "54f33dc895bd76421c37d64c136970d035c1ee3bf76594fdda5dc2e687d5ac20",
+      "bytes": 12860,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/skia/",
+      "sha256": "e69693871fed7511803854c8d7bccbc86ae475f9d9ccee64a8cbf4170910df34",
+      "bytes": 623456,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1008AwakenEffect.json",
+      "sha256": "7b9141af82bd66805a66c6efa92ca8e578d39e126d0cfa306b9d3ffea7700ee1",
+      "bytes": 13459,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/aurelia/",
+      "sha256": "9eba324f76d9e6c41044dc0926ffea6c6183d8313e7e65cfc3c59ccef15a6123",
+      "bytes": 598412,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1070AwakenEffect.json",
+      "sha256": "bb92ece5c33b5ffb6b19981743c98438fdaae19dfefecb25263daf67f1175516",
+      "bytes": 12986,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/chaos/",
+      "sha256": "e5dc933a5521699b233796130b0a222cdc545b5d589a7c2f54531d7100bf3a70",
+      "bytes": 624085,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1071AwakenEffect.json",
+      "sha256": "055ec36cfae6e1100e7da1cf2f758c69d91100bc057b097614ad87c39fdbf8d3",
+      "bytes": 12832,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/shinku/",
+      "sha256": "796f088fb0f1fbe37ff9a0c818d62286610406eaf9c181987e67091ec008ac49",
+      "bytes": 662331,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1076AwakenEffect.json",
+      "sha256": "e8651b45f724764ea32793c4929ff34aeeebbf82a06b43550caf318986a6cf44",
+      "bytes": 13990,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/adler/",
+      "sha256": "eead2be2b9721ddfe7222c316d2af4d77bd496d32bc4798735bbdd413e6e985e",
+      "bytes": 604307,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1033AwakenEffect.json",
+      "sha256": "64f1dbe132b9f4c81f0e0115ef349b476afdef73bf585a32da65573c0a829217",
+      "bytes": 11424,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/iroi/",
+      "sha256": "064ed2ec12bed97a0332cff0d381e4d477f5cd17c9583e6373d5dcbf8746b7ee",
+      "bytes": 662031,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1075AwakenEffect.json",
+      "sha256": "cda8f776be2d5c82352409801d02c5f75823fb2113de1796db6a0a64e153e28a",
+      "bytes": 13722,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/zankou/",
+      "sha256": "6d350f04c79156fc58da833253f72db5a1d8e84b907342b74e1f7dd1b01aac88",
+      "bytes": 669913,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1036AwakenEffect.json",
+      "sha256": "b4cd3266e64af6a1ca38a907b05824f4667283b32d883e03beb2961fcff66b6a",
+      "bytes": 16978,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/linko/",
+      "sha256": "b4c2877eb7094cf9ea701a138c2c10a67513423ec11259426c36abdfcf3f1a1e",
+      "bytes": 631908,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1072AwakenEffect.json",
+      "sha256": "4b3ad027f33dc36c08049ab4bc9f9fef557b02727d82656a8ac0bbc1437017cf",
+      "bytes": 13915,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/blackbird/",
+      "sha256": "666f83fa2a3315bf51a36bdb91124b31d41f265cf763ed8dad2e9c6a41e736be",
+      "bytes": 672680,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1042AwakenEffect.json",
+      "sha256": "d630cf581dc40a22382b6f7b170f80ee6bf574cde78763afd94288d05c01b875",
+      "bytes": 14910,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/akane/",
+      "sha256": "bfc8803b2b50e832564aad1898681392e26735578e3f5d8b8d61aa29656fdc0e",
+      "bytes": 623767,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1057AwakenEffect.json",
+      "sha256": "1ca2f2d4a4221fb45d6097bf6df3807a61b9e12e921d1f2e51909ede1cf98ddf",
+      "bytes": 14356,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/baicang/",
+      "sha256": "67099ed3fac39e95855fdffd77d99a37a65405033e87e7588f98e3fa265dd854",
+      "bytes": 630628,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1023AwakenEffect.json",
+      "sha256": "7a42f5b31ae20c83897573b3447aef86c0546ea411117a48e9e1a1da3b8f7722",
+      "bytes": 12190,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/chiz/",
+      "sha256": "b69d207ca183b3f7d202d9db3338eb8413172c9b22c8ef3b1432790a5c298aeb",
+      "bytes": 618368,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1073AwakenEffect.json",
+      "sha256": "4f73696612f8ce98a750bc04aff4c68fd3812236d3410b15e3c0867cc5c2c319",
+      "bytes": 11560,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/daffodill/",
+      "sha256": "2c6f6f504411ac751f22b21ae1252b6c31d85010871ac1f6580116cc4ac59cae",
+      "bytes": 635423,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1054AwakenEffect.json",
+      "sha256": "07a3f5f39a0fd7002400c1475675298b4c5952367b970faa5b9e44114c657c89",
+      "bytes": 13006,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/edgar/",
+      "sha256": "639a9c533aa45a37c65763e9a00b36166199510c40d4a2b1217d29dd0f924509",
+      "bytes": 601459,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1021AwakenEffect.json",
+      "sha256": "1b2a46b668dcbb9d6c9a621a095c98ec74bf0341e26d377c26a95b7325bf75fb",
+      "bytes": 11993,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/fadia/",
+      "sha256": "a594108699a6a132a03ba875dc94f63b0303a656d114b38cc1dd38c8be62f854",
+      "bytes": 623600,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1039AwakenEffect.json",
+      "sha256": "6445d63e630b77205746b286e37dc78c435d5f164a80b3b253935300ea5c18f2",
+      "bytes": 13226,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/haniel/",
+      "sha256": "9f516c67c168ee88524c76cbfc460e5dd1857028a820f72f53f66d360017a894",
+      "bytes": 648674,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1020AwakenEffect.json",
+      "sha256": "06b6572720b9897812b2d1212bc14e8fc1a73ce4cc91f0a6eea5a399f4b2f530",
+      "bytes": 12157,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://www.kaiden.gg/nte/characters/hathor/",
+      "sha256": "094f25092256217d9d15eb56787dec392723fcf18eda210b7e6154d8bea2c631",
+      "bytes": 646274,
+      "mode": "offline-replay"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Waifus-Grace/NTE_Assets/cef09a29d4d92c7b1e0b950d89ba8c75b1c529e7/DataTable/Character/Awaken/1025AwakenEffect.json",
+      "sha256": "0f69bcf23a8d2c65c1a4d76ed5af5e8505f36f253c17da5b4078a4234c075582",
+      "bytes": 12736,
+      "mode": "offline-replay"
+    }
+  ],
+  "providerDiscrepancy": "Neverness Adler80 8638/272/600; Kaiden13122/382/912. Primary base/growth/stage composition not asserted. Retained Kaiden explicit-provider level table; raw client critical and energy fields have their own basis."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wuwa-verse1",
+  "gameId": "wuwa",
+  "name": "WuWa Universe",
+  "handle": "WuWa_Verse1",
+  "accountId": "1794837038853734401",
+  "profileUrl": "https://x.com/WuWa_Verse1",
+  "sourceKind": "community",
+  "coverage": "curated-post refresh plus exact links discovered in independently readable source documents; not complete profile monitoring",
+  "postIds": [
+    "2114039529564713238",
+    "2113963023681388685",
+    "2113585909702561922",
+    "2113426381988077758",
+    "2113331118552338586",
+    "2113303921909211432",
+    "2113302894443118757",
+    "2113322228502938106",
+    "2113361612589740499",
+    "2113299515780563278",
+    "2113296132361056594",
+    "2113295508735217730"
+  ],
+  "leakVersion": "3.8",
+  "profileAccess": {
+    "status": "blocked",
+    "httpStatus": 403
+  },
+  "metadataMechanism": "credentialless X public oEmbed and public embed syndication JSON; deterministic ID checksum, no auth/guest/session token",
+  "mechanismReferences": [
+    "https://github.com/vercel/react-tweet/blob/main/packages/react-tweet/src/api/fetch-tweet.ts",
+    "https://help.x.com/en/using-x/embed-x-feed",
+    "https://create.twitter.com/en/products/embedded-tweets"
+  ],
+  "languageOverrides": {
+    "2113296132361056594": "en",
+    "2113295508735217730": "en"
+  },
+  "languageOverrideBasis": "The actual English post text was read; public embed short-text language metadata incorrectly reported tl/in for these two exact posts."
+}
