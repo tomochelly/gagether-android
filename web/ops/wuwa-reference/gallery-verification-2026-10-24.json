@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-24T06:40:06.774249+00:00",
+  "site": "https://gagether.wiki/ko/games/wuwa?tab=characters",
+  "siteVersion": 131,
+  "sourceCommit": "0ceff4d1f7a9db47fd04f9ba7b272217672f8aee",
+  "githubCodeCommit": "13555fb4e9f027879f82dab8688637c356708c4c",
+  "deployment": "appgdep_6adc51266bbc819184337d2b58bc9ed1",
+  "deploymentStatus": "succeeded",
+  "runtimeSourceFingerprint": "6b79a03e925bf771e861f1d3a622628d01bf194387c00cec5838b5f16c727cb2",
+  "sourceManifestMatchesProduction": true,
+  "checks": {
+    "nodeTestsPassed": 355,
+    "nodeTestsFailed": 0,
+    "typecheck": "passed",
+    "ownerEditorSQLiteValidation": "passed",
+    "currentWorkerAPIRoutes": 35,
+    "githubWebCI": "https://github.com/tomochelly/gagether-android/actions/runs/40070733314",
+    "githubAndroidCI": "https://github.com/tomochelly/gagether-android/actions/runs/40070733284",
+    "githubSourceDriftCI": "https://github.com/tomochelly/gagether-android/actions/runs/40070733248",
+    "allThreeCI": "success"
+  },
+  "artwork": {
+    "declaredURLsChecked": 58,
+    "successfulOriginals": 54,
+    "nativeDimensions": [
+      696,
+      960
+    ],
+    "checkedSourceIds": 60,
+    "formsWithOriginals": 56,
+    "HTTP404SourceIds": [
+      1505,
+      1110,
+      1610,
+      1106
+    ],
+    "fallback": "same-character existing portrait",
+    "originalsResizedOrReencoded": false
+  },
+  "automaticCollection": {
+    "endpoint": "/api/wuwa/library",
+    "action": "refresh",
+    "phases": 10,
+    "result": "ok",
+    "completedAt": "2026-10-24T06:33:58.911Z",
+    "storedForms": 60,
+    "sourcePortraits": 64,
+    "artworkFieldsBefore": 0,
+    "artworkFieldsAfter": 64,
+    "baseStatsPreserved": true,
+    "snapshotHash": "2c4abe1e2142d85178454bce7aa77045c24eda8d5f917272cb5829d1c18a19a8",
+    "existingSixHourScheduledPath": "preserved, same normalizer; no new automation"
+  },
+  "browser": {
+    "productionHTTPS": "verified",
+    "lightAndDark": "verified",
+    "koEnJaZh": "verified",
+    "rarityDescending": "verified60cards5starthen4star",
+    "noHorizontalOverflow": true,
+    "imageFrameCorrection": "native image190px displayed inside190px frame; contain fit",
+    "originalNativeSize": [
+      696,
+      960
+    ],
+    "statBasisAndPercentUnits": "verified",
+    "screenshot": "gagether-character-stats-verified.jpg"
+  },
+  "limits": [
+    "Four provider-declared artwork URLs return404; exact existing portraits remain.",
+    "Actual phone hardware was not used; responsive CSS and mounted navigation/native-pixel behavior are tested.",
+    "Managed HTTP preview hit the pre-existing usage-tracker secure-context crypto.randomUUID requirement. Production HTTPS browser verification succeeded.",
+    "HTTP/dimension/hash checks do not claim every artwork was manually visually reviewed."
+  ]
+}
