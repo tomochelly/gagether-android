@@ -41,7 +41,7 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   for(const e of before.entries)for(const u of Object.values(e.localizationSources||{}))if(u)known.add(normalize(u));
   const noticed:Entry[]=[];const nativeChanges:Entry[]=[];const changedNotices:{notice:import("./fast-notices").FastNotice;checkedAt:string}[]=[];const changedNeedsReview:string[]=[];
   // Korean official sources are queried before the existing localized/regional feeds.
-  const koreanChecks=await pool(koreanFastSources,async source=>{
+  const koreanChecks=await pool(koreanFastSources.slice(p.cursor||0,(p.cursor||0)+3),async source=>{
    const at=new Date().toISOString();
    try{
     const rows=await source.load(((url,init)=>retryFetch(typeof url==='string'?url:url instanceof URL?url.href:url.url,init)) as typeof fetch);if(!rows.length)throw Error('HTTP 200 without readable official notices');
@@ -65,10 +65,11 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   for(const {notice,checkedAt} of changedNotices)await captureDocument(notice,undefined,checkedAt);
   const noticeReadback=await readData({automatic:true,collection:true});
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');
-  return {...p,stage:'feeds',koreanChecks,noticedCount:noticed.length,changedNeedsReview};
+  const cursor=(p.cursor||0)+3;
+  return {...p,stage:cursor>=koreanFastSources.length?'feeds':'korean',cursor:cursor>=koreanFastSources.length?0:cursor,koreanChecks:[...(p.koreanChecks||[]),...koreanChecks],noticedCount:(p.noticedCount||0)+noticed.length,changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
  }
  if(p.stage==='feeds')return {...p,stage:'regional',feeds:await refreshFeeds()};
- if(p.stage==='regional')return {...p,stage:'channels',regional:await collectRegionalNotices(),cursor:0};
+ if(p.stage==='regional'){const batch=await collectRegionalNotices(p.cursor||0,3),done=batch.nextOffset>=batch.total;return {...p,stage:done?'channels':'regional',cursor:done?0:batch.nextOffset,regional:{checks:[...(p.regional?.checks||[]),...batch.checks],added:(p.regional?.added||0)+batch.added,metadataChanged:[...(p.regional?.metadataChanged||[]),...batch.metadataChanged]}};}
  if(p.stage==='channels'){
   const current=await readData({automatic:true,collection:true});
   const channels=new Map<string,{gameId:string;locale:Locale;region:Region}>();

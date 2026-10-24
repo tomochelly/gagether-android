@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "4d2ab5bd26f8d3f31f92b887048261b3254eba1554020e8a0a88679869e6324e",
+  "fingerprint": "29b2a3010cb5f6626d9ee2280114fa5ca5286615225cec412ca52c9f7626fbfe",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -120,7 +120,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "e40d4aff7beee4107481de7e2c9ad16f2ac8c92a3e9d13d8a1e496ebf169eee7"
+      "sha256": "5b07301674dd3f79a9ec7b25d7212d821ceaae8d753b2d3b730c557135ab2e13"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -1312,7 +1312,7 @@
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "5480bc8e74b013260cdd561b44d1a639a17b25f4153a4c3b4e31ffac5bd0ec82"
+      "sha256": "497f6f04f7deee01a84df7fe84fd929cd35908d448b341474e63d279cce39ad9"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",
@@ -1436,7 +1436,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "a6142983882e6c7c1a4b65c6124999b97999851cf8ef8a5087b41102ecc513c7"
+      "sha256": "dc26e4bda9f07c5d109e0aac1728a73177891aea958f9a345384fc09876d764f"
     },
     {
       "path": "lib/official-social-store.ts",

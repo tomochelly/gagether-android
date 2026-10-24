@@ -24,10 +24,11 @@ export async function fetchReviewDocument(n:FastNotice){
   return await captureDocument(n,body,checkedAt);
  }catch(error){return await captureDocument(n,undefined,checkedAt,error instanceof Error?error.message:'Source unavailable');}
 }
-export async function collectRegionalNotices(){
+export async function collectRegionalNotices(start=0,limit=regionalOfficialSources.length){
+ const selected=regionalOfficialSources.slice(start,start+limit);
  const before=await readData({automatic:true,collection:true}),known=new Set(before.entries.map(e=>e.sourceUrl));
  const notices:RegionalNotice[]=[],inspected:{notice:RegionalNotice;checkedAt:string}[]=[],checks:any[]=[];
- for(let offset=0;offset<regionalOfficialSources.length;offset+=3)await Promise.all(regionalOfficialSources.slice(offset,offset+3).map(async source=>{
+ for(let offset=0;offset<selected.length;offset+=3)await Promise.all(selected.slice(offset,offset+3).map(async source=>{
   const checkedAt=new Date().toISOString();try{
    const rows=await source.load(fetcher);if(!rows.length)throw Error('HTTP 200 without readable official notices');
    const fresh=rows.filter(n=>!known.has(n.url));for(const n of fresh){known.add(n.url);notices.push(n);}
@@ -43,7 +44,7 @@ export async function collectRegionalNotices(){
  const metadataChanged=metadataCandidates.map(e=>{const full=originals.find(o=>o.id===e.id);if(!full)throw Error('Original regional notice unavailable');return completeNoticeMetadata(full,e);});
  if(metadataChanged.length){await saveEntries(metadataChanged);const check=await readData({automatic:true,collection:true});if(metadataChanged.some(e=>!check.entries.some(x=>x.id===e.id&&x.sourceTitle===e.sourceTitle&&x.publishedAt===e.publishedAt)))throw Error('Regional metadata readback failed');}
  for(const {notice,checkedAt} of inspected)await captureDocument(notice,notice.bodyHtml,checkedAt);
- return {checks,added:notices.length,metadataChanged:metadataChanged.map(e=>e.id)};
+ return {checks,added:notices.length,metadataChanged:metadataChanged.map(e=>e.id),nextOffset:start+selected.length,total:regionalOfficialSources.length};
 }
 export async function collectPendingDocuments(){
  const data=await readData({automatic:true,collection:true}),queue=await reviewQueue(5000),previous=new Map(queue.map(d=>[d.url,d]));
