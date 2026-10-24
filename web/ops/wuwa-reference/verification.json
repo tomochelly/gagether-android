@@ -1,0 +1,95 @@
+{
+  "recordedAt": "2026-10-24T03:16:31.556660+00:00",
+  "feature": "WuWa reference only",
+  "runtimeSourceFingerprint": "e1b42b7cca84d40c1645b7e8f3dd0bf6feb1db8e6d2b9a2cecbc304c3e9eb58c",
+  "firstDeploymentVersion": 124,
+  "firstDeploymentSource": "542d241c1cb59746fa91f24718520cdf6b7c55f4",
+  "production": {
+    "delivery": "snapshot",
+    "snapshotHash": "dce6c40e232818f1283bc5e9c6953fc1d83d734a7e757928399a2151b807ea32",
+    "sourceVersion": "3.7.8",
+    "characterForms": 60,
+    "sourceIDs": 64,
+    "debutDates": 38,
+    "cycles": [
+      {
+        "id": "tower-of-adversity:41",
+        "floors": 12
+      },
+      {
+        "id": "tower-of-adversity:42",
+        "floors": 12
+      },
+      {
+        "id": "whimpering-wastes:22",
+        "floors": 12
+      },
+      {
+        "id": "whimpering-wastes:23",
+        "floors": 12
+      },
+      {
+        "id": "endstate-matrix:8",
+        "floors": 2
+      },
+      {
+        "id": "tower-of-adversity:40",
+        "floors": 12
+      },
+      {
+        "id": "whimpering-wastes:21",
+        "floors": 12
+      },
+      {
+        "id": "endstate-matrix:7",
+        "floors": 2
+      }
+    ],
+    "collectorSteps": 10,
+    "allStepsSucceeded": true,
+    "finalDone": true,
+    "scheduledPipelineReferenceCheck": [
+      {
+        "done": true,
+        "skipped": true,
+        "status": "ok",
+        "source": "wuwa/global/reference",
+        "checkedAt": "2026-10-24T03:15:15.393Z"
+      }
+    ],
+    "entriesBefore": 2100,
+    "entriesAfter": 2100,
+    "entryIDsAddedOrRemoved": 0,
+    "ownerRevisionMarkersChanged": 0,
+    "siteSettingsUnchanged": true,
+    "concurrentOrdinaryRefresh": "22 automatic entries changed through the ordinary collector (broadcast/sourceBodies/summary/rewards/verifiedAt); reference writes use only its own operations_health namespace."
+  },
+  "verification": {
+    "nodeTests": 338,
+    "nodeFailures": 0,
+    "editorSQLite": "passed",
+    "pythonTests": 6,
+    "typescript": "passed",
+    "imageUrlsChecked": 843,
+    "imageHTTP200": 843,
+    "visualPortraitForms": 60,
+    "visualEnemyIcons": 82,
+    "productionBrowser": [
+      "KO character search and selected detail",
+      "JA native names",
+      "ZH native names",
+      "EN native names",
+      "current ToA41 12 floors/27 enemies",
+      "future ToA42 separate",
+      "visible enemy icons loaded",
+      "no horizontal document overflow at desktop viewport"
+    ],
+    "previewLimit": "Managed preview could not start because a pre-existing managed dev server held the slot. Hydrated JSDOM and real production browser were used. Physical-phone gesture/viewport testing was not performed."
+  },
+  "limits": [
+    "No numeric usage, ownership or team aggregate is imported. EOD remains an external source with submission-sample scope.",
+    "38/60 debut dates; conflicting or missing dates remain absent.",
+    "Matrix cycle dates absent upstream: archive occurrences only.",
+    "Portraits and enemy art visually inspected; HTTP checks for843 URLs are reachability checks, not a claim of manual visual inspection of every skill icon."
+  ]
+}
