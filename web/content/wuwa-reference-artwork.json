@@ -1,0 +1,336 @@
+{
+  "source": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/Data/Characters.json",
+  "checkedAt": "2026-10-24T06:17:58.053056+00:00",
+  "entries": {
+    "1403": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qiushui_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1210": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Aimisi_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1306": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_aogusita_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1103": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_bailian_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1206": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Bulante_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1307": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Buling_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1301": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kakaluo_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1603": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_chun_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1607": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kanteleila_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1107": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kelaita_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1409": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_katixiya_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1205": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_changli_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1508": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qianxiao_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1202": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_maxiaofang_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1407": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiakong_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1602": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_micai_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1211": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_daniya_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1203": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_anke_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1208": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiabeilina_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1108": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_FeiXue_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1311": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xin_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1410": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1405": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiexin_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1212": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jingran_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1304": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jinxi_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1404": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiyan_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1104": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lingyang_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1109": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luosela_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1511": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luxi_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1504": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_dengdeng_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1207": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1510": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luhesi_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1509": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Linnai_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1209": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1204": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_baer_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1506": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1608": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1413": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qingxiao_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1411": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1308": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_LiBeiKa_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1606": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1408": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1310": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1604": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1502": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1406": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1309": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1605": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1501": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1102": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shanhua_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1412": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xigelika_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1312": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_SuoMing_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1601": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_taohua_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1503": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jueyuan_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1305": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiangliyao_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1402": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yangyang_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1302": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yinlin_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1303": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yuanwu_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1507": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zanni_UI.webp",
+      "width": 696,
+      "height": 960
+    },
+    "1105": {
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhezhi_UI.webp",
+      "width": 696,
+      "height": 960
+    }
+  },
+  "unavailable": [
+    {
+      "sourceIds": [
+        1505
+      ],
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp",
+      "status": 404
+    },
+    {
+      "sourceIds": [
+        1110
+      ],
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Suisui_UI.webp",
+      "status": 404
+    },
+    {
+      "sourceIds": [
+        1610
+      ],
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xuanling_UI.webp",
+      "status": 404
+    },
+    {
+      "sourceIds": [
+        1106
+      ],
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_youhu_UI.webp",
+      "status": 404
+    }
+  ]
+}

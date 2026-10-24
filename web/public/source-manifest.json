@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "7cc7f51b908ac3ea594caddb373ef20f81570b99872fcfbf0971fd8cec52482e",
+  "fingerprint": "9d3111d9c7322614bc78842453071ecf4992226c516ec7ef1e686d384ad7d46d",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -292,7 +292,7 @@
     },
     {
       "path": "app/practical-details.css",
-      "sha256": "895a61a6366eed5a55e3804bdb8cfa2d7a94da62e0d80e7eea41f734ce045864"
+      "sha256": "668bd02da49e1e56fc05077c45bf94528bebcc1bd1b034139bf3a7bb41670ae1"
     },
     {
       "path": "app/refinement.css",
@@ -336,7 +336,7 @@
     },
     {
       "path": "app/wuwa-reference.css",
-      "sha256": "ff91859b1c709e61a64390fcf8a24df388e8e20e13605eaece1803955c9c3d29"
+      "sha256": "c2c861151a7fe15c067beb35279e111cfc9faf4ae75b68d719ec70dfc4fb4c4a"
     },
     {
       "path": "build/connector-preview-plugin.mjs",
@@ -896,7 +896,7 @@
     },
     {
       "path": "components/wuwa-reference.tsx",
-      "sha256": "e0df30219385f04047b444c7864741b97943129410e20c253d8fb1d5a6b126b5"
+      "sha256": "92abd201926259ee03721955e36d0a433c452846aa1637c5abc9cad9c4d7a9ed"
     },
     {
       "path": "content/additional-game-assets.json",
@@ -1077,6 +1077,10 @@
     {
       "path": "content/wuwa-material-provenance.json",
       "sha256": "3636eb3ce418931a770f3f2c6ee28ef8cbd700b4c7cfbb82f81e00a5caaba0e0"
+    },
+    {
+      "path": "content/wuwa-reference-artwork.json",
+      "sha256": "82b9ea04f8fa0eceec47955302ebb86e713562918911232693a97984fdfff47b"
     },
     {
       "path": "content/wuwa-reference.json",
@@ -1735,8 +1739,12 @@
       "sha256": "0d3acaef2aa1e49341d42079f56616c9cbb3fd031617c8f8000f1339d05c4fa3"
     },
     {
+      "path": "lib/wuwa-reference-view.ts",
+      "sha256": "f4d0e139dca7c307d0790332c15d2583f9ca58e22ab1974fd43f714ab42cfa32"
+    },
+    {
       "path": "lib/wuwa-reference.ts",
-      "sha256": "6d5ab7f79a155e53d9ca2d36d9dc0a920371439a10a51c333a1066fdf2f3589c"
+      "sha256": "4afb7258f2a7d09b6a9ce2c5e63dffbbbfa7c3d03a13c070477aaa30c2856f28"
     },
     {
       "path": "lib/wuwa-weapon-store.ts",

@@ -2,7 +2,7 @@ import type {Locale,Localized} from './types';
 
 export type WuwaReferencePart='characters'|'combat'|'statistics';
 export type WuwaIconFact={id:number;name:Localized;icon?:string};
-export type WuwaCharacter={id:string;sourceIds:number[];name:Localized;rarity:number;element:WuwaIconFact;weapon:WuwaIconFact;portraits:{id:number;icon?:string}[];tags:{name:Localized;icon?:string}[];stats:{hp:number;atk:number;def:number;crit:number;critDamage:number};skills:{id:number;type:number;name:Localized;icon?:string;values:{name:Localized;levels:string[]}[]}[];chains:{id:number;name:Localized;icon?:string}[];debut?:{date:string;sourceUrl:string;sourceKind:'official'|'community'};sourceUrl:string};
+export type WuwaCharacter={id:string;sourceIds:number[];name:Localized;rarity:number;element:WuwaIconFact;weapon:WuwaIconFact;portraits:{id:number;icon?:string;artwork?:string}[];tags:{name:Localized;icon?:string}[];stats:{hp:number;atk:number;def:number;crit:number;critDamage:number};skills:{id:number;type:number;name:Localized;icon?:string;values:{name:Localized;levels:string[]}[]}[];chains:{id:number;name:Localized;icon?:string}[];debut?:{date:string;sourceUrl:string;sourceKind:'official'|'community'};sourceUrl:string};
 export type WuwaEnemy={id:string;name:Localized;icon?:string;elements:number[];level?:number;count?:number;wave?:number;resistanceTags?:Localized[]};
 export type WuwaFloor={id:string;area:number;floor:number;name:Localized;recommendedElements:number[];enemies:WuwaEnemy[];buffs:{name:Localized;text:Localized;icon?:string}[]};
 export type WuwaCombatCycle={id:string;modeId:string;name:Localized;startDate:string|null;endDate:string|null;conditions?:Localized;floors:WuwaFloor[];sourceUrl:string};
@@ -27,7 +27,7 @@ export function normalizeWuwaCharacters(rows:any[],releases:any[],disabled:numbe
   if(!Number.isInteger(row.id)||seen.has(row.id)||![4,5].includes(row.rarity?.id))throw Error('Invalid or duplicate resonator ID');seen.add(row.id);if(disabled.includes(row.id))continue;
   const name=wuwaText(row.name);if(Object.values(name).some(v=>!v||/^\d+$/.test(v)))throw Error('Missing native character name');
   const id=rovers.get(row.id)||String(row.id),prior=output.get(id);
-  if(prior){prior.sourceIds.push(row.id);prior.portraits.push({id:row.id,icon:wuwaBuildAsset(row.icon?.iconRound)});continue;}
+  if(prior){prior.sourceIds.push(row.id);prior.portraits.push({id:row.id,icon:wuwaBuildAsset(row.icon?.iconRound),artwork:wuwaBuildAsset(row.icon?.banner)});continue;}
   const releaseName=rovers.has(row.id)?'Rover-'+row.element.name.en:row.name.en;
   const release=releases.find(r=>r.nameEn===releaseName),date=release?.date;
   const element={id:row.element.id,name:wuwaText(row.element.name),icon:wuwaBuildAsset(row.element.icon?.['1'])};
@@ -35,7 +35,7 @@ export function normalizeWuwaCharacters(rows:any[],releases:any[],disabled:numbe
   const stats={hp:Number(row.stats?.life),atk:Number(row.stats?.atk),def:Number(row.stats?.def),crit:Number(row.stats?.crit),critDamage:Number(row.stats?.critDamage)};
   if(Object.values(stats).some(v=>!Number.isFinite(v)||v<0))throw Error('Invalid level-one base stats');
   const sourceUrl='https://wuwa.build/characters/'+row.id;
-  output.set(id,{id,sourceIds:[row.id],name,rarity:row.rarity.id,element,weapon:{id:row.weapon.id,name:wuwaText(row.weapon.name),icon:wuwaBuildAsset(row.weapon.icon)},portraits:[{id:row.id,icon:wuwaBuildAsset(row.icon?.iconRound)}],tags:(row.tags||[]).map((t:any)=>({name:wuwaText(t.name),icon:wuwaBuildAsset(t.icon)})),stats,skills:(row.moves||[]).map((m:any)=>({id:m.id,type:m.type,name:wuwaText(m.name),icon:wuwaBuildAsset(row.skillIcons?.[({1:'normal-attack',2:'skill',3:'liberation',4:'intro',5:'circuit',6:'outro'} as Record<number,string>)[m.type]]),values:(m.values||[]).map((v:any)=>({name:wuwaText(v.name),levels:(v.values||[]).map((x:unknown)=>plainText(x,150))}))})),chains:(row.chains||[]).map((c:any)=>({id:c.id,name:wuwaText(c.name),icon:wuwaBuildAsset(c.icon)})),...(typeof date==='string'&&/^\d{4}-\d\d-\d\d$/.test(date)?{debut:{date,sourceUrl:release.sourceUrl,sourceKind:release.sourceKind==='official'?'official' as const:'community' as const}}:{}),sourceUrl});
+  output.set(id,{id,sourceIds:[row.id],name,rarity:row.rarity.id,element,weapon:{id:row.weapon.id,name:wuwaText(row.weapon.name),icon:wuwaBuildAsset(row.weapon.icon)},portraits:[{id:row.id,icon:wuwaBuildAsset(row.icon?.iconRound),artwork:wuwaBuildAsset(row.icon?.banner)}],tags:(row.tags||[]).map((t:any)=>({name:wuwaText(t.name),icon:wuwaBuildAsset(t.icon)})),stats,skills:(row.moves||[]).map((m:any)=>({id:m.id,type:m.type,name:wuwaText(m.name),icon:wuwaBuildAsset(row.skillIcons?.[({1:'normal-attack',2:'skill',3:'liberation',4:'intro',5:'circuit',6:'outro'} as Record<number,string>)[m.type]]),values:(m.values||[]).map((v:any)=>({name:wuwaText(v.name),levels:(v.values||[]).map((x:unknown)=>plainText(x,150))}))})),chains:(row.chains||[]).map((c:any)=>({id:c.id,name:wuwaText(c.name),icon:wuwaBuildAsset(c.icon)})),...(typeof date==='string'&&/^\d{4}-\d\d-\d\d$/.test(date)?{debut:{date,sourceUrl:release.sourceUrl,sourceKind:release.sourceKind==='official'?'official' as const:'community' as const}}:{}),sourceUrl});
  }
  return [...output.values()].sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
 }

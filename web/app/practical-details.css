@@ -22,3 +22,10 @@
 :root[data-theme=light] .trait-icon .native-game-icon[src*="/status/wiki-"],:root[data-theme=light] .trait-icon .native-game-icon[src^="/assets/status/gfl2-"][src$=".svg"]{filter:none}
 
 :root[data-theme=light] .trait-icon .native-game-icon[src$="/hsr-fire.webp"],:root[data-theme=light] .trait-icon .native-game-icon[src$="/zzz-fire.webp"]{filter:none}
+
+/* One readable stat hierarchy across pickup details and the character library. */
+.entity-stat-grid>div{align-items:center;gap:12px;background:color-mix(in srgb,var(--text) 2%,var(--panel))!important;padding:16px!important;border-radius:11px}
+.entity-stat-grid .stat-icon{width:34px;height:34px;background:transparent;border-radius:0}.entity-stat-grid .stat-icon .native-game-icon{width:28px;height:28px}
+.entity-stat-grid dt{font-size:.72rem;line-height:1.5;font-weight:500}.entity-stat-grid dd{font-size:1.3rem!important;line-height:1.35!important;letter-spacing:-.015em;margin-top:5px!important}.entity-stat-grid small{margin-top:6px;line-height:1.65}
+.entity-skill .entity-stat-grid>div{align-items:flex-start}.entity-skill .entity-stat-grid dd{font-size:.94rem!important;line-height:1.65!important;letter-spacing:0}
+@media(max-width:720px){.entity-stat-grid>div{padding:13px!important;gap:9px}.entity-stat-grid dd{font-size:1.15rem!important}.entity-stat-grid .stat-icon{width:27px;height:27px}.entity-stat-grid .stat-icon .native-game-icon{width:24px;height:24px}.entity-stat-grid dt{font-size:.68rem}}

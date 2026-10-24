@@ -1,0 +1,719 @@
+{
+  "checkedAt": "2026-10-24T06:17:58.053056+00:00",
+  "source": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/Data/Characters.json",
+  "declaredRows": 64,
+  "distinctOriginals": 58,
+  "maxConcurrent": 4,
+  "maxImageBytes": 3145728,
+  "stoppedOnBlock": false,
+  "results": [
+    {
+      "sourceIds": [
+        1403
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qiushui_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qiushui_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 209108,
+      "sha256": "4adbb3b6f44b0155cdaea30dc3c39e0ef848bec8dc818ea658345a6d72a8f228"
+    },
+    {
+      "sourceIds": [
+        1210
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Aimisi_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Aimisi_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 301116,
+      "sha256": "43d1e3357132da4c2e3a4fa854a0ce54a2f6dd029eaaeddb06f527d04808874c"
+    },
+    {
+      "sourceIds": [
+        1306
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_aogusita_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_aogusita_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 392378,
+      "sha256": "6d62674a8a960f37586fdf6b5f038148d170ce6757c0e0603d258d1ce886f8b5"
+    },
+    {
+      "sourceIds": [
+        1103
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_bailian_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_bailian_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 188018,
+      "sha256": "a50ab03f5cbf1bf4a6513a4115bddad7fb34175636442049fb4f072a68f8a64d"
+    },
+    {
+      "sourceIds": [
+        1206
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Bulante_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Bulante_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 315296,
+      "sha256": "99ab542c23d62b26a35edefe292c4731be11368b58f6eef8db3a3f90a077c085"
+    },
+    {
+      "sourceIds": [
+        1307
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Buling_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Buling_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 228506,
+      "sha256": "bffd35bf1f72ddf8963a7e76605b8d9523d0e313c16788770048c1be0b705762"
+    },
+    {
+      "sourceIds": [
+        1301
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kakaluo_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kakaluo_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 218120,
+      "sha256": "aff0d5580769b9383553bf0683aa54976c4d76e159afac29db8c90e1ba8279c4"
+    },
+    {
+      "sourceIds": [
+        1603
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_chun_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_chun_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 240000,
+      "sha256": "bb17176ec42a43c8b1b4dfeb8ea13de78513ba748d25831da308e62c70e409d3"
+    },
+    {
+      "sourceIds": [
+        1607
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kanteleila_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kanteleila_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 257522,
+      "sha256": "39c99279585ca3175227c2828b20f401b4dee2fbd61e97dc4ae0561344a3ec33"
+    },
+    {
+      "sourceIds": [
+        1107
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kelaita_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kelaita_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 287314,
+      "sha256": "457dfdd13f0c577ca7198d0d712264b225dfc6ccdea2216bb067068a0eedff25"
+    },
+    {
+      "sourceIds": [
+        1409
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_katixiya_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_katixiya_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 319480,
+      "sha256": "6d87c7a90178318eb9a82df1d74ce22f5780a8bcb78c159692e629eae30f490a"
+    },
+    {
+      "sourceIds": [
+        1205
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_changli_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_changli_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 239996,
+      "sha256": "12a4aae5b2bb05610297d62cd8294b2b60665dcbf9bc60ceac06ae0b1966c05f"
+    },
+    {
+      "sourceIds": [
+        1508
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qianxiao_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qianxiao_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 233330,
+      "sha256": "5190d6534a0c52339bd88e2c2f275e796fc65d13f54c8c08ebc3c749b13dc10c"
+    },
+    {
+      "sourceIds": [
+        1202
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_maxiaofang_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_maxiaofang_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 194040,
+      "sha256": "19729b29a31fda390d15cb9f59d962c4b65c51fe256afbfd9453291d567bd748"
+    },
+    {
+      "sourceIds": [
+        1407
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiakong_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiakong_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 284574,
+      "sha256": "348b803a77b2f14010b496642b3e4716497f571b5ee91c1c28e1d9d5b13c6134"
+    },
+    {
+      "sourceIds": [
+        1602
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_micai_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_micai_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 204712,
+      "sha256": "a654adfd3cb7aba2872245f38c91b0b4cfdc7a402c84bf894fbdd1d431426a9d"
+    },
+    {
+      "sourceIds": [
+        1211
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_daniya_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_daniya_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 325922,
+      "sha256": "12937ae2fb42d520207f32c5941c25b52d254d5676241b62695925977a3150d2"
+    },
+    {
+      "sourceIds": [
+        1203
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_anke_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_anke_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 246828,
+      "sha256": "d1a093390666f6eee15b96c3b1bd211381c0f984da5125c19884bc813b659222"
+    },
+    {
+      "sourceIds": [
+        1208
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiabeilina_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiabeilina_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 252184,
+      "sha256": "49f746d8db11448904fe3b6967cf67fa2bcc83ca5994ba57ff9efae3ab1a132c"
+    },
+    {
+      "sourceIds": [
+        1108
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_FeiXue_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_FeiXue_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 286338,
+      "sha256": "53e6a1c4d932e9255be599049a48ccbf3f3367e085b3cfb59efc7510c43e3069"
+    },
+    {
+      "sourceIds": [
+        1311
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xin_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xin_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 215910,
+      "sha256": "ab7b6a538a702118f3ddd1a3fe2034562e3d3bad21915e96ba8875ba1f09e7ea"
+    },
+    {
+      "sourceIds": [
+        1410
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 349964,
+      "sha256": "59de0529809815158b59b7a16746ce338cb883e01eb927513d08dd309d618027"
+    },
+    {
+      "sourceIds": [
+        1405
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiexin_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiexin_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 230432,
+      "sha256": "17675574b6bb91f22d5b697a3ad89d747bf8eaa5eed4effd42ce6f6e44e07f3f"
+    },
+    {
+      "sourceIds": [
+        1212
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jingran_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jingran_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 297786,
+      "sha256": "6d3c25e0c2df41193e109792e01b8cb5e42689d929032dcc2eef616f3544a9a6"
+    },
+    {
+      "sourceIds": [
+        1304
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jinxi_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jinxi_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 235152,
+      "sha256": "ed2d9b4a7155e3f1f263ecd2adfc3ebabe1eade5b77526ca5cb003d34aa2dc70"
+    },
+    {
+      "sourceIds": [
+        1404
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiyan_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiyan_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 275464,
+      "sha256": "bee00656f210ceb82e3c7f73b15f92983d094b96277a91a460a678337bd8904c"
+    },
+    {
+      "sourceIds": [
+        1104
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lingyang_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lingyang_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 243390,
+      "sha256": "df03b5a1c5ed6b203d3e5604328ba095aaf399b027ba25f4ac659da8a384c768"
+    },
+    {
+      "sourceIds": [
+        1109
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luosela_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luosela_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 308956,
+      "sha256": "a03bab660a7cb16f95244e3b7a3a784cbf6af1ba940e962f5b34e7eb824cdae9"
+    },
+    {
+      "sourceIds": [
+        1511
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luxi_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luxi_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 232126,
+      "sha256": "b42bdcef49d7b0a0333745dee8471b2de31f56682f56d4aa70c545db8c353dd6"
+    },
+    {
+      "sourceIds": [
+        1504
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_dengdeng_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_dengdeng_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 237038,
+      "sha256": "fdd933d4452e9f5966c177095a648408480df2c276067a8a3d36fbcc0ebbe0ea"
+    },
+    {
+      "sourceIds": [
+        1207
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 333106,
+      "sha256": "fdb2713ee62478bb4b5327b5037e5b9ac07b60ed448d5ad68b3b660cae0a04fd"
+    },
+    {
+      "sourceIds": [
+        1510
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luhesi_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luhesi_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 251078,
+      "sha256": "18090fe3317b8bc4496c54e1de4434f91aa869e54d2f07e4fc18e5b6b6db206b"
+    },
+    {
+      "sourceIds": [
+        1509
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Linnai_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Linnai_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 263518,
+      "sha256": "9e565ef0cc9224772fb9c8c8ef4fc0c5d4d9d93c020d3f85fafaab1f1f207f5d"
+    },
+    {
+      "sourceIds": [
+        1209
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 289868,
+      "sha256": "d739a61eb6fe1f781e9896425ef706d3124e44135188d82066d6f54d7863b991"
+    },
+    {
+      "sourceIds": [
+        1204
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_baer_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_baer_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 231392,
+      "sha256": "cca02b8cfb8003b58d8fd70f9691d6093b7667e76be1663d5cb8186d129a5dcc"
+    },
+    {
+      "sourceIds": [
+        1506
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 289372,
+      "sha256": "4ca21a0339d3023e726da5cf0b181ba23642e2a08d712ed6ce9e4c4c9b151557"
+    },
+    {
+      "sourceIds": [
+        1608
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 260726,
+      "sha256": "ace560a51627c5463201400d6f47f83211cbf01a7a3908a0983353457c96465c"
+    },
+    {
+      "sourceIds": [
+        1413
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qingxiao_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qingxiao_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 299816,
+      "sha256": "ac4fdb98848908008d8497ac5c3c2e5bf618ad2e9187824c4e341467ba875417"
+    },
+    {
+      "sourceIds": [
+        1411
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 278498,
+      "sha256": "83e737b92eaddd9a98639ac517aebb852cefd65a908bb444e5e78e207d862384"
+    },
+    {
+      "sourceIds": [
+        1308
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_LiBeiKa_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_LiBeiKa_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 255618,
+      "sha256": "da45f6609643a14d6c63300087c4f833927d9516a4ae2fdfa73dfced2e86eea4"
+    },
+    {
+      "sourceIds": [
+        1606
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 270364,
+      "sha256": "e20f9912e6169cd63f3ceac9474d144240523c1fa0e6c834c866c9256f46002a"
+    },
+    {
+      "sourceIds": [
+        1408,
+        1310,
+        1604,
+        1502
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 167510,
+      "sha256": "bb9537f9b76cdc238417e140c2f7ce95fed7a1c698d34510197725d8b0a57240"
+    },
+    {
+      "sourceIds": [
+        1406,
+        1309,
+        1605,
+        1501
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 190028,
+      "sha256": "67bfcb5d61343c39266b55fa67aaf5611cbdf5a96ecd1a7e0d67817705d94db3"
+    },
+    {
+      "sourceIds": [
+        1102
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shanhua_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shanhua_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 168568,
+      "sha256": "697c5adba738c1a937ac25f462c1cbeef89f91271589dbb8fd3b4a9406ef8dcf"
+    },
+    {
+      "sourceIds": [
+        1505
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp",
+      "status": 404,
+      "error": "Not Found"
+    },
+    {
+      "sourceIds": [
+        1412
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xigelika_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xigelika_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 280398,
+      "sha256": "4856ca7adad268373b882909457bd235108003995041c8be771832952c7c6e60"
+    },
+    {
+      "sourceIds": [
+        1110
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Suisui_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Suisui_UI.webp",
+      "status": 404,
+      "error": "Not Found"
+    },
+    {
+      "sourceIds": [
+        1312
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_SuoMing_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_SuoMing_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 247500,
+      "sha256": "762ce67c09e88f3339b0581fff4fa2c54083873ad75ce63c1dfbe715d6f4959e"
+    },
+    {
+      "sourceIds": [
+        1601
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_taohua_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_taohua_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 210526,
+      "sha256": "75d32365910761ffb3e857174a790441a265c29c8e4c6dc1680f95b85192a7ff"
+    },
+    {
+      "sourceIds": [
+        1503
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jueyuan_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jueyuan_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 233410,
+      "sha256": "56804b2d6e1fbe76fa51068b94cfac953bc5310ac148612d77ffd1ed1f8f03f7"
+    },
+    {
+      "sourceIds": [
+        1305
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiangliyao_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiangliyao_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 204628,
+      "sha256": "405d0d330f4ae7d05ac6b559c9e3de7c95fe63abd204590a561d104693e9a155"
+    },
+    {
+      "sourceIds": [
+        1402
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yangyang_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yangyang_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 233004,
+      "sha256": "82481d535dde56c07e32f8579cc17a59b640535d703b1ed1915e1c67a8c5fc4b"
+    },
+    {
+      "sourceIds": [
+        1610
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xuanling_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xuanling_UI.webp",
+      "status": 404,
+      "error": "Not Found"
+    },
+    {
+      "sourceIds": [
+        1302
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yinlin_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yinlin_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 273658,
+      "sha256": "fa1b190602e108bfec61ac81b44b9303629c3a33e23cc249fd170f691a051ef3"
+    },
+    {
+      "sourceIds": [
+        1106
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_youhu_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_youhu_UI.webp",
+      "status": 404,
+      "error": "Not Found"
+    },
+    {
+      "sourceIds": [
+        1303
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yuanwu_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yuanwu_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 183414,
+      "sha256": "4cfbc811a8fe95af9ec989d17fa8ca812f70d946a5920a3788104cf5db847a9a"
+    },
+    {
+      "sourceIds": [
+        1507
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zanni_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zanni_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 241962,
+      "sha256": "ee9ee0ae76b888780311f14acab90592262673b4ac9b4eb9ad6e8e511a8afd00"
+    },
+    {
+      "sourceIds": [
+        1105
+      ],
+      "declaredPath": "/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhezhi_UI.webp",
+      "url": "https://raw.githubusercontent.com/DommyMM/wuwabuild/main/public/assets/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhezhi_UI.webp",
+      "status": 200,
+      "width": 696,
+      "height": 960,
+      "bytes": 273636,
+      "sha256": "9d7bc623d6ff0b717f25e9cbbea47773b526fd2d0219221ed99efe5159fb7146"
+    }
+  ],
+  "declarationFixture": "tests/fixtures/wuwa-reference/characters.json",
+  "declarationNote": "Retained actual public source fixture; separate current public Characters.json HTTP200 read confirmed64 rows with64 banner declarations.",
+  "summary": {
+    "sourceIds": 64,
+    "distinctOriginals": 58,
+    "validOriginals": 54,
+    "validSourceIds": 60,
+    "http404Originals": 4,
+    "http403": 0,
+    "http429": 0,
+    "allValidNativeSizes": [
+      [
+        696,
+        960
+      ]
+    ],
+    "rawImageFilesRetained": false
+  }
+}
