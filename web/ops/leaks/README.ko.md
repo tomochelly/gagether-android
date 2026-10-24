@@ -60,3 +60,9 @@ https://mymemory.translated.net/doc/usagelimits.php
 ## 검증
 
 `node --test tests/*.test.mjs`, `node scripts/validate-editor.mjs`, `npx tsc --noEmit`을 실행한다. 새 테스트는18게임 진입점,4개 언어 경고/설명, 동의 전 요청·그림0개, 재진입/게임 변경, Simple 모드 그림 지연, 실제 SQLite CAS·이력 복원, 원문 실패 보존, 번역 캐시/예산 제한, 이미지 바이트·원본 크기, 공식 요약 제외와 일정 스키마 거부를 검증한다. 실제 운영 수집·저장·번역·그림 조회 결과는 별도 영수증으로 남긴다.
+
+## 배포 서버 일치 보호
+
+첫 운영 검증에서 새 클라이언트가 게시됐지만 API 서버가 이전 생성 파일로 남아 `/api/leaks`404, operations49로 응답하는 불일치를 발견했다. 기존 생성 출력이 남아 있으면 클라이언트의 source-manifest 검사만으로 이를 감지하지 못했다.
+
+현재 build는 기존 dist를 임시 백업으로 옮긴 뒤 새로 만들고, Worker 엔트리 생성 시각·전체 현재 API 경로·클라이언트 소스 지문을 검사한다. 하나라도 다르면 패키징을 중단한다. 원본 public 파일·owner 미디어·DB는 이동/삭제하지 않는다. 실제 이전 Worker 파일을 새 타임스탬프로 복사해도 새 API가 없으면 거부되는 음성 검사를 통과했다. 로컬 프로필은 공식 configure-execution-profile helper로 복구했다.

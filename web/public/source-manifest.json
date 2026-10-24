@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "09879a99a23bfd88e177c5ccb9340e46b684dd4aa75d7124726f7b9e98810c78",
+  "fingerprint": "377fc0ea05a2977b264b34a982b82ff104dfc1d8499c7a71c5ecb3d1a2dfa0b8",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -476,7 +476,7 @@
     },
     {
       "path": "components/leaks-panel.tsx",
-      "sha256": "3371317c0716e7cac98e721c9c32e2b9acaeda3c30521689ff0b5a6af8632840"
+      "sha256": "b8b128b88a2a2ab68966d73148f607d9b50ca511f66efcc24926d38f94e66e6e"
     },
     {
       "path": "components/localized-catalog.tsx",
@@ -1748,7 +1748,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "2e31dce7bf9531795bc917f9da222cd437f5d3be4de5ad5bd968498c84235a91"
+      "sha256": "6828c647f192a987d00e23552e8847959d313c6559925bf618ece08d7948da18"
     },
     {
       "path": "pnpm-lock.yaml",
