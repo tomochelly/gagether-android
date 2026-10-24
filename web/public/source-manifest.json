@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "6e7d9914715455ac6e28409b5599d7416fdb5b3b5396f28125d8cef12da3d8a9",
+  "fingerprint": "4a7696dc37a135a1b38dd9511d0c5982516c382eaadae2ef0e1f8cc76a3b3ee0",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -16,7 +16,7 @@
     },
     {
       "path": "app/[locale]/games/[gameId]/characters/page.tsx",
-      "sha256": "d464a503b88a70620aa247db27c2220552837f207c6e8bc427507a29bffc9ce6"
+      "sha256": "0d84f5e7de9316b7615217fbc849f24fd941c077d5213a2a8fc148dff6be415e"
     },
     {
       "path": "app/[locale]/games/[gameId]/items/[entryId]/page.tsx",
@@ -440,7 +440,7 @@
     },
     {
       "path": "components/character-landing.tsx",
-      "sha256": "faf2567701b0091b568beabbcf6b8b693f31787bbd5efbe014f402455c63727e"
+      "sha256": "90f4932eebda0164472cc330dd0e610e264ffe182af357f023e8dc67d7b83614"
     },
     {
       "path": "components/character-roster.tsx",
