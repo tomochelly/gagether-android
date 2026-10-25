@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "87fa4a0d382714e1a5c05dfffa2f3ce0dc8914242cdfffae848e1a0a12881f71",
+  "fingerprint": "b3f619d840e5ff5b14396f6aac8d80de6c6a35354f9126d18a3fbf2dda76ed02",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1580,7 +1580,7 @@
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "80d00c86b16d9e29cf8b2427a7ccfa9d7514037b4c2496c8867388976f0df442"
+      "sha256": "454c4e65081f5982e458d523c13bd8c23a6ba4d7a66917e31ba5f8a9e4d2f4d4"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",
@@ -1828,7 +1828,7 @@
     },
     {
       "path": "lib/refresh-tasks.ts",
-      "sha256": "8134fa37015e1b8b1175d69a704e264e1cd9860a046fca35e2ecf7ddf3404000"
+      "sha256": "5f4c42bdfaf5ff3917595a869a8cb31412481eb04106725e6acf9e941021104c"
     },
     {
       "path": "lib/regional-notices.ts",

@@ -9,11 +9,11 @@ const starts={broadcasts:'known-broadcasts',notices:'korean',uploads:'uploads',d
 export function refreshTask(gameId:string,lane:string):GameRefreshTask|null{
  if(lane==='maintenance'&&gameId!=='all'||lane!=='maintenance'&&!games.some(g=>g.id===gameId)||!Object.hasOwn(cadence,lane))return null;
  const typed=lane as RefreshLane,intervalMinutes=cadence[typed];
- return {key:'official-game:'+gameId+':'+typed,gameId,lane:typed,firstStage:starts[typed],intervalMinutes,intervalMs:intervalMinutes*60000};
+ return {key:'official-game:'+gameId+':'+typed+(gameId==='wuwa'&&typed==='details'?':v2':''),gameId,lane:typed,firstStage:starts[typed],intervalMinutes,intervalMs:intervalMinutes*60000};
 }
 export const gameRefreshTasks:GameRefreshTask[]=[...games.flatMap(g=>refreshLanes.map(l=>refreshTask(g.id,l)!)),refreshTask('all','maintenance')!];
 export function nextRefreshStage(p:{lane?:string;gameId?:string},stage:string):string{
- const plans:Record<string,string[]>={notices:['korean','feeds','regional','notice-bodies','finalize'],uploads:['uploads','finalize'],broadcasts:['known-broadcasts','channels','broadcasts','finalize'],details:['collection',...(['limbus','dna','holodreams'].includes(p.gameId||'')?['additional']:[]),'artwork',...(p.gameId==='nte'?['profiles']:[]),...(p.gameId==='wuwa'?['weapons']:[]),'recaps',...(p.gameId==='wuwa'?['reference']:[]),'rosters','finalize'],maintenance:['leaks','finalize']};
+ const plans:Record<string,string[]>={notices:['korean','feeds','regional','notice-bodies','finalize'],uploads:['uploads','finalize'],broadcasts:['known-broadcasts','channels','broadcasts','finalize'],details:['collection',...(['limbus','dna','holodreams'].includes(p.gameId||'')?['additional']:[]),'artwork',...(p.gameId==='nte'?['profiles']:[]),...(p.gameId==='wuwa'?['weapons']:[]),'recaps',...(p.gameId==='wuwa'?['reference']:['rosters']),'finalize'],maintenance:['leaks','finalize']};
  const plan=p.lane?plans[p.lane]:['korean','uploads','feeds','regional','channels','broadcasts','recaps','collection','reference','leaks','rosters','finalize'];
  if(!plan||!plan.includes(stage))throw Error('Invalid refresh task stage');return plan[plan.indexOf(stage)+1]||'finalize';
 }

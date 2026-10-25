@@ -73,3 +73,9 @@ test('scheduler wake-ups coalesce without cancelling jobs; expired leases and a 
  assert.equal((await runner.runnerLease('fast','300','claim',at+44*60000)).claimed,true);
  assert.equal((await runner.runnerLease('fast','300','release',at+44*60000+1)).released,true);
 });
+
+test('Wuwa reference failures cannot gain a synthetic successful roster receipt; the revised detail flow skips that unrelated stage',async()=>{
+ assert.equal(tasks.nextRefreshStage({lane:'details',gameId:'wuwa'},'reference'),'finalize');assert.ok(tasks.refreshTask('wuwa','details').key.endsWith(':v2'));
+ const result=await performRefreshStage({version:1,runId:'reference-failure',startedAt:now(),stage:'finalize',gameId:'wuwa',lane:'details',referenceCheck:{done:true,source:'wuwa/reference',status:'error',checkedAt:now(),error:'Source unavailable'}});
+ assert.equal(result.successful,0);assert.equal(result.ok,false);assert.ok(result.structuredChecks.every(c=>c.status!=='ok'));
+});

@@ -150,7 +150,7 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
  if(p.stage==='profiles'){const check=await importNteProfiles(false,{cursor:p.cursor||0,limit:2,timeoutMs:12000});return {...p,stage:check.done?next('profiles'):'profiles',cursor:check.done?0:check.nextCursor,profileCheck:check};}
  if(p.stage==='weapons'){const check=await importWuwaWeapons();return {...p,stage:next('weapons'),weaponStep:check};}
  if(p.stage==='reference'){const check=await refreshWuwaReferenceStep();return {...p,stage:check.done?next('reference'):'reference',referenceCheck:check};}
- if(p.stage==='rosters')return {...p,stage:next('rosters'),rosterCheck:gameId==='wuwa'?{status:'ok',checkedAt:new Date().toISOString(),source:'wuwa/reference',done:true}:await refreshCharacterRostersStep(gameId)};
+ if(p.stage==='rosters')return {...p,stage:gameId==='wuwa'?'finalize':next('rosters'),rosterCheck:gameId==='wuwa'?undefined:await refreshCharacterRostersStep(gameId)};
  if(p.stage==='leaks'){const check=await refreshLeaksStep();return {...p,stage:check.done?next('leaks'):'leaks',leakCheck:check};}
  if(p.stage!=='finalize')throw Error('Unknown refresh stage');
   const {koreanChecks=[],feeds=[],regional={checks:[],added:0},channelChecks=[],broadcastChecks=[],collection,noticedCount=0,changedNeedsReview=[]}=p;

@@ -1,7 +1,8 @@
 """Fixed same-origin game jobs, fair bounded parallelism and persisted readback.
 
+Registered per-flow revisions resume through their server-provided task keys.
 Scheduled runs keep a bounded heartbeat alive so a late cron does not gate each
-poll. Push/manual runs exercise one complete wave. No Site secrets or arbitrary
+poll. Push runs bootstrap the heartbeat; manual runs exercise one complete wave. No Site secrets or arbitrary
 URLs; every POST uses a newly minted workflow-scoped GitHub OIDC identity.
 """
 import argparse, datetime, collections, concurrent.futures, http.client, json, os, re, time, urllib.error, urllib.parse, urllib.request
@@ -107,7 +108,7 @@ def main():
  if not claim.get('claimed'):
   print('::notice::Another healthy runner owns this mode; duplicate wake-up completed without collecting twice.',flush=True)
   return
- continuous=args.mode=='fast' and os.environ.get('GITHUB_EVENT_NAME')=='schedule' and not args.once
+ continuous=args.mode=='fast' and os.environ.get('GITHUB_EVENT_NAME') in ['schedule','push'] and not args.once
  end=time.monotonic()+(45*60 if continuous else 12*60);wave_number=0;all_errors=[];lost_lease=False;result=None
  try:
   while True:

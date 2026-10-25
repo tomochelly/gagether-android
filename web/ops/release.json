@@ -1,12 +1,12 @@
 {
   "siteProjectId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a",
   "productionUrl": "https://gagether.wiki",
-  "siteVersion": 155,
-  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_d942d95349f881919562d55b8c3ddc59",
-  "siteCommit": "01d3cbc197c9b9dd69c90151f18b3fa51213143e",
-  "deploymentId": "appgdep_6add907efb048191a5832e8151c69c88",
-  "deployedAt": "2026-10-25T05:16:04.894604+00:00",
-  "runtimeFingerprint": "87fa4a0d382714e1a5c05dfffa2f3ce0dc8914242cdfffae848e1a0a12881f71",
+  "siteVersion": 156,
+  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_0d1a48d267548191a525373496fd5836",
+  "siteCommit": "f67ea332a411d620714cab4a969472b69a3188ec",
+  "deploymentId": "appgdep_6add94e9e340819192d1d0875c0ae669",
+  "deployedAt": "2026-10-25T05:34:54.758703+00:00",
+  "runtimeFingerprint": "b3f619d840e5ff5b14396f6aac8d80de6c6a35354f9126d18a3fbf2dda76ed02",
   "githubRepository": "tomochelly/gagether-android",
   "runtimeSourceGitHubCommit": null,
   "sourceDirectory": "web",
@@ -18,6 +18,6 @@
   "verifiedAt": "2026-10-25T04:34:10Z",
   "refreshOutcome": "partial",
   "verificationReport": "ops/INDEPENDENT-REFRESH.ko.md",
-  "status": "v155 independent game updater deployed; pinned OIDC workflow rollout in progress; native full data retained",
+  "status": "v156 independent updater and exact Wuwa reference health deployed; final cloud verification in progress",
   "codeMirrorReceipt": "ops/source-mirror.json"
 }

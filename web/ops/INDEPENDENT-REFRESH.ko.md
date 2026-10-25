@@ -19,7 +19,7 @@ GET /api/fast-refresh?plan=1은 등록 작업, 실제 시각, 각 작업의 마�
 
 같은 gagether-refresh.yml의5분 예약은 시작 신호다. GitHub 예약의 지연 가능성은 남는다. 예약으로 시작한 fast 실행은 최대45분 동안 서버 시각 기준으로 **기한이 된 작업만** 확인하며 루프 간60초 대기한다. 실행기당 동시 HTTP 단계4개, 단계별/게임별 저장 체크포인트와8분 wave 예산을 쓴다. 새로운 예약이 겹치면 서버 임대를 확인해 중복 수집 없이 성공 종료한다. 장기 실행은30분 이후 새 예약에 이어지고, 중단된 실행은 임대 만료 후 복구된다. GitHub pending-run 취소를 반복시키는 방식은 쓰지 않는다.
 
-push/manual은 한 번의 실제 수집 wave를 실행한다. details job은 fast와 독립 실행·임대를 사용한다. 이전 글로벌 POST와12분/240요청 legacy 요청기는 호환·복구용으로 유지한다. 일상 수집은 새 game-refresh-request.py를 사용한다.
+push도 초기 예약 대기 공백을 막기 위해 bounded fast heartbeat를 시작한다. manual은 한 번의 실제 수집 wave를 실행한다. details job은 fast와 독립 실행·임대를 사용한다. 이전 글로벌 POST와12분/240요청 legacy 요청기는 호환·복구용으로 유지한다. 일상 수집은 새 game-refresh-request.py를 사용한다.
 
 이 방식은 GitHub 예약 한 번이 늦어질 때 매 확인 주기가 같이 지연되는 문제를 줄인다. **정확한 실시간/정시 실행을 보장하지 않는다.** 플랫폼 예약·출처 차단·원문 미공개 정보는 별개다. 연결된 시간당 AI 자동화는 기존 일시정지 상태를 보존했으며 새 LLM 자동화를 만들지 않았다.
 
@@ -32,3 +32,5 @@ push/manual은 한 번의 실제 수집 wave를 실행한다. details job은 fas
 ## 최종 로컬 검증
 
 전체 Node433개(실패/생략0), Python 요청기/검증26개, TypeScript, 실제 editor SQLite/R2/권한·이력 검증 및39API 프로덕션 빌드 통과. 최종 runtime fingerprint87fa4a0d382714e1a5c05dfffa2f3ce0dc8914242cdfffae848e1a0a12881f71, 실행 파일505개 해시일치. 원본429개/345185065bytes 보존. 게임별 API/owner UI는 실제 모듈을 mounted/SQLite 방식으로 검사했고 local preview root도 렌더됐다. preview의 저장 상태 조회는503으로 원인미확정이므로 운영 실제 OIDC 실행/저장재조회 검증은 배포 후 별도로 기록한다.
+
+운영 후 집계 보완: 명조 상세는 자체 reference 영수증을 쓰며17게임 외부 도감의 별도 성공 영수증을 만들지 않는다. 수정된 명조 상세 흐름만:v2 작업 키로 시작해 이전 완료 상태를 재사용하지 않고 새 실제 결과를 읽는다. 이전 진행/이력은 삭제하지 않는다. 실패한 원문/유출 출처는 여전히 오류로 표시한다.
