@@ -1,6 +1,10 @@
+import {importAdditionalGameContent} from './additional-content-store';
+import {importMaintainedArtwork} from './maintained-artwork-store';
+import {importNteProfiles} from './nte-profile-store';
+import {importWuwaWeapons} from './wuwa-weapon-store';
 import {checkpointedRefresh,type RefreshProgress} from './refresh-progress';
 import {env} from 'cloudflare:workers';
-import {readData,readBaseData,saveEntries} from './store';
+import {readData,readBaseData,saveEntries,saveEntryChanges} from './store';
 import {refreshFeeds} from './feeds';
 import {koreanFastSources,noticeEntry,noticeText,noticeMetadataChange,completeNoticeMetadata} from './fast-notices';
 import {queueBroadcastRecap,publishBroadcastRecapsStep} from './broadcast-recaps';
@@ -16,11 +20,12 @@ import {collectRegionalNotices,collectPendingDocuments} from './official-collect
 import {refreshWuwaReferenceStep} from './wuwa-reference-store';
 import {refreshCharacterRostersStep} from './character-roster-refresh';
 import {refreshLeaksStep} from './leaks-store';
+import {nextRefreshStage} from './refresh-tasks';
 import {refreshOfficialUploadsStep} from './official-upload-store';
 const interval=10*60*1000;
 async function html(url:string){
  for(let hop=0;hop<4;hop++){
-  const r=await retryFetch(url,{redirect:'manual'});
+  const r=await retryFetch(url,{redirect:'manual',signal:AbortSignal.timeout(12000)});
   if([301,302,303,307,308].includes(r.status)){
    const location=r.headers.get('location');if(!location)throw Error('Redirect without location');
    const next=new URL(location,url);
@@ -39,14 +44,14 @@ const normalize=(u:string)=>{try{const x=new URL(u);x.protocol='https:';x.hostna
 export async function runFastRefresh(){return checkpointedRefresh(performRefreshStage);}
 export async function performRefreshStage(p:RefreshProgress):Promise<any>{
  const db=env.DB!;
- const startedAt=p.startedAt;
+ const startedAt=p.startedAt;const gameId=p.gameId&&p.gameId!=='all'?String(p.gameId):undefined;const next=(stage:string)=>nextRefreshStage(p,stage);
  if(p.stage==='korean'){
-  const before=await readData({automatic:true,collection:true});if(!before.persistent)throw Error('Persistent storage unavailable');
+  const before=await readData({automatic:true,collection:true,gameId});if(!before.persistent)throw Error('Persistent storage unavailable');
   const known=new Set(before.entries.map(e=>normalize(e.sourceUrl)));
   for(const e of before.entries)for(const u of Object.values(e.localizationSources||{}))if(u)known.add(normalize(u));
   const noticed:Entry[]=[];const nativeChanges:Entry[]=[];const changedNotices:{notice:import("./fast-notices").FastNotice;checkedAt:string}[]=[];const changedNeedsReview:string[]=[];
   // Korean official sources are queried before the existing localized/regional feeds.
-  const koreanChecks=await pool(koreanFastSources.slice(p.cursor||0,(p.cursor||0)+3),async source=>{
+  const koreanChecks=await pool(koreanFastSources.filter(s=>!gameId||s.gameId===gameId).slice(p.cursor||0,(p.cursor||0)+3),async source=>{
    const at=new Date().toISOString();
    try{
     const rows=await source.load(((url,init)=>retryFetch(typeof url==='string'?url:url instanceof URL?url.href:url.url,init)) as typeof fetch);if(!rows.length)throw Error('HTTP 200 without readable official notices');
@@ -66,22 +71,22 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   const fullNative=nativeChanges.length?await readBaseData({ids:nativeChanges.map(e=>e.id)}):{entries:[],persistent:true};
   if(!fullNative.persistent)throw Error('Original notice records unavailable');
   const nativeMap=new Map(fullNative.entries.map(e=>[e.id,e]));
-  await saveEntries([...noticed,...nativeChanges.map(e=>{const full=nativeMap.get(e.id);if(!full)throw Error('Original notice record missing');return completeNoticeMetadata(full,e);})]);
-  const noticeReadback=await readData({automatic:true,collection:true});
+  await saveEntryChanges([...noticed.map(after=>({after})),...nativeChanges.map(e=>{const full=nativeMap.get(e.id);if(!full)throw Error('Original notice record missing');return {before:full,after:completeNoticeMetadata(full,e)};})]);
+  const noticeReadback=await readData({automatic:true,collection:true,gameId});
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');
   for(const {notice,checkedAt} of changedNotices)await captureDocument(notice,undefined,checkedAt);
   const cursor=(p.cursor||0)+3;
-  return {...p,stage:cursor>=koreanFastSources.length?'uploads':'korean',cursor:cursor>=koreanFastSources.length?0:cursor,koreanChecks:[...(p.koreanChecks||[]),...koreanChecks],noticedCount:(p.noticedCount||0)+noticed.length,changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
+  return {...p,stage:cursor>=koreanFastSources.filter(s=>!gameId||s.gameId===gameId).length?next('korean'):'korean',cursor:cursor>=koreanFastSources.filter(s=>!gameId||s.gameId===gameId).length?0:cursor,koreanChecks:[...(p.koreanChecks||[]),...koreanChecks],noticedCount:(p.noticedCount||0)+noticed.length,changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
  }
- if(p.stage==='uploads'){const result=await refreshOfficialUploadsStep(p.cursor||0);return {...p,stage:result.done?'feeds':'uploads',cursor:result.done?0:result.nextCursor,uploadChecks:[...(p.uploadChecks||[]),...result.checks]};}
- if(p.stage==='feeds')return {...p,stage:'regional',feeds:await refreshFeeds()};
- if(p.stage==='regional'){const batch=await collectRegionalNotices(p.cursor||0,3),done=batch.nextOffset>=batch.total;return {...p,stage:done?'channels':'regional',cursor:done?0:batch.nextOffset,regional:{checks:[...(p.regional?.checks||[]),...batch.checks],added:(p.regional?.added||0)+batch.added,metadataChanged:[...(p.regional?.metadataChanged||[]),...batch.metadataChanged]}};}
+ if(p.stage==='uploads'){const result=await refreshOfficialUploadsStep(p.cursor||0,undefined,gameId);return {...p,stage:result.done?next('uploads'):'uploads',cursor:result.done?0:result.nextCursor,uploadChecks:[...(p.uploadChecks||[]),...result.checks]};}
+ if(p.stage==='feeds')return {...p,stage:next('feeds'),feeds:await refreshFeeds(gameId)};
+ if(p.stage==='regional'){const batch=await collectRegionalNotices(p.cursor||0,3,gameId),done=batch.nextOffset>=batch.total;return {...p,stage:done?next('regional'):'regional',cursor:done?0:batch.nextOffset,regional:{checks:[...(p.regional?.checks||[]),...batch.checks],added:(p.regional?.added||0)+batch.added,metadataChanged:[...(p.regional?.metadataChanged||[]),...batch.metadataChanged]}};}
  if(p.stage==='channels'){
-  const current=await readData({automatic:true,collection:true});
+  const current=await readData({automatic:true,collection:true,gameId});
   const channels=new Map<string,{gameId:string;locale:Locale;region:Region}>();
   for(const e of current.entries)for(const v of e.videos||[])if(v.official)for(const u of v.evidenceUrls||[])if(/^https:\/\/www\.youtube\.com\/(?:@[^/?]+|channel\/[\w-]+)$/.test(u))channels.set(u,{gameId:e.gameId,locale:v.locale,region:effectiveRegion(games.find(g=>g.id===e.gameId)!,e.region)});
   // The reviewed channel registry also covers games with no character videos yet.
-  for(const c of await readOfficialChannels())if(c.platform==='youtube'&&c.official){
+  for(const c of await readOfficialChannels(gameId))if(c.platform==='youtube'&&c.official){
    const game=games.find(g=>g.id===c.gameId);if(!game)continue;
    const url=c.url.replace(/\/(?:videos|streams)\/?$/,'').replace(/\/$/,'');
    // Prefer the registry for a service/language over incidental video evidence.
@@ -91,23 +96,26 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   if(p.channelRows){channels.clear();for(const [url,meta] of p.channelRows)channels.set(url,meta);}else p.channelRows=[...channels];
   const watches=new Map<string,{gameId:string;locale:Locale;region:Region;channelId:string;old?:Entry}>(p.watchRows||[]);
   const queueStored=(meta:{gameId:string;locale:Locale;region:Region},channelId:string)=>{
-   for(const e of current.entries)if(e.broadcast?.youtubeId&&['scheduled','live'].includes(e.broadcast.status)&&e.gameId===meta.gameId&&e.broadcast.locale===meta.locale&&effectiveRegion(games.find(g=>g.id===e.gameId)!,e.region)===meta.region)watches.set(e.broadcast.youtubeId,{...meta,channelId,old:e});
+   for(const e of current.entries)if(e.broadcast?.youtubeId&&['scheduled','live'].includes(e.broadcast.status)&&e.gameId===meta.gameId&&e.broadcast.locale===meta.locale&&effectiveRegion(games.find(g=>g.id===e.gameId)!,e.region)===meta.region){if(!(p.knownCheckedIds||[]).includes(e.broadcast.youtubeId))watches.set(e.broadcast.youtubeId,{...meta,channelId,old:e});}
   };
   // A failed listing must not prevent checks of already known watch URLs.
   for(const [url,meta] of channels){const id=/\/channel\/(UC[\w-]+)$/.exec(url)?.[1];if(id)queueStored(meta,id);}
   const channelChecks=await pool([...channels].slice(p.cursor||0,(p.cursor||0)+6),async([url,meta])=>{
    const checkedAt=new Date().toISOString();try{
-    const data=channelVideos(await html(url+'/streams'));if(!data.channelId)throw Error('HTTP 200 without official channel metadata');
+    const data=channelVideos(await html(url+'/streams'),!!gameId);if(!data.channelId)throw Error('HTTP 200 without official channel metadata');
     const expected=/\/channel\/(UC[\w-]+)$/.exec(url)?.[1];if(expected&&data.channelId!==expected)throw Error('Official channel identity mismatch');
-    for(const id of data.ids){const old=current.entries.find(e=>e.broadcast?.youtubeId===id&&e.gameId===meta.gameId&&e.broadcast.locale===meta.locale);watches.set(id,{...meta,channelId:data.channelId,old});}
+    for(const id of data.ids){if((p.knownCheckedIds||[]).includes(id))continue;
+     if(gameId){const cached=await db.prepare('SELECT payload FROM operations_health WHERE key=?').bind('broadcast-probe:'+gameId+':'+id).first<{payload:string}>();if(cached){const c=JSON.parse(cached.payload);if(c.channelId===data.channelId&&Date.now()-Date.parse(c.checkedAt)<(c.status==='ended'?6*3600000:0))continue;}}
+     const old=current.entries.find(e=>e.broadcast?.youtubeId===id&&e.gameId===meta.gameId&&e.broadcast.locale===meta.locale);watches.set(id,{...meta,channelId:data.channelId,old});}
     queueStored(meta,data.channelId);
     return {url:url+'/streams',checkedAt,status:'ok'};
    }catch(e){return {url:url+'/streams',checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   },2);
   const cursor=(p.cursor||0)+6;
-  return {...p,stage:cursor>=channels.size?'broadcasts':'channels',cursor:cursor>=channels.size?0:cursor,channelChecks:[...(p.channelChecks||[]),...channelChecks],watchRows:[...watches].map(([id,m])=>[id,{...m,...(m.old?{old:{id:m.old.id,broadcast:m.old.broadcast}}:{})}])};
+  return {...p,stage:cursor>=channels.size?next('channels'):'channels',cursor:cursor>=channels.size?0:cursor,channelChecks:[...(p.channelChecks||[]),...channelChecks],watchRows:[...watches].map(([id,m])=>[id,{...m,...(m.old?{old:{id:m.old.id,broadcast:m.old.broadcast}}:{})}])};
  }
- if(p.stage==='broadcasts'){
+ if(p.stage==='broadcasts'||p.stage==='known-broadcasts'){
+ if(p.stage==='known-broadcasts'&&!p.watchRows){const data=await readData({automatic:true,collection:true,gameId});if(!data.persistent)throw Error('Saved broadcast originals unavailable');p.watchRows=data.entries.filter(e=>e.broadcast?.youtubeId&&e.broadcast.channelId&&['scheduled','live'].includes(e.broadcast.status)).map(e=>[e.broadcast!.youtubeId,{gameId:e.gameId,region:e.region,locale:e.broadcast!.locale,channelId:e.broadcast!.channelId,old:{id:e.id,broadcast:e.broadcast}}]);}
  const changedNeedsReview:string[]=[];
   const watches=new Map<string,{gameId:string;locale:Locale;region:Region;channelId:string;old?:Entry}>(p.watchRows||[]);
   const broadcastChecks=await pool([...watches].slice(p.cursor||0,(p.cursor||0)+6),async([id,meta])=>{
@@ -115,6 +123,7 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
    try{
     const page=await html(url),p=embeddedJson(page,'ytInitialPlayerResponse');
     const b=readBroadcast(page,id,meta.channelId,meta.locale,checkedAt,meta.old?.broadcast);
+    if(gameId)await db.prepare('INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload').bind('broadcast-probe:'+gameId+':'+id,JSON.stringify({channelId:meta.channelId,status:b?.status||'unknown',checkedAt})).run();
     if(!b){const reason=p?.playabilityStatus?.status;return {url,checkedAt,status:reason&&reason!=='OK'?'error':'unconfirmed',error:reason||'No verified livestream metadata'};}
     if(meta.old){
      // Patch only the broadcast object, using compare-and-swap to avoid overwriting an hourly review.
@@ -127,24 +136,31 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
     if(b.status==='ended')return {url,checkedAt,status:'ok',broadcastStatus:'ended',recap:await queueBroadcastRecap(meta,b,page)};
     const title=localized('','','','');title[meta.locale]=b.originalTitle;
     const entry:Entry={id:`broadcast-${meta.gameId}-${meta.locale}-${id}`,gameId:meta.gameId,region:meta.region,server:meta.region,kind:'update',title,summary:localized('','','',''),sourceUrl:url,sourceTitle:b.originalTitle,sourceLocale:meta.locale,sourceKind:'video',officialLocales:[meta.locale],translatedLocales:[],startAt:null,endAt:null,publishedAt:b.announcedAt,verifiedAt:checkedAt,broadcast:b};
-    await saveEntries([entry]);return {url,checkedAt,status:'ok',broadcastStatus:b.status,added:entry.id};
+    await saveEntryChanges([{after:entry}]);return {url,checkedAt,status:'ok',broadcastStatus:b.status,added:entry.id};
    }catch(e){return {url,checkedAt,status:'error',error:e instanceof Error?e.message:'Source unavailable'};}
   },2);
   const cursor=(p.cursor||0)+6;
-  return {...p,stage:cursor>=watches.size?'recaps':'broadcasts',cursor:cursor>=watches.size?0:cursor,broadcastChecks:[...(p.broadcastChecks||[]),...broadcastChecks],changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
+  const done=cursor>=watches.size,known=p.stage==='known-broadcasts';return {...p,stage:done?next(p.stage):p.stage,cursor:done?0:cursor,...(known&&done?{knownCheckedIds:[...watches.keys()],watchRows:undefined}:{}),broadcastChecks:[...(p.broadcastChecks||[]),...broadcastChecks],changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
  }
- if(p.stage==='recaps')return {...p,stage:'collection',recapCheck:await publishBroadcastRecapsStep()};
- if(p.stage==='collection')return {...p,stage:'reference',collection:await collectPendingDocuments()};
- if(p.stage==='reference'){const check=await refreshWuwaReferenceStep();return {...p,stage:check.done?'leaks':'reference',referenceCheck:check};}
- if(p.stage==='rosters')return {...p,stage:'finalize',rosterCheck:await refreshCharacterRostersStep()};
- if(p.stage==='leaks'){const check=await refreshLeaksStep();return {...p,stage:check.done?'rosters':'leaks',leakCheck:check};}
+ if(p.stage==='recaps')return {...p,stage:next('recaps'),recapCheck:await publishBroadcastRecapsStep(gameId)};
+ if(p.stage==='collection')return {...p,stage:next('collection'),collection:await collectPendingDocuments(gameId,!!p.lane)};
+ if(p.stage==='notice-bodies')return {...p,stage:next('notice-bodies'),collection:await collectPendingDocuments(gameId,true)};
+ if(p.stage==='additional'){const check=await importAdditionalGameContent(gameId);return {...p,stage:next('additional'),additionalCheck:check};}
+ if(p.stage==='artwork'){const check=await importMaintainedArtwork(gameId);return {...p,stage:next('artwork'),artworkCheck:check};}
+ if(p.stage==='profiles'){const check=await importNteProfiles(false,{cursor:p.cursor||0,limit:2,timeoutMs:12000});return {...p,stage:check.done?next('profiles'):'profiles',cursor:check.done?0:check.nextCursor,profileCheck:check};}
+ if(p.stage==='weapons'){const check=await importWuwaWeapons();return {...p,stage:next('weapons'),weaponStep:check};}
+ if(p.stage==='reference'){const check=await refreshWuwaReferenceStep();return {...p,stage:check.done?next('reference'):'reference',referenceCheck:check};}
+ if(p.stage==='rosters')return {...p,stage:next('rosters'),rosterCheck:gameId==='wuwa'?{status:'ok',checkedAt:new Date().toISOString(),source:'wuwa/reference',done:true}:await refreshCharacterRostersStep(gameId)};
+ if(p.stage==='leaks'){const check=await refreshLeaksStep();return {...p,stage:check.done?next('leaks'):'leaks',leakCheck:check};}
  if(p.stage!=='finalize')throw Error('Unknown refresh stage');
   const {koreanChecks=[],feeds=[],regional={checks:[],added:0},channelChecks=[],broadcastChecks=[],collection,noticedCount=0,changedNeedsReview=[]}=p;
-  const [automatic,effective]=await Promise.all([readData({automatic:true,collection:true}),readData({collection:true})]);
+  const [automatic,effective]=await Promise.all([readData({automatic:true,collection:true,gameId}),readData({collection:true,gameId})]);
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
-  const weaponCheck={source:'wuwa/global/weapons',status:collection.weapons.issues.length?'error':'ok',checkedAt:collection.weapons.checkedAt,count:collection.weapons.changedEntries.length,error:collection.weapons.issues.join('; ')||undefined};
-  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...(p.uploadChecks||[]),...broadcastChecks,...collection.checks,weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],!validationIssues.length);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,uploadChecks:p.uploadChecks||[],broadcastChecks,structuredChecks:[weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
+  const weaponResult=p.weaponStep||collection?.weapons;
+  const extraChecks=[...(p.additionalCheck?.checks||[]),...(p.profileCheck?.sources||[]).map((s:any)=>({...s,source:'profile/'+s.url})),...(p.profileCheck?.discovery?.checks||[]).map((s:any)=>({...s,source:'profile-index/'+s.url,checkedAt:p.profileCheck.checkedAt}))];
+  const weaponCheck={source:'wuwa/global/weapons',status:weaponResult?.issues?.length?'error':'ok',checkedAt:weaponResult?.checkedAt,count:weaponResult?.changedEntries?.length||0,error:weaponResult?.issues?.join('; ')||undefined};
+  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...(p.uploadChecks||[]),...broadcastChecks,...(collection?.checks||[]),...extraChecks,...(weaponResult?.checkedAt?[weaponCheck]:[]),...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],!validationIssues.length);
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,uploadChecks:p.uploadChecks||[],broadcastChecks,structuredChecks:[...extraChecks,...(weaponResult?.checkedAt?[weaponCheck]:[]),...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:p.lane?({broadcasts:2,notices:3,uploads:3,details:30,maintenance:30} as Record<string,number>)[p.lane]:10,...(p.taskKey?{taskKey:p.taskKey,gameId:p.gameId,lane:p.lane}: {})};
   return result;
 }

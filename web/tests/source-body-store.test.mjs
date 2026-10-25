@@ -5,7 +5,8 @@ import {DatabaseSync} from 'node:sqlite';
 import {registerHooks} from 'node:module';
 import fs from 'node:fs';
 const db=new DatabaseSync(':memory:');for(const file of fs.readdirSync('drizzle').filter(f=>f.endsWith('.sql')).sort())db.exec(fs.readFileSync('drizzle/'+file,'utf8'));
-function prepare(sql){let args=[];return {bind(...v){args=v;return this},async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){const result=db.prepare(sql).run(...args);return {meta:{changes:result.changes}}}}}
+let corruptBodyOnWrite;
+function prepare(sql){let args=[];return {bind(...v){args=v;return this},async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){const result=db.prepare(sql).run(...args);if(corruptBodyOnWrite&&sql.startsWith('UPDATE entries SET payload='))db.prepare("UPDATE entries SET payload=json_remove(payload,'$.sourceBodies') WHERE id=?").run(corruptBodyOnWrite);return {meta:{changes:result.changes}}}}}
 const bucket=new Map();globalThis.__bodyStoreEnv={DB:{prepare,async batch(qs){return Promise.all(qs.map(q=>q.run()))}},BUCKET:{async put(k,v){bucket.set(k,v)},async get(k){return bucket.has(k)?{async json(){return JSON.parse(bucket.get(k))}}:null}}};
 registerHooks({resolve(s,c,n){return s==='cloudflare:workers'?{url:'data:text/javascript,export const env=globalThis.__bodyStoreEnv',shortCircuit:true}:n(s,c)}});
 const {captureDocument}=await import('../lib/collection-store.ts');
@@ -77,9 +78,8 @@ test('body readback accepts reordered JSON keys and respects an explicit owner s
 
 test('body readback still rejects actual missing storage and identifies the affected public record',async()=>{
  const id='body-missing-roundtrip',n={...notice,id:'798',url:'https://bluearchive.jp/news/newsJump/798'};write({...entry,id,sourceUrl:n.url});const d=await captureDocument(n,'<p>参加条件：メインストーリーの任務4-1をクリア。青輝石 × 150 個。イベントページから参加し、ゲーム内メールで報酬を受け取ってください。受取期限は11月24日です。</p>',time);
- const originalBatch=globalThis.__bodyStoreEnv.DB.batch;
- globalThis.__bodyStoreEnv.DB.batch=async qs=>{const result=await originalBatch(qs);db.prepare("UPDATE entries SET payload=json_remove(payload,'$.sourceBodies') WHERE id=?").run(id);return result;};
- try{await assert.rejects(()=>importCapturedBodies([d.id]),new RegExp(id));}finally{globalThis.__bodyStoreEnv.DB.batch=originalBatch;}
+ corruptBodyOnWrite=id;
+ try{await assert.rejects(()=>importCapturedBodies([d.id]),new RegExp(id));}finally{corruptBodyOnWrite=undefined;}
  assert.equal(db.prepare('SELECT payload FROM operations_health WHERE key=?').get('body-import:'+d.id),undefined);
 });
 

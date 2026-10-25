@@ -1,33 +1,42 @@
 name: GAGETHER official notice and broadcast refresh
 on:
   schedule:
-    - cron: '7,17,27,37,47,57 * * * *'
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/workflows/gagether-refresh.yml', 'web/ops/refresh-request.py']
+    paths: ['.github/workflows/gagether-refresh.yml', 'web/ops/game-refresh-request.py', 'web/ops/refresh-request.py']
 permissions: {}
-concurrency:
-  group: gagether-official-refresh
-  cancel-in-progress: false
+# The authenticated Site lease coalesces duplicate wake-ups with a successful
+# no-op, avoiding GitHub pending-run cancellations and preserving fast/details isolation.
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 60
     permissions:
       id-token: write
       contents: read
       issues: write
     steps:
       - uses: actions/checkout@v4
-      - name: Refresh with bounded retries and persisted outcome
-        run: python3 web/ops/refresh-request.py
-      - name: Deduplicated incident on total failure
+      - name: Independent game notices, PVs and priority broadcasts
+        run: python3 web/ops/game-refresh-request.py --mode fast
+      - name: Deduplicated incident on actual updater failure
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search 'in:title "GAGETHER refresh incident"' --json number --jq '.[0].number // empty')
           if [ -z "$existing" ]; then
-            gh issue create --repo "$GITHUB_REPOSITORY" --title 'GAGETHER refresh incident' --body "Refresh or verification failed. Check https://gagether.wiki/owner/operations and $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID . This incident is deduplicated until resolved."
+            gh issue create --repo "$GITHUB_REPOSITORY" --title 'GAGETHER refresh incident' --body "An independent updater transport, authentication, validation or readback failed. Check https://gagether.wiki/owner/operations and $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID ."
           fi
+  details:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Independent low-priority game details and maintenance
+        run: python3 web/ops/game-refresh-request.py --mode details --once

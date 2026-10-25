@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "siteVersion": 154,
-  "siteCommit": "5fd1e0ce819041e6338dd9a83f44977b9ac2a4df",
-  "runtimeFingerprint": "ad21b13019ac11fe075b75aa6b43ffdbe789021e00506756eeedf4528d78f75e",
+  "siteVersion": 155,
+  "siteCommit": "01d3cbc197c9b9dd69c90151f18b3fa51213143e",
+  "runtimeFingerprint": "87fa4a0d382714e1a5c05dfffa2f3ce0dc8914242cdfffae848e1a0a12881f71",
   "canonicalOnly": [
     "content/character-rosters/bootstrap.json",
     "content/character-rosters/artwork-manifest.json",

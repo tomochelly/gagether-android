@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "ad21b13019ac11fe075b75aa6b43ffdbe789021e00506756eeedf4528d78f75e",
+  "fingerprint": "87fa4a0d382714e1a5c05dfffa2f3ce0dc8914242cdfffae848e1a0a12881f71",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -120,7 +120,7 @@
     },
     {
       "path": "app/api/fast-refresh/route.ts",
-      "sha256": "e1eb846847ca3b960919d125d6e4c45d3de67feecd0d1de5455f5d0505b5c3b6"
+      "sha256": "ec12cd4ace03039d5ad60cfdb880296651999eef73cc6e70bfae512208ade835"
     },
     {
       "path": "app/api/favorites/route.ts",
@@ -160,7 +160,7 @@
     },
     {
       "path": "app/api/operations/route.ts",
-      "sha256": "c6a1943c82de94e5ee169037d780c272ff70abf22a1bfe02eb7c8e4bef8ae980"
+      "sha256": "2e6a5fc40df8333096a151104097b7f14a4cd69bee8cce48b97a1be84cb65e4f"
     },
     {
       "path": "app/api/owner/analytics/route.ts",
@@ -172,7 +172,7 @@
     },
     {
       "path": "app/api/owner/operations/route.ts",
-      "sha256": "5bd276b4663645823aa709b1a6b8f2de2cc9a7379adb31e72f965655decd9720"
+      "sha256": "1deb0fc73fde4caa58c58a2627c4487c835fa526cea1f37499310e967ab5328d"
     },
     {
       "path": "app/api/refresh/route.ts",
@@ -600,7 +600,7 @@
     },
     {
       "path": "components/operations-console.tsx",
-      "sha256": "2a82d2ca2f7c153f29b77cd809840815dd87b2fd5c268caae7ba5817384da978"
+      "sha256": "6a369498999f14f3a7250e4d2a7cd9354817356ba1d630f55d44559cbec640a8"
     },
     {
       "path": "components/owner-editor-boundary.tsx",
@@ -1340,7 +1340,7 @@
     },
     {
       "path": "lib/additional-content-store.ts",
-      "sha256": "4117536910205d8abbc3001a02909e20a31110744e1861a36c7a95c1b9398be1"
+      "sha256": "e467ace8d0bc49fa441f33b847fe904af32e471a2a25fd0fd7cc345f822086b4"
     },
     {
       "path": "lib/additional-game-content.ts",
@@ -1392,11 +1392,11 @@
     },
     {
       "path": "lib/broadcast-metadata.ts",
-      "sha256": "f0068abd9f59e6346ec74ceaa2362fa7f087083efa565902c88bce69b7047285"
+      "sha256": "25b260ef3b67fcf52d65f5cc5d7de11e534381b02abe9e64115948357daeaef3"
     },
     {
       "path": "lib/broadcast-recaps.ts",
-      "sha256": "61042e97a0be2f7910bdeb10912bc58c2f8d0a06b83ff05f675f43134fc3271d"
+      "sha256": "9d277b510d77246a95d0977fcf07108bee2222ab67b923f96178c765c600236e"
     },
     {
       "path": "lib/broadcast-reminder-i18n.ts",
@@ -1508,7 +1508,7 @@
     },
     {
       "path": "lib/content-schema.ts",
-      "sha256": "89f2f711eb3d5835db8c1e34d61ce94dc496e6292350d34f153ea54ec0044e04"
+      "sha256": "ad78c51b90674a192bda8c8d42e90cd3ee06cc61c0876be81e84bb541f0cf87e"
     },
     {
       "path": "lib/discord-feed.ts",
@@ -1580,7 +1580,7 @@
     },
     {
       "path": "lib/fast-refresh.ts",
-      "sha256": "3c0990b3723f3ff00af78f7d4174589d3667bc9dd9edc4b346eb6a368f00ab9e"
+      "sha256": "80d00c86b16d9e29cf8b2427a7ccfa9d7514037b4c2496c8867388976f0df442"
     },
     {
       "path": "lib/favorite-updates-i18n.ts",
@@ -1604,7 +1604,7 @@
     },
     {
       "path": "lib/feeds.ts",
-      "sha256": "e85f7e3cd288d602c3833b410a8793ec07fd3dfbce6cd388da0df0d467a61c95"
+      "sha256": "86076d64ad4c9911db9593dca1f3131cc134d750461dd387bb2b385493e812e3"
     },
     {
       "path": "lib/fetch-catalog.ts",
@@ -1676,7 +1676,7 @@
     },
     {
       "path": "lib/maintained-artwork-store.ts",
-      "sha256": "b255de0b4a5897e28cca073fa01ed291a2a9e914c62b9ee5a521f3890c88bfa3"
+      "sha256": "e6471ab969ba4f40aaa608220b1ffbcbba724ee2b28b37c90f787a453e0d1c38"
     },
     {
       "path": "lib/maintained-artwork.ts",
@@ -1716,7 +1716,7 @@
     },
     {
       "path": "lib/nte-profile-store.ts",
-      "sha256": "14c65a2ea9f3ba9b6cbb7f2342b69ca95ee1903dfaa0761135bc84a8958b0d37"
+      "sha256": "400969255c4b4d1952da5e332295dde07e2179f203928b03f544151a43864b89"
     },
     {
       "path": "lib/nte-profiles.ts",
@@ -1724,7 +1724,7 @@
     },
     {
       "path": "lib/official-collection.ts",
-      "sha256": "dc26e4bda9f07c5d109e0aac1728a73177891aea958f9a345384fc09876d764f"
+      "sha256": "95c1b8f7388af5dc22ea94f8b258eae012a3e88e1e81b63576a57cd540fcf3a1"
     },
     {
       "path": "lib/official-social-store.ts",
@@ -1736,7 +1736,7 @@
     },
     {
       "path": "lib/official-upload-store.ts",
-      "sha256": "a5750c9bfff85ac500c17cbd999c747d6011bdc429ae16196807ea3f443fd202"
+      "sha256": "8b9029a2b6ab19dd0e29cab79e1b75f1003f4010341f86bb2e75de35cfec7994"
     },
     {
       "path": "lib/official-uploads.ts",
@@ -1820,7 +1820,15 @@
     },
     {
       "path": "lib/refresh-progress.ts",
-      "sha256": "0301128a9bf0fba037800b5da417e9943ac4fc05d278346980a2789c388f8f5a"
+      "sha256": "23fdc77f0de5597eb20d881e031244eb7c42874cb7fd927363601a75283f53e8"
+    },
+    {
+      "path": "lib/refresh-runner.ts",
+      "sha256": "ab018de26a1ee5793284c4e2fc98a306095a409d6e87fbf0ac57c8c6b8256f21"
+    },
+    {
+      "path": "lib/refresh-tasks.ts",
+      "sha256": "8134fa37015e1b8b1175d69a704e264e1cd9860a046fca35e2ecf7ddf3404000"
     },
     {
       "path": "lib/regional-notices.ts",
@@ -1876,7 +1884,7 @@
     },
     {
       "path": "lib/service-health.ts",
-      "sha256": "2bd695d2cd454acf4325f2f5b67ae861f8612185b9616bdaf35f16887b97c146"
+      "sha256": "a0daf3a6c86be88e27edeb1dd148812de4c637f93d5934bdfaa877367d6d6aae"
     },
     {
       "path": "lib/site-announcements.ts",
@@ -1892,7 +1900,7 @@
     },
     {
       "path": "lib/source-body-store.ts",
-      "sha256": "82e9ef2bea8a9e37e70500b56276bb509210d2841e4feff592c83cf6308c082c"
+      "sha256": "22531427f54f2bddda640bec177bf6772a58774f5fa430e180cbbf98102070e8"
     },
     {
       "path": "lib/spotlight.ts",
@@ -1904,7 +1912,7 @@
     },
     {
       "path": "lib/store.ts",
-      "sha256": "7877c589da0400152d6f9817380dbb60549ed9c9a91c502afe73064bb267d71e"
+      "sha256": "9ee3430ae0aa47fc2daf3511c61856590531a337e9f62d9375398cf352185b4d"
     },
     {
       "path": "lib/studio-i18n.ts",
@@ -1920,7 +1928,7 @@
     },
     {
       "path": "lib/types.ts",
-      "sha256": "66be6727b0d06ecd67cc5f6c4db40bcf4cd0c98c317e0bc780c96d643c4d986d"
+      "sha256": "22a8d9915d231ef040970d1421817b8135272d7f33de8770049b332d31cef826"
     },
     {
       "path": "lib/upcoming-pickups.ts",
@@ -1996,7 +2004,7 @@
     },
     {
       "path": "lib/wuwa-weapon-store.ts",
-      "sha256": "8946376def7d6de4c03e6e25a6ddae999232d9484b5f4e0021e87dff9d4312d9"
+      "sha256": "46078be1c4456f8cd5672aa676dce0790feba596bcc328b98ca3cab6098a02fe"
     },
     {
       "path": "lib/wuwa-weapons.ts",

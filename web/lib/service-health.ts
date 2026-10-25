@@ -4,13 +4,13 @@ import {pickupPeriod} from './pickup-history';
 import {env} from 'cloudflare:workers';
 // Installed by versioned migration0010; requests never run schema DDL.
 export async function healthTable(){}
-export async function recordHealth(result:any){
- await healthTable();const row=await env.DB!.prepare("SELECT payload FROM operations_health WHERE key='refresh'").first<{payload:string}>();const old=row?JSON.parse(row.payload):{};
+export async function recordHealth(result:any,taskKey?:string){
+ await healthTable();const healthKey=taskKey?'refresh-health:'+taskKey:'refresh';const row=await env.DB!.prepare("SELECT payload FROM operations_health WHERE key=?").bind(healthKey).first<{payload:string}>();const old=row?JSON.parse(row.payload):{};
  const bad=['failed','validation-failed'].includes(result.outcome)||!result.ok;
- const checks=[...result.koreanChecks||[],...result.feeds||[],...result.regionalChecks||[],...result.channelChecks||[],...result.broadcastChecks||[],...result.collection?.checks||[],...result.structuredChecks||[]];const sources={...old.sources};
+ const checks=[...result.koreanChecks||[],...result.feeds||[],...result.regionalChecks||[],...result.channelChecks||[],...result.uploadChecks||[],...result.broadcastChecks||[],...result.collection?.checks||[],...result.structuredChecks||[]];const sources={...old.sources};
  for(const c of checks){const key=c.source||c.gameId||c.url,previous=sources[key]||{};sources[key]={...c,lastSuccess:c.status==='ok'?c.checkedAt:previous.lastSuccess,consecutiveFailures:c.status==='ok'?0:(previous.consecutiveFailures||0)+1};}
  const value={...old,lastAttempt:result.finishedAt||new Date().toISOString(),lastSuccess:result.ok?result.finishedAt:old.lastSuccess,lastComplete:result.outcome==='complete'?result.finishedAt:old.lastComplete,consecutiveFailures:bad?(old.consecutiveFailures||0)+1:0,outcome:result.outcome||'failed',sources};
- await env.DB!.prepare("INSERT INTO operations_health(key,payload) VALUES('refresh',?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload").bind(JSON.stringify(value)).run();return value;
+ await env.DB!.prepare("INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload").bind(healthKey,JSON.stringify(value)).run();return value;
 }
 export function refreshHealth(checks:{status:string}[],valid=true){
  const successful=checks.filter(c=>c.status==='ok').length,failed=checks.length-successful;

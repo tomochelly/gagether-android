@@ -20,7 +20,7 @@ export interface OfficialBroadcast {
  status:'scheduled'|'live'|'ended'|'cancelled';youtubeId?:string;channel?:string;locale:Locale;
  sourceUrl:string;announcementUrl:string;originalTitle:string;announcedAt:string|null;
  scheduledAt:string|null;scheduledDate?:string;programStartAt?:string|null;actualStartAt?:string|null;endedAt:string|null;
- thumbnailUrl?:string;official:true;metadataVerified:true;watched:false;verifiedAt:string;statusCheckedAt?:string;
+ thumbnailUrl?:string;official:true;metadataVerified:true;watched:false;verifiedAt:string;statusCheckedAt?:string;channelId?:string;
 }
 export interface StatRow {label:Localized;value:string;note?:Localized;icon?:GameIcon}
 export interface MaterialGroup {id:string;title:Localized;basis?:Localized;items:{id:string;name?:Localized;quantity:string;icon?:GameIcon;sourceUrl:string;sourceKind:'official'|'community'}[]}

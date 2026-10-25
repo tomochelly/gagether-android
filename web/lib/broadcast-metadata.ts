@@ -10,10 +10,10 @@ export function embeddedJson(html:string,name:string):any{
   if(c==='"')quoted=true;else if(c==='{'||c==='[')depth++;else if(c==='}'||c===']'){depth--;if(!depth){try{return JSON.parse(html.slice(start,i+1));}catch{return null;}}}
  }return null;
 }
-export function channelVideos(html:string):{channelId:string;ids:string[]}{
- const data=embeddedJson(html,'ytInitialData');const ids=new Set<string>();
- function walk(x:any){if(!x||typeof x!=='object')return;if(x.videoRenderer?.videoId)ids.add(x.videoRenderer.videoId);if(x.lockupViewModel?.contentId)ids.add(x.lockupViewModel.contentId);for(const v of Object.values(x))if(v&&typeof v==='object')walk(v);}
- walk(data);return {channelId:data?.metadata?.channelMetadataRenderer?.externalId||'',ids:[...ids].filter(x=>/^[\w-]{11}$/.test(x)).slice(0,8)};
+export function channelVideos(html:string,prioritizeCurrent=false):{channelId:string;ids:string[]}{
+ const data=embeddedJson(html,'ytInitialData');const ids=new Set<string>(),urgent=new Set<string>();
+ function walk(x:any){if(!x||typeof x!=='object')return;const item=x.videoRenderer||x.lockupViewModel,id=item?.videoId||item?.contentId;if(id){ids.add(id);if(item.upcomingEventData||item.isUpcoming||/LIVE_NOW|BADGE_STYLE_TYPE_LIVE_NOW|\"style\":\"LIVE\"|UPCOMING/.test(JSON.stringify(item)))urgent.add(id);}for(const v of Object.values(x))if(v&&typeof v==='object')walk(v);}
+ walk(data);return {channelId:data?.metadata?.channelMetadataRenderer?.externalId||'',ids:(prioritizeCurrent?[...urgent,...[...ids].filter(id=>!urgent.has(id)).slice(0,2)]:[...ids]).filter(x=>/^[\w-]{11}$/.test(x)).slice(0,8)};
 }
 export function readBroadcast(html:string,id:string,channelId:string,locale:OfficialBroadcast['locale'],checkedAt:string,old?:OfficialBroadcast):OfficialBroadcast|null{
  const p=embeddedJson(html,'ytInitialPlayerResponse'),v=p?.videoDetails,m=p?.microformat?.playerMicroformatRenderer,l=m?.liveBroadcastDetails;
@@ -25,7 +25,7 @@ export function readBroadcast(html:string,id:string,channelId:string,locale:Offi
  if(!status)return null;
  if(old&&old.youtubeId!==id)return null;
  const url='https://www.youtube.com/watch?v='+id;
- const next:OfficialBroadcast={...(old||{}),status,youtubeId:id,channel:v.author,locale,sourceUrl:url,announcementUrl:old?.announcementUrl||url,originalTitle:v.title,announcedAt:old?.announcedAt||clock(m.publishDate),scheduledAt:status==='scheduled'?start:old?.scheduledAt||null,actualStartAt:status!=='scheduled'?start:old?.actualStartAt||null,endedAt,official:true,metadataVerified:true,watched:false,verifiedAt:old?.verifiedAt||checkedAt,statusCheckedAt:checkedAt};
+ const next:OfficialBroadcast={...(old||{}),status,youtubeId:id,channelId,channel:v.author,locale,sourceUrl:url,announcementUrl:old?.announcementUrl||url,originalTitle:v.title,announcedAt:old?.announcedAt||clock(m.publishDate),scheduledAt:status==='scheduled'?start:old?.scheduledAt||null,actualStartAt:status!=='scheduled'?start:old?.actualStartAt||null,endedAt,official:true,metadataVerified:true,watched:false,verifiedAt:old?.verifiedAt||checkedAt,statusCheckedAt:checkedAt};
  const strip=(b:OfficialBroadcast)=>({...b,statusCheckedAt:undefined,verifiedAt:undefined});
  if(!old||JSON.stringify(strip(old))!==JSON.stringify(strip(next)))next.verifiedAt=checkedAt;
  return next;

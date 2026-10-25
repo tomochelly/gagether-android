@@ -1,5 +1,5 @@
 import {env} from 'cloudflare:workers';
-import {readData,readBaseData,readEditorial,saveEntries} from './store';
+import {readData,readBaseData,readEditorial,saveEntries,saveEntryChanges} from './store';
 import {sameEditValue} from './inline-edit';
 import {reviewQueue} from './collection-store';
 import {bodyFromDocument,importBody} from './source-bodies';
@@ -7,9 +7,9 @@ import {effectiveRegion} from './presentation';
 import {games} from './games';
 import type {Entry} from './types';
 /** Publish readable source material. Import receipts are separate from human review. */
-export async function importCapturedBodies(ids?:string[],limit=20){
- const queue=(await reviewQueue(5000)).filter(d=>d.sourceAccess==='body'&&(!ids||ids.includes(d.id)));
- const catalog=await readData({automatic:true,collection:true});if(!catalog.persistent)throw Error('Current catalog unavailable');
+export async function importCapturedBodies(ids?:string[],limit=20,gameId?:string){
+ const queue=(await reviewQueue(5000)).filter(d=>d.sourceAccess==='body'&&(!gameId||d.gameId===gameId)&&(!ids||ids.includes(d.id)));
+ const catalog=await readData({automatic:true,collection:true,gameId});if(!catalog.persistent)throw Error('Current catalog unavailable');
  const receiptRows=await env.DB!.prepare("SELECT key,payload FROM operations_health WHERE key LIKE 'body-import:%'").all<{key:string;payload:string}>(),receipts=new Map(receiptRows.results.map(r=>[r.key,r.payload]));
  // Structured activity sections have their own parser. A whole version notice
  // must not replace their section body or give every event its compensation.
@@ -21,7 +21,7 @@ export async function importCapturedBodies(ids?:string[],limit=20){
   for(const m of matches){const old=entries.get(m.id);if(!old)continue;const next=importBody(old,body);if(next!==old){entries.set(m.id,next);changed.set(m.id,next);applied=true;}}
   applied?imported++:unchanged++;completed.push(item);
  }
- const list=[...changed.values()];for(let i=0;i<list.length;i+=10)await saveEntries(list.slice(i,i+10));
+ const list=[...changed.values()];for(let i=0;i<list.length;i+=10)await saveEntryChanges(list.slice(i,i+10).map(after=>({before:originals.entries.find(e=>e.id===after.id),after})));
  const saved=list.length?await readBaseData({ids:list.map(e=>e.id)}):{entries:[],persistent:true};
  if(!saved.persistent)throw Error('Imported body readback unavailable');
  const edits=await readEditorial();
