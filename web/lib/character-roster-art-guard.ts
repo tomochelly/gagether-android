@@ -3,7 +3,11 @@ import restricted from '../content/character-rosters/restricted-artwork.json' wi
 import type {RosterCharacter} from './character-roster';
 type Art=NonNullable<RosterCharacter['image']>;
 export function rejectedRosterArt(url:string){return rejected.some(a=>url===a.url||url.includes('/'+a.sha256+'.'));}
-export function classifyRosterArt(a:Art):Art{return restricted.some(r=>a.url===r.url||a.url.includes('/'+r.sha256+'.'))?{...a,locale:'en'}:a;}
+export function classifyRosterArt(a:Art):Art{
+ let result=/^https:\/\/cdn\.prydwen\.gg\/images\/zenless-zone-zero\/characters\/[^/?#]+_card\.webp(?:[?#]|$)/.test(a.url)?{...a,kind:'card' as const}:a;
+ if(restricted.some(r=>a.url===r.url||a.url.includes('/'+r.sha256+'.')))result={...result,locale:'en'};
+ return result;
+}
 export function cleanRosterArt(c:RosterCharacter):RosterCharacter{
  const image=c.image&&!rejectedRosterArt(c.image.url)?classifyRosterArt(c.image):undefined;
  const fallback=restricted.find(r=>r.id===c.id&&[image,...c.images||[]].some(a=>a&&(a.url===r.url||a.url.includes('/'+r.sha256+'.'))))?.fallbackArtwork as Art|undefined;

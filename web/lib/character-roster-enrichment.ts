@@ -5,6 +5,15 @@ import type {CharacterRoster,RosterCharacter} from './character-roster';
 
 const snapshots=new Map((bootstrap as CharacterRoster[]).map(r=>[r.gameId,r]));
 const locales=['ko','en','ja','zh'] as const;
+function invalidReversePanel(c:RosterCharacter){
+ return c.stats?.some(s=>['hp','atk','reality_def','mental_def'].includes(s.id)&&(!Number.isFinite(Number(s.value))||Number(s.value)>100000||Number(s.value)<0))||false;
+}
+function cleanReverseStats(c:RosterCharacter):RosterCharacter{
+ const number=(id:string)=>{const s=c.stats?.find(s=>s.id===id);return s?Number(s.value.replace('%','').trim()):NaN;};
+ // A 0/0 critical pair in the source is a missing optional panel, not a
+ // character with zero basic critical damage. Other valid facts remain.
+ return number('crit_rate')===0&&number('crit_dmg')===0?{...c,stats:c.stats?.filter(s=>!['crit_rate','crit_dmg'].includes(s.id))}:c;
+}
 function fillCopy(primary:RosterCharacter['name'],extra:RosterCharacter['name']){
  return Object.fromEntries(locales.map(l=>[l,primary[l]||extra[l]])) as RosterCharacter['name'];
 }
@@ -33,14 +42,18 @@ export function retainCharacterFacts(c:RosterCharacter,extra:RosterCharacter):Ro
 }
 export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
  const reference=snapshots.get(data.gameId);if(!reference)return data;
- const known=new Map(reference.characters.map(c=>[c.id,c]));
+ const known=new Map(reference.characters.map(raw=>{const c=data.gameId==='reverse1999'?cleanReverseStats(raw):raw;return [c.id,data.gameId==='reverse1999'&&invalidReversePanel(c)?{...c,stats:undefined}:c];}));
  const characters=data.characters.map(raw=>{
-  let c=raw;
+  let c=data.gameId==='reverse1999'?cleanReverseStats(raw):raw;
   if(data.gameId==='hsr'&&/^80(?:0[1-9]|10)$/.test(c.id)&&Object.values(c.name).some(v=>v.includes('{NICKNAME}'))){
    const path=c.traits?.find(t=>t.id==='path')?.value;const headings={ko:'개척자',en:'Trailblazer',ja:'開拓者',zh:'开拓者'};
    c={...c,name:{...c.name}};for(const l of locales)if(c.name[l].includes('{NICKNAME}'))c.name[l]=headings[l]+(path?.[l]?' · '+path[l]:'');
   }
-  const extra=known.get(c.id);known.delete(c.id);return extra?retainCharacterFacts(c,extra):c;
+  const reference=known.get(c.id),extra=data.gameId==='reverse1999'&&reference?cleanReverseStats(reference):reference;known.delete(c.id);
+  // A bad upstream identity join can contaminate both the localized name and
+  // the whole panel. Use only this exact source ID's valid reference facts.
+  if(data.gameId==='reverse1999'&&invalidReversePanel(c))c={...c,...extra?{name:fillCopy(extra.name,c.name),nameSources:{...c.nameSources,...extra.nameSources}}:{},stats:extra?.stats};
+  return extra?retainCharacterFacts(c,extra):c;
  });
  characters.push(...known.values());characters.sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
  const pin=(id:string,a:RosterCharacter['image'])=>{if(!a)return a;const saved=artwork.find(s=>s.gameId===data.gameId&&s.characterId===id&&s.url===a.url);return saved?{...a,url:saved.publicUrl}:a;};
