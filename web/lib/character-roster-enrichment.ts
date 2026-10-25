@@ -9,8 +9,8 @@ const snapshots=new Map((bootstrap as CharacterRoster[]).map(r=>[r.gameId,r]));
 const locales=['ko','en','ja','zh'] as const;
 /** A pinned byte-identical original keeps its owner's exact framing on reads. */
 export function pinRosterArtworkFrames(gameId:string,id:string,frames:RosterArtPlacement[]){
- const aliases=new Map(artwork.filter(a=>a.gameId===gameId&&a.characterId===id&&(a as {delivery?:string}).delivery!=='source-original').map(a=>[a.url,a.publicUrl])),mapped=new Map<string,{row:RosterArtPlacement;direct:boolean}>();
- for(const row of frames){const url=aliases.get(row.url)||row.url,key=rosterArtUrl(url),direct=url===row.url,old=mapped.get(key);if(!old||direct||!old.direct)mapped.set(key,{row:url===row.url?row:{...row,url},direct});}
+ const aliases=new Map(artwork.filter(a=>a.gameId===gameId&&a.characterId===id).map(a=>(a as {delivery?:string}).delivery==='source-original'?[rosterArtUrl(a.publicUrl),a.url]:[rosterArtUrl(a.url),a.publicUrl])),mapped=new Map<string,{row:RosterArtPlacement;direct:boolean}>();
+ for(const row of frames){const url=aliases.get(rosterArtUrl(row.url))||row.url,key=rosterArtUrl(url),direct=url===row.url,old=mapped.get(key);if(!old||direct||!old.direct)mapped.set(key,{row:url===row.url?row:{...row,url},direct});}
  return [...mapped.values()].map(v=>v.row);
 }
 function invalidReversePanel(c:RosterCharacter){

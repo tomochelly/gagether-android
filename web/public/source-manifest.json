@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "e53cad0ab1cf71b0aef98ff20f2ff81ccb25f1387d58ab21065ed41392c3db8b",
+  "fingerprint": "2cfa2bb724371bdc1406499a259d3182e0a074bc5699f0760d82ee0a907d01ad",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -220,7 +220,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "62dc86699815e4087bb98701464c0ebdb62be42639f9782caba08788029ae939"
+      "sha256": "b7270bade5c1e108c73147dc962a79110206d937a946ef468d10ed133e42690e"
     },
     {
       "path": "app/chatgpt-auth.ts",
@@ -468,11 +468,11 @@
     },
     {
       "path": "components/character-landing.tsx",
-      "sha256": "07e0204a254d3892c54005c5bb47e3803748fbe0270d3f21d69430f2a462895b"
+      "sha256": "f136f62a330fd76146223adf88267b0c712e11f4e02dcce6d3fb5319113e3308"
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "bf74d41979cf8dd6b01bf73d5ab571057b0a5afe6fc16711247531580c74ee45"
+      "sha256": "041055c9f22a9da97a8de2835fa3960b5c4fcb76c20115a009f3351e021afebb"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -668,7 +668,7 @@
     },
     {
       "path": "components/roster-artwork-editor.tsx",
-      "sha256": "79777d49972476221a3ecedf93da6a0a03bc68efad0f6195264442be09eda0c8"
+      "sha256": "d593cfd734cb549d9d7570884d7c1f871e010175af87737b379e5b4af5bb10d3"
     },
     {
       "path": "components/roster-historical-background.tsx",
@@ -1064,15 +1064,15 @@
     },
     {
       "path": "content/character-rosters/artwork-manifest.json",
-      "sha256": "2c6102f7fc0bd75b5d72730058a3a3513b85a52cfe9117923b6ef1d94395ad56"
+      "sha256": "255ad4b7ee76ac4e1b42ed71bc21d21f1a43fc044306043e23f951fa340f21c1"
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "3a4ae50034b77175eabb33513ee3cd3541bdac6013b02bb04fff532132d5bfea"
+      "sha256": "99474e751fe8539c4a1bcfa49fc194d91f5d7c1453b098cf973f9008560af674"
     },
     {
       "path": "content/character-rosters/recovery/manifest.json",
-      "sha256": "39ffe1ca518b0081ebf117a36120483ce4439e14df80552f5de553e849b4d1fd"
+      "sha256": "bdea7a96125698a65d38cf9f03871062943ddcce800e30a82136d1a715850640"
     },
     {
       "path": "content/character-rosters/rejected-artwork.json",
@@ -1112,7 +1112,7 @@
     },
     {
       "path": "content/gallery-subject-bounds.json",
-      "sha256": "0c8f160aa51474adb1318ba897157fd43e3f42a320c9476202d8b768a5445af5"
+      "sha256": "57db346d94ab06ad6efc9805e3c4fff2b40469dbd5362ac39746378de1fa58bf"
     },
     {
       "path": "content/hoyo-localization-research.json",
@@ -1224,7 +1224,7 @@
     },
     {
       "path": "content/roster-detail-icons.json",
-      "sha256": "2d61bbaedc4120623f3e1c4e47dc6750b80e42ee1d074a4aefe85a699858a277"
+      "sha256": "1c763446bc29a865e76bace248e6d3dae3c345deb491d702b971276d91392ed6"
     },
     {
       "path": "content/source-review-2026-10-16.json",
@@ -1456,7 +1456,7 @@
     },
     {
       "path": "lib/character-roster-enrichment.ts",
-      "sha256": "2f578f27565e9f9acdfaf3d63ff4e344445d991a0938b7dca8d5c436969c85ef"
+      "sha256": "e21942736ef17b67effbb6f29d9f6d5a155efb0f99e183624d65c260956d2f8f"
     },
     {
       "path": "lib/character-roster-metrics.ts",
@@ -1472,7 +1472,7 @@
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "8dc3b0ce4b9846d6bc562e885aea72390e797688273602e0e4a82136a35ea70e"
+      "sha256": "bc6495a645efc567465b60b2f7ff821ac88aee46c51122506b7bee61541babe9"
     },
     {
       "path": "lib/collaboration-sources.ts",
@@ -1888,11 +1888,11 @@
     },
     {
       "path": "lib/roster-detail-catalog.ts",
-      "sha256": "9049aadb4b5b4348034990807eb4bc94a5360baebcb29464aa397125bac25820"
+      "sha256": "b2bcb7bf90c78d969653a016fce7791be4f00fd838c4a8a82cf901074006d067"
     },
     {
       "path": "lib/roster-detail-icons.ts",
-      "sha256": "52526f461177ef8afce3656d219bec5b45b69673c69f9a3c6c2a8dfaa7797912"
+      "sha256": "182eb1cada4d5d11892a5e1261e114f6d5776a067d83a3131b68bdf6486d77df"
     },
     {
       "path": "lib/roster-progression.ts",

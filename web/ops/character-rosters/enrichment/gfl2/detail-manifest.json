@@ -1,0 +1,417 @@
+{
+  "gameId": "gfl2",
+  "forms": 59,
+  "baseStats": 5,
+  "totalTables": 1536,
+  "tableKinds": {
+    "skill": 302,
+    "fortification": 348,
+    "neural": 497,
+    "remoulding": 354,
+    "summon": 35
+  },
+  "iconSourceIdentities": 751,
+  "uniqueIconOriginals": 695,
+  "uniqueIconBytes": 28083790,
+  "maxIconDimensions": [
+    306,
+    306
+  ],
+  "sourceLanguage": "en",
+  "regionalImplementation": "not asserted; source provides no server-specific revision flags",
+  "panelBasis": "Source level/Fortification/gear/Neural Helix assumptions unspecified",
+  "completeWireBytes": 425410,
+  "completeWireSha256": "9ae13e1ca3ded260199d63fe783fdc4c60f13c1e6db94b2df964f0a9a827a483",
+  "gaps": [
+    {
+      "id": "Andoris",
+      "reason": "Source missing glossary term(s) 0,1 in summon skill_en_passant"
+    },
+    {
+      "id": "Helen",
+      "reason": "Source range discrepancy basic: prose 6 / field 4"
+    },
+    {
+      "id": "Helen",
+      "reason": "Source missing glossary term(s) 1 in base skill skill2"
+    },
+    {
+      "id": "Lewis",
+      "reason": "Source Fortification incomplete: 0/6 stages (source section: SOON)"
+    },
+    {
+      "id": "Soppo",
+      "reason": "Source missing Remolding material cost embryo/bulwark"
+    }
+  ],
+  "formsAudit": [
+    {
+      "id": "Alva",
+      "sourceId": "Alva",
+      "sourceUrl": "https://gfl2.help/en/characters/Alva",
+      "tables": 25
+    },
+    {
+      "id": "Andoris",
+      "sourceId": "Andoris",
+      "sourceUrl": "https://gfl2.help/en/characters/Andoris",
+      "tables": 31
+    },
+    {
+      "id": "Balthilde",
+      "sourceId": "Balthilde",
+      "sourceUrl": "https://gfl2.help/en/characters/Balthilde",
+      "tables": 31
+    },
+    {
+      "id": "Basti",
+      "sourceId": "Basti",
+      "sourceUrl": "https://gfl2.help/en/characters/Basti",
+      "tables": 25
+    },
+    {
+      "id": "Belka",
+      "sourceId": "Belka",
+      "sourceUrl": "https://gfl2.help/en/characters/Belka",
+      "tables": 25
+    },
+    {
+      "id": "Centaureissi",
+      "sourceId": "Centaureissi",
+      "sourceUrl": "https://gfl2.help/en/characters/Centaureissi",
+      "tables": 26
+    },
+    {
+      "id": "Cheeta",
+      "sourceId": "Cheeta",
+      "sourceUrl": "https://gfl2.help/en/characters/Cheeta",
+      "tables": 25
+    },
+    {
+      "id": "Cheyanne",
+      "sourceId": "Cheyanne",
+      "sourceUrl": "https://gfl2.help/en/characters/Cheyanne",
+      "tables": 25
+    },
+    {
+      "id": "Colphne",
+      "sourceId": "Colphne",
+      "sourceUrl": "https://gfl2.help/en/characters/Colphne",
+      "tables": 26
+    },
+    {
+      "id": "Daiyan",
+      "sourceId": "Daiyan",
+      "sourceUrl": "https://gfl2.help/en/characters/Daiyan",
+      "tables": 25
+    },
+    {
+      "id": "Dushevnaya",
+      "sourceId": "Dushevnaya",
+      "sourceUrl": "https://gfl2.help/en/characters/Dushevnaya",
+      "tables": 25
+    },
+    {
+      "id": "Faye",
+      "sourceId": "Faye",
+      "sourceUrl": "https://gfl2.help/en/characters/Faye",
+      "tables": 25
+    },
+    {
+      "id": "Florence",
+      "sourceId": "Florence",
+      "sourceUrl": "https://gfl2.help/en/characters/Florence",
+      "tables": 28
+    },
+    {
+      "id": "Groza",
+      "sourceId": "Groza",
+      "sourceUrl": "https://gfl2.help/en/characters/Groza",
+      "tables": 26
+    },
+    {
+      "id": "Harpsy",
+      "sourceId": "Harpsy",
+      "sourceUrl": "https://gfl2.help/en/characters/Harpsy",
+      "tables": 25
+    },
+    {
+      "id": "Helen",
+      "sourceId": "Helen",
+      "sourceUrl": "https://gfl2.help/en/characters/Helen",
+      "tables": 25
+    },
+    {
+      "id": "Jiangyu",
+      "sourceId": "Jiangyu",
+      "sourceUrl": "https://gfl2.help/en/characters/Jiangyu",
+      "tables": 26
+    },
+    {
+      "id": "Klukai",
+      "sourceId": "Klukai",
+      "sourceUrl": "https://gfl2.help/en/characters/Klukai",
+      "tables": 26
+    },
+    {
+      "id": "Krolik",
+      "sourceId": "Krolik",
+      "sourceUrl": "https://gfl2.help/en/characters/Krolik",
+      "tables": 25
+    },
+    {
+      "id": "Ksenia",
+      "sourceId": "Ksenia",
+      "sourceUrl": "https://gfl2.help/en/characters/Ksenia",
+      "tables": 25
+    },
+    {
+      "id": "Lainie",
+      "sourceId": "Lainie",
+      "sourceUrl": "https://gfl2.help/en/characters/Lainie",
+      "tables": 32
+    },
+    {
+      "id": "Lenna",
+      "sourceId": "Lenna",
+      "sourceUrl": "https://gfl2.help/en/characters/Lenna",
+      "tables": 26
+    },
+    {
+      "id": "Leva",
+      "sourceId": "Leva",
+      "sourceUrl": "https://gfl2.help/en/characters/Leva",
+      "tables": 27
+    },
+    {
+      "id": "Lewis",
+      "sourceId": "Lewis",
+      "sourceUrl": "https://gfl2.help/en/characters/Lewis",
+      "tables": 19
+    },
+    {
+      "id": "Lind",
+      "sourceId": "Lind",
+      "sourceUrl": "https://gfl2.help/en/characters/Lind",
+      "tables": 25
+    },
+    {
+      "id": "Littara",
+      "sourceId": "Littara",
+      "sourceUrl": "https://gfl2.help/en/characters/Littara",
+      "tables": 26
+    },
+    {
+      "id": "Liushih",
+      "sourceId": "Liushih",
+      "sourceUrl": "https://gfl2.help/en/characters/Liushih",
+      "tables": 28
+    },
+    {
+      "id": "Loreley",
+      "sourceId": "Loreley",
+      "sourceUrl": "https://gfl2.help/en/characters/Loreley",
+      "tables": 25
+    },
+    {
+      "id": "Lotta",
+      "sourceId": "Lotta",
+      "sourceUrl": "https://gfl2.help/en/characters/Lotta",
+      "tables": 25
+    },
+    {
+      "id": "Makiatto",
+      "sourceId": "Makiatto",
+      "sourceUrl": "https://gfl2.help/en/characters/Makiatto",
+      "tables": 26
+    },
+    {
+      "id": "Mechty",
+      "sourceId": "Mechty",
+      "sourceUrl": "https://gfl2.help/en/characters/Mechty",
+      "tables": 27
+    },
+    {
+      "id": "Mityl",
+      "sourceId": "Mityl",
+      "sourceUrl": "https://gfl2.help/en/characters/Mityl",
+      "tables": 28
+    },
+    {
+      "id": "Mosin-Nagant",
+      "sourceId": "Mosin-Nagant",
+      "sourceUrl": "https://gfl2.help/en/characters/Mosin-Nagant",
+      "tables": 26
+    },
+    {
+      "id": "Nagant",
+      "sourceId": "Nagant",
+      "sourceUrl": "https://gfl2.help/en/characters/Nagant",
+      "tables": 25
+    },
+    {
+      "id": "Nemesis",
+      "sourceId": "Nemesis",
+      "sourceUrl": "https://gfl2.help/en/characters/Nemesis",
+      "tables": 25
+    },
+    {
+      "id": "Nemesis: Gnosis",
+      "sourceId": "Nemesis: Gnosis",
+      "sourceUrl": "https://gfl2.help/en/characters/Nemesis: Gnosis",
+      "tables": 25
+    },
+    {
+      "id": "Nikketa",
+      "sourceId": "Nikketa",
+      "sourceUrl": "https://gfl2.help/en/characters/Nikketa",
+      "tables": 28
+    },
+    {
+      "id": "OTs-14",
+      "sourceId": "OTs-14",
+      "sourceUrl": "https://gfl2.help/en/characters/OTs-14",
+      "tables": 26
+    },
+    {
+      "id": "Papasha",
+      "sourceId": "Papasha",
+      "sourceUrl": "https://gfl2.help/en/characters/Papasha",
+      "tables": 30
+    },
+    {
+      "id": "Peri",
+      "sourceId": "Peri",
+      "sourceUrl": "https://gfl2.help/en/characters/Peri",
+      "tables": 25
+    },
+    {
+      "id": "Peritya",
+      "sourceId": "Peritya",
+      "sourceUrl": "https://gfl2.help/en/characters/Peritya",
+      "tables": 26
+    },
+    {
+      "id": "Phaetusa",
+      "sourceId": "Phaetusa",
+      "sourceUrl": "https://gfl2.help/en/characters/Phaetusa",
+      "tables": 25
+    },
+    {
+      "id": "Qiongjiu",
+      "sourceId": "Qiongjiu",
+      "sourceUrl": "https://gfl2.help/en/characters/Qiongjiu",
+      "tables": 26
+    },
+    {
+      "id": "Qiuhua",
+      "sourceId": "Qiuhua",
+      "sourceUrl": "https://gfl2.help/en/characters/Qiuhua",
+      "tables": 25
+    },
+    {
+      "id": "Robella",
+      "sourceId": "Robella",
+      "sourceUrl": "https://gfl2.help/en/characters/Robella",
+      "tables": 26
+    },
+    {
+      "id": "Sabrina",
+      "sourceId": "Sabrina",
+      "sourceUrl": "https://gfl2.help/en/characters/Sabrina",
+      "tables": 26
+    },
+    {
+      "id": "Sakura",
+      "sourceId": "Sakura",
+      "sourceUrl": "https://gfl2.help/en/characters/Sakura",
+      "tables": 25
+    },
+    {
+      "id": "Sextans",
+      "sourceId": "Sextans",
+      "sourceUrl": "https://gfl2.help/en/characters/Sextans",
+      "tables": 25
+    },
+    {
+      "id": "Sharkry",
+      "sourceId": "Sharkry",
+      "sourceUrl": "https://gfl2.help/en/characters/Sharkry",
+      "tables": 26
+    },
+    {
+      "id": "Soppo",
+      "sourceId": "Soppo",
+      "sourceUrl": "https://gfl2.help/en/characters/Soppo",
+      "tables": 27
+    },
+    {
+      "id": "Springfield",
+      "sourceId": "Springfield",
+      "sourceUrl": "https://gfl2.help/en/characters/Springfield",
+      "tables": 27
+    },
+    {
+      "id": "Suomi",
+      "sourceId": "Suomi",
+      "sourceUrl": "https://gfl2.help/en/characters/Suomi",
+      "tables": 26
+    },
+    {
+      "id": "Tololo",
+      "sourceId": "Tololo",
+      "sourceUrl": "https://gfl2.help/en/characters/Tololo",
+      "tables": 26
+    },
+    {
+      "id": "Ullrid",
+      "sourceId": "Ullrid",
+      "sourceUrl": "https://gfl2.help/en/characters/Ullrid",
+      "tables": 26
+    },
+    {
+      "id": "Vector",
+      "sourceId": "Vector",
+      "sourceUrl": "https://gfl2.help/en/characters/Vector",
+      "tables": 26
+    },
+    {
+      "id": "Vepley",
+      "sourceId": "Vepley",
+      "sourceUrl": "https://gfl2.help/en/characters/Vepley",
+      "tables": 26
+    },
+    {
+      "id": "Voymastina",
+      "sourceId": "Voymastina",
+      "sourceUrl": "https://gfl2.help/en/characters/Voymastina",
+      "tables": 25
+    },
+    {
+      "id": "Yoohee",
+      "sourceId": "Yoohee",
+      "sourceUrl": "https://gfl2.help/en/characters/Yoohee",
+      "tables": 28
+    },
+    {
+      "id": "Zhaohui",
+      "sourceId": "Zhaohui",
+      "sourceUrl": "https://gfl2.help/en/characters/Zhaohui",
+      "tables": 25
+    }
+  ],
+  "fortificationCoverage": {
+    "completeForms": 58,
+    "expectedForms": 59,
+    "incompleteForms": [
+      {
+        "id": "Lewis",
+        "providedStages": 0
+      }
+    ]
+  },
+  "uniqueIconFormats": {
+    "png": 686,
+    "webp": 9
+  }
+}

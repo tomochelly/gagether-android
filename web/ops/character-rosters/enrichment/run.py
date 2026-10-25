@@ -89,6 +89,41 @@ def enrich_files(files,work):
     if len(json.dumps(d,ensure_ascii=False,separators=(',',':')).encode())>4400000:raise ValueError('Uma encoded detail exceeds ingest bound')
     shutil.copyfile(candidate,output/'umamusume.json')
    except Exception as e:report['status']='partial';report['umaError']=str(e)
+  if key=='b' and 'gfl2'in files:
+   target=output/'gfl2-details';target.mkdir(exist_ok=True)
+   roster=output/'gfl2.json'
+   try:
+    result=subprocess.run([sys.executable,str(ROOT/'gfl2/enrich.py'),'--input',str(roster),'--output',str(target/'gfl2.json'),'--cache-dir',str(target/'sources'),'--report',str(target/'report.json'),'--refresh'],check=False,timeout=1200)
+    detail=json.loads((target/'report.json').read_text())if(target/'report.json').exists()else{}
+    report['gfl2Enrichment']={'exitCode':result.returncode,'details':{k:v for k,v in detail.items()if k!='receipts'}}
+    if result.returncode or detail.get('status')not in ['ok','partial']:raise ValueError('GFL2 detail source failed; retaining last-good')
+    if detail.get('status')!='ok':report['status']='partial'
+    roster=target/'gfl2.json'
+   except Exception as e:report['status']='partial';report['gfl2Error']=str(e)
+   # The official complete illustration has an independent failure boundary.
+   try:
+    art=target/'art'
+    result=subprocess.run([sys.executable,str(ROOT/'gfl2_art/collect.py'),'--input',str(roster),'--output-dir',str(art),'--source-dir',str(target/'art-sources')],check=False,timeout=1200)
+    audit=json.loads((art/'inventory.json').read_text())if(art/'inventory.json').exists()else{}
+    report['gfl2ArtEnrichment']={'exitCode':result.returncode,'details':{k:v for k,v in audit.items()if k not in ['assets','sources']}}
+    if result.returncode or audit.get('status')not in ['ok','partial']:raise ValueError('GFL2 official art source failed')
+    if audit.get('status')!='ok':report['status']='partial'
+    roster=art/'gfl2-art.json'
+   except Exception as e:report['status']='partial';report['gfl2ArtError']=str(e)
+   try:
+    import importlib.util
+    spec=importlib.util.spec_from_file_location('gagether_gfl2_pack',ROOT/'gfl2/pack.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+    prior=json.loads((output/'gfl2.json').read_text());complete=json.loads(roster.read_text())
+    if {c['id']for c in complete['characters']}!={c['id']for c in prior['characters']}:raise ValueError('GFL2 exact detail identity mismatch')
+    _,wire=module.encode(complete)
+    (output/'gfl2.json').write_text(json.dumps(wire,ensure_ascii=False,separators=(',',':'))+'\n')
+   except Exception as e:
+    report['status']='partial';report['gfl2PackingError']=str(e)
+    # A failed detail pack must not discard independently checked official art.
+    candidate=json.loads(roster.read_text());prior=json.loads((output/'gfl2.json').read_text())
+    if candidate.get('gameId')=='gfl2'and{c['id']for c in candidate['characters']}=={c['id']for c in prior['characters']}:
+     payload=json.dumps(candidate,ensure_ascii=False,separators=(',',':'))+'\n'
+     if len(payload.encode())<=4400000:(output/'gfl2.json').write_text(payload)
   if key=='b' and 'nte'in files:
    # Keep the exact art and rich client facts in the same scoped reference path.
    # The detail helper deliberately pins its verified Global client version.

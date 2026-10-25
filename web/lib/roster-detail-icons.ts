@@ -1,6 +1,6 @@
 import inventory from '../content/roster-detail-icons.json' with {type:'json'};
 import type {RosterCharacter} from './character-roster';
-const icons=new Map((inventory as {gameId:string;url:string;publicUrl:string}[]).map(a=>[a.gameId+'|'+a.url,a.publicUrl]));
+const icons=new Map((inventory as {gameId:string;url:string;publicUrl:string;delivery?:string}[]).filter(a=>a.delivery!=='source-original').map(a=>[a.gameId+'|'+a.url,a.publicUrl]));
 function mapChanged<T>(values:T[]|undefined,fn:(v:T)=>T){if(!values)return values;let changed=false;const mapped=values.map(v=>{const next=fn(v);changed ||=next!==v;return next});return changed?mapped:values;}
 /** Only an exact reviewed same-game source glyph may use a pinned original. */
 export function pinRosterFactIcons(c:RosterCharacter,gameId:string):RosterCharacter{

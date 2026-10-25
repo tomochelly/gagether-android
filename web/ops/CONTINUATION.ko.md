@@ -213,6 +213,20 @@
 - 확장archive한도도확인하여최종Uma271모두검증된원본URL전달로정리(native원본전부보존),아이콘/상세/경주마데이터사이트포함. Node450전체+영향7+source전달추가조건검증,tsc/build통과. 최종runtime e53cad0ab1cf71b0aef98ff20f2ff81ccb25f1387d58ab21065ed41392c3db8b. 아직사이트버전은v158이며새버전저장재시도직전이다.
 
 
-## 현재 상태 · 우마무스메 v159 실제 배포 완료 / GitHub검증중
+## 현재 상태 · 우마무스메 v159 배포·실제GitHub검증 완료
 
 source cb668b0d14618c9e300366bb9f1c679b7fbec768,deployment appgdep_6addc379f26081919b264a82dbb50b0f succeeded. runtime e53cad0ab1cf71b0aef98ff20f2ff81ccb25f1387d58ab21065ed41392c3db8b(512=509code+3canonical). 운영JP271/KR214/Global112,전신원본들·성급3→5·성장률·모티브기본fold/펼친본문/아이콘실제로드확인. 최종archiveinput227775379/확장260684671로한도통과. ops/UMA-DETAILS.ko.md참조. 다음:publicruntime509+canonical3 검증/실제CI→최종native문서체크포인트.
+
+- public main28995a3b5dd617c280cf203df768d8f010038944,실제source40178785958/Android40178785948success,실행코드509+canonical3정확일치. public430/tsc통과. 다음:실제web40178785962최종결과기록후native docs/QA체크포인트push(재배포없음).
+
+- 최종실제web40178785962/job121125159392 success(Node430,tsc,owner실제DB/R2,Python28+14+8+11+18+6+11). source/Android도success. routine rosters40178785951는진행중이며완료주장금지. sourcecb668b0d14618c9e300366bb9f1c679b7fbec768가실제v159게시본이고이후docs/QA sourcecheckpoint는runtime동일로재배포하지않는다. 다음사용자요청시이v159와새sourcecheckpoint·실제Site상태부터재확인.
+
+
+## 우마무스메 표시 수정·소녀전선2 보강 진행 중
+
+운영은 아직v159. Uma 목록/상세 성급 딱지 제거, 전신·설명 분리. GFL2 기존59명 공식 전체 일러스트/1536원문표/751아이콘URL(695네이티브원본)/정기수집 연결. 원문영어·패널기준미표기·Lewis돌파미제공 등은 명시. docs:ops/GFL2-DETAILS.ko.md. native30750092bytes/88복구조각. 754새 원본46,626,728bytes는4개15MB이하 묶음으로 원본Git에 저장(last9eecbe24f562d869b279f5fb163e2eb1323a3b73), 배포는 아직 안 됨. 전체Node451중 회복조각/구도참조2건은원인교정후통과; 추가GFL2원본/SQLite검증2개와영향검사 진행. 다음:productionbuild와동일tree merge→기존publicSite저장/배포→실제화면→public실행코드/hashpins/CI→최종checkpoint.
+
+
+## 현재 상태 · 우마무스메 표시·GFL2 v160 배포 완료
+
+source cc4ca7b2862d9b2bca9e2f6f4272018b46e61fd6,version appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_6b070f1a78f88191990dc282af461921,deployment appgdep_6addcf4aeabc8191b456fa4d5acbc036 succeeded. runtime2cfa2bb724371bdc1406499a259d3182e0a074bc5699f0760d82ee0a907d01ad(512=509code+3canonical). 운영Uma KR214/딱지0/전신상세·성급선택·모티브기본fold, GFL2그로자공식원본1955×2552/게임아이콘/스킬확인. docs:ops/GFL2-DETAILS.ko.md. 로컬publicNode431/tsc/실제source509+3 통과. 다음:publicsource commit/실제CI확인→native최종문서·QA checkpoint(재배포없음).

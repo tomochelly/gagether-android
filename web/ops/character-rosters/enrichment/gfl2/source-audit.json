@@ -1,0 +1,483 @@
+{
+  "gameId": "gfl2",
+  "officialReference": {
+    "url": "https://gf2.haoplay.com/kr/roleinfo/?role=2",
+    "sha256": "5101732d8f414d9989589cc8afe41ba67d8b7574a87be831b08fd7fd84c3d4de",
+    "bytes": 417136,
+    "note": "Korean official character introduction inspected before supplemental numerical sources; no skill table supplied."
+  },
+  "sources": [
+    {
+      "id": "Alva",
+      "url": "https://gfl2.help/en/characters/Alva",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:20:56.733358Z",
+      "bytes": 171367,
+      "sha256": "f9df38b2d73f8004bf3ea8b033400f7afa3e3a0bd35e252a6d60c5cbac6e3b5e"
+    },
+    {
+      "id": "Andoris",
+      "url": "https://gfl2.help/en/characters/Andoris",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:20:56.749643Z",
+      "bytes": 194136,
+      "sha256": "311c65865f62be15e7e325381dc405e8ebeacba5e0656907c1e24453a81c308d"
+    },
+    {
+      "id": "Balthilde",
+      "url": "https://gfl2.help/en/characters/Balthilde",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:20:56.479947Z",
+      "bytes": 101382,
+      "sha256": "84d02ae145d2d93973d9593a62ff6878ec34199f26f6959822c87f338f2d8f21"
+    },
+    {
+      "id": "Basti",
+      "url": "https://gfl2.help/en/characters/Basti",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:20:56.578933Z",
+      "bytes": 168406,
+      "sha256": "08801518621c48f706d45b70e4a1f5466ddfb6ee041e5f1a08ee67a50dc08320"
+    },
+    {
+      "id": "Belka",
+      "url": "https://gfl2.help/en/characters/Belka",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:20:56.577511Z",
+      "bytes": 163975,
+      "sha256": "e3a88d3bbb4879ac7d79e1aca2be1c295380e3c9ba32f47ae4ce1efe1f0fed05"
+    },
+    {
+      "id": "Centaureissi",
+      "url": "https://gfl2.help/en/characters/Centaureissi",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:20:56.726625Z",
+      "bytes": 127913,
+      "sha256": "f5cc89257a8386ed681fa2b46bc05048f573cac84f78b42e6332927844ee5766"
+    },
+    {
+      "id": "Cheeta",
+      "url": "https://gfl2.help/en/characters/Cheeta",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:02.400726Z",
+      "bytes": 88754,
+      "sha256": "6f180e5fec24d2da4108322cefe9ab209998f168b507ce3bc1316b248a765cab"
+    },
+    {
+      "id": "Cheyanne",
+      "url": "https://gfl2.help/en/characters/Cheyanne",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:02.439839Z",
+      "bytes": 123179,
+      "sha256": "13e55fead153f1f707bc5e12210a2e0e59882217ed06f4932a3e845be1d8ea14"
+    },
+    {
+      "id": "Colphne",
+      "url": "https://gfl2.help/en/characters/Colphne",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:02.353361Z",
+      "bytes": 86206,
+      "sha256": "d0f1f9a7642286f3e62ecd655508178a7e21cf2e19e55133ead3a95dfb5fbbf5"
+    },
+    {
+      "id": "Daiyan",
+      "url": "https://gfl2.help/en/characters/Daiyan",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:02.500293Z",
+      "bytes": 105272,
+      "sha256": "97e054a6596368dc531aa20253e34edafbe5ee76776703a3d19b2becbe75dbfc"
+    },
+    {
+      "id": "Dushevnaya",
+      "url": "https://gfl2.help/en/characters/Dushevnaya",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:02.473652Z",
+      "bytes": 129318,
+      "sha256": "c9006ab5fef001c0e4073b68603223cea3ec0a3c694909aba74f67c0e6117a3d"
+    },
+    {
+      "id": "Faye",
+      "url": "https://gfl2.help/en/characters/Faye",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:02.447258Z",
+      "bytes": 116492,
+      "sha256": "b8cf873b19e9e30a5ba74a7952ed8c27e036a5148b3d98f45efb9d87db442a93"
+    },
+    {
+      "id": "Florence",
+      "url": "https://gfl2.help/en/characters/Florence",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:08.599018Z",
+      "bytes": 132840,
+      "sha256": "eb0bcc77dce8da47598cd209ce4f5c8048572f0897d8f146b18b2bcfd2dbaede"
+    },
+    {
+      "id": "Groza",
+      "url": "https://gfl2.help/en/characters/Groza",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:08.532262Z",
+      "bytes": 96056,
+      "sha256": "cb1b0d3b2a902eb76cea726769b393d314c4d04558ebb6f3be02cb93c211cb12"
+    },
+    {
+      "id": "Harpsy",
+      "url": "https://gfl2.help/en/characters/Harpsy",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:08.532393Z",
+      "bytes": 116043,
+      "sha256": "c864f10cd66a8939efc7ae2f08ed20f5c32e0a6e34a3210b349367c89995d8c1"
+    },
+    {
+      "id": "Helen",
+      "url": "https://gfl2.help/en/characters/Helen",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:08.524393Z",
+      "bytes": 113151,
+      "sha256": "f849d8d6615a0192fa7e710811a2ac8f3f87b321972b51d6bb1beeb9764fc356"
+    },
+    {
+      "id": "Jiangyu",
+      "url": "https://gfl2.help/en/characters/Jiangyu",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:08.578592Z",
+      "bytes": 157148,
+      "sha256": "48c4d234d8d73418863c5e382b8ae19d03b81359b6d89609c9fb1b19f64a77c8"
+    },
+    {
+      "id": "Klukai",
+      "url": "https://gfl2.help/en/characters/Klukai",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:08.650812Z",
+      "bytes": 174111,
+      "sha256": "08e2c3a52bc79b7eac9fa9795a339a1d9e8ef085277406debc64192c59bf14d9"
+    },
+    {
+      "id": "Krolik",
+      "url": "https://gfl2.help/en/characters/Krolik",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:14.284222Z",
+      "bytes": 88144,
+      "sha256": "67f61da5256bc11ac074e7640e44b287173816011939e47481db9c9efa87a474"
+    },
+    {
+      "id": "Ksenia",
+      "url": "https://gfl2.help/en/characters/Ksenia",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:14.264087Z",
+      "bytes": 98453,
+      "sha256": "5a720e817e6491253e4a04240b1e11d7e7a7015d032f564e450eef6e09697b24"
+    },
+    {
+      "id": "Lainie",
+      "url": "https://gfl2.help/en/characters/Lainie",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:14.277391Z",
+      "bytes": 130108,
+      "sha256": "9340f94b644c288b52279e435a1cf8a19839809cba7b7cadd1f08c69626f1f77"
+    },
+    {
+      "id": "Lenna",
+      "url": "https://gfl2.help/en/characters/Lenna",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:14.247289Z",
+      "bytes": 109476,
+      "sha256": "f659e6669024bb62a145fe9037b7d56eca7eec82e591ddda40c59c39c2934591"
+    },
+    {
+      "id": "Leva",
+      "url": "https://gfl2.help/en/characters/Leva",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:14.310502Z",
+      "bytes": 192156,
+      "sha256": "7c0b07171509ac3feaa20d047f4174cd5e0aa386e17be53868af778217e1a740"
+    },
+    {
+      "id": "Lewis",
+      "url": "https://gfl2.help/en/characters/Lewis",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:36:46.544968Z",
+      "bytes": 93486,
+      "sha256": "723843c0b295da4a5f47f555071b5ff0d77fc290c140eeb743c4025d5fc0c5b4"
+    },
+    {
+      "id": "Lind",
+      "url": "https://gfl2.help/en/characters/Lind",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:19.844632Z",
+      "bytes": 114163,
+      "sha256": "6bdf9a792f8261bf0e00f452919069f8e1b4c45608aa0fff5c3e0e0556382228"
+    },
+    {
+      "id": "Littara",
+      "url": "https://gfl2.help/en/characters/Littara",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:19.893319Z",
+      "bytes": 77457,
+      "sha256": "2d407b2fc1ae58d4932bfa9cc7e03bbccfa90f0cebb91957f14175cad1f573a4"
+    },
+    {
+      "id": "Liushih",
+      "url": "https://gfl2.help/en/characters/Liushih",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:19.853729Z",
+      "bytes": 141002,
+      "sha256": "d963e3682f372a3b5b81adbe783977ad918349fb38ebcf98fa0c83da646d5006"
+    },
+    {
+      "id": "Loreley",
+      "url": "https://gfl2.help/en/characters/Loreley",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:19.931560Z",
+      "bytes": 180551,
+      "sha256": "747a3c69aeb37b6f66b2218672ad8f714df8b13cdcae414408508b88bc437938"
+    },
+    {
+      "id": "Lotta",
+      "url": "https://gfl2.help/en/characters/Lotta",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:19.822195Z",
+      "bytes": 96875,
+      "sha256": "64fda9ffd151238b91c09d9f79a8a991b1bddb57bb84d3f7a8a029304482595f"
+    },
+    {
+      "id": "Makiatto",
+      "url": "https://gfl2.help/en/characters/Makiatto",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:19.941413Z",
+      "bytes": 123353,
+      "sha256": "ae9baad0011f11e55714fb02d15596bf7c8e1a447e8d5fc9659fd1f8536b004d"
+    },
+    {
+      "id": "Mechty",
+      "url": "https://gfl2.help/en/characters/Mechty",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:28.638103Z",
+      "bytes": 145554,
+      "sha256": "91d4530ac8583c771b0e449d879f372333032034b02dd17dde68f36283e9b26b"
+    },
+    {
+      "id": "Mityl",
+      "url": "https://gfl2.help/en/characters/Mityl",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:28.695541Z",
+      "bytes": 178273,
+      "sha256": "fb3af0b8100d2a0ce378736e401f68ee4bd86041bfb76e16742c75d44deaaf4d"
+    },
+    {
+      "id": "Mosin-Nagant",
+      "url": "https://gfl2.help/en/characters/Mosin-Nagant",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:28.563617Z",
+      "bytes": 100661,
+      "sha256": "82cc1e6c076d38c7d596909774d290b4fa71b7a6f183c46abe436995e7654696"
+    },
+    {
+      "id": "Nagant",
+      "url": "https://gfl2.help/en/characters/Nagant",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:28.236707Z",
+      "bytes": 77912,
+      "sha256": "879a303464ff03763e6a590fbf0c22074bf35153f642f15d61258aa19304033e"
+    },
+    {
+      "id": "Nemesis",
+      "url": "https://gfl2.help/en/characters/Nemesis",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:28.555011Z",
+      "bytes": 96171,
+      "sha256": "84b2c43ce1443dbea4a8c560d60ddb52f55f1b664cbb836fa0472e23d5cab6b1"
+    },
+    {
+      "id": "Nemesis: Gnosis",
+      "url": "https://gfl2.help/en/characters/Nemesis:%20Gnosis",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:28.613191Z",
+      "bytes": 169145,
+      "sha256": "f709fc82c161c8eac9abbe73173145f2bc7ddac581918b1055f65528beea69a2"
+    },
+    {
+      "id": "Nikketa",
+      "url": "https://gfl2.help/en/characters/Nikketa",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:34.944417Z",
+      "bytes": 131858,
+      "sha256": "958cd540b738566c592d1444c0dc7b93a727451d6bfa943643676203986051bf"
+    },
+    {
+      "id": "OTs-14",
+      "url": "https://gfl2.help/en/characters/OTs-14",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:34.963236Z",
+      "bytes": 152798,
+      "sha256": "752584fdbf93dff388163c3a900b86a00bd778b8547e19557e2c14279625e742"
+    },
+    {
+      "id": "Papasha",
+      "url": "https://gfl2.help/en/characters/Papasha",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:34.961914Z",
+      "bytes": 102843,
+      "sha256": "6d13aee87b1b320a9664f67ebdc1e3c11c2bfe2b5e31ccf3f7936936f8c9b3b4"
+    },
+    {
+      "id": "Peri",
+      "url": "https://gfl2.help/en/characters/Peri",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:34.904289Z",
+      "bytes": 119388,
+      "sha256": "9e8960e032d8fc9f8fe22129e88b4873c6ffb3a32da7312e1e8e5099bcbe9006"
+    },
+    {
+      "id": "Peritya",
+      "url": "https://gfl2.help/en/characters/Peritya",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:34.853042Z",
+      "bytes": 89409,
+      "sha256": "472f9008f803035208456d14fcb48d1103cd9404267a50719194898fdc16ce68"
+    },
+    {
+      "id": "Phaetusa",
+      "url": "https://gfl2.help/en/characters/Phaetusa",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:34.837369Z",
+      "bytes": 93071,
+      "sha256": "78f7aee09f041026c7bba88276bc28e843bc97ce2e1cbb3e32f5a6722cafcd75"
+    },
+    {
+      "id": "Qiongjiu",
+      "url": "https://gfl2.help/en/characters/Qiongjiu",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:40.934766Z",
+      "bytes": 101783,
+      "sha256": "093dc857ab5f24644e017406f2582c8fcf077b43e8a60f0077209089f3285d9b"
+    },
+    {
+      "id": "Qiuhua",
+      "url": "https://gfl2.help/en/characters/Qiuhua",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:40.876634Z",
+      "bytes": 126799,
+      "sha256": "36173a217fef8d04d302c498c97ccbfbe5d6cb9df6595922cfa98b0706bf46ef"
+    },
+    {
+      "id": "Robella",
+      "url": "https://gfl2.help/en/characters/Robella",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:40.951894Z",
+      "bytes": 204743,
+      "sha256": "af246ab1e2d618e05ae4b5a2160d1f2500afbde399cdf205e11157cc54aff1bd"
+    },
+    {
+      "id": "Sabrina",
+      "url": "https://gfl2.help/en/characters/Sabrina",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:40.869898Z",
+      "bytes": 107625,
+      "sha256": "5bb5f9e8a1ce5c64560a8955c1c9277e9d949c39c5d9c45844e2b308b434b394"
+    },
+    {
+      "id": "Sakura",
+      "url": "https://gfl2.help/en/characters/Sakura",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:40.918118Z",
+      "bytes": 98690,
+      "sha256": "f1aaaa8f486811c0c8f46b74293bb8db5d66879469e775b1cee67a98e0634421"
+    },
+    {
+      "id": "Sextans",
+      "url": "https://gfl2.help/en/characters/Sextans",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:40.849144Z",
+      "bytes": 149985,
+      "sha256": "38ff39957b09b3dc914d3eca98fdee8208bd823c9a72963feee2100d69d63d0a"
+    },
+    {
+      "id": "Sharkry",
+      "url": "https://gfl2.help/en/characters/Sharkry",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:48.921032Z",
+      "bytes": 111694,
+      "sha256": "3cad6a36b84d7a102dc5d4905190306240349c6121f967dc1a24b2d57be43a38"
+    },
+    {
+      "id": "Soppo",
+      "url": "https://gfl2.help/en/characters/Soppo",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:49.006443Z",
+      "bytes": 175806,
+      "sha256": "d045a67f1b0b828e5f0754490aa5c6f24f2dae2dda280d950fb6c2d5f68670ab"
+    },
+    {
+      "id": "Springfield",
+      "url": "https://gfl2.help/en/characters/Springfield",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:48.935277Z",
+      "bytes": 127928,
+      "sha256": "340f9256b0c3e0d6d24cddd133f3bb5facddb40cf601eb5bf8a76cd664519629"
+    },
+    {
+      "id": "Suomi",
+      "url": "https://gfl2.help/en/characters/Suomi",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:48.991113Z",
+      "bytes": 182999,
+      "sha256": "12d0e7362ce3e37d2705c7a79dbce9413f20a64c61d84f55da96951ac69ae26d"
+    },
+    {
+      "id": "Tololo",
+      "url": "https://gfl2.help/en/characters/Tololo",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:48.909991Z",
+      "bytes": 99015,
+      "sha256": "6433ee0570bfc5ba4f3c44db6124c49aed76f60048d8f679b4d010f17b572a59"
+    },
+    {
+      "id": "Ullrid",
+      "url": "https://gfl2.help/en/characters/Ullrid",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:48.844031Z",
+      "bytes": 91131,
+      "sha256": "c77a99e1d395b909848e5f4fccee8f9db1570e575e5bc76636e25e8884fb63ed"
+    },
+    {
+      "id": "Vector",
+      "url": "https://gfl2.help/en/characters/Vector",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:54.610943Z",
+      "bytes": 116703,
+      "sha256": "ebc3c20a41a25af59db6542eefab9de719909fb5e3564eda4a343dc102d2005c"
+    },
+    {
+      "id": "Vepley",
+      "url": "https://gfl2.help/en/characters/Vepley",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:54.906775Z",
+      "bytes": 97630,
+      "sha256": "774ea0dec209f0f966408e952cc2fe3f61580058859fbf1106b062c3144a90d4"
+    },
+    {
+      "id": "Voymastina",
+      "url": "https://gfl2.help/en/characters/Voymastina",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:54.913628Z",
+      "bytes": 116373,
+      "sha256": "f2556c941513110dddba7c549648cff0c697e11e395b0c9a06307e2c2ece39d9"
+    },
+    {
+      "id": "Yoohee",
+      "url": "https://gfl2.help/en/characters/Yoohee",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:54.920881Z",
+      "bytes": 243340,
+      "sha256": "6fc356bfc5fb73b1cf7540a3868659b5b3e5eeef710a039e536811982fd5a34c"
+    },
+    {
+      "id": "Zhaohui",
+      "url": "https://gfl2.help/en/characters/Zhaohui",
+      "status": 200,
+      "checkedAt": "2026-10-25T09:21:54.631607Z",
+      "bytes": 94982,
+      "sha256": "bef09e0f1e3dbb1c554dd8b710f9d471166dd30db1686235ee3412fa38f5355d"
+    }
+  ]
+}

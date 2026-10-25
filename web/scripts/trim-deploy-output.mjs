@@ -43,3 +43,4 @@ pruneGeneratedChunks('dist');
 await import('./dedupe-static-assets.mjs');
 const {externalizeAssets}=await import('./externalize-assets.mjs');externalizeAssets('dist');
 const {omitSourceOriginalCopies}=await import('./omit-source-original-copies.mjs');omitSourceOriginalCopies('dist');
+const {omitSourceIconCopies}=await import('./omit-source-icon-copies.mjs');omitSourceIconCopies('dist');

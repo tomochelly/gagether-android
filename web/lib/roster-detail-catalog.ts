@@ -20,7 +20,7 @@ async function unpack(id:string,form:{sourceId:string|number;sha256:string;bytes
 }
 /** Expand one exact form only. The native catalog never enters directory props. */
 export async function hydrateRosterDetails(data:CharacterRoster,character:RosterCharacter):Promise<RosterCharacter>{
- if(data.gameId!=='umamusume'||!data.detailCatalog)return character;
+ if(!['umamusume','gfl2'].includes(data.gameId)||!data.detailCatalog)return character;
  const catalog=data.detailCatalog,form=catalog.forms[character.id];if(!form||form.sourceId!==character.sourceId)return character;
  let fields:Fields;
  if(catalog.version===3)fields=await unpack(character.id,catalog.forms[character.id]);
