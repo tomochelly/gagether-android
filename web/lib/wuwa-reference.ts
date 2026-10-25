@@ -1,3 +1,4 @@
+import type {RosterArtPlacement} from './roster-art-framing';
 import growth from '../content/wuwa-character-growth.json' with {type:'json'};
 import {fullCharacterArt,declaredFullArtwork} from './wuwa-reference-art';
 import type {Locale,Localized} from './types';
@@ -5,7 +6,7 @@ import type {Locale,Localized} from './types';
 export type WuwaReferencePart='characters'|'combat'|'statistics';
 export type WuwaIconFact={id:number;name:Localized;icon?:string};
 export type WuwaStats={hp:number;atk:number;def:number;crit:number;critDamage:number};
-export type WuwaCharacter={id:string;sourceIds:number[];name:Localized;rarity:number;element:WuwaIconFact;weapon:WuwaIconFact;portraits:{id:number;icon?:string;artwork?:string;fullArtwork?:string}[];tags:{name:Localized;icon?:string}[];stats:WuwaStats;stats90?:WuwaStats;skills:{id:number;type:number;name:Localized;icon?:string;values:{name:Localized;levels:string[]}[]}[];chains:{id:number;name:Localized;description?:Localized;icon?:string}[];debut?:{date:string;sourceUrl:string;sourceKind:'official'|'community'};sourceUrl:string};
+export type WuwaCharacter={artworkFrames?:RosterArtPlacement[];id:string;sourceIds:number[];name:Localized;rarity:number;element:WuwaIconFact;weapon:WuwaIconFact;portraits:{id:number;icon?:string;artwork?:string;fullArtwork?:string}[];tags:{name:Localized;icon?:string}[];stats:WuwaStats;stats90?:WuwaStats;skills:{id:number;type:number;name:Localized;icon?:string;values:{name:Localized;levels:string[]}[]}[];chains:{id:number;name:Localized;description?:Localized;icon?:string}[];debut?:{date:string;sourceUrl:string;sourceKind:'official'|'community'};sourceUrl:string};
 export type WuwaEnemy={id:string;name:Localized;icon?:string;elements:number[];level?:number;count?:number;wave?:number;resistanceTags?:Localized[]};
 export type WuwaFloor={id:string;area:number;floor:number;name:Localized;recommendedElements:number[];enemies:WuwaEnemy[];buffs:{name:Localized;text:Localized;icon?:string}[]};
 export type WuwaCombatCycle={id:string;modeId:string;name:Localized;startDate:string|null;endDate:string|null;conditions?:Localized;floors:WuwaFloor[];sourceUrl:string};

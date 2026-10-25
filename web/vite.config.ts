@@ -12,6 +12,7 @@ import hostingConfig from "./.openai/hosting.json";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./build/sites-vite-plugin";
 import { connectorPreview } from "./build/connector-preview-plugin.mjs";
+import { guardCommonjsJson } from "./build/commonjs-json-guard";
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
   "00000000-0000-4000-8000-000000000000";
@@ -70,7 +71,7 @@ export default defineConfig(async ({ command }) => {
         : {}),
     },
     plugins: [
-      vinext(),
+      guardCommonjsJson(vinext()),
       sites({ mockAuth: !managedLinux }),
       connectorPreview(),
       cloudflare({

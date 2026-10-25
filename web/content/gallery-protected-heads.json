@@ -1,0 +1,506 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-25",
+  "entries": {
+    "https://sg-tools-cdn.blablalink.com/fk-20/ob-47/3b20ab416c25e8221341ab398962eacf.webp": {
+      "left": 40,
+      "top": 5,
+      "right": 64,
+      "bottom": 28,
+      "gameId": "nikke",
+      "characterId": "6",
+      "name": "Brid",
+      "sha256": "40de6ebf55e058214a145b43dc13f5cc9c1707ca2fa6dc4b34d29a85664251ea"
+    },
+    "https://sg-tools-cdn.blablalink.com/hr-89/yz-35/385ef9fcea780894fef7a26e9cac45a7.webp": {
+      "left": 38,
+      "top": 5,
+      "right": 64,
+      "bottom": 30,
+      "gameId": "nikke",
+      "characterId": "6",
+      "name": "Brid",
+      "sha256": "48caa844617683508ee5d1b4bfbec9b98f191f75fe6f792dafa91298573fd92f"
+    },
+    "https://sg-tools-cdn.blablalink.com/ol-89/th-89/97ee2e06ea78ebc3e0e61fc6f44b2721.webp": {
+      "left": 38,
+      "top": 3,
+      "right": 65,
+      "bottom": 31,
+      "gameId": "nikke",
+      "characterId": "11",
+      "name": "Maxwell",
+      "sha256": "3b6e089cba15d8dbf10d9d66dcd3b1338312d6f7c52478c93ab2634ac5c15750"
+    },
+    "https://sg-tools-cdn.blablalink.com/qs-59/ef-77/f4b4d17223d07b04609443b4c894a068.webp": {
+      "left": 36,
+      "top": 3,
+      "right": 64,
+      "bottom": 32,
+      "gameId": "nikke",
+      "characterId": "11",
+      "name": "Maxwell",
+      "sha256": "f6986c9985bd90e5b88cc5ded67211adee704fa5e564c3898f5b4ecb688ad883"
+    },
+    "https://sg-tools-cdn.blablalink.com/kb-67/et-22/d84307e867308103c5438b2dd8746969.webp": {
+      "left": 38,
+      "top": 3,
+      "right": 65,
+      "bottom": 31,
+      "gameId": "nikke",
+      "characterId": "15",
+      "name": "Drake",
+      "sha256": "7ff77d7e9ae861524c0cd6321badba6e2803f2cea25bd3c24b64f96822776687"
+    },
+    "https://sg-tools-cdn.blablalink.com/kh-05/fo-66/14c4dce5a9c3aca0501ffc51c4455c87.webp": {
+      "left": 38,
+      "top": 5,
+      "right": 65,
+      "bottom": 32,
+      "gameId": "nikke",
+      "characterId": "18",
+      "name": "Sugar",
+      "sha256": "9e5f563080e01928d656afd2fd26c673ae4deeb611acb003a7cd56dc2baa8b2d"
+    },
+    "https://sg-tools-cdn.blablalink.com/ov-44/bk-42/ddae37a5ab193e65f514cb05ed9beb4f.webp": {
+      "left": 34,
+      "top": 8,
+      "right": 62,
+      "bottom": 34,
+      "gameId": "nikke",
+      "characterId": "18",
+      "name": "Sugar",
+      "sha256": "7d8ebeea30b73c1c5391e01efeacaa2f55a53b599a764012579e87cc5d4dee1c"
+    },
+    "https://sg-tools-cdn.blablalink.com/mo-74/qm-54/27e1fc594f5aa81ea7ff99c4c0c3bbcb.webp": {
+      "left": 38,
+      "top": 4,
+      "right": 65,
+      "bottom": 32,
+      "gameId": "nikke",
+      "characterId": "18",
+      "name": "Sugar",
+      "sha256": "5de04f588f505eee8a98d993f7e6e5c5ca5ccfc2c9a02a4a8c9818ae2ca09b34"
+    },
+    "https://sg-tools-cdn.blablalink.com/cz-87/uc-43/83d6884fb05959eb6876319220e1e3c9.webp": {
+      "left": 32,
+      "top": 5,
+      "right": 69,
+      "bottom": 35,
+      "gameId": "nikke",
+      "characterId": "19",
+      "name": "Alice",
+      "sha256": "6171948f74ddf2f5103f4bc41d324529043751b00b31bac8d7528b032da6a70d"
+    },
+    "https://sg-tools-cdn.blablalink.com/yk-71/ka-49/7bb55a74fdcfda97f2f5275fe97c571e.webp": {
+      "left": 32,
+      "top": 3,
+      "right": 72,
+      "bottom": 36,
+      "gameId": "nikke",
+      "characterId": "23",
+      "name": "Yan",
+      "sha256": "21fd896b2924b30ddda7e508c105d5058a149231e876c9f9f5468984b3b18339"
+    },
+    "https://sg-tools-cdn.blablalink.com/ij-25/pz-34/e3f397506a86fbb38e1b342c8c16c406.webp": {
+      "left": 36,
+      "top": 4,
+      "right": 69,
+      "bottom": 37,
+      "gameId": "nikke",
+      "characterId": "28",
+      "name": "Snow White",
+      "sha256": "5534712741240858bdae4e12ac198b818306b89872955f0a3b4c5a168dca5dc5"
+    },
+    "https://sg-tools-cdn.blablalink.com/kq-94/ax-22/7655b935bd09e65ce84fcb023eb53285.webp": {
+      "left": 35,
+      "top": 2,
+      "right": 70,
+      "bottom": 37,
+      "gameId": "nikke",
+      "characterId": "28",
+      "name": "Snow White",
+      "sha256": "7be9f0d01efefa432f2e342412c9b34bc7b60a6cf1bc39cb996ba8cbc0959d8b"
+    },
+    "https://sg-tools-cdn.blablalink.com/mo-33/kd-01/a62a87d649cdcbca2daf95b90fd65004.webp": {
+      "left": 37,
+      "top": 9,
+      "right": 67,
+      "bottom": 39,
+      "gameId": "nikke",
+      "characterId": "29",
+      "name": "Scarlet",
+      "sha256": "0c450b17a5b0b46402e779cae1ff76240c2fd4f5a24f362c36c4c43e8d39b638"
+    },
+    "https://sg-tools-cdn.blablalink.com/yy-29/nk-14/a17d932bfbfebb727cfc7dc007f67c45.webp": {
+      "left": 35,
+      "top": 3,
+      "right": 71,
+      "bottom": 39,
+      "gameId": "nikke",
+      "characterId": "30",
+      "name": "Harran",
+      "sha256": "59dfbaeeea0db25db94a2f37262b2ba319f2bd7e520672ccfed0f6b579bf685d"
+    },
+    "https://sg-tools-cdn.blablalink.com/dd-37/ho-80/5774d72c68a9f10e9aaafab554da744c.webp": {
+      "left": 36,
+      "top": 3,
+      "right": 70,
+      "bottom": 37,
+      "gameId": "nikke",
+      "characterId": "31",
+      "name": "Noah",
+      "sha256": "7ce98a13723af92f82bace25615ecf85cd8d3c59f47f008cde540a4850b0e954"
+    },
+    "https://sg-tools-cdn.blablalink.com/fp-21/xm-47/4a008e1446f8a5f277203a94a82c41e0.webp": {
+      "left": 37,
+      "top": 6,
+      "right": 66,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "44",
+      "name": "Isabel",
+      "sha256": "4dfc1f889387fb929f74e108507c7587436a71665d609492aeb481a7ed03c46d",
+      "composition": {
+        "left": 35,
+        "top": 6,
+        "right": 68,
+        "bottom": 94
+      }
+    },
+    "https://sg-tools-cdn.blablalink.com/hw-44/av-87/6985987c8b0b48b4e03f204ff8193351.webp": {
+      "left": 32,
+      "top": 3,
+      "right": 68,
+      "bottom": 35,
+      "gameId": "nikke",
+      "characterId": "48",
+      "name": "Maiden",
+      "sha256": "c6f2dc3a549d2227ea3ccce6ea10d50c925c76535b9b7d41e2a39da32a281b9b"
+    },
+    "https://sg-tools-cdn.blablalink.com/ik-48/lu-00/4e34682ba305c647a0ba2f9324824ecd.webp": {
+      "left": 36,
+      "top": 1,
+      "right": 68,
+      "bottom": 33,
+      "gameId": "nikke",
+      "characterId": "68",
+      "name": "Modernia",
+      "sha256": "1afd3b5fd470b45728cf6392bb8b74a5d6747e0615d8a2bc6d2db4e27b577be5"
+    },
+    "https://sg-tools-cdn.blablalink.com/my-87/hq-75/f12370c665be38e132d03a0d1f67cee5.webp": {
+      "left": 37,
+      "top": 3,
+      "right": 70,
+      "bottom": 35,
+      "gameId": "nikke",
+      "characterId": "68",
+      "name": "Modernia",
+      "sha256": "9f7d4987eaf1a26fedd89e7fe631dd66cad67116c9697f42d5c63dfd544e3f1c"
+    },
+    "https://sg-tools-cdn.blablalink.com/pb-40/vw-33/24ad477617a1735aebcee18cd0f33d61.webp": {
+      "left": 34,
+      "top": 0,
+      "right": 71,
+      "bottom": 33,
+      "gameId": "nikke",
+      "characterId": "81",
+      "name": "Nihilister",
+      "sha256": "e44390e941ce98d5567b54fffba3aa77b9d6b4e2fd5f1ca33805842f82fc09b0"
+    },
+    "https://sg-tools-cdn.blablalink.com/uw-97/uz-31/4beb98b05bff1e577197680cf7f0fd2d.webp": {
+      "left": 32,
+      "top": 0,
+      "right": 70,
+      "bottom": 36,
+      "gameId": "nikke",
+      "characterId": "90",
+      "name": "Neon: Blue Ocean",
+      "sha256": "7cc40e3eb27ac1fa7e4f4fbc5b508aa1a52c6d0a084dd04ee6b076293e142400"
+    },
+    "https://sg-tools-cdn.blablalink.com/ge-48/eg-25/ab0417e2f35034d5510434224453fa68.webp": {
+      "left": 31,
+      "top": 0,
+      "right": 72,
+      "bottom": 36,
+      "gameId": "nikke",
+      "characterId": "92",
+      "name": "Mast",
+      "sha256": "7060eb06aeb8c338113038132e7c65b282e2e662b258e00032a3acc2b6bc9940"
+    },
+    "https://sg-tools-cdn.blablalink.com/fz-34/oq-68/2cf208468abc341a0e61bcc95826f65e.webp": {
+      "left": 35,
+      "top": 1,
+      "right": 69,
+      "bottom": 36,
+      "gameId": "nikke",
+      "characterId": "98",
+      "name": "Anchor",
+      "sha256": "98fbc34918df0ba153b704e25cc95d1fe7a86f76e2ce5b824a468b8d8734cd6d"
+    },
+    "https://sg-tools-cdn.blablalink.com/eh-91/ej-12/26ab949a56ef0dc1f12dadf08b761a0d.webp": {
+      "left": 30,
+      "top": 1,
+      "right": 72,
+      "bottom": 37,
+      "gameId": "nikke",
+      "characterId": "109",
+      "name": "Red Hood B3",
+      "sha256": "5cc367fc7066a7bbdb66626b2301f00f9cfee0e8fd6bb24ace27e25e0118d969"
+    },
+    "https://sg-tools-cdn.blablalink.com/xc-24/af-87/79826739b3ee7dab3c4c3603f08732cd.webp": {
+      "left": 35,
+      "top": 0,
+      "right": 72,
+      "bottom": 37,
+      "gameId": "nikke",
+      "characterId": "109",
+      "name": "Red Hood B3",
+      "sha256": "fd9084c89691faf18c790905632e9103995edaa4905aef97da1ab4b2a9f46ecc"
+    },
+    "https://sg-tools-cdn.blablalink.com/nh-33/dh-19/8da40cc737f6bd1717637903f2e6d43d.webp": {
+      "left": 32,
+      "top": 0,
+      "right": 73,
+      "bottom": 36,
+      "gameId": "nikke",
+      "characterId": "121",
+      "name": "Crown",
+      "sha256": "0797419cf79013d62003958937318cda50b747b57b78e1a2c663e73349e626af"
+    },
+    "https://sg-tools-cdn.blablalink.com/rv-72/zd-94/f9483fd8e40ff1ffac6d0bfbdc8d64c9.webp": {
+      "left": 29,
+      "top": 0,
+      "right": 69,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "121",
+      "name": "Crown",
+      "sha256": "ec4b54a2abbee01bd946bf4b763976b55ca06ec26fa7df69743b2bc721c274f0"
+    },
+    "https://sg-tools-cdn.blablalink.com/yf-42/fq-74/87c151e2a879d5e40a2c730df0c7d2eb.webp": {
+      "left": 34,
+      "top": 0,
+      "right": 73,
+      "bottom": 35,
+      "gameId": "nikke",
+      "characterId": "131",
+      "name": "Asuka Shikinami Langley",
+      "sha256": "e572598bb2fd149b0ef09a730d75ccda30a0fbeb43a22096a382d0a85e6512b8"
+    },
+    "https://sg-tools-cdn.blablalink.com/xg-73/db-47/700402cf2f8e2eddd0c54e3de79e65e5.webp": {
+      "left": 32,
+      "top": 1,
+      "right": 69,
+      "bottom": 36,
+      "gameId": "nikke",
+      "characterId": "139",
+      "name": "Cinderella",
+      "sha256": "4f4116b9d48eb223bac91d7da4eac3a07084325d77e85b5af144af54a1656748"
+    },
+    "https://sg-tools-cdn.blablalink.com/eb-82/jv-11/a083f23b2d613550151b11d2cb6f9c8e.webp": {
+      "left": 32,
+      "top": 6,
+      "right": 69,
+      "bottom": 41,
+      "gameId": "nikke",
+      "characterId": "139",
+      "name": "Cinderella",
+      "sha256": "da4120a96c2b6cb66d958ded70f60b0077cf0bd262b51ee3a6144c41b79669dc"
+    },
+    "https://sg-tools-cdn.blablalink.com/bi-75/pl-08/a1349a41eb1448d25a173e551b121071.webp": {
+      "left": 28,
+      "top": 0,
+      "right": 72,
+      "bottom": 36,
+      "gameId": "nikke",
+      "characterId": "145",
+      "name": "Rapi: Red Hood",
+      "sha256": "5612d59cd7ad039baeb752863a5f8066872d8a70e1d5f0ea66639df716b70369"
+    },
+    "https://sg-tools-cdn.blablalink.com/bl-81/xf-14/a579e56be8a021a542d194cf0aadb33c.webp": {
+      "left": 32,
+      "top": 3,
+      "right": 70,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "164",
+      "name": "Siren",
+      "sha256": "2c9036b2a0530f8e7b870516b87f8faec419d4c27068907be6838c5f03a8c854"
+    },
+    "https://sg-tools-cdn.blablalink.com/ds-51/id-02/d49b6e49ab9abda17ede8f070fc4ab8c.webp": {
+      "left": 31,
+      "top": 1,
+      "right": 72,
+      "bottom": 37,
+      "gameId": "nikke",
+      "characterId": "164",
+      "name": "Siren",
+      "sha256": "219adb58b73467f869b60baa50f69885f6fe5d4d9ee0ad6685a5f6476a6f5eab"
+    },
+    "https://sg-tools-cdn.blablalink.com/jq-97/az-49/649aaaf6014684702abd7193b1fd393c.webp": {
+      "left": 32,
+      "top": 3,
+      "right": 71,
+      "bottom": 40,
+      "gameId": "nikke",
+      "characterId": "165",
+      "name": "Mihara: Bonding Chain",
+      "sha256": "41efe22953e4a66dd77a8070d419d508dcb658e0a3e697f91396b5552866b23c"
+    },
+    "https://sg-tools-cdn.blablalink.com/fj-50/gp-80/dcb50173cd8df055909023fd13b42d3a.webp": {
+      "left": 34,
+      "top": 1,
+      "right": 69,
+      "bottom": 37,
+      "gameId": "nikke",
+      "characterId": "170",
+      "name": "Eve",
+      "sha256": "58bb308fd21927f6338325689dd7114aa488444a5799cb4f58b6712c04fcf28f"
+    },
+    "https://sg-tools-cdn.blablalink.com/hv-64/jx-50/1eba4cdd08746407ffc01c401adefb03.webp": {
+      "left": 32,
+      "top": 0,
+      "right": 72,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "171",
+      "name": "Raven",
+      "sha256": "a522b8908657a49e70090267c2dbc7c7d44aaadf199df9213a00bf43aa56e34b"
+    },
+    "https://sg-tools-cdn.blablalink.com/kc-34/uv-38/59bc6dcd210849eaf49758682fb8f730.webp": {
+      "left": 32,
+      "top": 0,
+      "right": 72,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "171",
+      "name": "Raven",
+      "sha256": "3fcdf11c42f7710b973b6c3164d8d454140a21db206b1cd55770bf650da8950e"
+    },
+    "https://sg-tools-cdn.blablalink.com/mj-04/ft-26/9a88ef7758af55bdcf427fa58d11281a.webp": {
+      "left": 32,
+      "top": 0,
+      "right": 72,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "171",
+      "name": "Raven",
+      "sha256": "57e177c5c1de442e0c8ca003db6f7431a1389e5f1e3f6777389571d7e78e7d42"
+    },
+    "https://sg-tools-cdn.blablalink.com/gr-51/mp-62/03eee36e1d505295a219e558fb2f2fb5.webp": {
+      "left": 32,
+      "top": 0,
+      "right": 71,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "181",
+      "name": "Vesti: Tactical Upgrade",
+      "sha256": "7532a8142486aca93d6ec6aa29bdff6fd8b97f39fee4caaeddcdad99886625dd"
+    },
+    "https://sg-tools-cdn.blablalink.com/nx-85/ol-24/481bd56a70796142cfc3255c410594a9.webp": {
+      "left": 32,
+      "top": 0,
+      "right": 72,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "187",
+      "name": "Delta: Ninja Thief",
+      "sha256": "bd2244f2f1873e79ded6a2afcad94587f6f53c9f790f2d5c06d56cfa3165b815"
+    },
+    "https://sg-tools-cdn.blablalink.com/vm-94/un-44/41a5a09cf0fbc02a616bb6ee319fb62f.webp": {
+      "left": 34,
+      "top": 4,
+      "right": 69,
+      "bottom": 41,
+      "gameId": "nikke",
+      "characterId": "188",
+      "name": "Nayuta",
+      "sha256": "804139aaa9ef7535391e7524f51d8b01b3b9944640ab776da4a19b236b96d363"
+    },
+    "https://sg-tools-cdn.blablalink.com/ow-26/gg-76/438db292ae36f314c6b924710dcc9a9b.webp": {
+      "left": 32,
+      "top": 3,
+      "right": 71,
+      "bottom": 36,
+      "gameId": "nikke",
+      "characterId": "189",
+      "name": "Liberalio",
+      "sha256": "7f649ef7b11bbf7c71488fc4ed35ced41a7e75f0e47f6a1f172f0a3e8b0e5fc8"
+    },
+    "https://sg-tools-cdn.blablalink.com/ky-83/ol-45/762256b9aecd131bda8f217c6b4ecf37.webp": {
+      "left": 36,
+      "top": 2,
+      "right": 72,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "194",
+      "name": "Snow White: Heavy Arms",
+      "sha256": "0cb311409af3b729df997a2a1526c540f4858126ec57013b1236fc78264499eb"
+    },
+    "https://sg-tools-cdn.blablalink.com/vn-89/gh-98/0a4d7d248f1d7110b5a43fcc7ce6e047.webp": {
+      "left": 31,
+      "top": 0,
+      "right": 72,
+      "bottom": 38,
+      "gameId": "nikke",
+      "characterId": "206",
+      "name": "Snow Crane",
+      "sha256": "4a4972e63eb5a988807a83f65413aa6148dc10e6dde41e2ea39e6019a5ad8f24"
+    },
+    "https://sg-tools-cdn.blablalink.com/mj-89/ue-55/3e7436553d8a2b05a2d81cff51d72b51.webp": {
+      "left": 32,
+      "top": 0,
+      "right": 73,
+      "bottom": 37,
+      "gameId": "nikke",
+      "characterId": "207",
+      "name": "Neon: Vision Eye",
+      "sha256": "fa48e90b34d406f3319b528ef6498959f7b8355769fe8269b1552664b61aa89b"
+    },
+    "https://sg-tools-cdn.blablalink.com/bm-64/qb-59/165934f7c8e5b4355227fe789265579b.webp": {
+      "left": 33,
+      "top": 5,
+      "right": 70,
+      "bottom": 42,
+      "gameId": "nikke",
+      "characterId": "210",
+      "name": "Avistar",
+      "sha256": "a11a8dc9ebb52be0d91e0d678e1c45afd016df11592f077aaa3fdb773a0413ed"
+    },
+    "https://raw.githubusercontent.com/nico0748/SchaleDB/main/images/student/portrait/10004.webp": {
+      "left": 30,
+      "top": 0,
+      "right": 78,
+      "bottom": 48,
+      "gameId": "bluearchive",
+      "characterId": "10004",
+      "name": "Hina",
+      "sha256": "b3c3e5feabf9581e30f344f2060356a38478aa989a42f0b8cd1bb3da34d7167e",
+      "composition": {
+        "left": 30,
+        "top": 0,
+        "right": 78,
+        "bottom": 97
+      }
+    },
+    "https://raw.githubusercontent.com/nico0748/SchaleDB/main/images/student/portrait/13003.webp": {
+      "left": 36,
+      "top": 0,
+      "right": 69,
+      "bottom": 36,
+      "gameId": "bluearchive",
+      "characterId": "13003",
+      "name": "Hasumi",
+      "sha256": "9d5212ce2c6065bcedc22e044b70e4eb6f350705503ab84cde0fca65720715bd"
+    }
+  },
+  "unreviewed": [
+    {
+      "url": "https://sg-tools-cdn.blablalink.com/uh-68/bd-60/e0114648f18c63270ff9da81055aedd0.webp",
+      "name": "Kilo",
+      "reason": "Mecha/cockpit: do not guess an unseen pilot head from the small sheet. Keep complete-subject fallback."
+    }
+  ],
+  "note": "Manual source-percent head protection for visible cranial hair, face, ears/horns and BA halo. Deliberately generous rectangles; flowing long hair, large wings, vehicles, weapons and scene effects may lie outside. Source originals were alpha-composited for inspection; alpha=0 RGB is invisible. These are automatic-only hints; explicit owner gallery frames remain authoritative."
+}

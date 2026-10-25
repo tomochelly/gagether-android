@@ -1,0 +1,239 @@
+{
+  "ko": {
+    "syntax": "assignment",
+    "data": {
+      "metadata": {
+        "channelMetadataRenderer": {
+          "externalId": "UCKuq0c-RXYaulECSuu5hFug",
+          "title": "명조:워더링 웨이브"
+        }
+      },
+      "contents": {
+        "richGridRenderer": {
+          "contents": [
+            {
+              "richItemRenderer": {
+                "content": {
+                  "lockupViewModel": {
+                    "contentId": "3DK6XYB7icE",
+                    "metadata": {
+                      "lockupMetadataViewModel": {
+                        "title": {
+                          "content": "『명조:워더링 웨이브』 세계관 PV | TRANSCENDO"
+                        },
+                        "metadata": {
+                          "contentMetadataViewModel": {
+                            "metadataRows": [
+                              {
+                                "metadataParts": [
+                                  {
+                                    "text": {
+                                      "content": "3178"
+                                    },
+                                    "accessibilityLabel": "3,178回視聴",
+                                    "leadingIcon": {
+                                      "name": "PLAY_ARROW_OUTLINED",
+                                      "height": 12,
+                                      "width": 12
+                                    }
+                                  },
+                                  {
+                                    "text": {
+                                      "content": "25 分前"
+                                    },
+                                    "accessibilityLabel": "25 分前"
+                                  }
+                                ]
+                              }
+                            ],
+                            "delimiter": " "
+                          }
+                        }
+                      }
+                    },
+                    "contentImage": {
+                      "thumbnailViewModel": {
+                        "image": {
+                          "sources": [
+                            {
+                              "url": "https://i.ytimg.com/vi/3DK6XYB7icE/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCwYq0jshW2Wva8Aja4gWD4ECMScw",
+                              "width": 360,
+                              "height": 202
+                            },
+                            {
+                              "url": "https://i.ytimg.com/vi/3DK6XYB7icE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA1gTVOzVELcuZP2VX8rqZcyHf-rA",
+                              "width": 720,
+                              "height": 404
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "en": {
+    "syntax": "json-script",
+    "data": {
+      "metadata": {
+        "channelMetadataRenderer": {
+          "externalId": "UC0Bi5KMcECRVYis5Gb_ZYZQ",
+          "title": "Wuthering Waves"
+        }
+      },
+      "contents": {
+        "richGridRenderer": {
+          "contents": [
+            {
+              "richItemRenderer": {
+                "content": {
+                  "lockupViewModel": {
+                    "contentId": "LXyEJPjiMsU",
+                    "metadata": {
+                      "lockupMetadataViewModel": {
+                        "title": {
+                          "content": "Wuthering Waves Lore Trailer | TRANSCENDO"
+                        },
+                        "metadata": {
+                          "contentMetadataViewModel": {
+                            "metadataRows": [
+                              {
+                                "metadataParts": [
+                                  {
+                                    "text": {
+                                      "content": "3330"
+                                    },
+                                    "accessibilityLabel": "3,330回視聴",
+                                    "leadingIcon": {
+                                      "name": "PLAY_ARROW_OUTLINED",
+                                      "height": 12,
+                                      "width": 12
+                                    }
+                                  },
+                                  {
+                                    "text": {
+                                      "content": "27 分前"
+                                    },
+                                    "accessibilityLabel": "27 分前"
+                                  }
+                                ]
+                              }
+                            ],
+                            "delimiter": " "
+                          }
+                        }
+                      }
+                    },
+                    "contentImage": {
+                      "thumbnailViewModel": {
+                        "image": {
+                          "sources": [
+                            {
+                              "url": "https://i.ytimg.com/vi/LXyEJPjiMsU/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCgl-ZunL7HQBVk2lmUkoqV8qcRsw",
+                              "width": 360,
+                              "height": 202
+                            },
+                            {
+                              "url": "https://i.ytimg.com/vi/LXyEJPjiMsU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAW4iPf8j0_svNvuJ8aj4aD1wrQ8Q",
+                              "width": 720,
+                              "height": 404
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ja": {
+    "syntax": "assignment",
+    "data": {
+      "metadata": {
+        "channelMetadataRenderer": {
+          "externalId": "UCGc93NguHRwzv1Rw9MyIcxQ",
+          "title": "鳴潮 (Wuthering Waves)公式"
+        }
+      },
+      "contents": {
+        "richGridRenderer": {
+          "contents": [
+            {
+              "richItemRenderer": {
+                "content": {
+                  "lockupViewModel": {
+                    "contentId": "UHrsj49FWqk",
+                    "metadata": {
+                      "lockupMetadataViewModel": {
+                        "title": {
+                          "content": "『鳴潮』世界観PV | TRANSCENDO"
+                        },
+                        "metadata": {
+                          "contentMetadataViewModel": {
+                            "metadataRows": [
+                              {
+                                "metadataParts": [
+                                  {
+                                    "text": {
+                                      "content": "3287"
+                                    },
+                                    "accessibilityLabel": "3,287回視聴",
+                                    "leadingIcon": {
+                                      "name": "PLAY_ARROW_OUTLINED",
+                                      "height": 12,
+                                      "width": 12
+                                    }
+                                  },
+                                  {
+                                    "text": {
+                                      "content": "27 分前"
+                                    },
+                                    "accessibilityLabel": "27 分前"
+                                  }
+                                ]
+                              }
+                            ],
+                            "delimiter": " "
+                          }
+                        }
+                      }
+                    },
+                    "contentImage": {
+                      "thumbnailViewModel": {
+                        "image": {
+                          "sources": [
+                            {
+                              "url": "https://i.ytimg.com/vi/UHrsj49FWqk/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLC4EEDnNJI1CPY5HG-vKCIy59WIeA",
+                              "width": 360,
+                              "height": 202
+                            },
+                            {
+                              "url": "https://i.ytimg.com/vi/UHrsj49FWqk/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDT-oWpOZAr_Fww8JOYI64gJ_BQsQ",
+                              "width": 720,
+                              "height": 404
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

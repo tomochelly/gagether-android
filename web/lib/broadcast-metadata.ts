@@ -1,5 +1,8 @@
 import type {OfficialBroadcast} from './types';
 export function embeddedJson(html:string,name:string):any{
+ const scriptId=name==='ytInitialData'?'yt-initial-data':name==='ytInitialPlayerResponse'?'yt-initial-player-response':name;
+ const script=html.match(new RegExp(`<script[^>]+id=["']${scriptId}["'][^>]*>([\\s\\S]*?)<\\/script>`,'i'));
+ if(script){try{return JSON.parse(script[1])}catch{}}
  const match=new RegExp('(?:var\\s+|window\\.)?'+name+'\\s*=\\s*').exec(html);if(!match)return null;
  const start=match.index+match[0].length;let depth=0,quoted=false,escape=false;
  for(let i=start;i<html.length;i++){

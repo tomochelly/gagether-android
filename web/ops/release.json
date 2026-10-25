@@ -1,14 +1,14 @@
 {
   "siteProjectId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a",
   "productionUrl": "https://gagether.wiki",
-  "siteVersion": 85,
-  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_bef345a8143881919631a7668812ca72",
-  "siteCommit": "782c3e75cf3a2d9f76c0f247d1b08c8e4d70f002",
-  "deploymentId": "appgdep_6ada87c166d88191a80b9f19a0fc1fea",
-  "deployedAt": "2026-10-22T22:01:59.581102+00:00",
-  "runtimeFingerprint": "3806939ae7b80f328a4e94d4ce72c311eaed12a28037c1d4b2168aca206d0d48",
+  "siteVersion": 154,
+  "siteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_12f490c6d3ac8191917162b90fe53f1f",
+  "siteCommit": "5fd1e0ce819041e6338dd9a83f44977b9ac2a4df",
+  "deploymentId": "appgdep_6add7d1a0850819186bbceb8b3916e26",
+  "deployedAt": "2026-10-25T03:53:25.303685Z",
+  "runtimeFingerprint": "ad21b13019ac11fe075b75aa6b43ffdbe789021e00506756eeedf4528d78f75e",
   "githubRepository": "tomochelly/gagether-android",
-  "runtimeSourceGitHubCommit": "c9e9494fdc543d6c8d563c1e8edfc8c61259cc1a",
+  "runtimeSourceGitHubCommit": null,
   "sourceDirectory": "web",
   "codeAutoDeploy": false,
   "dataEmergencyWorkflow": ".github/workflows/gagether-emergency.yml",
@@ -17,6 +17,7 @@
   "previousHealthySiteVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_20357336969481919854b4e22bb28509",
   "verifiedAt": "2026-10-22T22:03:52.508Z",
   "refreshOutcome": "partial",
-  "verificationReport": "ops/VERIFICATION.ko.md",
-  "status": "production-deployed; data recovery rehearsed; remaining limitations documented"
+  "verificationReport": "ops/REFRESH-RELIABILITY.ko.md",
+  "status": "v154 deployed; public runtime code mirror with three explicit canonical-only data files; complete native source retained",
+  "codeMirrorReceipt": "ops/source-mirror.json"
 }

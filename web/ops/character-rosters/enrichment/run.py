@@ -59,6 +59,23 @@ def enrich_files(files,work):
     else:report['status']='partial'
    except Exception as e:
     report['status']='partial';report['bluearchiveError']=str(e)
+  if key=='e' and 'endfield'in files:
+   target=output/'enrich_endfield_details';target.mkdir(exist_ok=True)
+   command=[sys.executable,str(ROOT/'enrich_endfield_details.py'),'--input',str(output/'endfield.json'),'--output-dir',str(target),'--cache-dir',str(target/'sources')]
+   try:
+    result=subprocess.run(command,check=False,timeout=1200)
+    candidate=target/'endfield.json'
+    details=json.loads((target/'manifest.json').read_text())if(target/'manifest.json').exists()else{}
+    report['endfieldEnrichment']={'exitCode':result.returncode,'details':details}
+    if details.get('omissions'):report['status']='partial'
+    if result.returncode==0 and candidate.exists():
+     d=json.loads(candidate.read_text());prior=json.loads((output/'endfield.json').read_text())
+     if d.get('gameId')!='endfield'or{c['id']for c in d['characters']}!={c['id']for c in prior['characters']}:raise ValueError('Endfield detail identity mismatch')
+     if len(json.dumps(d,ensure_ascii=False).encode())>4400000:raise ValueError('Endfield detail exceeds ingest bound')
+     shutil.copyfile(candidate,output/'endfield.json')
+    else:report['status']='partial'
+   except Exception as e:
+    report['status']='partial';report['endfieldError']=str(e)
   return key,report
  reports={}
  with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:

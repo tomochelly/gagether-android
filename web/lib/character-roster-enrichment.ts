@@ -37,7 +37,7 @@ export function retainCharacterFacts(c:RosterCharacter,extra:RosterCharacter):Ro
   return {...extra,...c,detailSources:[...new Map([...(extra.detailSources||[]),...(c.detailSources||[])].map(s=>[s.url,s])).values()].slice(0,40),name:fillCopy(c.name,extra.name),nameSources,traits,
    image:full?extra.image:c.image||extra.image,
    images:[...new Map([...(extra.images||[]),...(c.images||[])].map(a=>[a.url,a])).values()],
-   stats:mergeStats(c.stats,extra.stats),...Object.keys(variantDetails).length?{variantDetails}:{},statProgression:c.statProgression||extra.statProgression,statGrowth:c.statGrowth||extra.statGrowth,skillTables:c.skillTables?.length?c.skillTables:extra.skillTables,sections:c.sections?.length?c.sections:extra.sections,
+   stats:mergeStats(c.stats,extra.stats),...Object.keys(variantDetails).length?{variantDetails}:{},statProgression:c.statProgression||extra.statProgression,statGrowth:c.statGrowth||extra.statGrowth,potentialRewards:c.potentialRewards?.length?c.potentialRewards:extra.potentialRewards,skillTables:c.skillTables?.length?c.skillTables:extra.skillTables,sections:[...new Map([...(extra.sections||[]),...(c.sections||[])].map(s=>[s.id,s])).values()],
    ...(Object.keys(regionalStats).length?{regionalStats}:{})};
 }
 export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{

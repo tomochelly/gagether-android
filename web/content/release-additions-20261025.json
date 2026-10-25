@@ -1,0 +1,291 @@
+[
+  {
+    "id": "official-video-wuwa-ko-3DK6XYB7icE",
+    "gameId": "wuwa",
+    "region": "global",
+    "server": "global",
+    "kind": "update",
+    "contentRole": "notice",
+    "title": {
+      "ko": "『명조:워더링 웨이브』 세계관 PV | TRANSCENDO",
+      "en": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "ko": "",
+      "en": "",
+      "ja": "",
+      "zh": ""
+    },
+    "sourceUrl": "https://www.youtube.com/watch?v=3DK6XYB7icE",
+    "sourceTitle": "『명조:워더링 웨이브』 세계관 PV | TRANSCENDO",
+    "sourceLocale": "ko",
+    "sourceKind": "video",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [],
+    "publishedAt": null,
+    "verifiedAt": "2026-10-25T03:29:42.644092Z",
+    "startAt": null,
+    "endAt": null,
+    "videos": [
+      {
+        "youtubeId": "3DK6XYB7icE",
+        "kind": "version",
+        "format": "pv",
+        "title": {
+          "ko": "『명조:워더링 웨이브』 세계관 PV | TRANSCENDO",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "originalTitle": "『명조:워더링 웨이브』 세계관 PV | TRANSCENDO",
+        "titleOfficialLocales": [
+          "ko"
+        ],
+        "locale": "ko",
+        "channel": "명조:워더링 웨이브",
+        "sourceUrl": "https://www.youtube.com/watch?v=3DK6XYB7icE",
+        "publishedAt": null,
+        "discoveredAt": "2026-10-25T03:29:42.644092Z",
+        "thumbnailUrl": "https://i.ytimg.com/vi/3DK6XYB7icE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA1gTVOzVELcuZP2VX8rqZcyHf-rA",
+        "verifiedAt": "2026-10-25T03:29:42.644092Z",
+        "official": true,
+        "metadataVerified": true,
+        "watched": false,
+        "evidenceUrls": [
+          "https://www.youtube.com/channel/UCKuq0c-RXYaulECSuu5hFug",
+          "https://www.youtube.com/channel/UCKuq0c-RXYaulECSuu5hFug/videos"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "official-video-wuwa-en-LXyEJPjiMsU",
+    "gameId": "wuwa",
+    "region": "global",
+    "server": "global",
+    "kind": "update",
+    "contentRole": "notice",
+    "title": {
+      "ko": "",
+      "en": "Wuthering Waves Lore Trailer | TRANSCENDO",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "ko": "",
+      "en": "",
+      "ja": "",
+      "zh": ""
+    },
+    "sourceUrl": "https://www.youtube.com/watch?v=LXyEJPjiMsU",
+    "sourceTitle": "Wuthering Waves Lore Trailer | TRANSCENDO",
+    "sourceLocale": "en",
+    "sourceKind": "video",
+    "officialLocales": [
+      "en"
+    ],
+    "translatedLocales": [],
+    "publishedAt": null,
+    "verifiedAt": "2026-10-25T03:29:42.644092Z",
+    "startAt": null,
+    "endAt": null,
+    "videos": [
+      {
+        "youtubeId": "LXyEJPjiMsU",
+        "kind": "version",
+        "format": "pv",
+        "title": {
+          "ko": "",
+          "en": "Wuthering Waves Lore Trailer | TRANSCENDO",
+          "ja": "",
+          "zh": ""
+        },
+        "originalTitle": "Wuthering Waves Lore Trailer | TRANSCENDO",
+        "titleOfficialLocales": [
+          "en"
+        ],
+        "locale": "en",
+        "channel": "Wuthering Waves",
+        "sourceUrl": "https://www.youtube.com/watch?v=LXyEJPjiMsU",
+        "publishedAt": null,
+        "discoveredAt": "2026-10-25T03:29:42.644092Z",
+        "thumbnailUrl": "https://i.ytimg.com/vi/LXyEJPjiMsU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAW4iPf8j0_svNvuJ8aj4aD1wrQ8Q",
+        "verifiedAt": "2026-10-25T03:29:42.644092Z",
+        "official": true,
+        "metadataVerified": true,
+        "watched": false,
+        "evidenceUrls": [
+          "https://www.youtube.com/channel/UC0Bi5KMcECRVYis5Gb_ZYZQ",
+          "https://www.youtube.com/channel/UC0Bi5KMcECRVYis5Gb_ZYZQ/videos"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "official-video-wuwa-ja-UHrsj49FWqk",
+    "gameId": "wuwa",
+    "region": "global",
+    "server": "global",
+    "kind": "update",
+    "contentRole": "notice",
+    "title": {
+      "ko": "",
+      "en": "",
+      "ja": "『鳴潮』世界観PV | TRANSCENDO",
+      "zh": ""
+    },
+    "summary": {
+      "ko": "",
+      "en": "",
+      "ja": "",
+      "zh": ""
+    },
+    "sourceUrl": "https://www.youtube.com/watch?v=UHrsj49FWqk",
+    "sourceTitle": "『鳴潮』世界観PV | TRANSCENDO",
+    "sourceLocale": "ja",
+    "sourceKind": "video",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [],
+    "publishedAt": null,
+    "verifiedAt": "2026-10-25T03:29:42.644092Z",
+    "startAt": null,
+    "endAt": null,
+    "videos": [
+      {
+        "youtubeId": "UHrsj49FWqk",
+        "kind": "version",
+        "format": "pv",
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "『鳴潮』世界観PV | TRANSCENDO",
+          "zh": ""
+        },
+        "originalTitle": "『鳴潮』世界観PV | TRANSCENDO",
+        "titleOfficialLocales": [
+          "ja"
+        ],
+        "locale": "ja",
+        "channel": "鳴潮 (Wuthering Waves)公式",
+        "sourceUrl": "https://www.youtube.com/watch?v=UHrsj49FWqk",
+        "publishedAt": null,
+        "discoveredAt": "2026-10-25T03:29:42.644092Z",
+        "thumbnailUrl": "https://i.ytimg.com/vi/UHrsj49FWqk/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDT-oWpOZAr_Fww8JOYI64gJ_BQsQ",
+        "verifiedAt": "2026-10-25T03:29:42.644092Z",
+        "official": true,
+        "metadataVerified": true,
+        "watched": false,
+        "evidenceUrls": [
+          "https://www.youtube.com/channel/UCGc93NguHRwzv1Rw9MyIcxQ",
+          "https://www.youtube.com/channel/UCGc93NguHRwzv1Rw9MyIcxQ/videos"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arknights-cn-20261101-talulah-donghe",
+    "gameId": "arknights",
+    "region": "cn",
+    "server": "中国大陆 · UTC+8",
+    "kind": "pickup",
+    "contentRole": "entity",
+    "poolType": "character",
+    "pickupType": "new",
+    "rarity": 6,
+    "featured": true,
+    "title": {
+      "ko": "탈룰라 · 冻河",
+      "en": "Talulah · 冻河",
+      "ja": "タルラ · 冻河",
+      "zh": "塔露拉 · 冻河"
+    },
+    "bannerName": {
+      "ko": "将雪投火 · 한정 헤드헌팅",
+      "en": "Cinders of Snow · Limited Headhunting",
+      "ja": "将雪投火・限定スカウト",
+      "zh": "将雪投火 · 限定寻访"
+    },
+    "summary": {
+      "ko": "신규 6성 탈룰라[한정]·冻河 확률 상승. 두 오퍼레이터가 6성 획득 확률의 합계 70%를 차지하며, 5성 奥尔佳도 확률이 상승합니다.",
+      "en": "New 6★ Talulah [Limited] and 冻河 share 70% of the 6★ rate. 5★ 奥尔佳 has a rate-up.",
+      "ja": "新★6タルラ［限定］・冻河の提供割合が上昇。2名で★6出現率の70％、★5奥尔佳は★5出現率の50％。",
+      "zh": "全新6★塔露拉[限定]、冻河占6★出率的70%；5★奥尔佳占5★出率的50%。"
+    },
+    "sourceUrl": "https://ak.hypergryph.com/news/4916",
+    "sourceTitle": "[限定寻访·庆典]〖将雪投火〗限时寻访即将开启",
+    "sourceLocale": "zh",
+    "sourceKind": "official",
+    "officialLocales": [
+      "zh"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja"
+    ],
+    "localizationSources": {
+      "zh": "https://ak.hypergryph.com/news/4916"
+    },
+    "publishedAt": "2026-10-24",
+    "verifiedAt": "2026-10-25T03:29:42.644092Z",
+    "startAt": "2026-11-01T12:00:00+08:00",
+    "endAt": "2026-11-15T03:59:00+08:00",
+    "image": "/assets/releases/arknights-cn-20261101-ff3bdcd34811.jpg",
+    "imageSource": "https://web.hycdn.cn/upload/image/20261023/f3f6f2b93639a9bbf893eddf73a823b7.JPG",
+    "imageVerified": true,
+    "imageKind": "banner",
+    "imageLocale": "zh",
+    "imageCaption": {
+      "ko": "중국 서버 공식 합본 픽업 배너",
+      "en": "Official mainland CN combined pickup banner",
+      "ja": "中国大陸版の公式合同スカウトバナー",
+      "zh": "国服官方合并寻访宣传图"
+    },
+    "imageFit": "contain",
+    "imagePosition": "center",
+    "detailSections": [
+      {
+        "title": {
+          "ko": "누적 300회 추가 보너스",
+          "en": "Additional 300-pull bonus",
+          "ja": "累計300回の追加特典",
+          "zh": "累计300次额外奖励"
+        },
+        "body": {
+          "ko": "이 한정 헤드헌팅에서 누적 300회 모집하면 탈룰라를 추가로 1회 받을 수 있습니다. 6성 확률·천장 카운트에는 영향을 주지 않으며, 누적 횟수는 다른 배너로 이월되지 않습니다.",
+          "en": "At 300 pulls in this limited banner, claim one additional Talulah once. This does not alter the 6★ pity counter; the bonus count does not carry over.",
+          "ja": "本限定スカウトで累計300回募集すると、タルラを追加で1回受け取れます。★6の確率・天井には影響せず、回数は他のスカウトに引き継がれません。",
+          "zh": "本期累计寻访300次可额外获得塔露拉一次，不影响6★概率与保底计数，次数不跨寻访继承。"
+        },
+        "sourceUrls": [
+          "https://ak.hypergryph.com/news/4916"
+        ],
+        "sourceKind": "official"
+      },
+      {
+        "title": {
+          "ko": "계약 교환소",
+          "en": "Contract exchange",
+          "ja": "契約交換所",
+          "zh": "寻访数据契约交换所"
+        },
+        "body": {
+          "ko": "11월 1일 12:00~11월 18일 03:59(중국 서버). 탈룰라·冻河는 계약 300개로 교환할 수 있습니다.",
+          "en": "November 1, 12:00–November 18, 03:59 (mainland CN server). Talulah and 冻河 cost 300 contracts each.",
+          "ja": "11月1日12:00〜11月18日03:59（中国大陸サーバー）。タルラ・冻河は契約300枚で交換可能。",
+          "zh": "11月01日12:00至11月18日03:59。塔露拉、冻河各需300寻访数据契约。"
+        },
+        "sourceUrls": [
+          "https://ak.hypergryph.com/news/4916"
+        ],
+        "sourceKind": "official"
+      }
+    ]
+  }
+]

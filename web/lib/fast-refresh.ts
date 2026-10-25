@@ -16,6 +16,7 @@ import {collectRegionalNotices,collectPendingDocuments} from './official-collect
 import {refreshWuwaReferenceStep} from './wuwa-reference-store';
 import {refreshCharacterRostersStep} from './character-roster-refresh';
 import {refreshLeaksStep} from './leaks-store';
+import {refreshOfficialUploadsStep} from './official-upload-store';
 const interval=10*60*1000;
 async function html(url:string){
  for(let hop=0;hop<4;hop++){
@@ -70,8 +71,9 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   if(noticed.some(e=>!noticeReadback.entries.some(v=>v.id===e.id)))throw Error('Notice readback failed');
   for(const {notice,checkedAt} of changedNotices)await captureDocument(notice,undefined,checkedAt);
   const cursor=(p.cursor||0)+3;
-  return {...p,stage:cursor>=koreanFastSources.length?'feeds':'korean',cursor:cursor>=koreanFastSources.length?0:cursor,koreanChecks:[...(p.koreanChecks||[]),...koreanChecks],noticedCount:(p.noticedCount||0)+noticed.length,changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
+  return {...p,stage:cursor>=koreanFastSources.length?'uploads':'korean',cursor:cursor>=koreanFastSources.length?0:cursor,koreanChecks:[...(p.koreanChecks||[]),...koreanChecks],noticedCount:(p.noticedCount||0)+noticed.length,changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
  }
+ if(p.stage==='uploads'){const result=await refreshOfficialUploadsStep(p.cursor||0);return {...p,stage:result.done?'feeds':'uploads',cursor:result.done?0:result.nextCursor,uploadChecks:[...(p.uploadChecks||[]),...result.checks]};}
  if(p.stage==='feeds')return {...p,stage:'regional',feeds:await refreshFeeds()};
  if(p.stage==='regional'){const batch=await collectRegionalNotices(p.cursor||0,3),done=batch.nextOffset>=batch.total;return {...p,stage:done?'channels':'regional',cursor:done?0:batch.nextOffset,regional:{checks:[...(p.regional?.checks||[]),...batch.checks],added:(p.regional?.added||0)+batch.added,metadataChanged:[...(p.regional?.metadataChanged||[]),...batch.metadataChanged]}};}
  if(p.stage==='channels'){
@@ -142,7 +144,7 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
   const weaponCheck={source:'wuwa/global/weapons',status:collection.weapons.issues.length?'error':'ok',checkedAt:collection.weapons.checkedAt,count:collection.weapons.changedEntries.length,error:collection.weapons.issues.join('; ')||undefined};
-  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...broadcastChecks,...collection.checks,weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],!validationIssues.length);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,broadcastChecks,structuredChecks:[weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
+  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...(p.uploadChecks||[]),...broadcastChecks,...collection.checks,weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],!validationIssues.length);
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,uploadChecks:p.uploadChecks||[],broadcastChecks,structuredChecks:[weaponCheck,...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:10};
   return result;
 }

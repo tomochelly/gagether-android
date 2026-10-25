@@ -1,4 +1,5 @@
 'use client';
+import UiText from './ui-text';
 import {EntryEdit} from './owner-inline';
 import {textAppearance,textAppearanceStyle} from '@/lib/text-appearance';
 import type {OpenEntry} from '@/lib/pickup-detail';
@@ -34,7 +35,7 @@ export default function Spotlight({slides,index,onIndex,locale,now,region,fallba
  return <div className="owner-banner-frame"><section className={'spotlight'+(art?.imageKind==='banner'?' is-banner':'')+(state==='upcoming'?' is-upcoming':'')+(dateOnly?' is-date-only':'')} aria-label={t.featured} aria-roledescription="carousel" style={{'--spot-color':game.color,'--slide-duration':seconds+'s'} as CSSProperties} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} onFocusCapture={()=>setFocus(true)} onBlurCapture={event=>{if(!event.currentTarget.contains(event.relatedTarget))setFocus(false);}}>
   <div className="spotlight-scene" key={current?.id||game.id}>
    <div className="spotlight-glow" style={{backgroundImage:resolvedArt?.imageVerified&&resolvedArt.image?`url(${resolvedArt.image})`:undefined}}/>
-   <div className="spotlight-visual">{art?(resolvedArt?.imageVerified&&resolvedArt.image?<ArtworkMedia locale={locale} serviceLocale={serviceArtworkLocale(art.region,art.gameId)} art={art} alt={entryTitle(art,locale)} priority banner/>:<span className="art-pending"><ImageOff size={32}/>{t.imagePending}</span>):<span className="art-pending"><ImageOff size={32}/>{t.imagePending}</span>}</div>
+   <div className="spotlight-visual">{art?(resolvedArt?.imageVerified&&resolvedArt.image?<ArtworkMedia locale={locale} serviceLocale={serviceArtworkLocale(art.region,art.gameId)} art={art} alt={entryTitle(art,locale)} priority banner/>:<span className="art-pending"><ImageOff size={32}/><UiText name="imagePending">{t.imagePending}</UiText></span>):<span className="art-pending"><ImageOff size={32}/><UiText name="imagePending">{t.imagePending}</UiText></span>}</div>
    <div className="spotlight-wash"/>{editMode&&e&&<button className="canvas-image-edit edit-chip" onClick={()=>openEditor({...editEntryTarget(e),focus:e.pickupMembers?.some(m=>m.image)?'members':'image'})}><Pencil size={14}/>{ownerUi[locale].editImage}</button>}
    <div className="spotlight-copy"><div className="spotlight-kicker"><span className="live-dot"/>{e&&isPickup(e)?pickupBannerLabel(e,now,locale):state==='active'?t.now:future?t.upcoming:t.featured}<span>{versionCaption(art||e||({} as Entry),locale)}</span></div><img className="spotlight-logo" src={game.logo} alt={game.name[locale]}/>
     <div className="spotlight-badges">{art?.pickupType&&<span className={'pickup-badge '+art.pickupType}>{art.pickupType==='new'?t.newPickup:art.pickupType==='rerun'?t.rerunPickup:art.pickupType==='mixed'?t.mixedPickup:t.unknownPickup}</span>}<span>{regionLabel(game,e?.region||region,locale,t)}</span></div>

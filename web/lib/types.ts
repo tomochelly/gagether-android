@@ -14,8 +14,8 @@ export interface RelatedSource {kind:SourceKind;url:string;title:string;publishe
 export interface GameIcon {image:string;imageSource:string;width:number;height:number;verifiedAt:string}
 export interface EntityTrait {id:string;label:Localized;value:Localized;icon?:GameIcon;officialLocales?:Locale[];translatedLocales?:Locale[]}
 export interface SourceBody {title?:string;locale:Locale;sourceUrl:string;text:string;images:string[];links?:{label:string;url:string}[];bodyHash:string;importedAt:string;sourceKind:"official"|"community"}
-export interface RewardItem {note?:Localized;acquisition?:"free"|"conditional"|"purchase";rewardId?:string;category?:'gacha-currency'|'gacha-ticket'|'resource';officialLocales?:Locale[];translatedLocales?:Locale[];name:Localized;quantity?:string;icon?:GameIcon;sourceUrl:string;sourceKind:"official"|"community"}
-export interface VideoClip {originalTitle?:string;titleOfficialLocales?:Locale[];titleTranslatedLocales?:Locale[];youtubeId:string;kind:"character"|"version";format?:"pv"|"intro"|"demo";title:Localized;locale:Locale;channel:string;sourceUrl:string;publishedAt?:string|null;verifiedAt:string;official:boolean;metadataVerified:boolean;watched:false;entityNames?:Localized[];evidenceUrls?:string[]}
+export interface RewardItem {textStyle?:LocalizedTextStyle;note?:Localized;acquisition?:"free"|"conditional"|"purchase";rewardId?:string;category?:'gacha-currency'|'gacha-ticket'|'resource';officialLocales?:Locale[];translatedLocales?:Locale[];name:Localized;quantity?:string;icon?:GameIcon;sourceUrl:string;sourceKind:"official"|"community"}
+export interface VideoClip {discoveredAt?:string;thumbnailUrl?:string;originalTitle?:string;titleOfficialLocales?:Locale[];titleTranslatedLocales?:Locale[];youtubeId:string;kind:"character"|"version";format?:"pv"|"intro"|"demo";title:Localized;locale:Locale;channel:string;sourceUrl:string;publishedAt?:string|null;verifiedAt:string;official:boolean;metadataVerified:boolean;watched:false;entityNames?:Localized[];evidenceUrls?:string[]}
 export interface OfficialBroadcast {
  status:'scheduled'|'live'|'ended'|'cancelled';youtubeId?:string;channel?:string;locale:Locale;
  sourceUrl:string;announcementUrl:string;originalTitle:string;announcedAt:string|null;
@@ -25,9 +25,9 @@ export interface OfficialBroadcast {
 export interface StatRow {label:Localized;value:string;note?:Localized;icon?:GameIcon}
 export interface MaterialGroup {id:string;title:Localized;basis?:Localized;items:{id:string;name?:Localized;quantity:string;icon?:GameIcon;sourceUrl:string;sourceKind:'official'|'community'}[]}
 export interface EntityProfile {
- id:string;name:Localized;category:Localized;basis:Localized;officialLocales?:Locale[];translatedLocales?:Locale[];
+ textStyle?:LocalizedTextStyle; id:string;name:Localized;category:Localized;basis:Localized;officialLocales?:Locale[];translatedLocales?:Locale[];
  traits?:EntityTrait[];stats:StatRow[];statSourceKind:SourceKind;materials?:MaterialGroup[];
- groups:{title:Localized;body:Localized;sourceKind:SourceKind;sourceUrls?:string[];rows?:StatRow[]}[];
+ groups:{textStyle?:LocalizedTextStyle;title:Localized;body:Localized;sourceKind:SourceKind;sourceUrls?:string[];rows?:StatRow[]}[];
  sources:RelatedSource[];verifiedAt:string;notes?:Localized[];
 }
 export interface PreviewFocus {x:number;y:number;zoom:number}
@@ -38,14 +38,15 @@ export type ImageFraming = Partial<Record<ImageFrameKind,ImageFrame>>;
 export interface ArtworkAsset {imageFraming?:ImageFraming;imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image:string;imageSource:string;imageVerified:boolean;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageLocale?:Locale|'neutral';width:number;height:number;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;verifiedAt:string}
 export interface EntityArtwork {imageFraming?:ImageFraming;imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image?:string;imageSource?:string;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageFit?:"contain"|"cover";imagePosition?:string;imageVerified?:boolean;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;imageLocale?:Locale|'neutral';previewArtwork?:ArtworkAsset;localizedArtwork?:Partial<Record<Locale,ArtworkAsset>>}
 export interface Game {
- acquisitionModel?:"gacha"|"direct";
+ textStyle?:LocalizedTextStyle; acquisitionModel?:"gacha"|"direct";
  id:string;name:Localized;short:string;genre:Localized;color:string;logo:string;localizedLogos?:Partial<Record<Locale,string>>;logoSources?:Partial<Record<Locale,string>>;icon?:string;iconSource?:string;art:string;artPosition?:string;
  official:string;publisher:string;regions:Region[];sources:{label:string;url:string;region:Region}[];
  serviceMode?:"regional"|"shared-global";
  scheduleRegions?:Region[];regionAliases?:Partial<Record<Region,Region>>;
  regionLabels?:Partial<Record<Region,Localized>>;
 }
-export interface TextAppearance {titleSize?:number;bodySize?:number;lineHeight?:number}
+export interface TextFormat {bold?:boolean;italic?:boolean;underline?:boolean;strike?:boolean;align?:'left'|'center'|'right'|'justify';color?:string}
+export interface TextAppearance {titleSize?:number;bodySize?:number;lineHeight?:number;titleFormat?:TextFormat;bodyFormat?:TextFormat}
 export type LocalizedTextStyle=Partial<Record<Locale,TextAppearance>>;
 export type ContentBlock={id:string;type:'text';title?:Localized;body:Localized;textStyle?:LocalizedTextStyle}|{id:string;type:'image';asset:ArtworkAsset};
 export interface Entry extends EntityArtwork {
@@ -70,7 +71,7 @@ export interface Entry extends EntityArtwork {
  localizationSources?:Partial<Record<Locale,string>>;
  sourceLocale?:Locale;
  sourceKind?:SourceKind;relatedSources?:RelatedSource[];
- detailSections?:{audienceRegions?:Region[];title:Localized;body:Localized;sourceKind?:SourceKind;sourceUrls?:string[]}[];
+ detailSections?:{textStyle?:LocalizedTextStyle;audienceRegions?:Region[];title:Localized;body:Localized;sourceKind?:SourceKind;sourceUrls?:string[]}[];
  highlights?:Localized[];marketRegion?:Region;detailImages?:ArtworkAsset[];
  entityDetails?:EntityProfile[];videos?:VideoClip[];broadcast?:OfficialBroadcast;rewards?:RewardItem[];rewardNote?:Localized;
  hidden?:boolean;editor?:{revision:number;updatedAt:string;fields:string[]};

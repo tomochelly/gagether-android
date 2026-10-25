@@ -3,7 +3,7 @@ import {notFound} from 'next/navigation';
 import {games} from '@/lib/games';
 import {isLocale,defaultRegionForLocale} from '@/lib/visitor-locale';
 import {effectiveRegion} from '@/lib/presentation';
-import {readCharacterRoster} from '@/lib/character-roster-store';
+import {readCharacterRosterView as readCharacterRoster} from '@/lib/roster-art-framing-store';
 import type {Region} from '@/lib/types';
 import {rosterCopy,characterPath} from '@/lib/character-roster';
 import {discoveryWords} from '@/lib/discovery';

@@ -117,18 +117,12 @@ def enrich_nikke(doc,cache):
   if hit['rarity'].upper()in ('R','SR','SSR'):c['rarity']={'R':1,'SR':2,'SSR':3}[hit['rarity'].upper()];c['rarityLabel']=hit['rarity'].upper()
  def details(c):
   if c['id']not in matches:return {}
-  hit=matches[c['id']];url=NIKKE+'/'+str(hit['id'])+'?fields=id,name,details.statsPerLevel,details.combat';d=cache.json(url)
-  if d.get('id')!=hit['id']:raise ValueError('NIKKE identity mismatch')
-  s=d.get('details',{}).get('statsPerLevel',{});combat=d.get('details',{}).get('combat',{});basis=copies('BlablaLink 성장표 Lv.1 · 장비·돌파·호감도 등 추가 보너스 제외','BlablaLink growth table, Lv.1; equipment, limit break, bond and other bonuses excluded','BlablaLink成長表・Lv.1。装備・限界突破・好感度などの追加効果を除く','BlablaLink成长表Lv.1，不含装备、突破、好感等额外加成')
-  stats=[]
-  for key,field in [('hp','hp'),('atk','attack'),('def','defence')]:
-   v=s.get(field)
-   if isinstance(v,list)and v and isinstance(v[0],(int,float)):stats.append(stat(key,v[0],LABELS[key],basis))
-  for key,field in [('crit_rate','criticalRatio'),('crit_dmg','criticalDamage')]:
-   if combat.get(field):stats.append(stat(key,combat[field],LABELS[key],basis))
-  return {'stats':stats}if stats else{}
+  from nikke_details import FIELDS,patch
+  hit=matches[c['id']];url=NIKKE+'/'+str(hit['id'])+'?fields='+FIELDS
+  return patch(c,cache.json(url))
  count,errors=detail_rows(doc,cache,details)
- return {'nameMatches':len(matches),'unmatchedNames':missing,'detailReads':count,'detailFailures':errors,'note':'NIKKE official BlablaLink tables exposed through public community API; full files remain original same-character default outfits, not alternate costume assets.'}
+ gaps=[{'id':c['id'],'skill':s['id'],'locale':l}for c in doc['characters']for s in c.get('skillTables',[])for l,v in s.get('descriptionTemplate',{}).items()if not v]
+ return {'nameMatches':len(matches),'unmatchedNames':missing,'detailReads':count,'detailFailures':errors,'nativeLocalizationGaps':gaps,'skillTables':sum(len(c.get('skillTables',[]))for c in doc['characters']),'costumeOriginals':sum(a.get('variantId','').startswith('costume-')for c in doc['characters']for a in c.get('images',[])),'note':'Native BlablaLink tables via public community API. Exact base identity and separately declared costume originals; base Lv.1–200 checkpoints and skill Lv.1–10, excluding favorite-item upgrades. Absent native locales retain labelled original-language fallback.'}
 
 def enrich_limbus(doc,cache):
  native={l:{r['id']:r for r in cache.json(LIMBUS+lang+'/Personalities.json')['dataList']}for l,lang in [('en','EN'),('ko','KR'),('ja','JP')]}
@@ -323,7 +317,7 @@ def main():
   if not source.exists():continue
   original=json.loads(source.read_text())
   try:
-   out,report=enrich(game,original,args.cache_dir or str(dest/'sources'));report['status']='partial'if report.get('detailFailures')or report.get('unmatchedNames')else'ok'
+   out,report=enrich(game,original,args.cache_dir or str(dest/'sources'));report['status']='partial'if report.get('detailFailures')or report.get('unmatchedNames')or report.get('nativeLocalizationGaps')else'ok'
   except Exception as e:out=original;report={'gameId':game,'status':'failed','error':type(e).__name__+': '+str(e),'preservedInput':True}
   (dest/(game+'.json')).write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');reports.append(report);print(json.dumps({k:v for k,v in report.items()if k not in('sources','detailFailures')},ensure_ascii=False),flush=True)
  (dest/'enrichment-a-report.json').write_text(json.dumps({'checkedAt':now(),'games':reports},ensure_ascii=False,indent=2)+'\n')

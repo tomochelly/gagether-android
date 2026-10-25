@@ -1,5 +1,5 @@
-import type {Locale,Localized} from './types';
-export type SiteAnnouncement={id:string;title:Localized;body:Localized;publishedDate?:string;href?:string;enabled?:boolean};
+import type {Locale,Localized,LocalizedTextStyle} from './types';
+export type SiteAnnouncement={textStyle?:LocalizedTextStyle;id:string;title:Localized;body:Localized;publishedDate?:string;href?:string;enabled?:boolean};
 const l=(ko:string,en:string,ja:string,zh:string):Localized=>({ko,en,ja,zh});
 export const announcementCopy={
  label:l('가게더 소식','GAGETHER news','GAGETHERからのお知らせ','GAGETHER公告'),

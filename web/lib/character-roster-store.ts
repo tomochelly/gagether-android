@@ -11,7 +11,7 @@ export async function readCharacterRoster(gameId:string){
  if(!fallback)return null;const data=characterRosterSchema.parse(enrichCharacterRoster(fallback));return {data,hash:await rosterHash(data),storageHash:undefined,delivery:'bootstrap',pointer:expectedPointer,error:failure};
 }
 export async function saveCharacterRoster(input:CharacterRoster){
- const source=characterRosterSchema.parse(input),prior=await readCharacterRoster(source.gameId);
+ const parsed=characterRosterSchema.parse(input),source={...parsed,characters:parsed.characters.map(({artworkFrames,...c})=>c)},prior=await readCharacterRoster(source.gameId);
  if(prior&&source.characters.length<prior.data.characters.length*.8)throw Error('Partial source inventory; keeping last-good roster');
  const data=characterRosterSchema.parse(enrichCharacterRoster(source)),seen=new Set(data.characters.map(c=>c.id));
  if(prior&&data.characters.length<prior.data.characters.length*.8)throw Error('Partial source inventory; keeping last-good roster');

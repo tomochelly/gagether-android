@@ -1,11 +1,11 @@
-import type {Entry,Game,Locale} from './types';
+import type {Entry,Game,Locale,TextAppearance,LocalizedTextStyle} from './types';
 import {games,isSupportedSchedule} from './games';
 import {ui} from './i18n';
 import type {SiteLayout} from './site-layout';
 import type {SiteAnnouncement} from './site-announcements';
 
-export type GameAppearance=Partial<Pick<Game,'name'|'short'|'genre'|'color'|'logo'|'localizedLogos'|'logoSources'|'icon'|'iconSource'|'art'|'artPosition'|'official'|'publisher'|'regionLabels'>>;
-export type SiteSettings={layout?:SiteLayout;announcements?:SiteAnnouncement[];announcementSeconds?:number;brand?:{name?:string;tagline?:string;logo?:string};carouselSeconds?:number;ui?:Partial<Record<Locale,Partial<Record<keyof typeof ui.ko,string>>>>;games?:Record<string,GameAppearance>};
+export type GameAppearance=Partial<Pick<Game,'textStyle'|'name'|'short'|'genre'|'color'|'logo'|'localizedLogos'|'logoSources'|'icon'|'iconSource'|'art'|'artPosition'|'official'|'publisher'|'regionLabels'>>;
+export type SiteSettings={uiTextStyle?:Partial<Record<Locale,Partial<Record<keyof typeof ui.ko,TextAppearance>>>>;layout?:SiteLayout;announcements?:SiteAnnouncement[];announcementSeconds?:number;brand?:{textStyle?:LocalizedTextStyle;name?:string;tagline?:string;logo?:string};carouselSeconds?:number;ui?:Partial<Record<Locale,Partial<Record<keyof typeof ui.ko,string>>>>;games?:Record<string,GameAppearance>};
 export type EditorialRecord={key:string;payload:Record<string,unknown>;revision:number;updatedAt:string};
 export const emptySettings:SiteSettings={};
 export function catalogGames(settings:SiteSettings,locale?:Locale):Game[]{return games.map(g=>{

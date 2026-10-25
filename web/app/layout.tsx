@@ -1,3 +1,5 @@
+import './text-editor.css';
+import './roster-editor.css';
 import './favorite-updates.css';
 import './usage-analytics.css';
 import './content-sections.css';
@@ -30,6 +32,8 @@ import "./leaks.css";
 import "./navigation-controls.css";
 import "./document-reader.css";
 import "./character-roster.css";
+import "./gallery-effects.css";
+import "./pv-banner.css";
 import {requestLocale} from '@/lib/request-locale';
 import {brandOrigin} from '@/lib/brand';
 import {displayBootstrap} from '@/lib/display-preferences';

@@ -1,4 +1,5 @@
 'use client';
+import UiText from './ui-text';
 import {textAppearance,textAppearanceStyle,authoredField} from '@/lib/text-appearance';
 import {EntryEdit} from './owner-inline';
 import type {OpenEntry} from '@/lib/pickup-detail';
@@ -30,7 +31,7 @@ function UpcomingCard({item,locale,onOpen,weaponEntries}:{weaponEntries:Entry[];
   <button className="upcoming-info" onClick={()=>onOpen(entry,item.name)}>
    <span className="upcoming-game"><img src={game.icon||game.logo} alt="" loading="lazy"/>{game.name[locale]}<small>{regionLabel(game,entry.region,locale,t)}</small></span>
    <span className="upcoming-name"><strong style={textAppearanceStyle(textAppearance(entry,locale),'title')}>{name}</strong><ArrowUpRight size={17}/></span>
-   <span className="upcoming-labels"><span>{entry.poolType==='support'?t.supportPool:item.type==='new'?t.newPickup:item.type==='rerun'?t.rerunPickup:t.upcoming}</span>{entry.selectionCount&&<span>{t.selectionChoose} {entry.selectionCount}</span>}{versionCaption(entry,locale)&&<span>{versionCaption(entry,locale)}</span>}{entry.translatedLocales?.includes(locale)&&!entry.officialLocales?.includes(locale)&&<span className="localization-label">{t.translatedTitle}</span>}</span>
+   <span className="upcoming-labels"><span>{entry.poolType==='support'?t.supportPool:item.type==='new'?t.newPickup:item.type==='rerun'?t.rerunPickup:t.upcoming}</span>{entry.selectionCount&&<span><UiText name="selectionChoose">{t.selectionChoose}</UiText> {entry.selectionCount}</span>}{versionCaption(entry,locale)&&<span>{versionCaption(entry,locale)}</span>}{entry.translatedLocales?.includes(locale)&&!entry.officialLocales?.includes(locale)&&<span className="localization-label"><UiText name="translatedTitle">{t.translatedTitle}</UiText></span>}</span>
    <SecondaryPickups entry={entry} locale={locale}/><span className="upcoming-start"><CalendarClock size={15}/><span><b>{pickupStartLabel(entry,locale,item.start)}</b>{(item.start||estimate)&&<small>{estimate?.scope==='version'?dateText.version:forecast?dateText.banner:l.starts}</small>}</span></span>
    {item.end&&<span className="upcoming-end">{l.ends} <time dateTime={item.end}>{item.end.replaceAll('-','.')}</time></span>}
    {forecast&&<small className="upcoming-date-source">{estimate?.method==='cycle'?dateText.cycle:dateText.community}</small>}
