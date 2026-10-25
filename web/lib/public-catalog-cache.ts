@@ -1,3 +1,5 @@
+import {deliveryContext} from './public-delivery-context';
+import {matchesIfNoneMatch} from './http-cache';
 import {packCatalog,type CatalogData} from './catalog-transport';
 
 // Completed public JSON only. Never retain an in-flight DB/fetch promise from
@@ -5,21 +7,26 @@ import {packCatalog,type CatalogData} from './catalog-transport';
 type Snapshot={key:string;etag:string;body:string};
 type Storage={get:(slot:string)=>Promise<{key:string;etag:string;body:string}|null>;put:(slot:string,value:Snapshot)=>Promise<void>};
 const completed=new Map<string,Snapshot>();
-export async function publicCatalog(request:Request,options:{build:string;archive:boolean;revision:()=>Promise<string>;read:()=>Promise<CatalogData>;storage?:Storage}){
- const started=Date.now(),slot=options.archive?'archive':'current';
+function rememberSnapshot(slot:string,snapshot:Snapshot){
+ completed.delete(slot);if(snapshot.body.length*2<=12_000_000)completed.set(slot,snapshot);
+ let bytes=0;for(const value of completed.values())bytes+=value.body.length*2;
+ while(completed.size>4||bytes>12_000_000){const first=completed.keys().next().value;if(first===undefined)break;bytes-=completed.get(first)!.body.length*2;completed.delete(first);}
+}
+export async function publicCatalog(request:Request,options:{build:string;archive:boolean;gameId?:string;revision:()=>Promise<string>;read:()=>Promise<CatalogData>;storage?:Storage}){
+ const started=Date.now(),slot=(options.archive?'archive':'current')+(options.gameId?'-game-'+options.gameId:'');
  let key:string|undefined;
  const respond=(snapshot:Snapshot,state:string)=>{
   const headers={'Content-Type':'application/json; charset=utf-8','Cache-Control':'private, no-cache',Vary:'Accept',ETag:snapshot.etag,'Server-Timing':`catalog;dur=${Date.now()-started};desc="${state}"`};
-  return request.headers.get('If-None-Match')===snapshot.etag?new Response(null,{status:304,headers}):new Response(snapshot.body,{headers});
+  return matchesIfNoneMatch(request.headers.get('If-None-Match'),snapshot.etag)?new Response(null,{status:304,headers}):new Response(snapshot.body,{headers});
  };
  try{
   key=options.build+':'+await options.revision()+':'+slot;
   const etag='"catalog-'+key+'"';
-  if(request.headers.get('If-None-Match')===etag)return respond({key,etag,body:''},'UNCHANGED');
+  if(matchesIfNoneMatch(request.headers.get('If-None-Match'),etag))return respond({key,etag,body:''},'UNCHANGED');
   const memory=completed.get(slot);
   if(memory?.key===key)return respond(memory,'MEMORY');
   const saved=await options.storage?.get(slot);
-  if(saved?.key===key){completed.set(slot,saved);return respond(saved,'SNAPSHOT');}
+  if(saved?.key===key){rememberSnapshot(slot,saved);return respond(saved,'SNAPSHOT');}
  }catch{/* An unavailable acceleration store must not prevent a fresh read. */}
  const data=await options.read();
  // Do not replace a last good client snapshot with seed-only/partial owner data.
@@ -30,8 +37,8 @@ export async function publicCatalog(request:Request,options:{build:string;archiv
  if(key){
   try{
    if(key===options.build+':'+await options.revision()+':'+slot){
-    completed.set(slot,snapshot);
-    await options.storage?.put(slot,snapshot);
+    rememberSnapshot(slot,snapshot);
+    const persist=options.storage?.put(slot,snapshot);if(persist){const context=deliveryContext();if(context)context.waitUntil(persist.catch(()=>{}));else await persist;}
    }
   }catch{/* A read still succeeds if caching fails. */}
  }

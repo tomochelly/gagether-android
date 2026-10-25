@@ -18,5 +18,5 @@ test('public counts begin at zero, count each browser/game once, remove unstars 
  r=await POST(write(cookie,[],1));d=await r.json();assert.equal(d.counts.wuwa,0);assert.equal(d.counts.zzz,0);
  assert.equal((await POST(write(cookie,['wrong-game'],2))).status,400);assert.equal((await POST(write(cookie,['wuwa'],2,'https://evil.example'))).status,403);
  assert.equal((await POST(write('', ['wuwa'],0))).status,428);
- const anonymous=await (await GET(new Request('https://gagether.wiki/api/favorites'))).json();assert.deepEqual(Object.keys(anonymous).sort(),['asOf','counts','unit']);assert.equal(JSON.stringify(anonymous).includes(cookie.split('=')[1]),false);
+ const anonymous=await (await GET(new Request('https://gagether.wiki/api/favorites'))).json();assert.deepEqual(Object.keys(anonymous).sort(),['asOf','counts','countsVersion','unit']);assert.equal(JSON.stringify(anonymous).includes(cookie.split('=')[1]),false);
 });

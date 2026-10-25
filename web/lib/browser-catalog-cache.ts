@@ -1,6 +1,7 @@
+import {publicCatalogScope} from './catalog-scope';
 import {unpackCatalog,type CatalogData,type PackedCatalog} from './catalog-transport';
 const CACHE='gagether-public-catalog-v1';
-const eligible=(url:string)=>url==='/api/data?view=index'||url==='/api/data?view=index&archive=1';
+const eligible=(url:string)=>!!publicCatalogScope(url);
 export async function rememberedCatalog(url:string):Promise<{data:CatalogData;etag:string}|null>{
  try{
   if(!eligible(url)||typeof caches==='undefined')return null;

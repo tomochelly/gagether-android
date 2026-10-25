@@ -33,36 +33,51 @@ def task_url(task):
  if not isinstance(game,str) or not re.fullmatch('[a-z][a-z0-9_-]{0,40}',game) or lane not in LANES or (lane=='maintenance')!=(game=='all'):raise ValueError('Invalid registered task selector')
  return ENDPOINT+'?'+urllib.parse.urlencode({'game':game,'lane':lane})
 
+def persisted(task,status):
+ """Classify a durable snapshot, never a speculative success from a POST."""
+ saved=status.get('result') or {}
+ if status.get('version')!=2 or status.get('task',{}).get('key')!=task['key']:raise RuntimeError('Readback task identity mismatch')
+ if saved.get('continuation'):
+  if saved.get('ok') is not True or not saved.get('runId') or not saved.get('stage') or saved.get('startedAt')!=status.get('lastStartedAt'):raise RuntimeError('Durable checkpoint readback failed')
+  if status.get('serverTime'):
+   try:age=(datetime.datetime.fromisoformat(status['serverTime'].replace('Z','+00:00'))-datetime.datetime.fromisoformat((saved.get('progressAt') or saved['startedAt']).replace('Z','+00:00'))).total_seconds()
+   except (ValueError,TypeError):raise RuntimeError('Invalid durable progress clock')
+   if age>max(30,float(task.get('intervalMinutes',0))*3)*60:raise RuntimeError('Durable checkpoint is stalled: '+saved['stage'])
+  return {'task':task,'pending':True,'runId':saved['runId'],'stage':saved.get('stage'),'cursor':saved.get('cursor',0)}
+ readback=saved.get('readback');finished=status.get('lastFinishedAt')
+ if not finished or saved.get('finishedAt')!=finished or status.get('lastStartedAt','')>finished or saved.get('startedAt')!=status.get('lastStartedAt') or not isinstance(readback,dict) or any(type(readback.get(k)) is not int or readback[k]<0 for k in ['automatic','effective']):raise RuntimeError('Persisted game readback missing')
+ if saved.get('outcome')=='validation-failed':raise RuntimeError('Persistent game validation failed')
+ if saved.get('outcome') not in ['complete','partial','failed']:raise RuntimeError('Unknown source outcome')
+ return {'task':task,'pending':False,'outcome':saved['outcome'],'finishedAt':finished,'readback':readback,'noticesAdded':saved.get('noticesAdded',0)}
+
 def step(task,request=fetch_json):
  url=task_url(task);result=request(url,True)
  if result.get('version')!=2 or result.get('taskKey')!=task['key']:raise RuntimeError('Scoped updater deployment is missing or mismatched')
  if result.get('continuation'):
   if result.get('ok') is not True:raise RuntimeError('Refresh stage failed')
   return {'task':task,'pending':True,'runId':result.get('runId'),'stage':result.get('stage'),'cursor':result.get('cursor',0),'busy':result.get('busy',False)}
- status=request(url);saved=status.get('result') or {}
- if status.get('version')!=2 or status.get('task',{}).get('key')!=task['key']:raise RuntimeError('Readback task identity mismatch')
- if saved.get('continuation'):
-  if saved.get('ok') is not True or not saved.get('runId') or saved.get('startedAt')!=status.get('lastStartedAt'):raise RuntimeError('Durable checkpoint readback failed')
-  return {'task':task,'pending':True,'runId':saved['runId'],'stage':saved.get('stage'),'cursor':saved.get('cursor',0)}
- readback=saved.get('readback');finished=status.get('lastFinishedAt')
- if not finished or saved.get('finishedAt')!=finished or status.get('lastStartedAt','')>finished or saved.get('startedAt')!=status.get('lastStartedAt') or not isinstance(readback,dict) or any(type(readback.get(k)) is not int or readback[k]<0 for k in ['automatic','effective']):raise RuntimeError('Persisted game readback missing')
- if saved.get('outcome')=='validation-failed':raise RuntimeError('Persistent game validation failed')
- if saved.get('outcome') not in ['complete','partial','failed']:raise RuntimeError('Unknown source outcome')
- return {'task':task,'pending':False,'outcome':saved['outcome'],'finishedAt':finished,'readback':readback,'noticesAdded':saved.get('noticesAdded',0),'cached':bool(result.get('skipped'))}
+ # A run can advance between POST and GET. Only retry the read; never repeat a
+ # write or accept an old clock/missing count as completion.
+ for attempt in range(3):
+  status=request(url)
+  try:
+   value=persisted(task,status);value['cached']=bool(result.get('skipped'));return value
+  except RuntimeError as error:
+   if str(error)!='Persisted game readback missing' or attempt==2:raise
 
 def verified_pending(task,request=fetch_json):
- status=request(task_url(task));saved=status.get('result') or {}
- return bool(status.get('task',{}).get('key')==task['key'] and saved.get('continuation') is True and saved.get('ok') is True and saved.get('runId') and saved.get('stage') and saved.get('startedAt')==status.get('lastStartedAt'))
+ try:return persisted(task,request(task_url(task)))['pending']
+ except RuntimeError:return False
 
 def wave(tasks,budget_seconds,workers=4,request=fetch_json,clock=time.monotonic):
- deadline=clock()+budget_seconds;queue=collections.deque(tasks);active={};completed=[];errors=[];pending=[];calls=0;ready={}
+ deadline=clock()+budget_seconds;queue=collections.deque(tasks);active={};completed=[];errors=[];pending=[];deferred=[];calls=0;ready={};attempted=set()
  with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
   while queue or active:
    slots=len(queue)
    while queue and slots>0 and len(active)<workers and clock()<deadline:
     slots-=1;task=queue.popleft()
     if ready.get(task['key'],0)>clock():queue.append(task);continue
-    active[pool.submit(step,task,request)]=task;calls+=1
+    active[pool.submit(step,task,request)]=task;attempted.add(task['key']);calls+=1
    if not active:
     if queue and clock()<deadline:time.sleep(1);continue
     break
@@ -79,11 +94,22 @@ def wave(tasks,budget_seconds,workers=4,request=fetch_json,clock=time.monotonic)
    # Busy jobs yield a slot; bounded backoff avoids spinning on another lease.
    if not done and not active:time.sleep(1)
  for task in queue:
+  if task['key'] not in attempted:
+   deferred.append({'gameId':task['gameId'],'lane':task['lane'],'outcome':'deferred','reason':'Run budget ended before this task started'});continue
   try:
-   if not verified_pending(task,request):raise RuntimeError('Unfinished job has no verified checkpoint')
-   pending.append({'gameId':task['gameId'],'lane':task['lane'],'outcome':'continuing'})
+   value=persisted(task,request(task_url(task)))
+   if value['pending']:pending.append({'gameId':task['gameId'],'lane':task['lane'],'outcome':'continuing','runId':value['runId'],'stage':value['stage']})
+   else:completed.append(value)
   except Exception as error:errors.append({'gameId':task['gameId'],'lane':task['lane'],'error':str(error)})
- return {'completed':completed,'continuing':pending,'errors':errors,'requests':calls}
+ return {'completed':completed,'continuing':pending,'deferred':deferred,'errors':errors,'requests':calls}
+
+def reconcile_errors(unresolved,result):
+ recovered=[]
+ for value in result['completed']:
+  key=(value['task']['gameId'],value['task']['lane'])
+  if key in unresolved:recovered.append(unresolved.pop(key))
+ for error in result['errors']:unresolved[(error['gameId'],error['lane'])]=error
+ return recovered
 
 def due_tasks(plan,mode):
  try:now=datetime.datetime.fromisoformat(plan['serverTime'].replace('Z','+00:00'))
@@ -109,7 +135,7 @@ def main():
   print('::notice::Another healthy runner owns this mode; duplicate wake-up completed without collecting twice.',flush=True)
   return
  continuous=args.mode=='fast' and os.environ.get('GITHUB_EVENT_NAME') in ['schedule','push'] and not args.once
- end=time.monotonic()+(45*60 if continuous else 12*60);wave_number=0;all_errors=[];lost_lease=False;result=None
+ end=time.monotonic()+(45*60 if continuous else 12*60);wave_number=0;unresolved={};lost_lease=False;result=None
  try:
   while True:
    if not fetch_json(lease_url+'renew',True).get('claimed'):
@@ -119,8 +145,9 @@ def main():
    tasks=due_tasks(plan,args.mode)
    for task in tasks:task_url(task)
    result=wave(tasks,min(8*60,max(10,end-time.monotonic())),workers=4)
-   wave_number+=1;all_errors.extend(result['errors'])
+   wave_number+=1;recovered=reconcile_errors(unresolved,result)
    print(json.dumps({'wave':wave_number,'mode':args.mode,**result},ensure_ascii=False),flush=True)
+   if recovered:print('::warning::Earlier task errors recovered with verified final readback: '+json.dumps(recovered,ensure_ascii=False),flush=True)
    with open(os.environ.get('GITHUB_STEP_SUMMARY','/dev/null'),'a') as summary:
     summary.write('### Independent '+args.mode+' refresh · wave '+str(wave_number)+'\n\n'+json.dumps(result,ensure_ascii=False)+'\n\n')
    if result['errors']:print('::warning::Independent task errors recorded; other games continue.',flush=True)
@@ -131,7 +158,7 @@ def main():
    time.sleep(60)
  finally:
   fetch_json(lease_url+'release',True)
- if all_errors:raise RuntimeError('One or more independent task transport/auth/validation/readback checks failed')
+ if unresolved:raise RuntimeError('Unresolved independent task transport/auth/validation/readback checks: '+json.dumps(list(unresolved.values()),ensure_ascii=False))
  if lost_lease:return
  if result is None:raise RuntimeError('No registered refresh outcomes')
  if result['completed'] and not result['continuing'] and all(v['outcome']=='failed' for v in result['completed']):raise RuntimeError('Every source task failed')

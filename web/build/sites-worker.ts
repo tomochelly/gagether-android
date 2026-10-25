@@ -5,6 +5,10 @@ import type { ConnectorBinding } from "../lib/connector-contract.mjs";
 import {publicScreen,screenContentRevision,screenObjectCache} from '../lib/public-screen-cache';
 import {catalogLocaleHeaders} from '../lib/catalog-paths';
 import {catalogAssetResponse} from '../lib/catalog-asset-response';
+import {withPublicDeliveryContext} from '../lib/public-delivery-context';
+import {deliverPublicRead,publicReadScope} from '../lib/public-delivery';
+import {dispatchPublicApi} from '../lib/public-api-dispatch';
+import {openPublicDeliveryCache} from '../lib/public-delivery-cache';
 
 declare const __PATCHWORK_BUILD__:string;
 
@@ -38,7 +42,8 @@ export default {
         },
       };
     }
-    const render=(documentRequest:Request)=>runWithConnectorBinding(binding,()=>handler.fetch(documentRequest,env,ctx));
+    const invoke=(documentRequest:Request)=>runWithConnectorBinding(binding,()=>handler.fetch(documentRequest,env,ctx));
+    const render=async(documentRequest:Request)=>{const edgeCache=await openPublicDeliveryCache(!import.meta.env.DEV&&typeof caches!=='undefined'?caches:undefined);return withPublicDeliveryContext(documentRequest,promise=>ctx.waitUntil(promise),edgeCache,()=>deliverPublicRead(documentRequest,r=>publicReadScope(r)?dispatchPublicApi(r):invoke(r)));};
     // The public frame contains no stored catalog or private data. Do not put
     // database revision checks or an R2 read in front of its first byte.
     if(isInitialShellRequest(request)){

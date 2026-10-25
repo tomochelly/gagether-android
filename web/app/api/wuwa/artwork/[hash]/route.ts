@@ -1,3 +1,4 @@
+import {matchesIfNoneMatch} from '@/lib/http-cache';
 import {env} from 'cloudflare:workers';
 import {canWriteData} from '@/lib/write-access';
 import {sameOrigin} from '@/lib/store';
@@ -8,7 +9,7 @@ async function asset(context:Context){const {hash}=await context.params;return /
 export async function GET(request:Request,context:Context){
  const a=await asset(context);if(!a)return new Response('Not found',{status:404});
  const headers={'Content-Type':a.contentType,'Cache-Control':'public, max-age=31536000, immutable','X-Content-Type-Options':'nosniff',ETag:'"'+a.sha256+'"'};
- if(request.headers.get('If-None-Match')===headers.ETag)return new Response(null,{status:304,headers});
+ if(matchesIfNoneMatch(request.headers.get('If-None-Match'),headers.ETag))return new Response(null,{status:304,headers});
  try{const saved=await env.BUCKET?.get(fullArtKey(a.sha256));if(saved?.size===a.bytes&&saved.customMetadata?.sha256===a.sha256)return new Response(saved.body,{headers});}catch{/* Native immutable originals are the last-good fallback. */}
  const assets=(env as unknown as {ASSETS?:Fetcher}).ASSETS;
  if(assets){const fallback=await assets.fetch(new Request(new URL('/reference-bootstrap/'+a.sha256+'.'+a.extension,request.url)));if(fallback.ok&&fallback.headers.get('Content-Type')?.split(';')[0]===a.contentType)return new Response(fallback.body,{headers});}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "2cfa2bb724371bdc1406499a259d3182e0a074bc5699f0760d82ee0a907d01ad",
+  "fingerprint": "dc80ae0def46eca7e8e235c64c6a404f8838603bbcdd8bc5d17399c0ba7191c8",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -12,11 +12,11 @@
     },
     {
       "path": "app/[locale]/games/[gameId]/characters/[characterId]/page.tsx",
-      "sha256": "80097c7627274c5bb5971eace611c504dff4a4e16d0c67e7140dffca35303781"
+      "sha256": "9e40b17565087aca17598bffbb2e0d491c204d096eb2ab7095485d53f78a5773"
     },
     {
       "path": "app/[locale]/games/[gameId]/characters/page.tsx",
-      "sha256": "80c70b89d2b5f8b4e5a2cbb8ebf855ff701ba5485af6925f76c64f179c95c6e5"
+      "sha256": "63efff2018ec27f2a8b9bbb1e7b5c0a9edefdf92cd907cf621d910f6fad3ff3c"
     },
     {
       "path": "app/[locale]/games/[gameId]/items/[entryId]/page.tsx",
@@ -68,7 +68,7 @@
     },
     {
       "path": "app/api/characters/route.ts",
-      "sha256": "c99a30e02cc28e33ea74ff7ea3c69f9b840ba0dbff0ca5c78ef65e3c3732c83b"
+      "sha256": "a5a13d617ecff488eedfbc7de90dd7cd1e7915b9ec7c4d060ad645e581b5b09e"
     },
     {
       "path": "app/api/collection/route.ts",
@@ -84,11 +84,11 @@
     },
     {
       "path": "app/api/data/route.ts",
-      "sha256": "5cc66bf2ed461cb75d8ae49304e9e08c0283e6e73da2d1fd51001fc1f14696bc"
+      "sha256": "81a635302bea6ecdf4ba97335b870df1b3b4e9c74ebb3fe6b708c2bba9b523a9"
     },
     {
       "path": "app/api/discord/data/route.ts",
-      "sha256": "497bbc180568ca693e44dccdd3bf6bd16017224ca73ad3c3300dc688fd63d16a"
+      "sha256": "3a1f6e318ab9730612b6e2a418218efcfc5241d0adb36e141cfb5dde43a39706"
     },
     {
       "path": "app/api/editor/characters/route.ts",
@@ -124,7 +124,7 @@
     },
     {
       "path": "app/api/favorites/route.ts",
-      "sha256": "fa12a178b6b2b66378b5f4d71349a7fad9ef54aa46efafd8677913b907206d75"
+      "sha256": "4b0be2c324f712d5b0bf7010c47ab7e4a87533caea6d6fc02f59034072e52843"
     },
     {
       "path": "app/api/feedback/delivery/route.ts",
@@ -180,7 +180,7 @@
     },
     {
       "path": "app/api/reward-icons/[id]/route.ts",
-      "sha256": "91f86696c3879b923973fb8c4bc90a370588e33f193a3ce35e78202811679963"
+      "sha256": "93ba935b9a6ed1ae7168223ba4c96cf868f7ea000ea829033ff9997ea08cc3fc"
     },
     {
       "path": "app/api/social/route.ts",
@@ -192,11 +192,11 @@
     },
     {
       "path": "app/api/wuwa/artwork/[hash]/route.ts",
-      "sha256": "b653453e8bfdd3e89f95d986eee1991b76d28dfd8482f2ae3bf6b33289268ab9"
+      "sha256": "cd06d0d82a331df00dcc4668cf725139324d77c20351dd2cdb487a76615b8bc2"
     },
     {
       "path": "app/api/wuwa/library/route.ts",
-      "sha256": "ec02e1654c196d95d54702aa337f424aa1c8de1a5a28679e4edde35de11ebd04"
+      "sha256": "c3837c4336ccede86f51c32fc34c79724b15ea1c582eb37680ef5d83d2d4f221"
     },
     {
       "path": "app/artwork-calendar.css",
@@ -220,7 +220,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "b7270bade5c1e108c73147dc962a79110206d937a946ef468d10ed133e42690e"
+      "sha256": "fb5c2cb458235543ed2d33e2e99b0a5446a7da13367675143d1e844ea9e8a6d9"
     },
     {
       "path": "app/chatgpt-auth.ts",
@@ -428,7 +428,7 @@
     },
     {
       "path": "build/sites-worker.ts",
-      "sha256": "93f315ef0b0bfa7c4557c28ac175297ddd53552d058953c912974107094e654e"
+      "sha256": "b0860456f20c89c71f363a1ed28486825cd1b2e0ecafc594ceecf97b35db8adb"
     },
     {
       "path": "components/account-sync-status.tsx",
@@ -472,7 +472,7 @@
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "041055c9f22a9da97a8de2835fa3960b5c4fcb76c20115a009f3351e021afebb"
+      "sha256": "bd99f1b6e114478255d16b90a33ae2d562dd59604aaefaf4ff4460ca36acb53a"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -580,7 +580,7 @@
     },
     {
       "path": "components/localized-catalog.tsx",
-      "sha256": "0ac706c00bdbb796ff52a8bc697f4e4d08f93f1a0d7aa63e33ce1d1362cd6ea1"
+      "sha256": "6954eab6919ad4f23a6a93b3b022812042009737784d95e15b263a046475913e"
     },
     {
       "path": "components/materials-editor.tsx",
@@ -648,7 +648,7 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "ccf6acfa66c89b3cc45367feda98055fb6ecfdf1bb3c25482a1298177cbaf695"
+      "sha256": "73140b0afbd6e257d347b3d7aaaa778275c7fbadf08f3069067522b7269e8583"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -673,6 +673,10 @@
     {
       "path": "components/roster-historical-background.tsx",
       "sha256": "e1824cd8e437a64ec62f3d7182c3246df38a4dba5e7f1bb72e3596b582db3c98"
+    },
+    {
+      "path": "components/roster-loading.tsx",
+      "sha256": "ba0d8c00431f19b744b77c3af4779c69bffa40d046725cef57d82604fde46f89"
     },
     {
       "path": "components/roster-potential-rewards.tsx",
@@ -1008,7 +1012,7 @@
     },
     {
       "path": "components/use-public-favorites.ts",
-      "sha256": "723ad277e6fd41e41c2d9a669de58bf970fa7a36fa9f6d0d86f79401de7acf5c"
+      "sha256": "0f8b98890007fdc7c08e7854710aa85dac2d8bac9a18ba46d747a0c8b8d1b20e"
     },
     {
       "path": "components/use-roster-art-frame.ts",
@@ -1028,7 +1032,7 @@
     },
     {
       "path": "components/wuwa-reference.tsx",
-      "sha256": "9d265ed8dfbe86a73d8d4fe8a7a4067a3d1cdb301d776b828d7fe63bc7c30194"
+      "sha256": "0815dd779e5592afde61bc2664f6c47a768233ff191b95f01ed0713b7e38bfa6"
     },
     {
       "path": "content/additional-game-assets.json",
@@ -1068,11 +1072,11 @@
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "99474e751fe8539c4a1bcfa49fc194d91f5d7c1453b098cf973f9008560af674"
+      "sha256": "dbd207672b5ec971d713c836e1db04637c423505e804d5d4b295bce223ca20e8"
     },
     {
       "path": "content/character-rosters/recovery/manifest.json",
-      "sha256": "bdea7a96125698a65d38cf9f03871062943ddcce800e30a82136d1a715850640"
+      "sha256": "2f4cd99cba982efb5de8db40e9bbae1c7377a8e08f0128a9d49e77085a626e8b"
     },
     {
       "path": "content/character-rosters/rejected-artwork.json",
@@ -1105,6 +1109,10 @@
     {
       "path": "content/full-artwork-review-2026-10-16.json",
       "sha256": "76602600dd9156781f5e116579a1dd239e78068db9afee608224e7dbb0243b78"
+    },
+    {
+      "path": "content/gallery-framing-runtime.json",
+      "sha256": "a123ffa95d457aeca713f75b947c40f896072a2871fe93111fb0491a0339d7a6"
     },
     {
       "path": "content/gallery-protected-heads.json",
@@ -1193,6 +1201,10 @@
     {
       "path": "content/pickup-member-icons.json",
       "sha256": "3d7430dc8075ce487a0bbef287409700b15231b4c3859df27931f06ddc16367c"
+    },
+    {
+      "path": "content/public-read-versions.json",
+      "sha256": "176ae4e43b6eeb027d4e8b6d6287aba8fb4b21d274805d1da30d528b1790c147"
     },
     {
       "path": "content/recurring-sources.json",
@@ -1288,7 +1300,7 @@
     },
     {
       "path": "db/schema.ts",
-      "sha256": "89ddd02241fe6cf3dbca687bd81b28ec697471454a9925830cdc4d6aab94920e"
+      "sha256": "44d545eba668dff5540b58c6d7e70f0254ce92b60f262fa48d64233fc1740437"
     },
     {
       "path": "drizzle/0000_fixed_ares.sql",
@@ -1339,8 +1351,16 @@
       "sha256": "e0cb42fd4269718922114c5e8d14baa594e5983192364b6abe69d754d15bca6f"
     },
     {
+      "path": "drizzle/0012_light_zaran.sql",
+      "sha256": "1bca17dd11e7bd74c9c3fb7a0946b6c83ff62165edaa2fec6b1ef895fdab5106"
+    },
+    {
+      "path": "drizzle/0013_thankful_maria_hill.sql",
+      "sha256": "7e273b80a456ec787b130b2e4868596e618cfc6ebfae4095eea1e24202a56e62"
+    },
+    {
       "path": "drizzle/meta/_journal.json",
-      "sha256": "34da7361466779f63a8297cf359a2a876dec38ef6e3c098e4d2ef56ff75095d1"
+      "sha256": "97b18ad2cd870ceceeee780ad757630625dc527ee1eccba25674624085753d86"
     },
     {
       "path": "lib/account-profile.ts",
@@ -1424,7 +1444,7 @@
     },
     {
       "path": "lib/browser-catalog-cache.ts",
-      "sha256": "7c450185d0f5113a8b96d8033cfa84c52d8b7ad279ab5e048c2c5e84e57d8219"
+      "sha256": "7807e4d2428c10f407e954d85ea13ca86372b88eb1850d7764578fef4af563b1"
     },
     {
       "path": "lib/calendar-labels.ts",
@@ -1432,7 +1452,7 @@
     },
     {
       "path": "lib/catalog-asset-response.ts",
-      "sha256": "7204dda75371ada2c4bc4047bcbe5ca03daf19f21346de31025a4b3fd6413f5a"
+      "sha256": "d05ce38d5f3d0e5e5e074ccfd7ed75bc26c7427e6d86d613e9396cc6ead627b0"
     },
     {
       "path": "lib/catalog-assets.ts",
@@ -1447,8 +1467,16 @@
       "sha256": "48c955684f6c8b00617110d529024bcaec1db2cf05a0404f251fd676fff17641"
     },
     {
+      "path": "lib/catalog-revision.ts",
+      "sha256": "943c3300c44e6adf1aedbb890aab1d69c6485e939e01368ae653c0e7fa116a9a"
+    },
+    {
+      "path": "lib/catalog-scope.ts",
+      "sha256": "467cf193ce1167332f65d093cd29bd1a461450cdeb25e9c4934dab211374f89a"
+    },
+    {
       "path": "lib/catalog-transport.ts",
-      "sha256": "df82b6febb89480ceeb9c76fb6f5ab618c8556d7250f09bf412adffb0b84be99"
+      "sha256": "a7882c417db6daa55f0b88c2d7994316999a49a46bdf9e06c22c5e534447ce9d"
     },
     {
       "path": "lib/character-roster-art-guard.ts",
@@ -1456,7 +1484,7 @@
     },
     {
       "path": "lib/character-roster-enrichment.ts",
-      "sha256": "e21942736ef17b67effbb6f29d9f6d5a155efb0f99e183624d65c260956d2f8f"
+      "sha256": "1a6b4e1b7b1abdbd3df078e513af632c037c15023ff773df1b733668931f5840"
     },
     {
       "path": "lib/character-roster-metrics.ts",
@@ -1468,7 +1496,7 @@
     },
     {
       "path": "lib/character-roster-store.ts",
-      "sha256": "65c12584be4e7ae9fa0d81347d51f75922d3e3e95200e1ae799240b2014cbd79"
+      "sha256": "dd027b59d85ba11bf388bbb1258fd859745b0c2feab0ca733dcbbfc6c970ed38"
     },
     {
       "path": "lib/character-roster.ts",
@@ -1624,11 +1652,11 @@
     },
     {
       "path": "lib/fetch-catalog.ts",
-      "sha256": "c26bee1964310ee7f049a412706c023927a9b6b994fd09f13f1032b5d604144d"
+      "sha256": "62355ee676ee293b43c7ab047862cd31d013da2dbe7c895d8846b13546c42fdf"
     },
     {
       "path": "lib/gallery-framing.ts",
-      "sha256": "59bad561ec36a4854a8b8720ec13f3783f794bfcf33580caa819dde818ffefe5"
+      "sha256": "43e20f25e4642aae8312206ec7a580d72f6a1d9cd347b1531a11bdebd82b00a4"
     },
     {
       "path": "lib/game-order.ts",
@@ -1653,6 +1681,10 @@
     {
       "path": "lib/history-game-filter.ts",
       "sha256": "49a7be6b439691b603992c9407f8dd7b5e3fd8c6b54f86d7a7cb7787a8ef33c6"
+    },
+    {
+      "path": "lib/http-cache.ts",
+      "sha256": "68d91fdcf68b3d624a7409f1f8973178ba8515e2c1268fa456c4ec76901f94d3"
     },
     {
       "path": "lib/i18n.ts",
@@ -1688,7 +1720,7 @@
     },
     {
       "path": "lib/leaks.ts",
-      "sha256": "229eb988b9821dbb42c552d3033cb0ea4b76ac7e473b7d71eb04b709b2072bec"
+      "sha256": "586534630b5057d69d10cf304a64c051145ba53d9b5c4816f6c857d897eb3f4a"
     },
     {
       "path": "lib/maintained-artwork-store.ts",
@@ -1811,16 +1843,48 @@
       "sha256": "9c3d3fd8c107951bc168f365019f702005e08839aae8b1104a7ba326dd57123a"
     },
     {
+      "path": "lib/public-api-dispatch.ts",
+      "sha256": "1fbea9323ded5a4af500866a707d249868efd01a7aef68699b826071688c31dc"
+    },
+    {
       "path": "lib/public-catalog-cache.ts",
-      "sha256": "014ab9e4579606638dc274c24491de878dcbcb32c4338bf1d16b86ef149ca0ef"
+      "sha256": "446dc578885e743ec62f4de5d3710238f74a443505354bf1b896c9bdb9122108"
+    },
+    {
+      "path": "lib/public-catalog-read.ts",
+      "sha256": "02673f7582c7a2f5c2bdb8f3dbeec9404a87897cf6942fdbfcc9e9f52f75a698"
+    },
+    {
+      "path": "lib/public-delivery-cache.ts",
+      "sha256": "745f55e569e7058f4a734628489064a91dd401870bbffccd5579edfc257ad326"
+    },
+    {
+      "path": "lib/public-delivery-context.ts",
+      "sha256": "61185cdc403fc33772eee35a94f3a6b26da0381341774e5e99136086aa7290d5"
+    },
+    {
+      "path": "lib/public-delivery.ts",
+      "sha256": "0fe0e7be479f8575f1ac8c6f155ef79a77146abf66dd1b49e0c22683856875f4"
+    },
+    {
+      "path": "lib/public-entry-index.ts",
+      "sha256": "92298179dd92839ca5bb9fd4f095761f4bd50bc3201c90ec9ceea0219ea9573f"
     },
     {
       "path": "lib/public-favorites-store.ts",
-      "sha256": "667ef7fc0b294bd4ea032084435190d9c901858c6b1aa50bba12155794a5911e"
+      "sha256": "28d5a2e80d1d3d1211b01a4d34f8cb5b7dbf08923c76259aa73c3276f6e924ae"
     },
     {
       "path": "lib/public-favorites.ts",
       "sha256": "59ea926f07d7ba7dc5e0b0df796ef32cf66db7103319bf7b2a689536c46c7174"
+    },
+    {
+      "path": "lib/public-read-jobs.ts",
+      "sha256": "2ce75c0863d093b0885329a671dde257a8aee2e7de3b4b4d419c34c598560304"
+    },
+    {
+      "path": "lib/public-roster-cache.ts",
+      "sha256": "0bcb946055adab02d3065c38077a09b24e69fa73b53a5eb6c2fb901d04f97421"
     },
     {
       "path": "lib/public-screen-cache.ts",
@@ -1836,7 +1900,7 @@
     },
     {
       "path": "lib/refresh-progress.ts",
-      "sha256": "23fdc77f0de5597eb20d881e031244eb7c42874cb7fd927363601a75283f53e8"
+      "sha256": "73887daa7654f5b8a0dbdee5bcbfce7a88f93b3757063cb5fa3bb3a56666adda"
     },
     {
       "path": "lib/refresh-runner.ts",
@@ -1844,7 +1908,7 @@
     },
     {
       "path": "lib/refresh-tasks.ts",
-      "sha256": "5f4c42bdfaf5ff3917595a869a8cb31412481eb04106725e6acf9e941021104c"
+      "sha256": "7ebd0f0831c0661ecae6c62467db694d2bc27399103b6379a192162b046dc4fb"
     },
     {
       "path": "lib/regional-notices.ts",
@@ -1879,8 +1943,12 @@
       "sha256": "15a8b31d590e708dd17188c1e68321f6e61ee5df1d881b1d4345fb3f9d50cdd3"
     },
     {
+      "path": "lib/roster-art-frame-reader.ts",
+      "sha256": "1798de6b4b176fa9eb5a4b595692dcd5e57e8fbf247cad1be5065c864771cebd"
+    },
+    {
       "path": "lib/roster-art-framing-store.ts",
-      "sha256": "8cdcb98036a3294d666bb1e8514c677b50e74b6dfdd8a18b50c14b84d8a5dc53"
+      "sha256": "554af9fdfcc867072852fb443b22df57812fe6868072a094d99e0662b215b4d5"
     },
     {
       "path": "lib/roster-art-framing.ts",
@@ -1888,15 +1956,31 @@
     },
     {
       "path": "lib/roster-detail-catalog.ts",
-      "sha256": "b2bcb7bf90c78d969653a016fce7791be4f00fd838c4a8a82cf901074006d067"
+      "sha256": "da4712016740845456fb11f5754828a9bea763414a80aa599d1dfb3395acfba1"
     },
     {
       "path": "lib/roster-detail-icons.ts",
       "sha256": "182eb1cada4d5d11892a5e1261e114f6d5776a067d83a3131b68bdf6486d77df"
     },
     {
+      "path": "lib/roster-fact-retention.ts",
+      "sha256": "3092ed2e9b7f69e8baec273922b69bc84173a5b2023c51f1915930f6ee7e9307"
+    },
+    {
       "path": "lib/roster-progression.ts",
       "sha256": "4024c77d076df0dedd466383baec847599e8efeab0367a8c5b376c3aacf33bcc"
+    },
+    {
+      "path": "lib/roster-public-read.ts",
+      "sha256": "bf59796f6daf164fdf38b2019f25a2fcd8785103c8bb831a16ec62add8fc876c"
+    },
+    {
+      "path": "lib/roster-public-slices.ts",
+      "sha256": "1e34d4a7ba36d2aeb8f3004cea3d77f36a0c5ec5e4a12650b3b4f06113d19326"
+    },
+    {
+      "path": "lib/roster-read-revision.ts",
+      "sha256": "10c7dda45cf6dbc643b362ff7bf2127e278bdb5280b9d7ec2a9cd02d1628ec4d"
     },
     {
       "path": "lib/schedule.ts",
@@ -1940,7 +2024,7 @@
     },
     {
       "path": "lib/store.ts",
-      "sha256": "9ee3430ae0aa47fc2daf3511c61856590531a337e9f62d9375398cf352185b4d"
+      "sha256": "ca4cbbf5f2944e636da48636a65885a481105f3ba5f90b24f028df580527fc6f"
     },
     {
       "path": "lib/studio-i18n.ts",
@@ -2007,6 +2091,10 @@
       "sha256": "c8f10767005b02fa9c37f2ca05fff7e661273b40cef989e1d66d47876de512a9"
     },
     {
+      "path": "lib/wuwa-art-framing-store.ts",
+      "sha256": "e628cb070f0e804482f5d8d3da54615e71ea7ddd7bcbc8c28c443094aaf91cb8"
+    },
+    {
       "path": "lib/wuwa-reference-art.ts",
       "sha256": "80398672d1492bbccb50bfcd8cfff681aa847e1db191df1c7c1541671e018383"
     },
@@ -2016,7 +2104,7 @@
     },
     {
       "path": "lib/wuwa-reference-store.ts",
-      "sha256": "d3c918e32c4c338be149a530705bade1aa995d1a270c196ee9d7611b2af884df"
+      "sha256": "f71d22b0e0f9f8c32eccc170e404e45145f13295d6df4f904e6b6637c5070af5"
     },
     {
       "path": "lib/wuwa-reference-view.ts",
@@ -2024,7 +2112,7 @@
     },
     {
       "path": "lib/wuwa-reference.ts",
-      "sha256": "89721e638c248f83440801db33f35a30ce85d53f185d22b8f97cb0529de5ff6f"
+      "sha256": "e6ffc854775ad1306c9f5cb645d918d703b8793160903d65f19929c1ba8b74fa"
     },
     {
       "path": "lib/wuwa-splash-source.ts",
@@ -2040,7 +2128,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "483007180cfe5ac8cdae5337c61129f9b1ae9641d793d34cc18c875c69519463"
+      "sha256": "2112b890bb3d9229a345f5be24cd8f8dc8a7668cf5e557fbd8131c16c37e9114"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -2048,7 +2136,7 @@
     },
     {
       "path": "vite.config.ts",
-      "sha256": "859ac33a9cf60ae7950dbc03d7a0bd750382645babb72be8c3dd248164d239bd"
+      "sha256": "9d1edeb6a28d439ff9cf21d53560468ed5a107aff4d91a8991cbe687e4b501ce"
     }
   ]
 }

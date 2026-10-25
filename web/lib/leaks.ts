@@ -47,10 +47,16 @@ export function parseDispLeakFeed(xml:string,source:typeof leakSources[number],a
  const rows:FeedLeak[]=[];
  for(const match of xml.matchAll(/<entry\b[^>]*>([\s\S]*?)<\/entry>/gi)){
   const entry=match[1],title=textOnly(field(entry,'title'));
-  let body=decode(field(entry,'content')).split(/<[^>]+class=["'][^"']*\b(?:record|push-content|push-userid)\b|(?:--\s*(?:<br[^>]*>|\n|\s)*※\s*發信站)/i)[0];
+  if(!leakMarker(title)||excludedLeakTitle(title))continue;
+  const native=decode(field(entry,'content'));
+  // Disjoint whitespace/tag tokens avoid the old nested whitespace repetition,
+  // which exhausted the Worker on a real 2.75 MB feed. Search the first boundary
+  // without allocating every comment/footer split or parsing unrelated posts.
+  const comments=/<[^>]+class=["'][^"']*\b(?:record|push-content|push-userid)\b/i.exec(native);
+  const footer=/--(?:\s|<br\b[^>]*>)*※\s*發信站/i.exec(native);
+  let body=native.slice(0,Math.min(comments?.index??native.length,footer?.index??native.length));
   // Drop the source's author/title header; retain actual native post text/art.
   const separator=body.match(/<hr\b[^>]*>/i);if(separator)body=body.slice(separator.index!+separator[0].length);
-  if(!leakMarker(title)||excludedLeakTitle(title))continue;
   const gameId=leakGame(title+' '+textOnly(body).slice(0,900));if(!gameId)continue;
   const raw=field(entry,'id');let url:URL;try{url=new URL(raw);if(!['http:','https:'].includes(url.protocol)||url.hostname!==source.host||url.username||url.password||!/^\/b\/[a-zA-Z0-9_-]+(?:\/[a-zA-Z0-9_-]+)?$/.test(url.pathname))continue;url.protocol='https:';}catch{continue;}
   const stamp=Date.parse(field(entry,'published')),publishedAt=Number.isFinite(stamp)?new Date(stamp).toISOString():null;

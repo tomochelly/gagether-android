@@ -38,3 +38,14 @@ test('legacy active runs are preserved; no speculative release or completion is 
  const result=await checkpointedRefresh(async()=>{throw Error('Must not execute');},now);assert.equal(result.skipped,true);assert.equal(row().last_finished_at,null);
  assert.equal(db.prepare("SELECT count(*) AS n FROM operations_health").get().n,0);
 });
+test('a new lease atomically exposes its own pending identity instead of the previous completed result',async()=>{
+ const now=Date.now();
+ await checkpointedRefresh(async p=>({ok:true,outcome:'complete',startedAt:p.startedAt,finishedAt:new Date(now).toISOString(),readback:{automatic:1,effective:1}}),now);
+ const prior=row().last_finished_at;
+ await checkpointedRefresh(async p=>{const state=row(),saved=JSON.parse(state.result);assert.equal(state.last_finished_at,prior);assert.equal(saved.continuation,true);assert.equal(saved.runId,p.runId);assert.equal(saved.startedAt,state.last_started_at);assert.equal(saved.stage,p.stage);return {...p,stage:'feeds'};},now+11*60000);
+});
+test('a late expired request cannot replace the checkpoint of a newer run',async()=>{
+ const now=Date.now();let newer;
+ await assert.rejects(()=>checkpointedRefresh(async p=>{newer={...p,runId:'newer-run',startedAt:new Date(now+1000).toISOString(),stage:'channels',cursor:8};db.prepare('UPDATE refresh_jobs SET last_started_at=? WHERE id=?').run(newer.startedAt,'official-fast');db.prepare('UPDATE operations_health SET payload=? WHERE key=?').run(JSON.stringify(newer),'official-fast-progress');return {...p,stage:'feeds'};},now),/superseded/);
+ assert.deepEqual(progress(),newer);assert.equal(row().last_started_at,newer.startedAt);
+});

@@ -1,3 +1,4 @@
+import {rosterReadChanged} from './public-read-jobs';
 import {parseWuwaSplashResolver} from './wuwa-splash-source';
 import {env} from 'cloudflare:workers';
 import bootstrap from '../content/wuwa-reference.json' with {type:'json'};
@@ -27,7 +28,7 @@ export async function saveWuwaReference(value:WuwaReference){
  if(records.some(r=>new TextEncoder().encode(r.payload).length>900000))throw Error('Reference chunk exceeds safe storage bound');
  await db().batch(records.map(r=>db().prepare('INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload').bind(r.key,r.payload)));
  const check=await readWuwaReference();if(check.hash!==hash||check.data.characters.length!==characters.length||check.data.cycles.length!==cycles.length)throw Error('Reference snapshot readback failed');
- return {changed:true,hash};
+ rosterReadChanged('wuwa');return {changed:true,hash};
 }
 export async function readWuwaReference():Promise<{data:WuwaReference;hash:string;delivery:'snapshot'|'bootstrap'}>{
  const pointer=await get<any>('current');if(!pointer)return {data:bootstrap as WuwaReference,hash:await digest(bootstrap),delivery:'bootstrap'};

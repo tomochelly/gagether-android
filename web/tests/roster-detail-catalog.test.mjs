@@ -29,6 +29,8 @@ test('packed exact-form details verify source identity, decoded size, hash and s
  const original={id:'exact-form',sourceId:'outfit-source',details},form=pack(original),packed={...data,detailCatalog:{version:3,sourceUrl:url,checkedAt:data.checkedAt,forms:{'exact-form':form}}};characterRosterSchema.parse(packed);
  assert.equal(rosterDirectory(packed).detailCatalog,undefined);assert.equal(rosterDirectory(packed).characters[0].detailsDeferred,true);const c=await hydrateRosterDetails(packed,packed.characters[0]);assert.deepEqual(c.regionalSkillTables,full.regionalSkillTables);assert.equal(c.historicalBackground.id,'horse');
  for(const bad of [{...form,sha256:'0'.repeat(64)},{...form,bytes:form.bytes-1},pack({...original,id:'other-outfit'}),pack({...original,details:{...details,image:{url:'https://example.org/another-horse.png'}}})])await assert.rejects(hydrateRosterDetails({...packed,detailCatalog:{...packed.detailCatalog,forms:{'exact-form':bad}}},packed.characters[0]));
+ // A claimed old plaintext hash cannot bypass checking different compressed bytes after a cache hit.
+ await assert.rejects(hydrateRosterDetails({...packed,detailCatalog:{...packed.detailCatalog,forms:{'exact-form':{...form,payload:gzipSync(Buffer.from('{}')).toString('base64')}}}},packed.characters[0]),/mismatch/);
 });
 test('mounted star selection, server-specific mechanics and folded history stay independent',async()=>{
  const d=fixture(),c=await hydrateRosterDetails(d,d.characters[0]),dom=new JSDOM('<div id="root"></div>',{url:'https://gagether.wiki',pretendToBeVisual:true}),saved=new Map();

@@ -1,3 +1,4 @@
+import {matchesIfNoneMatch} from '@/lib/http-cache';
 import {env} from 'cloudflare:workers';
 import {rewardAsset,rewardAssetKey} from '@/lib/reward-assets';
 
@@ -9,6 +10,6 @@ export async function GET(request:Request,{params}:{params:Promise<{id:string}>}
  if(!object)return new Response('Icon is being prepared',{status:503,headers:{'Cache-Control':'no-store','Retry-After':'5'}});
  const etag=`"${asset.sha256}"`;
  const headers={'Content-Type':asset.contentType,'Cache-Control':'public, max-age=31536000, immutable','ETag':etag,'X-Content-Type-Options':'nosniff','Cross-Origin-Resource-Policy':'same-origin'};
- if(request.headers.get('if-none-match')===etag)return new Response(null,{status:304,headers});
+ if(matchesIfNoneMatch(request.headers.get('if-none-match'),etag))return new Response(null,{status:304,headers});
  return new Response(object.body,{headers});
 }

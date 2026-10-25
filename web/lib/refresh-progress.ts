@@ -14,9 +14,13 @@ export async function checkpointedRefresh(perform:(p:RefreshProgress)=>Promise<a
  let p:RefreshProgress|undefined=saved?JSON.parse(saved.payload):undefined;
  if(!p||p.version!==1||p.stage==='done'||p.startedAt!==row?.last_started_at||now-Date.parse(p.startedAt)>24*3600000){
   const startedAt=new Date(now).toISOString();
-  const acquired=await db.prepare("INSERT INTO refresh_jobs(id,lease_until,last_started_at) VALUES(?,?,?) ON CONFLICT(id) DO UPDATE SET lease_until=excluded.lease_until,last_started_at=excluded.last_started_at WHERE refresh_jobs.lease_until<=? AND (refresh_jobs.last_started_at IS NULL OR refresh_jobs.last_started_at<=?)").bind(job,now+lease,startedAt,now,new Date(now-cadence+Math.min(30000,cadence/10)).toISOString()).run();
+  const initial:RefreshProgress={version:1,runId:crypto.randomUUID(),startedAt,stage:task?.firstStage||'korean',...(task?{gameId:task.gameId,lane:task.lane,taskKey:task.key}:{})};
+  // Publish the active run identity atomically with its lease. A concurrent
+  // status reader must never see the new start paired with the previous result.
+  const pending=JSON.stringify({ok:true,continuation:true,runId:initial.runId,stage:initial.stage,cursor:0,startedAt,progressAt:startedAt});
+  const acquired=await db.prepare("INSERT INTO refresh_jobs(id,lease_until,last_started_at,result) VALUES(?,?,?,?) ON CONFLICT(id) DO UPDATE SET lease_until=excluded.lease_until,last_started_at=excluded.last_started_at,result=excluded.result WHERE refresh_jobs.lease_until<=? AND (refresh_jobs.last_started_at IS NULL OR refresh_jobs.last_started_at<=?)").bind(job,now+lease,startedAt,pending,now,new Date(now-cadence+Math.min(30000,cadence/10)).toISOString()).run();
   if(!acquired.meta.changes)return {ok:true,skipped:true,reason:'Already running or checked within its interval'};
-  p={version:1,runId:crypto.randomUUID(),startedAt,stage:task?.firstStage||'korean',...(task?{gameId:task.gameId,lane:task.lane,taskKey:task.key}:{})};
+  p=initial;
   await db.prepare('INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload').bind(progressKey,JSON.stringify(p)).run();
  }
  const owner=crypto.randomUUID();
@@ -31,11 +35,12 @@ export async function checkpointedRefresh(perform:(p:RefreshProgress)=>Promise<a
    await recordHealth(next,task?.key);
    const finished=await db.prepare('UPDATE refresh_jobs SET lease_until=0,last_finished_at=?,result=? WHERE id=? AND last_started_at=?').bind(next.finishedAt,JSON.stringify(next),job,p!.startedAt).run();
    if(!finished.meta.changes)throw Error('Refresh completion superseded');
-   await db.prepare('UPDATE operations_health SET payload=? WHERE key=?').bind(JSON.stringify({...p,stage:'done'}),progressKey).run();
+   await db.prepare("UPDATE operations_health SET payload=? WHERE key=? AND json_extract(payload,'$.runId')=?").bind(JSON.stringify({...p,stage:'done'}),progressKey,p!.runId).run();
    return next;
   }
   if(next.runId!==p!.runId||!next.stage)throw Error('Invalid refresh checkpoint');
-  await db.prepare('UPDATE operations_health SET payload=? WHERE key=?').bind(JSON.stringify(next),progressKey).run();
+  const progressed=await db.prepare("UPDATE operations_health SET payload=? WHERE key=? AND json_extract(payload,'$.runId')=?").bind(JSON.stringify(next),progressKey,p!.runId).run();
+  if(!progressed.meta.changes)throw Error('Refresh checkpoint superseded');
   const result={ok:true,continuation:true,runId:next.runId,stage:next.stage,cursor:next.cursor||0,startedAt:next.startedAt,progressAt:new Date().toISOString()};
   await db.prepare('UPDATE refresh_jobs SET lease_until=?,result=? WHERE id=? AND last_started_at=?').bind(Date.now()+lease,JSON.stringify(result),job,p!.startedAt).run();
   return result;

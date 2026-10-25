@@ -65,18 +65,18 @@ test('navigation works while data is pending; retry loads compact data without r
   await act(async()=>rejectData(Error('Offline')));
   assert.equal(document.querySelector('.catalog-pending-status button').textContent,'다시 시도');
   await act(async()=>document.querySelector('.catalog-pending-status button').click());
-  assert.equal(requests,2);
+  assert.equal(requests,3);
   const title={ko:'검수된 이벤트',en:'Reviewed event',ja:'確認済みイベント',zh:'已核实活动'};
   const entry={id:'shell-zzz',gameId:'zzz',region:'global',kind:'event',title,summary:title,startAt:null,endAt:null,publishedAt:null,verifiedAt:'2026-10-21T00:00:00Z',sourceUrl:'https://zenless.hoyoverse.com/',sourceTitle:'Official'};
-  await act(async()=>resolveData({ok:true,status:200,headers:new Headers(),json:async()=>packCatalog({...emptyCatalog(),persistent:true,entries:[entry],settings:{brand:{name:'Owner brand'}}})}));
+  await act(async()=>resolveData({ok:true,status:200,headers:new Headers(),json:async()=>packCatalog({...emptyCatalog(),persistent:true,gameScope:'zzz',entries:[entry],settings:{brand:{name:'Owner brand'}}})}));
   assert.equal(document.querySelector('.catalog-pending'),null);
   assert.equal(document.querySelector('.breadcrumb strong').textContent,byId.zzz.name.ko);
   assert.ok(document.body.textContent.includes('검수된 이벤트'));
   assert.ok(document.querySelector('.brand').textContent.includes('Owner brand'));
   assert.deepEqual(recovered,[]);
   // A second visit paints the last good catalog while its new request is pending.
-  await act(async()=>root.unmount());document.getElementById('root').innerHTML=markup;
-  await act(async()=>{root=hydrateRoot(document.getElementById('root'),React.createElement(Radar,props),{onRecoverableError:e=>recovered.push(e.message)})});
+  await act(async()=>root.unmount());const revisit={...props,initialView:'game',initialGameId:'zzz',initialRegion:'global'};window.history.replaceState({},'', '/ko/games/zzz');document.getElementById('root').innerHTML=renderToString(React.createElement(Radar,revisit));
+  await act(async()=>{root=hydrateRoot(document.getElementById('root'),React.createElement(Radar,revisit),{onRecoverableError:e=>recovered.push(e.message)})});
   assert.equal(document.querySelector('.catalog-pending'),null);
   assert.ok(document.querySelector('.brand').textContent.includes('Owner brand'));
   assert.ok(document.querySelector('.catalog-recheck').textContent.includes('저장된 정보'));

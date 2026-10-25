@@ -1,6 +1,7 @@
 'use client';
 import {localizeVideoNotices} from '@/lib/videos';
 import UiText from './ui-text';
+import RosterLoading from './roster-loading';
 import {OwnerInlineProvider,EntryEdit,AddEntryHere,type OwnerInlineHandle} from './owner-inline';
 import ContentBlocks from './content-blocks';
 import {useMobileDrawer} from './use-mobile-drawer';
@@ -10,6 +11,7 @@ import {pickupDetailEntry,pickupDetailMembers,samePickupName,type OpenEntry} fro
 import OwnerEditorBoundary from './owner-editor-boundary';
 import {rememberedCatalog,rememberCatalog} from '@/lib/browser-catalog-cache';
 import {fetchCatalog} from '@/lib/fetch-catalog';
+import {publicCatalogUrl} from '@/lib/catalog-scope';
 import {contentInAudience,audienceRestrictions,audienceMarket} from '@/lib/content-audience';
 import {gameBroadcasts} from '@/lib/broadcast-visibility';
 import {lazy,Suspense,useState,useEffect,useMemo,useRef,useCallback,type CSSProperties} from 'react';
@@ -108,11 +110,12 @@ const countdown=remainingTime;
 function Picture({src,alt,className='',style}:{src:string;alt:string;className?:string;style?:CSSProperties}){return <img src={src} alt={alt} className={className} style={style} loading="lazy" decoding="async" onError={e=>{e.currentTarget.style.opacity='0';}}/>;}
 function PatchMark(){return <span className="patch-mark" aria-hidden="true"><i/><i/><i/><i/></span>;}
 function Stamp({text}:{text:string}){return <span className="stamp"><span/>{text}</span>;}
-export default function Radar({initialLocale='ko',initialLocaleManual=false,initialData:suppliedInitialData,initialCatalog,appMode=false,initialView='overview',initialGameId,initialRegion,ownerMode=false,initialComplete=true,initialDeferred=false,initialPending=false,revalidateOnMount=false,initialMobileView='full',initialCompactWidth=false}:{initialLocale?:Locale;initialLocaleManual?:boolean;initialData?:Partial<EditorData>;initialCatalog?:PackedCatalog;appMode?:boolean;initialView?:View;initialGameId?:string;initialRegion?:Region;ownerMode?:boolean;initialComplete?:boolean;initialDeferred?:boolean;initialPending?:boolean;revalidateOnMount?:boolean;initialMobileView?:'full'|'simple';initialCompactWidth?:boolean}){
+export default function Radar({initialLocale='ko',initialLocaleManual=false,initialData:suppliedInitialData,initialCatalog,appMode=false,initialView='overview',initialGameId,initialRegion,ownerMode=false,initialComplete=true,initialDeferred=false,initialPending=false,revalidateOnMount=false,initialMobileView='full',initialCompactWidth=false}:{initialLocale?:Locale;initialLocaleManual?:boolean;initialData?:Partial<EditorData>&{gameScope?:string};initialCatalog?:PackedCatalog;appMode?:boolean;initialView?:View;initialGameId?:string;initialRegion?:Region;ownerMode?:boolean;initialComplete?:boolean;initialDeferred?:boolean;initialPending?:boolean;revalidateOnMount?:boolean;initialMobileView?:'full'|'simple';initialCompactWidth?:boolean}){
  const initialData=useMemo(()=>initialCatalog?unpackCatalog(initialCatalog):suppliedInitialData,[initialCatalog,suppliedInitialData]);
  const [visitorZone,setVisitorZone]=useState('UTC');useEffect(()=>setVisitorZone(Intl.DateTimeFormat().resolvedOptions().timeZone||'UTC'),[]);
  const [catalogPending,setCatalogPending]=useState(initialPending);
  const [usingCached,setUsingCached]=useState(false);
+ const [loadedScope,setLoadedScope]=useState(initialData?.gameScope);
  const [complete,setComplete]=useState(initialComplete);const [loadError,setLoadError]=useState(false);const [loadAttempt,setLoadAttempt]=useState(0);
  const [indexData,setIndexData]=useState(initialDeferred);
  const [feedbackContext,setFeedbackContext]=useState<FeedbackContext|null>(null);
@@ -143,7 +146,7 @@ export default function Radar({initialLocale='ko',initialLocaleManual=false,init
  const preview=useCallback((value:EditorPreview|null)=>setEditorPreview(value),[]);
  const baseGames=useMemo(()=>catalogGames(settings,locale),[settings,locale]);const gameOrder=useGameOrder(baseGames);const games=gameOrder.games;const byId=useMemo(()=>Object.fromEntries(games.map(g=>[g.id,g])),[games]);const t=useMemo(()=>catalogUi(locale,settings),[locale,settings]);const et=editorText[locale];
  const searchRef=useRef<HTMLInputElement>(null);const dialogRef=useRef<HTMLDialogElement>(null);const pendingSelectedId=useRef<string|null>(null);
- const applyData=(d:Partial<EditorData>)=>{if(d.entries){setCatalogPending(false);setEntries(d.entries.filter(e=>!e.hidden));setIndexData(d.entries.some(detailsDeferred));}if(d.sourceChecks)setChecks(d.sourceChecks);if(d.settings)setSettings(d.settings);};
+ const applyData=(d:Partial<EditorData>&{gameScope?:string})=>{if(d.entries){setLoadedScope(d.gameScope);setCatalogPending(false);setEntries(d.entries.filter(e=>!e.hidden));setIndexData(d.entries.some(detailsDeferred));}if(d.sourceChecks)setChecks(d.sourceChecks);if(d.settings)setSettings(d.settings);};
  const openEditor=(target:EditorTarget)=>{if(!canEdit)return;setMenuOpen(false);if(target.tab==='entry'&&target.entryId&&inlineRef.current?.openEntry(target.entryId,target.focus==='image'||target.focus==='members'?'image':target.focus==='content'?'content':'all'))return;if(inlineRef.current&&!inlineRef.current.leave())return;if(editorRef.current)editorRef.current.select(target);else setEditorTarget(target);};
  useEffect(()=>{fetch('/api/editor/session').then(r=>r.json() as Promise<{canEdit:boolean}>).then(d=>{setCanEdit(d.canEdit===true);if(d.canEdit)setEditMode(true);}).catch(()=>setCanEdit(false)).finally(()=>setAccessChecked(true));},[]);
  useEffect(()=>setHeroIndex(0),[view,gameId,region]);
@@ -153,28 +156,31 @@ export default function Radar({initialLocale='ko',initialLocaleManual=false,init
  useEffect(()=>{if(ready){try{const stored=JSON.parse(localStorage.getItem('patchwork.preferences')||'{}');localStorage.setItem('patchwork.preferences',JSON.stringify({...stored,locale,localeManual,region,gameRegions,favorites:stored.favorites??favorites,saved:stored.saved??saved,myOnly,mobileView}));}catch{}document.cookie=`gagether.mobile-view=${mobileView}; Path=/; Max-Age=31536000; SameSite=Lax; Secure`;document.documentElement.lang=locale;}},[locale,localeManual,region,gameRegions,favorites,saved,myOnly,mobileView,ready]);
  useEffect(()=>{const reload=()=>{try{const p=JSON.parse(localStorage.getItem('patchwork.preferences')||'{}');setFavorites(Array.isArray(p.favorites)?p.favorites:[]);setSaved(Array.isArray(p.saved)?p.saved:[]);}catch{}};window.addEventListener(PERSONAL_APPLIED,reload);const storage=(e:StorageEvent)=>{if(e.key==='patchwork.preferences')reload();};window.addEventListener('storage',storage);return()=>{window.removeEventListener(PERSONAL_APPLIED,reload);window.removeEventListener('storage',storage);};},[]);
  const needsFull=initialComplete||view==='history'||view==='saved'||gameSection==='history'||editMode;
- const dataUrl=editMode?'/api/data':'/api/data?view=index'+(needsFull?'&archive=1':'');
+ // A complete all-game list already covers every game; reuse it during SPA navigation.
+ const gameScope=!editMode&&view==='game'&&(loadedScope!==undefined||catalogPending)?gameId:undefined,scopeChanged=loadedScope!==gameScope;
+ const dataUrl=editMode?'/api/data':publicCatalogUrl(gameScope,needsFull);
  useEffect(()=>{
   let etag='',loading=false,receivedFresh=false,failures=0,retryTimer:ReturnType<typeof setTimeout>|undefined;
-  const controller=new AbortController();
+  const controller=new AbortController();let staleRetries=0;
+  if(scopeChanged)setCatalogPending(true);
   // Indexed public data only; private account/editor payloads never enter this cache.
-  if((catalogPending||needsFull!==complete)&&!editMode)void rememberedCatalog(dataUrl).then(saved=>{
-   if(saved&&!receivedFresh&&!controller.signal.aborted){etag=saved.etag;applyData(saved.data);setComplete(needsFull);setUsingCached(true);}
+  if((catalogPending||needsFull!==complete||scopeChanged)&&!editMode)void rememberedCatalog(dataUrl).then(saved=>{
+   if(saved&&saved.data.gameScope===gameScope&&!receivedFresh&&!controller.signal.aborted){etag=saved.etag;applyData(saved.data);setComplete(needsFull);setUsingCached(true);}
   });
   const load=async()=>{
    if(document.hidden||loading||controller.signal.aborted)return;
    loading=true;clearTimeout(retryTimer);
    try{
-    const result=await fetchCatalog(dataUrl,{signal:controller.signal,etag});
+    let stale=false;const result=await fetchCatalog(dataUrl,{signal:controller.signal,etag,onDelivery(value){stale=value;if(value&&staleRetries++<3)retryTimer=setTimeout(load,2000);else if(!value)staleRetries=0;}});
     if(controller.signal.aborted)return;
-    receivedFresh=true;failures=0;setUsingCached(false);setLoadError(false);
-    if(result){etag=result.etag;applyData(result.data);setComplete(needsFull);if(!editMode&&'format' in result.payload)void rememberCatalog(dataUrl,result.payload,etag);}
+    receivedFresh=true;failures=0;setUsingCached(stale);setLoadError(false);
+    if(result){if(result.data.gameScope!==gameScope)throw Error('Catalog scope mismatch');etag=result.etag;applyData(result.data);setComplete(needsFull);if(!editMode&&'format' in result.payload)void rememberCatalog(dataUrl,result.payload,etag);}
    }catch{
     if(!controller.signal.aborted){setLoadError(true);if(failures<3)retryTimer=setTimeout(load,[1000,4000,10000][failures++]);}
    }finally{loading=false;}
   };
   const age=Date.now()-Date.parse(initialData?.serverTime||'');
-  if(catalogPending||!initialData||needsFull!==complete||editMode&&indexData||loadAttempt||revalidateOnMount&&(!Number.isFinite(age)||age>=60000))void load();
+  if(scopeChanged||catalogPending||!initialData||needsFull!==complete||editMode&&indexData||loadAttempt||revalidateOnMount&&(!Number.isFinite(age)||age>=60000))void load();
   const poll=setInterval(load,60000),tick=setInterval(()=>setNow(Date.now()),1000);
   document.addEventListener('visibilitychange',load);window.addEventListener('online',load);window.addEventListener('gagether:data-changed',load);
   return()=>{controller.abort();clearTimeout(retryTimer);clearInterval(poll);clearInterval(tick);document.removeEventListener('visibilitychange',load);window.removeEventListener('online',load);window.removeEventListener('gagether:data-changed',load);};
@@ -206,7 +212,7 @@ export default function Radar({initialLocale='ko',initialLocaleManual=false,init
  const togglePersonal=(field:'favorites'|'saved',id:string)=>{try{const p=JSON.parse(localStorage.getItem('patchwork.preferences')||'{}'),v=p[field]||[];if(!Array.isArray(v))throw Error();const next=v.includes(id)?v.filter((x:string)=>x!==id):[...v,id];localStorage.setItem('patchwork.preferences',JSON.stringify({...p,[field]:next}));(field==='favorites'?setFavorites:setSaved)(next);personalChanged();}catch{setToast(({ko:'기기에 저장하지 못했어요. 저장소 설정을 확인해 주세요.',en:'Could not save locally. Check browser storage.',ja:'端末に保存できません。保存設定をご確認ください。',zh:'无法保存到设备，请检查存储设置。'})[locale]);}};
  const toggleFavorite=(id:string)=>togglePersonal('favorites',id);
  const toggleSave=(id:string)=>togglePersonal('saved',id);
- async function refresh(){if(refreshing)return;setRefreshing(true);try{const r=await fetch(canEdit?'/api/refresh':dataUrl,{method:canEdit?'POST':'GET',cache:'no-store'});const d=await r.json() as Partial<EditorData>&{ok:boolean;checks?:SourceCheck[];added?:number;changed?:number;cached?:boolean};if(!r.ok)throw new Error();if(d.entries){applyData(d);}const u=ownerUi[locale];setToast(canEdit?`${d.ok?u.complete:u.partial} · ${d.checks?.filter(c=>c.status==='ok').length||0}/${d.checks?.length||0} · ${u.newNotices} ${d.added||0} · ${u.changed} ${d.changed||0}${d.cached?' · '+u.cached:''}`:publicText[locale].refreshed);}catch{setToast(t.refreshError);}finally{setRefreshing(false);}}
+ async function refresh(){if(refreshing)return;setRefreshing(true);try{const r=await fetch(canEdit?'/api/refresh':dataUrl,{method:canEdit?'POST':'GET',cache:'no-store',headers:canEdit?{}:{'X-Gagether-Public-Fresh':'1'}});const d=await r.json() as Partial<EditorData>&{ok:boolean;checks?:SourceCheck[];added?:number;changed?:number;cached?:boolean};if(!r.ok)throw new Error();if(d.entries){applyData(d);}const u=ownerUi[locale];setToast(canEdit?`${d.ok?u.complete:u.partial} · ${d.checks?.filter(c=>c.status==='ok').length||0}/${d.checks?.length||0} · ${u.newNotices} ${d.added||0} · ${u.changed} ${d.changed||0}${d.cached?' · '+u.cached:''}`:publicText[locale].refreshed);}catch{setToast(t.refreshError);}finally{setRefreshing(false);}}
  const inRegion=useMemo(()=>{const restrict=audienceRestrictions(entries),scoped=entries.filter(e=>availableInLocale(e,locale)&&(editMode?inSchedule(e,byId[e.gameId],region):contentInAudience(restrict(e),byId[e.gameId],region,locale)));return editMode||view==='videos'||view==='saved'?scoped:localizeVideoNotices(scoped,locale);},[entries,region,locale,byId,editMode,view]);
  useEffect(()=>{if(selected&&!editMode&&!contentInAudience(selected,byId[selected.gameId],region,locale))setSelected(null);},[locale,region,editMode,selected?.id]);
  const visibleEntries=useMemo(()=>myGameEntries(inRegion,favorites,myOnly&&view!=='game'),[inRegion,favorites,myOnly,view]);
@@ -275,13 +281,13 @@ export default function Radar({initialLocale='ko',initialLocaleManual=false,init
     </section>
     {view==='overview'&&!appMode&&<AppDownloadBanner locale={locale} compact/>}
     {!catalogPending&&(usingCached||loadError)&&<div className="catalog-recheck" role="status"><span>{({ko:loadError?'마지막으로 받은 정보를 표시 중입니다. 최신 정보 연결을 재시도합니다.':'저장된 정보를 먼저 표시하고 최신 내용을 확인 중입니다.',en:loadError?'Showing the last loaded information. Retrying the update.':'Showing saved information while checking for updates.',ja:loadError?'前回の情報を表示しています。更新を再試行します。':'保存済みの情報を表示し、更新を確認しています。',zh:loadError?'正在显示上次加载的信息，并重试更新。':'先显示已保存的信息，正在检查更新。'})[locale]}</span>{loadError&&<button onClick={()=>setLoadAttempt(n=>n+1)}>{retryText[locale]}</button>}</div>}
-    {catalogPending?<CatalogPending locale={locale} failed={loadError} onRetry={()=>setLoadAttempt(n=>n+1)}/>:<>
+    {catalogPending&&!isolatedTab?<CatalogPending locale={locale} failed={loadError} onRetry={()=>setLoadAttempt(n=>n+1)}/>:<>
     {simpleMode&&!showHistory&&!isolatedTab&&['overview','game','timeline'].includes(view)&&<nav className="simple-section-links" aria-label={personalText.view}>{[{id:'gagether-calendar',label:personalText.jumpCalendar},{id:'gagether-content',label:personalText.jumpContent},...(view==='overview'?[{id:'gagether-news',label:personalText.jumpNotices}]:[])].map(item=><button key={item.id} onClick={()=>document.getElementById(item.id)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}>{item.label}<ChevronDown size={12}/></button>)}</nav>}
     {view!=='game'&&view!=='sources'&&(!simpleMode||!['overview','timeline'].includes(view))&&<div className="page-game-filter"><MyGamesFilter locale={locale} enabled={myOnly} favorites={favorites} onChange={setMyOnly} onFavorite={toggleFavorite}/></div>}
     {view==='game'&&!showLeaks&&byId[gameId].serviceMode!=='shared-global'&&<section className="server-panel"><div className="server-tabs" aria-label={t.serviceSelect}><span><UiText name="serviceSelect">{t.serviceSelect}</UiText></span>{scheduleRegions(byId[gameId]).map(r=><button key={r} onClick={()=>chooseRegion(r)} aria-pressed={region===r} className={region===r?'active':''}><span className="server-dot"/>{regionLabel(byId[gameId],r,locale,t)}</button>)}</div></section>}
     {view==='game'&&<p className="game-feedback-hint"><MessageSquare size={12}/><button onClick={()=>setFeedbackContext({gameId,region})}>{feedbackCopy[locale].hint}</button></p>}
     {view==='game'&&<nav className="game-section-tabs" aria-label={byId[gameId].name[locale]}><button className={gameSection==='current'?'active':''} aria-pressed={gameSection==='current'} onClick={()=>chooseGameSection('current')}>{historyText[locale].currentContent}</button><button className={gameSection==='history'?'active':''} aria-pressed={gameSection==='history'} onClick={()=>chooseGameSection('history')}><History size={15}/>{historyText[locale].title}</button>{(['characters',...(gameId==='wuwa'?['combat'] as const:[])] as const).map(section=><button key={section} className={gameSection===section?'active':''} aria-pressed={gameSection===section} onClick={()=>chooseGameSection(section)}>{section==='characters'?<BookOpen size={15}/>:<Swords size={15}/>}<span>{gameId==='wuwa'?wuwaTabs[locale][section]:discoveryWords[locale].characters}</span></button>)}<button className={showLeaks?'active':''} aria-pressed={showLeaks} onClick={()=>chooseGameSection('leaks')}><AlertTriangle size={14}/>{leakTabLabels[locale]}</button></nav>}
-    {showLeaks?<Suspense fallback={<div role="status">{loadText[locale]}</div>}><LeaksPanel key={'leaks:'+gameId} gameId={gameId} locale={locale} simpleMode={simpleMode} onBack={()=>chooseGameSection('current')}/></Suspense>:showReference?<Suspense fallback={<div role="status">{loadText[locale]}</div>}>{gameId==='wuwa'?<WuwaReferencePanel locale={locale} section={gameSection as 'characters'|'combat'} now={now} editing={canEdit&&editMode}/>:<CharacterRosterPanel key={gameId} gameId={gameId} locale={locale} region={region} editing={canEdit&&editMode}/>}</Suspense>:<PageSections key={'layout:'+view+':'+gameId+':'+region} view={view==='game'?'game':view==='timeline'?'timeline':'overview'} editable={['overview','game','timeline'].includes(view)&&!showHistory} locale={locale} settings={settings} onSaved={setSettings} sections={[
+    {showLeaks?<Suspense fallback={<div role="status">{loadText[locale]}</div>}><LeaksPanel key={'leaks:'+gameId} gameId={gameId} locale={locale} simpleMode={simpleMode} onBack={()=>chooseGameSection('current')}/></Suspense>:showReference?<Suspense fallback={<RosterLoading locale={locale} label={gameSection==='characters'?undefined:loadText[locale]} accent={byId[gameId]?.color}/>}>{gameId==='wuwa'?<WuwaReferencePanel locale={locale} section={gameSection as 'characters'|'combat'} now={now} editing={canEdit&&editMode}/>:<CharacterRosterPanel key={gameId} gameId={gameId} locale={locale} region={region} editing={canEdit&&editMode}/>}</Suspense>:<PageSections key={'layout:'+view+':'+gameId+':'+region} view={view==='game'?'game':view==='timeline'?'timeline':'overview'} editable={['overview','game','timeline'].includes(view)&&!showHistory} locale={locale} settings={settings} onSaved={setSettings} sections={[
 {id:'resets',content:(showEventOverview&&<RecurringOverview key={'resets:'+view+':'+gameId+':'+region+':'+locale} entries={scope} locale={locale} now={now} region={region} gameId={view==='game'?gameId:undefined} onOpen={setSelected}/>)},
 {id:'version',content:(view==='game'&&!showHistory&&<VersionHero entry={versionEntry} game={byId[gameId]} region={region} locale={locale} onOpen={setSelected}/>)},
 {id:'broadcast',content:(view==='game'&&!showHistory&&!search&&<GameBroadcasts entries={entries} game={byId[gameId]} region={region} locale={locale} now={now} onOpen={setSelected}/>)},

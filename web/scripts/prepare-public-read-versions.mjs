@@ -1,0 +1,15 @@
+import{readFileSync,writeFileSync,readdirSync}from'node:fs';import{createHash}from'node:crypto';import{join}from'node:path';import{fileURLToPath}from'node:url';
+export const rosterVersionFiles=['scripts/prepare-public-read-versions.mjs','lib/character-roster.ts','lib/character-roster-enrichment.ts','lib/roster-fact-retention.ts','lib/character-roster-art-guard.ts','lib/roster-detail-icons.ts','lib/roster-detail-catalog.ts','lib/roster-art-framing.ts','lib/roster-art-framing-store.ts','lib/roster-art-frame-reader.ts','lib/roster-read-revision.ts','lib/roster-public-read.ts','lib/roster-public-slices.ts','lib/public-roster-cache.ts','lib/games.ts'];
+export const wuwaVersionFiles=['lib/wuwa-reference.ts','lib/wuwa-reference-store.ts','lib/wuwa-reference-art.ts','lib/wuwa-reference-view.ts','lib/wuwa-art-framing-store.ts','lib/roster-art-frame-reader.ts','lib/roster-art-framing.ts','lib/roster-read-revision.ts','app/api/wuwa/library/route.ts','lib/public-roster-cache.ts'];
+export function publicReadVersions(root='.'){
+ const read=p=>JSON.parse(readFileSync(join(root,p),'utf8'));
+ const hash=(files,data)=>{const h=createHash('sha256');for(const p of files)h.update(p).update(readFileSync(join(root,p)));return h.update(JSON.stringify(data)).digest('hex');};
+ const artwork=read('content/character-rosters/artwork-manifest.json'),icons=read('content/roster-detail-icons.json'),rejected=read('content/character-rosters/rejected-artwork.json'),restricted=read('content/character-rosters/restricted-artwork.json');
+ const rosters=Object.fromEntries(read('content/character-rosters/bootstrap.json').map(data=>[data.gameId,hash(rosterVersionFiles,{data,artwork:artwork.filter(a=>a.gameId===data.gameId),icons:icons.filter(a=>a.gameId===data.gameId),rejected,restricted})]));
+ rosters.wuwa=hash(wuwaVersionFiles,['content/wuwa-reference.json','content/wuwa-reference-splashes.json','content/wuwa-character-growth.json'].map(read));
+ const files=['app/api/data/route.ts','scripts/prepare-public-read-versions.mjs','package.json','pnpm-lock.yaml'];
+ function walk(dir){for(const e of readdirSync(join(root,dir),{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){const p=dir+'/'+e.name;if(e.isDirectory())walk(p);else if(/\.(ts|mjs|json|sql)$/.test(p)&&p!=='content/public-read-versions.json'&&!p.startsWith('content/gallery-'))files.push(p);}}
+ for(const dir of ['lib','content','db','drizzle'])walk(dir);
+ return {version:1,catalog:hash(files,[]),rosters};
+}
+if(process.argv[1]===fileURLToPath(import.meta.url)){const value=publicReadVersions();writeFileSync('content/public-read-versions.json',JSON.stringify(value,null,2)+'\n');console.log(JSON.stringify({publicRosterVersions:Object.keys(value.rosters).length,independentFromPresentationBuild:true}));}

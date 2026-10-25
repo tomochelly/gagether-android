@@ -52,4 +52,33 @@ class GameRefreshRequestTest(unittest.TestCase):
   plan['serverTime']='2026-10-25T06:04:00Z';self.assertEqual(runner.due_tasks(plan,'fast'),[a,b])
   plan['serverTime']='bad'
   with self.assertRaises(RuntimeError):runner.due_tasks(plan,'fast')
+ def test_budget_defers_unstarted_tasks_and_accepts_final_readback_of_a_queued_continuation(self):
+  a,b=task('wuwa'),task('nikke');clock=[0];posts=[]
+  def request(url,post=False):
+   if post:posts.append(url);clock[0]=2;return continuation(a)
+   return saved(a)
+  result=runner.wave([a,b],1,1,request,lambda:clock[0])
+  self.assertEqual(len(posts),1);self.assertEqual(result['completed'][0]['task'],a);self.assertEqual(result['deferred'][0]['gameId'],'nikke');self.assertEqual(result['continuing'],[]);self.assertEqual(result['errors'],[])
+ def test_never_started_budget_queue_is_not_a_fabricated_checkpoint_or_failure(self):
+  result=runner.wave([task()],0,1,lambda *a:(_ for _ in ()).throw(AssertionError('No request expected')),lambda:0)
+  self.assertEqual(result['requests'],0);self.assertEqual(len(result['deferred']),1);self.assertEqual(result['completed'],[]);self.assertEqual(result['continuing'],[]);self.assertEqual(result['errors'],[])
+ def test_transient_final_readback_retries_only_get_and_persistent_or_wrong_identity_still_fail(self):
+  t=task();calls=[]
+  def request(url,post=False):
+   calls.append(post)
+   if post:return {'version':2,'taskKey':t['key']}
+   value=saved(t)
+   if len(calls)==2:value['result']['readback']=None
+   return value
+  self.assertEqual(runner.step(t,request)['outcome'],'complete');self.assertEqual(calls,[True,False,False])
+ def test_stalled_checkpoint_is_not_successful_continuation(self):
+  t=task('all','maintenance');t['intervalMinutes']=30
+  status={'version':2,'task':{'key':t['key']},'lastStartedAt':START,'serverTime':'2026-10-25T09:00:00Z','result':continuation(t)}
+  with self.assertRaisesRegex(RuntimeError,'stalled'):runner.persisted(t,status)
+  self.assertFalse(runner.verified_pending(t,lambda url:status))
+ def test_a_recovered_error_clears_only_after_same_game_lane_verified_completion(self):
+  a,b=task(),task('nikke');error={'gameId':a['gameId'],'lane':a['lane'],'error':'Readback missing'};unresolved={}
+  runner.reconcile_errors(unresolved,{'completed':[],'errors':[error]});self.assertEqual(len(unresolved),1)
+  runner.reconcile_errors(unresolved,{'completed':[{'task':b}],'errors':[]});self.assertEqual(len(unresolved),1)
+  self.assertEqual(runner.reconcile_errors(unresolved,{'completed':[{'task':a}],'errors':[]}),[error]);self.assertEqual(unresolved,{})
 if __name__=='__main__':unittest.main()

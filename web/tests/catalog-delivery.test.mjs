@@ -15,6 +15,7 @@ test('completed public snapshots avoid repeated catalog reads and revalidate own
  assert.deepEqual(unpackCatalog(await first.json()),sample);
  const hit=await publicCatalog(request(),options);assert.match(hit.headers.get('server-timing'),/MEMORY/);assert.equal(reads,1);
  const unchanged=await publicCatalog(request(etag),options);assert.equal(unchanged.status,304);assert.equal(reads,1);
+ for(const value of ['W/'+etag,'"other", W/'+etag]){const weak=await publicCatalog(request(value),options);assert.equal(weak.status,304);assert.equal(await weak.text(),'');assert.equal(reads,1);}
  revision='revision-b';sample.settings.brand.name='Changed owner name';
  const changed=await publicCatalog(request(etag),options);assert.equal(changed.status,200);assert.equal(reads,2);assert.equal(unpackCatalog(await changed.json()).settings.brand.name,'Changed owner name');
  // A persisted snapshot from a different isolate can answer without loading D1 rows.

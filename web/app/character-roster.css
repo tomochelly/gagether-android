@@ -63,3 +63,19 @@
 .roster-character-facts:is([data-game="umamusume"],[data-game="gfl2"]) .roster-detail-caption{position:relative;inset:auto;flex:none;padding:16px 24px 20px;background:linear-gradient(transparent,#07100d8c)}
 .roster-character-facts:is([data-game="umamusume"],[data-game="gfl2"]) .roster-detail-caption h2{font-size:clamp(1.2rem,2vw,2rem);margin:0 0 12px}
 @media(max-width:720px){.roster-character-facts:is([data-game="umamusume"],[data-game="gfl2"]) .roster-detail-hero{height:clamp(610px,88dvh,860px)}.roster-character-facts:is([data-game="umamusume"],[data-game="gfl2"]) .roster-detail-caption{padding:14px 22px 20px}}
+
+/* A lightweight activity indicator; completed reads are never held for animation. */
+.roster-loading{--loading-color:var(--loading-accent,var(--roster-accent,var(--accent,#a1bc78)));display:flex;flex-direction:column;justify-content:center;gap:18px;min-height:144px;margin:24px 0;padding:28px clamp(20px,4vw,40px);border:1px solid var(--line);border-radius:12px;background:linear-gradient(120deg,color-mix(in srgb,var(--loading-color) 8%,transparent),transparent);contain:paint}
+.roster-loading-label{color:var(--text);font-size:14px;font-weight:600;line-height:1.6;letter-spacing:.01em}
+.roster-loading-track{height:6px;width:100%;overflow:hidden;border-radius:999px;background:color-mix(in srgb,var(--loading-color) 17%,transparent)}
+.roster-loading-track>span{display:block;width:34%;height:100%;border-radius:inherit;background:linear-gradient(90deg,color-mix(in srgb,var(--loading-color) 30%,transparent),color-mix(in srgb,var(--loading-color) 80%,var(--text)));animation:roster-loading-sweep 1.5s ease-in-out infinite}
+.roster-loading-compact{min-height:92px;margin:18px 0;padding:18px 22px;gap:12px}
+@keyframes roster-loading-sweep{from{transform:translateX(-110%)}to{transform:translateX(330%)}}
+@media(prefers-reduced-motion:reduce){.roster-loading-track>span{animation:none;transform:none;width:42%}}
+
+/* Keep pending detail feedback above the full-height illustration, in view. */
+.roster-detail-scroll:has(>.roster-loading){display:flex;flex-direction:column}
+.roster-detail-scroll>.roster-loading{flex:none;min-height:76px;margin:12px 24px;padding:14px 20px}
+.roster-detail-scroll:has(>.roster-loading)>.roster-character-facts{flex:1;height:auto;min-height:0}
+.reference-dialog-content>.roster-loading{margin:16px 24px}
+@media(max-width:720px){.roster-detail-scroll>.roster-loading,.reference-dialog-content>.roster-loading{margin:12px 14px}}

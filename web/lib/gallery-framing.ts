@@ -1,9 +1,12 @@
-import audit from '../content/gallery-subject-bounds.json' with {type:'json'};
+import runtime from '../content/gallery-framing-runtime.json' with {type:'json'};
 import heads from '../content/gallery-protected-heads.json' with {type:'json'};
 import {rosterArtUrl} from './roster-art-framing';
 export type GallerySubject={left:number;top:number;right:number;bottom:number;width?:number;height?:number};
-export function gallerySubject(url:string):GallerySubject|undefined{return (audit.entries as Record<string,GallerySubject>)[rosterArtUrl(url)]||(audit.entries as Record<string,GallerySubject>)[url];}
-const backgrounds=new Set(audit.knownBackgroundURLs);
+const compact=runtime as unknown as {rows:[number,number,number,number,number|null,number|null][];entries:[string,number][];backgrounds:string[]};
+const rows:GallerySubject[]=compact.rows.map(([left,top,right,bottom,width,height])=>({left,top,right,bottom,...width!==null?{width}:{},...height!==null?{height}:{}}));
+const subjects=new Map(compact.entries.map(([url,index])=>[url,rows[index]]));
+export function gallerySubject(url:string):GallerySubject|undefined{return subjects.get(rosterArtUrl(url))||subjects.get(url);}
+const backgrounds=new Set(compact.backgrounds);
 export function galleryBackground(url:string){return backgrounds.has(rosterArtUrl(url))||backgrounds.has(url);}
 export type ProtectedHead=GallerySubject&{composition?:GallerySubject};
 export function galleryProtectedHead(url:string):ProtectedHead|undefined{return (heads.entries as Record<string,ProtectedHead>)[url];}

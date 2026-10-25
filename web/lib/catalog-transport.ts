@@ -3,7 +3,7 @@ import type {SiteSettings} from './editorial';
 
 type Value=null|boolean|number|Value[];
 export type PackedCatalog={format:'catalog-1';strings:string[];shapes:string[][];value:Value};
-export type CatalogData={entries:Entry[];sourceChecks:SourceCheck[];settings:SiteSettings;persistent:boolean;serverTime:string;settingsRevision:number};
+export type CatalogData={gameScope?:string;entries:Entry[];sourceChecks:SourceCheck[];settings:SiteSettings;persistent:boolean;serverTime:string;settingsRevision:number};
 
 // Lossless wire representation only: repeated field names and exact strings are
 // transmitted once. All languages, artwork URLs, owner revisions and dates stay

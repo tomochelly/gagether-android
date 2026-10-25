@@ -1,13 +1,13 @@
-import {retainCharacterFacts} from './character-roster-enrichment';
+import {retainCharacterFacts} from './roster-fact-retention';
 import {pinRosterFactIcons} from './roster-detail-icons';
 import {rosterDetailFieldsSchema} from './character-roster';
 import type {CharacterRoster,RosterCharacter} from './character-roster';
 import type {z} from 'zod';
 type Fields=z.infer<typeof rosterDetailFieldsSchema>;
-const decoded=new Map<string,Promise<Fields>>();
+const decoded=new Map<string,{payload:string;fields:Fields}>();
 async function unpack(id:string,form:{sourceId:string|number;sha256:string;bytes:number;payload:string}){
- const key=form.sha256+'|'+form.bytes+'|'+id+'|'+form.sourceId,existing=decoded.get(key);if(existing)return existing;
- const pending=(async()=>{
+ const key=form.sha256+'|'+form.bytes+'|'+id+'|'+form.sourceId,existing=decoded.get(key);if(existing?.payload===form.payload)return existing.fields;
+ const fields=await(async()=>{
   const input=Uint8Array.from(atob(form.payload),c=>c.charCodeAt(0)),reader=new Blob([input]).stream().pipeThrough(new DecompressionStream('gzip')).getReader();
   const chunks:Uint8Array[]=[];let size=0;
   try{while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>form.bytes||size>1000000){await reader.cancel();throw Error('Detail original exceeds declared size');}chunks.push(value);}}finally{reader.releaseLock();}
@@ -15,8 +15,9 @@ async function unpack(id:string,form:{sourceId:string|number;sha256:string;bytes
   const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(n=>n.toString(16).padStart(2,'0')).join('');if(hash!==form.sha256)throw Error('Detail original hash mismatch');
   const original=JSON.parse(new TextDecoder().decode(bytes));if(original?.id!==id||original.sourceId!==form.sourceId||Object.keys(original).some(k=>!['id','sourceId','details'].includes(k)))throw Error('Packed detail identity mismatch');
   return rosterDetailFieldsSchema.parse(original.details);
- })();decoded.set(key,pending);if(decoded.size>8)decoded.delete(decoded.keys().next().value!);
- try{return await pending;}catch(e){decoded.delete(key);throw e;}
+ })();
+ decoded.set(key,{payload:form.payload,fields});if(decoded.size>8)decoded.delete(decoded.keys().next().value!);
+ return fields;
 }
 /** Expand one exact form only. The native catalog never enters directory props. */
 export async function hydrateRosterDetails(data:CharacterRoster,character:RosterCharacter):Promise<RosterCharacter>{

@@ -1,3 +1,4 @@
+import {rosterReadChanged} from './public-read-jobs';
 import {env} from 'cloudflare:workers';
 import {characterRosterSchema,type CharacterRoster} from './character-roster';
 import bootstrap from '../content/character-rosters/bootstrap.json' with {type:'json'};
@@ -23,6 +24,6 @@ export async function saveCharacterRoster(input:CharacterRoster){
  const check=await env.BUCKET!.get(objectKey);if(!check||await rosterHash(characterRosterSchema.parse(await check.json()))!==value)throw Error('Roster snapshot readback failed');
  const pointer=JSON.stringify({hash:value,previousHash:prior?.storageHash||prior?.hash,count:merged.characters.length,checkedAt:merged.checkedAt});
  const result=prior?.pointer?await env.DB!.prepare('UPDATE operations_health SET payload=? WHERE key=? AND payload=?').bind(pointer,key(data.gameId),prior.pointer).run():await env.DB!.prepare('INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO NOTHING').bind(key(data.gameId),pointer).run();
- if(!result.meta.changes)throw Error('Concurrent roster snapshot won');return {changed:true,count:merged.characters.length,retained:retained.length,hash:value};
+ if(!result.meta.changes)throw Error('Concurrent roster snapshot won');rosterReadChanged(data.gameId);return {changed:true,count:merged.characters.length,retained:retained.length,hash:value};
 }
 export async function characterRosterHealth(){const rows=await env.DB!.prepare("SELECT payload FROM operations_health WHERE key LIKE 'character-roster-health:%'").all<{payload:string}>();return rows.results.map(x=>JSON.parse(x.payload));}

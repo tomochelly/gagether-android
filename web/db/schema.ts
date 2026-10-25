@@ -1,7 +1,7 @@
 import {sqliteTable,text,integer,index} from "drizzle-orm/sqlite-core";
-export const entries=sqliteTable("entries",{id:text("id").primaryKey(),gameId:text("game_id").notNull(),payload:text("payload").notNull(),updatedAt:text("updated_at").notNull()});
+export const entries=sqliteTable("entries",{id:text("id").primaryKey(),gameId:text("game_id").notNull(),payload:text("payload").notNull(),updatedAt:text("updated_at").notNull()},t=>[index("entries_game_updated").on(t.gameId,t.updatedAt,t.id)]);
 export const checks=sqliteTable("source_checks",{gameId:text("game_id").primaryKey(),checkedAt:text("checked_at").notNull(),status:text("status").notNull(),count:integer("count").notNull().default(0),error:text("error")});
-export const editorial=sqliteTable("editorial",{key:text("key").primaryKey(),payload:text("payload").notNull(),revision:integer("revision").notNull().default(1),updatedAt:text("updated_at").notNull(),updatedBy:text("updated_by").notNull()});
+export const editorial=sqliteTable("editorial",{key:text("key").primaryKey(),payload:text("payload").notNull(),revision:integer("revision").notNull().default(1),updatedAt:text("updated_at").notNull(),updatedBy:text("updated_by").notNull()},t=>[index("editorial_key_revision").on(t.key,t.revision,t.updatedAt)]);
 export const refreshJobs=sqliteTable('refresh_jobs',{id:text('id').primaryKey(),leaseUntil:integer('lease_until').notNull().default(0),lastStartedAt:text('last_started_at'),lastFinishedAt:text('last_finished_at'),result:text('result')});
 
 export const usageVisitors=sqliteTable('usage_visitors',{id:text('id').primaryKey(),day:text('day').notNull(),firstSeen:integer('first_seen').notNull(),lastSeen:integer('last_seen').notNull(),device:text('device').notNull(),locale:text('locale').notNull(),referrer:text('referrer').notNull()},table=>[index('usage_visitors_day').on(table.day),index('usage_visitors_last_seen').on(table.lastSeen)]);
@@ -10,6 +10,7 @@ export const usageMeta=sqliteTable('usage_meta',{key:text('key').primaryKey(),va
 
 // Public opt-in game selections are separate from private owner usage analytics.
 export const publicFavoriteBrowsers=sqliteTable('public_favorite_browsers',{id:text('id').primaryKey(),favorites:text('favorites').notNull().default('[]'),revision:integer('revision').notNull().default(0),updatedAt:text('updated_at').notNull()});
+export const publicFavoriteTotals=sqliteTable('public_favorite_totals',{gameId:text('game_id').primaryKey(),count:integer('count').notNull().default(0)});
 export const officialChannels=sqliteTable('official_channels',{id:text('id').primaryKey(),payload:text('payload').notNull(),updatedAt:text('updated_at').notNull()});
 
 // Visitor Google identity is isolated from Sites owner/editor authorization.
@@ -31,3 +32,7 @@ export const feedbackLimits=sqliteTable('feedback_limits',{id:text('id').primary
 export const editorialHistory=sqliteTable('editorial_history',{seq:integer('seq').primaryKey({autoIncrement:true}),key:text('key').notNull(),action:text('action').notNull(),oldPayload:text('old_payload'),newPayload:text('new_payload'),oldRevision:integer('old_revision'),newRevision:integer('new_revision'),actor:text('actor'),at:text('at').notNull()});
 export const operationsHealth=sqliteTable('operations_health',{key:text('key').primaryKey(),payload:text('payload').notNull()});
 export const officialDocuments=sqliteTable('official_documents',{id:text('id').primaryKey(),gameId:text('game_id').notNull(),region:text('region').notNull(),locale:text('locale').notNull(),url:text('url').notNull(),payload:text('payload').notNull(),bodyHash:text('body_hash').notNull(),reviewedHash:text('reviewed_hash'),status:text('status').notNull(),checkedAt:text('checked_at').notNull(),verifiedAt:text('verified_at'),entryIds:text('entry_ids').notNull().default('[]')},t=>[index('official_documents_review').on(t.status,t.checkedAt)]);
+
+// Read-only materializations; source entries and owner overrides remain canonical.
+export const publicEntryIndex=sqliteTable('public_entry_index',{id:text('id').primaryKey(),gameId:text('game_id').notNull(),payload:text('payload').notNull(),sourceUpdatedAt:text('source_updated_at').notNull()},t=>[index('public_entry_index_game').on(t.gameId,t.sourceUpdatedAt,t.id)]);
+export const publicCatalogVersions=sqliteTable('public_catalog_versions',{gameId:text('game_id').primaryKey(),revision:integer('revision').notNull().default(0)});

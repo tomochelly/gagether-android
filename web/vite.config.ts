@@ -3,8 +3,8 @@ import {createHash} from "node:crypto";
 import {readdirSync,readFileSync} from "node:fs";
 import {join} from "node:path";
 const sourceHash=createHash("sha256");
-function hashTree(root:string){for(const entry of readdirSync(root,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){const path=join(root,entry.name);if(entry.isDirectory())hashTree(path);else if(/\.(tsx?|css|mjs)$/.test(path))sourceHash.update(path).update(readFileSync(path));}}
-for(const root of ["app","components","lib","build"])hashTree(root);
+function hashTree(root:string){for(const entry of readdirSync(root,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){const path=join(root,entry.name);if(entry.isDirectory())hashTree(path);else if(/\.(tsx?|css|mjs|json|sql)$/.test(path))sourceHash.update(path).update(readFileSync(path));}}
+for(const root of ["app","components","lib","build","content","db","drizzle"])hashTree(root);
 for(const file of ['vite.config.ts','package.json','pnpm-lock.yaml'])sourceHash.update(file).update(readFileSync(file));
 const screenRevision=sourceHash.digest("hex").slice(0,20);
 import { defineConfig } from "vite";
