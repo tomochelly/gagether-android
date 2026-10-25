@@ -1,0 +1,470 @@
+{
+  "generatedAt": "2026-10-25T07:56:18.003357+00:00",
+  "counts": {
+    "profiles": 135,
+    "outfits": 271,
+    "jraCrosschecked": 37,
+    "wikiCrosschecked": 135
+  },
+  "output": {
+    "bytes": 510202,
+    "sha256": "d0d56ec94df32736fa3241a9f2d941e2a9aeed305e7444591462a655ff419a97"
+  },
+  "sourceReceipts": [
+    {
+      "url": "https://gametora.com/data/manifests/umamusume.json",
+      "status": 200,
+      "bytes": 11282,
+      "sha256": "773c3cc0160cc5f52c114cd82d9d699f52f2a30f68caa52cb2fa2e42e36ed773",
+      "checkedAt": "2026-10-25T07:50:28.266054+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/characters.a007378d.json",
+      "status": 200,
+      "bytes": 120484,
+      "sha256": "a007378ddfcd121eb068495cdeded381967663795f033bbf5c8f97ff9a653b69",
+      "checkedAt": "2026-10-25T07:51:56.055829+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/static/character_rl_details.77b75050.json",
+      "status": 200,
+      "bytes": 634564,
+      "sha256": "77b75050ea33d864a5deb49fd7159ae2f47dbd3a6661d8e7b6c0b25fc16840df",
+      "checkedAt": "2026-10-25T07:52:05.376057+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/races.51478888.json",
+      "status": 200,
+      "bytes": 130182,
+      "sha256": "5147888889a48135f9214ae87eef53594f813e2e2e536073d0245a303679e0c5",
+      "checkedAt": "2026-10-25T07:52:58.583887+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/races_extended.bbff65dc.json",
+      "status": 200,
+      "bytes": 109504,
+      "sha256": "bbff65dc10d9ae57e0ae0e7beec1f71cb908685d5b6f586d39eeecfd9143e308",
+      "checkedAt": "2026-10-25T07:56:18.003357+00:00"
+    }
+  ],
+  "officialReads": [
+    {
+      "url": "https://umamusume.kakaogames.com/",
+      "status": 200,
+      "bytes": 14639,
+      "sha256": "74e44156dde3df72822fb5ad1175c50f9fa36c6f3f7e5505ccfeb55d0309a599",
+      "checkedAt": "2026-10-25T07:47:01.870017+00:00"
+    },
+    {
+      "url": "https://umamusume.jp/about/",
+      "status": 200,
+      "bytes": 740388,
+      "sha256": "c69a16e5c4976fe509c160876da8819bc3fa9b51cc4335dbfd2a3075add50da7",
+      "checkedAt": "2026-10-25T07:47:06.286215+00:00"
+    },
+    {
+      "url": "https://umamusume.jp/character/specialweek/",
+      "status": 200,
+      "bytes": 748969,
+      "sha256": "5ff5c7588d31998eb7cc6b966ddd7169592377ad260146b5a0289245d5345a78",
+      "checkedAt": "2026-10-25T07:47:11.074318+00:00"
+    },
+    {
+      "url": "https://gametora.com/umamusume/characters/special-week",
+      "status": 200,
+      "bytes": 139151,
+      "sha256": "6f9ab5757d9e818012f25fd4ffbe005d4cbc429e0ab43c7d582d2c4cb162cd30",
+      "checkedAt": "2026-10-25T08:04:11.322092+00:00"
+    },
+    {
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/",
+      "status": 200,
+      "bytes": 78451,
+      "sha256": "6bdc5dcef0a79d2d5b98ff90d19965981894a8fe273f70249f2d5747c20f9d21",
+      "checkedAt": "2026-10-25T07:55:06.141766+00:00"
+    }
+  ],
+  "jraVerifiedBaseIds": [
+    "1001",
+    "1002",
+    "1003",
+    "1006",
+    "1007",
+    "1008",
+    "1009",
+    "1010",
+    "1011",
+    "1012",
+    "1013",
+    "1014",
+    "1015",
+    "1016",
+    "1017",
+    "1018",
+    "1019",
+    "1020",
+    "1023",
+    "1026",
+    "1030",
+    "1037",
+    "1041",
+    "1044",
+    "1051",
+    "1059",
+    "1061",
+    "1068",
+    "1084",
+    "1086",
+    "1108",
+    "1114",
+    "1115",
+    "1116",
+    "1121",
+    "1129",
+    "1141"
+  ],
+  "wikiIdentityMatches": 135,
+  "factsPolicy": "New factual summaries only; no source prose or photographs copied. Raw catalogue remains canonical-only.",
+  "blockedSource": {
+    "url": "https://www.jbis.or.jp/horse/0000293624/",
+    "status": 403,
+    "action": "Stopped; no alternate route used."
+  },
+  "gaps": [
+    {
+      "character": 1070,
+      "kind": "partial-race-history",
+      "declaredStarts": 26,
+      "listedStarts": 22
+    }
+  ],
+  "status": "ok",
+  "jraReceipts": [
+    {
+      "baseId": "1001",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse9/",
+      "status": 200,
+      "bytes": 73314,
+      "sha256": "617adcb35572d720d20f6d4e19a77e267f1d9e9be18d055dcd6b28ba38194951",
+      "checkedAt": "2026-10-25T07:55:01.829867+00:00"
+    },
+    {
+      "baseId": "1002",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse25/index.html",
+      "status": 200,
+      "bytes": 73369,
+      "sha256": "8de825e837d136062cd1bfee46399b83309cd63a62c230d7ab3ab1a60338ead1",
+      "checkedAt": "2026-10-25T07:57:28.693915+00:00"
+    },
+    {
+      "baseId": "1003",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse35/index.html",
+      "status": 200,
+      "bytes": 73042,
+      "sha256": "5a65fb85f0dd8b6bfa16490d3b4b7a4425f6393ac1b807e25ff970f6224c7199",
+      "checkedAt": "2026-10-25T07:57:37.562876+00:00"
+    },
+    {
+      "baseId": "1006",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse13/index.html",
+      "status": 200,
+      "bytes": 77580,
+      "sha256": "f35b56c925f94929ac1ef6a0d76d1c22a4d5325e2b0a79d1635f9358c32ebe34",
+      "checkedAt": "2026-10-25T07:57:23.206004+00:00"
+    },
+    {
+      "baseId": "1007",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse6/index.html",
+      "status": 200,
+      "bytes": 76889,
+      "sha256": "33ff8c6526e2794048506be777ee8062de86c8100ce92b97767525443a16a59e",
+      "checkedAt": "2026-10-25T07:57:28.593942+00:00"
+    },
+    {
+      "baseId": "1008",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse11/index.html",
+      "status": 200,
+      "bytes": 76940,
+      "sha256": "4f259c668bd7da6a0faaa12ef3afb48acdbb6e529a03a2346f25762563d9271e",
+      "checkedAt": "2026-10-25T07:57:14.086006+00:00"
+    },
+    {
+      "baseId": "1009",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse29/index.html",
+      "status": 200,
+      "bytes": 73816,
+      "sha256": "ed62f0a6d00a9bbaac52e43d98faa38042c0a5bfe7b097ece777fe4b07758ae4",
+      "checkedAt": "2026-10-25T07:57:37.578172+00:00"
+    },
+    {
+      "baseId": "1010",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse8/index.html",
+      "status": 200,
+      "bytes": 72096,
+      "sha256": "ec2ca65ddd78e72c9a8625b9892e5d1b1b67c4b84b373a8e894604b770979170",
+      "checkedAt": "2026-10-25T07:57:32.645959+00:00"
+    },
+    {
+      "baseId": "1011",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse12/index.html",
+      "status": 200,
+      "bytes": 72514,
+      "sha256": "7009089b49be1a6fa0ef946f5dcc391035ada5f21f5d93cc8188454326ab63c0",
+      "checkedAt": "2026-10-25T07:57:22.742641+00:00"
+    },
+    {
+      "baseId": "1012",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse33/index.html",
+      "status": 200,
+      "bytes": 74856,
+      "sha256": "318e9ff9f86b76d1b9b11b14220821fb9ad4afb4cc9c692de2c2f1b5a046d48d",
+      "checkedAt": "2026-10-25T07:57:42.421891+00:00"
+    },
+    {
+      "baseId": "1013",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse41/index.html",
+      "status": 200,
+      "bytes": 76139,
+      "sha256": "2409bdedfd1720db7c44569ecbe9b500f1078e8af3727a89ebdb778336cbc243",
+      "checkedAt": "2026-10-25T07:57:03.034027+00:00"
+    },
+    {
+      "baseId": "1014",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse2/index.html",
+      "status": 200,
+      "bytes": 71185,
+      "sha256": "6d1f48c45faedfaf4f3c9de1af8859c010adc317ca50c01e1f1d58421b1041f7",
+      "checkedAt": "2026-10-25T07:57:18.155260+00:00"
+    },
+    {
+      "baseId": "1015",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse5/index.html",
+      "status": 200,
+      "bytes": 76250,
+      "sha256": "e6d318c947980b805d2a53da9834bb830ecc6768042ad9a5a2a286f1499f9b7b",
+      "checkedAt": "2026-10-25T07:57:37.602014+00:00"
+    },
+    {
+      "baseId": "1016",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse17/index.html",
+      "status": 200,
+      "bytes": 74929,
+      "sha256": "497cf154fe43eaa17a7bd9356ac5642a9acf7a199e8f7a0d0c163f5544b99597",
+      "checkedAt": "2026-10-25T07:57:42.370732+00:00"
+    },
+    {
+      "baseId": "1017",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse22/index.html",
+      "status": 200,
+      "bytes": 73591,
+      "sha256": "735a4dfdd7ea4704c0d0719bcfc94cf4b3be31797f88c131d3c164f2d10a2090",
+      "checkedAt": "2026-10-25T07:57:33.153737+00:00"
+    },
+    {
+      "baseId": "1018",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse21/index.html",
+      "status": 200,
+      "bytes": 73911,
+      "sha256": "6bf01af7f6756d1f8d272b0021a9f1a3cc32fae4334eef2891a4b9445aad3266",
+      "checkedAt": "2026-10-25T07:57:13.678051+00:00"
+    },
+    {
+      "baseId": "1019",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse23/index.html",
+      "status": 200,
+      "bytes": 77199,
+      "sha256": "dd5ed2de9f791136faf2d2d33bb62111a74f6fa0f4b1e030db72b0da5b8d01a9",
+      "checkedAt": "2026-10-25T07:57:14.118199+00:00"
+    },
+    {
+      "baseId": "1020",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse39/index.html",
+      "status": 200,
+      "bytes": 73106,
+      "sha256": "00b66eff89bd83e5d70a4a364bd6c3490a6134239836599f5456df58b4ef0c81",
+      "checkedAt": "2026-10-25T07:57:03.442093+00:00"
+    },
+    {
+      "baseId": "1023",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse4/index.html",
+      "status": 200,
+      "bytes": 72972,
+      "sha256": "1621a4449ce84e6e9b996e78642d1c824e18c9c89a4d3d4493433ee00602d168",
+      "checkedAt": "2026-10-25T07:57:47.215049+00:00"
+    },
+    {
+      "baseId": "1026",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse34/index.html",
+      "status": 200,
+      "bytes": 71749,
+      "sha256": "76f2b9352408f0c74af241db536cd017acfd8e17c3d5db5723168201752ffb84",
+      "checkedAt": "2026-10-25T07:57:47.253916+00:00"
+    },
+    {
+      "baseId": "1030",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse18/index.html",
+      "status": 200,
+      "bytes": 75158,
+      "sha256": "95d6be68b1dc1dba4b07855947fbb4028162e3cc8aaf0c7a57ac95c2a744501d",
+      "checkedAt": "2026-10-25T07:57:09.052442+00:00"
+    },
+    {
+      "baseId": "1037",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse28/index.html",
+      "status": 200,
+      "bytes": 78260,
+      "sha256": "d13d2f1bfd77c148b103f5cbe9b007acb8a0ea69c3215a7311352d4c19e71779",
+      "checkedAt": "2026-10-25T07:57:18.590026+00:00"
+    },
+    {
+      "baseId": "1041",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse24/index.html",
+      "status": 200,
+      "bytes": 74372,
+      "sha256": "0a233bad5a2d9fe02eb9c5a569a11e8a1cbb886eba3d5cf4a5f8d21ed95db478",
+      "checkedAt": "2026-10-25T07:57:28.205961+00:00"
+    },
+    {
+      "baseId": "1044",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse3/index.html",
+      "status": 200,
+      "bytes": 75439,
+      "sha256": "4615fb51e9c24a9ae054cb18d0e1a6fd93ca7d6203dd763b77657dc458a4e97c",
+      "checkedAt": "2026-10-25T07:57:33.125993+00:00"
+    },
+    {
+      "baseId": "1051",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse16/index.html",
+      "status": 200,
+      "bytes": 73285,
+      "sha256": "1ed9c0a6692da4feff28a0ffa92f27ef043c6fb63d7a65bf8afea3ec3beec2f3",
+      "checkedAt": "2026-10-25T07:57:42.443543+00:00"
+    },
+    {
+      "baseId": "1059",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse7/index.html",
+      "status": 200,
+      "bytes": 74436,
+      "sha256": "f5815ca6399f2688385d609337e1fb590bc55d8bc63882805f55b7d38aca3a8c",
+      "checkedAt": "2026-10-25T07:57:51.763965+00:00"
+    },
+    {
+      "baseId": "1061",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse14/index.html",
+      "status": 200,
+      "bytes": 76557,
+      "sha256": "15351f9e66ee08ec31f42578da851e2d56951e30ba928a089e26a1135a88d0c2",
+      "checkedAt": "2026-10-25T07:57:23.078006+00:00"
+    },
+    {
+      "baseId": "1068",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse37/index.html",
+      "status": 200,
+      "bytes": 77232,
+      "sha256": "0c786439c8c942189a2a6581a0e2f7d99899f2c6f66b2b9007fb9478c51df80e",
+      "checkedAt": "2026-10-25T07:57:09.011315+00:00"
+    },
+    {
+      "baseId": "1084",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse42/index.html",
+      "status": 200,
+      "bytes": 71155,
+      "sha256": "d5e7dfa849242e7b7bae8f3ff11313a35f96190eb1e474b62da58c13ac8762ec",
+      "checkedAt": "2026-10-25T07:57:03.437987+00:00"
+    },
+    {
+      "baseId": "1086",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse44/index.html",
+      "status": 200,
+      "bytes": 73102,
+      "sha256": "a1c30c7440bdc052cad2f202c11617d8e9c2d92d12bf9b2bf58eb527df192205",
+      "checkedAt": "2026-10-25T07:56:57.588307+00:00"
+    },
+    {
+      "baseId": "1108",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse45/index.html",
+      "status": 200,
+      "bytes": 71386,
+      "sha256": "52ed62039323b46c6625b55778b46967354b8ac34eeb95a70c6ce380981f237d",
+      "checkedAt": "2026-10-25T07:56:57.798007+00:00"
+    },
+    {
+      "baseId": "1114",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse20/index.html",
+      "status": 200,
+      "bytes": 76290,
+      "sha256": "0a6e23418b2140cdaabb62f8a9b44a780f230b9a239b8a9dec9fba9b3c98d59a",
+      "checkedAt": "2026-10-25T07:57:47.216502+00:00"
+    },
+    {
+      "baseId": "1115",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse49/index.html",
+      "status": 200,
+      "bytes": 75949,
+      "sha256": "a405bd3d5d60fa1cc249f7102c239bd155740a1a587bc8d5aa5c4af834ad9e82",
+      "checkedAt": "2026-10-25T07:56:57.633967+00:00"
+    },
+    {
+      "baseId": "1116",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse38/index.html",
+      "status": 200,
+      "bytes": 76405,
+      "sha256": "5d75839b5d6ff0e21663e1286390b1846d54274b872f258b6071a396b0c59d8e",
+      "checkedAt": "2026-10-25T07:57:09.002081+00:00"
+    },
+    {
+      "baseId": "1121",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse30/",
+      "status": 200,
+      "bytes": 74450,
+      "sha256": "3c7a31f65e95e5d13787ea39068290a90084a04f79a9cb2c169ab0ebac253206",
+      "checkedAt": "2026-10-25T07:55:05.701923+00:00"
+    },
+    {
+      "baseId": "1129",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse47/index.html",
+      "status": 200,
+      "bytes": 74645,
+      "sha256": "5ffb784ab7184b28174e411cfdeaf2662ae0f2d63e0ba26e3fda30f3e181a82d",
+      "checkedAt": "2026-10-25T07:55:01.730060+00:00"
+    },
+    {
+      "baseId": "1141",
+      "url": "https://www.jra.go.jp/gallery/3minmeiba/horse27/index.html",
+      "status": 200,
+      "bytes": 72987,
+      "sha256": "b61f4a8b346f539ce2be63458bf4962205b88459cdb697d2bda97e270f32fb01",
+      "checkedAt": "2026-10-25T07:57:18.569967+00:00"
+    }
+  ],
+  "wikiReceipts": [
+    {
+      "status": 200,
+      "bytes": 5559262,
+      "sha256": "4eb7fee00d2fb35552a7f48255a31765758609202f4234e02b5d28f3ac92f4c2",
+      "checkedAt": "2026-10-25T07:50:39.998828+00:00",
+      "cacheFile": "batch0"
+    },
+    {
+      "status": 200,
+      "bytes": 3775964,
+      "sha256": "ae770937a5c8d156508d8b848015c875b05e8aea284de6febdc3c0761ac21b16",
+      "checkedAt": "2026-10-25T07:50:44.061914+00:00",
+      "cacheFile": "batch1"
+    },
+    {
+      "status": 200,
+      "bytes": 2985892,
+      "sha256": "2929301beb7bb32ec006136ff2f513df02792abb38f670f843cba44e15a17c10",
+      "checkedAt": "2026-10-25T07:50:48.349241+00:00",
+      "cacheFile": "batch2"
+    },
+    {
+      "status": 200,
+      "bytes": 1180181,
+      "sha256": "f3d467623a6cd69f8204d90aba8b86102e05817c4a9718405436a56b045922f5",
+      "checkedAt": "2026-10-25T07:55:01.195771+00:00",
+      "cacheFile": "disambiguated"
+    }
+  ]
+}

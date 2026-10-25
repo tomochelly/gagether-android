@@ -1,0 +1,76 @@
+{
+  "status": "ok",
+  "counts": {
+    "existingForms": 271,
+    "preservedOfficialComplete": 135,
+    "replacedPortraits": 136,
+    "downloadedOriginals": 271,
+    "remainingPortraits": 0
+  },
+  "bytes": 147056161,
+  "maxImageBytes": 1496152,
+  "nativeDimensions": [
+    "1123x1980",
+    "1125x1980",
+    "1160x1980",
+    "1210x1980",
+    "1300x1980",
+    "1350x1980",
+    "768x1024"
+  ],
+  "allHttp200": true,
+  "inventorySha256": "bfec6b1a7a4da2ed4712b328d396a98dad9f3da026e38b892d411de8a684e193",
+  "proposalSha256": "da1db4c6c4d64de12a3e71d68ee8f15962bb18663947dfee3a7a6ee7e9afd440",
+  "sourceReceipts": [
+    {
+      "url": "https://umamusume.kakaogames.com/",
+      "status": 200,
+      "checkedAt": "2026-10-25T07:45:23.674008+00:00",
+      "bytes": 14639,
+      "sha256": "74e44156dde3df72822fb5ad1175c50f9fa36c6f3f7e5505ccfeb55d0309a599"
+    },
+    {
+      "url": "https://umamusume.jp/character/",
+      "status": 200,
+      "checkedAt": "2026-10-25T07:45:30.345604+00:00",
+      "bytes": 1035665,
+      "sha256": "6f31fd61f1af029e9fc7f3177b4c4e2ecb19027157094bc9fc150bb77d71d0f2"
+    },
+    {
+      "url": "https://gametora.com/umamusume/characters/100102-special-week",
+      "status": 200,
+      "checkedAt": "2026-10-25T07:45:55.905761+00:00",
+      "bytes": 90290,
+      "sha256": "02f9b114c40d23d7c4d1dfd90a2c755afbe0aea2596671209377b235e8e66fd7"
+    },
+    {
+      "url": "https://gametora.com/_next/static/chunks/7517-3e20d795f06f6ec7.js",
+      "status": 200,
+      "checkedAt": "2026-10-25T07:46:38.664599+00:00",
+      "bytes": 88352,
+      "sha256": "a9501deaa793cf04ad809db481a4e95011aac89ca3392fc853834e18b99ced01"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/character-cards.b10add11.json",
+      "status": 200,
+      "bytes": 267961,
+      "sha256": "b10add11a772676fc9a9f2d6288dca51cace9d7cb246b77e25e83633cdcc1874",
+      "checkedAt": "2026-10-25T07:46:05.350063+00:00"
+    }
+  ],
+  "visualReview": {
+    "method": "All271 exact original files inspected alpha-composited on gray contact sheets. Official135 complete racewear originals and136 exact game static outfit renders preserve full head/body/feet composition. Contacts alone use alpha crop for visibility; originals remain unchanged.",
+    "sheets": 12,
+    "originalFilesUnchanged": true,
+    "sourceUrlMapping": "Exact official existing source mapping; GameTora card_id and declared url_name with gallery expression provenance."
+  },
+  "invariants": [
+    "All271 names/sourceIds/regions/stats/owner frames unchanged",
+    "Official135 image dicts and image choices unchanged",
+    "Old136 exact portraits retained as alternate choices",
+    "Source dimensions and exactbytes retained; no crop/downscale/upscale",
+    "No unknown card IDs or guessed asset variants",
+    "Full snapshots/images/recovery remain canonical-only"
+  ],
+  "failures": []
+}

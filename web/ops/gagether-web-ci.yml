@@ -39,3 +39,9 @@ jobs:
         working-directory: web
       - run: python3 -m unittest discover -s ops/character-rosters/enrichment/hsr -p 'test_*.py'
         working-directory: web
+      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/uma -p 'test_*.py'
+        working-directory: web
+      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/uma_art -p 'test_*.py'
+        working-directory: web
+      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/uma_horses -p 'test_*.py'
+        working-directory: web

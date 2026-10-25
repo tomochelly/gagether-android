@@ -2,6 +2,7 @@ import {env} from 'cloudflare:workers';
 import {characterRosterSchema,type CharacterRoster} from './character-roster';
 import bootstrap from '../content/character-rosters/bootstrap.json' with {type:'json'};
 import {enrichCharacterRoster,retainCharacterFacts} from './character-roster-enrichment';
+import {validateRosterDetailCatalog} from './roster-detail-catalog';
 const key=(g:string)=>'character-roster:'+g;
 const hash=async(s:string)=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s))),n=>n.toString(16).padStart(2,'0')).join('');
 export async function rosterHash(data:CharacterRoster){const {checkedAt,...facts}=data;return hash(JSON.stringify(facts));}
@@ -12,6 +13,7 @@ export async function readCharacterRoster(gameId:string){
 }
 export async function saveCharacterRoster(input:CharacterRoster){
  const parsed=characterRosterSchema.parse(input),source={...parsed,characters:parsed.characters.map(({artworkFrames,...c})=>c)},prior=await readCharacterRoster(source.gameId);
+ await validateRosterDetailCatalog(source);
  if(prior&&source.characters.length<prior.data.characters.length*.8)throw Error('Partial source inventory; keeping last-good roster');
  const data=characterRosterSchema.parse(enrichCharacterRoster(source)),seen=new Set(data.characters.map(c=>c.id));
  if(prior&&data.characters.length<prior.data.characters.length*.8)throw Error('Partial source inventory; keeping last-good roster');

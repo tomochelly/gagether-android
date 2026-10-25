@@ -5,6 +5,7 @@ import {editorHistory} from '@/lib/editor-history';
 import {games} from '@/lib/games';
 import {readRosterArtFrames,rosterArtSource} from '@/lib/roster-art-framing-store';
 import {rosterArtFramesSchema,rosterArtKey,rosterArtUrl} from '@/lib/roster-art-framing';
+import {pinRosterArtworkFrames} from '@/lib/character-roster-enrichment';
 export const dynamic='force-dynamic';
 const headers={'Cache-Control':'no-store'},game=z.string().refine(id=>games.some(g=>g.id===id)),id=z.string().min(1).max(200);
 export async function GET(request:Request){
@@ -12,7 +13,7 @@ export async function GET(request:Request){
  const q=new URL(request.url).searchParams,g=q.get('game'),character=q.get('id');if(!game.safeParse(g).success||character!==null&&!id.safeParse(character).success)return Response.json({error:'Invalid character target'},{status:400,headers});
  try{const source=await rosterArtSource(g!,character||undefined);if(!source)return Response.json({error:'Character not found'},{status:404,headers});if(!character)return Response.json(source,{headers});
  const saved=(await readRosterArtFrames(g!,character))[0],history=await editorHistory(rosterArtKey(g!,character));
- return Response.json({kind:source.kind,character:source.character,frames:saved?.value||{images:[]},revision:saved?.revision||0,history:history.slice(0,30).map(r=>({seq:r.seq,created_at:r.at,action:r.action}))},{headers});
+ return Response.json({kind:source.kind,character:source.character,frames:saved?{images:source.kind==='roster'?pinRosterArtworkFrames(g!,character,saved.value.images):saved.value.images}:{images:[]},revision:saved?.revision||0,history:history.slice(0,30).map(r=>({seq:r.seq,created_at:r.at,action:r.action}))},{headers});
  }catch{return Response.json({error:'Saved framing unavailable. Your edits have not been changed.'},{status:503,headers});}
 }
 export async function POST(request:Request){

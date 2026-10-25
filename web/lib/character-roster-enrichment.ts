@@ -2,10 +2,17 @@ import bootstrap from '../content/character-rosters/bootstrap.json' with {type:'
 import artwork from '../content/character-rosters/artwork-manifest.json' with {type:'json'};
 import {cleanRosterArt} from './character-roster-art-guard';
 import {pinRosterFactIcons} from './roster-detail-icons';
+import {rosterArtUrl,type RosterArtPlacement} from './roster-art-framing';
 import type {CharacterRoster,RosterCharacter} from './character-roster';
 
 const snapshots=new Map((bootstrap as CharacterRoster[]).map(r=>[r.gameId,r]));
 const locales=['ko','en','ja','zh'] as const;
+/** A pinned byte-identical original keeps its owner's exact framing on reads. */
+export function pinRosterArtworkFrames(gameId:string,id:string,frames:RosterArtPlacement[]){
+ const aliases=new Map(artwork.filter(a=>a.gameId===gameId&&a.characterId===id&&(a as {delivery?:string}).delivery!=='source-original').map(a=>[a.url,a.publicUrl])),mapped=new Map<string,{row:RosterArtPlacement;direct:boolean}>();
+ for(const row of frames){const url=aliases.get(row.url)||row.url,key=rosterArtUrl(url),direct=url===row.url,old=mapped.get(key);if(!old||direct||!old.direct)mapped.set(key,{row:url===row.url?row:{...row,url},direct});}
+ return [...mapped.values()].map(v=>v.row);
+}
 function invalidReversePanel(c:RosterCharacter){
  return c.stats?.some(s=>['hp','atk','reality_def','mental_def'].includes(s.id)&&(!Number.isFinite(Number(s.value))||Number(s.value)>100000||Number(s.value)<0))||false;
 }
@@ -38,7 +45,7 @@ export function retainCharacterFacts(c:RosterCharacter,extra:RosterCharacter):Ro
   return {...extra,...c,detailSources:[...new Map([...(extra.detailSources||[]),...(c.detailSources||[])].map(s=>[s.url,s])).values()].slice(0,40),name:fillCopy(c.name,extra.name),nameSources,traits,
    image:full?extra.image:c.image||extra.image,
    images:[...new Map([...(extra.images||[]),...(c.images||[])].map(a=>[a.url,a])).values()],
-   stats:mergeStats(c.stats,extra.stats),...Object.keys(variantDetails).length?{variantDetails}:{},statProgression:c.statProgression||extra.statProgression,statGrowth:c.statGrowth||extra.statGrowth,potentialRewards:c.potentialRewards?.length?c.potentialRewards:extra.potentialRewards,skillTables:c.skillTables?.length?c.skillTables:extra.skillTables,sections:[...new Map([...(extra.sections||[]),...(c.sections||[])].map(s=>[s.id,s])).values()],
+   stats:mergeStats(c.stats,extra.stats),statDetailLabel:c.statDetailLabel||extra.statDetailLabel,...c.regionalStatProgression||extra.regionalStatProgression?{regionalStatProgression:{...extra.regionalStatProgression,...c.regionalStatProgression}}:{},...c.regionalSkillTables||extra.regionalSkillTables?{regionalSkillTables:{...extra.regionalSkillTables,...c.regionalSkillTables}}:{},historicalBackground:c.historicalBackground||extra.historicalBackground,...Object.keys(variantDetails).length?{variantDetails}:{},statProgression:c.statProgression||extra.statProgression,statGrowth:c.statGrowth||extra.statGrowth,potentialRewards:c.potentialRewards?.length?c.potentialRewards:extra.potentialRewards,skillTables:c.skillTables?.length?c.skillTables:extra.skillTables,sections:[...new Map([...(extra.sections||[]),...(c.sections||[])].map(s=>[s.id,s])).values()],
    ...(Object.keys(regionalStats).length?{regionalStats}:{})};
 }
 export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
@@ -57,7 +64,14 @@ export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
   return extra?retainCharacterFacts(c,extra):c;
  });
  characters.push(...known.values());characters.sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
- const pin=(id:string,a:RosterCharacter['image'])=>{if(!a)return a;const saved=artwork.find(s=>s.gameId===data.gameId&&s.characterId===id&&s.url===a.url);return saved?{...a,url:saved.publicUrl}:a;};
- const pinned=characters.map(c=>pinRosterFactIcons({...c,image:pin(c.id,c.image),...(c.images?{images:c.images.map(a=>pin(c.id,a)!)}:{})},data.gameId));
- return {...data,characters:pinned,sourceUrls:[...new Set([...data.sourceUrls,...reference.sourceUrls])].slice(0,40),coverage:{...data.coverage,includedCount:characters.length}};
+ const pin=(id:string,a:RosterCharacter['image'])=>{if(!a)return a;const saved=artwork.find(s=>s.gameId===data.gameId&&s.characterId===id&&s.url===a.url&&(s as {delivery?:string}).delivery!=='source-original');return saved?{...a,url:saved.publicUrl}:a;};
+ const pinned=characters.map(c=>pinRosterFactIcons({...c,image:pin(c.id,c.image),...(c.images?{images:c.images.map(a=>pin(c.id,a)!)}:{}),...c.artworkFrames?{artworkFrames:pinRosterArtworkFrames(data.gameId,c.id,c.artworkFrames)}:{}},data.gameId));
+ const current=data.detailCatalog,prior=reference.detailCatalog;
+ let detailCatalog=current||prior;
+ if(current?.version===3&&prior?.version===3)detailCatalog={...current,forms:{...prior.forms,...current.forms}};
+ if(current?.version===1&&prior?.version===1){
+  const forms={...prior.forms,...Object.fromEntries(Object.entries(current.forms).map(([id,f])=>[id,{...prior.forms[id],...f,horseId:f.horseId||prior.forms[id]?.horseId}]))},allSkills={...prior.skills,...current.skills},refs=new Set(Object.values(forms).flatMap(f=>[...f.skillRefs||[],...Object.values(f.regionalSkillRefs||{}).flatMap(r=>r||[])]));
+  detailCatalog={...current,forms,skills:Object.fromEntries([...refs].map(ref=>[ref,allSkills[ref]])),horses:{...prior.horses,...current.horses}};
+ }
+ return {...data,...detailCatalog?{detailCatalog}:{},characters:pinned,sourceUrls:[...new Set([...data.sourceUrls,...reference.sourceUrls])].slice(0,40),coverage:{...data.coverage,includedCount:characters.length}};
 }

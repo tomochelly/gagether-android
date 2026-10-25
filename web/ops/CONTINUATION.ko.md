@@ -199,6 +199,20 @@
 - 최종 local archive SHA256 bb2eb46f15d5811900c1840e825b63e0d20ac70afb9989720489c039d94b4173,155257666bytes. Sites saved archive SHA256223326a16422c1f614750e6462827460f3b2fd68792edb94ab58fdbf844be5eb/178462720bytes/866files와 구분. 최종 runtime fingerprint b3f619d840e5ff5b14396f6aac8d80de6c6a35354f9126d18a3fbf2dda76ed02. 이후 이 실제운영결과 문서만 저장하는 소스SHA는 게시SHA f67ea332a411d620714cab4a969472b69a3188ec와 달라도 runtime은 같으며 재배포하지 않는다.
 
 
-## 현재 상태 · 스타레일 상세 v158 배포 완료 / GitHub 검증 중
+## 현재 상태 · 스타레일 상세 v158 배포·GitHub 검증 완료
 
-98폼 상세/1383원문아이콘 추가. Node443/Python26+14+11/tsc/editor/production build통과. runtime 821e3d6e3a9d584681bde016324919a3a425a08c75fe1295767f644bfe44a04a; managed미리보기 연결실패와 별개로 운영KO상세·레벨/돌파/성혼선택·아이콘실제로드확인. v158 source 20c7763da05f24d9da4f3c2db3f61739e0c9dd7d; appgdep_6addb08911208191bf8f315cdde855da succeeded. ops/HSR-DETAILS.ko.md 참고. 다음: publiccode507+canonical3 검증/실제CI→최종docs checkpoint.
+98폼 상세/1383원문아이콘 추가. Node443/Python26+14+11/tsc/editor/production build통과. runtime 821e3d6e3a9d584681bde016324919a3a425a08c75fe1295767f644bfe44a04a; managed미리보기 연결실패와 별개로 운영KO상세·레벨/돌파/성혼선택·아이콘실제로드확인. v158 source 20c7763da05f24d9da4f3c2db3f61739e0c9dd7d; appgdep_6addb08911208191bf8f315cdde855da succeeded. ops/HSR-DETAILS.ko.md 참고. public main3d3e91296b977a186e361c5225d2effb55e048be; 실제source40173415101/Android40173415087success, code507+canonical3 일치. public Node425/tsc통과. 실제web40173415164/job121108906942 success(Node425/Python26+14+8+11/tsc/editor). routine rosters40173415092는 진행 중이며 완료 주장을 하지 않는다. 최종 docs/QA checkpoint만 native저장소로 push하고 재배포하지 않는다.
+
+
+## 우마무스메 전체 서버 보강 · 배포 진행 중
+
+271전신/실제3서버범위JP271·KR214·Global112/844성급패널/9376서버스킬참조/135경주마접힌배경. Node449,Python28+14+18+6+11,tsc/editor/build통과. native30,470,981bytes/32MBbound/84복구조각. runtime f11ae8de3a6bc4680d29675b7b07980bf93ff4d8e79375d0a0a05e3cd936527e (512files). v158은이전배포이며새배포는아직미확정. ops/UMA-DETAILS.ko.md참고. 다음:기존publicSite배포→실제갤러리/상세/배경fold→publiccode동기화+3hashpins유지→native최종체크포인트.
+
+- 배포한도복구:Git원본은9개묶음으로동일바이트전송·merge tree보존. 첫373MB archive는256MiB입력한도로버전저장전거절. 공식135는기존원본URL전달/native원본보존,새136은정적배포. 최종runtime f11ae8de3a6bc4680d29675b7b07980bf93ff4d8e79375d0a0a05e3cd936527e. 새archive재포장·저장예정이며운영은아직v158이다.
+
+- 확장archive한도도확인하여최종Uma271모두검증된원본URL전달로정리(native원본전부보존),아이콘/상세/경주마데이터사이트포함. Node450전체+영향7+source전달추가조건검증,tsc/build통과. 최종runtime e53cad0ab1cf71b0aef98ff20f2ff81ccb25f1387d58ab21065ed41392c3db8b. 아직사이트버전은v158이며새버전저장재시도직전이다.
+
+
+## 현재 상태 · 우마무스메 v159 실제 배포 완료 / GitHub검증중
+
+source cb668b0d14618c9e300366bb9f1c679b7fbec768,deployment appgdep_6addc379f26081919b264a82dbb50b0f succeeded. runtime e53cad0ab1cf71b0aef98ff20f2ff81ccb25f1387d58ab21065ed41392c3db8b(512=509code+3canonical). 운영JP271/KR214/Global112,전신원본들·성급3→5·성장률·모티브기본fold/펼친본문/아이콘실제로드확인. 최종archiveinput227775379/확장260684671로한도통과. ops/UMA-DETAILS.ko.md참조. 다음:publicruntime509+canonical3 검증/실제CI→최종native문서체크포인트.

@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-10-25T08:12:38.016007+00:00",
+  "officialFirst": {
+    "url": "https://umamusume.kakaogames.com/",
+    "result": "HTTP200 official Korean page read before community numerical data. It does not provide the complete numerical tables."
+  },
+  "receipts": [
+    {
+      "url": "https://raw.githubusercontent.com/daftuyda/UmaTools/main/scripts/data/gametora.js",
+      "status": 200,
+      "bytes": 41568,
+      "sha256": "3990df055de48cc25847fc8c222c32f6a3cd9bc1ad69d0249f923553924e55e2",
+      "checkedAt": "2026-10-25T07:49:42.765864+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/static/evo_strings.76e53137.json",
+      "status": 200,
+      "bytes": 287603,
+      "sha256": "76e53137b9b0698fe897378689710349738b928548695ec7e84dd81d20f87368",
+      "checkedAt": "2026-10-25T07:51:10.036065+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/static/skill_effect_values.57b039fb.json",
+      "status": 200,
+      "bytes": 973,
+      "sha256": "57b039fb1c2138009c40de3cf8300d1d4ac31c1a3db3a13347619232a17ae3c6",
+      "checkedAt": "2026-10-25T07:51:10.024285+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/character-cards.b10add11.json",
+      "status": 200,
+      "bytes": 267961,
+      "sha256": "b10add11a772676fc9a9f2d6288dca51cace9d7cb246b77e25e83633cdcc1874",
+      "checkedAt": "2026-10-25T07:46:05.350063+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/skills.280d81aa.json",
+      "status": 200,
+      "bytes": 2522848,
+      "sha256": "280d81aa55c5cef00b59355325f0d20d3d1a48f6b0ad62ed1692f01a69e09b0f",
+      "checkedAt": "2026-10-25T07:51:10.116884+00:00"
+    },
+    {
+      "url": "https://umamusume.kakaogames.com/",
+      "status": 200,
+      "bytes": 14639,
+      "sha256": "74e44156dde3df72822fb5ad1175c50f9fa36c6f3f7e5505ccfeb55d0309a599",
+      "checkedAt": "2026-10-25T07:45:51.418149+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/daftuyda/UmaTools/main/public/assets/skills_core.json",
+      "status": 200,
+      "bytes": 291584,
+      "sha256": "11501ccba84ad66c53813e7adf5ec2e461ca42fd0a248be277865021a3268449",
+      "checkedAt": "2026-10-25T07:49:42.782001+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/characters.a007378d.json",
+      "status": 200,
+      "bytes": 120484,
+      "sha256": "a007378ddfcd121eb068495cdeded381967663795f033bbf5c8f97ff9a653b69",
+      "checkedAt": "2026-10-25T07:51:10.062870+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/static/skill_condition_values.6d428371.json",
+      "status": 200,
+      "bytes": 7202,
+      "sha256": "6d428371de1d9d42dfd77b3633c27b80fd2583a04c320787c60fb720d212e34d",
+      "checkedAt": "2026-10-25T07:51:09.985949+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/character-cards.b10add11.json",
+      "status": 200,
+      "bytes": 267961,
+      "sha256": "b10add11a772676fc9a9f2d6288dca51cace9d7cb246b77e25e83633cdcc1874",
+      "checkedAt": "2026-10-25T07:46:05.350063+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/ko/skills.6df9454d.json",
+      "status": 200,
+      "bytes": 332219,
+      "sha256": "6df9454d18d460a0ae7b87ba21a93fcd011c4a0994c7442445a262470b3af2e9",
+      "checkedAt": "2026-10-25T07:51:10.053419+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/daftuyda/UmaTools/main/scripts/data/README.md",
+      "status": 200,
+      "bytes": 8022,
+      "sha256": "138e5298cc67c48c9b66eeac3f8d7d8623bcf98b63266a48b4be6868b9c29140",
+      "checkedAt": "2026-10-25T07:49:42.729598+00:00"
+    },
+    {
+      "url": "https://gametora.com/umamusume/characters/100101-special-week",
+      "status": 200,
+      "bytes": 89010,
+      "sha256": "5521ecb959f2650c9d5ac8717e1ae35361454b7f2a53f5088d0fc1585cebb76c",
+      "checkedAt": "2026-10-25T07:46:12.257968+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/evolutions.c7e38ead.json",
+      "status": 200,
+      "bytes": 100657,
+      "sha256": "c7e38ead73293b0744a300a3cfb20e5ca84fd70e69e889692a2c7260a630aa73",
+      "checkedAt": "2026-10-25T07:51:10.070600+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/static/skill_conditions.64f66e74.json",
+      "status": 200,
+      "bytes": 44060,
+      "sha256": "64f66e740b21aab4f6a8124a73a6a86629cb325984ee3a11c9d2f1231256cfab",
+      "checkedAt": "2026-10-25T07:51:10.050076+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/manifests/umamusume.json",
+      "status": 200,
+      "bytes": 11282,
+      "sha256": "773c3cc0160cc5f52c114cd82d9d699f52f2a30f68caa52cb2fa2e42e36ed773",
+      "checkedAt": "2026-10-25T07:50:28.266054+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/daftuyda/UmaTools/main/scripts/data/gametora-browser.py",
+      "status": 200,
+      "bytes": 112288,
+      "sha256": "c3b6beccfe9a9057d2db0f6d5920a86515959fbb86299a8838610062382319c3",
+      "checkedAt": "2026-10-25T07:49:42.749515+00:00"
+    },
+    {
+      "url": "https://gametora.com/data/umamusume/static/evo_strings.76e53137.json",
+      "status": 200,
+      "bytes": 287603,
+      "sha256": "76e53137b9b0698fe897378689710349738b928548695ec7e84dd81d20f87368",
+      "checkedAt": "2026-10-25T07:51:10.036065+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/daftuyda/UmaTools/main/public/assets/skills_evo.json",
+      "status": 200,
+      "bytes": 24182,
+      "sha256": "181bcd86e6743331396291593d036651038482dcab1c821f6f9bc736228d207b",
+      "checkedAt": "2026-10-25T07:49:42.713858+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/daftuyda/UmaTools/main/public/assets/uma_data.json",
+      "status": 200,
+      "bytes": 1024579,
+      "sha256": "474ac94ea0f2454f2f22d616783da2f4c0ddaf6a3de86df326ce7ad25d248fd4",
+      "checkedAt": "2026-10-25T07:45:58.462877+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/daftuyda/UmaTools/main/public/assets/skills_all.json",
+      "status": 200,
+      "bytes": 4036208,
+      "sha256": "baca5b1ce97953cfe9d18ccecb0f9a43f5bb10ff90df680c099bb10b44885803",
+      "checkedAt": "2026-10-25T07:49:43.074236+00:00"
+    }
+  ],
+  "sourceRoles": {
+    "UmaTools": "Published natural/4/5-star initial panels and exact outfit identity cross-check.",
+    "GameTora manifest": "Declared current hashes; public JSON source objects and exact service loc/bindings.",
+    "GameTora ko/skills": "Downloaded for audit only; separate older collection is not used by the current viewer, not mixed into current service data.",
+    "GameTora source JS": "Already-successful cache documents JSON URL template, native image URL constructors, service overrides and rarity enum. Later403 was not retried via alternate routes."
+  },
+  "cachedDeclarations": [
+    {
+      "name": "3162-2ad318325a13c0bf.js",
+      "sha256": "ae2b65c248a99edbf4c4ad732834a506353b3c248e23f764cd5eaeb8ab8bfefb",
+      "bytes": 12837,
+      "source": "Previously successful public GameTora script read shared by the art collector; not refetched after a later403."
+    },
+    {
+      "name": "3184-6d99a0a33334cc3d.js",
+      "sha256": "d853a0a5e57dedf4d36bc07575339a5eb3f1243bb067f2bd181df7669c21c5c6",
+      "bytes": 22196,
+      "source": "Previously successful public GameTora script read shared by the art collector; not refetched after a later403."
+    },
+    {
+      "name": "2573-c4ba677159a1021e.js",
+      "sha256": "120912a5c2190cf026acc5b45f6a550640233767740cdd8b3713ff298a75dbb6",
+      "bytes": 32329,
+      "source": "Previously successful public GameTora script read shared by the art collector; not refetched after a later403."
+    },
+    {
+      "name": "7517-3e20d795f06f6ec7.js",
+      "sha256": "a9501deaa793cf04ad809db481a4e95011aac89ca3392fc853834e18b99ced01",
+      "bytes": 88352,
+      "source": "Previously successful public GameTora script read shared by the art collector; not refetched after a later403."
+    },
+    {
+      "name": "953-dfa563f3b4c85ae0.js",
+      "sha256": "b44e16ad23aa1b2e753ad25a2b3c79c916bc739fe0b44315f9ea287f16b9d737",
+      "bytes": 193587,
+      "source": "Previously successful public GameTora script read shared by the art collector; not refetched after a later403."
+    }
+  ],
+  "starGatingEvidence": {
+    "url": "https://gametora.com/umamusume/legacies",
+    "retrieval": "Successful web open; Green spark section states that parent rarity must be3+at Career start.",
+    "sourcePublication": "2025-06-28"
+  },
+  "visualAudit": {
+    "file": "icons-contact.png",
+    "allDeclaredIcons": 70,
+    "originalBytesPreserved": true,
+    "notes": "Five native stat glyphs,58skill glyphs and7aptitude grades visually complete on a dark neutral contact sheet. All stored assets remain unmodified."
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "821e3d6e3a9d584681bde016324919a3a425a08c75fe1295767f644bfe44a04a",
+  "fingerprint": "e53cad0ab1cf71b0aef98ff20f2ff81ccb25f1387d58ab21065ed41392c3db8b",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -12,11 +12,11 @@
     },
     {
       "path": "app/[locale]/games/[gameId]/characters/[characterId]/page.tsx",
-      "sha256": "670b4548649c219d43350ef60fc78d973a46097ef3856e351afff95d9b17155c"
+      "sha256": "80097c7627274c5bb5971eace611c504dff4a4e16d0c67e7140dffca35303781"
     },
     {
       "path": "app/[locale]/games/[gameId]/characters/page.tsx",
-      "sha256": "8340084379561267da061ddc50641ee03d553e853162f5a795d9ab777474ab1f"
+      "sha256": "80c70b89d2b5f8b4e5a2cbb8ebf855ff701ba5485af6925f76c64f179c95c6e5"
     },
     {
       "path": "app/[locale]/games/[gameId]/items/[entryId]/page.tsx",
@@ -68,7 +68,7 @@
     },
     {
       "path": "app/api/characters/route.ts",
-      "sha256": "a609bd6144b01192502c6cdc7379bf114bcfe73b8feb9f3908f860ff8127bd18"
+      "sha256": "c99a30e02cc28e33ea74ff7ea3c69f9b840ba0dbff0ca5c78ef65e3c3732c83b"
     },
     {
       "path": "app/api/collection/route.ts",
@@ -92,7 +92,7 @@
     },
     {
       "path": "app/api/editor/characters/route.ts",
-      "sha256": "852d579551758d67bebd2b58659f103ac37bac501395364ff941ea495584fd3f"
+      "sha256": "158b77fbb8efb02affcf8f194964968badd53e401fdafdd1f937b8c0da1a851e"
     },
     {
       "path": "app/api/editor/history/route.ts",
@@ -220,7 +220,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "2b9a55837b6a5089f125bb21c71a43b37d825a32687d267aca0ad19c2fb146c1"
+      "sha256": "62dc86699815e4087bb98701464c0ebdb62be42639f9782caba08788029ae939"
     },
     {
       "path": "app/chatgpt-auth.ts",
@@ -468,11 +468,11 @@
     },
     {
       "path": "components/character-landing.tsx",
-      "sha256": "688316c59cc36bb5907e77a06565f17ee3d44b8af76dabfd281373f66cd85276"
+      "sha256": "07e0204a254d3892c54005c5bb47e3803748fbe0270d3f21d69430f2a462895b"
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "8b760e018f9712258549eef8edfbab751ff642fd2296c82cdd2ec3d06607918e"
+      "sha256": "bf74d41979cf8dd6b01bf73d5ab571057b0a5afe6fc16711247531580c74ee45"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -671,12 +671,16 @@
       "sha256": "79777d49972476221a3ecedf93da6a0a03bc68efad0f6195264442be09eda0c8"
     },
     {
+      "path": "components/roster-historical-background.tsx",
+      "sha256": "e1824cd8e437a64ec62f3d7182c3246df38a4dba5e7f1bb72e3596b582db3c98"
+    },
+    {
       "path": "components/roster-potential-rewards.tsx",
       "sha256": "391702b27b2ccceb65bd38b62faa49f8718d678e7c2d6a911995302868ca1453"
     },
     {
       "path": "components/roster-stat-details.tsx",
-      "sha256": "b4467f6db50a1d453e3247c819ca8e6aa085ae6564662c06ff6ab9d8bfa4aed1"
+      "sha256": "59254a1bcf0e8f1292f5d9fd9c1d77673a7c176b4463a823a67d23fbe6dafc5c"
     },
     {
       "path": "components/schedule-calendar.tsx",
@@ -1060,15 +1064,15 @@
     },
     {
       "path": "content/character-rosters/artwork-manifest.json",
-      "sha256": "4fc3d60fbd8ed01515d620fea93cb1f81b26da53181b27d80723c97a633db25d"
+      "sha256": "2c6102f7fc0bd75b5d72730058a3a3513b85a52cfe9117923b6ef1d94395ad56"
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "4209ad2056f33335f84b37b149a457b060d634de7658a5e754281c4ee1e79a75"
+      "sha256": "3a4ae50034b77175eabb33513ee3cd3541bdac6013b02bb04fff532132d5bfea"
     },
     {
       "path": "content/character-rosters/recovery/manifest.json",
-      "sha256": "9a9e69c3410e068bfd16575a48032158b14579e35da8bdcbf1d336dbe1824dc3"
+      "sha256": "39ffe1ca518b0081ebf117a36120483ce4439e14df80552f5de553e849b4d1fd"
     },
     {
       "path": "content/character-rosters/rejected-artwork.json",
@@ -1108,7 +1112,7 @@
     },
     {
       "path": "content/gallery-subject-bounds.json",
-      "sha256": "2f93bb3596b8d33b7c027a5b212848aedc84eaa1d970e1f2338dc963267bc5eb"
+      "sha256": "0c8f160aa51474adb1318ba897157fd43e3f42a320c9476202d8b768a5445af5"
     },
     {
       "path": "content/hoyo-localization-research.json",
@@ -1220,7 +1224,7 @@
     },
     {
       "path": "content/roster-detail-icons.json",
-      "sha256": "d04e78361292a752b93467f7f97dd4192aa4c7cb4eefd331fa7714e13669e5c8"
+      "sha256": "2d61bbaedc4120623f3e1c4e47dc6750b80e42ee1d074a4aefe85a699858a277"
     },
     {
       "path": "content/source-review-2026-10-16.json",
@@ -1452,7 +1456,7 @@
     },
     {
       "path": "lib/character-roster-enrichment.ts",
-      "sha256": "20e01b6eca0d2f4e0cd5a08198bf1f1774944bedb5d30563b15a6bbc9a879dac"
+      "sha256": "2f578f27565e9f9acdfaf3d63ff4e344445d991a0938b7dca8d5c436969c85ef"
     },
     {
       "path": "lib/character-roster-metrics.ts",
@@ -1464,11 +1468,11 @@
     },
     {
       "path": "lib/character-roster-store.ts",
-      "sha256": "4379b4021b3d33c74e1d06a2085c9cd779809853ef2f73dd95eca38c80c410a9"
+      "sha256": "65c12584be4e7ae9fa0d81347d51f75922d3e3e95200e1ae799240b2014cbd79"
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "280e9c710b03b29904bcba65280edba70f745f32144574cb0a55f8d0b4f4dbbe"
+      "sha256": "8dc3b0ce4b9846d6bc562e885aea72390e797688273602e0e4a82136a35ea70e"
     },
     {
       "path": "lib/collaboration-sources.ts",
@@ -1876,15 +1880,19 @@
     },
     {
       "path": "lib/roster-art-framing-store.ts",
-      "sha256": "d15db0f3c34fb3d0255952663b341a491b3893c37aa5d03791ee0b79dc6e2337"
+      "sha256": "8cdcb98036a3294d666bb1e8514c677b50e74b6dfdd8a18b50c14b84d8a5dc53"
     },
     {
       "path": "lib/roster-art-framing.ts",
       "sha256": "e49752037c4643db9941a11747406ea1c8a3ef4efc35e629e2c3b5f9db79e767"
     },
     {
+      "path": "lib/roster-detail-catalog.ts",
+      "sha256": "9049aadb4b5b4348034990807eb4bc94a5360baebcb29464aa397125bac25820"
+    },
+    {
       "path": "lib/roster-detail-icons.ts",
-      "sha256": "8db61a33f5a62fafc56089589efd17a1489829019cdd7c535278bb640c02bb2b"
+      "sha256": "52526f461177ef8afce3656d219bec5b45b69673c69f9a3c6c2a8dfaa7797912"
     },
     {
       "path": "lib/roster-progression.ts",

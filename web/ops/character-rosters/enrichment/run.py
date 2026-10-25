@@ -57,6 +57,38 @@ def enrich_files(files,work):
     else:report['status']='partial'
    except Exception as e:
     report['status']='partial';report['zzzError']=str(e)
+  if key=='b' and 'umamusume'in files:
+   target=output/'uma-details';target.mkdir(exist_ok=True)
+   try:
+    command=[sys.executable,str(ROOT/'uma/enrich.py'),'--input',str(output/'umamusume.json'),'--output-dir',str(target),'--source-dir',str(target/'sources'),'--refresh']
+    result=subprocess.run(command,check=False,timeout=1200)
+    detail=json.loads((target/'manifest.json').read_text())if(target/'manifest.json').exists()else{}
+    report['umaEnrichment']={'exitCode':result.returncode,'details':detail}
+    if result.returncode or detail.get('status')!='ok':raise ValueError('Uma detailed source failed; retaining valid base output')
+    horse=target/'horses.json';horse_audit=target/'horse-audit.json'
+    result=subprocess.run([sys.executable,str(ROOT/'uma_horses/collect.py'),'--roster',str(target/'umamusume.json'),'--cache',str(target/'horse-sources'),'--output',str(horse),'--audit',str(horse_audit),'--refresh'],check=False,timeout=1200)
+    audit=json.loads(horse_audit.read_text())if horse_audit.exists()else{}
+    report['umaHorseEnrichment']={'exitCode':result.returncode,'details':audit}
+    if result.returncode or audit.get('status')!='ok':raise ValueError('Uma historical source failed; retaining valid base output')
+    # Art is independent of combat facts. An unavailable new render never
+    # erases the native Site's already checked exact-outfit originals.
+    art=target/'art';roster=target/'umamusume.json'
+    try:
+     command=[sys.executable,str(ROOT/'uma_art/collect.py'),'--input',str(roster),'--output-dir',str(art),'--source-dir',str(target/'art-sources'),'--card-data',str(target/'sources/gt-cards.body')]
+     result=subprocess.run(command,check=False,timeout=1200)
+     art_audit=json.loads((art/'inventory.json').read_text())if(art/'inventory.json').exists()else{}
+     report['umaArtEnrichment']={'exitCode':result.returncode,'details':{k:v for k,v in art_audit.items()if k not in ['assets']}}
+     if result.returncode or art_audit.get('status')!='ok':report['status']='partial'
+     if result.returncode==0 and(art/'umamusume-art.json').exists():roster=art/'umamusume-art.json'
+    except Exception as e:report['status']='partial';report['umaArtError']=str(e)
+    packed=target/'packed'
+    result=subprocess.run([sys.executable,str(ROOT.parent.parent/'pack-uma-catalog.py'),'--roster',str(roster),'--catalog',str(target/'catalog.json'),'--horses',str(horse),'--output-dir',str(packed)],check=False,timeout=180)
+    if result.returncode:raise ValueError('Uma exact detail packing failed')
+    candidate=packed/'umamusume-wire.json';d=json.loads(candidate.read_text());prior=json.loads((output/'umamusume.json').read_text())
+    if d.get('gameId')!='umamusume'or{c['id']for c in d['characters']}!={c['id']for c in prior['characters']}:raise ValueError('Uma detail identity mismatch')
+    if len(json.dumps(d,ensure_ascii=False,separators=(',',':')).encode())>4400000:raise ValueError('Uma encoded detail exceeds ingest bound')
+    shutil.copyfile(candidate,output/'umamusume.json')
+   except Exception as e:report['status']='partial';report['umaError']=str(e)
   if key=='b' and 'nte'in files:
    # Keep the exact art and rich client facts in the same scoped reference path.
    # The detail helper deliberately pins its verified Global client version.
@@ -143,7 +175,8 @@ def enrich_files(files,work):
   if not prior.issubset(current)or current-prior-allowed.get(game,set()):raise ValueError('Unexpected supplemental identity change')
   data=localize(data)
   if len(json.dumps(data,ensure_ascii=False,separators=(',',':')).encode())>4400000:raise ValueError('Supplement exceeds ingest bound')
-  missing=[]if game=='holodreams'else[c['id']for c in data['characters']if not(c.get('stats')or c.get('regionalStats'))]
+  packed=data.get('detailCatalog',{}).get('forms',{})
+  missing=[]if game=='holodreams'else[c['id']for c in data['characters']if not(c.get('stats')or c.get('regionalStats')or packed.get(c['id'],{}).get('sourceId')==c.get('sourceId')and c['id']in packed)]
   audit['missingStatsIds']=missing
   if missing:audit['status']='partial'
   if data==original:return game,pathlib.Path(result[game]),audit

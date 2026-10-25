@@ -42,3 +42,4 @@ for(const file of ['dist/client/.vite/manifest.json','dist/server/.vite/manifest
 pruneGeneratedChunks('dist');
 await import('./dedupe-static-assets.mjs');
 const {externalizeAssets}=await import('./externalize-assets.mjs');externalizeAssets('dist');
+const {omitSourceOriginalCopies}=await import('./omit-source-original-copies.mjs');omitSourceOriginalCopies('dist');

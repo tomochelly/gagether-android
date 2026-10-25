@@ -1,0 +1,44 @@
+import './load-typescript.mjs';
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import React,{act} from 'react';import {JSDOM} from 'jsdom';
+import {gzipSync} from 'node:zlib';import {createHash} from 'node:crypto';
+import artwork from '../content/character-rosters/artwork-manifest.json' with {type:'json'};
+const {characterRosterSchema,rosterSummary,rosterDirectory}=await import('../lib/character-roster.ts');
+const {hydrateRosterDetails}=await import('../lib/roster-detail-catalog.ts');
+const {pinRosterArtworkFrames}=await import('../lib/character-roster-enrichment.ts');
+const {CharacterFacts}=await import('../components/character-roster.tsx');
+const C=s=>({ko:s,en:s,ja:s,zh:s}),url='https://example.org/source';
+function fixture(){
+ const skill=(id,region)=>({id,name:C(region+' skill'),type:C('Skill'),description:C(region+' native mechanics'),sourceUrl:url,sourceKind:'community',basis:C('Native revision'),regions:[region],values:[]});
+ return {gameId:'umamusume',sourceName:'Fixture',sourceUrls:[url],checkedAt:'2026-10-25T00:00:00Z',coverage:{sourceCount:1,includedCount:1},characters:[{id:'exact-form',sourceId:'outfit-source',name:C('Exact outfit'),sourceUrl:url,sourceKind:'community',stats:[{id:'speed',label:C('스피드'),value:'80',basis:C('Source base')}]}],detailCatalog:{version:1,sourceUrl:url,checkedAt:'2026-10-25T00:00:00Z',skills:{jp:skill('jp-only','jp'),kr:skill('kr-only','kr')},forms:{'exact-form':{sourceId:'outfit-source',stats:[{id:'speed',label:C('스피드'),value:'90',basis:C('3★')},{id:'growth',label:C('Speed growth'),value:'20%',basis:C('Training bonus'),group:'detail'}],statDetailLabel:C('성장률'),statProgression:{sourceUrl:url,sourceKind:'community',basis:C('Initial training, no support bonuses'),levelLabel:C('성급'),levelPrefix:'★',defaultLevel:3,stats:[{id:'speed',label:C('스피드')}],rows:[{level:3,values:{speed:'90'}},{level:5,values:{speed:'110'}}]},regionalSkillRefs:{jp:['jp'],kr:['kr'],global:[]},horseId:'horse'}},horses:{horse:{id:'horse',name:C('Motif horse'),summary:C('History appears only after opening.'),facts:[{id:'record',label:C('Record'),value:C('17 starts / 10 wins')}],sources:[{url,kind:'community'}],checkedAt:'2026-10-25T00:00:00Z'}}}};
+}
+test('catalog binds exact outfit/source IDs and regional skill identities; summaries exclude the catalog and expanded history',async()=>{
+ const data=fixture();characterRosterSchema.parse(data);const c=await hydrateRosterDetails(data,data.characters[0]);assert.equal(c.regionalSkillTables.jp[0].id,'jp-only');assert.equal(c.historicalBackground.id,'horse');assert.equal(c.stats.find(s=>s.id==='growth').value,'20%');
+ assert.equal((await hydrateRosterDetails(data,{...data.characters[0],sourceId:'other-outfit'})).statProgression,undefined);assert.equal((await hydrateRosterDetails({...data,gameId:'hsr'},data.characters[0])).historicalBackground,undefined);
+ assert.equal(rosterDirectory(data).detailCatalog,undefined);const summary=rosterSummary(c);for(const key of ['historicalBackground','regionalSkillTables','statProgression','statDetailLabel'])assert.equal(summary[key],undefined);assert.equal(summary.detailsDeferred,true);
+ for(const change of [d=>d.detailCatalog.forms['exact-form'].sourceId='other-outfit',d=>d.detailCatalog.forms['exact-form'].regionalSkillRefs.kr=['jp'],d=>d.detailCatalog.forms['exact-form'].horseId='unknown',d=>d.detailCatalog.forms['exact-form'].skillRefs=['missing'],d=>d.gameId='hsr']){const d=fixture();change(d);assert.equal(characterRosterSchema.safeParse(d).success,false);}
+});
+test('pinning a byte-identical original preserves exact owner frames without mutating records or accepting another character',()=>{
+ const a=artwork[0],frame={url:a.url,gallery:{x:38,y:60,zoom:.7,fit:'contain'},detail:{x:50,y:50,zoom:1,fit:'contain'}},before=structuredClone(frame),mapped=pinRosterArtworkFrames(a.gameId,a.characterId,[frame]);assert.equal(mapped[0].url,a.publicUrl);assert.deepEqual(mapped[0].gallery,frame.gallery);assert.deepEqual(frame,before);assert.deepEqual(pinRosterArtworkFrames(a.gameId,'other-character',[frame]),[frame]);
+ const explicit={...frame,url:a.publicUrl,gallery:{...frame.gallery,x:44}};const distinct=pinRosterArtworkFrames(a.gameId,a.characterId,[explicit,frame]);assert.equal(distinct.length,1);assert.equal(distinct[0].gallery.x,44);
+});
+test('packed exact-form details verify source identity, decoded size, hash and strict fields before displaying them',async()=>{
+ const data=fixture(),full=await hydrateRosterDetails(data,data.characters[0]);
+ const details={stats:full.stats,statProgression:full.statProgression,regionalSkillTables:full.regionalSkillTables,historicalBackground:full.historicalBackground};
+ const pack=original=>{const b=Buffer.from(JSON.stringify(original));return {sourceId:'outfit-source',sha256:createHash('sha256').update(b).digest('hex'),bytes:b.length,payload:gzipSync(b).toString('base64')}};
+ const original={id:'exact-form',sourceId:'outfit-source',details},form=pack(original),packed={...data,detailCatalog:{version:3,sourceUrl:url,checkedAt:data.checkedAt,forms:{'exact-form':form}}};characterRosterSchema.parse(packed);
+ assert.equal(rosterDirectory(packed).detailCatalog,undefined);assert.equal(rosterDirectory(packed).characters[0].detailsDeferred,true);const c=await hydrateRosterDetails(packed,packed.characters[0]);assert.deepEqual(c.regionalSkillTables,full.regionalSkillTables);assert.equal(c.historicalBackground.id,'horse');
+ for(const bad of [{...form,sha256:'0'.repeat(64)},{...form,bytes:form.bytes-1},pack({...original,id:'other-outfit'}),pack({...original,details:{...details,image:{url:'https://example.org/another-horse.png'}}})])await assert.rejects(hydrateRosterDetails({...packed,detailCatalog:{...packed.detailCatalog,forms:{'exact-form':bad}}},packed.characters[0]));
+});
+test('mounted star selection, server-specific mechanics and folded history stay independent',async()=>{
+ const d=fixture(),c=await hydrateRosterDetails(d,d.characters[0]),dom=new JSDOM('<div id="root"></div>',{url:'https://gagether.wiki',pretendToBeVisual:true}),saved=new Map();
+ c.regionalSkillTables.kr[0].minStars=3;c.regionalSkillTables.kr.push({...c.regionalSkillTables.kr[0],id:'low-star',name:C('Low-star native'),description:C('Low-star mechanics'),minStars:1,maxStars:2});c.statProgression.rows.unshift({level:1,values:{speed:'70'}});
+ const set=(k,v)=>{saved.set(k,Object.getOwnPropertyDescriptor(globalThis,k));Object.defineProperty(globalThis,k,{value:v,writable:true,configurable:true})};for(const k of ['window','document','HTMLElement','Element','Node','Event'])set(k,dom.window[k]);set('IS_REACT_ACT_ENVIRONMENT',true);const {createRoot}=await import('react-dom/client');let root;
+ try{
+  await act(async()=>{root=createRoot(document.getElementById('root'));root.render(React.createElement(CharacterFacts,{character:c,locale:'ko',service:'kr'}))});
+  assert.match(document.body.textContent,/kr native mechanics/);assert.doesNotMatch(document.body.textContent,/jp native mechanics/);assert.equal(document.querySelector('.roster-history').open,false);assert.equal(document.querySelector('.roster-history-body'),null);assert.doesNotMatch(document.body.textContent,/17 starts/);assert.equal(document.querySelector('.roster-stats dd').textContent,'90');
+  const select=document.querySelector('select[aria-label="성급"]');assert.equal(select.value,'3');assert.equal(select.options[2].textContent,'5 ★');await act(async()=>{select.value='1';select.dispatchEvent(new Event('change',{bubbles:true}))});assert.match(document.body.textContent,/Low-star mechanics/);assert.doesNotMatch(document.body.textContent,/kr native mechanics/);await act(async()=>{select.value='5';select.dispatchEvent(new Event('change',{bubbles:true}))});assert.equal(document.querySelector('.roster-stats dd').textContent,'110');assert.doesNotMatch(document.body.textContent,/Low-star mechanics/);assert.match(document.querySelector('.roster-combat-stats').textContent,/20%/);
+  await act(async()=>{const h=document.querySelector('.roster-history');h.open=true;h.dispatchEvent(new Event('toggle'));});assert.match(document.querySelector('.roster-history-body').textContent,/17 starts \/ 10 wins/);await act(async()=>{const h=document.querySelector('.roster-history');h.open=false;h.dispatchEvent(new Event('toggle'));});assert.equal(document.querySelector('.roster-history-body'),null);
+  await act(async()=>root.render(React.createElement(CharacterFacts,{character:c,locale:'ko',service:'global'})));assert.doesNotMatch(document.body.textContent,/jp native mechanics|kr native mechanics/);assert.equal(document.querySelector('.roster-skill-tables'),null);
+ }finally{if(root)await act(async()=>root.unmount());dom.window.close();for(const[k,v]of saved){if(v)Object.defineProperty(globalThis,k,v);else delete globalThis[k]}}
+});

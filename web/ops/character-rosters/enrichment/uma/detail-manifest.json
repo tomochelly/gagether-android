@@ -1,0 +1,3592 @@
+{
+  "status": "ok",
+  "generatedAt": "2026-10-25T08:13:37.379313Z",
+  "asof": "2026-10-25",
+  "sourceKind": "community",
+  "sourceReceipts": [
+    {
+      "key": "kr-home",
+      "url": "https://umamusume.kakaogames.com/",
+      "status": 200,
+      "bytes": 14639,
+      "sha256": "74e44156dde3df72822fb5ad1175c50f9fa36c6f3f7e5505ccfeb55d0309a599",
+      "checkedAt": "2026-10-25T07:45:51.418149+00:00"
+    },
+    {
+      "key": "gametora-manifest",
+      "url": "https://gametora.com/data/manifests/umamusume.json",
+      "status": 200,
+      "bytes": 11282,
+      "sha256": "773c3cc0160cc5f52c114cd82d9d699f52f2a30f68caa52cb2fa2e42e36ed773",
+      "checkedAt": "2026-10-25T07:50:28.266054+00:00"
+    },
+    {
+      "key": "gt-cards",
+      "url": "https://gametora.com/data/umamusume/character-cards.b10add11.json",
+      "status": 200,
+      "bytes": 267961,
+      "sha256": "b10add11a772676fc9a9f2d6288dca51cace9d7cb246b77e25e83633cdcc1874",
+      "checkedAt": "2026-10-25T07:46:05.350063+00:00"
+    },
+    {
+      "key": "gt-skills",
+      "url": "https://gametora.com/data/umamusume/skills.280d81aa.json",
+      "status": 200,
+      "bytes": 2522848,
+      "sha256": "280d81aa55c5cef00b59355325f0d20d3d1a48f6b0ad62ed1692f01a69e09b0f",
+      "checkedAt": "2026-10-25T07:51:10.116884+00:00"
+    },
+    {
+      "key": "gt-evolutions",
+      "url": "https://gametora.com/data/umamusume/evolutions.c7e38ead.json",
+      "status": 200,
+      "bytes": 100657,
+      "sha256": "c7e38ead73293b0744a300a3cfb20e5ca84fd70e69e889692a2c7260a630aa73",
+      "checkedAt": "2026-10-25T07:51:10.070600+00:00"
+    },
+    {
+      "key": "gt-evo_strings",
+      "url": "https://gametora.com/data/umamusume/static/evo_strings.76e53137.json",
+      "status": 200,
+      "bytes": 287603,
+      "sha256": "76e53137b9b0698fe897378689710349738b928548695ec7e84dd81d20f87368",
+      "checkedAt": "2026-10-25T07:51:10.036065+00:00"
+    },
+    {
+      "key": "uma-data",
+      "url": "https://raw.githubusercontent.com/daftuyda/UmaTools/main/public/assets/uma_data.json",
+      "status": 200,
+      "bytes": 1024579,
+      "sha256": "474ac94ea0f2454f2f22d616783da2f4c0ddaf6a3de86df326ce7ad25d248fd4",
+      "checkedAt": "2026-10-25T07:45:58.462877+00:00"
+    }
+  ],
+  "counts": {
+    "jp": {
+      "forms": 271,
+      "unique": 293,
+      "innate": 813,
+      "awakening": 1096,
+      "evolution": 631,
+      "event": 1285,
+      "inherited": 271
+    },
+    "kr": {
+      "forms": 214,
+      "unique": 235,
+      "innate": 642,
+      "awakening": 856,
+      "evolution": 501,
+      "event": 1019,
+      "inherited": 214
+    },
+    "global": {
+      "forms": 112,
+      "unique": 129,
+      "innate": 336,
+      "awakening": 448,
+      "evolution": 0,
+      "event": 495,
+      "inherited": 112
+    }
+  },
+  "catalogTables": 5127,
+  "identities": 271,
+  "sourceIdentityPreserved": true,
+  "artworkPreserved": true,
+  "serviceReconciliation": [],
+  "futureReleases": [],
+  "forms": [
+    {
+      "id": "100101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 21,
+        "kr": 18,
+        "global": 16
+      }
+    },
+    {
+      "id": "100102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19,
+        "global": 17
+      }
+    },
+    {
+      "id": "100103",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19,
+        "global": 17
+      }
+    },
+    {
+      "id": "100201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "100202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19
+      }
+    },
+    {
+      "id": "100301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "100302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 14
+      }
+    },
+    {
+      "id": "100303",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "100401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 11
+      }
+    },
+    {
+      "id": "100402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "100403",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "100501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "100502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 14
+      }
+    },
+    {
+      "id": "100503",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17
+      }
+    },
+    {
+      "id": "100601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 11
+      }
+    },
+    {
+      "id": "100602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "100603",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17
+      }
+    },
+    {
+      "id": "100701",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "100702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "100703",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "100801",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 15
+      }
+    },
+    {
+      "id": "100802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19,
+        "global": 17
+      }
+    },
+    {
+      "id": "100901",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 15
+      }
+    },
+    {
+      "id": "100902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20,
+        "global": 17
+      }
+    },
+    {
+      "id": "101001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "101002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 15
+      }
+    },
+    {
+      "id": "101003",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "101101",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 14
+      }
+    },
+    {
+      "id": "101102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 14
+      }
+    },
+    {
+      "id": "101103",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "101201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 11
+      }
+    },
+    {
+      "id": "101202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "101301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 12,
+        "global": 10
+      }
+    },
+    {
+      "id": "101302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "101303",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "101401",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "101402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "101501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12,
+        "kr": 12,
+        "global": 10
+      }
+    },
+    {
+      "id": "101502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "101601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12,
+        "kr": 12,
+        "global": 10
+      }
+    },
+    {
+      "id": "101602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "101701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 11
+      }
+    },
+    {
+      "id": "101702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "101703",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17
+      }
+    },
+    {
+      "id": "101801",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13,
+        "global": 11
+      }
+    },
+    {
+      "id": "101802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "101803",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    },
+    {
+      "id": "101901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 21,
+        "kr": 21,
+        "global": 18
+      }
+    },
+    {
+      "id": "101902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 23,
+        "kr": 23,
+        "global": 20
+      }
+    },
+    {
+      "id": "102001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20,
+        "global": 17
+      }
+    },
+    {
+      "id": "102002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 21,
+        "kr": 21,
+        "global": 18
+      }
+    },
+    {
+      "id": "102003",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 21
+      }
+    },
+    {
+      "id": "102101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 15
+      }
+    },
+    {
+      "id": "102102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20,
+        "global": 17
+      }
+    },
+    {
+      "id": "102201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 21,
+        "kr": 21,
+        "global": 18
+      }
+    },
+    {
+      "id": "102202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 23,
+        "kr": 23,
+        "global": 20
+      }
+    },
+    {
+      "id": "102203",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 22
+      }
+    },
+    {
+      "id": "102301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "102302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 14
+      }
+    },
+    {
+      "id": "102303",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "102401",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 15
+      }
+    },
+    {
+      "id": "102402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 16
+      }
+    },
+    {
+      "id": "102403",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "102501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "102502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "102503",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "102601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "102602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 14
+      }
+    },
+    {
+      "id": "102701",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "102702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "102801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 11
+      }
+    },
+    {
+      "id": "102802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "102901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 15
+      }
+    },
+    {
+      "id": "102902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20
+      }
+    },
+    {
+      "id": "103001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13,
+        "global": 11
+      }
+    },
+    {
+      "id": "103002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "103003",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "103101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "103102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "103103",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17
+      }
+    },
+    {
+      "id": "103201",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "103202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "103203",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "103301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 16
+      }
+    },
+    {
+      "id": "103302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20
+      }
+    },
+    {
+      "id": "103401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 15
+      }
+    },
+    {
+      "id": "103402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20,
+        "global": 17
+      }
+    },
+    {
+      "id": "103501",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 16
+      }
+    },
+    {
+      "id": "103502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 21,
+        "kr": 21,
+        "global": 19
+      }
+    },
+    {
+      "id": "103503",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 23,
+        "kr": 23
+      }
+    },
+    {
+      "id": "103601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 16
+      }
+    },
+    {
+      "id": "103602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 21,
+        "kr": 21
+      }
+    },
+    {
+      "id": "103701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "103702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 14
+      }
+    },
+    {
+      "id": "103703",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "103801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13,
+        "global": 11
+      }
+    },
+    {
+      "id": "103802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "103901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "103902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "104001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13,
+        "global": 10
+      }
+    },
+    {
+      "id": "104002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "104003",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "104101",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "104102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "104103",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "104201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 15
+      }
+    },
+    {
+      "id": "104202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "104301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "104302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "104401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "104402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "104501",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "104502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 14
+      }
+    },
+    {
+      "id": "104503",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "104601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "104602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 15
+      }
+    },
+    {
+      "id": "104603",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "104701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "104702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "104801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13,
+        "global": 11
+      }
+    },
+    {
+      "id": "104802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "104803",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "104901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "104902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18
+      }
+    },
+    {
+      "id": "105001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13,
+        "global": 11
+      }
+    },
+    {
+      "id": "105002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 15
+      }
+    },
+    {
+      "id": "105003",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 15
+      }
+    },
+    {
+      "id": "105101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 15
+      }
+    },
+    {
+      "id": "105102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 21,
+        "kr": 21
+      }
+    },
+    {
+      "id": "105201",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13,
+        "global": 11
+      }
+    },
+    {
+      "id": "105202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "105301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "105302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "105401",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "105501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "105502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "105601",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "105602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "105701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "105702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "105801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "105802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 14
+      }
+    },
+    {
+      "id": "105901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "105902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 14
+      }
+    },
+    {
+      "id": "106001",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "106002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "106003",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "106101",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14,
+        "global": 12
+      }
+    },
+    {
+      "id": "106102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "106103",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "106201",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 15
+      }
+    },
+    {
+      "id": "106202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19
+      }
+    },
+    {
+      "id": "106301",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "106302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17
+      }
+    },
+    {
+      "id": "106401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "106402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "106501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "106502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19
+      }
+    },
+    {
+      "id": "106601",
+      "stars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19
+      }
+    },
+    {
+      "id": "106701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 12
+      }
+    },
+    {
+      "id": "106702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 14
+      }
+    },
+    {
+      "id": "106703",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "106801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19,
+        "global": 16
+      }
+    },
+    {
+      "id": "106802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20,
+        "global": 18
+      }
+    },
+    {
+      "id": "106803",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20
+      }
+    },
+    {
+      "id": "106901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "106902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 18
+      }
+    },
+    {
+      "id": "107001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "107002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 16
+      }
+    },
+    {
+      "id": "107101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 16
+      }
+    },
+    {
+      "id": "107102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 22,
+        "kr": 22
+      }
+    },
+    {
+      "id": "107201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "107202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "107301",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "107401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18,
+        "global": 16
+      }
+    },
+    {
+      "id": "107402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20
+      }
+    },
+    {
+      "id": "107403",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20
+      }
+    },
+    {
+      "id": "107601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 24,
+        "kr": 24
+      }
+    },
+    {
+      "id": "107602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 27
+      }
+    },
+    {
+      "id": "107701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13
+      }
+    },
+    {
+      "id": "107702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "107703",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "107801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 14
+      }
+    },
+    {
+      "id": "107802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "107901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "108001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "108002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17
+      }
+    },
+    {
+      "id": "108101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13
+      }
+    },
+    {
+      "id": "108201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "108202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "108301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "108302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "108401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "108402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "108501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "108502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "108601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12,
+        "kr": 12
+      }
+    },
+    {
+      "id": "108602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "108701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17,
+        "global": 15
+      }
+    },
+    {
+      "id": "108702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19
+      }
+    },
+    {
+      "id": "108801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "108802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "108901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "108902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18
+      }
+    },
+    {
+      "id": "109001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13
+      }
+    },
+    {
+      "id": "109101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "109102",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "109201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12
+      }
+    },
+    {
+      "id": "109301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "109302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "109401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "109402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "109501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "109601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12,
+        "kr": 12
+      }
+    },
+    {
+      "id": "109701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "109801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15,
+        "global": 13
+      }
+    },
+    {
+      "id": "109802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 18
+      }
+    },
+    {
+      "id": "109901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16,
+        "global": 13
+      }
+    },
+    {
+      "id": "109902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "110001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13,
+        "global": 10
+      }
+    },
+    {
+      "id": "110002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    },
+    {
+      "id": "110201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15,
+        "kr": 15
+      }
+    },
+    {
+      "id": "110202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "110301",
+      "stars": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    },
+    {
+      "id": "110401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "110402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 19
+      }
+    },
+    {
+      "id": "110501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "110502",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 20,
+        "kr": 20
+      }
+    },
+    {
+      "id": "110601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "110602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19
+      }
+    },
+    {
+      "id": "110701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "110702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "110801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12,
+        "kr": 12
+      }
+    },
+    {
+      "id": "110802",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12
+      }
+    },
+    {
+      "id": "110901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "110902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19
+      }
+    },
+    {
+      "id": "111001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "111002",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18,
+        "kr": 18
+      }
+    },
+    {
+      "id": "111101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13
+      }
+    },
+    {
+      "id": "111201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12
+      }
+    },
+    {
+      "id": "111301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12
+      }
+    },
+    {
+      "id": "111302",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    },
+    {
+      "id": "111401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    },
+    {
+      "id": "111501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 17,
+        "kr": 17
+      }
+    },
+    {
+      "id": "111601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "111602",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "111701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 19,
+        "kr": 18
+      }
+    },
+    {
+      "id": "111801",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    },
+    {
+      "id": "111901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13
+      }
+    },
+    {
+      "id": "111902",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "112001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 15
+      }
+    },
+    {
+      "id": "112101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13
+      }
+    },
+    {
+      "id": "112401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13,
+        "kr": 13
+      }
+    },
+    {
+      "id": "112402",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "112701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14,
+        "kr": 14
+      }
+    },
+    {
+      "id": "112702",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "112901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    },
+    {
+      "id": "113001",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12
+      }
+    },
+    {
+      "id": "113101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "113201",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16,
+        "kr": 16
+      }
+    },
+    {
+      "id": "113202",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 18
+      }
+    },
+    {
+      "id": "113301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12,
+        "kr": 12
+      }
+    },
+    {
+      "id": "113401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 12
+      }
+    },
+    {
+      "id": "113501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 16
+      }
+    },
+    {
+      "id": "113601",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 11
+      }
+    },
+    {
+      "id": "113701",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    },
+    {
+      "id": "114101",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 24
+      }
+    },
+    {
+      "id": "114301",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13
+      }
+    },
+    {
+      "id": "114401",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 15
+      }
+    },
+    {
+      "id": "114501",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 13
+      }
+    },
+    {
+      "id": "114901",
+      "stars": [
+        3,
+        4,
+        5
+      ],
+      "services": {
+        "jp": 14
+      }
+    }
+  ],
+  "limits": {
+    "EnglishEvolutionRequirements": "Japanese original explicitly marked where no native English condition string is published.",
+    "dynamicEffects": "Published base value only; no invented conditional multiplier.",
+    "servicePolicy": "Exact source release dates and service-specific bindings/loc overrides; no Chinese gameplay service added.",
+    "inheritance": "Source rarity enum3 is the1/2-star unique; enums4/5 are3+star. Green unique skill factors require3+star parent, verified at https://gametora.com/umamusume/legacies ."
+  },
+  "sourceGaps": [
+    {
+      "id": "uma:920051:inherited",
+      "key": "2a6f73d9a9d36a6a5e0ddeed01b26b262a1cc0ce99df9abd0f07e38d7ec95a45",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:920171:inherited",
+      "key": "12ec1cc0535e9929e1441164b1df2d34c90fde4452d5a66f29863342f8213c44",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:920181:inherited",
+      "key": "7ab7c35df8651a6daf7d4c44646ea51adcf61f3e1a246b175c8f70c8fc0637ff",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:920201:inherited",
+      "key": "8fb6fa3b591deeeaa805215b2011e785583695b7c3f85c3436c2b9be3395dda9",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:920221:inherited",
+      "key": "7f7e177d0580234ea276d8ddbec751a5ec9e51219fae177c8935efc78bce1ece",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:920251:inherited",
+      "key": "cc45d566472b54ccb8c4a9658639680a7bdb0e981ffbd7c8ceb99fd0bf62f623",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:920411:inherited",
+      "key": "df42a8cf9a0d4907530c619fcfb1ff87c0d65232deff30224d68e839323fd1c2",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:910431:inherited",
+      "key": "17a5bb06d32264be0205c10089570a191eb8b32366d8b6f1c873eb028ec3ea9c",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:920741:inherited",
+      "key": "98a5d5a488c3fe734191f37f7fe01daee753426c732ddea12a5b38383db0af2d",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:920771:inherited",
+      "key": "ce5790f3dc0c647de514ea985d77fed9a937ea6a035aefa22faf0569d4173fe2",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:910821:inherited",
+      "key": "0644a6aab7c732a238849a3e1e92937c06ae60e0afcf4e53c35c67d890686014",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:910941:inherited",
+      "key": "54bec27665ef7321e1f1b807a35c2207da0c46665dc0228aa48ddddf3802c75d",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:911081:inherited",
+      "key": "7add142504c0515f1aec8486654528fb4b85ee6ca4b21a5f99cb045fd06c292c",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901121:inherited",
+      "key": "93584e0b2b8ed36f90d62a5ba4969ec3eba870ce3c90c566400a4da4066f79ef",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:911131:inherited",
+      "key": "8d14b60c1f7e8029e6c6eec1b329b108b54317b4094f62ea0b3fd9a2a6c0a9ac",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:911161:inherited",
+      "key": "795867d34f4d79da0cb6360b8ce4348f68dc9a35793766cf20eefcd097c1e2cb",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901181:inherited",
+      "key": "9f9ec06d2b222a784fd312879eb3b210a7f7c41025b3248896187688e9c7a7d5",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:911271:inherited",
+      "key": "2ed20714cd7d2e4aaf0cc2060a29c3f5c9438d1774b9b20a45cc5f55b0f89132",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901301:inherited",
+      "key": "066afab57d6111eaa862d50e449645b35be078a722c68e7809593f860ae6866e",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901341:inherited",
+      "key": "920dea4db476c1bf5c65aef9a25a830227a2c7202e8ef6a2fb70d29138f28181",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901361:inherited",
+      "key": "76ec788ec78e2596f414159e5b48997c865a7f6335e9207ec15b72eed7e56b0c",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:91101411:inherited",
+      "key": "783606125488ac73142b12586096f7d74c2e2eb593620a6565b41da99650f9b4",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901431:inherited",
+      "key": "6b99c12a57dadbb5e0a07ec3806675a78f3bed3d4bd0e97152fafe4decd83b5f",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901441:inherited",
+      "key": "0f17a03b305bf360b856184911c15e7d498a3c40171d74be1206ffc997f465cf",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901451:inherited",
+      "key": "5febd71620661bd7e4f5de9f3f09a53eb1b553595dc0a31ab46bf0bc98dab307",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    },
+    {
+      "id": "uma:901491:inherited",
+      "key": "c9f49f8baec0445a26c8b00d05a32b809a6a597e0ba83d48dbcd7958f551a1b0",
+      "reason": "No native inherited description in source; published activation/numerical/cost rows retained without invented prose."
+    }
+  ],
+  "outputs": {
+    "umamusume.json": {
+      "bytes": 2732703,
+      "sha256": "d4aee89548e1f150fcf29651d0cd386f26ceb442ef827307ea946cf658514473"
+    },
+    "catalog.json": {
+      "bytes": 13469682,
+      "sha256": "07c649c1eba56c394c6d263118c5e01dad380fbcdcff2a97ce459ffe63c35c6a"
+    }
+  },
+  "icons": {
+    "declared": 70,
+    "downloaded": 70,
+    "failures": []
+  }
+}

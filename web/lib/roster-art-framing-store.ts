@@ -1,5 +1,6 @@
 import {env} from 'cloudflare:workers';
 import {readCharacterRoster} from './character-roster-store';
+import {pinRosterArtworkFrames} from './character-roster-enrichment';
 import {readWuwaReference} from './wuwa-reference-store';
 import {rosterArts,type RosterCharacter} from './character-roster';
 import {referenceArtwork} from './wuwa-reference-view';
@@ -17,7 +18,7 @@ export async function readRosterArtFrames(gameId:string,id?:string){
 export async function readCharacterRosterView(gameId:string){
  const base=await readCharacterRoster(gameId);if(!base)return null;
  const records=await readRosterArtFrames(gameId),known=new Map(records.map(r=>[r.id,r.value.images]));
- return {...base,data:{...base.data,characters:base.data.characters.map(c=>known.has(c.id)?{...c,artworkFrames:known.get(c.id)!}:c)},hash:records.length?await digest({source:base.hash,records}):base.hash};
+ return {...base,data:{...base.data,characters:base.data.characters.map(c=>known.has(c.id)?{...c,artworkFrames:pinRosterArtworkFrames(gameId,c.id,known.get(c.id)!)}:c)},hash:records.length?await digest({source:base.hash,records}):base.hash};
 }
 export async function readWuwaReferenceView(){
  const base=await readWuwaReference(),records=await readRosterArtFrames('wuwa'),known=new Map(records.map(r=>[r.id,r.value.images]));
