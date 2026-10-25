@@ -1,4 +1,5 @@
 'use client';
+import {localizeVideoNotices} from '@/lib/videos';
 import UiText from './ui-text';
 import {OwnerInlineProvider,EntryEdit,AddEntryHere,type OwnerInlineHandle} from './owner-inline';
 import ContentBlocks from './content-blocks';
@@ -206,7 +207,7 @@ export default function Radar({initialLocale='ko',initialLocaleManual=false,init
  const toggleFavorite=(id:string)=>togglePersonal('favorites',id);
  const toggleSave=(id:string)=>togglePersonal('saved',id);
  async function refresh(){if(refreshing)return;setRefreshing(true);try{const r=await fetch(canEdit?'/api/refresh':dataUrl,{method:canEdit?'POST':'GET',cache:'no-store'});const d=await r.json() as Partial<EditorData>&{ok:boolean;checks?:SourceCheck[];added?:number;changed?:number;cached?:boolean};if(!r.ok)throw new Error();if(d.entries){applyData(d);}const u=ownerUi[locale];setToast(canEdit?`${d.ok?u.complete:u.partial} · ${d.checks?.filter(c=>c.status==='ok').length||0}/${d.checks?.length||0} · ${u.newNotices} ${d.added||0} · ${u.changed} ${d.changed||0}${d.cached?' · '+u.cached:''}`:publicText[locale].refreshed);}catch{setToast(t.refreshError);}finally{setRefreshing(false);}}
- const inRegion=useMemo(()=>{const restrict=audienceRestrictions(entries);return entries.filter(e=>availableInLocale(e,locale)&&(editMode?inSchedule(e,byId[e.gameId],region):contentInAudience(restrict(e),byId[e.gameId],region,locale)));},[entries,region,locale,byId,editMode]);
+ const inRegion=useMemo(()=>{const restrict=audienceRestrictions(entries),scoped=entries.filter(e=>availableInLocale(e,locale)&&(editMode?inSchedule(e,byId[e.gameId],region):contentInAudience(restrict(e),byId[e.gameId],region,locale)));return editMode||view==='videos'||view==='saved'?scoped:localizeVideoNotices(scoped,locale);},[entries,region,locale,byId,editMode,view]);
  useEffect(()=>{if(selected&&!editMode&&!contentInAudience(selected,byId[selected.gameId],region,locale))setSelected(null);},[locale,region,editMode,selected?.id]);
  const visibleEntries=useMemo(()=>myGameEntries(inRegion,favorites,myOnly&&view!=='game'),[inRegion,favorites,myOnly,view]);
  const active=visibleEntries.filter(e=>liveContent(e,now)&&entryState(e,now)==='active');

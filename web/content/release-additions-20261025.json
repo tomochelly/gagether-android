@@ -287,5 +287,68 @@
         "sourceKind": "official"
       }
     ]
+  },
+  {
+    "id": "official-video-wuwa-zh-MDkTlOfQZsE",
+    "gameId": "wuwa",
+    "region": "global",
+    "server": "global",
+    "kind": "update",
+    "contentRole": "notice",
+    "title": {
+      "ko": "",
+      "en": "",
+      "ja": "",
+      "zh": "《鳴潮》世界觀PV | 超驗TRANSCENDO"
+    },
+    "summary": {
+      "ko": "",
+      "en": "",
+      "ja": "",
+      "zh": ""
+    },
+    "sourceUrl": "https://www.youtube.com/watch?v=MDkTlOfQZsE",
+    "sourceTitle": "《鳴潮》世界觀PV | 超驗TRANSCENDO",
+    "sourceLocale": "zh",
+    "sourceKind": "video",
+    "officialLocales": [
+      "zh"
+    ],
+    "translatedLocales": [],
+    "publishedAt": "2026-10-24T20:00:36-07:00",
+    "verifiedAt": "2026-10-25T06:08:33.286165Z",
+    "startAt": null,
+    "endAt": null,
+    "videos": [
+      {
+        "youtubeId": "MDkTlOfQZsE",
+        "kind": "version",
+        "format": "pv",
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "《鳴潮》世界觀PV | 超驗TRANSCENDO"
+        },
+        "originalTitle": "《鳴潮》世界觀PV | 超驗TRANSCENDO",
+        "titleOfficialLocales": [
+          "zh"
+        ],
+        "locale": "zh",
+        "channel": "鳴潮",
+        "sourceUrl": "https://www.youtube.com/watch?v=MDkTlOfQZsE",
+        "publishedAt": "2026-10-24T20:00:36-07:00",
+        "discoveredAt": "2026-10-25T06:08:33.286165Z",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MDkTlOfQZsE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAP4ZXXJAZ9C1Ufc5c-G_DVBUAWCg",
+        "verifiedAt": "2026-10-25T06:08:33.286165Z",
+        "official": true,
+        "metadataVerified": true,
+        "watched": false,
+        "evidenceUrls": [
+          "https://www.youtube.com/channel/UCVZqteUtWfSnwQ0ShjHixVw",
+          "https://www.youtube.com/channel/UCVZqteUtWfSnwQ0ShjHixVw/videos"
+        ]
+      }
+    ]
   }
 ]

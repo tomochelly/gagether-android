@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "b3f619d840e5ff5b14396f6aac8d80de6c6a35354f9126d18a3fbf2dda76ed02",
+  "fingerprint": "0e4700e2801f9660e17f9de5c05ff00891c248b2e1d592f904cd847ed6d48736",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -260,7 +260,7 @@
     },
     {
       "path": "app/gallery-effects.css",
-      "sha256": "c9bc7a9e5cc908c031ad08e9c108fe1401d34e12c9882757ab4d895959fd255e"
+      "sha256": "4e660802ae7378e7d55dd537ae62b8e3ca40bccc17d7bbc57624c1e807e8b5e9"
     },
     {
       "path": "app/globals.css",
@@ -472,7 +472,7 @@
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "c5d701386b1583b24b80417d31ad0d656e29acc20ef8dffa2868f2b3675d59db"
+      "sha256": "6e32b18d87b3de910805fb368b4b9606c57186d862d8cf8a37a1179ab0c0657a"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -644,11 +644,11 @@
     },
     {
       "path": "components/pv-banner.tsx",
-      "sha256": "962e6c615228e654c2e03337f33812037638277f79ead2a223f8743163e9570a"
+      "sha256": "9028124c6d487865627f3a7354cb9799653849ef93d42d058f054bc901e51bb4"
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "6f29aa181bc664792ee941e019b2839f4ffc43cef134bd0d7f2d79a37511f091"
+      "sha256": "ccf6acfa66c89b3cc45367feda98055fb6ecfdf1bb3c25482a1298177cbaf695"
     },
     {
       "path": "components/recurring-overview.tsx",
@@ -676,7 +676,7 @@
     },
     {
       "path": "components/roster-stat-details.tsx",
-      "sha256": "6cf89dc644ebf41ad83395e5c907a4b389c7b26635cd528b7190d019f8fa3aad"
+      "sha256": "3b7f802b95aaf352f02717cfc7ce2aedc9b6a1fde4b6cbfcfb9ca9451a31259f"
     },
     {
       "path": "components/schedule-calendar.tsx",
@@ -1016,7 +1016,7 @@
     },
     {
       "path": "components/video-library.tsx",
-      "sha256": "d0ab70af1f1162e0ee7c337128b35358f2f32d106257a2ca8b21062eea1dde42"
+      "sha256": "2a6705532e02530ad53b41318f04b739092a8b1399ddcea6356a9898819fcad9"
     },
     {
       "path": "components/visitor-account-link.tsx",
@@ -1060,15 +1060,15 @@
     },
     {
       "path": "content/character-rosters/artwork-manifest.json",
-      "sha256": "df674c8b9d4c3ee03b61c64cf64a2682c2d18858b916963f57338d55ab0a2bba"
+      "sha256": "4fc3d60fbd8ed01515d620fea93cb1f81b26da53181b27d80723c97a633db25d"
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "a86c1b197352b9e4869a43317fd6d639b032098687f74577771890b59db57ed8"
+      "sha256": "464329526efadf4b7b60efbe9ba0e8e4b8e75b6f989345993af6ed66e255dc2f"
     },
     {
       "path": "content/character-rosters/recovery/manifest.json",
-      "sha256": "55d407e762b6421c0a901abb1b1b4dcef2983005c8ca74fccd42b6d4bd2fd6e9"
+      "sha256": "3e7cf1547a6121ec7bbfce988a18183356b6e26ffd400a849ac730318e005f11"
     },
     {
       "path": "content/character-rosters/rejected-artwork.json",
@@ -1108,7 +1108,7 @@
     },
     {
       "path": "content/gallery-subject-bounds.json",
-      "sha256": "c41abd269667a7929febe6fd52d5fb6c7f879df2de5247cf82f1e6acd05826d2"
+      "sha256": "2f93bb3596b8d33b7c027a5b212848aedc84eaa1d970e1f2338dc963267bc5eb"
     },
     {
       "path": "content/hoyo-localization-research.json",
@@ -1163,6 +1163,10 @@
       "sha256": "0d8f50b21f7e001a1c434366a45c47f14ad12caf89cd24200a207df22afb4e23"
     },
     {
+      "path": "content/official-video-channels.json",
+      "sha256": "6b66e81118dfd74fd3f69e0788bc72ef1b6e67349fa0c57add91763367c16281"
+    },
+    {
       "path": "content/others-adapters-assets.json",
       "sha256": "c7a21c6c92a83dce9aabb5aa97156d3357a4e1f79c94999112be0202c2d0519d"
     },
@@ -1192,7 +1196,7 @@
     },
     {
       "path": "content/release-additions-20261025.json",
-      "sha256": "ea6164ade601ab167e7efdfdddee18af325de97ee3e190037b973a30238f2609"
+      "sha256": "d40d468399c55e604217625077a0c4e757392b1b1585aba8316390b0cb5b1d88"
     },
     {
       "path": "content/research-hoyo.json",
@@ -1233,6 +1237,10 @@
     {
       "path": "content/version-art-review-2026-10-17.json",
       "sha256": "ad474fa909b130743ad56e1e70d7e7d9f6519ebd2e52c8f5dd6ae09ec3ff9cf9"
+    },
+    {
+      "path": "content/video-language-groups.json",
+      "sha256": "1fa5119229fbf36c8ca039c430dc2ff2d1b45f8d07a052e2ef8caf30a69b0b04"
     },
     {
       "path": "content/wiki-icon-additions.json",
@@ -1440,7 +1448,7 @@
     },
     {
       "path": "lib/character-roster-enrichment.ts",
-      "sha256": "23c6522b84d61202925e4f52fbc32a59277244397f3c19e9dfe034b91d94d765"
+      "sha256": "98f12d7aa6288e31c01c3a91448b356d17606f80c2ae89b3298ba9acf7daae58"
     },
     {
       "path": "lib/character-roster-metrics.ts",
@@ -1456,7 +1464,7 @@
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "5477dd0ab7e94692d8e31bb74e3a1033a0d6f4808b8047346dd35611818ac0eb"
+      "sha256": "069943b721c6ca9fdaa708f2625e3d567dc64211332adb42dcd73993b083f238"
     },
     {
       "path": "lib/collaboration-sources.ts",
@@ -1588,7 +1596,7 @@
     },
     {
       "path": "lib/favorite-updates.ts",
-      "sha256": "76b6876857cf71966162cf105df3db576804bd1741b4d2755377807ff83a7756"
+      "sha256": "095a47d6e6b0cd3a14f05dacb4dc210d00d9510f3da3a09081a2b0ccc1464ffa"
     },
     {
       "path": "lib/feed-entry.ts",
@@ -1728,7 +1736,7 @@
     },
     {
       "path": "lib/official-social-store.ts",
-      "sha256": "f3d3c94b7bf2b4afb6781b4fba2039bbafda843e7c131539d32d61483ed5c5bc"
+      "sha256": "c2e2da718cdd53ae1eb5ae281f23bcd5f4b0048ba16b6bc20228613ff0f85aa9"
     },
     {
       "path": "lib/official-social.ts",
@@ -1952,7 +1960,7 @@
     },
     {
       "path": "lib/videos.ts",
-      "sha256": "65f2674fff1dd8a69f3a736d6d20fb971f2cd0eb7498f377a912e89958a6f156"
+      "sha256": "a3ff1e17050226a52d29c3ef9fbb73d7d74a6282f272f85206ae0d049dd0492d"
     },
     {
       "path": "lib/visitor-auth-store.ts",

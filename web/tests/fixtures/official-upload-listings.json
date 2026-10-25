@@ -235,5 +235,65 @@
         }
       }
     }
+  },
+  "zh": {
+    "syntax": "assignment",
+    "data": {
+      "metadata": {
+        "channelMetadataRenderer": {
+          "externalId": "UCVZqteUtWfSnwQ0ShjHixVw"
+        }
+      },
+      "contents": {
+        "lockupViewModel": {
+          "contentId": "MDkTlOfQZsE",
+          "metadata": {
+            "lockupMetadataViewModel": {
+              "title": {
+                "content": "《鳴潮》世界觀PV | 超驗TRANSCENDO"
+              },
+              "metadata": {
+                "contentMetadataViewModel": {
+                  "metadataRows": [
+                    {
+                      "metadataParts": [
+                        {
+                          "text": {
+                            "content": "1.1万"
+                          }
+                        },
+                        {
+                          "text": {
+                            "content": "3 時間前"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "contentImage": {
+            "thumbnailViewModel": {
+              "image": {
+                "sources": [
+                  {
+                    "url": "https://i.ytimg.com/vi/MDkTlOfQZsE/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLC9X40J-Rm5nAQDF_prxK6ABgK2vg",
+                    "width": 360,
+                    "height": 202
+                  },
+                  {
+                    "url": "https://i.ytimg.com/vi/MDkTlOfQZsE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAP4ZXXJAZ9C1Ufc5c-G_DVBUAWCg",
+                    "width": 720,
+                    "height": 404
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

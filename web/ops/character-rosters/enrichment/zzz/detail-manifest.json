@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-10-25T06:23:01.102761Z",
+  "status": "ok",
+  "scope": "Existing 61 exact IDs only; source-only future IDs are not added.",
+  "rosterBytes": 4167066,
+  "rosterSha256": "fbc2124ad0c30c932216579754c9d9213cf72309897bbc796a043767db62dd27",
+  "characters": 61,
+  "officialFullBodyOriginals": 61,
+  "originalBytes": 50006381,
+  "originalDimensions": [
+    [
+      1297,
+      1369
+    ],
+    [
+      1648,
+      1369
+    ],
+    [
+      1852,
+      1369
+    ]
+  ],
+  "normalSkillDescriptions": 909,
+  "coreDescriptions": 122,
+  "mindscapes": 366,
+  "variantNumericGroups": 15,
+  "skillTables": 1412,
+  "numericRows": 2595,
+  "sourceNumericRows": 2595,
+  "numericRowReconciliation": "All distinct published source value row indices retained exactly once per character.",
+  "errors": [],
+  "numericOmissions": [],
+  "panelBasis": "Lv60 promotion5 core0; gear/discs/mindscapes excluded. Enka base+growth+promotion, integer floor. Twelve exact stage-endpoint checkpoints, no curve guess.",
+  "biographyPolicy": "Imported actual gender, height, birthday, faction, materials and complete skill/core/mindscape prose. Optional lore biographies are outside this status-enrichment scope.",
+  "validation": {
+    "pythonUnitTests": 8,
+    "schema": "passed",
+    "allLocalizedLevelDescriptions": 43908,
+    "sourceOriginalHashes": "All61 unchanged originals rehashed",
+    "visualReview": "All61 exact files normally alpha-composited on gray contact sheets; complete standing art, text-free presentation, matching character IDs; not advertised as gacha splashes."
+  },
+  "crossProviderComparison": {
+    "url": "https://zzz.gg/ko/characters/%EC%97%94%EB%B9%84",
+    "sourcePanel": "Anby Lv60 HP7500/ATK658/DEF612/Impact136 includes coreF.",
+    "sourceCoreF": "Declared passives table adds ATK75/Impact18.",
+    "computedCore0": "HP7500/ATK583/DEF612/Impact118.",
+    "limitation": "Cross-provider source consistency, not an independent in-game measurement."
+  },
+  "sources": [
+    {
+      "key": "official-ko",
+      "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=287&iPageSize=200&iPage=1&sLangKey=ko-kr",
+      "checkedAt": "2026-10-25T06:15:51.929696Z",
+      "status": 200,
+      "sha256": "41ec0eb826e6a653fbb42c49a70d980f27ba8851536a0791629e6e9f17e712c1",
+      "bytes": 314038,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "enka",
+      "url": "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/zzz/avatars.json",
+      "checkedAt": "2026-10-25T06:15:58.113563Z",
+      "status": 200,
+      "sha256": "301b1e25ec597171cc04fdd0a801ae7469750fa4623af61d51e51ab2793713da",
+      "bytes": 152638,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "gg-page",
+      "url": "https://zzz.gg/ko/characters",
+      "checkedAt": "2026-10-25T06:16:03.733584Z",
+      "status": 200,
+      "sha256": "9c47dd55807372367f178ccdb379cfea182f689d8c6fdebddda78cddd4f6e29b",
+      "bytes": 176284,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "gg-discovery-0",
+      "url": "https://zzz.gg/_nuxt/Bjdli0RS.js",
+      "checkedAt": "2026-10-25T06:16:09.629493Z",
+      "status": 200,
+      "sha256": "6dbf9a0ec3a32e27eee0fe10a7b455c8a612ff2247d5a505638a238f7f04d035",
+      "bytes": 541030,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "gg-discovery-1",
+      "url": "https://zzz.gg/_nuxt/FOGQ3c3d.js",
+      "checkedAt": "2026-10-25T06:16:15.201945Z",
+      "status": 200,
+      "sha256": "68bc0c9e33195834ab15e842ab448299094a60828b5afdefa36958dd4d8265b1",
+      "bytes": 3976,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "gg-discovery-2",
+      "url": "https://zzz.gg/_nuxt/G27GV4mC.js",
+      "checkedAt": "2026-10-25T06:16:22.530126Z",
+      "status": 200,
+      "sha256": "8bfeff2265ea6d6af0ef26d7f58744fc04c6253f25a949b388f6354a2fd4b692",
+      "bytes": 5395,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "gg-discovery-3",
+      "url": "https://zzz.gg/_nuxt/DSjhMyPd.js",
+      "checkedAt": "2026-10-25T06:16:28.196244Z",
+      "status": 200,
+      "sha256": "cda4bc887abea183354364a48ae1f423df022abfeccf7d03292d1eb4b370cd8b",
+      "bytes": 6952,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "catalog-ko",
+      "url": "https://zzz.gg/_nuxt/jMTSW2aO.js",
+      "checkedAt": "2026-10-25T06:16:34.753510Z",
+      "status": 200,
+      "sha256": "a66f8514be57c907ed82f28407e6cc76beef5d2cc04eb3bdb8c3fba492efa811",
+      "bytes": 2864062,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "catalog-en",
+      "url": "https://zzz.gg/_nuxt/Cr_5NgwN.js",
+      "checkedAt": "2026-10-25T06:16:40.757521Z",
+      "status": 200,
+      "sha256": "da92ae3c2f98377c9905fe7ac73acc49d5e5c1f1b83ac96747fe857937929c08",
+      "bytes": 2673415,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "catalog-ja",
+      "url": "https://zzz.gg/_nuxt/i2HjCAqE.js",
+      "checkedAt": "2026-10-25T06:16:53.269425Z",
+      "status": 200,
+      "sha256": "a9899542d3f25f671f5fc37804e48089c0fa8dbbd454b07b633fdc09fc9d8537",
+      "bytes": 2984449,
+      "via": "hash-verified-source-replay"
+    },
+    {
+      "key": "catalog-zh",
+      "url": "https://zzz.gg/_nuxt/BQwMMTCJ.js",
+      "checkedAt": "2026-10-25T06:17:02.841536Z",
+      "status": 200,
+      "sha256": "a863973594b9cbb6bbd8330e507a1ae70dbf452352626d5ea3951bf0bb6011c5",
+      "bytes": 2532360,
+      "via": "hash-verified-source-replay"
+    }
+  ],
+  "sourceClockBoundary": "Each source checkedAt is the actual HTTP capture time. Outer generation time and verified offline replay are not new source checks.",
+  "knownFactualGaps": [
+    {
+      "id": "1551",
+      "name": "Pyrois",
+      "scope": "Mindscape6 effect",
+      "sourceText": "Mindscape Effect Hidden",
+      "policy": "Preserve explicit source unavailability; no invented effect."
+    },
+    {
+      "id": "1551",
+      "scope": "Profile fields",
+      "policy": "Source profile is null; no invented height/birthday/gender."
+    }
+  ]
+}

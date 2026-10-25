@@ -21,6 +21,25 @@ def enrich_files(files,work):
   for name in ['enrichment-report.json','enrichment-a-report.json','enrichment-report-b.json','manifest.json']:
    path=output/name
    if path.exists():report['sourceReport']=json.loads(path.read_text());break
+  if key=='c' and 'zzz'in files:
+   target=output/'zzz-details';target.mkdir(exist_ok=True)
+   command=[sys.executable,str(ROOT/'zzz/enrich.py'),'--input',str(output/'zzz.json'),'--output-dir',str(target),'--cache-dir',str(target/'sources')]
+   try:
+    process=subprocess.run(command,check=False,timeout=1200)
+    candidate=target/'zzz.json'
+    details=json.loads((target/'manifest.json').read_text())if(target/'manifest.json').exists()else{}
+    report['zzzEnrichment']={'exitCode':process.returncode,'details':details}
+    if details.get('status')!='ok' or process.returncode!=0:report['status']='partial'
+    # A checked partial keeps each failed character's prior values. A failed
+    # document is never promoted as a successful supplemental source check.
+    if candidate.exists() and details.get('status')in ['ok','partial']:
+     d=json.loads(candidate.read_text());prior=json.loads((output/'zzz.json').read_text())
+     if d.get('gameId')!='zzz'or{c['id']for c in d['characters']}!={c['id']for c in prior['characters']}:raise ValueError('ZZZ detail identity mismatch')
+     if len(json.dumps(d,ensure_ascii=False,separators=(',',':')).encode())>4400000:raise ValueError('ZZZ detail exceeds ingest bound')
+     shutil.copyfile(candidate,output/'zzz.json')
+    else:report['status']='partial'
+   except Exception as e:
+    report['status']='partial';report['zzzError']=str(e)
   if key=='b' and 'nte'in files:
    # Keep the exact art and rich client facts in the same scoped reference path.
    # The detail helper deliberately pins its verified Global client version.

@@ -15,11 +15,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - uses: pnpm/action-setup@v4
         with:
           version: 11.25.0
-      - run: node ops/restore-roster-snapshot.mjs
-        working-directory: web
       - run: pnpm install --frozen-lockfile
         working-directory: web
       - run: node --test --test-concurrency=2 tests/*.test.mjs
@@ -27,4 +28,12 @@ jobs:
       - run: node scripts/validate-editor.mjs
         working-directory: web
       - run: pnpm exec tsc --noEmit
+        working-directory: web
+      - run: python3 -m unittest discover -s ops -p 'test_*.py'
+        working-directory: web
+      - run: python3 -m unittest discover -s ops/character-rosters/enrichment -p 'test_*.py'
+        working-directory: web
+      - run: python3 -m pip install --disable-pip-version-check -r ops/character-rosters/enrichment/zzz/requirements.txt
+        working-directory: web
+      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/zzz -p 'test_*.py'
         working-directory: web

@@ -8,11 +8,32 @@ const {channelUploads,rssUploads,uploadEntry,uploadKind,recentUploadLabel}=await
 const fixtures=JSON.parse(fs.readFileSync('tests/fixtures/official-upload-listings.json','utf8')),releases=JSON.parse(fs.readFileSync('content/release-additions-20261025.json','utf8')),at='2026-10-25T03:40:00Z';
 function html(locale){const f=fixtures[locale];return f.syntax==='json-script'?'<script type="application/json" id="yt-initial-data">'+JSON.stringify(f.data)+'</script>':'var ytInitialData='+JSON.stringify(f.data)+';';}
 const channel={platform:'youtube',id:'wuwa-ko-youtube',gameId:'wuwa',locale:'ko',region:'global',name:'명조:워더링 웨이브',url:'https://www.youtube.com/channel/UCKuq0c-RXYaulECSuu5hFug',evidenceUrls:['https://wutheringwaves.kurogames.com/kr/main/news/detail/5572'],official:true,verifiedAt:at,checkedAt:at,status:'ok',posts:[]};
-test('actual three-language official listings support both JSON script syntaxes without inventing upload clocks or watched content',()=>{
- for(const l of ['ko','en','ja']){const e=releases.find(e=>e.sourceLocale===l),id=/channel\/(.+)/.exec(e.videos[0].evidenceUrls[0])[1],rows=channelUploads(html(l),id);assert.equal(rows[0].youtubeId,e.videos[0].youtubeId);assert.equal(rows[0].title,e.sourceTitle);assert.equal(rows[0].recent,true);assert.equal(rows[0].publishedAt,undefined);assert.throws(()=>channelUploads(html(l),'UCwrong'),/identity/);}
+test('actual four-language official listings support both JSON script syntaxes without inventing upload clocks or watched content',()=>{
+ for(const l of ['ko','en','ja','zh']){const e=releases.find(e=>e.gameId==='wuwa'&&e.sourceLocale===l),id=/channel\/(.+)/.exec(e.videos[0].evidenceUrls[0])[1],rows=channelUploads(html(l),id);assert.equal(rows[0].youtubeId,e.videos[0].youtubeId);assert.equal(rows[0].title,e.sourceTitle);assert.equal(rows[0].recent,true);assert.equal(rows[0].publishedAt,undefined);assert.throws(()=>channelUploads(html(l),'UCwrong'),/identity/);}
  const u=channelUploads(html('ko'),'UCKuq0c-RXYaulECSuu5hFug')[0],e=uploadEntry(channel,u,at);assert.equal(e.videos[0].kind,'version');assert.equal(e.videos[0].watched,false);assert.equal(e.videos[0].publishedAt,null);assert.equal(e.videos[0].discoveredAt,at);assert.equal(e.startAt,null);assert.equal(e.endAt,null);assert.equal(uploadKind('신규 코스튬 트레일러 PV'),undefined);assert.equal(uploadKind('캐릭터 PV | 새 인물').kind,'character');assert.equal(uploadKind('공명자 전투 모션 | 쇄명').format,'demo');
  assert.equal(recentUploadLabel('200 hours ago'),false);assert.equal(recentUploadLabel('25 分前'),true);assert.equal(recentUploadLabel('8 days ago'),false);
  assert.equal(uploadEntry(channel,u,'2026-10-26T03:40:00Z',e).verifiedAt,e.verifiedAt);assert.equal(uploadEntry(channel,u,'2026-10-26T03:40:00Z',e).videos[0].discoveredAt,at);
+});
+test('PV presentation selects the native language, uses English only for a missing counterpart, and retains independent services and stored originals',async()=>{
+ const {collectVideos,languageScopedVideos,localizeVideoNotices}=await import('../lib/videos.ts');
+ const originals=releases.filter(e=>e.gameId==='wuwa'),before=JSON.stringify(originals),now=Date.parse('2026-10-25T06:15:00Z');
+ for(const locale of ['ko','en','ja','zh']){
+  const clips=recentPVClips(originals,locale,now);assert.equal(clips.length,1);assert.equal(clips[0].locale,locale);
+  assert.deepEqual(localizeVideoNotices(originals,locale).map(e=>e.sourceLocale),[locale]);
+  const {favoriteNoticeGroups}=await import('../lib/favorite-updates.ts'),{games}=await import('../lib/games.ts');
+  assert.deepEqual(favoriteNoticeGroups(originals,games,['wuwa'],'global',{},locale)[0].notices.map(e=>e.sourceLocale),[locale]);
+ }
+ const noChinese=originals.filter(e=>e.sourceLocale!=='zh'),unrelatedChinese={...structuredClone(originals.find(e=>e.sourceLocale==='zh')),id:'other-native-pv'};
+ unrelatedChinese.videos[0].youtubeId='unrelated01';unrelatedChinese.videos[0].originalTitle='Another trailer';
+ const fallback=recentPVClips([...noChinese,unrelatedChinese],'zh',now);assert.ok(fallback.some(v=>v.locale==='en'&&v.youtubeId==='LXyEJPjiMsU'));assert.ok(!fallback.some(v=>v.locale==='ko'||v.locale==='ja'));
+ const china=originals.map(e=>({...e,id:'cn-'+e.id,gameId:'arknights',region:'cn'}));
+ assert.deepEqual(languageScopedVideos(collectVideos(china,'ko'),'ko').map(v=>v.locale),['zh']);
+ assert.equal(collectVideos(originals,'ko').length,4);assert.equal(JSON.stringify(originals),before);
+ assert.equal(originals.find(e=>e.sourceLocale==='zh').videos[0].publishedAt,'2026-10-24T20:00:36-07:00');
+ const React=await import('react'),{renderToStaticMarkup}=await import('react-dom/server'),{default:VideoLibrary}=await import('../components/video-library.tsx');
+ const output=renderToStaticMarkup(React.createElement(VideoLibrary,{entries:noChinese,locale:'zh'}));
+ assert.match(output,/Wuthering Waves Lore Trailer \| TRANSCENDO/);assert.match(output,/English/);assert.ok(!output.includes('『명조:워더링 웨이브』 세계관 PV'));
+ assert.match(output,/value="all"/);assert.match(output,/优先显示语言/);
 });
 test('official RSS binds exact channel/id and preserves its clock; PV cards expire and never create pickup times',()=>{
  const xml='<feed><yt:channelId>UCtrusted</yt:channelId><entry><yt:videoId>abcdefghijk</yt:videoId><yt:channelId>UCtrusted</yt:channelId><title>캐릭터 PV &amp; 소개</title><published>2026-10-25T03:00:00+00:00</published><media:thumbnail url="https://i.ytimg.com/vi/abcdefghijk/hqdefault.jpg"/></entry></feed>',rows=rssUploads(xml,'UCtrusted',Date.parse(at));assert.equal(rows[0].title,'캐릭터 PV & 소개');assert.equal(rows[0].publishedAt,'2026-10-25T03:00:00+00:00');assert.throws(()=>rssUploads(xml,'UCwrong'),/identity/);

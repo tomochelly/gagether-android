@@ -1,0 +1,34 @@
+[
+  {
+    "id": "wuwa-zh-youtube",
+    "gameId": "wuwa",
+    "region": "global",
+    "locale": "zh",
+    "platform": "youtube",
+    "name": "鳴潮",
+    "url": "https://www.youtube.com/channel/UCVZqteUtWfSnwQ0ShjHixVw",
+    "official": true,
+    "evidenceUrls": [
+      "https://wutheringwaves.kurogames.com/zh-tw/main",
+      "https://www.youtube.com/@WutheringWaves.ZH.official",
+      "https://www.youtube.com/channel/UCVZqteUtWfSnwQ0ShjHixVw"
+    ],
+    "verifiedAt": "2026-10-25T06:08:33.286165Z",
+    "checkedAt": "2026-10-25T06:08:33.286165Z",
+    "status": "ok",
+    "posts": [
+      {
+        "url": "https://www.youtube.com/watch?v=MDkTlOfQZsE",
+        "originalTitle": "《鳴潮》世界觀PV | 超驗TRANSCENDO",
+        "locale": "zh",
+        "youtubeId": "MDkTlOfQZsE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MDkTlOfQZsE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAP4ZXXJAZ9C1Ufc5c-G_DVBUAWCg",
+        "publishedAt": "2026-10-24T20:00:36-07:00",
+        "verifiedAt": "2026-10-25T06:08:33.286165Z",
+        "metadataVerified": true,
+        "watched": false,
+        "sourceAccess": "metadata"
+      }
+    ]
+  }
+]

@@ -9,7 +9,7 @@ const url=z.string().max(2000).refine(s=>{try{const u=new URL(s);return u.protoc
 const image=z.object({url,sourceUrl:url,kind:z.enum(['splash','full-body','card','portrait']),width:z.number().int().min(1).max(30000).optional(),height:z.number().int().min(1).max(30000).optional(),locale:z.enum(['ko','en','ja','zh','neutral']).optional(),sourceKind:z.enum(['community','official']).optional(),caption:z.union([copy,z.string().max(1000)]).optional(),variantId:z.string().min(1).max(100).optional(),variantLabel:copy.optional()}).strict();
 const stat=z.object({id:z.string().max(100),label:copy,value:z.string().max(100),basis:copy,group:z.enum(['primary','detail']).optional()}).strict();
 const statProgression=z.object({
- sourceUrl:url,sourceKind:z.enum(['official','community']),basis:copy,
+ sourceUrl:url,sourceKind:z.enum(['official','community']),basis:copy,stageLabel:copy.optional(),
  stats:z.array(z.object({id:z.string().min(1).max(100),label:copy,basis:copy.optional(),group:z.enum(['primary','detail']).optional()}).strict()).min(1).max(40),
  stages:z.array(z.object({id:z.number().int().min(0).max(10),label:copy}).strict()).min(1).max(11).optional(),
  rows:z.array(z.object({level:z.number().int().min(1).max(200),stage:z.number().int().min(0).max(10).optional(),values:z.record(z.string().max(100))}).strict()).min(1).max(200)

@@ -2,7 +2,7 @@
 .roster-card,.reference-gallery>.reference-gallery-panel{transition:transform .28s cubic-bezier(.2,.75,.3,1),filter .28s;transform-origin:50% 55%}
 .roster-portrait .roster-card-image.is-full-body{object-fit:contain;object-position:center 7%;transform:none}
 .gallery-glass{position:absolute;inset:0;z-index:3;pointer-events:none;background:linear-gradient(118deg,#fff0 9%,#ffffff06 23%,#ffffff15 24%,#ffffff02 39%,#fff0 54%),linear-gradient(165deg,#ffffff08,#fff0 42%);background-size:210% 100%,100% 100%;background-position:85% 0,0 0;transition:background-position .65s ease,opacity .3s;opacity:.65}
-:root[data-theme=light] .gallery-glass{opacity:.85}
+:root[data-theme=light] .gallery-glass{background-image:linear-gradient(118deg,#5c7b9500 9%,#7296ad12 23%,#8cacbf38 24%,#ffffff70 30%,#8fa9bb12 39%,#496d8900 54%),linear-gradient(165deg,#5c82951c,#ffffff05 42%);opacity:.85}
 @media(hover:hover) and (pointer:fine){
  .roster-card:hover,.reference-gallery>.reference-gallery-panel:hover{z-index:6;transform:translateY(-3px) scale(1.014);filter:brightness(1.035) drop-shadow(0 6px 8px #07120c24)}
  .roster-card:hover>.gallery-glass,.reference-gallery-panel:hover>.gallery-glass{background-position:15% 0,0 0;opacity:1}
@@ -11,6 +11,8 @@
 .roster-seam-track,.reference-seam-track{stroke-width:1;stroke:color-mix(in srgb,var(--roster-accent,var(--accent)) 52%,transparent)}
 .roster-seam-beam,.reference-seam-beam{stroke:#f7ffe1;stroke-width:1.5;stroke-dasharray:18 120;filter:drop-shadow(0 0 3px #e9f9b5);animation:gallery-meteor 12s linear infinite both}
 .roster-seam-core,.reference-seam-core{stroke:#fff;stroke-width:2.4;stroke-dasharray:1 137;stroke-dashoffset:0;opacity:0;filter:drop-shadow(0 0 3px #fbffe2);animation:gallery-meteor-core 12s linear infinite both}
+:root[data-theme=light] :is(.roster-seam-beam,.reference-seam-beam){stroke:#638e9b;filter:drop-shadow(0 0 3px #7da9bb88)}
+:root[data-theme=light] :is(.roster-seam-core,.reference-seam-core){stroke:#eaf9ff;filter:drop-shadow(0 0 2px #49798e)}
 .roster-seam-beam,.roster-seam-core{animation-delay:var(--roster-seam-delay)}
 .reference-seam-beam,.reference-seam-core{animation-delay:var(--seam-delay-wide)}
 @keyframes gallery-meteor{0%{stroke-dashoffset:20;opacity:0}1%{opacity:.75}12%{opacity:.75}14%{stroke-dashoffset:-120;opacity:0}100%{stroke-dashoffset:-120;opacity:0}}

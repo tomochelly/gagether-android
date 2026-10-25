@@ -25,7 +25,7 @@ function mergeStats(primary:RosterCharacter['stats'],extra:RosterCharacter['stat
  * New source values win; a missing field is not an instruction to erase facts. */
 export function retainCharacterFacts(c:RosterCharacter,extra:RosterCharacter):RosterCharacter{
   c=cleanRosterArt(c);extra=cleanRosterArt(extra);
-  const full=extra.image&&extra.image.kind!=='portrait'&&c.image?.kind==='portrait';
+  const full=extra.image&&(c.image?.kind==='portrait'&&extra.image.kind!=='portrait'||c.image?.kind==='card'&&['splash','full-body'].includes(extra.image.kind));
   const oldTraits=new Map(extra.traits?.map(t=>[t.id,t])||[]);
   const traits=c.traits?.length?c.traits.map(t=>{const old=oldTraits.get(t.id);if(!old)return t;return {...old,...t,label:fillCopy(t.label,old.label),value:fillCopy(t.value,old.value),icon:t.icon||old.icon};}):extra.traits;
   const regionalStats={...extra.regionalStats,...c.regionalStats};

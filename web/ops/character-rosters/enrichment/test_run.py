@@ -12,6 +12,19 @@ class PreserveInput(unittest.TestCase):
     helper.write_text('raise RuntimeError("unavailable supplement")\n')
     result,reports=module.enrich_files({'fixture':source},root/'work2');self.assertEqual(result['fixture'],source);self.assertEqual(reports['x']['status'],'partial');self.assertEqual(json.loads(source.read_text())['characters'][0]['id'],'original')
   finally:module.ROOT,module.GROUPS=saved_root,saved_groups
+ def test_zzz_partial_keeps_verified_progress_but_failed_or_wrong_identity_never_promotes(self):
+  saved_root,saved_groups=module.ROOT,module.GROUPS
+  try:
+   with tempfile.TemporaryDirectory()as td:
+    root=pathlib.Path(td);module.ROOT=root;module.GROUPS={'c':['zzz']};(root/'zzz').mkdir()
+    source=root/'zzz.json';source.write_text(json.dumps({'gameId':'zzz','characters':[{'id':'1011','stats':[]}]}))
+    (root/'enrich_c.py').write_text('import argparse,pathlib,shutil\np=argparse.ArgumentParser();p.add_argument("--input-dir");p.add_argument("--output-dir");p.add_argument("--cache-dir");a=p.parse_args();shutil.copyfile(pathlib.Path(a.input_dir,"zzz.json"),pathlib.Path(a.output_dir,"zzz.json"))\n')
+    for status,identity,expected in [('partial','1011',True),('failed','1011',False),('ok','other-form',False)]:
+     helper='import argparse,json,pathlib\np=argparse.ArgumentParser();p.add_argument("--input");p.add_argument("--output-dir");p.add_argument("--cache-dir");a=p.parse_args();d=json.loads(pathlib.Path(a.input).read_text());d["characters"][0]["id"]='+repr(identity)+';d["verifiedSupplement"]=True;pathlib.Path(a.output_dir,"zzz.json").write_text(json.dumps(d));pathlib.Path(a.output_dir,"manifest.json").write_text(json.dumps({"status":'+repr(status)+'}));raise SystemExit('+('0'if status=='ok'else'1')+')\n'
+     (root/'zzz/enrich.py').write_text(helper)
+     result,reports=module.enrich_files({'zzz':source},root/('work-'+status));saved=json.loads(result['zzz'].read_text())
+     self.assertEqual(saved.get('verifiedSupplement',False),expected);self.assertEqual(saved['characters'][0]['id'],'1011');self.assertEqual(reports['c']['status'],'partial')
+  finally:module.ROOT,module.GROUPS=saved_root,saved_groups
  def test_bluearchive_detail_failure_or_wrong_identity_retains_valid_base_output(self):
   saved_root,saved_groups=module.ROOT,module.GROUPS
   try:
