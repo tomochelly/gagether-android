@@ -25,6 +25,19 @@ class PreserveInput(unittest.TestCase):
      result,reports=module.enrich_files({'zzz':source},root/('work-'+status));saved=json.loads(result['zzz'].read_text())
      self.assertEqual(saved.get('verifiedSupplement',False),expected);self.assertEqual(saved['characters'][0]['id'],'1011');self.assertEqual(reports['c']['status'],'partial')
   finally:module.ROOT,module.GROUPS=saved_root,saved_groups
+ def test_hsr_scoped_detail_helper_promotes_only_checked_same_form_facts(self):
+  saved_root,saved_groups=module.ROOT,module.GROUPS
+  try:
+   with tempfile.TemporaryDirectory()as td:
+    root=pathlib.Path(td);module.ROOT=root;module.GROUPS={'c':['hsr']};(root/'hsr').mkdir()
+    source=root/'hsr.json';source.write_text(json.dumps({'gameId':'hsr','characters':[{'id':'1001','stats':[]}]}))
+    (root/'enrich_c.py').write_text('import argparse,pathlib,shutil\np=argparse.ArgumentParser();p.add_argument("--input-dir");p.add_argument("--output-dir");p.add_argument("--cache-dir");a=p.parse_args();shutil.copyfile(pathlib.Path(a.input_dir,"hsr.json"),pathlib.Path(a.output_dir,"hsr.json"))\n')
+    for status,identity,expected in [('ok','1001',True),('failed','1001',False),('ok','other-form',False)]:
+     helper='import argparse,json,pathlib\np=argparse.ArgumentParser();[p.add_argument(x)for x in ["--input","--output","--source-dir","--manifest"]];p.add_argument("--refresh",action="store_true");a=p.parse_args();d=json.loads(pathlib.Path(a.input).read_text());d["characters"][0]["id"]='+repr(identity)+';d["verifiedSupplement"]=True;pathlib.Path(a.output).write_text(json.dumps(d));pathlib.Path(a.manifest).write_text(json.dumps({"status":'+repr(status)+'}));raise SystemExit('+('0'if status=='ok'else'1')+')\n'
+     (root/'hsr/enrich.py').write_text(helper)
+     result,reports=module.enrich_files({'hsr':source},root/('work-'+status+identity));saved=json.loads(result['hsr'].read_text())
+     self.assertEqual(saved.get('verifiedSupplement',False),expected);self.assertEqual(saved['characters'][0]['id'],'1001');self.assertEqual(reports['c']['status'],'completed'if expected else'partial')
+  finally:module.ROOT,module.GROUPS=saved_root,saved_groups
  def test_bluearchive_detail_failure_or_wrong_identity_retains_valid_base_output(self):
   saved_root,saved_groups=module.ROOT,module.GROUPS
   try:

@@ -1,6 +1,7 @@
 import bootstrap from '../content/character-rosters/bootstrap.json' with {type:'json'};
 import artwork from '../content/character-rosters/artwork-manifest.json' with {type:'json'};
 import {cleanRosterArt} from './character-roster-art-guard';
+import {pinRosterFactIcons} from './roster-detail-icons';
 import type {CharacterRoster,RosterCharacter} from './character-roster';
 
 const snapshots=new Map((bootstrap as CharacterRoster[]).map(r=>[r.gameId,r]));
@@ -18,7 +19,7 @@ function fillCopy(primary:RosterCharacter['name'],extra:RosterCharacter['name'])
  return Object.fromEntries(locales.map(l=>[l,primary[l]||extra[l]])) as RosterCharacter['name'];
 }
 function mergeStats(primary:RosterCharacter['stats'],extra:RosterCharacter['stats']){
- const known=new Map(extra?.map(s=>[s.id,s])||[]),merged=(primary||[]).map(s=>{const old=known.get(s.id);known.delete(s.id);return old?{...old,...s,label:fillCopy(s.label,old.label),basis:fillCopy(s.basis,old.basis),value:s.value||old.value}:s;});
+ const known=new Map(extra?.map(s=>[s.id,s])||[]),merged=(primary||[]).map(s=>{const old=known.get(s.id);known.delete(s.id);return old?{...old,...s,label:fillCopy(s.label,old.label),basis:fillCopy(s.basis,old.basis),value:s.value||old.value,icon:s.icon||old.icon}:s;});
  return merged.length||known.size?[...merged,...known.values()]:undefined;
 }
 /** Supplements a sparse source response with exact-ID, source-backed saved facts.
@@ -57,6 +58,6 @@ export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
  });
  characters.push(...known.values());characters.sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
  const pin=(id:string,a:RosterCharacter['image'])=>{if(!a)return a;const saved=artwork.find(s=>s.gameId===data.gameId&&s.characterId===id&&s.url===a.url);return saved?{...a,url:saved.publicUrl}:a;};
- const pinned=characters.map(c=>({...c,image:pin(c.id,c.image),...(c.images?{images:c.images.map(a=>pin(c.id,a)!)}:{})}));
+ const pinned=characters.map(c=>pinRosterFactIcons({...c,image:pin(c.id,c.image),...(c.images?{images:c.images.map(a=>pin(c.id,a)!)}:{})},data.gameId));
  return {...data,characters:pinned,sourceUrls:[...new Set([...data.sourceUrls,...reference.sourceUrls])].slice(0,40),coverage:{...data.coverage,includedCount:characters.length}};
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "0e4700e2801f9660e17f9de5c05ff00891c248b2e1d592f904cd847ed6d48736",
+  "fingerprint": "821e3d6e3a9d584681bde016324919a3a425a08c75fe1295767f644bfe44a04a",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -220,7 +220,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "fd506d5038785f88d13cbb56e0bf20d20fc156cfaf9182f38e4b5ebfaa09adcb"
+      "sha256": "2b9a55837b6a5089f125bb21c71a43b37d825a32687d267aca0ad19c2fb146c1"
     },
     {
       "path": "app/chatgpt-auth.ts",
@@ -472,7 +472,7 @@
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "6e32b18d87b3de910805fb368b4b9606c57186d862d8cf8a37a1179ab0c0657a"
+      "sha256": "8b760e018f9712258549eef8edfbab751ff642fd2296c82cdd2ec3d06607918e"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -676,7 +676,7 @@
     },
     {
       "path": "components/roster-stat-details.tsx",
-      "sha256": "3b7f802b95aaf352f02717cfc7ce2aedc9b6a1fde4b6cbfcfb9ca9451a31259f"
+      "sha256": "b4467f6db50a1d453e3247c819ca8e6aa085ae6564662c06ff6ab9d8bfa4aed1"
     },
     {
       "path": "components/schedule-calendar.tsx",
@@ -1064,11 +1064,11 @@
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "464329526efadf4b7b60efbe9ba0e8e4b8e75b6f989345993af6ed66e255dc2f"
+      "sha256": "4209ad2056f33335f84b37b149a457b060d634de7658a5e754281c4ee1e79a75"
     },
     {
       "path": "content/character-rosters/recovery/manifest.json",
-      "sha256": "3e7cf1547a6121ec7bbfce988a18183356b6e26ffd400a849ac730318e005f11"
+      "sha256": "9a9e69c3410e068bfd16575a48032158b14579e35da8bdcbf1d336dbe1824dc3"
     },
     {
       "path": "content/character-rosters/rejected-artwork.json",
@@ -1217,6 +1217,10 @@
     {
       "path": "content/reward-catalog.json",
       "sha256": "5dc54331770cb509eb0fbda8571da907f118d4ae6f03e9c0c5e2f7e933e17d24"
+    },
+    {
+      "path": "content/roster-detail-icons.json",
+      "sha256": "d04e78361292a752b93467f7f97dd4192aa4c7cb4eefd331fa7714e13669e5c8"
     },
     {
       "path": "content/source-review-2026-10-16.json",
@@ -1448,7 +1452,7 @@
     },
     {
       "path": "lib/character-roster-enrichment.ts",
-      "sha256": "98f12d7aa6288e31c01c3a91448b356d17606f80c2ae89b3298ba9acf7daae58"
+      "sha256": "20e01b6eca0d2f4e0cd5a08198bf1f1774944bedb5d30563b15a6bbc9a879dac"
     },
     {
       "path": "lib/character-roster-metrics.ts",
@@ -1464,7 +1468,7 @@
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "069943b721c6ca9fdaa708f2625e3d567dc64211332adb42dcd73993b083f238"
+      "sha256": "280e9c710b03b29904bcba65280edba70f745f32144574cb0a55f8d0b4f4dbbe"
     },
     {
       "path": "lib/collaboration-sources.ts",
@@ -1879,6 +1883,14 @@
       "sha256": "e49752037c4643db9941a11747406ea1c8a3ef4efc35e629e2c3b5f9db79e767"
     },
     {
+      "path": "lib/roster-detail-icons.ts",
+      "sha256": "8db61a33f5a62fafc56089589efd17a1489829019cdd7c535278bb640c02bb2b"
+    },
+    {
+      "path": "lib/roster-progression.ts",
+      "sha256": "4024c77d076df0dedd466383baec847599e8efeab0367a8c5b376c3aacf33bcc"
+    },
+    {
       "path": "lib/schedule.ts",
       "sha256": "cbab28454a8c7195c7f82bd1092bb37688637fe9e0189b1e962ba2a613b93923"
     },
@@ -2020,7 +2032,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "ab90d02e0063824cceea246896a8f25333e9d46c17ce92442d73f76742ccb7d7"
+      "sha256": "483007180cfe5ac8cdae5337c61129f9b1ae9641d793d34cc18c875c69519463"
     },
     {
       "path": "pnpm-lock.yaml",

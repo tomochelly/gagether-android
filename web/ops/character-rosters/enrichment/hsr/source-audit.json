@@ -1,0 +1,33 @@
+{
+  "officialWikiCrossChecks": [
+    {
+      "url": "https://sg-wiki-api.hoyolab.com/hoyowiki/wapi/entry_page?entry_page_id=7",
+      "status": 200,
+      "checkedAt": "2026-10-25T07:10:48.010943+00:00",
+      "sha256": "679c4dfee313c6ccb205d54fde97009db24dc8235c5a05c0dbdc84b334e6d40b",
+      "bytes": 162071,
+      "locale": "ko",
+      "entryPageId": "7",
+      "retcode": 0,
+      "name": "Mar. 7th",
+      "use": "Native identity/table cross-check only; Korean wiki table uses coarse values and is not an exact-vector replacement."
+    }
+  ],
+  "communityPrecisionCrossChecks": [
+    {
+      "url": "https://hsr.honeyhunterworld.com/love-heal-and-choose-skill/?lang=EN",
+      "fact": "Natasha skillLv2 first healing multiplier7.44% confirms [f1] source markup must not discard genuine additional fractional digits.",
+      "basis": "Independent publicly indexed numerical table; not a complete vector import."
+    },
+    {
+      "url": "https://starrail.honeyhunterworld.com/himeko-character/?lang=KR",
+      "fact": "Himeko TalentLv7=113.75% confirms [i] does not truncate genuine fractional percentages.",
+      "basis": "Independent publicly indexed numerical table; not a complete vector import."
+    },
+    {
+      "url": "https://starrail.honeyhunterworld.com/march-7th-character/?lang=EN",
+      "fact": "March7th shieldLv2=40.38% differs from normalized source.4037 (40.37%). No inferred correction or unpublished exact vector is applied.",
+      "basis": "Independent publicly indexed numerical table; precision limitation retained."
+    }
+  ]
+}

@@ -4,15 +4,18 @@ import {rejectedRosterArt,classifyRosterArt} from './character-roster-art-guard'
 import type {Locale,Region} from './types';
 import {games} from './games';
 import {effectiveRegion} from './presentation';
+import {promotionValue} from './roster-progression';
 const copy=z.object({ko:z.string().max(3000),en:z.string().max(3000),ja:z.string().max(3000),zh:z.string().max(3000)}).strict();
 const url=z.string().max(2000).refine(s=>{try{const u=new URL(s);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port&&!/^(localhost|\d+\.\d+\.\d+\.\d+|\[)/.test(u.hostname)}catch{return false}});
 const image=z.object({url,sourceUrl:url,kind:z.enum(['splash','full-body','card','portrait']),width:z.number().int().min(1).max(30000).optional(),height:z.number().int().min(1).max(30000).optional(),locale:z.enum(['ko','en','ja','zh','neutral']).optional(),sourceKind:z.enum(['community','official']).optional(),caption:z.union([copy,z.string().max(1000)]).optional(),variantId:z.string().min(1).max(100).optional(),variantLabel:copy.optional()}).strict();
-const stat=z.object({id:z.string().max(100),label:copy,value:z.string().max(100),basis:copy,group:z.enum(['primary','detail']).optional()}).strict();
+const stat=z.object({id:z.string().max(100),label:copy,value:z.string().max(100),basis:copy,group:z.enum(['primary','detail']).optional(),icon:url.optional()}).strict();
+const coefficient=z.string().max(80).regex(/^\d+(?:\.\d{1,12})?$/).refine(v=>Number(v)<=1e12);
 const statProgression=z.object({
  sourceUrl:url,sourceKind:z.enum(['official','community']),basis:copy,stageLabel:copy.optional(),
- stats:z.array(z.object({id:z.string().min(1).max(100),label:copy,basis:copy.optional(),group:z.enum(['primary','detail']).optional()}).strict()).min(1).max(40),
+ stats:z.array(z.object({id:z.string().min(1).max(100),label:copy,basis:copy.optional(),group:z.enum(['primary','detail']).optional(),icon:url.optional(),format:z.enum(['floor','number','percent']).optional()}).strict()).min(1).max(40),
  stages:z.array(z.object({id:z.number().int().min(0).max(10),label:copy}).strict()).min(1).max(11).optional(),
- rows:z.array(z.object({level:z.number().int().min(1).max(200),stage:z.number().int().min(0).max(10).optional(),values:z.record(z.string().max(100))}).strict()).min(1).max(200)
+ rows:z.array(z.object({level:z.number().int().min(1).max(200),stage:z.number().int().min(0).max(10).optional(),values:z.record(z.string().max(100))}).strict()).min(1).max(200),
+ linear:z.object({formula:z.literal('starrail-promotion'),stages:z.array(z.object({stage:z.number().int().min(0).max(10),minLevel:z.number().int().min(1).max(200),maxLevel:z.number().int().min(1).max(200),base:z.record(coefficient),step:z.record(coefficient)}).strict()).min(1).max(11)}).strict().optional()
 }).strict().superRefine((p,c)=>{
  const ids=new Set(p.stats.map(s=>s.id)),stages=new Set(p.stages?.map(s=>s.id));
  if(ids.size!==p.stats.length||new Set(p.rows.map(r=>(r.stage??0)+'|'+r.level)).size!==p.rows.length)c.addIssue({code:'custom',message:'Duplicate progression identity'});
@@ -20,6 +23,15 @@ const statProgression=z.object({
  for(const r of p.rows){
   if(Object.keys(r.values).some(k=>!ids.has(k))||[...ids].some(k=>r.values[k]===undefined))c.addIssue({code:'custom',message:'Missing or unknown progression stat'});
   if(p.stages?r.stage===undefined||!stages.has(r.stage):r.stage!==undefined)c.addIssue({code:'custom',message:'Unbound progression stage'});
+ }
+ if(p.linear){
+  if(!p.stages||p.stats.some(s=>!s.format)||new Set(p.linear.stages.map(s=>s.stage)).size!==p.linear.stages.length||p.linear.stages.length!==p.stages.length)c.addIssue({code:'custom',message:'Unbound source growth formula'});
+  for(const s of p.linear.stages){
+   if(!stages.has(s.stage)||s.minLevel>s.maxLevel||[s.base,s.step].some(v=>Object.keys(v).length!==ids.size||Object.keys(v).some(id=>!ids.has(id))))c.addIssue({code:'custom',message:'Incomplete source growth coefficients'});
+   const samples=p.rows.filter(r=>r.stage===s.stage);
+   if(!samples.some(r=>r.level===s.minLevel)||!samples.some(r=>r.level===s.maxLevel))c.addIssue({code:'custom',message:'Missing source growth endpoints'});
+   for(const r of samples)for(const stat of p.stats)try{if(promotionValue(s,stat.id,r.level,stat.format||'number')!==r.values[stat.id])c.addIssue({code:'custom',message:'Source growth checkpoint mismatch'});}catch{c.addIssue({code:'custom',message:'Invalid source growth range'});}
+  }
  }
 });
 const statGrowth=z.object({
@@ -30,9 +42,9 @@ const statGrowth=z.object({
 const parameterMatrix=z.array(z.array(z.string().max(300)).min(1).max(30)).max(100);
 const skillTable=z.object({
  id:z.string().min(1).max(200),name:copy,type:copy,nameLocale:z.enum(['ko','en','ja','zh']).optional(),icon:url.optional(),sourceUrl:url,sourceKind:z.enum(['official','community']),basis:copy,
- regions:z.array(z.enum(['global','kr','jp','cn'])).min(1).max(4).optional(),description:copy.optional(),maxLevel:z.number().int().min(1).max(30).optional(),levelLabels:z.array(copy).min(1).max(30).optional(),descriptionTemplate:copy.optional(),
+ regions:z.array(z.enum(['global','kr','jp','cn'])).min(1).max(4).optional(),description:copy.optional(),maxLevel:z.number().int().min(1).max(30).optional(),baseMaxLevel:z.number().int().min(1).max(30).optional(),levelLabels:z.array(copy).min(1).max(30).optional(),descriptionTemplate:copy.optional(),
  parameters:z.object({ko:parameterMatrix.optional(),en:parameterMatrix.optional(),ja:parameterMatrix.optional(),zh:parameterMatrix.optional()}).strict().optional(),
- values:z.array(z.object({id:z.string().min(1).max(200),label:copy,levels:z.array(z.string().max(300)).min(1).max(30)}).strict()).max(100)
+ values:z.array(z.object({id:z.string().min(1).max(200),label:copy,icon:url.optional(),levels:z.array(z.string().max(300)).min(1).max(30)}).strict()).max(100)
 }).strict().superRefine((s,c)=>{
  if(new Set(s.values.map(v=>v.id)).size!==s.values.length)c.addIssue({code:'custom',message:'Duplicate skill row'});
  if(!s.values.length&&!Object.values(s.description||{}).some(Boolean)&&!Object.values(s.descriptionTemplate||{}).some(Boolean))c.addIssue({code:'custom',message:'Missing skill facts'});
@@ -44,6 +56,7 @@ const skillTable=z.object({
   }
  }
  if(s.maxLevel&&s.values.some(v=>v.levels.length!==1&&v.levels.length!==s.maxLevel))c.addIssue({code:'custom',message:'Skill row level range mismatch'});
+ if(s.baseMaxLevel&&(!s.maxLevel||s.baseMaxLevel>s.maxLevel))c.addIssue({code:'custom',message:'Base skill cap exceeds its actual source range'});
  if(s.levelLabels&&s.levelLabels.length!==s.maxLevel)c.addIssue({code:'custom',message:'Skill level label range mismatch'});
 });
 const rosterSection=z.object({id:z.string().max(100),title:copy,body:copy,regions:z.array(z.enum(['global','kr','jp','cn'])).min(1).max(4).optional()}).strict();

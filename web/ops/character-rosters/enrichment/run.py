@@ -21,6 +21,23 @@ def enrich_files(files,work):
   for name in ['enrichment-report.json','enrichment-a-report.json','enrichment-report-b.json','manifest.json']:
    path=output/name
    if path.exists():report['sourceReport']=json.loads(path.read_text());break
+  if key=='c' and 'hsr'in files:
+   target=output/'hsr-details';target.mkdir(exist_ok=True)
+   command=[sys.executable,str(ROOT/'hsr/enrich.py'),'--input',str(output/'hsr.json'),'--output',str(target/'hsr.json'),'--source-dir',str(target/'sources'),'--manifest',str(target/'manifest.json'),'--refresh']
+   try:
+    process=subprocess.run(command,check=False,timeout=1200)
+    candidate=target/'hsr.json'
+    details=json.loads((target/'manifest.json').read_text())if(target/'manifest.json').exists()else{}
+    report['hsrEnrichment']={'exitCode':process.returncode,'details':details}
+    if details.get('status')!='ok' or process.returncode!=0:report['status']='partial'
+    if candidate.exists() and details.get('status')in ['ok','partial']:
+     d=json.loads(candidate.read_text());prior=json.loads((output/'hsr.json').read_text())
+     if d.get('gameId')!='hsr'or{c['id']for c in d['characters']}!={c['id']for c in prior['characters']}:raise ValueError('HSR detail identity mismatch')
+     if len(json.dumps(d,ensure_ascii=False,separators=(',',':')).encode())>4400000:raise ValueError('HSR detail exceeds ingest bound')
+     shutil.copyfile(candidate,output/'hsr.json')
+    else:report['status']='partial'
+   except Exception as e:
+    report['status']='partial';report['hsrError']=str(e)
   if key=='c' and 'zzz'in files:
    target=output/'zzz-details';target.mkdir(exist_ok=True)
    command=[sys.executable,str(ROOT/'zzz/enrich.py'),'--input',str(output/'zzz.json'),'--output-dir',str(target),'--cache-dir',str(target/'sources')]
@@ -111,7 +128,7 @@ def enrich_files(files,work):
    try:
     d=json.loads(path.read_text());original=json.loads(pathlib.Path(files[game]).read_text())
     if d['gameId']!=game or {c['id']for c in d['characters']}!={c['id']for c in original['characters']}:raise ValueError('Supplement changed canonical source identity set')
-    if len(json.dumps(d,ensure_ascii=False).encode())>4400000:raise ValueError('Supplement exceeds ingest bound')
+    if len(json.dumps(d,ensure_ascii=False,separators=(',',':')).encode())>4400000:raise ValueError('Supplement exceeds ingest bound')
     result[game]=path
    except Exception as e:reports[key].setdefault('validationErrors',[]).append(game+': '+str(e))
  # Audited secondary source forms extend the primary inventory without renumbering it.
@@ -125,7 +142,7 @@ def enrich_files(files,work):
   prior={c['id']for c in original['characters']};current={c['id']for c in data['characters']}
   if not prior.issubset(current)or current-prior-allowed.get(game,set()):raise ValueError('Unexpected supplemental identity change')
   data=localize(data)
-  if len(json.dumps(data,ensure_ascii=False).encode())>4400000:raise ValueError('Supplement exceeds ingest bound')
+  if len(json.dumps(data,ensure_ascii=False,separators=(',',':')).encode())>4400000:raise ValueError('Supplement exceeds ingest bound')
   missing=[]if game=='holodreams'else[c['id']for c in data['characters']if not(c.get('stats')or c.get('regionalStats'))]
   audit['missingStatsIds']=missing
   if missing:audit['status']='partial'

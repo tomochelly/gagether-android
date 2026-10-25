@@ -15,7 +15,7 @@ def post(body):
   with opener.open(urllib.request.Request(oidc,headers={'Authorization':'Bearer '+os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']}),timeout=20)as r:token=json.load(r)['value']
   print('::add-mask::'+token,flush=True)
   try:
-   req=urllib.request.Request(ENDPOINT,data=json.dumps(body,ensure_ascii=False).encode(),method='POST',headers={'Content-Type':'application/json','Accept':'application/json','X-Gagether-Collection-OIDC':token,'User-Agent':AGENT})
+   req=urllib.request.Request(ENDPOINT,data=json.dumps(body,ensure_ascii=False,separators=(',',':')).encode(),method='POST',headers={'Content-Type':'application/json','Accept':'application/json','X-Gagether-Collection-OIDC':token,'User-Agent':AGENT})
    with opener.open(req,timeout=120)as r:result=json.load(r)
    if result.get('error'):raise RuntimeError(result['error'])
    return result
