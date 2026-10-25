@@ -6,7 +6,7 @@ evaluation, player data, writes to GAGETHER, or publication. Inputs are never ed
 Per-character detail failure preserves every previous value and is reported;
 critical source failure preserves that entire game's input in the output.
 """
-import argparse, concurrent.futures, copy, datetime, hashlib, html, json, pathlib, re, urllib.request, unicodedata
+import argparse, concurrent.futures, copy, datetime, hashlib, html, json, math, pathlib, re, urllib.request, unicodedata
 
 GAMES=('limbus','nikke','trickcal','reverse1999')
 NIKKE='https://nikke-api-gunwoos-projects.vercel.app/api/nikkes'
@@ -26,11 +26,15 @@ def json_field(s,key):
  if not m:raise ValueError('Missing '+key)
  return json.JSONDecoder().raw_decode(s,m.end())[0]
 def flight(s):
- chunks=[]
- for m in re.finditer(r'self\.__next_f\.push\((\[.*?\])\)',s):
+ chunks=[];decoder=json.JSONDecoder()
+ for m in re.finditer(r'self\.__next_f\.push\(',s):
   try:
-   x=json.loads(m.group(1))
-   if len(x)>1 and isinstance(x[1],str):chunks.append(x[1])
+   pos=m.end()
+   while pos<len(s)and s[pos].isspace():pos+=1
+   # JSON strings can contain "])". A regex stops there and silently drops the
+   # character chunk; decode only the inert JSON array, never JavaScript.
+   x,end=decoder.raw_decode(s,pos)
+   if isinstance(x,list)and len(x)>1 and isinstance(x[1],str):chunks.append(x[1])
   except (ValueError,TypeError):pass
  if not chunks:raise ValueError('Missing inert Next Flight data')
  return ''.join(chunks)
@@ -189,39 +193,117 @@ def enrich_trickcal(doc,cache):
   for l,loc in [('ko','ko'),('ja','ja'),('zh','zh-CN')]:native_name(c,l,hit.get(loc),TRICK)
  return {'nameMatches':len(doc['characters'])-len(missing),'unmatchedNames':missing,'sourceCount':len(rows),'note':'lsbim/foods explicitly provides multilingual same-apostle names. This source supplies grade/personality but no HP/ATK/DEF table; no numerical combat stats were invented.'}
 
+def reverse_identity(value):
+ # Cyrillic names (e.g. Зима) must never collide with an empty/??? NPC alias.
+ return re.sub(r'[\W_]+','',unicodedata.normalize('NFKC',str(value)).casefold(),flags=re.UNICODE)
+
+def reverse_native_index(chars,en):
+ grouped={};rejected=[]
+ for row in chars:
+  if row.get('heroType')!=1 or str(row.get('isOnline'))!='1':
+   rejected.append({'heroId':row.get('id'),'reason':'non-playable/offline native record'});continue
+  for value in [row.get('nameEng',''),en.get(row.get('name'),'')]:
+   key=reverse_identity(value)
+   if not key:
+    rejected.append({'heroId':row.get('id'),'reason':'empty normalized native name'});continue
+   grouped.setdefault(key,{})[row['id']]=row
+ index={}
+ for key,rows in grouped.items():
+  if len(rows)==1:index[key]=next(iter(rows.values()))
+  else:rejected.append({'key':key,'heroIds':sorted(rows),'reason':'ambiguous native identity'})
+ return index,rejected
+
+def checked_reverse_stat(key,value):
+ if isinstance(value,bool)or not isinstance(value,(int,float))or not math.isfinite(value):raise ValueError('Non-numeric Reverse '+key)
+ bounds={'hp':(1,100000),'atk':(1,10000),'reality_def':(0,10000),'mental_def':(0,10000),'crit_rate':(0,100),'crit_dmg':(0,1000)}
+ low,high=bounds[key]
+ if not low<=value<=high:raise ValueError('Out-of-range Reverse '+key+'='+str(value))
+ return value
+
+def reverse_prydwen_base(profile,expected_slug,rejections=None):
+ if profile.get('slug')!=expected_slug:raise ValueError('Reverse source slug mismatch')
+ source=profile.get('characterStats')or{};values={}
+ zero_critical_pair=all(isinstance(source.get(k),dict)and source[k].get('insight_0_min')==0 for k in ['crit_rate','crit_dmg'])
+ for key in ['hp','atk','reality_def','mental_def','crit_rate','crit_dmg']:
+  row=source.get(key)
+  if zero_critical_pair and key in ['crit_rate','crit_dmg']:
+   if rejections is not None:rejections.append({'stat':key,'value':0,'reason':'all-zero optional critical pair is a source placeholder'})
+   continue
+  if isinstance(row,dict)and row.get('insight_0_min')is not None:values[key]=checked_reverse_stat(key,row['insight_0_min'])
+ if not {'hp','atk','reality_def','mental_def'}<=values.keys():raise ValueError('Missing complete verified Insight 0 Lv.1 core table')
+ basis=copies('Prydwen 기본 표 · 통찰 0 Lv.1, 공명·의지·조각 보너스 제외','Prydwen base table, Insight 0 Lv.1; resonance, psychube and portray bonuses excluded','Prydwen基礎表・洞察0 Lv.1。共鳴・心相・塑造の追加効果を除く','Prydwen基础表，洞悉0 Lv.1，不含共鸣、心相、塑造加成')
+ return [stat(k,str(value)+('%'if k in ['crit_rate','crit_dmg']else''),LABELS[k],basis)for k,value in values.items()]
+
+def merge_reverse_stats(previous,verified):
+ # Preserve omitted optional facts only within the very same growth basis.
+ # An I2/max-level or unknown-rank panel must never leak into an I0 base panel.
+ basis=verified[0].get('basis')if verified else None
+ old={row['id']:str(row.get('value',''))for row in previous}
+ zero_pair=all(old.get(k)in('0','0.0','0%','0.0%')for k in ['crit_rate','crit_dmg'])
+ merged={row['id']:row for row in verified}
+ for row in previous:
+  if row['id']not in merged and basis and row.get('basis')==basis and not(zero_pair and row['id']in['crit_rate','crit_dmg']):merged[row['id']]=row
+ return list(merged.values())
+
+def reverse_native_base_rows(rows,playable_ids):
+ # The mirror supplies no insight/rank discriminator. A unique Lv.1 row is a
+ # usable source fact, but its basis must say Lv.1 only, never assumed Insight0.
+ # Identity is independently proven playable+online; duplicates are never chosen.
+ grouped={};rejected=[];fields=sorted({key for row in rows for key in row})
+ counts={}
+ for row in rows:
+  if row.get('level')==1:counts[row.get('heroId')]=counts.get(row.get('heroId'),0)+1
+ for row in rows:
+  if row.get('level')!=1:continue
+  ident=row.get('heroId')
+  try:
+   values={k:checked_reverse_stat(k,row.get(field))for k,field in [('hp','hp'),('atk','atk'),('reality_def','def'),('mental_def','mdef')]}
+   if ident not in playable_ids:raise ValueError('not an independently verified playable+online hero')
+   if counts[ident]!=1:raise ValueError('duplicate Lv.1 rows; refusing last-row selection')
+   if 'insight'in row and (row['insight']!=0 or isinstance(row['insight'],bool)):raise ValueError('explicit non-base insight field')
+   if 'rank'in row and (row['rank']!=1 or isinstance(row['rank'],bool)):raise ValueError('explicit non-base rank field')
+   grouped.setdefault(ident,[]).append(values)
+  except ValueError as error:rejected.append({'heroId':ident,'level':row.get('level'),'reason':str(error)})
+ accepted={}
+ for ident,values in grouped.items():
+  if len(values)==1:accepted[ident]=values[0]
+  else:rejected.append({'heroId':ident,'reason':'duplicate explicit base rows; refusing last-row selection'})
+ return accepted,{'fields':fields,'levelOneRows':sum(row.get('level')==1 for row in rows),'accepted':len(accepted),'rejected':rejected}
+
 def enrich_reverse1999(doc,cache):
- chars=cache.json(REVERSE+'json/character.json');ko={r['key']:r['content']for r in cache.json(REVERSE+'configs/language/language_kr.json')};en={r['key']:r['content']for r in cache.json(REVERSE+'configs/language/language_en.json')}
- if len(chars)<100 or len({c['id']for c in chars})!=len(chars)or len(ko)<10000 or len(en)<10000:raise ValueError('Incomplete or duplicate Reverse native inventory')
- index={normalize(r['nameEng']):r for r in chars};index.update({normalize(en[r['name']]):r for r in chars if en.get(r['name'])})
- missing=[];matches=0
- for c in doc['characters']:
-  hit=index.get(normalize(c['name']['en']))
-  if hit and ko.get(hit['name']):native_name(c,'ko',ko[hit['name']],REVERSE+'configs/language/language_kr.json');matches+=1
-  else:missing.append(c['id'])
- # CN-first community records currently absent in the native global tables.
- # Keep their explanatory Korean display forms explicitly tagged as translations.
+ inventory_errors=[];index={};identity_rejections=[];matches=0;missing=[]
+ try:
+  chars=cache.json(REVERSE+'json/character.json');ko={r['key']:r['content']for r in cache.json(REVERSE+'configs/language/language_kr.json')};en={r['key']:r['content']for r in cache.json(REVERSE+'configs/language/language_en.json')}
+  if len(chars)<100 or len({c['id']for c in chars})!=len(chars)or len(ko)<10000 or len(en)<10000:raise ValueError('Incomplete or duplicate Reverse native inventory')
+  index,identity_rejections=reverse_native_index(chars,en)
+  for c in doc['characters']:
+   hit=index.get(reverse_identity(c['name']['en']))
+   if hit and ko.get(hit['name']):native_name(c,'ko',ko[hit['name']],REVERSE+'configs/language/language_kr.json');matches+=1
+   else:missing.append(c['id'])
+ except Exception as error:
+  inventory_errors.append({'source':'native-character-identity','error':type(error).__name__+': '+str(error)})
+  missing=[c['id']for c in doc['characters']]
  extra={'Hedone':'헤도네','Narcissus':'나르키소스','Huntsworn Lilya':'사냥 마녀 릴리아','Glyndŵr':'글린두르'}
  for c in doc['characters']:
   if not c['name'].get('ko')and c['name']['en']in extra:native_name(c,'ko',extra[c['name']['en']],c['sourceUrl'],'translation')
+ verified=set();fallback=[];native_proof={};optional_rejections=[]
  def details(c):
+  if not c['sourceUrl'].startswith('https://www.prydwen.gg/re1999/characters/'):raise ValueError('No Prydwen base profile for this exact record; preserving prior source facts')
   d=json_field(flight(cache.get(c['sourceUrl'])),'character')
-  if d['slug']!=c['sourceUrl'].rstrip('/').split('/')[-1]:raise ValueError('Reverse source identity mismatch')
-  s=d.get('characterStats')or{};stats=[]
-  basis=copies('Prydwen 기본 표 · 통찰 0 Lv.1, 공명·의지·조각 보너스 제외','Prydwen base table, Insight 0 Lv.1; resonance, psychube and portray bonuses excluded','Prydwen基礎表・洞察0 Lv.1。共鳴・心相・塑造の追加効果を除く','Prydwen基础表，洞悉0 Lv.1，不含共鸣、心相、塑造加成')
-  for key in ['hp','atk','reality_def','mental_def','crit_rate','crit_dmg']:
-   value=(s.get(key)or{}).get('insight_0_min')
-   if value is not None:stats.append(stat(key,str(value)+('%'if key in ['crit_rate','crit_dmg']else''),LABELS[key],basis))
-  return {'stats':stats}if stats else{}
+  rejected=[];stats=reverse_prydwen_base(d,c['sourceUrl'].rstrip('/').split('/')[-1],rejected)
+  optional_rejections.extend({'id':c['id'],'sourceUrl':c['sourceUrl'],**r}for r in rejected)
+  verified.add(c['id']);return {'stats':merge_reverse_stats(c.get('stats',[]),stats)}
  count,errors=detail_rows(doc,cache,details)
- native_levels={r['heroId']:r for r in cache.json(REVERSE+'json/character_level.json')if r['level']==1}
- native_basis=copies('공개 클라이언트 character_level 표 · Lv.1, 통찰·공명·의지·조각 보너스 제외','Public client character_level table, Lv.1; insight, resonance, psychube and portray bonuses excluded','公開クライアント character_level表・Lv.1。洞察・共鳴・心相・塑造の追加効果を除く','公开客户端character_level表Lv.1，不含洞悉、共鸣、心相、塑造加成')
- for c in doc['characters']:
-  hit=index.get(normalize(c['name']['en']));values=native_levels.get(hit['id'])if hit else None
-  if values:
-   old={s['id']:s for s in c.get('stats',[])}
-   old.update({k:stat(k,values[f],LABELS[k],native_basis)for k,f in [('hp','hp'),('atk','atk'),('reality_def','def'),('mental_def','mdef')]})
-   c['stats']=list(old.values())
- return {'nativeNameMatches':matches,'unmatchedNames':missing,'detailReads':count,'detailFailures':errors,'note':'Korean native names joined through the exact client name key and published English identity; absent CN-first names remain reported gaps. Stats retain their actual Insight 0 Lv.1 basis.'}
+ if not NAMES_ONLY:
+  try:native_levels,native_proof=reverse_native_base_rows(cache.json(REVERSE+'json/character_level.json'),{row['id']for row in index.values()})
+  except Exception as error:native_levels={};inventory_errors.append({'source':'native-level-optional-fallback','error':type(error).__name__+': '+str(error)})
+  native_basis=copies('공개 클라이언트 character_level 표 · Lv.1','Public client character_level table · Lv.1','公開クライアント character_level表・Lv.1','公开客户端character_level表·Lv.1')
+  for c in doc['characters']:
+   if c['id']in verified:continue
+   hit=index.get(reverse_identity(c['name']['en']));values=native_levels.get(hit['id'])if hit else None
+   if values:
+    c['stats']=merge_reverse_stats(c.get('stats',[]),[stat(k,value,LABELS[k],native_basis)for k,value in values.items()]);fallback.append({'id':c['id'],'heroId':hit['id']})
+ return {'nativeNameMatches':matches,'unmatchedNames':missing,'detailReads':count,'detailFailures':errors,'verifiedPrydwenBaseIds':sorted(verified),'optionalStatRejections':optional_rejections,'nativeFallbacks':fallback,'nativeLevelProof':native_proof,'nativeIdentityRejections':identity_rejections,'sourceRejections':inventory_errors,'note':'Verified Prydwen Insight 0 Lv.1 core values take priority. Unicode names retain their identity; NPCs, empty/ambiguous names, duplicate Lv.1 rows, all-zero optional critical pairs and out-of-range placeholders are rejected. A unique Lv.1 fallback requires independently verified playable+online identity and claims only the source Lv.1 basis, never an unstated insight stage. Panels from different growth bases are not combined. Optional fallback failure never rolls back verified profile facts.'}
 
 def enrich(game,document,cache_dir):
  cache=Cache(pathlib.Path(cache_dir)/game);out=copy.deepcopy(document);report=globals()['enrich_'+game](out,cache)
