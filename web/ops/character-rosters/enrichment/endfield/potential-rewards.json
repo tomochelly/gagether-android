@@ -1,0 +1,3242 @@
+[
+  {
+    "nativeId": "chr_0002_endminm",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0002_endminm",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "기억의 매개체",
+          "en": "Memory Mesh",
+          "ja": "記憶のグリッド",
+          "zh": "记忆网纸"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "狂zip"
+      },
+      {
+        "id": "item_pic_3_chr_0002_endminm",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "쿼드런트",
+          "en": "Quadrant",
+          "ja": "象限",
+          "zh": "象限"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "廻轉"
+      }
+    ],
+    "id": "endministrator2"
+  },
+  {
+    "nativeId": "chr_0015_lifeng",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0015_lifeng",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "증과",
+          "en": "Proof of Enlightenment",
+          "ja": "正覚",
+          "zh": "证果"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "hou",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/91135c06d005c091616eaa4e0e778357e92e76a86e0f6363ab555c623ff19d79.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0015_lifeng",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "도의 길",
+          "en": "Seeking for the Path",
+          "ja": "求道",
+          "zh": "寻道"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "某猫monota",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/b53dade6030da38c901fd7f15c677527db5865d81fa660ecb07cebdc3feef4dd.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0015_lifeng",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "소년의 마음",
+          "en": "Heart of Youth",
+          "ja": "少年の心",
+          "zh": "少年心"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Eteru",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/2d3a70e8adb5e8eb7a5cb6c1f3c2316e01a69b932116d8249d0fe9c13379df95.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0015_lifeng",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "소년의 마음",
+          "en": "Heart of Youth",
+          "ja": "少年の心",
+          "zh": "少年心"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "lifeng"
+  },
+  {
+    "nativeId": "chr_0003_endminf",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0003_endminf",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "기억의 매개체",
+          "en": "Memory Mesh",
+          "ja": "記憶のグリッド",
+          "zh": "记忆网纸"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "狂zip",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/12c4c5705ab15fc20a6c84eeebc4657ce32dbff367f44df46e38c1b705e2bd66.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0003_endminf",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "쿼드런트",
+          "en": "Quadrant",
+          "ja": "象限",
+          "zh": "象限"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "廻轉",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/375af940f9a05ae5b247375c946024e8cc1715e64138b4e6468e6e2350890d8c.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 578,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×578)",
+            "en": "Public guide image (1000×578)",
+            "ja": "公開攻略ガイド提供画像（1000×578）",
+            "zh": "公开攻略提供图片（1000×578）"
+          }
+        }
+      }
+    ],
+    "id": "endministrator1"
+  },
+  {
+    "nativeId": "chr_0004_pelica",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0004_pelica",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "선구자",
+          "en": "The Guide",
+          "ja": "導く者",
+          "zh": "引领者"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "STAR影法师",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/6c03991a5176bfdb00c96fa91595f17d92524ed5993cb8dad58c1e86dbc4b8eb.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_1_ex01_chr_0004_pelica",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "샛별",
+          "en": "The Revelation",
+          "ja": "啓明",
+          "zh": "启明"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "大明",
+        "note": {
+          "ko": "별도 기념 이벤트로 추가된 기념사진입니다. 획득 조건은 해당 이벤트 안내를 확인하세요.",
+          "en": "An additional commemorative event snapshot. Check the event notice for its acquisition conditions.",
+          "ja": "別途の記念イベントで追加された記念画像です。入手条件は該当イベントの告知をご確認ください。",
+          "zh": "独立纪念活动追加的留影。获取条件请查阅相应活动公告。"
+        },
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/e8a8a42f6a438da04c1d52668a003df58b4f792ca059de9b51f504c326d19561.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0004_pelica",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "프로토콜",
+          "en": "The Protocol",
+          "ja": "協約",
+          "zh": "协议"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Director Kuzuri",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/0a2eff6347df98a64eeab796a14ecb6bb8a9f91c45442a05621faef381ecc96a.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0004_pelica",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "미래",
+          "en": "The Future",
+          "ja": "未来",
+          "zh": "未来"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "IRple2",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/dffabe14dd88dc5b5b9f0380f48c2cd249a1277382a022d9a1c931db2f28a824.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "perlica"
+  },
+  {
+    "nativeId": "chr_0005_chen",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0005_chen",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "협객의 흔적",
+          "en": "Errant's Deed",
+          "ja": "侠影",
+          "zh": "侠迹"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "ALZiMi",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/1c657cd1b9c56ad4ea91258643c090a5b4743d451b65788fdc3d6be34447bc78.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0005_chen",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "검의 속삭임",
+          "en": "Jianyu - The Language of Swords",
+          "ja": "剣語る",
+          "zh": "剑语"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Kieed",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/21c2ed1ffef01d1f55fba9a9df0b11fefbc6f67b1887c65ab837474486509bb9.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0005_chen",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "용의 비상",
+          "en": "Soaring Lung",
+          "ja": "昇龍",
+          "zh": "龙腾"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "宇木敦哉",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/fd6e491cbc9cffabb521b36382ebc564b43891cdb2a8724ef5be32af3164a3b9.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "chen"
+  },
+  {
+    "nativeId": "chr_0012_avywen",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0012_avywen",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "너 여기 있었구나?",
+          "en": "Found Ya",
+          "ja": "みーつけた",
+          "zh": "找到你咯"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "se_eeeee",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/1c07e31074161763f1ac93326a4bf761319005dc290e6cf4436ddcf2f811999e.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0012_avywen",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "지금 내 생각해?",
+          "en": "Missing Me, Hmm?",
+          "ja": "私のこと、考えてたの？",
+          "zh": "在想我么？"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "umo_yszx",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/d3021b99c3f3ab05dfe6e18cdef76b666eead69e965d8535ad0f1da09aaa00a0.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0012_avywen",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "의문의 초대",
+          "en": "Mystery Invite",
+          "ja": "未知へのお誘い",
+          "zh": "未知邀约"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "LM7",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/19c2c2b3266f808a46b0a4842addb55cc834460b51e0f8ed94eb61d872a9c02d.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "avywenna"
+  },
+  {
+    "nativeId": "chr_0031_mifu",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0031_mifu",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "책임을 담아",
+          "en": "Just a Swig",
+          "ja": "晩酌",
+          "zh": "小酌"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Cenm0",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/1f42df42fb51b5d03249c069f4aec329f986329710ad2890cafc89140af4fdd5.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0031_mifu",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "여유",
+          "en": "Private Recess",
+          "ja": "閑暇",
+          "zh": "得闲"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "u介",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/bfe73d345aa11da53d5a31ad904ea90a75a982569d39f49fbfb9eb212bdc2e0d.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0031_mifu",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "유쾌한 밤",
+          "en": "Toast to Joy",
+          "ja": "満悦",
+          "zh": "开怀"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "萃_SUIKA",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/d83ecb201c26550ff360cdfd07eed73744cf11b6e22a4528debace5d2ac80940.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0031_mifu",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "유쾌한 밤",
+          "en": "Toast to Joy",
+          "ja": "満悦",
+          "zh": "开怀"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "mifu"
+  },
+  {
+    "nativeId": "chr_0032_lizhiyan",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0032_lizhiyan",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "나비에게 물어보리라",
+          "en": "Question for the Butterfly",
+          "ja": "胡蝶の夢",
+          "zh": "问蝶"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "栗樺茶"
+      },
+      {
+        "id": "item_pic_3_chr_0032_lizhiyan",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "근원으로의 회귀",
+          "en": "Branch of Homecoming",
+          "ja": "帰枝",
+          "zh": "归枝"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "狂zip"
+      },
+      {
+        "id": "item_pic_5_chr_0032_lizhiyan",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "검에게 맡기며",
+          "en": "Blade Personified",
+          "ja": "剣と成る",
+          "zh": "化剑"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Eteru"
+      },
+      {
+        "id": "business_card_topic_chr_0032_lizhiyan",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "검에게 맡기며",
+          "en": "Blade Personified",
+          "ja": "剣と成る",
+          "zh": "化剑"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "lizhiyan"
+  },
+  {
+    "nativeId": "chr_0006_wolfgd",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0006_wolfgd",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "사냥의 시간",
+          "en": "Time for the Hunt",
+          "ja": "狩猟開始",
+          "zh": "狩猎时间到"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "umo_yszx",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/74387e2ad6e6c341ff35437004422827cc59b201258513265710c23bd224dd61.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0006_wolfgd",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "무방비 상태",
+          "en": "Lowering the Gard Today",
+          "ja": "穏やかな一日",
+          "zh": "今日不设防"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "MeanWhile",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/c24571aefe1621df1af7a1eec8c8d060b2c65e2893120d0c2fd6457495ea3af7.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0006_wolfgd",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "포식자의 시선",
+          "en": "Predator's Glance",
+          "ja": "追う者の眼差し",
+          "zh": "掠食者一瞥"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "FE",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/2c18b78f8fa4dc2eaa4b54d9670d4e50ee79beb4b55e64ac9d47bcc0857f7825.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "wulfgard"
+  },
+  {
+    "nativeId": "chr_0033_camille",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0033_camille",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "끝없는 순환",
+          "en": "Return to Eternity",
+          "ja": "永劫回帰",
+          "zh": "永恒回归"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "およ",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/a2509a864bc0a8bd1f32cb13b72c7b93fc2f5d4d638f9f3d7bb9b65f3296c530.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0033_camille",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "고개를 들고",
+          "en": "A Proud Start",
+          "ja": "仰ぎ見るその先に",
+          "zh": "仰视开端"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "起ID无能",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/b47e8d468043027c5ea2779dd62180ad52de75a1b183dac797c0858a74c9d890.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0033_camille",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "찢어발긴 그림자",
+          "en": "Shadowbreak",
+          "ja": "影を破る",
+          "zh": "破影"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "se_eeeee",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/7dfb324bc054664df1122368dbb0ca67540030bcf14f18db02d1d34d1d7ad56a.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0033_camille",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "찢어발긴 그림자",
+          "en": "Shadowbreak",
+          "ja": "影を破る",
+          "zh": "破影"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "camille"
+  },
+  {
+    "nativeId": "chr_0007_ikut",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0007_ikut",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "해 질 녘",
+          "en": "Dipping Sun",
+          "ja": "夕暮れに向かって",
+          "zh": "向晚"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "直立行走",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/b04d222475ae441840408d2d5c1b21dc64741dff74cbbc2353b1a8ae4cf9dd36.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0007_ikut",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "영속",
+          "en": "Restless",
+          "ja": "不断",
+          "zh": "不息"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "またよし",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/b1c45c9cd3f3dc0b342be302122bd8d86619936a3b94d6b67cb7993a93f93de2.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0007_ikut",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "호월선 참격",
+          "en": "Crescent Scimitar",
+          "ja": "弧月旋刃",
+          "zh": "弧月旋刃"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Z3zz",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/402014e0478ad17340b36595b0942139a2b4eea286471299c3a5a8e5732a5454.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "arclight"
+  },
+  {
+    "nativeId": "chr_0013_aglina",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0013_aglina",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "마음에 귀 기울이며",
+          "en": "Patiently Waiting",
+          "ja": "鼓動",
+          "zh": "静候心音"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Oycico",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/25098c7ac1d0d39330e7cf9f637af377313efcb1dcd5a7d9751152af9e598547.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0013_aglina",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "하늘 끝에 발을 디딘 순간",
+          "en": "A Pause Atop the Clouds",
+          "ja": "雲上で、ふと",
+          "zh": "云端驻足"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "一块二毛一斤",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/f137994de954f001a6e3dcb39246a26b5c5f8f0be4528b433ea892d1ce1e506b.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0013_aglina",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "세상을 뒤흔들겠어!",
+          "en": "Let's Flip the World",
+          "ja": "世界をひっくり返す",
+          "zh": "世界翻转"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "LM7",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/50193b1d8792c8027555d64b3ce99c01134d75aeb1ac171c97b99029d8e5a1ee.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0013_aglina",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "세상을 뒤흔들겠어!",
+          "en": "Let's Flip the World",
+          "ja": "世界をひっくり返す",
+          "zh": "世界翻转"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "gilberta"
+  },
+  {
+    "nativeId": "chr_0009_azrila",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0009_azrila",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "끝나지 않은 맹세",
+          "en": "An Oath Not Yet Fulfilled",
+          "ja": "未完の誓い",
+          "zh": "誓言未竟"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "STAR影法师",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/8e71d08a899653e7a5772bafad1c30922b57eba33b090ead8d1e80a5e914d7cb.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0009_azrila",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "끝없는 원정",
+          "en": "Boundless Crusade",
+          "ja": "終なき遠征",
+          "zh": "无边征程"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "へいろー",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/0c48500651d32a57788a5b4b0ade8495669a9c26b5d3d9fa59022363fb8b036d.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0009_azrila",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "난공불락의 요새",
+          "en": "The Bastion Never Breached",
+          "ja": "不落の要塞",
+          "zh": "不落坚城"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "MoooFoo",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/a999dbe88cf2260230a86318d5893e97be21381f5db1665dd577c23088518881.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0009_azrila",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "난공불락의 요새",
+          "en": "The Bastion Never Breached",
+          "ja": "不落の要塞",
+          "zh": "不落坚城"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "ember"
+  },
+  {
+    "nativeId": "chr_0011_seraph",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0011_seraph",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "탐구욕",
+          "en": "Desire for Knowledge",
+          "ja": "知識欲",
+          "zh": "求知欲"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "수줍(Sjoop)",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/52e88e9e2b86c2a161c9eb0454470a91d1c85b849d96881a9169c82bdd95bcee.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0011_seraph",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "신앙심",
+          "en": "Sincerity of Faith",
+          "ja": "敬虔",
+          "zh": "虔诚"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "原野香久山",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/809fc74de004be4ff52d90d5e5aa8a2d1556e21df33be474c7e2c1831eefc607.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0011_seraph",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "진리를 향한 믿음",
+          "en": "Gaze Long into Veritas",
+          "ja": "真理を求めて",
+          "zh": "凝望真理"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "se_eeeee",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/eda1bfa3647b2458eecdaa3f591c23f7f2b269304b51eb58531103845489246a.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "xaihi"
+  },
+  {
+    "nativeId": "chr_0038_purrche",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0038_purrche",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "아우우!",
+          "en": "RAWR!",
+          "ja": "あ～んっ！",
+          "zh": "嗷呜！"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "黑犬",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/3d3fc4d9d9e8298f5fb724ea7ac56d244dfdde605a49a7f0135974361d94771d.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0038_purrche",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "대 필라인",
+          "en": "Purry Big Feline",
+          "ja": "でっかいフェリーン",
+          "zh": "大菲林"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "怂松鼠",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/1a4ef282df26d2565528aae4b20a5de7647e8d0ef7fcc1d91d9f7fc4ca3d8eb2.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0038_purrche",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "달콤한 꿈의 시간",
+          "en": "Moment of a Beautiful Dream",
+          "ja": "あま～い夢のひととき",
+          "zh": "美梦时刻"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "とびはち",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/abd95532468226166fa82290b2e9edc566bc79b8891dd10bdfe9f9f7ef349841.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      }
+    ],
+    "id": "purrche"
+  },
+  {
+    "nativeId": "chr_0014_aurora",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0014_aurora",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "찰나의 휴식",
+          "en": "Moment for a Break",
+          "ja": "ひと休み",
+          "zh": "休整间隙"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "수줍(Sjoop)",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/cf097132d6e1412f87f20565ac5c7f583b8e4e46e3cf47e2584ee86ad4f25a1f.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0014_aurora",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "눈 오는 맑은 날",
+          "en": "Snowy but Bright",
+          "ja": "雪晴れ",
+          "zh": "晴雪天气"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "一块二毛一斤",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/2dfcad829ef6cd0035cb4fe50dc64c81e863111172fcc9e6d24c29ddfe2e7177.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0014_aurora",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "눈 위를 가르는 비행",
+          "en": "Carving Through the Snow",
+          "ja": "白銀を舞う",
+          "zh": "雪中滑翔"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "LAL!ROLE",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/2d645f3e20f16df4bb4a3f77046b2c421c61afd395d512d6bdc66958ef8ad6ad.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "snowshine"
+  },
+  {
+    "nativeId": "chr_0018_dapan",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0018_dapan",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "여행의 시작",
+          "en": "The Journey Begins",
+          "ja": "旅立ち",
+          "zh": "旅行伊始"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Rin9",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/2c7ef32fb638a0735e13a34e96dac7c04d046cc4a2d0780abdfb4f54c228ee50.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0018_dapan",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "고요한 산중에 앉아 풍류를 즐기네",
+          "en": "Idling on the Peak",
+          "ja": "空山に座す",
+          "zh": "宴坐空山"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "E_Volution_",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/b59a22b02547ca8126791d2491f8dddcc58186ebbb5106e1aea112266aba6a33.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0018_dapan",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "인간 세상의 백 가지 맛",
+          "en": "All the Tastes of Life",
+          "ja": "十人十味",
+          "zh": "人间百味"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "黑犬",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/e7ce29199d8c354c5398f27840d401f67ca720d8bd6bb1b77c4c551e8cf33373.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "dapan"
+  },
+  {
+    "nativeId": "chr_0016_laevat",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0016_laevat",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "불과 검",
+          "en": "Fire and Sword",
+          "ja": "剣と炎",
+          "zh": "火与剑"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Ask",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/f30245006ea8c232d2cf6da6ee59492cda2a1db4b4c46ef5d1a3a34b2e5202aa.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0016_laevat",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "1,538°C",
+          "en": "1538°C",
+          "ja": "1538°C",
+          "zh": "1538°C"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "嘴広コウ",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/f783742c5351660e7a73e4ff91d15763e8542aaeb0415cd364878c83cc43b28f.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0016_laevat",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "불꽃의 초대",
+          "en": "An Invite to the Melting Fire",
+          "ja": "劫火の誘い",
+          "zh": "熔火之邀"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "min",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/248f84d1faddcddfc4e84f3ab9013c2ec42916037486e14a02224c6f74f35c86.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0016_laevat",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "불꽃의 초대",
+          "en": "An Invite to the Melting Fire",
+          "ja": "劫火の誘い",
+          "zh": "熔火之邀"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "laevatain"
+  },
+  {
+    "nativeId": "chr_0026_lastrite",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0026_lastrite",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "미모사",
+          "en": "Shy Shy No Touchy",
+          "ja": "オジギソウ",
+          "zh": "含羞草"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "komiki",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/0cabcc9df1099abf6d1816d388b971227eab61c5f450c999388ba88dfe79cc80.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0026_lastrite",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "응화",
+          "en": "The Still Blossom",
+          "ja": "氷の華",
+          "zh": "凝华"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Cenm0",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/85e8e12e74737a6f42a8a7994cfa480dd85e9f6eb34cadf5068b4fc8bbf7cfea.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0026_lastrite",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "첫 서리꽃",
+          "en": "First Rime to Bloom",
+          "ja": "霜華開く",
+          "zh": "初绽霜花"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "REM",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/d6da1f54a18e7313fd27ab8a7c73160620a9c6350f2b1a8e2c517d0ee9edab38.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0026_lastrite",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "첫 서리꽃",
+          "en": "First Rime to Bloom",
+          "ja": "霜華開く",
+          "zh": "初绽霜花"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "lastrite"
+  },
+  {
+    "nativeId": "chr_0017_yvonne",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0017_yvonne",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "트렌드 토크",
+          "en": "Trendy-fique Discourse",
+          "ja": "トレンドトーク",
+          "zh": "潮流对谈"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "モ誰",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/b5a3c72d7030495fefb1c5d5011ebd5e510d69bceb52693b8893159c1028de6b.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0017_yvonne",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "셀카 타임",
+          "en": "Selfie Invite",
+          "ja": "一緒に撮ろー！",
+          "zh": "自拍邀请"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Kago",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/357cf42d8ce67014ec4d04ec526224fb2866a0f75b52d823dd1fcab39f3271f3.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0017_yvonne",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "Win-Win!",
+          "en": "Win-Win!",
+          "ja": "Win-Win！",
+          "zh": "Win-Win!"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "u介",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/93e9a5ccaf49a849384ae28b3dd0be7ab6466351080795d1a0899c85bc6da20e.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0017_yvonne",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "Win-Win!",
+          "en": "Win-Win!",
+          "ja": "Win-Win！",
+          "zh": "Win-Win!"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "yvonne"
+  },
+  {
+    "nativeId": "chr_0021_whiten",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0021_whiten",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "간헐적 사색",
+          "en": "Intermittent Thinker",
+          "ja": "時々、考える",
+          "zh": "间歇性思考者"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "またよし",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/597af032aee3996cfd99a3d1063609aae76d14419fd7ccf58067aa27338211da.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0021_whiten",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "공유욕",
+          "en": "Urge to Share",
+          "ja": "おすそわけ",
+          "zh": "分享欲"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "余音RinA",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/2e0cb620f4c0cf95a6ec4fd24603f5262158bd39ac9408e5fc56611ebde5d441.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0021_whiten",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "비밀의 시간",
+          "en": "Secret Hour",
+          "ja": "秘密の時間",
+          "zh": "秘密时间"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "かしまき",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/c2e7f1c705caa7e49aa1e506124017d272f60a8909294add5f5dd52a3703a0aa.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "estella"
+  },
+  {
+    "nativeId": "chr_0027_tangtang",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0027_tangtang",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "물에 비친 본심",
+          "en": "Pristine Water Mirrors the Soul",
+          "ja": "心映す清流",
+          "zh": "白水鉴心"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Samail",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/83a907be437339c5f6940404a99c5e5a5b8cd0f56c065617344e3df3df237c34.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0027_tangtang",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "절균",
+          "en": "Bamboo Splitter",
+          "ja": "竹を編み",
+          "zh": "折筠"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "二值笔战士",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/57a519f2d8cf3413f5c8f0a0fd646134d00cd3e0305623345c684994225bb2b5.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0027_tangtang",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "절대적인 명령",
+          "en": "Supreme Chief's Orders are Supreme",
+          "ja": "大親分の命令は絶対だ！",
+          "zh": "当家令如山"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "수줍(Sjoop)",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/eb44108d95412785b8287bb0d241d51efd8ee8c3c5db02e8480000bdabfbf5b4.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0027_tangtang",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "절대적인 명령",
+          "en": "Supreme Chief's Orders are Supreme",
+          "ja": "大親分の命令は絶対だ！",
+          "zh": "当家令如山"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "tangtang"
+  },
+  {
+    "nativeId": "chr_0036_jsspsi",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0036_jsspsi",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "자유를 찾으리라",
+          "en": "Carefree",
+          "ja": "自在",
+          "zh": "自在"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "狂zip",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/1c28998c7927f8a93f16376b334986badcf135891393aa4573d17641a70128d2.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0036_jsspsi",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "먹빛이 사이에 머무르리라",
+          "en": "In the Realm of Ink",
+          "ja": "墨に佇む",
+          "zh": "驻墨间"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Maeka",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/7fc0e4eab7f96acb0716d354fee570faeb56bf3106fcf96c2b68efbdba68acfb.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0036_jsspsi",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "오염되지 않으리라",
+          "en": "Untainted",
+          "ja": "染まらず",
+          "zh": "不浊"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "수줍(Sjoop)",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/8a41a9fac6f746a8b4eb34bf9e59de533cfde8174ce35b267239bf6e86d2d669.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0036_jsspsi",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "오염되지 않으리라",
+          "en": "Untainted",
+          "ja": "染まらず",
+          "zh": "不浊"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "jsspsi"
+  },
+  {
+    "nativeId": "chr_0019_karin",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0019_karin",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "도착 보고",
+          "en": "Reporting In",
+          "ja": "只今着任",
+          "zh": "前来报到"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "八口力",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/62ae99d2ed2d9796c2af40d9a5f11ea8037f6defeef40b3832206af975bc30b6.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0019_karin",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "어린 시절의 꿈",
+          "en": "Youthful Dreams",
+          "ja": "若き理想",
+          "zh": "年轻的理想"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "BBokyo",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/fc137b8e67a1628f275cc232d279d8de8d3d147d8a304607c04b246262e599bb.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0019_karin",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "내일을 꿈꾸는 별",
+          "en": "Rising Star of Tomorrow",
+          "ja": "将来有望",
+          "zh": "明日新星"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Kaneni",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/46447fa938aa72d8e593475405b080284410187b2c81b9bf92c19edcfba58ce3.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "akekuri"
+  },
+  {
+    "nativeId": "chr_0020_meurs",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0020_meurs",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "굳건한 자세",
+          "en": "Always on Duty",
+          "ja": "至誠一貫",
+          "zh": "时刻坚守"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "九鸟山",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/6415bb876e5cbb00fac03ee0911f73161f21888961f5df5f4ccd928f774f8711.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0020_meurs",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "출전 준비",
+          "en": "Prepped for Battle",
+          "ja": "準備万端",
+          "zh": "战前准备"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "EXP",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/c358d2ef1020d9ee177617cb97dda21a1fad9ead9ff6fd82b76723b5278fe866.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0020_meurs",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "든든한 지원",
+          "en": "Shield to Fall Back On",
+          "ja": "後ろ盾",
+          "zh": "坚实后盾"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "かしまき",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/974286d46bcf0f4165946313f774b2db6c3c6363c646f9aad9e04883ab875a6b.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "catcher"
+  },
+  {
+    "nativeId": "chr_0022_bounda",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0022_bounda",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "말썽꾸러기",
+          "en": "Got a Small Problem",
+          "ja": "ちょっと面倒",
+          "zh": "小麻烦"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Kaneni",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/b2451ff577858c219a3a8467a07d1af452eb366e74440ae51fc351232c885299.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0022_bounda",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "행동파",
+          "en": "Action Oriented",
+          "ja": "行動派",
+          "zh": "行动派"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "GHOSTY",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/0764b81fba05068f56c436dffe5562f45559f73a07ac587cf94c7ee9607071ff.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0022_bounda",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "규칙의 경계선",
+          "en": "Gray Fringes of the Rules",
+          "ja": "ギリギリアウト",
+          "zh": "规则边缘"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Doppel",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/986a559e0b6522bbfb389605fb50475796ea9b2ed38426c0be9991450cfa52ba.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "fluorite"
+  },
+  {
+    "nativeId": "chr_0023_antal",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0023_antal",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "의지와 취향",
+          "en": "True Calling",
+          "ja": "趣深し",
+          "zh": "志趣"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "REM",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/12cf654168b64b03e55c5c8497aef9ef38187902f586f7d82a1675096cf2b211.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0023_antal",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "전념",
+          "en": "Very Deep Focus",
+          "ja": "深淵を覗く",
+          "zh": "潜心"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "黑犬",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/f3d09de1818d8f88ef098301b07fead99b639aac698cb2e3667ead11fa16d2d1.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0023_antal",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "극치",
+          "en": "A New Zenith",
+          "ja": "極みに至る",
+          "zh": "造极"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "言犬",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/bd04bdbb1addb87b1429ec9d9e85347df22b812afc3d9e96b50b9ff27134cc4d.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "antal"
+  },
+  {
+    "nativeId": "chr_0025_ardelia",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0025_ardelia",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "게임 시작",
+          "en": "Let's Start Playing",
+          "ja": "ゲームスタート",
+          "zh": "游戏开始"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "温泉瓜",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/fa92e93a3992e1cbf32a62844e9b0d57130fe2b03e4d703268d7930670a8d835.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0025_ardelia",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "무한한 공상",
+          "en": "Daydream Without End",
+          "ja": "果てなき夢",
+          "zh": "无边遐思"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "宇木敦哉",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/86494ca39bda081126599ad985f970dd7221cf710d7628ea653e6b1fc574db5d.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0025_ardelia",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "소원",
+          "en": "Aspiration",
+          "ja": "願い",
+          "zh": "心愿"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Eteru",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/6a1805cff2e2f56023307a07626030ac34fb9c5c79cbc59081c7f127535321c5.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0025_ardelia",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "소원",
+          "en": "Aspiration",
+          "ja": "願い",
+          "zh": "心愿"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "ardelia"
+  },
+  {
+    "nativeId": "chr_0024_deepfin",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0024_deepfin",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "낚시 친구",
+          "en": "Fellow Angler",
+          "ja": "釣り友",
+          "zh": "钓友"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "嘴広コウ",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/4541d7d35bf17f220eff49d6dcc3b4a1a09ac9b1fed449ee568972bbd958610b.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0024_deepfin",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "오르내림",
+          "en": "Flowing with the Go",
+          "ja": "浮き沈み",
+          "zh": "沉浮"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "叶木森山",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/48968a90263b2c85377efdf7c9e8f27d211e229860c235850a27917fc56ba956.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0024_deepfin",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "낚시의 날",
+          "en": "Rod Casting Day",
+          "ja": "釣り日和",
+          "zh": "挥竿日"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "w3",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/78785d8221cc2da830f3a364865dff69c6aaa33f183d0ba785fad77f6bc3fbe7.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 559,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×559)",
+            "en": "Public guide image (1000×559)",
+            "ja": "公開攻略ガイド提供画像（1000×559）",
+            "zh": "公开攻略提供图片（1000×559）"
+          }
+        }
+      }
+    ],
+    "id": "alesh"
+  },
+  {
+    "nativeId": "chr_0028_wulfa",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0028_wulfa",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "소중한 진주",
+          "en": "Cherished Little Perl",
+          "ja": "手のひらの宝物",
+          "zh": "掌心的宝物"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Yukuso",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/0fd96a1cda4b03fb03577ff9e43042e78d42d0181e718644527ef58484e7f78c.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0028_wulfa",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "무한한 미래",
+          "en": "Unlimited Future",
+          "ja": "無限の未来",
+          "zh": "无限的未来"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Whitebear",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/6e0b2ed98d13557d2b424599b02f13c75685204994d253c9bd178b8f531102cb.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0028_wulfa",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "글로 그린 세계",
+          "en": "A World at the Tip of the Pen",
+          "ja": "ペン先の世界",
+          "zh": "笔尖的世界"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Yukuso",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/d2b2f11a369da3125296f6a6235d034e5fecb2158cd484a7fcfd99be65625b03.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0028_wulfa",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "글로 그린 세계",
+          "en": "A World at the Tip of the Pen",
+          "ja": "ペン先の世界",
+          "zh": "笔尖的世界"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "rossi"
+  },
+  {
+    "nativeId": "chr_0029_pograni",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0029_pograni",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "퀸사이드 캐슬링",
+          "en": "Queenside Castling",
+          "ja": "キャスリング",
+          "zh": "后翼易位"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "FE",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/eeb9f0fbb3befa4814227e4b7b8f578603de7028912dc3ef99738823f9258e72.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0029_pograni",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "킹과 나이트",
+          "en": "The King and the Knight",
+          "ja": "キング&ナイト",
+          "zh": "王与骑士"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Kala",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/d8bb37de270d89948e5957b4e1fa6a89b9842dfa87dfd7a87ec39f7d3a8e0515.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0029_pograni",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "체크메이트",
+          "en": "Checkmate",
+          "ja": "チェックメイト",
+          "zh": "将军"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "大明",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/4abe2f85a25a015df24cdacfa59648c287e75e10290ab07e93f4b691d98a11f8.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0029_pograni",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "체크메이트",
+          "en": "Checkmate",
+          "ja": "チェックメイト",
+          "zh": "将军"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "pogranichnik"
+  },
+  {
+    "nativeId": "chr_0030_zhuangfy",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0030_zhuangfy",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "모든 것이 어울린 순간",
+          "en": "Complete Sync",
+          "ja": "相宜し",
+          "zh": "总相宜"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "Momoku",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/638a0480cfe8be6bbe5818032257ab0412d4b9e3f04a39ac66d4eb75af8c6067.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0030_zhuangfy",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "비가 그친 순간",
+          "en": "Moment of Rain Held Back",
+          "ja": "雨上がり",
+          "zh": "雨停的瞬间"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "KU",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/c880aaab62445f42f1b338bf63bd8883298b6c769645ebeffd9ab33c58e7cb03.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0030_zhuangfy",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "주사위는 던져졌다",
+          "en": "Forged and Finalized",
+          "ja": "勝敗既決",
+          "zh": "大局已定"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "LM7",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/6a37fd9cd1fa22b78ab3f4756f26c54c54ba42f24428494c6147b31ba66dc55d.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0030_zhuangfy",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "주사위는 던져졌다",
+          "en": "Forged and Finalized",
+          "ja": "勝敗既決",
+          "zh": "大局已定"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "zhuangfy"
+  },
+  {
+    "nativeId": "chr_0034_typhoea",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0034_typhoea",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "한겨울의 온기",
+          "en": "Warmth of Winter Sun",
+          "ja": "冬の陽射し",
+          "zh": "冬日暖阳"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "南野 あき",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/954eb360ed7aacfb3b66978ae3e987e667ccbbe29805ab864e3e57393ac3fee3.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_3_chr_0034_typhoea",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "꼬마 사냥꾼",
+          "en": "Little Huntress",
+          "ja": "小さな猟師",
+          "zh": "小猎手"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "狂zip",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/362ba0525aab39b7514f578ce32bd914963e4bd56d2ab0fe252d70222d1061a5.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "item_pic_5_chr_0034_typhoea",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "설원 깊은 곳의 단편",
+          "en": "Deep in the Icefield She Glances",
+          "ja": "氷原の奥からの一瞥",
+          "zh": "冰原深处的一瞥"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "LM7",
+        "image": {
+          "url": "https://gagether.wiki/roster-bootstrap/16b32c2922abe5b587fa224c4329a66dc10162aacb4a37f18636258c6479203a.webp",
+          "sourceUrl": "https://appmedia.jp/arknights_endfield/80109262",
+          "sourceKind": "community",
+          "kind": "splash",
+          "width": 1000,
+          "height": 563,
+          "locale": "neutral",
+          "caption": {
+            "ko": "공개 가이드 제공본 (1000×563)",
+            "en": "Public guide image (1000×563)",
+            "ja": "公開攻略ガイド提供画像（1000×563）",
+            "zh": "公开攻略提供图片（1000×563）"
+          }
+        }
+      },
+      {
+        "id": "business_card_topic_chr_0034_typhoea",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "설원 깊은 곳의 단편",
+          "en": "Deep in the Icefield She Glances",
+          "ja": "氷原の奥からの一瞥",
+          "zh": "冰原深处的一瞥"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "typhoea"
+  },
+  {
+    "nativeId": "chr_0035_liino",
+    "potentialRewards": [
+      {
+        "id": "item_pic_1_chr_0035_liino",
+        "level": 1,
+        "type": "illustration",
+        "title": {
+          "ko": "데뷔",
+          "en": "Show Time",
+          "ja": "ライブスタート",
+          "zh": "开演日"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "수줍(Sjoop)"
+      },
+      {
+        "id": "item_pic_3_chr_0035_liino",
+        "level": 3,
+        "type": "illustration",
+        "title": {
+          "ko": "샛별이 비추는 곳",
+          "en": "Where the Morning Star Gazes",
+          "ja": "キラめきを見つめて",
+          "zh": "晨星眺望之处"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "油锅なべる"
+      },
+      {
+        "id": "item_pic_5_chr_0035_liino",
+        "level": 5,
+        "type": "illustration",
+        "title": {
+          "ko": "채찍질의 습작",
+          "en": "Heart-Whipping Practice",
+          "ja": "ジャールの練習作",
+          "zh": "笞心习作"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/PictureTable.json",
+        "sourceKind": "community",
+        "credit": "pako"
+      },
+      {
+        "id": "business_card_topic_chr_0035_liino",
+        "level": 5,
+        "type": "namecard",
+        "title": {
+          "ko": "채찍질의 습작",
+          "en": "Heart-Whipping Practice",
+          "ja": "ジャールの練習作",
+          "zh": "笞心习作"
+        },
+        "sourceUrl": "https://github.com/rmxlinux/EndfieldData/blob/a0ed1dac31c502f636c70cee4e3010ca69562a70/TableCfg/CharacterPotentialTable.json",
+        "sourceKind": "community"
+      }
+    ],
+    "id": "liino"
+  }
+]
