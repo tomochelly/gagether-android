@@ -1,5 +1,6 @@
 'use client';
 import UiText from './ui-text';
+import {ui} from '@/lib/i18n';
 import {ChartNoAxesCombined,ChevronDown,ShieldCheck,MessageSquare,Heart,Swords,Shield,Target,Wind,Zap,Timer,Coins,Star,TrendingUp,Activity} from 'lucide-react';
 import type {EntityProfile,Locale,StatRow} from '@/lib/types';
 import {useCatalog} from './catalog-context';
@@ -20,7 +21,7 @@ function StatSymbol({row,gameId}:{row:StatRow;gameId?:string}){
 }
 function Stats({rows,locale,gameId}:{rows:StatRow[];locale:Locale;gameId?:string}){return !!rows.length&&<dl className="entity-stat-grid">{rows.filter(row=>cleanDisplayText(row.value)).map((row,i)=><div key={i}><span className="stat-icon"><StatSymbol row={row} gameId={gameId}/></span><div className="stat-content"><dt>{row.label[locale]}</dt><dd>{cleanDisplayText(row.value)}</dd>{row.note&&cleanDisplayText(row.note[locale])&&<small>{cleanDisplayText(row.note[locale])}</small>}</div></div>)}</dl>;}
 export default function EntityDetails({profiles,locale,gameId}:{profiles:EntityProfile[];locale:Locale;gameId?:string}){
- const {t}=useCatalog();const sourceLabel=(kind:string)=>kind==='official'?t.officialNews:kind==='video'?t.videoInfo:t.communityInfo;
+ const catalog=useCatalog(),t=catalog.locale===locale?catalog.t:{...ui[locale],...catalog.settings?.ui?.[locale]};const sourceLabel=(kind:string)=>kind==='official'?t.officialNews:kind==='video'?t.videoInfo:t.communityInfo;
  return <section className="entity-details"><div className="entity-details-heading"><ChartNoAxesCombined size={20}/><h3><UiText name="entityStats">{t.entityStats}</UiText></h3></div>{profiles.map(profile=><article className="entity-profile" key={profile.id} style={textAppearanceStyle(profile.textStyle?.[locale])}>
   <header><div><small>{profile.category[locale]}</small><h4 style={textAppearanceStyle(profile.textStyle?.[locale],'title')}>{profile.name[locale]}</h4></div><span className={'stat-source '+profile.statSourceKind}>{profile.statSourceKind==='official'?<ShieldCheck size={12}/>:<MessageSquare size={12}/>} {sourceLabel(profile.statSourceKind)}</span></header>
   {!!profile.traits?.length&&<dl className="entity-traits">{profile.traits.map(trait=><div className={traitIcon(gameId,trait)?'has-native-icon':''} key={trait.id}>{traitIcon(gameId,trait)&&<span className={'trait-icon '+traitTone(gameId,trait)}><NativeIcon icon={traitIcon(gameId,trait)} alt=""/></span>}<div><dt>{trait.label[locale]}</dt><dd>{trait.value[locale]}</dd></div></div>)}</dl>}
