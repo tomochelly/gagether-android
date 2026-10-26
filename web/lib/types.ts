@@ -1,3 +1,5 @@
+import {recurringDisplayEntry} from './recurring-schedule';
+import type {RecurringRepeat} from './recurring-schedule';
 import {officialXAccounts} from './official-x-accounts';
 import {isReviewedCollaborationSource} from './collaboration-sources';
 import type {PickupEstimate} from './pickup-estimates';
@@ -54,7 +56,7 @@ export interface Entry extends EntityArtwork {
  contentRole?:'entity'|'activity'|'notice';
  sourceBodies?:Partial<Record<Locale,SourceBody>>;
  contentBlocks?:ContentBlock[];
- recurring?:{modeId:string;cycleLabel:Localized;sourceKind:"official"|"community";sourceUrls:string[];verifiedAt:string;resetAt?:string|null;resetDate?:string;resetEvidence?:{kind:'owner-confirmed';timeZone:string;note:Localized;verifiedAt:string}};
+ recurring?:{repeat?:RecurringRepeat;modeId:string;cycleLabel:Localized;sourceKind:"official"|"community"|"owner";sourceUrls:string[];verifiedAt:string;resetAt?:string|null;resetDate?:string;resetEvidence?:{kind:'owner-confirmed';timeZone:string;note:Localized;verifiedAt:string}};
  audienceRegions?:Region[];
  collaboration?:{partner:Localized;scope:'ingame'|'offline'|'merchandise'|'online';sourceUrls:string[];verifiedAt:string};
  pickupArchive?:{status:'past'|'announced'|'forecast';startDate?:string;endDate?:string;note?:Localized;estimate?:PickupEstimate};
@@ -124,6 +126,7 @@ export function safeReference(url:string,gameId:string,kind:SourceKind):boolean{
 export interface SourceCheck {gameId:string;checkedAt:string;status:string;count:number;error?:string}
 export const localized=(ko:string,en:string,ja:string,zh:string):Localized=>({ko,en,ja,zh});
 export function entryState(e:Entry,now:number):"active"|"upcoming"|"ended"|"notice"{
+ e=recurringDisplayEntry(e,now);
  if(e.pickupArchive?.status==='forecast')return "upcoming";
  if(e.endAt&&new Date(e.endAt).getTime()<=now)return "ended";
  if(e.startAt&&new Date(e.startAt).getTime()>now)return "upcoming";

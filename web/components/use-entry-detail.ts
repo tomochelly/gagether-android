@@ -2,6 +2,7 @@
 import {useEffect,useState} from 'react';
 import type {Entry} from '@/lib/types';
 import {detailKey,detailsDeferred} from '@/lib/catalog-index';
+import {useDetailIntent} from './use-detail-intent';
 
 // Cache only opened details in this page; a stored/owner revision invalidates them.
 const cache=new Map<string,Entry>();
@@ -20,6 +21,7 @@ async function loadDetail(entry:Entry,key:string){
  requests.set(key,request);
  try{return await request;}finally{requests.delete(key);}
 }
+export function useEntryIntent(entry:Entry){return useDetailIntent(()=>loadDetail(entry,detailKey(entry)),detailKey(entry),detailsDeferred(entry));}
 export function useEntryDetail(summary:Entry|null){
  const deferred=detailsDeferred(summary),key=summary&&deferred?detailKey(summary):'';
  const [result,setResult]=useState<{key:string;entry?:Entry;error?:boolean}>({key:''});

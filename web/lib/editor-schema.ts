@@ -29,7 +29,7 @@ export function validateEditedEntry(value:unknown){
  if(!safePickupArchive(e))return {ok:false as const,error:'Invalid pickup archive or unconfirmed clock'};
  const images=[e,...e.pickupMembers||[]];
  if(!safeExtras(e)||images.some(i=>!safeArtwork(i)))return {ok:false as const,error:'Invalid image URL'};
- const urls=[e.sourceUrl,...Object.values(e.localizationSources||{}),...(e.relatedSources||[]).map(s=>s.url),...(e.detailSections||[]).flatMap(s=>s.sourceUrls||[]),...(e.entityDetails||[]).flatMap(p=>[...p.sources.map(s=>s.url),...p.groups.flatMap(g=>g.sourceUrls||[]),...(p.materials||[]).flatMap(g=>g.items.map(m=>m.sourceUrl))])];
+ const urls=[...e.sourceUrl?[e.sourceUrl]:[],...Object.values(e.localizationSources||{}),...(e.relatedSources||[]).map(s=>s.url),...(e.detailSections||[]).flatMap(s=>s.sourceUrls||[]),...(e.entityDetails||[]).flatMap(p=>[...p.sources.map(s=>s.url),...p.groups.flatMap(g=>g.sourceUrls||[]),...(p.materials||[]).flatMap(g=>g.items.map(m=>m.sourceUrl))])];
  if(urls.some(url=>!https.safeParse(url).success))return {ok:false as const,error:'Links must use HTTPS'};
  if(e.startAt&&e.endAt&&Date.parse(e.startAt)>=Date.parse(e.endAt))return {ok:false as const,error:'End must follow start'};
  if(e.marketRegion==='cn'&&!['arknights','gfl2','reverse1999'].includes(e.gameId))return {ok:false as const,error:'Unsupported sales region'};

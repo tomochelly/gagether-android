@@ -1,3 +1,4 @@
+import {recurringDisplayEntry} from '@/lib/recurring-schedule';
 'use client';
 import {textAppearance,textAppearanceStyle,authoredField} from '@/lib/text-appearance';
 import {allowsRewards} from '@/lib/content-roles';
@@ -19,7 +20,7 @@ import ArtworkMedia from './artwork-media';
 import GameBadge from './game-badge';
 export function EventBadges({entry,locale,compact=false}:{entry:Entry;locale:Locale;compact?:boolean}){const t=eventText[locale];return <span className="event-badges">{entry.collaboration&&<span className="collaboration-badge">{compact?t.collab:<>{t[entry.collaboration.scope]} · {entry.collaboration.partner[locale]}</>}</span>}{hasPullRewards(entry)&&<span className="pull-reward-badge"><Sparkles size={12}/>{t[compact?'gacha':'reward']}</span>}</span>;}
 export function EventRewards({entry,locale}:{entry:Entry;locale:Locale}){if(!allowsRewards(entry))return null;const rewards=pullRewards(entry).filter(r=>eventTextForLocale(r.name,locale));return rewards.length?<span className="event-reward-chips">{rewards.slice(0,4).map((r,i)=><span key={i}><NativeIcon icon={rewardIcon(entry.gameId,r)} alt=""/><span className="reward-chip-copy"><span className="reward-chip-name">{r.name[locale]}</span>{r.quantity&&<strong className="reward-chip-amount"> {r.quantity}</strong>}{r.acquisition&&<small className="reward-acquisition"> · {rewardMethod(r.acquisition,locale)}</small>}</span></span>)}</span>:null;}
-export function EventClock({entry:e,locale,now,compact=false}:{entry:Entry;locale:Locale;now:number;compact?:boolean}){const t=eventText[locale],state=eventState(e,now),start=state==='upcoming',clock=start?e.startAt:e.endAt,date=start?e.startDate:e.endDate;
+export function EventClock({entry:e,locale,now,compact=false}:{entry:Entry;locale:Locale;now:number;compact?:boolean}){e=recurringDisplayEntry(e,now);const t=eventText[locale],state=eventState(e,now),start=state==='upcoming',clock=start?e.startAt:e.endAt,date=start?e.startDate:e.endDate;
  if(state==='ended')return <span className="event-clock ended">{({ko:'종료',en:'Ended',ja:'終了',zh:'已结束'})[locale]}</span>;
  if(clock)return <span className={'event-clock'+(eventEndingSoon(e,now)?' urgent':'')}><Clock3 size={compact?12:16}/><span><small>{t[start?'starts':'ends']}</small><b>{compact?remainingTime(clock,now,locale).split(' ').slice(0,2).join(' '):remainingTime(clock,now,locale)}</b></span></span>;
  if(date){const days=(Date.parse(date)-Date.parse(dateInZone(now,serviceZone(e))))/86400000;return <span className="event-clock date-only"><Clock3 size={16}/><span><b>{!start&&days===0?t.today:`${date} · ${start?t.starts:`${days} ${t.days}`}`}</b></span></span>;}

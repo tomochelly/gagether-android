@@ -1,0 +1,122 @@
+[
+  {
+    "original": "/assets/entities/selection/uma-ssr-30264.png",
+    "sourceSha256": "f59a50cad6f67ac412bc2a8f7f1ed446927427f3e760012888e10728ba5fa950",
+    "sourceBytes": 4984058,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/c7dcc00e9c284cb19d8883c3b442061d2fff7f91c3fad754f9328e2e1ed99cfd.webp",
+    "sha256": "c7dcc00e9c284cb19d8883c3b442061d2fff7f91c3fad754f9328e2e1ed99cfd",
+    "bytes": 334410,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30275.png",
+    "sourceSha256": "e9eb22e31d59ed6ec8f3e5dbc5a67cbc58451fce196a89414998cf914554e696",
+    "sourceBytes": 2848380,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/f2cde76b12df8a3b246019f32570c247480e179086c3390158effbea506fb0d7.webp",
+    "sha256": "f2cde76b12df8a3b246019f32570c247480e179086c3390158effbea506fb0d7",
+    "bytes": 197532,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30281.png",
+    "sourceSha256": "8610450b9518f5980c0a26e6ec33147c3954b3af5be9e5fd23aaf5fa7e2795f2",
+    "sourceBytes": 3252709,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/9b03db4e228ce0002a48bb1686a4faf9455c07f5bbd117c6c72b6109e19a0d4d.webp",
+    "sha256": "9b03db4e228ce0002a48bb1686a4faf9455c07f5bbd117c6c72b6109e19a0d4d",
+    "bytes": 251374,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30282.png",
+    "sourceSha256": "a35592922c3b77992594645be0bc8182f4215c2ae686162962b149bf51245337",
+    "sourceBytes": 3380107,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/78ef365ba88abf0d3d37f79c797aa7ec493b2574df34ce6fc635d8ca72d29191.webp",
+    "sha256": "78ef365ba88abf0d3d37f79c797aa7ec493b2574df34ce6fc635d8ca72d29191",
+    "bytes": 273708,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30286.png",
+    "sourceSha256": "d459b11a249719378a81a490bbd3cda54c3a79c877c588626c111bd58911ad25",
+    "sourceBytes": 3376418,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/feba7430e372cca7cfd4f45ee9bcbf1e66546c916019d06bec9f3b8ca8ee8469.webp",
+    "sha256": "feba7430e372cca7cfd4f45ee9bcbf1e66546c916019d06bec9f3b8ca8ee8469",
+    "bytes": 300258,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30289.png",
+    "sourceSha256": "9e87426ee72aaf427837f31e19ccca0c7939e3f61444c4fc91b264017305552e",
+    "sourceBytes": 3195602,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/67731169d494cfe8fd65d95d00771c4c9d70d6e0325a0f16854b64f7ada50862.webp",
+    "sha256": "67731169d494cfe8fd65d95d00771c4c9d70d6e0325a0f16854b64f7ada50862",
+    "bytes": 253494,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30298.png",
+    "sourceSha256": "fe5b129761c17d6884d54f7128654b3d79adb1f73c065a4ecb21f5540682018f",
+    "sourceBytes": 3482892,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/6289dba6d952268e1b7ab16da97a1c43973ea59147d07be8e125c36d94dc2a9c.webp",
+    "sha256": "6289dba6d952268e1b7ab16da97a1c43973ea59147d07be8e125c36d94dc2a9c",
+    "bytes": 259408,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30300.png",
+    "sourceSha256": "2333be06e669ad94825cd1286d3c468a1267f958364813643dc8c9c589761885",
+    "sourceBytes": 3071950,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/40d772352ef144053df46c41208d441c0f8cb88af07eabba6805b00596a07293.webp",
+    "sha256": "40d772352ef144053df46c41208d441c0f8cb88af07eabba6805b00596a07293",
+    "bytes": 233212,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30302.png",
+    "sourceSha256": "e7384edd8b068706f448e0c43490e983b1267c5476d66bf4928ad133204e1be0",
+    "sourceBytes": 3524987,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/ceca33e93d166ba9c7ef8b744ae4c6d9b09856a9f6d17cc4a4d4c49cb7873113.webp",
+    "sha256": "ceca33e93d166ba9c7ef8b744ae4c6d9b09856a9f6d17cc4a4d4c49cb7873113",
+    "bytes": 306296,
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "original": "/assets/entities/selection/uma-ssr-30305.png",
+    "sourceSha256": "1f5a492ea0a363f066c3fb767326d82b3603902384185d69c5cbb69e262fb56e",
+    "sourceBytes": 2552183,
+    "sourceWidth": 1536,
+    "sourceHeight": 2048,
+    "url": "/catalog-previews/a0d160cc22edb179b0f3e6ab75a33e9668c534f762c88a05e0e08b39d7695ed9.webp",
+    "sha256": "a0d160cc22edb179b0f3e6ab75a33e9668c534f762c88a05e0e08b39d7695ed9",
+    "bytes": 194236,
+    "width": 1152,
+    "height": 1536
+  }
+]

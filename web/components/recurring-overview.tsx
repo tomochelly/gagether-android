@@ -1,3 +1,4 @@
+import {recurringRepeatLabel} from '@/lib/recurring-schedule';
 'use client';
 import {textAppearance,textAppearanceStyle,authoredField} from '@/lib/text-appearance';
 import {EntryEdit} from './owner-inline';
@@ -33,7 +34,7 @@ export default function RecurringOverview({entries,locale,now,region,gameId,onOp
   <header><RotateCcw size={18}/><div><h2 id="gagether-resets-title">{c.title}<small>{items.length}</small></h2><p>{c.intro}</p></div></header>
   <div className="reset-grid">{items.slice(0,expanded?items.length:6).map(e=><div className="owner-entry-row" key={e.id}><button className="reset-row" type="button" data-entry-id={e.id} onClick={()=>onOpen(e)}>
    {artworkForLocale(e,locale).image&&<span className="reset-art" aria-hidden="true"><ArtworkMedia art={e} locale={locale} alt=""/></span>}
-   <span className="reset-name"><GameBadge gameId={e.gameId} locale={locale} force/>{artworkForLocale(e,locale).image&&artworkForLocale(e,locale).imageLocale!=='neutral'&&artworkForLocale(e,locale).imageLocale!==locale&&<small className="reset-image-language">{languageLabel(artworkForLocale(e,locale).imageLocale as Locale,locale)} · {({ko:'원본',en:'Original',ja:'原文',zh:'原文'})[locale]}</small>}{eventState(e,now)==='upcoming'&&<small>{c.next}</small>}<strong style={textAppearanceStyle(textAppearance(e,locale),'title')}>{e.title[locale]}</strong><span>{e.recurring!.cycleLabel[locale]}</span></span>
+   <span className="reset-name"><GameBadge gameId={e.gameId} locale={locale} force/>{artworkForLocale(e,locale).image&&artworkForLocale(e,locale).imageLocale!=='neutral'&&artworkForLocale(e,locale).imageLocale!==locale&&<small className="reset-image-language">{languageLabel(artworkForLocale(e,locale).imageLocale as Locale,locale)} · {({ko:'원본',en:'Original',ja:'原文',zh:'原文'})[locale]}</small>}{eventState(e,now)==='upcoming'&&<small>{c.next}</small>}<strong style={textAppearanceStyle(textAppearance(e,locale),'title')}>{e.title[locale]}</strong><span>{recurringRepeatLabel(e,locale)||e.recurring!.cycleLabel[locale]}</span></span>
    <span className="reset-reward">{hasPullRewards(e)?<EventRewards entry={e} locale={locale}/>:null}</span>
    <ResetClock entry={e} locale={locale} now={now}/><ChevronRight size={15}/>
   </button><EntryEdit entry={e} locale={locale} compact/></div>)}</div>

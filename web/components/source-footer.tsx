@@ -11,7 +11,7 @@ export default function SourceFooter({entries,locale,detail=false}:{entries:Entr
  const zone=useDisplayZone();const {t,byId}=useCatalog();
  const sources=useMemo(()=>{
   const map=new Map<string,RelatedSource>();
-  const add=(s:RelatedSource)=>{if(!map.has(s.url))map.set(s.url,s);};
+  const add=(s:RelatedSource)=>{if(s.url&&!map.has(s.url))map.set(s.url,s);};
   for(const e of entries){
    add({kind:e.sourceKind||'official',url:e.sourceUrl,title:`${byId[e.gameId].name[locale]} · ${e.sourceTitle}`});
    for(const source of e.relatedSources||[])add(source);

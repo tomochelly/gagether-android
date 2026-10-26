@@ -1,3 +1,4 @@
+import {recurringDisplayEntry} from './recurring-schedule';
 import {allowsRewards} from './content-roles';
 import type {Entry,Locale,RewardItem,Game} from './types';
 import {dateInZone} from './display-time';
@@ -14,6 +15,7 @@ export const pullRewards=(e:Entry)=>!allowsRewards(e)?[]:(e.rewards||[]).filter(
 export const hasPullRewards=(e:Entry)=>pullRewards(e).length>0;
 export const serviceZone=(e:Entry)=>e.region==='cn'?'Asia/Shanghai':e.region==='jp'?'Asia/Tokyo':e.region==='kr'?'Asia/Seoul':/UTC\+8|UTC\+08|\+08:00/.test(e.server)?'Asia/Shanghai':/UTC-7|UTC−7|UTC-07|\-07:00/.test(e.server)?'Etc/GMT+7':'Asia/Seoul';
 export function eventState(e:Entry,now:number):'active'|'upcoming'|'ended'|'unconfirmed'{
+ e=recurringDisplayEntry(e,now);
  if(e.pickupArchive?.status==='forecast')return 'unconfirmed';
  const day=dateInZone(now,serviceZone(e));
  if(e.endAt&&Date.parse(e.endAt)<=now||!e.endAt&&e.endDate&&e.endDate<day)return 'ended';
@@ -25,6 +27,7 @@ export function eventState(e:Entry,now:number):'active'|'upcoming'|'ended'|'unco
 export const collaborationActive=(e:Entry,now:number)=>!!e.collaboration&&eventState(e,now)==='active'&&(e.sourceKind||'official')==='official';
 export function activeGameCollaborations(entries:Entry[],game:Game,region:import('./types').Region,now:number){return entries.filter(e=>e.gameId===game.id&&!e.hidden&&inSchedule(e,game,region)&&collaborationActive(e,now));}
 export function eventEndingSoon(e:Entry,now:number){
+ e=recurringDisplayEntry(e,now);
  if(eventState(e,now)!=='active')return false;
  if(e.endAt)return Date.parse(e.endAt)-now<=3*86400000;
  if(e.endDate){const days=(Date.parse(e.endDate)-Date.parse(dateInZone(now,serviceZone(e))))/86400000;return days>=0&&days<=3;}

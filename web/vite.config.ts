@@ -12,6 +12,7 @@ import hostingConfig from "./.openai/hosting.json";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./build/sites-vite-plugin";
 import { connectorPreview } from "./build/connector-preview-plugin.mjs";
+import { lazyRosterSnapshot } from './build/roster-snapshot';
 import { guardCommonjsJson } from "./build/commonjs-json-guard";
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
@@ -71,6 +72,7 @@ export default defineConfig(async ({ command }) => {
         : {}),
     },
     plugins: [
+      lazyRosterSnapshot(),
       guardCommonjsJson(vinext()),
       sites({ mockAuth: !managedLinux }),
       connectorPreview(),

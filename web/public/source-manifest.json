@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "d220315a0d96256ab67a69abe9b0d7812ea7f438f4b2e60c94102594894d1189",
+  "fingerprint": "c134381f2dc4fc75f803e26ebbd27d50b9062bed562cbd387ab54887d6399489",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -16,7 +16,7 @@
     },
     {
       "path": "app/[locale]/games/[gameId]/characters/page.tsx",
-      "sha256": "63efff2018ec27f2a8b9bbb1e7b5c0a9edefdf92cd907cf621d910f6fad3ff3c"
+      "sha256": "41d90730177d2a34037521b3340a951ffca0a1f09e4c10905c406796d388851d"
     },
     {
       "path": "app/[locale]/games/[gameId]/items/[entryId]/page.tsx",
@@ -412,7 +412,7 @@
     },
     {
       "path": "build/commonjs-json-guard.ts",
-      "sha256": "2b83cba063da8146ae57ba81923ec7428b0696979bc2ee2b22664ff497bb93ca"
+      "sha256": "cf5d91fa96ca0a6826f1cf8c803819c3a587ecc4090b547ba4635feb82694447"
     },
     {
       "path": "build/connector-preview-plugin.mjs",
@@ -423,12 +423,16 @@
       "sha256": "c1b6b2c420cb67d9e28f8f4ae440f578c0dfd4cb840a12cfe4b58076629a17ba"
     },
     {
+      "path": "build/roster-snapshot.ts",
+      "sha256": "e609a75c80a61cd5acbe29b1cf632e62abc8d97e1e8a39618d361dae6e86f729"
+    },
+    {
       "path": "build/sites-vite-plugin.ts",
       "sha256": "07af20e7097d9ed1d76f7c446d02997550b8fc5ca89668b249e25eabd62c6834"
     },
     {
       "path": "build/sites-worker.ts",
-      "sha256": "b0860456f20c89c71f363a1ed28486825cd1b2e0ecafc594ceecf97b35db8adb"
+      "sha256": "2d5e69b9f3b78c0638d0680827c3baa0ddd4de3b684641a5243fa0926e5c4b44"
     },
     {
       "path": "components/account-sync-status.tsx",
@@ -444,7 +448,7 @@
     },
     {
       "path": "components/artwork-media.tsx",
-      "sha256": "617ac8fd31d886e63c658ae141f7226bf36283a6d8389c3905bf9061b3955cd4"
+      "sha256": "9c86e26b763a82bb7f2b8ea96a8e095cf46dfc039dd3be11bbf351e896d44110"
     },
     {
       "path": "components/broadcast-editor.tsx",
@@ -468,11 +472,11 @@
     },
     {
       "path": "components/character-landing.tsx",
-      "sha256": "f136f62a330fd76146223adf88267b0c712e11f4e02dcce6d3fb5319113e3308"
+      "sha256": "bdb1d7d9f4f63cfb7b1e720c83405930620758a7f9d63b0e6201cb2e627c35af"
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "ec0a3d090bbd15a41054daa86756e28d5b35c177228333dd871b01c8dcda10a3"
+      "sha256": "868f803f1e51201e16ba2501178b34224ab962200616d054e0a45c1014da593b"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -512,7 +516,7 @@
     },
     {
       "path": "components/editor-panel.tsx",
-      "sha256": "388aac50c4647bd294834b0371d60daff917bbc5fdda1464f4c866bf8a8ec39b"
+      "sha256": "9403d168dfb39eeb15957a97bd0fd3988881db20a23f2efc3a4dce53b0d1bc7f"
     },
     {
       "path": "components/entity-details-editor.tsx",
@@ -528,7 +532,7 @@
     },
     {
       "path": "components/event-overview.tsx",
-      "sha256": "50c6356563f098e2a17036b318146072049140768daf631e65e832e48768fc6c"
+      "sha256": "312668d0d2b5b044d43f4549f3b6bac966642859d9807591a7547a1b9ee9c9b6"
     },
     {
       "path": "components/favorite-updates.tsx",
@@ -648,11 +652,15 @@
     },
     {
       "path": "components/radar.tsx",
-      "sha256": "73140b0afbd6e257d347b3d7aaaa778275c7fbadf08f3069067522b7269e8583"
+      "sha256": "12a8472c4947f91e95c96e95514206bce43457b653371cb38289b3856c813031"
+    },
+    {
+      "path": "components/recurring-editor.tsx",
+      "sha256": "46d6272e1853638da4633dd99541a2a351808352da9d036854b61efa99d55a3e"
     },
     {
       "path": "components/recurring-overview.tsx",
-      "sha256": "98f6624d723902f2559344fc5e320d554dd90ab044c3035bf71d622e1876d209"
+      "sha256": "ac7b7b4b62a5741f4a7a1e9b5e5361a5ac537b0ad92f4b6347fb086210199f21"
     },
     {
       "path": "components/reminder-controls.tsx",
@@ -712,7 +720,7 @@
     },
     {
       "path": "components/source-footer.tsx",
-      "sha256": "9f00146c1a2dc5cc527ca5f7867dd8fb534fd20af627780c5adbc44344cc3626"
+      "sha256": "1f6d648f38ff9ab75069bc306bdc5014b9897a1ddeeb783c419b8faadb16b861"
     },
     {
       "path": "components/spotlight.tsx",
@@ -999,8 +1007,12 @@
       "sha256": "040867621218f71f0fb454a40832acc21d80c3721213db01e869422a357ad0d0"
     },
     {
+      "path": "components/use-detail-intent.ts",
+      "sha256": "9189e79ce0048515b976857fc745583d7d5dd2ab99afc6ea0f8f4ecae694ac29"
+    },
+    {
       "path": "components/use-entry-detail.ts",
-      "sha256": "235053a366985718f91fd4835819b2d6e512fafb726ff1e4b11fe92fa13d35a5"
+      "sha256": "ff44e08d1d326024af8be07bd503e1a7bf83814d9441352326d7b4226df3a90b"
     },
     {
       "path": "components/use-mobile-drawer.ts",
@@ -1032,7 +1044,7 @@
     },
     {
       "path": "components/wuwa-reference.tsx",
-      "sha256": "0815dd779e5592afde61bc2664f6c47a768233ff191b95f01ed0713b7e38bfa6"
+      "sha256": "c8558c5eeff7d37c5c73b0ca2dc861639135ed8dc35ea7c7bbd576fea0fcffd8"
     },
     {
       "path": "content/additional-game-assets.json",
@@ -1069,6 +1081,10 @@
     {
       "path": "content/assets-others-manifest.json",
       "sha256": "487bcfdaf6e9b87710d556d60d736caf03a98b493e570ba9058930054bd746f7"
+    },
+    {
+      "path": "content/catalog-preview-images.json",
+      "sha256": "a974ad5f7282f8f6a808c34c9e99627f505bd57a7a11643aca4e71dabe782f83"
     },
     {
       "path": "content/character-rosters/artwork-manifest.json",
@@ -1208,7 +1224,11 @@
     },
     {
       "path": "content/public-read-versions.json",
-      "sha256": "db82779dfb28ba065554c8165933c43bd7173136a83faa78961f4d21d18cc848"
+      "sha256": "a541a5bee16d9c7c7906d93e17f090f245bc74b20de1900d4df1d7e4ba2690d2"
+    },
+    {
+      "path": "content/recurring-defaults.json",
+      "sha256": "ada69193cd73d0f3f14cedf29b8ff232a2d9ce15f4743b2779eff321c0f52218"
     },
     {
       "path": "content/recurring-sources.json",
@@ -1456,7 +1476,7 @@
     },
     {
       "path": "lib/catalog-asset-response.ts",
-      "sha256": "d05ce38d5f3d0e5e5e074ccfd7ed75bc26c7427e6d86d613e9396cc6ead627b0"
+      "sha256": "396cd8fcc68d87abf51bcd95589f171b9e0de913c61bba6853ce1f191e4e8e7f"
     },
     {
       "path": "lib/catalog-assets.ts",
@@ -1469,6 +1489,10 @@
     {
       "path": "lib/catalog-paths.ts",
       "sha256": "48c955684f6c8b00617110d529024bcaec1db2cf05a0404f251fd676fff17641"
+    },
+    {
+      "path": "lib/catalog-preview.ts",
+      "sha256": "4e4df9e0a1da58d88aece99dcb3ad54e5e8618a67a7b383891311c5f6fe08821"
     },
     {
       "path": "lib/catalog-revision.ts",
@@ -1556,7 +1580,7 @@
     },
     {
       "path": "lib/content-schema.ts",
-      "sha256": "ad78c51b90674a192bda8c8d42e90cd3ee06cc61c0876be81e84bb541f0cf87e"
+      "sha256": "d7960080d08ef523c176822bc196667f2379b2f6e904a767108df29da9c68caa"
     },
     {
       "path": "lib/discord-feed.ts",
@@ -1584,7 +1608,7 @@
     },
     {
       "path": "lib/editor-draft.ts",
-      "sha256": "e255f70afe0fc8bd6dbaab77baecb213f865ae392ad27af06c1aae2ee77f3886"
+      "sha256": "8219275c4bb0a2d457f64a5cf8087a45fbda9777769c3a6e99d16da5bee3a6df"
     },
     {
       "path": "lib/editor-history.ts",
@@ -1600,7 +1624,7 @@
     },
     {
       "path": "lib/editor-schema.ts",
-      "sha256": "d82cddc9543184bfa84f45f6872a7220d38e46fad7e8b2f4b44d56261ef0e828"
+      "sha256": "667f08655f992338975dd2feb3c2de645ff12d11a4fd5f12aacd234d6bd8c5a0"
     },
     {
       "path": "lib/editorial.ts",
@@ -1616,7 +1640,7 @@
     },
     {
       "path": "lib/event-presentation.ts",
-      "sha256": "cc22acba96c27668e7afc992c919b881083447166dccb0f3c6f0ad6e31d34087"
+      "sha256": "9369429ef8b06358ab42af0e23a1c39f6996d4449d99c8e99cee3285d27b59e5"
     },
     {
       "path": "lib/expanded-notices.ts",
@@ -1840,7 +1864,7 @@
     },
     {
       "path": "lib/presentation.ts",
-      "sha256": "8fac3e99234ce21580feee6649a5406fad1feb497b0857af230a246c85ba5cf9"
+      "sha256": "230d96b644e6b9b886188127aaeab96341014dd7b67af2fa659f126061173b51"
     },
     {
       "path": "lib/price-presentation.ts",
@@ -1896,7 +1920,11 @@
     },
     {
       "path": "lib/recurring-events.ts",
-      "sha256": "78fb12bf36a4eaae88b86f57c7129ca6051aacca3448a0b5ca9c16a161d14707"
+      "sha256": "b77c0a8c7678da30b9c497334e93f3863b986796d62cb24936160fd32ad7dd3e"
+    },
+    {
+      "path": "lib/recurring-schedule.ts",
+      "sha256": "9b7072c63062a4786cae1eb31116b5ae1b6070332aecb334a18a60853010cea0"
     },
     {
       "path": "lib/refresh-identity.ts",
@@ -2048,7 +2076,7 @@
     },
     {
       "path": "lib/types.ts",
-      "sha256": "22a8d9915d231ef040970d1421817b8135272d7f33de8770049b332d31cef826"
+      "sha256": "4f960021aad139bbcd8a4ecaaab15b269781e4452d5961c20357ce1cd35445c8"
     },
     {
       "path": "lib/upcoming-pickups.ts",
@@ -2136,7 +2164,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "2112b890bb3d9229a345f5be24cd8f8dc8a7668cf5e557fbd8131c16c37e9114"
+      "sha256": "1c7158e6100c990d2798f5c3cb1d034c8cefc410264224ac39ff4796f8610734"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -2144,7 +2172,7 @@
     },
     {
       "path": "vite.config.ts",
-      "sha256": "9d1edeb6a28d439ff9cf21d53560468ed5a107aff4d91a8991cbe687e4b501ce"
+      "sha256": "2f41a629b8580136486bf3f03e6cbc681bc08f7fa76c2b17cc32f2f14b5c558d"
     }
   ]
 }

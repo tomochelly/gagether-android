@@ -15,7 +15,7 @@ export function guardCommonjsJson(option:PluginOption):PluginOption {
   if(!hook)return option;
   const handler=typeof hook==='function'?hook:hook.handler;
   const guarded:typeof handler=function(code,id,options){
-    if(/\.json(?:\?|$)/i.test(id))return null;
+    if(id==='\0gagether:roster-bootstrap-packed.js'||/\.json(?:\?|$)/i.test(id))return null;
     return handler.call(this,code,id,options);
   };
   return {...plugin,transform:typeof hook==='function'?guarded:{...hook,handler:guarded}};

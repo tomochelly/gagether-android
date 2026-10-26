@@ -19,6 +19,8 @@ function loadUrl(file){
  if(file.endsWith('.json.ts'))return dataUrl('export default '+(file.endsWith('/ops/assets-manifest.json.ts')&&globalThis.__patchworkTest.assetManifest?JSON.stringify(globalThis.__patchworkTest.assetManifest):fs.readFileSync(file.slice(0,-3),'utf8'))+';');
  let output=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
  output=output.replace(/with\s*\{\s*type:\s*["']json["']\s*\}/g,'');
+ // Match Vite's production constant when exercising the actual Worker in Node.
+ output=output.replace(/import\.meta\.env\.DEV/g,'false');
  output=output.replace(/from\s+(['"])([^'"]+)\1/g,(_all,_quote,spec)=>{
   if(spec.startsWith('node:'))return 'from '+JSON.stringify(spec);
   if(spec==='vinext/server/fetch-handler')return 'from '+JSON.stringify(dataUrl('export default {fetch(){throw Error("Static framework handler must not receive catalog assets")}};'));
@@ -77,6 +79,15 @@ assert.equal((await save({target:'site',revision:0,changes:{}})).status,409);
 assert.equal(settingsSchema.safeParse({ui:{ko:{unknownKey:'invalid'}}}).success,false);
 assert.equal(settingsSchema.safeParse({games:{wuwa:{official:'javascript:alert(1)'}}}).success,false);
 assert.equal((await editor.DELETE(request({target:'site',revision:1},'DELETE'))).status,200);assert.deepEqual((await store.readData()).settings,{});
+// Owner-defined recurring schedules use the same authenticated CAS and real store.
+const recurringFixture={...seedEntries.find(e=>e.gameId==='wuwa'&&e.kind==='event'),id:'owner-recurring-fixture',sourceUrl:'',sourceTitle:'',startAt:'2026-10-26T05:00:00+09:00',endAt:'2026-11-23T05:00:00+09:00',recurring:{modeId:'owner-cycle',cycleLabel:{ko:'28일 반복',en:'Every 28 days',ja:'28日周期',zh:'每28天'},sourceKind:'owner',sourceUrls:[],verifiedAt:new Date().toISOString(),repeat:{kind:'owner-defined',enabled:true,intervalDays:28,anchorAt:'2026-11-23T05:00:00+09:00',timeZone:'Asia/Seoul',confirmedAt:new Date().toISOString()}}};
+const recurringChanges=Object.fromEntries(Object.entries(recurringFixture).filter(([key])=>!['id','verifiedAt','editor'].includes(key)));
+response=await save({target:'entry',id:recurringFixture.id,revision:0,create:true,changes:recurringChanges});assert.equal(response.status,200);
+let recurringSaved=(await store.readData()).entries.find(e=>e.id===recurringFixture.id);assert.deepEqual(recurringSaved.recurring.repeat,recurringFixture.recurring.repeat);assert.equal(recurringSaved.sourceUrl,'');
+assert.equal((await save({target:'entry',id:recurringFixture.id,revision:0,changes:{summary:recurringFixture.summary}})).status,409);
+await store.saveEntries([{...recurringFixture,sourceUrl:'https://example.test/ref',recurring:{...recurringFixture.recurring,repeat:undefined}}]);recurringSaved=(await store.readData()).entries.find(e=>e.id===recurringFixture.id);assert.deepEqual(recurringSaved.recurring.repeat,recurringFixture.recurring.repeat);
+assert.equal((await editor.DELETE(request({target:'entry',id:recurringFixture.id,revision:1},'DELETE'))).status,200);
+console.log(JSON.stringify({recurringOwnerSourceFreeSaved:true,repeatCAS:true,repeatSurvivesSourceRefresh:true}));
 const siteNotices=[{id:'reviewed-notice',title:{ko:'공지',en:'Notice',ja:'お知らせ',zh:'公告'},body:{ko:'본문',en:'Body',ja:'本文',zh:'正文'},publishedDate:'2026-10-23',href:'/download'}];
 response=await save({target:'site',revision:0,changes:{announcements:siteNotices,announcementSeconds:7}});assert.equal(response.status,200);data=await response.json();assert.deepEqual(data.settings.announcements,siteNotices);assert.equal(data.settings.announcementSeconds,7);assert.equal((await save({target:'site',revision:0,changes:{announcements:[]}})).status,409);assert.equal((await editor.DELETE(request({target:'site',revision:1},'DELETE'))).status,200);
 // Owner studio: real schema, persisted placement/rewards, scoped settings CAS and history.

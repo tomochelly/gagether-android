@@ -91,10 +91,11 @@ import {entryState,liveContent,type Entry,type Game,type Kind,type Locale,type R
 import {detailsDeferred} from '@/lib/catalog-index';
 import CatalogPending from './catalog-pending';
 import {unpackCatalog,type PackedCatalog} from '@/lib/catalog-transport';
-import {useEntryDetail} from './use-entry-detail';
+import {useEntryDetail,useEntryIntent} from './use-entry-detail';
 import GameOrderControl,{useGameOrder} from './game-order-control';
 import {eventOverviewItems} from '@/lib/event-overview-items';
 import RecurringOverview from './recurring-overview';
+import {recurringDisplayEntry,recurringWindow} from '@/lib/recurring-schedule';
 import EventOverview,{EventBadges,EventRewards,EventClock,LibraryGameMeta} from './event-overview';
 import OfficialSocial from './official-social';
 import {usePublicFavorites} from './use-public-favorites';
@@ -142,7 +143,7 @@ export default function Radar({initialLocale='ko',initialLocaleManual=false,init
  const [editorPreview,setEditorPreview]=useState<EditorPreview|null>(null);const editorRef=useRef<EditorHandle>(null);
  const simpleMode=mobileView==='simple'&&(appMode||compactWidth)&&!editMode;const personalText=personalUi[locale];
  const entries=useMemo(()=>previewEntries(storedEntries,editorPreview),[storedEntries,editorPreview]);const settings=editorPreview?.settings||storedSettings;const selectedSummary=selectedRecord?(entries.find(e=>e.id===selectedRecord.id)||selectedRecord):null;
- const detail=useEntryDetail(selectedSummary);const canonicalSelected=detail.entry;const selected=useMemo(()=>canonicalSelected?pickupDetailEntry(canonicalSelected,selectedMember):null,[canonicalSelected,selectedMember]);
+ const detail=useEntryDetail(selectedSummary);const canonicalSelected=detail.entry;const selected=useMemo(()=>canonicalSelected?recurringDisplayEntry(pickupDetailEntry(canonicalSelected,selectedMember),now):null,[canonicalSelected,selectedMember,now]);
  const preview=useCallback((value:EditorPreview|null)=>setEditorPreview(value),[]);
  const baseGames=useMemo(()=>catalogGames(settings,locale),[settings,locale]);const gameOrder=useGameOrder(baseGames);const games=gameOrder.games;const byId=useMemo(()=>Object.fromEntries(games.map(g=>[g.id,g])),[games]);const t=useMemo(()=>catalogUi(locale,settings),[locale,settings]);const et=editorText[locale];
  const searchRef=useRef<HTMLInputElement>(null);const dialogRef=useRef<HTMLDialogElement>(null);const pendingSelectedId=useRef<string|null>(null);
@@ -213,7 +214,9 @@ export default function Radar({initialLocale='ko',initialLocaleManual=false,init
  const toggleFavorite=(id:string)=>togglePersonal('favorites',id);
  const toggleSave=(id:string)=>togglePersonal('saved',id);
  async function refresh(){if(refreshing)return;setRefreshing(true);try{const r=await fetch(canEdit?'/api/refresh':dataUrl,{method:canEdit?'POST':'GET',cache:'no-store',headers:canEdit?{}:{'X-Gagether-Public-Fresh':'1'}});const d=await r.json() as Partial<EditorData>&{ok:boolean;checks?:SourceCheck[];added?:number;changed?:number;cached?:boolean};if(!r.ok)throw new Error();if(d.entries){applyData(d);}const u=ownerUi[locale];setToast(canEdit?`${d.ok?u.complete:u.partial} · ${d.checks?.filter(c=>c.status==='ok').length||0}/${d.checks?.length||0} · ${u.newNotices} ${d.added||0} · ${u.changed} ${d.changed||0}${d.cached?' · '+u.cached:''}`:publicText[locale].refreshed);}catch{setToast(t.refreshError);}finally{setRefreshing(false);}}
- const inRegion=useMemo(()=>{const restrict=audienceRestrictions(entries),scoped=entries.filter(e=>availableInLocale(e,locale)&&(editMode?inSchedule(e,byId[e.gameId],region):contentInAudience(restrict(e),byId[e.gameId],region,locale)));return editMode||view==='videos'||view==='saved'?scoped:localizeVideoNotices(scoped,locale);},[entries,region,locale,byId,editMode,view]);
+ const recurringDefinitions=useMemo(()=>entries.filter(e=>e.recurring),[entries]);
+ const recurringRevision=recurringDefinitions.map(e=>{const w=recurringWindow(e,now);return w?.endAt||w?.endDate||''}).join('|');
+ const inRegion=useMemo(()=>{const restrict=audienceRestrictions(entries),scoped=entries.filter(e=>availableInLocale(e,locale)&&(editMode?inSchedule(e,byId[e.gameId],region):contentInAudience(restrict(e),byId[e.gameId],region,locale)));return editMode||view==='videos'||view==='saved'?scoped:localizeVideoNotices(scoped,locale);},[entries,region,locale,byId,editMode,view,recurringRevision]);
  useEffect(()=>{if(selected&&!editMode&&!contentInAudience(selected,byId[selected.gameId],region,locale))setSelected(null);},[locale,region,editMode,selected?.id]);
  const visibleEntries=useMemo(()=>myGameEntries(inRegion,favorites,myOnly&&view!=='game'),[inRegion,favorites,myOnly,view]);
  const active=visibleEntries.filter(e=>liveContent(e,now)&&entryState(e,now)==='active');
@@ -334,6 +337,7 @@ function EntryFeed({entries,locale,now,saved,onSave,onOpen}:{entries:Entry[];loc
  })}</div>;
 }
 function EntryCard({entry:e,editingEntry=e,locale,now,saved,onSave,onOpen,weaponLinks=[],onOpenWeapon}:{entry:Entry;editingEntry?:Entry;locale:Locale;now:number;saved:boolean;onSave:()=>void;onOpen:()=>void;weaponLinks?:WeaponLink[];onOpenWeapon?:(entry:Entry)=>void}){
+ const intent=useEntryIntent(editingEntry);
  const zone=useDisplayZone();const dateFormat=(date:string,l:Locale,withTime=false)=>formatInZone(date,l,withTime,zone);
  const {t,byId,editMode,openEditor,simpleMode}=useCatalog();const game=byId[e.gameId];const state=e.pickupArchive?(pickupPeriod(e,now)==='past'?'ended':pickupPeriod(e,now)==='current'?'active':pickupPeriod(e,now)==='upcoming'?'upcoming':'notice'):entryState(e,now);const Icon=kindIcons[e.kind];
  const [failedImage,setFailedImage]=useState('');const image=artworkForLocale(e,locale,'preview',serviceArtworkLocale(e.region,e.gameId)).image;
@@ -343,19 +347,19 @@ function EntryCard({entry:e,editingEntry=e,locale,now,saved,onSave,onOpen,weapon
   const art=artworkForLocale(e,locale,'preview',serviceArtworkLocale(e.region,e.gameId));
   const hasArt=!listItem&&(art.imageVerified&&!!art.image||e.pickupMembers?.some(m=>{const a=artworkForLocale(m,locale,'preview',serviceArtworkLocale(e.region,e.gameId));return a.imageVerified&&a.image;}));
   return <article className={'simple-entry'+(state==='ended'?' is-ended':'')+(state==='upcoming'&&(e.kind==='pickup'||e.poolType==='support')?' is-upcoming':'')} style={{'--card-accent':game.color} as CSSProperties}>
-   <button className="simple-entry-main" onClick={onOpen}><span className="simple-entry-kicker"><GameBadge gameId={e.gameId} locale={locale}/><Icon size={13}/>{t[e.kind]}<span>{game.name[locale]} · {regionLabel(game,e.region,locale,t)}</span>{status}</span><EventBadges entry={e} locale={locale}/><span className="simple-entry-title"><strong style={textAppearanceStyle(textAppearance(e,locale),'title')}>{entryTitle(e,locale)}</strong><ChevronRight size={16}/></span><span className="simple-entry-labels"><PickupBadge entry={e} locale={locale}/><LocalizationBadge entry={e} locale={locale}/></span>{(e.selectionCount||(featuredMembers(e)?.length||0)>1)&&<MemberList entry={e} locale={locale}/>}<SecondaryPickups entry={e} locale={locale}/>
+   <button className="simple-entry-main" {...intent} onClick={onOpen}><span className="simple-entry-kicker"><GameBadge gameId={e.gameId} locale={locale}/><Icon size={13}/>{t[e.kind]}<span>{game.name[locale]} · {regionLabel(game,e.region,locale,t)}</span>{status}</span><EventBadges entry={e} locale={locale}/><span className="simple-entry-title"><strong style={textAppearanceStyle(textAppearance(e,locale),'title')}>{entryTitle(e,locale)}</strong><ChevronRight size={16}/></span><span className="simple-entry-labels"><PickupBadge entry={e} locale={locale}/><LocalizationBadge entry={e} locale={locale}/></span>{(e.selectionCount||(featuredMembers(e)?.length||0)>1)&&<MemberList entry={e} locale={locale}/>}<SecondaryPickups entry={e} locale={locale}/>
    {e.kind==='event'&&<span className="simple-event-summary">{displaySummary(e,locale)}</span>}<EventRewards entry={e} locale={locale}/>{e.kind==='event'&&<EventClock entry={e} locale={locale} now={now}/>}<span className="simple-entry-time">{e.kind==='event'?null:e.pickupArchive||!e.endAt&&(e.startDate||e.endDate)?<span>{pickupStart(e)||'—'} — {pickupEnd(e)||'—'}</span>:e.endAt?<span className={'entry-countdown'+(deadlineUrgency(e,now)?' urgent':'')}><Clock3 size={13}/>{state==='ended'?t.ended:state==='upcoming'&&e.startAt?`${t.startsIn} ${countdown(e.startAt,now,locale)}`:`${countdown(e.endAt,now,locale)} ${t.left}`}</span>:e.startAt&&state==='upcoming'?<span><UiText name="startsIn">{t.startsIn}</UiText> {countdown(e.startAt,now,locale)}</span>:<span>{e.publishedAt?dateFormat(e.publishedAt,locale):t.pending}</span>}{e.price&&<strong>{formatPrice(e,locale)}<small className="price-market">{priceMarketLabel(e,locale)}</small></strong>}</span></button>
    {communityMembers(e).length>0&&<CardCommunity entry={e} locale={locale} onOpen={onOpen}/>}
    {onOpenWeapon&&<SignatureWeapons links={weaponLinks} locale={locale} onOpen={onOpenWeapon} compact/>}
-   <div className="simple-entry-actions"><a className="entry-document-link" href={entryPath(locale,e)} aria-label={entryTitle(e,locale)+" · "+discoveryWords[locale].item}>{discoveryWords[locale].item} ↗</a>{hasArt&&<ArtworkDisclosure key={e.id+locale} locale={locale}><button className="simple-entry-art" onClick={onOpen} aria-label={entryTitle(e,locale)+' · '+t.more}><EntryArtwork entry={e} locale={locale} onUnavailable={()=>setFailedImage(image||'')}/></button></ArtworkDisclosure>}<button className={'simple-entry-save'+(saved?' is-saved':'')} aria-label={saved?t.unbookmark:t.bookmark} aria-pressed={saved} onClick={onSave}><Bookmark size={16} fill={saved?'currentColor':'none'}/>{!hasArt&&<span>{saved?t.unbookmark:t.bookmark}</span>}</button></div>
+   <div className="simple-entry-actions"><a className="entry-document-link" href={entryPath(locale,e)} aria-label={entryTitle(e,locale)+" · "+discoveryWords[locale].item}>{discoveryWords[locale].item} ↗</a>{hasArt&&<ArtworkDisclosure key={e.id+locale} locale={locale}><button className="simple-entry-art" {...intent} onClick={onOpen} aria-label={entryTitle(e,locale)+' · '+t.more}><EntryArtwork entry={e} locale={locale} onUnavailable={()=>setFailedImage(image||'')}/></button></ArtworkDisclosure>}<button className={'simple-entry-save'+(saved?' is-saved':'')} aria-label={saved?t.unbookmark:t.bookmark} aria-pressed={saved} onClick={onSave}><Bookmark size={16} fill={saved?'currentColor':'none'}/>{!hasArt&&<span>{saved?t.unbookmark:t.bookmark}</span>}</button></div>
   </article>;
  }
  return <article className={'entry-card'+(e.kind==='pickup'?' pickup-card':'')+(listItem?' is-text-only':'')+(state==='ended'?' is-ended':'')+(state==='upcoming'&&(e.kind==='pickup'||e.poolType==='support')?' is-upcoming':'')} style={{'--card-accent':game.color} as CSSProperties}>
   <EntryEdit entry={editingEntry} member={e.kind==='pickup'?e.title:undefined} locale={locale}/>
-  {!listItem&&<button className="entry-image-button" onClick={onOpen}><EntryArtwork entry={e} locale={locale} onUnavailable={()=>setFailedImage(image||'')}/><span className="image-shade"/><span className="kind-badge"><Icon size={12}/>{t[e.kind]}</span>{e.rarity&&<span className="rarity">{'★'.repeat(e.rarity)}</span>}</button>}
+  {!listItem&&<button className="entry-image-button" {...intent} onClick={onOpen}><EntryArtwork entry={e} locale={locale} onUnavailable={()=>setFailedImage(image||'')}/><span className="image-shade"/><span className="kind-badge"><Icon size={12}/>{t[e.kind]}</span>{e.rarity&&<span className="rarity">{'★'.repeat(e.rarity)}</span>}</button>}
   <button className={'bookmark-button '+(saved?'is-saved':'')} aria-label={saved?t.unbookmark:t.bookmark} aria-pressed={saved} onClick={onSave}><Bookmark size={15} fill={saved?'currentColor':'none'}/></button>
   <div className={"entry-info-layout"+(weaponLinks.length?" has-signature":"")+(communityMembers(e).length?" has-community":"")}>
-  <button className="entry-body" onClick={onOpen}>
+  <button className="entry-body" {...intent} onClick={onOpen}>
    <div className="entry-topline"><GameBadge gameId={e.gameId} locale={locale}/>{listItem?<span className="entry-list-kind"><Icon size={13}/>{t[e.kind]}<span>{game.name[locale]}</span></span>:status}<span>{e.bannerName?.[locale]||versionCaption(e,locale)||regionLabel(game,e.region,locale,t)}</span></div>
    <div className="card-labels"><PickupBadge entry={e} locale={locale}/><LocalizationBadge entry={e} locale={locale}/></div>
    <EventBadges entry={e} locale={locale}/><h3 style={textAppearanceStyle(textAppearance(e,locale),'title')}>{entryTitle(e,locale)}</h3>{(e.selectionCount||(featuredMembers(e)?.length||0)>1)&&<MemberList entry={e} locale={locale}/>}<SecondaryPickups entry={e} locale={locale}/><p style={textAppearanceStyle(textAppearance(e,locale))}>{displaySummary(e,locale)}</p>

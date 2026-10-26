@@ -22,7 +22,7 @@ test('real CommonJS plugin skips the complete URL-heavy roster within a bounded 
     const source=actual.length>10_000_000?actual:JSON.stringify({actual,stress:Array.from({length:100000},(_,i)=>({url:'https://assets.example.invalid/official/character/illustration/'+i+'/source-original-with-preserved-quality-and-native-dimensions.png'}))});
     assert.ok(source.length>10_000_000);
     const handler=typeof plugin.transform==='function'?plugin.transform:plugin.transform.handler;
-    for(const id of ['/snapshot.json','/snapshot.json?import','/snapshot.json?v=1'])assert.equal(await handler.call({},source,id),null);
+    for(const id of ['/snapshot.json','/snapshot.json?import','/snapshot.json?v=1','\0gagether:roster-bootstrap-packed.js'])assert.equal(await handler.call({},source,id),null);
     const legacy=await handler.call({},'module.exports = {answer:42};','/legacy-module.js');
     assert.ok(legacy?.code);
     const executed=await import('data:text/javascript,'+encodeURIComponent(legacy.code));

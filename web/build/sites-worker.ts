@@ -16,7 +16,7 @@ export default {
   fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext<{ CONNECTORS?: ConnectorBinding }>) {
     // Public files known at build time are intercepted by Vinext before app routes.
     // Serve pinned R2 originals first, without changing their public paths.
-    if(new URL(request.url).pathname.startsWith('/assets/')&&['GET','HEAD'].includes(request.method))return catalogAssetResponse(request,env.BUCKET,()=>handler.fetch(new Request(request,{method:'GET'}),env,ctx));
+    if(new URL(request.url).pathname.startsWith('/assets/')&&['GET','HEAD'].includes(request.method))return (async()=>{const cache=await openPublicDeliveryCache(!import.meta.env.DEV&&typeof caches!=='undefined'?caches:undefined);return catalogAssetResponse(request,env.BUCKET,()=>handler.fetch(new Request(request,{method:'GET'}),env,ctx),{cache,waitUntil:work=>ctx.waitUntil(work)});})();
     // Use the country supplied by the edge. Never retain the IP address itself.
     const country=(request as Request & {cf?:{country?:string}}).cf?.country||request.headers.get('cf-ipcountry')||'';
     const localeHeaders=catalogLocaleHeaders(request);
