@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "0313c53d43b08315b98fca5fc1bd7acb5930f4dbc1a8286b7ea8363c67d93363",
+  "fingerprint": "6abc048ba20fab912ccbcadc2a3988666d0049f8007edf6d0598d63982c4f915",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1224,7 +1224,7 @@
     },
     {
       "path": "content/public-read-versions.json",
-      "sha256": "177db62c2175ff57da2ac4f11d031a33bd108980de3881a94d8d552e2e349ae6"
+      "sha256": "511b0bcce2f37358eed342ae4922547b72db86d3dd9179b492e644b4e389dc2c"
     },
     {
       "path": "content/recurring-defaults.json",
@@ -1924,7 +1924,7 @@
     },
     {
       "path": "lib/recurring-schedule.ts",
-      "sha256": "a1744b1d9f21c73b81d03d58b867660ca6fbd4aeda43bacb78d4f6b9898c6f8f"
+      "sha256": "064292aa701bfeee133dc45c35085dbfed5886cc085ddbd0b765357e60f20003"
     },
     {
       "path": "lib/refresh-identity.ts",
