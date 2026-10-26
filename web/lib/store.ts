@@ -1,3 +1,4 @@
+import {englishEntry} from './english-content';
 import {readPublicEntryIndex} from './public-entry-index';
 import {catalogReadChanged,rosterReadChanged} from './public-read-jobs';
 import {separateEntityRewards} from './content-roles';
@@ -37,6 +38,7 @@ async function readUncachedData(options:{includeHidden?:boolean;automatic?:boole
  let editorialAvailable=true;
  const [base,records]=await Promise.all([readBaseData({index:options.index,collection:options.collection,gameId:options.gameId,allSourceChecks:options.allSourceChecks}),readEditorial(undefined,()=>{editorialAvailable=false;})]);const settings=records.find(r=>r.key==='site');
  let entries=options.automatic?base.entries:applyEditorial(base.entries,records,options.includeHidden);
+ if(!options.automatic&&!options.collection&&!options.includeHidden)entries=entries.map(englishEntry);
  if(options.gameId)entries=entries.filter(e=>e.gameId===options.gameId);
  // The lightweight list deliberately excludes detail images. Resolve only old
  // owner replacements lacking locale, using a tiny exact-image SQL projection.

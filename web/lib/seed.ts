@@ -13739,7 +13739,9 @@ const rawSeedEntries: Entry[] =[
     }
   }
 ];
-export const seedEntries: Entry[] = [...rawSeedEntries,...additionalGameEntries as Entry[],...releaseAdditions as Entry[]].map(separateEntityRewards);
+export const seedEntries: Entry[] = [...rawSeedEntries,...additionalGameEntries as Entry[],...releaseAdditions as Entry[],...maintainedVideoNotices as Entry[]].map(separateEntityRewards);
 import additionalGameEntries from '../content/additional-game-entries.json' with {type:'json'};
 
 import releaseAdditions from '../content/release-additions-20261025.json' with {type:'json'};
+
+import maintainedVideoNotices from '../content/maintained-video-notices.json' with {type:'json'};

@@ -1,3 +1,4 @@
+import {englishRosterSummary,englishRosterDetails} from './roster-english';
 import {deliveryContext} from './public-delivery-context';
 import {currentRosterReadRevision} from '@/lib/roster-read-revision';
 import {matchesIfNoneMatch} from '@/lib/http-cache';
@@ -18,7 +19,7 @@ export async function readPublicCharacterRoster(request:Request){
     if(id){
      const revision=readRevision,slice=revision&&await readPublicRosterSlice(game,id,revision);
      if(slice&&'missing'in slice)return Response.json({error:'Character not found'},{status:404});
-     if(slice&&'data'in slice){const {hydrateRosterDetails}=await import('./roster-detail-catalog'),data=slice.data;return Response.json({gameId:game,character:await hydrateRosterDetails(data,data.characters[0]),revision,source:{sourceName:data.sourceName,sourceUrls:data.sourceUrls,checkedAt:data.checkedAt,coverage:slice.source.coverage}},{headers:{'Cache-Control':'public, max-age=60, stale-while-revalidate=300',ETag:'"characters-'+revision+'"','X-Gagether-Roster-Read':'character-slice'}});}
+     if(slice&&'data'in slice){const {hydrateRosterDetails}=await import('./roster-detail-catalog'),data=slice.data;return Response.json({gameId:game,character:await englishRosterDetails(game,await hydrateRosterDetails(data,data.characters[0])),revision,source:{sourceName:data.sourceName,sourceUrls:data.sourceUrls,checkedAt:data.checkedAt,coverage:slice.source.coverage}},{headers:{'Cache-Control':'public, max-age=60, stale-while-revalidate=300',ETag:'"characters-'+revision+'"','X-Gagether-Roster-Read':'character-slice'}});}
     }
     const [{readCharacterRosterView},{rosterDirectory},{hydrateRosterDetails}]=await Promise.all([import('@/lib/roster-art-framing-store'),import('@/lib/character-roster'),import('@/lib/roster-detail-catalog')]);
     const result=await readCharacterRosterView(game);if(!result)return Response.json({error:'Roster not found'},{status:404});
@@ -26,7 +27,7 @@ export async function readPublicCharacterRoster(request:Request){
     const {data,delivery}=result,revision=!id&&result.cacheRevision||result.hash,etag='"characters-'+revision+'"',headers={'Cache-Control':result.error?'no-store':'public, max-age=60, stale-while-revalidate=300',ETag:etag};
     const character=id?data.characters.find(c=>c.id===id):undefined;if(id&&!character)return Response.json({error:'Character not found'},{status:404});
     if(matchesIfNoneMatch(request.headers.get('If-None-Match'),etag))return new Response(null,{status:304,headers});
-    return character?Response.json({gameId:game,character:await hydrateRosterDetails(data,character),revision,source:{sourceName:data.sourceName,sourceUrls:data.sourceUrls,checkedAt:data.checkedAt,coverage:data.coverage}},{headers}):Response.json({data:rosterDirectory(data),revision,delivery},{headers});
+    return character?Response.json({gameId:game,character:await englishRosterDetails(game,await hydrateRosterDetails(data,character)),revision,source:{sourceName:data.sourceName,sourceUrls:data.sourceUrls,checkedAt:data.checkedAt,coverage:data.coverage}},{headers}):Response.json({data:rosterDirectory({...data,characters:data.characters.map(c=>englishRosterSummary(game,c))}),revision,delivery},{headers});
    }});
  }catch{return Response.json({error:'Saved roster unavailable'},{status:503,headers:{'Cache-Control':'no-store'}});}
 }

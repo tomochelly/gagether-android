@@ -33,7 +33,7 @@ export function languageScopedVideos(clips:LibraryClip[],locale:Locale):LibraryC
 }
 /** Keep all originals in storage and in the explicit video library. */
 export function localizeVideoNotices(entries:Entry[],locale:Locale){
- const notices=entries.filter(e=>e.sourceKind==='video'&&e.contentRole==='notice'&&!e.broadcast&&e.videos?.some(v=>v.format==='pv'));
+ const notices=entries.filter(e=>e.sourceKind==='video'&&e.contentRole==='notice'&&!e.broadcast&&e.videos?.some(v=>v.format==='pv'||v.format==='intro'||v.format==='demo'));
  const candidates=new Set(notices.map(e=>e.id)),allowed=new Set(languageScopedVideos(collectVideos(notices,locale),locale).flatMap(v=>v.entryIds));
  return entries.filter(e=>!candidates.has(e.id)||allowed.has(e.id));
 }

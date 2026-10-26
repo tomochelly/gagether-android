@@ -50,5 +50,7 @@ test('bounded automatic upload stage saves and re-reads real SQLite, falls back 
  await writeEditorial('entry:'+id,{title:{ko:'운영자 제목',en:'',ja:'',zh:''}},0,'owner');
  r=await refreshOfficialUploadsStep(0,fetcher);assert.equal(r.checks[0].added,0);assert.equal((await readData()).entries.find(e=>e.id===id).title.ko,'운영자 제목');
  const posts=JSON.parse(db.prepare('SELECT payload FROM official_channels WHERE id=?').get(channel.id).payload).posts;
+ assert.ok(requests.some(u=>u.endsWith('/videos?hl=ko')));assert.ok(requests.some(u=>u.endsWith('/shorts?hl=ko')));
+ r=await refreshOfficialUploadsStep(0,async url=>{if(url.includes('/shorts'))throw Error('Shorts unavailable');return fetcher(url)});assert.equal(r.checks[0].status,'error');assert.equal(r.checks[0].partial,true);assert.equal(r.checks[0].shortsStatus,'error');assert.equal(r.checks[0].shortsError,'Shorts unavailable');assert.equal(JSON.parse(db.prepare('SELECT payload FROM official_channels WHERE id=?').get(channel.id).payload).status,'error');assert.deepEqual(JSON.parse(db.prepare('SELECT payload FROM official_channels WHERE id=?').get(channel.id).payload).posts,posts);
  r=await refreshOfficialUploadsStep(0,async()=>{throw Error('Source unavailable')});assert.equal(r.checks[0].status,'error');assert.deepEqual(JSON.parse(db.prepare('SELECT payload FROM official_channels WHERE id=?').get(channel.id).payload).posts,posts);assert.equal((await readBaseData({id})).entries[0].videos[0].youtubeId,'3DK6XYB7icE');
 });

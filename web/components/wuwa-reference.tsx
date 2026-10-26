@@ -1,7 +1,7 @@
 'use client';
 import {DetailIntentButton} from './use-detail-intent';
 import RosterLoading from './roster-loading';
-import {useEffect,useId,useMemo,useRef,useState,type CSSProperties} from 'react';
+import {lazy,Suspense,useEffect,useId,useMemo,useRef,useState,type CSSProperties} from 'react';
 import {ArrowLeft,ArrowRight,ArrowUpRight,BookOpen,ChevronRight,Heart,Search,Shield,Swords,Target,X} from 'lucide-react';
 import {createPortal} from 'react-dom';
 import ImageLightbox from './image-lightbox';
@@ -13,6 +13,7 @@ import {subjectBounds,referenceSubjectFrame} from '@/lib/wuwa-reference-framing'
 import {statIcon} from '@/lib/stat-icons';
 import {NativeIcon} from './reward-display';
 import {wuwaCycleState,wuwaLevel90Stats,validateWuwaReference,validateWuwaCharacter,type WuwaReference,type WuwaCharacter} from '@/lib/wuwa-reference';
+const WuwaSkillVideos=lazy(()=>import('./wuwa-skill-videos'));
 export const wuwaReferenceTabs={ko:{characters:'캐릭터 도감',combat:'전투 콘텐츠'},en:{characters:'Resonators',combat:'Combat'},ja:{characters:'共鳴者図鑑',combat:'戦闘コンテンツ'},zh:{characters:'共鸣者图鉴',combat:'战斗内容'}};
 const words={
  ko:{fullArt:'전체 일러스트 보기',detail:'캐릭터 상세',close:'닫기',previous:'이전 캐릭터',next:'다음 캐릭터',imageRetry:'일러스트 연결 오류',raritySort:'등급순 · 높은 등급부터',stats:'스테이터스',coreStats:'기본 능력치',combatStats:'전투 수치',illustration:'캐릭터 일러스트',search:'캐릭터 이름 검색',all:'전체',element:'속성',weapon:'무기',rarity:'등급',sort:'정렬',name:'이름순',debut:'첫 출시순',forms:'종',release:'첫 출시일',dates:'출시일 수록',community:'커뮤니티 자료',skills:'스킬 계수',chains:'공명 체인',level:'스킬 레벨',basis:'Lv.90 기초 · 무기·에코 제외',hp:'HP',atk:'공격력',def:'방어력',crit:'크리티컬',critDamage:'크리티컬 피해',variant:'성별 원본',source:'원문 보기',loading:'자료를 불러오는 중…',error:'자료 연결에 실패했습니다.',retry:'다시 시도',empty:'검색 결과가 없습니다.',current:'진행 기간',upcoming:'예정',past:'지난 회차',archive:'수록 회차',cycle:'회차',floor:'층',side:'편성',recommended:'권장 속성',enemyElement:'적 속성',effects:'전투 효과',wave:'웨이브',conditions:'참여 조건',reference:'커뮤니티 집계',scope:'EOD 제출 표본 · 전체 이용자 통계 아님',external:'원문에서 집계 보기',numeric:'사용률·보유율 수치는 아직 연결되지 않았습니다.',updated:'자료 갱신',version:'데이터',noEnemies:'출처에 등록된 적이 없습니다.'},
@@ -104,7 +105,7 @@ function CharacterFacts({character:c,locale,editing=false,detailsPending=false}:
   <div className="reference-character-body">{!!c.tags.length&&<div className="reference-traits">{c.tags.map((g,i)=><span key={i}><IconImage src={g.icon}/>{g.name[locale]}</span>)}</div>}
   <ReferenceStats character={c} locale={locale}/>
   {c.debut&&<a className="reference-debut" href={c.debut.sourceUrl} target="_blank" rel="noopener noreferrer"><span>{t.release}</span><time dateTime={c.debut.date}>{c.debut.date}</time><small>{c.debut.sourceKind==='community'?t.community:''}</small><ArrowUpRight size={12}/></a>}
-  {!detailsPending&&<><details className="reference-skill-section"><summary>{t.skills}<span>{c.skills.length}</span></summary><label>{t.level}<select aria-label={t.level} value={skillLevel} onChange={e=>setSkillLevel(Number(e.target.value))}>{Array.from({length:Math.min(max,20)},(_,i)=><option key={i} value={i+1}>Lv.{i+1}</option>)}</select></label>{c.skills.map(s=><section key={s.id}><h3><IconImage src={s.icon}/>{s.name[locale]}</h3><dl>{s.values.map((v,i)=>v.levels[skillLevel-1]?<div key={i}><dt>{v.name[locale]}</dt><dd>{v.levels[skillLevel-1]}</dd></div>:null)}</dl></section>)}</details>
+  {!detailsPending&&<><Suspense fallback={null}><WuwaSkillVideos key={c.id+':'+locale} characterId={c.id} sourceIds={c.sourceIds} locale={locale}/></Suspense><details className="reference-skill-section"><summary>{t.skills}<span>{c.skills.length}</span></summary><label>{t.level}<select aria-label={t.level} value={skillLevel} onChange={e=>setSkillLevel(Number(e.target.value))}>{Array.from({length:Math.min(max,20)},(_,i)=><option key={i} value={i+1}>Lv.{i+1}</option>)}</select></label>{c.skills.map(s=><section key={s.id}><h3><IconImage src={s.icon}/>{s.name[locale]}</h3><dl>{s.values.map((v,i)=>v.levels[skillLevel-1]?<div key={i}><dt>{v.name[locale]}</dt><dd>{v.levels[skillLevel-1]}</dd></div>:null)}</dl></section>)}</details>
   <details className="reference-skill-section"><summary>{t.chains}<span>{c.chains.length}</span></summary>{c.chains.map((s,i)=><section className="reference-chain" key={s.id}><header><span>S{i+1}</span><IconImage src={s.icon}/><h4>{s.name[locale]}</h4></header>{s.description?.[locale]&&<p>{s.description[locale]}</p>}</section>)}</details>
   </>}<div className="reference-art-sources"><a className="reference-source-link" href={c.sourceUrl} target="_blank" rel="noopener noreferrer">WuWaBuild · {t.source}<ArrowUpRight size={14}/></a>{art&&<a className="reference-source-link" href={art.sourceUrl} target="_blank" rel="noopener noreferrer">{t.illustration}<ArrowUpRight size={14}/></a>}</div></div>
  </article>;

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "siteVersion": 172,
-  "runtimeFingerprint": "65710cd8153d9dc65c1871b518bd91c5920b4976fda89dfcb0bb4596b96e9f8f",
+  "siteVersion": 173,
+  "runtimeFingerprint": "c51027423f6106aa0f9c4047ca88371554fe889e6913630aabd133a472f0c347",
   "canonicalOnly": [
     "content/character-rosters/bootstrap.json",
     "content/character-rosters/artwork-manifest.json",

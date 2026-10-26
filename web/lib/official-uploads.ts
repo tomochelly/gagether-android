@@ -1,3 +1,4 @@
+import {knownWuwaClip} from './wuwa-character-videos';
 import {embeddedJson} from './broadcast-metadata';
 import {localized,type Entry,type VideoClip,type Locale} from './types';
 import type {OfficialChannel,OfficialPost} from './official-social';
@@ -18,6 +19,8 @@ export function channelUploads(html:string,expected:string):Upload[]{
   if(v&&/^[\w-]{11}$/.test(v.videoId)&&!v.upcomingEventData&&!v.badges?.some((b:any)=>/LIVE|UPCOMING/i.test(b.metadataBadgeRenderer?.style||''))){const title=text(v.title);if(title)rows.set(v.videoId,{youtubeId:v.videoId,title,channelId,thumbnailUrl:thumb(v.thumbnail?.thumbnails,v.videoId),recent:recentUploadLabel(text(v.publishedTimeText))});}
   const lock=x.lockupViewModel;
   if(lock&&/^[\w-]{11}$/.test(lock.contentId)){const meta=lock.metadata?.lockupMetadataViewModel,title=text(meta?.title?.content),bits=meta?.metadata?.contentMetadataViewModel?.metadataRows?.flatMap((r:any)=>r.metadataParts?.map((p:any)=>text(p.text?.content))||[])||[];if(title)rows.set(lock.contentId,{youtubeId:lock.contentId,title,channelId,thumbnailUrl:thumb(lock.contentImage?.thumbnailViewModel?.image?.sources,lock.contentId),recent:bits.some(recentUploadLabel)});}
+  const short=x.shortsLockupViewModel,id=short?.onTap?.innertubeCommand?.reelWatchEndpoint?.videoId,title=text(short?.overlayMetadata?.primaryText?.content);
+  if(id&&/^[\w-]{11}$/.test(id)&&title)rows.set(id,{youtubeId:id,title,channelId,thumbnailUrl:thumb(short.thumbnailViewModel?.image?.sources||short.thumbnailViewModel?.sources||short.onTap?.innertubeCommand?.reelWatchEndpoint?.thumbnail?.thumbnails,id),recent:false});
   for(const v of Object.values(x))if(v&&typeof v==='object')walk(v);
  }walk(d?.contents);return [...rows.values()].slice(0,12);
 }
@@ -26,13 +29,15 @@ export function rssUploads(xml:string,expected:string,now=Date.now()):Upload[]{
  const rows:Upload[]=[];for(const m of xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)){const s=m[1],id=/<yt:videoId>([^<]+)<\/yt:videoId>/.exec(s)?.[1],channelId=/<yt:channelId>([^<]+)<\/yt:channelId>/.exec(s)?.[1],title=decode(/<title>([\s\S]*?)<\/title>/.exec(s)?.[1]||''),at=/<published>([^<]+)<\/published>/.exec(s)?.[1];if(channelId!==expected||!id||!/^[-\w]{11}$/.test(id)||!title||!at||!/^\d{4}-\d\d-\d\dT.*(?:Z|[+-]\d\d:\d\d)$/.test(at)||!Number.isFinite(Date.parse(at)))continue;const url=/<media:thumbnail[^>]+url="([^"]+)"/.exec(s)?.[1];rows.push({youtubeId:id,title,channelId,publishedAt:at,thumbnailUrl:url?.startsWith('https://i.ytimg.com/vi/'+id+'/')?decode(url):undefined,recent:Date.parse(at)<=now&&now-Date.parse(at)<=7*86400000});}return rows.slice(0,12);
 }
 export function uploadKind(title:string):Pick<VideoClip,'kind'|'format'>|undefined{
- if(/ASMR|OST|\bEP\b|음원|主題歌|主题曲|코스튬|衣装|時装|时装|costume|outfit|skin trailer/i.test(title))return;
+ if(/\bASMR\b|\bOST\b|\bEP\b|음원|主題歌|主题曲|코스튬|衣装|時装|时装|costume|outfit|skin trailer/i.test(title))return;
+ if(/공명자 아카이브|유니버스 인류 기록|Post-Lament Anthropocene|Resonator Preview|共鳴者.{0,8}(?:紹介|プレビュー)|共鸣者档案|共鳴者檔案/i.test(title))return {kind:'character',format:'intro'};
  if(/전투 모션|전투.*시연|combat showcase|実戦トレーラー|战斗演示/i.test(title))return {kind:'character',format:'demo'};
  if(/캐릭터.{0,8}(PV|트레일러|소개)|character.{0,12}(trailer|PV|demo)|resonator showcase|キャラクター.{0,5}(PV|紹介)|角色.{0,6}(PV|预告|演示)|幹員.{0,6}PV|干员.{0,6}PV|오퍼레이터.{0,6}PV/i.test(title))return {kind:'character',format:'pv'};
  if(/世界观|世界觀|世界観|세계관|lore trailer|버전.{0,15}(PV|트레일러)|version.{0,20}(trailer|PV)|Ver\.?[\d.]+.{0,8}PV|版本.{0,12}PV/i.test(title))return {kind:'version',format:'pv'};
 }
 export function uploadEntry(channel:OfficialChannel,u:Upload,checkedAt:string,old?:Entry):Entry|undefined{
- const kind=uploadKind(u.title);if(!kind)return;
+ const known=channel.gameId==='wuwa'?knownWuwaClip(u.youtubeId):undefined,reviewed=known?.locale===channel.locale&&known.originalTitle===u.title&&known.evidenceUrls?.includes('https://www.youtube.com/channel/'+u.channelId)?known:undefined;
+ const kind=uploadKind(u.title)||(reviewed?{kind:reviewed.kind,format:reviewed.format}:undefined);if(!kind)return;
  const prev=old?.videos?.find(v=>v.youtubeId===u.youtubeId),unchanged=prev?.originalTitle===u.title;
  const title=localized('','','','');title[channel.locale]=u.title;
  const clip:VideoClip={...prev,...kind,youtubeId:u.youtubeId,title:unchanged&&prev?prev.title:title,originalTitle:u.title,titleOfficialLocales:[channel.locale],titleTranslatedLocales:unchanged?prev?.titleTranslatedLocales:[],locale:channel.locale,channel:channel.name,sourceUrl:'https://www.youtube.com/watch?v='+u.youtubeId,publishedAt:u.publishedAt||prev?.publishedAt||null,discoveredAt:prev?.discoveredAt||(u.recent?checkedAt:undefined),thumbnailUrl:u.thumbnailUrl||prev?.thumbnailUrl,verifiedAt:unchanged?prev!.verifiedAt:checkedAt,official:true,metadataVerified:true,watched:false,evidenceUrls:[channel.url]};

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "65710cd8153d9dc65c1871b518bd91c5920b4976fda89dfcb0bb4596b96e9f8f",
+  "fingerprint": "c51027423f6106aa0f9c4047ca88371554fe889e6913630aabd133a472f0c347",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -20,7 +20,7 @@
     },
     {
       "path": "app/[locale]/games/[gameId]/items/[entryId]/page.tsx",
-      "sha256": "daa7e18d94e4ae04c2561e7b176956166678925ed5281b5c7b2949194f5e03ed"
+      "sha256": "abd82a09ed4ac5e4e743c84fc8d0955ae5bb29f82ddcbecc05327d04370cfd26"
     },
     {
       "path": "app/[locale]/games/[gameId]/leaks/[leakId]/page.tsx",
@@ -116,7 +116,7 @@
     },
     {
       "path": "app/api/entry/route.ts",
-      "sha256": "382b0155758f09a2ef76a122284cdda446bf66cd3172d9d301bf4aba28f9c744"
+      "sha256": "8b2a948cb84a09d5731890a58e0237a535aa9224ba08ce22bd9dd3603c2198d9"
     },
     {
       "path": "app/api/fast-refresh/route.ts",
@@ -148,7 +148,7 @@
     },
     {
       "path": "app/api/leaks/route.ts",
-      "sha256": "9aa4d225d4ba2b47724323cae0a360749d192cc52ab616762631c6f877866833"
+      "sha256": "4d8e3e34ebf5aff38d952f0a9374dafdd2e1b258fbec491968370cac34d67396"
     },
     {
       "path": "app/api/media/[file]/route.ts",
@@ -476,7 +476,7 @@
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "868f803f1e51201e16ba2501178b34224ab962200616d054e0a45c1014da593b"
+      "sha256": "cf5bc0b9944d3a2b60dac72be00ad40dc86c36cc33f8239928134b1b151ade0f"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -508,7 +508,7 @@
     },
     {
       "path": "components/document-reader.tsx",
-      "sha256": "e507667eeeb6ad481db2e4d8a27b0b552ba910bae858a48b8d166b09503305b7"
+      "sha256": "3b607b0990e1fa3063c9894942f0d44a7cf1167a69e77a2219b7fb47953b985e"
     },
     {
       "path": "components/editor-number-input.tsx",
@@ -716,7 +716,7 @@
     },
     {
       "path": "components/source-article.tsx",
-      "sha256": "14dd01bdf7b6e74f146abff0030c503f234aeed7cc168aebed567e55565c3aa5"
+      "sha256": "6b92cb27b270d7819480f316c67944f7e295f6f7a363905daad58c8c12d30a6a"
     },
     {
       "path": "components/source-footer.tsx",
@@ -1036,7 +1036,7 @@
     },
     {
       "path": "components/video-library.tsx",
-      "sha256": "2a6705532e02530ad53b41318f04b739092a8b1399ddcea6356a9898819fcad9"
+      "sha256": "d8580d29a4b4e0ebd2ddc70dc20626cb6f4c30f135cb270cb217a7f451428095"
     },
     {
       "path": "components/visitor-account-link.tsx",
@@ -1044,7 +1044,11 @@
     },
     {
       "path": "components/wuwa-reference.tsx",
-      "sha256": "c8558c5eeff7d37c5c73b0ca2dc861639135ed8dc35ea7c7bbd576fea0fcffd8"
+      "sha256": "766b1bbdc3e211eb7196038984ac6dd283feaf27cd9c86eb428fa1ef6c48c7b7"
+    },
+    {
+      "path": "components/wuwa-skill-videos.tsx",
+      "sha256": "c1622d12f969a16d59f4305a6ddfc0386b4642fde4cc3906f9b722c1573d3166"
     },
     {
       "path": "content/additional-game-assets.json",
@@ -1115,6 +1119,14 @@
       "sha256": "7a351dff13ee84db7a05b9ca52e2536597bb5034920698c1d8f5b8c3e811c911"
     },
     {
+      "path": "content/english-entry-supplement.json",
+      "sha256": "02830f0e5ab2a3b581c948d139d19b01f64a16b6443f55a4ee2aab91b7449f00"
+    },
+    {
+      "path": "content/english-roster-supplement.json",
+      "sha256": "60a8830fb1dac603d79da0daefbb4ba04b739f4b32c2f590e5421a1bfb3b6b11"
+    },
+    {
       "path": "content/entity-catalog.json",
       "sha256": "fda47d01bacff13243d75075fd59009f113c6e0bf42ebca21426dec6860bb218"
     },
@@ -1168,19 +1180,27 @@
     },
     {
       "path": "content/leaks/bootstrap.json",
-      "sha256": "8e794b3c0eada4d2711b55652f9061c416ce5700fa280351881a4888f8605414"
+      "sha256": "1a73ba8cc7d2a133da412879759c208e04914cbd7d5d348f8596fc3e2eabca1b"
+    },
+    {
+      "path": "content/leaks/english-supplement.json",
+      "sha256": "1aa5453b601286fb0983dbc14cb580dc250cd4cf39a5d40b2efddea1021b8034"
     },
     {
       "path": "content/leaks/wuwa-verse-source.json",
-      "sha256": "05da53bcfae4c051de29c7e8de36be64a281db1c9d14fc6f15108b37f6c8c0c0"
+      "sha256": "1185ca3d2abc7b0952f6a5a286d6b9102fcd51112d00f41ff12c48524bf12708"
     },
     {
       "path": "content/leaks/x-artwork-manifest.json",
-      "sha256": "399d7fafad798cf76d56b8154423382bace9cb63dea6be76f550a0fad77fcf41"
+      "sha256": "115464b112442734530b2621b0ecc0fa19a7acf03f1efe5a3090696282275386"
     },
     {
       "path": "content/maintained-artwork.json",
       "sha256": "f4e4a4b989ef02afbad28ff986ad58269b4acaddf9e6c383b8192bba9a577c04"
+    },
+    {
+      "path": "content/maintained-video-notices.json",
+      "sha256": "ceeb32afe2fef8dba5363fdc51201c0b604dfd0414fb95b214592b6014e1fede"
     },
     {
       "path": "content/migrations/pickup-rewards-20261024.json",
@@ -1224,7 +1244,7 @@
     },
     {
       "path": "content/public-read-versions.json",
-      "sha256": "511b0bcce2f37358eed342ae4922547b72db86d3dd9179b492e644b4e389dc2c"
+      "sha256": "9fe3d6bd980b17f3e141505fe19540ef7b1b75965ac8a789cedf9971ca69fbd6"
     },
     {
       "path": "content/recurring-defaults.json",
@@ -1275,6 +1295,14 @@
       "sha256": "af58165ecbdc4b4303e1e79f680a5847dafaa177eccb4db1c3f8c71e342bf3c0"
     },
     {
+      "path": "content/trickcal-english-skills.json",
+      "sha256": "a3d91662e5fbf264cd77f3e8916da8af802ec9b3cbeefec9632dd5beafe70212"
+    },
+    {
+      "path": "content/trickcal-korean-skill-translations.json",
+      "sha256": "44bf4780e26b070d77d055f1b39dfc1c4282a440f2d47903e15010a5dcf794f3"
+    },
+    {
       "path": "content/uma-selection-art-review-2026-10-17.json",
       "sha256": "2f22d3a07dbdd0dd52ea0e6dc1c2a9c5f65b82f5226e3ae8c00ee7d71885ed4d"
     },
@@ -1284,7 +1312,7 @@
     },
     {
       "path": "content/video-language-groups.json",
-      "sha256": "1fa5119229fbf36c8ca039c430dc2ff2d1b45f8d07a052e2ef8caf30a69b0b04"
+      "sha256": "3a55c2c4e53d15811b952855373f519ef72ac2b52825ba1979e5e46558c31d79"
     },
     {
       "path": "content/wiki-icon-additions.json",
@@ -1297,6 +1325,10 @@
     {
       "path": "content/wuwa-character-growth.json",
       "sha256": "6ee9735801225b0a8f245c707765e4a28d1f14b62c6264ad1b5dd60fdd1ec461"
+    },
+    {
+      "path": "content/wuwa-character-videos.json",
+      "sha256": "e3063eefb06e6ce6d56fd550f469f41611a107dcd9b6ea16bbb1756f4d231e86"
     },
     {
       "path": "content/wuwa-material-provenance.json",
@@ -1528,7 +1560,7 @@
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "e5b52c9091a768108deead870dea3faca35f08dce29bf9df4d18393652e8bca1"
+      "sha256": "6e2c61d510feb2b074ceaad79600a38c02db48490a1a6dbed33333a6a6c708e9"
     },
     {
       "path": "lib/collaboration-sources.ts",
@@ -1629,6 +1661,10 @@
     {
       "path": "lib/editorial.ts",
       "sha256": "41f24225a304c93432d93f204fdefc0a5905ed2c7712b8f40eb462c693deddf4"
+    },
+    {
+      "path": "lib/english-content.ts",
+      "sha256": "80cff112f802e9ed8e1c64ee618e653903930a3e5b28e3671216be27bb200856"
     },
     {
       "path": "lib/entity-catalog.ts",
@@ -1739,6 +1775,10 @@
       "sha256": "3c347e7d9a1d745bbc4fcc8a831839b7a09e76ad7fd67ee7ec5c47bec4c84b10"
     },
     {
+      "path": "lib/leak-english.ts",
+      "sha256": "28013b0d7e9245d6f4ce1e9009adf6d06499754c866be6a60766e4ad4741f3e9"
+    },
+    {
       "path": "lib/leaks-store.ts",
       "sha256": "9f5a1b1e8290593cc8bcf9b219f1e75c132b641d2d14f89a02259da646398ce2"
     },
@@ -1812,11 +1852,11 @@
     },
     {
       "path": "lib/official-upload-store.ts",
-      "sha256": "8b9029a2b6ab19dd0e29cab79e1b75f1003f4010341f86bb2e75de35cfec7994"
+      "sha256": "d6ad5246d0f7d17b63af82aeca6a23fc4f2185c3f7e2731203c37e323e2f05f0"
     },
     {
       "path": "lib/official-uploads.ts",
-      "sha256": "90281ad85f61846e2a09baf586e5cd47aaddf298f2e9b0fc1a1535b52f6f6d03"
+      "sha256": "5b30c2f2ca2848774b23d1a34eab744da5a65f1fbd25adae813b41c0058e5315"
     },
     {
       "path": "lib/official-x-accounts.ts",
@@ -1995,6 +2035,10 @@
       "sha256": "182eb1cada4d5d11892a5e1261e114f6d5776a067d83a3131b68bdf6486d77df"
     },
     {
+      "path": "lib/roster-english.ts",
+      "sha256": "5cc2da7e3dcc0738128ce27a23c77a32f90634e0c78e9c8b4601d09c40bb6bff"
+    },
+    {
       "path": "lib/roster-fact-retention.ts",
       "sha256": "b430c1cb6de7ca3c99164d5941ca69d049442844875cf47183fa6bcbb000891f"
     },
@@ -2008,7 +2052,7 @@
     },
     {
       "path": "lib/roster-public-read.ts",
-      "sha256": "bf59796f6daf164fdf38b2019f25a2fcd8785103c8bb831a16ec62add8fc876c"
+      "sha256": "de7f0d4aa957f1f2d27798850d04515272ff192542af5dacb3d6996e75f8956a"
     },
     {
       "path": "lib/roster-public-slices.ts",
@@ -2024,7 +2068,7 @@
     },
     {
       "path": "lib/seed.ts",
-      "sha256": "57092a5024c943e0b62a468dc23557489d900c63b981b764ad8e7fe44992fa79"
+      "sha256": "bb3c8125edfcb3cc3f1c5bf71130f92d7e54551d1bf5696776e8ad2c1c76ea12"
     },
     {
       "path": "lib/seo.ts",
@@ -2060,7 +2104,7 @@
     },
     {
       "path": "lib/store.ts",
-      "sha256": "ca4cbbf5f2944e636da48636a65885a481105f3ba5f90b24f028df580527fc6f"
+      "sha256": "65b57d0e618a5a372190bcc974201532e439105ee55a1f6ba0913bef6dad6a79"
     },
     {
       "path": "lib/studio-i18n.ts",
@@ -2100,7 +2144,7 @@
     },
     {
       "path": "lib/videos.ts",
-      "sha256": "a3ff1e17050226a52d29c3ef9fbb73d7d74a6282f272f85206ae0d049dd0492d"
+      "sha256": "5ecd26503831c4233abb96794329fd9a34d21bd14715648c2f199d79d91742e2"
     },
     {
       "path": "lib/visitor-auth-store.ts",
@@ -2129,6 +2173,10 @@
     {
       "path": "lib/wuwa-art-framing-store.ts",
       "sha256": "e628cb070f0e804482f5d8d3da54615e71ea7ddd7bcbc8c28c443094aaf91cb8"
+    },
+    {
+      "path": "lib/wuwa-character-videos.ts",
+      "sha256": "8921ce3bd04a55a2bf59e942a78813328b8d8fa9a5a5d605c8347cd909e4ad8c"
     },
     {
       "path": "lib/wuwa-reference-art.ts",
