@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "c51027423f6106aa0f9c4047ca88371554fe889e6913630aabd133a472f0c347",
+  "fingerprint": "572cd703c9708e6430dc3575f2515c9331efd0314e6517f7763c739aaea14960",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -1244,7 +1244,7 @@
     },
     {
       "path": "content/public-read-versions.json",
-      "sha256": "9fe3d6bd980b17f3e141505fe19540ef7b1b75965ac8a789cedf9971ca69fbd6"
+      "sha256": "050d1b3896c81d736f20a6243bbfa6d934ace34080fd7d64961292ddf7a6558b"
     },
     {
       "path": "content/recurring-defaults.json",
@@ -1328,7 +1328,7 @@
     },
     {
       "path": "content/wuwa-character-videos.json",
-      "sha256": "e3063eefb06e6ce6d56fd550f469f41611a107dcd9b6ea16bbb1756f4d231e86"
+      "sha256": "f079988775669fc219bc547fdf2dd419d95ad63a3ca4fa0e49da3d8df08b5fdd"
     },
     {
       "path": "content/wuwa-material-provenance.json",
@@ -2176,7 +2176,7 @@
     },
     {
       "path": "lib/wuwa-character-videos.ts",
-      "sha256": "8921ce3bd04a55a2bf59e942a78813328b8d8fa9a5a5d605c8347cd909e4ad8c"
+      "sha256": "4b15c74fd2e99d5e57633258c4d7ee4e734cdb70341c42eb89cdb2869a74514f"
     },
     {
       "path": "lib/wuwa-reference-art.ts",

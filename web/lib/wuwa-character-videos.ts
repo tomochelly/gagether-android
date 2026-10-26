@@ -14,8 +14,9 @@ export function preferredWuwaClips(clips:VideoClip[],locale:Locale){
 export function withWuwaCharacterVideos(entry:Entry):Entry{
  if(entry.gameId!=='wuwa'||entry.kind!=='pickup'||entry.selectionCount||entry.poolType==='support'||entry.editor?.fields.includes('videos'))return entry;
  const featured=entry.pickupMembers?.filter(m=>m.role!=='rate-up'&&m.role!=='candidate').map(m=>m.name);const names=featured?.length?featured:[entry.title];
- const rows=registry.characters.filter(r=>names.some(n=>samePickupName(n,r.names)));
- const additions=[...rows.flatMap(r=>r.clips as VideoClip[]),...names.some(n=>samePickupName(n,registry.lily.names))?registry.lily.clips as VideoClip[]:[]];
+ const aliases=registry.pickupAliases.filter(a=>a.entryId===entry.id&&a.sourceUrl===entry.sourceUrl);
+ const rows=registry.characters.map(row=>({row,members:names.filter(n=>samePickupName(n,row.names)||aliases.some(a=>a.characterId===row.characterId&&samePickupName(n,a.names)))})).filter(r=>r.members.length);
+ const additions=[...rows.flatMap(({row,members})=>(row.clips as VideoClip[]).map(v=>({...v,entityNames:[...v.entityNames||[],...members.filter(n=>!v.entityNames?.some(old=>samePickupName(old,n)))]}))),...names.some(n=>samePickupName(n,registry.lily.names))?registry.lily.clips as VideoClip[]:[]];
  if(!additions.length)return entry;
  return {...entry,videos:[...entry.videos||[],...additions.filter(v=>!entry.videos?.some(old=>old.youtubeId===v.youtubeId))].slice(0,30)};
 }
