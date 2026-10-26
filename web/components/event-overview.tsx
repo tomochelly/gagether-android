@@ -1,5 +1,6 @@
-import {recurringDisplayEntry} from '@/lib/recurring-schedule';
 'use client';
+import {recurringDisplayEntry} from '@/lib/recurring-schedule';
+import {EntryIntentButton} from './use-entry-detail';
 import {textAppearance,textAppearanceStyle,authoredField} from '@/lib/text-appearance';
 import {allowsRewards} from '@/lib/content-roles';
 import {EntryEdit} from './owner-inline';
@@ -36,7 +37,7 @@ const overviewCopy={
 function EventTile({entry:e,locale,now,onOpen,compact=false}:{entry:Entry;locale:Locale;now:number;onOpen:(e:Entry)=>void;compact?:boolean}){
  const [failed,setFailed]=useState(''),art=artworkForLocale(e,locale,'preview');
  return <article data-entry-id={e.id} data-game-id={e.gameId} className={'event-tile'+(compact?' event-tile-compact':'')+(e.collaboration?' collab-event':'')+(hasPullRewards(e)?' pull-event':'')}>
-  <button type="button" onClick={()=>onOpen(e)}>
+  <EntryIntentButton entry={e} type="button" onClick={()=>onOpen(e)}>
    {art.image&&failed!==art.image&&<span className="event-poster"><ArtworkMedia art={e} alt="" locale={locale} fitPreview="focus" onUnavailable={()=>setFailed(art.image!)}/></span>}
    <span className="event-tile-content">
     <GameBadge gameId={e.gameId} locale={locale}/><strong className="event-title" style={textAppearanceStyle(textAppearance(e,locale),'title')}><span>{entryTitle(e,locale)}</span>{!compact&&<ArrowUpRight size={17}/>}</strong>
@@ -44,7 +45,7 @@ function EventTile({entry:e,locale,now,onOpen,compact=false}:{entry:Entry;locale
     {!compact&&<><span className="event-summary" style={textAppearanceStyle(textAppearance(e,locale))}>{authoredField(e,'summary')?e.summary[locale]:eventTextForLocale(e.summary,locale)}</span><EventRewards entry={e} locale={locale}/></>}
     <EventClock entry={e} locale={locale} now={now} compact={compact}/>
    </span>
-  </button>
+  </EntryIntentButton>
  <EntryEdit entry={e} locale={locale} compact={compact}/></article>;
 }
 

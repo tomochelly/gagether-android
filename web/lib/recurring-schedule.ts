@@ -36,6 +36,10 @@ export function editedRecurringEnd(e:Entry){
 /** Read-only presentation. Always retain the canonical record for editing/writes. */
 export function recurringDisplayEntry(e:Entry,now:number):Entry{
  const w=recurringWindow(e,now);if(!w)return e;
- return {...e,startAt:w.startAt,endAt:w.endAt,startDate:w.startDate,endDate:w.endDate};
+ const days=recurringRepeat(e)!.intervalDays;
+ // Replace only the exact obsolete generated hint. Keep authored content and
+ // the canonical stored record intact; pausing restores its original context.
+ const detailSections=e.detailSections?.map(section=>section.body.ko==='매초 카운트다운하며, 이후 회차는 자동 계산하지 않습니다.'?{...section,body:{ko:`운영자가 설정한 기준일부터 ${days}일마다 초기화 일정을 자동 계산합니다.`,en:`Reset dates repeat every ${days} days from the owner-defined anchor.`,ja:`運営者が設定した基準日から${days}日ごとにリセット日程を計算します。`,zh:`从管理者设定的基准日期起，每${days}天自动计算重置时间。`}}:section);
+ return {...e,startAt:w.startAt,endAt:w.endAt,startDate:w.startDate,endDate:w.endDate,...detailSections?{detailSections}:{}};
 }
 export function recurringRepeatLabel(e:Entry,locale:Locale){const r=recurringRepeat(e);if(!r?.enabled)return;return ({ko:`운영자 설정 · ${r.intervalDays}일 반복`,en:`Owner-defined · every ${r.intervalDays} days`,ja:`運営者設定 · ${r.intervalDays}日ごと`,zh:`管理者设定 · 每${r.intervalDays}天重复`})[locale];}

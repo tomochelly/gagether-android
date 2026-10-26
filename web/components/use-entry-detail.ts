@@ -1,5 +1,5 @@
 'use client';
-import {useEffect,useState} from 'react';
+import {createElement,useEffect,useState,type ButtonHTMLAttributes} from 'react';
 import type {Entry} from '@/lib/types';
 import {detailKey,detailsDeferred} from '@/lib/catalog-index';
 import {useDetailIntent} from './use-detail-intent';
@@ -22,6 +22,7 @@ async function loadDetail(entry:Entry,key:string){
  try{return await request;}finally{requests.delete(key);}
 }
 export function useEntryIntent(entry:Entry){return useDetailIntent(()=>loadDetail(entry,detailKey(entry)),detailKey(entry),detailsDeferred(entry));}
+export function EntryIntentButton({entry,...props}:ButtonHTMLAttributes<HTMLButtonElement>&{entry:Entry}){const intent=useEntryIntent(entry);return createElement('button',{...props,...intent});}
 export function useEntryDetail(summary:Entry|null){
  const deferred=detailsDeferred(summary),key=summary&&deferred?detailKey(summary):'';
  const [result,setResult]=useState<{key:string;entry?:Entry;error?:boolean}>({key:''});

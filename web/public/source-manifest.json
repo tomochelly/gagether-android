@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "c134381f2dc4fc75f803e26ebbd27d50b9062bed562cbd387ab54887d6399489",
+  "fingerprint": "0313c53d43b08315b98fca5fc1bd7acb5930f4dbc1a8286b7ea8363c67d93363",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -508,7 +508,7 @@
     },
     {
       "path": "components/document-reader.tsx",
-      "sha256": "6312c823018b21de6cde6b996ec71c232c5c128f15d4afee01c05737d7f2efcd"
+      "sha256": "e507667eeeb6ad481db2e4d8a27b0b552ba910bae858a48b8d166b09503305b7"
     },
     {
       "path": "components/editor-number-input.tsx",
@@ -532,7 +532,7 @@
     },
     {
       "path": "components/event-overview.tsx",
-      "sha256": "312668d0d2b5b044d43f4549f3b6bac966642859d9807591a7547a1b9ee9c9b6"
+      "sha256": "b2a57011996ee7d9cb19ffee711d0a12d0864613a415d1ea7a5458d6f7558600"
     },
     {
       "path": "components/favorite-updates.tsx",
@@ -660,7 +660,7 @@
     },
     {
       "path": "components/recurring-overview.tsx",
-      "sha256": "ac7b7b4b62a5741f4a7a1e9b5e5361a5ac537b0ad92f4b6347fb086210199f21"
+      "sha256": "dc271a84da1654b35c3dc36d652b8787975ff7e3017378f8558174883b1ff4c0"
     },
     {
       "path": "components/reminder-controls.tsx",
@@ -1012,7 +1012,7 @@
     },
     {
       "path": "components/use-entry-detail.ts",
-      "sha256": "ff44e08d1d326024af8be07bd503e1a7bf83814d9441352326d7b4226df3a90b"
+      "sha256": "eb3c0f511b35dca6966050a928d18f15047fad40d3ceba6e9e3d5b0bd353d1be"
     },
     {
       "path": "components/use-mobile-drawer.ts",
@@ -1224,7 +1224,7 @@
     },
     {
       "path": "content/public-read-versions.json",
-      "sha256": "a541a5bee16d9c7c7906d93e17f090f245bc74b20de1900d4df1d7e4ba2690d2"
+      "sha256": "177db62c2175ff57da2ac4f11d031a33bd108980de3881a94d8d552e2e349ae6"
     },
     {
       "path": "content/recurring-defaults.json",
@@ -1924,7 +1924,7 @@
     },
     {
       "path": "lib/recurring-schedule.ts",
-      "sha256": "9b7072c63062a4786cae1eb31116b5ae1b6070332aecb334a18a60853010cea0"
+      "sha256": "a1744b1d9f21c73b81d03d58b867660ca6fbd4aeda43bacb78d4f6b9898c6f8f"
     },
     {
       "path": "lib/refresh-identity.ts",
