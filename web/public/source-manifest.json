@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "6abc048ba20fab912ccbcadc2a3988666d0049f8007edf6d0598d63982c4f915",
+  "fingerprint": "65710cd8153d9dc65c1871b518bd91c5920b4976fda89dfcb0bb4596b96e9f8f",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -612,7 +612,7 @@
     },
     {
       "path": "components/owner-inline-form.tsx",
-      "sha256": "50f7713ded07d52b696fbdc13c6cfd756e5ca36d0c22aeaece5afecc804f240e"
+      "sha256": "cd894bc7b05084aff757be1ce3271f22ff1334233aa401377d9711442ef85cba"
     },
     {
       "path": "components/owner-inline.tsx",
@@ -656,7 +656,7 @@
     },
     {
       "path": "components/recurring-editor.tsx",
-      "sha256": "46d6272e1853638da4633dd99541a2a351808352da9d036854b61efa99d55a3e"
+      "sha256": "152d580d22aaeec13b27b7f865374a94ad5a10595ec3c94adf08b3796d230175"
     },
     {
       "path": "components/recurring-overview.tsx",

@@ -10,9 +10,13 @@ const words={
 };
 const copy=(ko:string,en:string,ja:string,zh:string)=>({ko,en,ja,zh});
 const note=copy('운영자가 직접 입력한 초기화 일정','Reset schedule entered by the owner','運営者が入力したリセット日程','管理者输入的重置日程');
-const inputDate=(value?:string|null)=>value?new Date(Date.parse(value)+9*3600000).toISOString().slice(0,16):'';
+const inputDate=(value?:string|null)=>value&&Number.isFinite(Date.parse(value))?new Date(Date.parse(value)+9*3600000).toISOString().slice(0,16):'';
 export function editRecurringEnd(entry:Entry,value:string,dateOnly=false):Partial<Entry>{
- const end=dateOnly?value||undefined:value?value+':00+09:00':null,r=entry.recurring;
+ return editRecurringEndValue(entry,dateOnly?value:value?value+':00+09:00':'',dateOnly);
+}
+/** The inline advanced field already contains an ISO timestamp. */
+export function editRecurringEndValue(entry:Entry,value:string,dateOnly=false):Partial<Entry>{
+ const end=dateOnly?value||undefined:value||null,r=entry.recurring;
  const changes:Partial<Entry>=dateOnly?{endAt:null,endDate:value||undefined}:{endAt:end as string|null,endDate:undefined};
  if(!r)return changes;
  const rule=recurringRepeat(entry),at=new Date().toISOString();
