@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "eb1db51d3609d5ad8646e20b0d3d5947ec4de26ee87b2fb7d26d2c59a5599270",
+  "fingerprint": "ed399b3a622c8f67977868558de29e944322d4619004248a94d12acac0ce015e",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -348,7 +348,7 @@
     },
     {
       "path": "app/practical-details.css",
-      "sha256": "668bd02da49e1e56fc05077c45bf94528bebcc1bd1b034139bf3a7bb41670ae1"
+      "sha256": "b1f1771375e04678af0fb18eb7ebb0ae2fe883095d0dfa6b4e89dde388c84bba"
     },
     {
       "path": "app/pv-banner.css",
