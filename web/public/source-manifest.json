@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fingerprint": "dc80ae0def46eca7e8e235c64c6a404f8838603bbcdd8bc5d17399c0ba7191c8",
+  "fingerprint": "d220315a0d96256ab67a69abe9b0d7812ea7f438f4b2e60c94102594894d1189",
   "entries": [
     {
       "path": ".openai/hosting.json",
@@ -12,7 +12,7 @@
     },
     {
       "path": "app/[locale]/games/[gameId]/characters/[characterId]/page.tsx",
-      "sha256": "9e40b17565087aca17598bffbb2e0d491c204d096eb2ab7095485d53f78a5773"
+      "sha256": "71b7c70cce742e6a049c32187440a75c12003297c5a472472a0b8dafac0ca5ed"
     },
     {
       "path": "app/[locale]/games/[gameId]/characters/page.tsx",
@@ -220,7 +220,7 @@
     },
     {
       "path": "app/character-roster.css",
-      "sha256": "fb5c2cb458235543ed2d33e2e99b0a5446a7da13367675143d1e844ea9e8a6d9"
+      "sha256": "570e820705fbbbf7e13333968eb2ec37f76178079e8b1d088e45577f828b076a"
     },
     {
       "path": "app/chatgpt-auth.ts",
@@ -472,7 +472,7 @@
     },
     {
       "path": "components/character-roster.tsx",
-      "sha256": "bd99f1b6e114478255d16b90a33ae2d562dd59604aaefaf4ff4460ca36acb53a"
+      "sha256": "ec0a3d090bbd15a41054daa86756e28d5b35c177228333dd871b01c8dcda10a3"
     },
     {
       "path": "components/community-moderation.tsx",
@@ -684,7 +684,7 @@
     },
     {
       "path": "components/roster-stat-details.tsx",
-      "sha256": "59254a1bcf0e8f1292f5d9fd9c1d77673a7c176b4463a823a67d23fbe6dafc5c"
+      "sha256": "96285835c35eaf20abbe472aeba263d920edfbe04a01077a2957eaf8fdd69b23"
     },
     {
       "path": "components/schedule-calendar.tsx",
@@ -1047,6 +1047,10 @@
       "sha256": "9ee75ae4a40db41c346368ee2315ed9a2b22c4f2562a0e8e18460d5b7a147b8e"
     },
     {
+      "path": "content/arknights-preview-images.json",
+      "sha256": "24d5e2c931793430b6e44c35b635741951a9b3cd46d3f5058892d38ed872b533"
+    },
+    {
       "path": "content/artwork-audit-2026-10-16.json",
       "sha256": "1e4f3302beb47fbceb3b35c5c77fbf26809ac51a531ee47ff811ac7680ac4832"
     },
@@ -1068,15 +1072,15 @@
     },
     {
       "path": "content/character-rosters/artwork-manifest.json",
-      "sha256": "255ad4b7ee76ac4e1b42ed71bc21d21f1a43fc044306043e23f951fa340f21c1"
+      "sha256": "4669e3c30581e48725fc8caacceb2eae4a8fdeb19d1734ccad2b7bc1a666424d"
     },
     {
       "path": "content/character-rosters/bootstrap.json",
-      "sha256": "dbd207672b5ec971d713c836e1db04637c423505e804d5d4b295bce223ca20e8"
+      "sha256": "844fc0347b9a89f501de3ffb2b0f423974ce31dcc628d06513cfd723a81baa10"
     },
     {
       "path": "content/character-rosters/recovery/manifest.json",
-      "sha256": "2f4cd99cba982efb5de8db40e9bbae1c7377a8e08f0128a9d49e77085a626e8b"
+      "sha256": "550926cf8f870a2883a92ad2b8c970e8e85091a71c83ea225a737095b06aa664"
     },
     {
       "path": "content/character-rosters/rejected-artwork.json",
@@ -1112,7 +1116,7 @@
     },
     {
       "path": "content/gallery-framing-runtime.json",
-      "sha256": "a123ffa95d457aeca713f75b947c40f896072a2871fe93111fb0491a0339d7a6"
+      "sha256": "594590795ecc84851288df817ffce39775ad0f417f1cd1ef084f13145d1c7d1b"
     },
     {
       "path": "content/gallery-protected-heads.json",
@@ -1120,7 +1124,7 @@
     },
     {
       "path": "content/gallery-subject-bounds.json",
-      "sha256": "57db346d94ab06ad6efc9805e3c4fff2b40469dbd5362ac39746378de1fa58bf"
+      "sha256": "56a30f0211c207212256b7341f774a4578f06db3eec69c7bb2226cf4b312cde0"
     },
     {
       "path": "content/hoyo-localization-research.json",
@@ -1204,7 +1208,7 @@
     },
     {
       "path": "content/public-read-versions.json",
-      "sha256": "176ae4e43b6eeb027d4e8b6d6287aba8fb4b21d274805d1da30d528b1790c147"
+      "sha256": "db82779dfb28ba065554c8165933c43bd7173136a83faa78961f4d21d18cc848"
     },
     {
       "path": "content/recurring-sources.json",
@@ -1236,7 +1240,7 @@
     },
     {
       "path": "content/roster-detail-icons.json",
-      "sha256": "1c763446bc29a865e76bace248e6d3dae3c345deb491d702b971276d91392ed6"
+      "sha256": "f3fb217224e458b970698f2e6c768ca9f16a0f46108360946a845e32d28c015b"
     },
     {
       "path": "content/source-review-2026-10-16.json",
@@ -1484,7 +1488,7 @@
     },
     {
       "path": "lib/character-roster-enrichment.ts",
-      "sha256": "1a6b4e1b7b1abdbd3df078e513af632c037c15023ff773df1b733668931f5840"
+      "sha256": "cad3a3ef549409d2e67a2c96935ddaba41e53a7b8c518e12cdcd6e89b5c23df9"
     },
     {
       "path": "lib/character-roster-metrics.ts",
@@ -1500,7 +1504,7 @@
     },
     {
       "path": "lib/character-roster.ts",
-      "sha256": "bc6495a645efc567465b60b2f7ff821ac88aee46c51122506b7bee61541babe9"
+      "sha256": "e5b52c9091a768108deead870dea3faca35f08dce29bf9df4d18393652e8bca1"
     },
     {
       "path": "lib/collaboration-sources.ts",
@@ -1956,7 +1960,7 @@
     },
     {
       "path": "lib/roster-detail-catalog.ts",
-      "sha256": "da4712016740845456fb11f5754828a9bea763414a80aa599d1dfb3395acfba1"
+      "sha256": "75970ab6361cdc4206069ce072a6513c4add1e8423cf2fefe6007c5f5ac78fc6"
     },
     {
       "path": "lib/roster-detail-icons.ts",
@@ -1964,7 +1968,11 @@
     },
     {
       "path": "lib/roster-fact-retention.ts",
-      "sha256": "3092ed2e9b7f69e8baec273922b69bc84173a5b2023c51f1915930f6ee7e9307"
+      "sha256": "b430c1cb6de7ca3c99164d5941ca69d049442844875cf47183fa6bcbb000891f"
+    },
+    {
+      "path": "lib/roster-preview.ts",
+      "sha256": "79a9e71e71c3c390911830032b2445531bba8e4ed607cdcf876b774ecf642f04"
     },
     {
       "path": "lib/roster-progression.ts",

@@ -57,6 +57,22 @@ def enrich_files(files,work):
     else:report['status']='partial'
    except Exception as e:
     report['status']='partial';report['zzzError']=str(e)
+  if key=='c' and 'arknights'in files:
+   target=output/'arknights-details';target.mkdir(exist_ok=True)
+   try:
+    command=[sys.executable,str(ROOT/'arknights/collect.py'),'--input',str(output/'arknights.json'),'--output',str(target/'arknights.json'),'--native-dir',str(target/'sources'),'--report',str(target/'report.json'),'--refresh']
+    process=subprocess.run(command,check=False,timeout=1200)
+    details=json.loads((target/'report.json').read_text())if(target/'report.json').exists()else{}
+    report['arknightsEnrichment']={'exitCode':process.returncode,'details':{k:v for k,v in details.items()if k not in ['sources','declaredIconUrls']}}
+    if details.get('status')!='ok'or process.returncode:report['status']='partial'
+    candidate=target/'arknights.json'
+    if candidate.exists()and details.get('status')in ['ok','partial']:
+     d=json.loads(candidate.read_text());prior=json.loads((output/'arknights.json').read_text())
+     if d.get('gameId')!='arknights'or{c['id']for c in d['characters']}!={c['id']for c in prior['characters']}:raise ValueError('Arknights exact source-form identity mismatch')
+     if len(json.dumps(d,ensure_ascii=False,separators=(',',':')).encode())>4400000:raise ValueError('Arknights complete detail exceeds ingest bound')
+     shutil.copyfile(candidate,output/'arknights.json')
+    else:report['status']='partial'
+   except Exception as e:report['status']='partial';report['arknightsError']=str(e)
   if key=='b' and 'umamusume'in files:
    target=output/'uma-details';target.mkdir(exist_ok=True)
    try:

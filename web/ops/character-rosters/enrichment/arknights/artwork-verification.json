@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-25T23:18:01.624080Z",
+  "assetRepository": "fexli/ArknightsResource",
+  "assetCommit": "184aa662f210100150716d4f58cadc0b4e3642fc",
+  "assetTreeSha": "49a5e1d6316b5defc67f047225f7fd6882bc2220",
+  "primaryOperators": 432,
+  "classChangeForms": 2,
+  "totalDistinctForms": 434,
+  "clientForms": {
+    "kr": 417,
+    "global": 417,
+    "jp": 417,
+    "cn": 434
+  },
+  "fullOriginals": 833,
+  "fullBytes": 2937953154,
+  "previewOriginals": 514,
+  "previewBytes": 592704084,
+  "fullPhases": {
+    "0": 432,
+    "1": 1,
+    "2": 400
+  },
+  "previewPhases": {
+    "2": 345,
+    "0": 169
+  },
+  "missingDeclarations": 0,
+  "failedDownloads": 0,
+  "allGitBlobsVerified": true,
+  "allOriginalSHA256sVerified": true,
+  "allNativeDimensionsMeasured": true,
+  "allNonemptyAlphaBoundsMeasured": true,
+  "unitTests": 8,
+  "visualFullSamples": [
+    "char_002_amiya",
+    "char_1001_amiya2",
+    "char_1037_amiya3",
+    "char_4237_jcinta",
+    "char_4179_monstr"
+  ],
+  "visualPreviewSamples": [
+    "char_002_amiya",
+    "char_4237_jcinta"
+  ],
+  "allImagesVisuallyReviewed": false,
+  "knownEnglishLettering": [
+    "illust_char_4179_monstr_2"
+  ],
+  "originalsReencodedOrDownscaled": false,
+  "metadataOnlyRoutineAvailable": true,
+  "uiAndDeploymentVerified": false,
+  "note": "Source client catalog membership is not a current pickup or exact release-date claim. UI/deployment/pinning belong to the owning Site workflow."
+}

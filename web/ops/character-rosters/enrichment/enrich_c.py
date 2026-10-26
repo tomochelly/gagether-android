@@ -19,7 +19,7 @@ URLS={
  'hsr_promotions':RAW+'Mar-7th/StarRailRes/master/index_new/en/character_promotions.json',
  'zzz_avatars':RAW+'EnkaNetwork/API-docs/master/store/zzz/avatars.json',
  'zzz_properties':RAW+'EnkaNetwork/API-docs/master/store/zzz/property.json',
- **{'ak_'+l:RAW+('Kengxxiao/ArknightsGameData/master/zh_CN'if l=='zh'else'Kengxxiao/ArknightsGameData_YoStar/main/'+{'ko':'ko_KR','ja':'ja_JP','en':'en_US'}[l])+'/gamedata/excel/character_table.json' for l in LOCALES},
+ **{'ak_'+l:RAW+'ArknightsAssets/ArknightsGamedata/master/'+{'ko':'kr','ja':'jp','en':'en','zh':'cn'}[l]+'/gamedata/excel/character_table.json' for l in LOCALES},
  **{'hsr_'+kind+'_'+l:RAW+'Mar-7th/StarRailRes/master/index_new/'+{'ko':'kr','ja':'jp','en':'en','zh':'cn'}[l]+'/'+kind+'.json' for kind in ('paths','elements')for l in LOCALES},
 }
 # Labels are interface translations, not game data. Values below come from source tables.
@@ -51,8 +51,9 @@ class Sources:
   if m.get('lastModified'):headers['If-Modified-Since']=m['lastModified']
   try:
    with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=35)as r:
-    b=r.read(20000001)
-    if len(b)>20000000:raise ValueError('Source exceeds 20MB')
+    limit=24000000 if key.startswith('ak_')else 20000000
+    b=r.read(limit+1)
+    if len(b)>limit:raise ValueError('Source exceeds fixed byte bound')
     d=json.loads(b);m={'url':url,'sha256':hashlib.sha256(b).hexdigest(),'checkedAt':now(),'status':r.status,'etag':r.headers.get('ETag'),'lastModified':r.headers.get('Last-Modified')};atomic(path,b);dump(meta,m)
   except urllib.error.HTTPError as e:
    if e.code!=304 or not path.exists():raise

@@ -26,6 +26,8 @@ function cleanReverseStats(c:RosterCharacter):RosterCharacter{
 }
 export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
  const reference=snapshots.get(data.gameId);if(!reference)return data;
+ const nativeSourceUrls=reference.sourceUrls;
+ const nativeUpgrade=data.gameId==='arknights'&&!data.sourceVersion?.startsWith('arknights-native-sha256:');
  const known=new Map(reference.characters.map(raw=>{const c=data.gameId==='reverse1999'?cleanReverseStats(raw):raw;return [c.id,data.gameId==='reverse1999'&&invalidReversePanel(c)?{...c,stats:undefined}:c];}));
  const characters=data.characters.map(raw=>{
   let c=data.gameId==='reverse1999'?cleanReverseStats(raw):raw;
@@ -37,7 +39,20 @@ export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
   // A bad upstream identity join can contaminate both the localized name and
   // the whole panel. Use only this exact source ID's valid reference facts.
   if(data.gameId==='reverse1999'&&invalidReversePanel(c))c={...c,...extra?{name:fillCopy(extra.name,c.name),nameSources:{...c.nameSources,...extra.nameSources}}:{},stats:extra?.stats};
-  return extra?retainCharacterFacts(c,extra):c;
+  if(!extra)return c;
+  const merged=retainCharacterFacts(c,extra);
+  if(data.gameId!=='arknights')return merged;
+  // A stale persisted client mirror must not remove verified releases when a
+  // current four-client reference supplies the same exact operator identity.
+  const regions=[...new Set([...extra.regions||[],...c.regions||[]])];
+  const legacy=c.image&&/^https:\/\/raw\.githubusercontent\.com\/Aceship\/Arknight-Images\/main\/characters\//.test(c.image.url);
+  const image=legacy&&extra.image?extra.image:merged.image;
+  const names={...merged.name},nameSources={...merged.nameSources};
+  const clients={ko:['kr','kr'],en:['global','en'],ja:['jp','jp'],zh:['cn','cn']} as const;
+  for(const locale of locales){const[service,client]=clients[locale],file=['char_1001_amiya2','char_1037_amiya3'].includes(c.id)?'char_patch_table':'character_table',url=`https://raw.githubusercontent.com/ArknightsAssets/ArknightsGamedata/master/${client}/gamedata/excel/${file}.json`;
+   if(extra.regions?.includes(service)&&extra.name[locale]&&nativeSourceUrls.includes(url)&&(nativeUpgrade||c.nameSources?.[locale]?.kind==='translation')){names[locale]=extra.name[locale];nameSources[locale]={kind:'community',url};}
+  }
+  return {...merged,name:names,nameSources,...regions.length?{regions}:{},image,images:[...new Map([...(merged.images||[]),...legacy&&c.image?[{...c.image,locale:'neutral' as const}]:[]].filter(a=>a.url!==image?.url).map(a=>[a.url,a])).values()]};
  });
  characters.push(...known.values());characters.sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
  const pin=(id:string,a:RosterCharacter['image'])=>{if(!a)return a;const saved=artwork.find(s=>s.gameId===data.gameId&&s.characterId===id&&s.url===a.url&&(s as {delivery?:string}).delivery!=='source-original');return saved?{...a,url:saved.publicUrl}:a;};
@@ -49,5 +64,5 @@ export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
   const forms={...prior.forms,...Object.fromEntries(Object.entries(current.forms).map(([id,f])=>[id,{...prior.forms[id],...f,horseId:f.horseId||prior.forms[id]?.horseId}]))},allSkills={...prior.skills,...current.skills},refs=new Set(Object.values(forms).flatMap(f=>[...f.skillRefs||[],...Object.values(f.regionalSkillRefs||{}).flatMap(r=>r||[])]));
   detailCatalog={...current,forms,skills:Object.fromEntries([...refs].map(ref=>[ref,allSkills[ref]])),horses:{...prior.horses,...current.horses}};
  }
- return {...data,...detailCatalog?{detailCatalog}:{},characters:pinned,sourceUrls:[...new Set([...data.sourceUrls,...reference.sourceUrls])].slice(0,40),coverage:{...data.coverage,includedCount:characters.length}};
+ return {...data,...nativeUpgrade?{sourceName:reference.sourceName,sourceVersion:reference.sourceVersion,checkedAt:reference.checkedAt}:{},...detailCatalog?{detailCatalog}:{},characters:pinned,sourceUrls:[...new Set([...data.sourceUrls,...reference.sourceUrls])].slice(0,40),coverage:{...data.coverage,...nativeUpgrade?{nativeNameCounts:reference.coverage.nativeNameCounts,sourceReleaseFlags:reference.coverage.sourceReleaseFlags}:{},includedCount:characters.length}};
 }

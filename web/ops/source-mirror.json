@@ -1,13 +1,12 @@
 {
   "version": 1,
-  "siteVersion": 167,
-  "siteCommit": "98e9342457d4188093d3749617e67d6169561922",
-  "runtimeFingerprint": "dc80ae0def46eca7e8e235c64c6a404f8838603bbcdd8bc5d17399c0ba7191c8",
+  "siteVersion": 168,
+  "runtimeFingerprint": "d220315a0d96256ab67a69abe9b0d7812ea7f438f4b2e60c94102594894d1189",
   "canonicalOnly": [
     "content/character-rosters/bootstrap.json",
     "content/character-rosters/artwork-manifest.json",
     "content/character-rosters/recovery/manifest.json"
   ],
-  "canonicalSource": "Existing native Sites source repository and saved v167 archive",
+  "canonicalSource": "Existing native Sites source repository and saved version",
   "coverage": "All other deployed runtime source files must match the public GitHub code mirror. These three files remain hash-pinned only; GitHub data is an older public snapshot."
 }

@@ -33,7 +33,7 @@ def source_specs(game):
         return [Source('en',u,minimum=90)]+[Source(l,u+'&resultLanguage='+v,minimum=90)for l,v in [('ko','Korean'),('ja','Japanese'),('zh','ChineseSimplified')]]+[Source('art', 'https://api.github.com/repos/ScobbleQ/HoYo-Assets/git/trees/main?recursive=1','tree',90)]
     if game=='hsr':return [Source(l,RAW+'Mar-7th/StarRailRes/master/index_new/'+v+'/characters.json',minimum=70)for l,v in [('en','en'),('ko','kr'),('ja','jp'),('zh','cn')]]+[Source('info',RAW+'Mar-7th/StarRailRes/master/info.json'),Source('release','https://www.prydwen.gg/'+PY_URLS[game],'py:characters',70)]
     if game=='zzz':return [Source('avatars',RAW+'EnkaNetwork/API-docs/master/store/zzz/avatars.json',minimum=40),Source('locs',RAW+'EnkaNetwork/API-docs/master/store/zzz/locs.json',minimum=4),Source('release','https://www.prydwen.gg/'+PY_URLS[game],'py:characters',40)]
-    if game=='arknights':return [Source(l,RAW+'Kengxxiao/ArknightsGameData_YoStar/main/'+v+'/gamedata/excel/character_table.json',minimum=600)for l,v in [('en','en_US'),('ko','ko_KR'),('ja','ja_JP')]]+[Source('zh',RAW+'Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json',minimum=900),Source('art','https://api.github.com/repos/Aceship/Arknight-Images/git/trees/main?recursive=1','tree',1000)]
+    if game=='arknights':return [Source(l,RAW+'ArknightsAssets/ArknightsGamedata/master/'+v+'/gamedata/excel/character_table.json',minimum=600)for l,v in [('en','en'),('ko','kr'),('ja','jp'),('zh','cn')]]+[Source('patch_'+l,RAW+'ArknightsAssets/ArknightsGamedata/master/'+v+'/gamedata/excel/char_patch_table.json',minimum=3)for l,v in [('en','en'),('ko','kr'),('ja','jp'),('zh','cn')]]+[Source('art','https://api.github.com/repos/Aceship/Arknight-Images/git/trees/main?recursive=1','tree',1000)]
     if game in PY_URLS:return [Source('characters','https://www.prydwen.gg/'+PY_URLS[game],'py:'+('allIdentities'if game=='limbus'else'characters'),{'nikke':150,'nte':15,'trickcal':80,'reverse1999':80,'limbus':120}[game])]
     if game=='stellasora':
         b=RAW+'JforPlay/sstoy/main/public/data/'
@@ -207,11 +207,19 @@ def normalize(game,d):
             rows.append(r)
         note+=' Known upcoming agents excluded. Enka image host403 is not used; only exact declared matching Prydwen card images. Rank enum is not converted into stars.'
     elif game=='arknights':
-        play={l:{key:c for key,c in d[l].items()if not c.get('isNotObtainable')and c.get('profession')not in ['TOKEN','TRAP']}for l in LOCALES};keys=list(dict.fromkeys(key for l in LOCALES for key in play[l]));source_count=len(set(key for l in LOCALES for key in d[l]));paths=assetpaths(d['art'])
+        play={l:{key:c for key,c in d[l].items()if not c.get('isNotObtainable')and c.get('profession')not in ['TOKEN','TRAP']}for l in LOCALES}
+        for l in LOCALES:
+            patch=d.get('patch_'+l,{})
+            for base,info in patch.get('infos',{}).items():
+                if base not in play[l]:continue
+                for key in info.get('tmplIds',[]):
+                    c=patch.get('patchChars',{}).get(key)
+                    if c and not c.get('isNotObtainable')and c.get('profession')not in ['TOKEN','TRAP']:play[l][key]=c
+        keys=list(dict.fromkeys(key for l in LOCALES for key in play[l]));source_count=len(set(key for l in LOCALES for key in d[l])|{key for l in LOCALES for key in play[l]});paths=assetpaths(d['art'])
         for l in LOCALES:
             if len(play[l])<300:raise SourceError('Unexpectedly small native playable Arknights table '+l)
         for key in keys:
-            c=next(x[key]for x in play.values()if key in x);require_fields(c,['name','rarity','profession','position'],'Arknights operator');r=row(key,native_names(play,key),urls['en']if key in play['en']else urls['zh'],[v for l,v in [('en','global'),('ko','kr'),('ja','jp'),('zh','cn')]if key in play[l]]);r['rarity']=int(c['rarity'].split('_')[-1]);r['traits']=[trait('profession',c['profession']),trait('position',c['position'])];path='characters/'+key+'_1.png'
+            c=next(x[key]for x in play.values()if key in x);require_fields(c,['name','rarity','profession','position'],'Arknights operator');r=row(key,native_names(play,key),urls[('patch_en'if key not in d['en']else'en')if key in play['en']else('patch_zh'if key not in d['zh']else'zh')],[v for l,v in [('en','global'),('ko','kr'),('ja','jp'),('zh','cn')]if key in play[l]]);r['rarity']=int(c['rarity'].split('_')[-1]);r['traits']=[trait('profession',c['profession']),trait('position',c['position'])];path='characters/'+key+'_1.png'
             if path in paths:r['image']=image(RAW+'Aceship/Arknight-Images/main/'+path,'full-body','https://github.com/Aceship/Arknight-Images')
             rows.append(r)
         note+=' Native membership per service; CN operators are never copied into KR/JP/global. TOKEN/TRAP/nonobtainable excluded.'
@@ -267,7 +275,7 @@ def normalize(game,d):
         note+=' Atlas sprite coordinates are not standalone illustrations; image omitted. No invented gacha/rank/star fields.'
     else:raise SourceError('Unknown normalizer '+game)
     rows=sorted(({k:v for k,v in r.items()if v is not None}for r in rows),key=lambda r:r['id'])
-    result={'gameId':game,'sourceName':{'holodreams':'hololive Dreams official members','genshin':'genshin-db + HoYo-Assets','hsr':'StarRailRes + Prydwen future exclusions','zzz':'EnkaNetwork + Prydwen cards','arknights':'ArknightsGameData + Arknight-Images','stellasora':'sstoy native data','gfl2':'GFL2 HELP','dna':'TH.GL Duet Night Abyss database'}.get(game,'Prydwen Institute'),'sourceUrls':list(urls.values()),'checkedAt':NOW(),'characters':rows,'coverage':{'sourceCount':source_count,'includedCount':len(rows),'note':note}}
+    result={'gameId':game,'sourceName':{'holodreams':'hololive Dreams official members','genshin':'genshin-db + HoYo-Assets','hsr':'StarRailRes + Prydwen future exclusions','zzz':'EnkaNetwork + Prydwen cards','arknights':'Arknights regional client tables + declared native artwork','stellasora':'sstoy native data','gfl2':'GFL2 HELP','dna':'TH.GL Duet Night Abyss database'}.get(game,'Prydwen Institute'),'sourceUrls':list(urls.values()),'checkedAt':NOW(),'characters':rows,'coverage':{'sourceCount':source_count,'includedCount':len(rows),'note':note}}
     if version:result['sourceVersion']=version
     validate_normalized(result)
     return result

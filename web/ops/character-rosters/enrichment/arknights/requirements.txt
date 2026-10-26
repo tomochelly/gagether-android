@@ -1,0 +1,2 @@
+-r ../zzz/requirements.txt
+zopfli==0.4.3

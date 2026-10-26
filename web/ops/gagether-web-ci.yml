@@ -33,7 +33,7 @@ jobs:
         working-directory: web
       - run: python3 -m unittest discover -s ops/character-rosters/enrichment -p 'test_*.py'
         working-directory: web
-      - run: python3 -m pip install --disable-pip-version-check -r ops/character-rosters/enrichment/zzz/requirements.txt
+      - run: python3 -m pip install --disable-pip-version-check -r ops/character-rosters/enrichment/arknights/requirements.txt
         working-directory: web
       - run: python3 -m unittest discover -s ops/character-rosters/enrichment/zzz -p 'test_*.py'
         working-directory: web
@@ -48,4 +48,7 @@ jobs:
       - run: python3 -m unittest discover -s ops/character-rosters/enrichment/gfl2 -p 'test_*.py'
         working-directory: web
       - run: python3 -m unittest discover -s ops/character-rosters/enrichment/gfl2_art -p 'test_*.py'
+        working-directory: web
+
+      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/arknights -p 'test_*.py'
         working-directory: web
