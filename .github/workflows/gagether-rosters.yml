@@ -35,6 +35,8 @@ jobs:
       - name: Install verified image reader
         run: python -m pip install --disable-pip-version-check -r web/ops/character-rosters/enrichment/arknights/requirements.txt
       - name: Check roster collection regressions
+        env:
+          TYPESCRIPT_PATH: ${{ runner.temp }}/roster-parser/node_modules/typescript/lib/typescript.js
         run: |
           python -m unittest discover -s web/ops/character-rosters/public-sources -p test_collector.py
           python -m unittest discover -s web/ops/character-rosters -p test_run.py
