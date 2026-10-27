@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Public roster collector for Python 3.11+. No dependencies, credentials or ingest writes.
+"""Public roster collector for Python 3.11+. No dependencies or ingest writes.
+An optional job read token is confined to the exact HTTPS GitHub API host.
 A game is ingest-eligible only after every required public source was freshly checked.
 Run: python collect_rosters.py --workdir .roster-cache --games holodreams
 """
@@ -9,10 +10,11 @@ import urllib.error, urllib.request
 from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 from asset_policy import classify_image
 
 HERE=Path(__file__).resolve().parent
+ANNOUNCEMENTS=HERE.parents[2]/'content/character-rosters/announcements.json'
 LOCALES=('ko','en','ja','zh')
 RAW='https://raw.githubusercontent.com/'
 GAMES=('genshin','hsr','zzz','arknights','nikke','nte','trickcal','reverse1999','limbus','stellasora','gfl2','holodreams','dna')
@@ -26,18 +28,19 @@ class Source:
     url:str
     kind:str='json'
     minimum:int=1
+    optional:bool=False
 
 def source_specs(game):
     if game=='genshin':
         u='https://genshin-db-api.vercel.app/api/v5/characters?query=names&matchCategories=true&verboseCategories=true'
-        return [Source('en',u,minimum=90)]+[Source(l,u+'&resultLanguage='+v,minimum=90)for l,v in [('ko','Korean'),('ja','Japanese'),('zh','ChineseSimplified')]]+[Source('art', 'https://api.github.com/repos/ScobbleQ/HoYo-Assets/git/trees/main?recursive=1','tree',90)]
+        return [Source('en',u,minimum=90)]+[Source(l,u+'&resultLanguage='+v,minimum=90)for l,v in [('ko','Korean'),('ja','Japanese'),('zh','ChineseSimplified')]]+[Source('art', 'https://api.github.com/repos/ScobbleQ/HoYo-Assets/git/trees/main?recursive=1','tree',90,optional=True)]
     if game=='hsr':return [Source(l,RAW+'Mar-7th/StarRailRes/master/index_new/'+v+'/characters.json',minimum=70)for l,v in [('en','en'),('ko','kr'),('ja','jp'),('zh','cn')]]+[Source('info',RAW+'Mar-7th/StarRailRes/master/info.json'),Source('release','https://www.prydwen.gg/'+PY_URLS[game],'py:characters',70)]
     if game=='zzz':return [Source('avatars',RAW+'EnkaNetwork/API-docs/master/store/zzz/avatars.json',minimum=40),Source('locs',RAW+'EnkaNetwork/API-docs/master/store/zzz/locs.json',minimum=4),Source('release','https://www.prydwen.gg/'+PY_URLS[game],'py:characters',40)]
-    if game=='arknights':return [Source(l,RAW+'ArknightsAssets/ArknightsGamedata/master/'+v+'/gamedata/excel/character_table.json',minimum=600)for l,v in [('en','en'),('ko','kr'),('ja','jp'),('zh','cn')]]+[Source('patch_'+l,RAW+'ArknightsAssets/ArknightsGamedata/master/'+v+'/gamedata/excel/char_patch_table.json',minimum=3)for l,v in [('en','en'),('ko','kr'),('ja','jp'),('zh','cn')]]+[Source('art','https://api.github.com/repos/Aceship/Arknight-Images/git/trees/main?recursive=1','tree',1000)]
+    if game=='arknights':return [Source(l,RAW+'ArknightsAssets/ArknightsGamedata/master/'+v+'/gamedata/excel/character_table.json',minimum=600)for l,v in [('en','en'),('ko','kr'),('ja','jp'),('zh','cn')]]+[Source('patch_'+l,RAW+'ArknightsAssets/ArknightsGamedata/master/'+v+'/gamedata/excel/char_patch_table.json',minimum=3)for l,v in [('en','en'),('ko','kr'),('ja','jp'),('zh','cn')]]+[Source('art','https://api.github.com/repos/Aceship/Arknight-Images/git/trees/main?recursive=1','tree',1000,optional=True)]
     if game in PY_URLS:return [Source('characters','https://www.prydwen.gg/'+PY_URLS[game],'py:'+('allIdentities'if game=='limbus'else'characters'),{'nikke':150,'nte':15,'trickcal':80,'reverse1999':80,'limbus':120}[game])]
     if game=='stellasora':
         b=RAW+'JforPlay/sstoy/main/public/data/'
-        return [Source('characters',b+'Character.json',minimum=30)]+[Source(l,b+v+'/Character.json',minimum=30)for l,v in [('en','EN'),('ko','KR'),('ja','JP'),('zh','CN')]]+[Source('art','https://api.github.com/repos/JforPlay/sstoy/git/trees/main?recursive=1','tree',1000)]
+        return [Source('characters',b+'Character.json',minimum=30)]+[Source(l,b+v+'/Character.json',minimum=30)for l,v in [('en','EN'),('ko','KR'),('ja','JP'),('zh','CN')]]+[Source('art','https://api.github.com/repos/JforPlay/sstoy/git/trees/main?recursive=1','tree',1000,optional=True)]
     if game=='gfl2':return [Source('characters','https://gfl2.help/en/characters','gfl2',40)]
     if game=='holodreams':return [Source('en','https://hololive-dreams.com/en/','holo',40),Source('ja','https://hololive-dreams.com/','holo',40)]
     if game=='dna':return [Source(l,'https://duetnightabyss.th.gl/'+v+'db/characters','dna',20)for l,v in [('en',''),('ko','ko/'),('ja','ja/'),('zh','zh-CN/')]]
@@ -119,6 +122,15 @@ def decode_source(spec,body):
         return value
     except (ValueError,KeyError,TypeError,IndexError,UnicodeError,RecursionError)as e:raise SourceError('Invalid source shape: '+str(e))from e
 
+class NoCredentialRedirect(urllib.request.HTTPRedirectHandler):
+    # A job read token may never follow a redirect, even to another GitHub URL.
+    def redirect_request(self,*args,**kwargs):return None
+github_opener=urllib.request.build_opener(NoCredentialRedirect)
+
+def github_read_headers(url):
+    parsed=urlsplit(url);token=os.environ.get('GAGETHER_GITHUB_READ_TOKEN')
+    return {'Authorization':'Bearer '+token}if token and parsed.scheme=='https'and parsed.netloc=='api.github.com'else{}
+
 class Fetcher:
     def __init__(self,root,timeout=25,retries=2):self.root=root;self.timeout=timeout;self.retries=retries
     def fetch(self,game,spec):
@@ -126,13 +138,17 @@ class Fetcher:
         target=directory/(spec.key+'.body');meta_file=directory/(spec.key+'.meta.json')
         old=read_json(meta_file,{})
         headers={'Accept':'application/json,text/html;q=0.9,*/*;q=0.8','User-Agent':'GagetherPublicRosterCollector/1.0'}
+        headers.update(github_read_headers(spec.url))
         if target.exists()and old.get('url')==spec.url:
             if old.get('etag'):headers['If-None-Match']=old['etag']
             if old.get('lastModified'):headers['If-Modified-Since']=old['lastModified']
         attempts=[]
         for attempt in range(self.retries+1):
             try:
-                response=urllib.request.urlopen(urllib.request.Request(spec.url,headers=headers),timeout=self.timeout)
+                # Only credential-bearing exact-host API requests use this opener.
+                # Neither cache metadata nor receipts contain request headers.
+                open_url=github_opener.open if 'Authorization'in headers else urllib.request.urlopen
+                response=open_url(urllib.request.Request(spec.url,headers=headers),timeout=self.timeout)
                 limit=24_000_000;body=response.read(limit+1)
                 if len(body)>limit:raise SourceError('Source exceeded24MB cap; possible oversized/truncated payload')
                 value=decode_source(spec,body) # Validate before last-good cache replacement.
@@ -175,8 +191,22 @@ def require_fields(obj,fields,context):
     if not isinstance(obj,dict)or any(k not in obj for k in fields):raise SourceError(context+' missing required fields '+','.join(fields))
 def assetpaths(d):return {x['path']for x in d['tree']}
 def native_names(d,key):return names(**{l:d[l].get(key,{}).get('name','')for l in LOCALES})
+def reviewed_announcements():
+    registry=read_json(ANNOUNCEMENTS)
+    if not isinstance(registry,dict)or registry.get('version')!=1 or not isinstance(registry.get('characters'),list)or len(registry['characters'])>100:raise SourceError('Checked character announcement registry missing or invalid')
+    return registry['characters']
+def reviewed_zzz_announcement(rules,key,native,localized,provider):
+    if not provider or not all(localized.values()):return None
+    # Provider unit IDs are not native client IDs. Require every reviewed exact
+    # identity and confirmed attribute; a similarly named outfit is not a match.
+    return next((r for r in rules if r.get('gameId')=='zzz'and r.get('nativeId')==str(key)
+        and r.get('nativeNameKey')==native.get('Name')and r.get('name')==localized['en']==provider.get('name')
+        and r.get('providerId')==provider.get('id')and r.get('providerUnitId')==str(provider.get('unitId'))
+        and r.get('providerSlug')==provider.get('slug')and r.get('rarity')==native.get('Rarity')
+        and r.get('rarityLabel')==provider.get('rarity')and r.get('specialty')==native.get('ProfessionType')
+        and r.get('elements')==native.get('ElementTypes')and provider.get('element')in r.get('elements',[])),None)
 def normalize(game,d):
-    urls={s.key:s.url for s in source_specs(game)};rows=[];source_count=0;version=None;note='Source catalog membership does not establish current pickup or an exact release date.'
+    urls={s.key:s.url for s in source_specs(game)};rows=[];source_count=0;version=None;announcement_urls=[];note='Source catalog membership does not establish current pickup or an exact release date.'
     if game=='genshin':
         by={l:{c['id']:c for c in d[l]}for l in LOCALES}
         if any(set(by[l])!=set(by['en'])for l in LOCALES):raise SourceError('Native character ID sets differ; refusing partial language overwrite')
@@ -196,16 +226,26 @@ def normalize(game,d):
             if c.get('portrait'):r['image']=image(RAW+'Mar-7th/StarRailRes/master/'+c['portrait'],'splash',urls['en'])
             rows.append(r)
     elif game=='zzz':
-        source_count=len(d['avatars']);locs=d['locs'];py=d['release'];future={c['name']for c in py if c.get('upcoming')is True};aliases={'Jane':'Jane Doe','Soldier 0 - Anby':'Anby: Soldier 0','Starlight - Billy':'Billy - Starlight'}
+        source_count=len(d['avatars']);locs=d['locs'];py=d['release'];future={c['name']for c in py if c.get('upcoming')is True};aliases={'Jane':'Jane Doe','Soldier 0 - Anby':'Anby: Soldier 0','Starlight - Billy':'Billy - Starlight'};announcements=reviewed_announcements()
         for locale in ['ko','en','ja','zh-cn']:require_fields(locs,[locale],'ZZZ localizations')
         for key,c in d['avatars'].items():
             require_fields(c,['Name','ProfessionType','ElementTypes'],'ZZZ avatar');n=names(**{l:locs[v].get(c['Name'],'')for l,v in [('ko','ko'),('en','en'),('ja','ja'),('zh','zh-cn')]})
             if not n['en']:raise SourceError('ZZZ missing English name for '+key)
-            if n['en']in future:continue
-            r=row(key,n,urls['avatars']);r['traits']=[trait('specialty',c['ProfessionType']),trait('element',', '.join(c['ElementTypes']))];match=next((x for x in py if x['name']==aliases.get(n['en'],n['en'])and not x.get('upcoming')),None)
-            if match:r['image']=image(match.get('cardImage'),'card',urls['release']+match['slug']+'/')
+            provider=next((x for x in py if x['name']==aliases.get(n['en'],n['en'])),None)
+            announcement=reviewed_zzz_announcement(announcements,key,c,n,provider)
+            if n['en']in future and not announcement:continue
+            r=row(key,n,urls['avatars']);r['traits']=[trait('specialty',c['ProfessionType']),trait('element',', '.join(c['ElementTypes']))];match=provider if provider and(not provider.get('upcoming')or announcement)else None
+            if match:r['image']=image(match.get('cardImage'),'card',urls['release']+match['slug']+'/',**({'sourceKind':'community'}if announcement else{}))
+            if announcement:
+                # Only identity, declared card and officially confirmed rank/type
+                # enter the preview. Stats/skills/progression are not copied.
+                r['rarity']=announcement['rarity'];r['rarityLabel']=announcement['rarityLabel']
+                r['availability']={'status':'announced'if provider.get('upcoming')is True else'released','sourceUrl':announcement['sourceUrl']}
+                r['nameSources']={l:{'url':urls['locs'],'kind':'community'}for l in LOCALES}
+                r['detailSources']=[{'url':announcement[k],'kind':'official'}for k in ['sourceUrl','confirmationUrl']]
+                announcement_urls.extend(announcement[k]for k in ['sourceUrl','confirmationUrl'])
             rows.append(r)
-        note+=' Known upcoming agents excluded. Enka image host403 is not used; only exact declared matching Prydwen card images. Rank enum is not converted into stars.'
+        note+=' Unreviewed upcoming agents excluded. Exact reviewed official announcements may supply identity-only previews; provider release flags explicitly retire that preview. Enka image host403 is not used; only exact declared matching community card images. Rank enum is not converted into stars.'
     elif game=='arknights':
         play={l:{key:c for key,c in d[l].items()if not c.get('isNotObtainable')and c.get('profession')not in ['TOKEN','TRAP']}for l in LOCALES}
         for l in LOCALES:
@@ -235,7 +275,12 @@ def normalize(game,d):
                 if extra.get(k):r['traits'].append(trait(k,', '.join(extra[k])if isinstance(extra[k],list)else extra[k]))
             if game in ('trickcal','reverse1999'):r['rarity']=int(c['rarity'])
             elif game=='limbus':r['rarity']=len(c['rarity'])
-            else:r['traits'].append(trait('rank',c['rarity']))
+            else:
+                r['traits'].append(trait('rank',c['rarity']))
+                # Exact sourced native letters only; unknown/numeric provider
+                # values retain their rank trait without an invented conversion.
+                grade={'nikke':{'R':1,'SR':2,'SSR':3},'nte':{'A':4,'S':5}}[game].get(c['rarity'])if isinstance(c['rarity'],str)else None
+                if grade is not None:r['rarity']=grade;r['rarityLabel']=c['rarity']
             if game=='reverse1999':r['regions']=['global','kr','jp','cn']if c.get('availableInGlobal')is True else['cn']
             if game=='trickcal':r['regions']=['kr']if c.get('is_kr')is True else['kr','global']
             field_,kind={'nikke':('cardImage','card'),'nte':('thumbnailUrl','portrait'),'trickcal':('thumbnailUrl','portrait'),'reverse1999':('imageFull','full-body'),'limbus':('mid_image','card')}[game];art=c.get(field_)or extra.get(field_)
@@ -275,7 +320,7 @@ def normalize(game,d):
         note+=' Atlas sprite coordinates are not standalone illustrations; image omitted. No invented gacha/rank/star fields.'
     else:raise SourceError('Unknown normalizer '+game)
     rows=sorted(({k:v for k,v in r.items()if v is not None}for r in rows),key=lambda r:r['id'])
-    result={'gameId':game,'sourceName':{'holodreams':'hololive Dreams official members','genshin':'genshin-db + HoYo-Assets','hsr':'StarRailRes + Prydwen future exclusions','zzz':'EnkaNetwork + Prydwen cards','arknights':'Arknights regional client tables + declared native artwork','stellasora':'sstoy native data','gfl2':'GFL2 HELP','dna':'TH.GL Duet Night Abyss database'}.get(game,'Prydwen Institute'),'sourceUrls':list(urls.values()),'checkedAt':NOW(),'characters':rows,'coverage':{'sourceCount':source_count,'includedCount':len(rows),'note':note}}
+    result={'gameId':game,'sourceName':{'holodreams':'hololive Dreams official members','genshin':'genshin-db + HoYo-Assets','hsr':'StarRailRes + Prydwen future exclusions','zzz':'EnkaNetwork + Prydwen cards','arknights':'Arknights regional client tables + declared native artwork','stellasora':'sstoy native data','gfl2':'GFL2 HELP','dna':'TH.GL Duet Night Abyss database'}.get(game,'Prydwen Institute'),'sourceUrls':list(dict.fromkeys([*urls.values(),*announcement_urls])),'checkedAt':NOW(),'characters':rows,'coverage':{'sourceCount':source_count,'includedCount':len(rows),'note':note}}
     if version:result['sourceVersion']=version
     validate_normalized(result)
     return result
@@ -305,30 +350,49 @@ def preserve_images(new,old):
         if not r.get('image')and p and p.get('image')and any(r['name'][l]and r['name'][l]==p.get('name',{}).get(l)for l in LOCALES):r['image']=classify_image(p['image']);kept+=1
     return kept
 
+def failed_source_receipt(spec,error):
+    receipt={'key':spec.key,'url':spec.url,'checkedAt':NOW(),'status':'failed','error':str(error),'optional':spec.optional}
+    cause=error;seen=set()
+    while cause and id(cause)not in seen:
+        seen.add(id(cause))
+        if isinstance(cause,urllib.error.HTTPError):receipt['httpStatus']=cause.code;break
+        cause=cause.__cause__ or cause.__context__
+    return receipt
+
 def collect_one(game,args):
     output=args.workdir/'normalized'/(game+'.json');prior=read_json(output);bootstrap=read_json(args.bootstrap/(game+'.json'));last_good=prior or bootstrap
-    checks=[]
+    checks=[];warnings=[]
     try:
         data={};fetcher=Fetcher(args.workdir,args.timeout,args.retries)
         # Dependencies within a game stay sequential. Games use independent concurrent source caches.
-        for spec in source_specs(game):value,status=fetcher.fetch(game,spec);data[spec.key]=value;checks.append(status)
+        for spec in source_specs(game):
+            try:value,status=fetcher.fetch(game,spec)
+            except Exception as error:
+                failed=failed_source_receipt(spec,error);checks.append(failed)
+                # Only declared artwork inventories are optional. Required native
+                # tables/localizations still abort; a stale tree is never reused.
+                if not(spec.optional and spec.key=='art'and spec.kind=='tree'):raise
+                data[spec.key]={'truncated':False,'tree':[]}
+                warnings.append({**failed,'type':'artwork-source-failed','fallback':'empty-tree'})
+                continue
+            data[spec.key]=value;checks.append(status)
         result=normalize(game,data)
         if last_good and len(result['characters'])<len(last_good.get('characters',[]))*0.75:raise SourceError('Roster shrank more than25%; rejecting possible partial source')
         kept=preserve_images(result,last_good);validate_normalized(result)
         changed=not prior or stable_content(result)!=stable_content(prior)
         if not changed:result=prior # Preserve checkedAt when factual output has not changed.
         atomic_json(output,result)
-        return {'gameId':game,'status':'updated'if changed else'unchanged','eligibleForIngest':True,'changed':changed,'path':str(output),'includedCount':len(result['characters']),'images':sum(bool(r.get('image'))for r in result['characters']),'preservedImages':kept,'sources':checks,'checkedAt':NOW()}
+        return {'gameId':game,'status':'limited'if warnings else'updated'if changed else'unchanged','eligibleForIngest':True,'changed':changed,'path':str(output),'includedCount':len(result['characters']),'images':sum(bool(r.get('image'))for r in result['characters']),'preservedImages':kept,'sources':checks,'warnings':warnings,'checkedAt':NOW()}
     except Exception as e:
         # Last-good/bootstrap is a display recovery snapshot, never marked freshly ingest-eligible.
         if last_good and not output.exists():atomic_json(output,last_good)
-        return {'gameId':game,'status':'failed','eligibleForIngest':False,'changed':False,'lastGoodAvailable':bool(last_good),'path':str(output)if last_good else None,'error':str(e),'sources':checks,'checkedAt':NOW()}
+        return {'gameId':game,'status':'failed','eligibleForIngest':False,'changed':False,'lastGoodAvailable':bool(last_good),'path':str(output)if last_good else None,'error':str(e),'sources':checks,'warnings':warnings,'checkedAt':NOW()}
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--workdir',type=Path,default=Path('.roster-cache'));parser.add_argument('--bootstrap',type=Path,default=HERE/'bootstrap');parser.add_argument('--games',nargs='+',choices=GAMES,default=list(GAMES));parser.add_argument('--timeout',type=int,default=25);parser.add_argument('--retries',type=int,default=2);parser.add_argument('--workers',type=int,default=3);parser.add_argument('--strict',action='store_true',help='Nonzero exit on any failed game, after writing partial successes');args=parser.parse_args()
     args.workdir=args.workdir.resolve();args.bootstrap=args.bootstrap.resolve();started=NOW();games=list(dict.fromkeys(args.games));args.workdir.mkdir(parents=True,exist_ok=True)
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1,min(4,args.workers)))as pool:results=list(pool.map(lambda game:collect_one(game,args),games))
-    report={'schemaVersion':1,'startedAt':started,'finishedAt':NOW(),'results':results,'summary':{'games':len(results),'succeeded':sum(r['eligibleForIngest']for r in results),'failed':sum(not r['eligibleForIngest']for r in results),'changed':sum(r['changed']for r in results)},'ingestFiles':[r['path']for r in results if r['eligibleForIngest']],'changedFiles':[r['path']for r in results if r['eligibleForIngest']and r['changed']]}
+    report={'schemaVersion':1,'startedAt':started,'finishedAt':NOW(),'results':results,'summary':{'games':len(results),'succeeded':sum(r['eligibleForIngest']for r in results),'limited':sum(bool(r['warnings'])and r['eligibleForIngest']for r in results),'failed':sum(not r['eligibleForIngest']for r in results),'changed':sum(r['changed']for r in results)},'ingestFiles':[r['path']for r in results if r['eligibleForIngest']],'changedFiles':[r['path']for r in results if r['eligibleForIngest']and r['changed']]}
     atomic_json(args.workdir/'run.json',report)
     for result in results:print(json.dumps({k:v for k,v in result.items()if k!='sources'},ensure_ascii=False),flush=True)
     print(json.dumps({'manifest':str(args.workdir/'run.json'),'summary':report['summary']},ensure_ascii=False),flush=True)

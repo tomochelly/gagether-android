@@ -1,7 +1,46 @@
-import importlib.util,json,pathlib,subprocess,tempfile,unittest
+import argparse,copy,importlib.util,io,json,pathlib,subprocess,tempfile,types,unittest
+from contextlib import redirect_stdout
+from unittest.mock import patch
 ROOT=pathlib.Path(__file__).resolve().parent
 spec=importlib.util.spec_from_file_location('zzz_enrich',ROOT/'enrich.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 class ZZZDetails(unittest.TestCase):
+ def test_failed_source_fallback_keeps_released_facts_and_drops_announced_beta_facts(self):
+  with tempfile.TemporaryDirectory()as folder:
+   root=pathlib.Path(folder);source=root/'input.json';out=root/'out'
+   released={'id':'1011','stats':[{'id':'hp','value':'603'}]};announced={'id':'1631','availability':{'status':'announced'},'stats':[{'id':'beta','value':'999999'}]}
+   source.write_text(json.dumps({'gameId':'zzz','characters':[released,announced]}));before=source.read_bytes()
+   with patch.object(m.sys,'argv',['enrich.py','--input',str(source),'--output-dir',str(out)]),patch.object(m.Sources,'get',side_effect=RuntimeError('upstream blocked')):
+    with self.assertRaisesRegex(RuntimeError,'upstream blocked'):m.main()
+   saved=json.loads((out/'zzz.json').read_text());self.assertEqual(saved['characters'][0],released);self.assertNotIn('stats',saved['characters'][1]);self.assertEqual(source.read_bytes(),before)
+   audit=json.loads((out/'manifest.json').read_text());self.assertEqual(audit['status'],'failed');self.assertTrue(audit['preservedReleasedInput']);self.assertEqual(audit['announcedIdentityOnlyIds'],['1631'])
+ def test_full_lane_skips_announced_beta_facts_and_counts_but_preserves_identity_and_receipts(self):
+  with tempfile.TemporaryDirectory()as folder:
+   root=pathlib.Path(folder);source=root/'input.json'
+   preview={'id':'1631','name':m.C('세베리안','Severian','セヴェリアン','赛维里安'),'availability':{'status':'announced','sourceUrl':'https://zenless.hoyoverse.com/en-us/news/166054'},'sourceUrl':'https://example.test/native','sourceKind':'community','image':{'url':'https://example.test/severian-card.webp','kind':'card','sourceUrl':'https://example.test/card'},'detailSources':[{'url':'https://zenless.hoyoverse.com/en-us/news/166054','kind':'official'}],'stats':[{'id':'beta','value':'999999'}],'skillTables':[{'id':'beta','values':[{}]}],'statProgression':{'beta':True},'variantDetails':{'beta':{}},'sections':[{'id':'beta'}]}
+   document={'gameId':'zzz','characters':[{'id':'1011','name':m.C('엔비','Anby','アンビー','安比')},preview],'sourceUrls':['https://example.test/native'],'coverage':{'includedCount':2}}
+   source.write_text(json.dumps(document));before=source.read_bytes();calls=[]
+   class FakeSources:
+    def __init__(self,path,replay=None):self.root=path;path.mkdir(parents=True,exist_ok=True);self.receipts=[]
+    def get(self,key,url,maximum=0):
+     self.receipts.append({'key':key,'url':url,'status':200})
+     if key=='official-ko':return json.dumps({'data':{'list':[{'sExt':{}}for _ in range(50)]}}).encode()
+     if key=='enka':return b'{"1011":{}}'
+     if key=='gg-page':return b'<script src="/_nuxt/router.js"></script>'
+     if key.startswith('gg-discovery-'):return ','.join('"../data/'+m.GG_LOCALES[l]+'/characters.json":()=>x(()=>import("./'+l+'.js"))'for l in m.LOCALES).encode()
+     return b'unused source fixture'
+   catalog={'characters':[{'ID':1011,'Skills':[{'TextType':1,'Value':'published'}]}]}
+   def stats(row,raw):calls.append(('stats',row['id']));row['stats']=[{'id':'hp','value':'603'}]
+   def details(row,*args):calls.append(('details',row['id']));row['skillTables']=[{'id':'published','values':[{}]}];row['detailSources']=[]
+   def art(item,*args):
+    row,_=item;calls.append(('art',row['id']));return row['id'],{'url':'https://example.test/full.png','kind':'full-body'},{'characterId':row['id']}
+   args=argparse.Namespace(input=source,output_dir=root/'output',cache_dir=root/'cache',replay_source_root=None)
+   with patch.object(m,'Sources',FakeSources),patch.object(m.subprocess,'run',return_value=types.SimpleNamespace(stdout=json.dumps(catalog))),patch.object(m,'with_stats',side_effect=stats),patch.object(m,'with_details',side_effect=details),patch.object(m,'official_match',return_value={'iInfoId':'verified'}),patch.object(m,'download_art',side_effect=art),redirect_stdout(io.StringIO()):audit=m.run(args)
+   saved=json.loads((args.output_dir/'zzz.json').read_text());announced=saved['characters'][1]
+   self.assertEqual(source.read_bytes(),before);self.assertEqual([c['id']for c in saved['characters']],['1011','1631'])
+   self.assertEqual(announced,{k:v for k,v in preview.items()if k not in ['stats','skillTables','statProgression','variantDetails','sections']})
+   self.assertEqual(calls,[('stats','1011'),('details','1011'),('art','1011')])
+   self.assertEqual((audit['numericRows'],audit['sourceNumericRows'],audit['characters']),(1,1,2));self.assertEqual(audit['announcedIdentityOnlyIds'],['1631']);self.assertEqual(audit['status'],'ok')
+   self.assertEqual({r['key']for r in audit['sources']},{'official-ko','enka','gg-page','gg-discovery-0',*[f'catalog-{l}'for l in m.LOCALES]})
  def test_source_formulas_are_literal_and_do_not_execute(self):
   self.assertEqual(m.safe_math('5+AvatarSkillLevel(1)*2.25',12),32)
   for value in ['__import__("os").system("id")','2**100000000','f(1)','1;2']:

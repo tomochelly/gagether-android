@@ -39,6 +39,7 @@ jobs:
           ROSTER_WORKDIR: ${{ runner.temp }}/gagether-rosters
           TYPESCRIPT_PATH: ${{ runner.temp }}/roster-parser/node_modules/typescript/lib/typescript.js
           GITHUB_TOKEN: ${{ github.token }}
+          GAGETHER_GITHUB_READ_TOKEN: ${{ github.token }}
         run: python web/ops/character-rosters/run.py
       - uses: actions/upload-artifact@v4
         if: always()

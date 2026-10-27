@@ -36,6 +36,12 @@ class Sources:
    receipt={'key':key,'url':url,'checkedAt':now(),'status':r.status,'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b)}
   (self.root/(key+'.body')).write_bytes(b);dump(self.root/(key+'.meta.json'),receipt);self.receipts.append(receipt);return b
 def norm(s):return re.sub(r'[^\w]','',html.unescape(str(s))).casefold()
+def is_announced(row):return row.get('availability',{}).get('status')=='announced'
+def announced_identity(row):
+ # An earlier optional stage may have attached unreleased numeric tables. Keep
+ # only the reviewed identity/provenance/card; do not carry those facts forward.
+ allowed={'id','sourceId','name','nameSources','rarity','rarityLabel','traits','image','images','sourceUrl','sourceKind','availability','detailSources'}
+ return {k:v for k,v in row.items()if k in allowed}
 def safe_math(expression,rank):
  expression=re.sub(r'AvatarSkillLevel\(\d+\)',str(rank),expression)
  if len(expression)>200 or re.search(r'[^\d.\s+*/()\-]',expression):raise ValueError('Unknown source expression')
@@ -211,6 +217,8 @@ def run(args):
  out=args.output_dir;out.mkdir(parents=True,exist_ok=True);assets=out/'assets';assets.mkdir(exist_ok=True);sources=Sources(args.cache_dir or out/'sources',args.replay_source_root);audit={'checkedAt':now(),'status':'ok','errors':[],'omittedNumericRows':[]}
  original=json.loads(args.input.read_text());doc=copy.deepcopy(original)
  if doc.get('gameId')!='zzz':raise ValueError('Exact ZZZ input required')
+ doc['characters']=[announced_identity(row)if is_announced(row)else row for row in doc['characters']]
+ audit['announcedIdentityOnlyIds']=[row['id']for row in doc['characters']if is_announced(row)]
  official=json.loads(sources.get('official-ko',OFFICIAL));official=official['data']['list']
  if len(official)<50:raise ValueError('Official inventory unexpectedly small')
  for r in official:r['sExt']=json.loads(r['sExt'])if isinstance(r['sExt'],str)else r['sExt']
@@ -229,6 +237,7 @@ def run(args):
   parsed=subprocess.run(['node',str(ROOT/'parse-catalog.mjs'),str(sources.root/('catalog-'+l+'.body'))],check=True,capture_output=True,text=True,timeout=45);catalogs[l]=json.loads(parsed.stdout)
  native={l:{str(c['ID']):c for c in catalogs[l]['characters']}for l in LOCALES};pairs=[]
  for row in doc['characters']:
+  if is_announced(row):continue
   prior=copy.deepcopy(row)
   try:
    raw=avatars[row['id']];n={l:native[l][row['id']]for l in LOCALES};with_stats(row,raw);with_details(row,n,catalogs,audit);record=official_match(row,n,official);pairs.append((row,record))
@@ -246,7 +255,7 @@ def run(args):
  doc['checkedAt']=now();doc['sourceUrls']=list(dict.fromkeys([*doc['sourceUrls'],OFFICIAL,FORMULA,*[GG+'/'+GG_LOCALES[l]+'/characters'for l in LOCALES]]))[:40]
  doc['coverage']['fullBodyCount']=sum(c.get('image',{}).get('kind')=='full-body'for c in doc['characters']);doc['sourceName']='EnkaNetwork + Korean official full originals + ZZZ.gg native character tables'
  numeric_rows=sum(len(s.get('values',[]))for c in doc['characters']for s in c.get('skillTables',[]))
- source_numeric_rows=sum(bool(s.get('Value'))for c in doc['characters']for s in native['ko'][c['id']]['Skills']if s.get('TextType')==1)
+ source_numeric_rows=sum(bool(s.get('Value'))for c in doc['characters']if not is_announced(c)for s in native['ko'][c['id']]['Skills']if s.get('TextType')==1)
  audit.update(status='partial'if audit['errors']or audit['omittedNumericRows']else'ok',characters=len(doc['characters']),fullBodyCount=len(inventory),skillCharacters=sum(bool(c.get('skillTables'))for c in doc['characters']),skillTables=sum(len(c.get('skillTables',[]))for c in doc['characters']),numericRows=numeric_rows,sourceNumericRows=source_numeric_rows,numericRowReconciliation='Each source index retained exactly once per character; enforced before accepting facts.',sources=sources.receipts)
  if [c['id']for c in doc['characters']]!=[c['id']for c in original['characters']]:raise ValueError('Stable inventory changed')
  dump(out/'zzz.json',doc);dump(out/'artwork-inventory.json',sorted(inventory,key=lambda r:int(r['characterId'])));dump(out/'manifest.json',audit)
@@ -255,6 +264,8 @@ def main():
  parser=argparse.ArgumentParser();parser.add_argument('--input',type=pathlib.Path,required=True);parser.add_argument('--output-dir',type=pathlib.Path,required=True);parser.add_argument('--cache-dir',type=pathlib.Path);parser.add_argument('--replay-source-root',type=pathlib.Path);args=parser.parse_args()
  try:audit=run(args)
  except Exception as e:
-  args.output_dir.mkdir(parents=True,exist_ok=True);dump(args.output_dir/'zzz.json',json.loads(args.input.read_text()));dump(args.output_dir/'manifest.json',{'status':'failed','checkedAt':now(),'preservedInput':True,'error':str(e)});raise
+  fallback=json.loads(args.input.read_text());announced=[row['id']for row in fallback.get('characters',[])if is_announced(row)]
+  fallback['characters']=[announced_identity(row)if is_announced(row)else row for row in fallback.get('characters',[])]
+  args.output_dir.mkdir(parents=True,exist_ok=True);dump(args.output_dir/'zzz.json',fallback);dump(args.output_dir/'manifest.json',{'status':'failed','checkedAt':now(),'preservedInput':not announced,'preservedReleasedInput':True,'announcedIdentityOnlyIds':announced,'error':str(e)});raise
  if audit['errors']:raise SystemExit(1)
 if __name__=='__main__':main()
