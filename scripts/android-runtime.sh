@@ -15,3 +15,6 @@ if [ "$api" -ge 31 ]; then
 fi
 adb shell am instrument -w -e phase granted app.patchwork.radar.beta.test/app.patchwork.radar.ReminderInstrumentation | tee runtime-results/notification-delivery.txt
 grep -q '"ok":true' runtime-results/notification-delivery.txt
+
+adb exec-out run-as app.patchwork.radar.beta cat files/widget-light.png > runtime-results/widget-light.png
+adb exec-out run-as app.patchwork.radar.beta cat files/widget-dark.png > runtime-results/widget-dark.png
