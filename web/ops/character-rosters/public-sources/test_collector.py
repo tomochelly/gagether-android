@@ -161,6 +161,13 @@ class NativeRankTests(unittest.TestCase):
   for row in result['characters']:
    self.assertEqual((row['rarity'],row['rarityLabel']),(3,'SSR'));self.assertEqual(row['image']['url'],f'https://example.test/nikke-{row["id"]}.webp');self.assertEqual(row['traits'],[c.trait('rank','SSR')])
 class ReviewedAnnouncementTests(unittest.TestCase):
+ def setUp(self):
+  # Fixture-only allowlist: tests must run from a code-only public checkout.
+  self.directory=tempfile.TemporaryDirectory();self.addCleanup(self.directory.cleanup)
+  registry=Path(self.directory.name)/'checked-previews.json'
+  rule={'gameId':'zzz','nativeId':'1631','nativeNameKey':'Fixture_Announced_Avatar','name':'Severian','providerId':'fixture-provider-row','providerUnitId':'61','providerSlug':'severian','rarity':4,'rarityLabel':'S','specialty':'Attack','elements':['Wind'],'sourceUrl':'https://zenless.hoyoverse.com/en-us/news/166054','confirmationUrl':'https://zenless.hoyoverse.com/en-us/news/166963'}
+  c.atomic_json(registry,{'version':1,'characters':[rule]})
+  override=patch.object(c,'ANNOUNCEMENTS',registry);override.start();self.addCleanup(override.stop)
  def zzz(self,upcoming=True):
   rule=c.reviewed_announcements()[0]
   native={'Name':rule['nativeNameKey'],'Rarity':4,'ProfessionType':'Attack','ElementTypes':['Wind'],'stats':{'hp':999999},'Skills':[{'Name':'unpublished beta skill'}]}
@@ -204,7 +211,13 @@ class ReviewedAnnouncementTests(unittest.TestCase):
   native={'1':{'name':'Released','rarity':5,'path':'Elation','element':'Ice'},'2':{'name':'Aha','rarity':5,'path':'Elation','element':'Quantum'}}
   data={l:copy.deepcopy(native)for l in c.LOCALES};data.update(info={'version':'4.6'},release=[{'name':'Aha','upcoming':True,'isReleased':False}])
   self.assertEqual([r['id']for r in c.normalize('hsr',data)['characters']],['1'])
- def test_invalid_or_missing_review_registry_fails_instead_of_silently_authorizing_future(self):
+ def test_missing_preview_registry_keeps_released_agents_without_authorizing_future(self):
+  raw=self.zzz();before=copy.deepcopy(raw)
+  with patch.object(c,'ANNOUNCEMENTS',Path(self.directory.name)/'absent.json'),patch.object(c,'read_json',side_effect=AssertionError('Missing allowlist must not load substitute data')):
+   result=c.normalize('zzz',raw)
+  self.assertEqual(raw,before);self.assertEqual([r['id']for r in result['characters']],['1'])
+  self.assertNotIn('availability',result['characters'][0]);self.assertEqual(result['coverage']['sourceCount'],2)
+ def test_invalid_present_review_registry_fails_instead_of_silently_authorizing_future(self):
   raw=self.zzz()
   with patch.object(c,'read_json',return_value=None):
    with self.assertRaisesRegex(c.SourceError,'announcement registry'):c.normalize('zzz',raw)

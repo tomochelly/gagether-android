@@ -192,8 +192,12 @@ def require_fields(obj,fields,context):
 def assetpaths(d):return {x['path']for x in d['tree']}
 def native_names(d,key):return names(**{l:d[l].get(key,{}).get('name','')for l in LOCALES})
 def reviewed_announcements():
+    # The code mirror intentionally excludes private roster snapshots and may
+    # omit this optional preview allowlist. Its absence authorizes no previews;
+    # it must not stop the independently verified released roster.
+    if not ANNOUNCEMENTS.exists():return []
     registry=read_json(ANNOUNCEMENTS)
-    if not isinstance(registry,dict)or registry.get('version')!=1 or not isinstance(registry.get('characters'),list)or len(registry['characters'])>100:raise SourceError('Checked character announcement registry missing or invalid')
+    if not isinstance(registry,dict)or registry.get('version')!=1 or not isinstance(registry.get('characters'),list)or len(registry['characters'])>100:raise SourceError('Checked character announcement registry invalid')
     return registry['characters']
 def reviewed_zzz_announcement(rules,key,native,localized,provider):
     if not provider or not all(localized.values()):return None

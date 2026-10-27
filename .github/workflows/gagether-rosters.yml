@@ -34,6 +34,11 @@ jobs:
         run: npm install --prefix "$RUNNER_TEMP/roster-parser" --no-save --no-package-lock typescript@5.9.3
       - name: Install verified image reader
         run: python -m pip install --disable-pip-version-check -r web/ops/character-rosters/enrichment/arknights/requirements.txt
+      - name: Check roster collection regressions
+        run: |
+          python -m unittest discover -s web/ops/character-rosters/public-sources -p test_collector.py
+          python -m unittest discover -s web/ops/character-rosters -p test_run.py
+          python -m unittest discover -s web/ops/character-rosters/enrichment/zzz -p test_enrich.py
       - name: Collect isolated sources, validate and read back
         env:
           ROSTER_WORKDIR: ${{ runner.temp }}/gagether-rosters
