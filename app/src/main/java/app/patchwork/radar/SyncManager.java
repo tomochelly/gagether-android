@@ -25,5 +25,5 @@ public final class SyncManager {
    JSONObject feed=new JSONObject(new String(get(c,"/api/mobile/data?locale="+AppStore.locale(c),1500000),StandardCharsets.UTF_8));accept(c,feed);
   }catch(Exception e){AppStore.store(c).edit().putString("syncError","offline").apply();DeadlineWidget.updateAll(c);throw e;}
  }
- public static void accept(Context c,JSONObject feed)throws Exception{AppStore.saveFeed(c,feed);ReminderScheduler.schedule(c);DeadlineWidget.updateAll(c);WidgetArtwork.refresh(c,feed);DeadlineWidget.updateAll(c);}
+ public static void accept(Context c,JSONObject feed)throws Exception{AppStore.saveFeed(c,feed);ReminderScheduler.schedule(c);ReminderScheduler.notifyLiveBroadcasts(c);DeadlineWidget.updateAll(c);WidgetArtwork.refresh(c,feed);DeadlineWidget.updateAll(c);}
 }

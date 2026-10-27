@@ -25,7 +25,7 @@ public class DeadlineWidget extends AppWidgetProvider {
   v.setTextViewText(R.id.row_game,ReminderPolicy.gameName(feed,e.optString("gameId"),AppStore.locale(c)));
   v.setTextViewText(R.id.row_title,ReminderPolicy.text(e.optJSONObject("title"),AppStore.locale(c)));
   v.setTextViewText(R.id.row_time,(row.start?Words.start(c):Words.end(c))+" · "+clock(c,row.at));
-  v.setTextColor(R.id.row_time,!row.start&&row.at-System.currentTimeMillis()<=3L*86400000?0xFFFFC589:0xFFADC997);
+  v.setTextColor(R.id.row_time,!row.start&&row.at-System.currentTimeMillis()<=3L*86400000?(c.getResources().getConfiguration().uiMode&android.content.res.Configuration.UI_MODE_NIGHT_MASK)==android.content.res.Configuration.UI_MODE_NIGHT_YES?0xFFFFCC91:0xFFA35B19:c.getColor(R.color.widget_accent));
   Intent fill=new Intent().setData(Uri.parse("patchwork://open?entry="+Uri.encode(e.optString("id"))));v.setOnClickFillInIntent(R.id.row_root,fill);return v;
  }
  public static void update(Context c,AppWidgetManager manager,int id){
@@ -50,7 +50,7 @@ public class DeadlineWidget extends AppWidgetProvider {
   }else{
    v.setViewVisibility(R.id.widget_countdown,height<160?View.GONE:View.VISIBLE);v.setViewVisibility(R.id.widget_deadline,height<160?View.GONE:View.VISIBLE);
    v.setViewVisibility(R.id.widget_lead,entries.isEmpty()?View.GONE:View.VISIBLE);v.setViewVisibility(R.id.widget_empty,entries.isEmpty()?View.VISIBLE:View.GONE);
-   if(!entries.isEmpty()){WidgetPolicy.Row row=entries.get(0);JSONObject e=row.entry;v.setTextViewText(R.id.widget_game,ReminderPolicy.gameName(feed,e.optString("gameId"),AppStore.locale(c)));v.setTextViewText(R.id.widget_title,ReminderPolicy.text(e.optJSONObject("title"),AppStore.locale(c)));v.setTextViewText(R.id.widget_deadline,(row.start?Words.start(c):Words.end(c))+" · "+clock(c,row.at));v.setChronometerCountDown(R.id.widget_countdown,true);v.setChronometer(R.id.widget_countdown,SystemClock.elapsedRealtime()+row.at-now,"%s",AppStore.fresh(c));v.setOnClickPendingIntent(R.id.widget_lead,ReminderScheduler.open(c,e.optString("id")));Bitmap art=WidgetArtwork.cached(c,e);v.setViewVisibility(R.id.widget_image,height<160||art==null||WidgetPolicy.selectedGames(prefs)>3?View.GONE:View.VISIBLE);if(art!=null)v.setImageViewBitmap(R.id.widget_image,art);}
+   if(!entries.isEmpty()){WidgetPolicy.Row row=entries.get(0);JSONObject e=row.entry;v.setTextViewText(R.id.widget_game,ReminderPolicy.gameName(feed,e.optString("gameId"),AppStore.locale(c)));v.setTextViewText(R.id.widget_title,ReminderPolicy.text(e.optJSONObject("title"),AppStore.locale(c)));v.setTextViewText(R.id.widget_deadline,(row.start?Words.start(c):Words.end(c))+" · "+clock(c,row.at));v.setChronometerCountDown(R.id.widget_countdown,true);v.setChronometer(R.id.widget_countdown,SystemClock.elapsedRealtime()+row.at-now,"%s",AppStore.fresh(c));v.setOnClickPendingIntent(R.id.widget_lead,ReminderScheduler.open(c,e.optString("id")));Bitmap art=WidgetArtwork.cached(c,e);v.setViewVisibility(R.id.widget_image,height<160||art==null?View.GONE:View.VISIBLE);if(art!=null)v.setImageViewBitmap(R.id.widget_image,art);}
   }
   return v;
  }

@@ -47,6 +47,11 @@ public final class ReminderPolicy {
   long checked=epoch(b.optString("statusCheckedAt",b.optString("verifiedAt"))),age=now-checked;
   return b.optBoolean("official")&&b.optBoolean("metadataVerified")&&"scheduled".equals(b.optString("status"))&&epoch(b.optString("endedAt"))==0&&age>=-300000&&age<=24*3600000L&&b.optString("locale").equals(e.optString("expectedLocale"))&&Arrays.asList("ko","en","ja","zh").contains(e.optString("expectedLocale"));
  }
+ public static boolean liveBroadcastEligible(JSONObject e,long now){
+  if(!isBroadcast(e))return false;JSONObject b=e.optJSONObject("broadcast");if(b==null)return false;
+  long checked=epoch(b.optString("statusCheckedAt",b.optString("verifiedAt"))),start=epoch(b.optString("actualStartAt"));
+  return b.optBoolean("official")&&b.optBoolean("metadataVerified")&&"live".equals(b.optString("status"))&&epoch(b.optString("endedAt"))==0&&start>0&&start<=now&&now-start<=20*60000L&&checked<=now+300000&&now-checked<=10*60000L&&b.optString("locale").equals(e.optString("expectedLocale"));
+ }
  public static List<JSONObject> deadlines(JSONObject feed,JSONObject prefs,long now){
   List<JSONObject> list=new ArrayList<>();JSONArray entries=feed.optJSONArray("entries");if(entries==null)return list;
   for(int i=0;i<entries.length();i++){JSONObject e=entries.optJSONObject(i);if(e!=null&&matches(e,prefs,feed)&&epoch(e.optString("endAt"))>now&& (epoch(e.optString("startAt"))==0||epoch(e.optString("startAt"))<=now))list.add(e);}

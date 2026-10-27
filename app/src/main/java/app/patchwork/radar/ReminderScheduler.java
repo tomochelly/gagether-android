@@ -17,6 +17,21 @@ public final class ReminderScheduler {
  public static boolean exactAllowed(Context c){return Build.VERSION.SDK_INT<31||c.getSystemService(AlarmManager.class).canScheduleExactAlarms();}
  private static boolean arm(Context c,long at,PendingIntent p){AlarmManager am=c.getSystemService(AlarmManager.class);try{if(exactAllowed(c)){try{am.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP,at,p);return true;}catch(SecurityException revoked){/* The user may revoke exact access between the check and set. */}}am.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP,at,p);return true;}catch(RuntimeException unavailable){return false;}}
  public static boolean test(Context c){if(!allowed(c))return false;Intent i=new Intent(c,ReminderReceiver.class).setAction("app.patchwork.TEST_REMINDER").setData(Uri.parse("patchwork://reminder-test"));PendingIntent p=PendingIntent.getBroadcast(c,0,i,PendingIntent.FLAG_UPDATE_CURRENT|PendingIntent.FLAG_IMMUTABLE);boolean ok=arm(c,System.currentTimeMillis()+5000,p);if(ok)AppStore.store(c).edit().putLong("lastTestScheduledAt",System.currentTimeMillis()).apply();return ok;}
+ public static synchronized void notifyLiveBroadcasts(Context c){
+  JSONObject prefs=AppStore.prefs(c),feed=AppStore.feed(c);long now=System.currentTimeMillis();
+  if(!prefs.optBoolean("enabled")||!prefs.optBoolean("broadcastsEnabled")||!AppStore.fresh(c)||!allowed(c,BROADCAST_CHANNEL)||ReminderPolicy.quietAt(now,prefs,ZoneId.systemDefault()))return;
+  Set<String> sent=new HashSet<>(AppStore.store(c).getStringSet("liveSent",Collections.emptySet())),scheduled=AppStore.store(c).getStringSet("sent",Collections.emptySet());
+  for(JSONObject e:ReminderPolicy.records(feed)){
+   if(!ReminderPolicy.matches(e,prefs,feed)||!ReminderPolicy.liveBroadcastEligible(e,now))continue;
+   JSONObject b=e.optJSONObject("broadcast");String key=e.optString("gameId")+"/"+e.optString("region")+"/"+e.optString("expectedLocale")+"/"+b.optString("youtubeId",e.optString("id"));
+   if(sent.contains(key)||scheduled.contains(ReminderPolicy.groupKey(e,"broadcast",ReminderPolicy.eventAt(e,"broadcast"))+"|0"))continue;
+   String game=ReminderPolicy.gameName(feed,e.optString("gameId"),prefs.optString("locale","en")),title=Words.pick(c,"공식 방송 시작","Official broadcast is live","公式配信が開始","官方直播已开始");
+   if(show(c,game+" · "+title,ReminderPolicy.text(e.optJSONObject("title"),prefs.optString("locale","en")),e.optString("id"),BROADCAST_CHANNEL))sent.add(key);
+  }
+  // Retain recent video identities without growing an unbounded preference value.
+  if(sent.size()>250){Set<String> current=new HashSet<>();for(JSONObject e:ReminderPolicy.records(feed)){JSONObject b=e.optJSONObject("broadcast");if(b!=null)current.add(e.optString("gameId")+"/"+e.optString("region")+"/"+e.optString("expectedLocale")+"/"+b.optString("youtubeId",e.optString("id")));}sent.retainAll(current);}
+  AppStore.store(c).edit().putStringSet("liveSent",sent).apply();
+ }
  private static PendingIntent pending(Context c,String key){Intent i=new Intent(c,ReminderReceiver.class).setAction("app.patchwork.REMINDER").setData(Uri.parse("patchwork://reminder/"+Uri.encode(key))).putExtra("key",key);return PendingIntent.getBroadcast(c,0,i,PendingIntent.FLAG_UPDATE_CURRENT|PendingIntent.FLAG_IMMUTABLE);}
  public static synchronized void schedule(Context c){
   channel(c);AlarmManager am=c.getSystemService(AlarmManager.class);Set<String> old=new HashSet<>(AppStore.store(c).getStringSet("alarms",Collections.emptySet()));

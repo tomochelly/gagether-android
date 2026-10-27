@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "versionCode": 10,
+  "version": "1.0.4",
+  "versionCode": 11,
   "publish": true,
-  "reason": "Owner requested Limbus Company, Duet Night Abyss, hololive Dreams with native notifications/widgets and an app update"
+  "reason": "Owner requested widget redesign, game-fixed character wording, official live-start alerts and mobile navigation fixes"
 }

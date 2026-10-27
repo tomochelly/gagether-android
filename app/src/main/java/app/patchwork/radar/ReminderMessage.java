@@ -34,15 +34,10 @@ public final class ReminderMessage {
   for(JSONObject e:peers){String t=ReminderPolicy.text(e.optJSONObject("title"),l);if(!t.isEmpty()&&!titles.contains(t))titles.add(t);}
   String factual=String.join(" · ",titles);String clock=Instant.ofEpochMilli(at).atZone(zone).format(DateTimeFormatter.ofPattern("MM-dd HH:mm z",Locale.forLanguageTag(l)));
   factual+="\n"+pick(l,event.equals("start")?"시작 ":"종료 ",event.equals("start")?"Starts ":"Ends ",event.equals("start")?"開始 ":"終了 ",event.equals("start")?"开始 ":"结束 ")+clock;
-  if(prefs.optBoolean("characterTone",false)&&entry.optString("kind").equals("pickup")){
-   List<JSONObject> roster=roster(feed,prefs,entry,event,at);List<Integer> offsets=ReminderSettings.offsets(prefs,"pickup",event);
-   if(!roster.isEmpty()){
-    int index=Math.max(0,offsets.indexOf(offset))%roster.size();JSONObject ch=roster.get(index),voice=ch.optJSONObject("voice");
-    String name=ch.optJSONObject("name")==null?"":ch.optJSONObject("name").optString(l,"");
-    if(!name.isEmpty()&&voice!=null&&l.equals(voice.optString("locale"))&&!voice.optBoolean("original",true)&&ReminderPolicy.epoch(voice.optString("reviewedAt"))>0&&voice.optString("sourceUrl").startsWith("https://")&&!voice.optString("line").isEmpty()){
-     id=ch.optString("entryId",id);return new ReminderMessage(game+" · "+name+" · "+label,voice.optString("line")+"\n"+factual+"\n"+pick(l,"가게더 창작 문구","GAGETHER-written line","GAGETHERの創作文","GAGETHER创作文案"),id,true);
-    }
-   }
+  if(prefs.optBoolean("characterTone",false)){
+   List<String> names=new ArrayList<>();for(JSONObject ch:roster(feed,prefs,entry,event,at)){String name=ReminderPolicy.text(ch.optJSONObject("name"),l);if(!name.isEmpty())names.add(name);}
+   String subject=names.isEmpty()?String.join(" · ",titles):String.join(" / ",names)+pick(l," 픽업"," banner","ピックアップ","招募");
+   return new ReminderMessage(game+" · "+label,GameVoice.line(entry.optString("gameId"),l,subject,event,at,now)+"\n"+factual,id,true);
   }
   return new ReminderMessage(game+" · "+label,factual,id,false);
  }
