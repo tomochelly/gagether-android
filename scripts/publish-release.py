@@ -1,7 +1,7 @@
 """Publish only the tested owner-signed update; never generate or replace a signing key."""
 import hashlib,json,os,pathlib,re,subprocess,sys
 request=json.loads(pathlib.Path('.gagether/android-release.json').read_text());version=request['version'];code=request['versionCode']
-if not re.fullmatch(r'1\.0\.5',version) or code!=12 or request.get('publish') is not True:raise SystemExit('No matching approved release request')
+if not re.fullmatch(r'1\.0\.6',version) or code!=13 or request.get('publish') is not True:raise SystemExit('No matching approved release request')
 gradle=pathlib.Path('app/build.gradle').read_text()
 if "versionName '"+version+"'" not in gradle or 'versionCode '+str(code) not in gradle:raise SystemExit('Release request/source mismatch')
 def gh(*args):return subprocess.check_output(['gh',*args],text=True)
@@ -33,11 +33,11 @@ def find_release():
  return drafts[0] if drafts else None
 release=find_release()
 if release is None:
- payload={'tag_name':tag,'target_commitish':sha,'draft':True,'name':'GAGETHER '+version+' — Android','body':pathlib.Path('docs/RELEASE_NOTES_1.0.5.md').read_text()}
+ payload={'tag_name':tag,'target_commitish':sha,'draft':True,'name':'GAGETHER '+version+' — Android','body':pathlib.Path('docs/RELEASE_NOTES_1.0.6.md').read_text()}
  release=json.loads(subprocess.check_output(['gh','api','--method','POST','repos/'+repo+'/releases','--input','-'],input=json.dumps(payload),text=True))
 if not isinstance(release.get('id'),int):raise SystemExit('Release ID unavailable; stop without publishing')
 if release.get('draft'):
- release=json.loads(gh('api','--method','PATCH','repos/'+repo+'/releases/'+str(release['id']),'-f','tag_name='+tag,'-f','target_commitish='+sha,'-f','body='+pathlib.Path('docs/RELEASE_NOTES_1.0.5.md').read_text()))
+ release=json.loads(gh('api','--method','PATCH','repos/'+repo+'/releases/'+str(release['id']),'-f','tag_name='+tag,'-f','target_commitish='+sha,'-f','body='+pathlib.Path('docs/RELEASE_NOTES_1.0.6.md').read_text()))
 for file in out.iterdir():
  existing=next((a for a in release['assets'] if a['name']==file.name),None)
  if existing:
@@ -45,3 +45,4 @@ for file in out.iterdir():
  else:subprocess.run(['gh','api','--method','POST','-H','Content-Type: application/octet-stream','--input',str(file),'https://uploads.github.com/repos/'+repo+'/releases/'+str(release['id'])+'/assets?name='+file.name],check=True,stdout=subprocess.DEVNULL)
 subprocess.run(['gh','api','--method','PATCH','repos/'+repo+'/releases/'+str(release['id']),'-F','draft=false','-f','make_latest=true','-f','target_commitish='+sha],check=True,stdout=subprocess.DEVNULL)
 print(json.dumps({'published':True,'version':version,'sha256':digest,'certificateSha256':cert,'url':'https://github.com/'+repo+'/releases/tag/'+tag}))
+

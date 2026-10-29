@@ -17,8 +17,8 @@ android {
   applicationId 'app.patchwork.radar'
   minSdk 26
   targetSdk 36
-  versionCode 12
-  versionName '1.0.5'
+  versionCode 13
+  versionName '1.0.6'
   testInstrumentationRunner 'app.patchwork.radar.ReminderInstrumentation'
   buildConfigField 'String', 'SITE_ORIGIN', '"https://gagether.wiki"'
  }

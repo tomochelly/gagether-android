@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "webRevision": "development",
+  "widgetEntries": [
+    {
+      "id": "trickcal-kr-pickup-kope-20261022",
+      "gameId": "trickcal",
+      "region": "kr",
+      "kind": "pickup",
+      "title": {
+        "ko": "코페",
+        "en": "Kope",
+        "ja": "コペ",
+        "zh": "珂佩"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-05",
+      "dateOnly": true,
+      "sourceKind": "official",
+      "verifiedAt": "2026-10-23T12:02:50.411Z"
+    },
+    {
+      "id": "hi3-kr-herrscher-of-time-20261022",
+      "gameId": "hi3",
+      "region": "kr",
+      "kind": "pickup",
+      "title": {
+        "ko": "드림시커 · 시간의 율자",
+        "en": "Dreamseeker · Herrscher of Time",
+        "ja": "夢追い人 · 刻の律者",
+        "zh": "寻梦者 · 时序之律者"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-22",
+      "endDate": "2026-12-04",
+      "dateOnly": true,
+      "sourceKind": "official",
+      "verifiedAt": "2026-10-23T02:58:05.948428Z"
+    },
+    {
+      "id": "reverse1999-global-38-cornerstone",
+      "gameId": "reverse1999",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "미래의 초석",
+        "en": "The Future’s Foundation",
+        "ja": "明日の礎",
+        "zh": "未来的基石"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-05",
+      "dateOnly": true,
+      "sourceKind": "official",
+      "verifiedAt": "2026-10-20T20:10:58+00:00"
+    }
+  ],
+  "games": [
+    {
+      "id": "wuwa",
+      "name": {
+        "ko": "명조: 워더링 웨이브",
+        "en": "Wuthering Waves",
+        "ja": "鳴潮",
+        "zh": "鸣潮"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "bluearchive",
+      "name": {
+        "ko": "블루 아카이브",
+        "en": "Blue Archive",
+        "ja": "ブルーアーカイブ",
+        "zh": "蔚蓝档案"
+      },
+      "regions": [
+        "global",
+        "kr",
+        "jp"
+      ],
+      "canonicalRegions": {
+        "kr": "kr",
+        "jp": "jp",
+        "global": "kr"
+      }
+    },
+    {
+      "id": "nikke",
+      "name": {
+        "ko": "승리의 여신: 니케",
+        "en": "GODDESS OF VICTORY: NIKKE",
+        "ja": "勝利の女神：NIKKE",
+        "zh": "胜利女神：妮姬"
+      },
+      "regions": [
+        "global",
+        "kr",
+        "jp"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "endfield",
+      "name": {
+        "ko": "명일방주: 엔드필드",
+        "en": "Arknights: Endfield",
+        "ja": "アークナイツ：エンドフィールド",
+        "zh": "明日方舟：终末地"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "umamusume",
+      "name": {
+        "ko": "우마무스메 프리티 더비",
+        "en": "Umamusume: Pretty Derby",
+        "ja": "ウマ娘 プリティーダービー",
+        "zh": "赛马娘 Pretty Derby"
+      },
+      "regions": [
+        "global",
+        "kr",
+        "jp"
+      ],
+      "canonicalRegions": {
+        "kr": "kr",
+        "jp": "jp",
+        "global": "global"
+      }
+    },
+    {
+      "id": "nte",
+      "name": {
+        "ko": "이환",
+        "en": "Neverness to Everness",
+        "ja": "異環",
+        "zh": "异环"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "gfl2",
+      "name": {
+        "ko": "소녀전선2: 망명",
+        "en": "GIRLS’ FRONTLINE 2: EXILIUM",
+        "ja": "ドールズフロントライン2：エクシリウム",
+        "zh": "少女前线2：追放"
+      },
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global",
+        "cn": "cn"
+      }
+    },
+    {
+      "id": "arknights",
+      "name": {
+        "ko": "명일방주",
+        "en": "Arknights",
+        "ja": "アークナイツ",
+        "zh": "明日方舟"
+      },
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "canonicalRegions": {
+        "kr": "kr",
+        "jp": "jp",
+        "global": "global",
+        "cn": "cn"
+      }
+    },
+    {
+      "id": "genshin",
+      "name": {
+        "ko": "원신",
+        "en": "Genshin Impact",
+        "ja": "原神",
+        "zh": "原神"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "hsr",
+      "name": {
+        "ko": "붕괴: 스타레일",
+        "en": "Honkai: Star Rail",
+        "ja": "崩壊：スターレイル",
+        "zh": "崩坏：星穹铁道"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "zzz",
+      "name": {
+        "ko": "젠레스 존 제로",
+        "en": "Zenless Zone Zero",
+        "ja": "ゼンレスゾーンゼロ",
+        "zh": "绝区零"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "trickcal",
+      "name": {
+        "ko": "트릭컬 리바이브",
+        "en": "Trickcal:Chibi Go",
+        "ja": "トリッカル・もちもちほっぺ大作戦",
+        "zh": "嘟嘟臉惡作劇"
+      },
+      "regions": [
+        "kr",
+        "jp",
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "kr",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "hi3",
+      "name": {
+        "ko": "붕괴3rd",
+        "en": "Honkai Impact 3rd",
+        "ja": "崩壊3rd",
+        "zh": "崩坏3"
+      },
+      "regions": [
+        "kr",
+        "jp",
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "kr",
+        "jp": "kr",
+        "global": "global"
+      }
+    },
+    {
+      "id": "stellasora",
+      "name": {
+        "ko": "스텔라 소라",
+        "en": "Stella Sora",
+        "ja": "ステラソラ",
+        "zh": "星塔旅人"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "reverse1999",
+      "name": {
+        "ko": "리버스: 1999",
+        "en": "Reverse: 1999",
+        "ja": "リバース：1999",
+        "zh": "重返未来：1999"
+      },
+      "regions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global",
+        "cn": "cn"
+      }
+    },
+    {
+      "id": "limbus",
+      "name": {
+        "ko": "림버스 컴퍼니",
+        "en": "Limbus Company",
+        "ja": "リンバスカンパニー",
+        "zh": "边狱公司"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "dna",
+      "name": {
+        "ko": "듀엣 나이트 어비스",
+        "en": "Duet Night Abyss",
+        "ja": "デュエットナイトアビス",
+        "zh": "二重螺旋"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    },
+    {
+      "id": "holodreams",
+      "name": {
+        "ko": "hololive Dreams",
+        "en": "hololive Dreams",
+        "ja": "ホロライブ ドリームス",
+        "zh": "hololive Dreams"
+      },
+      "regions": [
+        "global"
+      ],
+      "canonicalRegions": {
+        "kr": "global",
+        "jp": "global",
+        "global": "global"
+      }
+    }
+  ],
+  "broadcasts": [],
+  "entries": [
+    {
+      "id": "limbus-global-character-20261029-heathcliff-honglu",
+      "gameId": "limbus",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프 / 오트쿠튀르::르누아르 3F 방송실 홍루",
+        "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff / Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+        "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ / オートクチュール::ル・ノワール 3F放送室 ホンル",
+        "zh": "高级定制::Le Rouge 针线之王 希斯克利夫 / 高级定制::Le Noir 3F 广播室 鸿璐"
+      },
+      "startAt": "2026-10-29T12:00:00+09:00",
+      "endAt": "2026-11-12T10:00:00+09:00",
+      "verifiedAt": "2026-10-29T09:06:14.744Z",
+      "notificationGroup": "limbus-global-character-20261029-heathcliff-honglu",
+      "notificationCharacters": [
+        {
+          "id": "limbus:Haute Couture::Le Rouge King of Needleworks Heathcliff",
+          "entryId": "limbus-global-character-20261029-heathcliff-honglu",
+          "name": {
+            "ko": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+            "en": "Haute Couture::Le Rouge King of Needleworks Heathcliff",
+            "ja": "オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ",
+            "zh": "高级定制::Le Rouge 针线之王 希斯克利夫"
+          }
+        },
+        {
+          "id": "limbus:Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+          "entryId": "limbus-global-character-20261029-heathcliff-honglu",
+          "name": {
+            "ko": "오트쿠튀르::르누아르 3F 방송실 홍루",
+            "en": "Haute Couture::Le Noir 3F. Public Address Room Hong Lu",
+            "ja": "オートクチュール::ル・ノワール 3F放送室 ホンル",
+            "zh": "高级定制::Le Noir 3F 广播室 鸿璐"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dna-global-event-immersive-theatre-20261020",
+      "gameId": "dna",
+      "region": "global",
+      "kind": "event",
+      "title": {
+        "ko": "몰입형 연극",
+        "en": "Immersive Theatre · Rhythm: Flamewrought",
+        "ja": "体験型劇場 · リズム・焔を纏う者",
+        "zh": "沉浸式戲劇 · 黎瑟·浴火"
+      },
+      "startAt": null,
+      "endAt": "2026-11-10T11:00:00+09:00",
+      "verifiedAt": "2026-10-29T09:19:28.663Z",
+      "notificationCharacters": []
+    },
+    {
+      "id": "holodreams-pickup-65016-405030d6",
+      "gameId": "holodreams",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "변환자재☆Cosplay Night",
+        "en": "Cosplay Night Gacha",
+        "ja": "変幻自在☆Cosplay Nightガチャ",
+        "zh": "千变万化☆Cosplay Night招募"
+      },
+      "startAt": "2026-10-29T11:00:00+09:00",
+      "endAt": "2026-11-06T10:59:00+09:00",
+      "verifiedAt": "2026-10-29T08:31:17.624Z",
+      "notificationGroup": "holodreams-65016-405030d6",
+      "notificationCharacters": [
+        {
+          "id": "holodreams:[Wolf's Sugary Trick] Natsuiro Matsuri",
+          "entryId": "holodreams-pickup-65016-405030d6",
+          "name": {
+            "ko": "[장난꾸러기 늑대의 달콤한 Trick] 나츠이로 마츠리",
+            "en": "[Wolf's Sugary Trick] Natsuiro Matsuri",
+            "ja": "［おてんば狼のあま～いTrick］夏色まつり",
+            "zh": "[淘气小狼的甜蜜Trick] 夏色祭"
+          }
+        },
+        {
+          "id": "holodreams:[Heartbeat Clinic] Vestia Zeta",
+          "entryId": "holodreams-pickup-65016-405030d6",
+          "name": {
+            "ko": "[변덕쟁이 소녀의 두근두근 진료실] 베스티아 제타",
+            "en": "[Heartbeat Clinic] Vestia Zeta",
+            "ja": "［気まぐれガールのドキドキ診療室］ベスティア・ゼータ",
+            "zh": "[随性少女的心跳诊疗室] Vestia Zeta"
+          }
+        },
+        {
+          "id": "holodreams:[Bewitching Elixir] Nerissa Ravencroft",
+          "entryId": "holodreams-pickup-65016-405030d6",
+          "name": {
+            "ko": "[매혹의 Magic Potion] 네리사 레이븐크로프트",
+            "en": "[Bewitching Elixir] Nerissa Ravencroft",
+            "ja": "［魅惑のMagic Potion］ネリッサ・レイヴンクロフト",
+            "zh": "[魅惑的Magic Potion] Nerissa Ravencroft"
+          }
+        },
+        {
+          "id": "holodreams:[Noble Elegance] Juufuutei Raden",
+          "entryId": "holodreams-pickup-65016-405030d6",
+          "name": {
+            "ko": "[고귀한 뱀파이어의 취미] 쥬후테이 라덴",
+            "en": "[Noble Elegance] Juufuutei Raden",
+            "ja": "［高貴なるヴァンパイアの嗜み］儒烏風亭らでん",
+            "zh": "[高贵吸血鬼的雅趣] 儒乌风亭螺钿"
+          }
+        },
+        {
+          "id": "holodreams:[Jiangshi Midnight Waltz] Todoroki Hajime",
+          "entryId": "holodreams-pickup-65016-405030d6",
+          "name": {
+            "ko": "[오늘 밤 개막! 요괴 댄싱] 토도로키 하지메",
+            "en": "[Jiangshi Midnight Waltz] Todoroki Hajime",
+            "ja": "［今宵開幕！あやかしダンシング］轟はじめ",
+            "zh": "[今夜开幕！妖怪舞会] 轰一"
+          }
+        }
+      ]
+    }
+  ]
+}

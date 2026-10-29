@@ -1,6 +1,6 @@
 {
-  "version": "1.0.5",
-  "versionCode": 12,
+  "version": "1.0.6",
+  "versionCode": 13,
   "publish": true,
-  "reason": "Owner-approved opt-in game and language targeted FCM announcements; preserve the existing signing certificate"
+  "reason": "Owner-approved widget date display update; preserve My games, reminders, Firebase settings and the existing signing certificate"
 }
