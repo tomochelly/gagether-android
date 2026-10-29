@@ -1,4 +1,4 @@
-plugins { id 'com.android.application' }
+plugins { id 'com.android.application'; id 'com.google.gms.google-services' }
 
 // Owner-managed release credentials only. Never sign a release with the debug key.
 def releaseVariables = ['GAGETHER_KEYSTORE_FILE', 'GAGETHER_KEYSTORE_PASSWORD', 'GAGETHER_KEY_ALIAS', 'GAGETHER_KEY_PASSWORD']
@@ -17,8 +17,8 @@ android {
   applicationId 'app.patchwork.radar'
   minSdk 26
   targetSdk 36
-  versionCode 11
-  versionName '1.0.4'
+  versionCode 12
+  versionName '1.0.5'
   testInstrumentationRunner 'app.patchwork.radar.ReminderInstrumentation'
   buildConfigField 'String', 'SITE_ORIGIN', '"https://gagether.wiki"'
  }
@@ -45,8 +45,12 @@ android {
  compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
  testOptions { unitTests.returnDefaultValues = true }
 }
+// The isolated .beta test app has no Firebase registration and must not join production topics.
+tasks.matching { it.name == 'processDebugGoogleServices' }.configureEach { enabled = false }
+
 dependencies {
  implementation 'androidx.webkit:webkit:1.14.0'
+ implementation 'com.google.firebase:firebase-messaging:26.0.1'
  testImplementation 'junit:junit:4.13.2'
  testImplementation 'org.json:json:20240303'
 }

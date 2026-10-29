@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "versionCode": 11,
+  "version": "1.0.5",
+  "versionCode": 12,
   "publish": true,
-  "reason": "Owner requested widget redesign, game-fixed character wording, official live-start alerts and mobile navigation fixes"
+  "reason": "Owner-approved opt-in game and language targeted FCM announcements; preserve the existing signing certificate"
 }

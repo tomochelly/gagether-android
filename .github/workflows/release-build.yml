@@ -55,6 +55,14 @@ jobs:
           test -n "$GAGETHER_KEY_PASSWORD"
           umask 077
           printf '%s' "$GAGETHER_KEYSTORE_BASE64" | base64 --decode > "$GAGETHER_KEYSTORE_FILE"
+      - name: Load registered Android Firebase client configuration
+        env:
+          GAGETHER_GOOGLE_SERVICES_JSON: ${{ secrets.GAGETHER_GOOGLE_SERVICES_JSON }}
+        run: |
+          set -eu
+          test -n "$GAGETHER_GOOGLE_SERVICES_JSON" || { echo 'Configure the Android client settings in android-release first.'; exit 1; }
+          umask 077
+          printf '%s' "$GAGETHER_GOOGLE_SERVICES_JSON" > app/google-services.json
       - name: Test and build release APK and AAB
         run: bash ./gradlew --no-daemon -PrequireReleaseSigning=true :app:testReleaseUnitTest :app:assembleRelease :app:bundleRelease
       - name: Verify APK signature
@@ -68,7 +76,7 @@ jobs:
         run: python3 scripts/publish-release.py
       - name: Remove temporary key
         if: always()
-        run: rm -f -- "$GAGETHER_KEYSTORE_FILE"
+        run: rm -f -- "$GAGETHER_KEYSTORE_FILE" app/google-services.json
       - uses: actions/upload-artifact@v7
         if: always()
         with:
