@@ -70,3 +70,9 @@ next-env.d.ts
 
 __pycache__/
 *.pyc
+
+# Exact generated snapshot; durable hash-checked source is recovery/*.b64.
+/content/character-rosters/bootstrap.json
+
+# Lossless WuWa catalog build source (not generated output).
+!/build/wuwa-data.ts
