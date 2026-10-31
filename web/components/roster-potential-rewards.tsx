@@ -1,6 +1,7 @@
 'use client';
+import {PageReference} from './page-references';
 import {useState} from 'react';
-import {ArrowUpRight} from 'lucide-react';
+import RosterSourceLink from './roster-source-link';
 import {rosterCopy,rosterArt,type RosterCharacter} from '@/lib/character-roster';
 import type {Locale} from '@/lib/types';
 import ImageLightbox from './image-lightbox';
@@ -14,10 +15,10 @@ const words={
 };
 function nativeSize(e:React.SyntheticEvent<HTMLImageElement>){const img=e.currentTarget,dpr=Math.max(1,window.devicePixelRatio||1);img.style.maxWidth=img.naturalWidth/dpr+'px';img.style.maxHeight=img.naturalHeight/dpr+'px';}
 function RewardPicture({reward,character,locale}:{reward:Reward;character:RosterCharacter;locale:Locale}){
- const t=words[locale],[failed,setFailed]=useState(false),art=reward.image?rosterArt({...character,image:reward.image,images:[]},locale):undefined,title=rosterCopy(reward.title,locale),caption=[title,reward.credit&&t.artist+' · '+reward.credit,art?.caption&&(typeof art.caption==='string'?art.caption:rosterCopy(art.caption,locale))].filter(Boolean).join(' · ');
+ const t=words[locale],[failed,setFailed]=useState(false),[sourcesOpen,setSourcesOpen]=useState(false),art=reward.image?rosterArt({...character,image:reward.image,images:[]},locale):undefined,title=rosterCopy(reward.title,locale),caption=[title,reward.credit&&t.artist+' · '+reward.credit,art?.caption&&(typeof art.caption==='string'?art.caption:rosterCopy(art.caption,locale))].filter(Boolean).join(' · ');
  return <figure className="roster-unlock-item">
   {art&&!failed&&<ImageLightbox src={art.url} alt={title} locale={locale} triggerLabel={title+' · '+t.view} caption={caption}><img src={art.url} alt={title} width={art.width} height={art.height} loading="lazy" decoding="async" referrerPolicy="no-referrer" onLoad={nativeSize} onError={()=>setFailed(true)}/></ImageLightbox>}
-  <figcaption><strong>{title}</strong><small>{t[reward.type]}{!reward.title[locale]?' · '+t.original:''}{reward.credit?' · '+t.artist+' '+reward.credit:''}</small>{art?.caption&&<small>{typeof art.caption==='string'?art.caption:rosterCopy(art.caption,locale)}</small>}{reward.note&&<p>{rosterCopy(reward.note,locale)}</p>}<a className="reference-source-link" href={art?.sourceUrl||reward.sourceUrl} target="_blank" rel="noreferrer">{t.source}<ArrowUpRight size={13}/></a></figcaption>
+  <figcaption><strong>{title}</strong><small>{t[reward.type]}{!reward.title[locale]?' · '+t.original:''}{reward.credit?' · '+t.artist+' '+reward.credit:''}</small>{art?.caption&&<small>{typeof art.caption==='string'?art.caption:rosterCopy(art.caption,locale)}</small>}{reward.note&&<p>{rosterCopy(reward.note,locale)}</p>}<PageReference locale={locale}><details className="roster-unlock-sources" onToggle={e=>{if(e.target===e.currentTarget)setSourcesOpen(e.currentTarget.open)}}><summary>{t.source}</summary>{sourcesOpen&&<><RosterSourceLink href={art?.sourceUrl||reward.sourceUrl} locale={locale}>{t.source}</RosterSourceLink>{art&&art.sourceUrl!==reward.sourceUrl&&<RosterSourceLink href={reward.sourceUrl} locale={locale}>{t.source}</RosterSourceLink>}</>}</details></PageReference></figcaption>
  </figure>;
 }
 function PotentialLevel({level,rewards,character,locale}:{level:number;rewards:Reward[];character:RosterCharacter;locale:Locale}){

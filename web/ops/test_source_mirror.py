@@ -12,7 +12,7 @@ class SourceMirrorTest(unittest.TestCase):
  def save(self):
   (self.root/'public/source-manifest.json').write_text(json.dumps(self.manifest));(self.root/'ops/source-mirror.json').write_text(json.dumps(self.receipt))
  def test_exact_code_with_explicit_canonical_data_scope(self):
-  result=checker.verify(self.root,self.manifest);self.assertEqual(result['codeFilesVerified'],1);self.assertEqual(len(result['canonicalOnlyDataFiles']),3)
+  result=checker.verify(self.root,self.manifest);self.assertEqual(result['codeFilesVerified'],1);self.assertEqual(len(result['canonicalOnlyDataFiles']),len(checker.CANONICAL_ONLY))
  def test_changed_or_missing_code_fails(self):
   (self.root/'lib/code.ts').write_text('changed')
   with self.assertRaisesRegex(RuntimeError,'code.*differ'):checker.verify(self.root,self.manifest)

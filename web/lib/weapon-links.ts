@@ -15,6 +15,8 @@ const reviewed:Record<string,{entryId:string;memberName?:string}[]>={
  'nte-lacrimosa':[{entryId:'nte-last-rose'}],
  'zzz-32-roxy':[{entryId:'zzz-32-crimson-moon'}],
  'zzz-32-promeia':[{entryId:'zzz-32-frostfall'}],
+ 'hist-zzz-global-20261021-character-ad1c2854ac2c':[{entryId:'hist-zzz-global-20261021-weapon-c89e05eab109',memberName:'Plume of Rebirth'},{entryId:'hist-zzz-global-20261021-weapon-c89e05eab109',memberName:'Joyau Dore'}],
+ 'hist-zzz-global-20261111-character-2fcfcbfd8a8e':[{entryId:'hist-zzz-global-20261111-weapon-52021a8d3046',memberName:'Incarcerating Grip'},{entryId:'hist-zzz-global-20261111-weapon-52021a8d3046',memberName:'Chief Sidekick'}],
  'hsr-46-pearl':[{entryId:'hsr-46-colors-for-tomorrow'}],
  'hsr-46-evanescia':[{entryId:'hsr-46-flowers-bloom-again'}],
  'hist-wuwa-global-undated-character-839ce2d58c16':[{entryId:'wuwa-3-7-phase-2-unspoken-rue'}],
@@ -43,7 +45,7 @@ export function signatureWeapons(character:Entry,entries:Entry[]):WeaponLink[]{
  const refs=reviewedSignatureRefs(character);
  const result:WeaponLink[]=[];
  for(const ref of refs){
-  const weapon=entries.find(e=>e.id===ref.entryId&&e.gameId===character.gameId&&e.region===character.region&&e.kind==='weapon'&&!e.pickupArchive&&!e.hidden);
+  const weapon=entries.find(e=>e.id===ref.entryId&&e.gameId===character.gameId&&e.region===character.region&&e.kind==='weapon'&&e.pickupArchive?.status!=='past'&&e.pickupArchive?.status!=='forecast'&&!e.hidden);
   if(!weapon)continue;
   const members=featuredMembers(weapon)||[];
   if(weapon.pickupMembers?.length&&!members.length)continue;

@@ -1,0 +1,24 @@
+import {env} from 'cloudflare:workers';
+import {hashToken} from './google-login';
+import raw from '../content/gfl2-combat-catalog.json' with {type:'json'};
+import type {Gfl2Catalog,Gfl2Setup,Gfl2Record} from './gfl2-records';
+export class Gfl2Error extends Error{constructor(message:string,readonly status=400){super(message);}}
+export const gfl2Catalog=()=>raw as unknown as Gfl2Catalog;
+export const gfl2Scope=(id:string)=>hashToken('gfl2-combat:'+id);
+export async function gfl2Rate(account:string){const window=Math.floor(Date.now()/60000),r=await env.DB!.prepare('INSERT INTO gfl2_record_limits(account_id,window,count) VALUES(?,?,1) ON CONFLICT(account_id) DO UPDATE SET window=excluded.window,count=CASE WHEN gfl2_record_limits.window=excluded.window THEN gfl2_record_limits.count+1 ELSE 1 END WHERE gfl2_record_limits.window<>excluded.window OR gfl2_record_limits.count<30').bind(account,window).run();if(!r.meta.changes)throw new Gfl2Error('Please wait',429);}
+export async function gfl2Setups(account:string){const r=await env.DB!.prepare('SELECT payload,revision FROM gfl2_setups WHERE account_id=? ORDER BY updated_at DESC,id LIMIT 100').bind(account).all<{payload:string;revision:number}>();return r.results.map(r=>({...JSON.parse(r.payload),revision:r.revision})) as Gfl2Setup[];}
+export function gfl2RecordView(row:any,mine=false):Gfl2Record{return{...JSON.parse(row.payload),id:row.id,revision:row.revision,author:row.author,verified:!!row.verified,createdAt:row.created_at,...mine?{state:row.state}:{}};}
+export type Gfl2Filter={modeId:string;cycleId:string;stageId:string;characterId:string;maxChain:number;verified:boolean;playStyle:string};
+function filters(f:Gfl2Filter){const args:unknown[]=[f.modeId,f.cycleId],where=['mode=?','cycle_id=?',"state='public'"];if(f.stageId){where.push('stage_id=?');args.push(f.stageId);}return{args,where};}
+function after(f:Gfl2Filter){const args:unknown[]=[f.maxChain],where=['max_chain<=?'];if(f.verified)where.push('verified=1');if(f.playStyle){where.push("json_extract(payload,'$.playStyle')=?");args.push(f.playStyle);}if(f.characterId){where.push("EXISTS(SELECT 1 FROM json_each(payload,'$.party') m WHERE json_extract(m.value,'$.characterId')=?)");args.push(f.characterId);}return{args,where};}
+export async function gfl2Statistics(f:Gfl2Filter){const a=filters(f),b=after(f),sql='WITH ranked AS (SELECT *,ROW_NUMBER() OVER(PARTITION BY account_id,mode,cycle_id,stage_id ORDER BY created_at DESC,id DESC) rn FROM gfl2_records WHERE '+a.where.join(' AND ')+'),cohort AS (SELECT * FROM ranked WHERE rn=1 AND '+b.where.join(' AND ')+') ',q=(tail:string)=>env.DB!.prepare(sql+tail).bind(...a.args,...b.args);
+ const results=await Promise.all([
+ q('SELECT COUNT(*) sampleSize,COUNT(DISTINCT account_id) users FROM cohort').first<any>(),
+ q('SELECT party_key key,COUNT(*) uses FROM cohort GROUP BY party_key ORDER BY uses DESC,party_key LIMIT 30').all<any>(),
+ q("SELECT json_extract(m.value,'$.characterId') characterId,COUNT(DISTINCT c.id) uses,COUNT(DISTINCT CASE WHEN json_extract(m.value,'$.borrowed')=1 THEN c.id END) borrowedUses FROM cohort c,json_each(c.payload,'$.party') m GROUP BY characterId ORDER BY uses DESC,characterId").all<any>(),
+ q("SELECT json_extract(m.value,'$.weaponId') weaponId,COUNT(*) uses FROM cohort c,json_each(c.payload,'$.party') m GROUP BY weaponId ORDER BY uses DESC,weaponId LIMIT 30").all<any>(),
+ q("SELECT AVG(score) value FROM (SELECT score,ROW_NUMBER() OVER(ORDER BY score) n,COUNT(*) OVER() total FROM cohort WHERE score IS NOT NULL) WHERE n IN ((total+1)/2,(total+2)/2)").first<any>(),
+ q("SELECT AVG(json_extract(payload,'$.turns')) value FROM (SELECT payload,ROW_NUMBER() OVER(ORDER BY json_extract(payload,'$.turns')) n,COUNT(*) OVER() total FROM cohort WHERE json_extract(payload,'$.turns') IS NOT NULL) WHERE n IN ((total+1)/2,(total+2)/2)").first<any>()]);
+ const [tot,teams,characters,weapons,score,turns]=results as any[],n=tot.sampleSize;return{sampleSize:n,users:tot.users,teams:teams.results.map((t:any)=>({members:t.key.split('|'),uses:t.uses,rate:n?t.uses/n*100:0})),characters:characters.results.map((a:any)=>({...a,rate:n?a.uses/n*100:0})),weapons:weapons.results,medianScore:score.value??null,medianTurns:turns.value??null};
+}
+export async function gfl2Records(f:Gfl2Filter,cursor?:{at:number;id:string}){const a=filters(f),b=after(f),args=[...a.args,...b.args],where=[...a.where,...b.where];if(cursor){where.push('(created_at<? OR (created_at=? AND id<?))');args.push(cursor.at,cursor.at,cursor.id);}const r=await env.DB!.prepare('SELECT * FROM gfl2_records WHERE '+where.join(' AND ')+' ORDER BY created_at DESC,id DESC LIMIT 21').bind(...args).all<any>(),rows=r.results.slice(0,20),last=rows.at(-1);return{records:rows.map(r=>gfl2RecordView(r)),next:r.results.length>20?{at:last.created_at,id:last.id}:null};}

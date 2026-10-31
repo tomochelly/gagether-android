@@ -47,10 +47,10 @@ test('new sourced links validate and survive automatic collector omission',()=>{
  assert.deepEqual(retainEntityDetails({...character,signatureWeapons:[]},e).signatureWeapons,[]);
  assert.equal(safeExtras({...e,signatureWeapons:[{...refs[0],sourceUrl:'http://example.org'}]}),false);
 });
-test('weapon sections initially have no artwork DOM; character/support remain visible',()=>{
+test('standalone weapon sections are absent while linked weapons and character/support remain visible',()=>{
  for(const locale of ['ko','en','ja','zh']){
   const html=section(weapon,locale);
-  assert.match(html,/aria-expanded="false"/);assert.ok(html.includes(weaponUi[locale].show));assert.ok(!html.includes('entry-image-button'));
+  assert.equal(html,'');
   const card=section(character,locale);assert.ok(card.includes('signature-weapon'));assert.ok(card.includes('entry-image-button'));
   const tags=card.match(/<\/?button\b[^>]*>/g)||[];let depth=0;for(const tag of tags){if(tag.startsWith('</'))depth--;else{depth++;assert.equal(depth,1);}}assert.equal(depth,0);
  }

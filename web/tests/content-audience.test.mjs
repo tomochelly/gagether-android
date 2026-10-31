@@ -3,12 +3,40 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 const {games}=await import('../lib/games.ts');
 const {contentInAudience,audienceRestrictions}=await import('../lib/content-audience.ts');
+const {noticeEntry}=await import('../lib/fast-notices.ts');
 const {artworkForLocale,detailArtworkForLocale}=await import('../lib/artwork.ts');
 const {gameBroadcasts,broadcastState}=await import('../lib/broadcast-visibility.ts');
 const {favoriteNoticeGroups}=await import('../lib/favorite-updates.ts');
 const game=id=>games.find(g=>g.id===id);
 const titles={ko:'지역 행사',en:'Local event',ja:'地域イベント',zh:'地区活动'};
 const base={id:'local',gameId:'hsr',kind:'event',region:'global',title:titles,summary:titles,sourceUrl:'https://official.example/event',sourceTitle:'Local event',verifiedAt:'2026-10-21T03:00:00Z',publishedAt:'2026-10-21T00:00:00Z',startAt:null,endAt:null};
+
+test('four native recap editions do not duplicate each other in translated update lists',()=>{
+ const rows=['ko','en','ja','zh'].map(sourceLocale=>({...base,id:'recap-hsr-'+sourceLocale,kind:'update',sourceLocale,translatedLocales:['ko','en','ja','zh'],broadcastRecap:{youtubeId:'psifFhA2QAA'}}));
+ const original=JSON.stringify(rows);
+ for(const locale of ['ko','en','ja','zh'])assert.deepEqual(rows.filter(e=>contentInAudience(e,game('hsr'),'global',locale)).map(e=>e.sourceLocale),[locale]);
+ assert.equal(JSON.stringify(rows),original);
+});
+test('new physical-campaign followups inherit the reviewed market while Korean gameplay and global in-game collaborations remain available',()=>{
+ const n={gameId:'wuwa',region:'global',locale:'ko',id:'8367516',title:'[명조 X 롯데시네마 콜라보] 2주차 사전 예약',url:'https://game.naver.com/lounge/WutheringWaves/board/detail/8367516',publishedAt:'2026-10-26'};
+ const entry=noticeEntry(n,'2026-10-27T00:00:00Z');assert.equal(entry.marketRegion,'kr');
+ const {marketRegion,...legacy}=entry;
+ assert.equal(contentInAudience(legacy,game('wuwa'),'global','en'),false);
+ assert.equal(contentInAudience(legacy,game('wuwa'),'global','ko'),true);
+ assert.equal(contentInAudience(legacy,game('wuwa'),'global','ja'),false);
+ assert.equal(contentInAudience({...legacy,collaboration:{scope:'ingame'}},game('wuwa'),'global','en'),true);
+ assert.equal(contentInAudience({...legacy,marketRegion:'global'},game('wuwa'),'global','en'),true);
+ const gameplay=noticeEntry({...n,title:'3.8 버전 신규 캐릭터 및 전투 업데이트'},'2026-10-27T00:00:00Z');assert.equal(gameplay.marketRegion,undefined);assert.equal(contentInAudience(gameplay,game('wuwa'),'global','en'),true);
+ const cafe=noticeEntry({...n,gameId:'trickcal',region:'kr',title:'토끼 카페 대작전 게임 이벤트',url:'https://game.naver.com/lounge/Trickcal/board/detail/8189600'},'2026-10-27T00:00:00Z');assert.equal(cafe.marketRegion,undefined);
+});
+test('reviewed campaign secondary originals restrict duplicate notices, without widening across games',()=>{
+ const url='https://game.naver.com/lounge/WutheringWaves/board/detail/8311300',reviewed={...base,gameId:'wuwa',marketRegion:'kr',collaboration:{scope:'offline',sourceUrls:[url]}},feed={...base,gameId:'wuwa',id:'feed-copy',sourceUrl:url};
+ const original=JSON.stringify([reviewed,feed]),restrict=audienceRestrictions([reviewed,feed]);
+ assert.equal(contentInAudience(restrict(feed),game('wuwa'),'global','en'),false);
+ assert.equal(contentInAudience(restrict(feed),game('wuwa'),'global','ko'),true);
+ assert.equal(restrict({...feed,gameId:'hsr'}).audienceRegions,undefined);
+ assert.equal(JSON.stringify([reviewed,feed]),original);
+});
 test('all content surfaces reject KR-only local campaigns in EN/JP, without removing shared gameplay',()=>{
  for(const kind of ['event','package','update']){
   const e={...base,kind,marketRegion:'kr'};

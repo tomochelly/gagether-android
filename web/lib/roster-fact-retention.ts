@@ -1,4 +1,4 @@
-import {cleanRosterArt} from './character-roster-art-guard';
+import {cleanRosterArt,rosterImageBinding} from './character-roster-art-guard';
 import type {RosterCharacter} from './character-roster';
 const locales=['ko','en','ja','zh'] as const;
 function fillCopy(primary:RosterCharacter['name'],extra:RosterCharacter['name']){
@@ -23,7 +23,7 @@ export function retainCharacterFacts(c:RosterCharacter,extra:RosterCharacter):Ro
   for(const [id,v]of Object.entries(c.variantDetails||{})){const old=extra.variantDetails?.[id];variantDetails[id]=old&&old.sourceId===v.sourceId?{...old,...v,stats:mergeStats(v.stats,old.stats),skillTables:v.skillTables?.length?v.skillTables:old.skillTables,sections:v.sections?.length?v.sections:old.sections}:v;}
   return {...extra,...c,detailSources:[...new Map([...(extra.detailSources||[]),...(c.detailSources||[])].map(s=>[s.url,s])).values()].slice(0,40),name:fillCopy(c.name,extra.name),nameSources,traits,
    image:full?extra.image:c.image&&extra.image?.url===c.image.url?{...extra.image,...c.image,...c.image.preview&&extra.image.preview?.url===c.image.preview.url?{preview:{...extra.image.preview,...c.image.preview}}:{}}:c.image||extra.image,
-   images:[...new Map([...(extra.images||[]),...(c.images||[])].map(a=>[a.url,a])).values()],
+   images:[...new Map([...(extra.images||[]),...(c.images||[])].map(a=>[rosterImageBinding(a),a])).values()],
    stats:mergeStats(c.stats,extra.stats),statDetailLabel:c.statDetailLabel||extra.statDetailLabel,...c.regionalStatProgression||extra.regionalStatProgression?{regionalStatProgression:{...extra.regionalStatProgression,...c.regionalStatProgression}}:{},...c.regionalSkillTables||extra.regionalSkillTables?{regionalSkillTables:{...extra.regionalSkillTables,...c.regionalSkillTables}}:{},historicalBackground:c.historicalBackground||extra.historicalBackground,...Object.keys(variantDetails).length?{variantDetails}:{},statProgression:c.statProgression||extra.statProgression,statGrowth:c.statGrowth||extra.statGrowth,potentialRewards:c.potentialRewards?.length?c.potentialRewards:extra.potentialRewards,skillTables:c.skillTables?.length?c.skillTables:extra.skillTables,sections:[...new Map([...(extra.sections||[]),...(c.sections||[])].map(s=>[s.id,s])).values()],
    ...(Object.keys(regionalStats).length?{regionalStats}:{})};
 }

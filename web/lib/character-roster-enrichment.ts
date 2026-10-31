@@ -1,3 +1,4 @@
+import {announcedCharacterPreview} from './roster-availability';
 import bootstrap from '../content/character-rosters/bootstrap.json' with {type:'json'};
 import artwork from '../content/character-rosters/artwork-manifest.json' with {type:'json'};
 import {retainCharacterFacts} from './roster-fact-retention';
@@ -5,13 +6,21 @@ export {retainCharacterFacts} from './roster-fact-retention';
 import {pinRosterFactIcons} from './roster-detail-icons';
 import {rosterArtUrl,type RosterArtPlacement} from './roster-art-framing';
 import type {CharacterRoster,RosterCharacter} from './character-roster';
+import {retainEndfieldRosterIcons} from './endfield-roster-icons';
+import {retainEndfieldPotentialRewardArt} from './endfield-potential-reward-art';
+import {withZzzSignatureWeapon} from './zzz-signature-weapons';
+import {reviewedRosterName,reviewedRosterAdditions} from './reviewed-roster-names';
 
 const snapshots=new Map((bootstrap as CharacterRoster[]).map(r=>[r.gameId,r]));
+// Build once per isolate. Each read touches only this character's exact assets,
+// instead of scanning every game's immutable manifest for every image/frame.
+const characterArtwork=new Map<string,typeof artwork>();
+for(const asset of artwork){const key=asset.gameId+'|'+asset.characterId;const rows=characterArtwork.get(key);if(rows)rows.push(asset);else characterArtwork.set(key,[asset]);}
 const locales=['ko','en','ja','zh'] as const;
 const fillCopy=(primary:RosterCharacter['name'],extra:RosterCharacter['name'])=>Object.fromEntries(locales.map(l=>[l,primary[l]||extra[l]])) as RosterCharacter['name'];
 /** A pinned byte-identical original keeps its owner's exact framing on reads. */
 export function pinRosterArtworkFrames(gameId:string,id:string,frames:RosterArtPlacement[]){
- const aliases=new Map(artwork.filter(a=>a.gameId===gameId&&a.characterId===id).map(a=>(a as {delivery?:string}).delivery==='source-original'?[rosterArtUrl(a.publicUrl),a.url]:[rosterArtUrl(a.url),a.publicUrl])),mapped=new Map<string,{row:RosterArtPlacement;direct:boolean}>();
+ const aliases=new Map((characterArtwork.get(gameId+'|'+id)||[]).map(a=>(a as {delivery?:string}).delivery==='source-original'?[rosterArtUrl(a.publicUrl),a.url]:[rosterArtUrl(a.url),a.publicUrl])),mapped=new Map<string,{row:RosterArtPlacement;direct:boolean}>();
  for(const row of frames){const url=aliases.get(rosterArtUrl(row.url))||row.url,key=rosterArtUrl(url),direct=url===row.url,old=mapped.get(key);if(!old||direct||!old.direct)mapped.set(key,{row:url===row.url?row:{...row,url},direct});}
  return [...mapped.values()].map(v=>v.row);
 }
@@ -40,7 +49,14 @@ export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
   // the whole panel. Use only this exact source ID's valid reference facts.
   if(data.gameId==='reverse1999'&&invalidReversePanel(c))c={...c,...extra?{name:fillCopy(extra.name,c.name),nameSources:{...c.nameSources,...extra.nameSources}}:{},stats:extra?.stats};
   if(!extra)return c;
+  if(data.gameId==='endfield')c=retainEndfieldPotentialRewardArt(retainEndfieldRosterIcons(c,extra),extra);
   const merged=retainCharacterFacts(c,extra);
+  // Only this exact stable character's saved legacy original may be upgraded.
+  // Unknown new source images and separate owner overrides keep their priority.
+  if(['genshin','reverse1999','limbus','trickcal'].includes(data.gameId)){
+   const knownLegacy=c.image&&extra.image&&c.image.url!==extra.image.url&&extra.images?.some(a=>a.url===c.image!.url);
+   return knownLegacy?{...merged,image:extra.image}:merged;
+  }
   if(data.gameId!=='arknights')return merged;
   // A stale persisted client mirror must not remove verified releases when a
   // current four-client reference supplies the same exact operator identity.
@@ -54,8 +70,8 @@ export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
   }
   return {...merged,name:names,nameSources,...regions.length?{regions}:{},image,images:[...new Map([...(merged.images||[]),...legacy&&c.image?[{...c.image,locale:'neutral' as const}]:[]].filter(a=>a.url!==image?.url).map(a=>[a.url,a])).values()]};
  });
- characters.push(...known.values());characters.sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
- const pin=(id:string,a:RosterCharacter['image'])=>{if(!a)return a;const saved=artwork.find(s=>s.gameId===data.gameId&&s.characterId===id&&s.url===a.url&&(s as {delivery?:string}).delivery!=='source-original');return saved?{...a,url:saved.publicUrl}:a;};
+ characters.push(...known.values());characters.push(...reviewedRosterAdditions(data.gameId,characters));characters.sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));
+ const pin=(id:string,a:RosterCharacter['image'])=>{if(!a)return a;const saved=characterArtwork.get(data.gameId+'|'+id)?.find(s=>s.url===a.url&&(s as {delivery?:string}).delivery!=='source-original');return saved?{...a,url:saved.publicUrl}:a;};
  const pinned=characters.map(c=>pinRosterFactIcons({...c,image:pin(c.id,c.image),...(c.images?{images:c.images.map(a=>pin(c.id,a)!)}:{}),...c.artworkFrames?{artworkFrames:pinRosterArtworkFrames(data.gameId,c.id,c.artworkFrames)}:{}},data.gameId));
  const current=data.detailCatalog,prior=reference.detailCatalog;
  let detailCatalog=current||prior;
@@ -64,5 +80,5 @@ export function enrichCharacterRoster(data:CharacterRoster):CharacterRoster{
   const forms={...prior.forms,...Object.fromEntries(Object.entries(current.forms).map(([id,f])=>[id,{...prior.forms[id],...f,horseId:f.horseId||prior.forms[id]?.horseId}]))},allSkills={...prior.skills,...current.skills},refs=new Set(Object.values(forms).flatMap(f=>[...f.skillRefs||[],...Object.values(f.regionalSkillRefs||{}).flatMap(r=>r||[])]));
   detailCatalog={...current,forms,skills:Object.fromEntries([...refs].map(ref=>[ref,allSkills[ref]])),horses:{...prior.horses,...current.horses}};
  }
- return {...data,...nativeUpgrade?{sourceName:reference.sourceName,sourceVersion:reference.sourceVersion,checkedAt:reference.checkedAt}:{},...detailCatalog?{detailCatalog}:{},characters:pinned,sourceUrls:[...new Set([...data.sourceUrls,...reference.sourceUrls])].slice(0,40),coverage:{...data.coverage,...nativeUpgrade?{nativeNameCounts:reference.coverage.nativeNameCounts,sourceReleaseFlags:reference.coverage.sourceReleaseFlags}:{},includedCount:characters.length}};
+ return {...data,...nativeUpgrade?{sourceName:reference.sourceName,sourceVersion:reference.sourceVersion,checkedAt:reference.checkedAt}:{},...detailCatalog?{detailCatalog}:{},characters:pinned.map(c=>announcedCharacterPreview(reviewedRosterName(data.gameId,data.gameId==='zzz'?withZzzSignatureWeapon(c):c))),sourceUrls:[...new Set([...data.sourceUrls,...reference.sourceUrls])].slice(0,40),coverage:{...data.coverage,...nativeUpgrade?{nativeNameCounts:reference.coverage.nativeNameCounts,sourceReleaseFlags:reference.coverage.sourceReleaseFlags}:{},includedCount:characters.length}};
 }

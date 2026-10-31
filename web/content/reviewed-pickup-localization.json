@@ -1,0 +1,1181 @@
+{
+  "reviewedAt": "2026-10-30T16:37:34.840530+00:00",
+  "changes": [
+    {
+      "entryId": "review-nikke-global-20261029-230",
+      "gameId": "nikke",
+      "region": "global",
+      "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+      "expected": {
+        "title": {
+          "ko": "마리안 : 퀸",
+          "en": "Marian: Queen",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "마리안 : 퀸이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 마리안 : 퀸은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다. 무료 모집에서는 골드 마일리지가 지급되지 않습니다.",
+          "en": "마리안 : 퀸이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 마리안 : 퀸은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다. 무료 모집에서는 골드 마일리지가 지급되지 않습니다.",
+          "ja": "마리안 : 퀸이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 마리안 : 퀸은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다. 무료 모집에서는 골드 마일리지가 지급되지 않습니다.",
+          "zh": "마리안 : 퀸이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 마리안 : 퀸은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다. 무료 모집에서는 골드 마일리지가 지급되지 않습니다."
+        },
+        "timingNote": {
+          "ko": "서버 점검 종료 이후. 예정점검00~07시를실제개방시각으로사용하지않음.",
+          "en": "서버 점검 종료 이후. 예정점검00~07시를실제개방시각으로사용하지않음.",
+          "ja": "서버 점검 종료 이후. 예정점검00~07시를실제개방시각으로사용하지않음.",
+          "zh": "서버 점검 종료 이후. 예정점검00~07시를실제개방시각으로사용하지않음."
+        }
+      },
+      "proposed": {
+        "title": {
+          "ko": "마리안 : 퀸",
+          "en": "Marian: Queen",
+          "ja": "マリアン：クイーン",
+          "zh": "瑪麗安：女王"
+        },
+        "summary": {
+          "ko": "마리안 : 퀸이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 마리안 : 퀸은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다. 무료 모집에서는 골드 마일리지가 지급되지 않습니다.",
+          "en": "Special Recruit featuring Marian: Queen. SSR rate: 4%; Marian: Queen: 1%. One free attempt is available daily during the event. Free attempts do not award Gold Mileage Tickets.",
+          "ja": "マリアン：クイーンの特殊募集。SSR獲得確率は4％、マリアン：クイーンは1％です。期間中は毎日1回無料で募集できます。無料募集ではゴールドマイレージチケットを獲得できません。",
+          "zh": "瑪麗安：女王特殊招募。SSR總機率為4%，瑪麗安：女王為1%。活動期間每天可免費招募1次；免費招募不會獲得黃金積分券。"
+        },
+        "timingNote": {
+          "ko": "10월 29일 점검 종료 후 시작.",
+          "en": "Starts after the October 29 maintenance.",
+          "ja": "10月29日のメンテナンス終了後に開始。",
+          "zh": "10月29日維護結束後開始。"
+        }
+      },
+      "memberName": {
+        "expected": {
+          "ko": "마리안 : 퀸",
+          "en": "Marian: Queen",
+          "ja": "",
+          "zh": ""
+        },
+        "proposed": {
+          "ko": "마리안 : 퀸",
+          "en": "Marian: Queen",
+          "ja": "マリアン：クイーン",
+          "zh": "瑪麗安：女王"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+          "title": "Update on October 29"
+        },
+        {
+          "kind": "official",
+          "url": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883",
+          "title": "10月29日のアップデートについて"
+        },
+        {
+          "kind": "official",
+          "url": "https://www.blablalink.com/events/nikke4th/index.html?language=EN",
+          "title": "Trajectory of the Goddess"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nikke-global-20261029-pilgrim",
+      "gameId": "nikke",
+      "region": "global",
+      "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+      "kind": "pickup",
+      "expected": {
+        "summary": {
+          "ko": "신데렐라·그레이브·나유타 중 1명을 골라 모집할 수 있습니다. 선택한 니케의 모집 확률은 1%이며 대상은 언제든 변경할 수 있습니다. 매일 1회 무료 모집이 제공됩니다.",
+          "en": "신데렐라·그레이브·나유타 중 1명을 골라 모집할 수 있습니다. 선택한 니케의 모집 확률은 1%이며 대상은 언제든 변경할 수 있습니다. 매일 1회 무료 모집이 제공됩니다.",
+          "ja": "신데렐라·그레이브·나유타 중 1명을 골라 모집할 수 있습니다. 선택한 니케의 모집 확률은 1%이며 대상은 언제든 변경할 수 있습니다. 매일 1회 무료 모집이 제공됩니다.",
+          "zh": "신데렐라·그레이브·나유타 중 1명을 골라 모집할 수 있습니다. 선택한 니케의 모집 확률은 1%이며 대상은 언제든 변경할 수 있습니다. 매일 1회 무료 모집이 제공됩니다."
+        },
+        "title": {
+          "ko": "필그림 선택 모집",
+          "en": "필그림 선택 모집",
+          "ja": "필그림 선택 모집",
+          "zh": "필그림 선택 모집"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "신데렐라·그레이브·나유타 중 1명을 골라 모집할 수 있습니다. 선택한 니케의 모집 확률은 1%이며 대상은 언제든 변경할 수 있습니다. 매일 1회 무료 모집이 제공됩니다.",
+          "en": "Choose Cinderella, Grave or Nayuta and change your target anytime. SSR rate: 4%; chosen Nikke: 1%. Other choices retain normal Pilgrim rates. One free pull daily; free pulls grant no Gold Mileage Tickets.",
+          "ja": "シンデレラ、グレイブ、ナユタから1人を選び、対象は随時変更できます。SSR全体4％・選択対象1％。未選択のニケは通常ピルグリムと同率です。毎日1回無料、無料分はゴールドマイレージなし。",
+          "zh": "可在灰姑娘、格拉維、娜由塔中選1名並隨時更換。SSR機率4%，所選角色1%；未選角色維持普通朝聖者機率。每日可免費招募1次，免費招募不提供黃金積分券。"
+        },
+        "title": {
+          "ko": "필그림 선택 모집",
+          "en": "Pilgrim Selective Recruitment",
+          "ja": "ピルグリム選択募集",
+          "zh": "朝聖者選擇招募"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+          "title": "Update on October 29"
+        },
+        {
+          "kind": "official",
+          "url": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883",
+          "title": "10月29日のアップデートについて"
+        },
+        {
+          "kind": "official",
+          "url": "https://nikke.hotcool.tw/News_detail-237",
+          "title": "10月29日版本更新公告"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nikke-global-20261029-229",
+      "gameId": "nikke",
+      "region": "global",
+      "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+      "kind": "pickup",
+      "expected": {
+        "summary": {
+          "ko": "홍련 : 신살이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 홍련 : 신살은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다.",
+          "en": "홍련 : 신살이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 홍련 : 신살은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다.",
+          "ja": "홍련 : 신살이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 홍련 : 신살은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다.",
+          "zh": "홍련 : 신살이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 홍련 : 신살은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다."
+        },
+        "title": {
+          "ko": "홍련 : 신살",
+          "en": "Scarlet: Goddeath",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "홍련 : 신살이 등장하는 특수 모집입니다. SSR 전체 확률은 4%, 홍련 : 신살은 1%이며 기간 중 매일 1회 무료 모집이 제공됩니다.",
+          "en": "Special Recruit with a 4% SSR rate and 1% Scarlet: Goddeath rate. Includes one free daily pull; free pulls grant no Gold Mileage Tickets.",
+          "ja": "特殊募集のSSR合計は4％、紅蓮：神殺は1％。1日1回の無料募集があり、無料分のゴールドマイレージはありません。",
+          "zh": "特殊招募的SSR機率為4%，紅蓮：弒神為1%。活動期間每日可免費招募1次，免費招募不提供黃金積分券。"
+        },
+        "title": {
+          "ko": "홍련 : 신살",
+          "en": "Scarlet: Goddeath",
+          "ja": "紅蓮：神殺",
+          "zh": "紅蓮：弒神"
+        }
+      },
+      "memberName": {
+        "expected": {
+          "ko": "홍련 : 신살",
+          "en": "Scarlet: Goddeath",
+          "ja": "",
+          "zh": ""
+        },
+        "proposed": {
+          "ko": "홍련 : 신살",
+          "en": "Scarlet: Goddeath",
+          "ja": "紅蓮：神殺",
+          "zh": "紅蓮：弒神"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+          "title": "Update on October 29"
+        },
+        {
+          "kind": "official",
+          "url": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883",
+          "title": "10月29日のアップデートについて"
+        },
+        {
+          "kind": "official",
+          "url": "https://nikke.hotcool.tw/News_detail-237",
+          "title": "10月29日版本更新公告"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nikke-global-20261029-231",
+      "gameId": "nikke",
+      "region": "global",
+      "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+      "kind": "event",
+      "expected": {
+        "summary": {
+          "ko": "MARIA-n, 14 Days Login, 4TH ANNIVERSARY 이벤트의 조건을 달성해 라푼젤 : 생츄어리를 획득할 수 있습니다. 기간 한정 배포 캐릭터로, 이벤트 종료 후 일반 모집에는 추가되지 않습니다.",
+          "en": "MARIA-n, 14 Days Login, 4TH ANNIVERSARY 이벤트의 조건을 달성해 라푼젤 : 생츄어리를 획득할 수 있습니다. 기간 한정 배포 캐릭터로, 이벤트 종료 후 일반 모집에는 추가되지 않습니다.",
+          "ja": "MARIA-n, 14 Days Login, 4TH ANNIVERSARY 이벤트의 조건을 달성해 라푼젤 : 생츄어리를 획득할 수 있습니다. 기간 한정 배포 캐릭터로, 이벤트 종료 후 일반 모집에는 추가되지 않습니다.",
+          "zh": "MARIA-n, 14 Days Login, 4TH ANNIVERSARY 이벤트의 조건을 달성해 라푼젤 : 생츄어리를 획득할 수 있습니다. 기간 한정 배포 캐릭터로, 이벤트 종료 후 일반 모집에는 추가되지 않습니다."
+        },
+        "title": {
+          "ko": "라푼젤 : 생츄어리",
+          "en": "Rapunzel: Sanctuary",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "MARIA-n, 14 Days Login, 4TH ANNIVERSARY 이벤트의 조건을 달성해 라푼젤 : 생츄어리를 획득할 수 있습니다. 기간 한정 배포 캐릭터로, 이벤트 종료 후 일반 모집에는 추가되지 않습니다.",
+          "en": "Earn Rapunzel: Sanctuary through MARIA-n, 14-Day Login and 4th Anniversary events. This limited distribution will not join Ordinary Recruit after the event.",
+          "ja": "ストーリーイベントと14日間ログイン、4周年イベントの条件達成で入手。期間終了後は一般募集の対象になりません。",
+          "zh": "完成MARIA-n劇情活動、14日簽到及4週年活動條件可取得。這是限時贈送角色，活動結束後不會加入普通招募。"
+        },
+        "title": {
+          "ko": "라푼젤 : 생츄어리",
+          "en": "Rapunzel: Sanctuary",
+          "ja": "ラプンツェル：サンクチュアリ",
+          "zh": "長髮公主：聖域"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+          "title": "Update on October 29"
+        },
+        {
+          "kind": "official",
+          "url": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883",
+          "title": "10月29日のアップデートについて"
+        },
+        {
+          "kind": "official",
+          "url": "https://nikke.hotcool.tw/News_detail-237",
+          "title": "10月29日版本更新公告"
+        }
+      ]
+    },
+    {
+      "entryId": "review-bluearchive-jp-20261028-10153",
+      "gameId": "bluearchive",
+      "region": "jp",
+      "sourceUrl": "https://bluearchive.jp/news/newsJump/704",
+      "kind": "pickup",
+      "expected": {
+        "summary": {
+          "ko": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다.",
+          "en": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다.",
+          "ja": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다.",
+          "zh": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다.",
+          "en": "Limited-time recruitment featuring Hifumi (Racing) and Azusa (Racing), from after maintenance on October 28 until November 11 at 10:59 (JST).",
+          "ja": "「ヒフミ（レーシング）」「アズサ（レーシング）」の期間限定ピックアップ。10月28日メンテナンス後～11月11日10:59（JST）に開催。",
+          "zh": "日步美（賽車）與梓（賽車）的限時招募，於10月28日維護結束後至11月11日10:59（JST）開放。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://bluearchive.jp/news/newsJump/704",
+          "title": "10月28日ピックアップ募集"
+        }
+      ]
+    },
+    {
+      "entryId": "review-bluearchive-jp-20261028-20063",
+      "gameId": "bluearchive",
+      "region": "jp",
+      "sourceUrl": "https://bluearchive.jp/news/newsJump/704",
+      "kind": "pickup",
+      "expected": {
+        "summary": {
+          "ko": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다.",
+          "en": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다.",
+          "ja": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다.",
+          "zh": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "히후미(레이싱)와 아즈사(레이싱)의 기간 한정 모집입니다. 10월 28일 점검 종료 후부터 11월 11일 10:59(JST)까지 진행됩니다.",
+          "en": "Limited-time recruitment featuring Hifumi (Racing) and Azusa (Racing), from after maintenance on October 28 until November 11 at 10:59 (JST).",
+          "ja": "「ヒフミ（レーシング）」「アズサ（レーシング）」の期間限定ピックアップ。10月28日メンテナンス後～11月11日10:59（JST）に開催。",
+          "zh": "日步美（賽車）與梓（賽車）的限時招募，於10月28日維護結束後至11月11日10:59（JST）開放。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://bluearchive.jp/news/newsJump/704",
+          "title": "10月28日ピックアップ募集"
+        }
+      ]
+    },
+    {
+      "entryId": "review-bluearchive-jp-engines-20261028",
+      "gameId": "bluearchive",
+      "region": "jp",
+      "kind": "event",
+      "sourceUrl": "https://bluearchive.jp/news/newsJump/706",
+      "expected": {
+        "summary": {
+          "ko": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다.",
+          "en": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다.",
+          "ja": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다.",
+          "zh": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다.",
+          "en": "Clear Mission Area 2-3 to join the tank-racing event. Earn ★1 Rana by progressing through the event. Reward exchange closes November 18 at 10:59 (JST).",
+          "ja": "任務Area2-3クリアで参加できる戦車レースイベント。進行報酬として★1「ラナ」を迎えられます。報酬交換は11月18日10:59（JST）まで。",
+          "zh": "通关任务Area2-3后可参加战车竞速活动；推进活动可获得★1「拉娜」。奖励兑换截至11月18日10:59（JST）。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://bluearchive.jp/news/newsJump/706",
+          "title": "【イベント】「Start Your Engines！ ～183号よ永遠に！～」紹介"
+        }
+      ],
+      "sectionBodies": [
+        {
+          "index": 0,
+          "title": {
+            "ko": "참여 안내",
+            "en": "Event details",
+            "ja": "イベント案内",
+            "zh": "活动说明"
+          },
+          "expected": {
+            "ko": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다.",
+            "en": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다.",
+            "ja": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다.",
+            "zh": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다."
+          },
+          "proposed": {
+            "ko": "전차 레이스 이벤트 「Start Your Engines!」가 열립니다. 임무 2-3 클리어 후 참여할 수 있으며 라나가 이벤트 배포 캐릭터로 등장합니다. 보상 교환은 11월 18일 10:59(JST)까지입니다.",
+            "en": "Clear Mission Area 2-3 to join the tank-racing event. Earn ★1 Rana by progressing through the event. Reward exchange closes November 18 at 10:59 (JST).",
+            "ja": "任務Area2-3クリアで参加できる戦車レースイベント。進行報酬として★1「ラナ」を迎えられます。報酬交換は11月18日10:59（JST）まで。",
+            "zh": "通关任务Area2-3后可参加战车竞速活动；推进活动可获得★1「拉娜」。奖励兑换截至11月18日10:59（JST）。"
+          }
+        }
+      ]
+    },
+    {
+      "entryId": "review-nte-global-15-phase1-0",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "pickup",
+      "sourceUrl": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+      "expected": {
+        "summary": {
+          "ko": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "ja": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "zh": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "Limited board announced for the first half of Version 1.5. Opens after the update or maintenance.",
+          "ja": "Ver.1.5前半の限定ボード。アップデートまたはメンテナンス終了後に開始。",
+          "zh": "1.5版本上半限定棋盘，将于更新或维护结束后开启。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+          "title": "「이환」1.5 버전 프리뷰 특별 방송"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nte-global-15-phase1-1",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "pickup",
+      "sourceUrl": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+      "expected": {
+        "summary": {
+          "ko": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "ja": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "zh": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "1.5 버전 전반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "Limited board announced for the first half of Version 1.5. Opens after the update or maintenance.",
+          "ja": "Ver.1.5前半の限定ボード。アップデートまたはメンテナンス終了後に開始。",
+          "zh": "1.5版本上半限定棋盘，将于更新或维护结束后开启。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+          "title": "「이환」1.5 버전 프리뷰 특별 방송"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nte-global-15-phase1-arc0",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "weapon",
+      "sourceUrl": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+      "expected": {
+        "summary": {
+          "ko": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "ja": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "zh": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "Arc research announced for the first half of Version 1.5. Opens after the update or maintenance.",
+          "ja": "Ver.1.5前半の弧盤研究。アップデートまたはメンテナンス終了後に開始。",
+          "zh": "1.5版本上半弧盘研究，将于更新或维护结束后开启。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+          "title": "「이환」1.5 버전 프리뷰 특별 방송"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nte-global-15-phase1-arc1",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "weapon",
+      "sourceUrl": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+      "expected": {
+        "summary": {
+          "ko": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "ja": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "zh": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "1.5 버전 전반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "Arc research announced for the first half of Version 1.5. Opens after the update or maintenance.",
+          "ja": "Ver.1.5前半の弧盤研究。アップデートまたはメンテナンス終了後に開始。",
+          "zh": "1.5版本上半弧盘研究，将于更新或维护结束后开启。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+          "title": "「이환」1.5 버전 프리뷰 특별 방송"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nte-global-15-phase2-0",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "pickup",
+      "sourceUrl": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+      "expected": {
+        "summary": {
+          "ko": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "ja": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "zh": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "Limited board announced for the second half of Version 1.5. Opens after the update or maintenance.",
+          "ja": "Ver.1.5後半の限定ボード。アップデートまたはメンテナンス終了後に開始。",
+          "zh": "1.5版本下半限定棋盘，将于更新或维护结束后开启。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+          "title": "「이환」1.5 버전 프리뷰 특별 방송"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nte-global-15-phase2-1",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "pickup",
+      "sourceUrl": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+      "expected": {
+        "summary": {
+          "ko": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "ja": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "zh": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "1.5 버전 후반의 한정 보드 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "Limited board announced for the second half of Version 1.5. Opens after the update or maintenance.",
+          "ja": "Ver.1.5後半の限定ボード。アップデートまたはメンテナンス終了後に開始。",
+          "zh": "1.5版本下半限定棋盘，将于更新或维护结束后开启。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+          "title": "「이환」1.5 버전 프리뷰 특별 방송"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nte-global-15-phase2-arc0",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "weapon",
+      "sourceUrl": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+      "expected": {
+        "summary": {
+          "ko": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "ja": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "zh": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "Arc research announced for the second half of Version 1.5. Opens after the update or maintenance.",
+          "ja": "Ver.1.5後半の弧盤研究。アップデートまたはメンテナンス終了後に開始。",
+          "zh": "1.5版本下半弧盘研究，将于更新或维护结束后开启。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+          "title": "「이환」1.5 버전 프리뷰 특별 방송"
+        }
+      ]
+    },
+    {
+      "entryId": "review-nte-global-15-phase2-arc1",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "weapon",
+      "sourceUrl": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+      "expected": {
+        "summary": {
+          "ko": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "ja": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "zh": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "1.5 버전 후반의 아크 연구 예고입니다. 업데이트 또는 점검 종료 후 시작합니다.",
+          "en": "Arc research announced for the second half of Version 1.5. Opens after the update or maintenance.",
+          "ja": "Ver.1.5後半の弧盤研究。アップデートまたはメンテナンス終了後に開始。",
+          "zh": "1.5版本下半弧盘研究，将于更新或维护结束后开启。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.youtube.com/watch?v=SXTEyXX__I8",
+          "title": "「이환」1.5 버전 프리뷰 특별 방송"
+        }
+      ]
+    },
+    {
+      "entryId": "review-umamusume-jp-20261026-daiwa",
+      "gameId": "umamusume",
+      "region": "jp",
+      "kind": "pickup",
+      "sourceUrl": "https://umamusume.jp/news/detail?id=3511",
+      "expected": {
+        "summary": {
+          "ko": "신규 시나리오 개막 프리티 더비. [陣風の花紺青] 다이와 스칼렛이 등장합니다.",
+          "en": "신규 시나리오 개막 프리티 더비. [陣風の花紺青] 다이와 스칼렛이 등장합니다.",
+          "ja": "신규 시나리오 개막 프리티 더비. [陣風の花紺青] 다이와 스칼렛이 등장합니다.",
+          "zh": "신규 시나리오 개막 프리티 더비. [陣風の花紺青] 다이와 스칼렛이 등장합니다."
+        },
+        "title": {
+          "ko": "",
+          "en": "Daiwa Scarlet [None]",
+          "ja": "ダイワスカーレット [陣風の花紺青]",
+          "zh": ""
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "신규 시나리오 개막 프리티 더비. [陣風の花紺青] 다이와 스칼렛이 등장합니다.",
+          "en": "New-scenario Pretty Derby featuring Daiwa Scarlet [陣風の花紺青].",
+          "ja": "新シナリオ開幕プリティーダービー。[陣風の花紺青]ダイワスカーレットが登場。",
+          "zh": "新剧本开幕 Pretty Derby，[陣風の花紺青]大和赤骥登场。"
+        },
+        "title": {
+          "ko": "",
+          "en": "Daiwa Scarlet [陣風の花紺青]",
+          "ja": "ダイワスカーレット [陣風の花紺青]",
+          "zh": ""
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://umamusume.jp/news/detail?id=3511",
+          "title": "[陣風の花紺青] ダイワスカーレット"
+        }
+      ]
+    },
+    {
+      "entryId": "review-umamusume-jp-20261026-support",
+      "gameId": "umamusume",
+      "region": "jp",
+      "kind": "weapon",
+      "sourceUrl": "https://umamusume.jp/news/detail?id=3511",
+      "expected": {
+        "summary": {
+          "ko": "SSR [いとどめでたき、まつりかな]吾妻, SSR [Time of Departure]マヤノトップガン, R [巫女]吾妻가 등장하는 지원 카드 모집입니다.",
+          "en": "SSR [いとどめでたき、まつりかな]吾妻, SSR [Time of Departure]マヤノトップガン, R [巫女]吾妻가 등장하는 지원 카드 모집입니다.",
+          "ja": "SSR [いとどめでたき、まつりかな]吾妻, SSR [Time of Departure]マヤノトップガン, R [巫女]吾妻가 등장하는 지원 카드 모집입니다.",
+          "zh": "SSR [いとどめでたき、まつりかな]吾妻, SSR [Time of Departure]マヤノトップガン, R [巫女]吾妻가 등장하는 지원 카드 모집입니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "SSR [いとどめでたき、まつりかな]吾妻, SSR [Time of Departure]マヤノトップガン, R [巫女]吾妻가 등장하는 지원 카드 모집입니다.",
+          "en": "Support-card recruit featuring SSR [いとどめでたき、まつりかな]吾妻, SSR [Time of Departure]Mayano Top Gun and R [巫女]吾妻.",
+          "ja": "SSR[いとどめでたき、まつりかな]吾妻、SSR[Time of Departure]マヤノトップガン、R[巫女]吾妻が登場するサポートカードガチャ。",
+          "zh": "支援卡招募：SSR[いとどめでたき、まつりかな]吾妻、SSR[Time of Departure]重炮及R[巫女]吾妻登场。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://umamusume.jp/news/detail?id=3511",
+          "title": "SSR 吾妻 / SSR マヤノトップガン"
+        }
+      ]
+    },
+    {
+      "entryId": "review-umamusume-jp-20261102-twinkle",
+      "gameId": "umamusume",
+      "region": "jp",
+      "kind": "pickup",
+      "sourceUrl": "https://umamusume.jp/news/detail?id=3506",
+      "expected": {
+        "summary": {
+          "ko": "지정된 ★3 우마무스메 8명을 대상으로 하는 트윙클 컬렉션입니다. 유상 10회 모집에서 대상 ★3 우마무스메를 확정 획득할 수 있습니다.",
+          "en": "지정된 ★3 우마무스메 8명을 대상으로 하는 트윙클 컬렉션입니다. 유상 10회 모집에서 대상 ★3 우마무스메를 확정 획득할 수 있습니다.",
+          "ja": "지정된 ★3 우마무스메 8명을 대상으로 하는 트윙클 컬렉션입니다. 유상 10회 모집에서 대상 ★3 우마무스메를 확정 획득할 수 있습니다.",
+          "zh": "지정된 ★3 우마무스메 8명을 대상으로 하는 트윙클 컬렉션입니다. 유상 10회 모집에서 대상 ★3 우마무스메를 확정 획득할 수 있습니다."
+        },
+        "title": {
+          "ko": "11월 트윙클 컬렉션 · ★3 대상8명",
+          "en": "11월 트윙클 컬렉션 · ★3 대상8명",
+          "ja": "11월 트윙클 컬렉션 · ★3 대상8명",
+          "zh": "11월 트윙클 컬렉션 · ★3 대상8명"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "지정된 ★3 우마무스메 8명을 대상으로 하는 트윙클 컬렉션입니다. 유상 10회 모집에서 대상 ★3 우마무스메를 확정 획득할 수 있습니다.",
+          "en": "Twinkle Collection features eight selected ★3 runners. A paid 10-pull guarantees one of the featured ★3 runners.",
+          "ja": "対象の★3ウマ娘8人をピックアップするトゥインクルコレクション。有償10回ガチャでは対象の★3ウマ娘を確定で獲得。",
+          "zh": "Twinkle Collection包含8名指定★3赛马娘，付费10连必定获得其中一名。"
+        },
+        "title": {
+          "ko": "11월 트윙클 컬렉션 · ★3 대상8명",
+          "en": "November Twinkle Collection · Eight featured ★3 runners",
+          "ja": "11月トゥインクルコレクション・対象★3ウマ娘8人",
+          "zh": "11月 Twinkle Collection · 8名指定★3赛马娘"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://umamusume.jp/news/detail?id=3506",
+          "title": "11월 트윙클 컬렉션 · ★3 대상8명"
+        }
+      ]
+    },
+    {
+      "entryId": "review-umamusume-jp-20261102-intelligence",
+      "gameId": "umamusume",
+      "region": "jp",
+      "kind": "weapon",
+      "sourceUrl": "https://umamusume.jp/news/detail?id=3506",
+      "expected": {
+        "summary": {
+          "ko": "2024년 1월 1일부터 2026년 9월 30일까지 출시된 지능 SSR 지원 카드가 대상인 SSR 확정 모집입니다.",
+          "en": "2024년 1월 1일부터 2026년 9월 30일까지 출시된 지능 SSR 지원 카드가 대상인 SSR 확정 모집입니다.",
+          "ja": "2024년 1월 1일부터 2026년 9월 30일까지 출시된 지능 SSR 지원 카드가 대상인 SSR 확정 모집입니다.",
+          "zh": "2024년 1월 1일부터 2026년 9월 30일까지 출시된 지능 SSR 지원 카드가 대상인 SSR 확정 모집입니다."
+        },
+        "title": {
+          "ko": "SSR 확정 지능 가챠",
+          "en": "SSR 확정 지능 가챠",
+          "ja": "SSR 확정 지능 가챠",
+          "zh": "SSR 확정 지능 가챠"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "2024년 1월 1일부터 2026년 9월 30일까지 출시된 지능 SSR 지원 카드가 대상인 SSR 확정 모집입니다.",
+          "en": "Guaranteed SSR recruit for Wit support cards released from January 1, 2024 through September 30, 2026.",
+          "ja": "2024年1月1日から2026年9月30日までに登場した賢さSSRサポートカードが対象のSSR確定ガチャ。",
+          "zh": "SSR必得招募，包含2024年1月1日至2026年9月30日期间推出的智力SSR支援卡。"
+        },
+        "title": {
+          "ko": "SSR 확정 지능 가챠",
+          "en": "Guaranteed SSR Wit Support Recruit",
+          "ja": "SSR確定 賢さガチャ",
+          "zh": "智力SSR支援卡必得招募"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://umamusume.jp/news/detail?id=3506",
+          "title": "11월 트윙클 컬렉션 · ★3 대상8명"
+        }
+      ]
+    },
+    {
+      "entryId": "review-genshin-global-72-phase1-0",
+      "gameId": "genshin",
+      "region": "global",
+      "kind": "pickup",
+      "sourceUrl": "https://www.gamespress.com/en-US/Genshin-Impact-Version-72-Arrives-on-November-4-as-Teyvats-Seven-Natio",
+      "expected": {
+        "summary": {
+          "ko": "버전 특별 방송에서 예고된 7.2 전반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "en": "버전 특별 방송에서 예고된 7.2 전반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "ja": "버전 특별 방송에서 예고된 7.2 전반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "zh": "버전 특별 방송에서 예고된 7.2 전반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "버전 특별 방송에서 예고된 7.2 전반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "en": "Version 7.2 first half Event Wish.",
+          "ja": "Ver.7.2前半のイベント祈願。",
+          "zh": "7.2版本上半活动祈愿。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.gamespress.com/en-US/Genshin-Impact-Version-72-Arrives-on-November-4-as-Teyvats-Seven-Natio",
+          "title": "7.2 전반·후반 기원 예고"
+        }
+      ]
+    },
+    {
+      "entryId": "review-genshin-global-72-phase2-0",
+      "gameId": "genshin",
+      "region": "global",
+      "kind": "pickup",
+      "sourceUrl": "https://www.gamespress.com/en-US/Genshin-Impact-Version-72-Arrives-on-November-4-as-Teyvats-Seven-Natio",
+      "expected": {
+        "summary": {
+          "ko": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "en": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "ja": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "zh": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "en": "Version 7.2 second half Event Wish.",
+          "ja": "Ver.7.2後半のイベント祈願。",
+          "zh": "7.2版本下半活动祈愿。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.gamespress.com/en-US/Genshin-Impact-Version-72-Arrives-on-November-4-as-Teyvats-Seven-Natio",
+          "title": "7.2 전반·후반 기원 예고"
+        }
+      ]
+    },
+    {
+      "entryId": "review-genshin-global-72-phase2-1",
+      "gameId": "genshin",
+      "region": "global",
+      "kind": "pickup",
+      "sourceUrl": "https://www.gamespress.com/en-US/Genshin-Impact-Version-72-Arrives-on-November-4-as-Teyvats-Seven-Natio",
+      "expected": {
+        "summary": {
+          "ko": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "en": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "ja": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "zh": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다."
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "버전 특별 방송에서 예고된 7.2 후반 기원입니다. 세부 회차 시각은 아직 확인되지 않았습니다.",
+          "en": "Version 7.2 second half Event Wish.",
+          "ja": "Ver.7.2後半のイベント祈願。",
+          "zh": "7.2版本下半活动祈愿。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.gamespress.com/en-US/Genshin-Impact-Version-72-Arrives-on-November-4-as-Teyvats-Seven-Natio",
+          "title": "7.2 전반·후반 기원 예고"
+        }
+      ]
+    },
+    {
+      "entryId": "hsr-global-recurring-anomaly-arbitration",
+      "gameId": "hsr",
+      "region": "global",
+      "kind": "event",
+      "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+      "expected": {
+        "summary": {
+          "ko": "4.6 회차에서 고독한 별가루·육성 재료·장식 보상을 획득할 수 있습니다. 공식 본문에 이번 회차 종료 일시가 없어 버전 마감을 초기화 시각으로 대신하지 않습니다.",
+          "en": "The4.6 occurrence offers Lone Stardust, growth materials and cosmetic rewards. Its exact end is absent from the notice.",
+          "ja": "4.6の開催回で星屑・育成素材・装飾報酬を獲得。公式本文に今期の終了日時はありません。",
+          "zh": "4.6本期可获孤独的星尘、养成材料及装饰奖励，公告正文未列出本期准确截止时间。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "4.6 회차에서 고독한 별가루·육성 재료·장식 보상을 획득할 수 있습니다. 공식 본문에 이번 회차 종료 일시가 없어 버전 마감을 초기화 시각으로 대신하지 않습니다.",
+          "en": "The4.6 occurrence offers Lone Stardust, growth materials and cosmetic rewards. Its exact end is absent from the notice.",
+          "ja": "4.6の開催回で星屑・育成素材・装飾報酬を獲得。公式本文に今期の終了日時はありません。",
+          "zh": "4.6期奖励包含养成材料与装饰等。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+          "title": "이상 중재 · 낙엽귀근"
+        }
+      ]
+    },
+    {
+      "entryId": "nte-circle-bounty-elite",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "package",
+      "sourceUrl": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "expected": {
+        "summary": {
+          "ko": "유료 시즌 패스. 구매·레벨 조건별 보상 구분, 현지통화 가격 미확인.",
+          "en": "Paid season pass; purchase and level rewards distinguished. Local-currency price unverified.",
+          "ja": "有料パス。購入特典とレベル報酬を区別、現地通貨価格未確認。",
+          "zh": "付費通行證，區分購買與等級獎勵；法幣價格未確認。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "유료 시즌 패스. 구매·레벨 조건별 보상 구분, 현지통화 가격 미확인.",
+          "en": "Paid season pass; purchase and level rewards distinguished. Local-currency price unverified.",
+          "ja": "有料パス。購入特典とレベル報酬を区別、現地通貨価格未確認。",
+          "zh": "付费赛季通行证。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+          "title": "1.4 버전 「누구를 위하여 기도를 올리나」 업데이트 공지"
+        }
+      ]
+    },
+    {
+      "entryId": "nte-circle-bounty-honor",
+      "gameId": "nte",
+      "region": "global",
+      "kind": "package",
+      "sourceUrl": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+      "expected": {
+        "summary": {
+          "ko": "유료 시즌 패스. 구매·레벨 조건별 보상 구분, 현지통화 가격 미확인.",
+          "en": "Paid season pass; purchase and level rewards distinguished. Local-currency price unverified.",
+          "ja": "有料パス。購入特典とレベル報酬を区別、現地通貨価格未確認。",
+          "zh": "付費通行證，區分購買與等級獎勵；法幣價格未確認。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "유료 시즌 패스. 구매·레벨 조건별 보상 구분, 현지통화 가격 미확인.",
+          "en": "Paid season pass; purchase and level rewards distinguished. Local-currency price unverified.",
+          "ja": "有料パス。購入特典とレベル報酬を区別、現地通貨価格未確認。",
+          "zh": "付费赛季通行证。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://nte.perfectworld.com/kr/article/news/gamenews/20260929/264413.html",
+          "title": "1.4 버전 「누구를 위하여 기도를 올리나」 업데이트 공지"
+        }
+      ]
+    },
+    {
+      "entryId": "hsr-46-astral-slammers",
+      "gameId": "hsr",
+      "region": "global",
+      "kind": "event",
+      "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+      "expected": {
+        "summary": {
+          "ko": "친구와 팀을 구성해 함께 도전하는 우주 팡팡 이벤트다. 구체적인 보상·일일 제한은 미확인.",
+          "en": "Team up with friends for Astral Slammers challenges. Specific rewards and daily limits remain unverified.",
+          "ja": "友達とチームを組んで挑戦するイベント。具体的な報酬・日次制限は未確認。",
+          "zh": "与好友组队共同挑战的活动；具体奖励及每日限制未核实。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "친구와 팀을 구성해 함께 도전하는 우주 팡팡 이벤트다. 구체적인 보상·일일 제한은 미확인.",
+          "en": "Team up with friends for Astral Slammers challenges. Specific rewards and daily limits remain unverified.",
+          "ja": "友達とチームを組んで挑戦するイベント。具体的な報酬・日次制限は未確認。",
+          "zh": "与好友组队参加挑战的宇宙碰碰活动。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+          "title": "4.6 버전 「달 뜨기 전, 괴수와 춤을」 버전 업데이트 안내"
+        }
+      ]
+    },
+    {
+      "entryId": "ba-kr-official-3558914",
+      "gameId": "bluearchive",
+      "region": "kr",
+      "kind": "update",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3558914",
+      "expected": {
+        "summary": {
+          "ko": "2차 예매는 10월 16일 20시에 시작하도록 공지됐습니다. 현재 잔여 좌석 여부는 확인되지 않았습니다.",
+          "en": "The second ticket sale was announced to start October 16 at 20:00. Current seat availability is unverified.",
+          "ja": "第2次販売は10月16日20時開始の案内。現在の残席状況は未確認です。",
+          "zh": "第二轮售票公告于10月16日20时开始，当前余票状态未确认。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "2차 예매는 10월 16일 20시에 시작하도록 공지됐습니다. 현재 잔여 좌석 여부는 확인되지 않았습니다.",
+          "en": "The second ticket sale was announced to start October 16 at 20:00. Current seat availability is unverified.",
+          "ja": "第2次販売は10月16日20時開始の案内。現在の残席状況は未確認です。",
+          "zh": "第二轮门票预售于10月16日20:00开始。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3558914",
+          "title": "(수정) 10/14(수), 10/16(금) 오후 8시, 블루 아카이브 ‘5주년 페스티벌’ 티켓 예매가 시작됩니다!"
+        }
+      ]
+    },
+    {
+      "entryId": "genshin-71-ley-line-trial",
+      "gameId": "genshin",
+      "region": "global",
+      "kind": "event",
+      "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/166666",
+      "expected": {
+        "summary": {
+          "ko": "공식 달력에 원석·강화 소재·경험치 소재 보상이 표시되어 있다. 수량·참여 조건·일일 제한은 미확인.",
+          "en": "The official calendar depicts Primogems, enhancement material and character experience rewards. Quantities, eligibility and daily limits remain unverified.",
+          "ja": "公式カレンダーに原石・強化素材・経験値素材の報酬を表示。数量・参加条件・日次制限は未確認。",
+          "zh": "官方日曆顯示原石、強化素材及角色經驗素材獎勵；數量、參加條件及每日限制未核實。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "공식 달력에 원석·강화 소재·경험치 소재 보상이 표시되어 있다. 수량·참여 조건·일일 제한은 미확인.",
+          "en": "The official calendar depicts Primogems, enhancement material and character experience rewards. Quantities, eligibility and daily limits remain unverified.",
+          "ja": "公式カレンダーに原石・強化素材・経験値素材の報酬を表示。数量・参加条件・日次制限は未確認。",
+          "zh": "奖励包含原石、强化材料与经验材料。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://genshin.hoyoverse.com/ko/news/detail/166666",
+          "title": "「죽음의 진혼곡」 7.1 버전 이벤트 알림 제2회"
+        }
+      ]
+    },
+    {
+      "entryId": "genshin-71-limited-exploration",
+      "gameId": "genshin",
+      "region": "global",
+      "kind": "event",
+      "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/166666",
+      "expected": {
+        "summary": {
+          "ko": "공식 달력에 지역 탐사 기간 한정 보상으로 원석 400개가 명시되어 있다. 상세 탐사 조건과 보상 수령 방식은 미확인.",
+          "en": "The official calendar lists 400 Primogems as limited-time regional exploration rewards. Detailed exploration conditions and claim procedure remain unverified.",
+          "ja": "公式カレンダーに期間限定地域探索報酬として原石400個を記載。詳しい探索条件・受取手順は未確認。",
+          "zh": "官方日曆列出地區探索限時獎勵為400原石；詳細探索條件及領取方式未核實。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "공식 달력에 지역 탐사 기간 한정 보상으로 원석 400개가 명시되어 있다. 상세 탐사 조건과 보상 수령 방식은 미확인.",
+          "en": "The official calendar lists 400 Primogems as limited-time regional exploration rewards. Detailed exploration conditions and claim procedure remain unverified.",
+          "ja": "公式カレンダーに期間限定地域探索報酬として原石400個を記載。詳しい探索条件・受取手順は未確認。",
+          "zh": "区域限时探索奖励：原石400。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://genshin.hoyoverse.com/ko/news/detail/166666",
+          "title": "「죽음의 진혼곡」 7.1 버전 이벤트 알림 제2회"
+        }
+      ]
+    },
+    {
+      "entryId": "hi3-kr-senadina-astralop-91",
+      "gameId": "hi3",
+      "region": "kr",
+      "kind": "pickup",
+      "sourceUrl": "https://www.hoyolab.com/article/46171269",
+      "expected": {
+        "summary": {
+          "ko": "9.1 버전 복각이 공식 예고되었습니다. 개별 회차의 시작·종료 날짜와 보너스 조건은 추가 확인 중입니다.",
+          "en": "An official v9.1 rerun is announced. The individual rotation dates and bonus conditions remain unconfirmed.",
+          "ja": "Ver.9.1での再登場が公式予告済み。個別の開始・終了日と特典条件は未確認です。",
+          "zh": "已正式预告在9.1复刻，具体轮次起止日期及额外奖励条件尚未确认。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "9.1 버전 복각이 공식 예고되었습니다. 개별 회차의 시작·종료 날짜와 보너스 조건은 추가 확인 중입니다.",
+          "en": "An official v9.1 rerun is announced. The individual rotation dates and bonus conditions remain unconfirmed.",
+          "ja": "Ver.9.1での再登場が公式予告済み。個別の開始・終了日と特典条件は未確認です。",
+          "zh": "9.1版本协同者复刻预告。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://www.hoyolab.com/article/46171269",
+          "title": "신규 S급 협력 캐릭터 「세나디아」 등장"
+        }
+      ]
+    },
+    {
+      "entryId": "feed-hsr-165975",
+      "gameId": "hsr",
+      "region": "global",
+      "kind": "update",
+      "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/news/165975",
+      "expected": {
+        "summary": {
+          "ko": "「어벤츄린 씨, 정… 정말 전체 영상을 재생해도 괜찮으신가요?」 한국어 CV: 어벤츄린•웨이브——박준원 개척자(여)——김하루",
+          "en": "",
+          "ja": "「アベンチュリンさん、ほ…本当に全編公開してよろしいんですか？」 日本語CV： アベンチュリン・波と戯れる夏——河西健吾 女開拓者——石川由依",
+          "zh": "「砂金先生，您…您真的不介意播放全片吗？」 中文CV： 砂金•戏浪——杨超然 女开拓者——陈婷婷"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "「어벤츄린 씨, 정… 정말 전체 영상을 재생해도 괜찮으신가요?」 한국어 CV: 어벤츄린•웨이브——박준원 개척자(여)——김하루",
+          "en": "Aventurine • Waveflair character trailer, “Exclusive Scoop.”",
+          "ja": "「アベンチュリンさん、ほ…本当に全編公開してよろしいんですか？」 日本語CV： アベンチュリン・波と戯れる夏——河西健吾 女開拓者——石川由依",
+          "zh": "「砂金先生，您…您真的不介意播放全片吗？」 中文CV： 砂金•戏浪——杨超然 女开拓者——陈婷婷"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://hsr.hoyoverse.com/ko-kr/news/165975",
+          "title": "〈붕괴: 스타레일〉 어벤츄린•웨이브 캐릭터 PV——「단독 특종」"
+        }
+      ]
+    },
+    {
+      "entryId": "feed-hsr-165974",
+      "gameId": "hsr",
+      "region": "global",
+      "kind": "update",
+      "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/news/165974",
+      "expected": {
+        "summary": {
+          "ko": "목숨을 건 승진, 날 선 신경전이 감도는 만찬, 듣는 즉시 소각되는 밀명…… 암류가 소용돌이치는 컴퍼니의 깊은 수역, 「스톤하트 맹세 반지」 또한 폭풍을 피할 수 없다—— 거짓말은 당연히 위험하고, 진실 또한 화를 자초할 수 있다. 위장을 벗어던졌을 때, 최후에 웃는 자는 과연 누구일까? 한국어 CV: 제이드——김순미 옵시디언——강새봄 오팔——정의택 어벤츄린——박준원 부트힐——김단 히메코——김보나 비소——손정민 아젠티——최승훈 Dr. 레이시오——이동훈",
+          "en": "",
+          "ja": "",
+          "zh": "一次赌上性命的升迁，一场暗藏机锋的晚宴，一条听后即焚的密令…… 暗流涌动的公司深水区，「石心誓环」亦不能免于风暴—— 谎言固然危险，真相也能引火烧身，当撕去伪装，谁又能笑到最后？ 中文CV： 翡翠——张若瑜 龙晶——洪海天 欧泊——Kinsen 砂金——杨超然 波提欧——彭博 姬子——林簌 飞霄——叶知秋 银枝——梁达伟 真理医生——桑毓泽"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "목숨을 건 승진, 날 선 신경전이 감도는 만찬, 듣는 즉시 소각되는 밀명…… 암류가 소용돌이치는 컴퍼니의 깊은 수역, 「스톤하트 맹세 반지」 또한 폭풍을 피할 수 없다—— 거짓말은 당연히 위험하고, 진실 또한 화를 자초할 수 있다. 위장을 벗어던졌을 때, 최후에 웃는 자는 과연 누구일까? 한국어 CV: 제이드——김순미 옵시디언——강새봄 오팔——정의택 어벤츄린——박준원 부트힐——김단 히메코——김보나 비소——손정민 아젠티——최승훈 Dr. 레이시오——이동훈",
+          "en": "“Deep Waters,” a Myriad Celestia Trailer for Honkai: Star Rail.",
+          "ja": "千の星を巡る紀行PV「深い水域」。",
+          "zh": "一次赌上性命的升迁，一场暗藏机锋的晚宴，一条听后即焚的密令…… 暗流涌动的公司深水区，「石心誓环」亦不能免于风暴—— 谎言固然危险，真相也能引火烧身，当撕去伪装，谁又能笑到最后？ 中文CV： 翡翠——张若瑜 龙晶——洪海天 欧泊——Kinsen 砂金——杨超然 波提欧——彭博 姬子——林簌 飞霄——叶知秋 银枝——梁达伟 真理医生——桑毓泽"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://hsr.hoyoverse.com/ko-kr/news/165974",
+          "title": "〈붕괴: 스타레일〉 별무리 기행 PV——「깊은 수역」"
+        }
+      ]
+    },
+    {
+      "entryId": "feed-hsr-166182",
+      "gameId": "hsr",
+      "region": "global",
+      "kind": "update",
+      "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/news/166182",
+      "expected": {
+        "summary": {
+          "ko": "펄의 공식 캐릭터 PV로, 예술과 세계를 위한 선택을 다룬 소개문을 확인했습니다. 한국어 CV 원문 크레딧은 여윤미입니다. 영상 재생은 하지 않았습니다.",
+          "en": "Pearl’s official character PV. The description links art with choices made for the world; the original Korean CV credit is 여윤미. Playback was not reviewed.",
+          "ja": "パールの公式キャラクターPV。芸術と世界のための選択を扱う紹介文を確認。韓国語CVの原表記は여윤미。本編は未再生です。",
+          "zh": "真珠官方角色PV。已核对涉及艺术与为世界作出选择的简介；韩语CV原文署名为여윤미。未播放视频。"
+        }
+      },
+      "proposed": {
+        "summary": {
+          "ko": "펄의 공식 캐릭터 PV로, 예술과 세계를 위한 선택을 다룬 소개문을 확인했습니다. 한국어 CV 원문 크레딧은 여윤미입니다. 영상 재생은 하지 않았습니다.",
+          "en": "Pearl’s official character PV. The description links art with choices made for the world; the original Korean CV credit is 여윤미. Playback was not reviewed.",
+          "ja": "パールの公式キャラクターPV。芸術と世界のための選択を描く。",
+          "zh": "真珠官方角色PV。已核对涉及艺术与为世界作出选择的简介；韩语CV原文署名为여윤미。未播放视频。"
+        }
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "url": "https://hsr.hoyoverse.com/ko-kr/news/166182",
+          "title": "〈붕괴: 스타레일〉 펄 캐릭터 PV——「희망을 그리는 방법」"
+        }
+      ]
+    }
+  ]
+}

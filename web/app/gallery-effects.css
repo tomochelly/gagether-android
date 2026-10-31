@@ -18,6 +18,8 @@
 @keyframes gallery-meteor{0%{stroke-dashoffset:20;opacity:0}1%{opacity:.75}12%{opacity:.75}14%{stroke-dashoffset:-120;opacity:0}100%{stroke-dashoffset:-120;opacity:0}}
 @keyframes gallery-meteor-core{0%{stroke-dashoffset:2;opacity:0}1%{opacity:1}12%{opacity:1}14%{stroke-dashoffset:-138;opacity:0}100%{stroke-dashoffset:-138;opacity:0}}
 body:has(.reference-character-dialog[open]) :is(.roster-seam-beam,.reference-seam-beam,.roster-seam-core,.reference-seam-core){animation-play-state:paused}
+.gallery-windowed>.roster-card:not([data-gallery-visible]) :is(.roster-seam-beam,.roster-seam-core){animation-play-state:paused}
+.roster-card-art{content-visibility:auto}
 @media(max-width:720px){.reference-seam-beam,.reference-seam-core{animation-delay:var(--seam-delay-narrow)}}
 @media(prefers-reduced-motion:reduce){
  .roster-card,.reference-gallery>.reference-gallery-panel,.gallery-glass{transition:none!important;transform:none!important}

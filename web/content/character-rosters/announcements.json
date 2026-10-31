@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "characters": [
+    {
+      "gameId": "zzz",
+      "nativeId": "1631",
+      "nativeNameKey": "Avatar_Male_Size03_Severian",
+      "name": "Severian",
+      "providerId": "cmoxppn0700a5oackcfayygm9",
+      "providerUnitId": "61",
+      "providerSlug": "severian",
+      "rarity": 4,
+      "rarityLabel": "S",
+      "specialty": "Attack",
+      "elements": ["Wind"],
+      "sourceUrl": "https://zenless.hoyoverse.com/en-us/news/166054",
+      "confirmationUrl": "https://zenless.hoyoverse.com/en-us/news/166963",
+      "reviewedAt": "2026-10-27",
+      "evidence": "Official Agent Record identifies Severian Lowell; Version3.3 update declares S-Rank Severian (Wind - Attack). Enka native avatar1631 and provider unit61 are separate exact identities. No numerical beta facts or release clocks are authorized by this record."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "silver-palace-global-launch-20261214",
+    "gameId": "silver-palace",
+    "region": "global",
+    "kind": "update",
+    "title": {
+      "ko": "12월 14일 글로벌 정식 출시",
+      "en": "Global release on December 14",
+      "ja": "12月14日グローバル正式リリース",
+      "zh": "12月14日全球正式上线"
+    },
+    "summary": {
+      "ko": "실버 팰리스의 글로벌 정식 출시일은 2026년 12월 14일입니다. 사전예약과 사전 뽑기 이벤트가 진행 중입니다.",
+      "en": "Silver Palace launches globally on December 14, 2026. Pre-registration and the pre-release draw event are open.",
+      "ja": "白銀の城は2026年12月14日にグローバル正式リリース。事前登録と事前ガチャイベントを開催中。",
+      "zh": "白银之城将于2026年12月14日全球正式上线。预约与预抽卡活动现已开启。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "startDate": "2026-12-14",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-31T04:49:45+00:00",
+    "sourceUrl": "https://x.com/SilverPalace_KO/status/2116380507743363340",
+    "sourceTitle": "실버 팰리스 한국 공식 · 12월 14일 글로벌 출시 확정",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "officialLocales": [
+      "ko"
+    ],
+    "translatedLocales": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "sourceBodies": {
+      "ko": {
+        "locale": "ko",
+        "sourceUrl": "https://x.com/SilverPalace_KO/status/2116380507743363340",
+        "text": "<실버 팰리스> 사전 뽑기 이벤트 오픈!\n막이 오르고, 실체가 된 허상.\n지금이야말로, 탐정의 황금시대다.\n<실버 팰리스> 오는 2026년 12월 14일 글로벌 정식 출시!\n사전예약 마일스톤 이벤트도 함께 진행 중이며, 마일스톤이 각 단계에 도달하고 공식 커뮤니티 및 채널의 팔로워 수가 목표를 달성하면 신규 4성 캐릭터와 [재연의 탄환]×20 등 보상을 획득할 수 있습니다.\n<실버 팰리스> 12월 14일 글로벌 출시 확정!\n▼사전예약 바로가기:\nhttps://urlhe.com/ckpg2\n#실버팰리스 #실버팰리스12월14일정식출시",
+        "images": [
+          "https://pbs.twimg.com/media/HV3m02Mb0AAs9UW?format=jpg&name=900x900"
+        ],
+        "bodyHash": "0408e9b44ffbaefefb2689ba9e02f2ee19cafccc210980c294a0657d53343ccd",
+        "importedAt": "2026-10-31T04:49:45+00:00",
+        "sourceKind": "official"
+      }
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "사전예약",
+          "en": "Pre-registration",
+          "ja": "事前登録",
+          "zh": "预约"
+        },
+        "body": {
+          "ko": "사전예약 마일스톤과 공식 커뮤니티·채널의 팔로워 목표를 달성하면 신규 4성 캐릭터와 재연의 탄환 20개 등의 보상을 받을 수 있습니다.",
+          "en": "Rewards including a new 4-star character and 20 draw items depend on reaching pre-registration milestones and official community follower targets.",
+          "ja": "事前登録マイルストーンと公式コミュニティ・チャンネルのフォロワー目標を達成すると、新たな星4キャラクターや抽選アイテム20個などの報酬を獲得できます。",
+          "zh": "达成预约里程碑与官方社区、频道的关注人数目标后，可获得新4星角色与20个抽卡道具等奖励。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://x.com/SilverPalace_KO/status/2116380507743363340"
+        ]
+      }
+    ],
+    "server": "Global"
+  }
+]

@@ -1,0 +1,11 @@
+:root{--scrollbar-thumb:#b8c1bc;--scrollbar-hover:#87978e}
+:root[data-theme="dark"]{--scrollbar-thumb:#526057;--scrollbar-hover:#7c8c81}
+/* Keep native scrolling and keyboard input; soften only the painted control. */
+html:root,html:root *{scrollbar-width:auto!important;scrollbar-color:auto!important}
+*::-webkit-scrollbar{width:7px;height:7px;background:transparent}
+*::-webkit-scrollbar-track,*::-webkit-scrollbar-corner{background:transparent}
+*::-webkit-scrollbar-thumb{background:var(--scrollbar-thumb);border:2px solid transparent;background-clip:padding-box;border-radius:8px;min-height:32px;min-width:32px}
+*::-webkit-scrollbar-thumb:hover{background-color:var(--scrollbar-hover)}
+*::-webkit-scrollbar-button{display:none;width:0;height:0}
+@supports not selector(::-webkit-scrollbar){html:root,html:root *{scrollbar-width:thin!important;scrollbar-color:var(--scrollbar-thumb) transparent!important}}
+@media(forced-colors:active){html:root,html:root *{scrollbar-color:auto!important}*::-webkit-scrollbar-thumb{background:ButtonText}}

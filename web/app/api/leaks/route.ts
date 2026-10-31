@@ -1,4 +1,5 @@
 import {z} from 'zod';
+import {currentLeakBaseline} from '@/lib/leak-current-version';
 import {englishLeak} from '@/lib/leak-english';
 import {readLeaks,leakHistory,leakHealth,leakQueue,saveLeak,localizeLeak,enrichLeak,refreshLeaksStep,LeakConflict} from '@/lib/leaks-store';
 import {leakSchema} from '@/lib/leaks';
@@ -16,7 +17,7 @@ const actionSchema=z.discriminatedUnion('action',[
 ]);
 export async function GET(request:Request){const q=new URL(request.url).searchParams;try{
  if(q.get('manage')==='1'){if(!await canWriteData(request))return Response.json({error:'Authorized updater or editor required'},{status:403,headers:noindex});if(q.get('id'))return Response.json({history:await leakHistory(q.get('id')!)},{headers:noindex});return Response.json({health:await leakHealth(),queue:await leakQueue(),items:await readLeaks()},{headers:noindex});}
- const gameId=q.get('game');if(!gameId||!games.some(g=>g.id===gameId))return Response.json({error:'Choose a registered game'},{status:400,headers:noindex});if(q.get('ack')!=='1')return Response.json({error:'Spoiler acknowledgement required'},{status:428,headers:noindex});return Response.json({gameId,items:(await readLeaks(gameId)).map(englishLeak),contentType:'unconfirmed-community-information',excludedFrom:['calendar','notifications','official-notices']},{headers:noindex});
+ const gameId=q.get('game');if(!gameId||!games.some(g=>g.id===gameId))return Response.json({error:'Choose a registered game'},{status:400,headers:noindex});if(q.get('ack')!=='1')return Response.json({error:'Spoiler acknowledgement required'},{status:428,headers:noindex});return Response.json({gameId,baseline:await currentLeakBaseline(gameId),items:(await readLeaks(gameId)).map(englishLeak),contentType:'unconfirmed-community-information',excludedFrom:['calendar','notifications','official-notices']},{headers:noindex});
  }catch{return Response.json({error:'Leak information temporarily unavailable'},{status:503,headers:noindex});}}
 export async function POST(request:Request){
  if(!sameOrigin(request)||!await canWriteData(request))return Response.json({error:'Authorized updater or editor required'},{status:403,headers:noindex});if(Number(request.headers.get('content-length')||0)>1000000)return Response.json({error:'Payload too large'},{status:413,headers:noindex});

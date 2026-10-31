@@ -50,13 +50,15 @@ test('duplicate archive/current rotation collapses and expired/hidden/weapon arc
  const slides=spotlightSlides([next,current,{...next,id:'hidden',hidden:true},{...next,id:'weapon',kind:'weapon',poolType:'weapon'},{...base,id:'history',pickupArchive:{status:'past'}}],now);
  assert.equal(slides.length,1);assert.equal(slides[0].entry.id,'current');
 });
-test('independent Japanese service artwork keeps its real language; legacy fallback cannot override shared-service locale',()=>{
+test('reviewed source-language originals require complete disclosure and cannot override an independent service language',()=>{
  const art={image:'/assets/exact-banner.webp',imageSource:base.sourceUrl,imageKind:'banner',imageVerified:true,imageLocale:'ja',originalLanguageFallback:true,imageCaption:local('Original Japanese release')};
  assert.equal(safeArtwork(art),true);
  for(const locale of ['ko','en','ja','zh']){
   assert.equal(artworkForLocale(art,locale,'full','ja').image,art.image);
-  assert.equal(artworkForLocale(art,locale,'full').image,locale==='ja'?art.image:undefined);
+  assert.equal(artworkForLocale(art,locale,'full').image,art.image);
+  assert.equal(artworkForLocale(art,locale,'full','ko').image,undefined);
  }
+ for(const rejected of [{...art,imageCaption:{...art.imageCaption,zh:''}},{...art,imageSource:undefined},{...art,originalLanguageFallback:false},{...art,imageVerified:false}])assert.equal(artworkForLocale(rejected,'en','full').image,undefined);
 });
 test('date estimates validate calendar arithmetic, survive omission, and never become live or alarms',()=>{
  assert.equal(cycleStartDate('2026-09-30',42),'2026-11-11');assert.equal(cycleStartDate('2026-02-30',42),undefined);

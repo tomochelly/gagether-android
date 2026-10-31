@@ -1,17 +1,18 @@
 import {emptyCatalog} from '@/lib/initial-shell';
 import {packCatalog} from '@/lib/catalog-transport';
-import {homeMetadata} from '@/lib/seo';
-export const metadata=homeMetadata;
+import {seoCopy} from '@/lib/seo';
+export async function generateMetadata({searchParams}:{searchParams:Promise<{locale?:string}>}){const q=await searchParams,locale=isLocale(q.locale)?q.locale:(await requestLocale()).locale;return {title:seoCopy[locale].title,description:seoCopy[locale].description,robots:{index:false,follow:true}};}
 import Radar from '@/components/radar';
 import {requestLocale} from '@/lib/request-locale';
 import {readData} from '@/lib/store';
 import {requestLayout} from '@/lib/request-layout';
 import {isLocale} from '@/lib/visitor-locale';
+import {games} from '@/lib/games';
 export const dynamic='force-dynamic';
-export default async function Mobile({searchParams}:{searchParams:Promise<{entry?:string;tab?:string;locale?:string}>}) {
+export default async function Mobile({searchParams}:{searchParams:Promise<{entry?:string;game?:string;tab?:string;locale?:string}>}) {
  const q=await searchParams;
  const [visitor,layout]=await Promise.all([requestLocale(),requestLayout()]);
  const locale=isLocale(q.locale)?q.locale:visitor.locale,manual=isLocale(q.locale)?true:visitor.manual;
  if(q.entry){const data=await readData({index:true});return <Radar initialLocale={locale} initialLocaleManual={manual} initialCatalog={packCatalog(data)} initialComplete initialDeferred revalidateOnMount appMode {...layout}/>;}
- return <Radar initialView={q.tab==='history'?'history':'overview'} initialLocale={locale} initialLocaleManual={manual} initialData={emptyCatalog()} initialComplete={q.tab==='history'} initialPending initialDeferred appMode {...layout}/>;
+ return <Radar initialGameId={games.some(g=>g.id===q.game)?q.game:undefined} initialView={games.some(g=>g.id===q.game)?'game':q.tab==='history'?'history':'overview'} initialLocale={locale} initialLocaleManual={manual} initialData={emptyCatalog()} initialComplete={q.tab==='history'} initialPending initialDeferred appMode {...layout}/>;
 }

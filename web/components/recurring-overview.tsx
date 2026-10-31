@@ -1,5 +1,5 @@
 'use client';
-import {recurringRepeatLabel} from '@/lib/recurring-schedule';
+import {recurringCycleLabel} from '@/lib/recurring-schedule';
 import {EntryIntentButton} from './use-entry-detail';
 import {textAppearance,textAppearanceStyle,authoredField} from '@/lib/text-appearance';
 import {EntryEdit} from './owner-inline';
@@ -8,12 +8,12 @@ import {RotateCcw,ChevronRight} from 'lucide-react';
 import type {Entry,Locale,Region} from '@/lib/types';
 import {useCatalog} from './catalog-context';
 import {contentInAudience} from '@/lib/content-audience';
-import {remainingTime} from '@/lib/schedule';
+import Countdown from './countdown';
 import {recurringItems,recurringReset} from '@/lib/recurring-events';
 import {eventState,hasPullRewards} from '@/lib/event-presentation';
 import ArtworkMedia from './artwork-media';
 import {artworkForLocale} from '@/lib/artwork';
-import {languageLabel} from '@/lib/presentation';
+import {languageLabel,entryTitle} from '@/lib/presentation';
 import GameBadge from './game-badge';
 import {EventRewards,EventClock} from './event-overview';
 const copy={
@@ -25,7 +25,7 @@ const copy={
 export function ResetClock({entry,locale,now}:{entry:Entry;locale:Locale;now:number}){
  const c=copy[locale],r=recurringReset(entry,now);
  if(!r&&(entry.endAt||entry.endDate||eventState(entry,now)==='upcoming'))return <span className="reset-clock"><EventClock entry={entry} locale={locale} now={now}/></span>;
- return <span className="reset-clock">{r?.at?<><small>{c.reset}</small><b><time dateTime={r.at}>{remainingTime(r.at,now,locale)}</time></b></>:r?.date?<><b>{r.date}</b></>:null}</span>;
+ return <span className="reset-clock">{r?.at?<><small>{c.reset}</small><Countdown at={r.at} now={now} locale={locale}/></>:r?.date?<><time dateTime={r.date}>{r.date}</time></>:<small>{({ko:'회차별 공지',en:'Announced per phase',ja:'各期の告知',zh:'按期公告'})[locale]}</small>}</span>;
 }
 export default function RecurringOverview({entries,locale,now,region,gameId,onOpen}:{entries:Entry[];locale:Locale;now:number;region:Region;gameId?:string;onOpen:(e:Entry)=>void}){
  const {byId,games}=useCatalog(),[expanded,setExpanded]=useState(false),c=copy[locale];
@@ -35,7 +35,7 @@ export default function RecurringOverview({entries,locale,now,region,gameId,onOp
   <header><RotateCcw size={18}/><div><h2 id="gagether-resets-title">{c.title}<small>{items.length}</small></h2><p>{c.intro}</p></div></header>
   <div className="reset-grid">{items.slice(0,expanded?items.length:6).map(e=><div className="owner-entry-row" key={e.id}><EntryIntentButton entry={e} className="reset-row" type="button" data-entry-id={e.id} onClick={()=>onOpen(e)}>
    {artworkForLocale(e,locale).image&&<span className="reset-art" aria-hidden="true"><ArtworkMedia art={e} locale={locale} alt=""/></span>}
-   <span className="reset-name"><GameBadge gameId={e.gameId} locale={locale} force/>{artworkForLocale(e,locale).image&&artworkForLocale(e,locale).imageLocale!=='neutral'&&artworkForLocale(e,locale).imageLocale!==locale&&<small className="reset-image-language">{languageLabel(artworkForLocale(e,locale).imageLocale as Locale,locale)} · {({ko:'원본',en:'Original',ja:'原文',zh:'原文'})[locale]}</small>}{eventState(e,now)==='upcoming'&&<small>{c.next}</small>}<strong style={textAppearanceStyle(textAppearance(e,locale),'title')}>{e.title[locale]}</strong><span>{recurringRepeatLabel(e,locale)||e.recurring!.cycleLabel[locale]}</span></span>
+   <span className="reset-name"><GameBadge gameId={e.gameId} locale={locale} force/>{artworkForLocale(e,locale).image&&artworkForLocale(e,locale).imageLocale!=='neutral'&&artworkForLocale(e,locale).imageLocale!==locale&&<small className="reset-image-language">{languageLabel(artworkForLocale(e,locale).imageLocale as Locale,locale)} · {({ko:'원본',en:'Original',ja:'原文',zh:'原文'})[locale]}</small>}{eventState(e,now)==='upcoming'&&<small>{c.next}</small>}<strong style={textAppearanceStyle(textAppearance(e,locale),'title')}>{entryTitle(e,locale)}</strong>{recurringCycleLabel(e,locale)&&<span>{recurringCycleLabel(e,locale)}</span>}</span>
    <span className="reset-reward">{hasPullRewards(e)?<EventRewards entry={e} locale={locale}/>:null}</span>
    <ResetClock entry={e} locale={locale} now={now}/><ChevronRight size={15}/>
   </EntryIntentButton><EntryEdit entry={e} locale={locale} compact/></div>)}</div>

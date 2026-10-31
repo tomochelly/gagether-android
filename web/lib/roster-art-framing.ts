@@ -6,10 +6,10 @@ export type RosterArtSurface='gallery'|'detail';
 export const rosterArtChangeKey='gagether.roster-art.v1';
 /** Only immutable Site asset aliases are equivalent; unrelated URLs stay distinct. */
 export function rosterArtUrl(value:string){
- try{const u=new URL(value,'https://gagether.wiki');if(['gagether.wiki','gagether.tomochelly.chatgpt.site'].includes(u.hostname)&&/^\/(?:roster-bootstrap\/[a-f0-9]{64}\.(?:png|webp|jpg)|api\/wuwa\/artwork\/[a-f0-9]{64})$/.test(u.pathname)&&!u.search)return u.pathname;}catch{}
+ try{const u=new URL(value,'https://gagether.wiki');if(['gagether.wiki','gagether.tomochelly.chatgpt.site'].includes(u.hostname)&&/^\/(?:roster-bootstrap\/[a-f0-9]{64}\.(?:png|webp|jpg|avif)|api\/wuwa\/artwork\/[a-f0-9]{64})$/.test(u.pathname)&&!u.search)return u.pathname;}catch{}
  return value;
 }
-const artUrl=z.string().min(1).max(2000).refine(v=>{if(/^\/(?:roster-bootstrap\/[a-f0-9]{64}\.(?:png|webp|jpg)|api\/wuwa\/artwork\/[a-f0-9]{64})$/.test(v))return true;try{const u=new URL(v);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port;}catch{return false;}});
+const artUrl=z.string().min(1).max(2000).refine(v=>{if(/^\/(?:roster-bootstrap\/[a-f0-9]{64}\.(?:png|webp|jpg|avif)|api\/wuwa\/artwork\/[a-f0-9]{64})$/.test(v))return true;try{const u=new URL(v);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port;}catch{return false;}});
 export const rosterArtPlacementSchema=z.object({url:artUrl,gallery:rosterFrameSchema.optional(),detail:rosterFrameSchema.optional()}).strict();
 export const rosterArtFramesSchema=z.object({images:z.array(rosterArtPlacementSchema).max(40).refine(rows=>new Set(rows.map(a=>rosterArtUrl(a.url))).size===rows.length,'Duplicate exact image')}).strict();
 export type RosterArtPlacement=z.infer<typeof rosterArtPlacementSchema>;

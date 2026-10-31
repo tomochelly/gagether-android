@@ -7,3 +7,12 @@
 .pv-banner-player{position:absolute;inset:0;z-index:8;background:#000}.pv-banner-player iframe{width:100%;height:100%;border:0;display:block}.pv-banner-player>button{position:absolute;right:12px;top:12px;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid #ffffff66;background:#101c19dd;color:#fff}
 .pv-banner-choices{display:flex;overflow:auto;border-top:1px solid var(--line);scrollbar-width:thin;gap:0}.pv-banner-choices button{flex:0 0 260px;max-width:80vw;min-height:72px;border:0;border-right:1px solid var(--line);background:transparent;color:var(--muted);padding:14px 18px;text-align:left;font-size:.7rem;line-height:1.5}.pv-banner-choices button>span{display:block;font-size:.57rem;letter-spacing:.05em;margin-bottom:5px}.pv-banner-choices button[aria-pressed=true]{color:var(--text);box-shadow:inset 0 2px var(--pv-accent);background:color-mix(in srgb,var(--pv-accent) 5%,var(--panel))}
 @media(max-width:720px){.pv-banner-scene{min-height:360px}.pv-banner-visual{inset:0 0 25% 0}.pv-banner-wash{background:linear-gradient(0deg,#101c19 3%,#101c19dd 35%,#101c1960 75%,transparent)}.pv-banner-copy{width:100%;padding:145px 22px 24px}.pv-banner-kicker{font-size:.63rem}.pv-banner-game{margin-top:14px}.pv-banner-copy h2{font-size:1.25rem}.pv-banner-copy p{margin-bottom:18px}.pv-banner-copy>a{font-size:.6rem}}
+
+/* Keep long native titles and actions on a readable, balanced rhythm. */
+.pv-banner-copy{display:flex;flex-direction:column;align-items:flex-start;gap:20px;min-width:0;width:min(78%,54rem);padding-block:36px 40px}
+.pv-banner-eyebrow{display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px;line-height:1.5}
+.pv-banner-game{margin:0;line-height:1.5}
+.pv-banner-copy h2{margin:0;max-width:26ch;max-inline-size:100%;line-height:1.4;white-space:normal;word-break:keep-all;overflow-wrap:anywhere;text-wrap:balance}
+.pv-banner-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px 22px;margin-top:4px;max-width:100%}
+.pv-banner-copy .pv-banner-actions>a{display:inline-flex;align-items:center;gap:5px;margin:0;min-height:44px;font-size:.72rem;line-height:1.5;color:#fff}
+@media(max-width:720px){.pv-banner-copy{width:100%;padding:145px 22px 28px;gap:16px}.pv-banner-eyebrow{gap:8px 14px}.pv-banner-copy h2{font-size:clamp(1.15rem,5.2vw,1.5rem);line-height:1.5}.pv-banner-actions{gap:10px 18px;margin-top:2px}}

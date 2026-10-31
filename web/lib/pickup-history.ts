@@ -1,6 +1,7 @@
 import type {Entry,Locale} from './types';
 import {entryState} from './types';
 import {dayKey} from './schedule';
+import {officialRecurringRule} from './recurring-official-rules';
 export type PickupPeriod='current'|'upcoming'|'past';
 // Support cards are kept even where the shared content kind is "weapon".
 export const isPickup=(e:Entry)=>e.poolType==='support'||e.kind==='pickup'&&e.poolType!=='weapon';
@@ -18,7 +19,7 @@ export function pickupPeriod(e:Entry,now:number):PickupPeriod{
 export const pickupStart=(e:Entry,zone='Asia/Tokyo')=>(e.startAt?dayKey(Date.parse(e.startAt),zone):e.startDate||e.pickupArchive?.startDate);
 export const pickupEnd=(e:Entry,zone='Asia/Tokyo')=>(e.endAt?dayKey(Date.parse(e.endAt),zone):e.endDate||e.pickupArchive?.endDate);
 // Date-only official schedules may be shown in the calendar, but never synthesize notification clocks.
-export const timedSchedule=(e:Entry)=>e.pickupArchive?isPickup(e)&&e.pickupArchive.status!=='forecast'&&(e.sourceKind||'official')==='official'&&!!(e.startAt||e.endAt||pickupStart(e)||pickupEnd(e)):!!(e.startAt||e.endAt)||!!(e.startDate||e.endDate)&&(e.sourceKind||'official')==='official';
+export const timedSchedule=(e:Entry)=>e.pickupArchive?isPickup(e)&&e.pickupArchive.status!=='forecast'&&(e.sourceKind||'official')==='official'&&!!(e.startAt||e.endAt||pickupStart(e)||pickupEnd(e)):!!(e.startAt||e.endAt)||!!(e.startDate||e.endDate)&&((e.sourceKind||'official')==='official'||!!officialRecurringRule(e));
 export const historyText:Record<Locale,{title:string;currentContent:string;current:string;upcoming:string;past:string;forecast:string;allGames:string;allPools:string;allMonths:string;dateOnly:string;unknownDate:string;official:string;community:string;empty:string;noUpcoming:string;noForecast:string;coverage:string;records:string;period:string;range:string;more:string;forecastNote:string}>={
  ko:{title:'픽업 기록',currentContent:'현재 콘텐츠',current:'진행 중',upcoming:'예정',past:'과거',forecast:'커뮤니티 예상',allGames:'모든 게임',allPools:'모든 픽업',allMonths:'전체 기간',dateOnly:'',unknownDate:'일정 미확정',official:'공식 공지',community:'커뮤니티 기록',empty:'확인해 등록한 픽업 기록이 없습니다.',noUpcoming:'등록된 예정 픽업이 없습니다.',noForecast:'근거를 확인해 등록한 커뮤니티 예상이 없습니다.',coverage:'확인된 기록만 표시합니다. 누락된 기간이 있을 수 있으며, 서버 간 순서를 확정 일정으로 간주하지 않습니다.',records:'기록',period:'픽업 기간',range:'등록된 과거 기록',more:'기록 더 보기',forecastNote:'커뮤니티 예상입니다. 공식 발표에 따라 캐릭터·순서·기간이 달라질 수 있습니다.'},
  en:{title:'Banner history',currentContent:'Current content',current:'Live',upcoming:'Upcoming',past:'Past',forecast:'Community outlook',allGames:'All games',allPools:'All pools',allMonths:'All dates',dateOnly:'',unknownDate:'Schedule unconfirmed',official:'Official notice',community:'Community record',empty:'No reviewed banners are registered.',noUpcoming:'No upcoming banners are registered yet.',noForecast:'No sourced community outlook is registered.',coverage:'Reviewed records only; some periods may be missing. Another server’s order is not a confirmed schedule.',records:'records',period:'Banner period',range:'Registered historical coverage',more:'Load more records',forecastNote:'Community expectation. Characters, order and dates may change with official announcements.'},

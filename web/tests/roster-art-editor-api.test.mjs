@@ -45,3 +45,13 @@ test('WuWa Rover variants and ordinary rosters share isolated placements without
  const c=(await readWuwaReferenceView()).data.characters.find(c=>c.id===rover.id);assert.deepEqual(rosterArtFrame(c.artworkFrames,a.url,'detail'),frame);assert.equal(rosterArtFrame(c.artworkFrames,b.url,'detail'),undefined);assert.equal(rosterArtFrame(c.artworkFrames,a.url,'gallery'),undefined);
  const {games}=await import('../lib/games.ts');for(const game of games){const r=await api.GET(get(game.id));assert.equal(r.status,200,game.id);assert.ok((await r.json()).characters.length>0,game.id)}
 });
+test('legacy stored HSR and hololive art can save reviewed original frames through owner SQLite CAS without rewriting source records',async()=>{
+ for(const gameId of ['hsr','holodreams']){
+  const reg=JSON.parse(readFileSync(`content/${gameId}-gallery-focus.json`)),r=reg.entries[0],source=await readCharacterRoster(gameId),data=structuredClone(source.data),c=data.characters.find(c=>c.id===r.id);
+  c.image.url=r.aliases[0];delete c.image.preview;if(gameId==='holodreams'){c.image.width=1558;c.image.height=952;c.image.kind='portrait'}
+  await saveCharacterRoster(data);const prior=await readCharacterRoster(gameId),url=rosterArts(prior.data.characters.find(c=>c.id===r.id),'ko')[0].url;assert.equal(url,r.url);
+  assert.ok((await rosterArtSource(gameId,r.id)).urls.has(url));
+  const saved=await api.POST(request({gameId,characterId:r.id,revision:0,changes:{images:[{url,gallery:frame}]}}));assert.equal(saved.status,200,await saved.clone().text());assert.equal((await saved.json()).revision,1);
+  const after=await readCharacterRoster(gameId);assert.equal(after.hash,prior.hash);assert.deepEqual(after.data.characters.find(c=>c.id===r.id).image,prior.data.characters.find(c=>c.id===r.id).image);
+ }
+});

@@ -118,5 +118,250 @@
     "gameId": "nikke",
     "kind": "community",
     "url": "https://trees.gamemeca.com/view.php?gid=1745445"
+  },
+  {
+    "gameId": "bluearchive",
+    "kind": "official",
+    "url": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967"
+  },
+  {
+    "gameId": "bluearchive",
+    "kind": "official",
+    "url": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107"
+  },
+  {
+    "gameId": "bluearchive",
+    "kind": "official",
+    "url": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+  },
+  {
+    "gameId": "nikke",
+    "kind": "official",
+    "url": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+  },
+  {
+    "gameId": "gfl2",
+    "kind": "official",
+    "url": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+  },
+  {
+    "gameId": "gfl2",
+    "kind": "community",
+    "url": "https://iopwiki.com/wiki/Platoon"
+  },
+  {
+    "gameId": "gfl2",
+    "kind": "official",
+    "url": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana"
+  },
+  {
+    "gameId": "gfl2",
+    "kind": "community",
+    "url": "https://gametora.com/gfl2/faq"
+  },
+  {
+    "gameId": "gfl2",
+    "kind": "community",
+    "url": "https://iopwiki.com/wiki/GFL2_Main_Screen"
+  },
+  {
+    "gameId": "reverse1999",
+    "kind": "official",
+    "url": "https://steamcommunity.com/games/3092660/announcements/detail/509581215161910832"
+  },
+  {
+    "gameId": "reverse1999",
+    "kind": "official",
+    "url": "https://www.bilibili.com/opus/1038822024098611217"
+  },
+  {
+    "gameId": "umamusume",
+    "kind": "official",
+    "url": "https://guide.umms.kakaogames.com/7-%EB%A0%88%EC%9D%B4%EC%8A%A4/"
+  },
+  {
+    "gameId": "arknights",
+    "kind": "official",
+    "url": "https://ak.hypergryph.com/news/1454"
+  },
+  {
+    "gameId": "arknights",
+    "kind": "official",
+    "url": "https://arknights.jp/news/4165"
+  },
+  {
+    "gameId": "arknights",
+    "kind": "official",
+    "url": "https://arknights.jp/news/4977"
+  },
+  {
+    "gameId": "arknights",
+    "kind": "official",
+    "url": "https://arknights.jp/news/4805"
+  },
+  {
+    "gameId": "genshin",
+    "kind": "official",
+    "url": "https://genshin.hoyoverse.com/ko/news/detail/166383"
+  },
+  {
+    "gameId": "genshin",
+    "kind": "official",
+    "url": "https://genshin.hoyoverse.com/en/news/detail/166383"
+  },
+  {
+    "gameId": "genshin",
+    "kind": "official",
+    "url": "https://genshin.hoyoverse.com/ja/news/detail/166383"
+  },
+  {
+    "gameId": "genshin",
+    "kind": "official",
+    "url": "https://genshin.hoyoverse.com/zh-tw/news/detail/166383"
+  },
+  {
+    "gameId": "genshin",
+    "kind": "official",
+    "url": "https://genshin.hoyoverse.com/ko/news/detail/166666"
+  },
+  {
+    "gameId": "hsr",
+    "kind": "official",
+    "url": "https://hsr.hoyoverse.com/ko-kr/news/166468"
+  },
+  {
+    "gameId": "hsr",
+    "kind": "official",
+    "url": "https://hsr.hoyoverse.com/en-us/news/166468"
+  },
+  {
+    "gameId": "hsr",
+    "kind": "official",
+    "url": "https://hsr.hoyoverse.com/ja-jp/news/166468"
+  },
+  {
+    "gameId": "hsr",
+    "kind": "official",
+    "url": "https://hsr.hoyoverse.com/zh-cn/news/166468"
+  },
+  {
+    "gameId": "zzz",
+    "kind": "official",
+    "url": "https://zenless.hoyoverse.com/ko-kr/news/166963"
+  },
+  {
+    "gameId": "zzz",
+    "kind": "official",
+    "url": "https://zenless.hoyoverse.com/en-us/news/166963"
+  },
+  {
+    "gameId": "zzz",
+    "kind": "official",
+    "url": "https://zenless.hoyoverse.com/ja-jp/news/166963"
+  },
+  {
+    "gameId": "zzz",
+    "kind": "official",
+    "url": "https://zenless.hoyoverse.com/zh-cn/news/166963"
+  },
+  {
+    "gameId": "hi3",
+    "kind": "official",
+    "url": "https://honkaiimpact3.hoyoverse.com/kr/ko-kr/news/167008"
+  },
+  {
+    "gameId": "endfield",
+    "kind": "official",
+    "url": "https://endfield.gryphline.com/ko-kr/news/9560"
+  },
+  {
+    "gameId": "limbus",
+    "kind": "official",
+    "url": "https://faq.limbuscompany.site/"
+  },
+  {
+    "gameId": "limbus",
+    "kind": "community",
+    "url": "https://wikiwiki.jp/lcbwiki/%E9%8F%A1%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3"
+  },
+  {
+    "gameId": "trickcal",
+    "kind": "official",
+    "url": "https://game.naver.com/lounge/Trickcal/board/detail/8377618"
+  },
+  {
+    "gameId": "trickcal",
+    "kind": "official",
+    "url": "https://game.naver.com/lounge/Trickcal/board/detail/8298046"
+  },
+  {
+    "gameId": "trickcal",
+    "kind": "official",
+    "url": "https://game.naver.com/lounge/Trickcal/board/detail/8265653"
+  },
+  {
+    "gameId": "stellasora",
+    "kind": "official",
+    "url": "https://game.naver.com/lounge/stellasora/board/detail/8252643"
+  },
+  {
+    "gameId": "stellasora",
+    "kind": "official",
+    "url": "https://game.naver.com/lounge/stellasora/board/detail/8376481"
+  },
+  {
+    "gameId": "stellasora",
+    "kind": "official",
+    "url": "https://game.naver.com/lounge/stellasora/board/detail/8340030"
+  },
+  {
+    "gameId": "stellasora",
+    "kind": "official",
+    "url": "https://game.naver.com/lounge/stellasora/board/detail/8381532"
+  },
+  {
+    "gameId": "nte",
+    "kind": "official",
+    "url": "https://game.naver.com/lounge/NTE/board/detail/8346529"
+  },
+  {
+    "gameId": "nte",
+    "kind": "community",
+    "url": "https://www.icy-veins.com/neverness-to-everness/nte-beyond-the-rails"
+  },
+  {
+    "gameId": "dna",
+    "kind": "official",
+    "url": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english"
+  },
+  {
+    "gameId": "dna",
+    "kind": "community",
+    "url": "https://duetnightabyss.th.gl/activities-tracker"
+  },
+  {
+    "gameId": "holodreams",
+    "kind": "community",
+    "url": "https://gamewith.jp/gamedb/15524/articles/65016"
+  },
+  {
+    "gameId": "holodreams",
+    "kind": "official",
+    "url": "https://x.com/holo_dreams_en/status/2115292476579922208"
+  },
+  {
+    "gameId": "bluearchive",
+    "kind": "official",
+    "url": "https://bluearchive.jp/news/newsJump/705"
+  },
+  {
+    "gameId": "bluearchive",
+    "kind": "official",
+    "url": "https://bluearchive.jp/news/newsJump/697"
+  },
+  {
+    "gameId": "umamusume",
+    "kind": "official",
+    "url": "https://umamusume.com/news/1134"
   }
 ]

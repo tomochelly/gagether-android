@@ -1,5 +1,7 @@
 import type {Entry,Game,Locale,Region} from './types';
 import {effectiveRegion,inSchedule} from './presentation';
+import {localCampaignMarket} from './local-campaign-audience';
+import reviewedRecapLocales from '../content/reviewed-recap-locales.json' with {type:'json'};
 
 export const localeMarket=(locale:Locale):Region=>locale==='ko'?'kr':locale==='ja'?'jp':'global';
 /** An independently selected service determines territory; a shared schedule does not. */
@@ -23,7 +25,8 @@ export function contentInAudience(entry:Entry,game:Game,requested:Region,locale:
  const market=audienceMarket(game,requested,locale);
  if(entry.audienceRegions?.length&&!entry.audienceRegions.includes(market))return false;
  // marketRegion also describes eligibility for local events and offline campaigns.
- if(entry.marketRegion&&entry.marketRegion!=='global'&&entry.marketRegion!==market)return false;
+ const entryMarket=entry.marketRegion||localCampaignMarket(entry);
+ if(entryMarket&&entryMarket!=='global'&&entryMarket!==market)return false;
  if(entry.price&&cashCodes.has(entry.price.currency.trim().toUpperCase())){
   if(!entry.marketRegion||entry.marketRegion!==market)return false;
   // Never use another market's cash amount merely because its schedule is shared.
@@ -33,15 +36,18 @@ export function contentInAudience(entry:Entry,game:Game,requested:Region,locale:
  // Local physical campaigns without reviewed territory must not be promoted globally.
  if(entry.collaboration&&['offline','merchandise'].includes(entry.collaboration.scope)&&!entry.marketRegion&&!entry.audienceRegions?.length)return false;
  if(entry.broadcast&&entry.broadcast.locale!==contentLanguage(game,requested,locale))return false;
+ // Native recap editions belong to their matching service language. Only an
+ // exact reviewed translation can stand in for a missing native edition.
+ if(entry.broadcastRecap&&entry.sourceLocale&&entry.sourceLocale!==contentLanguage(game,requested,locale)&&!(entry.translatedLocales?.includes(locale)&&reviewedRecapLocales.some(r=>r.id===entry.id&&r.gameId===entry.gameId&&r.sourceUrl===entry.sourceUrl&&r.locales.includes(locale))))return false;
  return true;
 }
 /** Propagate a reviewed territorial restriction to duplicate feed rows of the same notice. */
 export function audienceRestrictions(entries:Entry[]){
  const regions=new Map<string,Set<Region>>();
  for(const e of entries){
-  const values=e.audienceRegions?.length?e.audienceRegions:e.kind!=='package'&&e.marketRegion&&e.marketRegion!=='global'?[e.marketRegion]:[];
+  const market=e.marketRegion||localCampaignMarket(e),values=e.audienceRegions?.length?e.audienceRegions:e.kind!=='package'&&market&&market!=='global'?[market]:[];
   if(!values.length)continue;
-  const key=e.gameId+'|'+e.sourceUrl,set=regions.get(key)||new Set<Region>();values.forEach(r=>set.add(r));regions.set(key,set);
+  for(const url of [e.sourceUrl,...e.collaboration?.sourceUrls||[]]){const key=e.gameId+'|'+url,set=regions.get(key)||new Set<Region>();values.forEach(r=>set.add(r));regions.set(key,set);}
  }
  return (e:Entry)=>e.audienceRegions?.length?e:{...e,audienceRegions:regions.has(e.gameId+'|'+e.sourceUrl)?[...regions.get(e.gameId+'|'+e.sourceUrl)!]:undefined};
 }

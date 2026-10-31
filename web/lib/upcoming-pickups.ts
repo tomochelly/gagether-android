@@ -1,17 +1,23 @@
+import {linkedWeaponOnly} from './linked-weapon-presentation';
 import type {Entry,EntityArtwork,Locale,Localized} from './types';
 import {featuredMembers} from './presentation';
 import {isPickup,pickupPeriod,pickupStart,pickupEnd} from './pickup-history';
 import {artworkForLocale,serviceArtworkLocale} from './artwork';
 import {dayKey} from './schedule';
 import {estimatedStart} from './pickup-estimates';
+import {maintainedArtwork} from './maintained-artwork';
+import {samePickupName} from './pickup-detail';
+import {reviewedPickupArtwork} from './reviewed-pickup-artwork';
 
 export type UpcomingPickup={id:string;entry:Entry;name:Localized;type:string;art?:EntityArtwork;start?:string;end?:string};
-// Only reviewed full compositions belong in this preview. A character cutout or
-// version poster must never silently fill an unreleased character's image slot.
+// Reviewed character full-body originals are useful before a gacha splash is released.
+// Never borrow another member's image or an unreviewed/version-only placeholder.
 export function upcomingArtwork(art:EntityArtwork|undefined,entry:Entry,locale:Locale){
  if(!art)return undefined;
+ const view=reviewedPickupArtwork(entry),index=entry.pickupMembers?.findIndex(member=>member===art)??-1;
+ if(art===entry)art=view;else if(index>=0)art=view.pickupMembers?.[index]||art;
  const full=artworkForLocale(art,locale,'full',serviceArtworkLocale(entry.region,entry.gameId));
- if(!full.image||!full.imageVerified||!['splash','banner','support'].includes(full.imageKind||''))return undefined;
+ if(!full.image||!full.imageVerified||!['character','splash','banner','support'].includes(full.imageKind||''))return undefined;
  // Use this full banner's composition, not a legacy text-free face crop.
  const {previewArtwork,previewBounds,textFreePreview,localizedArtwork,...composition}=full;
  return composition;
@@ -19,13 +25,17 @@ export function upcomingArtwork(art:EntityArtwork|undefined,entry:Entry,locale:L
 export function upcomingPickups(entries:Entry[],locale:Locale,now:number,zone='Asia/Tokyo'):UpcomingPickup[]{
  const items=new Map<string,UpcomingPickup>();
  for(const entry of entries){
-  if(entry.hidden||!isPickup(entry)||pickupPeriod(entry,now)!=='upcoming')continue;
+  if(entry.hidden||linkedWeaponOnly(entry)||!isPickup(entry)||pickupPeriod(entry,now)!=='upcoming')continue;
   const start=pickupStart(entry,zone),end=pickupEnd(entry,zone);
   if(end&&end<dayKey(now))continue;
   const members=featuredMembers(entry)||[];
   const subjects:(EntityArtwork&{name:Localized;type:string})[]=members.length?members:[{name:entry.title,type:entry.pickupType||'unknown'}];
   subjects.forEach(member=>{
-   const art=upcomingArtwork(member,entry,locale)||(subjects.length===1?upcomingArtwork(entry,entry,locale):undefined);
+   const stored=upcomingArtwork(member,entry,locale)||(subjects.length===1?upcomingArtwork(entry,entry,locale):undefined);
+   const registered=maintainedArtwork.find(a=>a.gameId===entry.gameId&&a.kind==='pickup'&&a.regions.includes(entry.region)&&a.asset.imageLocale==='neutral'&&['character','splash'].includes(a.asset.imageKind||'')&&a.names.some(n=>samePickupName(n,member.name)));
+   // A verified full original can fill a missing thumbnail or replace a text poster.
+   // Existing character/splash art stays first; exact outfit/service matches only.
+   const art=stored&&['character','splash'].includes(stored.imageKind||'')?stored:upcomingArtwork(registered?.asset,entry,locale)||stored;
    const period=start||entry.pickupGroup||entry.version||end||entry.id;
    const id=[entry.gameId,entry.region,entry.poolType||'character',period,member.name.en||member.name.ko||JSON.stringify(member.name)].join('|');
    const next={id,entry,name:member.name,type:member.type,art,start,end};

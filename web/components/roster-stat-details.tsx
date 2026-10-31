@@ -1,6 +1,7 @@
 'use client';
 import {useState} from 'react';
-import {Activity,ArrowUpRight,Heart,Shield,Sparkles,Swords} from 'lucide-react';
+import RosterSourceLink from './roster-source-link';
+import {Activity,Heart,Shield,Sparkles,Swords} from 'lucide-react';
 import {rosterCopy,type RosterCharacter} from '@/lib/character-roster';
 import {rosterGrowthValue,rosterSkillDescription,rosterSkillDescriptionLocale,rosterSkillMaxLevel,rosterSkillValue} from '@/lib/character-roster-metrics';
 import {progressionRows} from '@/lib/roster-progression';
@@ -31,7 +32,7 @@ function SkillDetails({skill:s,locale,commonRank,first}:{skill:Skill;locale:Loca
   {s.maxLevel&&max>1&&<label className="roster-skill-level">{rankLabel}<select aria-label={rosterCopy(s.name,locale)+' · '+rankLabel} value={rank} onChange={e=>setRank(Number(e.target.value))}>{Array.from({length:max},(_,i)=><option key={i} value={i+1}>{s.levelLabels?.[i]?rosterCopy(s.levelLabels[i],locale):'Lv.'+(i+1)+(s.baseMaxLevel&&i+1>s.baseMaxLevel?' · '+({ko:'성혼 보너스 포함',en:'With Eidolon bonus',ja:'星魂ボーナス込み',zh:'含星魂加成'})[locale]:'')}</option>)}</select></label>}
   {description&&<p className="roster-skill-description">{description}</p>}
   {!!s.values.length&&<dl>{s.values.map(v=>{const value=rosterSkillValue(v.levels,rank);return value!==undefined&&value!==''?<div key={v.id}><dt><RosterFactIcon src={v.icon}/>{rosterCopy(v.label,locale)}</dt><dd>{value}</dd></div>:null})}</dl>}
-  <details className="roster-skill-basis"><summary>{t.basis}</summary><p>{rosterCopy(s.basis,locale)}</p><a className="reference-source-link" href={s.sourceUrl} target="_blank" rel="noreferrer">{t.source}<ArrowUpRight size={13}/></a></details>
+  <details className="roster-skill-basis"><summary>{t.basis}</summary><p>{rosterCopy(s.basis,locale)}</p><RosterSourceLink href={s.sourceUrl} locale={locale}>{t.source}</RosterSourceLink></details>
  </details>;
 }
 export default function RosterStatDetails({character:c,locale,service,gameId}:{character:RosterCharacter;locale:Locale;service:Region;gameId?:string}){
@@ -51,9 +52,9 @@ export default function RosterStatDetails({character:c,locale,service,gameId}:{c
    {growth&&<p className="roster-stat-context">{t.baseStars} · {growth.starGrade} ★</p>}
    <StatTiles stats={primary} locale={locale}/>
    {!!secondary.length&&<details className="roster-combat-stats"><summary>{rosterCopy(c.statDetailLabel,locale)||t.combat}</summary><StatTiles stats={secondary} locale={locale}/></details>}
-   <details><summary>{t.basis}</summary>{[...new Set(stats.map(s=>rosterCopy(s.basis,locale)))].map(b=><p key={b}>{b}</p>)}{(growth||progression)&&<a className="reference-source-link" href={(growth||progression)!.sourceUrl} target="_blank" rel="noreferrer">{t.source}<ArrowUpRight size={13}/></a>}</details>
+   <details><summary>{t.basis}</summary>{[...new Set(stats.map(s=>rosterCopy(s.basis,locale)))].map(b=><p key={b}>{b}</p>)}{(growth||progression)&&<RosterSourceLink href={(growth||progression)!.sourceUrl} locale={locale}>{t.source}</RosterSourceLink>}</details>
   </section>}
-  {!!tables.length&&<section className="roster-skill-tables"><header><h3>{t.skills}</h3>{maxRank>1&&<label>{t.rank}<select aria-label={t.rank} value={rank} onChange={e=>setRank(Number(e.target.value))}>{Array.from({length:maxRank},(_,i)=><option key={i} value={i+1}>Lv.{i+1}</option>)}</select></label>}</header>
+  {!!tables.length&&<section data-character-section="skills" className="roster-skill-tables"><header><h3>{t.skills}</h3>{maxRank>1&&<label>{t.rank}<select aria-label={t.rank} value={rank} onChange={e=>setRank(Number(e.target.value))}>{Array.from({length:maxRank},(_,i)=><option key={i} value={i+1}>Lv.{i+1}</option>)}</select></label>}</header>
    {tables.map((s,index)=><SkillDetails key={s.id} skill={s} locale={locale} commonRank={rank} first={index===0}/>)}
   </section>}
  </>;

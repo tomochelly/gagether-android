@@ -45,6 +45,18 @@ test('known next season replaces an undated mode definition, and tied modes foll
  const other={...base,id:'other',gameId:'hsr'};
  assert.deepEqual(recurringItems([base,other],'ko',now,['hsr','wuwa']).map(e=>e.id),['other','current']);
 });
+
+test('actual reset rows use the same clean title in four languages without mutating stored evidence',()=>{
+ const title={ko:'흙먼지 전선 제33기 · 한국 공식 원문',en:'Gunsmoke Frontline #33 · KR source',ja:'砂塵戦線 第33期・韓国公式出典',zh:'尘烟前线 第33期 · 韩国官方来源'};
+ const entry={...base,title},before=structuredClone(entry);
+ for(const locale of ['ko','en','ja','zh']){
+  const html=renderToStaticMarkup(React.createElement(RecurringOverview,{entries:[entry],locale,now,region:'kr',gameId:'wuwa',onOpen:()=>{}}));
+  assert.match(html,/data-entry-id="current"/);
+  assert.doesNotMatch(html,/한국 공식 원문|KR source|韓国公式出典|韩国官方来源/);
+  assert.match(html,/33/);
+ }
+ assert.deepEqual(entry,before);
+});
 test('owner-confirmed game reset retains provenance, ticks seconds, and expires without rollover',()=>{
  const evidence={kind:'owner-confirmed',timeZone:'Asia/Seoul',note:text,verifiedAt:'2026-10-21T11:00:00Z'};
  const e={...base,sourceKind:'community',sourceUrl:'https://www.inven.co.kr/board/party/6196/1091',recurring:{...base.recurring,sourceKind:'community',sourceUrls:['https://www.inven.co.kr/board/party/6196/1091'],resetAt:'2026-10-26T05:00:00+09:00',resetEvidence:evidence}};

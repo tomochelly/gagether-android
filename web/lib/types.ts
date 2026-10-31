@@ -4,6 +4,7 @@ import {officialXAccounts} from './official-x-accounts';
 import {isReviewedCollaborationSource} from './collaboration-sources';
 import type {PickupEstimate} from './pickup-estimates';
 import recurringSources from '../content/recurring-sources.json' with {type:'json'};
+import reviewedBroadcastMedia from '../content/reviewed-broadcast-media.json' with {type:'json'};
 const reviewedRecurringSource=(url:string,gameId:string,kind:string)=>{try{const u=new URL(url);return u.protocol==='https:'&&!u.username&&!u.password&&recurringSources.some(s=>s.gameId===gameId&&s.kind===kind&&new URL(s.url).href===u.href);}catch{return false;}};
 export type Locale = "ko" | "en" | "ja" | "zh";
 export type Region = "global" | "kr" | "jp" | "cn";
@@ -40,6 +41,7 @@ export type ImageFraming = Partial<Record<ImageFrameKind,ImageFrame>>;
 export interface ArtworkAsset {imageFraming?:ImageFraming;imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image:string;imageSource:string;imageVerified:boolean;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageLocale?:Locale|'neutral';width:number;height:number;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;verifiedAt:string}
 export interface EntityArtwork {imageFraming?:ImageFraming;imageCaption?:Localized;originalLanguageFallback?:boolean;textFreePreview?:boolean;image?:string;imageSource?:string;imageKind?:"character"|"weapon"|"support"|"banner"|"splash";imageFit?:"contain"|"cover";imagePosition?:string;imageVerified?:boolean;previewFocus?:PreviewFocus;previewBounds?:PreviewBounds;imageLocale?:Locale|'neutral';previewArtwork?:ArtworkAsset;localizedArtwork?:Partial<Record<Locale,ArtworkAsset>>}
 export interface Game {
+ launch?:{status:'upcoming';fullPage?:boolean;dates:Partial<Record<Region,string>>;labels:Localized;summary:Localized;officialSites:Record<Locale,string>;sourceUrls:string[];trailers?:Partial<Record<Locale,string>>};
  textStyle?:LocalizedTextStyle; acquisitionModel?:"gacha"|"direct";
  id:string;name:Localized;short:string;genre:Localized;color:string;logo:string;localizedLogos?:Partial<Record<Locale,string>>;logoSources?:Partial<Record<Locale,string>>;icon?:string;iconSource?:string;art:string;artPosition?:string;
  official:string;publisher:string;regions:Region[];sources:{label:string;url:string;region:Region}[];
@@ -51,7 +53,9 @@ export interface TextFormat {bold?:boolean;italic?:boolean;underline?:boolean;st
 export interface TextAppearance {titleSize?:number;bodySize?:number;lineHeight?:number;titleFormat?:TextFormat;bodyFormat?:TextFormat}
 export type LocalizedTextStyle=Partial<Record<Locale,TextAppearance>>;
 export type ContentBlock={id:string;type:'text';title?:Localized;body:Localized;textStyle?:LocalizedTextStyle}|{id:string;type:'image';asset:ArtworkAsset};
+export interface BroadcastRecapFeature {youtubeId:string;reviewedAt:string;bannerUntil:string;title?:Localized;version?:string;artwork?:ArtworkAsset;highlights:Localized[];codes:{code:string;reward:Localized;expiresAt:string|null;sourceUrl:string}[]}
 export interface Entry extends EntityArtwork {
+ broadcastRecap?:BroadcastRecapFeature;
  textStyle?:LocalizedTextStyle;
  contentRole?:'entity'|'activity'|'notice';
  sourceBodies?:Partial<Record<Locale,SourceBody>>;
@@ -143,6 +147,11 @@ export function liveContent(e:Entry,now:number){
  return !e.pickupArchive||e.pickupArchive.status!=='forecast'&&entryState(e,now)==='active';
 }
 export function safeSource(url:string,gameId:string):boolean{
+ if(reviewedBroadcastMedia.some(r=>r.gameId===gameId&&r.urls.includes(url)))return true;
+ const reviewedPrograms:Record<string,string[]>={nte:['SXTEyXX__I8'],genshin:['Xexrcb7HLnE'],hsr:['ODRQ2MXjKTY','psifFhA2QAA','lY2lnWCoWoU','nO61J_7ycIM'],nikke:['yxwOMk5RRQY'],bluearchive:['6fojOSl5njY'],umamusume:['YFsYv2UV8rU'],stellasora:['sCNHMemtQHQ'],holodreams:['AstMMYnUD5A'],wuwa:['m_jkyR41xkk']};
+ if(reviewedPrograms[gameId]?.some(id=>url==='https://www.youtube.com/watch?v='+id))return true;
+ // Exact HoYoverse-issued release, including its publisher media contact.
+ if(gameId==='genshin'&&url==='https://www.gamespress.com/en-US/Genshin-Impact-Version-72-Arrives-on-November-4-as-Teyvats-Seven-Natio')return true;
  // This exact syndicated post exposes the verified publisher identity; no general Sina allowlist.
  if(gameId==='arknights'&&url==='https://sina.cn/news/detail/5356487804978990.html')return true;
  if(reviewedRecurringSource(url,gameId,'official'))return true;

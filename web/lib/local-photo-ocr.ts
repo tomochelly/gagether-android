@@ -1,0 +1,5 @@
+import type {OcrData} from './wuwa-photo-vision';
+export type LocalOcrWorker={recognize:(image:HTMLCanvasElement,options?:unknown,output?:unknown)=>Promise<{data:OcrData}> ;terminate:()=>Promise<unknown>};
+type Engine={createWorker:(langs:string,oem:number,options:Record<string,unknown>)=>Promise<LocalOcrWorker>};
+let loaded:Promise<Engine>|undefined;
+export function localOcrEngine():Promise<Engine>{if(loaded)return loaded;loaded=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='https://cdn.jsdelivr.net/npm/tesseract.js@6.0.1/dist/tesseract.min.js';script.integrity='sha384-r1ru3tcf6FhnCFR4B7pIFG+BhFF9LlFtz/P1y4pblWn3AGs9y3lBx5SKLNf4+rED';script.crossOrigin='anonymous';const timer=setTimeout(()=>{script.remove();loaded=undefined;reject(Error('OCR download timed out'));},45000);script.onload=()=>{clearTimeout(timer);const engine=(window as unknown as{Tesseract?:Engine}).Tesseract;if(engine)resolve(engine);else{loaded=undefined;reject(Error('OCR unavailable'));}};script.onerror=()=>{clearTimeout(timer);script.remove();loaded=undefined;reject(Error('OCR download failed'));};document.head.appendChild(script);});return loaded;}

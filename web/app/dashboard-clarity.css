@@ -1,0 +1,49 @@
+/* Keep disclosures in flow, below their controls and above the sticky jump links. */
+.feature-shortcuts{display:grid;grid-template-columns:auto 1fr;gap:8px 24px;z-index:auto;margin-bottom:14px}
+.feature-shortcuts .feature-shortcuts-panel{position:static;grid-column:1/-1;width:100%;box-shadow:none;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;padding:14px 0 5px}
+.feature-shortcuts-panel header{gap:12px}.feature-shortcuts-panel header p{margin:0}
+.feature-shortcuts-games{gap:18px 24px}.feature-shortcuts-games>div{min-width:0}
+.feature-shortcuts-games>div+div{border-left:1px solid var(--line);padding-left:24px}
+.feature-shortcuts-actions button[aria-expanded=true]{color:var(--text);background:var(--hover)}
+.app-shell:not(.editing) .dashboard-heading{min-height:0;padding:0;margin:0 0 12px;justify-content:flex-end}
+.dashboard-heading>div:first-child{position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.dashboard-heading .site-search-entry{width:min(420px,100%);min-width:0}
+.content-jump-links{overflow:visible;flex-wrap:wrap}
+.local-view-filter[open]{flex:1 1 100%;display:flex;align-items:center;gap:12px;order:1;min-width:0;padding:6px 0}
+.local-view-filter[open] .search-box{position:static;box-shadow:none;max-width:420px;width:100%;min-width:0}
+.dashboard-game-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+.dashboard-game-panel{border:1px solid var(--line);border-radius:8px;min-width:0;overflow:hidden;background:transparent}
+.dashboard-game-panel>header{display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.dashboard-game-panel>header>a{display:flex;align-items:center;gap:10px;flex:1;min-width:0;color:var(--text);text-decoration:none}
+.dashboard-game-panel>header img{width:30px;height:30px;object-fit:cover;border-radius:7px;flex:none}
+.dashboard-game-panel h3{font-size:14px;font-weight:650;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.dashboard-game-panel>header>a>svg{margin-left:auto;flex:none;color:var(--muted)}
+.dashboard-game-panel>header>span{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.dashboard-game-row{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 14px;padding:12px 38px 12px 16px;min-height:72px;box-sizing:border-box;align-items:center}
+.dashboard-game-row+.dashboard-game-row{border-top:1px solid var(--line)}
+.dashboard-row-main{min-width:0}.dashboard-row-meta{display:flex;gap:8px;flex-wrap:wrap;font-size:10px;color:var(--muted);line-height:1.5;margin-bottom:4px}
+.dashboard-row-main>a{text-align:left;display:block;padding:0;width:100%;background:none;line-height:1.55;text-decoration:none}
+.dashboard-row-main strong{font-size:13px;font-weight:550;color:var(--text);overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.dashboard-row-main>a:hover strong{text-decoration:underline;text-underline-offset:3px}
+.dashboard-row-main .signature-weapons{margin:6px 0 0;border:0;padding:0}.dashboard-row-main .signature-weapon{padding:0;min-height:0;border:0;background:transparent}.dashboard-row-main .signature-weapon-copy{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.dashboard-row-main .signature-weapon-copy>span{display:none}.dashboard-row-main .signature-weapon-copy small,.dashboard-row-main .signature-weapon-copy strong{font-size:10px}
+.dashboard-row-date{display:flex;align-items:flex-end;flex-direction:column;gap:3px;font-size:11px;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--muted)}
+.dashboard-row-date>span{display:flex;align-items:center;gap:4px;font-size:10px}.dashboard-row-date .starts{color:#328674}.dashboard-row-date .ends{color:#b5673b}.dashboard-row-date>a{display:none}
+.dashboard-row-save{position:absolute;top:12px;right:7px;padding:4px;color:var(--muted);display:grid;place-items:center;min-width:24px;min-height:24px}.dashboard-row-save[aria-pressed=true]{color:var(--text)}
+[data-theme=dark] .dashboard-row-date .starts{color:#8bcebb}[data-theme=dark] .dashboard-row-date .ends{color:#e4b28a}
+.dashboard-group-expand,.dashboard-more-games{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:10px 14px;font-size:11px;color:var(--muted);border-top:1px solid var(--line)}
+.dashboard-group-expand span,.dashboard-more-games span{font-variant-numeric:tabular-nums}.dashboard-more-games{margin-top:14px;border:1px solid var(--line);border-radius:6px;min-height:40px}
+.calendar-visible-games{padding:0 18px 4px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.calendar-visible-games>span{font-size:11px;color:var(--muted)}.calendar-visible-games .calendar-game-scopes{margin:4px 0}.calendar-visible-games .calendar-game-choices{flex-basis:100%;border-top:1px solid var(--line)}
+.calendar-agenda-game+ .calendar-agenda-game{margin-top:16px}.calendar-agenda-game>header{display:flex;align-items:center;gap:7px;padding:8px 0;border-bottom:1px solid var(--line);min-width:0;flex-wrap:wrap}
+.calendar-agenda-game>header img{width:21px;height:21px;object-fit:cover;border-radius:5px}.calendar-agenda-game>header strong{font-size:12px;font-weight:650;flex:1;min-width:0;line-height:1.5}.calendar-agenda-game>header small{font-size:10px;color:var(--muted)}
+.calendar-agenda .calendar-agenda-row{grid-template-columns:minmax(0,1fr) auto;padding:12px 2px;gap:8px}
+.calendar-agenda-row>span{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:5px 10px}
+.calendar-agenda-row .calendar-action-label{font-size:10px;grid-column:1;grid-row:1;line-height:1.5}
+.calendar-agenda-row>span>strong{grid-column:1/-1;grid-row:2;font-size:13px;font-weight:550;line-height:1.55}
+.calendar-agenda-row .calendar-agenda-time{grid-column:2;grid-row:1;font-size:11px;font-variant-numeric:tabular-nums;white-space:normal;text-align:right}
+.calendar-agenda-row .calendar-urgent-time{grid-column:1/-1;font-size:11px;margin-top:2px}
+.calendar-cell.selected{outline:2px solid var(--text);outline-offset:-2px}.calendar-cell:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+.calendar-cell .calendar-day{font-variant-numeric:tabular-nums;font-weight:600}.calendar-marker{letter-spacing:normal}.calendar-marker-label{line-height:1.4}
+@media(min-width:1700px){.dashboard-game-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:800px){.dashboard-game-grid{grid-template-columns:1fr}.dashboard-game-panel>header{padding:12px 14px}.dashboard-game-row{padding-left:14px;padding-right:44px}.dashboard-row-main strong{font-size:14px}.dashboard-row-save{min-width:36px;min-height:36px;right:3px;top:8px}}
+@media(max-width:680px){.feature-shortcuts{grid-template-columns:1fr;gap:8px}.feature-shortcuts .feature-shortcuts-panel{padding:12px 0 4px}.feature-shortcuts-games>div+div{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:12px}.calendar-visible-games{padding:0 12px 4px;gap:4px 12px}.calendar-visible-games>span{width:100%}.calendar-visible-games .calendar-game-scopes{gap:5px}.calendar-game-scopes>button{min-height:36px;padding:6px 10px}.content-jump-links{gap:4px}.calendar-agenda-row>span>strong{font-size:14px}}

@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import type {Entry,Locale} from './types';
 import {games} from './games';
-import {brandOrigin} from './brand';
+import {brandOrigin,searchBrand} from './brand';
 import {supportedLocales} from './catalog-paths';
 import {displayTitle,displaySummary,cleanDisplayText} from './content-display';
 import {artworkForLocale,serviceArtworkLocale} from './artwork';
@@ -15,20 +15,20 @@ export function entryPath(locale:Locale,entry:Pick<Entry,'gameId'|'id'>){return 
 export function gameSectionPath(locale:Locale,gameId:string,section:'leaks'|'characters'){return `/${locale}/games/${encodeURIComponent(gameId)}/${section}`;}
 export function discoverableEntry(e:Entry,locale:Locale){return !e.hidden&&!e.broadcast&&!!e.title?.[locale]?.trim()&&games.some(g=>g.id===e.gameId&&g.regions.includes(e.region));}
 export function entryDiscoveryMetadata(e:Entry,locale:Locale):Metadata{
- const game=games.find(g=>g.id===e.gameId)!,t=discoveryWords[locale],title=`${displayTitle(e,locale)} · ${t[e.kind]} | ${game.name[locale]} · 가게더 GAGETHER`,url=brandOrigin+entryPath(locale,e);
- const body=e.sourceBodies?.[locale]?.text||displaySummary(e,locale)||e.detailSections?.map(s=>cleanDisplayText(s.body[locale])).filter(Boolean).join(' ')||'';
+ const game=games.find(g=>g.id===e.gameId)!,t=discoveryWords[locale],title=`${displayTitle(e,locale)} · ${t[e.kind]} | ${game.name[locale]} · ${searchBrand(locale)}`,url=brandOrigin+entryPath(locale,e);
+ const body=displaySummary(e,locale)||e.sourceBodies?.[locale]?.text||e.detailSections?.map(s=>cleanDisplayText(s.body[locale])).filter(Boolean).join(' ')||'';
  const description=(game.name[locale]+' · '+displayTitle(e,locale)+(body?' — '+body.replace(/\s+/g,' '):' · '+t[e.kind])).slice(0,170);
  const languages=Object.fromEntries(supportedLocales.filter(l=>discoverableEntry(e,l)).map(l=>[l,brandOrigin+entryPath(l,e)]));
- return {title,description,alternates:{canonical:url,languages},robots:{index:discoverableEntry(e,locale),follow:true},openGraph:{type:'article',url,title,description,siteName:'가게더 GAGETHER'},twitter:{card:'summary',title,description}};
+ return {title,description,alternates:{canonical:url,languages},robots:{index:discoverableEntry(e,locale),follow:true},openGraph:{type:'article',url,title,description,siteName:searchBrand(locale)},twitter:{card:'summary',title,description}};
 }
 export function sectionDiscoveryMetadata(gameId:string,locale:Locale,section:'leaks'|'characters'):Metadata{
- const game=games.find(g=>g.id===gameId)!,t=discoveryWords[locale],title=`${game.name[locale]} ${t[section]} | 가게더 GAGETHER`,url=brandOrigin+gameSectionPath(locale,gameId,section);
+ const game=games.find(g=>g.id===gameId)!,t=discoveryWords[locale],title=`${game.name[locale]} ${t[section]} | ${searchBrand(locale)}`,url=brandOrigin+gameSectionPath(locale,gameId,section);
  const description=section==='leaks'?`${game.name[locale]} · ${t.leakBody}`:`${game.name[locale]} · ${t.characters} · ${({ko:'캐릭터 목록, 등급, 속성, 의상, 스테이터스와 일러스트',en:'Characters, rarity, attributes, outfits, stats and illustrations',ja:'キャラクター一覧・レアリティ・属性・衣装・ステータス・イラスト',zh:'角色列表、稀有度、属性、服装、数值与立绘'})[locale]}`;
- return {title,description,alternates:{canonical:url,languages:Object.fromEntries(supportedLocales.map(l=>[l,brandOrigin+gameSectionPath(l,gameId,section)]))},robots:{index:true,follow:true},openGraph:{type:'website',url,title,description,siteName:'가게더 GAGETHER'},twitter:{card:'summary',title,description}};
+ return {title,description,alternates:{canonical:url,languages:Object.fromEntries(supportedLocales.map(l=>[l,brandOrigin+gameSectionPath(l,gameId,section)]))},robots:{index:true,follow:true},openGraph:{type:'website',url,title,description,siteName:searchBrand(locale)},twitter:{card:'summary',title,description}};
 }
 export function entryStructuredData(e:Entry,locale:Locale){
  const game=games.find(g=>g.id===e.gameId)!,meta=entryDiscoveryMetadata(e,locale),art=artworkForLocale(e,locale,'full',serviceArtworkLocale(e.region,e.gameId));
- return {'@context':'https://schema.org','@type':'Article',headline:displayTitle(e,locale),description:meta.description,inLanguage:locale,url:brandOrigin+entryPath(locale,e),mainEntityOfPage:brandOrigin+entryPath(locale,e),about:{'@type':'VideoGame',name:game.name[locale]},publisher:{'@type':'Organization',name:'가게더 GAGETHER',url:brandOrigin},isBasedOn:e.sourceUrl,...e.publishedAt?{datePublished:e.publishedAt}:{},...art.image?{image:[art.image.startsWith('/')?brandOrigin+art.image:art.image]}:{}};
+ return {'@context':'https://schema.org','@type':'Article',headline:displayTitle(e,locale),description:meta.description,inLanguage:locale,url:brandOrigin+entryPath(locale,e),mainEntityOfPage:brandOrigin+entryPath(locale,e),about:{'@type':'VideoGame',name:game.name[locale]},publisher:{'@type':'Organization',name:searchBrand(locale),url:brandOrigin},isBasedOn:e.sourceUrl,...e.publishedAt?{datePublished:e.publishedAt}:{},...art.image?{image:[art.image.startsWith('/')?brandOrigin+art.image:art.image]}:{}};
 }
 
 export function leakPath(locale:Locale,item:{gameId:string;id:string}){return gameSectionPath(locale,item.gameId,'leaks')+'/'+encodeURIComponent(item.id);}

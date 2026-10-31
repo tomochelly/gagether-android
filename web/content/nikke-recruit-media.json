@@ -1,0 +1,141 @@
+{
+  "enabled": true,
+  "clips": [
+    {
+      "rank": "R",
+      "sha256": "ca2208e1d957633fd1d673fdd72092508c1a915df7cb0c5deedf5abd78c86b73",
+      "bytes": 5013489,
+      "duration": 6.6,
+      "width": 1080,
+      "height": 1080,
+      "rest": 0.75,
+      "lift": 1.1,
+      "sourceUrl": "https://www.youtube.com/watch?v=bRohFXBTjio",
+      "sourceStart": 82.45,
+      "sourceEnd": 89.05,
+      "audioVerified": true,
+      "uiLanguage": "en"
+    },
+    {
+      "rank": "SR",
+      "sha256": "a6691c677703dceec47bd848d5b1429fb41c532fc0f55696b26181f42631eb31",
+      "bytes": 4987086,
+      "duration": 6.2,
+      "width": 1080,
+      "height": 1080,
+      "rest": 0.3,
+      "lift": 0.6,
+      "sourceUrl": "https://www.youtube.com/watch?v=bRohFXBTjio",
+      "sourceStart": 12.95,
+      "sourceEnd": 19.15,
+      "audioVerified": true,
+      "uiLanguage": "en"
+    },
+    {
+      "rank": "SSR",
+      "sha256": "c466a71ffb16fbc8629010d34b743e0425cfb724a61d81a7943f822edc779a19",
+      "bytes": 2505322,
+      "duration": 7.4,
+      "width": 720,
+      "height": 720,
+      "rest": 0.8,
+      "lift": 1.85,
+      "sourceUrl": "https://www.youtube.com/watch?v=Deron1alV3M",
+      "sourceStart": 16.4,
+      "sourceEnd": 23.8,
+      "audioVerified": true,
+      "uiLanguage": "en"
+    }
+  ],
+  "audioReview": {
+    "at": "2026-10-30",
+    "reviewer": "site-owner",
+    "result": "R, SR, SSR samples: no commentary or non-game speech reported"
+  },
+  "sequenceEnabled": true,
+  "sounds": [
+    {
+      "id": "tick",
+      "sha256": "dd6fb0b922611c2b2f912be764f66daaee07358d78f7d9b559070d8c09af9baf",
+      "bytes": 4451,
+      "duration": 0.16,
+      "contentType": "audio/mp4",
+      "sourceUrl": "https://www.youtube.com/watch?v=Deron1alV3M",
+      "sourceStart": 23.96,
+      "sourceEnd": 24.12,
+      "audioVerified": true
+    },
+    {
+      "id": "ssr-tick",
+      "sha256": "4d3ae84e0a94b1c9cdfe86087d9634e7b8bcd6843ef62adb0100c60ce90ab726",
+      "bytes": 10226,
+      "duration": 0.46,
+      "contentType": "audio/mp4",
+      "sourceUrl": "https://www.youtube.com/watch?v=Deron1alV3M",
+      "sourceStart": 24.42,
+      "sourceEnd": 24.88,
+      "audioVerified": true
+    },
+    {
+      "id": "rank-sweep",
+      "sha256": "49499475fc55450899d6ab96d6843116839f54840e19a568b936d023aa699c71",
+      "bytes": 8284,
+      "duration": 0.38,
+      "contentType": "audio/mp4",
+      "sourceUrl": "https://www.youtube.com/watch?v=Deron1alV3M",
+      "sourceStart": 24.62,
+      "sourceEnd": 25.0,
+      "audioVerified": true
+    },
+    {
+      "id": "result-r",
+      "sha256": "41adb999656d59d3671884adac4cca1c6fd7ff05ef41c1de9c4f573cf57c1ef0",
+      "bytes": 2529,
+      "duration": 0.08,
+      "contentType": "audio/mp4",
+      "sourceUrl": "https://www.youtube.com/watch?v=Deron1alV3M",
+      "sourceStart": 52.61,
+      "sourceEnd": 52.69,
+      "audioVerified": true
+    },
+    {
+      "id": "result-sr",
+      "sha256": "17c52d321933b94b24f91f405378be36560bb6583a22de1890299b9f2893c6d6",
+      "bytes": 2566,
+      "duration": 0.09,
+      "contentType": "audio/mp4",
+      "sourceUrl": "https://www.youtube.com/watch?v=Deron1alV3M",
+      "sourceStart": 52.72,
+      "sourceEnd": 52.81,
+      "audioVerified": true
+    },
+    {
+      "id": "result-ssr",
+      "sha256": "213d3a8a62859e2911319714ce758fd79b216488310a9a8c292bdffcfc5f4fdd",
+      "bytes": 2906,
+      "duration": 0.11,
+      "contentType": "audio/mp4",
+      "sourceUrl": "https://www.youtube.com/watch?v=Deron1alV3M",
+      "sourceStart": 53.38,
+      "sourceEnd": 53.49,
+      "audioVerified": true
+    }
+  ],
+  "sequenceAudioReview": {
+    "at": "2026-10-30",
+    "reviewer": "site-owner",
+    "reply": "응 이거 맞아. 10개가 빠르게 색으로 좌라라락 뜨는 소리라 잘 넣어야해",
+    "playback": "One electronic sweep for all ten; no per-slot impact loop"
+  },
+  "resultsAnimationEnabled": true,
+  "resultsAudioReview": {
+    "at": "2026-10-30",
+    "reviewer": "site-owner",
+    "reply": "응, 맞고 사람 목소리도 없어",
+    "sampleSourceSeconds": [
+      52.6,
+      53.8
+    ],
+    "timing": "Cards appear in original draw order every 100ms; grade-specific clips only at their own card."
+  }
+}

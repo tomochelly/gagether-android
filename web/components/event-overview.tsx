@@ -1,4 +1,6 @@
 'use client';
+import CompactCardRail from './compact-card-rail';
+import {cleanPublicInformationText} from '@/lib/public-information-text';
 import {recurringDisplayEntry} from '@/lib/recurring-schedule';
 import {EntryIntentButton} from './use-entry-detail';
 import {textAppearance,textAppearanceStyle,authoredField} from '@/lib/text-appearance';
@@ -9,7 +11,7 @@ import {Clock3,Sparkles,ArrowUpRight,Star,Radio} from 'lucide-react';
 import type {Entry,Locale,Region} from '@/lib/types';
 import {eventText,eventState,eventEndingSoon,hasPullRewards,pullRewards,serviceZone} from '@/lib/event-presentation';
 import {dateInZone} from '@/lib/display-time';
-import {remainingTime} from '@/lib/schedule';
+import Countdown from './countdown';
 import {entryTitle,inSchedule,regionLabel} from '@/lib/presentation';
 import {artworkForLocale} from '@/lib/artwork';
 import {rewardIcon} from '@/lib/reward-catalog';
@@ -23,8 +25,8 @@ export function EventBadges({entry,locale,compact=false}:{entry:Entry;locale:Loc
 export function EventRewards({entry,locale}:{entry:Entry;locale:Locale}){if(!allowsRewards(entry))return null;const rewards=pullRewards(entry).filter(r=>eventTextForLocale(r.name,locale));return rewards.length?<span className="event-reward-chips">{rewards.slice(0,4).map((r,i)=><span key={i}><NativeIcon icon={rewardIcon(entry.gameId,r)} alt=""/><span className="reward-chip-copy"><span className="reward-chip-name">{r.name[locale]}</span>{r.quantity&&<strong className="reward-chip-amount"> {r.quantity}</strong>}{r.acquisition&&<small className="reward-acquisition"> · {rewardMethod(r.acquisition,locale)}</small>}</span></span>)}</span>:null;}
 export function EventClock({entry:e,locale,now,compact=false}:{entry:Entry;locale:Locale;now:number;compact?:boolean}){e=recurringDisplayEntry(e,now);const t=eventText[locale],state=eventState(e,now),start=state==='upcoming',clock=start?e.startAt:e.endAt,date=start?e.startDate:e.endDate;
  if(state==='ended')return <span className="event-clock ended">{({ko:'종료',en:'Ended',ja:'終了',zh:'已结束'})[locale]}</span>;
- if(clock)return <span className={'event-clock'+(eventEndingSoon(e,now)?' urgent':'')}><Clock3 size={compact?12:16}/><span><small>{t[start?'starts':'ends']}</small><b>{compact?remainingTime(clock,now,locale).split(' ').slice(0,2).join(' '):remainingTime(clock,now,locale)}</b></span></span>;
- if(date){const days=(Date.parse(date)-Date.parse(dateInZone(now,serviceZone(e))))/86400000;return <span className="event-clock date-only"><Clock3 size={16}/><span><b>{!start&&days===0?t.today:`${date} · ${start?t.starts:`${days} ${t.days}`}`}</b></span></span>;}
+ if(clock)return <span className={'event-clock '+(start?'starts':'ends')}><Clock3 size={compact?12:16}/><span><small>{t[start?'starts':'ends']}</small><Countdown at={clock} now={now} locale={locale} compact={compact}/></span></span>;
+ if(date){const days=(Date.parse(date)-Date.parse(dateInZone(now,serviceZone(e))))/86400000;return <span className="event-clock date-only"><Clock3 size={16}/><span><time dateTime={date}>{date}</time><span className="date-only-note">{!start&&days===0?t.today:start?t.starts:`${days}${locale==='en'?' ':''}${t.days}`}</span></span></span>;}
  return null;
 }
 const overviewCopy={
@@ -40,9 +42,9 @@ function EventTile({entry:e,locale,now,onOpen,compact=false}:{entry:Entry;locale
   <EntryIntentButton entry={e} type="button" onClick={()=>onOpen(e)}>
    {art.image&&failed!==art.image&&<span className="event-poster"><ArtworkMedia art={e} alt="" locale={locale} fitPreview="focus" onUnavailable={()=>setFailed(art.image!)}/></span>}
    <span className="event-tile-content">
-    <GameBadge gameId={e.gameId} locale={locale}/><strong className="event-title" style={textAppearanceStyle(textAppearance(e,locale),'title')}><span>{entryTitle(e,locale)}</span>{!compact&&<ArrowUpRight size={17}/>}</strong>
+    {!compact&&<GameBadge gameId={e.gameId} locale={locale}/>}<strong className="event-title" style={textAppearanceStyle(textAppearance(e,locale),'title')}><span>{entryTitle(e,locale)}</span>{!compact&&<ArrowUpRight size={17}/>}</strong>
     <EventBadges entry={e} locale={locale} compact={compact}/>
-    {!compact&&<><span className="event-summary" style={textAppearanceStyle(textAppearance(e,locale))}>{authoredField(e,'summary')?e.summary[locale]:eventTextForLocale(e.summary,locale)}</span><EventRewards entry={e} locale={locale}/></>}
+    {!compact&&<><span className="event-summary" style={textAppearanceStyle(textAppearance(e,locale))}>{cleanPublicInformationText(authoredField(e,'summary')?e.summary[locale]:eventTextForLocale(e.summary,locale))}</span><EventRewards entry={e} locale={locale}/></>}
     <EventClock entry={e} locale={locale} now={now} compact={compact}/>
    </span>
   </EntryIntentButton>
@@ -62,7 +64,7 @@ export default function EventOverview({entries,locale,now,onOpen,gameId,region,o
  return <section className={'content-panel event-overview'+(!gameId?' event-dashboard':'')} id="gagether-events" data-game-id={gameId} aria-labelledby="gagether-events-title">
   <header><div><span className="event-section-kicker">EVENTS</span><h2 id="gagether-events-title">{gameId?copy.gameTitle:copy.title}<small>{all.length}</small></h2><p>{gameId?copy.hint:copy.intro}</p></div></header>
   <div className="event-filters" role="group" aria-label={t.title}>{(['all','gacha','collab','ending'] as const).map(f=><button key={f} type="button" aria-pressed={f===filter} onClick={()=>{setFilter(f);setLimit(6);}}>{t[f]}<small>{all.filter(e=>matches(e,f)).length}</small></button>)}</div>
-  {gameId?<div className="event-overview-grid">{shown.slice(0,limit).map(e=><EventTile key={e.id+':'+locale} entry={e} locale={locale} now={now} onOpen={onOpen}/>)}</div>:<div className="event-game-grid">{groups.map(({game,entries:items})=><section className="event-game-group" key={game.id} data-game-id={game.id} style={{'--event-game-color':game.color} as CSSProperties}>
+  {gameId?<CompactCardRail className="event-overview-grid" count={Math.min(limit,shown.length)} label={copy.gameTitle} locale={locale}>{shown.slice(0,limit).map(e=><EventTile key={e.id+':'+locale} entry={e} locale={locale} now={now} onOpen={onOpen}/>)}</CompactCardRail>:<div className="event-game-grid">{groups.map(({game,entries:items})=><section className="event-game-group" key={game.id} data-game-id={game.id} style={{'--event-game-color':game.color} as CSSProperties}>
    <header><img src={game.icon||game.logo} alt="" width={32} height={32} loading="lazy"/><div><h3>{game.name[locale]}</h3><span>{regionLabel(game,items[0].region,locale)}</span></div><small>{items.length}</small></header>
    <div className="event-game-list">{items.slice(0,2).map(e=><EventTile key={e.id+':'+locale} entry={e} locale={locale} now={now} onOpen={onOpen} compact/>)}</div>
    <button type="button" className="event-game-more" aria-label={game.name[locale]+' · '+copy.all} onClick={()=>onGame(game.id,items[0].region)}>{copy.all}<span>{items.length}<ArrowUpRight size={14}/></span></button>

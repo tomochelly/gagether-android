@@ -1,14 +1,21 @@
 import './load-typescript.mjs';
 import {test} from 'node:test';import assert from 'node:assert/strict';import React,{act} from 'react';import {renderToString} from 'react-dom/server';import {hydrateRoot} from 'react-dom/client';import {JSDOM} from 'jsdom';
 const {default:sitemap}=await import('../app/sitemap.ts');const {catalogMetadata}=await import('../lib/seo.ts');const {catalogPath,catalogLocation,catalogLocaleHeaders,supportedLocales}=await import('../lib/catalog-paths.ts');const {games,byId}=await import('../lib/games.ts');const {default:Radar}=await import('../components/radar.tsx');const {emptyCatalog}=await import('../lib/initial-shell.ts');
+test('the public WuWa original image is crawlable while account, owner and data APIs remain excluded',async()=>{
+ const {default:robots}=await import('../app/robots.ts'),{fullArtByHash}=await import('../lib/wuwa-reference-art.ts'),rules=robots().rules;
+ const allowed=path=>{const candidates=[...rules.allow.map(prefix=>({prefix,allow:true})),...rules.disallow.map(prefix=>({prefix,allow:false}))].filter(rule=>path.startsWith(rule.prefix)).sort((a,b)=>b.prefix.length-a.prefix.length||Number(b.allow)-Number(a.allow));return candidates[0]?.allow!==false;};
+ for(const asset of fullArtByHash.values())assert.equal(allowed(asset.url),true,asset.url);
+ for(const path of ['/api/data','/api/wuwa/library?id=1304','/api/editor','/api/sync','/api/owner/analytics','/owner','/account'])assert.equal(allowed(path),false,path);
+ assert.deepEqual(robots().sitemap,['https://gagether.wiki/sitemap.xml','https://gagether.wiki/sitemap-items.xml']);
+});
 test('every hreflang alternative preserves the same actual service and every expanded game is discoverable',async()=>{
  const {effectiveRegion}=await import('../lib/presentation.ts'),{defaultRegionForLocale}=await import('../lib/visitor-locale.ts'),{siteIntro,seoCopy}=await import('../lib/seo.ts');const pages=sitemap();
  for(const game of games)for(const actual of new Set(game.regions.map(r=>effectiveRegion(game,r))))for(const locale of supportedLocales){
   const metadata=catalogMetadata(locale,{id:game.id,name:game.name[locale]},false,actual);assert.ok(pages.some(p=>p.url===metadata.alternates.canonical));
   for(const other of supportedLocales){const url=new URL(metadata.alternates.languages[other]);const resolved=effectiveRegion(game,url.searchParams.get('region')||defaultRegionForLocale(other));assert.equal(resolved,actual,game.id+' '+locale+' → '+other);assert.ok(pages.some(p=>p.url===url.href));}
  }
- assert.ok(seoCopy.ko.description.includes(String(games.length)));for(const name of ['림버스 컴퍼니','듀엣 나이트 어비스','hololive Dreams'])assert.ok(siteIntro.ko.body.includes(name));
- assert.ok(pages.filter(p=>p.url.includes('region=cn')).every(p=>/games\/(arknights|gfl2|reverse1999)\?/.test(p.url)));
+ assert.ok(seoCopy.ko.description.includes(String(games.filter(g=>!g.launch).length)));for(const name of ['림버스 컴퍼니','듀엣 나이트 어비스','hololive Dreams'])assert.ok(siteIntro.ko.body.includes(name));
+ assert.ok(pages.filter(p=>p.url.includes('region=cn')).every(p=>{const path=new URL(p.url).pathname,match=path.match(/^\/(?:ko|en|ja|zh)\/games\/([^/]+)(?:\/browse)?$/);return !!match&&games.some(g=>g.id===match[1]&&g.regions.includes('cn'));}));
 });
 test('every actual game service has reciprocal language links and self canonicals',()=>{
  const pages=sitemap();assert.ok(pages.length>=81);assert.equal(new Set(pages.map(p=>p.url)).size,pages.length);
@@ -35,7 +42,7 @@ test('localized game SSR includes actual stored content and crawlable game/langu
  for(const locale of supportedLocales){
   const entry={id:'seo-hsr',gameId:'hsr',region:'global',kind:'pickup',title:titles,summary:titles,startAt:'2026-10-01T00:00:00+09:00',endAt:'2026-11-01T00:00:00+09:00',publishedAt:null,verifiedAt:'2026-10-20T00:00:00Z',sourceUrl:'https://hsr.hoyoverse.com/',sourceTitle:'Official',officialLocales:['ko','en','ja','zh']};
   const html=renderToString(React.createElement(Radar,{initialLocale:locale,initialLocaleManual:true,initialView:'game',initialGameId:'hsr',initialRegion:'global',initialData:{...emptyCatalog(),persistent:true,serverTime:'2026-10-21T18:00:00Z',entries:[entry]},initialComplete:false,initialDeferred:true}));
-  const dom=new JSDOM(html);assert.equal(dom.window.document.querySelector('.breadcrumb strong').textContent,byId.hsr.name[locale]);assert.ok(dom.window.document.body.textContent.includes(titles[locale]));assert.equal(dom.window.document.querySelectorAll('.game-nav-link[href]').length,18);assert.equal(dom.window.document.querySelectorAll('.site-language-links a[href]').length,4);assert.equal(dom.window.document.querySelector('.site-language-links a[hreflang="ja"]').getAttribute('href'),'/ja/games/hsr');dom.window.close();
+  const dom=new JSDOM(html);assert.equal(dom.window.document.querySelector('.breadcrumb strong').textContent,byId.hsr.name[locale]);assert.ok(dom.window.document.body.textContent.includes(titles[locale]));assert.equal(dom.window.document.querySelectorAll('.game-nav-link[href]').length,games.length);assert.equal(dom.window.document.querySelectorAll('.site-language-links a[href]').length,4);assert.equal(dom.window.document.querySelector('.site-language-links a[hreflang="ja"]').getAttribute('href'),'/ja/games/hsr');dom.window.close();
  }
 });
 test('language links preserve an independently selected gameplay service',()=>{

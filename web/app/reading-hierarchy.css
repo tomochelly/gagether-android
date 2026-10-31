@@ -1,0 +1,88 @@
+/* A shared reading order: section → subject/value → explanation → metadata.
+   Inline owner typography remains authoritative; no source prose is rewritten. */
+:root{--reading-heading:750;--reading-title:680;--reading-body:430;--reading-meta:450}
+.page-heading h1,.document-header h1,.site-search-page h1,.roster-heading h1{font-weight:var(--reading-heading);line-height:1.25;letter-spacing:-.035em}
+.workspace :is(.section-heading h2,.section-title h2,.content-panel>header h2,.right-rail h2),.site-search-results h2{font-size:1.075rem;font-weight:var(--reading-heading);line-height:1.4;letter-spacing:-.02em}
+.workspace .schedule-overview-grid :is(.content-panel h2,.right-rail h2){font-size:.96rem;font-weight:var(--reading-heading)}
+.workspace :is(.entry-body h3,.compact-entry-main>strong,.simple-entry-title strong,.event-title,.deadline-content strong,.reset-name strong),.site-search-results li strong{font-weight:var(--reading-title);line-height:1.45;letter-spacing:-.015em}
+.workspace .compact-entry-main>strong{font-size:1rem}
+.workspace .schedule-overview-grid :is(.reset-name strong,.event-title,.deadline-content strong){font-size:.83rem;font-weight:var(--reading-title)}
+.workspace :is(.entry-body>p,.compact-entry-summary),.site-search-results li p{font-size:.82rem;font-weight:var(--reading-body);line-height:1.7}
+.workspace :is(.compact-entry-meta,.compact-entry-aside){font-size:.73rem;font-weight:var(--reading-meta);line-height:1.5}
+.workspace :is(.section-heading small,.section-title small,.content-panel>header small),.site-search-results h2 small{font-weight:450;font-size:.73rem;color:var(--muted)}
+.workspace .schedule-brief a>strong{font-size:1.5rem;font-weight:780;line-height:1.1;font-variant-numeric:tabular-nums}
+.workspace .schedule-brief a>span{font-size:.78rem;font-weight:500}
+.workspace .dashboard-game-panel h3{font-size:.95rem;font-weight:750}
+.workspace .dashboard-row-main>a>strong{font-size:.92rem;font-weight:680;line-height:1.5}
+.workspace .dashboard-row-meta,.workspace .dashboard-row-date{font-size:.73rem;font-weight:450}
+.workspace .calendar-agenda-game>header strong{font-size:.82rem;font-weight:720}
+.workspace .calendar-agenda-row>span>strong{font-size:.9rem;font-weight:680}
+.forum-heading h1{font-weight:750}
+.forum-post h2,.forum-post-title{font-weight:680;line-height:1.45}
+.workspace .upcoming-date strong{font-weight:600;font-variant-numeric:tabular-nums}
+
+.workspace :is(.category-tabs button.active,.game-section-tabs button.active,.content-jump-links button.active){font-weight:720}
+.document-reader :is(h2,h3),.roster-detail-body :is(h3,h4){font-weight:var(--reading-heading);letter-spacing:-.015em}
+.document-reader :is(p,li){line-height:1.8}
+.roster-detail-body .roster-fact-section p,.roster-detail-body .roster-skill-description{font-size:.86rem;font-weight:var(--reading-body);line-height:1.85}
+.roster-detail-body .roster-skill-table strong{font-size:.95rem;font-weight:700}
+.roster-detail-body .roster-stats dl{gap:0 20px}
+.roster-detail-body .roster-stats dl>div{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}
+.roster-detail-body .roster-stats dt{font-size:.8rem;line-height:1.4;gap:10px}
+.roster-detail-body .roster-stats dd{font-size:1.3rem;font-weight:760;letter-spacing:-.025em;text-align:right;line-height:1.3}
+.roster-detail-body .roster-stats dt>.roster-native-icon{width:26px;height:26px;padding:4px}
+.roster-detail-body .roster-stats details{font-size:.75rem}
+.roster-detail-body .roster-combat-stats dl>div{padding-block:10px}
+.roster-detail-body .roster-combat-stats dd{font-size:1rem;font-weight:650}
+/* Each date keeps every game's heading visible, with independent disclosure. */
+.schedule-timeline .timeline-date{flex-basis:260px;padding-right:14px}
+.schedule-timeline .timeline-date>time{font-family:var(--body);font-size:.81rem;font-weight:720;opacity:1}
+.schedule-timeline .timeline-date-items{gap:10px}
+.timeline-game-group{border:1px solid var(--line);border-radius:7px;min-width:0;padding:0 9px;background:transparent}
+.timeline-game-group>header{display:flex;align-items:center;gap:7px;padding:10px 0 8px;border-bottom:1px solid var(--line);min-width:0}
+.timeline-game-group>header>img{width:18px;height:18px;object-fit:contain;border-radius:4px;flex:none}
+.timeline-game-group>header>h3{font-size:.76rem;font-weight:720;line-height:1.35;overflow-wrap:anywhere;flex:1;min-width:0;margin:0}
+.timeline-game-group>header>small{font-size:.67rem;font-weight:450;color:var(--muted);font-variant-numeric:tabular-nums}
+.timeline-game-items{display:grid;gap:7px;padding:9px 0}
+.timeline-game-group .timeline-entry{border-width:0 0 0 2px;border-radius:0;padding:3px 6px 5px 8px}
+.timeline-game-group .timeline-entry strong{font-weight:680;color:var(--text)}
+.timeline-game-group .timeline-entry-meta{font-size:.69rem}
+.timeline-game-group .schedule-action{border:0;padding:0;font-size:.65rem}
+.timeline-game-group .timeline-more{width:100%;border-top:1px solid var(--line);padding:8px 0;font-size:.72rem}
+.roster-materials{margin:30px 0;padding-block:24px;border-block:1px solid var(--line)}
+.roster-materials>h3{font-size:1.12rem;margin:0 0 20px;font-weight:750;line-height:1.4}
+.roster-material-category{margin-top:18px}
+.roster-material-category>header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.roster-material-category h4{font-size:.9rem;margin:0;font-weight:700}
+.roster-material-category label{display:flex;gap:7px;align-items:center;font-size:.73rem;color:var(--muted);min-width:0;max-width:100%}
+.roster-material-category select{font:inherit;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:5px;min-height:40px;min-width:0;max-width:280px;padding:6px 8px}
+.roster-material-condition{font-size:.75rem;color:var(--muted);margin:6px 0}
+.roster-material-category ul{list-style:none;padding:0;margin:12px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(185px,100%),1fr));gap:9px}
+.roster-material-category li{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:7px;padding:10px;min-width:0;background:color-mix(in srgb,var(--panel) 50%,transparent)}
+.roster-material-icon{width:52px;height:52px;flex:none;display:grid;place-items:center}
+.roster-material-icon>img{width:48px;height:48px;object-fit:contain}
+.roster-material-sprite{display:block;overflow:hidden;position:relative;flex:none}
+.roster-material-sprite img{max-width:none;transform-origin:0 0}
+.roster-material-category li>span:last-child{display:grid;gap:5px;min-width:0}
+.roster-material-category li strong{font-size:.76rem;font-weight:500;line-height:1.45;overflow-wrap:anywhere}
+.roster-material-category li b{font-size:1.08rem;font-weight:750;line-height:1.25;font-variant-numeric:tabular-nums}
+.roster-material-original{font-size:.75rem;color:var(--muted);margin-top:16px}
+.roster-material-original summary{cursor:pointer;min-height:40px;align-content:center}
+.roster-material-original p{white-space:pre-line;line-height:1.8}
+.roster-material-original h4{margin:12px 0 6px}
+.roster-detail-body .roster-skill-table>summary>img{width:44px;height:44px;padding:6px;border-radius:8px}
+.roster-detail-body .roster-skill-table>summary{gap:14px;padding:5px 0}
+.roster-character-facts[data-game=zzz] .roster-stats>dl,
+.roster-character-facts[data-game=hsr] .roster-stats>dl,
+.roster-character-facts[data-game=genshin] .roster-stats>dl{grid-template-columns:minmax(0,1fr)}
+.roster-character-facts:is([data-game=zzz],[data-game=hsr],[data-game=genshin]) .roster-stats>dl>div{padding:11px 12px}
+.roster-character-facts:is([data-game=zzz],[data-game=hsr],[data-game=genshin]) .roster-stats>dl>div:nth-child(odd){background:color-mix(in srgb,var(--panel) 65%,transparent)}
+.roster-character-facts[data-game=arknights] .roster-stats>dl>div{padding:12px;border:1px solid var(--line)}
+.roster-character-facts[data-game=arknights] .roster-stats>dl{gap:8px}
+@media(max-width:720px){
+ .workspace .compact-entry-main>strong{font-size:.93rem}
+ .schedule-timeline .timeline-date{flex-basis:244px}
+ .roster-detail-body .roster-stats dl{grid-template-columns:minmax(0,1fr)}
+ .roster-detail-body .roster-stats dd{font-size:1.35rem}
+ .roster-material-category select{max-width:210px}
+}

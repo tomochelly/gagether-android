@@ -5,6 +5,29 @@ const {pickupArtwork,pickupHasArtwork}=await import('../lib/pickup-artwork.ts');
 const loc=s=>({ko:s,en:s,ja:s,zh:s});
 const member=(name,role='featured')=>({name:loc(name),role,type:'rerun',image:'/assets/'+name+'.png',imageVerified:true,imageLocale:'neutral'});
 const base={id:'rotation',gameId:'arknights',region:'kr',kind:'pickup',title:loc('Two'),pickupArchive:{status:'past'},pickupMembers:[member('first'),member('second'),member('lower','rate-up')]};
+
+test('Blue Archive full-body art survives all four languages without changing the canonical rotation or borrowing an outfit',async()=>{
+ const {bluearchivePickupArtwork}=await import('../lib/bluearchive-pickup-artwork.ts');
+ const {maintainedArtwork}=await import('../lib/maintained-artwork.ts');
+ const {artworkForLocale}=await import('../lib/artwork.ts');
+ const {pickupCards}=await import('../lib/pickup-cards.ts');
+ const {pickupDetailEntry}=await import('../lib/pickup-detail.ts');
+ const chosen=maintainedArtwork.filter(d=>d.gameId==='bluearchive'&&d.asset.imageLocale==='neutral'&&d.names.some(n=>n.en==='Hikari'||n.en==='Nozomi'));
+ assert.equal(chosen.length,2);
+ const e={...base,gameId:'bluearchive',pickupMembers:chosen.map(d=>({name:d.names[0],type:'new',role:'featured',image:'/ko-poster.png',imageKind:'banner',imageVerified:true,imageLocale:'ko',localizedArtwork:{ko:{image:'/ko-poster.png',imageKind:'banner',imageVerified:true,imageLocale:'ko'},ja:{image:'/ja-poster.png',imageKind:'banner',imageVerified:true,imageLocale:'ja'}}}))};
+ const before=structuredClone(e),view=bluearchivePickupArtwork(e);
+ for(const locale of ['ko','en','ja','zh'])for(let i=0;i<2;i++){
+  const rendered=artworkForLocale(view.pickupMembers[i],locale);
+  assert.equal(rendered.image,chosen[i].asset.image);assert.equal(rendered.imageLocale,'neutral');
+  assert.equal(rendered.imageFraming.banner.fit,'contain');
+  assert.equal(pickupDetailEntry(e,chosen[i].names[0]).image,chosen[i].asset.image);
+  assert.equal(pickupArtwork(e,locale)[i].art.image,chosen[i].asset.image);
+ }
+ assert.deepEqual(e,before);assert.ok(pickupCards([e]).every(c=>c.entry===e));
+ const other={...e,pickupMembers:[{...e.pickupMembers[0],name:{ko:'히카리(다른 의상)',en:'Hikari (Other outfit)',ja:'ヒカリ（別衣装）',zh:'光（其他服装）'}}]};
+ assert.equal(bluearchivePickupArtwork(other).pickupMembers[0].image,'/ko-poster.png');
+ assert.strictEqual(bluearchivePickupArtwork({...e,region:'cn'}).pickupMembers[0].image,'/ko-poster.png');
+});
 test('past and current archive entries retain each verified featured portrait without counting lower rarity',()=>{
  for(const status of ['past','announced','forecast'])for(const locale of ['ko','en','ja','zh']){
   const e={...base,pickupArchive:{status}};assert.equal(pickupHasArtwork(e,locale),true);assert.deepEqual(pickupArtwork(e,locale).map(x=>x.name.en),['first','second']);

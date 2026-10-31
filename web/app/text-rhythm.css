@@ -1,0 +1,51 @@
+/* Shared typography for live schedules. Owner-authored inline styles still win. */
+.workspace :is(h1,h2,h3,h4,.event-title,.reset-name strong,.deadline-content strong,.dashboard-row-main>a>strong){letter-spacing:-.01em;word-spacing:normal;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+.schedule-timeline .timeline-date,.timeline-game-group>header>h3{font-family:var(--body);letter-spacing:0;word-spacing:normal}
+.timeline-game-group>header>h3{color:var(--text);font-size:.81rem;font-weight:650;line-height:1.45;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+.timeline-game-group .timeline-entry strong{font-size:.81rem;font-weight:600;line-height:1.5;letter-spacing:-.01em;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+.timeline-game-group .timeline-entry-meta{align-items:center;gap:8px;margin-bottom:5px;font-family:var(--body);letter-spacing:0;line-height:1.4}
+.timeline-game-group .timeline-entry-meta time{flex:none;font-size:.7rem;font-weight:400;letter-spacing:0;font-variant-numeric:tabular-nums}
+.timeline-game-group .schedule-action{font-weight:550;line-height:1.4}
+.timeline-game-group .timeline-more{font-family:var(--body);letter-spacing:0;text-align:left;color:var(--muted)}
+.workspace .dashboard-game-panel h3{font-size:.95rem;font-weight:700;line-height:1.4}
+.workspace .dashboard-game-row{align-items:start;gap:8px 16px;padding-block:14px}
+.workspace .dashboard-row-main>a>strong{font-size:.85rem;font-weight:600;line-height:1.55}
+.workspace .dashboard-row-meta{font-size:.68rem;font-weight:400;line-height:1.45;gap:4px 8px;margin-bottom:5px}
+.dashboard-row-meta>span{white-space:nowrap}
+.workspace .dashboard-row-date{font-family:var(--body);font-size:.75rem;font-weight:450;line-height:1.45;letter-spacing:0;gap:4px;padding-top:1px}
+.workspace .dashboard-row-date>span{font-size:.64rem;line-height:1.45}
+.workspace .schedule-overview-grid :is(.reset-name strong,.event-title,.deadline-content strong){font-size:.85rem;font-weight:600;line-height:1.5}
+.workspace :is(.reset-clock,.event-clock,.deadline-time,.timeline-countdown,.entry-countdown,.calendar-urgent-time){font-family:var(--body);font-weight:400;letter-spacing:0;word-spacing:normal;line-height:1.5;font-variant-numeric:tabular-nums}
+.countdown-value,.workspace .countdown-value,.convene-time .countdown-value{display:inline-flex;flex-wrap:wrap;column-gap:.3em;row-gap:0;font-family:var(--body);font-size:inherit;font-weight:400;line-height:1.5;letter-spacing:0;word-spacing:normal;font-variant-numeric:tabular-nums;color:var(--text);vertical-align:baseline}
+.countdown-value>span{white-space:nowrap}
+.countdown-value[data-urgent=true],.workspace .countdown-value[data-urgent=true],.convene-time .countdown-value[data-urgent=true]{font-weight:700;color:var(--danger,#ae512f)}
+.workspace :is(.entry-countdown,.calendar-urgent-time){font-weight:400}
+.workspace .event-clock>span{display:flex;flex-direction:row;flex-wrap:wrap;align-items:baseline;gap:4px 8px;min-width:0}
+.workspace .event-clock small{font-size:.65rem;font-weight:400;line-height:1.5;color:var(--muted);white-space:nowrap}
+.workspace .event-clock.starts small{color:#328674}
+.workspace .event-clock.ends small{color:#a55a37}
+.workspace .event-clock{font-size:.73rem;gap:6px}
+.workspace .event-clock>svg{flex:none;color:var(--muted)}
+.workspace .event-clock.date-only time,.workspace .reset-clock>time:not(.countdown-value){font-family:var(--body);font-weight:400;font-variant-numeric:tabular-nums;letter-spacing:0;white-space:nowrap}
+.date-only-note{font-weight:400;white-space:nowrap;color:var(--muted)}
+.workspace .event-tile-compact>button{min-height:0}
+.workspace .event-tile-compact .event-tile-content{gap:6px;padding-block:12px}
+.workspace .event-tile-compact .event-clock{margin-top:2px}
+.workspace .event-tile-compact .event-badges:empty{display:none}
+.workspace .schedule-overview-grid .event-game-grid{align-items:stretch}
+.workspace .schedule-overview-grid .event-game-group{width:100%}
+.workspace .schedule-overview-grid .event-game-group h3{font-family:var(--body);font-size:.73rem;font-weight:550;letter-spacing:0;line-height:1.45}
+.workspace .schedule-overview-grid .event-tile-compact .event-clock{font-size:.73rem}
+.workspace .schedule-overview-grid .reset-row{grid-template-columns:minmax(0,1fr) 12px;grid-template-rows:auto auto;gap:6px 8px;padding-block:12px;align-items:start}
+.workspace .schedule-overview-grid .reset-name{grid-column:1;grid-row:1}
+.workspace .schedule-overview-grid .reset-clock{grid-column:1;grid-row:2;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;max-width:none;width:100%;text-align:left;justify-self:start;font-size:.73rem;line-height:1.5}
+.workspace .schedule-overview-grid .reset-clock>small{display:inline;margin:0;font-size:.65rem;font-weight:400;line-height:1.5;color:var(--muted)}
+.workspace .schedule-overview-grid .reset-row>svg{grid-column:2;grid-row:1 / 3;align-self:center}
+.workspace .schedule-overview-grid .reset-name>span:last-child:not(.content-game-badge){font-size:.67rem;line-height:1.5;font-weight:400;margin-top:3px}
+.workspace .deadline-game{font-family:var(--body);font-size:.67rem;font-weight:450;letter-spacing:0;gap:8px;align-items:baseline;flex-wrap:wrap}
+.workspace .deadline-game small{font-family:var(--body);font-size:.65rem;font-weight:400;letter-spacing:0;white-space:nowrap;font-variant-numeric:tabular-nums}
+.workspace .deadline-content>.deadline-time{font-size:.73rem!important;line-height:1.5;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 6px}
+.workspace .deadline-time i{font-family:var(--body);font-size:.65rem;font-weight:400;font-style:normal;letter-spacing:0;color:var(--muted)}
+[data-theme=dark] .workspace .event-clock.starts small{color:#81cbb6}
+[data-theme=dark] .workspace .event-clock.ends small{color:#e3a276}
+[data-theme=dark] .countdown-value[data-urgent=true]{color:#efa68c}

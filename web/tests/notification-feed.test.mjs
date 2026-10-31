@@ -8,7 +8,7 @@ const {notificationText,offsetLabel}=await import('../lib/notification-i18n.ts')
 const name={ko:'치사',en:'Chisa',ja:'千咲',zh:'千咲'};
 const entry={id:'test-chisa',gameId:'wuwa',kind:'pickup',poolType:'character',region:'global',title:name,summary:name,startAt:null,endAt:'2026-10-22T10:59:00+09:00',verifiedAt:'2026-10-16T23:00:00Z',pickupGroup:'test-phase',pickupMembers:[{name,type:'rerun'}]};
 test('native feed preserves exact times and groups while excluding forecasts and date-only entries',()=>{
- const feed=mobileFeed([entry,{...entry,id:'unknown',endAt:null,startDate:'2026-10-22'},{...entry,id:'forecast',pickupArchive:{status:'forecast'}},{...entry,id:'hidden',hidden:true}],{},'ko');
+ const feed=mobileFeed([entry,{...entry,id:'unknown',endAt:null,startDate:'2026-10-22'},{...entry,id:'forecast',pickupArchive:{status:'forecast'}},{...entry,id:'hidden',hidden:true}],{},'ko',undefined,Date.parse('2026-10-20T00:00:00Z'));
  assert.equal(feed.entries.length,1);assert.equal(feed.entries[0].startAt,null);assert.equal(feed.entries[0].endAt,entry.endAt);assert.equal(feed.entries[0].notificationGroup,'test-phase');assert.equal(feed.entries[0].notificationCharacters[0].voice.locale,'ko');
 });
 test('character style matches the precise entity and language; candidates, rate-ups and support cards never speak',()=>{

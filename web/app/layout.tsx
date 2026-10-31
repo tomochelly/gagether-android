@@ -1,8 +1,18 @@
+import {ReferenceScope} from '@/components/page-references';
+import './forum.css';
 import './text-editor.css';
 import './roster-editor.css';
 import './favorite-updates.css';
+import './broadcast-special.css';
+import './gfl2-combat.css';
+import './field-editor.css';
+import './owner-push.css';
+import './owner-home.css';
+import './calendar-display.css';
+import './upcoming-games.css';
 import './usage-analytics.css';
 import './content-sections.css';
+import './feature-shortcuts.css';
 import type { Metadata,Viewport } from "next";
 import "./globals.css";
 import "./artwork-calendar.css";
@@ -32,12 +42,32 @@ import "./leaks.css";
 import "./navigation-controls.css";
 import "./document-reader.css";
 import "./character-roster.css";
+import "./foresight.css";
 import "./gallery-effects.css";
+import './personal-layout.css';
 import "./pv-banner.css";
+import "./atelier.css";
+import "./wuwa-records.css";
+import "./wuwa-build-studio.css";
+import "./maintenance-polish.css";
+import "./page-references.css";
+import "./wuwa-combat-light.css";
+import "./zzz-combat.css";
+import "./overview-alignment.css";
+import "./schedule-overview.css";
+import "./scrollbars.css";
+import "./information-density.css";
+import "./game-pickup-strip.css";
+import "./pickup-thumbnails.css";
+import "./dashboard-clarity.css";
+import "./reading-hierarchy.css";
+import "./text-rhythm.css";
+import "./orbit.css";
+import "./orbit-prototype.css";
 import {requestLocale} from '@/lib/request-locale';
 import {brandOrigin} from '@/lib/brand';
 import {displayBootstrap} from '@/lib/display-preferences';
-import {websiteStructuredData,homeMetadata} from '@/lib/seo';
+import {websiteStructuredDataForLocale,homeMetadata} from '@/lib/seo';
 export const viewport:Viewport={width:'device-width',initialScale:1,viewportFit:'cover',themeColor:'#f5f7f2'};
 export const metadata: Metadata = {
  metadataBase: new URL(brandOrigin),
@@ -47,5 +77,5 @@ export const metadata: Metadata = {
 };
 export default async function RootLayout({children}:Readonly<{children:React.ReactNode}>) {
  const {locale}=await requestLocale();
- return <html lang={locale} data-theme="light" suppressHydrationWarning><head><script dangerouslySetInnerHTML={{__html:displayBootstrap}}/><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(websiteStructuredData).replace(/</g,'\\u003c')}}/></head><body>{children}</body></html>;
+ return <html lang={locale} data-theme="light" suppressHydrationWarning><head><script dangerouslySetInnerHTML={{__html:displayBootstrap}}/><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(websiteStructuredDataForLocale(locale)).replace(/</g,'\\u003c')}}/></head><body><ReferenceScope locale={locale}>{children}</ReferenceScope></body></html>;
 }

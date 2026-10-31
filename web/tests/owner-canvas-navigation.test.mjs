@@ -11,7 +11,7 @@ const {effectiveRegion}=await import('../lib/presentation.ts');
 const clock=Date.parse('2026-10-23T02:00:00Z');
 const entries=games.flatMap(g=>[...new Set(g.regions.map(r=>effectiveRegion(g,r)))].map(r=>({id:'owner-fixture-'+g.id+'-'+r,gameId:g.id,region:r,kind:'event',server:r,title:{ko:g.name.ko+' 시험',en:g.name.en+' fixture',ja:g.name.ja+' 検証',zh:g.name.zh+' 测试'},summary:{ko:'직접 상세',en:'Inline details',ja:'直接詳細',zh:'直接详情'},startAt:'2026-10-01T00:00:00Z',endAt:'2026-11-01T00:00:00Z',publishedAt:null,sourceUrl:g.official,sourceTitle:'Source',verifiedAt:'2026-10-22T00:00:00Z'})));
 const data={entries,settings:{},sourceChecks:[],serverTime:new Date(clock).toISOString()};
-test('owner buttons are on the real hydrated canvas across 15 games and 4 languages, with no separate entry inspector',async()=>{
+test('owner buttons are on the real hydrated canvas across released games and 4 languages, with no separate entry inspector',async()=>{
  const originalNow=Date.now;Date.now=()=>clock;const props={initialLocale:'ko',initialLocaleManual:true,initialData:data,initialComplete:true};
  const dom=new JSDOM('<div id="root">'+renderToString(React.createElement(Radar,props))+'</div>',{url:'https://gagether.wiki/',pretendToBeVisual:true}),old=new Map();
  const set=(k,v)=>{old.set(k,Object.getOwnPropertyDescriptor(globalThis,k));Object.defineProperty(globalThis,k,{value:v,writable:true,configurable:true});};
@@ -23,9 +23,11 @@ test('owner buttons are on the real hydrated canvas across 15 games and 4 langua
  const recovered=[],errors=[],oldError=console.error;console.error=(...a)=>errors.push(a.join(' '));let root;
  try{
   await act(async()=>{root=hydrateRoot(document.getElementById('root'),React.createElement(Radar,props),{onRecoverableError:e=>recovered.push(e.message)});});
+  assert.ok(!document.querySelector('.app-shell.editing'),'owner opens in reading mode');
+  await act(async()=>document.querySelector('.editor-toggle-button').click());
   for(const locale of ['ko','en','ja','zh']){
    await act(async()=>document.querySelector('.language-control button[title="'+({ko:'한국어',en:'English',ja:'日本語',zh:'中文'})[locale]+'"]').click());
-   for(const game of games){
+   for(const game of games.filter(g=>!g.launch)){
     await act(async()=>document.querySelector('.game-nav-link[title="'+game.name[locale]+'"]').click());
     const tile=document.querySelector('#gagether-events .event-tile');assert.ok(tile,game.id+' '+locale);
     const control=tile.querySelector('.owner-edit-small');assert.ok(control,game.id+' '+locale+' needs an edit control');

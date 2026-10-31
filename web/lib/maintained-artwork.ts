@@ -1,5 +1,5 @@
 import definitions from '../content/maintained-artwork.json' with {type:'json'};
-import {samePickupName} from './pickup-detail';
+import {samePickupName} from './pickup-names';
 import type {ArtworkAsset,EntityArtwork,Entry,Localized,SourceKind} from './types';
 export type MaintainedArtwork={gameId:string;regions:string[];kind:string;names:Localized[];asset:ArtworkAsset;sourceKind:SourceKind};
 export const maintainedArtwork=definitions as MaintainedArtwork[];

@@ -2,18 +2,17 @@ import type {Entry,Localized} from './types';
 import {featuredMembers} from './presentation';
 import {pickupCards} from './pickup-cards';
 import aliases from '../content/entity-profile-aliases.json' with {type:'json'};
+import {samePickupName} from './pickup-names';
+import {bluearchivePickupArtwork} from './bluearchive-pickup-artwork';
+export {samePickupName} from './pickup-names';
 
 export type OpenEntry=(entry:Entry,member?:Localized)=>void;
-const normalize=(s:string)=>s.normalize('NFKC').trim().replace(/\s+/g,' ').replace(/\s*([()])\s*/g,'$1').toLowerCase();
-export function samePickupName(a:Localized,b:Localized){
- const shared=(['ko','en','ja','zh'] as const).filter(l=>a[l]?.trim()&&b[l]?.trim());
- return shared.length>0&&shared.every(l=>normalize(a[l])===normalize(b[l]));
-}
 export function pickupDetailMembers(entry:Entry){
  return entry.kind==='pickup'&&!entry.selectionCount?featuredMembers(entry)||[]:[];
 }
 /** A display projection only. The canonical record remains the editor and fetch target. */
-export function pickupDetailEntry(entry:Entry,requested?:Localized|null):Entry{
+export function pickupDetailEntry(original:Entry,requested?:Localized|null):Entry{
+ const entry=bluearchivePickupArtwork(original);
  if(entry.kind!=='pickup'||entry.selectionCount)return entry;
  const members=pickupDetailMembers(entry),member=members.find(m=>requested&&samePickupName(m.name,requested))||members[0];
  const name=member?.name||entry.title;

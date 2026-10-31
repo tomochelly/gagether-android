@@ -96,3 +96,34 @@ test('bounded body batches continue from persisted receipts instead of reimporti
  for(const id of ids)assert.ok((await readBaseData({id})).entries[0].sourceBodies?.ja,id);
  const before=ids.map(id=>db.prepare('SELECT updated_at FROM entries WHERE id=?').get(id).updated_at);await importCapturedBodies(undefined,20);assert.deepEqual(ids.map(id=>db.prepare('SELECT updated_at FROM entries WHERE id=?').get(id).updated_at),before);
 });
+
+test('four short native Holo articles publish through actual SQLite/R2 import while preserving owner fields and clocks',async()=>{
+ const {parseSteamEvents}=await import('../lib/additional-game-notices.ts'),{noticeEntry}=await import('../lib/fast-notices.ts');
+ const rows=JSON.parse(fs.readFileSync('tests/fixtures/additional/holodreams-short-native.json','utf8')),locales={koreana:'ko',english:'en',japanese:'ja',schinese:'zh'},documents=[];
+ const ownerKey='entry:short-native-holo-en',ownerPayload=JSON.stringify({title:{...blank,en:'Owner title'},summary:{...blank,en:'Owner summary'},image:'/api/media/owner-holo.png'});
+ for(const row of rows){
+  const n=parseSteamEvents({success:1,events:[row.event]},'holodreams',locales[row.language])[0],original={...noticeEntry(n,time),id:'short-native-holo-'+n.locale};write(original);
+  if(n.locale==='en')db.prepare('INSERT INTO editorial(key,payload,revision,updated_at,updated_by) VALUES (?,?,?,?,?)').run(ownerKey,ownerPayload,7,time,'owner');
+  const d=await captureDocument(n,n.bodyHtml,time);assert.equal(d.sourceAccess,'body');documents.push(d.id);
+ }
+ const result=await importCapturedBodies(documents);assert.equal(result.importedDocuments,4);
+ for(const row of rows){
+  const locale=locales[row.language],saved=(await readBaseData({id:'short-native-holo-'+locale})).entries[0],text=row.event.announcement_body.body.replace(/^\[p\]|\[\/p\]$/g,'');
+  assert.equal(saved.sourceBodies[locale].text,text);assert.equal(saved.sourceBodies[locale].locale,locale);assert.equal(saved.startAt,null);assert.equal(saved.endAt,null);assert.equal(saved.publishedAt,new Date(row.event.announcement_body.posttime*1000).toISOString());assert.equal(saved.verifiedAt,time);
+  if(locale!=='en')assert.equal(saved.summary[locale],text);
+  assert.equal(db.prepare('SELECT reviewed_hash FROM official_documents WHERE id=?').get(documents[rows.indexOf(row)]).reviewed_hash,null);
+ }
+ const effective=(await readData()).entries.find(e=>e.id==='short-native-holo-en');assert.equal(effective.title.en,'Owner title');assert.equal(effective.summary.en,'Owner summary');assert.equal(effective.image,'/api/media/owner-holo.png');
+ assert.equal(db.prepare('SELECT payload FROM editorial WHERE key=?').get(ownerKey).payload,ownerPayload);assert.equal(db.prepare('SELECT revision FROM editorial WHERE key=?').get(ownerKey).revision,7);
+ const before=rows.map(r=>db.prepare('SELECT payload,updated_at FROM entries WHERE id=?').get('short-native-holo-'+locales[r.language]));assert.deepEqual((await importCapturedBodies()).changedEntries,[]);assert.deepEqual(rows.map(r=>db.prepare('SELECT payload,updated_at FROM entries WHERE id=?').get('short-native-holo-'+locales[r.language])),before);
+});
+
+test('a same-hash metadata-to-body recovery restores its missing R2 object before importing the short native article',async()=>{
+ const {parseSteamEvents}=await import('../lib/additional-game-notices.ts'),{noticeEntry}=await import('../lib/fast-notices.ts');
+ const row=JSON.parse(fs.readFileSync('tests/fixtures/additional/holodreams-short-native.json','utf8'))[0],n=parseSteamEvents({success:1,events:[row.event]},'holodreams','ko')[0],first=await captureDocument(n,n.bodyHtml,time);
+ const objectKey='official-documents/'+first.id+'/'+first.bodyHash,metadata={...first,sourceAccess:'metadata'};bucket.delete(objectKey);db.prepare('UPDATE official_documents SET payload=? WHERE id=?').run(JSON.stringify(metadata),first.id);
+ const before={...noticeEntry(n,time),id:'short-native-holo-recovery'};write(before);
+ const recovered=await captureDocument(n,n.bodyHtml,'2026-10-30T03:00:00Z');assert.equal(recovered.sourceAccess,'body');assert.equal(recovered.bodyHash,first.bodyHash);assert.ok(bucket.has(objectKey));assert.equal(JSON.parse(bucket.get(objectKey)).text,'경미한 오류를 수정했습니다');
+ const result=await importCapturedBodies([recovered.id]);assert.ok(result.changedEntries.includes(before.id));const saved=(await readBaseData({id:before.id})).entries[0];
+ assert.equal(saved.sourceBodies.ko.bodyHash,first.bodyHash);assert.equal(saved.sourceBodies.ko.text,'경미한 오류를 수정했습니다');assert.equal(saved.publishedAt,before.publishedAt);assert.equal(saved.verifiedAt,before.verifiedAt);assert.equal(saved.startAt,null);assert.equal(saved.endAt,null);assert.equal(db.prepare('SELECT reviewed_hash FROM official_documents WHERE id=?').get(first.id).reviewed_hash,null);
+});

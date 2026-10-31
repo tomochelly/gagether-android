@@ -1,0 +1,28 @@
+import './load-typescript.mjs';
+import {test} from 'node:test';import assert from 'node:assert/strict';import React,{act} from 'react';import {JSDOM} from 'jsdom';
+const {broadcastSpecial}=await import('../lib/broadcast-special.ts'),{games}=await import('../lib/games.ts'),{catalogEntry}=await import('../lib/catalog-index.ts'),{default:BroadcastSpecial}=await import('../components/broadcast-special.tsx');
+const loc=s=>({ko:s,en:s,ja:s,zh:s}),now=Date.now(),stamp=new Date(now).toISOString(),video='SXTEyXX__I8',url='https://www.youtube.com/watch?v='+video;
+const entry={id:'recap-test',gameId:'nte',kind:'update',region:'global',server:'global',title:loc('Program'),summary:loc('Source summary'),sourceLocale:'ko',sourceUrl:url,sourceTitle:'Official',startAt:null,endAt:null,publishedAt:stamp,verifiedAt:stamp,broadcastRecap:{youtubeId:video,title:loc('Version 1.5'),reviewedAt:stamp,bannerUntil:new Date(now+86400000).toISOString(),highlights:[loc('Updates')],codes:[{code:'INVALIDNUMBER',reward:loc('Code'),expiresAt:null,sourceUrl:url},{code:'EXPIRED',reward:loc('Code'),expiresAt:new Date(now-1000).toISOString(),sourceUrl:url}]}};
+test('recaps respect game, service language, owner hiding, expiry and latest review; catalog retains feature',()=>{
+ const game=games.find(g=>g.id==='nte'),newer={...entry,id:'newer',broadcastRecap:{...entry.broadcastRecap,reviewedAt:new Date(now+1000).toISOString()}};
+ assert.equal(broadcastSpecial([entry,newer],game,'global','ko',now).id,'newer');assert.equal(broadcastSpecial([entry],game,'global','en',now),undefined);assert.equal(broadcastSpecial([{...entry,hidden:true}],game,'global','ko',now),undefined);assert.equal(broadcastSpecial([entry],game,'global','ko',now+86400001),undefined);assert.equal(broadcastSpecial([{...entry,gameId:'zzz'}],game,'global','ko',now),undefined);assert.deepEqual(catalogEntry(entry).broadcastRecap,entry.broadcastRecap);
+});
+test('three-day expiry uses the actual show end and a fresh review cannot revive an old program',()=>{
+ const game=games.find(g=>g.id==='nte'),ended=now-3*86400000,recap={...entry,publishedAt:new Date(ended-3600000).toISOString(),broadcastRecap:{...entry.broadcastRecap,bannerUntil:new Date(now+20*86400000).toISOString()}};
+ const original=JSON.stringify(recap),stream={...entry,id:'original-show',broadcastRecap:undefined,broadcast:{official:true,metadataVerified:true,status:'ended',youtubeId:video,locale:'ko',endedAt:new Date(ended).toISOString()}};
+ assert.equal(broadcastSpecial([recap,stream],game,'global','ko',now-1)?.id,recap.id);assert.equal(broadcastSpecial([recap,stream],game,'global','ko',now),undefined);assert.equal(broadcastSpecial([recap],game,'global','ko',now),undefined);assert.equal(broadcastSpecial([{...recap,publishedAt:null}],game,'global','ko',now),undefined);assert.equal(JSON.stringify(recap),original);
+});
+test('Korean banners exclude reviewed Japanese translations without deleting the Japanese recap',()=>{
+ const game=games.find(g=>g.id==='wuwa'),japanese={...entry,id:'recap-wuwa-ja-m_jkyR41xkk',gameId:'wuwa',sourceLocale:'ja',sourceUrl:'https://www.youtube.com/watch?v=m_jkyR41xkk',translatedLocales:['ko','en','zh'],broadcastRecap:{...entry.broadcastRecap,youtubeId:'m_jkyR41xkk'}};
+ assert.equal(broadcastSpecial([japanese],game,'global','ko',now),undefined);assert.equal(broadcastSpecial([japanese],game,'global','ja',now)?.id,japanese.id);assert.equal(broadcastSpecial([japanese],game,'global','zh',now)?.id,japanese.id);
+});
+test('codes copy exact text, expired codes stay disabled, clipboard failures are visible, details open and replay loads only on request',async()=>{
+ const dom=new JSDOM('<div id="root"></div>',{url:'https://gagether.wiki',pretendToBeVisual:true}),old=new Map(),set=(k,v)=>{old.set(k,Object.getOwnPropertyDescriptor(globalThis,k));Object.defineProperty(globalThis,k,{value:v,configurable:true,writable:true})};
+ for(const k of ['window','document','HTMLElement','Element','Node','Event','MouseEvent','KeyboardEvent'])set(k,dom.window[k]);set('IS_REACT_ACT_ENVIRONMENT',true);let copied='',fail=false,opened='';set('navigator',{userAgent:'test',clipboard:{writeText:async value=>{if(fail)throw Error('Unavailable');copied=value}}});
+ const {createRoot}=await import('react-dom/client'),root=createRoot(document.getElementById('root'));
+ try{await act(async()=>root.render(React.createElement(BroadcastSpecial,{entry,locale:'ko',now,onOpen:e=>opened=e.id})));assert.equal(document.querySelector('iframe'),null);assert.equal(document.querySelectorAll('.broadcast-code-list article').length,2);assert.equal(document.querySelectorAll('.broadcast-code-list button')[1].disabled,true);
+ await act(async()=>document.querySelector('.broadcast-code-list button').click());assert.equal(copied,'INVALIDNUMBER');assert.match(document.querySelector('[role=status]').textContent,/복사 완료/);assert.match(document.body.textContent,/사용 기한 미확인/);
+ fail=true;await act(async()=>document.querySelector('.broadcast-code-list button').click());assert.match(document.querySelector('[role=status]').textContent,/직접 선택/);
+ await act(async()=>document.querySelector('.broadcast-special-actions button').click());assert.equal(opened,entry.id);await act(async()=>document.querySelectorAll('.broadcast-special-actions button')[1].click());assert.match(document.querySelector('iframe').src,/youtube-nocookie.com\/embed\/SXTEyXX__I8/);await act(async()=>document.querySelector('.broadcast-special-player button').click());assert.equal(document.querySelector('iframe'),null);
+ }finally{await act(async()=>root.unmount());dom.window.close();for(const[k,d]of old){if(d)Object.defineProperty(globalThis,k,d);else delete globalThis[k]}}
+});

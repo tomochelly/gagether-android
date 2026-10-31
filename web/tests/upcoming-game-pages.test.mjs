@@ -1,0 +1,11 @@
+import './load-typescript.mjs';import{test}from'node:test';import assert from'node:assert/strict';
+const{games}=await import('../lib/games.ts'),{gameLaunchLabel}=await import('../lib/game-launch.ts'),{mobileFeed}=await import('../lib/mobile.ts'),{discordFeed}=await import('../lib/discord-feed.ts'),{articleBodySource,bodyBelongsToEntry}=await import('../lib/source-body-identity.ts');
+test('upcoming pages use verified regional dates and complete localized information without changing distributed app feeds',()=>{
+ const silver=games.find(g=>g.id==='silver-palace'),azur=games.find(g=>g.id==='azur-promilia'),ananta=games.find(g=>g.id==='ananta');assert.equal(games.length,21);assert.equal(gameLaunchLabel(silver,'ko'),'출시일 미정');assert.equal(azur.launch.dates.global,undefined);assert.match(gameLaunchLabel(azur,'ko'),/2026.*11.*26/);assert.equal(gameLaunchLabel(azur,'en'),'English release date TBA');assert.match(gameLaunchLabel(ananta,'en'),/January 15, 2027/);
+ for(const g of[silver,azur,ananta])for(const l of['ko','en','ja','zh']){assert.ok(g.name[l]&&g.launch.summary[l]&&g.launch.officialSites[l]);assert.ok(g.launch.status==='upcoming');}
+ assert.equal(mobileFeed([],{},'en').games.length,18);assert.equal(discordFeed([],{},'en','global',Date.now()).games.length,18);
+});
+test('wrong NTE landing and exact mismatched body originals stay stored but are excluded from display/import; genuine bodies remain valid',()=>{
+ assert.equal(articleBodySource('nte','https://nte.perfectworld.com/en/main.html'),false);assert.equal(articleBodySource('nte','https://nte.perfectworld.com/en/article/news/gamenews/20261019/264679.html'),true);assert.equal(articleBodySource('wuwa','https://wutheringwaves.kurogames.com/en/main.html'),true);
+ const e={id:'nte-14-far-side-of-the-moon',gameId:'nte'},b={locale:'zh',sourceUrl:'https://nte.perfectworld.com/cn/article/news/gamenews/20261019/264673.html',bodyHash:'d4d3890d3301e35efe0e5c254ad19dc5b5fbdfd1d3ce6c22c76507b9b76db093'};assert.equal(bodyBelongsToEntry(e,b),false);assert.equal(bodyBelongsToEntry(e,{...b,bodyHash:'new-verified-document'}),true);assert.equal(b.bodyHash,'d4d3890d3301e35efe0e5c254ad19dc5b5fbdfd1d3ce6c22c76507b9b76db093');
+});

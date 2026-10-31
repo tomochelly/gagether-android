@@ -45,6 +45,10 @@ test('real community calendar retains forecast dates without clocks and cannot d
  const original={...e,id:'reviewed',sourceKind:'official',startAt:'2026-10-29T12:00:00+09:00',endAt:'2026-11-12T10:00:00+09:00',pickupArchive:undefined};assert.deepEqual(applyAdditionalContent([original],[e]),[]);
  const past=limbusCalendarEntry(read('limbus-next.html'),url,'2026-12-01T00:00:00Z');assert.equal(past.pickupArchive.status,'past');
 });
+test('Point Rally period sibling headings remain attached to their named publisher event',async()=>{
+ const html='<div id="article-body">以下、プレスリリース<h2>『hololive Dreams』ホロドリ</h2><p>株式会社QualiArts</p><h3>■ポイントラリーイベント「私たちのHalloween Fever！」開催！！</h3><p>Event art</p><h3>イベント開催期間</h3><p>2026年10月29日（木）12:00～2026年11月4日（水）19:59</p><p>ライブとミニゲームでイベントPtを集めます。</p><h3>■今後のアップデート</h3><p>11月末にチャレンジライブを追加予定</p></div>';
+ const rows=await hololiveEntries(html,'https://gamewith.jp/gamedb/15524/articles/65016',stamp),event=rows.find(e=>e.kind==='event');assert.equal(event.title.ja,'私たちのHalloween Fever！');assert.equal(event.startDate,'2026-10-29');assert.equal(event.endDate,'2026-11-04');assert.equal(event.endAt,null);assert.match(event.sourceBodies.ja.text,/イベントPt/);assert.doesNotMatch(event.sourceBodies.ja.text,/チャレンジライブ/);assert.equal(rows.filter(e=>e.kind==='event').length,1);
+});
 const db=new DatabaseSync(':memory:');for(const file of fs.readdirSync('drizzle').filter(f=>f.endsWith('.sql')).sort())db.exec(fs.readFileSync('drizzle/'+file,'utf8'));
 function prepare(sql){let args=[];return {bind(...a){args=a;return this},async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){const r=db.prepare(sql).run(...args);return {meta:{changes:Number(r.changes)}}}}}
 globalThis.__additionalEnv={DB:{prepare,async batch(rows){return Promise.all(rows.map(r=>r.run()))}}};

@@ -45,10 +45,17 @@ export async function hololiveEntries(html:string,url:string,at:string){
  const release=hololiveRelease(html,url),articleId=url.match(/(\d+)\/?$/)![1],out:Entry[]=[];
  const full=await nativeBody('ja',url,release.title,release.html,'community',at);
  out.push(importBody(base('holodreams','community-holodreams-'+articleId,'update',release.title,'ja',url,'community',at,release.publishedAt),full));
- const sections=[...release.html.matchAll(/<h3\b[^>]*>([\s\S]*?)<\/h3>([\s\S]*?)(?=<h3\b|<\/article>)/gi)];
+ const sections:RegExpMatchArray[]=[];
+ for(const section of release.html.matchAll(/<h3\b[^>]*>([\s\S]*?)<\/h3>([\s\S]*?)(?=<h3\b|<\/article>)/gi)){
+  // The publisher sometimes renders the period label as a sibling heading.
+  // Keep that continuation with its named event instead of losing the dates.
+  const heading=sourceDocument('<p>'+section[1]+'</p>',url).text.trim();
+  if(sections.length&&/^(?:イベント|ガチャ)開催期間$/.test(heading))sections.at(-1)![2]+='<h3>'+section[1]+'</h3>'+section[2];
+  else sections.push(section);
+ }
  for(const section of sections){
   const heading=sourceDocument('<p>'+section[1]+'</p>',url).text;
-  const kind=/ガチャ/.test(heading)?'pickup':/ゲーム内イベント/.test(heading)?'event':undefined;if(!kind)continue;
+   const kind=/ガチャ/.test(heading)?'pickup':/ゲーム内イベント|ポイントラリーイベント/.test(heading)?'event':undefined;if(!kind)continue;
   const text=sourceDocument(section[2],url).text,period=text.match(/(20\d{2})年(\d{1,2})月(\d{1,2})日[^\n～~]*[～~]\s*(20\d{2})年(\d{1,2})月(\d{1,2})日/);
   if(!period)continue;
   const startDate=date(period[1],period[2],period[3]),endDate=date(period[4],period[5],period[6]);if(endDate<startDate)throw Error('Invalid reprint period');

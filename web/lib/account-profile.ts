@@ -1,5 +1,6 @@
 import {decodeNotes,type PersonalNote} from './personal-notes';
-export type AccountProfile={favorites:string[];saved:string[];order:string[];notes:PersonalNote[]};
+import {parsePersonalLayouts,mergePersonalLayouts,type PersonalLayouts} from './personal-layout';
+export type AccountProfile={favorites:string[];saved:string[];order:string[];notes:PersonalNote[];layouts?:PersonalLayouts};
 export const emptyProfile=():AccountProfile=>({favorites:[],saved:[],order:[],notes:[]});
 export const profileLimit=1_500_000;
 export const equal=(a:unknown,b:unknown)=>JSON.stringify(a)===JSON.stringify(b);
@@ -11,7 +12,8 @@ export function parseProfile(value:unknown):AccountProfile{
  if(!value||typeof value!=='object')throw Error('Invalid profile');
  const v=value as AccountProfile;
  const notes=decodeNotes(JSON.stringify({version:1,notes:v.notes})).map(n=>({id:n.id,date:n.date,...(n.gameId?{gameId:n.gameId}:{}),...(n.region?{region:n.region}:{}),kind:n.kind,title:n.title,body:n.body,createdAt:n.createdAt,updatedAt:n.updatedAt}));
- const p={favorites:ids(v.favorites,100),saved:ids(v.saved,4000),order:ids(v.order,100),notes};
+ const layouts=parsePersonalLayouts(v.layouts);
+ const p={favorites:ids(v.favorites,100),saved:ids(v.saved,4000),order:ids(v.order,100),notes,...(Object.keys(layouts).length?{layouts}:{})};
  if(new TextEncoder().encode(JSON.stringify(p)).length>profileLimit)throw Error('Profile too large');
  return p;
 }
@@ -35,5 +37,5 @@ export function mergeProfile(base:AccountProfile|null,local:AccountProfile,remot
   else if(next){notes.set(copyId(next),{...next,id:copyId(next)});} // Keep both edits, including edit-versus-delete.
   // A concurrent remote edit survives a stale local delete.
  }
- return parseProfile({favorites:mergeSet(b.favorites,local.favorites,remote.favorites),saved:mergeSet(b.saved,local.saved,remote.saved),order:initial?(remote.order.length?remote.order:local.order):equal(b.order,local.order)?remote.order:local.order,notes:[...notes.values()].sort((a,b)=>a.id.localeCompare(b.id))});
+ return parseProfile({favorites:mergeSet(b.favorites,local.favorites,remote.favorites),saved:mergeSet(b.saved,local.saved,remote.saved),order:initial?(remote.order.length?remote.order:local.order):equal(b.order,local.order)?remote.order:local.order,notes:[...notes.values()].sort((a,b)=>a.id.localeCompare(b.id)),layouts:mergePersonalLayouts(b.layouts,local.layouts,remote.layouts,initial)});
 }

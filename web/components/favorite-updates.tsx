@@ -1,6 +1,9 @@
 'use client';
+import CompactCardRail from './compact-card-rail';
 import {textAppearance,textAppearanceStyle,authoredField} from '@/lib/text-appearance';
 import {EntryEdit} from './owner-inline';
+import BroadcastSpecial from './broadcast-special';
+import {broadcastSpecial} from '@/lib/broadcast-special';
 import {useDisplayZone} from './display-time';
 import {useMemo,useState,type CSSProperties} from 'react';
 import {ArrowUpRight,Bell,Radio,Play,Star,ChevronRight,Clock3} from 'lucide-react';
@@ -25,11 +28,12 @@ export default function FavoriteUpdates(props:Props){
  const broadcasts=useMemo(()=>favoriteBroadcasts(entries,games,favorites,region,gameRegions,locale,now),[entries,games,favorites,region,gameRegions,locale,now]);
  const ended=useMemo(()=>favoriteBroadcastArchive(entries,games,favorites,region,gameRegions,locale),[entries,games,favorites,region,gameRegions,locale]);
  const open=(e:Entry)=>onOpen(e);
+ const special=games.filter(g=>favorites.includes(g.id)).flatMap(g=>{const e=broadcastSpecial(entries,g,gameRegions[g.id]||region,locale,now);return e?[e]:[];}).sort((a,b)=>Date.parse(b.broadcastRecap!.reviewedAt)-Date.parse(a.broadcastRecap!.reviewedAt))[0];
  const shownGroups=simpleMode?groups.filter(g=>g.game.id===(groups.some(g=>g.game.id===newsGame)?newsGame:groups[0]?.game.id)):groups;
- return <div id="gagether-news" className="favorite-updates">
+ return <div id="gagether-news" className="favorite-updates">{special&&<BroadcastSpecial entry={special} locale={locale} now={now} onOpen={onOpen}/>}
   <section className="favorite-news" aria-label={l.news}><header className="favorite-section-heading"><div><Bell size={18}/><h2>{l.news}</h2><span>{groups.length}</span></div><p>{l.newsSub}</p></header>
    {simpleMode&&groups.length>1&&<nav className="simple-news-tabs" aria-label={l.news}>{groups.map(({game})=><button key={game.id} aria-pressed={shownGroups[0]?.game.id===game.id} onClick={()=>setNewsGame(game.id)}><img src={game.icon||game.logo} alt=""/>{game.name[locale]}</button>)}</nav>}
-   {!groups.length?<div className="favorite-empty"><Star size={22}/><p>{l.noGames}</p><button onClick={onChooseGames}>{l.choose}<ChevronRight size={15}/></button></div>:<div className="favorite-news-grid">{shownGroups.map(({game,region:service,notices})=><article key={game.id} className="favorite-news-game" style={{'--game-color':game.color} as CSSProperties}><header><img src={game.icon||game.logo} alt=""/><div><h3 style={textAppearanceStyle(game.textStyle?.[locale],'title')}>{game.name[locale]}</h3><small>{regionLabel(game,service,locale,t)}</small></div><button onClick={()=>onGame(game.id,service)} aria-label={game.name[locale]+' · '+l.openGame}><ArrowUpRight size={17}/></button></header><div className="favorite-notice-list">{notices.slice(0,expanded.includes(game.id)?12:3).map(e=><div key={e.id} className="owner-entry-row"><button type="button" className="favorite-notice-button" onClick={()=>open(e)}><span><time>{e.publishedAt?date(e.publishedAt,locale,false,zone):'—'}</time><small>{e.broadcast?l.broadcast:t[e.kind]}</small></span><strong style={textAppearanceStyle(textAppearance(e,locale),'title')}>{entryTitle(e,locale)}</strong><ChevronRight size={14}/></button><EntryEdit entry={e} locale={locale} compact/></div>)}{!notices.length&&<p className="favorite-no-news">{l.empty}</p>}</div>{notices.length>3&&!expanded.includes(game.id)&&<button className="favorite-news-more" onClick={()=>setExpanded(v=>[...v,game.id])}>{l.more}<span>{Math.min(notices.length,12)}</span><ChevronRight size={13}/></button>}</article>)}</div>}
+   {!groups.length?<div className="favorite-empty"><Star size={22}/><p>{l.noGames}</p><button onClick={onChooseGames}>{l.choose}<ChevronRight size={15}/></button></div>:<CompactCardRail className="favorite-news-grid" count={shownGroups.length} label={l.news} locale={locale}>{shownGroups.map(({game,region:service,notices})=><article key={game.id} className="favorite-news-game" style={{'--game-color':game.color} as CSSProperties}><header><img src={game.icon||game.logo} alt=""/><div><h3 style={textAppearanceStyle(game.textStyle?.[locale],'title')}>{game.name[locale]}</h3><small>{regionLabel(game,service,locale,t)}</small></div><button onClick={()=>onGame(game.id,service)} aria-label={game.name[locale]+' · '+l.openGame}><ArrowUpRight size={17}/></button></header><div className="favorite-notice-list">{notices.slice(0,expanded.includes(game.id)?12:3).map(e=><div key={e.id} className="owner-entry-row"><button type="button" className="favorite-notice-button" onClick={()=>open(e)}><span><time>{e.publishedAt?date(e.publishedAt,locale,false,zone):'—'}</time><small>{e.broadcast?l.broadcast:t[e.kind]}</small></span><strong style={textAppearanceStyle(textAppearance(e,locale),'title')}>{entryTitle(e,locale)}</strong><ChevronRight size={14}/></button><EntryEdit entry={e} locale={locale} compact/></div>)}{!notices.length&&<p className="favorite-no-news">{l.empty}</p>}</div>{notices.length>3&&!expanded.includes(game.id)&&<button className="favorite-news-more" onClick={()=>setExpanded(v=>[...v,game.id])}>{l.more}<span>{Math.min(notices.length,12)}</span><ChevronRight size={13}/></button>}</article>)}</CompactCardRail>}
   </section>
   <BroadcastRoom entries={broadcasts} archive={ended} locale={locale} now={now} onOpen={open} onReminder={onBroadcastSettings}/>
  </div>;
@@ -37,8 +41,9 @@ export default function FavoriteUpdates(props:Props){
 export function GameBroadcasts({entries,game,region,locale,now,onOpen}:{entries:Entry[];game:Game;region:Region;locale:Locale;now:number;onOpen:(e:Entry)=>void}){
  const broadcasts=useMemo(()=>gameBroadcasts(entries,game,region,locale,now),[entries,game,region,locale,now]);
  const ended=useMemo(()=>gameBroadcastArchive(entries,game,region,locale),[entries,game,region,locale]);
- if(!broadcasts.length&&!ended.length)return null;
- return <BroadcastRoom key={game.id+':'+region+':'+locale} entries={broadcasts} archive={ended} locale={locale} now={now} onOpen={onOpen}/>;
+ const special=broadcastSpecial(entries,game,region,locale,now);
+ if(!broadcasts.length&&!ended.length&&!special)return null;
+ return <>{special&&<BroadcastSpecial entry={special} locale={locale} now={now} onOpen={onOpen}/>}<BroadcastRoom key={game.id+':'+region+':'+locale} entries={broadcasts} archive={ended} locale={locale} now={now} onOpen={onOpen}/></>;
 }
 export function BroadcastRoom({entries,archive=[],locale,now,onOpen,onReminder}:{entries:Entry[];archive?:Entry[];locale:Locale;now:number;onOpen:(e:Entry)=>void;onReminder?:()=>void}){
  const zone=useDisplayZone();

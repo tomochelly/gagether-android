@@ -1,3 +1,4 @@
+import {articleBodySource} from './source-body-identity';
 import {importNteProfiles} from './nte-profile-store';
 import {importAdditionalGameContent} from './additional-content-store';
 import {importMaintainedArtwork} from './maintained-artwork-store';
@@ -52,7 +53,7 @@ export async function collectPendingDocuments(gameId?:string,bodiesOnly=false){
  const data=await readData({automatic:true,collection:true,gameId}),queue=await reviewQueue(5000),previous=new Map(queue.map(d=>[d.url,d]));
  const candidates=data.entries.filter(e=>(!gameId||e.gameId===gameId)&&bodyCollectionCandidate(e)).sort((a,b)=>Number(pickupNotice(b.sourceTitle))-Number(pickupNotice(a.sourceTitle))||(b.publishedAt||'').localeCompare(a.publishedAt||''));
  const variants=candidates.flatMap(e=>[e,...Object.entries(e.localizationSources||{}).filter(([,u])=>u&&u!==e.sourceUrl).map(([l,u])=>({...e,sourceUrl:u!,sourceLocale:l as import('./types').Locale,sourceTitle:e.title[l as import('./types').Locale]||e.sourceTitle}))]);
- const unique=[...new Map(variants.map(e=>[e.sourceUrl,e])).values()];
+ const unique=[...new Map(variants.filter(e=>articleBodySource(e.gameId,e.sourceUrl)).map(e=>[e.sourceUrl,e])).values()];
  const chosen=selectBodyCandidates(unique,previous,Date.now(),bodiesOnly?3:10);
  const checks:any[]=[];
  for(let i=0;i<chosen.length;i+=3)await Promise.all(chosen.slice(i,i+3).map(async e=>{
@@ -76,3 +77,4 @@ export async function collectPendingDocuments(gameId?:string,bodiesOnly=false){
  await env.DB!.prepare("INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload").bind(gameId?'collection:'+gameId:'collection',JSON.stringify(result)).run();
  return result;
 }
+

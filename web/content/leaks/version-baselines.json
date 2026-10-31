@@ -1,0 +1,26 @@
+[
+  {
+    "gameId": "hsr",
+    "version": "4.6",
+    "checkedAt": "2026-10-27T00:30:12.992196+00:00",
+    "sourceUrl": "https://www.hoyoverse.com/en-us/news/166390",
+    "sourceAccess": "search-index",
+    "startDate": "2026-09-28"
+  },
+  {
+    "gameId": "zzz",
+    "version": "3.3",
+    "checkedAt": "2026-10-27T00:30:12.992196+00:00",
+    "sourceUrl": "https://zenless.hoyoverse.com/m/en-us/news/166963",
+    "sourceAccess": "search-index",
+    "startDate": "2026-10-21"
+  },
+  {
+    "gameId": "genshin",
+    "version": "7.1",
+    "checkedAt": "2026-10-27T00:30:12.992196+00:00",
+    "sourceUrl": "https://genshin.hoyoverse.com/m/en/news/detail/166383",
+    "sourceAccess": "search-index",
+    "startDate": "2026-09-23"
+  }
+]

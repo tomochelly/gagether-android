@@ -26,7 +26,11 @@ def encode(roster,catalog,horses):
   forms[id]=dict(sourceId=f['sourceId'],sha256=hashlib.sha256(body).hexdigest(),bytes=len(body),payload=base64.b64encode(zipped).decode())
   assert gzip.decompress(zipped)==body
  if set(forms)!=set(known):raise ValueError('Incomplete exact outfit catalog')
- out={**roster,'detailCatalog':dict(version=3,sourceUrl=catalog['sourceUrl'],checkedAt=catalog['checkedAt'],forms=forms)}
+ characters=[]
+ for c in roster['characters']:
+  body=json.loads(gzip.decompress(base64.b64decode(forms[c['id']]['payload'])))
+  characters.append({k:v for k,v in c.items()if k not in body['details']or v!=body['details'][k]or k not in ['stats','statProgression','regionalStatProgression','statDetailLabel','skillTables','regionalSkillTables','historicalBackground']})
+ out={**roster,'characters':characters,'detailCatalog':dict(version=3,sourceUrl=catalog['sourceUrl'],checkedAt=catalog['checkedAt'],forms=forms)}
  # Source field values remain in every corresponding identity-bound block.
  wire={**out,'characters':[{k:v for k,v in c.items()if k not in ['stats','statProgression','regionalStatProgression','statDetailLabel','skillTables','regionalSkillTables','historicalBackground']}for c in out['characters']]}
  if len(packed(wire))>4400000:raise ValueError('Complete encoded roster exceeds4.4MB ingest bound')

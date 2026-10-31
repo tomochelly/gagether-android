@@ -29,6 +29,7 @@ test('real owner canvas: add, retry, consecutive creation, library game/text edi
  const recovered=[],errors=[],oldError=console.error;console.error=(...a)=>errors.push(a.join(' '));let root;
  try{
   await act(async()=>{root=hydrateRoot(document.getElementById('root'),React.createElement(Radar,props),{onRecoverableError:e=>recovered.push(e.message)});});
+  assert.ok(!document.querySelector('.app-shell.editing'));await act(async()=>document.querySelector('.editor-toggle-button').click());
   await act(async()=>{document.querySelector('.editor-toolbar button:nth-of-type(2)').click();await import('../components/editor-panel.tsx');});
   assert.ok(document.querySelector('.editor-inspector'),'Add opens the editor');
   assert.ok(document.querySelector('.editor-inspector textarea[aria-label="'+editorText.ko.title+'"]'),'New item fields render');

@@ -29,7 +29,7 @@ test('web/mobile frames render all four languages even when the database is unav
   assert.match(markup,/data-catalog-state="shell"/);
   assert.match(markup,/class="sidebar ?"/);
   assert.match(markup,/catalog-pending/);
-  assert.equal((markup.match(/class="game-nav-link"/g)||[]).length,18);
+  assert.equal((markup.match(/class="game-nav-link"/g)||[]).length,games.length);
   assert.doesNotMatch(markup,/class="ambient"|id="S:|empty-state/);
   // Retain the original 15-game byte budget per game as the catalog expands.
   assert.ok(Buffer.byteLength(markup)<80000*games.length/15,Buffer.byteLength(markup));
@@ -79,11 +79,11 @@ test('navigation works while data is pending; retry loads compact data without r
   await act(async()=>{root=hydrateRoot(document.getElementById('root'),React.createElement(Radar,revisit),{onRecoverableError:e=>recovered.push(e.message)})});
   assert.equal(document.querySelector('.catalog-pending'),null);
   assert.ok(document.querySelector('.brand').textContent.includes('Owner brand'));
-  assert.ok(document.querySelector('.catalog-recheck').textContent.includes('저장된 정보'));
+  assert.equal(document.querySelector('.catalog-recheck'),null);assert.equal(document.querySelector('.app-shell').getAttribute('data-catalog-refreshing'),'true');assert.ok(document.body.textContent.includes('검수된 이벤트'));
   await act(async()=>rejectData(Error('Network unavailable')));
   assert.equal(document.querySelector('.catalog-pending'),null);
   assert.ok(document.querySelector('.brand').textContent.includes('Owner brand'));
-  assert.ok(document.querySelector('.catalog-recheck').textContent.includes('마지막으로 받은 정보'));
+  assert.equal(document.querySelector('.catalog-recheck'),null);assert.equal(document.querySelector('.app-shell').getAttribute('data-catalog-refreshing'),'true');assert.ok(document.body.textContent.includes('검수된 이벤트'));
   assert.deepEqual(recovered,[]);
  }finally{if(root)await act(async()=>root.unmount());dom.window.close();for(const[key,d]of saved){if(d)Object.defineProperty(globalThis,key,d);else delete globalThis[key]}}
 });

@@ -1,0 +1,600 @@
+{
+  "authorization": "2026-10-31 user: keep image-path and layout JSON out of public GitHub; provide in private download and list SHA-256 in handoff",
+  "runtimeFingerprint": "951a3c8a59c514d2c54e16a6d44c325cab3169f2026b8f3529c9c9d03ca40ff0",
+  "files": [
+    {
+      "path": "content/additional-game-assets.json",
+      "sha256": "17ffa21266d9b05b02934dc28a41ca31867d3d2e1677d0782e4f20e04926d8c4",
+      "bytes": 47052,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/additional-game-entries.json",
+      "sha256": "25491119abfb07e5b6d13e14de84eb3c5568f013ca6477db40ec13cd567008c8",
+      "bytes": 111515,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/arknights-gallery-focus.json",
+      "sha256": "ea6e57cb06f0818167d735ea035b78430c2051322f0d655b8d32bf4de52c96a7",
+      "bytes": 143614,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/arknights-preview-images.json",
+      "sha256": "cc479cfc02c6d75132643a5f1f1ca96990530189c3f17b77fa4336a42227d53f",
+      "bytes": 137295,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/artwork-audit-2026-10-16.json",
+      "sha256": "9e2d4d76e3d5eb6fe7121e35d6e3edfce0a3257298e1217eeedefbdb20050b09",
+      "bytes": 107573,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/assets-hoyo-provenance.json",
+      "sha256": "b18806750eb7eb64b367fdc2ee78289b3b08b1b32f3f80446d0af9ab9f034213",
+      "bytes": 2030,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/assets-kuro-asset-sources.json",
+      "sha256": "be2e96f16adb68852d7044619bea0bda578adac59ffd3cd4b1ba7e4714bcd8a6",
+      "bytes": 5034,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/assets-other-exact-audit.json",
+      "sha256": "29f2d3bf3b7c03a2848ea8fdcf7f041a42f07a0a106006717fde9b8dc35232f5",
+      "bytes": 18712,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/assets-others-manifest.json",
+      "sha256": "2576f581243844ddeb6267f4434964fcdfe21d1a0729c04b40f6fdfa291c9ab9",
+      "bytes": 1387,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/bluearchive-reviewed-banners.json",
+      "sha256": "c8f07f806735586a9132641aa21411a73dd841505ca34d133877cb7efcf0a31c",
+      "bytes": 4248,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/catalog-preview-images.json",
+      "sha256": "0e2969bd127e99f659d23bab892ed5315e8eeab49651c8a4d60074aa7945211d",
+      "bytes": 4955,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/character-rosters/artwork-manifest.json",
+      "sha256": "b2df77e169c0c650783e0b086979072ce15b775260562abb20f4283bca64c422",
+      "bytes": 2264188,
+      "reason": "기존 비공개 도감 스냅샷"
+    },
+    {
+      "path": "content/character-rosters/bootstrap.json",
+      "sha256": "ec29021ad01832da2ac48335f1bda58bed04befa11f774cde7a6b91e0f4eb60a",
+      "bytes": 36933668,
+      "reason": "기존 비공개 도감 스냅샷"
+    },
+    {
+      "path": "content/character-rosters/recovery/manifest.json",
+      "sha256": "d4e7bc0868c07b58ae95d3853f7f842b3c7a53e24be368edefe6e2f00fcfa8c8",
+      "bytes": 3176,
+      "reason": "기존 비공개 도감 스냅샷"
+    },
+    {
+      "path": "content/character-rosters/rejected-artwork.json",
+      "sha256": "e0def33674ca2a4fac075780e0f9970221acff613558ab5f03de2f1bebd6d01f",
+      "bytes": 478,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/character-rosters/restricted-artwork.json",
+      "sha256": "a3d00ebfd959d7a6f8877195e2903b94b18ce61f04b8d36f6be5dc54affb5b9a",
+      "bytes": 11850,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/combat-display.json",
+      "sha256": "de788d80e83fa685fe2ea667d01dd6ac6ad559faabc3f5f73420039110dee619",
+      "bytes": 55897,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/combat-research.json",
+      "sha256": "26512f8dc96ae828c31d431a5b961c2ad14eae9e793a2ec18c508d5e7db59e5f",
+      "bytes": 154451,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/community-others-notes.json",
+      "sha256": "d2370efa3b3b0f54cb9b6c761986fb323f5b5ce80f9f64b046c55f1ee9a21f40",
+      "bytes": 5775,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/endfield-gallery-focus.json",
+      "sha256": "a78a6c6f4af4f5100ee00e3039b743a138e54c79e37cd9483f60cf8d37312e6e",
+      "bytes": 11161,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/entity-catalog.json",
+      "sha256": "f7a54c8b0d883abfec55943f7cb41bb0533fddcc469b177b2e7fafdc4819f6ea",
+      "bytes": 253989,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/excluded-source-images.json",
+      "sha256": "dc3d3508bffa55265d9312da5de45d5417d0813e712690eceb8d46abdcc457a7",
+      "bytes": 1231,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/foresight.json",
+      "sha256": "09b13cd6d3ff21c9e1b800b18b768bbe8420c6b3def565a23847fd08b579ab4d",
+      "bytes": 93574,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/four-games-gallery-focus.json",
+      "sha256": "8d09868b5c114fad9aeb4b9f43247efa80e6996ee4049335f75bc4450f7fc7dd",
+      "bytes": 3829,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/full-artwork-review-2026-10-16.json",
+      "sha256": "3b6329e6b7f08c0d8e7c4c49fc24e1259a903b0a83fb90c2ebca1de5ad1ecd3a",
+      "bytes": 29430,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/gallery-focus-runtime.json",
+      "sha256": "ebb496d56bb1985da37b328da7244aa91d5998f3507c2af84f89860b2cd4f9e9",
+      "bytes": 120105,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/gallery-framing-runtime.json",
+      "sha256": "cb81bd5f442892bd5781d4fef5a1fc7a8c640d897a2e60b63303525e89d29fd8",
+      "bytes": 362613,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/gallery-protected-heads.json",
+      "sha256": "4e5f2eaa69ae4fea45c55bc49823c82ee3ca0b73509455d1455ebcea542cb2d5",
+      "bytes": 17672,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/gallery-subject-bounds.json",
+      "sha256": "aef72df0c0976540c0756da101384483c6ade929f1e55679cd0312358b1c0128",
+      "bytes": 745949,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/gfl2-combat-catalog.json",
+      "sha256": "922277d2528c40489f393d3f539c477c8d4023261cea554953b63041a44b2237",
+      "bytes": 577974,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/holodreams-gallery-focus.json",
+      "sha256": "fbdc2ce3dc55ddc1286c1b91209a7e88a6727c25ba5c2f9f856b2588dcd98f9c",
+      "bytes": 35315,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/hoyo-localization-research.json",
+      "sha256": "2018462c9bab07e3473f63c30e1eecbe6299a77acf0544e4735d25f6bed6d45e",
+      "bytes": 14436,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/hoyo-localized.json",
+      "sha256": "fd91c188503357e484c0720ceeadf48c599126cd16dedc0efcfd9b57f694b887",
+      "bytes": 42046,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/hsr-announced-roster.json",
+      "sha256": "13debd7b5d5ac82d672100d4795fce529f427b5d00bc8ce9a199b54582f4b03c",
+      "bytes": 1896,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/hsr-gallery-focus.json",
+      "sha256": "7fb694f2883585cb6270c453816d62f9e599a954faf58be76895c0f8989ac243",
+      "bytes": 56064,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/kuro-image-audit.json",
+      "sha256": "462f178b75f8bb8b40e97512df5e01473b8581fee40605f9b3aa704d3fef590d",
+      "bytes": 7112,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/kuro-localization-research.json",
+      "sha256": "c468d354d816bbf143d8fd06219d348952510c4c2eda56ebf2614a6ab0ebeb80",
+      "bytes": 10928,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/kuro-localized.json",
+      "sha256": "bf2b12ac72b9e4d4ae691f53bafbb7504d5cc591eda2ac9c32b492f62bf02842",
+      "bytes": 70042,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/leaks/bootstrap.json",
+      "sha256": "6e0f9e9316ea8650d7837d65b44ee0903c7587741ed6c16ef57aec5f9570224a",
+      "bytes": 107560,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/leaks/source-media.json",
+      "sha256": "4ddd44b2e7ac67085fab1cfcf3a55a07217b6f71d6bda375f83a2c2258afaa9c",
+      "bytes": 15629,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/leaks/x-artwork-manifest.json",
+      "sha256": "ce789b117078001e1b67dc75ac075df8fe95b1da08a77b507ab46b833709a567",
+      "bytes": 33177,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/limbus-reviewed-releases.json",
+      "sha256": "e18b04affb24c94cef33068232b76313a889cbdb9ff1080d9c94999e236f006b",
+      "bytes": 6350,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/maintained-artwork.json",
+      "sha256": "8c5f2739a4e562c371db9016e52bfebf34fe4aaf5a532b9ab010e449396ce8d0",
+      "bytes": 98591,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/maintained-video-notices.json",
+      "sha256": "c46c15ecf286b0461be16fac1bc83e50e0ea6f33447d867fdc4c958d28017e61",
+      "bytes": 16466,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/maintenance-gallery-focus.json",
+      "sha256": "ea3609716999121318c46c54c8972ea9aa79c752eae101cbce2d5128f30dbbb5",
+      "bytes": 241155,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/migrations/pickup-rewards-20261024.json",
+      "sha256": "887558ab7acef4702483254d075c7b9d2debd3ebe12ead3726d6732f43912c72",
+      "bytes": 18318,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/native-icon-provenance.json",
+      "sha256": "6e885d5448b25c72a83c02aa3ff9e6019fee7ca850a407abb4c66d7a5970ad06",
+      "bytes": 6780,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/nikke-recruit-pool.json",
+      "sha256": "21307fbc3cf57d016a29b9eb022f9cf819b8b4f86acd24cd9ff844d240002b8b",
+      "bytes": 4784,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/nte-announced-roster.json",
+      "sha256": "5a9f87c76094cbb0fe74355ba88099a7309a030bffc1408c6a44f451bd4f7259",
+      "bytes": 2592,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/nte-profile-sources.json",
+      "sha256": "a95219860fe2239fbbf87f0c362af4da2284f3709069559f6ab513c25c54323a",
+      "bytes": 11184,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/official-pickup-updates.json",
+      "sha256": "ed2648365f1287578d387948438a3bb46cb9265f7c2c14220a1772bbfb0579ee",
+      "bytes": 33351,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/official-video-channels.json",
+      "sha256": "70ebc8bd64382009b1f2710702d9962a52329865e08684a02b4129237ecbfa49",
+      "bytes": 1197,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/others-adapters-assets.json",
+      "sha256": "aef2adcea71aa01f679549146d75d81eb41bf552bbd5c81f98d41d0853da6b0d",
+      "bytes": 2966,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/others-additions-research.json",
+      "sha256": "30b1b493872ec68a19b310f7ed32357ed2e2828d79a360c45592259da22b1105",
+      "bytes": 1177,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/others-additions.json",
+      "sha256": "0a3a235d7cd8ec6bdf9d16181725c780c67f690a3662c37a36c83864aaf8d86f",
+      "bytes": 5814,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/others-localization-research.json",
+      "sha256": "84ce88fd43d85cc4773edf0c399188432b21501b6cdb60c3696fdcdaa340afba",
+      "bytes": 4326,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/others-localized.json",
+      "sha256": "c74f40dc9a96e61fea20eca11ffaabf32a002764a44a1e990fd70ab2eda1e9d6",
+      "bytes": 69762,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/pickup-member-icons.json",
+      "sha256": "3361b81d3eeadf87e074d68651ea99a331ed9f3d503cb452e1f68b0d3c1fab5d",
+      "bytes": 5786,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/pickup-thumbnail-focus.json",
+      "sha256": "2439160e43451bcbae85f4a528c982bbbc6ea3f0eabf914d173579e76fedc3ec",
+      "bytes": 3248,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/release-additions-20261025.json",
+      "sha256": "22e878592851cd437a82242521d929ee6a2cee76ee602896ecfbc64b3dcc66d2",
+      "bytes": 12308,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/research-hoyo.json",
+      "sha256": "ef42cd0b3e808e6c10b8a2b0be1762aaecfd435ef84d8b287957a591b3bca779",
+      "bytes": 5133,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/research-kuro-hypergryph.json",
+      "sha256": "5aa78c4ec1cb26dd9fc78cf04ff350f696b59dc45e2171b4acebaf800d38e7a6",
+      "bytes": 15270,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/research-others.json",
+      "sha256": "d0d768ada0a64f17f0e310368556c1344bfebf142ca43378ebd2b48c9ddc204b",
+      "bytes": 17758,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/reviewed-broadcast-media.json",
+      "sha256": "a92ab01c1e62aefcf4d87aabbc1fe1788bda5fe3f034e6210948da90573a6c37",
+      "bytes": 711,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/reviewed-owner-artwork-repairs.json",
+      "sha256": "709f877ce6819e10b24fa876fd851e207ef5450622e8487746f4684d440edd33",
+      "bytes": 1319,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/reviewed-pickup-artwork.json",
+      "sha256": "6e165fea1f843a3c013e35a8d0d01bd1969cd3a6655695dfbfbe9b8502298d1b",
+      "bytes": 21587,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/reviewed-roster-information.json",
+      "sha256": "39f8aa8cabe1cba0f25585577fe08d84417fdf6573d5b2a13bda18ac64e718e5",
+      "bytes": 2754,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/reviewed-trickcal-pickups.json",
+      "sha256": "2cbbce15f4f432eb8cb86a4002321fb7536d3f65de92c33d91b3c86e425a29f1",
+      "bytes": 5217,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/reward-assets.json",
+      "sha256": "76d56e31aa9e300160ddf17a3c86bbdb9abff66c10bc669977c72b9bd886664c",
+      "bytes": 23448,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/reward-catalog.json",
+      "sha256": "3cc64de3ebadd2be363e75bd7a8fd98864f9643bff1e70c3b20ffb0df5c1594b",
+      "bytes": 82371,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/roster-detail-icons.json",
+      "sha256": "9d2324c8690746516ec89bf73086fce2cfd39481558478a7b75d6e0357926afd",
+      "bytes": 2127690,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/roster-material-icons.json",
+      "sha256": "707a145534c9d9f68d682d05c821f73761273ebd102978be3c75634ad5ad2523",
+      "bytes": 371881,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/silver-palace-roster.json",
+      "sha256": "58cd45a0f9eedbb0c92213b5a16df4bce2264a40b9ceeb2d4175a10846f93947",
+      "bytes": 53140,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/stat-icons.json",
+      "sha256": "42789eb271773863593f1646a370e471e9ac070895953e4617fd50de69dc5e62",
+      "bytes": 6523,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/trait-icons.json",
+      "sha256": "ea541e8804fee990d7532e430d619b757b9e1cfd475d1f2f4ae5d6eb9871d06d",
+      "bytes": 81372,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/uma-selection-art-review-2026-10-17.json",
+      "sha256": "e7291c8ecbca518683ba22f40bcffb2b3c64dc3e93c6240ea3667b1ba59e68b9",
+      "bytes": 20676,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/upcoming-games.json",
+      "sha256": "41b7aab6a70bc7732ac0acfa362df825712ddca51a1502e06724b2835522627e",
+      "bytes": 10103,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/version-art-review-2026-10-17.json",
+      "sha256": "d10c5fd7e3e79a16e81c5fbab7d4b7077f915e20472b3ad56eb2598bf44f3cd5",
+      "bytes": 17635,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wiki-icon-additions.json",
+      "sha256": "ae854d69a731b069559ec3b2113b21eaa674f2c94ae4bda89699dd50d05e8152",
+      "bytes": 32579,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/wuwa-announced-roster.json",
+      "sha256": "8efd150e18c9742d741b84ab6d6aa26807bdbbeaeb3b383995c5821682cf215e",
+      "bytes": 3300,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-build-guides.json",
+      "sha256": "6edccb961f85710dcd812b9fab787b0b28e65678ba79ef999e9bcbd407f15ff6",
+      "bytes": 164268,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-character-videos.json",
+      "sha256": "16eea639170edbd6e3d1778161655a428fb0b5d6d1a9793b5ba7a8c0b049aec9",
+      "bytes": 108692,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-combat-artwork.json",
+      "sha256": "37326bb0c0913b703d2157f557892f827f304d496cbec1f44c0e8eb47c628cb1",
+      "bytes": 70520,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/wuwa-combat-image-repairs.json",
+      "sha256": "03752410eeb0d1d5aee5c96ca2e82156f508a78a4555c6d39490f2af87ceadf2",
+      "bytes": 3186,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/wuwa-convene-character-cards.json",
+      "sha256": "9bd965c02cf0954e868e02128445d002259294495689e84a227cfc64376b7b19",
+      "bytes": 3473,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-convene-media.json",
+      "sha256": "263ad7effbf3d982a44fae3583286a41f91f6c6e5ad7148ed3b4fd0ac925fcc4",
+      "bytes": 5913,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-convene-weapons.json",
+      "sha256": "4f8ddb5e9603a2741519087103d0dbc9c53c66414d6c5aca433b8e9a7f21bdf9",
+      "bytes": 14533,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-equipment-catalog.json",
+      "sha256": "1204cf606f7368bb75029e1790fdd7e0617760bb39ebc0d8e45cb52df3bc262d",
+      "bytes": 131636,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-equipment-images.json",
+      "sha256": "bbd3d8d7ca8a2097c881297c3f803c87ab65e90f41802e33714f7c80ead6c713",
+      "bytes": 68843,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/wuwa-material-provenance.json",
+      "sha256": "30a09c5d666886049d3fe398e2c2dd853e5942b11a2a4aaeec60aa605b540646",
+      "bytes": 35740,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-reference-artwork.json",
+      "sha256": "5ef3eea7cdfa318a2f92620d5a870be8eb4e1e616fe7fb5c2c13e8b3d7b13bbb",
+      "bytes": 14527,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/wuwa-reference-framing.json",
+      "sha256": "edd3b5160c8a7613aad9076e30324d13b48b9619f8d27b0c97ecd46128aece97",
+      "bytes": 9804,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/wuwa-reference-splashes.json",
+      "sha256": "371b355e6385064d4392fd318446028715110003793a83400b64545f4e79d752",
+      "bytes": 36931,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-reference.json",
+      "sha256": "a864611af3e863605a1828bf424ddb1e816f5dbec02f9a1c0fe601686c46f4c8",
+      "bytes": 1498548,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-upcoming-3-8.json",
+      "sha256": "04b9b12e0bc858a5bc86c052b1c74dd5c867690125fe5a294a31a7ed2267a9d2",
+      "bytes": 20343,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/wuwa-wastes-tokens.json",
+      "sha256": "6437e375552972b82f12324afd69d0296d29049cc23c67e482a8e7fd4538d937",
+      "bytes": 162613,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/zzz-combat-catalog.json",
+      "sha256": "3a19b83688862f60f05177afd99ceec26f870b181bb455dad522e26ae751a081",
+      "bytes": 108699,
+      "reason": "이미지 경로를 포함하는 게임 데이터"
+    },
+    {
+      "path": "content/zzz-equipment-images.json",
+      "sha256": "b7542bdff8d4007db44503dbfba6ba33dba46c0f475d3ff98e8b6ce49c6a7e72",
+      "bytes": 41483,
+      "reason": "이미지 경로·배치 정보"
+    },
+    {
+      "path": "content/zzz-reviewed-artwork.json",
+      "sha256": "21cfd63f717105543d529624326e4c1dce8d5f016f93752073704f6fddb5c9c5",
+      "bytes": 3109,
+      "reason": "이미지 경로·배치 정보"
+    }
+  ]
+}

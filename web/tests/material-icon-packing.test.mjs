@@ -1,0 +1,8 @@
+import './load-typescript.mjs';
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {createHash} from 'node:crypto';import {createRequire} from 'node:module';import {pathToFileURL} from 'node:url';
+const {packedWuwaCode,packedWuwaData}=await import('../build/wuwa-data.ts');
+test('complete native icon metadata stays exact in real Workers and remains server-only',async()=>{
+ const bytes=readFileSync('content/roster-detail-icons.json'),expected=createHash('sha256').update(JSON.stringify(JSON.parse(bytes))).digest('hex'),code=packedWuwaCode(bytes).replace('export default JSON.parse','const data=JSON.parse');
+ assert.ok(Buffer.byteLength(code)<bytes.length/2);const plugin=packedWuwaData(),path=process.cwd().replaceAll('\\','/')+'/content/roster-detail-icons.json',context={environment:{name:'rsc'},resolve:async p=>({id:p})};assert.ok((await plugin.resolveId.call(context,path)).includes('packed-roster-detail-icons'));await assert.rejects(()=>plugin.resolveId.call({...context,environment:{name:'client'}},path),/server-side/);
+ const require=createRequire(import.meta.url),{Miniflare}=await import(pathToFileURL(require.resolve('miniflare',{paths:[require.resolve('wrangler/package.json')]})).href),mf=new Miniflare({modules:true,compatibilityDate:'2025-04-01',compatibilityFlags:['nodejs_compat'],script:code+"export default {async fetch(){return new Response(Buffer.from(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify(data)))).toString('hex'));}}"});try{const response=await mf.dispatchFetch('http://localhost/');assert.equal(response.status,200);assert.equal(await response.text(),expected);}finally{await mf.dispose();}
+});

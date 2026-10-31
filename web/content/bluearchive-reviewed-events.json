@@ -1,0 +1,96 @@
+{
+  "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967",
+  "bodyHash": "4e4555e61834a95a0643285bbcbf78248f7e0b09b3e5b8fd7d4072883db612ec",
+  "entries": [
+    {
+      "id": "ba-kr-20261027-highlander",
+      "title": {
+        "ko": "하이랜더 철도 폭주 사건 ~그리고 기차는 없었다~ · 복각",
+        "en": "Highlander Railroad Runaway Incident: And Then There Were No Trains · rerun",
+        "ja": "ハイランダー鉄道暴走事件～そして列車はなくなった～・復刻",
+        "zh": "高地铁道暴走事件～而后列车消失了～·复刻"
+      },
+      "summary": {
+        "ko": "Normal 2-3 클리어 후 참여. 스토리 01 클리어로 아오바(★1)를 획득합니다. 상점·미니게임 보상 교환은 11월 17일 오전 10시 59분까지입니다.",
+        "en": "Clear Normal 2-3 to join. Story 01 awards Aoba (1★). The shop and minigame reward exchange remains open until Nov 17, 10:59 KST.",
+        "ja": "Normal 2-3クリアで参加。ストーリー01でアオバ（★1）を獲得。ショップ・ミニゲーム報酬交換は11月17日10:59（韓国時間）まで。",
+        "zh": "通关Normal 2-3后参加，剧情01奖励青叶（★1）。商店与小游戏奖励兑换至11月17日10:59（韩国时间）。"
+      },
+      "startDate": "2026-10-27",
+      "startAt": null,
+      "endAt": "2026-11-10T10:59:00+09:00"
+    },
+    {
+      "id": "ba-kr-20261027-joint-firing",
+      "title": {
+        "ko": "종합전술시험 · 돌파 시험",
+        "en": "Joint Firing Drill · Breakthrough",
+        "ja": "合同火力演習・突破演習",
+        "zh": "综合战术考试·突破考试"
+      },
+      "summary": {
+        "ko": "야전 · 탄력장갑. 시험 점수에 따라 종합전술시험 코인과 크레딧 포인트를 획득합니다.",
+        "en": "Outdoor · Elastic Armor. Earn Joint Firing Drill Coins and Credits based on the total trial score.",
+        "ja": "屋外・弾力装甲。最終スコアに応じて合同火力演習コインとクレジットを獲得。",
+        "zh": "野外·弹性装甲。按最终考试分数获得综合战术考试币与信用点。"
+      },
+      "startDate": "2026-10-27",
+      "startAt": null,
+      "endAt": "2026-11-03T03:59:00+09:00"
+    },
+    {
+      "id": "ba-kr-20261027-anniversary-countdown",
+      "title": {
+        "ko": "5주년 기념 카운트다운 로그인",
+        "en": "5th Anniversary Countdown Login",
+        "ja": "5周年カウントダウンログイン",
+        "zh": "五周年倒计时签到"
+      },
+      "summary": {
+        "ko": "기간 중 접속하여 카운트다운 로그인 보상을 수령할 수 있습니다.",
+        "en": "Log in during the event to claim countdown login rewards.",
+        "ja": "期間中にログインしてカウントダウン報酬を受け取れます。",
+        "zh": "活动期间登录领取倒计时签到奖励。"
+      },
+      "startDate": "2026-11-02",
+      "startAt": "2026-11-02T04:00:00+09:00",
+      "endAt": "2026-11-09T03:59:00+09:00"
+    },
+    {
+      "id": "ba-kr-20261027-schale-balance",
+      "title": {
+        "ko": "샬레 총결산 with 총학생회",
+        "en": "Schale Settlement with the General Student Council",
+        "ja": "シャーレ総決算 with 連邦生徒会",
+        "zh": "夏莱总决算 with 联邦学生会"
+      },
+      "summary": {
+        "ko": "Normal 2-3 클리어 후 참여. AP 소모 콘텐츠로 고급 만년필을 모아 이벤트 상점에서 보상과 교환합니다.",
+        "en": "Clear Normal 2-3 to join. Spend AP to collect High-Quality Fountain Pens and exchange them in the event shop.",
+        "ja": "Normal 2-3クリアで参加。AP消費で高級万年筆を集め、イベントショップで交換。",
+        "zh": "通关Normal 2-3后参加，消耗AP收集高级钢笔并在活动商店兑换奖励。"
+      },
+      "startDate": "2026-11-03",
+      "startAt": "2026-11-03T11:00:00+09:00",
+      "endAt": "2026-11-10T10:59:00+09:00"
+    },
+    {
+      "id": "ba-kr-20261027-grand-assault-hod",
+      "title": {
+        "ko": "대결전 · 호드(실내전)",
+        "en": "Grand Assault · Hod (Indoor)",
+        "ja": "大決戦・ホド（屋内）",
+        "zh": "大决战·霍德（室内战）"
+      },
+      "summary": {
+        "ko": "경장갑·중장갑·탄력장갑. 보상 수령은 12월 1일 오전 10시 59분까지이며 순위 보상은 정산 후 수령할 수 있습니다.",
+        "en": "Light, Heavy and Elastic Armor. Reward claims close Dec 1, 10:59 KST; ranking rewards unlock after settlement.",
+        "ja": "軽装備・重装甲・弾力装甲。報酬受取は12月1日10:59（韓国時間）まで。順位報酬は集計後に解放。",
+        "zh": "轻甲、重甲、弹性装甲。奖励领取至12月1日10:59（韩国时间），排名奖励在结算后开放。"
+      },
+      "startDate": "2026-11-03",
+      "startAt": "2026-11-03T11:00:00+09:00",
+      "endAt": "2026-11-10T03:59:00+09:00"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+import './load-typescript.mjs';
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {JSDOM} from 'jsdom';
+const dom=new JSDOM('',{url:'https://gagether.wiki',pretendToBeVisual:true});
+for(const key of ['window','document','localStorage','Event','StorageEvent','navigator'])Object.defineProperty(globalThis,key,{value:dom.window[key],configurable:true});
+const client=await import('../lib/account-sync-client.ts');
+const {emptyProfile}=await import('../lib/account-profile.ts');
+const {PERSONAL_CHANGED}=await import('../lib/personal-storage-events.ts');
+const settle=async()=>{for(let i=0;i<25;i++)await Promise.resolve();};
+test('confirmed guests skip idle and local-edit requests, recheck after five minutes, and immediately resume signed-in synchronization',async t=>{
+ t.mock.timers.enable({apis:['setInterval','setTimeout','Date'],now:1000});
+ let signedIn=false,reads=0,posts=0;
+ globalThis.fetch=async(_url,options)=>{if(options.method==='POST')posts++;else reads++;return signedIn?Response.json({accountId:'a'.repeat(64),revision:0,profile:emptyProfile()}):Response.json({}, {status:401});};
+ const stop=client.startAccountSync();t.after(stop);await settle();
+ assert.equal(client.syncSnapshot(),'guest');assert.equal(reads,1);
+ t.mock.timers.tick(15000);await settle();assert.equal(reads,1);
+ window.dispatchEvent(new Event(PERSONAL_CHANGED));t.mock.timers.tick(500);await settle();assert.equal(reads,1);assert.equal(posts,0);
+ t.mock.timers.tick(284500);await settle();assert.equal(reads,2,'a bounded probe still discovers session changes');
+ signedIn=true;document.dispatchEvent(new Event('visibilitychange'));await settle();assert.equal(client.syncSnapshot(),'synced');assert.equal(reads,3);
+ t.mock.timers.tick(15000);await settle();assert.equal(reads,4,'signed-in devices keep their normal synchronization cadence');
+ signedIn=false;window.dispatchEvent(new Event('online'));await settle();assert.equal(client.syncSnapshot(),'guest');assert.equal(reads,5);
+ signedIn=true;window.dispatchEvent(new StorageEvent('storage',{key:client.syncStateKey}));t.mock.timers.tick(500);await settle();assert.equal(reads,6);assert.equal(client.syncSnapshot(),'synced');
+ assert.equal(posts,0);
+});

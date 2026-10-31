@@ -1,3 +1,4 @@
+import {localCampaignMarket} from './local-campaign-audience';
 import type {Entry,Locale,Region} from './types';
 import {localized,safeSource} from './types';
 import {expandedOfficialSources} from './expanded-notices';
@@ -52,7 +53,8 @@ export function noticeEntry(n:FastNotice,checkedAt:string):Entry{
  // Steam uses the same event ID for each native language. They are independent
  // originals, so sharing a row ID would silently replace Korean with Japanese.
  const nativeSuffix=['limbus','dna','holodreams'].includes(n.gameId)?'-'+n.locale:'';
- return {id:`quick-${n.gameId}-${n.region}-${n.id}${nativeSuffix}`,gameId:n.gameId,region:n.region,server:n.region,kind:'update',title,summary:localized('','','',''),sourceUrl:n.url,sourceTitle:title[n.locale],sourceLocale:n.locale,sourceKind:'official',officialLocales:[n.locale],translatedLocales:[],localizationSources:{[n.locale]:n.url},publishedAt:n.publishedAt,verifiedAt:checkedAt,startAt:null,endAt:null,imageVerified:false};
+ const entry:Entry={id:`quick-${n.gameId}-${n.region}-${n.id}${nativeSuffix}`,gameId:n.gameId,region:n.region,server:n.region,kind:'update',title,summary:localized('','','',''),sourceUrl:n.url,sourceTitle:title[n.locale],sourceLocale:n.locale,sourceKind:'official',officialLocales:[n.locale],translatedLocales:[],localizationSources:{[n.locale]:n.url},publishedAt:n.publishedAt,verifiedAt:checkedAt,startAt:null,endAt:null,imageVerified:false};
+ const market=localCampaignMarket(entry);return market?{...entry,marketRegion:market}:entry;
 }
 
 /** Native metadata changes publish immediately without clearing saved gameplay details. */

@@ -32,7 +32,9 @@ export const entityProfileSchema=z.object({
 const longLocalized=z.object({ko:z.string().max(40000),en:z.string().max(40000),ja:z.string().max(40000),zh:z.string().max(40000)});
 export const contentBlockSchema=z.discriminatedUnion('type',[z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),type:z.literal('text'),title:localized.optional(),body:longLocalized,textStyle:localizedTextStyle.optional()}).strict(),z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),type:z.literal('image'),asset}).strict()]);
 const sourceBody=z.object({title:z.string().max(400).optional(),locale,sourceUrl:z.string().url().max(1500),text:z.string().max(200000),images:z.array(z.string().url().max(2000)).max(20),links:z.array(z.object({label:z.string().max(240),url:z.string().url().max(2000)}).strict()).max(40).optional(),bodyHash:z.string().regex(/^[a-f0-9]{64}$/),importedAt:z.string().datetime({offset:true}),sourceKind:z.enum(["official","community"])}).strict();
+export const broadcastRecapSchema=z.object({title:localized.optional(),version:z.string().max(80).optional(),artwork:asset.optional(),youtubeId:z.string().regex(/^[a-zA-Z0-9_-]{11}$/),reviewedAt:z.string().datetime({offset:true}),bannerUntil:z.string().datetime({offset:true}),highlights:z.array(localized).min(1).max(6),codes:z.array(z.object({code:z.string().regex(/^[A-Za-z0-9][A-Za-z0-9_-]{2,63}$/),reward:localized,expiresAt:date,sourceUrl:z.string().url().max(1500)}).strict()).max(6).refine(a=>new Set(a.map(c=>c.code)).size===a.length,'Duplicate redemption code')}).strict();
 export const entrySchema=z.object({
+ broadcastRecap:broadcastRecapSchema.optional(),
  textStyle:localizedTextStyle.optional(),
  contentRole:z.enum(['entity','activity','notice']).optional(),
  sourceBodies:z.object({ko:sourceBody.optional(),en:sourceBody.optional(),ja:sourceBody.optional(),zh:sourceBody.optional()}).strict().optional(),
@@ -41,7 +43,7 @@ export const entrySchema=z.object({
  collaboration:z.object({partner:localized,scope:z.enum(['ingame','offline','merchandise','online']),sourceUrls:z.array(z.string().url()).min(1).max(10),verifiedAt:z.string().datetime({offset:true})}).optional(),
  detailImages:z.array(asset).max(24).optional(),
  startDate:z.string().date().optional(),endDate:z.string().date().optional(),
- pickupArchive:z.object({status:z.enum(['past','announced','forecast']),startDate:z.string().date().optional(),endDate:z.string().date().optional(),note:localized.optional(),estimate:z.object({method:z.enum(['cycle','community']),scope:z.enum(['banner','version']),startDate:z.string().date(),alternativeStartDates:z.array(z.string().date()).max(3).optional(),anchorDate:z.string().date().optional(),cycleDays:z.number().int().min(1).max(366).optional(),basis:localized,sourceUrls:z.array(z.string().url()).min(1).max(10),verifiedAt:z.string().datetime({offset:true})}).optional()}).optional(),
+ pickupArchive:z.object({status:z.enum(['past','announced','forecast']),startDate:z.string().date().optional(),endDate:z.string().date().optional(),note:localized.optional(),estimate:z.object({method:z.enum(['cycle','community','owner']),scope:z.enum(['banner','version']),startDate:z.string().date(),alternativeStartDates:z.array(z.string().date()).max(3).optional(),anchorDate:z.string().date().optional(),cycleDays:z.number().int().min(1).max(366).optional(),basis:localized,sourceUrls:z.array(z.string().url()).min(1).max(10),verifiedAt:z.string().datetime({offset:true})}).optional()}).optional(),
  id:z.string().regex(/^[a-zA-Z0-9_-]{1,160}$/),gameId:z.string(),kind:z.enum(['pickup','weapon','event','package','update']),title:localized,summary:longLocalized,region,server:z.string().max(150),startAt:date,endAt:date,publishedAt:z.string().max(40).nullable(),verifiedAt:z.string().datetime({offset:true}),sourceUrl:z.union([z.string().url().max(1500),z.literal('')]),sourceTitle:z.string().max(400),...artwork,
  version:z.string().max(80).optional(),versionTitle:localized.optional(),versionHero:z.boolean().optional(),bannerName:localized.optional(),rarity:z.number().int().min(1).max(6).optional(),price:z.object({amount:z.number().nonnegative(),currency:z.string().max(80),platform:z.string().max(150)}).optional(),contents:z.array(localized).max(30).optional(),featured:z.boolean().optional(),timingNote:localized.optional(),
  signatureWeapons:z.array(z.object({entryId:z.string().min(1).max(160),memberName:z.string().min(1).max(200).optional(),sourceUrl:z.string().url().max(1500),sourceKind:z.enum(["official","community"]),verifiedAt:z.string().datetime({offset:true})})).max(12).optional(),
@@ -50,6 +52,7 @@ export const entrySchema=z.object({
 });
 export const safeImage=(image?:string)=>{
  if(!image)return true;
+ if(/^\/api\/broadcast-frames\/[a-f0-9]{64}$/.test(image))return true;
  if(/^\/api\/media\/[0-9a-f-]{36}\.(png|jpeg|webp|avif)$/.test(image))return true;
  if(image.startsWith('/assets/'))return !image.includes('..')&&/^\/assets\/[\w.\/-]+$/.test(image);
  try{const url=new URL(image);return url.protocol==='https:'&&!url.username&&!url.password;}catch{return false;}
@@ -62,6 +65,7 @@ export function safeArtwork(art:import('./types').EntityArtwork){
 
 export const safeIcon=(icon?:import('./types').GameIcon)=>!icon||(safeImage(icon.image)&&!!icon.image&&safeHttps(icon.imageSource)&&Date.parse(icon.verifiedAt)<=Date.now()+300000);
 export function safeExtras(e:import('./types').Entry){
+ const recap=e.broadcastRecap;if(recap?.artwork&&(!safeArtwork({previewArtwork:recap.artwork})||!recap.artwork.imageVerified||!safeReference(recap.artwork.imageSource,e.gameId,'official')))return false; if(recap&&(e.kind!=='update'||!youtubeMatches(e.sourceUrl,recap.youtubeId)||Date.parse(recap.reviewedAt)>Date.now()+300000||Date.parse(recap.bannerUntil)<Date.parse(recap.reviewedAt)||Date.parse(recap.bannerUntil)-Date.parse(recap.reviewedAt)>30*86400000||recap.codes.some(c=>!safeReference(c.sourceUrl,e.gameId,'official')&&!safeReference(c.sourceUrl,e.gameId,'video'))))return false;
  if(e.entityDetails?.some(p=>p.materials?.some(g=>new Set(g.items.map(m=>m.id)).size!==g.items.length||g.items.some(m=>!safeIcon(m.icon)||!safeReference(m.sourceUrl,e.gameId,m.sourceKind)))))return false;
  if(e.entityDetails?.some(p=>[...p.stats,...p.groups.flatMap(g=>g.rows||[])].some(r=>!safeIcon(r.icon))))return false;
  if(Object.entries(e.sourceBodies||{}).some(([l,b])=>b.locale!==l||!safeReference(b.sourceUrl,e.gameId,b.sourceKind)||b.links?.some(l=>!safeHttps(l.url))||b.images.some(u=>!safeImage(u)||!/^https:\/\//.test(u))||Date.parse(b.importedAt)>Date.now()+300000))return false;
@@ -86,7 +90,7 @@ export function safePickupArchive(e:import('./types').Entry){
  const a=e.pickupArchive;if(!a)return true;
  if(a.estimate){
   const x=a.estimate;
-  if(a.status!=='forecast'||e.sourceKind!=='community'||e.startAt||e.endAt||Date.parse(x.verifiedAt)>Date.now()+300000||x.sourceUrls.some(u=>!safeReference(u,e.gameId,'official')&&!safeReference(u,e.gameId,'community')))return false;
+  if(a.status!=='forecast'||(x.method==='owner'?!['community','video'].includes(e.sourceKind||''):e.sourceKind!=='community')||e.startAt||e.endAt||Date.parse(x.verifiedAt)>Date.now()+300000||x.sourceUrls.some(u=>!safeReference(u,e.gameId,'official')&&!safeReference(u,e.gameId,'community')&&!(x.method==='owner'&&safeReference(u,e.gameId,'video'))))return false;
   if(x.scope==='version'&&(a.startDate||a.endDate))return false;
   if(x.method==='cycle'){
    if(!x.anchorDate||!x.cycleDays)return false;

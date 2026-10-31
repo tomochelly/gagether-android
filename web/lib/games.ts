@@ -1,4 +1,5 @@
 import type {Game,Region} from "./types";
+import upcomingGames from '../content/upcoming-games.json' with {type:'json'};
 import {additionalGames} from "./additional-games";
 export const games:Game[]=[
   {
@@ -337,19 +338,19 @@ export const games:Game[]=[
     ],
     "serviceMode": "regional",
     "scheduleRegions": [
-      "kr",
       "global",
       "cn"
     ],
     "regionAliases": {
-      "jp": "kr"
+      "kr": "global",
+      "jp": "global"
     },
     "regionLabels": {
-      "kr": {
-        "ko": "한국 · 일본",
-        "en": "Korea · Japan",
-        "ja": "韓国 · 日本",
-        "zh": "韩国 · 日本"
+      "global": {
+        "ko": "한국 · 글로벌",
+        "en": "Global · Korea",
+        "ja": "グローバル・韓国",
+        "zh": "全球服 · 韩服"
       }
     }
   },
@@ -513,7 +514,7 @@ export const games:Game[]=[
     },
     "color": "#f6cf65",
     "logo": "/assets/zzz-logo.png",
-    "art": "/assets/zzz-art.webp",
+    "art": "https://fastcdn.hoyoverse.com/content-v2/plat/166759/cf4ce0960840de807adeb9e73e0c3934_2668912761273191630.jpeg",
     "official": "https://zenless.hoyoverse.com/ko-kr/",
     "publisher": "HOYOVERSE",
     "regions": [
@@ -816,7 +817,8 @@ export const games:Game[]=[
       }
     ]
   },
-  ...additionalGames
+  ...additionalGames,
+  ...upcomingGames as Game[]
 ];
 export const byId=Object.fromEntries(games.map(g=>[g.id,g])) as Record<string,Game>;
 

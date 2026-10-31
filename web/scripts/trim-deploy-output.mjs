@@ -15,8 +15,7 @@ function removeTransferScratch(dir){
  }
 }
 removeTransferScratch('dist');
-const root='dist/server/_next/static/css';
-if(existsSync(root))for(const name of readdirSync(root)){
+for(const root of ['dist/server/_next/static/css','dist/server/ssr/_next/static/css'])if(existsSync(root))for(const name of readdirSync(root)){
  if(!name.endsWith('.css'))continue;
  const server=join(root,name),client=join('dist/client/_next/static/css',name);
  if(existsSync(client)&&readFileSync(server).equals(readFileSync(client)))unlinkSync(server);
@@ -44,3 +43,4 @@ await import('./dedupe-static-assets.mjs');
 const {externalizeAssets}=await import('./externalize-assets.mjs');externalizeAssets('dist');
 const {omitSourceOriginalCopies}=await import('./omit-source-original-copies.mjs');omitSourceOriginalCopies('dist');
 const {omitSourceIconCopies}=await import('./omit-source-icon-copies.mjs');omitSourceIconCopies('dist');
+const {packGeneratedManifests}=await import('./pack-generated-manifests.mjs');packGeneratedManifests('dist');

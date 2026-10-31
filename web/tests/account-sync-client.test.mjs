@@ -8,6 +8,7 @@ const client=await import('../lib/account-sync-client.ts');
 const {emptyProfile}=await import('../lib/account-profile.ts');
 const {GAME_ORDER_KEY}=await import('../lib/game-order.ts');
 const {PERSONAL_NOTES_KEY}=await import('../lib/personal-notes.ts');
+const {PERSONAL_LAYOUT_KEY,encodePersonalLayouts}=await import('../lib/personal-layout.ts');
 const userA='a'.repeat(64),userB='b'.repeat(64);let account=userA,network=true,beforePost=null,conflictOnce=false;
 const server=new Map();let posts=0;
 globalThis.fetch=async(url,options={})=>{
@@ -21,9 +22,9 @@ globalThis.fetch=async(url,options={})=>{
  }
  return Response.json(current);
 };
-const write=(profile)=>{localStorage.setItem(client.preferencesKey,JSON.stringify({locale:'ko',theme:'dark',favorites:profile.favorites,saved:profile.saved}));localStorage.setItem(GAME_ORDER_KEY,JSON.stringify({version:1,ids:profile.order}));localStorage.setItem(PERSONAL_NOTES_KEY,JSON.stringify({version:1,notes:profile.notes}));};
+const write=(profile)=>{localStorage.setItem(client.preferencesKey,JSON.stringify({locale:'ko',theme:'dark',favorites:profile.favorites,saved:profile.saved}));localStorage.setItem(GAME_ORDER_KEY,JSON.stringify({version:1,ids:profile.order}));localStorage.setItem(PERSONAL_NOTES_KEY,JSON.stringify({version:1,notes:profile.notes}));localStorage.setItem(PERSONAL_LAYOUT_KEY,encodePersonalLayouts(profile.layouts||{}));};
 test('client imports guest data, keeps in-flight edits, retries CAS, isolates accounts and restores guest state',async()=>{
- const guest={...emptyProfile(),favorites:['wuwa'],order:['wuwa','zzz']};write(guest);
+ const guest={...emptyProfile(),favorites:['wuwa'],order:['wuwa','zzz'],layouts:{overview:{order:['events','calendar'],canvas:{width:1040},sections:{calendar:{width:6,height:440,frame:{x:117,y:233,width:637},layer:3}}},'game:wuwa':{order:[],sections:{pickup:{hidden:true}}}}};write(guest);
  await client.syncNow();assert.equal(client.syncSnapshot(),'synced');assert.deepEqual(server.get(userA).profile,guest);
  assert.equal(JSON.parse(localStorage.getItem(client.preferencesKey)).locale,'ko');
  const unchangedPosts=posts;await client.syncNow();assert.equal(posts,unchangedPosts,'unchanged reads must not write');

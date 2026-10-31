@@ -194,7 +194,8 @@ def reverse_identity(value):
 def reverse_native_index(chars,en):
  grouped={};rejected=[]
  for row in chars:
-  if row.get('heroType')!=1 or str(row.get('isOnline'))!='1':
+  # Positive heroType is a species/category, not the playable/non-playable flag.
+  if not isinstance(row.get('heroType'),int) or row['heroType']<=0 or str(row.get('isOnline'))!='1':
    rejected.append({'heroId':row.get('id'),'reason':'non-playable/offline native record'});continue
   for value in [row.get('nameEng',''),en.get(row.get('name'),'')]:
    key=reverse_identity(value)

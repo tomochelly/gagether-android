@@ -1,15 +1,24 @@
 import './load-typescript.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-const {collectionCoverage,sourceDocument,pickupNotice}=await import('../lib/collection-review.ts');
+const {collectionCoverage,sourceDocument,pickupNotice,sourceAttributeUrl}=await import('../lib/collection-review.ts');
 const {games}=await import('../lib/games.ts');
 const parsers=await import('../lib/regional-notices.ts');
 const {detailArtworkForLocale}=await import('../lib/artwork.ts');
 const loc=s=>({ko:s,en:s,ja:s,zh:s});
-test('all fifteen games and only their canonical services are audited, including independent pools',()=>{
+test('source HTML links decode numeric attributes once before HTTPS and credential checks',()=>{
+ const base='https://game.naver.com/lounge/WutheringWaves/board/detail/8386478',url='https://secondcomingofsolaris.kurogames-global.com/?lang=kr';
+ for(const value of ['https://secondcomingofsolaris.kurogames-global.com/?lang&#x3D;kr','https://secondcomingofsolaris.kurogames-global.com/?lang&#61;kr'])assert.equal(sourceAttributeUrl(value,base),url);
+ const d=sourceDocument('<article><p>사전 예약과 위시리스트 등록 안내입니다. 자세한 게임 정보는 다음 방송에서 공개합니다.</p><a href="https://secondcomingofsolaris.kurogames-global.com/?lang&#x3D;kr">사전 예약</a></article>',base);assert.deepEqual(d.links,[{label:'사전 예약',url}]);
+ assert.equal(sourceAttributeUrl('/entry?a=1&amp;b=2',base),'https://game.naver.com/entry?a=1&b=2');
+ assert.equal(sourceAttributeUrl('https://example.com/?q=&amp;#x3D;',base),'https://example.com/?q=&#x3D;','one decode, not recursive entity expansion');
+ for(const value of ['javascript&#58;alert(1)','http&#x3a;//example.com','https://user&#64;example.com','data&#58;text/html,x'])assert.equal(sourceAttributeUrl(value,base),undefined);
+ for(const value of ['&#x110000;','&#55296;','&#0;','&#xGG;'])assert.doesNotThrow(()=>sourceAttributeUrl('https://example.com/?q='+value,base));
+});
+test('all registered games and only their canonical services are audited, including independent pools',()=>{
  const rows=collectionCoverage([],Date.parse('2026-10-23T01:00:00Z'));
- assert.equal(new Set(rows.map(r=>r.gameId)).size,18);
- assert.deepEqual([...new Set(rows.filter(r=>r.region==='cn').map(r=>r.gameId))].sort(),['arknights','gfl2','reverse1999']);
+ assert.equal(new Set(rows.map(r=>r.gameId)).size,games.length);
+ assert.deepEqual([...new Set(rows.filter(r=>r.region==='cn').map(r=>r.gameId))].sort(),['arknights','azur-promilia','gfl2','reverse1999']);
  assert.equal(rows.filter(r=>r.gameId==='stellasora').every(r=>r.region==='global'),true);
  for(const game of games)assert.ok(rows.some(r=>r.gameId===game.id));
  const e={id:'rotation',gameId:'arknights',region:'jp',kind:'pickup',poolType:'standard',pickupGroup:'rotation-202610',title:loc('中堅セレクト'),startAt:'2026-10-20T04:00:00+09:00',endAt:'2026-11-03T03:59:00+09:00'};

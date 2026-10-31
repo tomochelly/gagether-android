@@ -20,6 +20,7 @@ import {collectRegionalNotices,collectPendingDocuments} from './official-collect
 import {refreshWuwaReferenceStep} from './wuwa-reference-store';
 import {refreshCharacterRostersStep} from './character-roster-refresh';
 import {refreshLeaksStep} from './leaks-store';
+import {leakRefreshChecks} from './leaks';
 import {nextRefreshStage} from './refresh-tasks';
 import {refreshOfficialUploadsStep} from './official-upload-store';
 const interval=10*60*1000;
@@ -142,9 +143,22 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   const cursor=(p.cursor||0)+6;
   const done=cursor>=watches.size,known=p.stage==='known-broadcasts';return {...p,stage:done?next(p.stage):p.stage,cursor:done?0:cursor,...(known&&done?{knownCheckedIds:[...watches.keys()],watchRows:undefined}:{}),broadcastChecks:[...(p.broadcastChecks||[]),...broadcastChecks],changedNeedsReview:[...(p.changedNeedsReview||[]),...changedNeedsReview]};
  }
- if(p.stage==='recaps')return {...p,stage:next('recaps'),recapCheck:await publishBroadcastRecapsStep(gameId)};
+ if(p.stage==='recaps'){
+  const recapCheck=await publishBroadcastRecapsStep(gameId);
+  if(!gameId||p.lane!=='details')return {...p,stage:next('recaps'),recapCheck};
+  const {refreshCommunityResearch}=await import('./community-research-store');
+  let communityResearch;try{communityResearch=await refreshCommunityResearch(gameId);}catch{communityResearch={gameId,status:'unavailable' as const,attempted:0,changed:0,failed:0};}
+  return {...p,stage:next('recaps'),recapCheck:{...recapCheck,communityResearch}};
+ }
  if(p.stage==='collection')return {...p,stage:next('collection'),collection:await collectPendingDocuments(gameId,!!p.lane)};
- if(p.stage==='notice-bodies')return {...p,stage:next('notice-bodies'),collection:await collectPendingDocuments(gameId,true)};
+ if(p.stage==='notice-bodies'){
+  const collection=await collectPendingDocuments(gameId,true);let bluearchiveCheck;
+  if(!gameId||gameId==='bluearchive'){
+   try{const {importBlueArchiveOfficial}=await import('./bluearchive-official-store');bluearchiveCheck=await importBlueArchiveOfficial();}
+   catch(error){bluearchiveCheck={source:'bluearchive/kr/official-recruitment',status:'error',checkedAt:new Date().toISOString(),error:error instanceof Error?error.message:'Recruitment import failed'};}
+  }
+  return {...p,stage:next('notice-bodies'),collection,...bluearchiveCheck?{bluearchiveCheck}:{}};
+ }
  if(p.stage==='additional'){const check=await importAdditionalGameContent(gameId);return {...p,stage:next('additional'),additionalCheck:check};}
  if(p.stage==='artwork'){const check=await importMaintainedArtwork(gameId);return {...p,stage:next('artwork'),artworkCheck:check};}
  if(p.stage==='profiles'){const check=await importNteProfiles(false,{cursor:p.cursor||0,limit:2,timeoutMs:12000});return {...p,stage:check.done?next('profiles'):'profiles',cursor:check.done?0:check.nextCursor,profileCheck:check};}
@@ -158,9 +172,11 @@ export async function performRefreshStage(p:RefreshProgress):Promise<any>{
   if(!automatic.persistent||!effective.persistent)throw Error('Final readback failed');
   const validationIssues=readbackIssues(automatic.entries,effective.entries);
   const weaponResult=p.weaponStep||collection?.weapons;
-  const extraChecks=[...(p.additionalCheck?.checks||[]),...(p.profileCheck?.sources||[]).map((s:any)=>({...s,source:'profile/'+s.url})),...(p.profileCheck?.discovery?.checks||[]).map((s:any)=>({...s,source:'profile-index/'+s.url,checkedAt:p.profileCheck.checkedAt}))];
+  const communityResearch=p.recapCheck?.communityResearch,communityCheck=communityResearch?{source:'community/research/'+gameId,...communityResearch,status:communityResearch.status==='ok'?'ok':communityResearch.status==='cached'?'cached':'limited',checkedAt:p.recapCheck.checkedAt}:undefined;
+  const extraChecks=[...(p.bluearchiveCheck?[p.bluearchiveCheck]:[]),...(communityCheck?[communityCheck]:[]),...(p.additionalCheck?.checks||[]),...(p.profileCheck?.sources||[]).map((s:any)=>({...s,source:'profile/'+s.url})),...(p.profileCheck?.discovery?.checks||[]).map((s:any)=>({...s,source:'profile-index/'+s.url,checkedAt:p.profileCheck.checkedAt}))];
   const weaponCheck={source:'wuwa/global/weapons',status:weaponResult?.issues?.length?'error':'ok',checkedAt:weaponResult?.checkedAt,count:weaponResult?.changedEntries?.length||0,error:weaponResult?.issues?.join('; ')||undefined};
-  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...(p.uploadChecks||[]),...broadcastChecks,...(collection?.checks||[]),...extraChecks,...(weaponResult?.checkedAt?[weaponCheck]:[]),...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],!validationIssues.length);
-  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,uploadChecks:p.uploadChecks||[],broadcastChecks,structuredChecks:[...extraChecks,...(weaponResult?.checkedAt?[weaponCheck]:[]),...(p.referenceCheck?[p.referenceCheck]:[]),...(p.leakCheck?[p.leakCheck]:[]),...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:p.lane?({broadcasts:2,notices:3,uploads:3,details:30,maintenance:30} as Record<string,number>)[p.lane]:10,...(p.taskKey?{taskKey:p.taskKey,gameId:p.gameId,lane:p.lane}: {})};
+  const leakChecks=leakRefreshChecks(p.leakCheck);
+  const health=refreshHealth([...koreanChecks,...feeds,...regional.checks,...channelChecks,...(p.uploadChecks||[]),...broadcastChecks,...(collection?.checks||[]),...extraChecks,...(weaponResult?.checkedAt?[weaponCheck]:[]),...(p.referenceCheck?[p.referenceCheck]:[]),...leakChecks,...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],!validationIssues.length);
+  const result={ok:health.outcome!=='failed'&&health.outcome!=='validation-failed',partial:health.outcome==='partial',...health,validationIssues,startedAt,finishedAt:new Date().toISOString(),noticesAdded:noticedCount+regional.added,changedNeedsReview:[...new Set(changedNeedsReview)],koreanChecks,feeds,regionalChecks:regional.checks,channelChecks,uploadChecks:p.uploadChecks||[],broadcastChecks,structuredChecks:[...extraChecks,...(weaponResult?.checkedAt?[weaponCheck]:[]),...(p.referenceCheck?[p.referenceCheck]:[]),...leakChecks,...(p.rosterCheck?[p.rosterCheck]:[]),...(p.recapCheck?[p.recapCheck]:[])],collection,readback:{automatic:automatic.entries.length,effective:effective.entries.length},detailReview:'native-body-publication-with-separate-review-queue',intervalMinutes:p.lane?({broadcasts:2,notices:3,uploads:3,details:30,maintenance:30} as Record<string,number>)[p.lane]:10,...(p.taskKey?{taskKey:p.taskKey,gameId:p.gameId,lane:p.lane}: {})};
   return result;
 }

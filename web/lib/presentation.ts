@@ -6,7 +6,7 @@ import {ui} from './i18n';
 export const regionLabel=(game:Game,region:Region,locale:Locale,labels=ui[locale])=>game.serviceMode==='shared-global'&&region==='global'?labels.unifiedSchedule:game.regionLabels?.[region]?.[locale]||labels[region];
 export const effectiveRegion=(game:Game,requested:Region):Region=>game.serviceMode==='shared-global'?'global':game.regionAliases?.[requested]||(game.regions.includes(requested)?requested:'global');
 export const scheduleRegions=(game:Game):Region[]=>game.serviceMode==='shared-global'?[]:game.scheduleRegions||game.regions;
-export const inSchedule=(entry:Entry,game:Game,requested:Region)=>(requested!=='cn'||game.regions.includes('cn'))&&entry.region===effectiveRegion(game,requested);
+export const inSchedule=(entry:Entry,game:Game,requested:Region)=>(requested!=='cn'||game.regions.includes('cn'))&&(game.id==='gfl2'?effectiveRegion(game,entry.region):entry.region)===effectiveRegion(game,requested);
 export const matchedArtwork=(entry:Entry)=>!!(entry.image&&entry.imageVerified);
 export const featuredMembers=(entry:Entry)=>entry.pickupMembers?.filter(m=>m.role!=='rate-up'&&m.role!=='candidate');
 export const editedEntryArtwork=(entry:Entry)=>featuredMembers(entry)?.length===1&&entry.editor?.fields.some(key=>['image','localizedArtwork','imageFraming','previewFocus','previewBounds','previewArtwork','imagePosition','imageLocale'].includes(key));

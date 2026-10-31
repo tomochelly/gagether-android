@@ -13739,9 +13739,15 @@ const rawSeedEntries: Entry[] =[
     }
   }
 ];
-export const seedEntries: Entry[] = [...rawSeedEntries,...additionalGameEntries as Entry[],...releaseAdditions as Entry[],...maintainedVideoNotices as Entry[]].map(separateEntityRewards);
+export const seedEntries: Entry[] = [...rawSeedEntries,...additionalGameEntries as Entry[],...releaseAdditions as Entry[],...maintainedVideoNotices as Entry[],...wuwaUpcoming38 as Entry[],...recurringReviewedEntries as Entry[],...officialPickupUpdates as Entry[],...silverPalaceLaunch as Entry[],...reviewedTrickcalPickups as Entry[]].map(separateEntityRewards);
 import additionalGameEntries from '../content/additional-game-entries.json' with {type:'json'};
 
 import releaseAdditions from '../content/release-additions-20261025.json' with {type:'json'};
 
 import maintainedVideoNotices from '../content/maintained-video-notices.json' with {type:'json'};
+
+import wuwaUpcoming38 from '../content/wuwa-upcoming-3-8.json' with {type:'json'};
+import recurringReviewedEntries from '../content/recurring-reviewed-entries.json' with {type:'json'};
+import silverPalaceLaunch from '../content/silver-palace-launch.json' with {type:'json'};
+import officialPickupUpdates from '../content/official-pickup-updates.json' with {type:'json'};
+import reviewedTrickcalPickups from '../content/reviewed-trickcal-pickups.json' with {type:'json'};

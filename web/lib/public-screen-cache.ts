@@ -15,7 +15,7 @@ const refreshing=new Set<string>();
 export function screenObjectCache(bucket:R2Bucket):ScreenCache{
  const slot=(request:Request)=>{
   const variant=new URL(request.url).searchParams.get('variant')||'';
-  if(!/^\/(?:mobile)?:(?:ko|en|ja|zh):(manual|auto):(simple|full):(compact|wide):\d{4}-\d{2}-\d{2}$/.test(variant))throw new Error('Invalid public screen variant');
+  if(!/^\/(?:mobile|ko|en|ja|zh)?:(?:ko|en|ja|zh):(manual|auto):(simple|full):(compact|wide):\d{4}-\d{2}-\d{2}$/.test(variant))throw new Error('Invalid public screen variant');
   return 'runtime/public-screens/v1/'+encodeURIComponent(variant.replace(/:\d{4}-\d{2}-\d{2}$/,''))+'.html';
  };
  return {
@@ -40,20 +40,23 @@ export function screenObjectCache(bucket:R2Bucket):ScreenCache{
 
 export function publicScreenVariant(request:Request,now=Date.now()){
  const url=new URL(request.url),h=request.headers;
- if(request.method!=='GET'||!['/','/mobile'].includes(url.pathname)||url.search)return null;
+ const pathLocale=url.pathname.slice(1);
+ const explicitLocale=isLocale(pathLocale)?pathLocale:undefined;
+ if(request.method!=='GET'||!explicitLocale&&!['/','/mobile'].includes(url.pathname)||url.search)return null;
  if(['rsc','next-router-state-tree','next-router-prefetch','next-action','range','x-middleware-prefetch'].some(name=>h.has(name)))return null;
  if(h.get('accept')?.includes('text/x-component'))return null;
  const cookies=new Map((h.get('cookie')||'').split(';').map(part=>{const i=part.indexOf('=');return [part.slice(0,i).trim(),part.slice(i+1).trim()];}));
  const preference=cookies.get('patchwork.locale');
- const locale=localeForVisitor(h.get('x-patchwork-country')||h.get('cf-ipcountry'),h.get('accept-language'),preference);
- const manual=isLocale(preference),simple=cookies.get('gagether.mobile-view')==='simple';
+ const locale=explicitLocale||localeForVisitor(h.get('x-patchwork-country')||h.get('cf-ipcountry'),h.get('accept-language'),preference);
+ const manual=!!explicitLocale||isLocale(preference);
  const compact=/Android|Mobile|iPhone|iPad/i.test(h.get('user-agent')||'');
+ const mobile=url.pathname==='/mobile'||compact,simple=cookies.get(mobile?'gagether.mobile-view':'gagether.desktop-view')==='simple';
  const day=dateInZone(now,displayZone(locale));
  const key=[url.pathname,locale,manual?'manual':'auto',simple?'simple':'full',compact?'compact':'wide',day].join(':');
  // Render the same public document for every visitor in this variant. No auth,
  // account cookies, connector identity or arbitrary request headers enter it.
  const headers=new Headers({accept:'text/html','accept-language':locale,'user-agent':compact?'GAGETHER Mobile':'GAGETHER Desktop'});
- headers.set('cookie',[(manual?'patchwork.locale='+locale:''),'gagether.mobile-view='+(simple?'simple':'full')].filter(Boolean).join('; '));
+ headers.set('cookie',[(manual?'patchwork.locale='+locale:''),'gagether.mobile-view='+(mobile&&simple?'simple':'full'),'gagether.desktop-view='+(!mobile&&simple?'simple':'full')].filter(Boolean).join('; '));
  return {key,request:new Request(url,{headers})};
 }
 

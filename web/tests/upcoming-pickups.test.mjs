@@ -32,8 +32,8 @@ test('repeated archive/current records collapse without merging separate regiona
  assert.equal(upcomingPickups([entry,regular],'ko',now).length,1);
  assert.equal(upcomingPickups([entry,{...entry,id:'cn',region:'cn'}],'ko',now).length,2);
 });
-test('standing art, unreviewed art and the wrong language never substitute for a full banner',()=>{
- assert.equal(upcomingPickups([{...entry,...art,imageKind:'character'}],'ko',now)[0].art,undefined);
+test('reviewed full-body art is visible before release while unreviewed and wrong-language art stays rejected',()=>{
+ assert.equal(upcomingPickups([{...entry,...art,imageKind:'character'}],'ko',now)[0].art.image,art.image);
  assert.equal(upcomingPickups([{...entry,...art,imageVerified:false}],'ko',now)[0].art,undefined);
  assert.equal(upcomingPickups([{...entry,...art,imageLocale:'ja'}],'ko',now)[0].art,undefined);
  const full=upcomingPickups([{...entry,...art,previewBounds:{left:40,right:60,top:10,bottom:30},previewArtwork:{...art,image:'/assets/crop.webp',width:400,height:400,verifiedAt:entry.verifiedAt}}],'ko',now)[0].art;
@@ -42,4 +42,11 @@ test('standing art, unreviewed art and the wrong language never substitute for a
 function render(locale,simpleMode){const games=catalogGames({}),byId=Object.fromEntries(games.map(g=>[g.id,g]));return renderToStaticMarkup(createElement(CatalogContext.Provider,{value:{games,byId,t:catalogUi(locale,{}),settings:{},canEdit:false,editMode:false,simpleMode,openEditor(){}}},createElement(UpcomingPickups,{entries:[{...entry,...art}],locale,now,onOpen(){}})));}
 test('all locales display scheduled dates; Simple mode does not mount closed illustrations',()=>{
  for(const locale of ['ko','en','ja','zh']){const regular=render(locale,false),simple=render(locale,true);assert.match(regular,/2026\.10\.22/);assert.match(regular,/upcoming-art/);assert.ok(regular.includes(catalogUi(locale,{}).newPickup));assert.ok(!regular.includes('undefined'));assert.ok(regular.includes(art.image));assert.ok(!simple.includes(art.image));assert.match(simple,/aria-expanded="false"/);}
+});
+
+test('registered full character originals fill future previews, without borrowing a different outfit or replacing a current splash',()=>{
+ const name={ko:'에이언즈★아하',en:'Aeon ★ Aha',ja:'星神★アッハ',zh:'星神★阿哈'},e={...entry,gameId:'hsr',title:name,pickupMembers:[{name,type:'new',role:'featured'}]};
+ const result=upcomingPickups([e],'ko',now)[0];assert.match(result.art.image,/hsr-aha-user-original/);assert.equal(result.art.imageKind,'character');
+ const other={...e,pickupMembers:[{...e.pickupMembers[0],name:{...name,ko:'에이언즈★아하(다른 의상)'}}]};assert.equal(upcomingPickups([other],'ko',now)[0].art,undefined);
+ const splash={...e,pickupMembers:[{...e.pickupMembers[0],...art}]};assert.equal(upcomingPickups([splash],'ko',now)[0].art.image,art.image);
 });

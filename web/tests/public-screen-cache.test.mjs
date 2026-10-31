@@ -16,11 +16,11 @@ test('shared landing HTML keeps variants and never renders visitor identity or p
  const h=harness(),req=request('/',{cookie:'session=private; patchwork.locale=ja; gagether.mobile-view=simple; other=secret','user-agent':'Android','oai-authenticated-user-email':'private@example.com',authorization:'Bearer private','x-gagether-sync-token':'private'});
  const first=await publicScreen(req,h.options);assert.equal(first.headers.get('X-Gagether-Screen-Cache'),'MISS');assert.equal(await first.text(),html);await h.flush();
  const second=await publicScreen(req,h.options);assert.equal(second.headers.get('X-Gagether-Screen-Cache'),'HIT');assert.equal(await second.text(),html);assert.equal(h.renders.length,1);
- const headers=h.renders[0].headers;assert.equal(headers.get('authorization'),null);assert.equal(headers.get('oai-authenticated-user-email'),null);assert.equal(headers.get('x-gagether-sync-token'),null);assert.equal(headers.get('cookie'),'patchwork.locale=ja; gagether.mobile-view=simple');
+ const headers=h.renders[0].headers;assert.equal(headers.get('authorization'),null);assert.equal(headers.get('oai-authenticated-user-email'),null);assert.equal(headers.get('x-gagether-sync-token'),null);assert.equal(headers.get('cookie'),'patchwork.locale=ja; gagether.mobile-view=simple; gagether.desktop-view=full');
  assert.equal(second.headers.get('Cache-Control'),'private, no-store');assert.equal(second.headers.get('X-Gagether-Screen-Stored-At'),null);
  for(const locale of ['ko','en','zh']){await publicScreen(request('/',{cookie:'patchwork.locale='+locale}),h.options);await h.flush()}
  assert.equal(h.saved.size,4);
- const variants=[request('/',{'accept-language':'ja'}),request('/',{cookie:'patchwork.locale=ja'}),request('/',{cookie:'patchwork.locale=ja; gagether.mobile-view=simple'}),request('/',{cookie:'patchwork.locale=ja','user-agent':'Android'}),request('/mobile',{cookie:'patchwork.locale=ja'})].map(r=>publicScreenVariant(r).key);
+ const variants=[request('/',{'accept-language':'ja'}),request('/',{cookie:'patchwork.locale=ja'}),request('/',{cookie:'patchwork.locale=ja; gagether.desktop-view=simple'}),request('/',{cookie:'patchwork.locale=ja','user-agent':'Android'}),request('/mobile',{cookie:'patchwork.locale=ja'})].map(r=>publicScreenVariant(r).key);
  assert.equal(new Set(variants).size,5);
  assert.ok(publicScreenVariant(request('/',{'cf-ipcountry':'KR','accept-language':'ja'})).key.includes(':ko:auto:'));
 });
@@ -30,6 +30,17 @@ test('API/owner/auth/deep links/history/RSC/actions preserve original requests a
  requests.push(new Request(url,{method:'POST'}),request('/',{rsc:'1'}),request('/',{accept:'text/x-component'}),request('/',{'next-router-state-tree':'state'}));
  for(const r of requests){await publicScreen(r,h.options);assert.equal(h.renders.at(-1),r)}
  assert.equal(revisions,0);assert.equal(h.saved.size,0);
+});
+
+test('localized home URLs reuse public screens and the URL language overrides unrelated cookies',async()=>{
+ const objects=new Map(),h=harness();h.options.cache=screenObjectCache({async get(k){const row=objects.get(k);return row?{body:new Response(row.bytes).body,customMetadata:row.meta}:null},async put(k,bytes,o){objects.set(k,{bytes,meta:o.customMetadata})}});
+ for(const locale of ['ko','en','ja','zh']){
+  const req=request('/'+locale,{cookie:'patchwork.locale=ko; session=secret; gagether.desktop-view=simple','accept-language':'ko','cf-ipcountry':'KR'}),variant=publicScreenVariant(req);
+  assert.ok(variant.key.startsWith('/'+locale+':'+locale+':manual:simple:wide:'));assert.equal(variant.request.headers.get('accept-language'),locale);assert.ok(!variant.request.headers.get('cookie').includes('session'));
+  assert.equal((await publicScreen(req,h.options)).headers.get('X-Gagether-Screen-Cache'),'MISS');await h.flush();assert.equal((await publicScreen(req,h.options)).headers.get('X-Gagether-Screen-Cache'),'HIT');
+ }
+ assert.equal(objects.size,4);assert.equal(h.renders.length,4);
+ for(const path of ['/ko?entry=private','/en?tab=history','/ja/games/wuwa','/zh/owner','/fr'])assert.equal(publicScreenVariant(request(path)),null);
 });
 test('content, owner edits and deployment revisions invalidate cached screens immediately',async()=>{
  const h=harness();await publicScreen(request(),h.options);await h.flush();

@@ -13,6 +13,7 @@ import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./build/sites-vite-plugin";
 import { connectorPreview } from "./build/connector-preview-plugin.mjs";
 import { lazyRosterSnapshot } from './build/roster-snapshot';
+import {packedWuwaData} from './build/wuwa-data';
 import { guardCommonjsJson } from "./build/commonjs-json-guard";
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
@@ -73,6 +74,7 @@ export default defineConfig(async ({ command }) => {
     },
     plugins: [
       lazyRosterSnapshot(),
+      packedWuwaData(),
       guardCommonjsJson(vinext()),
       sites({ mockAuth: !managedLinux }),
       connectorPreview(),

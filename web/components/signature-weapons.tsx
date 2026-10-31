@@ -7,7 +7,7 @@ import {artworkForLocale,serviceArtworkLocale} from '@/lib/artwork';
 import ArtworkMedia from './artwork-media';
 export default function SignatureWeapons({links,locale,onOpen,compact=false}:{links:WeaponLink[];locale:Locale;onOpen:(entry:Entry)=>void;compact?:boolean}){
  if(!links.length)return null;
- const t=weaponUi[locale];
+ const t={...weaponUi[locale],...(links[0].entry.gameId==='zzz'?{label:{ko:'전용 W-엔진',en:'Signature W-Engine',ja:'モチーフ音動機',zh:'专属音擎'}[locale]}:{})};
  return <div className={'signature-weapons'+(compact?' compact':'')} aria-label={t.label}>{links.map(link=>{
   const name=localizedName(link.name,locale),art=artworkForLocale(link.art,locale,'preview',serviceArtworkLocale(link.entry.region,link.entry.gameId));
   return <button type="button" className="signature-weapon" key={link.key} onClick={()=>onOpen(link.entry)} aria-label={name+' · '+t.open}>

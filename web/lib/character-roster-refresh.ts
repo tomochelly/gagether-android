@@ -3,7 +3,7 @@ import {games} from './games';
 import {githubIdentity} from './refresh-identity';
 export const rosterAudience='https://gagether.wiki/api/characters';
 export const rosterWorkflow='tomochelly/gagether-android/.github/workflows/gagether-rosters.yml@refs/heads/main';
-export const rosterGames=games.filter(g=>g.id!=='wuwa').map(g=>g.id);
+export const rosterGames=games.filter(g=>g.id!=='wuwa'&&!g.launch).map(g=>g.id);
 export async function rosterIdentity(request:Request){const token=request.headers.get('X-Gagether-Collection-OIDC');return token?await githubIdentity(token,rosterAudience,rosterWorkflow):null;}
 export async function recordRosterHealth(value:{gameId:string;status:string;checkedAt:string;[key:string]:unknown}){await env.DB!.prepare('INSERT INTO operations_health(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload').bind('character-roster-health:'+value.gameId,JSON.stringify(value)).run();}
 /** The fixed GitHub collector owns external parsing; Worker requests never pretend to run it. */

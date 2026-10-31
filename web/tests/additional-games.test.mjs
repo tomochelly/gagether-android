@@ -12,17 +12,17 @@ test('published supplemental date-only periods show their current state without 
  assert.equal(entryState({...e,pickupArchive:{status:'forecast'}},Date.parse('2026-10-24T03:00:00Z')),'upcoming');
  assert.ok(!mobileFeed([e],{},'ko').entries.some(r=>r.id===e.id));assert.equal(calendarEvent(e,games.find(g=>g.id==='holodreams'),'ko'),null);
 });
-test('catalog expands to eighteen without changing old ordering, private preferences or the three CN catalogs',()=>{
- assert.equal(games.length,18);for(const id of ['limbus','dna','holodreams']){const g=games.find(g=>g.id===id);assert.ok(g);assert.equal(g.serviceMode,'shared-global');assert.deepEqual(g.regions,['global']);for(const l of ['ko','en','ja','zh'])assert.ok(g.name[l]);}
- assert.deepEqual(games.filter(g=>g.regions.includes('cn')).map(g=>g.id).sort(),['arknights','gfl2','reverse1999']);
- const before=['zzz','wuwa'],after=normalizeGameOrder(before,games.map(g=>g.id));assert.deepEqual(after.slice(0,2),before);assert.deepEqual(after.slice(-3),['limbus','dna','holodreams']);assert.deepEqual(before,['zzz','wuwa']);
+test('released eighteen retain ordering and CN catalogs while three upcoming information pages append safely',()=>{
+ assert.equal(games.filter(g=>!g.launch).length,18);assert.equal(games.length,21);for(const id of ['limbus','dna','holodreams']){const g=games.find(g=>g.id===id);assert.ok(g);assert.equal(g.serviceMode,'shared-global');assert.deepEqual(g.regions,['global']);for(const l of ['ko','en','ja','zh'])assert.ok(g.name[l]);}
+ assert.deepEqual(games.filter(g=>!g.launch&&g.regions.includes('cn')).map(g=>g.id).sort(),['arknights','gfl2','reverse1999']);
+ const before=['zzz','wuwa'],after=normalizeGameOrder(before,games.map(g=>g.id));assert.deepEqual(after.slice(0,2),before);assert.deepEqual(after.slice(-6),['limbus','dna','holodreams','silver-palace','azur-promilia','ananta']);assert.deepEqual(before,['zzz','wuwa']);
  assert.equal(collectionCoverage([]).find(r=>r.gameId==='dna').status,'not-applicable');
 });
 test('distributed native apps retain a fifteen-game feed while the update receives all eighteen',()=>{
  for(const ua of ['GAGETHER-Android/1.0.2','Mozilla Android GAGETHER/1.0.2','GAGETHER/0.2.2'])assert.equal(supportsExpandedCatalog(ua),false);
  for(const ua of [null,'Mozilla/5.0','GAGETHER/1.0.3','GAGETHER-Android/1.1.0','GAGETHER/2.0.0'])assert.equal(supportsExpandedCatalog(ua),true);
  const entries=games.map(g=>({id:'compat-'+g.id,gameId:g.id,region:effectiveRegion(g,'kr'),kind:g.id==='dna'?'event':'pickup',title:text(g.id),summary:text(''),server:'Global',startAt:'2026-10-20T00:00:00Z',endAt:'2026-11-01T00:00:00Z',sourceUrl:g.official,sourceTitle:'Source',verifiedAt:'2026-10-23T00:00:00Z',publishedAt:null}));
- const modern=mobileFeed(entries,{},'ko'),old=mobileFeed(entries,{},'ko',legacyMobileGameIds);assert.equal(modern.games.length,18);assert.equal(old.games.length,15);assert.equal(old.entries.length,15);assert.ok(old.entries.every(e=>legacyMobileGameIds.includes(e.gameId)));
+ const now=Date.parse('2026-10-23T00:00:00Z'),modern=mobileFeed(entries,{},'ko',undefined,now),old=mobileFeed(entries,{},'ko',legacyMobileGameIds,now);assert.equal(modern.games.length,18);assert.equal(old.games.length,15);assert.equal(old.entries.length,15);assert.ok(old.entries.every(e=>legacyMobileGameIds.includes(e.gameId)));
 });
 test('Steam native bodies require the exact app, publisher and language; metadata windows never become gameplay dates',()=>{
  for(const gameId of ['limbus','dna','holodreams'])for(const locale of gameId==='limbus'?['ko','en','ja']:['ko','en','ja','zh']){

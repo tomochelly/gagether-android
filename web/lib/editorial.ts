@@ -1,5 +1,6 @@
 import type {Entry,Game,Locale,TextAppearance,LocalizedTextStyle} from './types';
 import {games,isSupportedSchedule} from './games';
+import {repairSupersededOwnerArtwork} from './reviewed-owner-artwork';
 import {ui} from './i18n';
 import type {SiteLayout} from './site-layout';
 import type {SiteAnnouncement} from './site-announcements';
@@ -30,6 +31,7 @@ export function applyEditorial(base:Entry[],records:EditorialRecord[],includeHid
 }
 // Only an exact, reviewed immutable image can repair old missing classifications.
 export function recoverReviewedArtwork(entry:Entry,assets=entry.detailImages){
+ entry=repairSupersededOwnerArtwork(entry);
  const reviewed=!entry.imageLocale&&entry.image?assets?.find(art=>art.image===entry.image&&art.imageVerified&&art.imageLocale):undefined;
  if(!reviewed)return entry;
  return {...entry,imageLocale:reviewed.imageLocale,...(entry.editor?.fields.includes('image')&&!entry.editor.fields.includes('imageKind')&&reviewed.imageKind?{imageKind:reviewed.imageKind}:{})};

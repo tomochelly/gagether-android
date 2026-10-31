@@ -1,15 +1,15 @@
 {
-  "version": "1.0.3",
-  "versionCode": 10,
+  "version": "1.0.6",
+  "versionCode": 13,
   "minAndroid": "8.0",
   "packageName": "app.patchwork.radar",
-  "downloadUrl": "https://github.com/tomochelly/gagether-android/releases/download/v1.0.3/GAGETHER-1.0.3.apk",
-  "releaseUrl": "https://github.com/tomochelly/gagether-android/releases/tag/v1.0.3",
-  "sha256": "7aa75d24bf64aef76baddebe245b5ce022426ed917f8c921a2a70ceb534d0f4b",
-  "publishedAt": "2026-10-23T17:12:18Z",
+  "downloadUrl": "https://github.com/tomochelly/gagether-android/releases/download/v1.0.6/GAGETHER-1.0.6.apk",
+  "releaseUrl": "https://github.com/tomochelly/gagether-android/releases/tag/v1.0.6",
+  "sha256": "d27e246ebe58c8db59955296f154bdaac3b7d44cd8b3fe151f0a5673dafc5668",
+  "publishedAt": "2026-10-29T14:50:59Z",
   "sourceAccess": "release-metadata-and-ci",
   "runtimeVerified": true,
-  "verificationUrl": "https://github.com/tomochelly/gagether-android/releases/download/v1.0.3/verification.json",
+  "verificationUrl": "https://github.com/tomochelly/gagether-android/releases/download/v1.0.6/verification.json",
   "certificateSha256": "14f8c9571ea32961d677f2bd90199adddf201647e988c045fca4dd0276444aab",
-  "runtimeRun": "https://github.com/tomochelly/gagether-android/actions/runs/39992521188"
+  "runtimeRun": "https://github.com/tomochelly/gagether-android/actions/runs/40894432088"
 }

@@ -3,6 +3,7 @@ import {games} from './games';
 import {independentService} from './content-audience';
 import {isolatedArtwork} from './editor-artwork';
 import {artworkPresets} from './artwork-presets';
+import {reviewedPickupArtwork} from './reviewed-pickup-artwork';
 export function isBrandArtwork(image:string|undefined,game:Game){return !!image&&[game.logo,game.icon,...Object.values(game.localizedLogos||{})].includes(image);}
 export function previewFocus(art:EntityArtwork):PreviewFocus{
  return art.previewFocus||artworkPresets[art.image||'']||{x:50,y:art.imageKind==='weapon'?50:art.imageKind?32:50,zoom:art.imageKind==='weapon'?1.15:art.imageKind?1.3:1};
@@ -13,6 +14,7 @@ export function serviceArtworkLocale(region:Region,gameId?:string):Locale|undefi
  return region==='jp'?'ja':region==='cn'?'zh':game?(region==='kr'?'ko':'en'):undefined;
 }
 export function artworkForLocale(art:EntityArtwork,locale:Locale,mode:'preview'|'full'='preview',serviceLocale?:Locale):EntityArtwork{
+ if(mode==='preview'&&'id'in art&&'gameId'in art)art=reviewedPickupArtwork(art as Entry);
  serviceLocale=serviceLocale||serviceArtworkLocale((art as Entry).region,(art as Entry).gameId);
  const targetLocale=serviceLocale||locale;
  const translated=art.localizedArtwork?.[targetLocale];
@@ -22,7 +24,8 @@ export function artworkForLocale(art:EntityArtwork,locale:Locale,mode:'preview'|
  if(mode==='preview'&&preview?.imageVerified&&(preview.imageLocale==='neutral'||preview.imageLocale===targetLocale))return isolatedArtwork(art,preview);
  // Selected independent JP/CN services keep their own reviewed current original.
  // Shared services still require the visitor language or verified neutral artwork.
- if(!selected.imageVerified||!selected.imageLocale||selected.imageLocale!=='neutral'&&selected.imageLocale!==targetLocale)return {...selected,image:undefined,imageVerified:false};
+ const reviewedOriginal=!serviceLocale&&selected.originalLanguageFallback&&selected.imageVerified&&selected.imageSource&&selected.imageLocale&&selected.imageLocale!=='neutral'&&['banner','splash','support'].includes(selected.imageKind||'')&&(['ko','en','ja','zh'] as Locale[]).every(l=>!!selected.imageCaption?.[l]?.trim());
+ if(!selected.imageVerified||!selected.imageLocale||selected.imageLocale!=='neutral'&&selected.imageLocale!==targetLocale&&!reviewedOriginal)return {...selected,image:undefined,imageVerified:false};
  return selected;
 }
 export function previewGeometry(image:{width:number;height:number},box:{width:number;height:number},focus:PreviewFocus,pixelRatio=1,bounds:PreviewBounds={left:0,top:0,right:100,bottom:100},anchorX=.5){

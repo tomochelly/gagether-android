@@ -1,6 +1,7 @@
 import type {Game,Locale} from './types';
 // Display abbreviations only. Full official names remain in accessible labels and details.
 export const calendarNames:Record<string,Record<Locale,string>>={
+ 'silver-palace':{ko:'실버 팰리스',en:'Silver Palace',ja:'白銀の城',zh:'白银之城'},'azur-promilia':{ko:'아주르',en:'Azur Promilia',ja:'アズプロ',zh:'蓝色星原'},ananta:{ko:'무한대',en:'ANANTA',ja:'無限大',zh:'无限大'},
  limbus:{ko:'림버스',en:'Limbus',ja:'リンバス',zh:'边狱'},dna:{ko:'듀나어',en:'DNA',ja:'デナアビ',zh:'二重螺旋'},holodreams:{ko:'홀로드림',en:'HoloDreams',ja:'ホロドリ',zh:'HoloDreams'},
  wuwa:{ko:'명조',en:'WuWa',ja:'鳴潮',zh:'鸣潮'},bluearchive:{ko:'블아',en:'BA',ja:'ブルアカ',zh:'蔚蓝'},nikke:{ko:'니케',en:'NIKKE',ja:'ニケ',zh:'妮姬'},
  endfield:{ko:'엔드필드',en:'Endfield',ja:'エンド',zh:'终末地'},umamusume:{ko:'우마',en:'Uma',ja:'ウマ娘',zh:'赛马娘'},nte:{ko:'이환',en:'NTE',ja:'異環',zh:'异环'},

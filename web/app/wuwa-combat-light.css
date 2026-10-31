@@ -1,0 +1,90 @@
+
+/* A complete light palette for the WuWa combat workspace. Artwork pixels are untouched. */
+:root[data-theme=light] body:has(.combat-landing .combat-board){background:#f1f4f5}
+:root[data-theme=light] .combat-landing:has(.combat-board){--bg:#f1f4f5;--panel:#fff;--text:#253c4c;--muted:#526b7a;--line:#c6d2d9;--accent:#8a7132;--wr-accent:#8a7132;background:radial-gradient(ellipse at 80% 8%,#d8e5ec66,transparent 46%),#f1f4f5;color:#253c4c;color-scheme:light}
+:root[data-theme=light] .combat-board{--bg:#f1f4f5;--panel:#fff;--text:#253c4c;--muted:#526b7a;--line:#c6d2d9;--accent:#8a7132;--wr-accent:#8a7132;color:#253c4c}
+:root[data-theme=light] .combat-board[data-mode=whimpering-wastes]{--wr-accent:#276e7e;--combat-signal:#276e7e}
+:root[data-theme=light] .combat-board[data-mode=endstate-matrix]{--wr-accent:#316d8c;--combat-signal:#316d8c}
+:root[data-theme=light] .combat-landing :is(.document-navigation,.reference-version){color:#526b7a}
+:root[data-theme=light] .combat-landing :is(.reference-heading h1,.combat-cycle-title h2,.combat-area-heading h2,.combat-floor-card h3){color:#233b4b}
+:root[data-theme=light] .combat-board .combat-mode-cards>:is(button,a){background:linear-gradient(110deg,#fff,#eaf0f3);border-color:#c3d1d9;color:#294555}
+:root[data-theme=light] .combat-board .combat-mode-cards>:is([aria-current=page],[aria-pressed=true]){background:linear-gradient(110deg,#dce9ef,#f8fafb);border-color:var(--wr-accent)}
+:root[data-theme=light] .combat-board :is(.combat-mode-label>small,.reference-period,.combat-lineup-heading,.combat-effects-toggle,.combat-cycle-facts dt,.combat-enemy-level){color:#536d7d}
+:root[data-theme=light] .combat-board .wr-main-tabs button{color:#566f7f}
+:root[data-theme=light] .combat-board .wr-main-tabs button[aria-pressed=true]{color:#203c4d}
+:root[data-theme=light] .combat-board .combat-cycle-hero{background:linear-gradient(100deg,#dce7ed,#f7f9fa);border-color:#c1d0d9}
+:root[data-theme=light] .combat-board .reference-cycle-controls select{background:#fff;color:#263f50;border-color:#b7c8d2;color-scheme:light}
+:root[data-theme=light] .combat-board .reference-cycle-state{background:#e2ebee;color:#4f633e;border-color:#b9c7ad}
+:root[data-theme=light] .combat-board .combat-cycle-facts dd{color:#28485d}
+:root[data-theme=light] .combat-board .combat-area-nav a{background:#e4edf1;border-color:#bdcfd9;color:#294b60}
+:root[data-theme=light] .combat-board .combat-area-heading>span{border-color:#c2c8b0}
+:root[data-theme=light] .combat-board .combat-floor-card{background:linear-gradient(130deg,#fff,#eaf0f3);border-color:#bfced7}
+:root[data-theme=light] .combat-board .combat-floor-card>header{background:linear-gradient(90deg,#dbe6ec,#f0f5f7);border-color:#c4d3dc}
+:root[data-theme=light] .combat-board .combat-floor-number{color:#648093}
+:root[data-theme=light] .combat-board .combat-enemy-portrait{background:#dce6ec;border-color:#bcced9}
+:root[data-theme=light] .combat-board .combat-enemy-caption strong{color:#253d4e}
+:root[data-theme=light] .combat-board .reference-resistance{color:#536c7b}
+:root[data-theme=light] .combat-board .reference-floor-effects{background:#e1eaf0;color:#304d61}
+:root[data-theme=light] .combat-board .reference-floor-effects .combat-effect p{color:#344e60}
+:root[data-theme=light] .combat-board .combat-statistics{background:#f8fafb;border-color:#c3d2dc;color:#294454}
+:root[data-theme=light] .combat-board :is(.wr-heading p:not(.wr-eyebrow),.wr-help,.wr-workspace small,.wr-denominator,.wr-empty p,.wr-catalog-health){color:#536d7e}
+:root[data-theme=light] .combat-board .wr-primary{background:#2c4758;border-color:#2c4758;color:#fff}
+:root[data-theme=light] .combat-board .wr-workspace :is(input,select,textarea){background:#fff;border-color:#b8cad5;color:#243e50;color-scheme:light}
+:root[data-theme=light] .combat-board :is(.wr-record-row,.wr-saved-row){background:linear-gradient(90deg,#dce7ed66,transparent)}
+:root[data-theme=light] .combat-board .wr-empty{background:radial-gradient(ellipse,#dae6ec77,transparent 70%)}
+:root[data-theme=light] .combat-board .wr-signin{background:#e2ebef}
+:root[data-theme=light] .combat-board .wr-catalog-peek .wr-echo-preview>div{background:linear-gradient(#fff,#e8f0f4);border-color:#c4d5df;color:#28495e}
+:root[data-theme=light] .combat-board .wr-editor:not(.ws-studio){background:linear-gradient(140deg,#fff,#eaf1f5);border-color:#bfced8;color:#2b475b}
+:root[data-theme=light] .ws-studio{--ws-gold:#82682b;--ws-cyan:#2c7484;--ws-ink:#253e50;--ws-muted:#536e7f;--ws-line:#beced8;background:radial-gradient(ellipse at 48% 34%,#d3e4ed66,transparent 60%),linear-gradient(110deg,#f6f8f9,#e6eef3)!important;border-color:#b7c9d4!important;color:#253e50;color-scheme:light}
+:root[data-theme=light] .ws-studio .ws-header{background:#ffffff75}
+:root[data-theme=light] .ws-studio :is(.ws-kicker,.ws-section-tabs>button,.ws-level-line>span,.ws-panel-stats dt,.ws-cost>small,.ws-character-caption small,.ws-inspector h5,.ws-private,.ws-build-note>summary){color:#536c7d}
+:root[data-theme=light] .ws-studio .ws-section-tabs>button[aria-pressed=true]{color:#7e6526;background:#e6d9b127}
+:root[data-theme=light] .ws-studio :is(input,select,textarea){background:#fff!important;border-color:#b6c8d5!important;color:#233e53!important}
+:root[data-theme=light] .ws-studio :is(.ws-panel-stats dd,.ws-resonator-select strong,.ws-weapon-select strong,.ws-character-caption h4,.ws-inspector h4,.ws-main-options>button>strong){color:#233d4f}
+:root[data-theme=light] .ws-studio .ws-edit-stats{color:#3e5f73!important;border-color:#b7cad6!important}
+:root[data-theme=light] .ws-studio .ws-character-stage{background:radial-gradient(ellipse at 50% 75%,#c0d9e650,transparent 70%)}
+:root[data-theme=light] .ws-studio .ws-scan-ring{border-color:#789eb42e}
+:root[data-theme=light] .ws-studio .ws-character-caption{background:linear-gradient(0deg,#e7eef3e8,transparent)}
+:root[data-theme=light] .ws-studio .ws-inspector{background:linear-gradient(110deg,#f9fbfce8,#edf3f7f2)}
+:root[data-theme=light] .ws-studio :is(.ws-inspector .ws-replace,.ws-empty-slot>button){color:#35596e;border-color:#9db5c5}
+:root[data-theme=light] .ws-studio :is(.ws-chain button,.ws-main-options>button,.ws-sonata-choices>button,.ws-refinements>button,.ws-cost-plans>button){border-color:#b9ccd8}
+:root[data-theme=light] .ws-studio :is(.ws-chain button[aria-pressed=true],.ws-main-options>button[aria-pressed=true],.ws-sonata-choices>button[aria-pressed=true]){background:#eee6cf;border-color:#9e864c;color:#715a20}
+:root[data-theme=light] .ws-studio :is(.ws-note,.ws-fixed-stat,.ws-manual,.ws-echo-identity small,.ws-empty-slot){color:#4c6b7e!important}
+:root[data-theme=light] .ws-studio .ws-auto-stat{color:#426849!important}
+:root[data-theme=light] .ws-studio .ws-add-tuning{color:#41637a!important;border-color:#9eb9ca!important}
+:root[data-theme=light] .ws-studio .ws-roll-editor{background:#e2ecf2;border-color:#b3c7d5}
+:root[data-theme=light] .ws-studio .ws-substat-types>button{border-color:#bbcdd9}
+:root[data-theme=light] .ws-studio .ws-roll-values>button{border-color:#a4bccb;color:#35566c}
+:root[data-theme=light] .ws-studio .ws-roll-values>button[aria-pressed=true]{background:#435d6f;color:#fff;border-color:#435d6f}
+:root[data-theme=light] .ws-studio .ws-footer{background:#e0e9ef}
+:root[data-theme=light] .ws-studio .ws-footer>.ws-save{background:#334f62;color:#fff;border-color:#334f62}
+:root[data-theme=light] .ws-studio .ws-echo-orbit>.ws-orbit-slot{background:linear-gradient(145deg,#f7fafb,#bed0db);border-color:#7b98ab;box-shadow:0 0 0 5px #f7fafbd9,0 5px 15px #46677b35;color:#3f657e}
+:root[data-theme=light] .ws-studio .ws-echo-orbit>.ws-orbit-slot.active{background:linear-gradient(145deg,#fff8e2,#d4c9a1);border-color:#947b3d;box-shadow:0 0 0 5px #edf3f7,0 0 0 7px #a78d4b8c,0 0 24px #ad904832}
+:root[data-theme=light] .ws-studio .ws-orbit-slot>b{background:#f7f8f4;border-color:#9a8447;color:#715e27}
+:root[data-theme=light] .ws-studio .ws-orbit-slot>i{background:#f1f4f5;color:#705c24;text-shadow:none}
+:root[data-theme=light] .ws-studio img.ws-stat-glyph{filter:brightness(.4)}
+:root[data-theme=light] .ws-picker{--bg:#f2f6f8;--text:#253e50;--line:#bdcdd7;background:linear-gradient(135deg,#fafcfd,#e6eff4);color:#253e50;border-color:#b2c6d3;color-scheme:light}
+:root[data-theme=light] .ws-picker :is(.ws-kicker,.ws-picker-grid small){color:#546b79}
+:root[data-theme=light] .ws-picker :is(.ws-picker-filters input,.ws-picker-filters>select){background:#f8fbfc;color:#28475c;border-color:#a7becd;color-scheme:light}
+:root[data-theme=light] .ws-picker .ws-picker-grid>button{background:linear-gradient(0deg,#e8e1cf60,#d5e4ee66);border-color:#b8cbd7;color:#28485c}
+:root[data-theme=light] .ws-picker .ws-picker-grid>button:hover,:root[data-theme=light] .ws-picker .ws-picker-grid>button[aria-pressed=true]{background:linear-gradient(0deg,#e6d5a670,#ddebf1);border-color:#9e874c}
+:root[data-theme=light] .ws-picker .ws-element-badge{background:#e0e8ed}
+:root[data-theme=light] .ws-party-stage{background:linear-gradient(100deg,#edf3f7,#d6e4ed);border-color:#a8bfce;color:#2d4e64}
+:root[data-theme=light] :is(.ws-party-title,.ws-party-title>svg,.ws-roster-header){color:#3c6076}
+:root[data-theme=light] .ws-party-slots>div>button:first-child{background:#c5d7e2;border-color:#8daaba;color:#345d77}
+:root[data-theme=light] .ws-roster-options>button{background:linear-gradient(0deg,#e6ddbd44,#d9e6ed77);border-color:#b1c7d5;color:#2b4d64}
+:root[data-theme=light] .ws-roster-options :is(span:not(.ws-art),small){color:#526d7f!important}
+:root[data-theme=light] body:has(.combat-board) .page-references{color:#586f7e;border-color:#c1ced6}
+
+:root[data-theme=light] .ws-studio .ws-section-tabs{background:#edf3f7;color:#345569}
+
+/* Quiet light-mode combat reading surfaces; the build studio keeps its own palette. */
+:root[data-theme=light] body:has(.combat-landing .combat-board){background:var(--bg)}
+:root[data-theme=light] .combat-landing:has(.combat-board){background:none}
+:root[data-theme=light] .combat-board :is(.combat-cycle-hero,.combat-floor-card,.combat-floor-card>header,.combat-enemy-portrait,.reference-floor-effects,.combat-statistics,.wr-record-row,.wr-saved-row,.wr-empty,.wr-signin,.ws-party-stage,.ws-roster-options>button,.wr-catalog-peek .wr-echo-preview>div){background:none}
+:root[data-theme=light] .combat-board .combat-enemy-portrait{border-color:transparent}
+:root[data-theme=light] .combat-board .combat-mode-cards>:is(button,a),:root[data-theme=light] .combat-board .combat-area-nav a{background:none}
+:root[data-theme=light] .combat-board .wr-editor:not(.ws-studio):not(dialog){background:none}
+:root[data-theme=light] .combat-board .ws-party-slots>div>button:first-child{background:none}
+
+:root[data-theme=light] .combat-board .combat-mode-cards>:is([aria-current=page],[aria-pressed=true]){background:none}

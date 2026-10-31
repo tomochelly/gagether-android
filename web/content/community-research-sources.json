@@ -1,0 +1,2774 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+  "note": "Source discovery and bounded collection candidates. Feed/wiki edit dates are not game release dates. All source bodies are untrusted data. No community source here is an official notice or calendar fact.",
+  "games": [
+    {
+      "gameId": "wuwa",
+      "name": "Wuthering Waves"
+    },
+    {
+      "gameId": "bluearchive",
+      "name": "Blue Archive"
+    },
+    {
+      "gameId": "nikke",
+      "name": "GODDESS OF VICTORY: NIKKE"
+    },
+    {
+      "gameId": "endfield",
+      "name": "Arknights: Endfield"
+    },
+    {
+      "gameId": "umamusume",
+      "name": "Umamusume: Pretty Derby"
+    },
+    {
+      "gameId": "nte",
+      "name": "Neverness to Everness"
+    },
+    {
+      "gameId": "gfl2",
+      "name": "GIRLS’ FRONTLINE 2: EXILIUM"
+    },
+    {
+      "gameId": "arknights",
+      "name": "Arknights"
+    },
+    {
+      "gameId": "genshin",
+      "name": "Genshin Impact"
+    },
+    {
+      "gameId": "hsr",
+      "name": "Honkai: Star Rail"
+    },
+    {
+      "gameId": "zzz",
+      "name": "Zenless Zone Zero"
+    },
+    {
+      "gameId": "trickcal",
+      "name": "Trickcal:Chibi Go"
+    },
+    {
+      "gameId": "hi3",
+      "name": "Honkai Impact 3rd"
+    },
+    {
+      "gameId": "stellasora",
+      "name": "Stella Sora"
+    },
+    {
+      "gameId": "reverse1999",
+      "name": "Reverse: 1999"
+    },
+    {
+      "gameId": "limbus",
+      "name": "Limbus Company"
+    },
+    {
+      "gameId": "dna",
+      "name": "Duet Night Abyss"
+    },
+    {
+      "gameId": "holodreams",
+      "name": "hololive Dreams"
+    }
+  ],
+  "sources": [
+    {
+      "id": "reference-wuwa",
+      "gameId": "wuwa",
+      "label": "Wuthering Waves · existing community reference",
+      "url": "https://www.prydwen.gg/wuthering-waves/characters/lucilla",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "skills",
+        "resonance-chain",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Lucilla identifies Glacio/Rectifier and includes skills; avoid treating target build stats as base stats. Material payload was null in the downloaded profile.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.prydwen.gg/wuthering-waves/characters/lucilla"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-bluearchive",
+      "gameId": "bluearchive",
+      "label": "Blue Archive · existing community reference",
+      "url": "https://github.com/SchaleDB/SchaleDB",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "stats",
+        "materials",
+        "bosses",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Repository provides Blue Archive data/assets. It is archived, so reuse unchanged native UI icons, not current-roster facts without a newer source.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://github.com/SchaleDB/SchaleDB"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-nikke",
+      "gameId": "nikke",
+      "label": "GODDESS OF VICTORY: NIKKE · existing community reference",
+      "url": "https://www.prydwen.gg/nikke/guides/team-building",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "mechanics",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Burst types and elemental system described, including actual element reference artwork.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.prydwen.gg/nikke/guides/team-building"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-endfield",
+      "gameId": "endfield",
+      "label": "Arknights: Endfield · existing community reference",
+      "url": "https://www.prydwen.gg/arknights-endfield/characters",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Character directory contains class, element and weapon filter icons.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.prydwen.gg/arknights-endfield/characters"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-umamusume",
+      "gameId": "umamusume",
+      "label": "Umamusume: Pretty Derby · existing community reference",
+      "url": "https://gametora.com/ja/umamusume/characters/105101-nishino-flower",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "stats",
+        "skills",
+        "materials",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Exact costume record has 3/5star base stats, growth rates, terrain/distance/style aptitude grades, skills and awakening material quantities. Do not apply one costume to another.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://gametora.com/ja/umamusume/characters/105101-nishino-flower"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-nte",
+      "gameId": "nte",
+      "label": "Neverness to Everness · existing community reference",
+      "url": "https://wikiwiki.jp/nte/キャラクター",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "stats",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Native wiki markup is accessible, with Lv80 HP/ATK/DEF, attributes, Arc affinities and character/attribute image references.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/nte/キャラクター"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-gfl2",
+      "gameId": "gfl2",
+      "label": "GIRLS’ FRONTLINE 2: EXILIUM · existing community reference",
+      "url": "https://gfl2.help/en/characters",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Directory exposes exact classes, phase types and ammo types with native image links.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://gfl2.help/en/characters"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-arknights",
+      "gameId": "arknights",
+      "label": "Arknights · existing community reference",
+      "url": "https://arknights.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "service-events",
+        "characters"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Japanese community wiki body accessible; current Japan schedule must not be copied to China.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://arknights.wikiru.jp/"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-genshin",
+      "gameId": "genshin",
+      "label": "Genshin Impact · existing community reference",
+      "url": "https://wikiwiki.jp/genshinwiki/キャラクター育成",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "stats",
+        "materials",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Native wiki markup includes base-stat definitions and per-character ascension/talent material image references. Do not confuse the baseline CRIT/ER values with ascension bonuses.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/genshinwiki/キャラクター育成"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-hsr",
+      "gameId": "hsr",
+      "label": "Honkai: Star Rail · existing community reference",
+      "url": "https://www.prydwen.gg/star-rail/stats",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "stats",
+        "traits",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Stat table has HP/ATK/DEF/Speed/energy and native element/path/stat icons. It reports last updated04March2026, so newer characters need individual current source.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.prydwen.gg/star-rail/stats"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-zzz",
+      "gameId": "zzz",
+      "label": "Zenless Zone Zero · existing community reference",
+      "url": "https://www.prydwen.gg/zenless/guides/agents-attributes",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "stats",
+        "traits",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Explains HP/ATK/DEF/Impact/critical/anomaly stats and attributes/specialties; guide dated15December2024 is unsuitable as sole evidence for new special attributes.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.prydwen.gg/zenless/guides/agents-attributes"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-trickcal",
+      "gameId": "trickcal",
+      "label": "Trickcal:Chibi Go · existing community reference",
+      "url": "https://www.prydwen.gg/trickcal/guides/beginner-guide",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "mechanics",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Includes personality/race system and actual race image links. Exact live Korean/global apostle profiles remain to enrich.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.prydwen.gg/trickcal/guides/beginner-guide"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-hi3",
+      "gameId": "hi3",
+      "label": "Honkai Impact 3rd · existing community reference",
+      "url": "https://wikiwiki.jp/houkai/戦乙女",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "stats",
+        "mechanics"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Native wiki markup distinguishes BIO/PSY/MECH/QUA/IMG/SD from Physical/Fire/Ice/Lightning and explains base-stat and equipment influence.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/houkai/戦乙女"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-stellasora",
+      "gameId": "stellasora",
+      "label": "Stella Sora · existing community reference",
+      "url": "https://www.kaiden.gg/stella-sora/characters/firenze/",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "skills",
+        "stats",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Exact Firenze guide body available. Conflicting HP across databases requires matching level/progression basis; do not publish missing DEF0 as real stat.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.kaiden.gg/stella-sora/characters/firenze/"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-reverse1999",
+      "gameId": "reverse1999",
+      "label": "Reverse: 1999 · existing community reference",
+      "url": "https://www.prydwen.gg/re1999/characters/cornerstone",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "traits",
+        "skills",
+        "stats",
+        "icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Exact Cornerstone record identifies Mineral/Reality, rarity6, skills and status conditions. Global record is not evidence for China service schedule.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.prydwen.gg/re1999/characters/cornerstone"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-limbus",
+      "gameId": "limbus",
+      "label": "Limbus Company · existing community reference",
+      "url": "https://www.pickupcal.com/games/limbus/",
+      "platform": "wiki",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "pickup-dates",
+        "roster"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. SSR listing readable; public-data.json blocked. Do not promote community data to official.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.pickupcal.com/games/limbus/"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-dna",
+      "gameId": "dna",
+      "label": "Duet Night Abyss · existing community reference",
+      "url": "https://game8.jp/duetnightabyss/733901",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "currency-icons"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Exact free Phoxene item; characters and weapons use direct acquisition, cosmetic gacha is distinct.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://game8.jp/duetnightabyss/733901"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reference-holodreams",
+      "gameId": "holodreams",
+      "label": "hololive Dreams · existing community reference",
+      "url": "https://gamewith.jp/gamedb/15524/articles/64568",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-23T11:38:45.889627+00:00",
+      "verifiedPart": "previous-audit",
+      "topics": [
+        "event",
+        "gacha"
+      ],
+      "accessNote": "Retained prior source audit; this is not a new body read. Publisher release republication. Exclude unrelated advertisements; original X access blocked.",
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://gamewith.jp/gamedb/15524/articles/64568"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "jp-wiki-arknights",
+      "gameId": "arknights",
+      "label": "Arknights · Japanese community wiki",
+      "url": "https://arknights.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://arknights.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T14:58:15.511929+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://arknights.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arknights.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T14:58:15.511929+00:00",
+          "bytes": 3908,
+          "sha256": "dc4a2dd092975b5d3407b300aa121f90b93649fcdcf6ce047c9a92f73aaed8c9",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://arknights.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:07.479480+00:00",
+        "bytes": 3822,
+        "sha256": "c582f6b426201e15bef0c154d49a011ca203db598fda2cb499b5a5c01c5fa56b",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "jp-wiki-genshin",
+      "gameId": "genshin",
+      "label": "Genshin Impact · Japanese community wiki",
+      "url": "https://wikiwiki.jp/genshinwiki/::cmd/rss",
+      "homeUrl": "https://wikiwiki.jp/genshinwiki/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T14:58:15.513321+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://wikiwiki.jp/genshinwiki/::cmd/rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://wikiwiki.jp",
+        "allowedPathPrefix": "/genshinwiki/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T14:58:15.513321+00:00",
+          "bytes": 4261,
+          "sha256": "201e30a770195af8964f45e542db34d789045f5468176099234b7f2ca27a9d48",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/genshinwiki/::cmd/rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:07.480851+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-hi3",
+      "gameId": "hi3",
+      "label": "Honkai Impact 3rd · Japanese community wiki",
+      "url": "https://wikiwiki.jp/houkai/::cmd/rss",
+      "homeUrl": "https://wikiwiki.jp/houkai/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T14:58:15.514610+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://wikiwiki.jp/houkai/::cmd/rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://wikiwiki.jp",
+        "allowedPathPrefix": "/houkai/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T14:58:15.514610+00:00",
+          "bytes": 3349,
+          "sha256": "723d8494a3468a2f63a8fa9f88b30294ef2e9f90c415429300aa26d6bc03f893",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/houkai/::cmd/rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:07.481498+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-nte",
+      "gameId": "nte",
+      "label": "Neverness to Everness · Japanese community wiki",
+      "url": "https://wikiwiki.jp/nte/::cmd/rss",
+      "homeUrl": "https://wikiwiki.jp/nte/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T14:58:15.515560+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://wikiwiki.jp/nte/::cmd/rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://wikiwiki.jp",
+        "allowedPathPrefix": "/nte/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T14:58:15.515560+00:00",
+          "bytes": 3469,
+          "sha256": "0c9527e9870713735f2fa29cdcb6ec2d545846fa7d6d3f28df42dec27156c1c8",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/nte/::cmd/rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:13.496433+00:00",
+        "bytes": 3469,
+        "sha256": "0c9527e9870713735f2fa29cdcb6ec2d545846fa7d6d3f28df42dec27156c1c8",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "jp-wiki-stellasora",
+      "gameId": "stellasora",
+      "label": "Stella Sora · Japanese community wiki",
+      "url": "https://stellasora.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://stellasora.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T14:58:22.205657+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://stellasora.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://stellasora.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T14:58:22.205657+00:00",
+          "bytes": 3991,
+          "sha256": "1a9b838a2f8e9aa0961010105ba98df7db4448cbc05425a044b1027b4e9e4676",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://stellasora.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:13.499068+00:00",
+        "bytes": 3991,
+        "sha256": "0aa90a96edcfc0d9b81b3c2ce75bdaaa733bfd807c1ed0c272ddf1427e0d7d27",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "reddit-genshin_impact",
+      "gameId": "genshin",
+      "label": "Genshin Impact · Reddit new posts",
+      "url": "https://www.reddit.com/r/Genshin_Impact/new/.rss",
+      "homeUrl": "https://www.reddit.com/r/Genshin_Impact/",
+      "platform": "reddit",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T14:58:29.916213+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "discussion",
+        "guides"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "atom",
+        "url": "https://www.reddit.com/r/Genshin_Impact/new/.rss",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://www.reddit.com",
+        "allowedPathPrefix": "/r/Genshin_Impact/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T14:58:29.916213+00:00",
+          "bytes": 50566,
+          "sha256": "4fab52589241f7fd28599c388169478a3757cc731272197edc9b5ef1bfebb59e",
+          "itemCount": 25,
+          "root": "{http://www.w3.org/2005/Atom}feed",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.reddit.com/r/Genshin_Impact/new/.rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:14.018262+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-wuwa",
+      "gameId": "wuwa",
+      "label": "鳴潮 (めいちょう) Wiki*",
+      "url": "https://wikiwiki.jp/w-w/::cmd/rss",
+      "homeUrl": "https://wikiwiki.jp/w-w/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:01:32.322347+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://wikiwiki.jp/w-w/::cmd/rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://wikiwiki.jp",
+        "allowedPathPrefix": "/w-w/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:01:32.322347+00:00",
+          "bytes": 3515,
+          "sha256": "fc60ba0d370015e8dea5a133b51e5a76eb88fe00a08ef2b7c55e959e2980f228",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/w-w/::cmd/rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:19.178533+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-bluearchive",
+      "gameId": "bluearchive",
+      "label": "ブルーアーカイブ（ブルアカ）攻略 Wiki",
+      "url": "https://bluearchive.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://bluearchive.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:01:32.324911+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://bluearchive.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://bluearchive.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:01:32.324911+00:00",
+          "bytes": 3820,
+          "sha256": "27f24ba8be3b43b495f1dc12c15472aa47d265da147c9ebf8a2ed09b7fb48286",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://bluearchive.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:20.026611+00:00",
+        "bytes": 3820,
+        "sha256": "f30dd676eee77e7419ec78519a7de5b45c211c72611f8de623a012abfa4162e2",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "jp-wiki-nikke",
+      "gameId": "nikke",
+      "label": "勝利の女神：NIKKE攻略 Wiki",
+      "url": "https://nikke.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://nikke.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:01:32.326505+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://nikke.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://nikke.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:01:32.326505+00:00",
+          "bytes": 4153,
+          "sha256": "2a5e6fdc28dc1f5bcb8041c04eb45620f6ca89e3a8115199f6ccab9a0adf8e2f",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://nikke.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:20.673225+00:00",
+        "bytes": 4153,
+        "sha256": "2a5e6fdc28dc1f5bcb8041c04eb45620f6ca89e3a8115199f6ccab9a0adf8e2f",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "jp-wiki-endfield",
+      "gameId": "endfield",
+      "label": "アークナイツ：エンドフィールド攻略 Wiki",
+      "url": "https://arknights-endfield.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://arknights-endfield.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:01:32.331213+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://arknights-endfield.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arknights-endfield.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:01:32.331213+00:00",
+          "bytes": 4241,
+          "sha256": "5ec3d016355c73d081888dbd241f121b046316d0650f8bfdaca83999e15e650b",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://arknights-endfield.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:25.188792+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-umamusume",
+      "gameId": "umamusume",
+      "label": "ウマ娘 プリティダービー 攻略 Wiki",
+      "url": "https://umamusume.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://umamusume.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:01:46.201024+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://umamusume.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://umamusume.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:01:46.201024+00:00",
+          "bytes": 4535,
+          "sha256": "06156dd84f111e27c3a7dc4017831cfd317f1f2844e2faee98e5775fee0e694b",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://umamusume.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:25.267728+00:00",
+        "error": "TimeoutError: The read operation timed out"
+      }
+    },
+    {
+      "id": "jp-wiki-gfl2",
+      "gameId": "gfl2",
+      "label": "ドールズフロントライン2：エクシリウム攻略 Wiki",
+      "url": "https://dollsfrontline2.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://dollsfrontline2.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:01:46.832508+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://dollsfrontline2.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://dollsfrontline2.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:01:46.832508+00:00",
+          "bytes": 3757,
+          "sha256": "b8bfbbf85c1393064f9965eccf27a505722e856aca630d2b32f45b3c7d859294",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://dollsfrontline2.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:26.531801+00:00",
+        "error": "TimeoutError: The read operation timed out"
+      }
+    },
+    {
+      "id": "jp-wiki-hsr",
+      "gameId": "hsr",
+      "label": "崩壊スターレイル Wiki*",
+      "url": "https://wikiwiki.jp/star-rail/::cmd/rss",
+      "homeUrl": "https://wikiwiki.jp/star-rail/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:01:47.817052+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://wikiwiki.jp/star-rail/::cmd/rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://wikiwiki.jp",
+        "allowedPathPrefix": "/star-rail/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:01:47.817052+00:00",
+          "bytes": 3395,
+          "sha256": "d24a8d919f8bdeada9447b69bf2aee8c81410c00aa0bd4571066b83f9486cd4c",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/star-rail/::cmd/rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:31.244756+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-zzz",
+      "gameId": "zzz",
+      "label": "ゼンレスゾーンゼロ Wiki*",
+      "url": "https://wikiwiki.jp/zenless/::cmd/rss",
+      "homeUrl": "https://wikiwiki.jp/zenless/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:01:57.116619+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://wikiwiki.jp/zenless/::cmd/rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://wikiwiki.jp",
+        "allowedPathPrefix": "/zenless/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:01:57.116619+00:00",
+          "bytes": 4236,
+          "sha256": "1cedc23af6c59f6e4978f60460ac9ca68a421fdc84ad18ecf1f946a3de180e71",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/zenless/::cmd/rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:37.159725+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-trickcal",
+      "gameId": "trickcal",
+      "label": "トリッカル・もちもちほっペ大作戦 Wiki*",
+      "url": "https://wikiwiki.jp/thetrickal/::cmd/rss",
+      "homeUrl": "https://wikiwiki.jp/thetrickal/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:02:02.390862+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://wikiwiki.jp/thetrickal/::cmd/rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://wikiwiki.jp",
+        "allowedPathPrefix": "/thetrickal/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:02:02.390862+00:00",
+          "bytes": 3330,
+          "sha256": "e71fdb81faac138d7b9dd976bbaa38aa3564e1cfa812ff9f10b8ee7626c93096",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/thetrickal/::cmd/rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:37.374186+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-reverse1999",
+      "gameId": "reverse1999",
+      "label": "リバース：1999攻略Wiki",
+      "url": "https://reverse1999.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://reverse1999.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:02:03.217762+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://reverse1999.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://reverse1999.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:02:03.217762+00:00",
+          "bytes": 4100,
+          "sha256": "9dcc202a2795c50435d85b14680a09b6d4237adf6ad8dc4c489775ce1008b771",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://reverse1999.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:37.581623+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-limbus",
+      "gameId": "limbus",
+      "label": "LimbusCompany攻略 Wiki*",
+      "url": "https://wikiwiki.jp/lcbwiki/::cmd/rss",
+      "homeUrl": "https://wikiwiki.jp/lcbwiki/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:02:04.040924+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://wikiwiki.jp/lcbwiki/::cmd/rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://wikiwiki.jp",
+        "allowedPathPrefix": "/lcbwiki/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:02:04.040924+00:00",
+          "bytes": 4397,
+          "sha256": "b9025cbaa16d92b94f07efb63f6088b018ab616a01b991c395a05974ae214eb1",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://wikiwiki.jp/lcbwiki/::cmd/rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:43.583807+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-dna",
+      "gameId": "dna",
+      "label": "デュエットナイトアビス(二重螺旋)攻略 Wiki",
+      "url": "https://dnabyss.wikiru.jp/?cmd=rss",
+      "homeUrl": "https://dnabyss.wikiru.jp/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:02:10.578011+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rss",
+        "url": "https://dnabyss.wikiru.jp/?cmd=rss",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://dnabyss.wikiru.jp",
+        "allowedPathPrefix": "/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:02:10.578011+00:00",
+          "bytes": 3477,
+          "sha256": "248f28c08eb3ec8c0e5ab18645c8a337fd4db95c87d8a3bb49207672efcfad52",
+          "itemCount": 15,
+          "root": "rss",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://dnabyss.wikiru.jp/?cmd=rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:44.432623+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "jp-wiki-holodreams",
+      "gameId": "holodreams",
+      "label": "hololive Dreams非公式攻略wiki",
+      "url": "https://seesaawiki.jp/hololivedreams/site.rdf",
+      "homeUrl": "https://seesaawiki.jp/hololivedreams/",
+      "platform": "wiki",
+      "locale": "ja",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:06:36.052563+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "characters",
+        "skills",
+        "events",
+        "wiki-updates"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe. A later6-second execution-environment spot check timed out; this retains the previous successful body evidence, not a claim of5-second Worker success.",
+      "collection": {
+        "kind": "rdf",
+        "url": "https://seesaawiki.jp/hololivedreams/site.rdf",
+        "enabled": true,
+        "meaning": "wiki-edit",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://seesaawiki.jp",
+        "allowedPathPrefix": "/hololivedreams/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:06:36.052563+00:00",
+          "bytes": 2966,
+          "sha256": "c0fefad8345338a13750812ebf10775a651c7dcfce794ac3102b4b393635e1f5",
+          "itemCount": 5,
+          "root": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://seesaawiki.jp/hololivedreams/site.rdf"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:44.460557+00:00",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    },
+    {
+      "id": "reddit-honkaistarrail_leaks",
+      "gameId": "hsr",
+      "label": "newest submissions : HonkaiStarRail_leaks",
+      "url": "https://www.reddit.com/r/HonkaiStarRail_leaks/new/.rss",
+      "homeUrl": "https://www.reddit.com/r/HonkaiStarRail_leaks/",
+      "platform": "reddit",
+      "locale": "en",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:05:26.304957+00:00",
+      "verifiedPart": "feed",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "accessNote": "HTTP200 feed body parsed; linked article bodies were not read in this probe.",
+      "collection": {
+        "kind": "atom",
+        "url": "https://www.reddit.com/r/HonkaiStarRail_leaks/new/.rss",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://www.reddit.com",
+        "allowedPathPrefix": "/r/HonkaiStarRail_leaks/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:05:26.304957+00:00",
+          "bytes": 51427,
+          "sha256": "26462195972dc4b32a40bee844dbc820ce6cee48d0c4e17a171299afe6b300f9",
+          "itemCount": 25,
+          "root": "{http://www.w3.org/2005/Atom}feed",
+          "httpStatus": 200
+        }
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.reddit.com/r/HonkaiStarRail_leaks/new/.rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice.",
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:50.467632+00:00",
+        "bytes": 51427,
+        "sha256": "3ad76f90a95a2a1463f6b49b2c2b0d656f09812bade66b1fde8eb3de02b43435",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "arca-wuwa",
+      "gameId": "wuwa",
+      "label": "명조 채널",
+      "url": "https://arca.live/b/wutheringwaves",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:08:46.172104+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EB%AA%85%EC%A1%B0%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/wutheringwaves"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/wutheringwaves/6457546?p=1",
+        "https://arca.live/b/wutheringwaves/183516130?p=1",
+        "https://arca.live/b/wutheringwaves/184498169?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/wutheringwaves",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/wutheringwaves/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:08:46.172104+00:00",
+          "httpStatus": 200,
+          "bytes": 178513,
+          "sha256": "68e65e0dbda8b98d8300afffa743ba03796a2d1dc51beb7f1871e7add4cad3b0",
+          "articleCount": 69
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:50.815529+00:00",
+        "bytes": 180385,
+        "sha256": "2b04b5f5a083bbdf6d7eaa5e12882954b905636aa8a08a334e25afe148d9cb43",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "arca-bluearchive",
+      "gameId": "bluearchive",
+      "label": "블루 아카이브 채널",
+      "url": "https://arca.live/b/bluearchive",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:08:46.176191+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EB%B8%94%EB%A3%A8%20%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/bluearchive"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/bluearchive/6457546?p=1",
+        "https://arca.live/b/bluearchive/80922385?p=1",
+        "https://arca.live/b/bluearchive/130854612?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/bluearchive",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/bluearchive/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:08:46.176191+00:00",
+          "httpStatus": 200,
+          "bytes": 158255,
+          "sha256": "a6cb812fec6aa66e8e2bcbd9f3283090fe582c4ca1ee84b07b07b372c79c3426",
+          "articleCount": 57
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-nikke",
+      "gameId": "nikke",
+      "label": "승리의 여신 니케 채널",
+      "url": "https://arca.live/b/nikketgv",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:08:46.177036+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EC%8A%B9%EB%A6%AC%EC%9D%98%20%EC%97%AC%EC%8B%A0%20%EB%8B%88%EC%BC%80%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/nikketgv"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/nikketgv/6457546?p=1",
+        "https://arca.live/b/nikketgv/116725087?p=1",
+        "https://arca.live/b/nikketgv/161594331?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/nikketgv",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/nikketgv/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:08:46.177036+00:00",
+          "httpStatus": 200,
+          "bytes": 159483,
+          "sha256": "e0ba76f579af816245c81ce7f63cec832061cf6684bff4610e8d7845a04931e6",
+          "articleCount": 60
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-endfield",
+      "gameId": "endfield",
+      "label": "명일방주 엔드필드 채널",
+      "url": "https://arca.live/b/akendfield",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:08:55.289865+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/akendfield"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/akendfield/6457546?p=1",
+        "https://arca.live/b/akendfield/91035346?p=1",
+        "https://arca.live/b/akendfield/186522711?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/akendfield",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/akendfield/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:08:55.289865+00:00",
+          "httpStatus": 200,
+          "bytes": 156670,
+          "sha256": "61379c0bacef9e3615be76ec47421cc1949080a883a1d13356badb66c150161e",
+          "articleCount": 57
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-umamusume",
+      "gameId": "umamusume",
+      "label": "우마무스메 프리티 더비 채널",
+      "url": "https://arca.live/b/umamusume",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:08:55.308607+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EC%9A%B0%EB%A7%88%EB%AC%B4%EC%8A%A4%EB%A9%94%20%ED%94%84%EB%A6%AC%ED%8B%B0%20%EB%8D%94%EB%B9%84%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/umamusume"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/umamusume/6457546?p=1",
+        "https://arca.live/b/umamusume/181545187?p=1",
+        "https://arca.live/b/umamusume/52953518?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/umamusume",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/umamusume/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:08:55.308607+00:00",
+          "httpStatus": 200,
+          "bytes": 159884,
+          "sha256": "c3d4305e25d5e13246619496361a9ec600d7b67f6cc2700a0a2d98d5119f6463",
+          "articleCount": 58
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-nte",
+      "gameId": "nte",
+      "label": "이환 채널",
+      "url": "https://arca.live/b/nevernesstoeverness",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:08:55.403503+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EC%9D%B4%ED%99%98%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/nevernesstoeverness"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/nevernesstoeverness/6457546?p=1",
+        "https://arca.live/b/nevernesstoeverness/122958305?p=1",
+        "https://arca.live/b/nevernesstoeverness/168630713?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/nevernesstoeverness",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/nevernesstoeverness/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:08:55.403503+00:00",
+          "httpStatus": 200,
+          "bytes": 149708,
+          "sha256": "b446af3f32aadcfa464ad410e037375e4e739c443066f4b131900d6e8225117f",
+          "articleCount": 53
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-gfl2",
+      "gameId": "gfl2",
+      "label": "소녀전선2: 망명 채널",
+      "url": "https://arca.live/b/gilrsfrontline2exili",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:02.050038+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EC%86%8C%EB%85%80%EC%A0%84%EC%84%A02%3A%20%EB%A7%9D%EB%AA%85%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/gilrsfrontline2exili"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/gilrsfrontline2exili/6457546?p=1",
+        "https://arca.live/b/gilrsfrontline2exili/144456649?p=1",
+        "https://arca.live/b/gilrsfrontline2exili/124001865?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/gilrsfrontline2exili",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/gilrsfrontline2exili/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:02.050038+00:00",
+          "httpStatus": 200,
+          "bytes": 168034,
+          "sha256": "16b71c6c75c3c224cfab56b1738150c9fba6bb121f55653537f85c6edddba6de",
+          "articleCount": 62
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-arknights",
+      "gameId": "arknights",
+      "label": "명일방주 채널",
+      "url": "https://arca.live/b/arknights",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:02.078186+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/arknights"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/arknights/6457546?p=1",
+        "https://arca.live/b/arknights/128918270?p=1",
+        "https://arca.live/b/arknights/144579254?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/arknights",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/arknights/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:02.078186+00:00",
+          "httpStatus": 200,
+          "bytes": 169518,
+          "sha256": "8244f1d1c5cd7674c5c179c8de40465c202a27f138c859602c46f6ae054b688c",
+          "articleCount": 63
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-genshin",
+      "gameId": "genshin",
+      "label": "원신 채널",
+      "url": "https://arca.live/b/genshin",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:02.116484+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EC%9B%90%EC%8B%A0%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/genshin"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/genshin/186832759?category=%EC%86%8C%EC%8B%9D%2F%EA%B3%B5%EC%8B%9D&p=1",
+        "https://arca.live/b/genshin/6457546?p=1",
+        "https://arca.live/b/genshin/95765438?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/genshin",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/genshin/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:02.116484+00:00",
+          "httpStatus": 200,
+          "bytes": 176027,
+          "sha256": "a41654a082b9ce9f53ef9ec0fade53183313e2bceb6a4a1ce4efe48c4752bb92",
+          "articleCount": 69
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-genshin-leaks",
+      "gameId": "genshin",
+      "label": "원신 유출 채널",
+      "url": "https://arca.live/b/genshinleaks",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "not-checked",
+      "checkedAt": "2026-10-26T15:04:28.251218+00:00",
+      "verifiedPart": "identity-link",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EC%9B%90%EC%8B%A0%20%EC%B1%84%EB%84%90"
+      ],
+      "accessNote": "Exact linked channel identity discovered; body and current activity not verified.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "arca-hsr",
+      "gameId": "hsr",
+      "label": "붕괴 스타레일 채널",
+      "url": "https://arca.live/b/hkstarrail",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:08.702691+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EB%B6%95%EA%B4%B4%20%EC%8A%A4%ED%83%80%EB%A0%88%EC%9D%BC%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/hkstarrail"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/hkstarrail/6457546?p=1",
+        "https://arca.live/b/hkstarrail/176040644?p=1",
+        "https://arca.live/b/hkstarrail/179372002?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/hkstarrail",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/hkstarrail/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:08.702691+00:00",
+          "httpStatus": 200,
+          "bytes": 147293,
+          "sha256": "c4e0e7341d2391e102a5e868b8c56d103bbceaf07920c3b33a0ea90a9a9d0c5b",
+          "articleCount": 54
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-zzz",
+      "gameId": "zzz",
+      "label": "젠레스 존 제로 채널",
+      "url": "https://arca.live/b/zenlesszonezero",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:08.750707+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EC%A0%A0%EB%A0%88%EC%8A%A4%20%EC%A1%B4%20%EC%A0%9C%EB%A1%9C%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/zenlesszonezero"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/zenlesszonezero/6457546?p=1",
+        "https://arca.live/b/zenlesszonezero/184211341?p=1",
+        "https://arca.live/b/zenlesszonezero/157913533?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/zenlesszonezero",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/zenlesszonezero/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:08.750707+00:00",
+          "httpStatus": 200,
+          "bytes": 159204,
+          "sha256": "ec44c64ec5cef839ef5dcd90fdbf66945642129aa6b63b6e03a7db31496f1991",
+          "articleCount": 59
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-trickcal",
+      "gameId": "trickcal",
+      "label": "트릭컬 RE:VIVE 채널",
+      "url": "https://arca.live/b/trickcal",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:08.775249+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%ED%8A%B8%EB%A6%AD%EC%BB%AC%20RE%3AVIVE%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/trickcal"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/trickcal/6457546?p=1",
+        "https://arca.live/b/trickcal/152751236?p=1",
+        "https://arca.live/b/trickcal/105559389?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/trickcal",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/trickcal/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:08.775249+00:00",
+          "httpStatus": 200,
+          "bytes": 164575,
+          "sha256": "39d96d9058888c1f98265d5bb45dea6c6b47ae78a86d7562d00ae140a7bc0c95",
+          "articleCount": 61
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-hi3",
+      "gameId": "hi3",
+      "label": "붕괴3rd 채널",
+      "url": "https://arca.live/b/hk3rd",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:15.400129+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EB%B6%95%EA%B4%B43rd%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/hk3rd"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/hk3rd/6457546?p=1",
+        "https://arca.live/b/hk3rd/168588420?p=1",
+        "https://arca.live/b/hk3rd/85814933?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/hk3rd",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/hk3rd/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:15.400129+00:00",
+          "httpStatus": 200,
+          "bytes": 155532,
+          "sha256": "0e2304bf76f6a313e81c5ebd329baa4759c3bb540d192aa7f661ca42800c7771",
+          "articleCount": 58
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-stellasora",
+      "gameId": "stellasora",
+      "label": "스텔라 소라 채널",
+      "url": "https://arca.live/b/stellasora",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:15.595194+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EC%8A%A4%ED%85%94%EB%9D%BC%20%EC%86%8C%EB%9D%BC%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/stellasora"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/stellasora/6457546?p=1",
+        "https://arca.live/b/stellasora/162843745?p=1",
+        "https://arca.live/b/stellasora/178014481?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/stellasora",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/stellasora/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:15.595194+00:00",
+          "httpStatus": 200,
+          "bytes": 164115,
+          "sha256": "adeb48185928c191b85b1c75cdc7d9095b1f684b369189956a5628ca8cea5cb7",
+          "articleCount": 62
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "arca-reverse1999",
+      "gameId": "reverse1999",
+      "label": "리버스 1999 채널",
+      "url": "https://arca.live/b/arcalivebreverse",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:15.822808+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EB%A6%AC%EB%B2%84%EC%8A%A4%201999%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/arcalivebreverse"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/arcalivebreverse/6457546?p=1",
+        "https://arca.live/b/arcalivebreverse/134144185?p=1",
+        "https://arca.live/b/arcalivebreverse/177504038?p=1"
+      ],
+      "scopeNote": "Korean community; native service and any leak status must remain explicit.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/arcalivebreverse",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/arcalivebreverse/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:15.822808+00:00",
+          "httpStatus": 200,
+          "bytes": 173274,
+          "sha256": "9addeddd1bfae5c042347b9b730bce5c8ccb95d6a5537633da252423a1dd7fb8",
+          "articleCount": 65
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "lastProbe": {
+        "checkedAt": "2026-10-26T15:31:50.816104+00:00",
+        "bytes": 173069,
+        "sha256": "d50533e2afbc973365b77bd1bf53b6d26c1a3c967e2c9c97136072242b9b9e49",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "arca-limbus",
+      "gameId": "limbus",
+      "label": "로보토미 코퍼레이션 채널",
+      "url": "https://arca.live/b/lobotomycoperation",
+      "platform": "arca",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:22.280271+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "characters",
+        "guides",
+        "events",
+        "community-discussion"
+      ],
+      "accessNote": "Source identity resolved from a public linked channel index. Listing body and exact same-channel article links were checked; individual article bodies were not read.",
+      "evidenceUrls": [
+        "https://www.namu.moe/w/%EB%A1%9C%EB%B3%B4%ED%86%A0%EB%AF%B8%20%EC%BD%94%ED%8D%BC%EB%A0%88%EC%9D%B4%EC%85%98%20%EC%B1%84%EB%84%90",
+        "https://arca.live/b/lobotomycoperation"
+      ],
+      "sampleArticleUrls": [
+        "https://arca.live/b/lobotomycoperation/6457546?p=1",
+        "https://arca.live/b/lobotomycoperation/150520105?p=1",
+        "https://arca.live/b/lobotomycoperation/168354123?p=1"
+      ],
+      "scopeNote": "Project Moon multi-game community; only exact Limbus references belong to Limbus research.",
+      "collection": {
+        "kind": "arca-listing",
+        "url": "https://arca.live/b/lobotomycoperation",
+        "enabled": true,
+        "meaning": "community-post",
+        "maxBytes": 1000000,
+        "allowedOrigin": "https://arca.live",
+        "allowedPathPrefix": "/b/lobotomycoperation/",
+        "lastVerified": {
+          "checkedAt": "2026-10-26T15:09:22.280271+00:00",
+          "httpStatus": 200,
+          "bytes": 163303,
+          "sha256": "61ec9c77f6fe94d90f4267c7112290501d36f7014ff114e90bef41079f962286",
+          "articleCount": 61
+        }
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false
+    },
+    {
+      "id": "dc-wuwa",
+      "gameId": "wuwa",
+      "label": "Wuthering Waves · DCInside",
+      "url": "https://gall.dcinside.com/mgallery/board/lists/?id=wutheringwaves",
+      "platform": "dcinside",
+      "locale": "ko",
+      "sourceAccess": "search-index",
+      "checkedAt": "2026-10-26T15:09:24.267847+00:00",
+      "verifiedPart": "search-index",
+      "topics": [
+        "discussion",
+        "guides"
+      ],
+      "accessNote": "Exact gallery identity and post indexed; the direct listing fetch timed out. No listing or article body read claimed.",
+      "lastProbe": {
+        "error": "URLError: <urlopen error timed out>"
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=wutheringwaves&no=227566"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "dc-trickcal",
+      "gameId": "trickcal",
+      "label": "Trickcal:Chibi Go · DCInside",
+      "url": "https://gall.dcinside.com/mgallery/board/lists/?id=rollthechess",
+      "platform": "dcinside",
+      "locale": "ko",
+      "sourceAccess": "search-index",
+      "checkedAt": "2026-10-26T15:09:24.269557+00:00",
+      "verifiedPart": "search-index",
+      "topics": [
+        "discussion",
+        "guides"
+      ],
+      "accessNote": "Exact gallery identity and post indexed; the direct listing fetch timed out. No listing or article body read claimed.",
+      "lastProbe": {
+        "error": "URLError: <urlopen error timed out>"
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=rollthechess&no=1199551"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "dc-reverse1999",
+      "gameId": "reverse1999",
+      "label": "Reverse: 1999 · DCInside",
+      "url": "https://gall.dcinside.com/mgallery/board/lists/?id=reverse1999",
+      "platform": "dcinside",
+      "locale": "ko",
+      "sourceAccess": "search-index",
+      "checkedAt": "2026-10-26T15:09:24.270813+00:00",
+      "verifiedPart": "search-index",
+      "topics": [
+        "discussion",
+        "guides"
+      ],
+      "accessNote": "Exact gallery identity and post indexed; the direct listing fetch timed out. No listing or article body read claimed.",
+      "lastProbe": {
+        "error": "URLError: <urlopen error timed out>"
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=reverse1999&no=529195"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "dc-limbus",
+      "gameId": "limbus",
+      "label": "Limbus Company · DCInside",
+      "url": "https://gall.dcinside.com/mgallery/board/lists/?id=limbuscompany",
+      "platform": "dcinside",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:42.728902+00:00",
+      "verifiedPart": "listing",
+      "topics": [
+        "discussion",
+        "guides"
+      ],
+      "accessNote": "Gallery listing body read; individual posts not read.",
+      "lastProbe": {
+        "httpStatus": 200,
+        "bytes": 218710,
+        "sha256": "6b05e27d74d98321e44352b2f62c438b977beca8315fd72228d274760653b318"
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://gall.dcinside.com/mgallery/board/lists/?id=limbuscompany"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "inven-umamusume",
+      "gameId": "umamusume",
+      "label": "Umamusume: Pretty Derby · Inven",
+      "url": "https://uma.inven.co.kr/db/chara/",
+      "platform": "inven",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:42.730939+00:00",
+      "verifiedPart": "body",
+      "topics": [
+        "characters",
+        "events"
+      ],
+      "accessNote": "Normal source body read; native source remains community attribution.",
+      "lastProbe": {
+        "httpStatus": 200,
+        "bytes": 481656,
+        "sha256": "8ffb7d238094ef9e9306f61dc88d179442dd15136b66a8435dd52063236a2164"
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://uma.inven.co.kr/db/chara/"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "inven-nikke",
+      "gameId": "nikke",
+      "label": "GODDESS OF VICTORY: NIKKE · Inven",
+      "url": "https://www.inven.co.kr/webzine/news/?news=321911&site=nikke",
+      "platform": "inven",
+      "locale": "ko",
+      "sourceAccess": "body",
+      "checkedAt": "2026-10-26T15:09:42.736451+00:00",
+      "verifiedPart": "body",
+      "topics": [
+        "characters",
+        "events"
+      ],
+      "accessNote": "Normal source body read; native source remains community attribution.",
+      "lastProbe": {
+        "httpStatus": 200,
+        "bytes": 254569,
+        "sha256": "738bdae705f5ba62e0b3c93e557f74d54a79f8db6adada92b3c3b95d0974feb0"
+      },
+      "sourceKind": "community",
+      "routing": "research",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.inven.co.kr/webzine/news/?news=321911&site=nikke"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "x-wuwa-wuwa_verse1",
+      "gameId": "wuwa",
+      "label": "@WuWa_Verse1 · unofficial",
+      "url": "https://x.com/WuWa_Verse1",
+      "platform": "x",
+      "locale": "en",
+      "sourceAccess": "not-checked",
+      "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+      "verifiedPart": "prior-registration",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "evidenceUrls": [
+        "https://x.com/WuWa_Verse1"
+      ],
+      "accessNote": "Already used by the exact WuWa leak importer; no new profile-body read claimed.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "x-genshin-dimbreath",
+      "gameId": "genshin",
+      "label": "@dimbreath · unofficial",
+      "url": "https://x.com/dimbreath",
+      "platform": "x",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+      "verifiedPart": "profile-request",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "evidenceUrls": [
+        "https://t.me/s/notdim/544"
+      ],
+      "accessNote": "Direct X profile request returnedHTTP403. Public attribution/discovery evidence exists; current account activity and reliability are not verified.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "x-hsr-dimbreath",
+      "gameId": "hsr",
+      "label": "@dimbreath · unofficial",
+      "url": "https://x.com/dimbreath",
+      "platform": "x",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+      "verifiedPart": "profile-request",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "evidenceUrls": [
+        "https://t.me/s/notdim/544"
+      ],
+      "accessNote": "Direct X profile request returnedHTTP403. Public attribution/discovery evidence exists; current account activity and reliability are not verified.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "x-hi3-dimbreath",
+      "gameId": "hi3",
+      "label": "@dimbreath · unofficial",
+      "url": "https://x.com/dimbreath",
+      "platform": "x",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+      "verifiedPart": "profile-request",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "evidenceUrls": [
+        "https://t.me/s/notdim/544"
+      ],
+      "accessNote": "Direct X profile request returnedHTTP403. Public attribution/discovery evidence exists; current account activity and reliability are not verified.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "x-zzz-dimbreath",
+      "gameId": "zzz",
+      "label": "@dimbreath · unofficial",
+      "url": "https://x.com/dimbreath",
+      "platform": "x",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+      "verifiedPart": "profile-request",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "evidenceUrls": [
+        "https://www.reddit.com/r/Zenlesszonezeroleaks_/comments/1oxibyi/zhao_animations_via_dimbreath/"
+      ],
+      "accessNote": "Direct X profile request returnedHTTP403. Public attribution/discovery evidence exists; current account activity and reliability are not verified.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "x-zzz-zenlesszoneleak",
+      "gameId": "zzz",
+      "label": "@zenlesszoneleak · unofficial",
+      "url": "https://x.com/zenlesszoneleak",
+      "platform": "x",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+      "verifiedPart": "profile-request",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "evidenceUrls": [
+        "https://www.sotwe.com/zenlesszoneleak?lang=en"
+      ],
+      "accessNote": "Direct X profile request returnedHTTP403. Public attribution/discovery evidence exists; current account activity and reliability are not verified.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "x-trickcal-trickcal_rvb",
+      "gameId": "trickcal",
+      "label": "@Trickcal_rvb · unofficial",
+      "url": "https://x.com/Trickcal_rvb",
+      "platform": "x",
+      "locale": "ja",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+      "verifiedPart": "profile-request",
+      "topics": [
+        "community-reference"
+      ],
+      "routing": "research",
+      "evidenceUrls": [
+        "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&mtype=image&p=%23Trickcal"
+      ],
+      "accessNote": "Direct X profile request returnedHTTP403. Public attribution/discovery evidence exists; current account activity and reliability are not verified.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "x-arknights-prts_sys",
+      "gameId": "arknights",
+      "label": "@PRTS_Sys · unofficial",
+      "url": "https://x.com/PRTS_Sys",
+      "platform": "x",
+      "locale": "ja",
+      "sourceAccess": "not-checked",
+      "checkedAt": "2026-10-26T15:17:41.683151+00:00",
+      "verifiedPart": "identity-index",
+      "topics": [
+        "community-reference"
+      ],
+      "routing": "research",
+      "evidenceUrls": [
+        "https://mobile.twstalker.com/PRTS_Sys"
+      ],
+      "accessNote": "Public indexed identity only; current profile body and activity are not verified.",
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reddit-wutheringwaves",
+      "gameId": "wuwa",
+      "label": "r/WutheringWaves · community",
+      "url": "https://www.reddit.com/r/WutheringWaves/new/.rss",
+      "homeUrl": "https://www.reddit.com/r/WutheringWaves/",
+      "platform": "reddit",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T14:58:29.901344+00:00",
+      "verifiedPart": "feed-request",
+      "topics": [
+        "discussion"
+      ],
+      "routing": "research",
+      "accessNote": "HTTPError: HTTP Error 429: Too Many Requests",
+      "lastProbe": {
+        "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.reddit.com/r/WutheringWaves/new/.rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reddit-genshin_impact_leaks",
+      "gameId": "genshin",
+      "label": "r/Genshin_Impact_Leaks · community",
+      "url": "https://www.reddit.com/r/Genshin_Impact_Leaks/new/.rss",
+      "homeUrl": "https://www.reddit.com/r/Genshin_Impact_Leaks/",
+      "platform": "reddit",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:05:26.303276+00:00",
+      "verifiedPart": "feed-request",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "accessNote": "HTTP 429",
+      "lastProbe": {
+        "httpStatus": 429,
+        "error": "HTTP 429"
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.reddit.com/r/Genshin_Impact_Leaks/new/.rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reddit-zenlesszonezeroleaks_",
+      "gameId": "zzz",
+      "label": "r/Zenlesszonezeroleaks_ · community",
+      "url": "https://www.reddit.com/r/Zenlesszonezeroleaks_/new/.rss",
+      "homeUrl": "https://www.reddit.com/r/Zenlesszonezeroleaks_/",
+      "platform": "reddit",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:05:33.022707+00:00",
+      "verifiedPart": "feed-request",
+      "topics": [
+        "rumours",
+        "unreleased-content"
+      ],
+      "routing": "leak-gate",
+      "accessNote": "HTTP 429",
+      "lastProbe": {
+        "httpStatus": 429,
+        "error": "HTTP 429"
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.reddit.com/r/Zenlesszonezeroleaks_/new/.rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    },
+    {
+      "id": "reddit-hololive_dreams",
+      "gameId": "holodreams",
+      "label": "r/Hololive_Dreams · community",
+      "url": "https://www.reddit.com/r/Hololive_Dreams/new/.rss",
+      "homeUrl": "https://www.reddit.com/r/Hololive_Dreams/",
+      "platform": "reddit",
+      "locale": "en",
+      "sourceAccess": "blocked",
+      "checkedAt": "2026-10-26T15:05:33.523070+00:00",
+      "verifiedPart": "feed-request",
+      "topics": [
+        "discussion"
+      ],
+      "routing": "research",
+      "accessNote": "HTTP 429",
+      "lastProbe": {
+        "httpStatus": 429,
+        "error": "HTTP 429"
+      },
+      "sourceKind": "community",
+      "enabled": true,
+      "mayPublishSchedule": false,
+      "evidenceUrls": [
+        "https://www.reddit.com/r/Hololive_Dreams/new/.rss"
+      ],
+      "scopeNote": "Actual service and version must be matched to the native source; community material is not an official notice."
+    }
+  ]
+}

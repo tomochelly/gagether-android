@@ -14,7 +14,7 @@ if(existsSync(target)){
 }else{
  const packed=Buffer.from(manifest.parts.map(p=>readFileSync(resolve(recovery,p),'utf8').trim()).join(''),'base64');
  if(digest(packed)!==manifest.compressedSha256)throw Error('Compressed roster snapshot hash mismatch');
- const bytes=gunzipSync(packed,{maxOutputLength:32000000});
+ const bytes=gunzipSync(packed,{maxOutputLength:64000000});
  if(bytes.length!==manifest.bytes||digest(bytes)!==manifest.sha256)throw Error('Roster recovery snapshot hash mismatch');
  const rows=JSON.parse(bytes.toString('utf8'));
  if(!Array.isArray(rows)||rows.length!==17||new Set(rows.map(r=>r.gameId)).size!==17)throw Error('Roster recovery identity mismatch');

@@ -2,6 +2,7 @@ import {emptyProfile,equal,mergeProfile,parseProfile,type AccountProfile} from '
 import {PERSONAL_NOTES_KEY,decodeNotes} from './personal-notes';
 import {GAME_ORDER_KEY} from './game-order';
 import {PERSONAL_APPLIED,PERSONAL_CHANGED} from './personal-storage-events';
+import {PERSONAL_LAYOUT_KEY,readPersonalLayouts,encodePersonalLayouts} from './personal-layout';
 export const preferencesKey='patchwork.preferences';
 export const syncStateKey='gagether.account-sync.v1';
 const cacheKey=(id:string)=>syncStateKey+'.'+id;
@@ -10,6 +11,11 @@ type Cache={base:AccountProfile|null;local:AccountProfile;revision:number};
 type Remote={accountId:string;revision:number;profile:AccountProfile};
 export type SyncStatus='checking'|'guest'|'syncing'|'synced'|'offline'|'error';
 let status:SyncStatus='checking',refs=0,timer:ReturnType<typeof setInterval>|undefined,debounce:ReturnType<typeof setTimeout>|undefined,inflight:Promise<void>|undefined,stopping=false;
+// A confirmed guest has nothing to upload. Foreground/online and explicit sync
+// still recheck immediately; periodic probes discover a login in another tab.
+let guestUntil=0;
+const guestProbeInterval=5*60*1000;
+function confirmedGuest(){guestUntil=Date.now()+guestProbeInterval;setStatus('guest');}
 const listeners=new Set<()=>void>();
 export const subscribeSync=(fn:()=>void)=>{listeners.add(fn);return()=>{listeners.delete(fn);};};
 export const syncSnapshot=()=>status;
@@ -30,15 +36,16 @@ export function readLocalProfile():AccountProfile{
  const p=JSON.parse(localStorage.getItem(preferencesKey)||'{}');if(!p||typeof p!=='object'||Array.isArray(p))throw Error('Invalid preferences');
  const rawOrder=localStorage.getItem(GAME_ORDER_KEY),o=rawOrder?JSON.parse(rawOrder):null;
  if(o&&(o.version!==1||!Array.isArray(o.ids)))throw Error('Invalid game order');
- return parseProfile({favorites:p.favorites??[],saved:p.saved??[],order:o?.ids??[],notes:decodeNotes(localStorage.getItem(PERSONAL_NOTES_KEY))});
+ return parseProfile({favorites:p.favorites??[],saved:p.saved??[],order:o?.ids??[],notes:decodeNotes(localStorage.getItem(PERSONAL_NOTES_KEY)),layouts:readPersonalLayouts(localStorage.getItem(PERSONAL_LAYOUT_KEY))});
 }
 function applyLocal(p:AccountProfile){
- const keys=[preferencesKey,GAME_ORDER_KEY,PERSONAL_NOTES_KEY],previous=keys.map(k=>localStorage.getItem(k));
+ const keys=[preferencesKey,GAME_ORDER_KEY,PERSONAL_NOTES_KEY,PERSONAL_LAYOUT_KEY],previous=keys.map(k=>localStorage.getItem(k));
  const preferences=JSON.parse(previous[0]||'{}');
  try{
   localStorage.setItem(preferencesKey,JSON.stringify({...preferences,favorites:p.favorites,saved:p.saved}));
   localStorage.setItem(GAME_ORDER_KEY,JSON.stringify({version:1,ids:p.order}));
   localStorage.setItem(PERSONAL_NOTES_KEY,JSON.stringify({version:1,notes:p.notes}));
+  localStorage.setItem(PERSONAL_LAYOUT_KEY,encodePersonalLayouts(p.layouts||{}));
  }catch(e){keys.forEach((k,i)=>{try{previous[i]===null?localStorage.removeItem(k):localStorage.setItem(k,previous[i]!);}catch{}});throw e;}
  window.dispatchEvent(new Event(PERSONAL_APPLIED));
 }
@@ -80,16 +87,16 @@ async function cycle(){
   setStatus('syncing');
   for(let attempt=0;attempt<4;attempt++){
    const response=await request('GET');
-   if(response.status===401){detach();setStatus('guest');return;}
+   if(response.status===401){detach();confirmedGuest();return;}
    if(!response.ok)throw Error('Sync unavailable');
-   const remote=remoteValue(await response.json());attach(remote.accountId);capture();
+   const remote=remoteValue(await response.json());guestUntil=0;attach(remote.accountId);capture();
    const c=readCache(remote.accountId)!;
    const sent=mergeProfile(c.base,c.local,remote.profile);
    let acknowledged=remote;
    if(!equal(sent,remote.profile)){
     const saved=await request('POST',{accountId:remote.accountId,revision:remote.revision,profile:sent});
     if(saved.status===409)continue;
-    if(saved.status===401){detach();setStatus('guest');return;}
+    if(saved.status===401){detach();confirmedGuest();return;}
     if(!saved.ok)throw Error('Could not save profile');
     acknowledged=remoteValue(await saved.json());
     if(acknowledged.accountId!==remote.accountId)throw Error('Account changed');
@@ -113,15 +120,17 @@ export function syncNow():Promise<void>{
  const pending=(async()=>{if(navigator.locks)await navigator.locks.request('gagether-account-sync',run);else await run();})();
  inflight=pending.finally(()=>{inflight=undefined;});return inflight;
 }
-function changed(){try{capture();setStatus(readState().owner?'syncing':'guest');}catch{setStatus('error');return;}clearTimeout(debounce);debounce=setTimeout(()=>void syncNow(),500);}
+function backgroundSync(){if(Date.now()>=guestUntil)void syncNow();}
+function changed(){try{capture();setStatus(readState().owner?'syncing':'guest');}catch{setStatus('error');return;}clearTimeout(debounce);debounce=setTimeout(backgroundSync,500);}
 function storage(e:StorageEvent){
- if([preferencesKey,GAME_ORDER_KEY,PERSONAL_NOTES_KEY,syncStateKey].includes(e.key||'')){
-  window.dispatchEvent(new Event(PERSONAL_APPLIED));clearTimeout(debounce);debounce=setTimeout(()=>void syncNow(),500);
+ if([preferencesKey,GAME_ORDER_KEY,PERSONAL_NOTES_KEY,PERSONAL_LAYOUT_KEY,syncStateKey].includes(e.key||'')){
+  window.dispatchEvent(new Event(PERSONAL_APPLIED));clearTimeout(debounce);debounce=setTimeout(e.key===syncStateKey?()=>void syncNow():backgroundSync,500);
  }
 }
 function resume(){if(!document.hidden)void syncNow();}
+function tick(){if(!document.hidden)backgroundSync();}
 export function startAccountSync(){
- if(++refs===1){stopping=false;window.addEventListener(PERSONAL_CHANGED,changed);window.addEventListener('storage',storage);window.addEventListener('online',resume);document.addEventListener('visibilitychange',resume);timer=setInterval(resume,15000);void syncNow();}
+ if(++refs===1){stopping=false;window.addEventListener(PERSONAL_CHANGED,changed);window.addEventListener('storage',storage);window.addEventListener('online',resume);document.addEventListener('visibilitychange',resume);timer=setInterval(tick,15000);void syncNow();}
  return()=>{if(--refs===0){clearInterval(timer);clearTimeout(debounce);window.removeEventListener(PERSONAL_CHANGED,changed);window.removeEventListener('storage',storage);window.removeEventListener('online',resume);document.removeEventListener('visibilitychange',resume);}};
 }
 /** Logout waits for pending writes. Deletion deliberately discards this account's local cache. */
@@ -130,5 +139,5 @@ export async function prepareAccountExit(remove:boolean){
  if(!remove){await syncNow();if(status!=='synced'&&status!=='guest')throw Error('Save pending changes before signing out');}
  stopping=true;
 }
-export function completeAccountExit(remove:boolean){detach(remove);setStatus('guest');}
+export function completeAccountExit(remove:boolean){detach(remove);confirmedGuest();}
 export function cancelAccountExit(){stopping=false;}

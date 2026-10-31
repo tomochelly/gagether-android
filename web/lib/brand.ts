@@ -1,5 +1,6 @@
 import type {Locale} from './types';
 export const brandName='GAGETHER';
+export const searchBrand=(locale:Locale)=>locale==='ko'?'가게더 GAGETHER':'GAGETHER';
 export const brandOrigin='https://gagether.wiki';
 export const brandTagline:Record<Locale,string>={ko:'가게더 · 가챠 게임 캘린더',en:'Gacha Game Calendar',ja:'ガチャゲームカレンダー',zh:'抽卡游戏日历'};
 export const publicText:Record<Locale,{admin:string;refresh:string;refreshed:string;access:string}>={

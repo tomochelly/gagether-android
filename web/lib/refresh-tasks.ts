@@ -7,11 +7,11 @@ export type GameRefreshTask=RefreshTaskOptions&{gameId:string;lane:RefreshLane;i
 const cadence={broadcasts:2,notices:3,uploads:3,details:30,maintenance:30};
 const starts={broadcasts:'known-broadcasts',notices:'korean',uploads:'uploads',details:'collection',maintenance:'leaks'};
 export function refreshTask(gameId:string,lane:string):GameRefreshTask|null{
- if(lane==='maintenance'&&gameId!=='all'||lane!=='maintenance'&&!games.some(g=>g.id===gameId)||!Object.hasOwn(cadence,lane))return null;
+ if(lane==='maintenance'&&gameId!=='all'||lane!=='maintenance'&&!games.some(g=>g.id===gameId&&!g.launch)||!Object.hasOwn(cadence,lane))return null;
  const typed=lane as RefreshLane,intervalMinutes=cadence[typed];
  return {key:'official-game:'+gameId+':'+typed+(gameId==='wuwa'&&typed==='details'?':v2':''),gameId,lane:typed,firstStage:starts[typed],intervalMinutes,intervalMs:intervalMinutes*60000};
 }
-export const gameRefreshTasks:GameRefreshTask[]=[...games.flatMap(g=>refreshLanes.map(l=>refreshTask(g.id,l)!)),refreshTask('all','maintenance')!];
+export const gameRefreshTasks:GameRefreshTask[]=[...games.filter(g=>!g.launch).flatMap(g=>refreshLanes.map(l=>refreshTask(g.id,l)!)),refreshTask('all','maintenance')!];
 export function nextRefreshStage(p:{lane?:string;gameId?:string},stage:string):string{
  const plans:Record<string,string[]>={notices:['korean','feeds','regional','notice-bodies','finalize'],uploads:['uploads','finalize'],broadcasts:['known-broadcasts','channels','broadcasts','finalize'],details:['collection',...(['limbus','dna','holodreams'].includes(p.gameId||'')?['additional']:[]),'artwork',...(p.gameId==='nte'?['profiles']:[]),...(p.gameId==='wuwa'?['weapons']:[]),'recaps',...(p.gameId==='wuwa'?['reference']:['rosters']),'finalize'],maintenance:['leaks','finalize']};
  const plan=p.lane?plans[p.lane]:['korean','uploads','feeds','regional','channels','broadcasts','recaps','collection','reference','leaks','rosters','finalize'];

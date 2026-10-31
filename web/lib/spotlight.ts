@@ -4,6 +4,8 @@ import {featuredMembers,editedEntryArtwork} from './presentation';
 import {isPickup,pickupPeriod,pickupStart,pickupEnd} from './pickup-history';
 import {estimatedStart,isForecast} from './pickup-estimates';
 import {dayKey,deadlineUrgency} from './schedule';
+import {bluearchivePickupArtwork} from './bluearchive-pickup-artwork';
+import {reviewedPickupArtwork,reviewedPickupGroupFallback} from './reviewed-pickup-artwork';
 
 const pickupBannerText={
  ko:{upcoming:'픽업 예정',current:'픽업 진행 중',ending:'픽업 종료 임박',past:'픽업 종료'},
@@ -22,7 +24,8 @@ export function pickupBannerLabel(entry:Entry,now:number,locale:Locale):string{
 
 export type SpotlightSlide={id:string;entry:Entry;art:Entry};
 export function spotlightSlides(entries:Entry[],now:number,gameId?:string):SpotlightSlide[]{
- const scope=entries.filter(e=>(!gameId||e.gameId===gameId)&&!e.hidden);
+ const originals=new Map(entries.map(e=>[e.id,e]));
+ const scope=entries.filter(e=>(!gameId||e.gameId===gameId)&&!e.hidden).map(reviewedPickupArtwork).map(bluearchivePickupArtwork);
  const pools=new Map<string,Entry[]>();
  for(const e of scope){
   if(!isPickup(e)||pickupPeriod(e,now)==='past'||(pickupEnd(e)||'9999')<dayKey(now))continue;
@@ -44,7 +47,7 @@ export function spotlightSlides(entries:Entry[],now:number,gameId?:string):Spotl
  const rank={new:0,mixed:1,rerun:2,unknown:3};
  const slides=[...selected].sort((a,b)=>Number(pickupPeriod(a,now)==='upcoming')-Number(pickupPeriod(b,now)==='upcoming')||Number(!!b.featured)-Number(!!a.featured)||rank[a.pickupType||'unknown']-rank[b.pickupType||'unknown']).flatMap(entry=>{
   const members=featuredMembers(entry)||[];
-  if(!members.length)return [{id:entry.id,entry,art:entry}];
+  if(!members.length||reviewedPickupGroupFallback(entry))return [{id:entry.id,entry,art:entry}];
   return members.map((member,i)=>{
    const edited=new Set(entry.editor?.fields||[]);
    const entryArtEdited=!!editedEntryArtwork(entry);
@@ -63,5 +66,5 @@ export function spotlightSlides(entries:Entry[],now:number,gameId?:string):Spotl
   const old=unique.get(key),score=(s:SpotlightSlide)=>(isForecast(s.entry)?0:8)+(!s.entry.pickupArchive?4:0)+(s.art.imageVerified?2:0);
   if(!old||score(slide)>score(old))unique.set(key,slide);
  }
- return [...unique.values()];
+ return [...unique.values()].map(slide=>({...slide,entry:originals.get(slide.entry.id)||slide.entry}));
 }

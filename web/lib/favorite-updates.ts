@@ -4,6 +4,7 @@ import {dayKey} from './schedule';
 import {contentInAudience,audienceRestrictions} from './content-audience';
 import {gameBroadcasts,gameBroadcastArchive} from './broadcast-visibility';
 import {localizeVideoNotices} from './videos';
+import {currentNotices} from './current-notices';
 export {broadcastState} from './broadcast-visibility';
 
 export const preferredService=(game:Game,region:Region,choices:Partial<Record<string,Region>>)=>effectiveRegion(game,effectiveRegion(game,choices[game.id]||region));
@@ -13,7 +14,7 @@ export function favoriteNoticeGroups(entries:Entry[],games:Game[],favorites:stri
  const restrict=audienceRestrictions(entries);
  return games.filter(g=>favorites.includes(g.id)).map(game=>{
   const service=preferredService(game,region,choices),grouped=new Map<string,Entry>();
-  for(const e of localizeVideoNotices(entries.filter(e=>contentInAudience(restrict(e),game,service,locale)),locale)){
+  for(const e of localizeVideoNotices(currentNotices(entries).filter(e=>contentInAudience(restrict(e),game,service,locale)),locale)){
    if(e.gameId!==game.id||!officialNotice(e)||!inSchedule(e,game,service)||!availableInLocale(e,locale))continue;
    const key=noticeKey(e),old=grouped.get(key);
    if(!old||e.kind==='update'&&old.kind!=='update'||e.kind===old.kind&&e.sourceLocale===locale&&old.sourceLocale!==locale)grouped.set(key,e);

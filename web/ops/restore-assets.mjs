@@ -1,3 +1,4 @@
+import './restore-roster-snapshot.mjs';
 import {readFileSync,mkdirSync,writeFileSync,existsSync} from 'node:fs';
 import {dirname} from 'node:path';
 import {createHash} from 'node:crypto';

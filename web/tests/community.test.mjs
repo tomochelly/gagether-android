@@ -5,7 +5,8 @@ import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {readFileSync} from 'node:fs';
 const db=new DatabaseSync(':memory:');db.exec('PRAGMA foreign_keys=ON');
-for(const f of ['0006_sudden_dark_phoenix.sql','0007_cute_guardian.sql','0008_certain_moon_knight.sql'])db.exec(readFileSync(new URL('../drizzle/'+f,import.meta.url),'utf8'));
+for(const f of ['0006_sudden_dark_phoenix.sql','0007_cute_guardian.sql','0008_certain_moon_knight.sql','0014_quick_daredevil.sql'])db.exec(readFileSync(new URL('../drizzle/'+f,import.meta.url),'utf8'));
+db.exec('ALTER TABLE community_reviews ADD ip_prefix text; CREATE TABLE forum_limits(id TEXT PRIMARY KEY,window INTEGER NOT NULL,count INTEGER NOT NULL)');
 class S{constructor(sql,args=[]){this.sql=sql;this.args=args}bind(...a){return new S(this.sql,a)}async run(){return {meta:{changes:Number(db.prepare(this.sql).run(...this.args).changes)}}}async first(){return db.prepare(this.sql).get(...this.args)||null}async all(){return {results:db.prepare(this.sql).all(...this.args)}}}
 globalThis.communityTestEnv={DB:{prepare:sql=>new S(sql),batch:async ss=>{db.exec('BEGIN');try{const r=[];for(const s of ss)r.push(await s.run());db.exec('COMMIT');return r}catch(e){db.exec('ROLLBACK');throw e}}}};
 const name=s=>({ko:s,en:s,ja:s,zh:s});
@@ -71,4 +72,29 @@ test('public summary batches bounded indexed targets without mixing characters o
  const id=(await get(a)).mine.id;globalThis.communityEditor=true;await post('',{action:'moderate',id});globalThis.communityEditor=false;
  const hidden=await (await summaries.GET(new Request(url))).json();assert.equal(hidden.summaries[alice].count,1);assert.equal(hidden.summaries[alice].excerpt,null);
  for(const query of ['target=bad',new URLSearchParams(Array.from({length:31},(_,i)=>['target',i.toString(16).padStart(64,'0')])).toString()])assert.equal((await summaries.GET(new Request('https://gagether.wiki/api/community/summary?'+query))).status,400);
+});
+
+
+test('anonymous ratings need no login, expose only the edge IP prefix, retain browser ownership and cannot become an account session',async()=>{
+ const {anonymousCookie,maskedCommunityIp}=await import('../lib/anonymous-community.ts'),{visitorSession}=await import('../lib/visitor-auth-store.ts');
+ const req=(cookie='',body)=>new Request('https://gagether.wiki/api/community?entry=first&member=Alice&anonymous=1',{method:body?'POST':'GET',headers:{cookie,origin:'https://gagether.wiki','Content-Type':'application/json','X-Gagether-Auth':'1','CF-Connecting-IP':'192.0.2.55','X-Forwarded-For':'1.2.3.4'},...body?{body:JSON.stringify({entry:'first',member:'Alice',anonymous:true,...body})}:{}});
+ const before=db.prepare('SELECT COUNT(*) n FROM visitor_accounts').get().n,r=await api.GET(req()),data=await r.json(),cookie=r.headers.get('set-cookie').split(';')[0];assert.match(cookie,new RegExp('^'+anonymousCookie));assert.equal(data.canWrite,true);assert.equal(data.signedIn,false);assert.equal(data.anonymous,true);assert.equal(data.ipPrefix,'192.0');assert.equal(db.prepare('SELECT COUNT(*) n FROM visitor_accounts').get().n,before);
+ const body={action:'review',stars:4,text:'Guest experience',revision:0,accountScope:data.draftScope};assert.equal((await api.POST(req(cookie,body))).status,200);assert.equal((await api.POST(req(cookie,body))).status,409);
+ const mine=await(await api.GET(req(cookie))).json();assert.equal(mine.mine.ipPrefix,'192.0');assert.equal(mine.mine.anonymous,true);assert.equal(mine.mine.stars,4);assert.equal(await visitorSession(new Headers({cookie})),null);assert.ok(!JSON.stringify(mine).includes('192.0.2.55'));
+ const otherResponse=await api.GET(req()),other=await otherResponse.json(),otherCookie=otherResponse.headers.get('set-cookie').split(';')[0];assert.equal((await api.POST(req(otherCookie,{action:'delete',revision:1,accountScope:other.draftScope}))).status,409);
+ assert.equal((await api.POST(req(cookie,{action:'review',stars:3,text:'Updated guest experience',revision:1,accountScope:data.draftScope}))).status,200);assert.equal((await api.POST(req(cookie,{action:'delete',revision:2,accountScope:data.draftScope}))).status,200);
+ assert.equal(maskedCommunityIp(new Headers({'CF-Connecting-IP':'2001:db8:abcd:1234::1'})),'2001:db8');assert.equal(maskedCommunityIp(new Headers({'CF-Connecting-IP':'::ffff:192.0.2.55'})),'192.0');assert.equal(maskedCommunityIp(new Headers({'X-Forwarded-For':'192.0.2.55'})),null);assert.equal(maskedCommunityIp(new Headers({'CF-Connecting-IP':'999.1.2.3'})),null);
+});
+test('logged-in users may select a separate anonymous rating without changing their existing account review',async()=>{
+ const logged=await login('anon-opt-in'),requestWith=(cookie,body,anon=false)=>new Request('https://gagether.wiki/api/community?entry=first&member=Beth'+(anon?'&anonymous=1':''),{method:body?'POST':'GET',headers:{cookie,origin:'https://gagether.wiki','Content-Type':'application/json','X-Gagether-Auth':'1','CF-Connecting-IP':'198.51.100.9'},...body?{body:JSON.stringify({entry:'first',member:'Beth',...body})}:{}});
+ assert.equal((await api.POST(requestWith(logged,{action:'review',stars:5,text:'Account opinion',revision:0}))).status,200);
+ const r=await api.GET(requestWith(logged,null,true)),d=await r.json(),cookie=logged+'; '+r.headers.get('set-cookie').split(';')[0];assert.equal(d.signedIn,true);assert.equal(d.anonymous,true);
+ assert.equal((await api.POST(requestWith(cookie,{action:'review',anonymous:true,accountScope:d.draftScope,stars:2,text:'Anonymous opinion',revision:0}))).status,200);
+ const normal=await(await api.GET(requestWith(cookie))).json();assert.equal(normal.mine.stars,5);assert.equal(normal.mine.anonymous,false);assert.equal(normal.mine.ipPrefix,undefined);
+});
+
+test('anonymous IP rate limit survives guest-cookie resets without storing or returning the complete address',async()=>{
+ const make=(cookie='',body)=>new Request('https://gagether.wiki/api/community?entry=first&member=Alice&anonymous=1',{method:body?'POST':'GET',headers:{cookie,origin:'https://gagether.wiki','Content-Type':'application/json','X-Gagether-Auth':'1','CF-Connecting-IP':'198.51.100.77'},...body?{body:JSON.stringify({entry:'first',member:'Alice',anonymous:true,...body})}:{}});
+ for(let i=0;i<21;i++){const r=await api.GET(make()),data=await r.json(),cookie=r.headers.get('set-cookie').split(';')[0];const result=await api.POST(make(cookie,{action:'review',stars:3,text:'',revision:0,accountScope:data.draftScope}));assert.equal(result.status,i<20?200:429);}
+ assert.ok(!JSON.stringify(db.prepare('SELECT * FROM forum_limits').all()).includes('198.51.100.77'));
 });

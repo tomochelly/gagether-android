@@ -1,0 +1,16 @@
+/* Pickup preview surfaces only. Detail and character-directory compositions stay independent. */
+.pickup-thumbnail,.thumbnail-image{display:block;position:absolute;inset:0;width:100%;height:100%;overflow:hidden;isolation:isolate;background:none;mask:none;filter:none}
+.thumbnail-image>img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 20%;max-width:none;max-height:none;border-radius:0;filter:none;opacity:1}
+.thumbnail-missing{display:grid;place-items:center;height:100%;color:var(--muted)}
+.game-pickup-tiles>li>a{background:var(--bg);background-image:none}.game-pickup-tiles>li>a:after{display:none}
+.game-pickup-caption{bottom:12px;left:12px;right:auto;width:fit-content;max-width:calc(100% - 32px);padding:5px 8px;background:#10202cbb;border-radius:3px;text-shadow:none}.game-pickup-caption>strong,.game-pickup-caption>small{-webkit-text-stroke:0}.game-pickup-open{filter:drop-shadow(0 1px 2px #000)}
+.upcoming-art{background:none}.upcoming-art .pickup-thumbnail,.upcoming-art .thumbnail-image{filter:none;opacity:1}
+.pickup-montage.is-filled{position:absolute;inset:0;display:flex;flex-direction:column;gap:3px;width:100%;height:100%;padding:0;overflow:hidden;clip-path:none;transform:none;background:none}
+.thumbnail-montage-row{display:flex;flex:1;min-height:0;gap:3px;overflow:hidden}
+.thumbnail-montage-panel{position:relative;display:block;flex:1;min-width:0;height:100%;overflow:hidden;clip-path:none;transform:none;background:none}
+.thumbnail-member-name{position:absolute;z-index:2;bottom:7px;left:6px;right:6px;color:#fff;font:500 10px/1.4 var(--body);text-shadow:0 1px 3px #000,0 0 5px #000;pointer-events:none;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.game-pickup-tiles .thumbnail-montage-row:last-child .thumbnail-member-name{bottom:65px}
+.pickup-montage.is-filled[data-candidates="2"] .thumbnail-member-name,.pickup-montage.is-filled[data-candidates="3"] .thumbnail-member-name{bottom:65px}
+.upcoming-art .thumbnail-member-name{bottom:7px}
+@media(max-width:760px){.game-pickup-caption{left:10px;bottom:12px}.pickup-montage.is-filled,.thumbnail-montage-row{gap:2px}.thumbnail-member-name{font-size:9px;left:4px;right:4px}}
+@media(forced-colors:active){.game-pickup-caption{background:Canvas;color:CanvasText;text-shadow:none}.game-pickup-caption>strong,.game-pickup-caption>small{-webkit-text-stroke:0;color:CanvasText}.thumbnail-member-name{background:Canvas;color:CanvasText;text-shadow:none}}

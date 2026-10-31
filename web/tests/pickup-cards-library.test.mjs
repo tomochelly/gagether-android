@@ -47,7 +47,7 @@ test('library LIVE requires fresh official live metadata and the selected actual
 });
 test('the audit identifies missing current versions and locale-specific holes without rewriting data',()=>{
  const e={...entry,gameId:'hi3',region:'kr',versionHero:true,kind:'update',pickupMembers:undefined,image:'/ko-banner.png',imageLocale:'ko'};
- const original=JSON.stringify(e),rows=artworkAudit([e],now);assert.equal(new Set(rows.map(r=>r.gameId)).size,18);
+ const original=JSON.stringify(e),rows=artworkAudit([e],now);assert.deepEqual(new Set(rows.map(r=>r.gameId)),new Set(games.map(g=>g.id)));
  assert.ok(rows.find(r=>r.gameId==='hi3'&&r.region==='kr'&&r.locale==='ja').issues.some(i=>i.code==='missing-locale-artwork'));
  assert.ok(!rows.find(r=>r.gameId==='hi3'&&r.region==='kr'&&r.locale==='ko').issues.length);
  assert.ok(rows.find(r=>r.gameId==='trickcal').issues.some(i=>i.code==='missing-current-version'));assert.equal(JSON.stringify(e),original);

@@ -16,5 +16,5 @@ export function useDetailIntent(load:()=>Promise<unknown>,key:string,enabled=tru
  useEffect(()=>cancel,[key,enabled]);
  return {onPointerEnter:()=>{cancel();if(enabled)timer.current=setTimeout(start,120);},onPointerLeave:cancel,onFocus:start,onBlur:cancel,onPointerDown:(e:{pointerType:string})=>{if(e.pointerType==='touch')start();}};
 }
-export function DetailIntentLink({load,cacheKey,...props}:AnchorHTMLAttributes<HTMLAnchorElement>&{load:()=>Promise<unknown>;cacheKey:string}){const intent=useDetailIntent(load,cacheKey);return createElement('a',{...props,...intent});}
+export function DetailIntentLink({load,cacheKey,enabled=true,...props}:AnchorHTMLAttributes<HTMLAnchorElement>&{load:()=>Promise<unknown>;cacheKey:string;enabled?:boolean}){const intent=useDetailIntent(load,cacheKey,enabled);return createElement('a',{...props,...intent});}
 export function DetailIntentButton({load,cacheKey,enabled=true,...props}:ButtonHTMLAttributes<HTMLButtonElement>&{load:()=>Promise<unknown>;cacheKey:string;enabled?:boolean}){const intent=useDetailIntent(load,cacheKey,enabled);return createElement('button',{...props,...intent});}

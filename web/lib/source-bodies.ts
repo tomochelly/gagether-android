@@ -1,3 +1,5 @@
+import {articleBodySource,bodyBelongsToEntry} from './source-body-identity';
+import {isGfl2SteamNotice,isGfl2SteamShellText} from './gfl2-steam-body';
 import type {Entry,Locale,SourceBody} from './types';
 import {allowsRewards} from './content-roles';
 import {decodeSourceHtml,sourceDocument,type ReviewDocument} from './collection-review';
@@ -6,17 +8,22 @@ import {games} from './games';
 import {contentLanguage} from './content-audience';
 import excludedSourceImages from '../content/excluded-source-images.json' with {type:'json'};
 import {rewardCatalog} from './reward-catalog';
-export function sourceBodyFor(entry:Entry,locale:Locale){const game=games.find(g=>g.id===entry.gameId),target=game?contentLanguage(game,entry.region,locale):locale;const body=entry.sourceBodies?.[target]||entry.sourceBodies?.[entry.sourceLocale||target]||Object.values(entry.sourceBodies||{})[0];return {body,target,images:body?.locale===target?body.images:[]};}
+export function sourceBodyFor(entry:Entry,locale:Locale){const game=games.find(g=>g.id===entry.gameId),target=game?contentLanguage(game,entry.region,locale):locale;const safe=Object.values(entry.sourceBodies||{}).filter(b=>bodyBelongsToEntry(entry,b)&&!isGfl2SteamShellText(entry.gameId,b.sourceUrl,b.text));let body=safe.find(b=>b.locale===target)||safe.find(b=>b.locale===entry.sourceLocale)||safe[0];
+ // Recover this verified attribute interpretation only in presentation. Keep
+ // the captured body/hash and any owner source-body edit unchanged.
+ if(body&&entry.id==='quick-wuwa-global-8386478'&&entry.gameId==='wuwa'&&entry.region==='global'&&entry.sourceKind==='official'&&entry.sourceUrl==='https://game.naver.com/lounge/WutheringWaves/board/detail/8386478'&&body.locale==='ko'&&body.bodyHash==='df22e9f4c9a5958ae80fad51915f8e376b103736a0a7481028122a99bfdaa19e'&&!entry.editor?.fields.some(p=>p==='sourceBodies'||p.startsWith('sourceBodies.'))){const before='https://secondcomingofsolaris.kurogames-global.com/?lang&#x3D;kr';if(body.links?.some(l=>l.url===before))body={...body,links:body.links.map(l=>l.url===before?{...l,url:'https://secondcomingofsolaris.kurogames-global.com/?lang=kr'}:l)};}
+ return {body,target,images:body?.locale===target?body.images:[]};}
 export function bodyFromDocument(document:ReviewDocument,raw:{text?:string;images?:string[];links?:{label:string;url:string}[]}):SourceBody|null{
- if(document.sourceAccess!=='body')return null;
+ if(document.sourceAccess!=='body'||!articleBodySource(document.gameId,document.url)||isGfl2SteamShellText(document.gameId,document.url,raw.text||'')||(isGfl2SteamNotice(document.gameId,document.url)&&/<html\b|<!doctype\s+html\b/i.test(raw.text||'')))return null;
  const text=decodeSourceHtml(raw.text||'');const encoded=/<(?:p|div|img|br|table|section|h[1-6])\b/i.test(text),parsed=encoded?sourceDocument(text,document.url):{text,images:[],links:[]};
+ if(isGfl2SteamNotice(document.gameId,document.url)&&'access'in parsed&&parsed.access!=='body')return null;
  const images=[...new Set([...raw.images||[],...parsed.images])].filter(url=>{try{const u=new URL(url);return u.protocol==='https:'&&!u.username&&!u.password&&!excludedSourceImages.some(x=>url.split('?')[0]===x)&&!/logo|favicon|loading|footer|share[_/-]|social[_/-]|tracking|0[12][_-]공지사항[.]|공지사항-(?:상|하)/i.test(decodeURIComponent(u.pathname));}catch{return false;}}).slice(0,20);
  if(!parsed.text.trim()&&!images.length)return null;
  return {title:document.title.slice(0,400),locale:document.locale,sourceUrl:document.url,text:parsed.text.slice(0,200000),images,links:(raw.links||parsed.links||[]).slice(0,40),bodyHash:document.bodyHash,importedAt:document.checkedAt,sourceKind:'official'};
 }
 export function sourceExcerpt(text:string,title=''){return text.split('\n').map(s=>s.trim()).filter(s=>s&&s!==title&&!/^(?:안녕하세요[.!]?|함장님[,!]?|여행자님[,!]?|Dear .*[,!]|尊敬的.*[：:]|こんにちは[。！]?)$/i.test(s)).join(' ').slice(0,320);}
 export function importBody(entry:Entry,body:SourceBody):Entry{
- const old=entry.sourceBodies?.[body.locale];if(old&&old.bodyHash===body.bodyHash&&old.text===body.text&&JSON.stringify(old.images)===JSON.stringify(body.images)&&JSON.stringify(old.links||[])===JSON.stringify(body.links||[])&&old.title===body.title)return entry;
+ if(!bodyBelongsToEntry(entry,body)||isGfl2SteamShellText(entry.gameId,body.sourceUrl,body.text))return entry;const old=entry.sourceBodies?.[body.locale];if(old&&old.bodyHash===body.bodyHash&&old.text===body.text&&JSON.stringify(old.images)===JSON.stringify(body.images)&&JSON.stringify(old.links||[])===JSON.stringify(body.links||[])&&old.title===body.title)return entry;
  const title={...entry.title},summary={...entry.summary};if(placeholderText(title[body.locale]))title[body.locale]=(body.title||(body.locale===entry.sourceLocale?entry.sourceTitle:"")).slice(0,240);
  if(placeholderText(summary[body.locale]))summary[body.locale]=sourceExcerpt(body.text,title[body.locale]);
  const rewards=entry.rewards?.length?entry.rewards:bodyRewards(entry,body);
@@ -38,3 +45,4 @@ export function bodyRewards(entry:Entry,body:SourceBody){
  }
  return rows.slice(0,12);
 }
+

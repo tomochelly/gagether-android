@@ -1,0 +1,9 @@
+import './load-typescript.mjs';
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+const {sourceBodyFor}=await import('../lib/source-bodies.ts');
+const url='https://game.naver.com/lounge/WutheringWaves/board/detail/8386478',before='https://secondcomingofsolaris.kurogames-global.com/?lang&#x3D;kr',after='https://secondcomingofsolaris.kurogames-global.com/?lang=kr';
+const body={locale:'ko',sourceUrl:url,title:'사전 예약',text:'원문 내용 그대로',images:['https://example.com/original.png'],links:[{label:'사전 예약',url:before},{label:'다른 링크',url:'https://example.com/?a=1'}],bodyHash:'df22e9f4c9a5958ae80fad51915f8e376b103736a0a7481028122a99bfdaa19e',importedAt:'2026-10-30T06:01:00Z',sourceKind:'official'};
+const fixture={id:'quick-wuwa-global-8386478',gameId:'wuwa',region:'global',kind:'update',sourceKind:'official',sourceUrl:url,sourceLocale:'ko',sourceBodies:{ko:body}};
+test('verified saved link renders its exact HTML meaning without replacing any captured body',()=>{const raw=JSON.stringify(fixture);for(const locale of ['ko','en','ja','zh']){const r=sourceBodyFor(fixture,locale);assert.equal(r.body.links[0].url,after);assert.equal(r.body.links[1],body.links[1]);for(const key of ['text','bodyHash','importedAt','images','sourceUrl','title','locale'])assert.equal(r.body[key],body[key]);}assert.equal(JSON.stringify(fixture),raw);});
+test('source-body owner edits, different identities and later source revisions stay untouched',()=>{for(const patch of [{id:'another'},{gameId:'zzz'},{region:'kr'},{sourceKind:'community'},{sourceUrl:url+'?different=1'},{sourceBodies:{ko:{...body,bodyHash:'later'}}},...['sourceBodies','sourceBodies.ko','sourceBodies.ko.links.0.url','sourceBodies.ko.text'].map(p=>({editor:{revision:2,fields:[p]}}))]){const e={...fixture,...patch};const r=sourceBodyFor(e,'ko');if(r.body)assert.equal(r.body.links[0].url,before);}});

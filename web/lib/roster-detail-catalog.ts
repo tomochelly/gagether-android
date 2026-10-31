@@ -1,6 +1,7 @@
+import {announcedCharacterPreview} from './roster-availability';
 import {retainCharacterFacts} from './roster-fact-retention';
 import {pinRosterFactIcons} from './roster-detail-icons';
-import {rosterDetailFieldsSchema} from './character-roster';
+import {rosterDetailFieldsSchema,rosterDetailCatalogGames} from './character-roster';
 import type {CharacterRoster,RosterCharacter} from './character-roster';
 import type {z} from 'zod';
 type Fields=z.infer<typeof rosterDetailFieldsSchema>;
@@ -21,7 +22,8 @@ async function unpack(id:string,form:{sourceId:string|number;sha256:string;bytes
 }
 /** Expand one exact form only. The native catalog never enters directory props. */
 export async function hydrateRosterDetails(data:CharacterRoster,character:RosterCharacter):Promise<RosterCharacter>{
- if(!['umamusume','gfl2','arknights'].includes(data.gameId)||!data.detailCatalog)return character;
+ if(character.availability?.status==='announced')return announcedCharacterPreview(character);
+ if(!rosterDetailCatalogGames.has(data.gameId)||!data.detailCatalog)return character;
  const catalog=data.detailCatalog,form=catalog.forms[character.id];if(!form||form.sourceId!==character.sourceId)return character;
  let fields:Fields;
  if(catalog.version===3)fields=await unpack(character.id,catalog.forms[character.id]);

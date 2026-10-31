@@ -1,0 +1,22 @@
+
+.page-references{width:calc(100% - 48px);max-width:1800px;margin:32px auto 0;padding:14px 0 24px;border-top:1px solid var(--line,#89968e26);color:var(--muted,#87918c);font:400 11px/1.7 'SUIT Variable',sans-serif}
+.page-references:not(:has([data-reference-content])){display:none}
+.page-references>details>summary,.page-reference-fallback>summary{width:fit-content;min-height:36px;padding:8px 0;cursor:pointer;font-size:11px;font-weight:400;letter-spacing:.02em;color:inherit}
+.page-references>details>summary:hover{color:var(--text,#65776c)}
+.page-reference-groups{display:grid;gap:14px;padding:16px 0 0;overflow-wrap:anywhere}
+.page-reference-group{font-size:11px;min-width:0}
+.page-reference-group h3{font-size:12px;font-weight:500;line-height:1.6;margin:0 0 8px}
+.page-reference-group a{font-size:inherit!important;line-height:1.8;color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:5px;max-width:100%;overflow-wrap:anywhere}
+.page-reference-group a:hover{text-decoration:underline}
+.page-reference-group a:focus-visible,.page-references summary:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.page-reference-group :is(.reference-provenance,.roster-footer,.combat-source-footer,.source-footer,.source-footer-detail){margin:0;padding:0;border:0;background:none;box-shadow:none}
+.page-reference-group .source-footer-links{display:grid;gap:8px}
+.page-reference-group .source-footer-links a{justify-content:flex-start}
+.page-reference-group .reference-art-sources{margin:0;padding:0;border:0}
+.page-reference-group :is(p,small,span,time,summary){font-size:inherit}
+.page-reference-group :is(footer,details,div){max-width:100%}
+.page-reference-fallback{font-size:11px;margin-top:12px;color:var(--muted,#87918c)}
+.page-references.reference-dialog-sources{width:100%;margin:24px 0 0;padding:14px 0 0;max-width:none}
+body:has(.combat-board)>.page-references{--text:#d4e1e9;--muted:#839eae;--line:#91afc32b}
+body:has(.combat-board) .page-references{color:#8ca6b7;border-color:#91afc32b}
+@media(max-width:600px){.page-references{width:calc(100% - 28px);margin-top:24px}.page-references>details>summary,.page-reference-fallback>summary{min-height:44px}.page-reference-groups{gap:18px}.page-reference-group a{min-height:36px}}

@@ -1,0 +1,45 @@
+import './load-typescript.mjs';
+import{test,beforeEach}from'node:test';import assert from'node:assert/strict';import{DatabaseSync}from'node:sqlite';import{registerHooks}from'node:module';import{readFileSync}from'node:fs';import{generateKeyPair,exportPKCS8,jwtVerify}from'jose';
+const db=new DatabaseSync(':memory:');for(const f of['drizzle/0021_ambiguous_supreme_intelligence.sql','drizzle/0022_busy_wolfpack.sql'])db.exec(readFileSync(f,'utf8'));
+class S{constructor(s,a=[]){this.s=s;this.a=a}bind(...a){return new S(this.s,a)}async run(){return{meta:{changes:Number(db.prepare(this.s).run(...this.a).changes)}}}async all(){return{results:db.prepare(this.s).all(...this.a)}}async first(){return db.prepare(this.s).get(...this.a)||null}}
+globalThis.deliveryEnv={DB:{prepare:s=>new S(s)}};globalThis.deliveryOwner='owner-a';
+registerHooks({resolve(s,c,n){if(s==='cloudflare:workers')return{url:'test:delivery-env',shortCircuit:true};if(s==='@/lib/editor-access')return{url:'test:delivery-owner',shortCircuit:true};return n(s,c)},load(u,c,n){if(u==='test:delivery-env')return{format:'module',source:'export const env=globalThis.deliveryEnv',shortCircuit:true};if(u==='test:delivery-owner')return{format:'module',source:'export async function editorIdentity(){return globalThis.deliveryOwner?{userId:globalThis.deliveryOwner}:null}',shortCircuit:true};return n(u,c)}});
+const api=await import('../app/api/owner/push/send/route.ts'),draftApi=await import('../app/api/owner/push/route.ts'),{fcmReadiness}=await import('../lib/fcm-server.ts'),origin='https://gagether.wiki',pair=await generateKeyPair('RS256',{extractable:true}),privateKey=await exportPKCS8(pair.privateKey),account={type:'service_account',project_id:'gagether-a44a6',client_email:'gagether-push@gagether-a44a6.iam.gserviceaccount.com',private_key_id:'test-key',private_key:privateKey};
+const request=(body,headers={},path='/api/owner/push/send')=>new Request(origin+path,{method:'POST',headers:{Origin:origin,'X-Gagether-Auth':'1','Content-Type':'application/json',...headers},body:JSON.stringify(body)});
+const draft=(extra={})=>({id:crypto.randomUUID(),revision:0,gameId:'wuwa',locale:'ko',title:'명조 방송 안내',body:'현재 방송이 시작합니다.',...extra});
+let calls=[],mode='ok';
+globalThis.fetch=async(url,options)=>{assert.equal(options.redirect,'manual');assert.ok(['https://oauth2.googleapis.com/token','https://fcm.googleapis.com/v1/projects/gagether-a44a6/messages:send'].includes(String(url)));if(String(url).includes('oauth2')){if(mode==='auth-redirect')return new Response('',{status:302,headers:{Location:'https://foreign.test'}});const b=new URLSearchParams(options.body),jwt=await jwtVerify(b.get('assertion'),pair.publicKey,{issuer:account.client_email,audience:'https://oauth2.googleapis.com/token'});assert.equal(jwt.payload.scope,'https://www.googleapis.com/auth/firebase.messaging');return Response.json({access_token:'ephemeral-test-access',expires_in:3600});}assert.equal(options.headers.Authorization,'Bearer ephemeral-test-access');const b=JSON.parse(options.body);calls.push(b);assert.equal(b.message.android.restricted_package_name,'app.patchwork.radar');assert.equal(b.message.android.ttl,'3600s');assert.equal(b.message.notification,undefined);if(mode==='provider-redirect')return new Response('',{status:302,headers:{Location:'https://foreign.test'}});if(mode==='network')throw Error('Unknown transport outcome');if(mode==='denied')return Response.json({error:{status:'PERMISSION_DENIED'}},{status:403});return Response.json({name:'projects/gagether-a44a6/messages/'+crypto.randomUUID()});};
+beforeEach(()=>{db.exec('DELETE FROM owner_push_sends; DELETE FROM owner_push_drafts;');globalThis.deliveryOwner='owner-a';globalThis.deliveryEnv.GAGETHER_FCM_SERVICE_ACCOUNT=JSON.stringify(account);globalThis.deliveryEnv.GAGETHER_FCM_APP_READY='1';calls=[];mode='ok';});
+async function save(d){const r=await draftApi.POST(request(d,{},'/api/owner/push'));assert.equal(r.status,200);return(await r.json()).draft;}
+async function prepare(d){const r=await api.POST(request({action:'prepare',draftId:d.id,revision:d.revision}));assert.equal(r.status,200,await r.clone().text());return(await r.json()).confirmation;}
+test('owner authority, same origin, app delivery gate and exact project credentials are required',async()=>{
+ globalThis.deliveryOwner='';assert.equal((await api.GET()).status,403);assert.equal((await api.POST(request({action:'validate'}))).status,403);globalThis.deliveryOwner='owner-a';
+ for(const h of[{Origin:'https://foreign.test'},{'X-Gagether-Auth':''},{'sec-fetch-site':'cross-site'}])assert.equal((await api.POST(request({action:'validate'},h))).status,403);
+ globalThis.deliveryEnv.GAGETHER_FCM_APP_READY='0';const d=await save(draft());assert.equal((await api.POST(request({action:'prepare',draftId:d.id,revision:1}))).status,503);assert.equal(calls.length,0);
+ assert.equal((await api.POST(request({action:'validate'}))).status,200);assert.equal(calls.length,1);assert.equal(calls[0].validate_only,true);
+ for(const c of[{...account,project_id:'other'},{...account,client_email:'outside@example.test'},{...account,private_key:'invalid'}])assert.equal(fcmReadiness({GAGETHER_FCM_SERVICE_ACCOUNT:JSON.stringify(c),GAGETHER_FCM_APP_READY:'1'}).ready,false);
+});
+test('confirmation freezes the exact saved revision and sends once despite a later edit and concurrent clicks',async()=>{
+ const d=await save(draft()),c=await prepare(d);assert.equal(c.audience.topic,'gagether_game_wuwa_ko_v1');assert.equal(c.audience.path,'/ko/games/wuwa');
+ await save({...d,body:'나중에 수정한 다른 내용',updatedAt:undefined});
+ const outcomes=await Promise.all([api.POST(request({action:'send',id:c.id,confirm:true})),api.POST(request({action:'send',id:c.id,confirm:true}))]);assert.deepEqual(outcomes.map(r=>r.status).sort(),[200,409]);assert.equal(calls.length,1);assert.equal(calls[0].validate_only,false);assert.equal(calls[0].message.data.body,d.body);assert.equal(calls[0].message.topic,'gagether_game_wuwa_ko_v1');
+ assert.equal((await api.POST(request({action:'send',id:c.id,confirm:true}))).status,409);assert.equal(calls.length,1);
+ const dup=await save(draft());assert.equal((await api.POST(request({action:'prepare',draftId:dup.id,revision:1}))).status,409);
+ const history=await(await api.GET()).json();assert.equal(history.sends[0].state,'accepted');assert.equal(history.sends[0].owner_id,undefined);assert.ok(!JSON.stringify(history).includes(privateKey));
+});
+test('unknown acceptance blocks automatic retry while an explicit provider rejection remains a failed attempt',async()=>{
+ const d=await save(draft()),c=await prepare(d);mode='network';const result=await api.POST(request({action:'send',id:c.id,confirm:true}));assert.equal(result.status,503);assert.equal((await result.json()).state,'unknown');assert.equal((await api.POST(request({action:'send',id:c.id,confirm:true}))).status,409);assert.equal(calls.length,1);
+ const dup=await save(draft());assert.equal((await api.POST(request({action:'prepare',draftId:dup.id,revision:1}))).status,409);
+ mode='denied';const other=await save(draft({gameId:'nte'})),next=await prepare(other),denied=await api.POST(request({action:'send',id:next.id,confirm:true}));assert.equal(denied.status,502);assert.equal((await denied.json()).state,'failed');assert.equal(db.prepare('SELECT error FROM owner_push_sends WHERE id=?').get(next.id).error,'PERMISSION_DENIED');
+});
+test('changed revisions, expired confirmations, another owner, arbitrary topics and unsafe fields never send',async()=>{
+ const d=await save(draft()),c=await prepare(d);globalThis.deliveryOwner='owner-b';assert.equal((await api.POST(request({action:'send',id:c.id,confirm:true}))).status,404);globalThis.deliveryOwner='owner-a';
+ db.prepare('UPDATE owner_push_sends SET expires_at=? WHERE id=?').run(Date.now()-1,c.id);assert.equal((await api.POST(request({action:'send',id:c.id,confirm:true}))).status,409);
+ assert.equal((await api.POST(request({action:'prepare',draftId:d.id,revision:2}))).status,409);
+ assert.equal((await api.POST(request({action:'prepare',draftId:d.id,revision:1,topic:'all'}))).status,400);assert.equal((await api.POST(request({action:'send',id:c.id,confirm:false}))).status,400);assert.equal((await draftApi.POST(request(draft({url:'https://foreign.test'}),{},'/api/owner/push'))).status,400);assert.equal(calls.length,0);
+});
+
+test('Worker-compatible requests reject redirects without forwarding credentials or sending a notification',async()=>{
+ globalThis.deliveryEnv.GAGETHER_FCM_SERVICE_ACCOUNT=JSON.stringify({...account,private_key_id:'redirect-case'});mode='auth-redirect';let r=await api.POST(request({action:'validate'}));assert.equal(r.status,502);assert.equal((await r.json()).code,'authorization-redirect');assert.equal(calls.length,0);
+ mode='provider-redirect';r=await api.POST(request({action:'validate'}));assert.equal(r.status,502);assert.equal((await r.json()).code,'provider-redirect');assert.equal(calls.length,1);assert.equal(calls[0].validate_only,true);
+});

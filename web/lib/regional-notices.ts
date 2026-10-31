@@ -2,6 +2,8 @@ import {additionalOfficialSources,additionalNoticeBody} from './additional-game-
 import {blueArchiveTitle} from './bluearchive-title';
 import {naverBody} from './naver-body';
 import {decodeSourceHtml} from './collection-review';
+import {steamBodyHtml} from './additional-game-notices';
+import {isGfl2SteamShellText} from './gfl2-steam-body';
 import {noticeText,textOnly,type FastNotice,type FastSource} from './fast-notices';
 import {hi3WebsiteSources,parseHi3Website} from './hi3-notices';
 export type RegionalNotice=FastNotice&{bodyHtml?:string};
@@ -68,6 +70,14 @@ for(const locale of ['ja','en'] as const)for(const label of [496,892]){
 }
 export const regionalOfficialSources=[...sources,...additionalOfficialSources];
 export async function regionalDetail(n:FastNotice,fetcher:typeof fetch):Promise<string|undefined>{
+ if(n.gameId==='gfl2'&&n.url.startsWith('https://steamcommunity.com/')){
+  const u=new URL(n.url),locale=n.locale==='zh'&&u.searchParams.get('l')==='tchinese'?7:{ko:4,en:0,ja:10,zh:6}[n.locale];
+  if(!['kr','global'].includes(n.region)||u.hostname!=='steamcommunity.com'||u.pathname!==`/games/3308670/announcements/detail/${n.id}`||!/^\d+$/.test(n.id))throw Error('Official Steam notice identity mismatch');
+  const d=await json(fetcher,`https://store.steampowered.com/events/ajaxgetpartnerevent/?clan_accountid=45289242&announcement_gid=${n.id}&lang_list=${locale}`),e=d?.event,b=e?.announcement_body;
+  if(d?.success!==1||e?.appid!==3308670||String(e?.clan_steamid)!=='103582791474810650'||e?.published!==1||e?.hidden||String(b?.clanid)!=='45289242'||String(b?.gid)!==n.id||b?.language!==locale||typeof b?.body!=='string'||!b.body.trim()||b.body.length>200000)throw Error('Official Steam body identity or language changed');
+  if(/^\s*(?:<!doctype\s+html\b|<html\b)/i.test(b.body)||isGfl2SteamShellText(n.gameId,n.url,b.body))throw Error('Official Steam response contains site chrome instead of an article');
+  return steamBodyHtml(b.body);
+ }
  if(['limbus','dna','holodreams'].includes(n.gameId))return additionalNoticeBody(n,fetcher);
  const hi3=hi3WebsiteSources.find(s=>n.gameId==='hi3'&&s.region===n.region&&s.locale===n.locale&&n.url===s.site+n.id);
  if(hi3)return parseHi3Website(await json(fetcher,hi3.url),hi3).find(row=>row.id===n.id)?.bodyHtml;

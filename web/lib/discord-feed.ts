@@ -11,7 +11,7 @@ import {gameBroadcasts,gameBroadcastArchive,broadcastState} from './broadcast-vi
 
 // A public, bounded read projection. Never return editorial metadata or copy it back to storage.
 export function discordFeed(entries:Entry[],settings:SiteSettings,locale:Locale,requested:Region,now:number):Omit<Catalog,'revision'|'serverTime'>{
-  const allGames=catalogGames(settings),restrict=audienceRestrictions(entries);
+  const allGames=catalogGames(settings).filter(g=>!g.launch),restrict=audienceRestrictions(entries);
   const games:Game[]=allGames.map(g=>({
     id:g.id,name:g.name[locale],icon:g.icon,color:g.color,regions:g.regions,
     canonicalRegions:Object.fromEntries((['kr','jp','global','cn'] as Region[]).map(r=>[r,effectiveRegion(g,r)])) as Game['canonicalRegions'],

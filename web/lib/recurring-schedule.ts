@@ -1,6 +1,7 @@
 import type {Entry,Locale} from './types';
 import defaults from '../content/recurring-defaults.json' with {type:'json'};
 import {dateInZone} from './display-time';
+import {officialRecurringWindow,officialRecurringLabel} from './recurring-official-rules';
 export type RecurringRepeat={kind:'owner-defined';enabled:boolean;intervalDays:number;anchorAt?:string;anchorDate?:string;timeZone:string;confirmedAt:string};
 export function recurringRepeat(e:Entry):RecurringRepeat|undefined{
  if(e.kind!=='event'||!e.recurring)return;
@@ -20,7 +21,7 @@ export function validRecurringRepeat(r:RecurringRepeat){
  try{new Intl.DateTimeFormat('en',{timeZone:r.timeZone});return true;}catch{return false;}
 }
 export function recurringWindow(e:Entry,now:number){
- const r=recurringRepeat(e);if(!r?.enabled||!validRecurringRepeat(r)||!Number.isFinite(now))return;
+ const r=recurringRepeat(e);if(!r)return officialRecurringWindow(e,now);if(!r.enabled||!validRecurringRepeat(r)||!Number.isFinite(now))return;
  const period=r.intervalDays*86400000;
  if(r.anchorAt){const anchor=Date.parse(r.anchorAt),cycle=now<anchor?0:Math.floor((now-anchor)/period)+1,end=anchor+cycle*period;return {startAt:new Date(end-period).toISOString(),endAt:new Date(end).toISOString(),startDate:undefined,endDate:undefined,cycle};}
  const today=Date.parse(dateInZone(now,r.timeZone)),anchor=Date.parse(r.anchorDate!),cycle=Math.max(0,Math.ceil((today-anchor)/period)),end=anchor+cycle*period;
@@ -36,11 +37,19 @@ export function editedRecurringEnd(e:Entry){
 /** Read-only presentation. Always retain the canonical record for editing/writes. */
 export function recurringDisplayEntry(e:Entry,now:number):Entry{
  const w=recurringWindow(e,now);if(!w)return e;
- const days=recurringRepeat(e)!.intervalDays;
+ const days=recurringRepeat(e)?.intervalDays;
  // Replace only the exact obsolete generated hint. Keep authored content and
  // the canonical stored record intact; pausing restores its original context.
  const obsolete='매초 카운트다운하며, 이후 회차는 자동 계산하지 않습니다.';
- const detailSections=e.detailSections?.map(section=>(section.body.ko===obsolete||section.body.ko===e.recurring?.resetEvidence?.note.ko&&section.body.ko.endsWith(obsolete))?{...section,body:{ko:`운영자가 설정한 기준일부터 ${days}일마다 초기화 일정을 자동 계산합니다.`,en:`Reset dates repeat every ${days} days from the owner-defined anchor.`,ja:`運営者が設定した基準日から${days}日ごとにリセット日程を計算します。`,zh:`从管理者设定的基准日期起，每${days}天自动计算重置时间。`}}:section);
+ const detailSections=e.detailSections?.map(section=>days&&(section.body.ko===obsolete||section.body.ko===e.recurring?.resetEvidence?.note.ko&&section.body.ko.endsWith(obsolete))?{...section,body:{ko:`${days}일마다 초기화됩니다.`,en:`Resets every ${days} days.`,ja:`${days}日ごとにリセットされます。`,zh:`每${days}天重置一次。`}}:section);
  return {...e,startAt:w.startAt,endAt:w.endAt,startDate:w.startDate,endDate:w.endDate,...detailSections?{detailSections}:{}};
 }
-export function recurringRepeatLabel(e:Entry,locale:Locale){const r=recurringRepeat(e);if(!r?.enabled)return;return ({ko:`운영자 설정 · ${r.intervalDays}일 반복`,en:`Owner-defined · every ${r.intervalDays} days`,ja:`運営者設定 · ${r.intervalDays}日ごと`,zh:`管理者设定 · 每${r.intervalDays}天重复`})[locale];}
+export function recurringRepeatLabel(e:Entry,locale:Locale){const r=recurringRepeat(e);if(!r?.enabled)return;return ({ko:`${r.intervalDays}일 반복`,en:`Every ${r.intervalDays} days`,ja:`${r.intervalDays}日ごと`,zh:`每${r.intervalDays}天重复`})[locale];}
+
+/** Compact public schedule copy; provenance remains in the stored record and source footer. */
+export function recurringCycleLabel(e:Entry,locale:Locale){
+ const repeated=recurringRepeatLabel(e,locale);if(repeated)return repeated;
+ const official=officialRecurringLabel(e,locale);if(official)return official;
+ const noise=['커뮤니티 참고','운영자 설정','community reference','owner-defined','コミュニティ参考','コミュニティ参照','運営者設定','社区参考','社群參考','管理者设定','管理者設定'];
+ return (e.recurring?.cycleLabel[locale]||'').split(/[·•|・]/).map(s=>s.trim()).filter(s=>s&&!noise.some(n=>n.toLowerCase()===s.toLowerCase())).join(' · ');
+}

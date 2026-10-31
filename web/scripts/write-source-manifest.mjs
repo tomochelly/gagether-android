@@ -6,4 +6,4 @@ for(const dir of ['app','components','lib','content','build'])walk(dir);
 const migrations=existsSync('drizzle')?readdirSync('drizzle').filter(p=>p.endsWith('.sql')).map(p=>'drizzle/'+p):[];
 const files=[...all,...migrations,...['db/schema.ts','drizzle/meta/_journal.json','package.json','pnpm-lock.yaml','vite.config.ts','.openai/hosting.json'].filter(existsSync)].sort();
 const entries=files.map(path=>({path,sha256:createHash('sha256').update(readFileSync(path)).digest('hex')}));
-const fingerprint=createHash('sha256').update(JSON.stringify(entries)).digest('hex');mkdirSync('public',{recursive:true});writeFileSync('public/source-manifest.json',JSON.stringify({version:1,fingerprint,entries},null,2)+'\n');console.log('Runtime source fingerprint:',fingerprint);
+const fingerprint=createHash('sha256').update(JSON.stringify(entries)).digest('hex');mkdirSync('public',{recursive:true});writeFileSync('public/source-manifest.json',JSON.stringify({version:1,fingerprint,entries})+'\n');console.log('Runtime source fingerprint:',fingerprint);

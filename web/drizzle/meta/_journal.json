@@ -99,6 +99,76 @@
       "when": 1792932768530,
       "tag": "0013_thankful_maria_hill",
       "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1793016934162,
+      "tag": "0014_quick_daredevil",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "6",
+      "when": 1793020195561,
+      "tag": "0015_robust_valeria_richards",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "6",
+      "when": 1793064269640,
+      "tag": "0016_sharp_psynapse",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "6",
+      "when": 1793162854838,
+      "tag": "0017_panoramic_ted_forrester",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "6",
+      "when": 1793179391014,
+      "tag": "0018_needy_iron_patriot",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "6",
+      "when": 1793240487048,
+      "tag": "0019_solid_warpath",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "6",
+      "when": 1793255171343,
+      "tag": "0020_clumsy_meggan",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "6",
+      "when": 1793261417333,
+      "tag": "0021_ambiguous_supreme_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "6",
+      "when": 1793270255915,
+      "tag": "0022_busy_wolfpack",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "6",
+      "when": 1793430714486,
+      "tag": "0023_majestic_boomerang",
+      "breakpoints": true
     }
   ]
 }

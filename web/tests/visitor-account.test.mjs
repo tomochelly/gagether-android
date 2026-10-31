@@ -6,7 +6,7 @@ import {DatabaseSync} from 'node:sqlite';
 import {readFileSync} from 'node:fs';
 import {generateKeyPair,exportJWK,SignJWT,createLocalJWKSet} from 'jose';
 import {renderToStaticMarkup} from 'react-dom/server';
-const db=new DatabaseSync(':memory:');db.exec(readFileSync(new URL('../drizzle/0006_sudden_dark_phoenix.sql',import.meta.url),'utf8'));
+const db=new DatabaseSync(':memory:');db.exec(readFileSync(new URL('../drizzle/0006_sudden_dark_phoenix.sql',import.meta.url),'utf8'));db.exec(readFileSync(new URL('../drizzle/0014_quick_daredevil.sql',import.meta.url),'utf8'));
 class Statement{constructor(sql,args=[]){this.sql=sql;this.args=args}bind(...args){return new Statement(this.sql,args)}async run(){const result=db.prepare(this.sql).run(...this.args);return {meta:{changes:Number(result.changes)}}}async first(){return db.prepare(this.sql).get(...this.args)||null}async all(){return {results:db.prepare(this.sql).all(...this.args)}}}
 const clientId='123456-test.apps.googleusercontent.com';
 globalThis.testVisitorEnv={GOOGLE_SIGN_IN_CLIENT_ID:clientId,DB:{prepare:sql=>new Statement(sql),batch:async statements=>{db.exec('BEGIN');try{const result=[];for(const s of statements)result.push(await s.run());db.exec('COMMIT');return result}catch(e){db.exec('ROLLBACK');throw e}}}};
@@ -27,7 +27,7 @@ test('real route flow creates an opaque Google session, rejects replay, and logs
  assert.match(response.headers.getSetCookie()[0],/HttpOnly; Secure; SameSite=Lax/);
  assert.match(response.headers.get('cache-control'),/no-store/);
  const row=db.prepare('SELECT * FROM visitor_sessions').get();assert.notEqual(row.token_hash,cookie.split('=')[1]);
- const me=await session.GET(req('/api/auth/session',{cookie}));assert.deepEqual(await me.json(),{user:{name:'<Visitor>',email:'visitor@example.test'}});
+ const me=await session.GET(req('/api/auth/session',{cookie}));assert.deepEqual(await me.json(),{user:{name:'<Visitor>',email:'visitor@example.test',provider:'google'}});
  const replay=await google.POST(req('/api/auth/google',{method:'POST',cookie:c.cookie,body:{nonce:c.data.nonce,credential:await token(c.data.nonce)}}));assert.equal(replay.status,401);
  const attack=await session.POST(req('/api/auth/session',{cookie,method:'POST',origin:'https://evil.example',body:{action:'logout'}}));assert.equal(attack.status,403);
  const logout=await session.POST(req('/api/auth/session',{cookie,method:'POST',body:{action:'logout'}}));assert.equal(logout.status,200);assert.match(logout.headers.get('set-cookie'),/Max-Age=0/);

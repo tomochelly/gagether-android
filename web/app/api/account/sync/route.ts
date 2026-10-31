@@ -26,6 +26,9 @@ export async function POST(request:Request){
   if(body.accountId!==user.id)return response({error:'Account changed'},409);
   if(!Number.isSafeInteger(body.revision)||body.revision<0)return response({error:'Invalid revision'},400);
   let profile;try{profile=parseProfile(body.profile);}catch{return response({error:'Invalid profile or storage limit'},400);}
+  // Older open tabs do not know this optional field. Their other preferences
+  // can still change without deleting a layout saved on an updated device.
+  if(!(body.profile as Record<string,unknown>).layouts&&body.revision>0){const previous=await read(user.id);if(previous.revision!==body.revision)return response({error:'Revision changed'},409);if(previous.profile.layouts)profile=parseProfile({...profile,layouts:previous.profile.layouts});}
   const payload=JSON.stringify(profile),now=Date.now();
   const result=body.revision===0
    ?await env.DB!.prepare('INSERT INTO visitor_profiles(account_id,revision,payload,updated_at) VALUES (?,1,?,?) ON CONFLICT(account_id) DO NOTHING').bind(user.id,payload,now).run()

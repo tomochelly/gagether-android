@@ -1,0 +1,2517 @@
+{
+  "reviewedAt": "2026-10-30T03:09:19.162Z",
+  "changes": [
+    {
+      "id": "ba-kr-20261027-grand-assault-hod",
+      "gameId": "bluearchive",
+      "region": "kr",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "bluearchive-grand-assault",
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967"
+            ],
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": "2026-11-10T03:59:00+09:00"
+          }
+        },
+        "detailSections": {
+          "after": [
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "실내전 호드. Normal~Extreme은 일반 공격, Insane·Torment는 신비 공격입니다. Torment는 중장갑·탄력장갑만 열립니다. 시즌은 11월 10일 03:59, 보상 수령은 12월 1일 10:59 KST까지이며 순위 보상은 정산 후 수령합니다.",
+                "en": "Indoor Hod. Normal–Extreme uses Normal attacks; Insane and Torment use Mystic. Torment offers Heavy and Elastic Armor. Season ends Nov 10 at 03:59 KST; claims end Dec 1 at 10:59 KST, with ranking rewards available after settlement.",
+                "ja": "屋内戦ホド。Normal～Extremeはノーマル攻撃、Insane・Tormentは神秘攻撃。Tormentは重装甲・弾力装甲です。シーズンは11月10日03:59、報酬受取は12月1日10:59 KSTまで。順位報酬は集計後に受け取れます。",
+                "zh": "室内战霍德。Normal至Extreme为普通攻击；Insane、Torment为神秘攻击。Torment开放重甲、弹力装甲。赛季至11月10日03:59，奖励领取至12月1日10:59 KST，排名奖励结算后开放。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ba-kr-20261027-joint-firing",
+      "gameId": "bluearchive",
+      "region": "kr",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "bluearchive-joint-firing-drill",
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967"
+            ],
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": "2026-11-03T03:59:00+09:00"
+          }
+        },
+        "detailSections": {
+          "after": [
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "돌파 시험은 야전·탄력장갑입니다. 세 번의 시험 점수 합계로 코인과 크레딧을 받습니다. 3단계는 EX 스킬 사용 시 공격력·치유력 증가, 4단계는 이에 더해 아군과 허수아비의 체력이 지속 감소하며 아군 현재 체력이 높을수록 피해량이 증가합니다.",
+                "en": "Outdoor, Elastic Armor Breakthrough Drill. Rewards use the sum of three trials. Stage 3 boosts ATK and Healing when EX Skills are used. Stage 4 also drains allied and scarecrow HP continuously, with higher current allied HP increasing damage.",
+                "ja": "突破演習は屋外・弾力装甲。3回の合計スコアで報酬を獲得します。第3段階はEX使用で攻撃力・治癒力上昇。第4段階は味方とカカシのHPが継続減少し、現在HPが高いほど与ダメージが増加します。",
+                "zh": "突破考试为野外、弹力装甲，以三次考试总分发放奖励。第3阶段使用EX技能提升攻击力、治疗力；第4阶段另有友军与稻草人持续失血，友军当前生命越高伤害越高。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ba-kr-20261014-tiphareth",
+      "gameId": "bluearchive",
+      "region": "kr",
+      "sourceUrl": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "fury-of-set",
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3555107"
+            ],
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": "2026-11-09T18:59:00Z"
+          }
+        }
+      }
+    },
+    {
+      "id": "ba-global-20261014-tiphareth",
+      "gameId": "bluearchive",
+      "region": "global",
+      "sourceUrl": "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "fury-of-set",
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://forum.nexon.com/bluearchive-en/board_view?board=3217&thread=3560143"
+            ],
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": "2026-11-09T18:59:00Z"
+          }
+        }
+      }
+    },
+    {
+      "id": "reverse1999-global-recurring-limbo",
+      "gameId": "reverse1999",
+      "region": "global",
+      "sourceUrl": "https://steamdb.info/patchnotes/18577867/",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "limbo",
+            "cycleLabel": {
+              "ko": "매월 16일",
+              "en": "Monthly on the 16th",
+              "ja": "毎月16日",
+              "zh": "每月16日"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://steamdb.info/patchnotes/18577867/"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "limbo",
+            "cycleLabel": {
+              "ko": "매월 16일",
+              "en": "Monthly on the 16th",
+              "ja": "毎月16日",
+              "zh": "每月16日"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://steamcommunity.com/games/3092660/announcements/detail/509581215161910832"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "매월 갱신되는 도전 보상으로 순결의 빗방울을 획득합니다.",
+                "en": "Earn Clear Drops from the challenge rewards renewed each month.",
+                "ja": "毎月更新される挑戦報酬で雨の雫を獲得。",
+                "zh": "通过每月刷新的挑战奖励获得纯雨滴。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://steamdb.info/patchnotes/18577867/"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "매월 갱신되는 도전 보상으로 순결의 빗방울을 획득합니다.",
+                "en": "Earn Clear Drops from the challenge rewards renewed each month.",
+                "ja": "毎月更新される挑戦報酬で雨の雫を獲得。",
+                "zh": "通过每月刷新的挑战奖励获得纯雨滴。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://steamdb.info/patchnotes/18577867/"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "매월16일 갱신됩니다. 글로벌 공지의 기준 시각은05:00(고정 UTC−5)이며 서머타임을 적용하지 않습니다. 이전 회차 만점 달성 시 다음 회차는5층부터 시작하고 앞4층 보상을 받을 수 있습니다.",
+                "en": "Refreshes on the16th monthly. The global notice specifies05:00 fixed UTC−5, with no DST. A full-star clear unlocks a layer5 start and rewards for the first4 layers next session.",
+                "ja": "毎月16日更新。グローバル告知の時刻は固定UTC−5の05:00で夏時間なし。前期全星クリアで次期5層開始、前4層の報酬を獲得可能。",
+                "zh": "每月16日刷新。全球服公告为固定UTC−5的05:00，不采用夏令时；上期满星可从第5层开始并领取前4层奖励。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://steamcommunity.com/games/3092660/announcements/detail/509581215161910832"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "reverse1999-global-recurring-lucidscape",
+      "gameId": "reverse1999",
+      "region": "global",
+      "sourceUrl": "https://steamdb.info/patchnotes/18577867/",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "lucidscape",
+            "cycleLabel": {
+              "ko": "매월 1일",
+              "en": "Monthly on the 1st",
+              "ja": "毎月1日",
+              "zh": "每月1日"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://steamdb.info/patchnotes/18577867/"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "lucidscape",
+            "cycleLabel": {
+              "ko": "매월 1일",
+              "en": "Monthly on the 1st",
+              "ja": "毎月1日",
+              "zh": "每月1日"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://steamcommunity.com/games/3092660/announcements/detail/509581215161910832"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "매월 갱신되는 도전 보상으로 순결의 빗방울을 획득합니다.",
+                "en": "Earn Clear Drops from the challenge rewards renewed each month.",
+                "ja": "毎月更新される挑戦報酬で雨の雫を獲得。",
+                "zh": "通过每月刷新的挑战奖励获得纯雨滴。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://steamdb.info/patchnotes/18577867/"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "매월 갱신되는 도전 보상으로 순결의 빗방울을 획득합니다.",
+                "en": "Earn Clear Drops from the challenge rewards renewed each month.",
+                "ja": "毎月更新される挑戦報酬で雨の雫を獲得。",
+                "zh": "通过每月刷新的挑战奖励获得纯雨滴。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://steamdb.info/patchnotes/18577867/"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "매월1일 갱신되는4층·전후반 도전입니다. 전반에 사용한 캐릭터와 몽유 버프는 후반에 다시 쓸 수 없습니다. 지속되는 갱신 시각은 공지에 명시되지 않아 날짜로 표시합니다.",
+                "en": "Four layers with two halves refresh on the1st monthly. Characters and Dream Buffs used in the first half cannot repeat in the second. The ongoing rule supplies the date but no explicit clock.",
+                "ja": "毎月1日更新、4層の前後半挑戦。前半で使用したキャラ・夢境バフは後半で再使用不可。継続更新の時刻は明記されていないため日付で表示。",
+                "zh": "每月1日刷新，共4层、每层前后半；前半使用的角色与梦境增益不能用于后半。持续刷新规则未明确时刻，仅显示日期。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://steamcommunity.com/games/3092660/announcements/detail/509581215161910832"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "reverse1999-cn-recurring-limbo",
+      "gameId": "reverse1999",
+      "region": "cn",
+      "sourceUrl": "https://www.bilibili.com/opus/1038822024098611217",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "limbo",
+            "cycleLabel": {
+              "ko": "매월 16일",
+              "en": "Monthly on the 16th",
+              "ja": "毎月16日",
+              "zh": "每月16日"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://www.bilibili.com/opus/1038822024098611217"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "limbo",
+            "cycleLabel": {
+              "ko": "매월 16일",
+              "en": "Monthly on the 16th",
+              "ja": "毎月16日",
+              "zh": "每月16日"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://www.bilibili.com/opus/1038822024098611217"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "중국 서버의 월간 도전 보상으로 순결의 빗방울을 획득합니다.",
+                "en": "Earn Clear Drops through the Chinese server’s monthly challenge rewards.",
+                "ja": "中国サーバーの月次挑戦報酬で雨の雫を獲得。",
+                "zh": "通过国服月度挑战奖励获得纯雨滴。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.bilibili.com/opus/1038822024098611217"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "중국 서버의 월간 도전 보상으로 순결의 빗방울을 획득합니다.",
+                "en": "Earn Clear Drops through the Chinese server’s monthly challenge rewards.",
+                "ja": "中国サーバーの月次挑戦報酬で雨の雫を獲得。",
+                "zh": "通过国服月度挑战奖励获得纯雨滴。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.bilibili.com/opus/1038822024098611217"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "중국 공식 공지는 매월16일05:00 갱신을 안내합니다. 시간대가 본문에 명시되지 않아 날짜 기준으로 표시합니다. 만점 클리어 후 다음 회차는5층부터 도전할 수 있습니다.",
+                "en": "The Chinese publisher specifies the16th at05:00 monthly without an explicit timezone. This service uses date-only display; a full-star clear unlocks the next layer5 start.",
+                "ja": "中国公式は毎月16日05:00更新と案内。時区未記載のため日付で表示。全星クリアで次期5層から挑戦可能。",
+                "zh": "中国官方公告为每月16日05:00刷新，原文未注明时区，因此按日期显示；满星后下期可从第5层挑战。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://www.bilibili.com/opus/1038822024098611217"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "reverse1999-cn-recurring-lucidscape",
+      "gameId": "reverse1999",
+      "region": "cn",
+      "sourceUrl": "https://www.bilibili.com/opus/1038822024098611217",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "lucidscape",
+            "cycleLabel": {
+              "ko": "매월 1일",
+              "en": "Monthly on the 1st",
+              "ja": "毎月1日",
+              "zh": "每月1日"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://www.bilibili.com/opus/1038822024098611217"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "lucidscape",
+            "cycleLabel": {
+              "ko": "매월 1일",
+              "en": "Monthly on the 1st",
+              "ja": "毎月1日",
+              "zh": "每月1日"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://www.bilibili.com/opus/1038822024098611217"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "중국 서버의 월간 도전 보상으로 순결의 빗방울을 획득합니다.",
+                "en": "Earn Clear Drops through the Chinese server’s monthly challenge rewards.",
+                "ja": "中国サーバーの月次挑戦報酬で雨の雫を獲得。",
+                "zh": "通过国服月度挑战奖励获得纯雨滴。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.bilibili.com/opus/1038822024098611217"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "중국 서버의 월간 도전 보상으로 순결의 빗방울을 획득합니다.",
+                "en": "Earn Clear Drops through the Chinese server’s monthly challenge rewards.",
+                "ja": "中国サーバーの月次挑戦報酬で雨の雫を獲得。",
+                "zh": "通过国服月度挑战奖励获得纯雨滴。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.bilibili.com/opus/1038822024098611217"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "매월1일 갱신되는4층·전후반 도전입니다. 전반에 사용한 캐릭터와 몽유 버프는 후반에 다시 쓸 수 없습니다. 지속되는 갱신 시각은 공지에 명시되지 않아 날짜로 표시합니다.",
+                "en": "Four layers with two halves refresh on the1st monthly. Characters and Dream Buffs used in the first half cannot repeat in the second. The ongoing rule supplies the date but no explicit clock.",
+                "ja": "毎月1日更新、4層の前後半挑戦。前半で使用したキャラ・夢境バフは後半で再使用不可。継続更新の時刻は明記されていないため日付で表示。",
+                "zh": "每月1日刷新，共4层、每层前后半；前半使用的角色与梦境增益不能用于后半。持续刷新规则未明确时刻，仅显示日期。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://www.bilibili.com/opus/1038822024098611217"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "umamusume-kr-recurring-umamusume-team-trials",
+      "gameId": "umamusume",
+      "region": "kr",
+      "sourceUrl": "https://guide.umms.kakaogames.com/7-레이스/",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "umamusume-team-trials",
+            "cycleLabel": {
+              "ko": "매주",
+              "en": "Weekly",
+              "ja": "毎週",
+              "zh": "每周"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://guide.umms.kakaogames.com/7-레이스/"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "umamusume-team-trials",
+            "cycleLabel": {
+              "ko": "매주",
+              "en": "Weekly",
+              "ja": "毎週",
+              "zh": "每周"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://guide.umms.kakaogames.com/7-%EB%A0%88%EC%9D%B4%EC%8A%A4/"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "매주 하이스코어에 따라 정해지는 CLASS 보상으로 쥬얼을 획득합니다.",
+                "en": "Earn Carats from weekly CLASS rewards based on your high score.",
+                "ja": "週間ハイスコアで決まるCLASS報酬からジュエルを獲得します。",
+                "zh": "根据每周最高分决定的CLASS奖励获得宝石。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://guide.umms.kakaogames.com/7-레이스/"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "매주 하이스코어에 따라 정해지는 CLASS 보상으로 쥬얼을 획득합니다.",
+                "en": "Earn Carats from weekly CLASS rewards based on your high score.",
+                "ja": "週間ハイスコアで決まるCLASS報酬からジュエルを獲得します。",
+                "zh": "根据每周最高分决定的CLASS奖励获得宝石。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://guide.umms.kakaogames.com/7-레이스/"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "단거리·마일·중거리·장거리·더트에 적성이 맞는 전당 입성 우마무스메를 최대 15명 편성합니다. 에이스의 획득 점수는 1.1배이며 매주 하이스코어로 CLASS와 주간 보상이 정해집니다.",
+                "en": "Assign up to 15 Veteran Umamusume across Sprint, Mile, Medium, Long and Dirt. Aces score 1.1×; weekly high scores determine CLASS and weekly rewards.",
+                "ja": "短距離・マイル・中距離・長距離・ダートに適性のある殿堂入りウマ娘を最大15人編成。エースのスコアは1.1倍で、週間ハイスコアによりCLASSと週間報酬が決まります。",
+                "zh": "按短途、英里、中距离、长距离、泥地适性编入最多15位殿堂赛马娘。王牌得分为1.1倍，每周最高分决定CLASS与周奖励。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://guide.umms.kakaogames.com/7-%EB%A0%88%EC%9D%B4%EC%8A%A4/"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "genshin-71-imaginarium-theater-november",
+      "gameId": "genshin",
+      "region": "global",
+      "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/166666",
+      "fields": {
+        "endDate": {
+          "after": "2026-11-30"
+        },
+        "recurring": {
+          "before": {
+            "modeId": "imaginarium-theater",
+            "cycleLabel": {
+              "ko": "주기 도전 · 회차별 확인",
+              "en": "Recurring challenge · season-specific",
+              "ja": "周期挑戦・各期を確認",
+              "zh": "周期挑战 · 按期核实"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "imaginarium-theater",
+            "cycleLabel": {
+              "ko": "주기 도전 · 회차별 확인",
+              "en": "Recurring challenge · season-specific",
+              "ja": "周期挑戦・各期を確認",
+              "zh": "周期挑战 · 按期核实"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://genshin.hoyoverse.com/ko/news/detail/166383",
+              "https://genshin.hoyoverse.com/en/news/detail/166383",
+              "https://genshin.hoyoverse.com/ja/news/detail/166383",
+              "https://genshin.hoyoverse.com/zh-tw/news/detail/166383",
+              "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null,
+            "resetDate": "2026-11-30"
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "공지 상세",
+                "en": "Notice details",
+                "ja": "お知らせの詳細",
+                "zh": "公告详情"
+              },
+              "body": {
+                "ko": "11월 1일에 새 회차가 시작되며 지정 원소는 물·번개·바위입니다. 개막·초청 캐릭터가 회차에 맞게 교체되고 신규 공연 비결 4종은 NPC 울피에게 교환합니다. 시작 날짜만 공식적으로 제시되어 시각은 비워 둡니다.",
+                "en": "A new rotation starts November 1 with Hydro, Electro and Geo as the designated elements. Opening and special guest rosters change for the rotation; four new performance tricks can be exchanged with Wolfy. Only the date is specified, so no starting clock is added.",
+                "ja": "11月1日に新期開始、指定元素は水・雷・岩です。開幕・招待キャラクターが更新され、新たな演技のコツ4種はNPCウルフィーと交換します。公式表記は日付のみなので開始時刻を追加しません。",
+                "zh": "新一期11月1日开放，指定元素为水、雷、岩。开幕和特邀角色随期更新，4种新表演诀窍可与NPC小狼交换。官方仅给日期，不补造开始时刻。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://genshin.hoyoverse.com/ko/news/detail/166666"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "공지 상세",
+                "en": "Notice details",
+                "ja": "お知らせの詳細",
+                "zh": "公告详情"
+              },
+              "body": {
+                "ko": "11월 1일에 새 회차가 시작되며 지정 원소는 물·번개·바위입니다. 개막·초청 캐릭터가 회차에 맞게 교체되고 신규 공연 비결 4종은 NPC 울피에게 교환합니다. 시작 날짜만 공식적으로 제시되어 시각은 비워 둡니다.",
+                "en": "A new rotation starts November 1 with Hydro, Electro and Geo as the designated elements. Opening and special guest rosters change for the rotation; four new performance tricks can be exchanged with Wolfy. Only the date is specified, so no starting clock is added.",
+                "ja": "11月1日に新期開始、指定元素は水・雷・岩です。開幕・招待キャラクターが更新され、新たな演技のコツ4種はNPCウルフィーと交換します。公式表記は日付のみなので開始時刻を追加しません。",
+                "zh": "新一期11月1日开放，指定元素为水、雷、岩。开幕和特邀角色随期更新，4种新表演诀窍可与NPC小狼交换。官方仅给日期，不补造开始时刻。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://genshin.hoyoverse.com/ko/news/detail/166666"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "10월 지정 원소는 물·얼음·바람, 11월은 물·번개·바위입니다. 개막 캐릭터 6명과 초청 캐릭터는 회차별로 다릅니다.",
+                "en": "October features Hydro, Cryo and Anemo; November features Hydro, Electro and Geo. Each phase has its own six opening characters and special guests.",
+                "ja": "10月の指定元素は水・氷・風、11月は水・雷・岩。開幕キャスト6名と特別招待キャストは各期で異なります。",
+                "zh": "10月限定元素為水、冰、風，11月為水、雷、岩；每期開幕角色6名及特邀角色各不相同。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://genshin.hoyoverse.com/ko/news/detail/166383"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "genshin-recurring-spiral-abyss",
+      "gameId": "genshin",
+      "region": "global",
+      "sourceUrl": "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "spiral-abyss",
+            "cycleLabel": {
+              "ko": "월간 도전",
+              "en": "Monthly challenge",
+              "ja": "毎月の挑戦",
+              "zh": "月度挑战"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "spiral-abyss",
+            "cycleLabel": {
+              "ko": "월간 도전",
+              "en": "Monthly challenge",
+              "ja": "毎月の挑戦",
+              "zh": "月度挑战"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "after": [
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "매월16일 새로운 회차가 시작됩니다. 해당 월의 지맥 이상·축복·적 편성은 회차별 공지를 확인하세요.",
+                "en": "A new phase starts on the16th monthly. Check its announcement for disorders, blessings and enemies.",
+                "ja": "毎月16日更新。地脈異常・祝福・敵編成は各期の告知を確認。",
+                "zh": "每月16日刷新，地脉异常、祝福与敌方阵容请查看当期公告。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "genshin-71-ley-line-trial",
+      "gameId": "genshin",
+      "region": "global",
+      "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/166666",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "stygian-onslaught",
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://genshin.hoyoverse.com/ko/news/detail/166666"
+            ],
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetDate": "2026-11-03"
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "기간과 마감",
+                "en": "Period and deadlines",
+                "ja": "期間と締切",
+                "zh": "活动时间与截止"
+              },
+              "body": {
+                "ko": "공식 버전 캘린더에 9월 30일~11월 3일 일정으로 실려 있습니다. 보상 그림은 원석·무기 강화 재료·캐릭터 경험치 책을 표시하지만 수량·참가 레벨·일일 상한은 이 캘린더에 없습니다.",
+                "en": "Listed on the official version calendar for September 30–November 3. The reward icons show Primogems, weapon enhancement materials and character EXP books, but the calendar does not specify amounts, level eligibility or a daily cap.",
+                "ja": "公式カレンダー掲載期間は9月30日～11月3日。報酬アイコンは原石・武器強化素材・キャラクター経験値本ですが、数量・参加レベル・日次上限は記載されていません。",
+                "zh": "官方版本日历列出9月30日至11月3日，奖励图标含原石、武器强化材料、角色经验书，但没有数量、等级条件或每日上限。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://genshin.hoyoverse.com/ko/news/detail/166666"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "기간과 마감",
+                "en": "Period and deadlines",
+                "ja": "期間と締切",
+                "zh": "活动时间与截止"
+              },
+              "body": {
+                "ko": "공식 버전 캘린더에 9월 30일~11월 3일 일정으로 실려 있습니다. 보상 그림은 원석·무기 강화 재료·캐릭터 경험치 책을 표시하지만 수량·참가 레벨·일일 상한은 이 캘린더에 없습니다.",
+                "en": "Listed on the official version calendar for September 30–November 3. The reward icons show Primogems, weapon enhancement materials and character EXP books, but the calendar does not specify amounts, level eligibility or a daily cap.",
+                "ja": "公式カレンダー掲載期間は9月30日～11月3日。報酬アイコンは原石・武器強化素材・キャラクター経験値本ですが、数量・参加レベル・日次上限は記載されていません。",
+                "zh": "官方版本日历列出9月30日至11月3日，奖励图标含原石、武器强化材料、角色经验书，但没有数量、等级条件或每日上限。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://genshin.hoyoverse.com/ko/news/detail/166666"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "회차별 보스와 난이도를 선택하는 전투 콘텐츠입니다. 이번 회차는9월30일~11월3일이며 다음 회차를 고정 일수로 계산하지 않습니다.",
+                "en": "Choose phase-specific bosses and difficulty. This announced phase spans September30–November3.",
+                "ja": "各期のボス・難度を選ぶ戦闘コンテンツ。今期は9月30日～11月3日。",
+                "zh": "选择本期首领和难度的战斗内容，本期为9月30日至11月3日。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://genshin.hoyoverse.com/ko/news/detail/166666"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hsr-global-recurring-apocalyptic-shadow",
+      "gameId": "hsr",
+      "region": "global",
+      "sourceUrl": "https://honkai-builds.com/en/guides/endgame-modes",
+      "fields": {
+        "title": {
+          "before": {
+            "ko": "종말의 환영",
+            "en": "Apocalyptic Shadow",
+            "ja": "末日の幻影",
+            "zh": "末日幻影"
+          },
+          "after": {
+            "ko": "종말의 환영 · 지배와 망각",
+            "en": "Apocalyptic Shadow · Dominance of Oblivion",
+            "ja": "末日の幻影 · 忘却の支配",
+            "zh": "末日幻影 · 支配遗忘"
+          }
+        },
+        "startDate": {
+          "after": "2026-10-05"
+        },
+        "endDate": {
+          "after": "2026-11-16"
+        },
+        "recurring": {
+          "before": {
+            "modeId": "apocalyptic-shadow",
+            "cycleLabel": {
+              "ko": "회차 갱신",
+              "en": "Phase refresh",
+              "ja": "期ごとに更新",
+              "zh": "周期更新"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://honkai-builds.com/en/guides/endgame-modes"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "apocalyptic-shadow",
+            "cycleLabel": {
+              "ko": "회차 갱신",
+              "en": "Phase refresh",
+              "ja": "期ごとに更新",
+              "zh": "周期更新"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://hsr.hoyoverse.com/ko-kr/news/166468",
+              "https://hsr.hoyoverse.com/en-us/news/166468",
+              "https://hsr.hoyoverse.com/ja-jp/news/166468",
+              "https://hsr.hoyoverse.com/zh-cn/news/166468"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null,
+            "resetDate": "2026-11-16"
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "회차별 별 보상으로 성옥 획득. 스타라이즈 모드 추가 보상은 별도 조건을 충족해야 합니다.",
+                "en": "Earn Stellar Jade at phase star milestones; Starward adds a separate challenge reward.",
+                "ja": "各期の星獲得条件で星玉。スターワードの追加報酬には別の条件があります。",
+                "zh": "按周期星数领取星琼；星芒模式额外奖励需满足独立条件。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://honkai-builds.com/en/guides/endgame-modes"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "회차별 별 보상으로 성옥 획득. 스타라이즈 모드 추가 보상은 별도 조건을 충족해야 합니다.",
+                "en": "Earn Stellar Jade at phase star milestones; Starward adds a separate challenge reward.",
+                "ja": "各期の星獲得条件で星玉。スターワードの追加報酬には別の条件があります。",
+                "zh": "按周期星数领取星琼；星芒模式额外奖励需满足独立条件。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://honkai-builds.com/en/guides/endgame-modes"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "적이 받는 필살기 피해25%, 환락 피해15% 증가. 견고한 수비 적의 약점 격파가 아군 제어 해제·행동 증가와 아하 보너스 턴을 발동합니다.",
+                "en": "Enemies take25% more Ultimate DMG and15% more Elation DMG. Breaking a Steadfast Safeguard enemy removes allied control effects, advances actions and grants Aha an extra turn.",
+                "ja": "敵の受ける必殺技ダメージ+25%、愉悦ダメージ+15%。鉄壁の防御の敵を弱点撃破すると味方の行動制限解除・行動順短縮とアッハの追加ターンが発動。",
+                "zh": "敵方受到終結技傷害提高25%、歡愉傷害提高15%；擊破堅防守備敵人的弱點可解除我方控制、行動提前並觸發阿哈額外回合。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://hsr.hoyoverse.com/ko-kr/news/166468"
+              ]
+            }
+          ]
+        },
+        "rewardNote": {
+          "before": {
+            "ko": "회차 보상과 최초 클리어 보상은 별도입니다. 현재 회차 마감은 게임에서 확인하세요.",
+            "en": "Phase rewards are separate from first-clear rewards. Check the current deadline in game.",
+            "ja": "期の報酬と初回クリア報酬は別です。今期の期限はゲーム内で確認。",
+            "zh": "周期奖励与首次通关奖励分开计算。当前截止时间请以游戏内为准。"
+          },
+          "after": {
+            "ko": "회차별 별 보상과 최초 클리어 보상은 별도로 집계합니다.",
+            "en": "Phase star rewards and first-clear rewards are counted separately.",
+            "ja": "各期の星数報酬と初回クリア報酬は別に集計します。",
+            "zh": "本期星数奖励与首次通关奖励分开计算。"
+          }
+        }
+      }
+    },
+    {
+      "id": "hsr-global-recurring-pure-fiction",
+      "gameId": "hsr",
+      "region": "global",
+      "sourceUrl": "https://honkai-builds.com/en/guides/endgame-modes",
+      "fields": {
+        "title": {
+          "before": {
+            "ko": "허구 이야기",
+            "en": "Pure Fiction",
+            "ja": "虚構叙事",
+            "zh": "虚构叙事"
+          },
+          "after": {
+            "ko": "허구 이야기 · 취상 작문",
+            "en": "Pure Fiction · Imagined Words",
+            "ja": "虚構叙事 · 形象を取りて文と為す",
+            "zh": "虚构叙事 · 取象为文"
+          }
+        },
+        "startDate": {
+          "after": "2026-10-19"
+        },
+        "endDate": {
+          "after": "2026-11-30"
+        },
+        "recurring": {
+          "before": {
+            "modeId": "pure-fiction",
+            "cycleLabel": {
+              "ko": "회차 갱신",
+              "en": "Phase refresh",
+              "ja": "期ごとに更新",
+              "zh": "周期更新"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://honkai-builds.com/en/guides/endgame-modes"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "pure-fiction",
+            "cycleLabel": {
+              "ko": "회차 갱신",
+              "en": "Phase refresh",
+              "ja": "期ごとに更新",
+              "zh": "周期更新"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://hsr.hoyoverse.com/ko-kr/news/166468",
+              "https://hsr.hoyoverse.com/en-us/news/166468",
+              "https://hsr.hoyoverse.com/ja-jp/news/166468",
+              "https://hsr.hoyoverse.com/zh-cn/news/166468"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null,
+            "resetDate": "2026-11-30"
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "회차별 별 보상으로 성옥 획득. 스타라이즈 모드 추가 보상은 별도 조건을 충족해야 합니다.",
+                "en": "Earn Stellar Jade at phase star milestones; Starward adds a separate challenge reward.",
+                "ja": "各期の星獲得条件で星玉。スターワードの追加報酬には別の条件があります。",
+                "zh": "按周期星数领取星琼；星芒模式额外奖励需满足独立条件。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://honkai-builds.com/en/guides/endgame-modes"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "회차별 별 보상으로 성옥 획득. 스타라이즈 모드 추가 보상은 별도 조건을 충족해야 합니다.",
+                "en": "Earn Stellar Jade at phase star milestones; Starward adds a separate challenge reward.",
+                "ja": "各期の星獲得条件で星玉。スターワードの追加報酬には別の条件があります。",
+                "zh": "按周期星数领取星琼；星芒模式额外奖励需满足独立条件。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://honkai-builds.com/en/guides/endgame-modes"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "적에게 디버프를 부여하면 전의 수치1pt를 추가 누적하며, 적마다 최대10회 발동합니다.",
+                "en": "Inflicting a debuff adds1 Grit Value, up to10 triggers per enemy.",
+                "ja": "敵にデバフを付与すると戦意値を追加で1獲得。敵ごとに最大10回発動。",
+                "zh": "施加負面效果時額外累積1點戰意值，每個敵人最多觸發10次。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://hsr.hoyoverse.com/ko-kr/news/166468"
+              ]
+            }
+          ]
+        },
+        "rewardNote": {
+          "before": {
+            "ko": "회차 보상과 최초 클리어 보상은 별도입니다. 현재 회차 마감은 게임에서 확인하세요.",
+            "en": "Phase rewards are separate from first-clear rewards. Check the current deadline in game.",
+            "ja": "期の報酬と初回クリア報酬は別です。今期の期限はゲーム内で確認。",
+            "zh": "周期奖励与首次通关奖励分开计算。当前截止时间请以游戏内为准。"
+          },
+          "after": {
+            "ko": "회차별 별 보상과 최초 클리어 보상은 별도로 집계합니다.",
+            "en": "Phase star rewards and first-clear rewards are counted separately.",
+            "ja": "各期の星数報酬と初回クリア報酬は別に集計します。",
+            "zh": "本期星数奖励与首次通关奖励分开计算。"
+          }
+        }
+      }
+    },
+    {
+      "id": "hsr-global-recurring-unified-weekly-points",
+      "gameId": "hsr",
+      "region": "global",
+      "sourceUrl": "https://bbs.ruliweb.com/best/board/300001/read/2351461?m=all&t=now",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "unified-weekly-points",
+            "cycleLabel": {
+              "ko": "주간 갱신",
+              "en": "Weekly refresh",
+              "ja": "毎週更新",
+              "zh": "每周刷新"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://bbs.ruliweb.com/best/board/300001/read/2351461?m=all&t=now"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "unified-weekly-points",
+            "cycleLabel": {
+              "ko": "주간 갱신",
+              "en": "Weekly refresh",
+              "ja": "毎週更新",
+              "zh": "每周刷新"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://hsr.hoyoverse.com/ko-kr/news/166468",
+              "https://hsr.hoyoverse.com/en-us/news/166468",
+              "https://hsr.hoyoverse.com/ja-jp/news/166468",
+              "https://hsr.hoyoverse.com/zh-cn/news/166468"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "통합 주간 점수로 성옥과 별의 궤도 티켓 획득. 차분화 우주 보상을 중복 집계하지 않습니다.",
+                "en": "Unified weekly points award Stellar Jade and Star Rail Passes; Divergent Universe is included.",
+                "ja": "統合週間ポイントで星玉と星軌チケット。階差宇宙分は重複計上しません。",
+                "zh": "统一每周积分提供星琼和星轨通票；差分宇宙奖励已纳入，不重复计算。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://bbs.ruliweb.com/best/board/300001/read/2351461?m=all&t=now"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "통합 주간 점수로 성옥과 별의 궤도 티켓 획득. 차분화 우주 보상을 중복 집계하지 않습니다.",
+                "en": "Unified weekly points award Stellar Jade and Star Rail Passes; Divergent Universe is included.",
+                "ja": "統合週間ポイントで星玉と星軌チケット。階差宇宙分は重複計上しません。",
+                "zh": "统一每周积分提供星琼和星轨通票；差分宇宙奖励已纳入，不重复计算。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://bbs.ruliweb.com/best/board/300001/read/2351461?m=all&t=now"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "화폐 전쟁 또는 차분화 우주에서 공통 주기 점수를 얻고 보상을 수령합니다. 같은 보상 풀을 두 모드에서 중복 집계하지 않습니다.",
+                "en": "Currency Wars or Divergent Universe earns shared cycle points. Their shared rewards are counted once.",
+                "ja": "マネーウォーズまたは階差宇宙で共通周期ポイントを獲得。同じ報酬を両モードで重複集計しません。",
+                "zh": "货币战争或差分宇宙可获得共用周期积分，同一奖励池不重复计算。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://hsr.hoyoverse.com/ko-kr/news/166468"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zzz-global-recurring-deadly-assault",
+      "gameId": "zzz",
+      "region": "global",
+      "sourceUrl": "https://www.icy-veins.com/zenless-zone-zero/deadly-assault",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "deadly-assault",
+            "cycleLabel": {
+              "ko": "2주마다 갱신",
+              "en": "Every two weeks",
+              "ja": "2週間ごとに更新",
+              "zh": "每两周刷新"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://www.icy-veins.com/zenless-zone-zero/deadly-assault"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "deadly-assault",
+            "cycleLabel": {
+              "ko": "2주마다 갱신",
+              "en": "Every two weeks",
+              "ja": "2週間ごとに更新",
+              "zh": "每两周刷新"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://www.icy-veins.com/zenless-zone-zero/deadly-assault"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "주기별 합계 6별까지 폴리크롬 보상. 추가 고난도 모드 보상은 치장 아이템입니다.",
+                "en": "Polychrome milestones stop at six total stars; Adversity rewards are cosmetic.",
+                "ja": "各期の合計6星までポリクローム。追加高難度の報酬は装飾品です。",
+                "zh": "每期累计六星可领完菲林；额外高难模式提供装饰奖励。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.icy-veins.com/zenless-zone-zero/deadly-assault"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "주기별 합계 6별까지 폴리크롬 보상. 추가 고난도 모드 보상은 치장 아이템입니다.",
+                "en": "Polychrome milestones stop at six total stars; Adversity rewards are cosmetic.",
+                "ja": "各期の合計6星までポリクローム。追加高難度の報酬は装飾品です。",
+                "zh": "每期累计六星可领完菲林；额外高难模式提供装饰奖励。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.icy-veins.com/zenless-zone-zero/deadly-assault"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "보스마다 독립된 파티로3분 동안 점수를 쌓습니다. 이번 회차의 적·특성은 게임 내 회차 안내와 대조하세요. 버전3.3 공지는 여러 단계의 적 목록을 제공하지만 각 단계 날짜는 명시하지 않습니다.",
+                "en": "Score during3-minute boss battles with independent teams. Version3.3 lists several phase lineups without binding phase dates; check the in-game phase.",
+                "ja": "各ボスに別チームで3分間挑戦。3.3告知の複数期の敵一覧には各期の日付がなく、ゲーム内の今期案内を確認。",
+                "zh": "每个首领用独立队伍进行3分钟积分战。3.3公告列出多期阵容，未绑定各期日期，请以游戏内当期为准。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.icy-veins.com/zenless-zone-zero/deadly-assault"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zzz-global-recurring-hollow-zero-bounties",
+      "gameId": "zzz",
+      "region": "global",
+      "sourceUrl": "https://www.icy-veins.com/zenless-zone-zero/hollow-zero-lost-void",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "hollow-zero-bounties",
+            "cycleLabel": {
+              "ko": "주간 갱신",
+              "en": "Weekly refresh",
+              "ja": "毎週更新",
+              "zh": "每周刷新"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://www.icy-veins.com/zenless-zone-zero/hollow-zero-lost-void"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "hollow-zero-bounties",
+            "cycleLabel": {
+              "ko": "주간 갱신",
+              "en": "Weekly refresh",
+              "ja": "毎週更新",
+              "zh": "每周刷新"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://zenless.hoyoverse.com/ko-kr/news/166963",
+              "https://zenless.hoyoverse.com/en-us/news/166963",
+              "https://zenless.hoyoverse.com/ja-jp/news/166963",
+              "https://zenless.hoyoverse.com/zh-cn/news/166963"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "주간 의뢰 진행으로 폴리크롬과 마스터 테이프 획득. 조사 레벨·도감 보상과 구분됩니다.",
+                "en": "Weekly bounty progress awards Polychrome and Master Tapes, separate from license and collection rewards.",
+                "ja": "週間依頼でポリクロームとマスターテープ。調査ライセンス・図鑑報酬とは別です。",
+                "zh": "每周悬赏提供菲林与母带，与调查执照和图鉴奖励分开。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.icy-veins.com/zenless-zone-zero/hollow-zero-lost-void"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "주간 의뢰 진행으로 폴리크롬과 마스터 테이프 획득. 조사 레벨·도감 보상과 구분됩니다.",
+                "en": "Weekly bounty progress awards Polychrome and Master Tapes, separate from license and collection rewards.",
+                "ja": "週間依頼でポリクロームとマスターテープ。調査ライセンス・図鑑報酬とは別です。",
+                "zh": "每周悬赏提供菲林与母带，与调查执照和图鉴奖励分开。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.icy-veins.com/zenless-zone-zero/hollow-zero-lost-void"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "주간 의뢰 보상과 탐색 임무를 확인하세요.3.3에 피닉스·세베리안 프리즘 프로그램이 추가됐으며 버전 탐색 보상과 주간 의뢰는 구분됩니다.",
+                "en": "Check weekly bounties and exploration missions. Version3.3 adds Phoenix/Severian prism programs; version exploration rewards are distinct from weekly bounties.",
+                "ja": "週間依頼と探索任務を確認。3.3でフェニックス・セヴェリアンのプリズムプログラムを追加。版の探索報酬と週間依頼は別です。",
+                "zh": "查看每周委托及探索任务；3.3新增菲尼克斯、塞维里安棱镜程序，版本探索奖励与周委托不同。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://zenless.hoyoverse.com/ko-kr/news/166963"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hi3-kr-recurring-abyss",
+      "gameId": "hi3",
+      "region": "kr",
+      "sourceUrl": "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "abyss",
+            "cycleLabel": {
+              "ko": "주 2회",
+              "en": "Twice weekly",
+              "ja": "週2回",
+              "zh": "每周两次"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "abyss",
+            "cycleLabel": {
+              "ko": "주 2회",
+              "en": "Twice weekly",
+              "ja": "週2回",
+              "zh": "每周两次"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://honkaiimpact3.hoyoverse.com/kr/ko-kr/news/167008"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "회차 결산·등급에 따라 수정 획득. 함장 레벨에 따라 이용하는 심연이 달라집니다.",
+                "en": "Crystals depend on cycle settlement and tier; available Abyss variant depends on Captain level.",
+                "ja": "期の決算と階級に応じて水晶。艦長レベルで参加できる深淵が変わります。",
+                "zh": "根据周期结算和段位获得水晶；深渊类型随舰长等级变化。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "회차 결산·등급에 따라 수정 획득. 함장 레벨에 따라 이용하는 심연이 달라집니다.",
+                "en": "Crystals depend on cycle settlement and tier; available Abyss variant depends on Captain level.",
+                "ja": "期の決算と階級に応じて水晶。艦長レベルで参加できる深淵が変わります。",
+                "zh": "根据周期结算和段位获得水晶；深渊类型随舰长等级变化。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "9.1에서는 화염·두려움 고위험 스테이지와 저격 고위험 스테이지가 추가됐습니다. 추가 스테이지 목록이며 이번 주 보스 편성을 뜻하지 않습니다.",
+                "en": "Version9.1 adds Fire/Dread and Sniping danger stages. These are catalog additions, not this week’s lineup.",
+                "ja": "9.1で炎・恐怖と狙撃の高危険ステージを追加。今週のボス編成を表す情報ではありません。",
+                "zh": "9.1新增火焰·恐惧及狙击高危关卡，这是关卡目录更新，并非本周首领阵容。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://honkaiimpact3.hoyoverse.com/kr/ko-kr/news/167008"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hi3-kr-recurring-memorial-arena",
+      "gameId": "hi3",
+      "region": "kr",
+      "sourceUrl": "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "memorial-arena",
+            "cycleLabel": {
+              "ko": "주간 갱신",
+              "en": "Weekly refresh",
+              "ja": "毎週更新",
+              "zh": "每周刷新"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "memorial-arena",
+            "cycleLabel": {
+              "ko": "주간 갱신",
+              "en": "Weekly refresh",
+              "ja": "毎週更新",
+              "zh": "每周刷新"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://honkaiimpact3.hoyoverse.com/kr/ko-kr/news/167008"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "주간 누적 도전 완료로 수정 획득. 종급은 SSS 점수 조건의 추가 보상이 있습니다.",
+                "en": "Weekly clear milestones award Crystals; Exalted has extra SSS score-threshold rewards.",
+                "ja": "週間挑戦回数で水晶。最上級にはSSSスコア条件の追加報酬があります。",
+                "zh": "每周累计完成挑战可得水晶；终极区另有SSS分数条件奖励。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "주간 누적 도전 완료로 수정 획득. 종급은 SSS 점수 조건의 추가 보상이 있습니다.",
+                "en": "Weekly clear milestones award Crystals; Exalted has extra SSS score-threshold rewards.",
+                "ja": "週間挑戦回数で水晶。最上級にはSSSスコア条件の追加報酬があります。",
+                "zh": "每周累计完成挑战可得水晶；终极区另有SSS分数条件奖励。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "9.1에서 SSS 허수 적과 라인업 추천 개선이 추가됐습니다. 보스와 난이도별 제한을 확인해 편성하세요. 현재 회차의 정확한 마감은 확인되지 않았습니다.",
+                "en": "Version9.1 adds an SSS Imaginary enemy and improves lineup recommendations. Check boss/difficulty restrictions; this phase’s cutoff is unconfirmed.",
+                "ja": "9.1でSSS虚数敵と編成推奨の改善を追加。敵・難度ごとの制限を確認。今期の締切は未確認。",
+                "zh": "9.1新增SSS虚数敌人与阵容推荐优化，请按首领和难度确认限制；本期截止时间未确认。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://honkaiimpact3.hoyoverse.com/kr/ko-kr/news/167008"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hi3-kr-recurring-elysian-realm",
+      "gameId": "hi3",
+      "region": "kr",
+      "sourceUrl": "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "elysian-realm",
+            "cycleLabel": {
+              "ko": "주간 갱신",
+              "en": "Weekly refresh",
+              "ja": "毎週更新",
+              "zh": "每周刷新"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "elysian-realm",
+            "cycleLabel": {
+              "ko": "주간 갱신",
+              "en": "Weekly refresh",
+              "ja": "毎週更新",
+              "zh": "每周刷新"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://honkaiimpact3.hoyoverse.com/kr/ko-kr/news/167008"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "심층 서열 점수에 따른 주간 수정 보상. 캐릭터별 최초 클리어 보상은 별도입니다.",
+                "en": "Deep Sequence score awards weekly Crystals; character first-clear rewards are separate.",
+                "ja": "深層序列スコアで週間水晶。キャラ別初回クリア報酬とは別です。",
+                "zh": "按深层序列得分领取每周水晶；角色首次通关奖励另计。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "심층 서열 점수에 따른 주간 수정 보상. 캐릭터별 최초 클리어 보상은 별도입니다.",
+                "en": "Deep Sequence score awards weekly Crystals; character first-clear rewards are separate.",
+                "ja": "深層序列スコアで週間水晶。キャラ別初回クリア報酬とは別です。",
+                "zh": "按深层序列得分领取每周水晶；角色首次通关奖励另计。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://subculturegamer.com/honkai-3rd-weekly-contents-routine/"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "9.1에 시간의 율자가 참여하며 심층 서열 효과가 갱신됐습니다. 선택 캐릭터와 이번 회차 효과를 확인해 각인을 구성하세요.",
+                "en": "Version9.1 adds Herrscher of Time and updates Deep Sequence effects. Select signets for the character and phase effects.",
+                "ja": "9.1で時の律者が参加し、深層序列の効果が更新。キャラと今期効果に合わせて刻印を選択。",
+                "zh": "9.1加入时间之律者并更新深层序列效果，请按角色及本期效果选择刻印。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://honkaiimpact3.hoyoverse.com/kr/ko-kr/news/167008"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "trickcal-kr-recurring-dimension-crash",
+      "gameId": "trickcal",
+      "region": "kr",
+      "sourceUrl": "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠/차원 대충돌",
+      "fields": {
+        "startDate": {
+          "after": "2026-10-29"
+        },
+        "endDate": {
+          "after": "2026-11-05"
+        },
+        "recurring": {
+          "before": {
+            "modeId": "dimension-crash",
+            "cycleLabel": {
+              "ko": "시즌별",
+              "en": "Per season",
+              "ja": "シーズンごと",
+              "zh": "每赛季"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠/차원 대충돌"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "dimension-crash",
+            "cycleLabel": {
+              "ko": "광기 시즌",
+              "en": "Madness season",
+              "ja": "狂気シーズン",
+              "zh": "狂气赛季"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/Trickcal/board/detail/8377618"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null,
+            "resetDate": "2026-11-05"
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "시즌 레이드의 단계 보상과 시즌 종료 보상으로 엘리프를 획득합니다.",
+                "en": "Earn Crystal Leaves from raid stages and season settlement.",
+                "ja": "レイドの段階報酬とシーズン終了報酬でエリーフを獲得。",
+                "zh": "通过赛季突袭阶段奖励及赛季结算获得水晶葉。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠/차원 대충돌"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "시즌 레이드의 단계 보상과 시즌 종료 보상으로 엘리프를 획득합니다.",
+                "en": "Earn Crystal Leaves from raid stages and season settlement.",
+                "ja": "レイドの段階報酬とシーズン終了報酬でエリーフを獲得。",
+                "zh": "通过赛季突袭阶段奖励及赛季结算获得水晶葉。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠/차원 대충돌"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "이번 회차는 광기 시즌입니다. 마법 피해량과 중열 사도 피해량이 각각25% 증가하며, 지정 아티팩트 카드가 드로우됩니다. 점검 후 시작해11월5일10:59에 종료한다고 한국 공지가 안내합니다.",
+                "en": "The current Madness season increases Magic DMG and middle-row Apostle DMG by25% each and draws designated Artifact cards. The KR notice lists post-maintenance opening and November5 at10:59 ending; its timezone is unstated.",
+                "ja": "今期は狂気シーズン。魔法ダメージと中列使徒ダメージが各25%増加し、指定アーティファクトカードをドロー。韓国告知はメンテナンス後開始、11月5日10:59終了と案内（時区未記載）。",
+                "zh": "本期为狂气赛季：魔法伤害和中排使徒伤害各提高25%，抽取指定神器卡。韩国公告列出维护后开启、11月5日10:59结束，未标明时区。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://game.naver.com/lounge/Trickcal/board/detail/8377618"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "trickcal-kr-recurring-brawl-pit",
+      "gameId": "trickcal",
+      "region": "kr",
+      "sourceUrl": "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠",
+      "fields": {
+        "startDate": {
+          "after": "2026-10-08"
+        },
+        "endDate": {
+          "after": "2026-11-05"
+        },
+        "recurring": {
+          "before": {
+            "modeId": "brawl-pit",
+            "cycleLabel": {
+              "ko": "시즌별",
+              "en": "Per season",
+              "ja": "シーズンごと",
+              "zh": "每赛季"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "brawl-pit",
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/Trickcal/board/detail/8298046"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null,
+            "resetDate": "2026-11-05"
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "시즌 최고 순위를 갱신하면 엘리프를 받습니다.",
+                "en": "Improve your season-best rank to earn Crystal Leaves.",
+                "ja": "シーズン最高順位の更新でエリーフを獲得。",
+                "zh": "刷新赛季最高排名可获得水晶葉。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "시즌 최고 순위를 갱신하면 엘리프를 받습니다.",
+                "en": "Improve your season-best rank to earn Crystal Leaves.",
+                "ja": "シーズン最高順位の更新でエリーフを獲得。",
+                "zh": "刷新赛季最高排名可获得水晶葉。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "새 그룹으로 진행하는 정규 PvP 시즌입니다. 엘다인 편성 수 제한이 없어지고 고학년 스킬을 사용할 수 있습니다.11월5일11:00부터 점검 종료 전까지 정산으로 입장할 수 없습니다.",
+                "en": "The regular PvP season uses newly assigned groups, removes the Eldain lineup cap and permits upper-grade skills. Settlement disables entry from November5 at11:00 until maintenance ends; the notice leaves timezone unstated.",
+                "ja": "新グループで行う通常PvPシーズン。エルダイン編成数制限を撤廃し、高学年スキルを使用可能。11月5日11:00からメンテナンス終了まで集計のため入場不可（時区未記載）。",
+                "zh": "本期常规PvP重新分组，取消艾尔达因编队数量限制，并允许高年级技能。11月5日11:00至维护结束进行结算，期间无法入场，公告未标明时区。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://game.naver.com/lounge/Trickcal/board/detail/8298046"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "trickcal-kr-recurring-elias-frontier",
+      "gameId": "trickcal",
+      "region": "kr",
+      "sourceUrl": "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠",
+      "fields": {
+        "recurring": {
+          "before": {
+            "modeId": "elias-frontier",
+            "cycleLabel": {
+              "ko": "시즌별",
+              "en": "Per season",
+              "ja": "シーズンごと",
+              "zh": "每赛季"
+            },
+            "sourceKind": "community",
+            "sourceUrls": [
+              "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠"
+            ],
+            "verifiedAt": "2026-10-21T15:21:37.446298+00:00",
+            "resetAt": null
+          },
+          "after": {
+            "modeId": "elias-frontier",
+            "cycleLabel": {
+              "ko": "다음 회차 미공개",
+              "en": "Next phase unannounced",
+              "ja": "次回未発表",
+              "zh": "下期未公布"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/Trickcal/board/detail/8265653"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": null
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "시즌 진행으로 얻은 새싹을 시즌마다 갱신되는 상점에서 엘리프로 교환합니다.",
+                "en": "Exchange season-earned sprouts for Crystal Leaves in the shop that refreshes each season.",
+                "ja": "シーズンで獲得した芽を、毎シーズン更新のショップでエリーフと交換。",
+                "zh": "赛季获得的幼芽可在每赛季刷新的商店兑换水晶葉。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "반복 보상과 확인 범위",
+                "en": "Recurring rewards and review scope",
+                "ja": "周期報酬と確認範囲",
+                "zh": "周期奖励与核实范围"
+              },
+              "body": {
+                "ko": "시즌 진행으로 얻은 새싹을 시즌마다 갱신되는 상점에서 엘리프로 교환합니다.",
+                "en": "Exchange season-earned sprouts for Crystal Leaves in the shop that refreshes each season.",
+                "ja": "シーズンで獲得した芽を、毎シーズン更新のショップでエリーフと交換。",
+                "zh": "赛季获得的幼芽可在每赛季刷新的商店兑换水晶葉。"
+              },
+              "sourceKind": "community",
+              "sourceUrls": [
+                "https://www.namu.moe/w/트릭컬 리바이브/콘텐츠"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "성격 구역에서 최대2개 구역을 정화한 뒤 보스 구역에 도전합니다. 다른 성격 구역 사이에서는 사도 중복 편성이 불가하지만 보스 구역에서는 다시 편성할 수 있습니다. 실체의 코인으로 카드와 교주의 권능을 준비합니다.",
+                "en": "Purify up to two Personality zones before the boss zone. Apostles cannot repeat between Personality zones but may return for the boss. Spend Reality Coins on cards and powers.",
+                "ja": "性格エリアを最大2つ浄化してからボスエリアへ。性格エリア間で使徒の重複編成は不可ですが、ボス戦では再編成できます。実体のコインでカードと権能を準備します。",
+                "zh": "先净化最多两个性格区域，再挑战首领区域。性格区域之间不可重复使用使徒，首领区域可以再次编入。使用实体硬币购买卡牌和权能。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://game.naver.com/lounge/Trickcal/board/detail/8265653"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "stellasora-global-cataclysm-season17-20261020",
+      "gameId": "stellasora",
+      "region": "global",
+      "sourceUrl": "https://game.naver.com/lounge/stellasora/board/detail/8340030",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "cataclysm-survivor",
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/stellasora/board/detail/8340030"
+            ],
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetDate": "2026-11-10"
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "참여·진행 내용",
+                "en": "Participation and content",
+                "ja": "参加・内容",
+                "zh": "參與及內容"
+              },
+              "body": {
+                "ko": "방어 작전과 임무를 완료하여 별의 파편·수호자 훈장·새싹 티켓을 획득합니다. 재앙 난이도를 클리어하고 지정 점수에 도달하면 수호자 훈장을 추가 지급합니다. 시즌 17 추천 속성은 1구역 빛/바람, 2구역 빛/물입니다.",
+                "en": "Clear defense operations and missions for Stellanite Dust, Guardian Medals and Verdant Tickets. Clearing Cataclysm difficulty and meeting the target score grants extra Guardian Medals. Season 17 recommended elements: Area 1 Lux/Ventus; Area 2 Lux/Aqua.",
+                "ja": "防衛作戦・任務で星ノ欠片・守護者メダル・オアシス旅券を獲得。指定難易度と点数でメダル追加。シーズン17推奨属性はエリア1が光・風、エリア2が光・水。",
+                "zh": "完成防守戰及任務可得星之碎片、守護者勳章及常駐券。通關災變難度並達指定分數可額外獲勳章。第17季推薦屬性：區域1光/風，區域2光/水。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://game.naver.com/lounge/stellasora/board/detail/8340030",
+                "https://stellasora.global/news/4963"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "참여·진행 내용",
+                "en": "Participation and content",
+                "ja": "参加・内容",
+                "zh": "參與及內容"
+              },
+              "body": {
+                "ko": "방어 작전과 임무를 완료하여 별의 파편·수호자 훈장·새싹 티켓을 획득합니다. 재앙 난이도를 클리어하고 지정 점수에 도달하면 수호자 훈장을 추가 지급합니다. 시즌 17 추천 속성은 1구역 빛/바람, 2구역 빛/물입니다.",
+                "en": "Clear defense operations and missions for Stellanite Dust, Guardian Medals and Verdant Tickets. Clearing Cataclysm difficulty and meeting the target score grants extra Guardian Medals. Season 17 recommended elements: Area 1 Lux/Ventus; Area 2 Lux/Aqua.",
+                "ja": "防衛作戦・任務で星ノ欠片・守護者メダル・オアシス旅券を獲得。指定難易度と点数でメダル追加。シーズン17推奨属性はエリア1が光・風、エリア2が光・水。",
+                "zh": "完成防守戰及任務可得星之碎片、守護者勳章及常駐券。通關災變難度並達指定分數可額外獲勳章。第17季推薦屬性：區域1光/風，區域2光/水。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://game.naver.com/lounge/stellasora/board/detail/8340030",
+                "https://stellasora.global/news/4963"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "시즌17 추천 속성은1구역 빛·바람,2구역 빛·물입니다. 방어 작전과 임무로 별의 파편·수호자 훈장·새싹 티켓을 획득하며, 재앙 난이도와 지정 점수 달성 시 훈장을 추가로 받습니다.",
+                "en": "Season17 recommends Lux/Ventus for Area1 and Lux/Aqua for Area2. Defense operations and missions award Stellanite Dust, Guardian Medals and Sprout Tickets; Cataclysm difficulty and score targets give extra medals.",
+                "ja": "シーズン17推奨はエリア1が光・風、エリア2が光・水。防衛作戦・任務で星ノ欠片、守護者メダル、オアシス旅券を獲得し、災厄難度と指定点数でメダルを追加獲得。",
+                "zh": "第17季推荐属性：区域1光·风，区域2光·水。防守及任务提供星之砂、守护者勋章和萌芽礼券，通关灾厄难度并达到指定分数可获额外勋章。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://game.naver.com/lounge/stellasora/board/detail/8340030"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nte-clear-sky-ring-20261022",
+      "gameId": "nte",
+      "region": "global",
+      "sourceUrl": "https://pf.kakao.com/_uSxfcG/114724575",
+      "fields": {
+        "endAt": {
+          "before": null,
+          "after": "2026-11-05T05:59:00+09:00"
+        },
+        "recurring": {
+          "before": {
+            "modeId": "beyond-the-orbit",
+            "cycleLabel": {
+              "ko": "주기 도전 · 회차별 확인",
+              "en": "Recurring challenge · season-specific",
+              "ja": "周期挑戦・各期を確認",
+              "zh": "周期挑战 · 按期核实"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://nte.perfectworld.com/kr/article/news/gamebroad/20260602/262473.html"
+            ],
+            "verifiedAt": "2026-10-21T17:32:44.092622+00:00",
+            "resetAt": null,
+            "resetDate": "2026-11-05",
+            "resetEvidence": {
+              "kind": "owner-confirmed",
+              "timeZone": "Asia/Seoul",
+              "note": {
+                "ko": "현재 석양의 고리 회차는 2026-10-22 05:00:00(KST)에 종료되며 청명의 고리가 즉시 시작됩니다. 운영자가 직접 확인한 현재 회차 전환 시각이며, 공식 캘린더의 날짜를 보완했습니다. 다음 회차 종료 시각을 계산해 생성하지 않습니다.",
+                "en": "The current Sunset Ring ends at 2026-10-22 05:00:00 KST (UTC+9), when Clear Sky Ring begins immediately. The owner-confirmed current transition supplements the official calendar dates. No later reset time has been extrapolated.",
+                "ja": "現在の夕日の輪は2026-10-22 05:00:00（KST、UTC+9）に終了し、晴天の輪が直ちに始まります。運営者が確認した今回の切替時刻で公式カレンダーの日付を補足しました。以後のリセット時刻は推算していません。",
+                "zh": "本期夕阳之环于2026-10-22 05:00:00（KST，UTC+9）结束，晴空之环立即开始。此为站点运营者确认的本期切换时间，补充官方日历日期；未推算后续重置时刻。"
+              },
+              "verifiedAt": "2026-10-21T17:32:44.092622+00:00"
+            }
+          },
+          "after": {
+            "modeId": "beyond-the-orbit",
+            "cycleLabel": {
+              "ko": "주기 도전 · 회차별 확인",
+              "en": "Recurring challenge · season-specific",
+              "ja": "周期挑戦・各期を確認",
+              "zh": "周期挑战 · 按期核实"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/NTE/board/detail/8346529"
+            ],
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": "2026-11-05T05:59:00+09:00",
+            "resetDate": "2026-11-05",
+            "resetEvidence": {
+              "kind": "owner-confirmed",
+              "timeZone": "Asia/Seoul",
+              "note": {
+                "ko": "현재 석양의 고리 회차는 2026-10-22 05:00:00(KST)에 종료되며 청명의 고리가 즉시 시작됩니다. 운영자가 직접 확인한 현재 회차 전환 시각이며, 공식 캘린더의 날짜를 보완했습니다. 다음 회차 종료 시각을 계산해 생성하지 않습니다.",
+                "en": "The current Sunset Ring ends at 2026-10-22 05:00:00 KST (UTC+9), when Clear Sky Ring begins immediately. The owner-confirmed current transition supplements the official calendar dates. No later reset time has been extrapolated.",
+                "ja": "現在の夕日の輪は2026-10-22 05:00:00（KST、UTC+9）に終了し、晴天の輪が直ちに始まります。運営者が確認した今回の切替時刻で公式カレンダーの日付を補足しました。以後のリセット時刻は推算していません。",
+                "zh": "本期夕阳之环于2026-10-22 05:00:00（KST，UTC+9）结束，晴空之环立即开始。此为站点运营者确认的本期切换时间，补充官方日历日期；未推算后续重置时刻。"
+              },
+              "verifiedAt": "2026-10-21T17:32:44.092622+00:00"
+            }
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "확인 범위",
+                "en": "Verification scope",
+                "ja": "確認範囲",
+                "zh": "核验范围"
+              },
+              "body": {
+                "ko": "공식 캘린더 이미지에서 이벤트명과 날짜를 확인했습니다. 영어·일본어·중국어 명칭은 번역이며 공식 현지화로 확인되지 않았습니다.",
+                "en": "Event name and dates were checked in the official calendar image. English, Japanese and Chinese names are translations, not verified official localization.",
+                "ja": "公式カレンダー画像でイベント名と日付を確認しました。英語・日本語・中国語名は翻訳であり、公式ローカライズは未確認です。",
+                "zh": "已通过官方日历图片核对活动名称和日期。英语、日语及中文名称为翻译，尚未确认官方本地化。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://pf.kakao.com/_uSxfcG/114724575"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "확인 범위",
+                "en": "Verification scope",
+                "ja": "確認範囲",
+                "zh": "核验范围"
+              },
+              "body": {
+                "ko": "공식 캘린더 이미지에서 이벤트명과 날짜를 확인했습니다. 영어·일본어·중국어 명칭은 번역이며 공식 현지화로 확인되지 않았습니다.",
+                "en": "Event name and dates were checked in the official calendar image. English, Japanese and Chinese names are translations, not verified official localization.",
+                "ja": "公式カレンダー画像でイベント名と日付を確認しました。英語・日本語・中国語名は翻訳であり、公式ローカライズは未確認です。",
+                "zh": "已通过官方日历图片核对活动名称和日期。英语、日语及中文名称为翻译，尚未确认官方本地化。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://pf.kakao.com/_uSxfcG/114724575"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "청명의 고리 특별 노선에서 챌린지를 완료해 폰즈·환석·운행 기록을 획득합니다. 메인 임무 프롤로그 ‘새로운 목적지’에서 에이본 골동품 가게로 이동을 완료해야 합니다. 한국 공식 공지는11월5일05:59(KST) 종료로 안내합니다.",
+                "en": "Complete Clear Sky Ring Special Route challenges for Fons, Annulith and Train Logs. Finish the Prologue's New Destination step to visit Eibon Antiques. The Korean official notice ends this route November5 at05:59 KST.",
+                "ja": "晴天の輪の特別ルートで挑戦を達成し、フォン・環石・運行記録を獲得。プロローグの新たな目的地で骨董品店へ向かうメイン任務を完了する必要があります。韓国公式の終了は11月5日05:59（KST）。",
+                "zh": "完成晴空之环特别路线挑战可得方斯、环石与运行记录。需完成序章‘新的目的地’前往古董店的主线步骤。韩国官方公告列出11月5日05:59（KST）结束。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://game.naver.com/lounge/NTE/board/detail/8346529"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dna-global-event-immersive-theatre-20261020",
+      "gameId": "dna",
+      "region": "global",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "immersive-theater",
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english"
+            ],
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": "2026-11-10T11:00:00+09:00"
+          }
+        },
+        "detailSections": {
+          "before": [
+            {
+              "title": {
+                "ko": "참여 조건",
+                "en": "Requirements",
+                "ja": "参加条件",
+                "zh": "參與條件"
+              },
+              "body": {
+                "ko": "황혼의 정박편 「심판의 날」·스페셜 사이드 퀘스트 「새로운 연극」 완료",
+                "en": "Complete Chapter Twilight: The Judgment Day and A New Theatrical Experience.",
+                "ja": "「黄昏の碇泊」篇「審判の日」・特別サブクエスト「新たな劇」クリア",
+                "zh": "完成泊暮篇「審判日」及特殊支線任務「全新戲劇」"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "title": {
+                "ko": "참여 조건",
+                "en": "Requirements",
+                "ja": "参加条件",
+                "zh": "參與條件"
+              },
+              "body": {
+                "ko": "황혼의 정박편 「심판의 날」·스페셜 사이드 퀘스트 「새로운 연극」 완료",
+                "en": "Complete Chapter Twilight: The Judgment Day and A New Theatrical Experience.",
+                "ja": "「黄昏の碇泊」篇「審判の日」・特別サブクエスト「新たな劇」クリア",
+                "zh": "完成泊暮篇「審判日」及特殊支線任務「全新戲劇」"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://duetnightabyss.dna-panstudio.com/ko/news/detail?id=9441&type=867"
+              ]
+            },
+            {
+              "title": {
+                "ko": "참여 방법과 이번 회차",
+                "en": "Participation and this phase",
+                "ja": "参加方法と今期の内容",
+                "zh": "参与方式与本期内容"
+              },
+              "body": {
+                "ko": "현재 몰입형 연극은 리듬·되살아난 불꽃 의뢰 편지를 제공합니다. 살아간다는 무게 편지는 관람 기념 상점에서 획득합니다. 황혼의 정박편 ‘심판의 날’과 특수 사이드 퀘스트 ‘새로운 연극’을 완료해야 합니다.11월10일11:00(KST)에 이번 보상이 교체됩니다.",
+                "en": "The current Theatre offers Rhythm: Flamewrought Secret Letters; Blessed Burden letters are in Memento. Complete Chapter Twilight: The Judgment Day and A New Theatrical Experience. The current rewards rotate on November10 at11:00 KST in the KR notice.",
+                "ja": "今期の体験型劇場ではリズム・焔を纏う者の依頼密書を入手し、生きる重さの密書は観劇記念ショップに登場。黄昏篇の指定メイン任務と新たな劇を完了すると開放。韓国告知の報酬切替は11月10日11:00（KST）。",
+                "zh": "本期沉浸式戏剧提供黎瑟·浴火委托密函，活着的重量密函可在观剧纪念商店取得。需完成泊暮篇‘审判日’与特殊支线‘全新戏剧’。韩国公告的本期奖励更替为11月10日11:00（KST）。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dna-event-45cfb4-ee178618-0",
+      "gameId": "dna",
+      "region": "global",
+      "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "immersive-theater",
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english"
+            ],
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "verifiedAt": "2026-10-29T15:44:33.204Z",
+            "resetAt": "2026-11-30T18:00:00+09:00"
+          }
+        }
+      }
+    },
+    {
+      "id": "trickcal-global-event-dimension-clash-20261029",
+      "gameId": "trickcal",
+      "region": "global",
+      "sourceUrl": "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181792487759078017",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "dimension-crash",
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181792487759078017",
+              "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181792487759078017"
+            ],
+            "verifiedAt": "2026-10-30T03:09:19.162Z",
+            "resetAt": "2026-11-05T10:59:00+09:00"
+          }
+        }
+      }
+    },
+    {
+      "id": "trickcal-global-event-brawl-pit-20261008",
+      "gameId": "trickcal",
+      "region": "global",
+      "sourceUrl": "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181791341419561084",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "brawl-pit",
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181791341419561084",
+              "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181791341419561084"
+            ],
+            "verifiedAt": "2026-10-30T03:09:19.162Z",
+            "resetAt": "2026-11-05T10:59:00+09:00"
+          }
+        },
+        "title": {
+          "before": {
+            "ko": "대난투",
+            "en": "Brawl Pit",
+            "ja": "大乱闘",
+            "zh": "大亂鬥"
+          },
+          "after": {
+            "ko": "대난투",
+            "en": "Brawl Pit",
+            "ja": "勝者の喧嘩場",
+            "zh": "大亂鬥"
+          }
+        }
+      }
+    },
+    {
+      "id": "trickcal-global-event-frontier-20261015",
+      "gameId": "trickcal",
+      "region": "global",
+      "sourceUrl": "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181791341419561084",
+      "fields": {
+        "recurring": {
+          "after": {
+            "modeId": "elias-frontier",
+            "cycleLabel": {
+              "ko": "회차별 일정",
+              "en": "Announced phase",
+              "ja": "告知された開催回",
+              "zh": "已公告期次"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181791341419561084",
+              "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181791341419561084"
+            ],
+            "verifiedAt": "2026-10-30T03:09:19.162Z",
+            "resetAt": "2026-10-22T10:59:00+09:00"
+          }
+        }
+      }
+    }
+  ]
+}

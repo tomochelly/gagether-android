@@ -79,3 +79,15 @@ test('Wuwa reference failures cannot gain a synthetic successful roster receipt;
  const result=await performRefreshStage({version:1,runId:'reference-failure',startedAt:now(),stage:'finalize',gameId:'wuwa',lane:'details',referenceCheck:{done:true,source:'wuwa/reference',status:'error',checkedAt:now(),error:'Source unavailable'}});
  assert.equal(result.successful,0);assert.equal(result.ok,false);assert.ok(result.structuredChecks.every(c=>c.status!=='ok'));
 });
+
+test('Korean official recruitment import persists full originals with CAS, preserves concurrent fields and owner overrides, and replays without writes',async()=>{
+ const fixtures=JSON.parse(fs.readFileSync('ops/bluearchive/20261027/before-recruitment.json'));
+ fixtures.forEach(write);const id=fixtures.find(e=>e.id.startsWith('hist-')).id;
+ db.prepare('INSERT INTO editorial(key,payload,revision,updated_at,updated_by) VALUES(?,?,?,?,?)').run('entry:'+id,JSON.stringify({title:copy('Owner custom title')}),1,now(),'owner');
+ beforeUpdate=()=>{const e=JSON.parse(db.prepare('SELECT payload FROM entries WHERE id=?').get(id).payload);write({...e,detailSections:[{title:copy('Concurrent section'),body:copy('Keep this complete source')}],textStyle:{ko:{bodySize:23}}});};
+ const {importBlueArchiveOfficial}=await import('../lib/bluearchive-official-store.ts');
+ const first=await importBlueArchiveOfficial();assert.equal(first.count,9);
+ const saved=(await store.readBaseData({id})).entries[0];assert.equal(saved.sourceKind,'official');assert.equal(saved.endAt,'2026-11-03T10:59:00+09:00');assert.equal(saved.detailSections[0].body.ko,'Keep this complete source');assert.equal(saved.textStyle.ko.bodySize,23);assert.equal(saved.entityDetails.length,fixtures.find(e=>e.id===id).entityDetails.length);
+ assert.equal((await store.readData({gameId:'bluearchive'})).entries.find(e=>e.id===id).title.ko,'Owner custom title');
+ const again=await importBlueArchiveOfficial();assert.equal(again.count,0);
+});

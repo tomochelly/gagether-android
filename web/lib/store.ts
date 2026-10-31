@@ -1,4 +1,7 @@
 import {englishEntry} from './english-content';
+import {reviewedRecurringEntry} from './recurring-review';
+import {reviewedPickupLocalization} from './reviewed-pickup-localization';
+import {reviewedOfficialPickup} from './reviewed-official-pickups';
 import {readPublicEntryIndex} from './public-entry-index';
 import {catalogReadChanged,rosterReadChanged} from './public-read-jobs';
 import {separateEntityRewards} from './content-roles';
@@ -37,7 +40,7 @@ export async function readSiteSettings(){
 async function readUncachedData(options:{includeHidden?:boolean;automatic?:boolean;index?:boolean;collection?:boolean;gameId?:string;allSourceChecks?:boolean}={}){
  let editorialAvailable=true;
  const [base,records]=await Promise.all([readBaseData({index:options.index,collection:options.collection,gameId:options.gameId,allSourceChecks:options.allSourceChecks}),readEditorial(undefined,()=>{editorialAvailable=false;})]);const settings=records.find(r=>r.key==='site');
- let entries=options.automatic?base.entries:applyEditorial(base.entries,records,options.includeHidden);
+ let entries=options.automatic?base.entries:applyEditorial(base.entries.map(reviewedRecurringEntry).map(reviewedPickupLocalization).map(reviewedOfficialPickup),records,options.includeHidden);
  if(!options.automatic&&!options.collection&&!options.includeHidden)entries=entries.map(englishEntry);
  if(options.gameId)entries=entries.filter(e=>e.gameId===options.gameId);
  // The lightweight list deliberately excludes detail images. Resolve only old
@@ -59,7 +62,7 @@ export async function readData(options:{includeHidden?:boolean;automatic?:boolea
 export async function readEntry(id:string,options:{includeHidden?:boolean;requirePersistent?:boolean}={}){
  let available=true;const [base,records]=await Promise.all([readBaseData({id}),readEditorial('entry:'+id,()=>{available=false;})]);
  if(options.requirePersistent&&(!base.persistent||!available))throw Error('Persistent record unavailable');
- return applyEditorial(base.entries,records,options.includeHidden).find(e=>e.id===id);
+ return applyEditorial(base.entries.map(reviewedRecurringEntry).map(reviewedPickupLocalization).map(reviewedOfficialPickup),records,options.includeHidden).find(e=>e.id===id);
 }
 export async function saveEntries(list:Entry[]){
  if(!list.length)return;

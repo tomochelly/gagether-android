@@ -21,6 +21,13 @@ def winter_profile():
 
 
 class ReverseBaseStatsTests(unittest.TestCase):
+    def test_species_category_does_not_exclude_exact_playable_native_identity(self):
+        rows = [{'id': ident, 'nameEng': name, 'name': name, 'heroType': kind, 'isOnline': '1'} for ident, name, kind in [(3015, 'Pavia', 2), (3028, 'APPLe', 5), (3048, 'Voyager', 4), (3056, 'Jessica', 4), (3086, 'Lucy', 5), (3149, 'The Twins', 7)]]
+        rows.append({'id': 3999, 'nameEng': 'APPLe', 'name': 'APPLe', 'heroType': 0, 'isOnline': '1'})
+        index, rejected = enrich_a.reverse_native_index(rows, {})
+        for row in rows[:-1]: self.assertEqual(index[enrich_a.reverse_identity(row['nameEng'])]['id'], row['id'])
+        self.assertTrue(any(row.get('heroId') == 3999 for row in rejected))
+
     def test_inert_flight_json_string_can_contain_array_call_closer(self):
         body = json.dumps({'description': 'Effect ]) stays inside the JSON string',
                            'character': winter_profile()}, separators=(',', ':'))

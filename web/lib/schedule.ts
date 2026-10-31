@@ -1,8 +1,14 @@
 import {dateInZone} from './display-time';
 import {entryState,type Entry,type Locale} from './types';
+import {linkedWeaponOnly} from './linked-weapon-presentation';
 
 export const DISPLAY_ZONE='Asia/Tokyo';
 export const DAY=86400000;
+export function countdownIsUrgent(at:string|undefined,now:number){
+ if(!at||/^\d{4}-\d{2}-\d{2}$/.test(at))return false;
+ const left=Date.parse(at)-now;
+ return left>0&&left<DAY;
+}
 export const dayKey=(value:string|number,zone=DISPLAY_ZONE)=>dateInZone(value,zone);
 export const dayStart=(key:string)=>Date.parse(key+'T00:00:00+09:00');
 export function monthCells(month:string):string[]{
@@ -46,7 +52,7 @@ export function calendarGroups(marks:CalendarMark[],now:number,byGame=false){
 export function calendarMarks(entries:Entry[],zone=DISPLAY_ZONE):Map<string,CalendarMark[]>{
  const map=new Map<string,CalendarMark[]>();
  for(const entry of entries){
-  if(entry.pickupArchive?.status==='forecast')continue;
+   if(entry.pickupArchive?.status==='forecast'||linkedWeaponOnly(entry))continue;
   for(const [kind,at] of [['starts',entry.startAt||entry.startDate||entry.pickupArchive?.startDate],['ends',entry.endAt||entry.endDate||entry.pickupArchive?.endDate]] as const){
    if(!at||!Number.isFinite(Date.parse(at)))continue;
    const dateOnly=/^\d{4}-\d{2}-\d{2}$/.test(at);const key=dateOnly?at:dayKey(at,zone);const list=map.get(key)||[];list.push({entry,at,kind,dateOnly});map.set(key,list);

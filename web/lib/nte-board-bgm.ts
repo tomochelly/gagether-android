@@ -1,0 +1,1 @@
+export const nteBoardBgm={id:'bgm',sha256:'b5f7b0099c4174f1421d85e84e0f1caf05bd0d22801c6f50b7d695502f6b70bf',bytes:5036243,contentType:'audio/mpeg',duration:209.841625,url:'/api/nte/board-media/b5f7b0099c4174f1421d85e84e0f1caf05bd0d22801c6f50b7d695502f6b70bf',sourceUrl:'https://www.youtube.com/watch?v=xrinbsWj3L8'};

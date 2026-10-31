@@ -1,0 +1,2140 @@
+[
+  {
+    "id": "nikke-global-solo-raid-20261112",
+    "gameId": "nikke",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "솔로 레이드 · 시즌 43",
+      "en": "Solo Raid · Season 43",
+      "ja": "ソロレイド・シーズン43",
+      "zh": "单人突袭·第43赛季"
+    },
+    "summary": {
+      "ko": "보스는 풍압 코드이며 작열 코드가 약점입니다. 여러 스쿼드로 도전하며 도전 난도는 최대 누적 피해량으로 순위를 정합니다. 보스 이름과 상세 패턴은 이번 공지에 없습니다.",
+      "en": "The boss uses Wind Code and is weak to Fire. Challenge with multiple squads; Challenge rankings use the highest cumulative damage. This notice does not name the boss or give detailed mechanics.",
+      "ja": "ボスは風圧コードで灼熱が弱点。複数部隊で挑戦し、チャレンジ難度の順位は最高累積ダメージで決定。告知にはボス名や詳細ギミックの記載はありません。",
+      "zh": "首领为风压代码、弱点为燃烧代码。使用多个小队挑战，挑战难度按最高累计伤害排名。公告未公布首领名称或详细机制。"
+    },
+    "startAt": "2026-11-12T12:00:00+09:00",
+    "endAt": "2026-11-19T04:59:59+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+    "sourceTitle": "솔로 레이드 · 시즌 43",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "solo-raid",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-19T04:59:59+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "보스는 풍압 코드이며 작열 코드가 약점입니다. 여러 스쿼드로 도전하며 도전 난도는 최대 누적 피해량으로 순위를 정합니다. 보스 이름과 상세 패턴은 이번 공지에 없습니다.",
+          "en": "The boss uses Wind Code and is weak to Fire. Challenge with multiple squads; Challenge rankings use the highest cumulative damage. This notice does not name the boss or give detailed mechanics.",
+          "ja": "ボスは風圧コードで灼熱が弱点。複数部隊で挑戦し、チャレンジ難度の順位は最高累積ダメージで決定。告知にはボス名や詳細ギミックの記載はありません。",
+          "zh": "首领为风压代码、弱点为燃烧代码。使用多个小队挑战，挑战难度按最高累计伤害排名。公告未公布首领名称或详细机制。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nikke-global-coordinated-operation-20261106",
+    "gameId": "nikke",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "협동 작전 · 스톰 브링어",
+      "en": "Coordinated Operation · Storm Bringer",
+      "ja": "協同作戦・ストームブリンガー",
+      "zh": "协同作战·风暴使者"
+    },
+    "summary": {
+      "ko": "5명이 한 보스에 도전합니다. 친구·유니온·자동 매칭으로 참여하고 브로큰 코어를 고철 상점에서 교환합니다.",
+      "en": "Five players challenge a boss via friends, Union or matchmaking. Exchange Broken Cores at the Recycling Shop.",
+      "ja": "5人で同じボスに挑戦。フレンド・ユニオン・自動マッチングで参加し、壊れたコアをリサイクルショップで交換。",
+      "zh": "5人通过好友、联盟或自动匹配挑战首领，在废铁商店兑换破损核心。"
+    },
+    "startAt": "2026-11-06T12:00:00+09:00",
+    "endAt": "2026-11-08T23:59:59+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+    "sourceTitle": "협동 작전 · 스톰 브링어",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "coordinated-operation",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-08T23:59:59+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "5명이 한 보스에 도전합니다. 친구·유니온·자동 매칭으로 참여하고 브로큰 코어를 고철 상점에서 교환합니다.",
+          "en": "Five players challenge a boss via friends, Union or matchmaking. Exchange Broken Cores at the Recycling Shop.",
+          "ja": "5人で同じボスに挑戦。フレンド・ユニオン・自動マッチングで参加し、壊れたコアをリサイクルショップで交換。",
+          "zh": "5人通过好友、联盟或自动匹配挑战首领，在废铁商店兑换破损核心。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nikke-global-union-raid-20261030",
+    "gameId": "nikke",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "유니온 레이드",
+      "en": "Union Raid",
+      "ja": "ユニオンレイド",
+      "zh": "联盟突袭"
+    },
+    "summary": {
+      "ko": "유니온 레벨3부터 참여합니다. 보스 토벌로 유니온 칩을 획득하며, 레이드 중에는 탈퇴와 멤버 추방이 제한됩니다.",
+      "en": "Available to level3 Unions. Defeat bosses for Union Chips; leaving and expelling members are restricted during the raid.",
+      "ja": "ユニオンLv.3から参加可能。ボス討伐でユニオンチップを獲得し、開催中は脱退・除名が制限されます。",
+      "zh": "联盟达到3级后可参与，讨伐首领获得联盟芯片；期间不能退盟或移除成员。"
+    },
+    "startAt": "2026-10-30T05:00:00+09:00",
+    "endAt": "2026-11-05T04:59:59+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+    "sourceTitle": "유니온 레이드",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "union-raid",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-05T04:59:59+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "유니온 레벨3부터 참여합니다. 보스 토벌로 유니온 칩을 획득하며, 레이드 중에는 탈퇴와 멤버 추방이 제한됩니다.",
+          "en": "Available to level3 Unions. Defeat bosses for Union Chips; leaving and expelling members are restricted during the raid.",
+          "ja": "ユニオンLv.3から参加可能。ボス討伐でユニオンチップを獲得し、開催中は脱退・除名が制限されます。",
+          "zh": "联盟达到3级后可参与，讨伐首领获得联盟芯片；期间不能退盟或移除成员。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nikke-global-champion-arena-20261105",
+    "gameId": "nikke",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "챔피언 아레나 · 정규 시즌1",
+      "en": "Champion Arena · Season1",
+      "ja": "チャンピオンアリーナ・シーズン1",
+      "zh": "冠军竞技场·赛季1"
+    },
+    "summary": {
+      "ko": "정규 시즌1은11월5일 시작 예정입니다. 스페셜 아레나 포인트 순위1~8위가 참가하며, 조별전·8강·결승 전에 스쿼드를 재편성합니다. 시작 시각과 시즌 마감은 미공개입니다.",
+      "en": "Season1 opens November5. Special Arena point ranks1–8 qualify; rebuild squads before groups, quarterfinals and final. Opening time and season end are unpublished.",
+      "ja": "正式シーズン1は11月5日開幕予定。スペシャルアリーナポイント順位1～8位が参加し、各段階前に部隊を再編成。開始時刻と終了日は未公表。",
+      "zh": "正式赛季1将于11月5日开始，特殊竞技场积分前1至8名参赛；小组赛、八强及决赛前可重新编队。具体开场及截止时间未公布。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+    "sourceTitle": "챔피언 아레나 · 정규 시즌1",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "startDate": "2026-11-05",
+    "recurring": {
+      "modeId": "champion-arena",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "정규 시즌1은11월5일 시작 예정입니다. 스페셜 아레나 포인트 순위1~8위가 참가하며, 조별전·8강·결승 전에 스쿼드를 재편성합니다. 시작 시각과 시즌 마감은 미공개입니다.",
+          "en": "Season1 opens November5. Special Arena point ranks1–8 qualify; rebuild squads before groups, quarterfinals and final. Opening time and season end are unpublished.",
+          "ja": "正式シーズン1は11月5日開幕予定。スペシャルアリーナポイント順位1～8位が参加し、各段階前に部隊を再編成。開始時刻と終了日は未公表。",
+          "zh": "正式赛季1将于11月5日开始，特殊竞技场积分前1至8名参赛；小组赛、八强及决赛前可重新编队。具体开场及截止时间未公布。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gfl2-dust-front-kr-33",
+    "gameId": "gfl2",
+    "region": "kr",
+    "server": "Korea · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "흙먼지 전선 제33기 · 한국 공식 원문",
+      "en": "Gunsmoke Frontline #33 · KR source",
+      "ja": "砂塵戦線 第33期・韓国公式出典",
+      "zh": "尘烟前线 第33期 · 韩国官方来源"
+    },
+    "summary": {
+      "ko": "서클 보스 전투 기록. 보유 인형 최대 4명 + 서클 지원 인형 1명. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)이며 글로벌 동일 순간으로 단정하지 않습니다. 보스·일일 지원 효과는 일정 공지에서 미확인입니다.",
+      "en": "Platoon boss records. Up to four owned Dolls and one Platoon support Doll. Official KR phase clocks below are KST source clocks; no global UTC-equivalence is asserted. Boss and daily aid are not confirmed by the official schedule.",
+      "ja": "サークルのボス戦記録。所持人形は最大4体、サークル支援は最大1体です。以下の開催時刻は韓国公式告知の韓国時刻が出典で、グローバル版と同一時刻とは断定しません。ボスと日替わり支援効果は告知から確認できません。",
+      "zh": "公会首领战记录。最多4名自有人形，加1名公会支援人形。下方期数时间源自韩国官方公告，不据此断言全球服在同一时刻开放。公告未列出首领及每日支援效果。"
+    },
+    "startAt": "2026-11-01T05:00:00+09:00",
+    "endAt": "2026-11-08T05:00:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+    "sourceTitle": "흙먼지 전선 제33기 · 한국 공식 원문",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "dust-front",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-08T05:00:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "서클 보스 전투 기록. 보유 인형 최대 4명 + 서클 지원 인형 1명. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)이며 글로벌 동일 순간으로 단정하지 않습니다. 보스·일일 지원 효과는 일정 공지에서 미확인입니다.",
+          "en": "Platoon boss records. Up to four owned Dolls and one Platoon support Doll. Official KR phase clocks below are KST source clocks; no global UTC-equivalence is asserted. Boss and daily aid are not confirmed by the official schedule.",
+          "ja": "サークルのボス戦記録。所持人形は最大4体、サークル支援は最大1体です。以下の開催時刻は韓国公式告知の韓国時刻が出典で、グローバル版と同一時刻とは断定しません。ボスと日替わり支援効果は告知から確認できません。",
+          "zh": "公会首领战记录。最多4名自有人形，加1名公会支援人形。下方期数时间源自韩国官方公告，不据此断言全球服在同一时刻开放。公告未列出首领及每日支援效果。"
+        },
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://iopwiki.com/wiki/Platoon"
+        ]
+      },
+      {
+        "title": {
+          "ko": "공식 개최 기간",
+          "en": "Official phase window",
+          "ja": "公式開催期間",
+          "zh": "官方开放时间"
+        },
+        "body": {
+          "ko": "표시된 기간은 한국 공식 공지의 KST 기준입니다.",
+          "en": "This is the KST period from the Korean official notice.",
+          "ja": "表示期間は韓国公式告知のKST基準です。",
+          "zh": "所示时间为韩国官方公告的KST时间。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gfl2-expansion-training-kr-50",
+    "gameId": "gfl2",
+    "region": "kr",
+    "server": "Korea · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "확장 훈련 제50기 · 한국 공식 원문",
+      "en": "Expansion Drills #50 · KR source",
+      "ja": "拡張訓練 第50期・韓国公式出典",
+      "zh": "扩展训练 第50期 · 韩国官方来源"
+    },
+    "summary": {
+      "ko": "최대 5명 한 팀. 지원 인형 대여 불가. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 스테이지 조건·광란 수정자·적 편성은 별도 확인이 필요합니다.",
+      "en": "One team of up to five Dolls; borrowed units are unavailable. Official KR phase clocks below are KST source clocks. Stage conditions, Frenzy modifiers and enemy lineups require separate evidence.",
+      "ja": "最大5体の1部隊で挑戦し、支援人形の借用はできません。以下の開催時刻は韓国公式告知が出典です。各ステージの条件・追加効果・敵編成は個別の確認が必要です。",
+      "zh": "单队最多5名人形，不能借用支援人形。下方期数时间源自韩国官方公告。关卡条件、狂乱修正和敌方编成需要单独核实。"
+    },
+    "startAt": "2026-10-20T17:00:00+09:00",
+    "endAt": "2026-11-03T16:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+    "sourceTitle": "확장 훈련 제50기 · 한국 공식 원문",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "expansion-training",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-03T16:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "최대 5명 한 팀. 지원 인형 대여 불가. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 스테이지 조건·광란 수정자·적 편성은 별도 확인이 필요합니다.",
+          "en": "One team of up to five Dolls; borrowed units are unavailable. Official KR phase clocks below are KST source clocks. Stage conditions, Frenzy modifiers and enemy lineups require separate evidence.",
+          "ja": "最大5体の1部隊で挑戦し、支援人形の借用はできません。以下の開催時刻は韓国公式告知が出典です。各ステージの条件・追加効果・敵編成は個別の確認が必要です。",
+          "zh": "单队最多5名人形，不能借用支援人形。下方期数时间源自韩国官方公告。关卡条件、狂乱修正和敌方编成需要单独核实。"
+        },
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://gametora.com/gfl2/faq"
+        ]
+      },
+      {
+        "title": {
+          "ko": "공식 개최 기간",
+          "en": "Official phase window",
+          "ja": "公式開催期間",
+          "zh": "官方开放时间"
+        },
+        "body": {
+          "ko": "표시된 기간은 한국 공식 공지의 KST 기준입니다.",
+          "en": "This is the KST period from the Korean official notice.",
+          "ja": "表示期間は韓国公式告知のKST基準です。",
+          "zh": "所示时间为韩国官方公告的KST时间。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gfl2-expansion-training-kr-51",
+    "gameId": "gfl2",
+    "region": "kr",
+    "server": "Korea · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "확장 훈련 제51기 · 한국 공식 원문",
+      "en": "Expansion Drills #51 · KR source",
+      "ja": "拡張訓練 第51期・韓国公式出典",
+      "zh": "扩展训练 第51期 · 韩国官方来源"
+    },
+    "summary": {
+      "ko": "최대 5명 한 팀. 지원 인형 대여 불가. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 스테이지 조건·광란 수정자·적 편성은 별도 확인이 필요합니다.",
+      "en": "One team of up to five Dolls; borrowed units are unavailable. Official KR phase clocks below are KST source clocks. Stage conditions, Frenzy modifiers and enemy lineups require separate evidence.",
+      "ja": "最大5体の1部隊で挑戦し、支援人形の借用はできません。以下の開催時刻は韓国公式告知が出典です。各ステージの条件・追加効果・敵編成は個別の確認が必要です。",
+      "zh": "单队最多5名人形，不能借用支援人形。下方期数时间源自韩国官方公告。关卡条件、狂乱修正和敌方编成需要单独核实。"
+    },
+    "startAt": "2026-11-03T17:00:00+09:00",
+    "endAt": "2026-11-17T16:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+    "sourceTitle": "확장 훈련 제51기 · 한국 공식 원문",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "expansion-training",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-17T16:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "최대 5명 한 팀. 지원 인형 대여 불가. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 스테이지 조건·광란 수정자·적 편성은 별도 확인이 필요합니다.",
+          "en": "One team of up to five Dolls; borrowed units are unavailable. Official KR phase clocks below are KST source clocks. Stage conditions, Frenzy modifiers and enemy lineups require separate evidence.",
+          "ja": "最大5体の1部隊で挑戦し、支援人形の借用はできません。以下の開催時刻は韓国公式告知が出典です。各ステージの条件・追加効果・敵編成は個別の確認が必要です。",
+          "zh": "单队最多5名人形，不能借用支援人形。下方期数时间源自韩国官方公告。关卡条件、狂乱修正和敌方编成需要单独核实。"
+        },
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://gametora.com/gfl2/faq"
+        ]
+      },
+      {
+        "title": {
+          "ko": "공식 개최 기간",
+          "en": "Official phase window",
+          "ja": "公式開催期間",
+          "zh": "官方开放时间"
+        },
+        "body": {
+          "ko": "표시된 기간은 한국 공식 공지의 KST 기준입니다.",
+          "en": "This is the KST period from the Korean official notice.",
+          "ja": "表示期間は韓国公式告知のKST基準です。",
+          "zh": "所示时间为韩国官方公告的KST时间。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gfl2-expansion-training-kr-52",
+    "gameId": "gfl2",
+    "region": "kr",
+    "server": "Korea · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "확장 훈련 제52기 · 한국 공식 원문",
+      "en": "Expansion Drills #52 · KR source",
+      "ja": "拡張訓練 第52期・韓国公式出典",
+      "zh": "扩展训练 第52期 · 韩国官方来源"
+    },
+    "summary": {
+      "ko": "최대 5명 한 팀. 지원 인형 대여 불가. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 스테이지 조건·광란 수정자·적 편성은 별도 확인이 필요합니다.",
+      "en": "One team of up to five Dolls; borrowed units are unavailable. Official KR phase clocks below are KST source clocks. Stage conditions, Frenzy modifiers and enemy lineups require separate evidence.",
+      "ja": "最大5体の1部隊で挑戦し、支援人形の借用はできません。以下の開催時刻は韓国公式告知が出典です。各ステージの条件・追加効果・敵編成は個別の確認が必要です。",
+      "zh": "单队最多5名人形，不能借用支援人形。下方期数时间源自韩国官方公告。关卡条件、狂乱修正和敌方编成需要单独核实。"
+    },
+    "startAt": "2026-11-17T17:00:00+09:00",
+    "endAt": "2026-12-01T16:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+    "sourceTitle": "확장 훈련 제52기 · 한국 공식 원문",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "expansion-training",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-12-01T16:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "최대 5명 한 팀. 지원 인형 대여 불가. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 스테이지 조건·광란 수정자·적 편성은 별도 확인이 필요합니다.",
+          "en": "One team of up to five Dolls; borrowed units are unavailable. Official KR phase clocks below are KST source clocks. Stage conditions, Frenzy modifiers and enemy lineups require separate evidence.",
+          "ja": "最大5体の1部隊で挑戦し、支援人形の借用はできません。以下の開催時刻は韓国公式告知が出典です。各ステージの条件・追加効果・敵編成は個別の確認が必要です。",
+          "zh": "单队最多5名人形，不能借用支援人形。下方期数时间源自韩国官方公告。关卡条件、狂乱修正和敌方编成需要单独核实。"
+        },
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://gametora.com/gfl2/faq"
+        ]
+      },
+      {
+        "title": {
+          "ko": "공식 개최 기간",
+          "en": "Official phase window",
+          "ja": "公式開催期間",
+          "zh": "官方开放时间"
+        },
+        "body": {
+          "ko": "표시된 기간은 한국 공식 공지의 KST 기준입니다.",
+          "en": "This is the KST period from the Korean official notice.",
+          "ja": "表示期間は韓国公式告知のKST基準です。",
+          "zh": "所示时间为韩国官方公告的KST时间。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gfl2-extreme-assessment-kr-29",
+    "gameId": "gfl2",
+    "region": "kr",
+    "server": "Korea · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "극한 측정 제29기 · 한국 공식 원문",
+      "en": "Extreme Assessment #29 · KR source",
+      "ja": "極限測定 第29期・韓国公式出典",
+      "zh": "极限评估 第29期 · 韩国官方来源"
+    },
+    "summary": {
+      "ko": "고난도 한계 측정 계열 전투. Peak 콘텐츠의 5명 편성을 참고하며 이 분기의 지원 대여 가능 여부는 미확인입니다. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 현재 적 편성·스테이지 수정자는 미확인입니다.",
+      "en": "High-difficulty Peak Value Assessment branch. Five-Doll team capacity is documented for Peak content; support borrowing for this branch remains unverified. Official KR phase clocks below are KST source clocks. Current enemy lineups and stage modifiers are unverified.",
+      "ja": "高難度の限界測定系コンテンツです。Peak系の最大5体編成を参考とし、この分岐の支援借用可否は未確認です。以下は韓国公式告知の開催時刻です。現在の敵編成とステージ追加効果は未確認です。",
+      "zh": "高难度极限评估类战斗。参考Peak类内容的5人编队，此分支能否借用支援尚未确认。下方期数时间源自韩国官方公告，当前敌方编成及关卡修正尚未核实。"
+    },
+    "startAt": "2026-10-27T17:00:00+09:00",
+    "endAt": "2026-11-10T16:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana",
+    "sourceTitle": "극한 측정 제29기 · 한국 공식 원문",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "extreme-assessment",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-10T16:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "고난도 한계 측정 계열 전투. Peak 콘텐츠의 5명 편성을 참고하며 이 분기의 지원 대여 가능 여부는 미확인입니다. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 현재 적 편성·스테이지 수정자는 미확인입니다.",
+          "en": "High-difficulty Peak Value Assessment branch. Five-Doll team capacity is documented for Peak content; support borrowing for this branch remains unverified. Official KR phase clocks below are KST source clocks. Current enemy lineups and stage modifiers are unverified.",
+          "ja": "高難度の限界測定系コンテンツです。Peak系の最大5体編成を参考とし、この分岐の支援借用可否は未確認です。以下は韓国公式告知の開催時刻です。現在の敵編成とステージ追加効果は未確認です。",
+          "zh": "高难度极限评估类战斗。参考Peak类内容的5人编队，此分支能否借用支援尚未确认。下方期数时间源自韩国官方公告，当前敌方编成及关卡修正尚未核实。"
+        },
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://iopwiki.com/wiki/GFL2_Main_Screen"
+        ]
+      },
+      {
+        "title": {
+          "ko": "공식 개최 기간",
+          "en": "Official phase window",
+          "ja": "公式開催期間",
+          "zh": "官方开放时间"
+        },
+        "body": {
+          "ko": "표시된 기간은 한국 공식 공지의 KST 기준입니다.",
+          "en": "This is the KST period from the Korean official notice.",
+          "ja": "表示期間は韓国公式告知のKST基準です。",
+          "zh": "所示时间为韩国官方公告的KST时间。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://steamcommunity.com/games/3308670/announcements/detail/702155125711437877?l=koreana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gfl2-extreme-assessment-kr-30",
+    "gameId": "gfl2",
+    "region": "kr",
+    "server": "Korea · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "극한 측정 제30기 · 한국 공식 원문",
+      "en": "Extreme Assessment #30 · KR source",
+      "ja": "極限測定 第30期・韓国公式出典",
+      "zh": "极限评估 第30期 · 韩国官方来源"
+    },
+    "summary": {
+      "ko": "고난도 한계 측정 계열 전투. Peak 콘텐츠의 5명 편성을 참고하며 이 분기의 지원 대여 가능 여부는 미확인입니다. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 현재 적 편성·스테이지 수정자는 미확인입니다.",
+      "en": "High-difficulty Peak Value Assessment branch. Five-Doll team capacity is documented for Peak content; support borrowing for this branch remains unverified. Official KR phase clocks below are KST source clocks. Current enemy lineups and stage modifiers are unverified.",
+      "ja": "高難度の限界測定系コンテンツです。Peak系の最大5体編成を参考とし、この分岐の支援借用可否は未確認です。以下は韓国公式告知の開催時刻です。現在の敵編成とステージ追加効果は未確認です。",
+      "zh": "高难度极限评估类战斗。参考Peak类内容的5人编队，此分支能否借用支援尚未确认。下方期数时间源自韩国官方公告，当前敌方编成及关卡修正尚未核实。"
+    },
+    "startAt": "2026-11-10T17:00:00+09:00",
+    "endAt": "2026-11-24T16:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+    "sourceTitle": "극한 측정 제30기 · 한국 공식 원문",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "extreme-assessment",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-24T16:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "고난도 한계 측정 계열 전투. Peak 콘텐츠의 5명 편성을 참고하며 이 분기의 지원 대여 가능 여부는 미확인입니다. 아래 기수 시각은 한국 공식 공지의 한국 시각(KST)입니다. 현재 적 편성·스테이지 수정자는 미확인입니다.",
+          "en": "High-difficulty Peak Value Assessment branch. Five-Doll team capacity is documented for Peak content; support borrowing for this branch remains unverified. Official KR phase clocks below are KST source clocks. Current enemy lineups and stage modifiers are unverified.",
+          "ja": "高難度の限界測定系コンテンツです。Peak系の最大5体編成を参考とし、この分岐の支援借用可否は未確認です。以下は韓国公式告知の開催時刻です。現在の敵編成とステージ追加効果は未確認です。",
+          "zh": "高难度极限评估类战斗。参考Peak类内容的5人编队，此分支能否借用支援尚未确认。下方期数时间源自韩国官方公告，当前敌方编成及关卡修正尚未核实。"
+        },
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://iopwiki.com/wiki/GFL2_Main_Screen"
+        ]
+      },
+      {
+        "title": {
+          "ko": "공식 개최 기간",
+          "en": "Official phase window",
+          "ja": "公式開催期間",
+          "zh": "官方开放时间"
+        },
+        "body": {
+          "ko": "표시된 기간은 한국 공식 공지의 KST 기준입니다.",
+          "en": "This is the KST period from the Korean official notice.",
+          "ja": "表示期間は韓国公式告知のKST基準です。",
+          "zh": "所示时间为韩国官方公告的KST时间。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arknights-cn-arknights-annihilation-map-20261026",
+    "gameId": "arknights",
+    "region": "cn",
+    "server": "China",
+    "kind": "event",
+    "title": {
+      "ko": "灰石剧场",
+      "en": "灰石剧场",
+      "ja": "灰石剧场",
+      "zh": "灰石剧场"
+    },
+    "summary": {
+      "ko": "灰石剧场 섬멸 의뢰의 맵 교체 기간입니다. 주간 합성옥 보상 초기화와 맵 교체는 별개입니다. 교체 후 이전 맵은 연습으로 남으며 주간 합성옥을 주지 않습니다.",
+      "en": "灰石剧场 map rotation, separate from weekly Orundum reset. The previous map remains for practice, without weekly Orundum.",
+      "ja": "灰石剧场の委託マップ更新期間です。週間合成玉リセットとは別で、旧マップは演習のみとなり週間合成玉を獲得できません。",
+      "zh": "灰石剧场的委托地图轮换期，与每周合成玉重置不同。旧地图转为练习，不能获得每周合成玉。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://ak.hypergryph.com/news/1454",
+    "sourceTitle": "灰石剧场",
+    "sourceKind": "official",
+    "sourceLocale": "zh",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "startDate": "2026-10-26",
+    "endDate": "2027-01-25",
+    "sourceStartClock": "04:00",
+    "sourceEndClock": "03:59",
+    "recurring": {
+      "modeId": "arknights-annihilation-map",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://ak.hypergryph.com/news/1454"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetDate": "2027-01-25"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "灰石剧场 섬멸 의뢰의 맵 교체 기간입니다. 주간 합성옥 보상 초기화와 맵 교체는 별개입니다. 교체 후 이전 맵은 연습으로 남으며 주간 합성옥을 주지 않습니다.",
+          "en": "灰石剧场 map rotation, separate from weekly Orundum reset. The previous map remains for practice, without weekly Orundum.",
+          "ja": "灰石剧场の委託マップ更新期間です。週間合成玉リセットとは別で、旧マップは演習のみとなり週間合成玉を獲得できません。",
+          "zh": "灰石剧场的委托地图轮换期，与每周合成玉重置不同。旧地图转为练习，不能获得每周合成玉。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://ak.hypergryph.com/news/1454"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arknights-jp-arknights-annihilation-map-20260817",
+    "gameId": "arknights",
+    "region": "jp",
+    "server": "Japan · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "灼熱の作業場",
+      "en": "灼熱の作業場",
+      "ja": "灼熱の作業場",
+      "zh": "灼熱の作業場"
+    },
+    "summary": {
+      "ko": "灼熱の作業場 섬멸 의뢰의 맵 교체 기간입니다. 주간 합성옥 보상 초기화와 맵 교체는 별개입니다. 교체 후 이전 맵은 연습으로 남으며 주간 합성옥을 주지 않습니다.",
+      "en": "灼熱の作業場 map rotation, separate from weekly Orundum reset. The previous map remains for practice, without weekly Orundum.",
+      "ja": "灼熱の作業場の委託マップ更新期間です。週間合成玉リセットとは別で、旧マップは演習のみとなり週間合成玉を獲得できません。",
+      "zh": "灼熱の作業場的委托地图轮换期，与每周合成玉重置不同。旧地图转为练习，不能获得每周合成玉。"
+    },
+    "startAt": "2026-08-17T04:00:00+09:00",
+    "endAt": "2026-11-02T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://arknights.jp/news/4165",
+    "sourceTitle": "灼熱の作業場",
+    "sourceKind": "official",
+    "sourceLocale": "ja",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "map": "灼熱の作業場",
+    "recurring": {
+      "modeId": "arknights-annihilation-map",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://arknights.jp/news/4165"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2026-11-02T03:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "灼熱の作業場 섬멸 의뢰의 맵 교체 기간입니다. 주간 합성옥 보상 초기화와 맵 교체는 별개입니다. 교체 후 이전 맵은 연습으로 남으며 주간 합성옥을 주지 않습니다.",
+          "en": "灼熱の作業場 map rotation, separate from weekly Orundum reset. The previous map remains for practice, without weekly Orundum.",
+          "ja": "灼熱の作業場の委託マップ更新期間です。週間合成玉リセットとは別で、旧マップは演習のみとなり週間合成玉を獲得できません。",
+          "zh": "灼熱の作業場的委托地图轮换期，与每周合成玉重置不同。旧地图转为练习，不能获得每周合成玉。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://arknights.jp/news/4165"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arknights-jp-arknights-annihilation-map-20261102",
+    "gameId": "arknights",
+    "region": "jp",
+    "server": "Japan · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "朱壁食府",
+      "en": "朱壁食府",
+      "ja": "朱壁食府",
+      "zh": "朱壁食府"
+    },
+    "summary": {
+      "ko": "朱壁食府 섬멸 의뢰의 맵 교체 기간입니다. 주간 합성옥 보상 초기화와 맵 교체는 별개입니다. 교체 후 이전 맵은 연습으로 남으며 주간 합성옥을 주지 않습니다.",
+      "en": "朱壁食府 map rotation, separate from weekly Orundum reset. The previous map remains for practice, without weekly Orundum.",
+      "ja": "朱壁食府の委託マップ更新期間です。週間合成玉リセットとは別で、旧マップは演習のみとなり週間合成玉を獲得できません。",
+      "zh": "朱壁食府的委托地图轮换期，与每周合成玉重置不同。旧地图转为练习，不能获得每周合成玉。"
+    },
+    "startAt": "2026-11-02T04:00:00+09:00",
+    "endAt": "2027-02-01T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://arknights.jp/news/4977",
+    "sourceTitle": "朱壁食府",
+    "sourceKind": "official",
+    "sourceLocale": "ja",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "map": "朱壁食府",
+    "recurring": {
+      "modeId": "arknights-annihilation-map",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://arknights.jp/news/4977"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetAt": "2027-02-01T03:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "朱壁食府 섬멸 의뢰의 맵 교체 기간입니다. 주간 합성옥 보상 초기화와 맵 교체는 별개입니다. 교체 후 이전 맵은 연습으로 남으며 주간 합성옥을 주지 않습니다.",
+          "en": "朱壁食府 map rotation, separate from weekly Orundum reset. The previous map remains for practice, without weekly Orundum.",
+          "ja": "朱壁食府の委託マップ更新期間です。週間合成玉リセットとは別で、旧マップは演習のみとなり週間合成玉を獲得できません。",
+          "zh": "朱壁食府的委托地图轮换期，与每周合成玉重置不同。旧地图转为练习，不能获得每周合成玉。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://arknights.jp/news/4977"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arknights-jp-stationary-security-service-20261016",
+    "gameId": "arknights",
+    "region": "jp",
+    "server": "Japan · UTC+9",
+    "kind": "event",
+    "title": {
+      "ko": "旧日保全駐在",
+      "en": "旧日保全駐在",
+      "ja": "旧日保全駐在",
+      "zh": "旧日保全駐在"
+    },
+    "summary": {
+      "ko": "구일 보전 파견: 알스테리 디저트 공장·타워 마운틴 농업 실험 시설. 일본 공식 공지는10월16일04:00(JST) 개방만 안내하며 마감은 미공개입니다.",
+      "en": "The JP cycle opens October16 at04:00 JST with the two announced areas. Its end is not published.",
+      "ja": "旧日保全駐在：アルステリデザート工場・タワーマウンテン農業実験施設。10月16日04:00開放、終了日は未公表。",
+      "zh": "旧日保全派驻开放阿尔斯特利甜点工厂、塔山农业实验设施。日服10月16日04:00开放，未公布结束时间。"
+    },
+    "startAt": "2026-10-16T04:00:00+09:00",
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://arknights.jp/news/4805",
+    "sourceTitle": "旧日保全駐在",
+    "sourceKind": "official",
+    "sourceLocale": "ja",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "stationary-security-service",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://arknights.jp/news/4805"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "구일 보전 파견: 알스테리 디저트 공장·타워 마운틴 농업 실험 시설. 일본 공식 공지는10월16일04:00(JST) 개방만 안내하며 마감은 미공개입니다.",
+          "en": "The JP cycle opens October16 at04:00 JST with the two announced areas. Its end is not published.",
+          "ja": "旧日保全駐在：アルステリデザート工場・タワーマウンテン農業実験施設。10月16日04:00開放、終了日は未公表。",
+          "zh": "旧日保全派驻开放阿尔斯特利甜点工厂、塔山农业实验设施。日服10月16日04:00开放，未公布结束时间。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://arknights.jp/news/4805"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "genshin-global-imaginarium-theater-20261001",
+    "gameId": "genshin",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "현실 속 환상극 ·10월",
+      "en": "Imaginarium Theater · October",
+      "ja": "幻想シアター・10月",
+      "zh": "幻想真境剧诗·10月"
+    },
+    "summary": {
+      "ko": "10월 지정 원소는 물·얼음·바람, 11월은 물·번개·바위입니다. 개막 캐릭터 6명과 초청 캐릭터는 회차별로 다릅니다.",
+      "en": "October features Hydro, Cryo and Anemo; November features Hydro, Electro and Geo. Each phase has its own six opening characters and special guests.",
+      "ja": "10月の指定元素は水・氷・風、11月は水・雷・岩。開幕キャスト6名と特別招待キャストは各期で異なります。",
+      "zh": "10月限定元素為水、冰、風，11月為水、雷、岩；每期開幕角色6名及特邀角色各不相同。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/166383",
+    "sourceTitle": "현실 속 환상극 ·10월",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "recurring": {
+      "modeId": "imaginarium-theater",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://genshin.hoyoverse.com/ko/news/detail/166383"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetDate": "2026-10-31"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "10월 지정 원소는 물·얼음·바람, 11월은 물·번개·바위입니다. 개막 캐릭터 6명과 초청 캐릭터는 회차별로 다릅니다.",
+          "en": "October features Hydro, Cryo and Anemo; November features Hydro, Electro and Geo. Each phase has its own six opening characters and special guests.",
+          "ja": "10月の指定元素は水・氷・風、11月は水・雷・岩。開幕キャスト6名と特別招待キャストは各期で異なります。",
+          "zh": "10月限定元素為水、冰、風，11月為水、雷、岩；每期開幕角色6名及特邀角色各不相同。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://genshin.hoyoverse.com/ko/news/detail/166383"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "genshin-global-recurring-imaginarium-theater",
+    "gameId": "genshin",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "현실 속 환상극",
+      "en": "Imaginarium Theater",
+      "ja": "幻想シアター",
+      "zh": "幻想真境剧诗"
+    },
+    "summary": {
+      "ko": "매월1일 새로운 회차가 시작됩니다. 지정 원소와 개막·초청 캐릭터는 해당 회차 공지를 확인하세요.",
+      "en": "A new phase starts on the1st monthly. Check each announcement for elements and opening/guest characters.",
+      "ja": "毎月1日更新。限定元素・開幕・招待キャストは各期の告知を確認。",
+      "zh": "每月1日更新，限定元素及开幕、特邀角色请查看当期公告。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/",
+    "sourceTitle": "현실 속 환상극",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "imaginarium-theater",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "매월1일 새로운 회차가 시작됩니다. 지정 원소와 개막·초청 캐릭터는 해당 회차 공지를 확인하세요.",
+          "en": "A new phase starts on the1st monthly. Check each announcement for elements and opening/guest characters.",
+          "ja": "毎月1日更新。限定元素・開幕・招待キャストは各期の告知を確認。",
+          "zh": "每月1日更新，限定元素及开幕、特邀角色请查看当期公告。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://blog.ko.playstation.com/2024/05/27/%E3%80%88%EC%9B%90%EC%8B%A0%E3%80%89-4-7-%EB%B2%84%EC%A0%84%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%98%EB%8A%94-%EC%9E%A5%EA%B8%B0-%EB%8F%84%EC%A0%84-%EB%B9%84%EA%B2%BD-%EA%B7%B8%EB%A6%AC%EA%B3%A0/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "genshin-global-spiral-abyss-20261016",
+    "gameId": "genshin",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "나선 비경 · 연월 나선",
+      "en": "Spiral Abyss · Abyssal Moon Spire",
+      "ja": "深境螺旋・淵月螺旋",
+      "zh": "深境螺旋 · 渊月螺旋"
+    },
+    "summary": {
+      "ko": "10월16일 회차:11층 바람·얼음 피해+60%.12층 전반 별빛 반응 피해+75%, 후반 얼음 피해+75%.",
+      "en": "October16 phase: Floor11 Anemo/Cryo DMG+60%. Floor12 first half Stellar Glimmer DMG+75%; second half Cryo DMG+75%.",
+      "ja": "10月16日更新：11層は風・氷ダメージ+60%。12層前半は星反応ダメージ+75%、後半は氷ダメージ+75%。",
+      "zh": "10月16日更新：11層風、冰傷害+60%；12層上半星爍反應傷害+75%，下半冰傷害+75%。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/166383",
+    "sourceTitle": "나선 비경 · 연월 나선",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "startDate": "2026-10-16",
+    "endDate": "2026-11-15",
+    "recurring": {
+      "modeId": "spiral-abyss",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://genshin.hoyoverse.com/ko/news/detail/166383"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetDate": "2026-11-15"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "10월16일 회차:11층 바람·얼음 피해+60%.12층 전반 별빛 반응 피해+75%, 후반 얼음 피해+75%.",
+          "en": "October16 phase: Floor11 Anemo/Cryo DMG+60%. Floor12 first half Stellar Glimmer DMG+75%; second half Cryo DMG+75%.",
+          "ja": "10月16日更新：11層は風・氷ダメージ+60%。12層前半は星反応ダメージ+75%、後半は氷ダメージ+75%。",
+          "zh": "10月16日更新：11層風、冰傷害+60%；12層上半星爍反應傷害+75%，下半冰傷害+75%。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://genshin.hoyoverse.com/ko/news/detail/166383"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hsr-global-memory-of-chaos-20261102",
+    "gameId": "hsr",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "혼돈의 기억 · 적자생존",
+      "en": "Memory of Chaos · Survival of the Fittest",
+      "ja": "混沌の記憶・自然淘汰",
+      "zh": "混沌回忆·物竞天择"
+    },
+    "summary": {
+      "ko": "4.6 공식 공지에 안내된 다음 회차입니다. 서버 기준11월2일04:00부터12월14일03:59까지이며, 서버 시간대가 확정되지 않은 이 항목은 날짜로 표시합니다.",
+      "en": "Announced in the4.6 notice: November2 04:00–December14 03:59 server time. Dates are shown until its server timezone is bound.",
+      "ja": "4.6公式告知の次回。サーバー時間11月2日04:00～12月14日03:59。サーバー時区を確定するまで日付で表示。",
+      "zh": "4.6官方公告的下期：服务器时间11月2日04:00至12月14日03:59，服务器时区未绑定，仅显示日期。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+    "sourceTitle": "혼돈의 기억 · 적자생존",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "startDate": "2026-11-02",
+    "endDate": "2026-12-14",
+    "recurring": {
+      "modeId": "memory-of-chaos",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://hsr.hoyoverse.com/ko-kr/news/166468"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetDate": "2026-12-14"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "4.6 공식 공지에 안내된 다음 회차입니다. 서버 기준11월2일04:00부터12월14일03:59까지이며, 서버 시간대가 확정되지 않은 이 항목은 날짜로 표시합니다.",
+          "en": "Announced in the4.6 notice: November2 04:00–December14 03:59 server time. Dates are shown until its server timezone is bound.",
+          "ja": "4.6公式告知の次回。サーバー時間11月2日04:00～12月14日03:59。サーバー時区を確定するまで日付で表示。",
+          "zh": "4.6官方公告的下期：服务器时间11月2日04:00至12月14日03:59，服务器时区未绑定，仅显示日期。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://hsr.hoyoverse.com/ko-kr/news/166468"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hsr-global-recurring-anomaly-arbitration",
+    "gameId": "hsr",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "이상 중재 · 낙엽귀근",
+      "en": "Anomaly Arbitration · Return to Roots",
+      "ja": "異相の仲裁",
+      "zh": "异相仲裁"
+    },
+    "summary": {
+      "ko": "4.6 회차에서 고독한 별가루·육성 재료·장식 보상을 획득할 수 있습니다. 공식 본문에 이번 회차 종료 일시가 없어 버전 마감을 초기화 시각으로 대신하지 않습니다.",
+      "en": "The4.6 occurrence offers Lone Stardust, growth materials and cosmetic rewards. Its exact end is absent from the notice.",
+      "ja": "4.6の開催回で星屑・育成素材・装飾報酬を獲得。公式本文に今期の終了日時はありません。",
+      "zh": "4.6本期可获孤独的星尘、养成材料及装饰奖励，公告正文未列出本期准确截止时间。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://hsr.hoyoverse.com/ko-kr/news/166468",
+    "sourceTitle": "이상 중재 · 낙엽귀근",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "anomaly-arbitration",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://hsr.hoyoverse.com/ko-kr/news/166468"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "4.6 회차에서 고독한 별가루·육성 재료·장식 보상을 획득할 수 있습니다. 공식 본문에 이번 회차 종료 일시가 없어 버전 마감을 초기화 시각으로 대신하지 않습니다.",
+          "en": "The4.6 occurrence offers Lone Stardust, growth materials and cosmetic rewards. Its exact end is absent from the notice.",
+          "ja": "4.6の開催回で星屑・育成素材・装飾報酬を獲得。公式本文に今期の終了日時はありません。",
+          "zh": "4.6本期可获孤独的星尘、养成材料及装饰奖励，公告正文未列出本期准确截止时间。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://hsr.hoyoverse.com/ko-kr/news/166468"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "endfield-global-echoes-of-war-fervor-20261105",
+    "gameId": "endfield",
+    "region": "global",
+    "server": "Asia · UTC+8",
+    "kind": "event",
+    "title": {
+      "ko": "열광의 회상",
+      "en": "Season of Fervor",
+      "ja": "狂熱シーズン",
+      "zh": "狂熱賽季"
+    },
+    "summary": {
+      "ko": "시즌마다3개 순환 주기, 각 주기3개 스테이지. 신규3개 스테이지 일반 난도 전체 완료 보상은 오로베릴300개이며 주기마다300개가 아닙니다.",
+      "en": "Each season has3 cycles of3 stages. Completing all3 new Normal stages awards300 Oroberyl total, not300 each cycle.",
+      "ja": "各シーズンは3周期、各周期3ステージ。新規3ステージの通常クリアで赤晶玉300個、周期ごとの300個ではありません。",
+      "zh": "每賽季3個輪換週期，每週期3關；新增3關普通難度全通獎勵合計嵌晶玉300，並非每週期300。"
+    },
+    "startAt": "2026-11-05T12:00:00+08:00",
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/9560",
+    "sourceTitle": "열광의 회상",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "echoes-of-war",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://endfield.gryphline.com/ko-kr/news/9560"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "시즌마다3개 순환 주기, 각 주기3개 스테이지. 신규3개 스테이지 일반 난도 전체 완료 보상은 오로베릴300개이며 주기마다300개가 아닙니다.",
+          "en": "Each season has3 cycles of3 stages. Completing all3 new Normal stages awards300 Oroberyl total, not300 each cycle.",
+          "ja": "各シーズンは3周期、各周期3ステージ。新規3ステージの通常クリアで赤晶玉300個、周期ごとの300個ではありません。",
+          "zh": "每賽季3個輪換週期，每週期3關；新增3關普通難度全通獎勵合計嵌晶玉300，並非每週期300。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://endfield.gryphline.com/ko-kr/news/9560"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "limbus-global-recurring-mirror-dungeon",
+    "gameId": "limbus",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "거울 던전 · 주간 보너스",
+      "en": "Mirror Dungeon · Weekly bonus",
+      "ja": "鏡ダンジョン・週間ボーナス",
+      "zh": "镜像迷宫·每周奖励"
+    },
+    "summary": {
+      "ko": "주간 보너스는 매주 목요일 06:00(KST)에 초기화됩니다. 보너스는 주 3회이며, 어려움에서는 여러 회분을 함께 사용할 수 있습니다. 보상은 클리어한 층과 사용한 보너스에 따라 달라집니다.",
+      "en": "Weekly bonuses reset Thursday at06:00 KST. Three charges are available weekly; Hard can consume several together. Rewards depend on cleared floors and charges used.",
+      "ja": "週次ボーナスは毎週木曜06:00（KST）にリセット。週3回分で、ハードは複数回分をまとめて使用できます。報酬は到達階と使用回数で変わります。",
+      "zh": "每周奖励加成于周四06:00（KST）重置，每周三次；困难模式可一次使用多次加成。奖励取决于通关楼层及加成次数。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://faq.limbuscompany.site/",
+    "sourceTitle": "거울 던전 · 주간 보너스",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "mirror-dungeon",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://faq.limbuscompany.site/"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "주간 보너스는 매주 목요일 06:00(KST)에 초기화됩니다. 보너스는 주 3회이며, 어려움에서는 여러 회분을 함께 사용할 수 있습니다. 보상은 클리어한 층과 사용한 보너스에 따라 달라집니다.",
+          "en": "Weekly bonuses reset Thursday at06:00 KST. Three charges are available weekly; Hard can consume several together. Rewards depend on cleared floors and charges used.",
+          "ja": "週次ボーナスは毎週木曜06:00（KST）にリセット。週3回分で、ハードは複数回分をまとめて使用できます。報酬は到達階と使用回数で変わります。",
+          "zh": "每周奖励加成于周四06:00（KST）重置，每周三次；困难模式可一次使用多次加成。奖励取决于通关楼层及加成次数。"
+        },
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://wikiwiki.jp/lcbwiki/%E9%8F%A1%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3"
+        ]
+      },
+      {
+        "title": {
+          "ko": "주간 초기화",
+          "en": "Weekly reset",
+          "ja": "週間リセット",
+          "zh": "每周重置"
+        },
+        "body": {
+          "ko": "공식 FAQ: 매주 목요일06:00(KST).",
+          "en": "Official FAQ: Thursday06:00 KST.",
+          "ja": "公式FAQ：毎週木曜06:00（KST）。",
+          "zh": "官方FAQ：每周四06:00（KST）。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://faq.limbuscompany.site/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stellasora-global-boss-blitz-season12",
+    "gameId": "stellasora",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "연합 토벌 · 시즌12",
+      "en": "Boss Blitz · Season12",
+      "ja": "連合討伐・シーズン12",
+      "zh": "联合讨伐·第12季"
+    },
+    "summary": {
+      "ko": "보스 토벌을 완료하고 성급을 누적해 별의 파편과 순위 보상에 도전합니다. 도전 종료·랭킹 결산·보상 수령 기간은 서로 다릅니다. 시즌13 원문은 도전 종료일과 결산 시작일이 겹치므로 게임 내 최종 안내를 확인해야 합니다.",
+      "en": "Complete boss challenges and accumulate stars for Stellanite Dust and ranking rewards. Challenge, settlement and reward-claim windows differ. Season13's published challenge and settlement periods overlap; check the final in-game notice.",
+      "ja": "ボス討伐と星数で星ノ欠片・順位報酬を獲得。挑戦・集計・報酬受取の期間は別です。シーズン13の原文は挑戦期間と集計開始が重複するため、ゲーム内最終告知を要確認。",
+      "zh": "完成首领讨伐、累积星级以获取星之砂及排名奖励。挑战、结算与领奖期不同；第13季原文的挑战和结算时间重叠，请核对游戏内最终公告。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://game.naver.com/lounge/stellasora/board/detail/8252643",
+    "sourceTitle": "연합 토벌 · 시즌12",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-30",
+    "recurring": {
+      "modeId": "boss-blitz",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://game.naver.com/lounge/stellasora/board/detail/8252643"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetDate": "2026-10-30"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "보스 토벌을 완료하고 성급을 누적해 별의 파편과 순위 보상에 도전합니다. 도전 종료·랭킹 결산·보상 수령 기간은 서로 다릅니다. 시즌13 원문은 도전 종료일과 결산 시작일이 겹치므로 게임 내 최종 안내를 확인해야 합니다.",
+          "en": "Complete boss challenges and accumulate stars for Stellanite Dust and ranking rewards. Challenge, settlement and reward-claim windows differ. Season13's published challenge and settlement periods overlap; check the final in-game notice.",
+          "ja": "ボス討伐と星数で星ノ欠片・順位報酬を獲得。挑戦・集計・報酬受取の期間は別です。シーズン13の原文は挑戦期間と集計開始が重複するため、ゲーム内最終告知を要確認。",
+          "zh": "完成首领讨伐、累积星级以获取星之砂及排名奖励。挑战、结算与领奖期不同；第13季原文的挑战和结算时间重叠，请核对游戏内最终公告。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://game.naver.com/lounge/stellasora/board/detail/8252643"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stellasora-global-boss-blitz-season13",
+    "gameId": "stellasora",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "연합 토벌 · 시즌13",
+      "en": "Boss Blitz · Season13",
+      "ja": "連合討伐・シーズン13",
+      "zh": "联合讨伐·第13季"
+    },
+    "summary": {
+      "ko": "보스 토벌을 완료하고 성급을 누적해 별의 파편과 순위 보상에 도전합니다. 도전 종료·랭킹 결산·보상 수령 기간은 서로 다릅니다. 시즌13 원문은 도전 종료일과 결산 시작일이 겹치므로 게임 내 최종 안내를 확인해야 합니다.",
+      "en": "Complete boss challenges and accumulate stars for Stellanite Dust and ranking rewards. Challenge, settlement and reward-claim windows differ. Season13's published challenge and settlement periods overlap; check the final in-game notice.",
+      "ja": "ボス討伐と星数で星ノ欠片・順位報酬を獲得。挑戦・集計・報酬受取の期間は別です。シーズン13の原文は挑戦期間と集計開始が重複するため、ゲーム内最終告知を要確認。",
+      "zh": "完成首领讨伐、累积星级以获取星之砂及排名奖励。挑战、结算与领奖期不同；第13季原文的挑战和结算时间重叠，请核对游戏内最终公告。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://game.naver.com/lounge/stellasora/board/detail/8376481",
+    "sourceTitle": "연합 토벌 · 시즌13",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-29",
+    "recurring": {
+      "modeId": "boss-blitz",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://game.naver.com/lounge/stellasora/board/detail/8376481"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetDate": "2026-11-29"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "보스 토벌을 완료하고 성급을 누적해 별의 파편과 순위 보상에 도전합니다. 도전 종료·랭킹 결산·보상 수령 기간은 서로 다릅니다. 시즌13 원문은 도전 종료일과 결산 시작일이 겹치므로 게임 내 최종 안내를 확인해야 합니다.",
+          "en": "Complete boss challenges and accumulate stars for Stellanite Dust and ranking rewards. Challenge, settlement and reward-claim windows differ. Season13's published challenge and settlement periods overlap; check the final in-game notice.",
+          "ja": "ボス討伐と星数で星ノ欠片・順位報酬を獲得。挑戦・集計・報酬受取の期間は別です。シーズン13の原文は挑戦期間と集計開始が重複するため、ゲーム内最終告知を要確認。",
+          "zh": "完成首领讨伐、累积星级以获取星之砂及排名奖励。挑战、结算与领奖期不同；第13季原文的挑战和结算时间重叠，请核对游戏内最终公告。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://game.naver.com/lounge/stellasora/board/detail/8376481"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stellasora-global-shadow-hunter-season3-end",
+    "gameId": "stellasora",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "쉐도우 헌터 Beta · 시즌3",
+      "en": "Shadow Hunter Beta · Season3",
+      "ja": "シャドウハンターBeta・シーズン3",
+      "zh": "暗影猎人Beta·第3季"
+    },
+    "summary": {
+      "ko": "상시 콘텐츠 쉐도우 헌터 Beta는 새 시즌이 시작되면 토벌 레벨이 초기화되고 토벌 목표가 변경됩니다. 시즌3 종료는11월1일04:59, 시즌4는11월1일05:00부터12월1일04:59로 공지됐으며 원문 시간대는 미표기입니다.",
+      "en": "Operation: Shadow Siege (Beta) resets hunting level and changes hunt targets at the new season. The KR notice lists S3 ending November1 at04:59 and S4 November1 at05:00–December1 at04:59, without a timezone.",
+      "ja": "シャドウハンターBetaは新シーズンで討伐レベルをリセットし、討伐目標も変更。韓国告知ではS3終了11月1日04:59、S4は同日05:00～12月1日04:59（時区未記載）。",
+      "zh": "暗影猎人Beta新赛季会重置讨伐等级并更换目标。韩国公告列出S3于11月1日04:59结束，S4为11月1日05:00至12月1日04:59，未标明时区。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://game.naver.com/lounge/stellasora/board/detail/8381532",
+    "sourceTitle": "쉐도우 헌터 Beta · 시즌3",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "endDate": "2026-11-01",
+    "recurring": {
+      "modeId": "shadow-hunter-beta",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://game.naver.com/lounge/stellasora/board/detail/8381532"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetDate": "2026-11-01"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "상시 콘텐츠 쉐도우 헌터 Beta는 새 시즌이 시작되면 토벌 레벨이 초기화되고 토벌 목표가 변경됩니다. 시즌3 종료는11월1일04:59, 시즌4는11월1일05:00부터12월1일04:59로 공지됐으며 원문 시간대는 미표기입니다.",
+          "en": "Operation: Shadow Siege (Beta) resets hunting level and changes hunt targets at the new season. The KR notice lists S3 ending November1 at04:59 and S4 November1 at05:00–December1 at04:59, without a timezone.",
+          "ja": "シャドウハンターBetaは新シーズンで討伐レベルをリセットし、討伐目標も変更。韓国告知ではS3終了11月1日04:59、S4は同日05:00～12月1日04:59（時区未記載）。",
+          "zh": "暗影猎人Beta新赛季会重置讨伐等级并更换目标。韩国公告列出S3于11月1日04:59结束，S4为11月1日05:00至12月1日04:59，未标明时区。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://game.naver.com/lounge/stellasora/board/detail/8381532"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stellasora-global-shadow-hunter-season4",
+    "gameId": "stellasora",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "쉐도우 헌터 Beta · 시즌4",
+      "en": "Shadow Hunter Beta · Season4",
+      "ja": "シャドウハンターBeta・シーズン4",
+      "zh": "暗影猎人Beta·第4季"
+    },
+    "summary": {
+      "ko": "상시 콘텐츠 쉐도우 헌터 Beta는 새 시즌이 시작되면 토벌 레벨이 초기화되고 토벌 목표가 변경됩니다. 시즌3 종료는11월1일04:59, 시즌4는11월1일05:00부터12월1일04:59로 공지됐으며 원문 시간대는 미표기입니다.",
+      "en": "Operation: Shadow Siege (Beta) resets hunting level and changes hunt targets at the new season. The KR notice lists S3 ending November1 at04:59 and S4 November1 at05:00–December1 at04:59, without a timezone.",
+      "ja": "シャドウハンターBetaは新シーズンで討伐レベルをリセットし、討伐目標も変更。韓国告知ではS3終了11月1日04:59、S4は同日05:00～12月1日04:59（時区未記載）。",
+      "zh": "暗影猎人Beta新赛季会重置讨伐等级并更换目标。韩国公告列出S3于11月1日04:59结束，S4为11月1日05:00至12月1日04:59，未标明时区。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://game.naver.com/lounge/stellasora/board/detail/8381532",
+    "sourceTitle": "쉐도우 헌터 Beta · 시즌4",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "startDate": "2026-11-01",
+    "endDate": "2026-12-01",
+    "recurring": {
+      "modeId": "shadow-hunter-beta",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://game.naver.com/lounge/stellasora/board/detail/8381532"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z",
+      "resetDate": "2026-12-01"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "상시 콘텐츠 쉐도우 헌터 Beta는 새 시즌이 시작되면 토벌 레벨이 초기화되고 토벌 목표가 변경됩니다. 시즌3 종료는11월1일04:59, 시즌4는11월1일05:00부터12월1일04:59로 공지됐으며 원문 시간대는 미표기입니다.",
+          "en": "Operation: Shadow Siege (Beta) resets hunting level and changes hunt targets at the new season. The KR notice lists S3 ending November1 at04:59 and S4 November1 at05:00–December1 at04:59, without a timezone.",
+          "ja": "シャドウハンターBetaは新シーズンで討伐レベルをリセットし、討伐目標も変更。韓国告知ではS3終了11月1日04:59、S4は同日05:00～12月1日04:59（時区未記載）。",
+          "zh": "暗影猎人Beta新赛季会重置讨伐等级并更换目标。韩国公告列出S3于11月1日04:59结束，S4为11月1日05:00至12月1日04:59，未标明时区。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://game.naver.com/lounge/stellasora/board/detail/8381532"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dna-global-recurring-nocturnal-echoes",
+    "gameId": "dna",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "악몽의 잔향 · 주간 보스",
+      "en": "Nocturnal Echoes · Weekly boss",
+      "ja": "Nocturnal Echoes・週間ボス",
+      "zh": "Nocturnal Echoes·每周首领"
+    },
+    "summary": {
+      "ko": "주간 보스 도전 보상과 의뢰 편지 풀을 확인하세요. 보상 풀의 화요일 교체는 주간 보상 횟수 초기화와 별개이며, 교체만으로 횟수가 복구되지 않습니다. 정확한 주간 마감은 플레이 서버 기준으로 확인해야 합니다.",
+      "en": "Check weekly boss rewards and the Secret Letter pool. Tuesday reward-pool rotation does not restore weekly reward attempts. Weekly reset timing depends on the selected server.",
+      "ja": "週次ボス報酬と依頼密書プールを確認。火曜の報酬入替では週次受取回数は回復しません。正確な週次締切はプレイするサーバーで確認してください。",
+      "zh": "请核对每周首领奖励及委托密函池。周二奖励池更替不会恢复每周领奖次数，具体周结算时间需按实际游玩服务器确认。"
+    },
+    "startAt": null,
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+    "sourceTitle": "악몽의 잔향 · 주간 보스",
+    "sourceKind": "official",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "nocturnal-echoes",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "주간 보스 도전 보상과 의뢰 편지 풀을 확인하세요. 보상 풀의 화요일 교체는 주간 보상 횟수 초기화와 별개이며, 교체만으로 횟수가 복구되지 않습니다. 정확한 주간 마감은 플레이 서버 기준으로 확인해야 합니다.",
+          "en": "Check weekly boss rewards and the Secret Letter pool. Tuesday reward-pool rotation does not restore weekly reward attempts. Weekly reset timing depends on the selected server.",
+          "ja": "週次ボス報酬と依頼密書プールを確認。火曜の報酬入替では週次受取回数は回復しません。正確な週次締切はプレイするサーバーで確認してください。",
+          "zh": "请核对每周首领奖励及委托密函池。周二奖励池更替不会恢复每周领奖次数，具体周结算时间需按实际游玩服务器确认。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "holodreams-event-65016-point-rally",
+    "gameId": "holodreams",
+    "region": "global",
+    "server": "Global",
+    "kind": "event",
+    "title": {
+      "ko": "우리들의 Halloween Fever!",
+      "en": "Catch the Halloween Fever!",
+      "ja": "私たちのHalloween Fever！",
+      "zh": "我们的Halloween Fever！"
+    },
+    "summary": {
+      "ko": "포인트 랠리 ‘우리들의 Halloween Fever!’는 라이브와 미니게임으로 이벤트Pt·이벤트 배지를 모읍니다. 배지는 한정 이벤트 메모리와 육성 재료로 교환합니다. 마츠리·제타·네리사·라덴·하지메가 등장하며 새 과제곡6곡이 추가됩니다.",
+      "en": "Catch the Halloween Fever! is a Point Rally: play Lives and minigames for Event Points and Badges, then exchange Badges for limited Event Memories and growth materials. Matsuri, Zeta, Nerissa, Raden and Hajime feature alongside six event songs.",
+      "ja": "私たちのHalloween Fever！はライブ・ミニゲームでイベントPtとバッジを集めるポイントラリー。バッジは限定イベントメモリーや育成素材に交換。まつり・ゼータ・ネリッサ・らでん・はじめが登場し、課題曲6曲を追加。",
+      "zh": "我们的Halloween Fever！为积分拉力活动：游玩Live和小游戏收集活动Pt与徽章，兑换限定活动回忆和养成材料。夏色祭、Zeta、Nerissa、螺钿与轰一登场，并追加六首课题曲。"
+    },
+    "startAt": "2026-10-29T12:00:00+09:00",
+    "endAt": null,
+    "publishedAt": null,
+    "verifiedAt": "2026-10-29T15:44:33.204Z",
+    "sourceUrl": "https://gamewith.jp/gamedb/15524/articles/65016",
+    "sourceTitle": "우리들의 Halloween Fever!",
+    "sourceKind": "community",
+    "sourceLocale": "ko",
+    "translatedLocales": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
+    "endDate": "2026-11-04",
+    "recurring": {
+      "modeId": "point-rally",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "community",
+      "sourceUrls": [
+        "https://gamewith.jp/gamedb/15524/articles/65016"
+      ],
+      "verifiedAt": "2026-10-29T15:44:33.204Z"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 방법과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加方法と今期の内容",
+          "zh": "参与方式与本期内容"
+        },
+        "body": {
+          "ko": "포인트 랠리 ‘우리들의 Halloween Fever!’는 라이브와 미니게임으로 이벤트Pt·이벤트 배지를 모읍니다. 배지는 한정 이벤트 메모리와 육성 재료로 교환합니다. 마츠리·제타·네리사·라덴·하지메가 등장하며 새 과제곡6곡이 추가됩니다.",
+          "en": "Catch the Halloween Fever! is a Point Rally: play Lives and minigames for Event Points and Badges, then exchange Badges for limited Event Memories and growth materials. Matsuri, Zeta, Nerissa, Raden and Hajime feature alongside six event songs.",
+          "ja": "私たちのHalloween Fever！はライブ・ミニゲームでイベントPtとバッジを集めるポイントラリー。バッジは限定イベントメモリーや育成素材に交換。まつり・ゼータ・ネリッサ・らでん・はじめが登場し、課題曲6曲を追加。",
+          "zh": "我们的Halloween Fever！为积分拉力活动：游玩Live和小游戏收集活动Pt与徽章，兑换限定活动回忆和养成材料。夏色祭、Zeta、Nerissa、螺钿与轰一登场，并追加六首课题曲。"
+        },
+        "sourceKind": "community",
+        "sourceUrls": [
+          "https://gamewith.jp/gamedb/15524/articles/65016"
+        ]
+      }
+    ],
+    "relatedSources": [
+      {
+        "kind": "official",
+        "url": "https://x.com/holo_dreams_en/status/2115292476579922208",
+        "title": "Official event start"
+      }
+    ]
+  },
+  {
+    "id": "bluearchive-jp-set-20261029",
+    "gameId": "bluearchive",
+    "region": "jp",
+    "server": "Japan",
+    "kind": "event",
+    "title": {
+      "ko": "제약해제결전 · セトの憤怒",
+      "en": "Final Restriction Release · セトの憤怒",
+      "ja": "制約解除決戦 · セトの憤怒",
+      "zh": "制约解除决战 · セトの憤怒"
+    },
+    "summary": {
+      "ko": "야외전·특수장갑 회차. 임무 5-1 클리어 후 참여할 수 있습니다.",
+      "en": "Outdoor terrain and Special Armor. Clear Mission 5-1 to enter.",
+      "ja": "屋外戦・特殊装甲の回。任務Area5-1クリアで参加できます。",
+      "zh": "室外战、特殊装甲期次。通关任务5-1后可参与。"
+    },
+    "startAt": "2026-10-29T11:00:00+09:00",
+    "endAt": "2026-11-25T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-30T04:55:48.372638+00:00",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/705",
+    "sourceTitle": "メンテナンスのお知らせ（10/28 11:00 - 19:00予定）",
+    "sourceKind": "official",
+    "sourceLocale": "ja",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "fury-of-set",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://bluearchive.jp/news/newsJump/705",
+        "https://bluearchive.jp/news/newsJump/697"
+      ],
+      "verifiedAt": "2026-10-30T04:55:48.372638+00:00",
+      "resetAt": "2026-11-25T03:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 조건과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加条件と今期の内容",
+          "zh": "参与条件与本期内容"
+        },
+        "body": {
+          "ko": "임무 5-1 클리어 후 참여할 수 있습니다. 야외전·특수장갑이며, 50단계부터 보스 공격 타입은 폭발입니다.",
+          "en": "Clear Mission 5-1 to enter. Outdoor terrain and Special Armor; the boss uses Explosive attacks from stage 50.",
+          "ja": "屋外戦・特殊装甲の回。任務Area5-1クリアで参加可能。50段階からの攻撃タイプは爆発です。",
+          "zh": "日服室外战、特殊装甲期次。通关任务Area5-1后参与，第50层起首领攻击类型为爆发。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://bluearchive.jp/news/newsJump/705"
+        ]
+      }
+    ],
+    "relatedSources": [
+      {
+        "kind": "official",
+        "url": "https://bluearchive.jp/news/newsJump/697",
+        "title": "日本サービスの時刻表記"
+      }
+    ]
+  },
+  {
+    "id": "bluearchive-jp-total-assault-nightmare-train-20261104",
+    "gameId": "bluearchive",
+    "region": "jp",
+    "server": "Japan",
+    "kind": "event",
+    "title": {
+      "ko": "총력전 · 悪夢急行-ナイトメアトレイン-",
+      "en": "Total Assault · 悪夢急行-ナイトメアトレイン-",
+      "ja": "総力戦 · 悪夢急行-ナイトメアトレイン-",
+      "zh": "总力战 · 悪夢急行-ナイトメアトレイン-"
+    },
+    "summary": {
+      "ko": "경장갑 총력전. 1페이즈는 실내, 2페이즈는 시가지이며 임무 4-1 클리어 후 참여할 수 있습니다.",
+      "en": "Light Armor Total Assault: phase 1 Indoor, phase 2 Urban. Clear Mission 4-1 to enter.",
+      "ja": "軽装備の総力戦。フェーズ1は屋内、フェーズ2は市街地。任務Area4-1クリアで参加できます。",
+      "zh": "轻型装甲总力战，第一阶段室内、第二阶段街区。通关任务4-1后可参与。"
+    },
+    "startAt": "2026-11-04T11:00:00+09:00",
+    "endAt": "2026-11-11T03:59:00+09:00",
+    "publishedAt": null,
+    "verifiedAt": "2026-10-30T04:55:48.372638+00:00",
+    "sourceUrl": "https://bluearchive.jp/news/newsJump/705",
+    "sourceTitle": "メンテナンスのお知らせ（10/28 11:00 - 19:00予定）",
+    "sourceKind": "official",
+    "sourceLocale": "ja",
+    "officialLocales": [
+      "ja"
+    ],
+    "translatedLocales": [
+      "ko",
+      "en",
+      "zh"
+    ],
+    "recurring": {
+      "modeId": "bluearchive-total-assault",
+      "cycleLabel": {
+        "ko": "회차별 일정",
+        "en": "Announced phase",
+        "ja": "告知された開催回",
+        "zh": "已公告期次"
+      },
+      "sourceKind": "official",
+      "sourceUrls": [
+        "https://bluearchive.jp/news/newsJump/705",
+        "https://bluearchive.jp/news/newsJump/697"
+      ],
+      "verifiedAt": "2026-10-30T04:55:48.372638+00:00",
+      "resetAt": "2026-11-11T03:59:00+09:00"
+    },
+    "detailSections": [
+      {
+        "title": {
+          "ko": "참여 조건과 이번 회차",
+          "en": "Participation and this phase",
+          "ja": "参加条件と今期の内容",
+          "zh": "参与条件与本期内容"
+        },
+        "body": {
+          "ko": "임무 4-1 클리어 후 참여할 수 있습니다. 경장갑이며, 1페이즈는 실내, 2페이즈는 시가지입니다. Insane·Torment·Lunatic의 보스 공격 타입은 폭발입니다.",
+          "en": "Clear Mission 4-1 to enter. Light Armor; phase 1 Indoor, phase 2 Urban. Insane, Torment and Lunatic use Explosive attacks.",
+          "ja": "軽装備の総力戦。フェーズ1は屋内、フェーズ2は市街地。任務Area4-1クリアで参加可能。Insane・Torment・Lunaticの攻撃タイプは爆発です。",
+          "zh": "日服轻型装甲总力战预告。第一阶段室内、第二阶段街区；通关任务Area4-1后参与。Insane、Torment、Lunatic为爆发攻击。"
+        },
+        "sourceKind": "official",
+        "sourceUrls": [
+          "https://bluearchive.jp/news/newsJump/705"
+        ]
+      }
+    ],
+    "relatedSources": [
+      {
+        "kind": "official",
+        "url": "https://bluearchive.jp/news/newsJump/697",
+        "title": "日本サービスの時刻表記"
+      }
+    ]
+  }
+]
