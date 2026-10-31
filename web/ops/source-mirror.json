@@ -104,5 +104,9 @@
     "content/zzz-reviewed-artwork.json"
   ],
   "canonicalSource": "Private owner download: gagether-private-source-overlay.zip",
-  "coverage": "Owner-authorized 2026-10-31: code is public; image-path/layout JSON and previous canonical snapshots remain private, with exact deployed SHA-256 pins. Restore the private overlay before a complete build. Existing historical public versions are not rewritten."
+  "coverage": "Owner-authorized 2026-10-31: code is public; image-path/layout JSON and previous canonical snapshots remain private, with exact deployed SHA-256 pins. Restore the private overlay before a complete build. Existing historical public versions are not rewritten.",
+  "sitesVersionId": "appgprj_6ad1ef24b5c08191a367cd141de63a3a~appgver_0dec98900c7c8191a179a74739cfff57",
+  "deploymentId": "appgdep_6ae5c644e9ec8191a3a02c207de8a0f1",
+  "nativeSourceCommit": "651abafcf4978c4dd8c8a1706ab8db7cb39ce87b",
+  "githubSourceCommit": "0ef3aae11ea8e35313916190bc2b798dda08bee5"
 }

@@ -14,7 +14,7 @@
 - Sites 게시 소스 SHA: `651abafcf4978c4dd8c8a1706ab8db7cb39ce87b`.
 - 런타임 fingerprint: `951a3c8a59c514d2c54e16a6d44c325cab3169f2026b8f3529c9c9d03ca40ff0`.
 - 저장한 배포 아카이브: 267,601,920 bytes, SHA-256 `41c30b93fd02f46c2d1102b368928d353e542d0ba958a8096d9bdb244a5093ef` (배포 빌드이며 개인정보 백업 파일이 아니다).
-- GitHub 소스 반영 커밋: `미확인 — 최종 커밋 전`. 저장소 `tomochelly/gagether-android`, 브랜치 `main`, 경로 `web/`.
+- GitHub 소스 반영 커밋: `0ef3aae11ea8e35313916190bc2b798dda08bee5`. 저장소 `tomochelly/gagether-android`, 브랜치 `main`, 경로 `web/`.
 - 전체 런타임 913개 중 **814개 공개 동기화 + 99개 비공개 파일 해시 고정**. 사용자가 공개 제외를 명시 승인했으므로 공개 GitHub 단독 체크아웃은 전체 배포 소스가 아니다. 비공개 overlay를 적용해야 동일 소스를 재구성한다.
 - `ops/export-github.mjs`의 파일 수집·제외 절차로 전송 목록을 생성하고 원본 바이트를 보존했다. `ops/private-source-manifest.json`, `ops/source-mirror.json`, `ops/check-source-mirror.py`가 배포 fingerprint와 정확한 제외 파일을 고정한다. 누락 코드·새 배포·목록 외 제외는 실패한다.
 - 과거 이미 공개된 파일의 옛 버전·Git 이력은 삭제하지 않았다. 이번에 제외한 JSON의 새 내용과 복원 조각은 공개 전송하지 않았다. 빌드에는 이전의 공개 잔존본 대신 제공 ZIP의 정확한 버전을 적용한다.
@@ -44,8 +44,18 @@ v306은 관련 Node 검사 11개, 타입·빌드, 4언어 390px 모바일 가로
 | 파일 | bytes | SHA-256 |
 | --- | ---: | --- |
 | `gagether-private-source-overlay.zip` | 28927885 | `a0aa2909dcecff0a1e68892b5eddd2b0280cc22477f485f71e88c69e55244042` |
+| `gagether-private-validation-inputs.zip` | 17742 | `8f2a6507949ef349d476365ee2b8c95a2e4ec9ab3c3aafd160291a4b67698851` |
 | `gagether-d1-2026-10-31T10-45-27-964Z.tar` | 113071104 | `db9ed4353d0420caffcba5c2209facc173133e450ffd503167833444d6a870dd` |
-| `gagether-r2-inventory.private.json` | 4108772 | `d800b0eb9f77929d745fb067561a9e40fa14f35ea5eca35b7337e05f89d82d82` |
+| `gagether-r2-inventory.private.json` | 4556293 | `2264799b1f9bd21e00ad368b27d080650650ffa29dd94b58386be10c8af709b2` |
+| `gagether-backup-verification.private.zip` | 27061 | `57fb10173381ddbd52277a5375d8a448b8d1a00d4834c28cf8bcb0a11e1788bf` |
+| `gagether-r2-bundles/gagether-r2-part-01.tar` | 199526400 | `fba82978301ba393e552c9eec815ceebbf70e65c3f81d0f3776100a48929fae0` |
+| `gagether-r2-bundles/gagether-r2-part-02.tar` | 194242560 | `2aff136d4e0b292f6a7da82188eaaf8951abc52f4b387f883d60aecc2b570d8a` |
+| `gagether-r2-bundles/gagether-r2-part-03.tar` | 197550080 | `42a43a7df19fef8a4e096544a40efc6ca1ad0a3e3b6ab9d324d620d95627d4d1` |
+| `gagether-r2-bundles/gagether-r2-part-04.tar` | 194037760 | `d0c785c48d5e2b7761ae25a96b066b641fff7ae288b0fc1454a619b6cefda065` |
+| `gagether-r2-bundles/gagether-r2-part-05.tar` | 196833280 | `a01ffda67afec60dce814eef0dbe4fb25c2f3fbbcc3c7ce19116d938709c7e9d` |
+| `gagether-r2-bundles/gagether-r2-part-06.tar` | 204247040 | `d9c96628361bfb0445472082572abb7cefabce8193142a01000b2f447b4ca4bf` |
+| `gagether-r2-bundles/gagether-r2-part-07.tar` | 185446400 | `1666e4025c36e24a2732c3ba9cc98ec7e9a3a8fe7fc990f8c19b68e65cba5454` |
+| `gagether-r2-bundles/gagether-r2-part-08.tar` | 72990720 | `ee792a08c6b20b2116aec8a80a2a667021085426584ad8584db3e46983907ea0` |
 
 ## 3. D1 스키마·데이터
 
@@ -111,6 +121,8 @@ SQL은 테이블 생성 → 데이터 → 인덱스/뷰/트리거 순서이며 �
 | `zzz_records` | 0 | 0 |
 | `zzz_setups` | 0 | 0 |
 
+`sqlite_sequence`는 복원본에서 2행이며 저장한 high-water 값과 일치한다. 운영에서 이 내부 테이블의 직접 COUNT는 **미확인**이다. `_cf_KV`의 행 수 역시 미확인이다.
+
 ### 가져오기 및 재검증 (별도 이전 담당자용, 이 작업에서 실행하지 않음)
 
 비어 있는 새 대상 DB에 TAR의 SQL을 파일명 순서대로 `wrangler d1 execute <대상DB> --remote --file <SQL파일>`로 적용한다. 기존 운영 DB에 덮어쓰지 않는다. 데이터 파일은 임의 순서를 바꾸지 않는다. SQL 자체에는 BEGIN/COMMIT을 넣지 않았다. 데이터 로드 후 인덱스·트리거 파일까지 적용해야 한다.
@@ -125,9 +137,11 @@ python web/ops/verify-migration-backup.py d1 gagether-d1-2026-10-31T10-45-27-964
 
 ## 4. R2 전체 목록·원본
 
-처음 목록: 2026-10-31T10:52:33.121Z ~ 10:52:58.389Z, **5,457개 / 1,431,006,348 bytes**. 운영 중 신규·갱신 객체가 생겨 목록을 재작성했다. 전달용 목록 기준 **5,457개 / 1,431,006,348 bytes**; 목록/수집 구간 `2026-10-31T10:52:33.121Z` ~ `2026-10-31T10:52:58.389Z`.
+처음 목록: 2026-10-31T10:52:33.121Z ~ 10:52:58.389Z, **5,457개 / 1,431,006,348 bytes**. 운영 중 신규·갱신 객체가 생겨 목록을 재작성했다. 전달용 목록 기준 **5,459개 / 1,436,166,624 bytes**; 목록/수집 구간 `2026-10-31T10:54:57.122Z` ~ `2026-10-31T12:11:54.461Z`.
 
-전체 전달 TAR 재검증: **미확인 — 백업 마무리 중**.
+전달 TAR 재검증: **5,459개 / 1,436,166,624 bytes**, 누락 0개, 모든 파일 크기·SHA-256·메타데이터 대조 통과.
+
+고정 기준 목록 5,459개에 대한 누락 0개. 기준 목록 이후 메타데이터가 달라진 객체 33개, 추가로 관측한 객체 0개. 객체별 원본 SHA-256과 실제 수집 메타데이터는 전달 manifest에 있다. 여러 시점에 수집했으므로 원자적 스냅샷이라고 표시하지 않는다.
 
 manifest는 키, size, etag, version, content-type, 전체 httpMetadata, 사용자 customMetadata, uploaded, 파일 경로, SHA-256을 포함한다. 원본을 재인코딩하지 않았다. 디스크 파일명은 안전한 해시 경로이며 실제 R2 키는 manifest의 `key`가 원본이다. 복원 때 파일명만 그대로 업로드하지 말고 key와 content-type/메타데이터를 복원해야 한다. R2 etag를 SHA-256으로 간주하지 않는다. [R2 Workers API](https://developers.cloudflare.com/r2/api/workers/workers-api-reference/)의 목록·조건부 읽기 규칙을 적용했다.
 
@@ -144,10 +158,10 @@ manifest는 키, size, etag, version, content-type, 전체 httpMetadata, 사용�
 | `nte-board-art/` | 10 | 1717576 |
 | `nte-board-audio/` | 4 | 45322 |
 | `nte-board-bgm/` | 1 | 5036243 |
-| `official-documents/` | 1447 | 10074293 |
+| `official-documents/` | 1448 | 10076267 |
 | `recovery/` | 6 | 184143 |
 | `reviewed-rewards/` | 64 | 2356758 |
-| `runtime/` | 2484 | 281932606 |
+| `runtime/` | 2485 | 287090908 |
 | `wuwa-combat-images/` | 6 | 71586 |
 | `wuwa-convene-media/` | 13 | 80761787 |
 | `wuwa-equipment-icons/` | 389 | 7232110 |
@@ -164,8 +178,8 @@ python web/ops/verify-migration-backup.py r2 gagether-r2-inventory.private.json 
 
 ### 백업 동안 예약 작업 일시 중지 기록
 
-- refresh: 중지 2026-10-31T11:41:48.698Z; 재개 미확인 — 복구 필요; 재개 확인 False.
-- rosters: 중지 2026-10-31T11:43:45.967Z; 재개 미확인 — 복구 필요; 재개 확인 False.
+- refresh: 중지 2026-10-31T11:41:48.698Z; 재개 2026-10-31T12:14:37.453Z; 재개 확인 True.
+- rosters: 중지 2026-10-31T11:43:45.967Z; 재개 2026-10-31T12:13:04.685Z; 재개 확인 True.
 
 GitHub UI로 원래 활성 상태를 확인하고 중지했다. 중지/재개가 이미 끝난 실행 기록을 삭제하지는 않는다. 공지 갱신 실행 41197778379에는 중지를 요청했으며 다음 예약 실행으로 정상 수집이 이어질 수 있다. 최종 재개 확인 상태는 위 시각과 CONTINUATION을 기준으로 한다.
 
@@ -539,3 +553,25 @@ Sites custom domain은 active, SSL active이며 target은 `custom-domains.chatgp
 | `web/content/character-rosters/recovery/177.b64` | 100002 | `38449b891eac34af660c2862afd9401ba12ab5b74e9740bf97ec158ce684040b` |
 | `web/content/character-rosters/recovery/178.b64` | 18994 | `24504d6da7a678902320be4adabca6cb7e48a6a63643dead42bf730f19c76bcc` |
 
+### 추가 비공개 검증 입력 5개
+
+`gagether-private-validation-inputs.zip`은 기존 수치 검증에 필요한 보존 원본이다. Windows 줄바꿈을 원본 LF로 복원했으며 각 파일이 기존 코드의 고정 SHA-256과 일치함을 확인했다. 배포 런타임은 아니고 전체 연구 디렉터리 백업도 아니다.
+
+| 제외 파일 | bytes | SHA-256 |
+| --- | ---: | --- |
+| `web/ops/research/wuwa-echo-stat-rules/source-public_Data_EchoStats.json` | 3318 | `5e4772d31a81c5132b5ef0021aa3a5ca1415f19d43598b771048b84f4c381215` |
+| `web/ops/research/wuwa-echo-stat-rules/source-contexts_GameDataContext.tsx.txt` | 17726 | `9cf8743956b424adc08b3e08f00e7bf4d17da06c011133e3ada34c8acf619b9c` |
+| `web/ops/research/wuwa-echo-stat-rules/source-lib_calculations_echoes.ts.txt` | 2519 | `1c892b2c7aa78eb433db90b7cfa43a82653954aee1c911f5530df0b46dc7dca8` |
+| `web/ops/research/wuwa-echo-stat-rules/source-components_echo_EchoPanel.tsx.txt` | 11695 | `8a902bdb6573247bac8e1f65b6c41b66d9811e7935181e8c79309cf4b4d58a2d` |
+| `web/ops/research/wuwa-echo-stat-rules/source-scripts_sync_echoes.py` | 19280 | `26186f226d19beec1a92e8e7aed93f0d973bef53ab6e8e7d4fc2c84103f0f8b4` |
+
+
+## 11. 최종 GitHub 검증
+
+소스 기준 커밋 `0ef3aae11ea8e35313916190bc2b798dda08bee5`에서 원격 런타임 814개가 배포본과 정확히 일치했다. 처음 전송 때 Git ignore 규칙으로 누락된 `build/wuwa-data.ts`를 발견해 코드와 예외 규칙을 반영한 뒤 다시 검증했다. 공개 제외 99개 파일의 새 내용 전송 0, web/ 밖 변경 0을 확인했다.
+
+- [배포 소스 일치 검사 41199198703](https://github.com/tomochelly/gagether-android/actions/runs/41199198703): success.
+- [Android 검사 41199198824](https://github.com/tomochelly/gagether-android/actions/runs/41199198824): success.
+- [웹 전체 검사 41199198696](https://github.com/tomochelly/gagether-android/actions/runs/41199198696): failure, Node 364개 중 140 통과 / 224 실패. 공개 제외한 upcoming-games, reviewed-broadcast-media 등 JSON과 보존 원본 입력의 누락이 로그에서 확인됐다. 후속 타입·편집기·Python 단계는 실행되지 않았다. 전체 CI 통과로 표시하지 않는다.
+
+비공개 overlay/검증 입력을 복원한 전체 CI 재실행과 독립 Cloudflare 빌드는 별도 이전 환경에서 확인할 항목이다. 이번 실제 Sites 빌드와 관련 기능 검증, D1/R2 복원 검증 결과는 앞의 범위를 따른다. 비공개 데이터를 공개해서 CI를 통과시키거나 실패 검사를 생략하지 않았다.
