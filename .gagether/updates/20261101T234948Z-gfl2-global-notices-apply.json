@@ -1,0 +1,848 @@
+{
+  "version": 1,
+  "requestId": "20261101T234948Z-gfl2-global-notices-apply",
+  "reason": "운영자 승인: dryRun ready 항목 중 일본 서비스 픽업 8건을 제외하고 글로벌 픽업 8건과 공지 보완 8건 적용. before는 최신 공개 데이터로 확인.",
+  "mode": "apply",
+  "researchedAt": "2026-11-01T23:00:22Z",
+  "entries": [
+    {
+      "id": "gfl2-global-20261029-welrod",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "웰로드",
+        "en": "Welrod",
+        "ja": "ウェルロッド",
+        "zh": "維爾德"
+      },
+      "summary": {
+        "ko": "웰로드 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Welrod in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「ウェルロッド」の出現率がアップ。",
+        "zh": "「維爾德」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "웰로드",
+            "en": "Welrod",
+            "ja": "ウェルロッド",
+            "zh": "維爾德"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-faelynn",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "페일린",
+        "en": "Faelynn",
+        "ja": "フェアリン",
+        "zh": "芙鈴"
+      },
+      "summary": {
+        "ko": "페일린 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Faelynn in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「フェアリン」の出現率がアップ。",
+        "zh": "「芙鈴」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "페일린",
+            "en": "Faelynn",
+            "ja": "フェアリン",
+            "zh": "芙鈴"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-sextans",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "섹스턴스",
+        "en": "Sextans",
+        "ja": "セクスタンス",
+        "zh": "六分儀"
+      },
+      "summary": {
+        "ko": "섹스턴스 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Sextans in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「セクスタンス」の出現率がアップ。",
+        "zh": "「六分儀」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "섹스턴스",
+            "en": "Sextans",
+            "ja": "セクスタンス",
+            "zh": "六分儀"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-phaetusa",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "파에투사",
+        "en": "Phaetusa",
+        "ja": "パエトゥーサ",
+        "zh": "翡圖薩"
+      },
+      "summary": {
+        "ko": "파에투사 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Phaetusa in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「パエトゥーサ」の出現率がアップ。",
+        "zh": "「翡圖薩」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "파에투사",
+            "en": "Phaetusa",
+            "ja": "パエトゥーサ",
+            "zh": "翡圖薩"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-silent-sanction",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "weapon",
+      "title": {
+        "ko": "침묵의 제재",
+        "en": "Silent Sanction",
+        "ja": "レティセンス",
+        "zh": "緘默制裁"
+      },
+      "summary": {
+        "ko": "침묵의 제재 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Silent Sanction in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「レティセンス」の出現率がアップ。",
+        "zh": "「緘默制裁」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "침묵의 제재",
+            "en": "Silent Sanction",
+            "ja": "レティセンス",
+            "zh": "緘默制裁"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-feral-fang",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "weapon",
+      "title": {
+        "ko": "발트베스티에",
+        "en": "Feral Fang",
+        "ja": "ヴァルトファング",
+        "zh": "森牙戾獸"
+      },
+      "summary": {
+        "ko": "발트베스티에 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Feral Fang in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「ヴァルトファング」の出現率がアップ。",
+        "zh": "「森牙戾獸」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "발트베스티에",
+            "en": "Feral Fang",
+            "ja": "ヴァルトファング",
+            "zh": "森牙戾獸"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-twilight-rose",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "weapon",
+      "title": {
+        "ko": "노을 장미",
+        "en": "Twilight Rose",
+        "ja": "ヴェスパーローズ",
+        "zh": "暮色薔薇"
+      },
+      "summary": {
+        "ko": "노을 장미 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Twilight Rose in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「ヴェスパーローズ」の出現率がアップ。",
+        "zh": "「暮色薔薇」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "노을 장미",
+            "en": "Twilight Rose",
+            "ja": "ヴェスパーローズ",
+            "zh": "暮色薔薇"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-cause-and-effect",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "weapon",
+      "title": {
+        "ko": "인과율",
+        "en": "Cause and Effect",
+        "ja": "フィリア",
+        "zh": "因果律理"
+      },
+      "summary": {
+        "ko": "인과율 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Cause and Effect in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「フィリア」の出現率がアップ。",
+        "zh": "「因果律理」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "인과율",
+            "en": "Cause and Effect",
+            "ja": "フィリア",
+            "zh": "因果律理"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "quick-endfield-global-6179",
+      "set": {
+        "title": {
+          "ko": "「선조의 샘의 새로운 물결」 재구축 헤드헌팅#1 및 「가지 신청」 재구축 신청#1 개방",
+          "en": "[Ancestral Spring Flows Anew] RE-Factor Headhunting #1 and [Tender Sprig Issue] RE-Factor Issue #1 Available",
+          "ja": "再現スカウト「祖泉の新流」#1、再現申請「小枝・申請」#1開催",
+          "zh": "「祖泉的新流」重構尋訪#1與「細枝申領」重構申領#1開放"
+        },
+        "summary": {
+          "ko": "6성 탕탕과 6성 권총 반항의 획득 확률 증가. 10월 29일 12:00~11월 19일 11:59, 각 서버 시간 기준(Asia UTC+8, Americas/Europe UTC-5).",
+          "en": "Rate-up for 6-star Tangtang and Brigand’s Calling. October 29, 12:00–November 19, 11:59 in server time: Asia UTC+8; Americas/Europe UTC-5.",
+          "ja": "★6タンタンと★6拳銃「落草」がピックアップ。10月29日12:00～11月19日11:59、サーバー時間基準（Asia UTC+8、Americas/Europe UTC-5）。",
+          "zh": "6星湯湯與6星手銃「落草」機率提升。10月29日12:00至11月19日11:59，依伺服器時間（Asia UTC+8、Americas/Europe UTC-5）。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/6179",
+          "en": "https://endfield.gryphline.com/en-us/news/6179",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/6179",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/6179"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "「선조의 샘의 새로운 물결」 재구축 헤드헌팅#1 및 「가지 신청」 재구축 신청#1 개방",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "「선조의 샘의 새로운 물결」 재구축 헤드헌팅#1 및 「가지 신청」 재구축 신청#1 개방 | 명일방주: 엔드필드 홈으로 오퍼레이터 정보 세계관 영상 자료 버전 달력 콘텐츠 소개 & 통합 공업 지식 공지 계정 충전 센터 크리에이터 게임으로 이동 게임으로 이동 게임으로 이동 로그인 크리에이터 홈으로 오퍼레이터 정보 세계관 영상 자료 버전 달력 콘텐츠 소개 통합 공업 지식 공지 ENDFIELD 공지 2026.10.28 18:00 안녕하세요, 관리자님! 「선조의 샘의 새로운 물결」 재구축 헤드헌팅#1 개방 기간에 6성 오퍼레이터 [탕탕]의 획득 확률이 증가합니다! 「가지 신청",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/6179"
+        }
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/6179",
+        "https://endfield.gryphline.com/en-us/news/6179",
+        "https://endfield.gryphline.com/ja-jp/news/6179",
+        "https://endfield.gryphline.com/zh-tw/news/6179"
+      ]
+    },
+    {
+      "id": "endfield-tangtang",
+      "set": {
+        "summary": {
+          "ko": "6성 탕탕 확률 증가. 첫 120회 이내 확정 획득 규칙은 같은 이름의 재구축 헤드헌팅 전체에서 1회 적용되며, 횟수는 후속 회차로 이월됩니다.",
+          "en": "6-star Tangtang rate-up. The first-120-attempt guarantee applies once across this named RE-Factor series; its counter carries over to later banners.",
+          "ja": "★6タンタンがピックアップ。最初の120回以内の確定入手は同名の再現スカウト全体で1回適用され、カウントは後続開催へ引き継がれます。",
+          "zh": "6星湯湯機率提升。前120次必得規則在同名重構尋訪系列僅生效一次，計數繼承至後續場次。"
+        },
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/6179",
+          "en": "https://endfield.gryphline.com/en-us/news/6179",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/6179",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/6179"
+        },
+        "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/6179",
+        "sourceTitle": "「선조의 샘의 새로운 물결」 재구축 헤드헌팅#1 및 「가지 신청」 재구축 신청#1 개방"
+      },
+      "before": {
+        "summary": {
+          "ko": "10월 29일부터 진행되는 복각 픽업.",
+          "en": "Rerun begins October 29.",
+          "ja": "10月29日から再登場。",
+          "zh": "10月29日起復刻。"
+        },
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+          "en": "https://endfield.gryphline.com/en-us/news/9560",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+        },
+        "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/9560",
+        "sourceTitle": "「단청도」 버전 업데이트 설명"
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/6179",
+        "https://endfield.gryphline.com/en-us/news/6179",
+        "https://endfield.gryphline.com/ja-jp/news/6179",
+        "https://endfield.gryphline.com/zh-tw/news/6179"
+      ]
+    },
+    {
+      "id": "endfield-brigand",
+      "set": {
+        "summary": {
+          "ko": "6성 권총 반항 확률 증가. 첫 7회에서 미획득 시 8번째 신청에서 확정 획득하며, 해당 확정 횟수는 후속 가지 신청으로 이월됩니다.",
+          "en": "6-star Brigand’s Calling rate-up. If absent from the first seven issues, it is guaranteed on the eighth; this counter carries over to later Tender Sprig issues.",
+          "ja": "★6拳銃「落草」がピックアップ。最初の7回で未入手なら8回目に確定し、このカウントは後続の「小枝・申請」へ引き継がれます。",
+          "zh": "6星手銃「落草」機率提升。前7次未獲得時，第8次必得；此計數繼承至後續「細枝申領」。"
+        },
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/6179",
+          "en": "https://endfield.gryphline.com/en-us/news/6179",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/6179",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/6179"
+        },
+        "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/6179",
+        "sourceTitle": "「선조의 샘의 새로운 물결」 재구축 헤드헌팅#1 및 「가지 신청」 재구축 신청#1 개방"
+      },
+      "before": {
+        "summary": {
+          "ko": "10월 29일부터 진행되는 복각 픽업.",
+          "en": "Rerun begins October 29.",
+          "ja": "10月29日から再登場。",
+          "zh": "10月29日起復刻。"
+        },
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+          "en": "https://endfield.gryphline.com/en-us/news/9560",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+        },
+        "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/9560",
+        "sourceTitle": "「단청도」 버전 업데이트 설명"
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/6179",
+        "https://endfield.gryphline.com/en-us/news/6179",
+        "https://endfield.gryphline.com/ja-jp/news/6179",
+        "https://endfield.gryphline.com/zh-tw/news/6179"
+      ]
+    },
+    {
+      "id": "quick-arknights-cn-7352",
+      "set": {
+        "title": {
+          "ko": "「시간이여, 앞으로!」 창작 모집 시작",
+          "en": "“Time, Forward!” creator campaign opens",
+          "ja": "「時よ、前へ！」創作募集開始",
+          "zh": "「时间啊，向前！」创作征集活动开启"
+        },
+        "summary": {
+          "ko": "중국 서비스 창작 모집. 각 플랫폼의 게시·방송·참여 조건에 따라 현금, 게임 아이템, 굿즈 보상을 받을 수 있습니다. 대부분 12월 1일 마감이며 위챗은 별도 공지를 따릅니다.",
+          "en": "CN creator campaign offers cash, in-game items and merchandise under each platform’s submission or participation rules. Most platforms close December 1; WeChat has a separate schedule.",
+          "ja": "中国版の創作募集。各プラットフォームの投稿・配信・参加条件に応じて現金、ゲーム内アイテム、グッズを獲得可能。多くは12月1日締切、WeChatは別途案内。",
+          "zh": "多平台創作徵集開啟，依各平台投稿、直播或互動條件可獲現金、遊戲道具及周邊。多數平台於12月1日截止，微信遊戲圈時間另行查看。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "「时间啊，向前！」创作征集活动开启"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "「时间啊，向前！」创作征集进行中 《明日方舟》「时间啊，向前！」创作征集活动现已在多平台进行中。各位博士可在 哔哩哔哩、抖音、微博、小红书、快手、微信游戏圈、QQ频道 等平台按活动要求进行内容创作，即可参与创作瓜分、作品评优、互动抽奖等活动并赢取现金、游戏内道具和实物周边等丰厚奖励！ ◆ 哔哩哔哩 即日起至活动结束，在哔哩哔哩平台带话题 #明日方舟创作者应援计划 进行视频投稿，或在《明日方舟》分区进行直播，达到规定条件即可参与现金瓜分，更有机会获得优秀稿件或主播评优奖励。 活动结束时间：2026年12月1日23:59 点击跳转活动页面 ◆ 抖音 即日起至活动结束，在抖音平台带话题 #明日方舟 、 #时间啊向前 及其他赛道话题挂载《明"
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://ak.hypergryph.com/news/7352"
+      ]
+    },
+    {
+      "id": "quick-holodreams-global-677387864414093794-ko",
+      "set": {
+        "title": {
+          "ko": "Ver.1.2.101",
+          "en": "Ver.1.2.101",
+          "ja": "Ver.1.2.101",
+          "zh": "Ver.1.2.101"
+        },
+        "summary": {
+          "ko": "경미한 오류 수정.",
+          "en": "Minor bug fixes.",
+          "ja": "軽微な不具合を修正。",
+          "zh": "修复轻微故障。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana",
+          "en": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english",
+          "ja": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese",
+          "zh": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "Ver.1.2.101",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "경미한 오류를 수정했습니다",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+      ]
+    },
+    {
+      "id": "quick-holodreams-global-677387864414093794-en",
+      "set": {
+        "title": {
+          "ko": "Ver.1.2.101",
+          "en": "Ver.1.2.101",
+          "ja": "Ver.1.2.101",
+          "zh": "Ver.1.2.101"
+        },
+        "summary": {
+          "ko": "경미한 오류 수정.",
+          "en": "Minor bug fixes.",
+          "ja": "軽微な不具合を修正。",
+          "zh": "修复轻微故障。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana",
+          "en": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english",
+          "ja": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese",
+          "zh": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Ver.1.2.101",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Fixed various minor bugs.",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+      ]
+    },
+    {
+      "id": "quick-holodreams-global-677387864414093794-ja",
+      "set": {
+        "title": {
+          "ko": "Ver.1.2.101",
+          "en": "Ver.1.2.101",
+          "ja": "Ver.1.2.101",
+          "zh": "Ver.1.2.101"
+        },
+        "summary": {
+          "ko": "경미한 오류 수정.",
+          "en": "Minor bug fixes.",
+          "ja": "軽微な不具合を修正。",
+          "zh": "修复轻微故障。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana",
+          "en": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english",
+          "ja": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese",
+          "zh": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "Ver.1.2.101",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "軽微な不具合を修正しました",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+      ]
+    },
+    {
+      "id": "quick-holodreams-global-677387864414093794-zh",
+      "set": {
+        "title": {
+          "ko": "Ver.1.2.101",
+          "en": "Ver.1.2.101",
+          "ja": "Ver.1.2.101",
+          "zh": "Ver.1.2.101"
+        },
+        "summary": {
+          "ko": "경미한 오류 수정.",
+          "en": "Minor bug fixes.",
+          "ja": "軽微な不具合を修正。",
+          "zh": "修复轻微故障。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana",
+          "en": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english",
+          "ja": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese",
+          "zh": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "Ver.1.2.101"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "修复了一些轻微故障"
+        },
+        "officialLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "zh": "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=koreana",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=english",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=japanese",
+        "https://store.steampowered.com/news/app/4282500/view/677387864414093794?l=schinese"
+      ]
+    }
+  ]
+}
