@@ -1,0 +1,906 @@
+{
+  "version": 1,
+  "requestId": "20261101T230154Z-gfl2-pickups-type-fix",
+  "reason": "20261101T230022Z-gfl2-pickups-notice-locales의 invalid 16건 정정: pickupMembers.type을 미확인 값 unknown으로 수정. 공식 지역별 일정과 명칭 유지.",
+  "mode": "dryRun",
+  "researchedAt": "2026-11-01T23:00:22Z",
+  "entries": [
+    {
+      "id": "gfl2-global-20261029-welrod",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "웰로드",
+        "en": "Welrod",
+        "ja": "ウェルロッド",
+        "zh": "維爾德"
+      },
+      "summary": {
+        "ko": "웰로드 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Welrod in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「ウェルロッド」の出現率がアップ。",
+        "zh": "「維爾德」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "웰로드",
+            "en": "Welrod",
+            "ja": "ウェルロッド",
+            "zh": "維爾德"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-faelynn",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "페일린",
+        "en": "Faelynn",
+        "ja": "フェアリン",
+        "zh": "芙鈴"
+      },
+      "summary": {
+        "ko": "페일린 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Faelynn in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「フェアリン」の出現率がアップ。",
+        "zh": "「芙鈴」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "페일린",
+            "en": "Faelynn",
+            "ja": "フェアリン",
+            "zh": "芙鈴"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-sextans",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "섹스턴스",
+        "en": "Sextans",
+        "ja": "セクスタンス",
+        "zh": "六分儀"
+      },
+      "summary": {
+        "ko": "섹스턴스 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Sextans in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「セクスタンス」の出現率がアップ。",
+        "zh": "「六分儀」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "섹스턴스",
+            "en": "Sextans",
+            "ja": "セクスタンス",
+            "zh": "六分儀"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-phaetusa",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "pickup",
+      "title": {
+        "ko": "파에투사",
+        "en": "Phaetusa",
+        "ja": "パエトゥーサ",
+        "zh": "翡圖薩"
+      },
+      "summary": {
+        "ko": "파에투사 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Phaetusa in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「パエトゥーサ」の出現率がアップ。",
+        "zh": "「翡圖薩」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "파에투사",
+            "en": "Phaetusa",
+            "ja": "パエトゥーサ",
+            "zh": "翡圖薩"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-silent-sanction",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "weapon",
+      "title": {
+        "ko": "침묵의 제재",
+        "en": "Silent Sanction",
+        "ja": "レティセンス",
+        "zh": "緘默制裁"
+      },
+      "summary": {
+        "ko": "침묵의 제재 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Silent Sanction in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「レティセンス」の出現率がアップ。",
+        "zh": "「緘默制裁」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "침묵의 제재",
+            "en": "Silent Sanction",
+            "ja": "レティセンス",
+            "zh": "緘默制裁"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-feral-fang",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "weapon",
+      "title": {
+        "ko": "발트베스티에",
+        "en": "Feral Fang",
+        "ja": "ヴァルトファング",
+        "zh": "森牙戾獸"
+      },
+      "summary": {
+        "ko": "발트베스티에 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Feral Fang in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「ヴァルトファング」の出現率がアップ。",
+        "zh": "「森牙戾獸」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "발트베스티에",
+            "en": "Feral Fang",
+            "ja": "ヴァルトファング",
+            "zh": "森牙戾獸"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-twilight-rose",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "weapon",
+      "title": {
+        "ko": "노을 장미",
+        "en": "Twilight Rose",
+        "ja": "ヴェスパーローズ",
+        "zh": "暮色薔薇"
+      },
+      "summary": {
+        "ko": "노을 장미 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Twilight Rose in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「ヴェスパーローズ」の出現率がアップ。",
+        "zh": "「暮色薔薇」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "노을 장미",
+            "en": "Twilight Rose",
+            "ja": "ヴェスパーローズ",
+            "zh": "暮色薔薇"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-cause-and-effect",
+      "gameId": "gfl2",
+      "region": "global",
+      "kind": "weapon",
+      "title": {
+        "ko": "인과율",
+        "en": "Cause and Effect",
+        "ja": "フィリア",
+        "zh": "因果律理"
+      },
+      "summary": {
+        "ko": "인과율 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Cause and Effect in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「フィリア」の出現率がアップ。",
+        "zh": "「因果律理」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "Global · HAOPLAY · UTC+0",
+      "startAt": "2026-10-29T09:00:00+00:00",
+      "endAt": "2026-11-18T18:59:00+00:00",
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+      "sourceTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-global-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "인과율",
+            "en": "Cause and Effect",
+            "ja": "フィリア",
+            "zh": "因果律理"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-jp-20261029-welrod",
+      "gameId": "gfl2",
+      "region": "jp",
+      "kind": "pickup",
+      "title": {
+        "ko": "웰로드",
+        "en": "Welrod",
+        "ja": "ウェルロッド",
+        "zh": "維爾德"
+      },
+      "summary": {
+        "ko": "웰로드 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Welrod in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「ウェルロッド」の出現率がアップ。",
+        "zh": "「維爾德」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "日本 · HAOPLAY",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+      "sourceTitle": "【バージョンアップデートのお知らせ】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-jp-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "웰로드",
+            "en": "Welrod",
+            "ja": "ウェルロッド",
+            "zh": "維爾德"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ],
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-18"
+    },
+    {
+      "id": "gfl2-jp-20261029-faelynn",
+      "gameId": "gfl2",
+      "region": "jp",
+      "kind": "pickup",
+      "title": {
+        "ko": "페일린",
+        "en": "Faelynn",
+        "ja": "フェアリン",
+        "zh": "芙鈴"
+      },
+      "summary": {
+        "ko": "페일린 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Faelynn in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「フェアリン」の出現率がアップ。",
+        "zh": "「芙鈴」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "日本 · HAOPLAY",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+      "sourceTitle": "【バージョンアップデートのお知らせ】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-jp-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "페일린",
+            "en": "Faelynn",
+            "ja": "フェアリン",
+            "zh": "芙鈴"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ],
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-18"
+    },
+    {
+      "id": "gfl2-jp-20261029-sextans",
+      "gameId": "gfl2",
+      "region": "jp",
+      "kind": "pickup",
+      "title": {
+        "ko": "섹스턴스",
+        "en": "Sextans",
+        "ja": "セクスタンス",
+        "zh": "六分儀"
+      },
+      "summary": {
+        "ko": "섹스턴스 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Sextans in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「セクスタンス」の出現率がアップ。",
+        "zh": "「六分儀」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "日本 · HAOPLAY",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+      "sourceTitle": "【バージョンアップデートのお知らせ】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-jp-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "섹스턴스",
+            "en": "Sextans",
+            "ja": "セクスタンス",
+            "zh": "六分儀"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ],
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-18"
+    },
+    {
+      "id": "gfl2-jp-20261029-phaetusa",
+      "gameId": "gfl2",
+      "region": "jp",
+      "kind": "pickup",
+      "title": {
+        "ko": "파에투사",
+        "en": "Phaetusa",
+        "ja": "パエトゥーサ",
+        "zh": "翡圖薩"
+      },
+      "summary": {
+        "ko": "파에투사 획득 확률이 증가하는 개별 지정 발주.",
+        "en": "Increased drop rate for Phaetusa in a separate Targeted Procurement pool.",
+        "ja": "ピックアップ訪問で「パエトゥーサ」の出現率がアップ。",
+        "zh": "「翡圖薩」在獨立定向採購中獲取機率提升。"
+      },
+      "server": "日本 · HAOPLAY",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+      "sourceTitle": "【バージョンアップデートのお知らせ】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-jp-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "파에투사",
+            "en": "Phaetusa",
+            "ja": "パエトゥーサ",
+            "zh": "翡圖薩"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ],
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-18"
+    },
+    {
+      "id": "gfl2-jp-20261029-silent-sanction",
+      "gameId": "gfl2",
+      "region": "jp",
+      "kind": "weapon",
+      "title": {
+        "ko": "침묵의 제재",
+        "en": "Silent Sanction",
+        "ja": "レティセンス",
+        "zh": "緘默制裁"
+      },
+      "summary": {
+        "ko": "침묵의 제재 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Silent Sanction in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「レティセンス」の出現率がアップ。",
+        "zh": "「緘默制裁」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "日本 · HAOPLAY",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+      "sourceTitle": "【バージョンアップデートのお知らせ】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-jp-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "침묵의 제재",
+            "en": "Silent Sanction",
+            "ja": "レティセンス",
+            "zh": "緘默制裁"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ],
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-18"
+    },
+    {
+      "id": "gfl2-jp-20261029-feral-fang",
+      "gameId": "gfl2",
+      "region": "jp",
+      "kind": "weapon",
+      "title": {
+        "ko": "발트베스티에",
+        "en": "Feral Fang",
+        "ja": "ヴァルトファング",
+        "zh": "森牙戾獸"
+      },
+      "summary": {
+        "ko": "발트베스티에 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Feral Fang in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「ヴァルトファング」の出現率がアップ。",
+        "zh": "「森牙戾獸」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "日本 · HAOPLAY",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+      "sourceTitle": "【バージョンアップデートのお知らせ】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-jp-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "발트베스티에",
+            "en": "Feral Fang",
+            "ja": "ヴァルトファング",
+            "zh": "森牙戾獸"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ],
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-18"
+    },
+    {
+      "id": "gfl2-jp-20261029-twilight-rose",
+      "gameId": "gfl2",
+      "region": "jp",
+      "kind": "weapon",
+      "title": {
+        "ko": "노을 장미",
+        "en": "Twilight Rose",
+        "ja": "ヴェスパーローズ",
+        "zh": "暮色薔薇"
+      },
+      "summary": {
+        "ko": "노을 장미 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Twilight Rose in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「ヴェスパーローズ」の出現率がアップ。",
+        "zh": "「暮色薔薇」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "日本 · HAOPLAY",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+      "sourceTitle": "【バージョンアップデートのお知らせ】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-jp-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "노을 장미",
+            "en": "Twilight Rose",
+            "ja": "ヴェスパーローズ",
+            "zh": "暮色薔薇"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ],
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-18"
+    },
+    {
+      "id": "gfl2-jp-20261029-cause-and-effect",
+      "gameId": "gfl2",
+      "region": "jp",
+      "kind": "weapon",
+      "title": {
+        "ko": "인과율",
+        "en": "Cause and Effect",
+        "ja": "フィリア",
+        "zh": "因果律理"
+      },
+      "summary": {
+        "ko": "인과율 획득 확률이 증가하는 개별 군비 강화.",
+        "en": "Increased drop rate for Cause and Effect in a separate Military Upgrade pool.",
+        "ja": "軍備拡張で「フィリア」の出現率がアップ。",
+        "zh": "「因果律理」在獨立軍備提升中獲取機率提升。"
+      },
+      "server": "日本 · HAOPLAY",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-28T10:18:51Z",
+      "verifiedAt": "2026-11-01T23:00:22Z",
+      "sourceUrl": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+      "sourceTitle": "【バージョンアップデートのお知らせ】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "translatedLocales": [],
+      "localizationSources": {
+        "ko": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana",
+        "en": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=english",
+        "ja": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=japanese",
+        "zh": "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=tchinese"
+      },
+      "poolType": "weapon",
+      "pickupType": "unknown",
+      "pickupGroup": "gfl2-jp-20261029",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "인과율",
+            "en": "Cause and Effect",
+            "ja": "フィリア",
+            "zh": "因果律理"
+          },
+          "type": "unknown",
+          "role": "featured"
+        }
+      ],
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-18"
+    }
+  ],
+  "changes": []
+}
