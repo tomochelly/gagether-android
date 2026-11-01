@@ -98,6 +98,10 @@ Android 1.0.3은 API30·36 에뮬레이터에서 알람 예약과 실제 알림 
 
 실기기에서 확인하지 않은 공개 접속·알림 수신·위젯 렌더링은 검수 완료로 간주하지 않습니다.
 
+### 웹 CI 범위 (2026-11-01)
+
+이 저장소의 `GAGETHER web source checks`(`.github/workflows/gagether-web-ci.yml`)는 공개 스냅샷에서 돌릴 수 있는 검사만 합니다. 개발자 PC 경로가 없는지(`web/ops/check_public_snapshot.py`), AI 업데이트 검사 스크립트 테스트(`web/ops/test_ai_sync_check.py`), 워크플로 파일 구조(`web/ops/check_workflows.py`)입니다. 공개 스냅샷에는 비공개 overlay 자료가 빠져 있어 웹 전체 검사(Node 테스트, 편집기 검증, 타입 검사, 로스터 검사)는 여기서 통과할 수 없습니다. 그 검사는 비공개 원본 저장소의 로컬 CI가 맡고, 머지 전마다 결과를 PR 댓글로 남깁니다.
+
 ## 0.2.3 위젯
 
 - 다음 일정(기본 4×2), 일정 목록(4×4), 게임별 일정(4×4)을 선택합니다. 실제 셀 크기는 런처 설정에 따라 다릅니다.

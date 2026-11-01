@@ -2,7 +2,7 @@
 import pathlib,json,re,datetime,hashlib
 ROOT=pathlib.Path(__file__).resolve().parents[3]
 P=ROOT/'work/materials-extra-sources';OUT=pathlib.Path(__file__).resolve().parent
-PRIOR=pathlib.Path(r'C:/Users/ianri/Documents/Codex/2026-10-28/gagether-sites-project-appgprj-6ad1ef24b5c08191a367cd141de63a3a-x20-4/outputs/character-materials-20261031/sources')
+PRIOR=pathlib.Path(r'<local-task>/outputs/character-materials-20261031/sources')
 def read(n):return json.loads((P/(n+'.json')).read_text('utf-8'))
 def C(*v):return dict(zip(['ko','en','ja','zh'],v))
 def group(ident,title,items,url):return dict(id=ident,title=title,items=items,sourceUrl=url,sourceKind='community')
