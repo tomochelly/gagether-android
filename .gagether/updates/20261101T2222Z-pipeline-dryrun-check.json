@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "requestId": "20261101T2222Z-pipeline-dryrun-check",
+  "reason": "AI 업데이트 경로 시험: dryRun 전용, 아무것도 반영하지 않음",
+  "mode": "dryRun",
+  "researchedAt": "2026-11-01T22:22:35Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "wuwa-update-37",
+      "set": {"sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572"},
+      "before": {"sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572"}
+    }
+  ]
+}
