@@ -1,0 +1,36 @@
+name: GAGETHER AI update checks
+# Reusable workflow; the server pins job_workflow_ref to this file on main. The checking code is
+# taken from main, the update files from the pushed ai-updates commit (github.sha).
+on:
+  workflow_call: {}
+permissions: {}
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: gagether-ai-sync-core
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Check out the checking code from main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: trusted
+          persist-credentials: false
+          sparse-checkout: web/ops/ai-sync-check.py
+          sparse-checkout-cone-mode: false
+      - name: Check out the pushed update files
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          path: updates
+          persist-credentials: false
+          sparse-checkout: .gagether/updates
+      - name: Check images, compare with live data and apply
+        env:
+          AI_UPDATES_CHECKOUT: updates
+        run: python3 -I trusted/web/ops/ai-sync-check.py
