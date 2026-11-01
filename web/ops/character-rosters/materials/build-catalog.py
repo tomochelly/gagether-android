@@ -1,7 +1,7 @@
 """Build exact game-scoped read-only material projections from retained source snapshots."""
 import collections,datetime,hashlib,json,pathlib,re
 ROOT=pathlib.Path(__file__).resolve().parents[3]
-OLD=pathlib.Path('C:/Users/ianri/Documents/Codex/2026-10-28/gagether-sites-project-appgprj-6ad1ef24b5c08191a367cd141de63a3a-x20-4/outputs/character-materials-20261031/sources')
+OLD=pathlib.Path('<local-task>/outputs/character-materials-20261031/sources')
 WORK=ROOT/'work/materials-recovery'
 LOCALES=['ko','en','ja','zh'];CLIENTS=dict(ko='kr',en='en',ja='jp',zh='cn');SERVICES=dict(ko='kr',en='global',ja='jp',zh='cn')
 def read(p):return json.loads(p.read_bytes())
