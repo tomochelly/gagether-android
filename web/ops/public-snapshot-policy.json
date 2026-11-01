@@ -1,0 +1,20 @@
+{
+ "version": 1,
+ "decidedAt": "2026-10-31",
+ "rule": "The private repository tomochelly/gagether is canonical. The public tomochelly/gagether-android snapshot is a filtered copy; never push private history to it.",
+ "excludeExtensions": [".png", ".webp", ".jpg", ".jpeg", ".gif", ".avif", ".ico", ".mp4", ".webm", ".mp3", ".m4a", ".ogg", ".wav", ".woff", ".woff2", ".ttf", ".zip", ".tar", ".gz"],
+ "excludePaths": [
+  "gagether-v307-export-reports.zip",
+  "web/content/character-rosters/recovery/",
+  "web/public/assets/",
+  "web/ops/source_import/plan.json",
+  "web/ops/originals-receipt.json",
+  "web/ops/archive/"
+ ],
+ "excludeListedIn": ["web/ops/private-source-manifest.json"],
+ "reasons": {
+  "excludeExtensions": "Owner decision 2026-10-31: game image binaries stay out of the public snapshot (runtime images live in the private Git, originals in the private R2 source archive).",
+  "gagether-v307-export-reports.zip": "Owner decision 2026-10-31: the v307 export reports stay private.",
+  "web/ops/source_import/plan.json, web/ops/originals-receipt.json, web/ops/archive/": "Existing rule: only deployed code is published; these are private import data and superseded documents."
+ }
+}

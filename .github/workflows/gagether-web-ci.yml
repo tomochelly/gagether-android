@@ -1,54 +1,33 @@
 name: GAGETHER web source checks
+# Public repository (tomochelly/gagether-android) only: checks that run on the public snapshot.
+# The snapshot leaves out the private overlay listed in web/ops/private-source-manifest.json, so
+# the full web suite (Node tests, validate-editor, tsc, ops and roster Python suites) cannot pass
+# here. That suite is the local CI of the private repository tomochelly/gagether, recorded in a
+# PR comment before every merge (web/ops/rules/platform-ops.md, "머지 기준"). Do not add steps
+# that need private inputs, and do not skip failing tests to make this job green.
 on:
   push:
-    paths: ['web/**']
+    paths: ['web/**', '.github/**', '.gagether/**']
   pull_request:
-    paths: ['web/**']
+    paths: ['web/**', '.github/**', '.gagether/**']
 permissions:
   contents: read
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
         with:
-          node-version: 24
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 11.25.0
-      - run: pnpm install --frozen-lockfile
-        working-directory: web
-      - run: node --test --test-concurrency=2 tests/*.test.mjs
-        working-directory: web
-      - run: node scripts/validate-editor.mjs
-        working-directory: web
-      - run: pnpm exec tsc --noEmit
-        working-directory: web
-      - run: python3 -m unittest discover -s ops -p 'test_*.py'
-        working-directory: web
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment -p 'test_*.py'
-        working-directory: web
-      - run: python3 -m pip install --disable-pip-version-check -r ops/character-rosters/enrichment/arknights/requirements.txt
-        working-directory: web
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/zzz -p 'test_*.py'
-        working-directory: web
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/hsr -p 'test_*.py'
-        working-directory: web
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/uma -p 'test_*.py'
-        working-directory: web
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/uma_art -p 'test_*.py'
-        working-directory: web
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/uma_horses -p 'test_*.py'
-        working-directory: web
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/gfl2 -p 'test_*.py'
-        working-directory: web
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/gfl2_art -p 'test_*.py'
-        working-directory: web
-
-      - run: python3 -m unittest discover -s ops/character-rosters/enrichment/arknights -p 'test_*.py'
-        working-directory: web
+      - name: No developer-machine paths in the public snapshot
+        run: python3 -I web/ops/check_public_snapshot.py
+      - name: AI update checker tests
+        run: python3 -m unittest discover -s web/ops -p 'test_ai_sync_check.py'
+      - name: Workflow files parse and are structurally valid
+        run: |
+          python3 -m pip install --disable-pip-version-check 'pyyaml==6.0.2'
+          python3 -I web/ops/check_workflows.py .github/workflows
