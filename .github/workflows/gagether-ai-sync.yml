@@ -1,0 +1,18 @@
+name: GAGETHER AI updates
+# Lives on the ai-updates branch (and on main, where it is inert). It only calls the checking
+# workflow pinned to main; /api/ai-sync rejects tokens from any other job (ops/AI-UPDATES.ko.md).
+on:
+  push:
+    branches: [ai-updates]
+    paths: ['.gagether/updates/**']
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: gagether-ai-sync
+  cancel-in-progress: false
+jobs:
+  apply:
+    permissions:
+      contents: read
+      id-token: write
+    uses: tomochelly/gagether-android/.github/workflows/gagether-ai-sync-core.yml@main

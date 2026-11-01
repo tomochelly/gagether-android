@@ -1,0 +1,85 @@
+# AI 업데이트 파일 작성 규칙 (Codex용)
+
+GAGETHER 예약 조사 작업은 쓰기 토큰 없이 이 폴더에 **업데이트 파일만 커밋**한다. 커밋하면 GitHub 워크플로가 이미지를 검사하고, 사이트(`/api/ai-sync`)가 커밋된 파일을 직접 읽어 항목별로 반영한다. 설계: 비공개 저장소 `web/ops/AI-UPDATES.ko.md`.
+
+## 1. 어디에, 어떤 이름으로
+
+- 저장소 `tomochelly/gagether-android`, 브랜치 **`ai-updates`만**. `main`이나 다른 브랜치에는 커밋하지 않는다.
+- 위치와 이름: `.gagether/updates/<UTC 시각>-<요약>.json`. 예: `.gagether/updates/20261101T0930Z-wuwa-39-pickups.json`
+  - 이름은 영문자·숫자·`-`·`_`만 쓴다(`^[A-Za-z0-9_-]+$`, 최대 100자).
+  - 파일 안 `requestId`는 파일 이름에서 `.json`을 뺀 값과 같아야 한다.
+- 한 번 실행에 파일 하나를 새로 만든다. 파일 하나에 `entries`와 `changes`를 합쳐 최대 100개, 1,000,000 bytes까지.
+- **한 번 커밋한 업데이트 파일은 고치지 말고 새 파일로 낸다.** 같은 이름인데 내용이 달라지면 사이트가 오류로 거절한다. 고칠 것이 있으면 새 시각·새 이름으로 다시 낸다.
+- 이 폴더의 다른 파일(`.json`이 아닌 이 README, `example.json.txt`)은 바꾸지 않는다. `.github/` 등 다른 경로도 바꾸지 않는다.
+
+## 2. 먼저 읽을 것
+
+- 지금 공개 데이터: `GET https://gagether.wiki/api/data` (토큰 없음). 아래 `before`는 반드시 이 응답에서 가져온다. `/api/entry`는 값이 조금 다를 수 있으니 쓰지 않는다.
+- 항목 형식과 내용 규칙: `GET https://gagether.wiki/api/operations`.
+
+## 3. 파일 형식 (version 1)
+
+```json
+{
+  "version": 1,
+  "requestId": "20261101T0930Z-wuwa-39-pickups",
+  "reason": "무엇을 왜 반영하는지 5~300자",
+  "mode": "apply",
+  "researchedAt": "2026-11-01T09:28:00Z",
+  "entries": [ { "...": "새 항목 전체" } ],
+  "changes": [ { "id": "...", "set": { "칸": "새 값" }, "before": { "칸": "지금 공개 값" }, "sources": ["https://..."] } ]
+}
+```
+
+- `mode`: `apply`(검사 뒤 반영) 또는 `dryRun`(검사와 표만, 아무것도 반영하지 않음).
+- `entries`: 새 항목. `/api/sync`와 같은 항목 전체 객체(`id`, `gameId`, `region`, `kind`, 4개 언어 `title`·`summary`, `server`, `startAt`, `endAt`, `publishedAt`, `verifiedAt`, `sourceUrl`, `sourceTitle` 등). 이미 있는 `id`면 건너뛴다.
+- `changes`: 기존 항목의 칸 바꾸기. 칸은 항목의 **최상위 키**이고, 하위 객체(`localizedArtwork`, `pickupMembers` 등)는 그 키 전체를 새 값으로 바꾼다.
+  - `before`에는 `set`에 적은 칸마다 **지금 `/api/data`에 보이는 값 그대로**를 적는다. 칸이 없으면 `null`. `set`과 `before`의 칸 목록은 같아야 한다.
+  - 사이트의 지금 값과 `before`가 하나라도 다르면 그 항목은 건너뛴다(그 사이 다른 수집이나 운영자가 바꾼 것). 다음 실행에서 최신 값을 다시 읽어 새 파일로 낸다.
+- 바꿀 수 없는 것: `id`, `gameId`, `region`, `editor`, `hidden`, 그리고 어디에 있든 `imageFraming`·`previewFocus`(운영자 구도).
+- 칸을 지우는 기능은 없다. `null`은 `startAt`, `endAt`, `publishedAt`에만 쓸 수 있다.
+- 운영자가 고친 칸은 반영되지 않는다. 함께 움직이는 칸은 묶음으로 본다.
+  - 기간 묶음: `startAt`, `endAt`, `startDate`, `endDate`, `timingNote`, `pickupArchive`
+  - 이미지 묶음: `image`, `imageSource`, `imageVerified`, `imageKind`, `imageLocale`, `imageCaption`, `imageFit`, `imagePosition`, `previewBounds`, `previewArtwork`, `localizedArtwork`, `textFreePreview`, `originalLanguageFallback`, `width`, `height`
+  - 묶음 중 하나라도 운영자가 고쳤으면 그 묶음의 칸은 모두 건너뛰고, 나머지 칸은 반영한다.
+
+## 4. 내용 규칙 (AGENTS.md 5~7장 요약)
+
+- 날짜·시각·등급·가격·출처·번역을 지어내지 않는다. 모르는 값은 비워 두거나 `null`.
+- 한국 공식 사이트·공지를 먼저 보고, 지역 서비스 일정이 다르면 그 지역 공식 공지를 본다. 공식·커뮤니티·영상 출처는 `sourceKind`로 구분하고 원문 URL을 그대로 적는다.
+- 영상은 보지 않았으면 본 것처럼 쓰지 않는다. 막힌 출처를 우회하지 않는다.
+- 유출 정보와 Foresight(예측) 자료는 이 경로로 넣지 않는다. 이 저장소는 공개라 파일이 먼저 보인다. 예측 픽업은 `pickupArchive.status: "forecast"`로만 표시한다.
+- CN 일정은 명일방주, 소녀전선2, 리버스: 1999에만 허용한다.
+- 비밀 값(토큰, 키, 개인 정보)은 절대 적지 않는다.
+
+## 5. 이미지 규칙 (ops/rules/artwork.md)
+
+- 그림은 그 캐릭터·의상·무기·서포트와 정확히 일치해야 한다. 다른 캐릭터나 일반 그림으로 대신하지 않는다.
+- `image`는 원본 파일 URL, `imageSource`는 그 그림을 확인한 공식 페이지 URL.
+- `width`·`height`는 **실제 파일 픽셀 크기**를 적는다. 다르면 그 항목은 제외된다.
+- 같은 자리의 지금 이미지보다 작은(픽셀 수가 적은) 이미지는 제외된다. 화질을 낮추지 않는다.
+- 다른 캐릭터 항목과 같은 파일(sha256 같음)이면 실행 요약에 표시된다. 일부러 같은 그림을 쓰는 경우가 아니면 고친다.
+- 항목 하나에 새 이미지 30개, 파일 하나에 200개까지. 넘으면 그 항목(또는 파일)은 반영되지 않는다. 파일을 나눠 새로 낸다.
+
+## 6. 결과 확인
+
+- push하면 Actions의 "GAGETHER AI updates" 실행이 돈다. 실행 요약(Summary)에 항목별 판정과 칸별 전→후, 이미지 크기·링크가 남는다.
+- 판정 코드
+  - `applied` 반영, `partial` 일부 칸 묶음만 반영
+  - `conflict` `before`가 지금 값과 다름, `missing` 공개 데이터에 없는 id, `exists` 이미 있는 id, `held` 바꾸려는 칸이 모두 보호됨, `unchanged` 이미 같은 값
+  - `invalid` 형식·출처·기간·이미지 검증 실패(메시지 참고), `excluded` 이미지 검사에서 제외
+  - `pending`·`retry` 한도나 일시 오류로 남음. 다음 실행(다음 push 또는 수동 실행)에서 이어서 처리된다
+- 실행이 실패(빨강)로 끝나면 같은 파일을 고치지 말고, 원인이 일시적이면 그대로 두고(다음 실행이 이어서 처리), 내용 문제면 새 파일로 다시 낸다.
+- 반영 뒤 `GET /api/data`로 값이 보이는지 확인한다.
+
+## 7. 한도
+
+| 항목 | 값 |
+| --- | --- |
+| 파일당 항목 | 100 |
+| 파일 크기 | 1,000,000 bytes |
+| 실행당 처리 파일 | 5 (나머지는 다음 실행) |
+| 시간당 새 반영 시작 | 6 |
+| 시간당 호출 | 60 |
+
+예시: [`example.json.txt`](example.json.txt) (예시 값이며 실제 정보가 아니다).

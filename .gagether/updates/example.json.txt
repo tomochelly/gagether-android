@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "requestId": "20261101T0930Z-example-wuwa-notice",
+  "reason": "예시 파일: 실제 정보가 아니며 워크플로가 읽지 않는다(.json.txt)",
+  "mode": "dryRun",
+  "researchedAt": "2026-11-01T09:28:00Z",
+  "entries": [
+    {
+      "id": "example-wuwa-global-notice-0000",
+      "gameId": "wuwa",
+      "region": "global",
+      "server": "Asia · UTC+8",
+      "kind": "update",
+      "title": {"ko": "예시 공지 제목", "en": "Example notice title", "ja": "例のお知らせ", "zh": "示例公告"},
+      "summary": {"ko": "예시 요약", "en": "Example summary", "ja": "例の概要", "zh": "示例摘要"},
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-11-01",
+      "verifiedAt": "2026-11-01T09:28:00Z",
+      "sourceUrl": "https://wutheringwaves.kurogames.com/kr/main/news/detail/0000",
+      "sourceTitle": "예시 공지 원문 제목",
+      "sourceKind": "official"
+    }
+  ],
+  "changes": [
+    {
+      "id": "example-existing-entry-id",
+      "set": {"endAt": "2026-11-26T10:59:00+09:00"},
+      "before": {"endAt": null},
+      "sources": ["https://wutheringwaves.kurogames.com/kr/main/news/detail/0000"]
+    }
+  ]
+}
