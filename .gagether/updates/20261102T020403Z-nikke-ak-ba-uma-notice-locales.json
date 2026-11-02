@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "requestId": "20261102T020403Z-nikke-ak-ba-uma-notice-locales",
+  "reason": "니케 공식 공지의 추가 수정 사항과 명일방주 중국·블루 아카이브 일본·우마무스메 한국 공지 7건의 제목 및 요약을 4개 언어로 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T02:04:03Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-arknights-cn-1440",
+      "set": {
+        "title": {
+          "ko": "명일방주 중국 서비스 11월 1일 필수 업데이트 안내",
+          "en": "Arknights CN: November 1 mandatory client update",
+          "ja": "中国版アークナイツ：11月1日の必須アップデートのお知らせ",
+          "zh": "[明日方舟]11月01日06:00版本更新停机维护公告"
+        },
+        "summary": {
+          "ko": "중국 서비스 11월 1일 필수 업데이트 안내. 모바일은 클라이언트 재설치, PC는 공식 런처에서 업데이트가 필요하며 신규 음성·모듈·PC 스크린샷 기능을 추가합니다.",
+          "en": "The November 1 CN update requires a fresh client installation on mobile and an update through the official PC launcher. It adds voices, modules and a PC screenshot feature.",
+          "ja": "中国版の11月1日更新では、モバイル版の再インストールと公式PCランチャーでの更新が必要です。新たなボイス、モジュール、PCのスクリーンショット機能を追加します。",
+          "zh": "11月1日强制更新公告：移动端需重新下载安装客户端，PC端通过鹰角启动器更新。新增语音、模组和PC截图功能。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "[明日方舟]11月01日06:00版本更新停机维护公告"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "感谢您对《明日方舟》的关注与支持，《明日方舟》新版本预下载现已开启，玩家可提前下载PC端的部分游戏资源，在版本更新维护结束后，更快地进入游戏。 此外，《明日方舟》计划将于2026年11月01日06:00至12:00对客户端进行版本更新停机维护。 本次更新为强制更新，更新结束后，需玩家对游戏客户端进行重新下载和安装。 更新维护期间玩家将无法登录游戏，更新结束后玩家将无法登录当前版本继续进行游戏。为确保您的账号数据正常，请在维护前提前结束关卡，并关闭游戏。 给各位玩家带来的不便，我们深表歉意！还请各位玩家相互转告。 维护时间： 2026年11月01日06:00 ~ 12:00 更新说明： ◆移动端：游戏客户端版本强制更新， 更新结束后，"
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://ak.hypergryph.com/news/1440"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-91b1d583a7de0a4d48a9662af74ccf89999d",
+      "set": {
+        "title": {
+          "ko": "10월 29일 알려진 이슈 안내(10월 29일 공지 수정)",
+          "en": "October 29 Known Issues",
+          "ja": "10月29日の既知の不具合（10月29日更新）",
+          "zh": "10月29日已知问题（10月29日更新）"
+        },
+        "summary": {
+          "ko": "MARIA-n 이벤트 필드의 일시적인 화면 표시 문제를 안내합니다. 캠페인 50챕터 일부 스테이지의 시나리오 재생 시점 오류는 수정 완료로 표시되어 있으며, 감상 순서에는 영향이 없습니다.",
+          "en": "The notice lists a temporary display issue in the MARIA-n event field. Incorrect scenario playback timing in some Campaign Chapter 50 stages is marked fixed; the viewing order is unaffected.",
+          "ja": "MARIA-nイベントフィールドの一時的な表示不具合を案内。キャンペーン第50章の一部ステージでシナリオが意図しないタイミングで再生される問題は修正済みと記載され、閲覧順序への影響はありません。",
+          "zh": "公告列出MARIA-n活动场景的短暂显示异常。战役第50章部分关卡的剧情播放时机问题已标注修复，不影响剧情观看顺序。"
+        },
+        "officialLocales": [
+          "ko",
+          "en"
+        ],
+        "translatedLocales": [
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=91b1d583a7de0a4d48a9662af74ccf89999d",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=f8c0c597a0947a4d1da92faad6c910876ad6"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "10월 29일 알려진 이슈 안내(10월 29일 공지 수정)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "존경하는 지휘관님, 현재 게임 내에 다음과 같은 문제가 확인되어 안내드립니다. ① 특정 상황에서 이벤트 필드 MARIA-n의 화면이 일시적으로 의도와 다르게 표시되는 현상을 확인하였습니다. 위의 현상에 대한 새로운 소식은 공식 루트를 통해 다시 안내하여 드리겠습니다. 다른 문의 사항이 있으신 경우, 게임 내 고객센터를 통해 문의하여 주시면 친절히 안내하여 드리겠습니다. 게임 이용에 불편을 끼쳐드려 대단히 죄송합니다. 《승리의 여신: 니케》 운영진",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=91b1d583a7de0a4d48a9662af74ccf89999d"
+        }
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=91b1d583a7de0a4d48a9662af74ccf89999d",
+        "https://nikke-en.com/newsdetail.html?content_id=f8c0c597a0947a4d1da92faad6c910876ad6"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-f8c0c597a0947a4d1da92faad6c910876ad6",
+      "set": {
+        "title": {
+          "ko": "10월 29일 알려진 이슈 안내(10월 29일 공지 수정)",
+          "en": "October 29 Known Issues",
+          "ja": "10月29日の既知の不具合（10月29日更新）",
+          "zh": "10月29日已知问题（10月29日更新）"
+        },
+        "summary": {
+          "ko": "영문 공지는 MARIA-n 이벤트 필드의 표시 문제를 안내하며, 캠페인 50챕터의 시나리오 재생 시점 오류와 스페인어 설정에서 시나리오 애니메이션이 재생되지 않는 문제를 수정 완료로 표시합니다.",
+          "en": "The English notice lists a MARIA-n event-field display issue. It marks the Chapter 50 scenario timing issue and missing scenario animations under Spanish settings as fixed.",
+          "ja": "英語版告知はMARIA-nイベントフィールドの表示不具合を案内。第50章のシナリオ再生タイミングと、スペイン語設定でシナリオのアニメーションが再生されない問題は修正済みと記載されています。",
+          "zh": "英文公告列出MARIA-n活动场景显示问题，并将第50章剧情播放时机异常、使用西班牙语设置时剧情动画不播放的问题标注为已修复。"
+        },
+        "officialLocales": [
+          "ko",
+          "en"
+        ],
+        "translatedLocales": [
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=f8c0c597a0947a4d1da92faad6c910876ad6",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=91b1d583a7de0a4d48a9662af74ccf89999d"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "October 29 Known Issues",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Commanders, The following issues have been identified in the game: ① We have confirmed an issue where the screen of the MARIA-n event field briefly appears differently than intended under certain circumstances. We are investigat ing the cause of the above issue s and will take the appropriate measures to address them a",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=f8c0c597a0947a4d1da92faad6c910876ad6"
+        }
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=91b1d583a7de0a4d48a9662af74ccf89999d",
+        "https://nikke-en.com/newsdetail.html?content_id=f8c0c597a0947a4d1da92faad6c910876ad6"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-05454bc8a97f4a40caa9caaac51a8ab6c429",
+      "set": {
+        "title": {
+          "ko": "10월 29일 개선 및 오류 수정",
+          "en": "Optimization on October 29",
+          "ja": "10月29日の改善と不具合修正",
+          "zh": "10月29日优化与问题修复"
+        },
+        "summary": {
+          "ko": "모바일·PC의 전투, 화면 표시, 음향 오류를 수정하고 라틴아메리카 스페인어를 추가합니다. 리듬 게임에는 레이팅, 화면 배치 조절, PC 단축키 안내를 추가합니다.",
+          "en": "Mobile and PC fixes cover combat, display and audio issues, with Latin American Spanish added. The rhythm game gains ratings, adjustable layouts and PC shortcut guidance.",
+          "ja": "モバイル・PCの戦闘、表示、音声の不具合を修正し、ラテンアメリカのスペイン語を追加。リズムゲームにはレーティング、画面レイアウト調整、PCショートカット案内を追加します。",
+          "zh": "修复移动端与PC端的战斗、显示和音效问题，新增拉丁美洲西班牙语。节奏游戏新增评级、画面布局调整及PC快捷键提示。"
+        },
+        "translatedLocales": [
+          "ko",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Optimization on October 29",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Mobile & PC Battle Issues 1. Fixed an issue where certain attacks and effects displayed differently than intended after specific parts of some Raptures were destroyed during battle. Applies to: - Muscle Toad - Grenade Launcher - Rebuild Vulcan R - Large Caliber Rifle 2. Fixed an issue where the Intro state and Highligh",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://nikke-en.com/newsdetail.html?content_id=05454bc8a97f4a40caa9caaac51a8ab6c429"
+      ]
+    },
+    {
+      "id": "feed-bluearchive-707",
+      "set": {
+        "title": {
+          "ko": "일본 서비스 신규 콘텐츠 ‘가상 적성 시험 BETA’ 안내",
+          "en": "JP service: Virtual Aptitude Test BETA overview",
+          "ja": "【新規コンテンツ】「仮想適性試験BETA」について",
+          "zh": "日服新内容「虚拟适性测试BETA」介绍"
+        },
+        "summary": {
+          "ko": "일본 서비스에서 10월 28일 점검 후부터 12월 23일까지 진행하는 AP 소모 전투 콘텐츠입니다. 임무 5-5 클리어 후 최대 5개 부대, 부대당 최대 8명을 편성해 도전하며 도달 웨이브에 따라 교환용 코인을 받습니다.",
+          "en": "This AP-based JP combat mode runs from after October 28 maintenance through December 23. Clear Mission 5-5 to enter with up to five squads of eight students each; progress through waves earns exchange coins.",
+          "ja": "10月28日のメンテナンス後から12月23日まで開催。任務5-5クリア後、APを使って最大5部隊・各8名で挑戦し、到達Waveに応じたコインを育成素材と交換できます。",
+          "zh": "日服消耗AP的战斗内容，开放期间为10月28日维护后至12月23日。通关任务5-5后可编成最多5支、每支最多8人的队伍，按到达的波次获得兑换硬币。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "【新規コンテンツ】「仮想適性試験BETA」について",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "2026-10-27(火) 【イベント概要】 ▼開催期間 2026年10月28日(水) メンテナンス後 ~ 2026年12月23日(水) 10:59 ▼参加条件 任務Area5-5をクリア ▼ 「仮想適性試験BETA」とは 「仮想適性試験 BETA 」とは、最大5部隊を編成して、たくさんの敵に挑む戦闘コンテンツです。 1ステージに2つの防御タイプの敵が区間ごとに交互で登場し、それぞれの区間で3Wave、最大15Waveもの敵が襲ってきます。さらに、ステージごとに特殊ルールも存在するので、様々な攻撃タイプとギミックに対応できる部隊を編成して挑んでみてください。 ▼「仮想適性試験BETA」のステージならびに難易度について 「仮想適性試験",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://bluearchive.jp/news/newsJump/707"
+      ]
+    },
+    {
+      "id": "feed-bluearchive-705",
+      "set": {
+        "title": {
+          "ko": "일본 서비스 10월 28일 업데이트 점검 안내",
+          "en": "JP service: October 28 update maintenance notice",
+          "ja": "メンテナンスのお知らせ（10/28 11:00 - 19:00予定）",
+          "zh": "日服10月28日更新维护公告"
+        },
+        "summary": {
+          "ko": "일본 서비스에 신규 이벤트, 전투 콘텐츠, 가구 38종을 추가합니다. 11월 4~11일 신규 총력전 개최와 모집 기록 기능 등의 추가·개선을 안내합니다.",
+          "en": "The JP update adds a new event, combat content and 38 furniture items. It also announces a new Total Assault for November 4–11, recruitment history and other improvements.",
+          "ja": "新イベント、新規戦闘コンテンツ、家具38種を追加。11月4日～11日の新総力戦、募集記録機能などの追加・改善を案内しています。",
+          "zh": "日服更新新增活动、战斗内容及38种家具，并公告11月4日至11日的新总力战、招募记录功能等新增与优化内容。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "メンテナンスのお知らせ（10/28 11:00 - 19:00予定）",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "2026-10-27(火) いつも「ブルーアーカイブ」をご利用いただき、誠にありがとうございます。 2026年10月28日(水) 11:00より、コンテンツ更新のためメンテナンスを実施いたします。 ▼実施時間 2026年10月28日(水) 11:00 ～ 2026年10月28日(水) 19:00前後 ■アップデート内容 （1）【イベント】「Start Your Engines！ ～183号よ永遠に！～」開催 【イベント概要】 ▼開催期間 2026年10月28日(水) メンテナンス後 ~ 2026年11月11日(水) 10:59 ▼報酬交換期間 2026年10月28日(水) メンテナンス後 ~ 2026年11月18日(水) 10:59",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://bluearchive.jp/news/newsJump/705"
+      ]
+    },
+    {
+      "id": "quick-umamusume-kr-115032872",
+      "set": {
+        "title": {
+          "ko": "픽업 프리티 더비 뽑기 & 픽업 서포트 카드 뽑기 개최 예정🎉",
+          "en": "Upcoming character and support-card pickups for the Korean service",
+          "ja": "韓国版の育成ウマ娘・サポートカードピックアップ開催予告",
+          "zh": "韩服育成角色与支援卡精选招募预告"
+        },
+        "summary": {
+          "ko": "한국 서비스에서 10월 30일~11월 10일 신규 ★3 육성 우마무스메와 SSR·SR 서포트 카드가 픽업됩니다. ★3 육성 우마무스메 획득 시 해당 우마무스메의 피스를 추가로 지급합니다.",
+          "en": "The Korean service features a new 3-star trainee and new SSR/SR support cards from October 30 to November 10. Obtaining a 3-star trainee grants additional pieces for that trainee.",
+          "ja": "韓国版で10月30日～11月10日、新しい★3育成ウマ娘とSSR・SRサポートカードをピックアップ。★3育成ウマ娘の獲得時に、そのウマ娘のピースが追加で付与されます。",
+          "zh": "韩服于10月30日至11月10日精选推出新三星育成角色及SSR、SR支援卡。获得三星育成角色时，可额外获得该角色的碎片。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "픽업 프리티 더비 뽑기 & 픽업 서포트 카드 뽑기 개최 예정🎉",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "신규 육성 우마무스메 & 신규 서포트 카드가 픽업 뽑기로 등장이 예정되어 안내드려요! (●'◡'●) 픽업 기간 중에는 픽업 대상인 육성 우마무스메와 서포트 카드 제공 비율이 상향되고 ★3 육성 우마무스메 획득 시 해당 우마무스메의 피스를 추가로 획득할 수 있답니다.💗 ------------------------------------------------ ❖ 픽업 뽑기 개최 기간 - 10월 30일(금) 12:00 ~ 11월 10일(화) 11:59 ❖ 신규 육성 우마무스메 픽업 대상 ★★★ [Hello Hello Island] 아이네스 후진 ❖ 신규 서포트 카드 픽업 ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://pf.kakao.com/_DzxjIb/115032872"
+      ]
+    }
+  ]
+}
