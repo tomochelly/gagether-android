@@ -1,0 +1,1748 @@
+{
+  "version": 1,
+  "requestId": "20261102T202544Z-prerelease-gallery-display",
+  "mode": "apply",
+  "reason": "실제 화면 점검에서 확인한 이미지 언어 필터 보완: 이미지 안의 실제 언어와 공용 아트를 구분하고 원문 표시 설정을 추가. 원본 URL·픽셀·운영자 구도는 보존",
+  "researchedAt": "2026-11-02T20:25:44Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "silver-palace-global-public-game-guide",
+      "set": {
+        "detailImages": [
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/1c3a247100eae7fdde2e40b5cb71d005.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7d2b00d65cc093bd2c835f0cc08a1b01.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/865f67cb4bc1c20da4561dd66e620479.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7ec64c57537d7971ce517705d4875d93.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/6c6823274b74f860d60e01a8a4f31687.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/96f68eab4f09fb9fc7d1e42f1636d8a9.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7b0dbb954aa678643e1093b96a1456ac.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/5777deb109bef0bbda244b10ac2f1e4c.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/ee77fa2be4f0b958fb611cb292b9ec44.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/859ac5f486f2faf2e45d7714b8d32ced.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/b7dba23963fdfafc7d3c7edbbe2201fe.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/c115d9da7355d6c14260e6466ecc3cbd.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/fbabeb7db8464074126d7bcdc90bfdd2.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/35a9e76555eae345673e4b6874c8aaad.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/43db7d690c4aa4b9683e9254307e5ff7.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/f8b4da94cc5847d7f289f498ba25ef06.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/b335d8fc0631cd89103af71e32aa1e10.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/27e27d0c221d52d37215527dcdd61844.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          }
+        ],
+        "previewArtwork": {
+          "image": "https://s.elementagames.com/official/image/20260709/fbabeb7db8464074126d7bcdc90bfdd2.jpg",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+          "width": 1920,
+          "height": 1080,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "모르그 거리 공식 지역 소개",
+            "en": "Official Morgue Street area image",
+            "ja": "モルグ街の公式地域紹介画像",
+            "zh": "莫格街官方区域介绍图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "originalLanguageFallback": true
+        }
+      },
+      "before": {
+        "detailImages": [
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/1c3a247100eae7fdde2e40b5cb71d005.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7d2b00d65cc093bd2c835f0cc08a1b01.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/865f67cb4bc1c20da4561dd66e620479.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7ec64c57537d7971ce517705d4875d93.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/6c6823274b74f860d60e01a8a4f31687.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/96f68eab4f09fb9fc7d1e42f1636d8a9.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7b0dbb954aa678643e1093b96a1456ac.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/5777deb109bef0bbda244b10ac2f1e4c.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/ee77fa2be4f0b958fb611cb292b9ec44.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/859ac5f486f2faf2e45d7714b8d32ced.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/b7dba23963fdfafc7d3c7edbbe2201fe.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/c115d9da7355d6c14260e6466ecc3cbd.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/fbabeb7db8464074126d7bcdc90bfdd2.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/35a9e76555eae345673e4b6874c8aaad.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/43db7d690c4aa4b9683e9254307e5ff7.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/f8b4da94cc5847d7f289f498ba25ef06.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/b335d8fc0631cd89103af71e32aa1e10.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/27e27d0c221d52d37215527dcdd61844.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          }
+        ],
+        "previewArtwork": {
+          "image": "https://s.elementagames.com/official/image/20260709/fbabeb7db8464074126d7bcdc90bfdd2.jpg",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+          "width": 1920,
+          "height": 1080,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "모르그 거리 공식 지역 소개",
+            "en": "Official Morgue Street area image",
+            "ja": "モルグ街の公式地域紹介画像",
+            "zh": "莫格街官方区域介绍图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        }
+      },
+      "sources": [
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73"
+      ]
+    },
+    {
+      "id": "azur-promilia-global-public-media-gallery",
+      "set": {
+        "detailImages": [
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/ff510be4-2b8a-48f6-bf2b-31b5a5bc0703/01.%EB%A9%94%EC%9D%B8%ED%80%98%EC%8A%A4%ED%8A%B8%EC%A7%84%ED%96%89%EC%A4%91%EA%B8%B8%EC%B0%BE%EA%B8%B0%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/7ed0e520-1788-4fbb-9e20-067795b930c2/08.%EC%8A%A4%ED%83%80%EC%84%BC%EC%8A%A4%EA%B3%84%EC%A0%95%EB%A0%88%EB%B2%A8%EC%98%AC%EB%A6%AC%EB%8A%94%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/a32b6f99-b281-47a9-8faf-586c3b04ee01/07.%EC%9E%A5%EB%B9%84%EC%B6%94%EC%B2%9C%EA%B8%B0%EB%8A%A5%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/cbf74bb6-4c3b-47aa-b97f-443b16f3d3bf/09.%ED%83%88%EA%B2%83%EC%9D%B4%EC%9A%A9%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B42%ED%83%88%EA%B2%83%ED%83%91%EC%8A%B9%EB%B0%A9%EB%B2%95%EA%B3%BC%ED%80%B5%EC%8A%AC%EB%A1%AF.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/d7012e5a-cdab-4e91-9d63-afa689bc7d49/10.%ED%95%98%EC%9A%B0%EC%A7%95%EC%97%90%ED%82%A4%EB%B3%B4%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/ae0415c8-e9f9-424b-8926-f71136dc4ec7/10.%ED%95%98%EC%9A%B0%EC%A7%95%EC%97%90%ED%82%A4%EB%B3%B4%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B45.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/be623c64-0108-4472-a3c2-555a901eaf6a/11.%EB%8F%8C%EB%8F%84%EB%81%BC%EB%8F%8C%EA%B3%A1%EA%B4%AD%EC%9D%B4%EB%93%B1%EA%B0%84%ED%8E%B8%EC%A0%9C%EC%9E%91%ED%95%98%EB%8A%94%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/72b62902-bc52-4aeb-ac27-a76bb253fcdf/12.%EC%84%B1%EB%A6%BC%EC%9E%90%EC%99%B8%ED%98%95%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic1-Domz6DYA.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 2094,
+            "height": 1208,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic2-BDbHlTC-.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 2094,
+            "height": 1208,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic3-D-AykPnR.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 2094,
+            "height": 1208,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic4-C7AqLBKr.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1380,
+            "height": 794,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic5-D-5_ikxk.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 2094,
+            "height": 1208,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "중국 공식 사이트 공개 캐릭터 아트",
+              "en": "Character art from the Chinese official website",
+              "ja": "中国公式サイトの公開キャラクターアート",
+              "zh": "中国官网公开角色美术图"
+            },
+            "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.ef0553cb.jpg",
+            "imageSource": "https://azurpromilia.manjuu.com/home/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "중국 공식 사이트 공개 캐릭터 아트",
+              "en": "Character art from the Chinese official website",
+              "ja": "中国公式サイトの公開キャラクターアート",
+              "zh": "中国官网公开角色美术图"
+            },
+            "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.ceae56f3.jpg",
+            "imageSource": "https://azurpromilia.manjuu.com/home/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "중국 공식 사이트 공개 캐릭터 아트",
+              "en": "Character art from the Chinese official website",
+              "ja": "中国公式サイトの公開キャラクターアート",
+              "zh": "中国官网公开角色美术图"
+            },
+            "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.2d4287d9.jpg",
+            "imageSource": "https://azurpromilia.manjuu.com/home/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "영어 공식 공개 소개 이미지",
+              "en": "English official public introduction image",
+              "ja": "英語公式の公開紹介画像",
+              "zh": "英文官方公开介绍图"
+            },
+            "image": "https://pbs.twimg.com/media/HVi5RB8asAATDWU?format=webp&name=large",
+            "imageSource": "https://x.com/AzurPromilia_EN/status/2114703604951003538",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 2048,
+            "height": 922,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "영어 공식 공개 소개 이미지",
+              "en": "English official public introduction image",
+              "ja": "英語公式の公開紹介画像",
+              "zh": "英文官方公开介绍图"
+            },
+            "image": "https://pbs.twimg.com/media/HVJFbsPaQAAsZS_?format=webp&name=large",
+            "imageSource": "https://x.com/AzurPromilia_EN/status/2112891652444717135",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1600,
+            "height": 900,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "영어 공식 공개 소개 이미지",
+              "en": "English official public introduction image",
+              "ja": "英語公式の公開紹介画像",
+              "zh": "英文官方公开介绍图"
+            },
+            "image": "https://pbs.twimg.com/media/HUpx-tFboAAxF_w?format=webp&name=large",
+            "imageSource": "https://x.com/AzurPromilia_EN/status/2111079715981390036",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1948,
+            "height": 920,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          }
+        ],
+        "previewArtwork": {
+          "imageCaption": {
+            "ko": "일본 공식 모험 노트 아트",
+            "en": "Japanese official adventure-notebook art",
+            "ja": "日本公式・冒険ノートのアート",
+            "zh": "日服官方冒险笔记美术图"
+          },
+          "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic5-D-5_ikxk.webp",
+          "imageSource": "https://azurpromilia.jp/world",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "width": 2094,
+          "height": 1208,
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        }
+      },
+      "before": {
+        "detailImages": [
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/ff510be4-2b8a-48f6-bf2b-31b5a5bc0703/01.%EB%A9%94%EC%9D%B8%ED%80%98%EC%8A%A4%ED%8A%B8%EC%A7%84%ED%96%89%EC%A4%91%EA%B8%B8%EC%B0%BE%EA%B8%B0%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/7ed0e520-1788-4fbb-9e20-067795b930c2/08.%EC%8A%A4%ED%83%80%EC%84%BC%EC%8A%A4%EA%B3%84%EC%A0%95%EB%A0%88%EB%B2%A8%EC%98%AC%EB%A6%AC%EB%8A%94%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/a32b6f99-b281-47a9-8faf-586c3b04ee01/07.%EC%9E%A5%EB%B9%84%EC%B6%94%EC%B2%9C%EA%B8%B0%EB%8A%A5%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/cbf74bb6-4c3b-47aa-b97f-443b16f3d3bf/09.%ED%83%88%EA%B2%83%EC%9D%B4%EC%9A%A9%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B42%ED%83%88%EA%B2%83%ED%83%91%EC%8A%B9%EB%B0%A9%EB%B2%95%EA%B3%BC%ED%80%B5%EC%8A%AC%EB%A1%AF.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/d7012e5a-cdab-4e91-9d63-afa689bc7d49/10.%ED%95%98%EC%9A%B0%EC%A7%95%EC%97%90%ED%82%A4%EB%B3%B4%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/ae0415c8-e9f9-424b-8926-f71136dc4ec7/10.%ED%95%98%EC%9A%B0%EC%A7%95%EC%97%90%ED%82%A4%EB%B3%B4%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B45.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/be623c64-0108-4472-a3c2-555a901eaf6a/11.%EB%8F%8C%EB%8F%84%EB%81%BC%EB%8F%8C%EA%B3%A1%EA%B4%AD%EC%9D%B4%EB%93%B1%EA%B0%84%ED%8E%B8%EC%A0%9C%EC%9E%91%ED%95%98%EB%8A%94%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/72b62902-bc52-4aeb-ac27-a76bb253fcdf/12.%EC%84%B1%EB%A6%BC%EC%9E%90%EC%99%B8%ED%98%95%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 720,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic1-Domz6DYA.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 2094,
+            "height": 1208,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic2-BDbHlTC-.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 2094,
+            "height": 1208,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic3-D-AykPnR.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 2094,
+            "height": 1208,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic4-C7AqLBKr.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1380,
+            "height": 794,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "일본 공식 모험 노트 아트",
+              "en": "Japanese official adventure-notebook art",
+              "ja": "日本公式・冒険ノートのアート",
+              "zh": "日服官方冒险笔记美术图"
+            },
+            "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic5-D-5_ikxk.webp",
+            "imageSource": "https://azurpromilia.jp/world",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 2094,
+            "height": 1208,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "중국 공식 사이트 공개 캐릭터 아트",
+              "en": "Character art from the Chinese official website",
+              "ja": "中国公式サイトの公開キャラクターアート",
+              "zh": "中国官网公开角色美术图"
+            },
+            "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.ef0553cb.jpg",
+            "imageSource": "https://azurpromilia.manjuu.com/home/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "중국 공식 사이트 공개 캐릭터 아트",
+              "en": "Character art from the Chinese official website",
+              "ja": "中国公式サイトの公開キャラクターアート",
+              "zh": "中国官网公开角色美术图"
+            },
+            "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.ceae56f3.jpg",
+            "imageSource": "https://azurpromilia.manjuu.com/home/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "중국 공식 사이트 공개 캐릭터 아트",
+              "en": "Character art from the Chinese official website",
+              "ja": "中国公式サイトの公開キャラクターアート",
+              "zh": "中国官网公开角色美术图"
+            },
+            "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.2d4287d9.jpg",
+            "imageSource": "https://azurpromilia.manjuu.com/home/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "영어 공식 공개 소개 이미지",
+              "en": "English official public introduction image",
+              "ja": "英語公式の公開紹介画像",
+              "zh": "英文官方公开介绍图"
+            },
+            "image": "https://pbs.twimg.com/media/HVi5RB8asAATDWU?format=webp&name=large",
+            "imageSource": "https://x.com/AzurPromilia_EN/status/2114703604951003538",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 2048,
+            "height": 922,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "영어 공식 공개 소개 이미지",
+              "en": "English official public introduction image",
+              "ja": "英語公式の公開紹介画像",
+              "zh": "英文官方公开介绍图"
+            },
+            "image": "https://pbs.twimg.com/media/HVJFbsPaQAAsZS_?format=webp&name=large",
+            "imageSource": "https://x.com/AzurPromilia_EN/status/2112891652444717135",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1600,
+            "height": 900,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "영어 공식 공개 소개 이미지",
+              "en": "English official public introduction image",
+              "ja": "英語公式の公開紹介画像",
+              "zh": "英文官方公开介绍图"
+            },
+            "image": "https://pbs.twimg.com/media/HUpx-tFboAAxF_w?format=webp&name=large",
+            "imageSource": "https://x.com/AzurPromilia_EN/status/2111079715981390036",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1948,
+            "height": 920,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          }
+        ],
+        "previewArtwork": {
+          "imageCaption": {
+            "ko": "일본 공식 모험 노트 아트",
+            "en": "Japanese official adventure-notebook art",
+            "ja": "日本公式・冒険ノートのアート",
+            "zh": "日服官方冒险笔记美术图"
+          },
+          "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic5-D-5_ikxk.webp",
+          "imageSource": "https://azurpromilia.jp/world",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "width": 2094,
+          "height": 1208,
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+        "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+        "https://azurpromilia.jp/world",
+        "https://azurpromilia.manjuu.com/home/",
+        "https://x.com/AzurPromilia_EN/status/2114703604951003538",
+        "https://x.com/AzurPromilia_EN/status/2112891652444717135",
+        "https://x.com/AzurPromilia_EN/status/2111079715981390036"
+      ]
+    },
+    {
+      "id": "ananta-global-public-media-gallery",
+      "set": {
+        "detailImages": [
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8e0bb7e9.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_a5981ddf.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8ded2659.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_1fef6bc5.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_43cb3a0c.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_9aa7de6f.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_5ae9cd9d.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_3275bf6d.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-3-full_2a69c23a.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-1-full_da8a73f3.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 1883,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-1-full_540ce19c.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-5-full_d882c278.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1635,
+            "height": 908,
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "originalLanguageFallback": true
+          }
+        ],
+        "previewArtwork": {
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8e0bb7e9.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "zh",
+          "width": 3840,
+          "height": 2160,
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "originalLanguageFallback": true
+        }
+      },
+      "before": {
+        "detailImages": [
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8e0bb7e9.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_a5981ddf.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8ded2659.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_1fef6bc5.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_43cb3a0c.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_9aa7de6f.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_5ae9cd9d.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_3275bf6d.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-3-full_2a69c23a.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-1-full_da8a73f3.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 1883,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-1-full_540ce19c.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "imageCaption": {
+              "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+              "en": "Official website game image · in development",
+              "ja": "公式サイトのゲーム画像・開発中",
+              "zh": "官方网站公开游戏画面 · 开发中"
+            },
+            "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-5-full_d882c278.jpg",
+            "imageSource": "https://www.anantagame.com/",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1635,
+            "height": 908,
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          }
+        ],
+        "previewArtwork": {
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8e0bb7e9.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "width": 3840,
+          "height": 2160,
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        }
+      },
+      "sources": [
+        "https://www.anantagame.com/"
+      ]
+    }
+  ]
+}
