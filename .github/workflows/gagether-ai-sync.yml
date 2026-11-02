@@ -1,9 +1,10 @@
 name: GAGETHER AI updates
-# Lives on the ai-updates branch (and on main, where it is inert). It only calls the checking
+# Kept on main so new codex/** branches inherit this caller; main pushes do not trigger it.
+# ai-updates and codex/** only call the checking
 # workflow pinned to main; /api/ai-sync rejects tokens from any other job (ops/AI-UPDATES.ko.md).
 on:
   push:
-    branches: [ai-updates]
+    branches: [ai-updates, 'codex/**']
     paths: ['.gagether/updates/**']
   workflow_dispatch:
 permissions: {}
