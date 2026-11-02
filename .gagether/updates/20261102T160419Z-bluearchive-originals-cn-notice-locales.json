@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "requestId": "20261102T160419Z-bluearchive-originals-cn-notice-locales",
+  "reason": "블루 아카이브 한·일 공식 모집 이미지와 업데이트 요약, 리버스 1999·소녀전선2 중국 공지의 누락 번역과 핵심 내용을 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T16:04:19Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-bluearchive-kr-3559967",
+      "set": {
+        "title": {
+          "ko": "(완료) 10/27(화) 업데이트 상세 안내",
+          "en": "October 27 update details (completed)",
+          "ja": "10月27日アップデート詳細（完了）",
+          "zh": "10月27日更新詳情（已完成）"
+        },
+        "summary": {
+          "ko": "하이랜더 철도 폭주 사건을 복각하고 Sheside outside를 상설화했으며, 미니 스토리 「약사의 방황길」 1~6화를 추가했다. 한국 서비스의 마코토·아코(드레스)·사츠키·치아키·칸나(수영복) 복각 모집은 11월 3일 11:00부터 11월 10일 10:59까지다. 점검 보상 청휘석 360개는 11월 3일 23:59까지 수령할 수 있다. 시각은 KST 기준이다.",
+          "en": "The update reruns the Highlander railroad incident event, makes Sheside outside permanent and adds six episodes of the pharmacist mini-story. On the Korean service, rerun recruitments for Makoto, Ako (Dress), Satsuki, Chiaki and Kanna (Swimsuit) run November 3 at 11:00 through November 10 at 10:59 KST. The 360-Pyroxene maintenance compensation can be claimed until November 3 at 23:59 KST.",
+          "ja": "ハイランダー鉄道事件の復刻、Sheside outsideの常設化、薬師を題材としたミニストーリー全6話を追加。韓国サービスではマコト、アコ（ドレス）、サツキ、チアキ、カンナ（水着）の復刻募集を11月3日11:00～11月10日10:59に開催。メンテナンス補填の青輝石360個は11月3日23:59まで受取可能。時刻はKST。",
+          "zh": "更新復刻高地人鐵道事件、常設Sheside outside，並新增藥師題材迷你劇情共六話。韓國服務的真琴、亞子（禮服）、皐月、千秋與環奈（泳裝）復刻招募於11月3日11:00至11月10日10:59舉行。維護補償青輝石360個可領取至11月3日23:59。以上時間皆為KST。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "(완료) 10/27(화) 업데이트 상세 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "📣 선생님께 샬레운영사무국에서 안내드립니다. 10 월 27일(화) 진행되는 업데이트 상세 내역을 안내드립니다. 공지 내 포함된 시간은 모두 한국 시간 기준입니다. [10 월 27일(화) 업데이트 안내] 1. 일시: 10월 27일(화) 오전 11시 ~ 오후 2시 (한국 시간 기준) 2. 영향: 점검 시간 동안 게임 접속 불가 3. 보상: 청휘석 360개 * 점검 종료 후 ~ 11월 3일(화) 오후 11시 59분까지 우편을 통해 ‘점검 보상’을 획득하실 수 있습니다. (우편 보관일 7일) [10 월 27일(화) 업데이트 주요 일정] - 업데이트 이후 진행되는 콘텐츠의 ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967"
+      ]
+    },
+    {
+      "id": "quick-bluearchive-kr-3568829",
+      "set": {
+        "title": {
+          "ko": "10/27(화) 특별 픽업 모집 & 픽업 모집 안내",
+          "en": "October 27 special and regular pickup recruitment",
+          "ja": "10月27日の限定・通常ピックアップ募集案内",
+          "zh": "10月27日限定與一般特選招募公告"
+        },
+        "summary": {
+          "ko": "한국 서비스에서 히카리·노조미·사오리(수영복)·히요리(수영복)의 특별 픽업과 미사키(수영복)의 일반 픽업을 복각한다. 기간은 10월 27일 점검 후부터 11월 3일 오전 10시 59분까지다. 각 모집은 해당 학생의 확률이 상승하며 모집 포인트로 선택 영입할 수 있다. 미사키(수영복)는 종료 후에도 상시 모집에 남는다.",
+          "en": "The Korean service reruns separate special pickup recruitments for Hikari, Nozomi, Saori (Swimsuit) and Hiyori (Swimsuit), plus a regular pickup for Misaki (Swimsuit), from after October 27 maintenance until November 3 at 10:59 Korean time. Each banner boosts its featured student and allows recruitment-point selection. Misaki (Swimsuit) remains in regular recruitment afterward.",
+          "ja": "韓国サービスでヒカリ、ノゾミ、サオリ（水着）、ヒヨリ（水着）の限定募集とミサキ（水着）の通常ピックアップを復刻。期間は10月27日メンテナンス後～11月3日10:59（韓国時間）。各募集で対象生徒の確率が上がり、募集ポイントで選択できる。ミサキ（水着）は終了後も通常募集に残る。",
+          "zh": "韓國服務復刻光、望、沙織（泳裝）、日和（泳裝）的限定特選招募，以及美咲（泳裝）的一般特選招募。期間為10月27日維護後至11月3日10:59（韓國時間）。各招募提升對應學生機率，亦可使用招募點數選擇招募。美咲（泳裝）於活動後仍可從常態招募取得。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/1b94b3d3-7f19-4746-b007-9af206bb57b6/image.png",
+            "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3568829",
+            "width": 1219,
+            "height": 686,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T16:04:19Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "히카리 한국 공식 복각 모집 배너",
+              "en": "Hikari official Korean rerun recruitment banner",
+              "ja": "ヒカリ 韓国公式復刻募集バナー",
+              "zh": "光韓國官方復刻招募圖"
+            }
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/11d6d5ac-9f0e-4204-95a0-a292ad1c3168/image.png",
+            "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3568829",
+            "width": 1219,
+            "height": 686,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T16:04:19Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "노조미 한국 공식 복각 모집 배너",
+              "en": "Nozomi official Korean rerun recruitment banner",
+              "ja": "ノゾミ 韓国公式復刻募集バナー",
+              "zh": "望韓國官方復刻招募圖"
+            }
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/5d604d5d-e699-4e0d-a6e2-d21a703fa5d8/image.png",
+            "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3568829",
+            "width": 1219,
+            "height": 686,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T16:04:19Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "사오리(수영복) 한국 공식 복각 모집 배너",
+              "en": "Saori (Swimsuit) official Korean rerun recruitment banner",
+              "ja": "サオリ（水着） 韓国公式復刻募集バナー",
+              "zh": "沙織（泳裝）韓國官方復刻招募圖"
+            }
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/066c5a34-788e-4603-b617-5622923a129a/image.png",
+            "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3568829",
+            "width": 1219,
+            "height": 686,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T16:04:19Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "히요리(수영복) 한국 공식 복각 모집 배너",
+              "en": "Hiyori (Swimsuit) official Korean rerun recruitment banner",
+              "ja": "ヒヨリ（水着） 韓国公式復刻募集バナー",
+              "zh": "日和（泳裝）韓國官方復刻招募圖"
+            }
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/b7a9cefd-6058-495b-85f5-5317ace5f88f/image.png",
+            "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3568829",
+            "width": 1219,
+            "height": 686,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T16:04:19Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "미사키(수영복) 한국 공식 복각 모집 배너",
+              "en": "Misaki (Swimsuit) official Korean rerun recruitment banner",
+              "ja": "ミサキ（水着） 韓国公式復刻募集バナー",
+              "zh": "美咲（泳裝）韓國官方復刻招募圖"
+            }
+          }
+        ],
+        "previewArtwork": {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/1b94b3d3-7f19-4746-b007-9af206bb57b6/image.png",
+          "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3568829",
+          "width": 1219,
+          "height": 686,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageVerified": true,
+          "verifiedAt": "2026-11-02T16:04:19Z",
+          "originalLanguageFallback": true,
+          "imageCaption": {
+            "ko": "히카리 한국 공식 복각 모집 배너",
+            "en": "Hikari official Korean rerun recruitment banner",
+            "ja": "ヒカリ 韓国公式復刻募集バナー",
+            "zh": "光韓國官方復刻招募圖"
+          }
+        },
+        "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/1b94b3d3-7f19-4746-b007-9af206bb57b6/image.png",
+        "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3568829",
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageVerified": true,
+        "originalLanguageFallback": true,
+        "imageCaption": {
+          "ko": "히카리 한국 공식 복각 모집 배너",
+          "en": "Hikari official Korean rerun recruitment banner",
+          "ja": "ヒカリ 韓国公式復刻募集バナー",
+          "zh": "光韓國官方復刻招募圖"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "10/27(화) 특별 픽업 모집 & 픽업 모집 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "📣 아아! 선생님께 샬레운영사무국에서 안내드립니다. 10 월 27일(화) 점검 후부터 히카리, 노조미, 사오리(수영복), 히요리(수영복)의 특별 픽업 모집과 미사키(수영복)의 픽업 모집이 시작됩니다. 모집하고 싶은 학생의 픽업 기간을 잘 활용해 보세요~! [ 특별 픽업 모집 – 히카리, 노조미, 사오리(수영복), 히요리(수영복)] * 특별 픽업 모집 기간: 10월 27일(화) 점검 후 ~ 11월 3일(화) 오전 10시 59분 - 각 픽업 모집에서는 해당하는 학생의 픽업 확률이 적용됩니다. 예: 히카리(★3) 픽업 모집에서는 ‘히카리(★3)’의 픽업 확률이 적용됩니다",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null,
+        "previewArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "originalLanguageFallback": null,
+        "imageCaption": null
+      },
+      "sources": [
+        "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3568829",
+        "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967"
+      ]
+    },
+    {
+      "id": "quick-bluearchive-jp-704",
+      "set": {
+        "title": {
+          "ko": "일본 픽업 모집: 히후미(레이싱)·아즈사(레이싱)",
+          "en": "Japan pickup recruitment: Hifumi (Racing) and Azusa (Racing)",
+          "ja": "ピックアップ募集紹介：★3「ヒフミ(レーシング)」、★3「アズサ(レーシング)」",
+          "zh": "日本特選招募：日步美（賽車）與梓（賽車）"
+        },
+        "summary": {
+          "ko": "일본 서비스에서 ★3 히후미(레이싱)와 ★3 아즈사(레이싱)의 한정 픽업을 각각 진행한다. 기간은 10월 28일 점검 후부터 11월 11일까지다. 두 학생은 이후 일반 픽업 대상에 포함되지 않으며, 복각 여부와 시점은 미정이다. 원문은 첫 영입 보상과 다른 의상 간 인연 랭크 보너스 공유도 안내한다.",
+          "en": "The Japanese service holds separate limited pickup recruitments for 3-star Hifumi (Racing) and Azusa (Racing), from after October 28 maintenance through November 11. Neither student is included in subsequent standard pickup pools; a future rerun is possible but unscheduled. The notice also explains first-recruitment rewards and shared relationship-rank bonuses across outfits.",
+          "ja": "日本サービスで★3ヒフミ（レーシング）と★3アズサ（レーシング）の期間限定ピックアップ募集をそれぞれ開催。期間は10月28日メンテナンス後～11月11日。両名は次回以降の通常ピックアップ対象には含まれず、将来の復刻は時期未定。初回募集報酬と別衣装間の絆ランクボーナス共有も案内。",
+          "zh": "日本服務分別開放★3日步美（賽車）與★3梓（賽車）的期間限定特選招募，期間為10月28日維護後至11月11日。兩人不加入之後的一般特選名單，未來可能復刻但日期未定。公告亦說明首次招募獎勵與不同服裝間共享好感度等級加成。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/26/DuU7HLlZ.png",
+            "imageSource": "https://bluearchive.jp/news/newsJump/704",
+            "width": 1280,
+            "height": 720,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T16:04:19Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "히후미(레이싱) 일본 공식 한정 모집 배너",
+              "en": "Hifumi (Racing) official Japanese limited recruitment banner",
+              "ja": "ヒフミ（レーシング）日本公式限定募集バナー",
+              "zh": "日步美（賽車）日本官方限定招募圖"
+            }
+          },
+          {
+            "image": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/26/pt8CHnt4.png",
+            "imageSource": "https://bluearchive.jp/news/newsJump/704",
+            "width": 1280,
+            "height": 720,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T16:04:19Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "아즈사(레이싱) 일본 공식 한정 모집 배너",
+              "en": "Azusa (Racing) official Japanese limited recruitment banner",
+              "ja": "アズサ（レーシング）日本公式限定募集バナー",
+              "zh": "梓（賽車）日本官方限定招募圖"
+            }
+          }
+        ],
+        "previewArtwork": {
+          "image": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/26/DuU7HLlZ.png",
+          "imageSource": "https://bluearchive.jp/news/newsJump/704",
+          "width": 1280,
+          "height": 720,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "imageVerified": true,
+          "verifiedAt": "2026-11-02T16:04:19Z",
+          "originalLanguageFallback": true,
+          "imageCaption": {
+            "ko": "히후미(레이싱) 일본 공식 한정 모집 배너",
+            "en": "Hifumi (Racing) official Japanese limited recruitment banner",
+            "ja": "ヒフミ（レーシング）日本公式限定募集バナー",
+            "zh": "日步美（賽車）日本官方限定招募圖"
+          }
+        },
+        "image": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/26/DuU7HLlZ.png",
+        "imageSource": "https://bluearchive.jp/news/newsJump/704",
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "imageVerified": true,
+        "originalLanguageFallback": true,
+        "imageCaption": {
+          "ko": "히후미(레이싱) 일본 공식 한정 모집 배너",
+          "en": "Hifumi (Racing) official Japanese limited recruitment banner",
+          "ja": "ヒフミ（レーシング）日本公式限定募集バナー",
+          "zh": "日步美（賽車）日本官方限定招募圖"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "ピックアップ募集紹介：★3「ヒフミ(レーシング)」、★3「アズサ(レーシング)」",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "2026-10-27(火) いつも「ブルーアーカイブ」をご利用いただき、誠にありがとうございます。 2026年10月28日(水) メンテナンス後より、 期間限定 ピックアップ募集 「無限の軌道は希望なりや！」 、 期間限定 ピックアップ募集 「夢幻の機動は奇謀なりや？」 を開催します。 レーシングスーツ(？)に着替えた 「ヒフミ(レーシング)」さん と 「アズサ(レーシング)」さん の限定ピックアップ募集になります。 ▼ピックアップ対象 ピックアップ名： 「無限の軌道は希望なりや！」 ピックアップ生徒：★3「ヒフミ(レーシング)」 ピックアップ名： 「夢幻の機動は奇謀なりや？」 ピックアップ生徒：★3「アズサ(レーシング)」 ▼実施",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null,
+        "previewArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "originalLanguageFallback": null,
+        "imageCaption": null
+      },
+      "sources": [
+        "https://bluearchive.jp/news/newsJump/704"
+      ]
+    },
+    {
+      "id": "quick-reverse1999-cn-103",
+      "set": {
+        "title": {
+          "ko": "중국 개발팀 소식 제30호: 4.1 전투 변경·기간 조정",
+          "en": "CN developer bulletin 30: Version 4.1 combat and duration changes",
+          "ja": "中国版開発だより第30回：4.1の戦闘調整と期間変更",
+          "zh": "1999制作组播报 第三十期"
+        },
+        "summary": {
+          "ko": "중국 서버 4.1은 「鬃毛邮报」에 전투 중 누적 점수에 따라 보스 효과가 변하는 새 도전 시리즈를 추가한다. 핵심 재화 보상 구간은 효과 변화 전에 달성할 수 있으며, 이전 보스의 보상과 재도전 기능도 유지·보완한다. 서로 다른 스킬에서 발생한 같은 이름의 능력치 강화·약화는 중첩되도록 조정한다. 버전 운영 기간은 1주 단축된다고 안내했다.",
+          "en": "CN Version 4.1 adds a Mane’s Bulletin challenge series whose bosses change effects at cumulative score thresholds. Core-currency rewards remain attainable before those changes, while past bosses retain rewards and gain replay access. Same-named stat increases and reductions from different skills can coexist and stack; effects from different ranks of the same skill are unchanged. The version is shortened by one week.",
+          "ja": "中国版4.1は「鬃毛邮报」に累計スコアでボスの効果が変化する新チャレンジを追加。主要通貨の報酬ラインは変化前に到達でき、過去のボスの報酬を維持し再挑戦機能を追加する。異なるスキルによる同名の能力上昇・低下効果は共存・重複可能に。同じスキルの異なる段階の処理は変更せず、バージョン期間を1週間短縮する。",
+          "zh": "国服4.1为「鬃毛邮报」新增「鉴藏者特版」，首领会在累计调查积分达到阈值后改变技能；核心代币奖励档位可在变化前达到。往期首领保留奖励并新增重新挑战解锁功能。不同技能产生的同名属性提升、削弱效果可共存叠加，同技能不同阶次规则不变。版本持续时间缩短一周。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "1999制作组播报 第三十期"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "亲爱的司辰： 一次轰动伦敦城的深海潜航，从亚特兰蒂斯带回的珍奇瑰宝，一场突如其来的离奇凶杀案，成为殒命之所的富豪大宅，来自十字街的古怪侦探，以及带着谜团的柔弱少女——一切如同传统推理小说中的一幕。众人被一同卷入其中，并逐渐走进了一段复仇故事的深处。 4.1版本《亚特兰蒂斯谋杀案》即将开启！版本PV及更多活动详情将于10月25日释出，请关注官方社媒后续。 以下为大家带来新一期的制作组播报内容： 一、 鬃毛邮报全新挑战系列更新 从4.1版本开始，【鬃毛邮报】新增全新挑战系列【鉴藏者特版】。新挑战中的首领在单次累计调查积分达到一定数额后，技能将发生变化，获得特殊效果。我们希望通过局内战斗过程的动态改变，为喜爱挑战高难玩法的司辰提供更多战斗"
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://re.bluepoch.com/home/detail.html#newsId?103"
+      ]
+    },
+    {
+      "id": "quick-gfl2-cn-2191",
+      "set": {
+        "title": {
+          "ko": "중국 이벤트 「暗香赠礼」 안내",
+          "en": "CN event: 暗香赠礼",
+          "ja": "中国版イベント「暗香赠礼」の案内",
+          "zh": "【暗香赠礼】现已开启"
+        },
+        "summary": {
+          "ko": "중국 서버에서 10월 26일~11월 7일 진행하는 보상 선택 이벤트다. 일반 전역 1-8 완료 후 「情报拼图」를 소비해 두 종류의 선물에서 원하는 성장 재료를 선택한다. 「火玫瑰赠礼」는 추가로 「坍塌晶条」를 지급하며, 누적 소비 조건을 달성하면 「基原信息核」를 해금할 수 있다.",
+          "en": "This CN reward-selection event runs October 26–November 7 and requires clearing normal campaign 1-8. Spend 情报拼图 to choose growth materials from two gift types. 火玫瑰赠礼 also grants 坍塌晶条, while cumulative spending unlocks 基原信息核.",
+          "ja": "中国版で10月26日～11月7日に開催する報酬選択イベント。通常戦役1-8クリア後、「情报拼图」を消費して2種類のギフトから育成素材を選ぶ。「火玫瑰赠礼」では追加で「坍塌晶条」を獲得でき、累計消費条件を満たすと「基原信息核」を解放できる。",
+          "zh": "国服活动时间为10月26日至11月7日，完成普通战役1-8后可参加。消耗「情报拼图」，从「铁玫瑰赠礼」或「火玫瑰赠礼」中选择所需养成道具；后者额外必得「坍塌晶条」。累计消耗达到条件还可解锁「基原信息核」。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "【暗香赠礼】现已开启"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "尊敬的指挥官，【暗香赠礼】现已开启！ 活动期间，参与活动玩法，即可获得 「坍塌晶条」 等丰厚奖励。 活动时间： 2026年10月26日05:00~2026年11月7日04:59 参与条件： 完成剧情战役普通【1-8】 活动说明： ■【暗香赠礼】开启后，指挥官可消耗一定数量的「情报拼图」来获取暗商群体的赠礼。 暗商赠礼共分为「铁玫瑰赠礼」和「火玫瑰赠礼」两种，内含不同道具奖励，指挥官可根据自己的需要选择对应道具奖励。 ■活动期间，指挥官每次打开「铁玫瑰赠礼」时，可在「战场报告」、「解析图纸」和「萨狄斯金」中选择一种道具作为奖励。 ■活动期间，指挥官每次打开「火玫瑰赠礼」时，可在「转录导体·序三」、「转录导体·序四」、「转录导体·序五」"
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://gf2.sunborngame.com/NewsInfo?id=2191&typeId=4"
+      ]
+    },
+    {
+      "id": "quick-gfl2-cn-2190",
+      "set": {
+        "title": {
+          "ko": "중국 이벤트 「悖论操演」 안내",
+          "en": "CN event: 悖论操演",
+          "ja": "中国版イベント「悖论操演」の案内",
+          "zh": "【悖论操演】现已开启"
+        },
+        "summary": {
+          "ko": "중국 서버에서 10월 22일~11월 3일 진행하는 전투 이벤트다. 일반 전역 1-8 완료 후 참여할 수 있으며, 5개 스테이지가 순차 개방된다. 제한 턴 안에 완료하면 「坍塌晶条」와 성장 재료를 획득한다.",
+          "en": "This CN combat event runs October 22–November 3 and requires clearing normal campaign 1-8. Five stages unlock progressively; completing them within the turn limit awards 坍塌晶条 and growth materials.",
+          "ja": "中国版で10月22日～11月3日に開催する戦闘イベント。通常戦役1-8クリア後に参加でき、全5ステージが順次開放される。制限ターン内にクリアすると「坍塌晶条」と育成素材を獲得できる。",
+          "zh": "国服活动时间为10月22日至11月3日，完成普通战役1-8后可参加。共5个活动关卡，随时间逐步开放；在限定回合内通关即可获得「坍塌晶条」与养成道具。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "【悖论操演】现已开启"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "尊敬的指挥官，【悖论操演】现已开启！ 活动期间，在限定回合数内通关活动关卡即可获得 「坍塌晶条」 及养成道具等丰厚奖励。 活动时间： 2026年10月22日 05:00~2026年11月3日 08:59 参与条件： 完成剧情战役普通【1-8】 活动说明： ■【悖论操演】中共有5个活动关卡，关卡随时间逐步开放。指挥官在限定回合数内通关活动关卡，即可获取「坍塌晶条」及养成道具等奖励。"
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://gf2.sunborngame.com/NewsInfo?id=2190&typeId=4"
+      ]
+    }
+  ]
+}
+
