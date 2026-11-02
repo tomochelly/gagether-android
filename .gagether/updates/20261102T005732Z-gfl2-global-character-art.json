@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "requestId": "20261102T005732Z-gfl2-global-character-art",
+  "reason": "소녀전선2 글로벌 10월 29일 캐릭터 픽업 4건에 한국 공식 캐릭터 소개의 원본 일러스트와 실제 픽셀 크기를 추가합니다.",
+  "mode": "dryRun",
+  "researchedAt": "2026-11-02T00:57:32Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "gfl2-global-20261029-welrod",
+      "set": {
+        "image": "https://res.17996cdn.net/gf2/kr/images/juese/ilus-Welrod.webp",
+        "imageSource": "https://gf2.haoplay.com/kr/roleinfo/?role=60",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageFit": "contain",
+        "width": 1970,
+        "height": 1940
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageFit": null,
+        "width": null,
+        "height": null
+      },
+      "sources": [
+        "https://gf2.haoplay.com/kr/roleinfo/?role=60"
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-faelynn",
+      "set": {
+        "image": "https://res.17996cdn.net/gf2/kr/images/juese/ilus-Faelynn.webp",
+        "imageSource": "https://gf2.haoplay.com/kr/roleinfo/?role=59",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageFit": "contain",
+        "width": 1970,
+        "height": 1940
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageFit": null,
+        "width": null,
+        "height": null
+      },
+      "sources": [
+        "https://gf2.haoplay.com/kr/roleinfo/?role=59"
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-sextans",
+      "set": {
+        "image": "https://res.17996cdn.net/gf2/tw/images/home/ilus-Sextans_34a089e491.webp",
+        "imageSource": "https://gf2.haoplay.com/kr/roleinfo/?role=54",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageFit": "contain",
+        "width": 1970,
+        "height": 1940
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageFit": null,
+        "width": null,
+        "height": null
+      },
+      "sources": [
+        "https://gf2.haoplay.com/kr/roleinfo/?role=54"
+      ]
+    },
+    {
+      "id": "gfl2-global-20261029-phaetusa",
+      "set": {
+        "image": "https://res.17996cdn.net/gf2/tw/images/home/ilus-Phaetusa_62e66b73c2.webp",
+        "imageSource": "https://gf2.haoplay.com/kr/roleinfo/?role=48",
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageFit": "contain",
+        "width": 1970,
+        "height": 1940
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageFit": null,
+        "width": null,
+        "height": null
+      },
+      "sources": [
+        "https://gf2.haoplay.com/kr/roleinfo/?role=48"
+      ]
+    }
+  ]
+}
