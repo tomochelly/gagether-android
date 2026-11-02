@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "requestId": "20261102T123123Z-ai-sync-smoke",
+  "reason": "Verify Codex branch push processing with an unchanged official sourceUrl in dryRun mode.",
+  "mode": "dryRun",
+  "researchedAt": "2026-11-02T12:31:23Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "silver-palace-global-public-game-guide",
+      "set": {
+        "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+      },
+      "before": {
+        "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+      },
+      "sources": [
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+      ]
+    }
+  ]
+}
