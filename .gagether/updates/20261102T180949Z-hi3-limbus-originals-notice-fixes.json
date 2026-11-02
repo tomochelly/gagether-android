@@ -1,0 +1,1234 @@
+{
+  "version": 1,
+  "requestId": "20261102T180949Z-hi3-limbus-originals-notice-fixes",
+  "reason": "붕괴3rd 공지의 잘못 수집된 메뉴 문구를 공식 한국어 본문으로 교정하고, 이모티콘·월페이퍼와 림버스 신규 인격 원본 이미지 및 4개 언어 안내를 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T18:09:49Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-hi3-kr-47207875",
+      "set": {
+        "title": {
+          "ko": "「여명을 밝히는 내일」 이모티콘 공유",
+          "en": "Dawn's Dream Shines Anew Stickers Download",
+          "ja": "「Dawn’s Dream Shines Anew」スタンプ公開",
+          "zh": "「曙梦照新」表情包分享"
+        },
+        "summary": {
+          "ko": "「여명을 밝히는 내일」 이모티콘을 공개했다. 한국어 소개 이미지와 개별 이모티콘 16종을 제공한다.",
+          "en": "The Dawn’s Dream Shines Anew sticker collection is available, with a Korean announcement image and 16 individual stickers.",
+          "ja": "「Dawn’s Dream Shines Anew」のスタンプ集を公開。韓国語の告知画像と個別スタンプ16点を掲載している。",
+          "zh": "「曙梦照新」表情包已公开，提供韩文介绍图及16张独立表情图。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "translatedLocales": [
+          "ja"
+        ],
+        "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/a08ae4f1173e8715f8aa74ec5ef91311_874965813780023176.png",
+        "imageSource": "https://www.hoyolab.com/article/47207875",
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "「여명을 밝히는 내일」 한국어 공식 이모티콘 안내",
+          "en": "Dawn’s Dream Shines Anew · official Korean sticker announcement",
+          "ja": "韓国公式スタンプ告知画像",
+          "zh": "「曙梦照新」韩文官方表情包介绍图"
+        },
+        "previewArtwork": {
+          "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/a08ae4f1173e8715f8aa74ec5ef91311_874965813780023176.png",
+          "imageSource": "https://www.hoyolab.com/article/47207875",
+          "width": 1200,
+          "height": 675,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageVerified": true,
+          "imageCaption": {
+            "ko": "「여명을 밝히는 내일」 한국어 공식 이모티콘 안내",
+            "en": "Dawn’s Dream Shines Anew · official Korean sticker announcement",
+            "ja": "韓国公式スタンプ告知画像",
+            "zh": "「曙梦照新」韩文官方表情包介绍图"
+          },
+          "verifiedAt": "2026-11-02T18:09:49Z"
+        },
+        "detailImages": [
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/a08ae4f1173e8715f8aa74ec5ef91311_874965813780023176.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "「여명을 밝히는 내일」 한국어 공식 이모티콘 안내",
+              "en": "Dawn’s Dream Shines Anew · official Korean sticker announcement",
+              "ja": "韓国公式スタンプ告知画像",
+              "zh": "「曙梦照新」韩文官方表情包介绍图"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/b4429c8ca450947d3f09da01092bf28d_1344744192573686930.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 1",
+              "en": "Official sticker 1",
+              "ja": "公式スタンプ 1",
+              "zh": "官方表情图 1"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/12a55866be298f5cdbf3aca21a1e7f43_3076692079229328587.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 2",
+              "en": "Official sticker 2",
+              "ja": "公式スタンプ 2",
+              "zh": "官方表情图 2"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/85307015410b11719967c6861e7e851d_4139671747163705871.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 3",
+              "en": "Official sticker 3",
+              "ja": "公式スタンプ 3",
+              "zh": "官方表情图 3"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/aa16604bc43c34e622cddb82d09ada07_7285583074918087524.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 4",
+              "en": "Official sticker 4",
+              "ja": "公式スタンプ 4",
+              "zh": "官方表情图 4"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/d79989d2d85d94fd9ea9a8cce4b944ce_3241662434592292083.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 5",
+              "en": "Official sticker 5",
+              "ja": "公式スタンプ 5",
+              "zh": "官方表情图 5"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/e926b6330da24c16fe108e8a3f7a2e5f_4326268675282106154.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 6",
+              "en": "Official sticker 6",
+              "ja": "公式スタンプ 6",
+              "zh": "官方表情图 6"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/38280cc7145bcb4d64fb563a3cafc271_8547139089060764368.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 7",
+              "en": "Official sticker 7",
+              "ja": "公式スタンプ 7",
+              "zh": "官方表情图 7"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/75999d4999914cf2bda505e699304fe7_3183982757659134841.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 8",
+              "en": "Official sticker 8",
+              "ja": "公式スタンプ 8",
+              "zh": "官方表情图 8"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/37a6ee930212d3736090489464cf2e9c_6533480893840393381.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 9",
+              "en": "Official sticker 9",
+              "ja": "公式スタンプ 9",
+              "zh": "官方表情图 9"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/d64d8105965931d66bfcb0d12a782a9b_8544891889295101491.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 10",
+              "en": "Official sticker 10",
+              "ja": "公式スタンプ 10",
+              "zh": "官方表情图 10"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/bece03471460ab76489b87155585e975_7442739167447947314.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 11",
+              "en": "Official sticker 11",
+              "ja": "公式スタンプ 11",
+              "zh": "官方表情图 11"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/80224ff9138a15a1f69cef63251b7eb8_8572353093853779504.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 12",
+              "en": "Official sticker 12",
+              "ja": "公式スタンプ 12",
+              "zh": "官方表情图 12"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/90f0ce0a110096da0eb9378fc7337270_6533789513440828226.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 13",
+              "en": "Official sticker 13",
+              "ja": "公式スタンプ 13",
+              "zh": "官方表情图 13"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/9bdb2ea38272c2a55771316d95adb7ca_4186157783396251218.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 14",
+              "en": "Official sticker 14",
+              "ja": "公式スタンプ 14",
+              "zh": "官方表情图 14"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/0f9b31a6396ff5514b50f4aae0bcf8d5_327212232586607131.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 15",
+              "en": "Official sticker 15",
+              "ja": "公式スタンプ 15",
+              "zh": "官方表情图 15"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/43dd3c10b8a2f3d735a7414766844a59_8118834243325790100.png",
+            "imageSource": "https://www.hoyolab.com/article/47207875",
+            "width": 510,
+            "height": 510,
+            "imageKind": "banner",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "공식 이모티콘 16",
+              "en": "Official sticker 16",
+              "ja": "公式スタンプ 16",
+              "zh": "官方表情图 16"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        ],
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47207875",
+          "en": "https://www.hoyolab.com/article/47207875",
+          "zh": "https://www.hoyolab.com/article/47207875"
+        },
+        "sourceBodies": {
+          "ko": {
+            "title": "「여명을 밝히는 내일」 이모티콘 공유",
+            "locale": "ko",
+            "sourceUrl": "https://www.hoyolab.com/article/47207875",
+            "text": "서광이 꿈을 비추고 미래를 향해 나아간다. 「여명을 밝히는 내일」 이모티콘 출시!",
+            "images": [
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/a08ae4f1173e8715f8aa74ec5ef91311_874965813780023176.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/b4429c8ca450947d3f09da01092bf28d_1344744192573686930.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/12a55866be298f5cdbf3aca21a1e7f43_3076692079229328587.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/85307015410b11719967c6861e7e851d_4139671747163705871.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/aa16604bc43c34e622cddb82d09ada07_7285583074918087524.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/d79989d2d85d94fd9ea9a8cce4b944ce_3241662434592292083.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/e926b6330da24c16fe108e8a3f7a2e5f_4326268675282106154.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/38280cc7145bcb4d64fb563a3cafc271_8547139089060764368.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/75999d4999914cf2bda505e699304fe7_3183982757659134841.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/37a6ee930212d3736090489464cf2e9c_6533480893840393381.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/d64d8105965931d66bfcb0d12a782a9b_8544891889295101491.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/bece03471460ab76489b87155585e975_7442739167447947314.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/80224ff9138a15a1f69cef63251b7eb8_8572353093853779504.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/90f0ce0a110096da0eb9378fc7337270_6533789513440828226.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/9bdb2ea38272c2a55771316d95adb7ca_4186157783396251218.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/0f9b31a6396ff5514b50f4aae0bcf8d5_327212232586607131.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/43dd3c10b8a2f3d735a7414766844a59_8118834243325790100.png"
+            ],
+            "links": [
+              {
+                "label": "Community Privacy Policy",
+                "url": "https://www.hoyolab.com/agreement?type=privacy"
+              },
+              {
+                "label": "Community Terms of Service",
+                "url": "https://www.hoyolab.com/agreement"
+              },
+              {
+                "label": "HoYoverse Account Privacy Policy",
+                "url": "https://account.hoyoverse.com/#/about/privacy"
+              },
+              {
+                "label": "HoYoverse Account Terms of Service",
+                "url": "https://account.hoyoverse.com/#/about/userAgreement"
+              },
+              {
+                "label": "Community Guidelines",
+                "url": "https://www.hoyolab.com/article/928383"
+              }
+            ],
+            "bodyHash": "65316640f6afecf13356ddfded1e49be50f6f0502d8d3ba884543dc9b3285d08",
+            "importedAt": "2026-11-02T18:09:49Z",
+            "sourceKind": "official"
+          }
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "「여명을 밝히는 내일」 이모티콘 공유",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "Dawn&#x27;s Dream Shines Anew Stickers Download Honkai Impact 3rd | HoYoLAB Home Interest Group Loading failed Retry All GenshinImpact Honkai:StarRail ZenlessZoneZero HoYoLAB Honkai Impact 3rd TearsofThemis Honkai: Nexus Anima Petit Planet Message Notifications Log in to discover more interesting content Log in Post De",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "previewArtwork": null,
+        "detailImages": null,
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47207875"
+        },
+        "sourceBodies": {
+          "ko": {
+            "title": "「여명을 밝히는 내일」 이모티콘 공유",
+            "locale": "ko",
+            "sourceUrl": "https://www.hoyolab.com/article/47207875",
+            "text": "Dawn&#x27;s Dream Shines Anew Stickers Download Honkai Impact 3rd | HoYoLAB \n Home\n Interest Group\n Loading failed\n Retry \n All \n GenshinImpact \n Honkai:StarRail \n ZenlessZoneZero \n HoYoLAB \n Honkai Impact 3rd \n TearsofThemis \n Honkai: Nexus Anima \n Petit Planet \n Message Notifications \n Log in to discover more interesting content\n Log in \n Post Details Page \n Dawn's Dream Shines Anew Stickers Download\n Dawn lights our dreams and guides us toward tomorrow.\n Dawn's Dream Shines Anew stickers are now available!\n Honkai Impact 3rd\n • Discussions & Sharing \n Repost allowed \n 264 \n 15 \n 5 \n 2 \n 2 \n 27 \n 48 \n 288 \n 4 \n Send\n Search results will be displayed here~\n All comments 27 \n Loading...\n Logging in only takes a few seconds. This will unlock check-in rewards and game tools all at once!\n Log In \n Creator Information\n Honkai Impact 3rd \n All Tools \n Recommended Users\n Contact Us\n HoYoLAB\nhoyolab@hoyoverse.com\nGenshin Impact\ngenshin_cs@hoyoverse.com\nHonkai Impact 3rd\nhonkai3rd_global@hoyoverse.com\nTears of Themis\ntotcs_glb@hoyoverse.com\nHonkai: Star Rail\nhsrcs_en@hoyoverse.com\nZenless Zone Zero\nzzzcs_en@hoyoverse.com\nHonkai: Nexus Anima\nhna_cs@hoyoverse.com \n Community Privacy Policy \n Community Terms of Service \n HoYoverse Account Privacy Policy \n HoYoverse Account Terms of Service \n Community Guidelines \n Copyright © COGNOSPHERE. All Rights Reserved.",
+            "images": [
+              "https://www.hoyolab.com/_nuxt/img/new_empty_fail.9405db1.png",
+              "https://www.hoyolab.com/_nuxt/img/new_empty.29c0d1c.png",
+              "https://www.hoyolab.com/_nuxt/img/default_avatar.25aeebf.png",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/0a41591949a77a66728d82b13864a831_2146060353776216910.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/b4429c8ca450947d3f09da01092bf28d_7910449295823928558.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/12a55866be298f5cdbf3aca21a1e7f43_8172059778027408239.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/85307015410b11719967c6861e7e851d_5780850197722193972.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/aa16604bc43c34e622cddb82d09ada07_2010756739983881482.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/d79989d2d85d94fd9ea9a8cce4b944ce_894675687840438351.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/e926b6330da24c16fe108e8a3f7a2e5f_5932130438125680653.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/38280cc7145bcb4d64fb563a3cafc271_1387122173194024230.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/75999d4999914cf2bda505e699304fe7_6164701383151860477.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/37a6ee930212d3736090489464cf2e9c_7689297954933284783.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/d64d8105965931d66bfcb0d12a782a9b_1962812587543924018.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/bece03471460ab76489b87155585e975_7443280863049902534.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/80224ff9138a15a1f69cef63251b7eb8_7426052946880180767.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/90f0ce0a110096da0eb9378fc7337270_5031038806775083979.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/9bdb2ea38272c2a55771316d95adb7ca_1456429310210157859.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/0f9b31a6396ff5514b50f4aae0bcf8d5_2631043571425626967.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+              "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/43dd3c10b8a2f3d735a7414766844a59_8883782717018686136.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70"
+            ],
+            "links": [
+              {
+                "label": "Community Privacy Policy",
+                "url": "https://www.hoyolab.com/agreement?type=privacy"
+              },
+              {
+                "label": "Community Terms of Service",
+                "url": "https://www.hoyolab.com/agreement"
+              },
+              {
+                "label": "HoYoverse Account Privacy Policy",
+                "url": "https://account.hoyoverse.com/#/about/privacy"
+              },
+              {
+                "label": "HoYoverse Account Terms of Service",
+                "url": "https://account.hoyoverse.com/#/about/userAgreement"
+              },
+              {
+                "label": "Community Guidelines",
+                "url": "https://www.hoyolab.com/article/928383"
+              }
+            ],
+            "bodyHash": "f3aff2c6d3f49a759e2c82b618ef7b98c81aefddd1ffb81827c8b7f7f3fc7c7e",
+            "importedAt": "2026-11-02T04:32:15.836Z",
+            "sourceKind": "official"
+          }
+        }
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47207875"
+      ]
+    },
+    {
+      "id": "quick-hi3-kr-47196776",
+      "set": {
+        "title": {
+          "ko": "[월페이퍼] 신규 월페이퍼 공유",
+          "en": "[Wallpaper] New Wallpaper Download",
+          "ja": "新しい公式壁紙を公開",
+          "zh": "【壁纸】全新壁纸分享"
+        },
+        "summary": {
+          "ko": "기념 의상을 입은 캐릭터들이 함께 등장하는 공식 월페이퍼를 공개했다. 원본은 2560×1440 가로 이미지다.",
+          "en": "An official group wallpaper featuring characters in celebratory outfits is available as a 2560×1440 landscape image.",
+          "ja": "記念衣装のキャラクターたちを描いた公式壁紙を公開。原本は2560×1440の横長画像。",
+          "zh": "官方公开了角色们身着纪念服装的合影壁纸，原图为2560×1440横版图片。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "translatedLocales": [
+          "ja"
+        ],
+        "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/1a6651ede01a6d0ac6566cc07fc11969_6580848522966961337.png",
+        "imageSource": "https://www.hoyolab.com/article/47196776",
+        "imageKind": "splash",
+        "imageLocale": "neutral",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "기념 의상 단체 월페이퍼 · 공식 원본",
+          "en": "Celebratory group wallpaper · official original",
+          "ja": "記念衣装の集合壁紙・公式原本",
+          "zh": "纪念服装合影壁纸・官方原图"
+        },
+        "previewArtwork": {
+          "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/1a6651ede01a6d0ac6566cc07fc11969_6580848522966961337.png",
+          "imageSource": "https://www.hoyolab.com/article/47196776",
+          "width": 2560,
+          "height": 1440,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageVerified": true,
+          "imageCaption": {
+            "ko": "기념 의상 단체 월페이퍼 · 공식 원본",
+            "en": "Celebratory group wallpaper · official original",
+            "ja": "記念衣装の集合壁紙・公式原本",
+            "zh": "纪念服装合影壁纸・官方原图"
+          },
+          "verifiedAt": "2026-11-02T18:09:49Z"
+        },
+        "detailImages": [
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/10/20/1a6651ede01a6d0ac6566cc07fc11969_6580848522966961337.png",
+            "imageSource": "https://www.hoyolab.com/article/47196776",
+            "width": 2560,
+            "height": 1440,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "기념 의상 단체 월페이퍼 · 공식 원본",
+              "en": "Celebratory group wallpaper · official original",
+              "ja": "記念衣装の集合壁紙・公式原本",
+              "zh": "纪念服装合影壁纸・官方原图"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        ],
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47196776",
+          "en": "https://www.hoyolab.com/article/47196776",
+          "zh": "https://www.hoyolab.com/article/47196776"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "[월페이퍼] 신규 월페이퍼 공유",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "previewArtwork": null,
+        "detailImages": null,
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47196776"
+        }
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47196776"
+      ]
+    },
+    {
+      "id": "quick-hi3-kr-47175473",
+      "set": {
+        "title": {
+          "ko": "제2부 기념 PV 《내일의 낙성》——붕괴3rd",
+          "en": "Part 2 Commemorative Trailer: Luoxing of Tomorrow — Honkai Impact 3rd",
+          "ja": "第2部記念PV「明日の洛星」公開",
+          "zh": "第二部纪念PV《明日洛星》——崩坏3"
+        },
+        "summary": {
+          "ko": "제2부 기념 PV 「내일의 낙성」을 공개했다. 공식 소개문에 드림시커의 성우로 나카시마 유키를 표기했다.",
+          "en": "The Part 2 commemorative trailer Luoxing of Tomorrow was announced. Its official description credits Yuki Nakashima as Dreamseeker.",
+          "ja": "第2部記念PV「明日の洛星」を公開。公式紹介文ではドリームシーカー役として中島由貴を記載している。",
+          "zh": "第二部纪念PV《明日洛星》已公开，官方介绍列出的寻梦者配音演员为中岛由贵。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "translatedLocales": [
+          "ja"
+        ],
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47175473",
+          "en": "https://www.hoyolab.com/article/47175473",
+          "zh": "https://www.hoyolab.com/article/47175473"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "제2부 기념 PV 《내일의 낙성》——붕괴3rd",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47175473"
+        }
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47175473"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254131059071075-ko",
+      "set": {
+        "title": {
+          "ko": "2026.10.29 (KST) 신규 인격 정보 안내",
+          "en": "2026.10.29 (KST) New Identity Preview",
+          "ja": "2026.10.29 (KST) 新規人格情報のご案内",
+          "zh": "2026.10.29（韩国时间）新人格信息介绍"
+        },
+        "summary": {
+          "ko": "2026년 10월 29일 신규 000 인격인 오트쿠튀르::르누아르 3F 방송실 홍루와 오트쿠튀르::르루주 바느질의 왕 히스클리프의 스킬·패시브를 소개한다. 안내 이미지는 최대 레벨·동기화 단계 기준이며 업데이트 때 변경될 수 있다고 명시했다.",
+          "en": "The October 29, 2026 preview introduces two new 000 Identities: Haute Couture::Le Noir 3F Public Address Room Hong Lu and Haute Couture::Le Rouge King of Needleworks Heathcliff. It presents their skills and passives at maximum level and Uptie tier, with details subject to change at update.",
+          "ja": "2026年10月29日の新規000人格「オートクチュール::ル・ノワール 3F 放送室 ホンル」と「オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ」のスキル・パッシブを紹介。最大レベル・同期段階の参考画像で、更新時に変更される可能性があると明記している。",
+          "zh": "2026年10月29日新000人格预告介绍Hong Lu与Heathcliff的高级定制主题人格及其技能、被动。图片以最高等级和同步阶段为基准，并注明实际更新时可能调整。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese"
+        },
+        "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "홍루 · 인격 안내 · KO",
+          "en": "Hong Lu · Identity overview · KO",
+          "ja": "ホンル · 人格紹介 · KO",
+          "zh": "Hong Lu · 人格介绍 · KO"
+        },
+        "previewArtwork": {
+          "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+          "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+          "width": 1950,
+          "height": 2008,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageVerified": true,
+          "imageCaption": {
+            "ko": "홍루 · 인격 안내 · KO",
+            "en": "Hong Lu · Identity overview · KO",
+            "ja": "ホンル · 人格紹介 · KO",
+            "zh": "Hong Lu · 人格介绍 · KO"
+          },
+          "verifiedAt": "2026-11-02T18:09:49Z"
+        },
+        "detailImages": [
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · KO",
+              "en": "Hong Lu · Identity overview · KO",
+              "ja": "ホンル · 人格紹介 · KO",
+              "zh": "Hong Lu · 人格介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/84e56d92523673dbae2f53c1ff8c4f4522c4bf04.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2151,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 스킬 안내 · KO",
+              "en": "Hong Lu · Skill overview · KO",
+              "ja": "ホンル · スキル紹介 · KO",
+              "zh": "Hong Lu · 技能介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/a702465d9c5eb25fda08b0d408f5e2517f9eca54.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 1357,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 패시브 안내 · KO",
+              "en": "Hong Lu · Passive overview · KO",
+              "ja": "ホンル · パッシブ紹介 · KO",
+              "zh": "Hong Lu · 被动介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/be09c1817d44a21e997c06fc37296831244ab70d.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "히스클리프 · 인격 안내 · KO",
+              "en": "Heathcliff · Identity overview · KO",
+              "ja": "ヒースクリフ · 人格紹介 · KO",
+              "zh": "Heathcliff · 人格介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/cf53d5ec209a0b5def24dea1af491546367d5d91.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2632,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "히스클리프 · 스킬 안내 · KO",
+              "en": "Heathcliff · Skill overview · KO",
+              "ja": "ヒースクリフ · スキル紹介 · KO",
+              "zh": "Heathcliff · 技能介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/3dd397b2ce9de202b9329df994a9a3f5a81b637d.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 1693,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "히스클리프 · 패시브 안내 · KO",
+              "en": "Heathcliff · Passive overview · KO",
+              "ja": "ヒースクリフ · パッシブ紹介 · KO",
+              "zh": "Heathcliff · 被动介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        ],
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · KO",
+              "en": "Hong Lu · Identity overview · KO",
+              "ja": "ホンル · 人格紹介 · KO",
+              "zh": "Hong Lu · 人格介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          "en": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/922fbea55cf1a982a893cb9014dd9808f999b341.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · EN",
+              "en": "Hong Lu · Identity overview · EN",
+              "ja": "ホンル · 人格紹介 · EN",
+              "zh": "Hong Lu · 人格介绍 · EN"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          "ja": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/186e7ef7e9a4b5d2e3065cc0217ba2c4591b45f3.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · JA",
+              "en": "Hong Lu · Identity overview · JA",
+              "ja": "ホンル · 人格紹介 · JA",
+              "zh": "Hong Lu · 人格介绍 · JA"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "2026.10.29 (KST) 신규 인격 정보 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana"
+        },
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "previewArtwork": null,
+        "detailImages": null,
+        "localizedArtwork": null
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254131059071075-en",
+      "set": {
+        "title": {
+          "ko": "2026.10.29 (KST) 신규 인격 정보 안내",
+          "en": "2026.10.29 (KST) New Identity Preview",
+          "ja": "2026.10.29 (KST) 新規人格情報のご案内",
+          "zh": "2026.10.29（韩国时间）新人格信息介绍"
+        },
+        "summary": {
+          "ko": "2026년 10월 29일 신규 000 인격인 오트쿠튀르::르누아르 3F 방송실 홍루와 오트쿠튀르::르루주 바느질의 왕 히스클리프의 스킬·패시브를 소개한다. 안내 이미지는 최대 레벨·동기화 단계 기준이며 업데이트 때 변경될 수 있다고 명시했다.",
+          "en": "The October 29, 2026 preview introduces two new 000 Identities: Haute Couture::Le Noir 3F Public Address Room Hong Lu and Haute Couture::Le Rouge King of Needleworks Heathcliff. It presents their skills and passives at maximum level and Uptie tier, with details subject to change at update.",
+          "ja": "2026年10月29日の新規000人格「オートクチュール::ル・ノワール 3F 放送室 ホンル」と「オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ」のスキル・パッシブを紹介。最大レベル・同期段階の参考画像で、更新時に変更される可能性があると明記している。",
+          "zh": "2026年10月29日新000人格预告介绍Hong Lu与Heathcliff的高级定制主题人格及其技能、被动。图片以最高等级和同步阶段为基准，并注明实际更新时可能调整。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese"
+        },
+        "image": "https://clan.fastly.steamstatic.com/images/43587230/922fbea55cf1a982a893cb9014dd9808f999b341.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+        "imageKind": "banner",
+        "imageLocale": "en",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "홍루 · 인격 안내 · EN",
+          "en": "Hong Lu · Identity overview · EN",
+          "ja": "ホンル · 人格紹介 · EN",
+          "zh": "Hong Lu · 人格介绍 · EN"
+        },
+        "previewArtwork": {
+          "image": "https://clan.fastly.steamstatic.com/images/43587230/922fbea55cf1a982a893cb9014dd9808f999b341.png",
+          "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+          "width": 1950,
+          "height": 2008,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageVerified": true,
+          "imageCaption": {
+            "ko": "홍루 · 인격 안내 · EN",
+            "en": "Hong Lu · Identity overview · EN",
+            "ja": "ホンル · 人格紹介 · EN",
+            "zh": "Hong Lu · 人格介绍 · EN"
+          },
+          "verifiedAt": "2026-11-02T18:09:49Z"
+        },
+        "detailImages": [
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/922fbea55cf1a982a893cb9014dd9808f999b341.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · EN",
+              "en": "Hong Lu · Identity overview · EN",
+              "ja": "ホンル · 人格紹介 · EN",
+              "zh": "Hong Lu · 人格介绍 · EN"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/394d55f0c283bdde9a8d5d31abebf3acd4a53262.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "히스클리프 · 인격 안내 · EN",
+              "en": "Heathcliff · Identity overview · EN",
+              "ja": "ヒースクリフ · 人格紹介 · EN",
+              "zh": "Heathcliff · 人格介绍 · EN"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        ],
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · KO",
+              "en": "Hong Lu · Identity overview · KO",
+              "ja": "ホンル · 人格紹介 · KO",
+              "zh": "Hong Lu · 人格介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          "en": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/922fbea55cf1a982a893cb9014dd9808f999b341.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · EN",
+              "en": "Hong Lu · Identity overview · EN",
+              "ja": "ホンル · 人格紹介 · EN",
+              "zh": "Hong Lu · 人格介绍 · EN"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          "ja": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/186e7ef7e9a4b5d2e3065cc0217ba2c4591b45f3.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · JA",
+              "en": "Hong Lu · Identity overview · JA",
+              "ja": "ホンル · 人格紹介 · JA",
+              "zh": "Hong Lu · 人格介绍 · JA"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "2026.10.29 (KST) New Identity Preview",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english"
+        },
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "previewArtwork": null,
+        "detailImages": null,
+        "localizedArtwork": null
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254131059071075-ja",
+      "set": {
+        "title": {
+          "ko": "2026.10.29 (KST) 신규 인격 정보 안내",
+          "en": "2026.10.29 (KST) New Identity Preview",
+          "ja": "2026.10.29 (KST) 新規人格情報のご案内",
+          "zh": "2026.10.29（韩国时间）新人格信息介绍"
+        },
+        "summary": {
+          "ko": "2026년 10월 29일 신규 000 인격인 오트쿠튀르::르누아르 3F 방송실 홍루와 오트쿠튀르::르루주 바느질의 왕 히스클리프의 스킬·패시브를 소개한다. 안내 이미지는 최대 레벨·동기화 단계 기준이며 업데이트 때 변경될 수 있다고 명시했다.",
+          "en": "The October 29, 2026 preview introduces two new 000 Identities: Haute Couture::Le Noir 3F Public Address Room Hong Lu and Haute Couture::Le Rouge King of Needleworks Heathcliff. It presents their skills and passives at maximum level and Uptie tier, with details subject to change at update.",
+          "ja": "2026年10月29日の新規000人格「オートクチュール::ル・ノワール 3F 放送室 ホンル」と「オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ」のスキル・パッシブを紹介。最大レベル・同期段階の参考画像で、更新時に変更される可能性があると明記している。",
+          "zh": "2026年10月29日新000人格预告介绍Hong Lu与Heathcliff的高级定制主题人格及其技能、被动。图片以最高等级和同步阶段为基准，并注明实际更新时可能调整。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english"
+        },
+        "image": "https://clan.fastly.steamstatic.com/images/43587230/186e7ef7e9a4b5d2e3065cc0217ba2c4591b45f3.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "홍루 · 인격 안내 · JA",
+          "en": "Hong Lu · Identity overview · JA",
+          "ja": "ホンル · 人格紹介 · JA",
+          "zh": "Hong Lu · 人格介绍 · JA"
+        },
+        "previewArtwork": {
+          "image": "https://clan.fastly.steamstatic.com/images/43587230/186e7ef7e9a4b5d2e3065cc0217ba2c4591b45f3.png",
+          "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+          "width": 1950,
+          "height": 2008,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "imageVerified": true,
+          "imageCaption": {
+            "ko": "홍루 · 인격 안내 · JA",
+            "en": "Hong Lu · Identity overview · JA",
+            "ja": "ホンル · 人格紹介 · JA",
+            "zh": "Hong Lu · 人格介绍 · JA"
+          },
+          "verifiedAt": "2026-11-02T18:09:49Z"
+        },
+        "detailImages": [
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/186e7ef7e9a4b5d2e3065cc0217ba2c4591b45f3.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · JA",
+              "en": "Hong Lu · Identity overview · JA",
+              "ja": "ホンル · 人格紹介 · JA",
+              "zh": "Hong Lu · 人格介绍 · JA"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/0b1fdd41edf36639f7ab58d474ac3af30f9b2e81.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "히스클리프 · 인격 안내 · JA",
+              "en": "Heathcliff · Identity overview · JA",
+              "ja": "ヒースクリフ · 人格紹介 · JA",
+              "zh": "Heathcliff · 人格介绍 · JA"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        ],
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · KO",
+              "en": "Hong Lu · Identity overview · KO",
+              "ja": "ホンル · 人格紹介 · KO",
+              "zh": "Hong Lu · 人格介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          "en": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/922fbea55cf1a982a893cb9014dd9808f999b341.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · EN",
+              "en": "Hong Lu · Identity overview · EN",
+              "ja": "ホンル · 人格紹介 · EN",
+              "zh": "Hong Lu · 人格介绍 · EN"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          "ja": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/186e7ef7e9a4b5d2e3065cc0217ba2c4591b45f3.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · JA",
+              "en": "Hong Lu · Identity overview · JA",
+              "ja": "ホンル · 人格紹介 · JA",
+              "zh": "Hong Lu · 人格介绍 · JA"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "2026.10.29 (KST) 新規人格情報のご案内",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese"
+        },
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "previewArtwork": null,
+        "detailImages": null,
+        "localizedArtwork": null
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english"
+      ]
+    }
+  ]
+}
+
