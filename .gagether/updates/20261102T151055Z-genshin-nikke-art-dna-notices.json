@@ -1,0 +1,551 @@
+{
+  "version": 1,
+  "requestId": "20261102T151055Z-genshin-nikke-art-dna-notices",
+  "reason": "원신 7.2 무기 기원 4개 언어 원본 이미지, 니케 공지 정정·번역과 공식 행사 이미지, 듀엣 나이트 어비스 영구 획득·업데이트 안내 요약을 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T15:10:55Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-nikke-jp-cf538d1baab20a485faae28a7c2c17d90dee",
+      "set": {
+        "title": {
+          "ko": "10월 29일 확인된 문제 안내",
+          "en": "October 29 known issues",
+          "ja": "10月29日既知の問題について（10月29日更新）",
+          "zh": "10月29日已知問題公告"
+        },
+        "summary": {
+          "ko": "MARIA-n 이벤트 필드에서 특정 상황에 화면이 일시적으로 잘못 표시되는 문제를 안내했다. 챕터 50 일부 스테이지의 스토리 재생 시점 오류는 10월 29일 수정된 것으로 표시되어 있으며, 스토리 열람 순서에는 영향이 없다.",
+          "en": "The notice identifies a temporary display issue in the MARIA-n event field under certain conditions. A separate issue affecting when some Chapter 50 story scenes play is marked fixed on October 29; the order in which the story is viewed is unaffected.",
+          "ja": "特定条件でイベントフィールド「MARIA-n」の画面が一時的に意図と異なる表示になる問題を案内。チャプター50の一部ステージでシナリオの再生タイミングがずれる問題は10月29日修正済みと追記されており、閲覧順序への影響はない。",
+          "zh": "公告說明MARIA-n活動場地在特定情況下暫時顯示異常。第50章部分關卡的劇情播放時機問題已標註於10月29日修正，劇情觀看順序不受影響。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "10月29日既知の問題について（10月29日更新）",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "親愛なる指揮官様 ゲーム内において以下の問題が確認されました。 ① 特定の状況でイベントフィールド「MARIA-n」の画面が一時的に意図と異なって表示される現象を確認しました。 上記の不具合は、原因を 特定 してなるべく早く修正するように最善を尽くしてまいります。 ゲーム内容にご不明な点がございましたらカスタマーサービスまでご連絡ください。 ご迷惑をおかけし てしまい 申し訳ございません。 『勝利の女神：NIKKE』運営チーム",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://nikke-jp.com/newsdetail.html?content_id=cf538d1baab20a485faae28a7c2c17d90dee"
+      ]
+    },
+    {
+      "id": "quick-nikke-jp-814bfc42a4edda4edaabcfca1d6fdba32842",
+      "set": {
+        "title": {
+          "ko": "10월 29일 업데이트 개선 사항",
+          "en": "October 29 update improvements",
+          "ja": "10月29日のアップデートによる改善事項",
+          "zh": "10月29日更新改善內容"
+        },
+        "summary": {
+          "ko": "전투 효과·아레나 스킬 적용·UI 오류를 수정하고 라틴아메리카 스페인어 옵션을 추가했다. 잠긴 니케 선택 상자에서도 대상 목록을 확인할 수 있으며, 일부 모바일 LIVE 배경화면의 해상도를 개선했다. TRACING THE STARS에는 레이팅과 판정선·패널·콤보 표시 조정, PERFECT 판정 FAST/LATE 그래프를 추가했다.",
+          "en": "The update fixes combat, Arena skill and interface issues, and adds Latin American Spanish. Eligible Nikkes can be previewed even in locked selection boxes, and some mobile LIVE wallpapers receive higher resolution. TRACING THE STARS adds ratings, adjustable panels, judgment lines and combo displays, plus a FAST/LATE graph for PERFECT judgments.",
+          "ja": "戦闘演出・アリーナのスキル適用・UIの不具合を修正し、ラテンアメリカスペイン語を追加。ロック中のニケ選択ボックスでも対象リストを確認でき、一部モバイルLIVE壁紙の解像度を改善した。TRACING THE STARSにはレーティング、パネル・判定ライン・コンボ表示の調整、PERFECT判定のFAST/LATEグラフを追加。",
+          "zh": "更新修正戰鬥、競技場技能與介面問題，並加入拉丁美洲西班牙語。尚未解鎖的妮姬自選箱也可查看候選名單，部分行動版LIVE桌布提升解析度。TRACING THE STARS新增評級、面板與判定線及連擊顯示調整，以及PERFECT判定的FAST/LATE圖表。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "10月29日のアップデートによる改善事項",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "「Mobile/PCの共通改善事項」 「戦闘関連の改善事項」 1. 戦闘中に一部のラプチャーの特定パーツが破壊された後、一部の攻撃およびエフェクトが意図と異なる動作をする現象を修正しました。 「対象」 └ マッスルトード - グレネードランチャー └ リビルドバルカンR - 対物ライフル 2. アリーナの特定の状況で、ディーゼル：ウィンタースイーツのスキル1「イントロ」、「クライマックス」状態が味方のバースト順に関係なく適用される現象を修正しました。 3. 特定の戦闘状況下で戦闘不能状態のニケのHP UIに一部の回復効果が適用されて表示される現象を修正しました。 └ 実際の戦闘結果に影響はありません。 「コンテンツ/システム関連の改",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://nikke-jp.com/newsdetail.html?content_id=814bfc42a4edda4edaabcfca1d6fdba32842"
+      ]
+    },
+    {
+      "id": "quick-nikke-jp-ac3404cea30eaa4a58abccca7e72a08b7f4e",
+      "set": {
+        "title": {
+          "ko": "니케 4주년: 일본 행사·오케스트라·공식 만화 발표",
+          "en": "NIKKE fourth anniversary: Japan events, orchestra and official manga",
+          "ja": "『勝利の女神：NIKKE』4周年記念生放送で多彩な新展開を発表！ オーケストラ公演やリアルイベント、コラボレーション、コミカライズなど最新情報を一挙公開！",
+          "zh": "NIKKE四週年：日本活動、交響音樂會與官方漫畫消息"
+        },
+        "summary": {
+          "ko": "일본 공식 공지는 11월 7~8일 아키하바라 다이빌의 4주년 오프라인 행사와 2027년 1월 9일 퍼시피코 요코하마의 Echoes of Eternity 오케스트라 공연을 발표했다. 갓데스 스쿼드 공식 만화는 올겨울 전격 마오에서 연재 예정이며, PARCO·애니메이트·gladgarb 협업도 안내했다.",
+          "en": "The Japanese announcement confirms a fourth-anniversary event at Akihabara Daibiru on November 7–8 and the Echoes of Eternity orchestral concert at Pacifico Yokohama on January 9, 2027. An official Goddess Squad manga is planned for Dengeki Maoh this winter, alongside collaborations with PARCO, Animate and gladgarb.",
+          "ja": "11月7～8日に秋葉原ダイビルで4周年記念イベント、2027年1月9日にパシフィコ横浜でオーケストラ公演「Echoes of Eternity」を開催すると発表。ゴッデス部隊の公式コミカライズは今冬から電撃マオウで連載予定で、PARCO・アニメイト・gladgarbとのコラボも案内された。",
+          "zh": "日本官方宣布11月7～8日在秋葉原大廈舉行四週年活動，2027年1月9日在橫濱國際平和會議場舉行Echoes of Eternity交響音樂會。女神部隊官方漫畫預定今冬於電擊魔王連載，另公布PARCO、Animate與gladgarb合作。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "image": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_4d68dedcaf4b26fbd53725c262beb988938c0f06-1920x1080-ori_s_80_50_ori_q_80.jpeg",
+        "imageSource": "https://nikke-jp.com/newsdetail.html?content_id=ac3404cea30eaa4a58abccca7e72a08b7f4e",
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "일본 4주년 오프라인 행사 공식 안내",
+          "en": "Official Japan fourth-anniversary offline event announcement",
+          "ja": "日本4周年記念オフラインイベント公式案内",
+          "zh": "日本四週年線下活動官方公告"
+        },
+        "originalLanguageFallback": true,
+        "previewArtwork": {
+          "image": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_4d68dedcaf4b26fbd53725c262beb988938c0f06-1920x1080-ori_s_80_50_ori_q_80.jpeg",
+          "imageSource": "https://nikke-jp.com/newsdetail.html?content_id=ac3404cea30eaa4a58abccca7e72a08b7f4e",
+          "width": 1920,
+          "height": 1080,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "imageVerified": true,
+          "verifiedAt": "2026-11-02T15:10:55Z",
+          "imageCaption": {
+            "ko": "일본 4주년 오프라인 행사 공식 안내",
+            "en": "Official Japan fourth-anniversary offline event announcement",
+            "ja": "日本4周年記念オフラインイベント公式案内",
+            "zh": "日本四週年線下活動官方公告"
+          },
+          "originalLanguageFallback": true
+        },
+        "detailImages": [
+          {
+            "image": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_4d68dedcaf4b26fbd53725c262beb988938c0f06-1920x1080-ori_s_80_50_ori_q_80.jpeg",
+            "imageSource": "https://nikke-jp.com/newsdetail.html?content_id=ac3404cea30eaa4a58abccca7e72a08b7f4e",
+            "width": 1920,
+            "height": 1080,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "일본 4주년 오프라인 행사 공식 안내",
+              "en": "Official Japan fourth-anniversary offline event announcement",
+              "ja": "日本4周年記念オフラインイベント公式案内",
+              "zh": "日本四週年線下活動官方公告"
+            },
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_28a3a44eb530f7bd6ffa77feca69238ab7527a38-1920x1080-ori_s_80_50_ori_q_80.jpeg",
+            "imageSource": "https://nikke-jp.com/newsdetail.html?content_id=ac3404cea30eaa4a58abccca7e72a08b7f4e",
+            "width": 1920,
+            "height": 1080,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "Echoes of Eternity 공식 공연 안내",
+              "en": "Official Echoes of Eternity concert announcement",
+              "ja": "Echoes of Eternity 公式公演案内",
+              "zh": "Echoes of Eternity官方演出公告"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "『勝利の女神：NIKKE』4周年記念生放送で多彩な新展開を発表！ オーケストラ公演やリアルイベント、コラボレーション、コミカライズなど最新情報を一挙公開！",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "『勝利の女神：NIKKE』において、2026年10月24日（土）に配信した4周年記念生放送「約束の地へ、女神集結」にて、今後展開予定のさまざまなコラボレーションやリアルイベントに関する最新情報を公開しました。 今回の生放送では、第3回「ニケオーケストラコンサート」の開催をはじめ、秋葉原での4周年記念オフラインイベント、冬のコミックマーケットへの出展、PARCOとのコラボレーションなど、ゲームの枠を超えた多彩な企画が発表されました。さらに、「ゴッデス部隊」の公式コミカライズや新たな音楽企画、フィギュア・アパレル商品の展開なども明らかに。4周年を迎え、ますます広がる『NIKKE』の最新情報をお届けします。 ▼4周年記念生放送「約束の地へ",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "previewArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://nikke-jp.com/newsdetail.html?content_id=ac3404cea30eaa4a58abccca7e72a08b7f4e"
+      ]
+    },
+    {
+      "id": "quick-dna-global-692023294602250673-en",
+      "set": {
+        "title": {
+          "ko": "〈듀엣 나이트 어비스〉 2026년 10월 20일 「여명 속으로」 버전 업데이트 안내",
+          "en": "Duet Night Abyss – October 20, 2026 [Towards the Dawn] Version Update Notes",
+          "ja": "『デュエットナイトアビス』2026年10月20日「暁を歩む」バージョン更新のお知らせ",
+          "zh": "《二重螺旋》2026年10月20日「行於破曉」版本更新說明"
+        },
+        "summary": {
+          "ko": "「여명 속으로」 스토리, 번개 속성 리듬·되살아난 불꽃과 핸드 캐논 살아간다는 무게를 상시 추가했다. 캐릭터는 의뢰 편지 또는 상점, 무기는 주조 또는 상점으로 획득한다. 11월 10일에는 모자 장인의 연회의 상시 획득과 답 없는 수수께끼 설계도 판매가 시작되며 의뢰 편지 보상도 교체된다. 편성 프리셋 상한은 20개로 늘었다.",
+          "en": "Towards the Dawn permanently adds its story, the Electro character Rhythm: Flamewrought and the Grenade Launcher Blessed Burden. The character is available through Secret Letters or the shop; the weapon through forging or the shop. The Hatter’s Banquet and the Endless Enigma blueprint become available November 10, alongside a Secret Letter reward rotation. Saved lineup presets increase to 20.",
+          "ja": "「暁を歩む」のストーリー、雷属性のリズム・焔を纏う者、ランチャー「生きる重さ」を常設追加。キャラクターは依頼密書またはショップ、武器は製造またはショップで入手できる。11月10日に「帽子屋の宴」の常設入手と「解なき謎」の設計図販売が始まり、依頼密書報酬も交代する。編成プリセット上限は20に拡大。",
+          "zh": "「行於破曉」常設新增劇情、雷屬性角色黎瑟·浴火與榴炮「活著的重量」。角色可透過委託密函或商店取得，武器可透過鑄造或商店取得。11月10日起開放「帽匠的宴會」常設獲取與「無解謎題」設計稿販售，並輪換委託密函獎勵。陣容預設保存上限提高至20。"
+        },
+        "officialLocales": [
+          "en",
+          "ko",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "ko": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Duet Night Abyss – October 20, 2026 [Towards the Dawn] Version Update Notes",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Thank you for your continued support. Below are the details of the October 20, 2026 [Towards the Dawn] update. Please take a moment to review them. ✦ Maintenance Notice ✦ ◆ Schedule ◆ October 20, 2026 (Tuesday), 08:00–15:00 (UTC+8) *During the maintenance period, all servers will be unavailable. Please plan your play t",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      ]
+    },
+    {
+      "id": "quick-dna-global-692023294602250673-ja",
+      "set": {
+        "title": {
+          "ko": "〈듀엣 나이트 어비스〉 2026년 10월 20일 「여명 속으로」 버전 업데이트 안내",
+          "en": "Duet Night Abyss – October 20, 2026 [Towards the Dawn] Version Update Notes",
+          "ja": "『デュエットナイトアビス』2026年10月20日「暁を歩む」バージョン更新のお知らせ",
+          "zh": "《二重螺旋》2026年10月20日「行於破曉」版本更新說明"
+        },
+        "summary": {
+          "ko": "「여명 속으로」 스토리, 번개 속성 리듬·되살아난 불꽃과 핸드 캐논 살아간다는 무게를 상시 추가했다. 캐릭터는 의뢰 편지 또는 상점, 무기는 주조 또는 상점으로 획득한다. 11월 10일에는 모자 장인의 연회의 상시 획득과 답 없는 수수께끼 설계도 판매가 시작되며 의뢰 편지 보상도 교체된다. 편성 프리셋 상한은 20개로 늘었다.",
+          "en": "Towards the Dawn permanently adds its story, the Electro character Rhythm: Flamewrought and the Grenade Launcher Blessed Burden. The character is available through Secret Letters or the shop; the weapon through forging or the shop. The Hatter’s Banquet and the Endless Enigma blueprint become available November 10, alongside a Secret Letter reward rotation. Saved lineup presets increase to 20.",
+          "ja": "「暁を歩む」のストーリー、雷属性のリズム・焔を纏う者、ランチャー「生きる重さ」を常設追加。キャラクターは依頼密書またはショップ、武器は製造またはショップで入手できる。11月10日に「帽子屋の宴」の常設入手と「解なき謎」の設計図販売が始まり、依頼密書報酬も交代する。編成プリセット上限は20に拡大。",
+          "zh": "「行於破曉」常設新增劇情、雷屬性角色黎瑟·浴火與榴炮「活著的重量」。角色可透過委託密函或商店取得，武器可透過鑄造或商店取得。11月10日起開放「帽匠的宴會」常設獲取與「無解謎題」設計稿販售，並輪換委託密函獎勵。陣容預設保存上限提高至20。"
+        },
+        "officialLocales": [
+          "ja",
+          "ko",
+          "en",
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+          "ko": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "『デュエットナイトアビス』2026年10月20日「暁を歩む」バージョン更新のお知らせ",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "親愛なる月狩り人の皆様へ： いつも『デュエットナイトアビス』を応援いただき、誠にありがとうございます。2026年10月20日「暁を歩む」バージョンの更新内容を以下にご案内いたします。ぜひご確認ください。 ✦メンテナンス更新内容✦ ◆メンテナンス時間◆ 2026年10月20日（火）09:00～16:00（JST） メンテナンスの進捗により、終了時刻が前後する場合があります。最新情報はお知らせをご確認ください。メンテナンス中は全サーバーにログインできませんので、月狩り人の皆様はプレイ時間をあらかじめご調整ください。 ◆メンテナンス補填◆ 月ノ石×300、依頼手帳Ⅱ×6、依頼手帳Ⅲ×4、ピコピコハンマー×10 受取条件：【メール】機能を解",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+      ]
+    },
+    {
+      "id": "quick-dna-global-692023294602250673-zh",
+      "set": {
+        "title": {
+          "ko": "〈듀엣 나이트 어비스〉 2026년 10월 20일 「여명 속으로」 버전 업데이트 안내",
+          "en": "Duet Night Abyss – October 20, 2026 [Towards the Dawn] Version Update Notes",
+          "ja": "『デュエットナイトアビス』2026年10月20日「暁を歩む」バージョン更新のお知らせ",
+          "zh": "《二重螺旋》2026年10月20日「行於破曉」版本更新說明"
+        },
+        "summary": {
+          "ko": "「여명 속으로」 스토리, 번개 속성 리듬·되살아난 불꽃과 핸드 캐논 살아간다는 무게를 상시 추가했다. 캐릭터는 의뢰 편지 또는 상점, 무기는 주조 또는 상점으로 획득한다. 11월 10일에는 모자 장인의 연회의 상시 획득과 답 없는 수수께끼 설계도 판매가 시작되며 의뢰 편지 보상도 교체된다. 편성 프리셋 상한은 20개로 늘었다.",
+          "en": "Towards the Dawn permanently adds its story, the Electro character Rhythm: Flamewrought and the Grenade Launcher Blessed Burden. The character is available through Secret Letters or the shop; the weapon through forging or the shop. The Hatter’s Banquet and the Endless Enigma blueprint become available November 10, alongside a Secret Letter reward rotation. Saved lineup presets increase to 20.",
+          "ja": "「暁を歩む」のストーリー、雷属性のリズム・焔を纏う者、ランチャー「生きる重さ」を常設追加。キャラクターは依頼密書またはショップ、武器は製造またはショップで入手できる。11月10日に「帽子屋の宴」の常設入手と「解なき謎」の設計図販売が始まり、依頼密書報酬も交代する。編成プリセット上限は20に拡大。",
+          "zh": "「行於破曉」常設新增劇情、雷屬性角色黎瑟·浴火與榴炮「活著的重量」。角色可透過委託密函或商店取得，武器可透過鑄造或商店取得。11月10日起開放「帽匠的宴會」常設獲取與「無解謎題」設計稿販售，並輪換委託密函獎勵。陣容預設保存上限提高至20。"
+        },
+        "officialLocales": [
+          "zh",
+          "ko",
+          "en",
+          "ja"
+        ],
+        "localizationSources": {
+          "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+          "ko": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+          "en": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+          "ja": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "《二重螺旋》2026年10月20日「行於破曉」版本更新說明"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "親愛的狩月人： 感謝您的關注與支持，以下是《二重螺旋》2026年10月20日「行於破曉」版本更新說明，辛苦查閱。 ✦維護更新說明✦ ◆維護時間◆ 2026年10月20日（星期二）08:00-15:00（UTC+8） *開服時間視維護進度有可能提前或推遲，還請留意公告通知。維護更新期間所有伺服器將無法登入，請狩月人合理安排遊戲時間。 ◆維護補償◆ 月石*300、委託手冊·二*6、委託手冊·三*4、玩具氣錘*10 *領取條件：解鎖【信件】功能，信件領取有效時間至2026年10月27日23:59（伺服器時間）。 ◆下架提醒◆ 以下商品將於 2026年10月19日 17:00（伺服器時間）下架。 【災厄武器補給禮箱·一】、【災厄武器補給禮箱"
+        },
+        "officialLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "zh": "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=tchinese",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=koreana",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=english",
+        "https://store.steampowered.com/news/app/3950020/view/692023294602250673?l=japanese"
+      ]
+    },
+    {
+      "id": "genshin-global-72-phase1-weapon",
+      "set": {
+        "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/0e41b9a64076be15395dfc197e37df70_3706447279332818122.jpg",
+        "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167139",
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+          "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+          "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+          "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+        },
+        "previewArtwork": {
+          "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/0e41b9a64076be15395dfc197e37df70_3706447279332818122.jpg",
+          "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167139",
+          "width": 1200,
+          "height": 675,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageVerified": true,
+          "verifiedAt": "2026-11-02T15:10:55Z",
+          "imageCaption": {
+            "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+            "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+            "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+            "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+          }
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/0e41b9a64076be15395dfc197e37df70_3706447279332818122.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167139",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+              "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+              "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+              "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/abe6887cbe25e1586b55f7cb5147c1b6_2761720519580393278.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/en/news/detail/167139",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+              "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+              "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+              "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/7d77641e22b64f04847b91eece7cf699_4387456902112109296.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ja/news/detail/167139",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+              "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+              "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+              "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/3ba7e7675b8bd35f028d781ee4e1fa93_2432184041758046591.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/zh-tw/news/detail/167139",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+              "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+              "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+              "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/0e41b9a64076be15395dfc197e37df70_3706447279332818122.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167139",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+              "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+              "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+              "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/abe6887cbe25e1586b55f7cb5147c1b6_2761720519580393278.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/en/news/detail/167139",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+              "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+              "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+              "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/7d77641e22b64f04847b91eece7cf699_4387456902112109296.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ja/news/detail/167139",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+              "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+              "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+              "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167139/3ba7e7675b8bd35f028d781ee4e1fa93_2432184041758046591.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/zh-tw/news/detail/167139",
+            "width": 1200,
+            "height": 675,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-02T15:10:55Z",
+            "imageCaption": {
+              "ko": "7.2 전반 신의 주조 공식 무기 기원 안내",
+              "en": "Official Version 7.2 Phase I Epitome Invocation weapon banner",
+              "ja": "Ver.7.2前半「神鋳賦形」公式武器祈願画像",
+              "zh": "7.2上半「神鑄賦形」官方武器祈願圖片"
+            }
+          }
+        ]
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "previewArtwork": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://genshin.hoyoverse.com/ko/news/detail/167139",
+        "https://genshin.hoyoverse.com/en/news/detail/167139",
+        "https://genshin.hoyoverse.com/ja/news/detail/167139",
+        "https://genshin.hoyoverse.com/zh-tw/news/detail/167139"
+      ]
+    }
+  ]
+}
+
