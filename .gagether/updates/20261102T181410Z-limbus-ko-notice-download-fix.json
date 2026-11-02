@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "requestId": "20261102T181410Z-limbus-ko-notice-download-fix",
+  "reason": "앞선 검사에서 다운로드 오류가 난 한국어 인격 소개 이미지 1장을 보류하고, 림버스 한국어 공지의 나머지 공식 이미지와 다국어 설명을 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T18:14:10Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-limbus-global-667254131059071075-ko",
+      "set": {
+        "title": {
+          "ko": "2026.10.29 (KST) 신규 인격 정보 안내",
+          "en": "2026.10.29 (KST) New Identity Preview",
+          "ja": "2026.10.29 (KST) 新規人格情報のご案内",
+          "zh": "2026.10.29（韩国时间）新人格信息介绍"
+        },
+        "summary": {
+          "ko": "2026년 10월 29일 신규 000 인격인 오트쿠튀르::르누아르 3F 방송실 홍루와 오트쿠튀르::르루주 바느질의 왕 히스클리프의 스킬·패시브를 소개한다. 안내 이미지는 최대 레벨·동기화 단계 기준이며 업데이트 때 변경될 수 있다고 명시했다.",
+          "en": "The October 29, 2026 preview introduces two new 000 Identities: Haute Couture::Le Noir 3F Public Address Room Hong Lu and Haute Couture::Le Rouge King of Needleworks Heathcliff. It presents their skills and passives at maximum level and Uptie tier, with details subject to change at update.",
+          "ja": "2026年10月29日の新規000人格「オートクチュール::ル・ノワール 3F 放送室 ホンル」と「オートクチュール::ル・ルージュ 裁縫の王 ヒースクリフ」のスキル・パッシブを紹介。最大レベル・同期段階の参考画像で、更新時に変更される可能性があると明記している。",
+          "zh": "2026年10月29日新000人格预告介绍Hong Lu与Heathcliff的高级定制主题人格及其技能、被动。图片以最高等级和同步阶段为基准，并注明实际更新时可能调整。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese"
+        },
+        "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+        "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "홍루 · 인격 안내 · KO",
+          "en": "Hong Lu · Identity overview · KO",
+          "ja": "ホンル · 人格紹介 · KO",
+          "zh": "Hong Lu · 人格介绍 · KO"
+        },
+        "previewArtwork": {
+          "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+          "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+          "width": 1950,
+          "height": 2008,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageVerified": true,
+          "imageCaption": {
+            "ko": "홍루 · 인격 안내 · KO",
+            "en": "Hong Lu · Identity overview · KO",
+            "ja": "ホンル · 人格紹介 · KO",
+            "zh": "Hong Lu · 人格介绍 · KO"
+          },
+          "verifiedAt": "2026-11-02T18:09:49Z"
+        },
+        "detailImages": [
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · KO",
+              "en": "Hong Lu · Identity overview · KO",
+              "ja": "ホンル · 人格紹介 · KO",
+              "zh": "Hong Lu · 人格介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/84e56d92523673dbae2f53c1ff8c4f4522c4bf04.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2151,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 스킬 안내 · KO",
+              "en": "Hong Lu · Skill overview · KO",
+              "ja": "ホンル · スキル紹介 · KO",
+              "zh": "Hong Lu · 技能介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/a702465d9c5eb25fda08b0d408f5e2517f9eca54.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 1357,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 패시브 안내 · KO",
+              "en": "Hong Lu · Passive overview · KO",
+              "ja": "ホンル · パッシブ紹介 · KO",
+              "zh": "Hong Lu · 被动介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/cf53d5ec209a0b5def24dea1af491546367d5d91.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2632,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "히스클리프 · 스킬 안내 · KO",
+              "en": "Heathcliff · Skill overview · KO",
+              "ja": "ヒースクリフ · スキル紹介 · KO",
+              "zh": "Heathcliff · 技能介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/3dd397b2ce9de202b9329df994a9a3f5a81b637d.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 1693,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "히스클리프 · 패시브 안내 · KO",
+              "en": "Heathcliff · Passive overview · KO",
+              "ja": "ヒースクリフ · パッシブ紹介 · KO",
+              "zh": "Heathcliff · 被动介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        ],
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/782ac43c8ea558967b800acbd7bd199f647a1e1a.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · KO",
+              "en": "Hong Lu · Identity overview · KO",
+              "ja": "ホンル · 人格紹介 · KO",
+              "zh": "Hong Lu · 人格介绍 · KO"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          "en": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/922fbea55cf1a982a893cb9014dd9808f999b341.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · EN",
+              "en": "Hong Lu · Identity overview · EN",
+              "ja": "ホンル · 人格紹介 · EN",
+              "zh": "Hong Lu · 人格介绍 · EN"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          },
+          "ja": {
+            "image": "https://clan.fastly.steamstatic.com/images/43587230/186e7ef7e9a4b5d2e3065cc0217ba2c4591b45f3.png",
+            "imageSource": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese",
+            "width": 1950,
+            "height": 2008,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageCaption": {
+              "ko": "홍루 · 인격 안내 · JA",
+              "en": "Hong Lu · Identity overview · JA",
+              "ja": "ホンル · 人格紹介 · JA",
+              "zh": "Hong Lu · 人格介绍 · JA"
+            },
+            "verifiedAt": "2026-11-02T18:09:49Z"
+          }
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "2026.10.29 (KST) 신규 인격 정보 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana"
+        },
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "previewArtwork": null,
+        "detailImages": null,
+        "localizedArtwork": null
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071075?l=japanese"
+      ]
+    }
+  ]
+}
+
