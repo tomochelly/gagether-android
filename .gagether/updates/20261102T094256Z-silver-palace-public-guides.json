@@ -1,0 +1,2502 @@
+{
+  "version": 1,
+  "requestId": "20261102T094256Z-silver-palace-public-guides",
+  "reason": "실버 팰리스의 공식 공개 자료로 출시 전 게임 소개, 전투·추리·지역 안내, 베타 이력과 사양, 개선 계획 및 15종 캐릭터 도감을 메인 정보에 확장한다. 베타 기준과 발표된 계획을 명시하며 비공개 테스트 내용은 포함하지 않는다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T09:42:56Z",
+  "entries": [
+    {
+      "id": "silver-palace-global-public-game-guide",
+      "gameId": "silver-palace",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "실버 팰리스는 어떤 게임인가",
+        "en": "What is Silver Palace?",
+        "ja": "白銀の城はどんなゲーム？",
+        "zh": "白银之城是一款怎样的游戏？"
+      },
+      "summary": {
+        "ko": "산업 도시 실버니아에서 탐정이 되어 사건을 추적하는 판타지 오픈월드 액션 RPG. 도시 탐험과 추리, 캐릭터 교대 전투가 핵심이다.",
+        "en": "A fantasy open-world action RPG about a detective in the industrial city of Silvernia, combining exploration, investigation and character-switching combat.",
+        "ja": "工業都市シルバニアで探偵として事件を追うファンタジーオープンワールドアクションRPG。探索、推理、キャラクター切り替えによる戦闘が中心。",
+        "zh": "在工业都市白银城扮演侦探的奇幻开放世界动作RPG，结合城市探索、案件推理与角色切换战斗。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T09:42:56Z",
+      "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3",
+      "sourceTitle": "엘리멘타(Elementa), 신작 오픈월드 추리 어드벤처 ARPG '실버 팰리스'첫 공개!",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "도시와 탐정",
+            "en": "City and detective",
+            "ja": "都市と探偵",
+            "zh": "都市与侦探"
+          },
+          "body": {
+            "ko": "빅토리아 시대에서 영감을 받은 대도시 실버니아가 무대다. 플레이어는 탐정으로서 사건의 증거를 모으고 도시의 비밀을 추적한다. 언리얼 엔진 5로 개발된다.",
+            "en": "Set in a Victorian-inspired metropolis, the game follows a detective gathering evidence and uncovering urban mysteries. It is developed with Unreal Engine 5.",
+            "ja": "ヴィクトリア朝を思わせる大都市が舞台。探偵として証拠を集め、都市に潜む謎を追う。Unreal Engine 5で開発されている。",
+            "zh": "舞台是一座具有维多利亚时代风格的大都市。玩家以侦探身份搜集证据、追查城市秘密，游戏采用虚幻引擎5开发。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+          ]
+        },
+        {
+          "title": {
+            "ko": "LS를 둘러싼 갈등",
+            "en": "Conflict over Liquid Silver",
+            "ja": "リキッドシルバーを巡る対立",
+            "zh": "围绕液态银的纷争"
+          },
+          "body": {
+            "ko": "LS(리퀴드 실버)는 도시의 산업 발전을 이끈 자원이다. 기업과 범죄 조직, 귀족 등 여러 세력의 이해관계가 사건의 배경을 이룬다.",
+            "en": "Liquid Silver powers industrial growth. Rival interests among corporations, criminal groups and the aristocracy shape the city’s conflicts.",
+            "ja": "リキッドシルバーは都市の産業発展を支える資源。企業、犯罪組織、貴族などの利害が事件の背景にある。",
+            "zh": "液态银推动了城市工业发展。企业、犯罪组织与贵族等势力的利益冲突构成案件背景。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+          ]
+        },
+        {
+          "title": {
+            "ko": "이분법 베타에서 공개된 플레이",
+            "en": "Gameplay shown in the Dichotomy beta",
+            "ja": "二元テストで公開された遊び",
+            "zh": "二元测试公开玩法"
+          },
+          "body": {
+            "ko": "이분법 베타는 성별을 선택하는 주인공과 플레이어블 캐릭터 15종, 분기형 사건과 캐릭터 이야기, 확장된 도시 구역과 경마를 선보였다. 이 내용은 베타 버전 기준이다.",
+            "en": "The Dichotomy beta presented 15 playable characters, a selectable protagonist gender, branching investigations, character stories, expanded city districts and horse racing. These describe the beta build.",
+            "ja": "二元テストでは主人公の性別選択、プレイアブルキャラクター15種、分岐する事件、キャラクターストーリー、新たな都市エリアや競馬を公開。テスト版の内容。",
+            "zh": "二元测试展示了主角性别选择、15种可操作角色、分支案件、角色故事、扩展城市区域与赛马。这些内容以测试版本为准。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://www.gamespress.com/en-US/Silver-Palace-Opens-Its-Dichotomy-Beta-Test"
+          ]
+        }
+      ],
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://www.gamespress.com/en-US/Silver-Palace-Opens-Its-Dichotomy-Beta-Test",
+          "title": "Silver Palace Opens Its Dichotomy Beta Test",
+          "publisher": "Silver Palace / Elementa"
+        }
+      ]
+    },
+    {
+      "id": "silver-palace-global-public-dichotomy-combat",
+      "gameId": "silver-palace",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "이분법 베타 전투 안내: 패링·처형·교대",
+        "en": "Dichotomy combat: parries, executions and switching",
+        "ja": "二元テスト戦闘案内：パリィ・処刑・切り替え",
+        "zh": "二元测试战斗指南：弹反、处决与切换"
+      },
+      "summary": {
+        "ko": "공격 타이밍에 맞춘 패링, 그로기 적의 처형, 충전 중 교대와 공명으로 이어지는 전투. 조작을 돕는 이지 모드도 소개됐다.",
+        "en": "Combat links timed parries, executions on staggered enemies, switching during charged actions and resonance. An easier control mode was also introduced.",
+        "ja": "攻撃に合わせたパリィ、グロッキー状態の敵への処刑、チャージ中の切り替え、共鳴をつなぐ戦闘。操作補助モードも紹介。",
+        "zh": "战斗围绕弹反、失衡处决、蓄力中切换与共鸣展开，并提供操作辅助模式。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T09:42:56Z",
+      "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+      "sourceTitle": "〈만물 연구〉 전투편",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "패링과 처형",
+            "en": "Parries and executions",
+            "ja": "パリィと処刑",
+            "zh": "弹反与处决"
+          },
+          "body": {
+            "ko": "노란 원으로 예고되는 공격이 맞기 직전에 패링하면 피해를 줄이며 반격과 연계 공격으로 이어갈 수 있다. 그로기 상태의 적에게는 처형으로 큰 피해를 주고, 이어지는 약화 시간에 추가 공격을 넣는다.",
+            "en": "Parry just before a yellow-ring attack connects to reduce damage and counter. Staggered enemies can be executed for heavy damage, followed by a window for further attacks.",
+            "ja": "黄色い円で予告される攻撃の直前にパリィすると被害を抑え、反撃につなげられる。グロッキー状態の敵には処刑で大ダメージを与え、その後の弱体化中に追撃できる。",
+            "zh": "在黄圈攻击命中前弹反可减少伤害并反击。敌人失衡后可进行处决，随后利用弱化阶段继续攻击。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95"
+          ]
+        },
+        {
+          "title": {
+            "ko": "충전 중 교대와 공명",
+            "en": "Charged actions and resonance",
+            "ja": "チャージ中の切り替えと共鳴",
+            "zh": "蓄力切换与共鸣"
+          },
+          "body": {
+            "ko": "강공격이나 스킬을 충전하는 도중 다른 캐릭터로 교대해도 앞 캐릭터는 동작을 마친 뒤 퇴장한다. 공격으로 공명을 쌓으면 리액터 속성에 따른 효과를 발동할 수 있다.",
+            "en": "Switching during a charged attack or skill lets the outgoing character finish the action. Attacks build resonance that activates effects tied to the reactor’s attribute.",
+            "ja": "強攻撃やスキルのチャージ中に切り替えても、前のキャラクターは動作を終えてから退場する。攻撃で共鳴を蓄積し、リアクター属性に応じた効果を発動できる。",
+            "zh": "蓄力攻击或技能期间切换角色，前一角色会完成动作后退场。攻击积累共鸣，可触发反应炉属性相关效果。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95"
+          ]
+        },
+        {
+          "title": {
+            "ko": "이지 모드",
+            "en": "Assisted controls",
+            "ja": "操作補助",
+            "zh": "操作辅助"
+          },
+          "body": {
+            "ko": "이지 모드는 좌클릭 연타로 연속 공격을 돕고, 피격 직전에 시간을 늦추며 대응 안내를 표시한다. 전투 설명은 2026년 7월 이분법 베타 공개 내용이다.",
+            "en": "The easier mode assists combos through repeated left clicks and slows the moment before an incoming hit with a response prompt. This describes the July 2026 beta.",
+            "ja": "補助モードは左クリック連打による連続攻撃を支援し、被弾直前に時間を遅くして対応を案内する。2026年7月のテスト版の説明。",
+            "zh": "辅助模式支持连续左键连招，并在受击前减慢时间、提示应对方式。以上为2026年7月测试版内容。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-palace-global-public-dichotomy-deduction",
+      "gameId": "silver-palace",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "기이 사건 추론: 증거와 여러 결말",
+        "en": "Investigations: evidence and multiple endings",
+        "ja": "事件推理：証拠と複数の結末",
+        "zh": "案件推理：证据与多种结局"
+      },
+      "summary": {
+        "ko": "증거를 모아 추론하고 여러 결말에 도달하는 사건 시스템. 결말을 본 뒤 다시 추론해 다른 가능성을 살펴볼 수 있다.",
+        "en": "Gather evidence and reason through cases with multiple endings. After reaching an ending, revisit the deduction to explore alternatives.",
+        "ja": "証拠を集めて推理し、複数の結末へ進む事件システム。一度結末を迎えた後も、推理をやり直せる。",
+        "zh": "搜集证据、进行推理，案件可通向不同结局。达成结局后可重新推理，探索其他可能。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T09:42:56Z",
+      "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+      "sourceTitle": "〈만물 연구〉 기이 사건 추론편",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "추론과 분기",
+            "en": "Deduction and branching",
+            "ja": "推理と分岐",
+            "zh": "推理与分支"
+          },
+          "body": {
+            "ko": "이분법 베타의 기이 사건 추론은 수집한 증거를 바탕으로 사건을 해석하는 콘텐츠다. 사건마다 여러 결말이 있어 추론에 따라 다른 결과를 볼 수 있다.",
+            "en": "In the Dichotomy beta, investigations use collected evidence to interpret a case. Multiple endings allow different conclusions.",
+            "ja": "二元テストの事件推理では、集めた証拠から事件を解釈する。複数の結末があり、異なる推理の結果を見られる。",
+            "zh": "二元测试的案件推理以收集的证据为基础，同一案件包含多种结局，可探索不同推论的结果。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100"
+          ]
+        },
+        {
+          "title": {
+            "ko": "다시 추론하기",
+            "en": "Revisit a deduction",
+            "ja": "推理をやり直す",
+            "zh": "重新推理"
+          },
+          "body": {
+            "ko": "결말을 본 뒤 다시 추론하기를 선택하면 단서 보드 진행을 초기화해 다른 결말을 찾을 수 있다. 진실의 결말에 도달하면 특별 수집품과 업적을 얻는다.",
+            "en": "After an ending, restarting the deduction resets clue-board progress so another route can be explored. Reaching the true ending grants a special collectible and achievement.",
+            "ja": "結末を迎えた後に推理をやり直すと、手掛かりボードの進行がリセットされ、別の結末を探せる。真の結末では特別な収集品と実績を獲得。",
+            "zh": "达成结局后重新推理会重置线索板进度，便于探索其他结局。达成真相结局可获得特殊收藏品与成就。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-palace-global-public-morgue-street",
+      "gameId": "silver-palace",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "실버니아 지역 안내: 모르그 거리",
+        "en": "Silvernia district guide: Morgue Street",
+        "ja": "都市エリア案内：Morgue Street",
+        "zh": "城市区域指南：Morgue Street"
+      },
+      "summary": {
+        "ko": "탐정 사무소와 술집, 카페가 있는 모르그 거리. 귀족 구역으로 향하는 교통 요충지이자 서로 다른 계층과 세력이 만나는 장소다.",
+        "en": "Morgue Street brings together the detective office, a bar and a café at a crossroads of social classes and rival interests.",
+        "ja": "探偵事務所、酒場、カフェがあるMorgue Street。異なる階層や勢力が交わる交通の要所。",
+        "zh": "Morgue Street有侦探事务所、酒吧和咖啡馆，也是不同阶层与势力交汇的交通要地。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T09:42:56Z",
+      "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+      "sourceTitle": "<만물 연구> 지역편 모르그 거리",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "거리의 일상",
+            "en": "Everyday places",
+            "ja": "街の日常",
+            "zh": "街头日常"
+          },
+          "body": {
+            "ko": "탐정 사무소는 생활과 업무의 거점이다. 술집에서는 소문과 단서가 오가고, 카페에는 지식인과 직장인, 상인이 모인다. 이분법 베타의 지역 소개에 공개된 장소들이다.",
+            "en": "The detective office serves as home and workplace. Rumors circulate at the bar, while the café draws intellectuals, workers and merchants. These locations appeared in the beta district introduction.",
+            "ja": "探偵事務所は生活と仕事の拠点。酒場では噂や手掛かりが交わされ、カフェには知識人、勤め人、商人が集まる。テスト版のエリア紹介で公開された場所。",
+            "zh": "事务所兼具生活与工作的功能。酒吧流传传闻与线索，咖啡馆聚集学者、上班族和商人。这些地点出自测试区域介绍。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73"
+          ]
+        },
+        {
+          "title": {
+            "ko": "공개된 적과 세력",
+            "en": "Revealed enemies and groups",
+            "ja": "公開された敵と勢力",
+            "zh": "公开敌人与势力"
+          },
+          "body": {
+            "ko": "메탈 블러드는 평소 인간의 모습으로 숨어 있으며 고순도 LS에 반응해 본모습을 드러낸다. 여러 조직이 느슨하게 모인 바위단과 거리의 불량배도 등장한다.",
+            "en": "Metal Blood hide among humans and reveal their forms when exposed to highly pure Liquid Silver. A loose gang alliance and street thugs also appear.",
+            "ja": "メタルブラッドは人間の姿に紛れ、高純度のリキッドシルバーに反応して正体を現す。複数の組織による緩やかな連合や街のならず者も登場する。",
+            "zh": "外表近似人类的敌人平时隐藏在人群中，遇到高纯度液态银会显露原形。松散的帮派联盟与街头混混也会出现。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-palace-global-public-closed-beta-history",
+      "gameId": "silver-palace",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "클로즈드 베타 이력: 단색·이분법·이분법 회귀",
+        "en": "Closed-beta history: Monotype, Dichotomy and Retrace",
+        "ja": "クローズドテスト履歴：単色・二元・二元回帰",
+        "zh": "封闭测试记录：单色、二元与二元回归"
+      },
+      "summary": {
+        "ko": "단색과 이분법의 공개 일정, 이분법: 회귀의 공개 FAQ를 정리한 출시 전 테스트 이력. 회귀 모집은 2026년 10월 10일에 마감됐다.",
+        "en": "A pre-launch test history covering public Monotype and Dichotomy schedules and the Retrace FAQ. Retrace recruitment closed on October 10, 2026.",
+        "ja": "単色・二元の公開日程と二元回帰の公開FAQをまとめた発売前テスト履歴。回帰の募集は2026年10月10日に終了。",
+        "zh": "整理单色、二元的公开日程与二元回归公开FAQ。回归测试招募已于2026年10月10日结束。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T09:42:56Z",
+      "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=117",
+      "sourceTitle": "「이분법: 회귀」 기술 테스트 모집 FAQ",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "단색 테스트 · Windows PC",
+            "en": "Monotype · Windows PC",
+            "ja": "単色テスト・Windows PC",
+            "zh": "单色测试 · Windows PC"
+          },
+          "body": {
+            "ko": "2026년 1월 13일 14:00부터 1월 18일 11:00까지 한국 시간(UTC+9)으로 진행된 PC 테스트다. 당시 안내 사양은 i7-12700, RTX 3060 또는 동급 AMD 그래픽, RAM 16GB, SSD 여유 공간 60GB였다.",
+            "en": "The PC test ran January 13, 2026 at 14:00 to January 18 at 11:00, UTC+9. Listed hardware was an i7-12700, RTX 3060 or equivalent AMD graphics, 16GB RAM and 60GB free SSD space.",
+            "ja": "PCテストは2026年1月13日14:00～1月18日11:00（UTC+9）。当時の案内はi7-12700、RTX 3060または同等AMD GPU、メモリ16GB、SSD空き60GB。",
+            "zh": "PC测试时间为2026年1月13日14:00至1月18日11:00（UTC+9）。当时列出的配置为i7-12700、RTX 3060或同级AMD显卡、16GB内存与60GB SSD空间。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=26"
+          ]
+        },
+        {
+          "title": {
+            "ko": "이분법 테스트 · Windows PC",
+            "en": "Dichotomy · Windows PC",
+            "ja": "二元テスト・Windows PC",
+            "zh": "二元测试 · Windows PC"
+          },
+          "body": {
+            "ko": "2026년 7월 23일 10:00부터 8월 13일 10:00까지 UTC+8 기준으로 진행됐다. 한국·일본 시간으로는 양일 11:00이다. 캐릭터 15종과 확장된 도시, 추리 및 전투 시스템을 선보인 데이터 초기화·결제 없는 베타였다.",
+            "en": "The test ran July 23, 2026 at 10:00 to August 13 at 10:00, UTC+8, equivalent to 11:00 on both dates in Korea and Japan. This non-monetized wipe test showcased 15 characters and expanded exploration, investigation and combat.",
+            "ja": "2026年7月23日10:00～8月13日10:00（UTC+8）、日本・韓国時間では両日11:00。15種のキャラクター、都市探索、推理、戦闘を公開した、課金なし・データリセットありのテスト。",
+            "zh": "测试为2026年7月23日10:00至8月13日10:00（UTC+8），即日韩时间两日11:00。此次删档、不付费测试展示了15种角色及扩展探索、推理和战斗。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=61",
+            "https://silverpalace.elementagames.com/en-us/newsDetail?id=42",
+            "https://www.gamespress.com/en-US/Silver-Palace-Opens-Its-Dichotomy-Beta-Test"
+          ]
+        },
+        {
+          "title": {
+            "ko": "이분법: 회귀 · 공개 FAQ",
+            "en": "Retrace · public FAQ",
+            "ja": "二元回帰・公開FAQ",
+            "zh": "二元回归 · 公开FAQ"
+          },
+          "body": {
+            "ko": "모집 마감은 2026년 10월 10일 18:00(UTC+8). PC·Android·iOS를 대상으로 성능 최적화를 점검하는 소규모 비공개 테스트로, 비밀유지서약이 필요하다. 결제는 없고 데이터는 초기화된다. 같은 계정의 PC·모바일 진행 연동을 지원하며, Android와 iOS 참가 자격은 서로 공유되지 않는다. 공개 FAQ에는 테스트 시작·종료일이 기재되지 않았다.",
+            "en": "Recruitment closed October 10, 2026 at 18:00 UTC+8. This small NDA test targets performance on PC, Android and iOS, with no payments and a data wipe. One account supports PC/mobile progress sharing; Android and iOS eligibility is separate. The public FAQ gives no test start or end date.",
+            "ja": "募集締切は2026年10月10日18:00（UTC+8）。PC・Android・iOSで性能改善を検証する小規模の秘密保持契約付きテスト。課金なし、データリセットあり。同一アカウントでPCとモバイルの進行を共有できるが、AndroidとiOSの参加資格は別。公開FAQに実施開始・終了日はない。",
+            "zh": "招募截止时间为2026年10月10日18:00（UTC+8）。这是面向PC、Android和iOS、侧重性能优化的小规模保密测试，需签署保密协议；不付费且删档。同账号支持PC与手机进度互通，但Android和iOS资格不互通。公开FAQ未列出测试起止日期。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=117"
+          ]
+        }
+      ],
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=26",
+          "title": "「동일률 테스트」 일정 확정 알림 및 사전 다운로드 가이드",
+          "publisher": "Silver Palace / Elementa"
+        },
+        {
+          "kind": "official",
+          "url": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=61",
+          "title": "「이분법 테스트」 사전 다운로드 및 서버 오픈 가이드",
+          "publisher": "Silver Palace / Elementa"
+        },
+        {
+          "kind": "official",
+          "url": "https://www.gamespress.com/en-US/Silver-Palace-Opens-Its-Dichotomy-Beta-Test",
+          "title": "Silver Palace Opens Its Dichotomy Beta Test",
+          "publisher": "Silver Palace / Elementa"
+        }
+      ]
+    },
+    {
+      "id": "silver-palace-global-public-dichotomy-pc-requirements",
+      "gameId": "silver-palace",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "PC 사양 안내: 이분법 베타 기준",
+        "en": "PC requirements for the Dichotomy beta",
+        "ja": "PC動作環境：二元テスト基準",
+        "zh": "PC配置指南：以二元测试为准"
+      },
+      "summary": {
+        "ko": "이분법 베타의 최소·권장 PC 사양과 설치 공간. 정식 출시판의 확정 요구 사양과는 구분된다.",
+        "en": "Minimum and recommended hardware and installation space from the Dichotomy beta, distinct from confirmed launch requirements.",
+        "ja": "二元テストの最低・推奨PC環境と必要容量。正式リリース版の確定要件とは区別される。",
+        "zh": "二元测试的最低、推荐PC配置与安装空间，不等同于正式上线版的最终要求。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T09:42:56Z",
+      "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=61",
+      "sourceTitle": "「이분법 테스트」 사전 다운로드 및 서버 오픈 가이드",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "최소 사양",
+            "en": "Minimum",
+            "ja": "最低環境",
+            "zh": "最低配置"
+          },
+          "body": {
+            "ko": "Windows 10 22H2 또는 Windows 11 21H2 이상. CPU: Intel Core i7-8700 / AMD Ryzen 5 3600. GPU: GeForce GTX 1060 6GB / Radeon RX 580 8GB. RAM: 12GB, VRAM: 6GB.",
+            "en": "Windows 10 22H2 or Windows 11 21H2 and above. CPU: Intel Core i7-8700 / AMD Ryzen 5 3600. GPU: GeForce GTX 1060 6GB / Radeon RX 580 8GB. RAM: 12GB; VRAM: 6GB.",
+            "ja": "Windows 10 22H2またはWindows 11 21H2以降。CPU：Intel Core i7-8700 / AMD Ryzen 5 3600。GPU：GeForce GTX 1060 6GB / Radeon RX 580 8GB。メモリ12GB、VRAM 6GB。",
+            "zh": "Windows 10 22H2或Windows 11 21H2及以上。CPU：Intel Core i7-8700 / AMD Ryzen 5 3600。GPU：GeForce GTX 1060 6GB / Radeon RX 580 8GB。内存12GB，显存6GB。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=61"
+          ]
+        },
+        {
+          "title": {
+            "ko": "권장 사양",
+            "en": "Recommended",
+            "ja": "推奨環境",
+            "zh": "推荐配置"
+          },
+          "body": {
+            "ko": "CPU: Intel Core i7-12700 / AMD Ryzen 7 5800X. GPU: GeForce RTX 3060 / Radeon RX 6600 XT. RAM: 16GB, VRAM: 8GB.",
+            "en": "CPU: Intel Core i7-12700 / AMD Ryzen 7 5800X. GPU: GeForce RTX 3060 / Radeon RX 6600 XT. RAM: 16GB; VRAM: 8GB.",
+            "ja": "CPU：Intel Core i7-12700 / AMD Ryzen 7 5800X。GPU：GeForce RTX 3060 / Radeon RX 6600 XT。メモリ16GB、VRAM 8GB。",
+            "zh": "CPU：Intel Core i7-12700 / AMD Ryzen 7 5800X。GPU：GeForce RTX 3060 / Radeon RX 6600 XT。内存16GB，显存8GB。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=61"
+          ]
+        },
+        {
+          "title": {
+            "ko": "설치 공간",
+            "en": "Installation space",
+            "ja": "インストール容量",
+            "zh": "安装空间"
+          },
+          "body": {
+            "ko": "SSD 여유 공간 65GB가 필요하며 설치 압축 해제 과정에는 25GB가 추가로 필요하다. 이는 2026년 7월 베타 사전 다운로드 안내 기준이다.",
+            "en": "Allow 65GB free on an SSD plus an additional 25GB during unpacking. These figures come from the July 2026 beta preload notice.",
+            "ja": "SSD空き容量65GBに加え、展開時に25GBが必要。2026年7月のテスト事前ダウンロード案内に基づく。",
+            "zh": "SSD需预留65GB空间，解压过程另需25GB。该数据来自2026年7月测试预下载公告。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=61"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-palace-global-public-dichotomy-feedback-roadmap",
+      "gameId": "silver-palace",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "이분법 베타 이후 공개한 개선 계획",
+        "en": "Improvements announced after the Dichotomy beta",
+        "ja": "二元テスト後に発表された改善計画",
+        "zh": "二元测试后公布的改进计划"
+      },
+      "summary": {
+        "ko": "2026년 8월 22일 개발진 답변은 전투 시인성, 이야기 연출, 도시 탐험과 최적화 개선을 예고했다. 완료된 기능이 아닌 발표 당시 계획이다.",
+        "en": "The August 22, 2026 feedback response outlined combat readability, storytelling, exploration and optimization improvements. These were announced plans, not confirmed completed features.",
+        "ja": "2026年8月22日の開発回答で、戦闘の視認性、物語演出、探索、最適化の改善を予告。実装完了ではなく、発表時点の計画。",
+        "zh": "2026年8月22日开发反馈提出战斗可读性、叙事、探索与优化改进。这是当时公布的计划，并非已完成的功能。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T09:42:56Z",
+      "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=109",
+      "sourceTitle": "실버니아 견문: 「이분법 테스트」 피드백 및 최적화",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "전투와 이야기",
+            "en": "Combat and storytelling",
+            "ja": "戦闘と物語",
+            "zh": "战斗与叙事"
+          },
+          "body": {
+            "ko": "카메라와 타깃 고정, 타격 반응, 버프·리액터 관련 표시와 튜토리얼 개선을 예고했다. 대화 기록 기능과 이야기 연출, 잠입·암살 조작, 분기형 사건도 개선 대상으로 제시했다.",
+            "en": "Plans covered camera and target locking, hit feedback, clearer buff/reactor displays and tutorials, dialogue history, story presentation, stealth controls and branching cases.",
+            "ja": "カメラ・ロックオン、攻撃の手応え、バフやリアクターの表示、チュートリアルを改善予定。会話履歴、物語演出、潜入操作、分岐事件も対象。",
+            "zh": "计划改善镜头锁定、打击反馈、增益与反应炉显示、教程，并加入对话记录，优化叙事演出、潜入操作和分支案件。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=109"
+          ]
+        },
+        {
+          "title": {
+            "ko": "도시 탐험과 성능",
+            "en": "Exploration and performance",
+            "ja": "探索と動作性能",
+            "zh": "探索与性能"
+          },
+          "body": {
+            "ko": "들어갈 수 있는 실내 공간과 NPC 행동, 지역별 조명, 탈것과 비행 조작, 수집·상호작용 및 지도 안내를 보강할 계획이다. 성능과 기기 호환성 개선, 모바일 테스트도 언급했다.",
+            "en": "Further plans included enterable interiors, NPC behavior, district lighting, mounts and flight, collectibles, interactions and map guidance, alongside performance, compatibility and mobile testing.",
+            "ja": "入れる建物、NPCの行動、地区ごとの照明、乗り物と飛行、収集物、交流、地図案内の拡充を計画。性能・互換性改善とモバイルテストにも言及した。",
+            "zh": "还计划扩展可进入室内、NPC行为、区域光照、坐骑飞行、收集互动与地图引导，并改善性能、兼容性，开展移动端测试。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=109"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-palace-global-public-character-encyclopedia",
+      "gameId": "silver-palace",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "공개 캐릭터 도감: 공식 프로필 15종",
+        "en": "Public character encyclopedia: 15 official profiles",
+        "ja": "公開キャラクター図鑑：公式プロフィール15種",
+        "zh": "公开角色图鉴：15种官方档案"
+      },
+      "summary": {
+        "ko": "탐정의 두 형태와 동료들의 공식 명칭, 배경, 원본 일러스트를 담은 캐릭터 도감. 공개 프로필 15종을 한국어·영어·일본어·중국어로 소개한다.",
+        "en": "Meet both Detective forms and their companions through 15 official profiles, localized names, concise backgrounds and original illustrations.",
+        "ja": "探偵の2つの姿と仲間たちを、公式名称、背景、原画で紹介。韓国語・英語・日本語・中国語の公開プロフィール15種を収録。",
+        "zh": "收录侦探的两种形态与同伴，包含15种官方档案、韩英日中名称、背景简介和原始立绘。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T09:42:56Z",
+      "sourceUrl": "https://silverpalace.elementagames.com/ko-kr/roles",
+      "sourceTitle": "실버 팰리스 · 공식 캐릭터 소개",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "탐정과 동료들",
+            "en": "The Detective and companions",
+            "ja": "探偵と仲間たち",
+            "zh": "侦探与同伴"
+          },
+          "body": {
+            "ko": "같은 탐정의 두 형태를 각각 수록했다. 프로필의 직업과 배경은 인물 소개이며, 전투 포지션이나 정식 출시판의 성능 등급을 뜻하지 않는다.",
+            "en": "The two forms of the same Detective have separate profiles. Occupations and backgrounds describe the characters, rather than combat roles or launch performance rankings.",
+            "ja": "同じ探偵の2つの姿を個別に収録。職業や背景は人物紹介であり、戦闘ロールや正式版の性能評価を意味しない。",
+            "zh": "同一侦探的两种形态分别收录。职业与背景用于人物介绍，不代表战斗定位或正式版强度评级。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://silverpalace.elementagames.com/ko-kr/roles",
+            "https://silverpalace.elementagames.com/en-us/roles",
+            "https://silverpalace.elementagames.com/ja-jp/roles",
+            "https://silverpalace.elementagames.com/zh-cn/roles"
+          ]
+        }
+      ],
+      "localizationSources": {
+        "ko": "https://silverpalace.elementagames.com/ko-kr/roles",
+        "en": "https://silverpalace.elementagames.com/en-us/roles",
+        "ja": "https://silverpalace.elementagames.com/ja-jp/roles",
+        "zh": "https://silverpalace.elementagames.com/zh-cn/roles"
+      },
+      "entityDetails": [
+        {
+          "id": "silver-palace-official-1",
+          "name": {
+            "ko": "탐정",
+            "en": "Detective",
+            "ja": "探偵",
+            "zh": "侦探"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "3년 만에 실버니아로 돌아와 가족의 죽음에 얽힌 진실을 추적하는 탐정.",
+                "en": "A detective returning after three years to investigate a family tragedy.",
+                "ja": "3年ぶりに戻り、家族の死の真相を追う探偵。",
+                "zh": "时隔三年归来、追查家人死亡真相的侦探。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "까마귀의 발톱",
+                "en": "The Raven's Claws",
+                "ja": "大鴉の鉤爪",
+                "zh": "乌鸦的利爪"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-2",
+          "name": {
+            "ko": "탐정",
+            "en": "Detective",
+            "ja": "探偵",
+            "zh": "侦探"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "3년 만에 실버니아로 돌아와 가족의 죽음에 얽힌 진실을 추적하는 탐정.",
+                "en": "A detective returning after three years to investigate a family tragedy.",
+                "ja": "3年ぶりに戻り、家族の死の真相を追う探偵。",
+                "zh": "时隔三年归来、追查家人死亡真相的侦探。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "까마귀의 부리",
+                "en": "The Raven's Beak",
+                "ja": "大鴉の白嘴",
+                "zh": "乌鸦的白喙"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-3",
+          "name": {
+            "ko": "알프·메이드",
+            "en": "Alf (Maid)",
+            "ja": "フウ・メイド",
+            "zh": "阿芙·女仆"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "가사보다 전투에 능한 메이드. 산탄총을 화염방사 형태로 전환한다.",
+                "en": "A combat-ready maid whose shotgun can become a flamethrower.",
+                "ja": "家事より戦闘が得意なメイド。散弾銃を火炎放射器へ変える。",
+                "zh": "更擅长战斗的女仆，霰弹枪可切换为喷火形态。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "당신만을 위한 이야기",
+                "en": "A Story Truly Yours",
+                "ja": "あなただけのおとぎ話",
+                "zh": "为你而生的故事"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-4",
+          "name": {
+            "ko": "아르고스·바텐더",
+            "en": "Argos (Bartender)",
+            "ja": "アーガス・バーテンダー",
+            "zh": "尔阁·酒保"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "지팡이 검을 지닌 바텐더. 회복을 돕는 칵테일로 동료를 지원한다.",
+                "en": "A cane-sword bartender supporting allies with restorative cocktails.",
+                "ja": "仕込み杖を持つバーテンダー。回復を助けるカクテルで仲間を支援。",
+                "zh": "使用杖剑的酒保，以恢复鸡尾酒支援同伴。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "아르고스의 눈",
+                "en": "The Eye of Argos",
+                "ja": "アルゴスの目",
+                "zh": "阿耳戈斯之眼"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-5",
+          "name": {
+            "ko": "'신데렐라'",
+            "en": "Cinderella",
+            "ja": "『シンデレラ』",
+            "zh": "厄什栗"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "비밀과 복수심을 품은 인물. 탐정과 다른 목적을 좇는다.",
+                "en": "A secretive figure pursuing revenge and goals distinct from the detective.",
+                "ja": "秘密と復讐心を抱き、探偵とは異なる目的を追う。",
+                "zh": "心怀秘密与复仇，追寻与侦探不同的目标。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "개미의 복수",
+                "en": "The Vengeful Ant",
+                "ja": "復讐の蟻",
+                "zh": "蝼蚁的复仇"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-6",
+          "name": {
+            "ko": "신시아 2세·영애",
+            "en": "Cynthia II (Luna's Scion)",
+            "ja": "シンシア2世・令嬢",
+            "zh": "馨西亚"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "루나 가문의 영애이자 탐정 사무소의 건물주. 고양이 인형 호위가 따른다.",
+                "en": "A young Luna noble and the detective office’s landlord, with toy-cat guards.",
+                "ja": "ルナ家の令嬢で探偵事務所の大家。猫の人形の護衛が付き従う。",
+                "zh": "露娜家的贵族少女兼事务所房东，有猫玩偶护卫。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "싹튼 황금 나뭇가지",
+                "en": "The Goldbud",
+                "ja": "未熟な令嬢",
+                "zh": "未熟的金枝"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-7",
+          "name": {
+            "ko": "퍼소·의사",
+            "en": "Firtho (Doctor)",
+            "ja": "「ファソ・医者」",
+            "zh": "法索"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "의학 지식을 전투에도 활용하는 냉정한 연구자이자 의사.",
+                "en": "A clinical researcher applying medical expertise in combat.",
+                "ja": "医学の知識を戦闘にも用いる冷静な医師兼研究者。",
+                "zh": "将医学知识运用于战斗的冷静医生与研究者。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "메디컬 랜싯",
+                "en": "The Medical Lancet",
+                "ja": "科学のランセット",
+                "zh": "科学柳叶刀"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-8",
+          "name": {
+            "ko": "로른·경감",
+            "en": "Lorin (Chief Inspector)",
+            "ja": "「ローレン・警視長」",
+            "zh": "劳伦"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "탐정과 협력하는 성실한 경감. 전기 장갑으로 비살상 제압을 추구한다.",
+                "en": "A dutiful inspector using electric gloves for nonlethal restraint.",
+                "ja": "探偵に協力する実直な警官。電撃の手袋で非致死の制圧を目指す。",
+                "zh": "与侦探合作的尽职警官，以电击手套进行非致命制服。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "빠질 수 없는 조각",
+                "en": "The Indispensable",
+                "ja": "欠かせない存在",
+                "zh": "不可或缺的一角"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-9",
+          "name": {
+            "ko": "붉은 장미·댄서",
+            "en": "Red Rose (Dancer)",
+            "ja": "レッドローズ・ダンサー",
+            "zh": "红蔷薇·舞者"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "화려한 춤과 위험한 사냥을 겸하는 댄서.",
+                "en": "A dancer combining elegance with dangerous hunts.",
+                "ja": "華やかな踊りと危険な狩りを両立するダンサー。",
+                "zh": "兼具优雅舞姿与危险狩猎本领的舞者。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "장미는 살상용 무기",
+                "en": "The Rose as an Engine of War",
+                "ja": "バラこそが武器",
+                "zh": "玫瑰是战斗的武器"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-10",
+          "name": {
+            "ko": "그라티아·기사",
+            "en": "Gratia (Knight)",
+            "ja": "クラティ・騎士",
+            "zh": "库拉蒂·骑士"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "대검과 방패를 들고 충성을 다하는 기사.",
+                "en": "A loyal knight wielding a greatsword and shield.",
+                "ja": "大剣と盾を携え忠誠を尽くす騎士。",
+                "zh": "手持大剑与盾、恪守忠诚的骑士。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "여왕의 은총",
+                "en": "Her Majesty's Protégé",
+                "ja": "女王の寵児",
+                "zh": "女王的恩宠"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-11",
+          "name": {
+            "ko": "렉스·감독관",
+            "en": "Rex (Superintendent)",
+            "ja": "レックス・監察官",
+            "zh": "雷可司·督察"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "법과 질서를 엄격하게 지키려는 젊은 감독관.",
+                "en": "A young superintendent devoted to strict law and order.",
+                "ja": "法と秩序を厳格に守ろうとする若い監察官。",
+                "zh": "严格维护法律与秩序的年轻督察。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "흑과 백의 천칭",
+                "en": "The Scales of Black and White",
+                "ja": "黒白の天秤",
+                "zh": "黑与白的秤尺"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-12",
+          "name": {
+            "ko": "벤담·비서",
+            "en": "Bentham (Secretary)",
+            "ja": "「ベリンダ・秘書」",
+            "zh": "边沁·秘书"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "UMI 전략관리 부서의 비서. 조용한 태도 뒤로 실권을 행사한다.",
+                "en": "A UMI secretary quietly exercising substantial influence.",
+                "ja": "UMIの戦略管理部門の秘書。静かな態度の裏で実権を握る。",
+                "zh": "UMI战略管理部门的秘书，沉静外表下掌握实权。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "쿼츠 넷",
+                "en": "The Quartz Net",
+                "ja": "クォーツの網",
+                "zh": "石英之网"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-13",
+          "name": {
+            "ko": "그림·기자",
+            "en": "Grimm (Journalist)",
+            "ja": "「グリム・記者」",
+            "zh": "格林·记者"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "진실을 기록하려는 야심 찬 젊은 기자.",
+                "en": "An ambitious young journalist seeking to record the truth.",
+                "ja": "真実を記録しようとする野心的な若い記者。",
+                "zh": "志在记录真相的年轻记者。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "철펜의 독설가",
+                "en": "Silver-tongued Headliner",
+                "ja": "鉄のペンと毒舌",
+                "zh": "铁笔与喉舌"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-14",
+          "name": {
+            "ko": "덜커덩 팀장·수리공",
+            "en": "Captain Kaboom (Technician)",
+            "ja": "「クランク隊長・修理工」",
+            "zh": "咯噔队长·维修工"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "아이들로 이뤄진 수리팀을 이끌며 도시의 동력 시설을 돌본다.",
+                "en": "Leads a young repair crew maintaining the city’s power infrastructure.",
+                "ja": "子どもたちの修理チームを率い、都市の動力設備を支える。",
+                "zh": "带领孩子们组成的维修队，维护城市动力设施。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "스패너와 동요",
+                "en": "Of Tinkers and Tunes",
+                "ja": "レンチと童謡",
+                "zh": "扳手与童谣"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        },
+        {
+          "id": "silver-palace-official-15",
+          "name": {
+            "ko": "구시아·견습생",
+            "en": "Gucia (Apprentice)",
+            "ja": "「グシア・見習い」",
+            "zh": "古科·学徒"
+          },
+          "category": {
+            "ko": "캐릭터",
+            "en": "Character",
+            "ja": "キャラクター",
+            "zh": "角色"
+          },
+          "basis": {
+            "ko": "공식 공개 프로필",
+            "en": "Official public profile",
+            "ja": "公式公開プロフィール",
+            "zh": "官方公开档案"
+          },
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "인물 소개",
+                "en": "Profile",
+                "ja": "人物紹介",
+                "zh": "人物简介"
+              },
+              "body": {
+                "ko": "미지의 생물과 수수께끼에 몰두하는 수줍은 견습 연구자.",
+                "en": "A shy apprentice fascinated by unknown creatures and mysteries.",
+                "ja": "未知の生物や謎に夢中な、内気な見習い研究者。",
+                "zh": "性格腼腆、热衷未知生物与谜题的见习研究者。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://silverpalace.elementagames.com/ko-kr/roles",
+                "https://silverpalace.elementagames.com/en-us/roles",
+                "https://silverpalace.elementagames.com/ja-jp/roles",
+                "https://silverpalace.elementagames.com/zh-cn/roles"
+              ]
+            }
+          ],
+          "traits": [
+            {
+              "id": "official-epithet",
+              "label": {
+                "ko": "이명",
+                "en": "Epithet",
+                "ja": "異名",
+                "zh": "称号"
+              },
+              "value": {
+                "ko": "상아탑에서 온 자",
+                "en": "From the Ivory Tower",
+                "ja": "象牙の塔より",
+                "zh": "自象牙塔"
+              },
+              "officialLocales": [
+                "ko",
+                "en",
+                "ja",
+                "zh"
+              ],
+              "translatedLocales": []
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+              "title": "Silver Palace official character profiles · ko",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/en-us/roles",
+              "title": "Silver Palace official character profiles · en",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+              "title": "Silver Palace official character profiles · ja",
+              "publisher": "Silver Palace / Elementa"
+            },
+            {
+              "kind": "official",
+              "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+              "title": "Silver Palace official character profiles · zh",
+              "publisher": "Silver Palace / Elementa"
+            }
+          ],
+          "verifiedAt": "2026-11-02T09:42:56Z"
+        }
+      ],
+      "detailImages": [
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_0.B1NVFVje.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1365,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "탐정 · 까마귀의 발톱",
+            "en": "Detective · The Raven's Claws",
+            "ja": "探偵 · 大鴉の鉤爪",
+            "zh": "侦探 · 乌鸦的利爪"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_1.BlRyxZmh.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1365,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "탐정 · 까마귀의 부리",
+            "en": "Detective · The Raven's Beak",
+            "ja": "探偵 · 大鴉の白嘴",
+            "zh": "侦探 · 乌鸦的白喙"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_2.C3aRv7FK.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1365,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "알프·메이드 · 당신만을 위한 이야기",
+            "en": "Alf (Maid) · A Story Truly Yours",
+            "ja": "フウ・メイド · あなただけのおとぎ話",
+            "zh": "阿芙·女仆 · 为你而生的故事"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_3.BVO2aTFZ.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1365,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "아르고스·바텐더 · 아르고스의 눈",
+            "en": "Argos (Bartender) · The Eye of Argos",
+            "ja": "アーガス・バーテンダー · アルゴスの目",
+            "zh": "尔阁·酒保 · 阿耳戈斯之眼"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_4.BwBHX7Rl.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1694,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "'신데렐라' · 개미의 복수",
+            "en": "Cinderella · The Vengeful Ant",
+            "ja": "『シンデレラ』 · 復讐の蟻",
+            "zh": "厄什栗 · 蝼蚁的复仇"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_5.7zT1VTg7.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1209,
+          "height": 1260,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "신시아 2세·영애 · 싹튼 황금 나뭇가지",
+            "en": "Cynthia II (Luna's Scion) · The Goldbud",
+            "ja": "シンシア2世・令嬢 · 未熟な令嬢",
+            "zh": "馨西亚 · 未熟的金枝"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_6.DyLxpzd5.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 821,
+          "height": 1224,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "퍼소·의사 · 메디컬 랜싯",
+            "en": "Firtho (Doctor) · The Medical Lancet",
+            "ja": "「ファソ・医者」 · 科学のランセット",
+            "zh": "法索 · 科学柳叶刀"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_7.C9p183YM.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1038,
+          "height": 1220,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "로른·경감 · 빠질 수 없는 조각",
+            "en": "Lorin (Chief Inspector) · The Indispensable",
+            "ja": "「ローレン・警視長」 · 欠かせない存在",
+            "zh": "劳伦 · 不可或缺的一角"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_8.wLS1puO8.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1392,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "붉은 장미·댄서 · 장미는 살상용 무기",
+            "en": "Red Rose (Dancer) · The Rose as an Engine of War",
+            "ja": "レッドローズ・ダンサー · バラこそが武器",
+            "zh": "红蔷薇·舞者 · 玫瑰是战斗的武器"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_9.DXK4ZG0x.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1392,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "그라티아·기사 · 여왕의 은총",
+            "en": "Gratia (Knight) · Her Majesty's Protégé",
+            "ja": "クラティ・騎士 · 女王の寵児",
+            "zh": "库拉蒂·骑士 · 女王的恩宠"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_10.CoaWHny7.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1392,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "렉스·감독관 · 흑과 백의 천칭",
+            "en": "Rex (Superintendent) · The Scales of Black and White",
+            "ja": "レックス・監察官 · 黒白の天秤",
+            "zh": "雷可司·督察 · 黑与白的秤尺"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_11.CGFS5Ryu.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1392,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "벤담·비서 · 쿼츠 넷",
+            "en": "Bentham (Secretary) · The Quartz Net",
+            "ja": "「ベリンダ・秘書」 · クォーツの網",
+            "zh": "边沁·秘书 · 石英之网"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_12.3v6i62hf.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1392,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "그림·기자 · 철펜의 독설가",
+            "en": "Grimm (Journalist) · Silver-tongued Headliner",
+            "ja": "「グリム・記者」 · 鉄のペンと毒舌",
+            "zh": "格林·记者 · 铁笔与喉舌"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_13.DaIAvJBB.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1392,
+          "height": 1678,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "덜커덩 팀장·수리공 · 스패너와 동요",
+            "en": "Captain Kaboom (Technician) · Of Tinkers and Tunes",
+            "ja": "「クランク隊長・修理工」 · レンチと童謡",
+            "zh": "咯噔队长·维修工 · 扳手与童谣"
+          }
+        },
+        {
+          "image": "https://silverpalace.elementagames.com/_nuxt/char_2d_img_14.DTur1KG1.png",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "width": 1392,
+          "height": 1392,
+          "imageVerified": true,
+          "imageKind": "character",
+          "imageLocale": "neutral",
+          "verifiedAt": "2026-11-02T09:42:56Z",
+          "imageCaption": {
+            "ko": "구시아·견습생 · 상아탑에서 온 자",
+            "en": "Gucia (Apprentice) · From the Ivory Tower",
+            "ja": "「グシア・見習い」 · 象牙の塔より",
+            "zh": "古科·学徒 · 自象牙塔"
+          }
+        }
+      ],
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://silverpalace.elementagames.com/ko-kr/roles",
+          "title": "Silver Palace official character profiles · ko",
+          "publisher": "Silver Palace / Elementa"
+        },
+        {
+          "kind": "official",
+          "url": "https://silverpalace.elementagames.com/en-us/roles",
+          "title": "Silver Palace official character profiles · en",
+          "publisher": "Silver Palace / Elementa"
+        },
+        {
+          "kind": "official",
+          "url": "https://silverpalace.elementagames.com/ja-jp/roles",
+          "title": "Silver Palace official character profiles · ja",
+          "publisher": "Silver Palace / Elementa"
+        },
+        {
+          "kind": "official",
+          "url": "https://silverpalace.elementagames.com/zh-cn/roles",
+          "title": "Silver Palace official character profiles · zh",
+          "publisher": "Silver Palace / Elementa"
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "silver-palace-global-launch-20261214",
+      "set": {
+        "detailSections": [
+          {
+            "title": {
+              "ko": "사전예약",
+              "en": "Pre-registration",
+              "ja": "事前登録",
+              "zh": "预约"
+            },
+            "body": {
+              "ko": "사전예약 마일스톤과 공식 커뮤니티·채널의 팔로워 목표를 달성하면 신규 4성 캐릭터와 재연의 탄환 20개 등의 보상을 받을 수 있습니다.",
+              "en": "Rewards including a new 4-star character and 20 draw items depend on reaching pre-registration milestones and official community follower targets.",
+              "ja": "事前登録マイルストーンと公式コミュニティ・チャンネルのフォロワー目標を達成すると、新たな星4キャラクターや抽選アイテム20個などの報酬を獲得できます。",
+              "zh": "达成预约里程碑与官方社区、频道的关注人数目标后，可获得新4星角色与20个抽卡道具等奖励。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://x.com/SilverPalace_KO/status/2116380507743363340"
+            ]
+          },
+          {
+            "title": {
+              "ko": "출시 플랫폼",
+              "en": "Launch platforms",
+              "ja": "発売プラットフォーム",
+              "zh": "上线平台"
+            },
+            "body": {
+              "ko": "2026년 10월 31일 출시 발표는 글로벌 출시일을 12월 14일로 안내하며 PC·Android·iOS·PlayStation 5를 명시했다. 서버 오픈의 정확한 시각은 이 발표에 없다.",
+              "en": "The October 31, 2026 announcement sets the global release for December 14 on PC, Android, iOS and PlayStation 5. It does not specify an exact server opening time.",
+              "ja": "2026年10月31日の発表では、PC・Android・iOS・PlayStation 5で12月14日にグローバル発売予定。サーバー開始の正確な時刻は記載されていない。",
+              "zh": "2026年10月31日公告确定全球上线日期为12月14日，平台为PC、Android、iOS和PlayStation 5，未列出准确开服时间。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://www.gamespress.com/en-US/Silver-Palace-Sets-Global-Launch-Date-for-December-14-2026"
+            ]
+          },
+          {
+            "title": {
+              "ko": "언어 지원 발표",
+              "en": "Announced language support",
+              "ja": "言語対応の発表",
+              "zh": "公布的语言支持"
+            },
+            "body": {
+              "ko": "출시 발표는 한국어·영어·일본어·중국어 간체·번체를 포함한 12개 언어 지원을 안내했다.",
+              "en": "The launch announcement lists support for 12 languages, including Korean, English, Japanese and Simplified and Traditional Chinese.",
+              "ja": "発売発表では韓国語、英語、日本語、中国語簡体字・繁体字を含む12言語への対応を案内した。",
+              "zh": "上线公告列出12种支持语言，包括韩语、英语、日语及简体、繁体中文。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://www.gamespress.com/en-US/Silver-Palace-Sets-Global-Launch-Date-for-December-14-2026"
+            ]
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://www.gamespress.com/en-US/Silver-Palace-Sets-Global-Launch-Date-for-December-14-2026",
+            "title": "Silver Palace Sets Global Launch Date for December 14, 2026",
+            "publisher": "Silver Palace / Elementa"
+          }
+        ],
+        "verifiedAt": "2026-11-02T09:42:56Z"
+      },
+      "before": {
+        "detailSections": [
+          {
+            "title": {
+              "ko": "사전예약",
+              "en": "Pre-registration",
+              "ja": "事前登録",
+              "zh": "预约"
+            },
+            "body": {
+              "ko": "사전예약 마일스톤과 공식 커뮤니티·채널의 팔로워 목표를 달성하면 신규 4성 캐릭터와 재연의 탄환 20개 등의 보상을 받을 수 있습니다.",
+              "en": "Rewards including a new 4-star character and 20 draw items depend on reaching pre-registration milestones and official community follower targets.",
+              "ja": "事前登録マイルストーンと公式コミュニティ・チャンネルのフォロワー目標を達成すると、新たな星4キャラクターや抽選アイテム20個などの報酬を獲得できます。",
+              "zh": "达成预约里程碑与官方社区、频道的关注人数目标后，可获得新4星角色与20个抽卡道具等奖励。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://x.com/SilverPalace_KO/status/2116380507743363340"
+            ]
+          }
+        ],
+        "relatedSources": null,
+        "verifiedAt": "2026-10-31T04:49:45+00:00"
+      },
+      "sources": [
+        "https://www.gamespress.com/en-US/Silver-Palace-Sets-Global-Launch-Date-for-December-14-2026"
+      ]
+    }
+  ]
+}
