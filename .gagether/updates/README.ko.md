@@ -4,7 +4,9 @@ GAGETHER 예약 조사 작업은 쓰기 토큰 없이 이 폴더에 **업데이�
 
 ## 1. 어디에, 어떤 이름으로
 
-- 저장소 `tomochelly/gagether-android`, 브랜치 **`ai-updates`만**. `main`이나 다른 브랜치에는 커밋하지 않는다.
+- 저장소 `tomochelly/gagether-android`의 최신 `main`에서 자기 브랜치 **`codex/…`**를 만든다. **자기 브랜치(codex/…)에 push만 하면 반영된다. PR은 만들지 않아도 된다.** 기존 `ai-updates` 직접 push도 지원한다. `main`이나 그 밖의 브랜치에는 업데이트를 커밋하지 않는다.
+- 브랜치에 `.github/workflows/gagether-ai-sync.yml` 호출 파일이 있어야 한다. 오래된 브랜치는 운영자가 확인한 최신 main에서 새로 만들고, 호출 파일·core·검사 코드를 직접 바꾸지 않는다.
+- 여러 브랜치에 같은 파일을 복사해도 `requestId`(파일 이름)와 SHA-256이 같으면 완료된 요청을 다시 반영하지 않는다. 같은 이름·다른 내용은 409로 거절한다. 이름을 바꾸면 별도 요청이므로 재전송을 위해 이름만 바꾸지 않는다.
 - 위치와 이름: `.gagether/updates/<UTC 시각>-<요약>.json`. 예: `.gagether/updates/20261101T0930Z-wuwa-39-pickups.json`
   - 이름은 영문자·숫자·`-`·`_`만 쓴다(`^[A-Za-z0-9_-]+$`, 최대 100자).
   - 파일 안 `requestId`는 파일 이름에서 `.json`을 뺀 값과 같아야 한다.
