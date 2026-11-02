@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "requestId": "20261102T184318Z-azur-promilia-ananta-apply",
+  "reason": "운영자가 지정한 아주르 프로밀리아 4건과 무한대 1건을 재확인해 apply로 다시 제출합니다. 공식 원문 내용과 출처 종류를 유지하며 이미 반영된 이환 항목은 제외합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T18:43:18Z",
+  "entries": [
+    {
+      "id": "azur-promilia-kr-launch-20261126",
+      "gameId": "azur-promilia",
+      "region": "kr",
+      "kind": "update",
+      "server": "Korea",
+      "title": {
+        "ko": "아주르 프로밀리아 한국 정식 출시: 11월 26일",
+        "en": "Azur Promilia Korean release: November 26",
+        "ja": "アズールプロミリア韓国正式リリース：11月26日",
+        "zh": "蓝色星原：旅谣韩国正式上线：11月26日"
+      },
+      "summary": {
+        "ko": "한국 서비스는 2026년 11월 26일 PC·Google Play·App Store·Galaxy Store로 정식 출시한다. 사전등록과 공식 SNS 팔로워 목표 달성 단계에 따라 출시 후 별의 기억 최대 20개, 캐릭터 애니스, 키보 별빛 구름이 등의 보상을 제공한다.",
+        "en": "The Korean service launches on November 26, 2026 for PC, Google Play, App Store and Galaxy Store. Pre-registration and official social-follower milestones determine launch rewards, including up to 20 draw items and character and Kibo rewards.",
+        "ja": "韓国サービスは2026年11月26日にPC・Google Play・App Store・Galaxy Storeで正式リリース。事前登録と公式SNSのフォロワー目標の達成段階に応じて、抽選アイテム最大20個やキャラクター、キボなどの報酬を配布する。",
+        "zh": "韩国服务将于2026年11月26日在PC、Google Play、App Store及Galaxy Store正式上线。预约及官方社交账号关注人数达成不同目标后，将在上线后发放最多20个抽卡道具，以及角色、奇波等奖励。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-10-23T03:00:00Z",
+      "verifiedAt": "2026-11-02T18:43:18Z",
+      "sourceUrl": "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3568589",
+      "sourceTitle": "아주르 프로밀리아 정식 출시 일정 안내",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ],
+      "startDate": "2026-11-26",
+      "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/509f57fe-6994-4254-8e2d-b5acb617b570/%EC%A0%95%EC%8B%9D%EC%B6%9C%EC%8B%9C%EC%95%88%EB%82%B4.png",
+      "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3568589",
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageVerified": true,
+      "imageCaption": {
+        "ko": "한국 정식 출시 안내 이미지",
+        "en": "Korean release announcement artwork",
+        "ja": "韓国正式リリース告知画像",
+        "zh": "韩国正式上线公告图"
+      },
+      "previewArtwork": {
+        "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/509f57fe-6994-4254-8e2d-b5acb617b570/%EC%A0%95%EC%8B%9D%EC%B6%9C%EC%8B%9C%EC%95%88%EB%82%B4.png",
+        "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3568589",
+        "width": 780,
+        "height": 453,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageVerified": true,
+        "verifiedAt": "2026-11-02T18:43:18Z",
+        "imageCaption": {
+          "ko": "한국 정식 출시 안내 이미지",
+          "en": "Korean release announcement artwork",
+          "ja": "韓国正式リリース告知画像",
+          "zh": "韩国正式上线公告图"
+        },
+        "originalLanguageFallback": true
+      },
+      "detailImages": [
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261022/509f57fe-6994-4254-8e2d-b5acb617b570/%EC%A0%95%EC%8B%9D%EC%B6%9C%EC%8B%9C%EC%95%88%EB%82%B4.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3568589",
+          "width": 780,
+          "height": 453,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageVerified": true,
+          "verifiedAt": "2026-11-02T18:43:18Z",
+          "imageCaption": {
+            "ko": "한국 정식 출시 안내 이미지",
+            "en": "Korean release announcement artwork",
+            "ja": "韓国正式リリース告知画像",
+            "zh": "韩国正式上线公告图"
+          }
+        }
+      ],
+      "originalLanguageFallback": true
+    },
+    {
+      "id": "azur-promilia-kr-cbt-20260515",
+      "gameId": "azur-promilia",
+      "region": "kr",
+      "kind": "update",
+      "server": "Korea",
+      "title": {
+        "ko": "한국 CBT 기록: 기간·플랫폼·데이터 초기화",
+        "en": "Korean CBT record: dates, platforms and data reset",
+        "ja": "韓国CBT記録：期間・対応環境・データ削除",
+        "zh": "韩国CBT记录：日期、平台及数据清除"
+      },
+      "summary": {
+        "ko": "2026년 5월 15~18일 국내 CBT를 PC와 Android에서 진행했다. 선정된 넥슨ID로 참여하며 테스트 계정과 데이터는 종료 후 삭제된다. iOS·MacOS·태블릿 PC·PC 에뮬레이터는 이 테스트에서 지원하지 않았다. 당시 테스트 사양과 콘텐츠는 정식 서비스에서 달라질 수 있다.",
+        "en": "The Korean closed beta ran May 15–18, 2026 on PC and Android for selected Nexon accounts. Test accounts and progress were scheduled for deletion afterward. This test did not support iOS, macOS, tablet PCs or PC emulators. Its requirements and content may differ from the release version.",
+        "ja": "韓国CBTは2026年5月15～18日にPCとAndroidで実施。選出されたNexon IDで参加し、テスト用アカウントとデータは終了後に削除する方針。iOS・macOS・タブレットPC・PCエミュレーターは対象外だった。テスト時の必要環境や内容は正式版で変更される可能性がある。",
+        "zh": "韩国封闭测试于2026年5月15日至18日在PC和Android进行，仅限获选的Nexon账号参加，测试账号及进度在结束后删除。本次测试不支持iOS、macOS、平板电脑及PC模拟器；测试配置与内容可能在正式版调整。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-05-15T03:00:00Z",
+      "verifiedAt": "2026-11-02T18:43:18Z",
+      "sourceUrl": "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3444609",
+      "sourceTitle": "(수정) 아주르 프로밀리아 국내 CBT 시작 안내",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ],
+      "startDate": "2026-05-15",
+      "endDate": "2026-05-18"
+    },
+    {
+      "id": "azur-promilia-kr-cbt-guide-3444612",
+      "gameId": "azur-promilia",
+      "region": "kr",
+      "kind": "update",
+      "server": "Korea",
+      "title": {
+        "ko": "CBT 가이드 1: 성장·탐색·키보 탑승",
+        "en": "CBT guide 1: progression, navigation and Kibo mounts",
+        "ja": "CBTガイド1：成長・探索・キボへの騎乗",
+        "zh": "CBT指南1：成长、探索与奇波骑乘"
+      },
+      "summary": {
+        "ko": "2026년 5월 CBT 기준, 스타센스는 콘텐츠와 지역 의뢰를 해금하는 계정 레벨이다. 퀘스트·지역 의뢰·일일 미션·별의 기록·키보 스타링크 등으로 경험치를 얻는다. 탐색 기능은 퀘스트 목적지까지 길을 표시한다. 키보 탑승은 관련 메인 퀘스트와 안장 제작 후 가능하며, 포만감이 부족하면 달릴 수 없다. 정식 출시 때 달라질 수 있다.",
+        "en": "In the May 2026 CBT, account-level progression unlocks content and regional commissions. Quests, commissions, daily missions, records and Kibo Starlink activities grant experience. The navigation feature marks a route to the quest destination. Riding a Kibo requires the relevant main quest and a crafted saddle; insufficient satiety prevents sprinting. Release behavior may change.",
+        "ja": "2026年5月CBTでは、アカウントレベルでコンテンツや地域依頼が解放される。クエスト、地域依頼、デイリーミッション、記録、キボのスターリンクなどで経験値を獲得。探索機能で目的地への道を表示できる。キボへの騎乗は対応するメインクエストと鞍の製作後に可能となり、満腹度が足りないと走れない。正式版では変更される場合がある。",
+        "zh": "2026年5月CBT中，账号等级用于解锁内容与地区委托；任务、地区委托、每日任务、记录及奇波星链等活动可获得经验。探索功能会标出前往任务目标的路线。完成对应主线并制作鞍具后可骑乘奇波，饱食度不足时无法奔跑。正式版可能调整。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-05-15T03:00:00Z",
+      "verifiedAt": "2026-11-02T18:43:18Z",
+      "sourceUrl": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+      "sourceTitle": "[CBT] 루미가 준비한 게임 플레이 TIP - Chapter1",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ]
+    },
+    {
+      "id": "azur-promilia-kr-cbt-guide-3444613",
+      "gameId": "azur-promilia",
+      "region": "kr",
+      "kind": "update",
+      "server": "Korea",
+      "title": {
+        "ko": "CBT 가이드 2: 하우징·제작·외형 변경",
+        "en": "CBT guide 2: housing, crafting and customization",
+        "ja": "CBTガイド2：ハウジング・製作・外見変更",
+        "zh": "CBT指南2：家园、制作与外观自定义"
+      },
+      "summary": {
+        "ko": "2026년 5월 CBT 기준, 작업에 배치한 키보는 작업 속도를 높이고 목장에 배치한 키보는 하우징용 아이템을 생산한다. 돌도끼·돌곡괭이와 일반 스타링크 카드는 간편 제작으로 만들 수 있다. 하우징 숙소는 스타센스 15레벨에 해금된다. 명함의 외형 편집에서 머리·눈·귀·피부색·의상·성별을 바꿀 수 있다. 정식 출시 때 달라질 수 있다.",
+        "en": "In the May 2026 CBT, assigned Kibo speed up housing jobs, while ranch Kibo produce housing items. Quick crafting makes stone gathering tools and basic Starlink cards. Housing accommodation unlocks at account level 15. Appearance editing allows changes to hair, eyes, ears, skin, clothes and gender. These beta systems may change before release.",
+        "ja": "2026年5月CBTでは、作業に配置したキボが作業速度を高め、牧場のキボがハウジング用アイテムを生産する。石の採集道具と通常のスターリンクカードは簡易製作が可能。宿舎はアカウントレベル15で解放され、外見編集では髪・目・耳・肌・衣装・性別を変更できる。正式版では変更される場合がある。",
+        "zh": "2026年5月CBT中，安排奇波工作可提升家园作业速度，牧场奇波可生产家园用品。石制采集工具及普通星链卡可通过简易制作获得。家园住所于账号15级解锁，外观编辑可调整发型、眼睛、耳朵、肤色、服装及性别。正式版可能调整。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-05-15T03:00:00Z",
+      "verifiedAt": "2026-11-02T18:43:18Z",
+      "sourceUrl": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+      "sourceTitle": "[CBT] 루미가 준비한 게임 플레이 TIP - Chapter2",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ]
+    },
+    {
+      "id": "ananta-global-launch-20270115",
+      "gameId": "ananta",
+      "region": "global",
+      "kind": "update",
+      "server": "Global",
+      "title": {
+        "ko": "무한대 글로벌 출시: 2027년 1월 15일",
+        "en": "ANANTA global release: January 15, 2027",
+        "ja": "無限大ANANTAグローバルリリース：2027年1月15日",
+        "zh": "无限大全球上线：2027年1月15日"
+      },
+      "summary": {
+        "ko": "공식 한국어·영어 사이트는 글로벌 정식 출시일을 2027년 1월 15일로 안내한다. 도시 오픈월드 RPG로, 플레이어는 신계시의 신임 캡틴이 되어 동료를 만나 특별조사팀을 꾸리고 도시의 전투와 일상을 경험한다.",
+        "en": "The official Korean and English sites announce a global release on January 15, 2027. This urban open-world RPG casts the player as a new captain in Nova City, building a special task force with companions while exploring city life and confronting threats.",
+        "ja": "公式韓国語・英語サイトは2027年1月15日のグローバル正式リリースを案内。都市オープンワールドRPGで、新任の隊長として仲間を集め、特別調査チームを編成しながら都市の戦闘と日常を体験する。",
+        "zh": "官方韩文及英文网站宣布将于2027年1月15日全球正式上线。这是一款都市开放世界RPG，玩家作为新任队长结识伙伴、组建特别调查团队，探索城市日常并应对威胁。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2027-01-15",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T18:43:18Z",
+      "sourceUrl": "https://www.anantagame.com/kr/index.html",
+      "sourceTitle": "〈무한대〉 공식 웹사이트 | 2027년 1월 15일 글로벌 정식 출시 확정",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ],
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://www.anantagame.com/",
+          "title": "ANANTA Official Website | Global Release on January 15th, 2027",
+          "publisher": "NetEase / Naked Rain"
+        }
+      ]
+    }
+  ],
+  "changes": []
+}
