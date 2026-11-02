@@ -1,0 +1,473 @@
+{
+  "version": 1,
+  "requestId": "20261102T140809Z-endfield-uma-originals-notice-locales",
+  "reason": "엔드필드 환월의 공식 원화, 우마무스메 공식 일정표·방송 안내 이미지와 공지 요약, 명일방주 일본·홀로라이브 드림스 공지 번역을 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T14:08:09Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-umamusume-kr-115039579",
+      "set": {
+        "title": {
+          "ko": "우마무스메 프리티 더비 11월 스케줄 안내",
+          "en": "Korean service November schedule",
+          "ja": "韓国サービス 11月スケジュールのお知らせ",
+          "zh": "韓服11月活動日程"
+        },
+        "summary": {
+          "ko": "한국 서비스는 11월 10~19일 후사이치 판도라·서포트 카드 셀렉트 픽업, 11월 19일~12월 3일 사토노 크라운·슈발 그랑 픽업을 예고했다. 메인 스토리 제2부 후편은 11월 10일부터, 챔피언스 미팅 CLASSIC은 13~19일, 스토리 이벤트 서머 데이즈 「You」 그래피티는 19일~12월 3일로 안내했다.",
+          "en": "The Korean service schedules Fusaichi Pandora and a support-card selection pick-up for November 10–19, followed by Satono Crown and Cheval Grand on November 19–December 3. The latter part of Main Story Part 2 starts November 10; Champions Meeting CLASSIC runs November 13–19, and the summer story event runs November 19–December 3.",
+          "ja": "韓国サービスでは11月10～19日にフサイチパンドラとサポートカードのセレクトピックアップ、11月19日～12月3日にサトノクラウン・シュヴァルグランのピックアップを予定。メインストーリー第2部後編は11月10日から、チャンピオンズミーティングCLASSICは13～19日、サマーのストーリーイベントは19日～12月3日と案内されている。",
+          "zh": "韓服預告11月10～19日推出Fusaichi Pandora及支援卡自選精選，11月19日～12月3日推出Satono Crown與Cheval Grand精選。主線故事第2部後篇於11月10日開放；CLASSIC冠軍集會為13～19日，夏日劇情活動為19日～12月3日。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "image": "https://k.kakaocdn.net/dn/TGDAj/dJMcaf9wobx/Hdv31yeGdRdgBUatJ3TtYK/img.png",
+        "imageSource": "https://pf.kakao.com/_DzxjIb/115039579",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "한국 서비스 2026년 11월 공식 일정표",
+          "en": "Official November 2026 schedule for the Korean service",
+          "ja": "韓国サービス 2026年11月公式スケジュール",
+          "zh": "韓服2026年11月官方日程表"
+        },
+        "originalLanguageFallback": true,
+        "previewArtwork": {
+          "image": "https://k.kakaocdn.net/dn/TGDAj/dJMcaf9wobx/Hdv31yeGdRdgBUatJ3TtYK/img.png",
+          "imageSource": "https://pf.kakao.com/_DzxjIb/115039579",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "width": 876,
+          "height": 1064,
+          "verifiedAt": "2026-11-02T14:08:09Z",
+          "imageCaption": {
+            "ko": "한국 서비스 2026년 11월 공식 일정표",
+            "en": "Official November 2026 schedule for the Korean service",
+            "ja": "韓国サービス 2026年11月公式スケジュール",
+            "zh": "韓服2026年11月官方日程表"
+          },
+          "originalLanguageFallback": true
+        },
+        "detailImages": [
+          {
+            "image": "https://k.kakaocdn.net/dn/TGDAj/dJMcaf9wobx/Hdv31yeGdRdgBUatJ3TtYK/img.png",
+            "imageSource": "https://pf.kakao.com/_DzxjIb/115039579",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 876,
+            "height": 1064,
+            "verifiedAt": "2026-11-02T14:08:09Z",
+            "imageCaption": {
+              "ko": "한국 서비스 2026년 11월 공식 일정표",
+              "en": "Official November 2026 schedule for the Korean service",
+              "ja": "韓国サービス 2026年11月公式スケジュール",
+              "zh": "韓服2026年11月官方日程表"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "우마무스메 프리티 더비 11월 스케줄 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "우마무스메 프리티 더비 11월 스케줄을 안내드려요💗 자세한 내용은 공식 카페에서 우마무스메 프리티 더비 11월 스케줄 안내 공지를 확인해 주세요. 공식 카페 공지 바로가기: [확률형 아이템 포함]",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "previewArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://pf.kakao.com/_DzxjIb/115039579"
+      ]
+    },
+    {
+      "id": "quick-umamusume-jp-3532",
+      "set": {
+        "title": {
+          "ko": "「소코소코 파카라이브 TV Vol.56」10월 30일 공개 예고",
+          "en": "Sokosoko Paka Live TV Vol.56 — October 30 premiere announcement",
+          "ja": "「そこそこぱかライブTV Vol.56」10月30日(金)19時公開！そこそこなトークをゆるりとお届け！",
+          "zh": "「Sokosoko Paka Live TV Vol.56」10月30日公開預告"
+        },
+        "summary": {
+          "ko": "공식 YouTube 채널 「ぱかチューブっ!」에서 10월 30일 Vol.56 공개를 예고한 공지다. 이번 프로그램에 처음 출연하는 성우 3명이 담당 캐릭터의 뒷이야기와 일화를 나누고, 제시어를 우아하게 비유하는 게임에 도전하는 구성을 소개했다.",
+          "en": "The announcement schedules Vol.56 for October 30 on the official YouTube channel PakaTube. Three voice actors making their first appearance on the program are set to discuss their characters and personal anecdotes, then play a game of describing prompts with elegant comparisons.",
+          "ja": "公式YouTubeチャンネル「ぱかチューブっ!」で10月30日にVol.56を公開すると告知。番組初出演の藤野彩水・菊池ゆりな・海野水玉が、担当ウマ娘や日常のエピソードを語り、お題の言葉を麗しく例えるゲームに挑戦する構成が紹介されている。",
+          "zh": "公告預告10月30日在官方YouTube頻道「ぱかチューブっ!」公開Vol.56。三位首次參加此節目的聲優將分享所配角色的幕後故事及生活軼事，並挑戰以優雅比喻描述題目詞語的遊戲。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "image": "https://prd-info-umamusume.akamaized.net/announce/3532/Header/sokosoko56_KV_2.png?c=20261028180005",
+        "imageSource": "https://umamusume.jp/news/detail?id=3532",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "imageCaption": {
+          "ko": "소코소코 파카라이브 TV Vol.56 공식 안내 이미지",
+          "en": "Official Sokosoko Paka Live TV Vol.56 announcement image",
+          "ja": "そこそこぱかライブTV Vol.56 公式告知画像",
+          "zh": "Sokosoko Paka Live TV Vol.56官方公告圖片"
+        },
+        "originalLanguageFallback": true,
+        "previewArtwork": {
+          "image": "https://prd-info-umamusume.akamaized.net/announce/3532/Header/sokosoko56_KV_2.png?c=20261028180005",
+          "imageSource": "https://umamusume.jp/news/detail?id=3532",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "width": 1920,
+          "height": 1080,
+          "verifiedAt": "2026-11-02T14:08:09Z",
+          "imageCaption": {
+            "ko": "소코소코 파카라이브 TV Vol.56 공식 안내 이미지",
+            "en": "Official Sokosoko Paka Live TV Vol.56 announcement image",
+            "ja": "そこそこぱかライブTV Vol.56 公式告知画像",
+            "zh": "Sokosoko Paka Live TV Vol.56官方公告圖片"
+          },
+          "originalLanguageFallback": true
+        },
+        "detailImages": [
+          {
+            "image": "https://prd-info-umamusume.akamaized.net/announce/3532/Header/sokosoko56_KV_2.png?c=20261028180005",
+            "imageSource": "https://umamusume.jp/news/detail?id=3532",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-02T14:08:09Z",
+            "imageCaption": {
+              "ko": "소코소코 파카라이브 TV Vol.56 공식 안내 이미지",
+              "en": "Official Sokosoko Paka Live TV Vol.56 announcement image",
+              "ja": "そこそこぱかライブTV Vol.56 公式告知画像",
+              "zh": "Sokosoko Paka Live TV Vol.56官方公告圖片"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "「そこそこぱかライブTV Vol.56」10月30日(金)19時公開！そこそこなトークをゆるりとお届け！",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "previewArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://umamusume.jp/news/detail?id=3532"
+      ]
+    },
+    {
+      "id": "quick-arknights-jp-4993",
+      "set": {
+        "title": {
+          "ko": "일본 서비스 10월 28일 데이터 업데이트 안내",
+          "en": "Japanese service October 28 data update",
+          "ja": "データ更新のお知らせ",
+          "zh": "日服10月28日資料更新公告"
+        },
+        "summary": {
+          "ko": "10월 28일 일본 서비스 데이터 업데이트는 상설 생존연산 「新たな礎」, 셀렉트 스카우트와 기간 한정 패키지의 준비를 안내했다. ID 정보 갱신 패키지 구매 횟수 초기화, 증명서 교환소·섬멸 의뢰·중견 스카우트 갱신도 포함된다. 각 이벤트의 개최 일정과 상세 내용은 별도 공지 대상이다.",
+          "en": "The Japanese service’s October 28 data-update notice covers preparations for permanent Reclamation Algorithm content, a selection recruitment event and limited-time packs. It also lists an ID-update pack purchase-limit reset, certificate-store and annihilation updates, and a Core Headhunting refresh. Individual event schedules are announced separately.",
+          "ja": "10月28日のデータ更新では、常設生息演算「新たな礎」、セレクトスカウト、期間限定パックの実装・開催準備を案内。ID情報更新パックの購入回数リセット、資格証交換所・殲滅依頼・中堅スカウトの更新も含まれる。各イベントの開催日時と詳細は別途告知される。",
+          "zh": "日服10月28日資料更新公告包含常設生息演算「新たな礎」、自選招募及限時禮包的開放準備，另有ID資訊更新禮包購買次數重置，以及憑證交易所、剿滅委託和中堅尋訪更新。各活動的開放日期與詳情另行公告。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "データ更新のお知らせ",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "いつも『アークナイツ』をプレイしていただき、ありがとうございます。 2026年10月28日（水）16:00 にて、データ更新を実施いたします。 ◆実施日時 2026年10月28日（水）16:00 ~ 16:10 ◆対応内容の詳細 ▼実装準備および更新内容 ・常設生息演算「新たな礎」の実装準備 ・セレクトスカウトの開催準備 ・期間限定パックの販売準備 ・ID情報更新パックの購入回数リセット ・資格証交換所の更新 ・殲滅依頼の更新、全ステージ開放準備 ・中堅スカウトの更新 ※ 各イベントの開催日時および詳細は、別途お知らせをご確認ください。 ◆注意事項 ・データ更新の開始時間前に、連携IDと連携コードを控えるなど、データ連携を予め行うよ",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://arknights.jp/news/4993"
+      ]
+    },
+    {
+      "id": "quick-holodreams-global-674008896091717653-ja",
+      "set": {
+        "title": {
+          "ko": "Ver.1.2.100",
+          "en": "Ver.1.2.100",
+          "ja": "Ver.1.2.100",
+          "zh": "Ver.1.2.100"
+        },
+        "summary": {
+          "ko": "Ver.1.2.100에서 업적과 Holo멤버 보드를 개선하고 오류를 수정했다.",
+          "en": "Version 1.2.100 improves achievements and the Holomem Board, and fixes bugs.",
+          "ja": "Ver.1.2.100ではアチーブメントとホロメンボードを改善し、不具合を修正した。",
+          "zh": "Ver.1.2.100改善成就與Holomem Board，並修正錯誤。"
+        },
+        "officialLocales": [
+          "ja",
+          "ko",
+          "en"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=japanese",
+          "ko": "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=koreana",
+          "en": "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=english"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "Ver.1.2.100",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "【各種改善】 ・アチーブメントの改善 ・ホロメンボードの改善 ・不具合の修正",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=japanese"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=japanese",
+        "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=koreana",
+        "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=english"
+      ]
+    },
+    {
+      "id": "quick-holodreams-global-674008896091717653-en",
+      "set": {
+        "title": {
+          "ko": "Ver.1.2.100",
+          "en": "Ver.1.2.100",
+          "ja": "Ver.1.2.100",
+          "zh": "Ver.1.2.100"
+        },
+        "summary": {
+          "ko": "Ver.1.2.100에서 업적과 Holo멤버 보드를 개선하고 오류를 수정했다.",
+          "en": "Version 1.2.100 improves achievements and the Holomem Board, and fixes bugs.",
+          "ja": "Ver.1.2.100ではアチーブメントとホロメンボードを改善し、不具合を修正した。",
+          "zh": "Ver.1.2.100改善成就與Holomem Board，並修正錯誤。"
+        },
+        "officialLocales": [
+          "en",
+          "ko",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=english",
+          "ko": "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=koreana",
+          "ja": "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=japanese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Ver.1.2.100",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "[Various Improvements] ・Achievements improvements ・Holomem Board improvements ・Bug fixes",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=english"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=english",
+        "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=koreana",
+        "https://store.steampowered.com/news/app/4282500/view/674008896091717653?l=japanese"
+      ]
+    },
+    {
+      "id": "endfield-lunar-calling",
+      "set": {
+        "image": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/visual.568916.png",
+        "imageSource": "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+        "imageVerified": true,
+        "imageKind": "weapon",
+        "imageLocale": "neutral",
+        "imageCaption": {
+          "ko": "환월 · 공식 무기 원화",
+          "en": "Lunar Calling · official weapon artwork",
+          "ja": "問月・公式武器アート",
+          "zh": "喚月・官方武器原畫"
+        },
+        "previewArtwork": {
+          "image": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/visual.568916.png",
+          "imageSource": "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+          "imageVerified": true,
+          "imageKind": "weapon",
+          "imageLocale": "neutral",
+          "width": 1920,
+          "height": 897,
+          "verifiedAt": "2026-11-02T14:08:09Z",
+          "imageCaption": {
+            "ko": "환월 · 공식 무기 원화",
+            "en": "Lunar Calling · official weapon artwork",
+            "ja": "問月・公式武器アート",
+            "zh": "喚月・官方武器原畫"
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/visual.568916.png",
+            "imageSource": "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+            "imageVerified": true,
+            "imageKind": "weapon",
+            "imageLocale": "neutral",
+            "width": 1920,
+            "height": 897,
+            "verifiedAt": "2026-11-02T14:08:09Z",
+            "imageCaption": {
+              "ko": "환월 · 공식 무기 원화",
+              "en": "Lunar Calling · official weapon artwork",
+              "ja": "問月・公式武器アート",
+              "zh": "喚月・官方武器原畫"
+            }
+          }
+        ],
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "환월",
+              "en": "Lunar Calling",
+              "ja": "問月",
+              "zh": "喚月"
+            },
+            "type": "new",
+            "rarity": 6,
+            "imageVerified": true,
+            "image": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/visual.568916.png",
+            "imageSource": "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+            "imageKind": "weapon",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "환월 · 공식 무기 원화",
+              "en": "Lunar Calling · official weapon artwork",
+              "ja": "問月・公式武器アート",
+              "zh": "喚月・官方武器原畫"
+            },
+            "previewArtwork": {
+              "image": "https://web-static.hg-cdn.com/endfield/webview/_version_briefing/v1d6/assets/imgs/visual.568916.png",
+              "imageSource": "https://endfield.gryphline.com/version_briefing/latest?source_from=official",
+              "imageVerified": true,
+              "imageKind": "weapon",
+              "imageLocale": "neutral",
+              "width": 1920,
+              "height": 897,
+              "verifiedAt": "2026-11-02T14:08:09Z",
+              "imageCaption": {
+                "ko": "환월 · 공식 무기 원화",
+                "en": "Lunar Calling · official weapon artwork",
+                "ja": "問月・公式武器アート",
+                "zh": "喚月・官方武器原畫"
+              }
+            }
+          }
+        ]
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "previewArtwork": null,
+        "detailImages": null,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "환월",
+              "en": "Lunar Calling",
+              "ja": "問月",
+              "zh": "喚月"
+            },
+            "type": "new",
+            "rarity": 6,
+            "imageVerified": false
+          }
+        ]
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/9560",
+        "https://endfield.gryphline.com/version_briefing/latest?source_from=official"
+      ]
+    }
+  ]
+}
+
