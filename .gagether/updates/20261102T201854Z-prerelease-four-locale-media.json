@@ -1,0 +1,4776 @@
+{
+  "version": 1,
+  "requestId": "20261102T201854Z-prerelease-four-locale-media",
+  "mode": "apply",
+  "reason": "출시 예정 세 게임의 한국·일본·중국·영어 공식 자료를 보완: 플레이 영상, CBT·세계관 갤러리, 일본 CBT 이력과 캐릭터·키보 현지 명칭",
+  "researchedAt": "2026-11-02T20:18:54Z",
+  "entries": [
+    {
+      "id": "azur-promilia-global-public-media-gallery",
+      "gameId": "azur-promilia",
+      "kind": "update",
+      "region": "global",
+      "server": "Global",
+      "title": {
+        "ko": "아주르 프로밀리아: 플레이 영상·CBT·공식 이미지",
+        "en": "Azur Promilia: gameplay, CBT and official gallery",
+        "ja": "アズールプロミリア：プレイ映像・CBT・公式ギャラリー",
+        "zh": "蓝色星原：旅谣：实机影像、CBT与官方图库"
+      },
+      "summary": {
+        "ko": "한국 CBT 화면과 플레이 영상, 일본 공식 영상·모험 노트, 중국 캐릭터 아트, 영어 키보·성림자 소개를 모았다.",
+        "en": "Korean CBT and gameplay media, Japanese videos and adventure art, Chinese character art, and English Kibo and Starborn introductions.",
+        "ja": "韓国CBT・プレイ映像、日本公式PV・冒険ノート、中国公式キャラクターアート、英語版キボ・主人公紹介。",
+        "zh": "汇集韩国CBT与实机内容、日本官方影像与冒险笔记、中国角色美术及英文奇波和主角介绍。"
+      },
+      "sourceUrl": "https://azurpromilia.nexon.com/",
+      "sourceTitle": "아주르 프로밀리아 공식 사이트",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T20:18:54Z",
+      "audienceRegions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "localizationSources": {
+        "ko": "https://azurpromilia.nexon.com/",
+        "en": "https://x.com/AzurPromilia_EN",
+        "ja": "https://azurpromilia.jp/",
+        "zh": "https://azurpromilia.manjuu.com/home/"
+      },
+      "detailImages": [
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/ff510be4-2b8a-48f6-bf2b-31b5a5bc0703/01.%EB%A9%94%EC%9D%B8%ED%80%98%EC%8A%A4%ED%8A%B8%EC%A7%84%ED%96%89%EC%A4%91%EA%B8%B8%EC%B0%BE%EA%B8%B0%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B4.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+          "width": 1280,
+          "height": 720,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+            "en": "Korean May 2026 CBT official gameplay guide",
+            "ja": "2026年5月韓国CBT公式プレイガイド",
+            "zh": "2026年5月韩国CBT官方玩法说明"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/7ed0e520-1788-4fbb-9e20-067795b930c2/08.%EC%8A%A4%ED%83%80%EC%84%BC%EC%8A%A4%EA%B3%84%EC%A0%95%EB%A0%88%EB%B2%A8%EC%98%AC%EB%A6%AC%EB%8A%94%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B4.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+          "width": 1280,
+          "height": 720,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+            "en": "Korean May 2026 CBT official gameplay guide",
+            "ja": "2026年5月韓国CBT公式プレイガイド",
+            "zh": "2026年5月韩国CBT官方玩法说明"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/a32b6f99-b281-47a9-8faf-586c3b04ee01/07.%EC%9E%A5%EB%B9%84%EC%B6%94%EC%B2%9C%EA%B8%B0%EB%8A%A5%EC%95%88%EB%82%B4.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+          "width": 1280,
+          "height": 720,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+            "en": "Korean May 2026 CBT official gameplay guide",
+            "ja": "2026年5月韓国CBT公式プレイガイド",
+            "zh": "2026年5月韩国CBT官方玩法说明"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/cbf74bb6-4c3b-47aa-b97f-443b16f3d3bf/09.%ED%83%88%EA%B2%83%EC%9D%B4%EC%9A%A9%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B42%ED%83%88%EA%B2%83%ED%83%91%EC%8A%B9%EB%B0%A9%EB%B2%95%EA%B3%BC%ED%80%B5%EC%8A%AC%EB%A1%AF.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+          "width": 1280,
+          "height": 720,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+            "en": "Korean May 2026 CBT official gameplay guide",
+            "ja": "2026年5月韓国CBT公式プレイガイド",
+            "zh": "2026年5月韩国CBT官方玩法说明"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/d7012e5a-cdab-4e91-9d63-afa689bc7d49/10.%ED%95%98%EC%9A%B0%EC%A7%95%EC%97%90%ED%82%A4%EB%B3%B4%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+          "width": 1280,
+          "height": 720,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+            "en": "Korean May 2026 CBT official gameplay guide",
+            "ja": "2026年5月韓国CBT公式プレイガイド",
+            "zh": "2026年5月韩国CBT官方玩法说明"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/ae0415c8-e9f9-424b-8926-f71136dc4ec7/10.%ED%95%98%EC%9A%B0%EC%A7%95%EC%97%90%ED%82%A4%EB%B3%B4%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B45.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+          "width": 1280,
+          "height": 720,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+            "en": "Korean May 2026 CBT official gameplay guide",
+            "ja": "2026年5月韓国CBT公式プレイガイド",
+            "zh": "2026年5月韩国CBT官方玩法说明"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/be623c64-0108-4472-a3c2-555a901eaf6a/11.%EB%8F%8C%EB%8F%84%EB%81%BC%EB%8F%8C%EA%B3%A1%EA%B4%AD%EC%9D%B4%EB%93%B1%EA%B0%84%ED%8E%B8%EC%A0%9C%EC%9E%91%ED%95%98%EB%8A%94%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+          "width": 1280,
+          "height": 720,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+            "en": "Korean May 2026 CBT official gameplay guide",
+            "ja": "2026年5月韓国CBT公式プレイガイド",
+            "zh": "2026年5月韩国CBT官方玩法说明"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/72b62902-bc52-4aeb-ac27-a76bb253fcdf/12.%EC%84%B1%EB%A6%BC%EC%9E%90%EC%99%B8%ED%98%95%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+          "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+          "width": 1280,
+          "height": 720,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+            "en": "Korean May 2026 CBT official gameplay guide",
+            "ja": "2026年5月韓国CBT公式プレイガイド",
+            "zh": "2026年5月韩国CBT官方玩法说明"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic1-Domz6DYA.webp",
+          "imageSource": "https://azurpromilia.jp/world",
+          "width": 2094,
+          "height": 1208,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "imageCaption": {
+            "ko": "일본 공식 모험 노트 아트",
+            "en": "Japanese official adventure-notebook art",
+            "ja": "日本公式・冒険ノートのアート",
+            "zh": "日服官方冒险笔记美术图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic2-BDbHlTC-.webp",
+          "imageSource": "https://azurpromilia.jp/world",
+          "width": 2094,
+          "height": 1208,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "imageCaption": {
+            "ko": "일본 공식 모험 노트 아트",
+            "en": "Japanese official adventure-notebook art",
+            "ja": "日本公式・冒険ノートのアート",
+            "zh": "日服官方冒险笔记美术图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic3-D-AykPnR.webp",
+          "imageSource": "https://azurpromilia.jp/world",
+          "width": 2094,
+          "height": 1208,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "imageCaption": {
+            "ko": "일본 공식 모험 노트 아트",
+            "en": "Japanese official adventure-notebook art",
+            "ja": "日本公式・冒険ノートのアート",
+            "zh": "日服官方冒险笔记美术图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic4-C7AqLBKr.webp",
+          "imageSource": "https://azurpromilia.jp/world",
+          "width": 1380,
+          "height": 794,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "imageCaption": {
+            "ko": "일본 공식 모험 노트 아트",
+            "en": "Japanese official adventure-notebook art",
+            "ja": "日本公式・冒険ノートのアート",
+            "zh": "日服官方冒险笔记美术图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic5-D-5_ikxk.webp",
+          "imageSource": "https://azurpromilia.jp/world",
+          "width": 2094,
+          "height": 1208,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "imageCaption": {
+            "ko": "일본 공식 모험 노트 아트",
+            "en": "Japanese official adventure-notebook art",
+            "ja": "日本公式・冒険ノートのアート",
+            "zh": "日服官方冒险笔记美术图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.ef0553cb.jpg",
+          "imageSource": "https://azurpromilia.manjuu.com/home/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "zh",
+          "imageCaption": {
+            "ko": "중국 공식 사이트 공개 캐릭터 아트",
+            "en": "Character art from the Chinese official website",
+            "ja": "中国公式サイトの公開キャラクターアート",
+            "zh": "中国官网公开角色美术图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.ceae56f3.jpg",
+          "imageSource": "https://azurpromilia.manjuu.com/home/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "zh",
+          "imageCaption": {
+            "ko": "중국 공식 사이트 공개 캐릭터 아트",
+            "en": "Character art from the Chinese official website",
+            "ja": "中国公式サイトの公開キャラクターアート",
+            "zh": "中国官网公开角色美术图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://plat-cdn.manjuu.com/platform/33c42214-f1f6-42a3-8e3a-ee4045bdfa74/P3OfficialWebsite/prod/_next/static/media/bg.2d4287d9.jpg",
+          "imageSource": "https://azurpromilia.manjuu.com/home/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "zh",
+          "imageCaption": {
+            "ko": "중국 공식 사이트 공개 캐릭터 아트",
+            "en": "Character art from the Chinese official website",
+            "ja": "中国公式サイトの公開キャラクターアート",
+            "zh": "中国官网公开角色美术图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://pbs.twimg.com/media/HVi5RB8asAATDWU?format=webp&name=large",
+          "imageSource": "https://x.com/AzurPromilia_EN/status/2114703604951003538",
+          "width": 2048,
+          "height": 922,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "영어 공식 공개 소개 이미지",
+            "en": "English official public introduction image",
+            "ja": "英語公式の公開紹介画像",
+            "zh": "英文官方公开介绍图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://pbs.twimg.com/media/HVJFbsPaQAAsZS_?format=webp&name=large",
+          "imageSource": "https://x.com/AzurPromilia_EN/status/2112891652444717135",
+          "width": 1600,
+          "height": 900,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "영어 공식 공개 소개 이미지",
+            "en": "English official public introduction image",
+            "ja": "英語公式の公開紹介画像",
+            "zh": "英文官方公开介绍图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://pbs.twimg.com/media/HUpx-tFboAAxF_w?format=webp&name=large",
+          "imageSource": "https://x.com/AzurPromilia_EN/status/2111079715981390036",
+          "width": 1948,
+          "height": 920,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "영어 공식 공개 소개 이미지",
+            "en": "English official public introduction image",
+            "ja": "英語公式の公開紹介画像",
+            "zh": "英文官方公开介绍图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        }
+      ],
+      "previewArtwork": {
+        "image": "https://webusstatic.yo-star.com/azurpromilia-jp/azurpromilia-jp-official-2026/prod/azurpromiliajpofficial2026/assets/pic5-D-5_ikxk.webp",
+        "imageSource": "https://azurpromilia.jp/world",
+        "width": 2094,
+        "height": 1208,
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "imageCaption": {
+          "ko": "일본 공식 모험 노트 아트",
+          "en": "Japanese official adventure-notebook art",
+          "ja": "日本公式・冒険ノートのアート",
+          "zh": "日服官方冒险笔记美术图"
+        },
+        "verifiedAt": "2026-11-02T20:18:54Z"
+      },
+      "videos": [
+        {
+          "youtubeId": "QtY2rOELsAQ",
+          "kind": "character",
+          "format": "demo",
+          "title": {
+            "ko": "「아주르 프로밀리아」 | 캐릭터 플레이 미리보기",
+            "en": "Character gameplay preview",
+            "ja": "キャラクタープレイ紹介",
+            "zh": "角色玩法预览"
+          },
+          "originalTitle": "「아주르 프로밀리아」 | 캐릭터 플레이 미리보기",
+          "locale": "ko",
+          "channel": "아주르 프로밀리아",
+          "sourceUrl": "https://www.youtube.com/watch?v=QtY2rOELsAQ",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ko"
+          ],
+          "titleTranslatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@azurpromiliaKR/videos",
+            "https://www.youtube.com/@AzurPromiliaKR"
+          ]
+        },
+        {
+          "youtubeId": "lYKiuVCREKk",
+          "kind": "version",
+          "format": "intro",
+          "title": {
+            "ko": "「아주르 프로밀리아」 | CBT 특별 여행 가이드",
+            "en": "CBT travel guide",
+            "ja": "CBT特別旅行ガイド",
+            "zh": "CBT特别旅行指南"
+          },
+          "originalTitle": "「아주르 프로밀리아」 | CBT 특별 여행 가이드",
+          "locale": "ko",
+          "channel": "아주르 프로밀리아",
+          "sourceUrl": "https://www.youtube.com/watch?v=lYKiuVCREKk",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ko"
+          ],
+          "titleTranslatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@azurpromiliaKR/videos",
+            "https://www.youtube.com/@AzurPromiliaKR"
+          ]
+        },
+        {
+          "youtubeId": "HBh9DB5lAOY",
+          "kind": "version",
+          "format": "pv",
+          "title": {
+            "ko": "「아주르 프로밀리아」 | PV - 키보의 세계",
+            "en": "The world of Kibo",
+            "ja": "キボの世界",
+            "zh": "奇波的世界"
+          },
+          "originalTitle": "「아주르 프로밀리아」 | PV - 키보의 세계",
+          "locale": "ko",
+          "channel": "아주르 프로밀리아",
+          "sourceUrl": "https://www.youtube.com/watch?v=HBh9DB5lAOY",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ko"
+          ],
+          "titleTranslatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@azurpromiliaKR/videos",
+            "https://www.youtube.com/@AzurPromiliaKR"
+          ]
+        },
+        {
+          "youtubeId": "oOU5eBRhAd4",
+          "kind": "version",
+          "format": "pv",
+          "title": {
+            "ko": "키보 사파리",
+            "en": "Azur Promilia | Kibo Safari",
+            "ja": "キボサファリ",
+            "zh": "奇波生态"
+          },
+          "originalTitle": "Azur Promilia | Kibo Safari",
+          "locale": "en",
+          "channel": "Azur Promilia",
+          "sourceUrl": "https://www.youtube.com/watch?v=oOU5eBRhAd4",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "en"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "ja",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@AzurPromilia_EN/videos",
+            "https://www.youtube.com/@AzurPromilia_EN"
+          ]
+        },
+        {
+          "youtubeId": "GkFst-RdMSs",
+          "kind": "version",
+          "format": "pv",
+          "title": {
+            "ko": "일본 공식 티저 PV",
+            "en": "Japanese official teaser",
+            "ja": "「アズールプロミリア」ティザーPV",
+            "zh": "日本官方先导宣传片"
+          },
+          "originalTitle": "「アズールプロミリア」ティザーPV",
+          "locale": "ja",
+          "channel": "アズールプロミリア-Azur Promilia-",
+          "sourceUrl": "https://www.youtube.com/watch?v=GkFst-RdMSs",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@AzurPromilia_JP/videos",
+            "https://www.youtube.com/@AzurPromilia_JP"
+          ]
+        },
+        {
+          "youtubeId": "5YER_k1G11Q",
+          "kind": "version",
+          "format": "pv",
+          "title": {
+            "ko": "키보 백경",
+            "en": "Kibo scenes",
+            "ja": "【アズールプロミリア】キボ百景",
+            "zh": "奇波百景"
+          },
+          "originalTitle": "【アズールプロミリア】キボ百景",
+          "locale": "ja",
+          "channel": "アズールプロミリア-Azur Promilia-",
+          "sourceUrl": "https://www.youtube.com/watch?v=5YER_k1G11Q",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@AzurPromilia_JP/videos",
+            "https://www.youtube.com/@AzurPromilia_JP"
+          ]
+        },
+        {
+          "youtubeId": "8IJZ3bmjxTk",
+          "kind": "version",
+          "format": "intro",
+          "title": {
+            "ko": "일본 CBT 특별 방송",
+            "en": "Japanese CBT special programme",
+            "ja": "【アズールプロミリア】クローズドβテスト 特別番組",
+            "zh": "日本CBT特别节目"
+          },
+          "originalTitle": "【アズールプロミリア】クローズドβテスト 特別番組",
+          "locale": "ja",
+          "channel": "アズールプロミリア-Azur Promilia-",
+          "sourceUrl": "https://www.youtube.com/watch?v=8IJZ3bmjxTk",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@AzurPromilia_JP/videos",
+            "https://www.youtube.com/@AzurPromilia_JP"
+          ]
+        }
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "한국 CBT의 플레이 화면",
+            "en": "Korean CBT gameplay images",
+            "ja": "韓国CBTのプレイ画像",
+            "zh": "韩国CBT玩法图片"
+          },
+          "body": {
+            "ko": "2026년 5월 한국 CBT 공식 가이드는 길 찾기, 계정 성장, 장비 추천, 키보 탑승과 배치, 빠른 제작, 외형 변경을 화면으로 설명했다.",
+            "en": "The Korean May 2026 CBT guides illustrate navigation, account progression, gear recommendations, riding and assigning Kibo, quick crafting and appearance changes.",
+            "ja": "2026年5月韓国CBTの公式ガイドは、経路案内、成長、推奨装備、キボ騎乗・配置、簡易製作、外見変更を画像で紹介。",
+            "zh": "2026年5月韩国CBT官方指南以画面说明导航、账号成长、装备推荐、骑乘与部署奇波、快速制作及外观调整。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613"
+          ]
+        },
+        {
+          "title": {
+            "ko": "일본의 공개 세계와 테스트",
+            "en": "Japanese world introduction and test",
+            "ja": "日本の世界紹介とテスト",
+            "zh": "日本公开世界介绍与测试"
+          },
+          "body": {
+            "ko": "일본 공식 사이트는 캐릭터 5명, 키보 5종, 지역 5곳과 모험 노트를 공개한다. 일본 CBT는 2026년 7월 2~10일 진행된 별도 테스트이며 현재 모집은 종료됐다.",
+            "en": "The Japanese site presents five characters, five Kibo, five regions and adventure-notebook art. Its separate July 2–10, 2026 CBT has ended and recruitment is closed.",
+            "ja": "日本公式サイトは5人のキャラクター、5種類のキボ、5地域と冒険ノートを公開。2026年7月2～10日の日本CBTは終了し、現在は募集していない。",
+            "zh": "日本官网公开5位角色、5种奇波、5个区域与冒险笔记。日本独立CBT于2026年7月2—10日举行，现已结束招募。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://azurpromilia.jp/character",
+            "https://azurpromilia.jp/kibo",
+            "https://azurpromilia.jp/world",
+            "https://azurpromilia.jp/cbt/"
+          ]
+        },
+        {
+          "title": {
+            "ko": "영어 공식 키보 소개",
+            "en": "English official Kibo introduction",
+            "ja": "英語公式キボ紹介",
+            "zh": "英文官方奇波介绍"
+          },
+          "body": {
+            "ko": "키보는 성장 단계에 따라 외형과 행동, 재능과 스킬이 달라지는 동료로 소개된다. 영문 공개 이미지에는 성장 단계와 성림자 소개가 실려 있다.",
+            "en": "Official English posts describe Kibo whose appearance, behaviour, talents and skills change as they grow. The images introduce growth stages and Starborn.",
+            "ja": "英語公式は、成長に応じて姿・行動・才能・スキルが変わる仲間としてキボを紹介。公開画像では成長段階や主人公を紹介している。",
+            "zh": "英文官方将奇波介绍为随成长改变外观、行为、天赋和技能的伙伴。公开图片展示成长阶段与主角。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://x.com/AzurPromilia_EN/status/2112891652444717135",
+            "https://x.com/AzurPromilia_EN/status/2114703604951003538"
+          ]
+        },
+        {
+          "title": {
+            "ko": "중국 공식 공개 아트",
+            "en": "Chinese official public art",
+            "ja": "中国公式公開アート",
+            "zh": "中国官方公开美术"
+          },
+          "body": {
+            "ko": "중국 공식 홈페이지에서 공개한 캐릭터 아트와 키보 원문 명칭을 함께 소개한다. 홈페이지의 영상과 캐릭터·키보·세계 소개를 원문으로 볼 수 있다.",
+            "en": "The Chinese official homepage supplies character artwork and original Kibo names, with its own video, character, Kibo and world sections.",
+            "ja": "中国公式ホームページのキャラクターアートとキボ原語名を紹介。公式動画、キャラクター・キボ・世界紹介も原文で閲覧できる。",
+            "zh": "中国官网提供公开角色美术及奇波原名，并设有视频、角色、奇波与世界介绍。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://azurpromilia.manjuu.com/home/"
+          ]
+        }
+      ],
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://azurpromilia.nexon.com/",
+          "title": "한국 공식 홈페이지"
+        },
+        {
+          "kind": "official",
+          "url": "https://x.com/AzurPromilia_EN",
+          "title": "English official updates"
+        },
+        {
+          "kind": "official",
+          "url": "https://azurpromilia.jp/",
+          "title": "日本公式サイト"
+        },
+        {
+          "kind": "official",
+          "url": "https://azurpromilia.manjuu.com/home/",
+          "title": "中国官方网站 · 视频与角色"
+        },
+        {
+          "kind": "official",
+          "url": "https://azurpromilia.jp/cbt/",
+          "title": "日本クローズドβテスト開催記録"
+        },
+        {
+          "kind": "official",
+          "url": "https://azurpromilia.jp/world",
+          "title": "日本公式・世界と冒険ノート"
+        },
+        {
+          "kind": "official",
+          "url": "https://x.com/AzurPromilia_EN/status/2112891652444717135",
+          "title": "Promilia Lives | Kibo Growth"
+        },
+        {
+          "kind": "official",
+          "url": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+          "title": "한국 CBT 플레이 가이드 1"
+        },
+        {
+          "kind": "official",
+          "url": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+          "title": "한국 CBT 플레이 가이드 2"
+        }
+      ]
+    },
+    {
+      "id": "azur-promilia-jp-public-cbt-history-202607",
+      "gameId": "azur-promilia",
+      "kind": "update",
+      "region": "jp",
+      "server": "Japan",
+      "title": {
+        "ko": "일본 CBT 기록: 2026년 7월 테스트",
+        "en": "Japanese CBT record: July 2026",
+        "ja": "日本CBT開催記録：2026年7月",
+        "zh": "日本CBT记录：2026年7月"
+      },
+      "summary": {
+        "ko": "일본 공식 안내에 남은 7월 2~10일 Windows·Android 테스트 기록. 모집과 테스트는 종료됐다.",
+        "en": "The Japanese official archive records a July 2–10 Windows and Android test. Recruitment and testing are closed.",
+        "ja": "公式アーカイブに残る7月2～10日のWindows・Androidテスト。募集と開催は終了。",
+        "zh": "日本官方记录了7月2—10日的Windows与Android测试，招募和测试均已结束。"
+      },
+      "sourceUrl": "https://azurpromilia.jp/cbt/",
+      "sourceTitle": "クローズドβテスト（開催終了）｜アズールプロミリア",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T20:18:54Z",
+      "detailSections": [
+        {
+          "title": {
+            "ko": "목적과 참가 방식",
+            "en": "Purpose and admission",
+            "ja": "目的と参加方法",
+            "zh": "目的与参与方式"
+          },
+          "body": {
+            "ko": "정식 서비스의 품질 개선과 부하 테스트가 목적이었다. 6월 1~25일 설문으로 신청을 받았고, 신청자가 많으면 추첨했다. 대상 플랫폼은 Windows PC와 Android였다.",
+            "en": "The test aimed to improve service quality and test server load. Applications used a June 1–25 questionnaire, with a lottery if oversubscribed, for Windows PC and Android.",
+            "ja": "正式サービスの品質向上と負荷テストが目的。6月1～25日にアンケートで応募を受け付け、多数の場合は抽選。対象はWindows PCとAndroid。",
+            "zh": "测试旨在提升正式服务质量并验证负载。6月1—25日通过问卷报名，人数过多时抽选；平台为Windows PC与Android。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://azurpromilia.jp/cbt/"
+          ]
+        }
+      ],
+      "videos": [
+        {
+          "youtubeId": "8IJZ3bmjxTk",
+          "kind": "version",
+          "format": "intro",
+          "title": {
+            "ko": "일본 CBT 특별 방송",
+            "en": "Japanese CBT special programme",
+            "ja": "【アズールプロミリア】クローズドβテスト 特別番組",
+            "zh": "日本CBT特别节目"
+          },
+          "originalTitle": "【アズールプロミリア】クローズドβテスト 特別番組",
+          "locale": "ja",
+          "channel": "アズールプロミリア-Azur Promilia-",
+          "sourceUrl": "https://www.youtube.com/watch?v=8IJZ3bmjxTk",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@AzurPromilia_JP/videos",
+            "https://www.youtube.com/@AzurPromilia_JP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azur-promilia-global-public-kibo-encyclopedia",
+      "gameId": "azur-promilia",
+      "kind": "update",
+      "region": "global",
+      "server": "Global",
+      "title": {
+        "ko": "공개 키보 도감: 일본·중국 공식 명칭",
+        "en": "Public Kibo guide: Japanese and Chinese names",
+        "ja": "公開キボ図鑑：日本・中国公式名",
+        "zh": "公开奇波图鉴：中日官方名称"
+      },
+      "summary": {
+        "ko": "일본 공식 소개와 중국 공식 원문을 연결한 키보 5종. 지역별 명칭을 구분하며 미공개 수치는 포함하지 않는다.",
+        "en": "Five Kibo from Japanese official profiles and the Chinese official roster, with regional names kept distinct.",
+        "ja": "日本公式紹介と中国公式原文を結ぶ5種類のキボ。地域別の公式名を区別。",
+        "zh": "根据日本官方介绍和中国官网整理5种奇波，区分各地区官方名称。"
+      },
+      "sourceUrl": "https://azurpromilia.jp/kibo",
+      "sourceTitle": "キボ一覧｜アズールプロミリア",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T20:18:54Z",
+      "audienceRegions": [
+        "global",
+        "kr",
+        "jp",
+        "cn"
+      ],
+      "entityDetails": [
+        {
+          "id": "azur-kibo-staray",
+          "name": {
+            "ko": "STARAY",
+            "en": "STARAY",
+            "ja": "メテオール",
+            "zh": "星鳐"
+          },
+          "category": {
+            "ko": "키보",
+            "en": "Kibo",
+            "ja": "キボ",
+            "zh": "奇波"
+          },
+          "basis": {
+            "ko": "출시 전 일본·중국 공식 공개 자료",
+            "en": "Prerelease Japanese and Chinese official information",
+            "ja": "発売前の日本・中国公式公開情報",
+            "zh": "上市前中日官方公开资料"
+          },
+          "officialLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [
+            "ko"
+          ],
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "생태",
+                "en": "Ecology",
+                "ja": "生態",
+                "zh": "生态"
+              },
+              "body": {
+                "ko": "강한 날개로 오래 활공하며 독을 흩뿌리는 키보.",
+                "en": "A Kibo that glides on strong wings and disperses poison.",
+                "ja": "強い翼で長く滑空し、毒をまき散らすキボ。",
+                "zh": "以强壮双翼长时间滑翔并散播毒素的奇波。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://azurpromilia.jp/kibo"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.jp/kibo",
+              "title": "キボ一覧"
+            },
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.manjuu.com/home/",
+              "title": "蓝色星原：旅谣 · 奇波"
+            }
+          ],
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "id": "azur-kibo-downybrinny",
+          "name": {
+            "ko": "DOWNYBRINNY",
+            "en": "DOWNYBRINNY",
+            "ja": "モフリーネ",
+            "zh": "绒心布里尼"
+          },
+          "category": {
+            "ko": "키보",
+            "en": "Kibo",
+            "ja": "キボ",
+            "zh": "奇波"
+          },
+          "basis": {
+            "ko": "출시 전 일본·중국 공식 공개 자료",
+            "en": "Prerelease Japanese and Chinese official information",
+            "ja": "発売前の日本・中国公式公開情報",
+            "zh": "上市前中日官方公开资料"
+          },
+          "officialLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [
+            "ko"
+          ],
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "생태",
+                "en": "Ecology",
+                "ja": "生態",
+                "zh": "生态"
+              },
+              "body": {
+                "ko": "여덟 개의 귀를 따로 움직이는 희귀한 키보.",
+                "en": "A rare Kibo that moves its eight ears independently.",
+                "ja": "8つの耳を独立して動かす珍しいキボ。",
+                "zh": "可独立活动八只耳朵的稀有奇波。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://azurpromilia.jp/kibo"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.jp/kibo",
+              "title": "キボ一覧"
+            },
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.manjuu.com/home/",
+              "title": "蓝色星原：旅谣 · 奇波"
+            }
+          ],
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "id": "azur-kibo-cabbird",
+          "name": {
+            "ko": "CABBIRD",
+            "en": "CABBIRD",
+            "ja": "キャバード",
+            "zh": "菜鸡"
+          },
+          "category": {
+            "ko": "키보",
+            "en": "Kibo",
+            "ja": "キボ",
+            "zh": "奇波"
+          },
+          "basis": {
+            "ko": "출시 전 일본·중국 공식 공개 자료",
+            "en": "Prerelease Japanese and Chinese official information",
+            "ja": "発売前の日本・中国公式公開情報",
+            "zh": "上市前中日官方公开资料"
+          },
+          "officialLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [
+            "ko"
+          ],
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "생태",
+                "en": "Ecology",
+                "ja": "生態",
+                "zh": "生态"
+              },
+              "body": {
+                "ko": "온순한 성격으로, 쓰다듬으면 꼬리 깃털을 펼친다.",
+                "en": "A gentle Kibo that spreads its tail feathers when petted.",
+                "ja": "温和で、撫でられると尾羽を広げるキボ。",
+                "zh": "性格温和，被抚摸时会展开尾羽的奇波。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://azurpromilia.jp/kibo"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.jp/kibo",
+              "title": "キボ一覧"
+            },
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.manjuu.com/home/",
+              "title": "蓝色星原：旅谣 · 奇波"
+            }
+          ],
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "id": "azur-kibo-bluda",
+          "name": {
+            "ko": "BLUDA",
+            "en": "BLUDA",
+            "ja": "ブルーダ",
+            "zh": "布鲁达"
+          },
+          "category": {
+            "ko": "키보",
+            "en": "Kibo",
+            "ja": "キボ",
+            "zh": "奇波"
+          },
+          "basis": {
+            "ko": "출시 전 일본·중국 공식 공개 자료",
+            "en": "Prerelease Japanese and Chinese official information",
+            "ja": "発売前の日本・中国公式公開情報",
+            "zh": "上市前中日官方公开资料"
+          },
+          "officialLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [
+            "ko"
+          ],
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "생태",
+                "en": "Ecology",
+                "ja": "生態",
+                "zh": "生态"
+              },
+              "body": {
+                "ko": "균형 감각이 서툴고 물 위에서 뒤집히기도 하는 키보.",
+                "en": "An awkwardly balanced Kibo that can tip over on water.",
+                "ja": "バランスが苦手で、水上でひっくり返ることもあるキボ。",
+                "zh": "平衡感较差，有时会在水面翻倒的奇波。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://azurpromilia.jp/kibo"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.jp/kibo",
+              "title": "キボ一覧"
+            },
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.manjuu.com/home/",
+              "title": "蓝色星原：旅谣 · 奇波"
+            }
+          ],
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "id": "azur-kibo-vespervamp",
+          "name": {
+            "ko": "VESPERVAMP",
+            "en": "VESPERVAMP",
+            "ja": "ナイトフォール",
+            "zh": "怯影之翼"
+          },
+          "category": {
+            "ko": "키보",
+            "en": "Kibo",
+            "ja": "キボ",
+            "zh": "奇波"
+          },
+          "basis": {
+            "ko": "출시 전 일본·중국 공식 공개 자료",
+            "en": "Prerelease Japanese and Chinese official information",
+            "ja": "発売前の日本・中国公式公開情報",
+            "zh": "上市前中日官方公开资料"
+          },
+          "officialLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "translatedLocales": [
+            "ko"
+          ],
+          "stats": [],
+          "statSourceKind": "official",
+          "groups": [
+            {
+              "title": {
+                "ko": "생태",
+                "en": "Ecology",
+                "ja": "生態",
+                "zh": "生态"
+              },
+              "body": {
+                "ko": "쉽게 겁먹지만 음식 냄새에는 거친 면모를 보이는 키보.",
+                "en": "A timid Kibo that becomes fierce when food scents catch its attention.",
+                "ja": "臆病だが、食べ物の匂いには凶暴な面を見せるキボ。",
+                "zh": "容易受惊，但闻到食物气味时会显露凶猛一面的奇波。"
+              },
+              "sourceKind": "official",
+              "sourceUrls": [
+                "https://azurpromilia.jp/kibo"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.jp/kibo",
+              "title": "キボ一覧"
+            },
+            {
+              "kind": "official",
+              "url": "https://azurpromilia.manjuu.com/home/",
+              "title": "蓝色星原：旅谣 · 奇波"
+            }
+          ],
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        }
+      ],
+      "detailImages": [
+        {
+          "image": "https://pbs.twimg.com/media/HVJFbsPaQAAsZS_?format=webp&name=large",
+          "imageSource": "https://x.com/AzurPromilia_EN/status/2112891652444717135",
+          "width": 1600,
+          "height": 900,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "영어 공식 공개 소개 이미지",
+            "en": "English official public introduction image",
+            "ja": "英語公式の公開紹介画像",
+            "zh": "英文官方公开介绍图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://pbs.twimg.com/media/HUpx-tFboAAxF_w?format=webp&name=large",
+          "imageSource": "https://x.com/AzurPromilia_EN/status/2111079715981390036",
+          "width": 1948,
+          "height": 920,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "영어 공식 공개 소개 이미지",
+            "en": "English official public introduction image",
+            "ja": "英語公式の公開紹介画像",
+            "zh": "英文官方公开介绍图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        }
+      ],
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://azurpromilia.jp/kibo",
+          "title": "キボ一覧"
+        },
+        {
+          "kind": "official",
+          "url": "https://azurpromilia.manjuu.com/home/",
+          "title": "中国官方奇波名称"
+        }
+      ]
+    },
+    {
+      "id": "ananta-global-public-media-gallery",
+      "gameId": "ananta",
+      "kind": "update",
+      "region": "global",
+      "server": "Global",
+      "title": {
+        "ko": "무한대: 플레이 영상과 도시 갤러리",
+        "en": "ANANTA: gameplay videos and city gallery",
+        "ja": "無限大ANANTA：プレイ映像と都市ギャラリー",
+        "zh": "无限大：实机影像与城市图库"
+      },
+      "summary": {
+        "ko": "한국어·영어·일본어 공식 실기 영상과 게임플레이 트레일러, 중국 공식 영상 원문, 도시·캐릭터의 공개 게임 화면을 모았다.",
+        "en": "Official Korean, English and Japanese gameplay videos and trailers, Chinese official video pages, and public city and character game images.",
+        "ja": "韓国語・英語・日本語の公式実機映像とゲームプレイトレーラー、中国公式動画ページ、都市・キャラクターの公開ゲーム画像。",
+        "zh": "汇集韩英日官方实机影像和玩法宣传片、中国官方视频页面以及城市和角色公开游戏画面。"
+      },
+      "sourceUrl": "https://www.anantagame.com/kr/index.html",
+      "sourceTitle": "무한대 공식 사이트",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja",
+        "zh"
+      ],
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-11-02T20:18:54Z",
+      "localizationSources": {
+        "ko": "https://www.anantagame.com/kr/index.html",
+        "en": "https://www.anantagame.com/",
+        "ja": "https://www.anantagame.com/jp/index.html",
+        "zh": "https://ananta.163.com/"
+      },
+      "detailImages": [
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8e0bb7e9.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_a5981ddf.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8ded2659.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_1fef6bc5.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_43cb3a0c.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_9aa7de6f.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_5ae9cd9d.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0002_3275bf6d.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-3-full_2a69c23a.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-1-full_da8a73f3.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 1883,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-1-full_540ce19c.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 3840,
+          "height": 2160,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        {
+          "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/scene-5-full_d882c278.jpg",
+          "imageSource": "https://www.anantagame.com/",
+          "width": 1635,
+          "height": 908,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "imageCaption": {
+            "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+            "en": "Official website game image · in development",
+            "ja": "公式サイトのゲーム画像・開発中",
+            "zh": "官方网站公开游戏画面 · 开发中"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        }
+      ],
+      "previewArtwork": {
+        "image": "https://www.anantagame.com/pc/gw/20260809220138/assets/full_0001_8e0bb7e9.jpg",
+        "imageSource": "https://www.anantagame.com/",
+        "width": 3840,
+        "height": 2160,
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "en",
+        "imageCaption": {
+          "ko": "공식 사이트 공개 게임 화면 · 개발 중",
+          "en": "Official website game image · in development",
+          "ja": "公式サイトのゲーム画像・開発中",
+          "zh": "官方网站公开游戏画面 · 开发中"
+        },
+        "verifiedAt": "2026-11-02T20:18:54Z"
+      },
+      "videos": [
+        {
+          "youtubeId": "oWsgXoq-y6I",
+          "kind": "version",
+          "format": "demo",
+          "title": {
+            "ko": "무한대 ANANTA | 인게임 플레이영상",
+            "en": "Gameplay video",
+            "ja": "実機プレイ映像",
+            "zh": "实机演示"
+          },
+          "originalTitle": "무한대 ANANTA | 인게임 플레이영상",
+          "locale": "ko",
+          "channel": "무한대Ananta",
+          "sourceUrl": "https://www.youtube.com/watch?v=oWsgXoq-y6I",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ko"
+          ],
+          "titleTranslatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@Ananta_KOR/videos",
+            "https://www.youtube.com/@Ananta_KOR"
+          ]
+        },
+        {
+          "youtubeId": "XkN1jy9FGVg",
+          "kind": "version",
+          "format": "demo",
+          "title": {
+            "ko": "인게임 플레이 영상",
+            "en": "Ananta | Gameplay Video",
+            "ja": "実機プレイ映像",
+            "zh": "实机演示"
+          },
+          "originalTitle": "Ananta | Gameplay Video",
+          "locale": "en",
+          "channel": "Ananta",
+          "sourceUrl": "https://www.youtube.com/watch?v=XkN1jy9FGVg",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "en"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "ja",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@Ananta_Game/videos",
+            "https://www.youtube.com/@Ananta_Game"
+          ]
+        },
+        {
+          "youtubeId": "WIdyuR3wdWk",
+          "kind": "version",
+          "format": "demo",
+          "title": {
+            "ko": "인게임 플레이 영상",
+            "en": "Gameplay video",
+            "ja": "無限大ANANTA | 実機プレイ映像",
+            "zh": "实机演示"
+          },
+          "originalTitle": "無限大ANANTA | 実機プレイ映像",
+          "locale": "ja",
+          "channel": "無限大Ananta",
+          "sourceUrl": "https://www.youtube.com/watch?v=WIdyuR3wdWk",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@Ananta_JPN/videos",
+            "https://www.youtube.com/@Ananta_JPN"
+          ]
+        },
+        {
+          "youtubeId": "PgLGDdRdM34",
+          "kind": "version",
+          "format": "pv",
+          "title": {
+            "ko": "무한대 ANANTA | 게임플레이 트레일러",
+            "en": "Gameplay trailer",
+            "ja": "ゲームプレイトレーラー",
+            "zh": "玩法宣传片"
+          },
+          "originalTitle": "무한대 ANANTA | 게임플레이 트레일러",
+          "locale": "ko",
+          "channel": "무한대Ananta",
+          "sourceUrl": "https://www.youtube.com/watch?v=PgLGDdRdM34",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ko"
+          ],
+          "titleTranslatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@Ananta_KOR/videos",
+            "https://www.youtube.com/@Ananta_KOR"
+          ]
+        },
+        {
+          "youtubeId": "uYejjuRrLzw",
+          "kind": "version",
+          "format": "pv",
+          "title": {
+            "ko": "게임플레이 트레일러",
+            "en": "ANANTA | Gameplay Trailer",
+            "ja": "ゲームプレイトレーラー",
+            "zh": "玩法宣传片"
+          },
+          "originalTitle": "ANANTA | Gameplay Trailer",
+          "locale": "en",
+          "channel": "Ananta",
+          "sourceUrl": "https://www.youtube.com/watch?v=uYejjuRrLzw",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "en"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "ja",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@Ananta_Game/videos",
+            "https://www.youtube.com/@Ananta_Game"
+          ]
+        },
+        {
+          "youtubeId": "BCLKQCylA30",
+          "kind": "version",
+          "format": "pv",
+          "title": {
+            "ko": "게임플레이 트레일러",
+            "en": "Gameplay trailer",
+            "ja": "無限大ANANTA | ゲームプレイトレーラー",
+            "zh": "玩法宣传片"
+          },
+          "originalTitle": "無限大ANANTA | ゲームプレイトレーラー",
+          "locale": "ja",
+          "channel": "無限大Ananta",
+          "sourceUrl": "https://www.youtube.com/watch?v=BCLKQCylA30",
+          "verifiedAt": "2026-11-02T20:18:54Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "titleOfficialLocales": [
+            "ja"
+          ],
+          "titleTranslatedLocales": [
+            "ko",
+            "en",
+            "zh"
+          ],
+          "evidenceUrls": [
+            "https://www.youtube.com/@Ananta_JPN/videos",
+            "https://www.youtube.com/@Ananta_JPN"
+          ]
+        }
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "도시와 캐릭터의 공개 화면",
+            "en": "Public city and character images",
+            "ja": "都市とキャラクターの公開画像",
+            "zh": "城市与角色公开画面"
+          },
+          "body": {
+            "ko": "공식 갤러리에는 자동차를 타는 캐릭터, 거리 이동, 옥상과 고가 도로, 상점과 공연 공간 등 개발 중 게임 화면이 공개돼 있다. 공개 이미지와 영상은 출시 전 버전이다.",
+            "en": "The official gallery shows prerelease characters in vehicles, street travel, rooftops and elevated roads, shops and performance spaces. These images and videos depict development builds.",
+            "ja": "公式ギャラリーでは車に乗る人物、街の移動、屋上・高架道路、店や公演空間など開発中のゲーム画面を公開。画像・動画は発売前の内容。",
+            "zh": "官方图库展示乘车角色、街道移动、屋顶与高架道路、商店和演出空间等开发中画面。公开图片与视频均为上市前版本。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://www.anantagame.com/kr/index.html",
+            "https://www.anantagame.com/",
+            "https://www.anantagame.com/jp/index.html",
+            "https://ananta.163.com/"
+          ]
+        },
+        {
+          "title": {
+            "ko": "중국 공식 영상",
+            "en": "Chinese official video pages",
+            "ja": "中国公式動画",
+            "zh": "中国官方视频"
+          },
+          "body": {
+            "ko": "중국 공식 사이트에서 공개한 실기 플레이와 게임플레이 소개 영상도 원문으로 볼 수 있다. 지역별 플레이 영상과 언어를 구분해 연결한다.",
+            "en": "The Chinese official site hosts its own gameplay videos and presentations. Regional videos and their languages are listed separately.",
+            "ja": "中国公式サイトの実機プレイ・ゲームプレイ紹介動画も原文で閲覧可能。地域と映像の言語を区別している。",
+            "zh": "中国官网提供实机与玩法介绍视频，与其他地区语言版本分别列出。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://ananta.163.com/"
+          ]
+        }
+      ],
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://www.anantagame.com/kr/index.html",
+          "title": "한국 공식 홈페이지·영상"
+        },
+        {
+          "kind": "official",
+          "url": "https://www.anantagame.com/",
+          "title": "English official site and videos"
+        },
+        {
+          "kind": "official",
+          "url": "https://www.anantagame.com/jp/index.html",
+          "title": "日本公式サイト・映像"
+        },
+        {
+          "kind": "official",
+          "url": "https://ananta.163.com/",
+          "title": "中国官方网站 · 官方视频"
+        },
+        {
+          "kind": "official",
+          "url": "https://ananta.163.com/news/preview/20260827/43140_1312473.html",
+          "title": "无限大 · 官方视频"
+        },
+        {
+          "kind": "official",
+          "url": "https://ananta.163.com/news/preview/20251024/43140_1266857.html",
+          "title": "无限大 · 官方视频"
+        },
+        {
+          "kind": "official",
+          "url": "https://ananta.163.com/news/preview/20251014/43140_1264682.html",
+          "title": "无限大 · 官方视频"
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "silver-palace-global-public-game-guide",
+      "set": {
+        "videos": [
+          {
+            "youtubeId": "oAyDo0kxh-8",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "「실버 팰리스」丨동일률 테스트 트레일러",
+              "en": "Monotype Beta Test Trailer",
+              "ja": "同一律テストPV",
+              "zh": "同一律测试宣传片"
+            },
+            "originalTitle": "「실버 팰리스」丨동일률 테스트 트레일러",
+            "locale": "ko",
+            "channel": "실버 팰리스",
+            "sourceUrl": "https://www.youtube.com/watch?v=oAyDo0kxh-8",
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [
+              "en",
+              "ja",
+              "zh"
+            ],
+            "evidenceUrls": [
+              "https://silverpalace.elementagames.com/ko-kr/",
+              "https://www.youtube.com/@SilverPalace_KO"
+            ]
+          },
+          {
+            "youtubeId": "H_mgS0oQQM0",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "동일률 테스트 트레일러",
+              "en": "Silver Palace丨Monotype Beta Test Trailer",
+              "ja": "同一律テストPV",
+              "zh": "同一律测试宣传片"
+            },
+            "originalTitle": "Silver Palace丨Monotype Beta Test Trailer",
+            "locale": "en",
+            "channel": "Silver Palace",
+            "sourceUrl": "https://www.youtube.com/watch?v=H_mgS0oQQM0",
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "titleOfficialLocales": [
+              "en"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "ja",
+              "zh"
+            ],
+            "evidenceUrls": [
+              "https://silverpalace.elementagames.com/en-us/",
+              "https://www.youtube.com/@SilverPalace-Official"
+            ]
+          },
+          {
+            "youtubeId": "-YFfU3lFOpk",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "동일률 테스트 트레일러",
+              "en": "Monotype Beta Test Trailer",
+              "ja": "『白銀の城』|「同一律テスト」PV",
+              "zh": "同一律测试宣传片"
+            },
+            "originalTitle": "『白銀の城』|「同一律テスト」PV",
+            "locale": "ja",
+            "channel": "白銀の城-公式",
+            "sourceUrl": "https://www.youtube.com/watch?v=-YFfU3lFOpk",
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "titleOfficialLocales": [
+              "ja"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "en",
+              "zh"
+            ],
+            "evidenceUrls": [
+              "https://silverpalace.elementagames.com/ja-jp/",
+              "https://www.youtube.com/@SilverPalace_JA"
+            ]
+          },
+          {
+            "youtubeId": "C0ER-beD6WU",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "동일률 테스트 트레일러",
+              "en": "Monotype Beta Test Trailer",
+              "ja": "同一律テストPV",
+              "zh": "《白銀之城》|「同一律測試」PV"
+            },
+            "originalTitle": "《白銀之城》|「同一律測試」PV",
+            "locale": "zh",
+            "channel": "白銀之城",
+            "sourceUrl": "https://www.youtube.com/watch?v=C0ER-beD6WU",
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "titleOfficialLocales": [
+              "zh"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "en",
+              "ja"
+            ],
+            "evidenceUrls": [
+              "https://silverpalace.leyuansu.com/zh-cn/",
+              "https://www.youtube.com/@SilverPalace_CHT"
+            ]
+          },
+          {
+            "youtubeId": "ZLnvdBf3kPg",
+            "kind": "character",
+            "format": "pv",
+            "title": {
+              "ko": "12월 14일 정식 출시丨실버 팰리스 캐릭터 PV - 그라티아 : 어리석음과 용맹함",
+              "en": "Official character trailer",
+              "ja": "公式キャラクターPV",
+              "zh": "官方角色宣传片"
+            },
+            "originalTitle": "12월 14일 정식 출시丨실버 팰리스 캐릭터 PV - 그라티아 : 어리석음과 용맹함",
+            "locale": "ko",
+            "channel": "실버 팰리스",
+            "sourceUrl": "https://www.youtube.com/watch?v=ZLnvdBf3kPg",
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [
+              "en",
+              "ja",
+              "zh"
+            ],
+            "evidenceUrls": [
+              "https://silverpalace.elementagames.com/ko-kr/",
+              "https://www.youtube.com/@SilverPalace_KO"
+            ]
+          },
+          {
+            "youtubeId": "HdbINn5ciIs",
+            "kind": "character",
+            "format": "pv",
+            "title": {
+              "ko": "공식 캐릭터 PV",
+              "en": "Global Launch on December 14th丨Silver Palace Gratia Character Trailer - The Foolish and the Brave",
+              "ja": "公式キャラクターPV",
+              "zh": "官方角色宣传片"
+            },
+            "originalTitle": "Global Launch on December 14th丨Silver Palace Gratia Character Trailer - The Foolish and the Brave",
+            "locale": "en",
+            "channel": "Silver Palace",
+            "sourceUrl": "https://www.youtube.com/watch?v=HdbINn5ciIs",
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "titleOfficialLocales": [
+              "en"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "ja",
+              "zh"
+            ],
+            "evidenceUrls": [
+              "https://silverpalace.elementagames.com/en-us/",
+              "https://www.youtube.com/@SilverPalace-Official"
+            ]
+          },
+          {
+            "youtubeId": "qt1L3hLmi0k",
+            "kind": "character",
+            "format": "pv",
+            "title": {
+              "ko": "공식 캐릭터 PV",
+              "en": "Official character trailer",
+              "ja": "12月14日リリース|『白銀の城』キャラクターPV |「クラティ」：愚者と勇者",
+              "zh": "官方角色宣传片"
+            },
+            "originalTitle": "12月14日リリース|『白銀の城』キャラクターPV |「クラティ」：愚者と勇者",
+            "locale": "ja",
+            "channel": "白銀の城-公式",
+            "sourceUrl": "https://www.youtube.com/watch?v=qt1L3hLmi0k",
+            "verifiedAt": "2026-11-02T20:18:54Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "titleOfficialLocales": [
+              "ja"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "en",
+              "zh"
+            ],
+            "evidenceUrls": [
+              "https://silverpalace.elementagames.com/ja-jp/",
+              "https://www.youtube.com/@SilverPalace_JA"
+            ]
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/1c3a247100eae7fdde2e40b5cb71d005.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7d2b00d65cc093bd2c835f0cc08a1b01.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/865f67cb4bc1c20da4561dd66e620479.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7ec64c57537d7971ce517705d4875d93.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/6c6823274b74f860d60e01a8a4f31687.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/96f68eab4f09fb9fc7d1e42f1636d8a9.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/7b0dbb954aa678643e1093b96a1456ac.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/5777deb109bef0bbda244b10ac2f1e4c.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260721/ee77fa2be4f0b958fb611cb292b9ec44.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 전투 안내 화면",
+              "en": "Dichotomy CBT official combat image",
+              "ja": "二元CBT公式戦闘紹介画像",
+              "zh": "二元测试官方战斗介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/859ac5f486f2faf2e45d7714b8d32ced.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/b7dba23963fdfafc7d3c7edbbe2201fe.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/c115d9da7355d6c14260e6466ecc3cbd.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=100",
+            "width": 960,
+            "height": 540,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "이분법 CBT 공식 추리 안내 화면",
+              "en": "Dichotomy CBT official investigation image",
+              "ja": "二元CBT公式推理紹介画像",
+              "zh": "二元测试官方推理介绍画面"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/fbabeb7db8464074126d7bcdc90bfdd2.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/35a9e76555eae345673e4b6874c8aaad.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/43db7d690c4aa4b9683e9254307e5ff7.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/f8b4da94cc5847d7f289f498ba25ef06.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/b335d8fc0631cd89103af71e32aa1e10.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://s.elementagames.com/official/image/20260709/27e27d0c221d52d37215527dcdd61844.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "모르그 거리 공식 지역 소개",
+              "en": "Official Morgue Street area image",
+              "ja": "モルグ街の公式地域紹介画像",
+              "zh": "莫格街官方区域介绍图"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          }
+        ],
+        "previewArtwork": {
+          "image": "https://s.elementagames.com/official/image/20260709/fbabeb7db8464074126d7bcdc90bfdd2.jpg",
+          "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=73",
+          "width": 1920,
+          "height": 1080,
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "imageCaption": {
+            "ko": "모르그 거리 공식 지역 소개",
+            "en": "Official Morgue Street area image",
+            "ja": "モルグ街の公式地域紹介画像",
+            "zh": "莫格街官方区域介绍图"
+          },
+          "verifiedAt": "2026-11-02T20:18:54Z"
+        },
+        "detailSections": [
+          {
+            "title": {
+              "ko": "도시와 탐정",
+              "en": "City and detective",
+              "ja": "都市と探偵",
+              "zh": "都市与侦探"
+            },
+            "body": {
+              "ko": "빅토리아 시대에서 영감을 받은 대도시 실버니아가 무대다. 플레이어는 탐정으로서 사건의 증거를 모으고 도시의 비밀을 추적한다. 언리얼 엔진 5로 개발된다.",
+              "en": "Set in a Victorian-inspired metropolis, the game follows a detective gathering evidence and uncovering urban mysteries. It is developed with Unreal Engine 5.",
+              "ja": "ヴィクトリア朝を思わせる大都市が舞台。探偵として証拠を集め、都市に潜む謎を追う。Unreal Engine 5で開発されている。",
+              "zh": "舞台是一座具有维多利亚时代风格的大都市。玩家以侦探身份搜集证据、追查城市秘密，游戏采用虚幻引擎5开发。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+            ]
+          },
+          {
+            "title": {
+              "ko": "LS를 둘러싼 갈등",
+              "en": "Conflict over Liquid Silver",
+              "ja": "リキッドシルバーを巡る対立",
+              "zh": "围绕液态银的纷争"
+            },
+            "body": {
+              "ko": "LS(리퀴드 실버)는 도시의 산업 발전을 이끈 자원이다. 기업과 범죄 조직, 귀족 등 여러 세력의 이해관계가 사건의 배경을 이룬다.",
+              "en": "Liquid Silver powers industrial growth. Rival interests among corporations, criminal groups and the aristocracy shape the city’s conflicts.",
+              "ja": "リキッドシルバーは都市の産業発展を支える資源。企業、犯罪組織、貴族などの利害が事件の背景にある。",
+              "zh": "液态银推动了城市工业发展。企业、犯罪组织与贵族等势力的利益冲突构成案件背景。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+            ]
+          },
+          {
+            "title": {
+              "ko": "이분법 베타에서 공개된 플레이",
+              "en": "Gameplay shown in the Dichotomy beta",
+              "ja": "二元テストで公開された遊び",
+              "zh": "二元测试公开玩法"
+            },
+            "body": {
+              "ko": "이분법 베타는 성별을 선택하는 주인공과 플레이어블 캐릭터 15종, 분기형 사건과 캐릭터 이야기, 확장된 도시 구역과 경마를 선보였다. 이 내용은 베타 버전 기준이다.",
+              "en": "The Dichotomy beta presented 15 playable characters, a selectable protagonist gender, branching investigations, character stories, expanded city districts and horse racing. These describe the beta build.",
+              "ja": "二元テストでは主人公の性別選択、プレイアブルキャラクター15種、分岐する事件、キャラクターストーリー、新たな都市エリアや競馬を公開。テスト版の内容。",
+              "zh": "二元测试展示了主角性别选择、15种可操作角色、分支案件、角色故事、扩展城市区域与赛马。这些内容以测试版本为准。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://www.gamespress.com/en-US/Silver-Palace-Opens-Its-Dichotomy-Beta-Test"
+            ]
+          },
+          {
+            "title": {
+              "ko": "공개 영상과 베타 이미지",
+              "en": "Public videos and beta images",
+              "ja": "公開映像とベータ画像",
+              "zh": "公开影像与测试图片"
+            },
+            "body": {
+              "ko": "동일률 테스트 트레일러와 캐릭터 PV, 이분법 CBT의 전투·추리·모르그 거리 공개 이미지를 함께 볼 수 있다. 중국 공식 홈페이지에는 별도의 공식 영상 플레이어가 있다. 베타 화면은 정식 출시판과 달라질 수 있다.",
+              "en": "Browse Monotype test trailers, character PVs, and official Dichotomy combat, investigation and Morgue Street images. The Chinese official homepage also hosts its own video player. Beta visuals may differ at release.",
+              "ja": "同一律テストPV、キャラクターPV、二元CBTの戦闘・推理・モルグ街画像を掲載。中国公式ホームページにも専用動画プレイヤーがある。テスト画像は正式版と異なる場合がある。",
+              "zh": "可浏览同一律测试宣传片、角色PV及二元测试战斗、推理和莫格街官方图片。中国官网另有官方视频播放器，测试画面可能与正式版不同。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://silverpalace.elementagames.com/ko-kr/",
+              "https://silverpalace.elementagames.com/en-us/",
+              "https://silverpalace.elementagames.com/ja-jp/",
+              "https://silverpalace.leyuansu.com/zh-cn/"
+            ]
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://www.gamespress.com/en-US/Silver-Palace-Opens-Its-Dichotomy-Beta-Test",
+            "title": "Silver Palace Opens Its Dichotomy Beta Test",
+            "publisher": "Silver Palace / Elementa"
+          },
+          {
+            "kind": "official",
+            "url": "https://silverpalace.elementagames.com/ko-kr/",
+            "title": "한국 공식 영상·소식"
+          },
+          {
+            "kind": "official",
+            "url": "https://silverpalace.elementagames.com/en-us/",
+            "title": "English official videos and news"
+          },
+          {
+            "kind": "official",
+            "url": "https://silverpalace.elementagames.com/ja-jp/",
+            "title": "日本公式映像・お知らせ"
+          },
+          {
+            "kind": "official",
+            "url": "https://silverpalace.leyuansu.com/zh-cn/",
+            "title": "中国官网 · 官方视频"
+          }
+        ],
+        "localizationSources": {
+          "ko": "https://silverpalace.elementagames.com/ko-kr/",
+          "en": "https://silverpalace.elementagames.com/en-us/",
+          "ja": "https://silverpalace.elementagames.com/ja-jp/",
+          "zh": "https://silverpalace.leyuansu.com/zh-cn/"
+        },
+        "verifiedAt": "2026-11-02T20:18:54Z"
+      },
+      "before": {
+        "videos": null,
+        "detailImages": null,
+        "previewArtwork": null,
+        "detailSections": [
+          {
+            "title": {
+              "ko": "도시와 탐정",
+              "en": "City and detective",
+              "ja": "都市と探偵",
+              "zh": "都市与侦探"
+            },
+            "body": {
+              "ko": "빅토리아 시대에서 영감을 받은 대도시 실버니아가 무대다. 플레이어는 탐정으로서 사건의 증거를 모으고 도시의 비밀을 추적한다. 언리얼 엔진 5로 개발된다.",
+              "en": "Set in a Victorian-inspired metropolis, the game follows a detective gathering evidence and uncovering urban mysteries. It is developed with Unreal Engine 5.",
+              "ja": "ヴィクトリア朝を思わせる大都市が舞台。探偵として証拠を集め、都市に潜む謎を追う。Unreal Engine 5で開発されている。",
+              "zh": "舞台是一座具有维多利亚时代风格的大都市。玩家以侦探身份搜集证据、追查城市秘密，游戏采用虚幻引擎5开发。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+            ]
+          },
+          {
+            "title": {
+              "ko": "LS를 둘러싼 갈등",
+              "en": "Conflict over Liquid Silver",
+              "ja": "リキッドシルバーを巡る対立",
+              "zh": "围绕液态银的纷争"
+            },
+            "body": {
+              "ko": "LS(리퀴드 실버)는 도시의 산업 발전을 이끈 자원이다. 기업과 범죄 조직, 귀족 등 여러 세력의 이해관계가 사건의 배경을 이룬다.",
+              "en": "Liquid Silver powers industrial growth. Rival interests among corporations, criminal groups and the aristocracy shape the city’s conflicts.",
+              "ja": "リキッドシルバーは都市の産業発展を支える資源。企業、犯罪組織、貴族などの利害が事件の背景にある。",
+              "zh": "液态银推动了城市工业发展。企业、犯罪组织与贵族等势力的利益冲突构成案件背景。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=3"
+            ]
+          },
+          {
+            "title": {
+              "ko": "이분법 베타에서 공개된 플레이",
+              "en": "Gameplay shown in the Dichotomy beta",
+              "ja": "二元テストで公開された遊び",
+              "zh": "二元测试公开玩法"
+            },
+            "body": {
+              "ko": "이분법 베타는 성별을 선택하는 주인공과 플레이어블 캐릭터 15종, 분기형 사건과 캐릭터 이야기, 확장된 도시 구역과 경마를 선보였다. 이 내용은 베타 버전 기준이다.",
+              "en": "The Dichotomy beta presented 15 playable characters, a selectable protagonist gender, branching investigations, character stories, expanded city districts and horse racing. These describe the beta build.",
+              "ja": "二元テストでは主人公の性別選択、プレイアブルキャラクター15種、分岐する事件、キャラクターストーリー、新たな都市エリアや競馬を公開。テスト版の内容。",
+              "zh": "二元测试展示了主角性别选择、15种可操作角色、分支案件、角色故事、扩展城市区域与赛马。这些内容以测试版本为准。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://www.gamespress.com/en-US/Silver-Palace-Opens-Its-Dichotomy-Beta-Test"
+            ]
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://www.gamespress.com/en-US/Silver-Palace-Opens-Its-Dichotomy-Beta-Test",
+            "title": "Silver Palace Opens Its Dichotomy Beta Test",
+            "publisher": "Silver Palace / Elementa"
+          }
+        ],
+        "localizationSources": null,
+        "verifiedAt": "2026-11-02T09:42:56Z"
+      },
+      "sources": [
+        "https://silverpalace.elementagames.com/ko-kr/",
+        "https://silverpalace.elementagames.com/en-us/",
+        "https://silverpalace.elementagames.com/ja-jp/",
+        "https://silverpalace.leyuansu.com/zh-cn/",
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=95"
+      ]
+    },
+    {
+      "id": "azur-promilia-kr-public-character-encyclopedia",
+      "set": {
+        "entityDetails": [
+          {
+            "id": "azur-official-3415435",
+            "name": {
+              "ko": "성림자",
+              "en": "Starborn",
+              "ja": "Starborn",
+              "zh": "Starborn"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "기억을 잃고 과거를 찾아 여행하며 동료를 만나는 주인공.",
+                  "en": "An amnesiac protagonist finding companions while searching for the past.",
+                  "ja": "記憶を失い、過去を探す旅で仲間と出会う主人公。",
+                  "zh": "失去记忆，在追寻过去的旅途中结识同伴的主角。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3415435"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3415435",
+                "title": "✨ 첫 만남  |  성림자 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3321169",
+            "name": {
+              "ko": "테라라",
+              "en": "Terara",
+              "ja": "テララ",
+              "zh": "Terara"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en",
+              "ja"
+            ],
+            "translatedLocales": [
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "샤루루 마을을 지킬 사냥꾼이 되기 위해 수련하는 수인족 소녀.",
+                  "en": "A beastfolk girl training to become a hunter who protects her village.",
+                  "ja": "村を守る狩人を目指して鍛錬する獣人の少女。",
+                  "zh": "为成为守护村庄的猎人而修炼的兽人少女。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3321169"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3321169",
+                "title": "(수정) ✨ 첫 만남  |  테라라 ✨ "
+              },
+              {
+                "kind": "official",
+                "url": "https://azurpromilia.jp/character",
+                "title": "キャラクター一覧"
+              }
+            ],
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "id": "azur-official-3547787",
+            "name": {
+              "ko": "루루카",
+              "en": "Luruka",
+              "ja": "Luruka",
+              "zh": "Luruka"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "샤루루 마을의 늑대족 샤먼. 의술과 약제로 주민들의 건강을 돌본다.",
+                  "en": "A wolf-clan village shaman who cares for residents through medicine.",
+                  "ja": "狼族の村のシャーマン。医術と薬で住民の健康を支える。",
+                  "zh": "狼族村落的萨满，通过医术和药物照顾村民。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3547787"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3547787",
+                "title": "✨ 두 번째 만남 | 루루카 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3501756",
+            "name": {
+              "ko": "카타루",
+              "en": "Katatua",
+              "ja": "Katatua",
+              "zh": "Katatua"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "수줍은 성격의 샤루루 민병대원으로, 위기에는 앞장서 마을을 지킨다.",
+                  "en": "A shy village militia member who steps forward to protect others.",
+                  "ja": "内気な村の民兵。危機には前に立ち、仲間を守る。",
+                  "zh": "害羞的村落民兵，危急时会挺身守护同伴。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3501756"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3501756",
+                "title": "✨ 첫 만남  |  카타루 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3512107",
+            "name": {
+              "ko": "미티",
+              "en": "Mitty",
+              "ja": "Mitty",
+              "zh": "Mitty"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "고향 거스트폴을 자랑스럽게 여기는 익인족 궁수. 승부욕이 강하고 남을 돕는다.",
+                  "en": "A competitive winged archer who takes pride in her home and helps others.",
+                  "ja": "故郷を誇りに思う翼人の弓手。負けず嫌いだが人助けも好き。",
+                  "zh": "以故乡为荣的翼人弓手，好胜且乐于助人。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3512107"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3512107",
+                "title": "✨ 첫 만남  |  미티 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3556285",
+            "name": {
+              "ko": "파란타",
+              "en": "Faridah",
+              "ja": "Faridah",
+              "zh": "Faridah"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "거스트폴의 17대이자 역대 최연소 호크가르. 부족과 마을의 안위를 책임진다.",
+                  "en": "Her homeland’s seventeenth and youngest leader, responsible for her people’s safety.",
+                  "ja": "故郷の第17代、歴代最年少の指導者。部族と村の安全を担う。",
+                  "zh": "故乡第十七代、历来最年轻的首领，肩负族人与村落的安危。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3556285"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3556285",
+                "title": "(수정) ✨ 첫 만남 | 파란타 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3501769",
+            "name": {
+              "ko": "심포리아",
+              "en": "Symphoria",
+              "ja": "シンフォーリア",
+              "zh": "Symphoria"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en",
+              "ja"
+            ],
+            "translatedLocales": [
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "로스 레인스 출신 우드엘프 궁수. 장기 임무 중 성림자를 지키는 일을 사명으로 여긴다.",
+                  "en": "A wood-elf archer on a long assignment who considers protecting Starborn her mission.",
+                  "ja": "長期任務に就くウッドエルフの弓手。主人公を守ることを使命とする。",
+                  "zh": "执行长期任务的木精灵弓手，将保护主角视为使命。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3501769"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3501769",
+                "title": "✨ 두 번째 만남  |  심포리아 ✨"
+              },
+              {
+                "kind": "official",
+                "url": "https://azurpromilia.jp/character",
+                "title": "キャラクター一覧"
+              }
+            ],
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "id": "azur-official-3499617",
+            "name": {
+              "ko": "멧사",
+              "en": "Metsä",
+              "ja": "メーツァ",
+              "zh": "Metsä"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en",
+              "ja"
+            ],
+            "translatedLocales": [
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "상록 정원과 희귀 식물을 오랫동안 돌봐 온 우드엘프 정원사.",
+                  "en": "A wood-elf gardener who has long cared for rare plants and her garden.",
+                  "ja": "長く庭園と珍しい植物を育ててきたウッドエルフの庭師。",
+                  "zh": "长期照料庭园与珍稀植物的木精灵园丁。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3499617"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3499617",
+                "title": "✨ 첫 만남  |  멧사 ✨"
+              },
+              {
+                "kind": "official",
+                "url": "https://azurpromilia.jp/character",
+                "title": "キャラクター一覧"
+              }
+            ],
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "id": "azur-official-3328899",
+            "name": {
+              "ko": "샬레·엔시스",
+              "en": "Shalle",
+              "ja": "Shalle",
+              "zh": "Shalle"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "아발리안 페가수스 기사단 소속 하이엘프. 강한 힘을 지닌 기사다.",
+                  "en": "A powerful high-elf knight of the Pegasus order.",
+                  "ja": "ペガサス騎士団に所属する、強い力を持つハイエルフの騎士。",
+                  "zh": "隶属天马骑士团、拥有强大力量的高等精灵骑士。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3328899"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3328899",
+                "title": "✨ 첫 만남  |  샬레·엔시스 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3556263",
+            "name": {
+              "ko": "모르윈",
+              "en": "Morwyn",
+              "ja": "Morwyn",
+              "zh": "Morwyn"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "할콘 가문의 후계자이자 쌍검을 쓰는 인물. 검을 내려놓은 뒤에도 엄격한 생활 습관을 지킨다.",
+                  "en": "A dual-sword heir who maintains disciplined habits even away from combat.",
+                  "ja": "双剣を使う家の後継者。戦いを離れても規律ある生活を守る。",
+                  "zh": "使用双剑的家族继承人，即使放下武器也保持严谨生活。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3556263"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3556263",
+                "title": "✨ 두 번째 만남 | 모르윈 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3377364",
+            "name": {
+              "ko": "캐시벨",
+              "en": "Cathbelle",
+              "ja": "キャスベル",
+              "zh": "Cathbelle"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en",
+              "ja"
+            ],
+            "translatedLocales": [
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "청소와 빨래, 정리에 능숙하지만 요리는 서툰 메이드.",
+                  "en": "A maid skilled in cleaning and laundry, but less accomplished at cooking.",
+                  "ja": "掃除や洗濯は得意だが、料理は苦手なメイド。",
+                  "zh": "擅长打扫和洗衣，却不擅长烹饪的女仆。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3377364"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3377364",
+                "title": "(수정) ✨첫 만남 | 캐시벨✨"
+              },
+              {
+                "kind": "official",
+                "url": "https://azurpromilia.jp/character",
+                "title": "キャラクター一覧"
+              }
+            ],
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "id": "azur-official-3410551",
+            "name": {
+              "ko": "애니스",
+              "en": "Anais",
+              "ja": "アニス",
+              "zh": "Anais"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en",
+              "ja"
+            ],
+            "translatedLocales": [
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "칼논 요양원의 간호사. 온화하지만 환자의 약 복용에는 단호하다.",
+                  "en": "A gentle sanatorium nurse who is firm about patients taking medicine.",
+                  "ja": "穏やかな療養院の看護師。患者の服薬には厳格。",
+                  "zh": "温和的疗养院护士，对患者服药十分坚持。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3410551"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3410551",
+                "title": "✨ 첫 만남 | 애니스 ✨"
+              },
+              {
+                "kind": "official",
+                "url": "https://azurpromilia.jp/character",
+                "title": "キャラクター一覧"
+              }
+            ],
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "id": "azur-official-3533649",
+            "name": {
+              "ko": "메이플",
+              "en": "Maple",
+              "ja": "Maple",
+              "zh": "Maple"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "플리스 성방 모험가 길드의 활기찬 접수원. 기억력이 좋고 키보의 털 손질도 돕는다.",
+                  "en": "An energetic guild receptionist with an excellent memory and a talent for Kibo grooming.",
+                  "ja": "記憶力に優れた元気なギルド受付。キボの毛並みの手入れも得意。",
+                  "zh": "记忆力出色、精力充沛的公会接待员，也擅长打理奇波的毛发。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3533649"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3533649",
+                "title": "✨ 첫 만남  |  메이플 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3310586",
+            "name": {
+              "ko": "아비",
+              "en": "Abby",
+              "ja": "Abby",
+              "zh": "Abby"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "강한 용족의 힘을 지닌 소녀. 순수한 성격으로 맛있는 음식을 좋아한다.",
+                  "en": "A powerful young dragon with a simple nature and a love of food.",
+                  "ja": "強い竜族の力を持つ少女。純粋で、おいしい食べ物が大好き。",
+                  "zh": "拥有强大龙族力量的少女，性格纯真，喜爱美食。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3310586"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3310586",
+                "title": "✨첫 만남 | 아비 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3518891",
+            "name": {
+              "ko": "노노",
+              "en": "Nono",
+              "ja": "Nono",
+              "zh": "Nono"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "큰 망치를 다루는 작은 파미. 2인 보물찾기 팀의 일원으로 각지를 여행한다.",
+                  "en": "A small hammer-wielding Pami travelling as part of a two-person treasure-hunting team.",
+                  "ja": "大きな槌を扱う小さなパミ。2人組の宝探しチームで旅をする。",
+                  "zh": "挥舞大锤的小个子帕米，作为两人寻宝团队的一员四处旅行。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3518891"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3518891",
+                "title": "✨ 첫 만남  |  노노 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3389134",
+            "name": {
+              "ko": "펭펭",
+              "en": "Pengpeng",
+              "ja": "Pengpeng",
+              "zh": "Pengpeng"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "실력보다 열정이 앞서는 파미 신예로, 뛰어난 무공을 꿈꾸며 쿵푸를 수련한다.",
+                  "en": "A passionate Pami kung-fu novice whose ambitions outpace her current skills.",
+                  "ja": "実力以上の情熱を持つパミのカンフー初心者。達人を目指す。",
+                  "zh": "热情胜过当前实力的帕米功夫新秀，立志成为高手。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3389134"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3389134",
+                "title": "✨ 첫 만남  |  펭펭 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3516387",
+            "name": {
+              "ko": "릴리",
+              "en": "Lily",
+              "ja": "Lily",
+              "zh": "Lily"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "진정한 기사가 되기 위해 고향을 떠난 낙천적인 견습 기사. 어려움 속에서도 사람들을 돕는다.",
+                  "en": "An optimistic apprentice knight who travels to improve and help people.",
+                  "ja": "一人前を目指して旅立った楽観的な見習い騎士。困難の中でも人を助ける。",
+                  "zh": "为成为真正骑士而出行的乐观见习骑士，遇到困难仍帮助他人。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3516387"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3516387",
+                "title": "✨ 첫 만남  |  릴리 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3539946",
+            "name": {
+              "ko": "한요요",
+              "en": "Han Youyou",
+              "ja": "Han Youyou",
+              "zh": "Han Youyou"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "기관술과 갈고리, 기관연을 활용해 대륙을 누비는 자신감 넘치는 보물 사냥꾼.",
+                  "en": "A confident treasure hunter exploring with mechanical devices, a grapple and a mechanical kite.",
+                  "ja": "仕掛けや鉤、機械の凧を使って大陸を巡る、自信に満ちた宝探しの少女。",
+                  "zh": "借助机关、钩索和机关风筝探索大陆的自信寻宝少女。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3539946"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3539946",
+                "title": "✨ 두 번째 만남  |  한요요 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          }
+        ]
+      },
+      "before": {
+        "entityDetails": [
+          {
+            "id": "azur-official-3415435",
+            "name": {
+              "ko": "성림자",
+              "en": "Starborn",
+              "ja": "Starborn",
+              "zh": "Starborn"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "기억을 잃고 과거를 찾아 여행하며 동료를 만나는 주인공.",
+                  "en": "An amnesiac protagonist finding companions while searching for the past.",
+                  "ja": "記憶を失い、過去を探す旅で仲間と出会う主人公。",
+                  "zh": "失去记忆，在追寻过去的旅途中结识同伴的主角。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3415435"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3415435",
+                "title": "✨ 첫 만남  |  성림자 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3321169",
+            "name": {
+              "ko": "테라라",
+              "en": "Terara",
+              "ja": "Terara",
+              "zh": "Terara"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "샤루루 마을을 지킬 사냥꾼이 되기 위해 수련하는 수인족 소녀.",
+                  "en": "A beastfolk girl training to become a hunter who protects her village.",
+                  "ja": "村を守る狩人を目指して鍛錬する獣人の少女。",
+                  "zh": "为成为守护村庄的猎人而修炼的兽人少女。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3321169"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3321169",
+                "title": "(수정) ✨ 첫 만남  |  테라라 ✨ "
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3547787",
+            "name": {
+              "ko": "루루카",
+              "en": "Luruka",
+              "ja": "Luruka",
+              "zh": "Luruka"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "샤루루 마을의 늑대족 샤먼. 의술과 약제로 주민들의 건강을 돌본다.",
+                  "en": "A wolf-clan village shaman who cares for residents through medicine.",
+                  "ja": "狼族の村のシャーマン。医術と薬で住民の健康を支える。",
+                  "zh": "狼族村落的萨满，通过医术和药物照顾村民。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3547787"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3547787",
+                "title": "✨ 두 번째 만남 | 루루카 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3501756",
+            "name": {
+              "ko": "카타루",
+              "en": "Katatua",
+              "ja": "Katatua",
+              "zh": "Katatua"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "수줍은 성격의 샤루루 민병대원으로, 위기에는 앞장서 마을을 지킨다.",
+                  "en": "A shy village militia member who steps forward to protect others.",
+                  "ja": "内気な村の民兵。危機には前に立ち、仲間を守る。",
+                  "zh": "害羞的村落民兵，危急时会挺身守护同伴。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3501756"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3501756",
+                "title": "✨ 첫 만남  |  카타루 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3512107",
+            "name": {
+              "ko": "미티",
+              "en": "Mitty",
+              "ja": "Mitty",
+              "zh": "Mitty"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "고향 거스트폴을 자랑스럽게 여기는 익인족 궁수. 승부욕이 강하고 남을 돕는다.",
+                  "en": "A competitive winged archer who takes pride in her home and helps others.",
+                  "ja": "故郷を誇りに思う翼人の弓手。負けず嫌いだが人助けも好き。",
+                  "zh": "以故乡为荣的翼人弓手，好胜且乐于助人。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3512107"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3512107",
+                "title": "✨ 첫 만남  |  미티 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3556285",
+            "name": {
+              "ko": "파란타",
+              "en": "Faridah",
+              "ja": "Faridah",
+              "zh": "Faridah"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "거스트폴의 17대이자 역대 최연소 호크가르. 부족과 마을의 안위를 책임진다.",
+                  "en": "Her homeland’s seventeenth and youngest leader, responsible for her people’s safety.",
+                  "ja": "故郷の第17代、歴代最年少の指導者。部族と村の安全を担う。",
+                  "zh": "故乡第十七代、历来最年轻的首领，肩负族人与村落的安危。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3556285"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3556285",
+                "title": "(수정) ✨ 첫 만남 | 파란타 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3501769",
+            "name": {
+              "ko": "심포리아",
+              "en": "Symphoria",
+              "ja": "Symphoria",
+              "zh": "Symphoria"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "로스 레인스 출신 우드엘프 궁수. 장기 임무 중 성림자를 지키는 일을 사명으로 여긴다.",
+                  "en": "A wood-elf archer on a long assignment who considers protecting Starborn her mission.",
+                  "ja": "長期任務に就くウッドエルフの弓手。主人公を守ることを使命とする。",
+                  "zh": "执行长期任务的木精灵弓手，将保护主角视为使命。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3501769"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3501769",
+                "title": "✨ 두 번째 만남  |  심포리아 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3499617",
+            "name": {
+              "ko": "멧사",
+              "en": "Metsä",
+              "ja": "Metsä",
+              "zh": "Metsä"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "상록 정원과 희귀 식물을 오랫동안 돌봐 온 우드엘프 정원사.",
+                  "en": "A wood-elf gardener who has long cared for rare plants and her garden.",
+                  "ja": "長く庭園と珍しい植物を育ててきたウッドエルフの庭師。",
+                  "zh": "长期照料庭园与珍稀植物的木精灵园丁。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3499617"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3499617",
+                "title": "✨ 첫 만남  |  멧사 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3328899",
+            "name": {
+              "ko": "샬레·엔시스",
+              "en": "Shalle",
+              "ja": "Shalle",
+              "zh": "Shalle"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "아발리안 페가수스 기사단 소속 하이엘프. 강한 힘을 지닌 기사다.",
+                  "en": "A powerful high-elf knight of the Pegasus order.",
+                  "ja": "ペガサス騎士団に所属する、強い力を持つハイエルフの騎士。",
+                  "zh": "隶属天马骑士团、拥有强大力量的高等精灵骑士。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3328899"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3328899",
+                "title": "✨ 첫 만남  |  샬레·엔시스 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3556263",
+            "name": {
+              "ko": "모르윈",
+              "en": "Morwyn",
+              "ja": "Morwyn",
+              "zh": "Morwyn"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "할콘 가문의 후계자이자 쌍검을 쓰는 인물. 검을 내려놓은 뒤에도 엄격한 생활 습관을 지킨다.",
+                  "en": "A dual-sword heir who maintains disciplined habits even away from combat.",
+                  "ja": "双剣を使う家の後継者。戦いを離れても規律ある生活を守る。",
+                  "zh": "使用双剑的家族继承人，即使放下武器也保持严谨生活。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3556263"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3556263",
+                "title": "✨ 두 번째 만남 | 모르윈 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3377364",
+            "name": {
+              "ko": "캐시벨",
+              "en": "Cathbelle",
+              "ja": "Cathbelle",
+              "zh": "Cathbelle"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "청소와 빨래, 정리에 능숙하지만 요리는 서툰 메이드.",
+                  "en": "A maid skilled in cleaning and laundry, but less accomplished at cooking.",
+                  "ja": "掃除や洗濯は得意だが、料理は苦手なメイド。",
+                  "zh": "擅长打扫和洗衣，却不擅长烹饪的女仆。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3377364"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3377364",
+                "title": "(수정) ✨첫 만남 | 캐시벨✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3410551",
+            "name": {
+              "ko": "애니스",
+              "en": "Anais",
+              "ja": "Anais",
+              "zh": "Anais"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "칼논 요양원의 간호사. 온화하지만 환자의 약 복용에는 단호하다.",
+                  "en": "A gentle sanatorium nurse who is firm about patients taking medicine.",
+                  "ja": "穏やかな療養院の看護師。患者の服薬には厳格。",
+                  "zh": "温和的疗养院护士，对患者服药十分坚持。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3410551"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3410551",
+                "title": "✨ 첫 만남 | 애니스 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3533649",
+            "name": {
+              "ko": "메이플",
+              "en": "Maple",
+              "ja": "Maple",
+              "zh": "Maple"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "플리스 성방 모험가 길드의 활기찬 접수원. 기억력이 좋고 키보의 털 손질도 돕는다.",
+                  "en": "An energetic guild receptionist with an excellent memory and a talent for Kibo grooming.",
+                  "ja": "記憶力に優れた元気なギルド受付。キボの毛並みの手入れも得意。",
+                  "zh": "记忆力出色、精力充沛的公会接待员，也擅长打理奇波的毛发。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3533649"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3533649",
+                "title": "✨ 첫 만남  |  메이플 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3310586",
+            "name": {
+              "ko": "아비",
+              "en": "Abby",
+              "ja": "Abby",
+              "zh": "Abby"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "강한 용족의 힘을 지닌 소녀. 순수한 성격으로 맛있는 음식을 좋아한다.",
+                  "en": "A powerful young dragon with a simple nature and a love of food.",
+                  "ja": "強い竜族の力を持つ少女。純粋で、おいしい食べ物が大好き。",
+                  "zh": "拥有强大龙族力量的少女，性格纯真，喜爱美食。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3310586"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3310586",
+                "title": "✨첫 만남 | 아비 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3518891",
+            "name": {
+              "ko": "노노",
+              "en": "Nono",
+              "ja": "Nono",
+              "zh": "Nono"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "큰 망치를 다루는 작은 파미. 2인 보물찾기 팀의 일원으로 각지를 여행한다.",
+                  "en": "A small hammer-wielding Pami travelling as part of a two-person treasure-hunting team.",
+                  "ja": "大きな槌を扱う小さなパミ。2人組の宝探しチームで旅をする。",
+                  "zh": "挥舞大锤的小个子帕米，作为两人寻宝团队的一员四处旅行。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3518891"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3518891",
+                "title": "✨ 첫 만남  |  노노 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3389134",
+            "name": {
+              "ko": "펭펭",
+              "en": "Pengpeng",
+              "ja": "Pengpeng",
+              "zh": "Pengpeng"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "실력보다 열정이 앞서는 파미 신예로, 뛰어난 무공을 꿈꾸며 쿵푸를 수련한다.",
+                  "en": "A passionate Pami kung-fu novice whose ambitions outpace her current skills.",
+                  "ja": "実力以上の情熱を持つパミのカンフー初心者。達人を目指す。",
+                  "zh": "热情胜过当前实力的帕米功夫新秀，立志成为高手。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3389134"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3389134",
+                "title": "✨ 첫 만남  |  펭펭 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3516387",
+            "name": {
+              "ko": "릴리",
+              "en": "Lily",
+              "ja": "Lily",
+              "zh": "Lily"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "진정한 기사가 되기 위해 고향을 떠난 낙천적인 견습 기사. 어려움 속에서도 사람들을 돕는다.",
+                  "en": "An optimistic apprentice knight who travels to improve and help people.",
+                  "ja": "一人前を目指して旅立った楽観的な見習い騎士。困難の中でも人を助ける。",
+                  "zh": "为成为真正骑士而出行的乐观见习骑士，遇到困难仍帮助他人。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3516387"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3516387",
+                "title": "✨ 첫 만남  |  릴리 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          },
+          {
+            "id": "azur-official-3539946",
+            "name": {
+              "ko": "한요요",
+              "en": "Han Youyou",
+              "ja": "Han Youyou",
+              "zh": "Han Youyou"
+            },
+            "category": {
+              "ko": "캐릭터",
+              "en": "Character",
+              "ja": "キャラクター",
+              "zh": "角色"
+            },
+            "basis": {
+              "ko": "한국 공식 공개 프로필 · 개발 중",
+              "en": "Korean official public profile · prerelease",
+              "ja": "韓国公式公開プロフィール・開発中",
+              "zh": "韩国官方公开档案 · 开发中"
+            },
+            "officialLocales": [
+              "ko",
+              "en"
+            ],
+            "translatedLocales": [
+              "ja",
+              "zh"
+            ],
+            "stats": [],
+            "statSourceKind": "official",
+            "groups": [
+              {
+                "title": {
+                  "ko": "인물 소개",
+                  "en": "Profile",
+                  "ja": "人物紹介",
+                  "zh": "人物简介"
+                },
+                "body": {
+                  "ko": "기관술과 갈고리, 기관연을 활용해 대륙을 누비는 자신감 넘치는 보물 사냥꾼.",
+                  "en": "A confident treasure hunter exploring with mechanical devices, a grapple and a mechanical kite.",
+                  "ja": "仕掛けや鉤、機械の凧を使って大陸を巡る、自信に満ちた宝探しの少女。",
+                  "zh": "借助机关、钩索和机关风筝探索大陆的自信寻宝少女。"
+                },
+                "sourceKind": "official",
+                "sourceUrls": [
+                  "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3539946"
+                ]
+              }
+            ],
+            "sources": [
+              {
+                "kind": "official",
+                "url": "https://forum.nexon.com/azurpromilia/board_view?board=6813&thread=3539946",
+                "title": "✨ 두 번째 만남  |  한요요 ✨"
+              }
+            ],
+            "verifiedAt": "2026-11-02T19:02:22Z"
+          }
+        ]
+      },
+      "sources": [
+        "https://azurpromilia.jp/character"
+      ]
+    },
+    {
+      "id": "azur-promilia-kr-cbt-guide-3444612",
+      "set": {
+        "detailImages": [
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/ff510be4-2b8a-48f6-bf2b-31b5a5bc0703/01.%EB%A9%94%EC%9D%B8%ED%80%98%EC%8A%A4%ED%8A%B8%EC%A7%84%ED%96%89%EC%A4%91%EA%B8%B8%EC%B0%BE%EA%B8%B0%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "width": 1280,
+            "height": 720,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/7ed0e520-1788-4fbb-9e20-067795b930c2/08.%EC%8A%A4%ED%83%80%EC%84%BC%EC%8A%A4%EA%B3%84%EC%A0%95%EB%A0%88%EB%B2%A8%EC%98%AC%EB%A6%AC%EB%8A%94%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "width": 1280,
+            "height": 720,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/a32b6f99-b281-47a9-8faf-586c3b04ee01/07.%EC%9E%A5%EB%B9%84%EC%B6%94%EC%B2%9C%EA%B8%B0%EB%8A%A5%EC%95%88%EB%82%B4.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "width": 1280,
+            "height": 720,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/cbf74bb6-4c3b-47aa-b97f-443b16f3d3bf/09.%ED%83%88%EA%B2%83%EC%9D%B4%EC%9A%A9%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B42%ED%83%88%EA%B2%83%ED%83%91%EC%8A%B9%EB%B0%A9%EB%B2%95%EA%B3%BC%ED%80%B5%EC%8A%AC%EB%A1%AF.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612",
+            "width": 1280,
+            "height": 720,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          }
+        ],
+        "verifiedAt": "2026-11-02T20:18:54Z"
+      },
+      "before": {
+        "detailImages": null,
+        "verifiedAt": "2026-11-02T18:43:18Z"
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444612"
+      ]
+    },
+    {
+      "id": "azur-promilia-kr-cbt-guide-3444613",
+      "set": {
+        "detailImages": [
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/d7012e5a-cdab-4e91-9d63-afa689bc7d49/10.%ED%95%98%EC%9A%B0%EC%A7%95%EC%97%90%ED%82%A4%EB%B3%B4%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "width": 1280,
+            "height": 720,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/ae0415c8-e9f9-424b-8926-f71136dc4ec7/10.%ED%95%98%EC%9A%B0%EC%A7%95%EC%97%90%ED%82%A4%EB%B3%B4%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B45.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "width": 1280,
+            "height": 720,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/be623c64-0108-4472-a3c2-555a901eaf6a/11.%EB%8F%8C%EB%8F%84%EB%81%BC%EB%8F%8C%EA%B3%A1%EA%B4%AD%EC%9D%B4%EB%93%B1%EA%B0%84%ED%8E%B8%EC%A0%9C%EC%9E%91%ED%95%98%EB%8A%94%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "width": 1280,
+            "height": 720,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20260514/72b62902-bc52-4aeb-ac27-a76bb253fcdf/12.%EC%84%B1%EB%A6%BC%EC%9E%90%EC%99%B8%ED%98%95%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%EB%B0%A9%EB%B2%95%EC%95%88%EB%82%B41.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613",
+            "width": 1280,
+            "height": 720,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "2026년 5월 한국 CBT 공식 플레이 안내",
+              "en": "Korean May 2026 CBT official gameplay guide",
+              "ja": "2026年5月韓国CBT公式プレイガイド",
+              "zh": "2026年5月韩国CBT官方玩法说明"
+            },
+            "verifiedAt": "2026-11-02T20:18:54Z"
+          }
+        ],
+        "verifiedAt": "2026-11-02T20:18:54Z"
+      },
+      "before": {
+        "detailImages": null,
+        "verifiedAt": "2026-11-02T18:43:18Z"
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6809&thread=3444613"
+      ]
+    }
+  ]
+}
