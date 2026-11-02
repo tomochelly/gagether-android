@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "requestId": "20261102T130119Z-hi3-official-notice-locales",
+  "reason": "붕괴3rd 한국 공식 계정의 콜라보 카페 현장 안내·이벤트 월페이퍼·호요랜드 설문 공지 3건에 원문 근거의 4개 언어 제목과 요약을 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-02T13:01:19Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-hi3-kr-47287998",
+      "set": {
+        "title": {
+          "ko": "🎆 붕괴3rd <히페리온호, 출항!> 콜라보 카페 현장 스케치",
+          "en": "Hyperion, Set Sail! collaboration café — on-site photos",
+          "ja": "「ハイペリオン号、出航！」コラボカフェの会場写真",
+          "zh": "「休伯利安号，启航！」联动咖啡厅现场照片"
+        },
+        "summary": {
+          "ko": "10월 31일~11월 8일 일러스타 카페 신촌점에서 열리는 「히페리온호, 출항!」 콜라보 카페의 현장 사진과 SNS 후기 이벤트를 안내한다.",
+          "en": "The Hyperion, Set Sail! collaboration café runs October 31–November 8 at Illustar Café Sinchon. The notice shares on-site photos and announces an ongoing social-media review event.",
+          "ja": "10月31日～11月8日にイルスターカフェ新村店で開催されるコラボカフェの会場写真と、開催中のSNS感想投稿イベントを紹介。",
+          "zh": "「休伯利安号，启航！」联动咖啡厅于10月31日至11月8日在Illustar Café新村店举办。本公告介绍现场照片及进行中的社交平台感想活动。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "🎆 붕괴3rd <히페리온호, 출항!> 콜라보 카페 현장 스케치",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47287998"
+      ]
+    },
+    {
+      "id": "quick-hi3-kr-47271288",
+      "set": {
+        "title": {
+          "ko": "[월페이퍼] 만남♪ 추억의 장난감 집 | 월페이퍼 공유",
+          "en": "[Wallpaper] \"We Meet ♪ A Toy House of Memories\" Wallpaper Download",
+          "ja": "【壁紙】出会い♪思い出のおもちゃの家",
+          "zh": "【壁纸】相遇♪回忆玩具小屋丨壁纸分享"
+        },
+        "summary": {
+          "ko": "테마 이벤트 「만남♪ 추억의 장난감 집」의 CG 월페이퍼를 공개했다.",
+          "en": "CG wallpapers from the themed event We Meet ♪ A Toy House of Memories are available.",
+          "ja": "テーマイベント「出会い♪思い出のおもちゃの家」のCG壁紙を公開。",
+          "zh": "主题活动「相遇♪回忆玩具小屋」的CG壁纸已公开。"
+        },
+        "translatedLocales": [
+          "ja"
+        ],
+        "officialLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47271288",
+          "en": "https://www.hoyolab.com/article/47271288",
+          "zh": "https://www.hoyolab.com/article/47271288"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "[월페이퍼] 만남♪ 추억의 장난감 집 | 월페이퍼 공유",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "officialLocales": [
+          "ko"
+        ],
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47271288"
+        }
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47271288"
+      ]
+    },
+    {
+      "id": "quick-hi3-kr-47239870",
+      "set": {
+        "title": {
+          "ko": "호요랜드2026 만족도 설문조사 안내",
+          "en": "HoYoLAND 2026 satisfaction survey",
+          "ja": "HoYoLAND 2026満足度アンケート",
+          "zh": "HoYoLAND 2026满意度问卷"
+        },
+        "summary": {
+          "ko": "호요랜드2026 만족도 설문은 10월 29일~11월 4일 23:59(한국시간)에 진행된다. 참여자 중 10명을 추첨해 붕괴3rd 아크릴 스탠드(랜덤)를 증정한다.",
+          "en": "The HoYoLAND 2026 satisfaction survey runs October 29–November 4, 23:59 KST (UTC+9). Ten participants will be selected by drawing to receive a randomly selected Honkai Impact 3rd acrylic stand.",
+          "ja": "HoYoLAND 2026満足度アンケートは10月29日～11月4日23:59（韓国時間・UTC+9）に実施。参加者から抽選で10名に崩壊3rdのアクリルスタンド（ランダム）をプレゼント。",
+          "zh": "HoYoLAND 2026满意度问卷于10月29日至11月4日23:59（韩国时间，UTC+9）开放，将从参与者中抽选10人赠送随机款崩坏3亚克力立牌。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "호요랜드2026 만족도 설문조사 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47239870"
+      ]
+    }
+  ]
+}
