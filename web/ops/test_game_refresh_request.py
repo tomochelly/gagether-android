@@ -1,4 +1,4 @@
-import importlib.util, pathlib, unittest
+import contextlib, importlib.util, io, os, pathlib, sys, unittest, urllib.error, urllib.parse
 spec=importlib.util.spec_from_file_location('game_runner',pathlib.Path(__file__).with_name('game-refresh-request.py'));runner=importlib.util.module_from_spec(spec);spec.loader.exec_module(runner)
 START='2026-10-25T06:00:00Z';FINISH='2026-10-25T06:01:00Z'
 def task(game='wuwa',lane='notices'):return {'gameId':game,'lane':lane,'key':'official-game:'+game+':'+lane}
@@ -81,4 +81,53 @@ class GameRefreshRequestTest(unittest.TestCase):
   runner.reconcile_errors(unresolved,{'completed':[],'errors':[error]});self.assertEqual(len(unresolved),1)
   runner.reconcile_errors(unresolved,{'completed':[{'task':b}],'errors':[]});self.assertEqual(len(unresolved),1)
   self.assertEqual(runner.reconcile_errors(unresolved,{'completed':[{'task':a}],'errors':[]}),[error]);self.assertEqual(unresolved,{})
+def unregistered(t):
+ value=saved(t,'unregistered');value['result'].update(ok=True,total=0,successful=0,failed=0,readback={'automatic':0,'effective':0});return value
+def fake_server(statuses,post_errors=()):
+ """Same-origin scheduler stub: lease, plan, scoped POST and persisted GET."""
+ def request(url,post=False):
+  if 'runner=' in url:return {'version':2,'claimed':True}
+  if 'plan=1' in url:return {'version':2,'serverTime':'2026-11-03T06:00:00Z','tasks':[dict(t) for t,_ in statuses.values()]}
+  game=urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)['game'][0];t,status=statuses[game]
+  if post:
+   if game in post_errors:raise urllib.error.HTTPError(url,403,'Forbidden',{},None)
+   return {'version':2,'taskKey':t['key']}
+  return status(t)
+ return request
+class UnconfiguredSourceRunTest(unittest.TestCase):
+ """2026-11-03 run 41584090401: upcoming games without a configured source failed every run."""
+ def run_main(self,request):
+  old=runner.fetch_json,runner.time.sleep,sys.argv,os.environ.get('GITHUB_EVENT_NAME')
+  runner.fetch_json=request;runner.time.sleep=lambda s:None;sys.argv=['game-refresh-request.py','--mode','fast'];os.environ['GITHUB_EVENT_NAME']='workflow_dispatch'
+  try:
+   with contextlib.redirect_stdout(io.StringIO()) as out:runner.main()
+   return out.getvalue()
+  finally:
+   runner.fetch_json,runner.time.sleep,sys.argv=old[:3]
+   if old[3] is None:os.environ.pop('GITHUB_EVENT_NAME',None)
+   else:os.environ['GITHUB_EVENT_NAME']=old[3]
+ def test_unregistered_lane_is_a_skip_not_an_error(self):
+  t=task('ananta');value=runner.persisted(t,unregistered(t))
+  self.assertEqual(value['outcome'],'unregistered');self.assertFalse(value['pending'])
+  self.assertEqual(runner.skipped_tasks({'completed':[value]}),['ananta/notices'])
+ def test_an_unregistered_outcome_that_claims_checks_is_rejected(self):
+  t=task('ananta')
+  for change in [{'total':2},{'successful':1},{'failed':1},{'ok':False}]:
+   status=unregistered(t);status['result'].update(change)
+   with self.subTest(change=change),self.assertRaisesRegex(RuntimeError,'Inconsistent unregistered'):runner.persisted(t,status)
+ def test_unknown_outcomes_still_fail(self):
+  t=task();status=saved(t,'something-new')
+  with self.assertRaisesRegex(RuntimeError,'Unknown source outcome'):runner.persisted(t,status)
+ def test_run_succeeds_with_upcoming_games_without_sources(self):
+  statuses={g:(task(g),unregistered) for g in ['silver-palace','azur-promilia','ananta']};statuses['wuwa']=(task(),saved)
+  out=self.run_main(fake_server(statuses))
+  self.assertIn('Skipped, no official source configured',out);self.assertIn('ananta/notices',out)
+ def test_run_succeeds_when_every_lane_is_unconfigured(self):
+  self.run_main(fake_server({g:(task(g),unregistered) for g in ['silver-palace','ananta']}))
+ def test_configured_source_transport_failure_still_fails_the_run(self):
+  statuses={'ananta':(task('ananta'),unregistered),'wuwa':(task(),saved)}
+  with self.assertRaisesRegex(RuntimeError,'Unresolved independent task'):self.run_main(fake_server(statuses,post_errors={'wuwa'}))
+ def test_configured_sources_that_all_fail_still_fail_even_beside_skips(self):
+  statuses={'ananta':(task('ananta'),unregistered),'wuwa':(task(),lambda t:saved(t,'failed'))}
+  with self.assertRaisesRegex(RuntimeError,'Every source task failed'):self.run_main(fake_server(statuses))
 if __name__=='__main__':unittest.main()

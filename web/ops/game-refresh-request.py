@@ -47,7 +47,12 @@ def persisted(task,status):
  readback=saved.get('readback');finished=status.get('lastFinishedAt')
  if not finished or saved.get('finishedAt')!=finished or status.get('lastStartedAt','')>finished or saved.get('startedAt')!=status.get('lastStartedAt') or not isinstance(readback,dict) or any(type(readback.get(k)) is not int or readback[k]<0 for k in ['automatic','effective']):raise RuntimeError('Persisted game readback missing')
  if saved.get('outcome')=='validation-failed':raise RuntimeError('Persistent game validation failed')
- if saved.get('outcome') not in ['complete','partial','failed']:raise RuntimeError('Unknown source outcome')
+ # 2026-11-03: an upcoming game whose lane has no registered official source is
+ # recorded by the server as 'unregistered'. Nothing was read, so it is a skip
+ # (not a failure and not a check). It must say so exactly: ok, zero sources.
+ if saved.get('outcome')=='unregistered':
+  if saved.get('ok') is not True or saved.get('total',0)!=0 or saved.get('successful',0)!=0 or saved.get('failed',0)!=0:raise RuntimeError('Inconsistent unregistered source outcome')
+ elif saved.get('outcome') not in ['complete','partial','failed']:raise RuntimeError('Unknown source outcome')
  return {'task':task,'pending':False,'outcome':saved['outcome'],'finishedAt':finished,'readback':readback,'noticesAdded':saved.get('noticesAdded',0)}
 
 def step(task,request=fetch_json):
@@ -111,6 +116,14 @@ def reconcile_errors(unresolved,result):
  for error in result['errors']:unresolved[(error['gameId'],error['lane'])]=error
  return recovered
 
+def skipped_tasks(result):
+ return [v['task']['gameId']+'/'+v['task']['lane'] for v in result['completed'] if v.get('outcome')=='unregistered']
+
+def every_checked_task_failed(result):
+ """Unconfigured lanes read nothing, so they neither fail nor rescue a run."""
+ checked=[v for v in result['completed'] if v.get('outcome')!='unregistered']
+ return bool(checked) and not result['continuing'] and all(v['outcome']=='failed' for v in checked)
+
 def due_tasks(plan,mode):
  try:now=datetime.datetime.fromisoformat(plan['serverTime'].replace('Z','+00:00'))
  except (KeyError,ValueError,TypeError):raise RuntimeError('Authoritative scheduler clock missing')
@@ -144,7 +157,7 @@ def main():
    if plan.get('version')!=2 or not isinstance(plan.get('tasks'),list):raise RuntimeError('Deploy independent updater before enabling this runner')
    tasks=due_tasks(plan,args.mode)
    for task in tasks:task_url(task)
-   result=wave(tasks,min(8*60,max(10,end-time.monotonic())),workers=4)
+   result=wave(tasks,min(8*60,max(10,end-time.monotonic())),workers=4,request=fetch_json)
    wave_number+=1;recovered=reconcile_errors(unresolved,result)
    print(json.dumps({'wave':wave_number,'mode':args.mode,**result},ensure_ascii=False),flush=True)
    if recovered:print('::warning::Earlier task errors recovered with verified final readback: '+json.dumps(recovered,ensure_ascii=False),flush=True)
@@ -152,6 +165,8 @@ def main():
     summary.write('### Independent '+args.mode+' refresh · wave '+str(wave_number)+'\n\n'+json.dumps(result,ensure_ascii=False)+'\n\n')
    if result['errors']:print('::warning::Independent task errors recorded; other games continue.',flush=True)
    if any(v.get('outcome') in ['partial','failed'] for v in result['completed']):print('::warning::Some source checks remain partial/failed; last-good data retained.',flush=True)
+   skipped=skipped_tasks(result)
+   if skipped:print('::notice::Skipped, no official source configured (건너뜀, 설정 없음): '+', '.join(skipped),flush=True)
    if not continuous or time.monotonic()+60>=end:break
    if not fetch_json(lease_url+'renew',True).get('claimed'):
     lost_lease=True;break
@@ -161,5 +176,5 @@ def main():
  if unresolved:raise RuntimeError('Unresolved independent task transport/auth/validation/readback checks: '+json.dumps(list(unresolved.values()),ensure_ascii=False))
  if lost_lease:return
  if result is None:raise RuntimeError('No registered refresh outcomes')
- if result['completed'] and not result['continuing'] and all(v['outcome']=='failed' for v in result['completed']):raise RuntimeError('Every source task failed')
+ if every_checked_task_failed(result):raise RuntimeError('Every source task failed')
 if __name__=='__main__':main()
