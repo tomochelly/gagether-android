@@ -1,0 +1,369 @@
+{
+  "version": 1,
+  "requestId": "20261103T163645Z-ba-nikke-notices-and-artwork",
+  "reason": "블루 아카이브 한국 공식 쿠폰·행사 공지의 다국어 요약과 행사 원본 이미지, NIKKE 공식 업데이트 공지의 점검 완료·4주년 내용 및 언어별 출처를 보완한다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-03T16:36:45Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-bluearchive-kr-3574394",
+      "set": {
+        "title": {
+          "ko": "🚨[소멸 임박] ‘꽃잎을 따라’ 공개 기념 특별 선물! 특별 쿠폰 유효 기간 안내 (~11/9 23:59)",
+          "en": "HANAWOTADOTTE gift coupon expires November 9 at 23:59",
+          "ja": "「花びらをたどって」公開記念クーポン：11月9日23:59まで",
+          "zh": "「循着花瓣」公开纪念兑换码：11月9日23:59到期"
+        },
+        "summary": {
+          "ko": "한국 서비스 쿠폰 HANAWOTADOTTE는 11월 9일 23:59까지 계정당 1회 사용하면 청휘석 600개를 지급한다. 보상 우편은 7일간 보관된다. Android·Steam은 게임 내 계정의 쿠폰 메뉴, iOS는 공식 쿠폰 등록 페이지에서 입력할 수 있다.",
+          "en": "Korean service: redeem HANAWOTADOTTE once per account by November 9 at 23:59 for 600 Pyroxene. Reward mail lasts seven days. Android and Steam use the in-game Account coupon menu; iOS uses the official coupon webpage.",
+          "ja": "韓国サービスでは、HANAWOTADOTTEを11月9日23:59までに入力すると青輝石600個を受け取れる。1アカウント1回限り。報酬メールの保管期間は7日間。Android・Steamはゲーム内アカウントのクーポンメニュー、iOSは公式クーポン登録ページから入力する。",
+          "zh": "韩国服兑换码HANAWOTADOTTE可在11月9日23:59前使用，每个账号限一次，奖励为600青辉石。奖励邮件保留7天。Android和Steam通过游戏内账号的兑换码菜单输入，iOS通过官方兑换码网页输入。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "🚨[소멸 임박] ‘꽃잎을 따라’ 공개 기념 특별 선물! 특별 쿠폰 유효 기간 안내 (~11/9 23:59)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "📣 아아! 선생님께 샬레운영사무국에서 안내드립니다. '‘ 꽃잎을 따라’ 공개 기념 특별 선물! 특별 쿠폰'의 유효 기간을 안내해 드립니다. 아직 쿠폰을 사용하지 않으신 선생님께서는 안내드리는 유효 기간을 확인하시어 기간 내 사용을 부탁드립니다. [‘ 꽃잎을 따라’ 공개 기념 특별 선물! 특별 쿠폰 유효 기간 안내] 쿠폰 번호 · 보상 · HANAWOTADOTTE · 청휘석 600개 · - 쿠폰 번호는 11 월 9일(월) 오후 11시 59분까지 계정당 1회 입력 및 사용할 수 있습니다. - 쿠폰 번호를 입력하면 게임 내 우편함으로 각 쿠폰별 보상이 지급되며, 우편 보",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3574394"
+      ]
+    },
+    {
+      "id": "quick-bluearchive-kr-3574393",
+      "set": {
+        "title": {
+          "ko": "🚨[소멸 임박] 에리가 드리는 할로윈 특별 선물! 특별 쿠폰 유효 기간 안내 (~11/9 23:59)",
+          "en": "Eri's Halloween gift coupon expires November 9 at 23:59",
+          "ja": "エリのハロウィン記念クーポン：11月9日23:59まで",
+          "zh": "艾莉的万圣节礼物兑换码：11月9日23:59到期"
+        },
+        "summary": {
+          "ko": "한국 서비스 쿠폰 MAGICALPUMPKIN는 11월 9일 23:59까지 계정당 1회 사용하면 청휘석 600개를 지급한다. 보상 우편은 7일간 보관된다. Android·Steam은 게임 내 계정의 쿠폰 메뉴, iOS는 공식 쿠폰 등록 페이지에서 입력할 수 있다.",
+          "en": "Korean service: redeem MAGICALPUMPKIN once per account by November 9 at 23:59 for 600 Pyroxene. Reward mail lasts seven days. Android and Steam use the in-game Account coupon menu; iOS uses the official coupon webpage.",
+          "ja": "韓国サービスでは、MAGICALPUMPKINを11月9日23:59までに入力すると青輝石600個を受け取れる。1アカウント1回限り。報酬メールの保管期間は7日間。Android・Steamはゲーム内アカウントのクーポンメニュー、iOSは公式クーポン登録ページから入力する。",
+          "zh": "韩国服兑换码MAGICALPUMPKIN可在11月9日23:59前使用，每个账号限一次，奖励为600青辉石。奖励邮件保留7天。Android和Steam通过游戏内账号的兑换码菜单输入，iOS通过官方兑换码网页输入。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "🚨[소멸 임박] 에리가 드리는 할로윈 특별 선물! 특별 쿠폰 유효 기간 안내 (~11/9 23:59)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "📣 아아! 선생님께 샬레운영사무국에서 안내드립니다. ' 에리가 드리는 할로윈 특별 선물! 특별 쿠폰'의 유효 기간을 안내해 드립니다. 아직 쿠폰을 사용하지 않으신 선생님께서는 안내드리는 유효 기간을 확인하시어 기간 내 사용을 부탁드립니다. [ 에리가 드리는 할로윈 특별 선물! 특별 쿠폰 유효 기간 안내] 쿠폰 번호 · 보상 · MAGICALPUMPKIN · 청휘석 600개 · - 쿠폰 번호는 11 월 9일(월) 오후 11시 59분까지 계정당 1회 입력 및 사용할 수 있습니다. - 쿠폰 번호를 입력하면 게임 내 우편함으로 각 쿠폰별 보상이 지급되며, 우편 보관 기간은",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3574393"
+      ]
+    },
+    {
+      "id": "quick-bluearchive-kr-3573085",
+      "set": {
+        "title": {
+          "ko": "「니벨아레나」 블루 아카이브 ‘5주년 페스티벌’ 행사 참가 안내",
+          "en": "NIVEL ARENA at the Blue Archive 5th Anniversary Festival",
+          "ja": "NIVEL ARENA、ブルーアーカイブ5周年フェスティバルに出展",
+          "zh": "NIVEL ARENA参加蔚蓝档案5周年庆典"
+        },
+        "summary": {
+          "ko": "11월 7~8일 매일 12~17시, KINTEX 제2전시장 9홀 인근 야외광장에서 니벨아레나 강습·체험과 증정 이벤트가 열린다. 블루 아카이브 스타터 덱 3종과 미카(수영복) 레벨 존 매트도 판매한다.",
+          "en": "NIVEL ARENA offers lessons, trials and giveaways on November 7–8, 12:00–17:00 daily, at the outdoor plaza near KINTEX Exhibition Center 2, Hall 9. Three Blue Archive starter decks and a Mika (Swimsuit) level-zone mat will be sold.",
+          "ja": "11月7～8日の各日12～17時、KINTEX第2展示場9ホール付近の屋外広場でNIVEL ARENAの講習・体験・プレゼント企画を開催。ブルーアーカイブのスターターデッキ3種とミカ（水着）のレベルゾーンマットも販売する。",
+          "zh": "11月7日至8日每日12:00至17:00，NIVEL ARENA将在KINTEX第二展览馆9号厅附近的户外广场举办教学、试玩和赠礼活动，并销售三款蔚蓝档案新手牌组及未花（泳装）等级区域垫。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261030/081cfc12-8616-4785-a705-293004b6df55/%EC%98%A8%EB%A6%AC%EC%A0%84%ED%99%8D%EB%B3%B4%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%B0%B8%EA%B0%80%EC%9D%B4%EB%AF%B8%EC%A7%80780x440.png",
+        "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3573085",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "블루 아카이브 5주년 페스티벌 니벨아레나 참가 포스터",
+          "en": "NIVEL ARENA at the Blue Archive 5th Anniversary Festival: Korean poster",
+          "ja": "ブルーアーカイブ5周年フェスティバル：NIVEL ARENA出展ポスター（韓国語）",
+          "zh": "蔚蓝档案5周年庆典：NIVEL ARENA参展海报（韩语）"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261030/081cfc12-8616-4785-a705-293004b6df55/%EC%98%A8%EB%A6%AC%EC%A0%84%ED%99%8D%EB%B3%B4%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%B0%B8%EA%B0%80%EC%9D%B4%EB%AF%B8%EC%A7%80780x440.png",
+            "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3573085",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 780,
+            "height": 439,
+            "verifiedAt": "2026-11-03T16:36:45Z",
+            "imageCaption": {
+              "ko": "블루 아카이브 5주년 페스티벌 니벨아레나 참가 포스터",
+              "en": "NIVEL ARENA at the Blue Archive 5th Anniversary Festival: Korean poster",
+              "ja": "ブルーアーカイブ5周年フェスティバル：NIVEL ARENA出展ポスター（韓国語）",
+              "zh": "蔚蓝档案5周年庆典：NIVEL ARENA参展海报（韩语）"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261030/081cfc12-8616-4785-a705-293004b6df55/%EC%98%A8%EB%A6%AC%EC%A0%84%ED%99%8D%EB%B3%B4%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%B0%B8%EA%B0%80%EC%9D%B4%EB%AF%B8%EC%A7%80780x440.png",
+            "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3573085",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 780,
+            "height": 439,
+            "verifiedAt": "2026-11-03T16:36:45Z",
+            "imageCaption": {
+              "ko": "블루 아카이브 5주년 페스티벌 니벨아레나 참가 포스터",
+              "en": "NIVEL ARENA at the Blue Archive 5th Anniversary Festival: Korean poster",
+              "ja": "ブルーアーカイブ5周年フェスティバル：NIVEL ARENA出展ポスター（韓国語）",
+              "zh": "蔚蓝档案5周年庆典：NIVEL ARENA参展海报（韩语）"
+            }
+          },
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261030/53fde8a3-6050-477f-aef3-c032636d604d/%EB%B8%94%EB%A3%A8%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C%EC%98%A8%EB%A6%AC%EC%A0%84%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80780x5650.png",
+            "imageSource": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3573085",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 780,
+            "height": 5650,
+            "verifiedAt": "2026-11-03T16:36:45Z",
+            "imageCaption": {
+              "ko": "니벨아레나 부스 위치·판매 상품·체험 프로그램 안내",
+              "en": "NIVEL ARENA booth location, merchandise and trial activities: Korean guide",
+              "ja": "NIVEL ARENAブースの場所・販売商品・体験プログラム案内（韓国語）",
+              "zh": "NIVEL ARENA展位位置、商品及试玩活动指南（韩语）"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "「니벨아레나」 블루 아카이브 ‘5주년 페스티벌’ 행사 참가 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "📣 아아! 선생님께 샬레운영사무국에서 안내드립니다. 선생님과 함께하는 블루 아카이브 5주년 페스티벌! 트레이딩 카드 게임 「니벨아레나」가 축제의 즐거움을 더하고자 함께합니다. 현장에서 블루 아카이브 니벨아레나 스타터 덱 3종과 미카(수영복) 레벨 존 매트를 만나보세요! 니벨아레나를 직접 배워보는 강습과 체험, 특별한 증정 이벤트도 준비되어 있으니 선생님의 많은 관심과 참여 부탁드립니다~✨ 🔹 행사 상세 안내 - 일시: 11월 7일(토) ~ 11월 8일(일) / 낮 12시 ~ 오후 5시 - 장소: KINTEX 제2전시장 9홀 인근 야외 광장 🔹 니벨아레나 공식 채",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=3573085"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+      "set": {
+        "title": {
+          "ko": "10월 29일 업데이트 공지(10/29 내용 업데이트)",
+          "en": "Update on October 29",
+          "ja": "10月29日のアップデートについて",
+          "zh": "10月29日更新公告"
+        },
+        "summary": {
+          "ko": "점검이 완료됐다. MARIA-n, FADING AFFECTION, 메인 49~50장과 라푼젤: 생츄어리 이벤트 보상이 추가됐다. 마리안: 퀸 특수 모집이 진행 중이며 홍련: 신살은 11월 5일부터 열린다. 각각 모집 기간 중 매일 1회 무료 모집을 제공하며 무료 모집에는 골드 마일리지 티켓이 지급되지 않는다.",
+          "en": "Maintenance is complete. Added MARIA-n, FADING AFFECTION, Chapters 49–50 and event reward Rapunzel: Sanctuary. Marian: Queen recruitment is open; Scarlet: Goddeath starts November 5. Each offers one free daily Special Recruit during its recruitment period, without Gold Mileage Tickets.",
+          "ja": "メンテナンスが終了。MARIA-n、FADING AFFECTION、メイン49～50章とイベント報酬のラプンツェル：サンクチュアリが追加された。マリアン：クイーンの特殊募集は開催中、紅蓮：神殺は11月5日開始。各募集期間中は毎日1回無料で募集でき、無料分ではゴールドマイレージチケットを獲得できない。",
+          "zh": "维护已完成，新增MARIA-n、FADING AFFECTION、主线第49至50章及活动奖励Rapunzel: Sanctuary。Marian: Queen特殊招募已开启，Scarlet: Goddeath于11月5日开启。各招募期间每天可免费招募一次，免费次数不提供黄金积分券。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "10월 29일 업데이트 공지(10/29 내용 업데이트)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "존경하는 지휘관님, 《승리의 여신: 니케》 업데이트를 위한 서버 점검이 2026년 10월 29일에 진행될 예정입니다. 서버 점검 중엔 게임 접속이 불가능한 점 양해 부탁드립니다. 이번 업데이트는 게임 클라이언트가 업데이트되어 스토어에서 최신 버전 클라이언트를 새로 다운로드하셔야만 게임에 접속하실 수 있습니다. 신규 클라이언트를 다운로드하기 위해 디바이스의 저장 공간은 최소 18 GB 이상 확보해 주시고, 니케를 처음 설치하시는 신규 지휘관님은 최소 2 3 GB 이상의 저장 공간을 확보해 주시기를 부탁드립니다. PC 버전의 경우, Launcher에서 [게임 시작] 버튼",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9"
+        }
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+        "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+        "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-7da04680abdfda498da9aa8aa8d823f50d3b",
+      "set": {
+        "title": {
+          "ko": "10월 29일 업데이트 공지(10/29 내용 업데이트)",
+          "en": "Update on October 29",
+          "ja": "10月29日のアップデートについて",
+          "zh": "10月29日更新公告"
+        },
+        "summary": {
+          "ko": "점검이 완료됐다. MARIA-n, FADING AFFECTION, 메인 49~50장과 라푼젤: 생츄어리 이벤트 보상이 추가됐다. 마리안: 퀸 특수 모집이 진행 중이며 홍련: 신살은 11월 5일부터 열린다. 각각 모집 기간 중 매일 1회 무료 모집을 제공하며 무료 모집에는 골드 마일리지 티켓이 지급되지 않는다.",
+          "en": "Maintenance is complete. Added MARIA-n, FADING AFFECTION, Chapters 49–50 and event reward Rapunzel: Sanctuary. Marian: Queen recruitment is open; Scarlet: Goddeath starts November 5. Each offers one free daily Special Recruit during its recruitment period, without Gold Mileage Tickets.",
+          "ja": "メンテナンスが終了。MARIA-n、FADING AFFECTION、メイン49～50章とイベント報酬のラプンツェル：サンクチュアリが追加された。マリアン：クイーンの特殊募集は開催中、紅蓮：神殺は11月5日開始。各募集期間中は毎日1回無料で募集でき、無料分ではゴールドマイレージチケットを獲得できない。",
+          "zh": "维护已完成，新增MARIA-n、FADING AFFECTION、主线第49至50章及活动奖励Rapunzel: Sanctuary。Marian: Queen特殊招募已开启，Scarlet: Goddeath于11月5日开启。各招募期间每天可免费招募一次，免费次数不提供黄金积分券。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Update on October 29",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Commanders, The game server will be offline for maintenance and updates on October 29, 2026. During this time, you will not be able to log in to the game. We apologize for any inconvenience caused. Please note that this update is mandatory. You can download the latest version updates on the App Store or Google Play. Pl",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b"
+        }
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+        "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+        "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883"
+      ]
+    },
+    {
+      "id": "quick-nikke-jp-8cae0ab1a9e86a44e6aa0eaa4acb16a64883",
+      "set": {
+        "title": {
+          "ko": "10월 29일 업데이트 공지(10/29 내용 업데이트)",
+          "en": "Update on October 29",
+          "ja": "10月29日のアップデートについて",
+          "zh": "10月29日更新公告"
+        },
+        "summary": {
+          "ko": "점검이 완료됐다. MARIA-n, FADING AFFECTION, 메인 49~50장과 라푼젤: 생츄어리 이벤트 보상이 추가됐다. 마리안: 퀸 특수 모집이 진행 중이며 홍련: 신살은 11월 5일부터 열린다. 각각 모집 기간 중 매일 1회 무료 모집을 제공하며 무료 모집에는 골드 마일리지 티켓이 지급되지 않는다.",
+          "en": "Maintenance is complete. Added MARIA-n, FADING AFFECTION, Chapters 49–50 and event reward Rapunzel: Sanctuary. Marian: Queen recruitment is open; Scarlet: Goddeath starts November 5. Each offers one free daily Special Recruit during its recruitment period, without Gold Mileage Tickets.",
+          "ja": "メンテナンスが終了。MARIA-n、FADING AFFECTION、メイン49～50章とイベント報酬のラプンツェル：サンクチュアリが追加された。マリアン：クイーンの特殊募集は開催中、紅蓮：神殺は11月5日開始。各募集期間中は毎日1回無料で募集でき、無料分ではゴールドマイレージチケットを獲得できない。",
+          "zh": "维护已完成，新增MARIA-n、FADING AFFECTION、主线第49至50章及活动奖励Rapunzel: Sanctuary。Marian: Queen特殊招募已开启，Scarlet: Goddeath于11月5日开启。各招募期间每天可免费招募一次，免费次数不提供黄金积分券。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "10月29日のアップデートについて",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "親愛なる指揮官様 『勝利の女神：NIKKE』はアップデートのため、2026年10月29日にメンテナンスを実施する予定です。メンテナンス中はゲームに接続できませんので、ご迷惑をおかけいたしますが、ご理解ご協力のほどよろしくお願いいたします。 今回のアップデートではゲームクライアントがアップデートされるため、ストアから最新バージョンをダウンロードして、ゲームをお楽しみください。新クライアントのダウンロードには、デバイスの空き容量を最低18GB以上確保することを推奨いたします。新規指揮官の場合、最低23GB以上確保することが必要となります。PCバージョンの場合、ゲームLauncherで「ゲームスタート」ボタンをタップすると、最新のクライア",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883"
+        }
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=5b8bea6da2a9aa420ca8dc2a04c7968918b9",
+        "https://nikke-en.com/newsdetail.html?content_id=7da04680abdfda498da9aa8aa8d823f50d3b",
+        "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883"
+      ]
+    }
+  ]
+}
