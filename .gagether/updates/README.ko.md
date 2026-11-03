@@ -70,7 +70,8 @@ GAGETHER 예약 조사 작업은 쓰기 토큰 없이 이 폴더에 **업데이�
 - 배너 하나당 한 줄. 같은 배너를 지역 라벨만 바꿔 여러 번 쓰지 않는다. `service`는 정규 서비스만 쓴다: 소녀전선2·리버스: 1999의 한국·일본은 `global`, 블루 아카이브 글로벌은 `kr`, NIKKE·림버스 등 공용 서비스는 `global`. CN은 레지스트리에 CN 서비스가 있는 게임(명일방주, 소녀전선2, 리버스: 1999)만 쓴다.
 - `pool`: `character`, `standard`(명일방주 일반·커널), `support`(우마무스메 서포트 카드). 무기 픽업은 내지 않는다.
 - 날짜: 그 서버 공지에 적힌 현지 날짜. 시각(`startAt`·`endAt`)은 공식 공지에 시각과 시간대가 있을 때만 오프셋을 붙여 쓰고, 없으면 `null`. 시각을 쓰면 그 날짜가 `startDate`·`endDate`와 같아야 한다. 종료일을 모르면 `endDate: null`. 시작일이 오늘(일본 날짜) 이후인 배너는 내지 않는다.
-- 멤버: `rosterId`는 `https://gagether.wiki/api/characters?game=<게임 ID>`(명조는 `https://gagether.wiki/api/wuwa/library`)의 `characters[].id`에서 이름으로 찾는다. 찾을 수 없으면 `"rosterId": null`과 공식 이름 `"name": {"ko": "...", "ja": "..."}`를 넣는다. 비슷한 캐릭터의 ID를 대신 쓰지 않는다. `role`은 `featured`·`rate-up`·`candidate`이고 `featured`가 1명 이상이어야 한다. `type`은 공지가 신규·복각을 밝힌 경우만 `new`·`rerun`, 아니면 `unknown`.
+- 멤버: `rosterId`는 `https://gagether.wiki/api/characters?game=<게임 ID>`(명조는 `https://gagether.wiki/api/wuwa/library`)의 `characters[].id`에서 이름으로 찾는다. 찾을 수 없으면 `"rosterId": null`과 공식 이름 `"name": {"ko": "...", "ja": "..."}`를 넣는다. 비슷한 캐릭터의 ID를 대신 쓰지 않는다. `role`은 `featured`·`rate-up`·`candidate`이고 `featured`가 1명 이상이어야 한다(아래 선택형 모집은 예외). `type`은 공지가 신규·복각을 밝힌 경우만 `new`·`rerun`, 아니면 `unknown`.
+- 선택형 모집(예: 블루 아카이브 리콜렉트·앙코르·PremiumDash, "대상 중 N명 선택"): 고정 픽업 학생이 없으므로 **모든 멤버를 `"role": "candidate"`**로 넣는다. 후보는 1명 이상이고, featured·rate-up과 섞지 않는다. 공지가 선택 수를 밝히면 `"selectionCount": 1`처럼 넣고(후보 수 이하), 밝히지 않으면 이 칸을 넣지 않는다. 후보로 나온 회차는 사이트에서 "선택 후보로 등장"으로 따로 보이고 픽업 등장 횟수·복각 간격에는 들어가지 않는다.
 - 출처: 공식 공지를 먼저 넣는다(`"kind": "official"`). 공식 공지를 찾지 못한 회차만 커뮤니티 자료를 `"kind": "community"`로 넣는다. https 원문 URL과 게시 시각을 그대로 적는다.
 - 이미 기록된 배너(같은 게임·서버·풀·시작일·featured 멤버)는 덮어쓰지 않는다. 다시 내면 새 출처 URL만 더해진다. 틀린 기록은 운영자가 고친다.
 - 예상·유출·커뮤니티 예측은 넣지 않는다.
