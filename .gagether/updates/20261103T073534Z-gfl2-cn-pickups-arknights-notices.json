@@ -1,0 +1,1219 @@
+{
+  "version": 1,
+  "requestId": "20261103T073534Z-gfl2-cn-pickups-arknights-notices",
+  "reason": "중국 소녀전선2 11월 3일 인형·무기 픽업과 공식 공지, 명일방주 글로벌·일본 복각 공지의 다국어 요약 및 공식 배너를 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-03T07:35:34Z",
+  "entries": [
+    {
+      "id": "gfl2-cn-20261103-suomi-character",
+      "gameId": "gfl2",
+      "region": "cn",
+      "server": "中国大陆",
+      "kind": "pickup",
+      "title": {
+        "ko": "索米",
+        "en": "索米",
+        "ja": "索米",
+        "zh": "索米"
+      },
+      "summary": {
+        "ko": "중국 서비스의 「索米」 픽업. 엘리트 인형 획득 시 해당 대상의 비율은 50%다. 일반 SL-1-2 완료 후 참여한다.",
+        "en": "CN pickup for 索米. When an elite doll is obtained, its featured share is 50%. Requires normal SL-1-2.",
+        "ja": "中国版「索米」ピックアップ。エリート人形獲得時の対象割合は50%。通常SL-1-2クリアで参加可能。",
+        "zh": "国服「索米」概率提升活动，获得精英人形时有50%概率为该对象。需通关普通SL-1-2。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-24",
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T07:35:34Z",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2225&typeId=4",
+      "sourceTitle": "索米、莉塔拉、科谢尼娅限时概率UP活动现已开启！",
+      "sourceKind": "official",
+      "sourceLocale": "zh",
+      "officialLocales": [
+        "zh"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja"
+      ],
+      "localizationSources": {
+        "zh": "https://gf2.sunborngame.com/NewsInfo?id=2225&typeId=4"
+      },
+      "pickupType": "unknown",
+      "poolType": "character",
+      "pickupGroup": "gfl2-cn-20261103-2225",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "索米",
+            "en": "索米",
+            "ja": "索米",
+            "zh": "索米"
+          },
+          "type": "unknown",
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "莉塔拉",
+            "en": "莉塔拉",
+            "ja": "莉塔拉",
+            "zh": "莉塔拉"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "科谢尼娅",
+            "en": "科谢尼娅",
+            "ja": "科谢尼娅",
+            "zh": "科谢尼娅"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 3일 업데이트 후 시작. 명칭은 중국어 원문 표기.",
+        "en": "Starts after the November 3 update. Names retain the original Chinese spelling.",
+        "ja": "11月3日更新後に開始。名称は中国語原文表記。",
+        "zh": "11月3日版本更新后开启。名称保留中文原文。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-24"
+      },
+      "imageVerified": false
+    },
+    {
+      "id": "gfl2-cn-20261103-suomi-weapon",
+      "gameId": "gfl2",
+      "region": "cn",
+      "server": "中国大陆",
+      "kind": "weapon",
+      "title": {
+        "ko": "未言使命",
+        "en": "未言使命",
+        "ja": "未言使命",
+        "zh": "未言使命"
+      },
+      "summary": {
+        "ko": "중국 서비스의 「未言使命」 픽업. 엘리트 무기 획득 시 해당 대상의 비율은 75%다. 일반 SL-1-2 완료 후 참여한다.",
+        "en": "CN pickup for 未言使命. When an elite weapon is obtained, its featured share is 75%. Requires normal SL-1-2.",
+        "ja": "中国版「未言使命」ピックアップ。エリート武器獲得時の対象割合は75%。通常SL-1-2クリアで参加可能。",
+        "zh": "国服「未言使命」概率提升活动，获得精英武器时有75%概率为该对象。需通关普通SL-1-2。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-24",
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T07:35:34Z",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2225&typeId=4",
+      "sourceTitle": "索米、莉塔拉、科谢尼娅限时概率UP活动现已开启！",
+      "sourceKind": "official",
+      "sourceLocale": "zh",
+      "officialLocales": [
+        "zh"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja"
+      ],
+      "localizationSources": {
+        "zh": "https://gf2.sunborngame.com/NewsInfo?id=2225&typeId=4"
+      },
+      "pickupType": "unknown",
+      "poolType": "weapon",
+      "pickupGroup": "gfl2-cn-20261103-2225",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "未言使命",
+            "en": "未言使命",
+            "ja": "未言使命",
+            "zh": "未言使命"
+          },
+          "type": "unknown",
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "索米",
+            "en": "索米",
+            "ja": "索米",
+            "zh": "索米"
+          },
+          "type": "unknown",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "加利尔轻机枪",
+            "en": "加利尔轻机枪",
+            "ja": "加利尔轻机枪",
+            "zh": "加利尔轻机枪"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "斯捷奇金",
+            "en": "斯捷奇金",
+            "ja": "斯捷奇金",
+            "zh": "斯捷奇金"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 3일 업데이트 후 시작. 명칭은 중국어 원문 표기.",
+        "en": "Starts after the November 3 update. Names retain the original Chinese spelling.",
+        "ja": "11月3日更新後に開始。名称は中国語原文表記。",
+        "zh": "11月3日版本更新后开启。名称保留中文原文。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-24"
+      },
+      "imageVerified": false
+    },
+    {
+      "id": "gfl2-cn-20261103-soppo-character",
+      "gameId": "gfl2",
+      "region": "cn",
+      "server": "中国大陆",
+      "kind": "pickup",
+      "title": {
+        "ko": "索普",
+        "en": "索普",
+        "ja": "索普",
+        "zh": "索普"
+      },
+      "summary": {
+        "ko": "중국 서비스의 「索普」 픽업. 엘리트 인형 획득 시 해당 대상의 비율은 50%다. 일반 SL-1-2 완료 후 참여한다.",
+        "en": "CN pickup for 索普. When an elite doll is obtained, its featured share is 50%. Requires normal SL-1-2.",
+        "ja": "中国版「索普」ピックアップ。エリート人形獲得時の対象割合は50%。通常SL-1-2クリアで参加可能。",
+        "zh": "国服「索普」概率提升活动，获得精英人形时有50%概率为该对象。需通关普通SL-1-2。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-24",
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T07:35:34Z",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2226&typeId=4",
+      "sourceTitle": "索普、莉塔拉、科谢尼娅限时概率UP活动现已开启！",
+      "sourceKind": "official",
+      "sourceLocale": "zh",
+      "officialLocales": [
+        "zh"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja"
+      ],
+      "localizationSources": {
+        "zh": "https://gf2.sunborngame.com/NewsInfo?id=2226&typeId=4"
+      },
+      "pickupType": "rerun",
+      "poolType": "character",
+      "pickupGroup": "gfl2-cn-20261103-2226",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "索普",
+            "en": "索普",
+            "ja": "索普",
+            "zh": "索普"
+          },
+          "type": "rerun",
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "莉塔拉",
+            "en": "莉塔拉",
+            "ja": "莉塔拉",
+            "zh": "莉塔拉"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "科谢尼娅",
+            "en": "科谢尼娅",
+            "ja": "科谢尼娅",
+            "zh": "科谢尼娅"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 3일 업데이트 후 시작. 명칭은 중국어 원문 표기.",
+        "en": "Starts after the November 3 update. Names retain the original Chinese spelling.",
+        "ja": "11月3日更新後に開始。名称は中国語原文表記。",
+        "zh": "11月3日版本更新后开启。名称保留中文原文。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-24"
+      },
+      "imageVerified": false,
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://gf2.sunborngame.com/NewsInfo?id=1731&typeId=4",
+          "title": "索普、莉塔拉、科谢尼娅限时概率UP活动现已开启！",
+          "publisher": "SUNBORN"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-cn-20261103-soppo-weapon",
+      "gameId": "gfl2",
+      "region": "cn",
+      "server": "中国大陆",
+      "kind": "weapon",
+      "title": {
+        "ko": "碎穹嚎歌",
+        "en": "碎穹嚎歌",
+        "ja": "碎穹嚎歌",
+        "zh": "碎穹嚎歌"
+      },
+      "summary": {
+        "ko": "중국 서비스의 「碎穹嚎歌」 픽업. 엘리트 무기 획득 시 해당 대상의 비율은 75%다. 일반 SL-1-2 완료 후 참여한다.",
+        "en": "CN pickup for 碎穹嚎歌. When an elite weapon is obtained, its featured share is 75%. Requires normal SL-1-2.",
+        "ja": "中国版「碎穹嚎歌」ピックアップ。エリート武器獲得時の対象割合は75%。通常SL-1-2クリアで参加可能。",
+        "zh": "国服「碎穹嚎歌」概率提升活动，获得精英武器时有75%概率为该对象。需通关普通SL-1-2。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-24",
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T07:35:34Z",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2226&typeId=4",
+      "sourceTitle": "索普、莉塔拉、科谢尼娅限时概率UP活动现已开启！",
+      "sourceKind": "official",
+      "sourceLocale": "zh",
+      "officialLocales": [
+        "zh"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja"
+      ],
+      "localizationSources": {
+        "zh": "https://gf2.sunborngame.com/NewsInfo?id=2226&typeId=4"
+      },
+      "pickupType": "rerun",
+      "poolType": "weapon",
+      "pickupGroup": "gfl2-cn-20261103-2226",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "碎穹嚎歌",
+            "en": "碎穹嚎歌",
+            "ja": "碎穹嚎歌",
+            "zh": "碎穹嚎歌"
+          },
+          "type": "rerun",
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "特殊模组战术步枪",
+            "en": "特殊模组战术步枪",
+            "ja": "特殊模组战术步枪",
+            "zh": "特殊模组战术步枪"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "加利尔轻机枪",
+            "en": "加利尔轻机枪",
+            "ja": "加利尔轻机枪",
+            "zh": "加利尔轻机枪"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "斯捷奇金",
+            "en": "斯捷奇金",
+            "ja": "斯捷奇金",
+            "zh": "斯捷奇金"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 3일 업데이트 후 시작. 명칭은 중국어 원문 표기.",
+        "en": "Starts after the November 3 update. Names retain the original Chinese spelling.",
+        "ja": "11月3日更新後に開始。名称は中国語原文表記。",
+        "zh": "11月3日版本更新后开启。名称保留中文原文。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-24"
+      },
+      "imageVerified": false,
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://gf2.sunborngame.com/NewsInfo?id=1731&typeId=4",
+          "title": "索普、莉塔拉、科谢尼娅限时概率UP活动现已开启！",
+          "publisher": "SUNBORN"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-cn-20261103-cecilia-character",
+      "gameId": "gfl2",
+      "region": "cn",
+      "server": "中国大陆",
+      "kind": "pickup",
+      "title": {
+        "ko": "希丽雅",
+        "en": "希丽雅",
+        "ja": "希丽雅",
+        "zh": "希丽雅"
+      },
+      "summary": {
+        "ko": "중국 서비스의 「希丽雅」 픽업. 엘리트 인형 획득 시 해당 대상의 비율은 50%다. 일반 SL-1-2 완료 후 참여한다.",
+        "en": "CN pickup for 希丽雅. When an elite doll is obtained, its featured share is 50%. Requires normal SL-1-2.",
+        "ja": "中国版「希丽雅」ピックアップ。エリート人形獲得時の対象割合は50%。通常SL-1-2クリアで参加可能。",
+        "zh": "国服「希丽雅」概率提升活动，获得精英人形时有50%概率为该对象。需通关普通SL-1-2。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-24",
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T07:35:34Z",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2227&typeId=4",
+      "sourceTitle": "希丽雅、莉塔拉、科谢尼娅限时概率UP活动现已开启！",
+      "sourceKind": "official",
+      "sourceLocale": "zh",
+      "officialLocales": [
+        "zh"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja"
+      ],
+      "localizationSources": {
+        "zh": "https://gf2.sunborngame.com/NewsInfo?id=2227&typeId=4"
+      },
+      "pickupType": "rerun",
+      "poolType": "character",
+      "pickupGroup": "gfl2-cn-20261103-2227",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "希丽雅",
+            "en": "希丽雅",
+            "ja": "希丽雅",
+            "zh": "希丽雅"
+          },
+          "type": "rerun",
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "莉塔拉",
+            "en": "莉塔拉",
+            "ja": "莉塔拉",
+            "zh": "莉塔拉"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "科谢尼娅",
+            "en": "科谢尼娅",
+            "ja": "科谢尼娅",
+            "zh": "科谢尼娅"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 3일 업데이트 후 시작. 명칭은 중국어 원문 표기.",
+        "en": "Starts after the November 3 update. Names retain the original Chinese spelling.",
+        "ja": "11月3日更新後に開始。名称は中国語原文表記。",
+        "zh": "11月3日版本更新后开启。名称保留中文原文。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-24"
+      },
+      "imageVerified": false,
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://gf2.sunborngame.com/NewsInfo?id=2071&typeId=4",
+          "title": "希丽雅、闪电、寇尔芙限时概率UP活动现已开启！",
+          "publisher": "SUNBORN"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-cn-20261103-cecilia-weapon",
+      "gameId": "gfl2",
+      "region": "cn",
+      "server": "中国大陆",
+      "kind": "weapon",
+      "title": {
+        "ko": "斯诺特拉",
+        "en": "斯诺特拉",
+        "ja": "斯诺特拉",
+        "zh": "斯诺特拉"
+      },
+      "summary": {
+        "ko": "중국 서비스의 「斯诺特拉」 픽업. 엘리트 무기 획득 시 해당 대상의 비율은 75%다. 일반 SL-1-2 완료 후 참여한다.",
+        "en": "CN pickup for 斯诺特拉. When an elite weapon is obtained, its featured share is 75%. Requires normal SL-1-2.",
+        "ja": "中国版「斯诺特拉」ピックアップ。エリート武器獲得時の対象割合は75%。通常SL-1-2クリアで参加可能。",
+        "zh": "国服「斯诺特拉」概率提升活动，获得精英武器时有75%概率为该对象。需通关普通SL-1-2。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-24",
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T07:35:34Z",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2227&typeId=4",
+      "sourceTitle": "希丽雅、莉塔拉、科谢尼娅限时概率UP活动现已开启！",
+      "sourceKind": "official",
+      "sourceLocale": "zh",
+      "officialLocales": [
+        "zh"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja"
+      ],
+      "localizationSources": {
+        "zh": "https://gf2.sunborngame.com/NewsInfo?id=2227&typeId=4"
+      },
+      "pickupType": "rerun",
+      "poolType": "weapon",
+      "pickupGroup": "gfl2-cn-20261103-2227",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "斯诺特拉",
+            "en": "斯诺特拉",
+            "ja": "斯诺特拉",
+            "zh": "斯诺特拉"
+          },
+          "type": "rerun",
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "格威尔36-康派科特",
+            "en": "格威尔36-康派科特",
+            "ja": "格威尔36-康派科特",
+            "zh": "格威尔36-康派科特"
+          },
+          "type": "unknown",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "加利尔轻机枪",
+            "en": "加利尔轻机枪",
+            "ja": "加利尔轻机枪",
+            "zh": "加利尔轻机枪"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "斯捷奇金",
+            "en": "斯捷奇金",
+            "ja": "斯捷奇金",
+            "zh": "斯捷奇金"
+          },
+          "type": "rerun",
+          "role": "rate-up"
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 3일 업데이트 후 시작. 명칭은 중국어 원문 표기.",
+        "en": "Starts after the November 3 update. Names retain the original Chinese spelling.",
+        "ja": "11月3日更新後に開始。名称は中国語原文表記。",
+        "zh": "11月3日版本更新后开启。名称保留中文原文。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-24"
+      },
+      "imageVerified": false,
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://gf2.sunborngame.com/NewsInfo?id=2071&typeId=4",
+          "title": "希丽雅、闪电、寇尔芙限时概率UP活动现已开启！",
+          "publisher": "SUNBORN"
+        }
+      ]
+    },
+    {
+      "id": "gfl2-cn-20261103-destroyer-character",
+      "gameId": "gfl2",
+      "region": "cn",
+      "server": "中国大陆",
+      "kind": "pickup",
+      "title": {
+        "ko": "破坏者",
+        "en": "破坏者",
+        "ja": "破坏者",
+        "zh": "破坏者"
+      },
+      "summary": {
+        "ko": "중국 서비스의 「破坏者」 픽업. 엘리트 인형 획득 시 해당 대상의 비율은 50%다. 일반 SL-1-2 완료 후 참여한다.",
+        "en": "CN pickup for 破坏者. When an elite doll is obtained, its featured share is 50%. Requires normal SL-1-2.",
+        "ja": "中国版「破坏者」ピックアップ。エリート人形獲得時の対象割合は50%。通常SL-1-2クリアで参加可能。",
+        "zh": "国服「破坏者」概率提升活动，获得精英人形时有50%概率为该对象。需通关普通SL-1-2。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-24",
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T07:35:34Z",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2228&typeId=4",
+      "sourceTitle": "破坏者、克罗丽科、纳美西丝限时概率UP活动现已开启！",
+      "sourceKind": "official",
+      "sourceLocale": "zh",
+      "officialLocales": [
+        "zh"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja"
+      ],
+      "localizationSources": {
+        "zh": "https://gf2.sunborngame.com/NewsInfo?id=2228&typeId=4"
+      },
+      "pickupType": "unknown",
+      "poolType": "character",
+      "pickupGroup": "gfl2-cn-20261103-2228",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "破坏者",
+            "en": "破坏者",
+            "ja": "破坏者",
+            "zh": "破坏者"
+          },
+          "type": "unknown",
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "克罗丽科",
+            "en": "克罗丽科",
+            "ja": "克罗丽科",
+            "zh": "克罗丽科"
+          },
+          "type": "unknown",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "纳美西丝",
+            "en": "纳美西丝",
+            "ja": "纳美西丝",
+            "zh": "纳美西丝"
+          },
+          "type": "unknown",
+          "role": "rate-up"
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 3일 업데이트 후 시작. 명칭은 중국어 원문 표기.",
+        "en": "Starts after the November 3 update. Names retain the original Chinese spelling.",
+        "ja": "11月3日更新後に開始。名称は中国語原文表記。",
+        "zh": "11月3日版本更新后开启。名称保留中文原文。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-24"
+      },
+      "imageVerified": false
+    },
+    {
+      "id": "gfl2-cn-20261103-destroyer-weapon",
+      "gameId": "gfl2",
+      "region": "cn",
+      "server": "中国大陆",
+      "kind": "weapon",
+      "title": {
+        "ko": "盖娅终结",
+        "en": "盖娅终结",
+        "ja": "盖娅终结",
+        "zh": "盖娅终结"
+      },
+      "summary": {
+        "ko": "중국 서비스의 「盖娅终结」 픽업. 엘리트 무기 획득 시 해당 대상의 비율은 75%다. 일반 SL-1-2 완료 후 참여한다.",
+        "en": "CN pickup for 盖娅终结. When an elite weapon is obtained, its featured share is 75%. Requires normal SL-1-2.",
+        "ja": "中国版「盖娅终结」ピックアップ。エリート武器獲得時の対象割合は75%。通常SL-1-2クリアで参加可能。",
+        "zh": "国服「盖娅终结」概率提升活动，获得精英武器时有75%概率为该对象。需通关普通SL-1-2。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-24",
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T07:35:34Z",
+      "sourceUrl": "https://gf2.sunborngame.com/NewsInfo?id=2228&typeId=4",
+      "sourceTitle": "破坏者、克罗丽科、纳美西丝限时概率UP活动现已开启！",
+      "sourceKind": "official",
+      "sourceLocale": "zh",
+      "officialLocales": [
+        "zh"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "ja"
+      ],
+      "localizationSources": {
+        "zh": "https://gf2.sunborngame.com/NewsInfo?id=2228&typeId=4"
+      },
+      "pickupType": "unknown",
+      "poolType": "weapon",
+      "pickupGroup": "gfl2-cn-20261103-2228",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "盖娅终结",
+            "en": "盖娅终结",
+            "ja": "盖娅终结",
+            "zh": "盖娅终结"
+          },
+          "type": "unknown",
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "铁鬣",
+            "en": "铁鬣",
+            "ja": "铁鬣",
+            "zh": "铁鬣"
+          },
+          "type": "unknown",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "野兔",
+            "en": "野兔",
+            "ja": "野兔",
+            "zh": "野兔"
+          },
+          "type": "unknown",
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "复仇女神",
+            "en": "复仇女神",
+            "ja": "复仇女神",
+            "zh": "复仇女神"
+          },
+          "type": "unknown",
+          "role": "rate-up"
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 3일 업데이트 후 시작. 명칭은 중국어 원문 표기.",
+        "en": "Starts after the November 3 update. Names retain the original Chinese spelling.",
+        "ja": "11月3日更新後に開始。名称は中国語原文表記。",
+        "zh": "11月3日版本更新后开启。名称保留中文原文。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-24"
+      },
+      "imageVerified": false
+    }
+  ],
+  "changes": [
+    {
+      "id": "feed-arknights-5045",
+      "set": {
+        "title": {
+          "ko": "글로벌 「The Masses’ Travels」 복각",
+          "en": "SIDESTORY: THE MASSES' TRAVELS RERUN",
+          "ja": "グローバル版「The Masses’ Travels」復刻",
+          "zh": "国际服「The Masses’ Travels」复刻"
+        },
+        "summary": {
+          "ko": "글로벌 서비스의 이벤트 스테이지는 11월 5~15일, 보상 교환은 19일까지 열린다(UTC-7). 1-10 완료 후 참여하며 이벤트 임무로 6성 오퍼레이터 Sankta Miksaparato를 획득할 수 있다. 기존 스테이지 진행도와 첫 클리어 기록은 유지된다.",
+          "en": "Global event stages run November 5–15, with reward exchange through November 19 (UTC-7). Clear 1-10 to participate; event missions award 6-star Sankta Miksaparato. Previous stage progress and first-clear records carry over.",
+          "ja": "グローバル版のイベントステージは11月5～15日、報酬交換は19日まで（UTC-7）。1-10クリア後に参加でき、イベント任務で★6 Sankta Miksaparatoを獲得可能。前回のステージ進行と初回クリア記録を引き継ぐ。",
+          "zh": "国际服活动关卡于11月5日至15日开放，奖励兑换持续至19日（UTC-7）。通关1-10后可参加，活动任务可获得六星干员Sankta Miksaparato。继承往期关卡进度及首通记录。"
+        },
+        "translatedLocales": [
+          "ko",
+          "ja",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/03/tI5pMEsE.jpg",
+            "imageSource": "https://www.arknights.global/news/5045",
+            "width": 1560,
+            "height": 500,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-03T07:35:34Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "글로벌 공식 복각 이벤트 배너",
+              "en": "Official global rerun event banner",
+              "ja": "グローバル版公式復刻イベントバナー",
+              "zh": "国际服官方复刻活动横幅"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "SIDESTORY: THE MASSES' TRAVELS RERUN",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://www.arknights.global/news/5045"
+      ]
+    },
+    {
+      "id": "quick-arknights-jp-4997",
+      "set": {
+        "title": {
+          "ko": "일본 「命ある者の旅」 복각 라이트판",
+          "en": "Japan: 命ある者の旅 rerun lite",
+          "ja": "サイドストーリー「命ある者の旅」復刻ライト版",
+          "zh": "日服「命ある者の旅」复刻轻量版"
+        },
+        "summary": {
+          "ko": "일본 서비스의 이벤트 스테이지는 11월 5~15일, 보상 수령은 19일까지다. 1-10 완료 후 참여할 수 있으며 MT-5를 클리어하면 6성 「サンクタ・ミキサー」를 얻는다. EX 스테이지는 첫날부터 열리고 이벤트는 11월 19일 상설화된다.",
+          "en": "Japan’s event stages run November 5–15, with rewards claimable through November 19. Clear 1-10 to participate; clearing MT-5 awards 6-star サンクタ・ミキサー. EX stages open on day one, and the event becomes permanent November 19.",
+          "ja": "イベントステージは11月5～15日、報酬受取は19日まで。1-10クリア後に参加でき、MT-5クリアで★6サンクタ・ミキサーが加入。EXステージは初日から開放し、11月19日に常設化する。",
+          "zh": "日服活动关卡于11月5日至15日开放，奖励可领取至19日。通关1-10后可参加，完成MT-5可获得六星「サンクタ・ミキサー」。EX关卡首日开放，活动于11月19日常设。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/GLZBVSRH.png",
+            "imageSource": "https://arknights.jp/news/4997",
+            "width": 1560,
+            "height": 300,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-03T07:35:34Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "일본 공식 복각 이벤트 배너",
+              "en": "Official Japanese rerun event banner",
+              "ja": "日本版公式復刻イベントバナー",
+              "zh": "日服官方复刻活动横幅"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "サイドストーリー「命ある者の旅」復刻ライト版",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "◆イベント概要 11月5日から、サイドストーリー「命ある者の旅」が復刻ライト版となって再登場！ 本イベントでは、イベントアイテム「祝福のおしゃぶり」を集めることで、様々な報酬を入手できます。 また、任務【MT-5をクリア】を達成すると、イベント限定オペレーター「★6 サンクタ・ミキサー」が加入します。 ▼イベント開催期間 聖堂を望む： 2026年11月5日（木）16:00 ~ 2026年11月15日（日）3:59 主への謁見： 2026年11月5日（木）16:00 ~ 2026年11月15日（日）3:59 安息の地： 2026年11月5日（木）16:00 ~ 2026年11月15日（日）3:59 ※ 「主への謁見」、「安息の地」は高",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://arknights.jp/news/4997"
+      ]
+    },
+    {
+      "id": "quick-gfl2-cn-2224",
+      "set": {
+        "title": {
+          "ko": "중국 「远航巡录」 시즌패스 개방",
+          "en": "CN: 远航巡录 pass opens",
+          "ja": "中国版「远航巡录」パス開放",
+          "zh": "【远航巡录】现已开启"
+        },
+        "summary": {
+          "ko": "중국 서비스에서 11월 3일 업데이트 후~23일 진행한다. 일반 전역 2-2 완료 후 일일·주간·시즌 임무로 패스 레벨과 보상을 획득한다. 유료 보상 경로가 별도로 있으며 「暗商密径」은 즉시 10레벨과 전용 프로필 장식을 제공한다.",
+          "en": "The CN pass runs from after the November 3 update through November 23, requiring normal campaign 2-2. Daily, weekly and seasonal tasks advance rewards. Optional paid tracks add rewards; 暗商密径 includes ten immediate levels and profile decorations.",
+          "ja": "中国版で11月3日更新後～23日に開催。通常戦役2-2クリア後、日次・週次・シーズン任務でパス報酬を獲得。有料報酬コースもあり、「暗商密径」は即時10レベルと専用プロフィール装飾を含む。",
+          "zh": "国服通行证于11月3日更新后至23日开放，需通关普通战役2-2。完成每日、每周及航标校准任务提升等级领取奖励。另有付费奖励路线；暗商密径包含立即提升10级及专属名片背景、绘像框。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "【远航巡录】现已开启"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "尊敬的指挥官，【远航巡录】现已开启！ 活动时间： 2026年11月3日 版本更新后~2026年11月23日 04:59 参与条件： 完成剧情战役普通【2-2】 活动说明： ■指挥官可以通过完成【每日行动】、【每周行动】、【航标校准】获取里程，提升远航巡录等级，达到指定等级便可获取 「火控校准芯片」、「访问许可」、「基原信息核」 等奖励。 ■【每日行动】将在每天05:00刷新，【每周行动】将在每周一的05:00刷新。 ■购买【猎人捷径】解锁【远航集】后，提升远航巡录等级可以额外获得 「远行守护自选礼箱」、「坍塌晶条」、「专访许可」、「映拓构件」 等丰厚奖励。 ■若直接购买【暗商密径】解锁【远航集】，则除了以上奖励外，还可以立刻提升10"
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://gf2.sunborngame.com/NewsInfo?id=2224&typeId=4"
+      ]
+    },
+    {
+      "id": "quick-gfl2-cn-2229",
+      "set": {
+        "title": {
+          "ko": "중국 이벤트 「热寂悖论」 개방",
+          "en": "CN event: 热寂悖论 opens",
+          "ja": "中国版イベント「热寂悖论」開放",
+          "zh": "【热寂悖论】现已开启"
+        },
+        "summary": {
+          "ko": "중국 서비스에서 11월 3일 업데이트 후~24일 진행하며 보상 교환은 30일까지다. 지휘관 레벨 21부터 스토리·물자·도전 스테이지와 임무에 참여한다. 「火线突围」에는 선택 인형 「代理人」과 새 강화 효과가 추가된다.",
+          "en": "CN gameplay runs from after the November 3 update through November 24, with reward exchange through November 30. Commander level 21 unlocks story, supply and challenge stages plus missions. 火线突围 adds playable 代理人 and new buffs.",
+          "ja": "中国版で11月3日更新後～24日に開催し、報酬交換は30日まで。指揮官レベル21でストーリー・物資・挑戦ステージと任務を開放。「火线突围」に選択人形「代理人」と新しい強化効果を追加。",
+          "zh": "国服玩法于11月3日更新后至24日开放，奖励兑换持续至30日。指挥官21级可参与剧情、物资、挑战关卡及任务。「火线突围」新增可选人形「代理人」与全新增益效果。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "【热寂悖论】现已开启"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "尊敬的指挥官，全新活动【热寂悖论】现已开启！ 活动期间，参与活动玩法，即可获得 「坍塌晶条」、「专访许可」、「火控校准芯片」 等丰厚奖励。 活动时间： 玩法开启时间：2026年11月3日 版本更新后~2026年11月24日 08:59 奖励兑换时间：2026年11月3日 版本更新后~2026年11月30日 04:59 参与条件： 指挥官等级达到21级后开启 活动说明： ■活动期间，将开放活动关卡【热寂悖论-剧情模式】【热寂悖论-物资模式】【热寂悖论-挑战模式】、活动玩法【取证日程】、活动任务【演算记录】、活动兑换商店【军备车间】与限时玩法【火线突围】。 ■在活动关卡【热寂悖论-剧情模式】【热寂悖论-物资模式】【热寂悖论-挑战模式】中"
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://gf2.sunborngame.com/NewsInfo?id=2229&typeId=4"
+      ]
+    },
+    {
+      "id": "quick-gfl2-cn-2225",
+      "set": {
+        "title": {
+          "ko": "중국 픽업: 索米 · 未言使命",
+          "en": "CN pickups: 索米 / 未言使命",
+          "ja": "中国版ピックアップ：索米・未言使命",
+          "zh": "索米、莉塔拉、科谢尼娅限时概率UP活动现已开启！"
+        },
+        "summary": {
+          "ko": "중국 서비스에서 11월 3일 업데이트 후~24일 인형 「索米」와 무기 「未言使命」의 개별 픽업을 진행한다. 일반 SL-1-2 완료 후 참여하며 인형·무기 모집의 천장은 서로 공유하지 않는다.",
+          "en": "Separate CN pickups for doll 索米 and weapon 未言使命 run after the November 3 update through November 24. Normal SL-1-2 is required; doll and weapon pity counters are separate.",
+          "ja": "中国版で11月3日更新後～24日、人形「索米」と武器「未言使命」の個別ピックアップを開催。通常SL-1-2クリアが必要で、人形・武器の天井回数は共有しない。",
+          "zh": "国服于11月3日更新后至24日开放人形「索米」与武器「未言使命」的独立概率提升活动。需通关普通SL-1-2，人形与武器招募不共享保底次数。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "detailImages": [
+          {
+            "image": "https://gf2-cn.cdn.sunborngame.com/website/platform/1793261205174.png",
+            "imageSource": "https://gf2.sunborngame.com/NewsInfo?id=2225&typeId=4",
+            "width": 1215,
+            "height": 237,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-03T07:35:34Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "「索米」 중국 공식 인형 픽업 배너",
+              "en": "Official CN doll pickup banner: 索米",
+              "ja": "「索米」中国版公式人形ピックアップバナー",
+              "zh": "「索米」国服官方人形概率提升横幅"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "索米、莉塔拉、科谢尼娅限时概率UP活动现已开启！"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "尊敬的指挥官，索米、莉塔拉、科谢尼娅限时概率UP活动现已开启。 活动期间，在【定向采购】及【军备提升】中，人形「索米」、「莉塔拉」、「科谢尼娅」及武器「未言使命」、「索米」、「加利尔轻机枪」、「斯捷奇金」的获取概率限时提升。 活动时间： 2026年11月3日 版本更新后~2026年11月24日 08:59 参与条件： 完成剧情战役普通【SL-1-2】 本期概率UP对象： 定向采购 当访问获取到精英人形时，有50%的概率为以下人形。 ■精英人形「索米」 当访问获取到标准人形时，有50%的概率为以下人形中的一个。 ■标准人形「莉塔拉」 ■标准人形「科谢尼娅」 军备提升 当访问获取到精英武器时，有75%的概率为以下武器。 ■精英武器「未言"
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://gf2.sunborngame.com/NewsInfo?id=2225&typeId=4"
+      ]
+    },
+    {
+      "id": "quick-gfl2-cn-2226",
+      "set": {
+        "title": {
+          "ko": "중국 픽업: 索普 · 碎穹嚎歌",
+          "en": "CN pickups: 索普 / 碎穹嚎歌",
+          "ja": "中国版ピックアップ：索普・碎穹嚎歌",
+          "zh": "索普、莉塔拉、科谢尼娅限时概率UP活动现已开启！"
+        },
+        "summary": {
+          "ko": "중국 서비스에서 11월 3일 업데이트 후~24일 인형 「索普」와 무기 「碎穹嚎歌」의 개별 픽업을 진행한다. 일반 SL-1-2 완료 후 참여하며 인형·무기 모집의 천장은 서로 공유하지 않는다.",
+          "en": "Separate CN pickups for doll 索普 and weapon 碎穹嚎歌 run after the November 3 update through November 24. Normal SL-1-2 is required; doll and weapon pity counters are separate.",
+          "ja": "中国版で11月3日更新後～24日、人形「索普」と武器「碎穹嚎歌」の個別ピックアップを開催。通常SL-1-2クリアが必要で、人形・武器の天井回数は共有しない。",
+          "zh": "国服于11月3日更新后至24日开放人形「索普」与武器「碎穹嚎歌」的独立概率提升活动。需通关普通SL-1-2，人形与武器招募不共享保底次数。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "detailImages": [
+          {
+            "image": "https://gf2-cn.cdn.sunborngame.com/website/platform/1793261293253.png",
+            "imageSource": "https://gf2.sunborngame.com/NewsInfo?id=2226&typeId=4",
+            "width": 1215,
+            "height": 237,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-03T07:35:34Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "「索普」 중국 공식 인형 픽업 배너",
+              "en": "Official CN doll pickup banner: 索普",
+              "ja": "「索普」中国版公式人形ピックアップバナー",
+              "zh": "「索普」国服官方人形概率提升横幅"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "索普、莉塔拉、科谢尼娅限时概率UP活动现已开启！"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "尊敬的指挥官，索普、莉塔拉、科谢尼娅限时概率UP活动现已开启。 活动期间，在【定向采购】及【军备提升】中，人形「索普」、「莉塔拉」、「科谢尼娅」及武器「碎穹嚎歌」、「特殊模组战术步枪」、「加利尔轻机枪」、「斯捷奇金」的获取概率限时提升。 活动时间： 2026年11月3日 版本更新后~2026年11月24日 08:59 参与条件： 完成剧情战役普通【SL-1-2】 本期概率UP对象： 定向采购 当访问获取到精英人形时，有50%的概率为以下人形。 ■精英人形「索普」 当访问获取到标准人形时，有50%的概率为以下人形中的一个。 ■标准人形「莉塔拉」 ■标准人形「科谢尼娅」 军备提升 当访问获取到精英武器时，有75%的概率为以下武器。 ■精"
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://gf2.sunborngame.com/NewsInfo?id=2226&typeId=4"
+      ]
+    },
+    {
+      "id": "quick-gfl2-cn-2227",
+      "set": {
+        "title": {
+          "ko": "중국 픽업: 希丽雅 · 斯诺特拉",
+          "en": "CN pickups: 希丽雅 / 斯诺特拉",
+          "ja": "中国版ピックアップ：希丽雅・斯诺特拉",
+          "zh": "希丽雅、莉塔拉、科谢尼娅限时概率UP活动现已开启！"
+        },
+        "summary": {
+          "ko": "중국 서비스에서 11월 3일 업데이트 후~24일 인형 「希丽雅」와 무기 「斯诺特拉」의 개별 픽업을 진행한다. 일반 SL-1-2 완료 후 참여하며 인형·무기 모집의 천장은 서로 공유하지 않는다.",
+          "en": "Separate CN pickups for doll 希丽雅 and weapon 斯诺特拉 run after the November 3 update through November 24. Normal SL-1-2 is required; doll and weapon pity counters are separate.",
+          "ja": "中国版で11月3日更新後～24日、人形「希丽雅」と武器「斯诺特拉」の個別ピックアップを開催。通常SL-1-2クリアが必要で、人形・武器の天井回数は共有しない。",
+          "zh": "国服于11月3日更新后至24日开放人形「希丽雅」与武器「斯诺特拉」的独立概率提升活动。需通关普通SL-1-2，人形与武器招募不共享保底次数。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "detailImages": [
+          {
+            "image": "https://gf2-cn.cdn.sunborngame.com/website/platform/1793261442175.png",
+            "imageSource": "https://gf2.sunborngame.com/NewsInfo?id=2227&typeId=4",
+            "width": 1215,
+            "height": 237,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-03T07:35:34Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "「希丽雅」 중국 공식 인형 픽업 배너",
+              "en": "Official CN doll pickup banner: 希丽雅",
+              "ja": "「希丽雅」中国版公式人形ピックアップバナー",
+              "zh": "「希丽雅」国服官方人形概率提升横幅"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "希丽雅、莉塔拉、科谢尼娅限时概率UP活动现已开启！"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "尊敬的指挥官，希丽雅、莉塔拉、科谢尼娅限时概率UP活动现已开启。 活动期间，在【定向采购】及【军备提升】中，人形「希丽雅」、「莉塔拉」、「科谢尼娅」及武器「斯诺特拉」、「格威尔36-康派科特」、「加利尔轻机枪」、「斯捷奇金」的获取概率限时提升。 活动时间： 2026年11月3日 版本更新后~2026年11月24日 08:59 参与条件： 完成剧情战役普通【SL-1-2】 本期概率UP对象： 定向采购 当访问获取到精英人形时，有50%的概率为以下人形。 ■精英人形「希丽雅」 当访问获取到标准人形时，有50%的概率为以下人形中的一个。 ■标准人形「莉塔拉」 ■标准人形「科谢尼娅」 军备提升 当访问获取到精英武器时，有75%的概率为以下武"
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://gf2.sunborngame.com/NewsInfo?id=2227&typeId=4"
+      ]
+    },
+    {
+      "id": "quick-gfl2-cn-2228",
+      "set": {
+        "title": {
+          "ko": "중국 픽업: 破坏者 · 盖娅终结",
+          "en": "CN pickups: 破坏者 / 盖娅终结",
+          "ja": "中国版ピックアップ：破坏者・盖娅终结",
+          "zh": "破坏者、克罗丽科、纳美西丝限时概率UP活动现已开启！"
+        },
+        "summary": {
+          "ko": "중국 서비스에서 11월 3일 업데이트 후~24일 인형 「破坏者」와 무기 「盖娅终结」의 개별 픽업을 진행한다. 일반 SL-1-2 완료 후 참여하며 인형·무기 모집의 천장은 서로 공유하지 않는다.",
+          "en": "Separate CN pickups for doll 破坏者 and weapon 盖娅终结 run after the November 3 update through November 24. Normal SL-1-2 is required; doll and weapon pity counters are separate.",
+          "ja": "中国版で11月3日更新後～24日、人形「破坏者」と武器「盖娅终结」の個別ピックアップを開催。通常SL-1-2クリアが必要で、人形・武器の天井回数は共有しない。",
+          "zh": "国服于11月3日更新后至24日开放人形「破坏者」与武器「盖娅终结」的独立概率提升活动。需通关普通SL-1-2，人形与武器招募不共享保底次数。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "detailImages": [
+          {
+            "image": "https://gf2-cn.cdn.sunborngame.com/website/platform/1793261707429.png",
+            "imageSource": "https://gf2.sunborngame.com/NewsInfo?id=2228&typeId=4",
+            "width": 1215,
+            "height": 237,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-03T07:35:34Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "「破坏者」 중국 공식 인형 픽업 배너",
+              "en": "Official CN doll pickup banner: 破坏者",
+              "ja": "「破坏者」中国版公式人形ピックアップバナー",
+              "zh": "「破坏者」国服官方人形概率提升横幅"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "破坏者、克罗丽科、纳美西丝限时概率UP活动现已开启！"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "尊敬的指挥官，破坏者、克罗丽科、纳美西丝限时概率UP活动现已开启。 活动期间，在【定向采购】及【军备提升】中，人形「破坏者」、「克罗丽科」、「纳美西丝」及武器「盖娅终结」、「铁鬣」、「野兔」、「复仇女神」的获取概率限时提升。 活动时间： 2026年11月3日 版本更新后~2026年11月24日 08:59 参与条件： 完成剧情战役普通【SL-1-2】 本期概率UP对象： 定向采购 当访问获取到精英人形时，有50%的概率为以下人形。 ■精英人形「破坏者」 当访问获取到标准人形时，有50%的概率为以下人形中的一个。 ■标准人形「克罗丽科」 ■标准人形「纳美西丝」 军备提升 当访问获取到精英武器时，有75%的概率为以下武器。 ■精英武器「"
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://gf2.sunborngame.com/NewsInfo?id=2228&typeId=4"
+      ]
+    }
+  ]
+}
