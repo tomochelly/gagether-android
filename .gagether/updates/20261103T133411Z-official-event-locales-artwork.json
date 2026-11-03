@@ -1,0 +1,590 @@
+{
+  "version": 1,
+  "requestId": "20261103T133411Z-official-event-locales-artwork",
+  "reason": "명조·스타레일·젠레스 존 제로 이벤트 요약과 공식 언어별 이미지를 보완하고 림버스 계정 생성 모니터링 공지의 누락 번역을 추가합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-03T13:34:11Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-wuwa-global-8403530",
+      "set": {
+        "title": {
+          "ko": "[흩날리는 선율] 에코 재료 한정 2배 이벤트",
+          "en": "Chord Cleansing: Double Echo Material Rewards",
+          "ja": "「響き渡る音弦」音骸素材2倍イベント",
+          "zh": "「弦歌漫野」声骸材料双倍活动"
+        },
+        "summary": {
+          "ko": "11월 4~11일 진행. 연각 레벨 19 달성 후 무음 소탕을 완료하고 결정 웨이브 플레이트를 사용하면 2배 보상을 받습니다. 매일 3회 참여할 수 있으며 한국 공지 기준 05:00에 횟수가 초기화됩니다.",
+          "en": "Runs November 4–11. Reach Union Level 19, complete Tacet Suppression, and spend Waveplates for double rewards. Three claims are available each day, resetting at 05:00 as stated in the Korean notice.",
+          "ja": "11月4～11日開催。ユニオンレベル19以上で「無音掃討」をクリアし、結晶波長板を消費すると報酬が2倍に。1日3回までで、韓国告知の表記では毎日05:00に回数がリセットされます。",
+          "zh": "11月4日至11日举行。联觉等级达到19级后，完成无音扫荡并消耗结晶波片可领取双倍奖励。每日可领取3次；韩国公告所列重置时间为每日05:00。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDJfMjYw/MDAxNzkzNjE4MDcxMjE5.RhtyryaSb407qpTZ9Uv6ZnMxj-EdOA8qMv2k7vSlaJog.E4Fx2Wira84qq6KPEn3YS1cHtzupjUPi1XLl9H11LS8g.JPEG/KR.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8403530",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "흩날리는 선율 · 에코 재료 2배 — 한국 공식 이미지",
+              "en": "Chord Cleansing: double Echo materials — official Korean image",
+              "ja": "響き渡る音弦・音骸素材2倍 — 韓国公式画像",
+              "zh": "弦歌漫野·声骸材料双倍——韩国官方图片"
+            }
+          }
+        },
+        "image": "https://nng-phinf.pstatic.net/MjAyNjExMDJfMjYw/MDAxNzkzNjE4MDcxMjE5.RhtyryaSb407qpTZ9Uv6ZnMxj-EdOA8qMv2k7vSlaJog.E4Fx2Wira84qq6KPEn3YS1cHtzupjUPi1XLl9H11LS8g.JPEG/KR.jpg",
+        "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8403530",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "흩날리는 선율 · 에코 재료 2배 — 한국 공식 이미지",
+          "en": "Chord Cleansing: double Echo materials — official Korean image",
+          "ja": "響き渡る音弦・音骸素材2倍 — 韓国公式画像",
+          "zh": "弦歌漫野·声骸材料双倍——韩国官方图片"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "[흩날리는 선율] 에코 재료 한정 2배 이벤트",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "새로운 시대에서 눈을 뜨신 것을 환영합니다. 방랑자님! 폭풍과도 같은 액션의 파도,『명조:워더링 웨이브』입니다. ​ 비명 이상 현상의 영향을 받아 무음구역에 더 많은 에너지가 넘쳐나고 있습니다... 결정 웨이브 플레이트를 사용하여 흑석 꽃에서 이전보다 더 풍부한 보상을 받아 가세요. ​ ✦이벤트 기간✦ 2026년 11월 4일 05:00 ~ 2026년 11월 11일 04:59 ​ ✦이벤트 조건✦ 연각 레벨 Lv.19 달성. ​ ✦이벤트 안내✦ - 이벤트 기간 동안 「무음 소탕」 도전 완료 시 [결정 웨이브 플레이트]를 소모해 2배 보상을 획득할 수 있습니다. - [흩날",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8403530"
+      ]
+    },
+    {
+      "id": "wuwa-chord-cleansing-20261104",
+      "set": {
+        "summary": {
+          "ko": "11월 4~11일 진행. 연각 레벨 19 달성 후 무음 소탕을 완료하고 결정 웨이브 플레이트를 사용하면 2배 보상을 받습니다. 매일 3회 참여할 수 있으며 한국 공지 기준 05:00에 횟수가 초기화됩니다.",
+          "en": "Runs November 4–11. Reach Union Level 19, complete Tacet Suppression, and spend Waveplates for double rewards. Three claims are available each day, resetting at 05:00 as stated in the Korean notice.",
+          "ja": "11月4～11日開催。ユニオンレベル19以上で「無音掃討」をクリアし、結晶波長板を消費すると報酬が2倍に。1日3回までで、韓国告知の表記では毎日05:00に回数がリセットされます。",
+          "zh": "11月4日至11日举行。联觉等级达到19级后，完成无音扫荡并消耗结晶波片可领取双倍奖励。每日可领取3次；韩国公告所列重置时间为每日05:00。"
+        },
+        "officialLocales": [
+          "en",
+          "ja",
+          "ko"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5653",
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5657",
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8403530"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5657",
+            "title": "『鳴潮』Ver.3.7近日開催予定のイベント総まとめ",
+            "publisher": "KURO GAMES"
+          },
+          {
+            "kind": "official",
+            "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5653",
+            "title": "Upcoming Events in Wuthering Waves Version 3.7",
+            "publisher": "KURO GAMES"
+          },
+          {
+            "kind": "official",
+            "url": "https://game.naver.com/lounge/WutheringWaves/board/detail/8403530",
+            "title": "[흩날리는 선율] 에코 재료 한정 2배 이벤트"
+          }
+        ],
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDJfMjYw/MDAxNzkzNjE4MDcxMjE5.RhtyryaSb407qpTZ9Uv6ZnMxj-EdOA8qMv2k7vSlaJog.E4Fx2Wira84qq6KPEn3YS1cHtzupjUPi1XLl9H11LS8g.JPEG/KR.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8403530",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "흩날리는 선율 · 에코 재료 2배 — 한국 공식 이미지",
+              "en": "Chord Cleansing: double Echo materials — official Korean image",
+              "ja": "響き渡る音弦・音骸素材2倍 — 韓国公式画像",
+              "zh": "弦歌漫野·声骸材料双倍——韩国官方图片"
+            }
+          }
+        },
+        "image": "https://nng-phinf.pstatic.net/MjAyNjExMDJfMjYw/MDAxNzkzNjE4MDcxMjE5.RhtyryaSb407qpTZ9Uv6ZnMxj-EdOA8qMv2k7vSlaJog.E4Fx2Wira84qq6KPEn3YS1cHtzupjUPi1XLl9H11LS8g.JPEG/KR.jpg",
+        "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8403530",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "흩날리는 선율 · 에코 재료 2배 — 한국 공식 이미지",
+          "en": "Chord Cleansing: double Echo materials — official Korean image",
+          "ja": "響き渡る音弦・音骸素材2倍 — 韓国公式画像",
+          "zh": "弦歌漫野·声骸材料双倍——韩国官方图片"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "유니온 레벨 19 이상. 무음 구역 도전 후 결정 웨이브 플레이트를 사용해 2배 보상을 받습니다.",
+          "en": "Union Level 19 required. Spend Waveplates after Tacet Suppression challenges to claim double rewards.",
+          "ja": "ユニオンレベル19以上。「無音掃討」クリア後、結晶波長板を消費して報酬を2倍獲得。",
+          "zh": "联觉等级19及以上。完成无音区挑战后消耗结晶波片领取双倍奖励。"
+        },
+        "officialLocales": [
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "ko",
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5653",
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5657"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5657",
+            "title": "『鳴潮』Ver.3.7近日開催予定のイベント総まとめ",
+            "publisher": "KURO GAMES"
+          },
+          {
+            "kind": "official",
+            "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5653",
+            "title": "Upcoming Events in Wuthering Waves Version 3.7",
+            "publisher": "KURO GAMES"
+          }
+        ],
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8403530",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5653",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5657"
+      ]
+    },
+    {
+      "id": "feed-hsr-167132",
+      "set": {
+        "summary": {
+          "ko": "4.7 업데이트 후부터 12월 23일 03:59(UTC+8)까지 에이언즈★아하의 「별무리 로또」 코스튬을 뽑을 수 있습니다. 첫 뽑기는 무료이며 보상 8종은 중복되지 않습니다. 전부 획득하는 데 코스튬 초대장이 최대 87장 필요하며, 1장은 성옥 100개로 교환합니다. 코스튬 획득 시 남은 보상도 지급하며 뽑기 진행도는 다음 회차로 이월되지 않습니다.",
+          "en": "After Version 4.7 until December 23 at 03:59 (UTC+8), draw for Aeon ★ Aha’s Star Lotto outfit. The first draw is free; eight rewards do not repeat. All rewards require at most 87 Fashion Invites, each exchanged for 100 Stellar Jade. Obtaining the outfit also grants the remaining rewards. Draw progress does not carry over.",
+          "ja": "Ver.4.7更新後から12月23日03:59（UTC+8）まで、星神★アッハの「群星ロッタリー」が登場。初回抽選は無料で、8種の賞品は重複しません。全賞品の獲得にはコスチューム抽選券が最大87枚必要で、1枚は星玉100個と交換できます。コスチューム獲得時には残りの賞品も獲得。抽選進捗は次回へ引き継がれません。",
+          "zh": "4.7版本更新后至12月23日03:59（UTC+8），可抽取星神★阿哈时装「群星乐透」。首次免费，8项奖品不重复，全部获取最多消耗87张时装邀请函，每张可用100星琼兑换。抽到时装即获得奖池剩余奖励，抽取进度不继承至后续活动。"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/167132/959159dd7ad2a2e333e9e21e4d68cd03_3942051249238108449.png",
+            "imageSource": "https://hsr.hoyoverse.com/ko-kr/news/167132",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1120,
+            "height": 340,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "「우주적 미학•환상의 쇼타임」 코스튬 뽑기 이벤트 안내",
+              "en": "\"Cosmic Aesthetics: Phantasia Showstage\" Outfit Draw Event Details",
+              "ja": "コスチューム獲得イベント「スペース美学・幻楽のファッションショー」について",
+              "zh": "「寰宇美学•幻乐秀场」时装抽取活动说明"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/167132/95a225b51b7b8ad3b38010b4f2a82bef_8744486822091502831.png",
+            "imageSource": "https://hsr.hoyoverse.com/en-us/news/167132",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1120,
+            "height": 340,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "「우주적 미학•환상의 쇼타임」 코스튬 뽑기 이벤트 안내",
+              "en": "\"Cosmic Aesthetics: Phantasia Showstage\" Outfit Draw Event Details",
+              "ja": "コスチューム獲得イベント「スペース美学・幻楽のファッションショー」について",
+              "zh": "「寰宇美学•幻乐秀场」时装抽取活动说明"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/167132/ff84112a96062c0aef3037b352bd4cc2_7768035299994815795.png",
+            "imageSource": "https://hsr.hoyoverse.com/ja-jp/news/167132",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1120,
+            "height": 340,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "「우주적 미학•환상의 쇼타임」 코스튬 뽑기 이벤트 안내",
+              "en": "\"Cosmic Aesthetics: Phantasia Showstage\" Outfit Draw Event Details",
+              "ja": "コスチューム獲得イベント「スペース美学・幻楽のファッションショー」について",
+              "zh": "「寰宇美学•幻乐秀场」时装抽取活动说明"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/167132/6a85c9f459fc27c728bd9d112c5cd84b_6624851298330435080.png",
+            "imageSource": "https://hsr.hoyoverse.com/zh-cn/news/167132",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1120,
+            "height": 340,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "「우주적 미학•환상의 쇼타임」 코스튬 뽑기 이벤트 안내",
+              "en": "\"Cosmic Aesthetics: Phantasia Showstage\" Outfit Draw Event Details",
+              "ja": "コスチューム獲得イベント「スペース美学・幻楽のファッションショー」について",
+              "zh": "「寰宇美学•幻乐秀场」时装抽取活动说明"
+            }
+          }
+        },
+        "image": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/167132/959159dd7ad2a2e333e9e21e4d68cd03_3942051249238108449.png",
+        "imageSource": "https://hsr.hoyoverse.com/ko-kr/news/167132",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "「우주적 미학•환상의 쇼타임」 코스튬 뽑기 이벤트 안내",
+          "en": "\"Cosmic Aesthetics: Phantasia Showstage\" Outfit Draw Event Details",
+          "ja": "コスチューム獲得イベント「スペース美学・幻楽のファッションショー」について",
+          "zh": "「寰宇美学•幻乐秀场」时装抽取活动说明"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "To. 개척자 별빛과 달빛으로 장식된 로또 여신의 맞춤 의상. 「에이언즈★아하」의 신규 코스튬 「별무리 로또」가 4.7 버전에 출시됩니다! ▌「환상의 쇼타임」 코스튬 뽑기 이벤트 안내 이벤트 기간 동안 「코스튬 초대장」을 사용해 「환상의 쇼타임」에서 「에이언즈★아하」의 신규 코스튬 「별무리 로또」 및 개척 코디-등 장식 「환월의 궤도」, 명함 「광연의 시간」, 채팅 말풍선 「은하 로또」 등 보상을 뽑아서 획득할 수 있습니다. ■ 이벤트 기간 4.7 버전 업데이트 후 ~ 2026/12/23 03:59:00 （UTC+8） ■ 이벤트 규칙 ● 이번 「환상의 쇼타임」 코스튬",
+          "en": "Starlight and moonlight adorn the Lotto Goddess's bespoke outfit. Aeon ★ Aha's new outfit \"Star Lotto\" will be available in Version 4.7! ▌\"Phantasia Showstage\" Outfit Draw Event Details During the event, Trailblazers can use Fashion Invites for draws in \"Phantasia Showstage\" to obtain Aeon ★ Aha's brand-new outfit \"Sta",
+          "ja": "親愛なる開拓者の皆様へ 星と月の光を使って、ビッグロッタリーの女神の特注衣装を彩る。「星神★アッハ」の新コスチューム「群星ロッタリー」がVer.4.7で登場！ ▌コスチューム獲得イベント「幻楽のファッションショー」について イベント期間中、「コスチューム抽選券」を使用して「幻楽のファッションショー」の抽選に参加すると、「星神★アッハ」の新コスチューム「群星ロッタリー」のほか、開拓コーデ・背中「幻月星軌」、名刺「カーニバルタイム」、チャットの吹き出し「銀河ロッタリー」などの賞品を獲得できます。 ■ イベント期間 Ver.4.7アップデート後 ～ 2026/12/23 03:59:00 （UTC+8） ■ イベントルール ● 今回のコス",
+          "zh": "亲爱的开拓者： 星月流光为饰，点缀大乐透女神的定制套装。「星神★阿哈」全新时装「群星乐透」将在4.7版本推出！ ▌「幻乐秀场」时装抽取活动说明 活动期间，开拓者可使用「时装邀请函」在「幻乐秀场」中抽取获得「星神★阿哈」全新时装「群星乐透」，及开拓穿搭-背部「幻月星轨」、名片「狂欢时刻」、聊天气泡「银河乐透」等奖品。 ■活动时间 4.7版本更新后 - 2026/12/23 03:59:00 （UTC+8） ■活动规则 ● 本期「幻乐秀场」时装抽取活动中，共有8项奖品。每次抽取必定获得其中1项奖品，且奖品不会重复获得，抽到的奖品将从奖池中移除。 ● 首次抽取免费，后续抽取需要消耗「时装邀请函」，消耗数量将随抽取次数依次增加；抽取获得时装"
+        },
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null
+      },
+      "sources": [
+        "https://hsr.hoyoverse.com/ko-kr/news/167132",
+        "https://hsr.hoyoverse.com/en-us/news/167132",
+        "https://hsr.hoyoverse.com/ja-jp/news/167132",
+        "https://hsr.hoyoverse.com/zh-cn/news/167132"
+      ]
+    },
+    {
+      "id": "feed-zzz-167086",
+      "set": {
+        "summary": {
+          "ko": "11월 4일 05:00~11월 9일 04:59(KST), 구역 순찰 보상이 하루 2회 2배로 증가합니다. 로프넷 레벨 21, 「로프꾼의 길Ⅰ」 완료 및 구역 순찰 해제가 필요합니다. 적용 횟수는 매일 05:00(KST)에 초기화됩니다.",
+          "en": "November 4 at 04:00–November 9 at 03:59 (server time): claim double rewards from two Area Patrol clears daily. Requires Inter-Knot Level 21, completion of Path of the Proxy I, and Area Patrol unlocked. Daily bonuses reset at 04:00 server time.",
+          "ja": "11月4日05:00～11月9日04:59（JST）、区域防衛の報酬が1日2回まで2倍になります。インターノットレベル21以上、「プロキシの道Ⅰ」クリア、区域防衛の開放が必要です。回数は毎日05:00（JST）にリセットされます。",
+          "zh": "11月4日04:00至11月9日03:59（服务器时间），区域巡防每日2场挑战可获双倍奖励。需要绳网等级21级、完成「绳之道I」并解锁区域巡防。每日04:00（服务器时间）重置次数。"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167086/4aee8367cf6137ce3f46c384fc9000c6_5297267227449058267.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167086",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "「선발 현상금-구역 순찰」 이벤트 설명",
+              "en": "\"Advanced Bounty: Area Patrol\" Event Details",
+              "ja": "「先遣賞金-区域防衛」イベント詳細",
+              "zh": "「先遣赏金-区域巡防」活动说明"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167086/a866d954ca3dc099b3c064ab5ae93480_4013351345981627727.png",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167086",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "「선발 현상금-구역 순찰」 이벤트 설명",
+              "en": "\"Advanced Bounty: Area Patrol\" Event Details",
+              "ja": "「先遣賞金-区域防衛」イベント詳細",
+              "zh": "「先遣赏金-区域巡防」活动说明"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167086/8a2af897f4ddfa2ebb351c82a382dc58_8324840108760922733.png",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167086",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "「선발 현상금-구역 순찰」 이벤트 설명",
+              "en": "\"Advanced Bounty: Area Patrol\" Event Details",
+              "ja": "「先遣賞金-区域防衛」イベント詳細",
+              "zh": "「先遣赏金-区域巡防」活动说明"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167086/d757e75542ebd912267f75e11fcfec79_5946636524837480267.png",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167086",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-03T13:34:11Z",
+            "imageCaption": {
+              "ko": "「선발 현상금-구역 순찰」 이벤트 설명",
+              "en": "\"Advanced Bounty: Area Patrol\" Event Details",
+              "ja": "「先遣賞金-区域防衛」イベント詳細",
+              "zh": "「先遣赏金-区域巡防」活动说明"
+            }
+          }
+        },
+        "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167086/4aee8367cf6137ce3f46c384fc9000c6_5297267227449058267.png",
+        "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167086",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "「선발 현상금-구역 순찰」 이벤트 설명",
+          "en": "\"Advanced Bounty: Area Patrol\" Event Details",
+          "ja": "「先遣賞金-区域防衛」イベント詳細",
+          "zh": "「先遣赏金-区域巡防」活动说明"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "[이벤트 기간] 2026/11/04 05:00(KST) ~ 2026/11/09 04:59(KST) [참여 조건] 로프넷 레벨≥Lv.21 및 로프넷 평판 진급 임무 「로프꾼의 길Ⅰ」을 완료하고 「구역 순찰」 해제 후 참여 가능 [이벤트 설명] • 「선발 현상금-구역 순찰」 이벤트 기간 동안, 로프꾼이 「구역 순찰」에 진입해 임의의 스테이지를 클리어하면 2배 보상을 획득할 수 있습니다! • 이벤트 기간 동안 매일 2회의 도전에 버프를 적용할 수 있으며, 버프 효과는 매일 05:00(KST)에 초기화됩니다.",
+          "en": "Event Duration 2026/11/04 04:00 (server time) – 2026/11/09 03:59 (server time) Requirements Reach Inter-Knot Lv. 21, complete the Reputation Rank-Up Mission \"Path of the Proxy I\", and unlock Area Patrol to participate Event Details • During the \"Advanced Bounty: Area Patrol\" event, Proxies can go into Area Patrol and c",
+          "ja": "【イベント期間】 2026/11/04 05:00（JST）～2026/11/09 04:59（JST） 【参加条件】 インターノットレベル21以上で名声昇格任務「プロキシの道Ⅰ」をクリアし、「区域防衛」が開放された後に参加可能。 【イベント詳細】 • イベント「先遣賞金-区域防衛」期間中、「区域防衛」で任意のステージをクリアすると、報酬を2倍獲得できます！ • イベント期間中、1日ごとにバフが2回の挑戦に適用されます。バフ効果は毎日5:00（JST）にリセットされます。",
+          "zh": "【活动时间】 2026/11/04 04:00（服务器时间）~2026/11/09 03:59（服务器时间） 【参与条件】 绳网等级≥21级并完成绳网声望晋升任务「绳之道I」，且解锁「区域巡防」后即可参与。 【活动说明】 • 「先遣赏金-区域巡防」活动期间，绳匠进入「区域巡防」，挑战并通过任意关卡即可获得双倍奖励！ • 活动期间，每日可增益2场挑战，增益效果将在每日04:00（服务器时间）重置。"
+        },
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null
+      },
+      "sources": [
+        "https://zenless.hoyoverse.com/ko-kr/news/167086",
+        "https://zenless.hoyoverse.com/en-us/news/167086",
+        "https://zenless.hoyoverse.com/ja-jp/news/167086",
+        "https://zenless.hoyoverse.com/zh-cn/news/167086"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254765243075590-ko",
+      "set": {
+        "title": {
+          "ko": "비인가 프로그램을 통한 계정 생성 모니터링 강화 안내",
+          "en": "Notice: Enhanced Monitoring for Unauthorized Account Creation Programs",
+          "ja": "非認可プログラムによるアカウント作成の監視強化に関するお知らせ",
+          "zh": "关于加强监控使用未授权程序创建账号的公告"
+        },
+        "summary": {
+          "ko": "프로젝트문은 가입·튜토리얼·추출을 자동 반복해 계정을 대량 생성하는 비인가 프로그램의 모니터링을 강화합니다. 서버 부하를 유발하는 해당 계정은 기록 확인 후 사전 경고 없이 영구 이용 제한될 수 있습니다.",
+          "en": "Project Moon is strengthening monitoring of unauthorized programs that mass-create accounts by automating registration, tutorials, and Extraction. These accounts can overload servers and may be permanently restricted without prior warning after their records are reviewed.",
+          "ja": "Project Moonは、登録・チュートリアル・抽出を自動反復して大量のアカウントを作成する非認可プログラムへの監視を強化します。サーバー負荷を引き起こす該当アカウントは、記録確認後、事前警告なく永久利用制限を受ける場合があります。",
+          "zh": "Project Moon将加强监控自动重复注册、教程和抽取以批量创建账号的未授权程序。此类账号会增加服务器负担，经核实记录后，可能未经事先警告即被永久限制使用。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=english",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=japanese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "비인가 프로그램을 통한 계정 생성 모니터링 강화 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "안녕하세요, 프로젝트문입니다. 최근 비인가 프로그램을 이용해 신규 계정을 대량으로 생성하는 사례가 확인되고 있습니다. '비인가 프로그램'이란 신규 계정 생성, 튜토리얼 진행, 추출 등의 과정을 정상적인 게임 이용 방식이 아닌 방법으로 자동 반복하여 신규 계정을 대량으로 생성하는 프로그램을 의미합니다. 이러한 행위는 서버에 비정상적인 부하를 일으켜 다른 관리자님들의 원활한 게임 이용을 방해할 수 있습니다. 이에 따라 비인가 프로그램으로 생성된 계정은 기록 확인 후 사전 경고 없이 영구적으로 이용이 제한될 수 있습니다. 앞으로도 비정상적인 게임 이용 기록에 대한 모니터링",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=koreana"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254765243075590-en",
+      "set": {
+        "title": {
+          "ko": "비인가 프로그램을 통한 계정 생성 모니터링 강화 안내",
+          "en": "Notice: Enhanced Monitoring for Unauthorized Account Creation Programs",
+          "ja": "非認可プログラムによるアカウント作成の監視強化に関するお知らせ",
+          "zh": "关于加强监控使用未授权程序创建账号的公告"
+        },
+        "summary": {
+          "ko": "프로젝트문은 가입·튜토리얼·추출을 자동 반복해 계정을 대량 생성하는 비인가 프로그램의 모니터링을 강화합니다. 서버 부하를 유발하는 해당 계정은 기록 확인 후 사전 경고 없이 영구 이용 제한될 수 있습니다.",
+          "en": "Project Moon is strengthening monitoring of unauthorized programs that mass-create accounts by automating registration, tutorials, and Extraction. These accounts can overload servers and may be permanently restricted without prior warning after their records are reviewed.",
+          "ja": "Project Moonは、登録・チュートリアル・抽出を自動反復して大量のアカウントを作成する非認可プログラムへの監視を強化します。サーバー負荷を引き起こす該当アカウントは、記録確認後、事前警告なく永久利用制限を受ける場合があります。",
+          "zh": "Project Moon将加强监控自动重复注册、教程和抽取以批量创建账号的未授权程序。此类账号会增加服务器负担，经核实记录后，可能未经事先警告即被永久限制使用。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=english",
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=koreana",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=japanese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Notice: Enhanced Monitoring for Unauthorized Account Creation Programs",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Hello, this is Project Moon. We have recently identified multiple cases in which unauthorized programs were used to mass-generate new accounts for our game. The &quot;unauthorized programs&quot; in question refer to programs that utilize abnormal game access methods, such as automating account creation, tutorial playth",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=english"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254765243075590-ja",
+      "set": {
+        "title": {
+          "ko": "비인가 프로그램을 통한 계정 생성 모니터링 강화 안내",
+          "en": "Notice: Enhanced Monitoring for Unauthorized Account Creation Programs",
+          "ja": "非認可プログラムによるアカウント作成の監視強化に関するお知らせ",
+          "zh": "关于加强监控使用未授权程序创建账号的公告"
+        },
+        "summary": {
+          "ko": "프로젝트문은 가입·튜토리얼·추출을 자동 반복해 계정을 대량 생성하는 비인가 프로그램의 모니터링을 강화합니다. 서버 부하를 유발하는 해당 계정은 기록 확인 후 사전 경고 없이 영구 이용 제한될 수 있습니다.",
+          "en": "Project Moon is strengthening monitoring of unauthorized programs that mass-create accounts by automating registration, tutorials, and Extraction. These accounts can overload servers and may be permanently restricted without prior warning after their records are reviewed.",
+          "ja": "Project Moonは、登録・チュートリアル・抽出を自動反復して大量のアカウントを作成する非認可プログラムへの監視を強化します。サーバー負荷を引き起こす該当アカウントは、記録確認後、事前警告なく永久利用制限を受ける場合があります。",
+          "zh": "Project Moon将加强监控自动重复注册、教程和抽取以批量创建账号的未授权程序。此类账号会增加服务器负担，经核实记录后，可能未经事先警告即被永久限制使用。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=japanese",
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=english"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "非認可プログラムによるアカウント作成の監視強化に関するお知らせ",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "お世話になっております、Project Moonです。 最近、非認可プログラムを利用して新規アカウントを 大量に作成する事例が確認されています。 「非認可プログラム」とは、新規アカウントの作成、チュートリアルの進行、抽出などの過程を 通常のゲームプレイとは異なる方法で自動的に繰り返し、 新規アカウントを大量に作成するプログラムを指します。 このような行為はサーバーに異常な負荷をかけ、 他の管理人の皆様の円滑なゲームプレイを妨げるおそれがあります。 そのため、非認可プログラムによって作成されたアカウントにつきましては、記録を確認したうえで、 事前の警告なく利用を永久に制限する場合がございます。 今後も、不審なゲーム利用記録に対する 監",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=japanese"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667254765243075590?l=japanese"
+      ]
+    }
+  ]
+}
