@@ -67,12 +67,35 @@ GAGETHER 예약 조사 작업은 쓰기 토큰 없이 이 폴더에 **업데이�
 ]
 ```
 
-- 배너 하나당 한 줄. 같은 배너를 지역 라벨만 바꿔 여러 번 쓰지 않는다. `service`는 정규 서비스만 쓴다: 소녀전선2·리버스: 1999의 한국·일본은 `global`, 블루 아카이브 글로벌은 `kr`, NIKKE·림버스 등 공용 서비스는 `global`. CN은 레지스트리에 CN 서비스가 있는 게임(명일방주, 소녀전선2, 리버스: 1999)만 쓴다.
+- 배너 하나에 한 줄. 같은 날 시작한 여러 배너를 한 줄로 묶지 않는다(예: 같은 날 픽업 5개면 5줄, 배너마다 공지 속 이름과 출처를 따로 적는다). 같은 배너를 지역 라벨만 바꿔 여러 번 쓰지 않는다. `service`는 정규 서비스만 쓴다: 소녀전선2·리버스: 1999의 한국·일본은 `global`, 블루 아카이브 글로벌은 `kr`, NIKKE·림버스 등 공용 서비스는 `global`. CN은 레지스트리에 CN 서비스가 있는 게임(명일방주, 소녀전선2, 리버스: 1999)만 쓴다.
 - `pool`: `character`, `standard`(명일방주 일반·커널), `support`(우마무스메 서포트 카드). 무기 픽업은 내지 않는다.
 - 날짜: 그 서버 공지에 적힌 현지 날짜. 시각(`startAt`·`endAt`)은 공식 공지에 시각과 시간대가 있을 때만 오프셋을 붙여 쓰고, 없으면 `null`. 시각을 쓰면 그 날짜가 `startDate`·`endDate`와 같아야 한다. 종료일을 모르면 `endDate: null`. 시작일이 오늘(일본 날짜) 이후인 배너는 내지 않는다.
-- 멤버: `rosterId`는 `https://gagether.wiki/api/characters?game=<게임 ID>`(명조는 `https://gagether.wiki/api/wuwa/library`)의 `characters[].id`에서 이름으로 찾는다. 찾을 수 없으면 `"rosterId": null`과 공식 이름 `"name": {"ko": "...", "ja": "..."}`를 넣는다. 비슷한 캐릭터의 ID를 대신 쓰지 않는다. `role`은 `featured`·`rate-up`·`candidate`이고 `featured`가 1명 이상이어야 한다. `type`은 공지가 신규·복각을 밝힌 경우만 `new`·`rerun`, 아니면 `unknown`.
+- 멤버: `rosterId`는 `https://gagether.wiki/api/characters?game=<게임 ID>`(명조는 `https://gagether.wiki/api/wuwa/library`)의 `characters[].id`에서 이름으로 찾는다. 찾을 수 없으면 `"rosterId": null`과 공식 이름 `"name": {"ko": "...", "ja": "..."}`를 넣는다. 비슷한 캐릭터의 ID를 대신 쓰지 않는다. `role`은 `featured`·`rate-up`·`candidate`이고 `featured`가 1명 이상이어야 한다. 선택형 모집만 예외다(아래). `type`은 공지가 신규·복각을 밝힌 경우만 `new`·`rerun`, 아니면 `unknown`.
+- 선택형 모집(이용자가 후보 중 1명을 고르는 모집): `featured`를 쓰지 않고 후보 전원을 `"role": "candidate"`로 넣는다(2명 이상). `candidate`와 `rate-up`을 섞거나 후보를 1명만 넣으면 거절된다. 후보 목록은 공지에 적힌 그대로 넣고 줄이거나 늘리지 않는다.
+- 이용자별 기간: 공통 종료일이 없고 기간이 이용자마다 다르면(예: 블루 아카이브 PremiumDash처럼 첫 모집 후 28일, D+28) `"endDate": null`, `"endAt": null`로 두고 `periodNote`에 공지의 기간 문구를 그대로 옮긴다. 날짜를 계산해 넣지 않는다. 공통 종료일이 있으면 `periodNote`를 쓰지 않는다(함께 내면 거절). 공식 언어 문구만 넣고, 없는 언어는 비워 둔다.
+
+```json
+{
+  "id": "ba-kr-20261013-premiumdash",
+  "gameId": "bluearchive",
+  "service": "kr",
+  "pool": "character",
+  "startDate": "2026-10-13",
+  "endDate": null,
+  "startAt": null,
+  "endAt": null,
+  "bannerName": {"ko": "공지에 적힌 모집 이름"},
+  "periodNote": {"ko": "공지에 적힌 기간 문구(예: 첫 모집 후 28일)"},
+  "members": [
+    {"rosterId": "10000", "role": "candidate", "type": "unknown"},
+    {"rosterId": "10001", "role": "candidate", "type": "unknown"}
+  ],
+  "sources": [{"url": "https://forum.nexon.com/bluearchive/board_view?board=1018&thread=...", "kind": "official", "title": "공지 제목"}]
+}
+```
+
 - 출처: 공식 공지를 먼저 넣는다(`"kind": "official"`). 공식 공지를 찾지 못한 회차만 커뮤니티 자료를 `"kind": "community"`로 넣는다. https 원문 URL과 게시 시각을 그대로 적는다.
-- 이미 기록된 배너(같은 게임·서버·풀·시작일·featured 멤버)는 덮어쓰지 않는다. 다시 내면 새 출처 URL만 더해진다. 틀린 기록은 운영자가 고친다.
+- 이미 기록된 배너(같은 게임·서버·풀·시작일·featured 멤버, 선택형은 후보 전원)는 덮어쓰지 않는다. 다시 내면 새 출처 URL만 더해진다. 틀린 기록은 운영자가 고친다.
 - 예상·유출·커뮤니티 예측은 넣지 않는다.
 - 저장은 운영자가 켜는 스위치를 따른다. 꺼져 있으면 판정만 하고 `waiting`으로 남으며, 켜진 뒤 실행에서 저장된다. 같은 파일을 고치거나 다시 내지 않는다.
 

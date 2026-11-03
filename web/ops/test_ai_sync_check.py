@@ -107,6 +107,14 @@ class SummaryAndLimits(unittest.TestCase):
         self.assertIn('| `h1` | bluearchive | 이력 | waiting / history-apply-off |', text)
         self.assertIn('kr character 2024-01-23~? · 10010', text)
 
+    def test_table_lists_selection_banner_candidates_and_period_note(self):
+        f = {'entries': [], 'changes': [], 'pickupHistory': [{'id': 'h2', 'gameId': 'bluearchive', 'service': 'kr', 'pool': 'character', 'startDate': '2026-10-13', 'endDate': None,
+             'periodNote': {'ko': '이용자별 첫 모집 후 28일'},
+             'members': [{'rosterId': '10010', 'role': 'candidate', 'type': 'rerun'}, {'rosterId': '10005', 'role': 'candidate', 'type': 'rerun'}]}]}
+        result = {'items': [{'id': 'h2', 'gameId': 'bluearchive', 'status': 'waiting', 'code': 'history-apply-off'}]}
+        text = '\n'.join(check.file_table(f, result, [], {}))
+        self.assertIn('kr character 2026-10-13~이용자별 첫 모집 후 28일 · 선택 10010, 10005', text)
+
     def test_limits_match_the_server_constants(self):
         source = (HERE.parent / 'lib' / 'ai-sync-limits.ts').read_text(encoding='utf-8')
         server = {k: int(v.replace('_', '')) for k, v in re.findall(r'(\w+):([\d_]+)', source)}
