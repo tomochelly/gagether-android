@@ -99,6 +99,14 @@ class SummaryAndLimits(unittest.TestCase):
         text = '\n'.join(check.file_table(f, result, [], {}))
         self.assertIn('endAt: null → 2026-11-26T10:59:00+09:00', text)
 
+    def test_table_lists_pickup_history_items(self):
+        f = {'entries': [], 'changes': [], 'pickupHistory': [{'id': 'h1', 'gameId': 'bluearchive', 'service': 'kr', 'pool': 'character', 'startDate': '2024-01-23', 'endDate': None,
+             'members': [{'rosterId': '10010', 'role': 'featured', 'type': 'new'}, {'rosterId': None, 'name': {'ko': '보조'}, 'role': 'rate-up', 'type': 'rerun'}]}]}
+        result = {'items': [{'id': 'h1', 'gameId': 'bluearchive', 'status': 'waiting', 'code': 'history-apply-off'}]}
+        text = '\n'.join(check.file_table(f, result, [], {}))
+        self.assertIn('| `h1` | bluearchive | 이력 | waiting / history-apply-off |', text)
+        self.assertIn('kr character 2024-01-23~? · 10010', text)
+
     def test_limits_match_the_server_constants(self):
         source = (HERE.parent / 'lib' / 'ai-sync-limits.ts').read_text(encoding='utf-8')
         server = {k: int(v.replace('_', '')) for k, v in re.findall(r'(\w+):([\d_]+)', source)}

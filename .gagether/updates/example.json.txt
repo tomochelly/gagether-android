@@ -29,5 +29,19 @@
       "before": {"endAt": null},
       "sources": ["https://wutheringwaves.kurogames.com/kr/main/news/detail/0000"]
     }
+  ],
+  "pickupHistory": [
+    {
+      "id": "example-wuwa-global-history-0000",
+      "gameId": "wuwa",
+      "service": "global",
+      "pool": "character",
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-21",
+      "startAt": null,
+      "endAt": null,
+      "members": [{"rosterId": "0000", "role": "featured", "type": "new"}],
+      "sources": [{"url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/0000", "kind": "official", "title": "예시 공지 원문 제목"}]
+    }
   ]
 }
