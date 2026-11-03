@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "requestId": "20261103T102951Z-arknights-kr-cafe-locales-media",
+  "reason": "명일방주 한국 공식 카페 공지 6건의 4개 언어 설명, 원본 이미지 5종 및 공식 PV 연결을 보완하고 11월 3일 커널 픽업을 추가합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-03T10:29:51Z",
+  "entries": [
+    {
+      "id": "arknights-kr-kernel-20261103",
+      "gameId": "arknights",
+      "region": "kr",
+      "server": "한국",
+      "kind": "pickup",
+      "title": {
+        "ko": "사일라흐 / 유넥티스",
+        "en": "Saileach / Eunectes",
+        "ja": "サイラッハ / ユーネクテス",
+        "zh": "琴柳 / 森蚺"
+      },
+      "summary": {
+        "ko": "한국 커널 헤드헌팅이 11월 3~17일 진행된다. 6성 사일라흐·유넥티스와 5성 프란카·위스퍼레인·애쉬락의 채용 확률이 상승한다.",
+        "en": "Korean Kernel Headhunting runs November 3–17, with increased rates for 6-star Saileach and Eunectes and 5-star Franka, Whisperain and Ashlock.",
+        "ja": "韓国版の中堅スカウトは11月3～17日に開催。★6サイラッハ・ユーネクテス、★5フランカ・ウィスパーレイン・アッシュロックの出現率が上昇する。",
+        "zh": "韩服中坚寻访于11月3日至17日开放，六星琴柳、森蚺及五星芙兰卡、絮雨、灰毫的出现概率提升。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-17",
+      "publishedAt": "2026-11-02T06:03:44.990Z",
+      "verifiedAt": "2026-11-03T10:29:51Z",
+      "sourceUrl": "https://cafe.naver.com/arknightskor/1249765",
+      "sourceTitle": "'커널 헤드헌팅' 이벤트 안내",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ],
+      "localizationSources": {
+        "ko": "https://cafe.naver.com/arknightskor/1249765"
+      },
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "arknights-kr-kernel-20261103",
+      "bannerName": {
+        "ko": "커널 헤드헌팅",
+        "en": "Kernel Headhunting",
+        "ja": "中堅スカウト",
+        "zh": "中坚寻访"
+      },
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "사일라흐",
+            "en": "Saileach",
+            "ja": "サイラッハ",
+            "zh": "琴柳"
+          },
+          "type": "unknown",
+          "rarity": 6,
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "유넥티스",
+            "en": "Eunectes",
+            "ja": "ユーネクテス",
+            "zh": "森蚺"
+          },
+          "type": "unknown",
+          "rarity": 6,
+          "role": "featured"
+        },
+        {
+          "name": {
+            "ko": "프란카",
+            "en": "Franka",
+            "ja": "フランカ",
+            "zh": "芙兰卡"
+          },
+          "type": "unknown",
+          "rarity": 5,
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "위스퍼레인",
+            "en": "Whisperain",
+            "ja": "ウィスパーレイン",
+            "zh": "絮雨"
+          },
+          "type": "unknown",
+          "rarity": 5,
+          "role": "rate-up"
+        },
+        {
+          "name": {
+            "ko": "애쉬락",
+            "en": "Ashlock",
+            "ja": "アッシュロック",
+            "zh": "灰毫"
+          },
+          "type": "unknown",
+          "rarity": 5,
+          "role": "rate-up"
+        }
+      ],
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-17"
+      },
+      "timingNote": {
+        "ko": "한국 공지 표기: 11월 3일 04:00~11월 17일 03:59.",
+        "en": "Korean notice wording: November 3, 04:00–November 17, 03:59.",
+        "ja": "韓国告知の表記：11月3日04:00～11月17日03:59。",
+        "zh": "韩国公告所示时间：11月3日04:00至11月17日03:59。"
+      },
+      "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDJfNiAg/MDAxNzkzNTg3NTEzNzM0.SG7APozTi9GyXUbDCzOBBcs-fne6XydK1r9DYLKVMcQg.tsjt1CP4dAHszjc4MzYOwllfnkJDRLpkYmh4u0XYoN0g.JPEG/out.jpg",
+      "imageSource": "https://cafe.naver.com/arknightskor/1249765",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageCaption": {
+        "ko": "사일라흐·유넥티스 한국 공식 커널 헤드헌팅 배너",
+        "en": "Official Korean Kernel Headhunting banner: Saileach and Eunectes",
+        "ja": "サイラッハ・ユーネクテスの韓国公式中堅スカウトバナー",
+        "zh": "琴柳、森蚺韩服官方中坚寻访横幅"
+      },
+      "localizedArtwork": {
+        "ko": {
+          "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDJfNiAg/MDAxNzkzNTg3NTEzNzM0.SG7APozTi9GyXUbDCzOBBcs-fne6XydK1r9DYLKVMcQg.tsjt1CP4dAHszjc4MzYOwllfnkJDRLpkYmh4u0XYoN0g.JPEG/out.jpg",
+          "imageSource": "https://cafe.naver.com/arknightskor/1249765",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "width": 1650,
+          "height": 900,
+          "verifiedAt": "2026-11-03T10:29:51Z",
+          "originalLanguageFallback": true,
+          "imageCaption": {
+            "ko": "사일라흐·유넥티스 한국 공식 커널 헤드헌팅 배너",
+            "en": "Official Korean Kernel Headhunting banner: Saileach and Eunectes",
+            "ja": "サイラッハ・ユーネクテスの韓国公式中堅スカウトバナー",
+            "zh": "琴柳、森蚺韩服官方中坚寻访横幅"
+          }
+        }
+      }
+    }
+  ],
+  "changes": [
+    {
+      "id": "quick-arknights-kr-cafe-1249518",
+      "set": {
+        "title": {
+          "ko": "설문조사 안내(~11/4 15:59)",
+          "en": "Player survey through November 4",
+          "ja": "11月4日までのアンケート",
+          "zh": "玩家问卷调查至11月4日"
+        },
+        "summary": {
+          "ko": "한국 서비스 설문조사는 10월 28일~11월 4일 진행하며 참여 보상은 합성옥 600개다. 계정당 1회 지급하며, 종료 후 1주일 이내 발송하고 우편은 발송일로부터 7일간 유효하다.",
+          "en": "The Korean service survey runs October 28–November 4 and awards 600 Orundum once per account. Rewards are sent within a week after the survey closes; mail remains valid for seven days after delivery.",
+          "ja": "韓国版アンケートは10月28日～11月4日に実施。参加報酬は1アカウントにつき合成玉600個。終了後1週間以内に配布され、メールの有効期限は配布から7日間。",
+          "zh": "韩服问卷于10月28日至11月4日开放，每个账号可领取一次600合成玉。奖励在问卷结束后一周内发放，邮件自发放日起有效期为7天。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMjhfMjk4/MDAxNzkzMTU1OTM0NDk1.GAe_StOB-BRGOJv0z5u2aF3BwXZOpSAhjJNnSya74bwg.sCYqDPONYKLW6YzxQtZdXJGox68GukdoKgpAf5GHaFUg.JPEG/1920.jpg",
+            "imageSource": "https://cafe.naver.com/arknightskor/1249518",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-03T10:29:51Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "한국 공식 설문조사 안내",
+              "en": "Official Korean survey announcement",
+              "ja": "韓国公式アンケート案内",
+              "zh": "韩服官方问卷公告"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "설문조사 안내(~11/4 15:59)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249518"
+      ]
+    },
+    {
+      "id": "quick-arknights-kr-cafe-1249621",
+      "set": {
+        "title": {
+          "ko": "[명일방주 x AGF 2026] 참가 안내",
+          "en": "Arknights at AGF 2026",
+          "ja": "アークナイツ、AGF 2026に出展",
+          "zh": "明日方舟参展AGF 2026"
+        },
+        "summary": {
+          "ko": "명일방주가 12월 4~6일 일산 킨텍스 제1전시장에서 열리는 AGF 2026에 참가한다. 현장 콘텐츠와 선물을 준비하며, 부스별 이벤트와 프로그램은 후속 공지로 안내한다.",
+          "en": "Arknights will attend AGF 2026 on December 4–6 at KINTEX Exhibition Center 1 in Ilsan. On-site activities and gifts are planned; booth events and programs will be detailed in later notices.",
+          "ja": "アークナイツは12月4～6日、韓国・一山KINTEX第1展示場のAGF 2026に出展。会場限定コンテンツとプレゼントを予定し、ブース企画の詳細は後日告知される。",
+          "zh": "明日方舟将参加12月4日至6日在韩国一山KINTEX第一展馆举办的AGF 2026，准备现场内容与礼品。展位活动和现场节目的详情将另行公布。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMzBfMTk1/MDAxNzkzMzQ3NTY0MDA0.d5g1QJ049scpMczMk2MtYfU4UJDHDXI-_54jLnK7v2sg.0v7gDrnZaglKzFzCnasRfx-WGdg8o6uoSoJM-M3TAGIg.JPEG/out.jpg",
+            "imageSource": "https://cafe.naver.com/arknightskor/1249621",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-03T10:29:51Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "명일방주 AGF 2026 공식 참가 이미지",
+              "en": "Official Arknights AGF 2026 announcement art",
+              "ja": "アークナイツAGF 2026公式出展ビジュアル",
+              "zh": "明日方舟AGF 2026官方参展图"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[명일방주 x AGF 2026] 참가 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249621"
+      ]
+    },
+    {
+      "id": "quick-arknights-kr-cafe-1249708",
+      "set": {
+        "title": {
+          "ko": "[섬멸 작전] 신규 스테이지 '주홍담장 식당' 개방 안내",
+          "en": "New Korean Annihilation stage: 주홍담장 식당",
+          "ja": "韓国版の新殲滅作戦「주홍담장 식당」",
+          "zh": "韩服新剿灭作战「주홍담장 식당」"
+        },
+        "summary": {
+          "ko": "한국 서비스 신규 섬멸 작전 스테이지 「주홍담장 식당」이 2026년 11월 2일부터 2027년 2월 1일까지 개방된다.",
+          "en": "The Korean service opens the new Annihilation stage 주홍담장 식당 from November 2, 2026 through February 1, 2027.",
+          "ja": "韓国版の新殲滅作戦ステージ「주홍담장 식당」は2026年11月2日～2027年2月1日に開放される。",
+          "zh": "韩服新剿灭作战关卡「주홍담장 식당」于2026年11月2日至2027年2月1日开放。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMzBfMTkx/MDAxNzkzMzU2MjM0Mjgw.L52eXCMNQ_5BKFvPgU3CGg0nQdMrpFiKI8J4NoDtnykg.G70vqsoDzt0rTkGZzCJ0jWcreAXqvCq5_Ej5ogpJrYwg.JPEG/1.jpg",
+            "imageSource": "https://cafe.naver.com/arknightskor/1249708",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1650,
+            "height": 900,
+            "verifiedAt": "2026-11-03T10:29:51Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "주홍담장 식당 한국 공식 섬멸 작전 배너",
+              "en": "Official Korean Annihilation stage banner",
+              "ja": "韓国公式殲滅作戦バナー",
+              "zh": "韩服官方剿灭作战横幅"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[섬멸 작전] 신규 스테이지 '주홍담장 식당' 개방 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요 박사님! ​ 아래와 같이 신규 섬멸 작전 스테이지 &#x27;주홍담장 식당&#x27; 개방 소식을 안내드리니, 작전에 참고 부탁드립니다, 감사합니다! ​ 📅개방 기간: 2026년 11월 2일(월) 04:00 ~2027년 2월 1일(월) 03:59 ​ ​ ​",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249708"
+      ]
+    },
+    {
+      "id": "quick-arknights-kr-cafe-1249765",
+      "set": {
+        "title": {
+          "ko": "'커널 헤드헌팅' 이벤트 안내",
+          "en": "Kernel Headhunting: November 3 rotation",
+          "ja": "11月3日更新の中堅スカウト",
+          "zh": "11月3日中坚寻访轮换"
+        },
+        "summary": {
+          "ko": "한국 커널 헤드헌팅이 11월 3~17일 진행된다. 6성 사일라흐·유넥티스와 5성 프란카·위스퍼레인·애쉬락의 채용 확률이 상승한다.",
+          "en": "Korean Kernel Headhunting runs November 3–17, with increased rates for 6-star Saileach and Eunectes and 5-star Franka, Whisperain and Ashlock.",
+          "ja": "韓国版の中堅スカウトは11月3～17日に開催。★6サイラッハ・ユーネクテス、★5フランカ・ウィスパーレイン・アッシュロックの出現率が上昇する。",
+          "zh": "韩服中坚寻访于11月3日至17日开放，六星琴柳、森蚺及五星芙兰卡、絮雨、灰毫的出现概率提升。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "'커널 헤드헌팅' 이벤트 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요 박사님! ​ 11월 3일(화) 04:00 ~ 11월 17일(화) 03:59 , 기간 중 진행되는 &#x27;커널 헤드헌팅&#x27; 이벤트 소식을 전달드립니다~ 이번 &#x27;커널 헤드헌팅&#x27;을 통해 아래의 오퍼레이터의 채용 확률이 상승합니다! ​ 6★/뱅가드/사일라흐 6★/디펜더/유넥티스 · 5★/가드/프란카 5★/메딕/위스퍼레인 5★/디펜더/애쉬락 · ​ 이상 지정 오퍼레이터 채용, 혹은 기타 오퍼레이터 추가 채용을 고려 중이신 박사님께서는 많은 관심과 참여 부탁드립니다, 감사합니다! ​ ​ ​",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249765"
+      ]
+    },
+    {
+      "id": "quick-arknights-kr-cafe-1249803",
+      "set": {
+        "title": {
+          "ko": "재개방 SideStory '중생의 여정' / 신상 컬렉션 / 테마 가구 재입고",
+          "en": "Korean Side Story rerun, new outfit and furniture return",
+          "ja": "韓国版サイドストーリー復刻・新コーデ・家具再販",
+          "zh": "韩服故事复刻、新时装及家具返场"
+        },
+        "summary": {
+          "ko": "한국 서비스 SideStory 「중생의 여정」이 11월 5일 재개방된다. 신상 컬렉션과 테마 가구 재입고도 함께 안내됐다.",
+          "en": "The Korean service rerun of Side Story 중생의 여정 starts November 5. The notice also introduces a new outfit collection and returning furniture themes.",
+          "ja": "韓国版サイドストーリー「중생의 여정」が11月5日に復刻。新コーデとテーマ家具の再販も案内されている。",
+          "zh": "韩服SideStory「중생의 여정」将于11月5日复刻，公告同时介绍新时装与主题家具返场。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDJfOTkg/MDAxNzkzNjE3MTgzMzA0.y-9kEQSjlBttmOe9aKtnrULY07rS8Iudl_vrfZuSyN8g.NehEyT-ZS1pmfoQJjAOVTBFwpsNlebA9IOVnIci44IEg.JPEG/out.jpg",
+            "imageSource": "https://cafe.naver.com/arknightskor/1249803",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 999,
+            "height": 7189,
+            "verifiedAt": "2026-11-03T10:29:51Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "중생의 여정 재개방·컬렉션·가구 한국 공식 안내",
+              "en": "Official Korean rerun, outfit and furniture guide",
+              "ja": "韓国公式の復刻・コーデ・家具案内",
+              "zh": "韩服官方复刻、时装及家具说明"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "재개방 SideStory '중생의 여정' / 신상 컬렉션 / 테마 가구 재입고",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요 박사님! ​ 11월 5일(목) 16:00부터 개방될 예정인 재개방 SideStory &#x27;중생의 여정&#x27;과 기타 추가 내용을 보고드리니 이용에 참고 부탁드립니다. 감사합니다! ​ ​",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249803"
+      ]
+    },
+    {
+      "id": "quick-arknights-kr-cafe-1249816",
+      "set": {
+        "title": {
+          "ko": "명일방주 재개방 SideStory '중생의 여정' 애니메이션 PV",
+          "en": "Korean Side Story rerun animation PV",
+          "ja": "韓国版サイドストーリー復刻アニメPV",
+          "zh": "韩服故事复刻动画PV"
+        },
+        "summary": {
+          "ko": "11월 5일 재개방하는 「중생의 여정」의 한국 공식 애니메이션 PV가 공개됐다.",
+          "en": "An official Korean animation PV has been released for the November 5 rerun of 중생의 여정.",
+          "ja": "11月5日に復刻する「중생의 여정」の韓国公式アニメPVが公開された。",
+          "zh": "11月5日复刻的「중생의 여정」已公开韩语官方动画PV。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "videos": [
+          {
+            "youtubeId": "5PzrSEqaHCQ",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "명일방주 재개방 SideStory '중생의 여정' 애니메이션 PV",
+              "en": "Korean Side Story rerun animation PV",
+              "ja": "韓国版サイドストーリー復刻アニメPV",
+              "zh": "韩服故事复刻动画PV"
+            },
+            "originalTitle": "명일방주 재개방 SideStory '중생의 여정' 애니메이션 PV",
+            "locale": "ko",
+            "channel": "명일방주 공식 채널",
+            "sourceUrl": "https://www.youtube.com/watch?v=5PzrSEqaHCQ",
+            "verifiedAt": "2026-11-03T10:29:51Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [
+              "en",
+              "ja",
+              "zh"
+            ],
+            "evidenceUrls": [
+              "https://cafe.naver.com/arknightskor/1249816",
+              "https://www.youtube.com/@Arknights_KR_Official"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "명일방주 재개방 SideStory '중생의 여정' 애니메이션 PV",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요 박사님! ​ 11월 5일(목) 16:00부터 개방될 예정인 재개방 SideStory &#x27;중생의 여정&#x27;의 애니메이션 PV를 소개 드립니다. 박사님의 많은 관심과 참여 부탁드립니다! ​ ​ ​",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "videos": null
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249816"
+      ]
+    }
+  ]
+}
