@@ -45,6 +45,37 @@ GAGETHER 예약 조사 작업은 쓰기 토큰 없이 이 폴더에 **업데이�
   - 이미지 묶음: `image`, `imageSource`, `imageVerified`, `imageKind`, `imageLocale`, `imageCaption`, `imageFit`, `imagePosition`, `previewBounds`, `previewArtwork`, `localizedArtwork`, `textFreePreview`, `originalLanguageFallback`, `width`, `height`
   - 묶음 중 하나라도 운영자가 고쳤으면 그 묶음의 칸은 모두 건너뛰고, 나머지 칸은 반영한다.
 
+## 3.1 pickupHistory: 지난 픽업 이력
+
+이미 시작했거나 끝난 픽업 배너를 출시 시점까지 거슬러 기록할 때 쓴다. 지금·다음 픽업은 지금처럼 `entries`로 낸다. 같은 파일에 `entries`·`changes`와 함께 넣을 수 있고, 세 배열을 합쳐 100개까지다. `id`는 파일 안에서(세 배열 전체) 겹치지 않게 짓는다.
+
+```json
+"pickupHistory": [
+  {
+    "id": "ba-kr-20240123-aru",
+    "gameId": "bluearchive",
+    "service": "kr",
+    "pool": "character",
+    "startDate": "2024-01-23",
+    "endDate": "2024-01-30",
+    "startAt": null,
+    "endAt": null,
+    "bannerName": {"ko": "공지에 적힌 배너 이름"},
+    "members": [{"rosterId": "10000", "role": "featured", "type": "rerun"}],
+    "sources": [{"url": "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=...", "kind": "official", "title": "공지 제목", "publishedAt": "2024-01-22T09:00:00+00:00"}]
+  }
+]
+```
+
+- 배너 하나당 한 줄. 같은 배너를 지역 라벨만 바꿔 여러 번 쓰지 않는다. `service`는 정규 서비스만 쓴다: 소녀전선2·리버스: 1999의 한국·일본은 `global`, 블루 아카이브 글로벌은 `kr`, NIKKE·림버스 등 공용 서비스는 `global`. CN은 레지스트리에 CN 서비스가 있는 게임(명일방주, 소녀전선2, 리버스: 1999)만 쓴다.
+- `pool`: `character`, `standard`(명일방주 일반·커널), `support`(우마무스메 서포트 카드). 무기 픽업은 내지 않는다.
+- 날짜: 그 서버 공지에 적힌 현지 날짜. 시각(`startAt`·`endAt`)은 공식 공지에 시각과 시간대가 있을 때만 오프셋을 붙여 쓰고, 없으면 `null`. 시각을 쓰면 그 날짜가 `startDate`·`endDate`와 같아야 한다. 종료일을 모르면 `endDate: null`. 시작일이 오늘(일본 날짜) 이후인 배너는 내지 않는다.
+- 멤버: `rosterId`는 `https://gagether.wiki/api/characters?game=<게임 ID>`(명조는 `https://gagether.wiki/api/wuwa/library`)의 `characters[].id`에서 이름으로 찾는다. 찾을 수 없으면 `"rosterId": null`과 공식 이름 `"name": {"ko": "...", "ja": "..."}`를 넣는다. 비슷한 캐릭터의 ID를 대신 쓰지 않는다. `role`은 `featured`·`rate-up`·`candidate`이고 `featured`가 1명 이상이어야 한다. `type`은 공지가 신규·복각을 밝힌 경우만 `new`·`rerun`, 아니면 `unknown`.
+- 출처: 공식 공지를 먼저 넣는다(`"kind": "official"`). 공식 공지를 찾지 못한 회차만 커뮤니티 자료를 `"kind": "community"`로 넣는다. https 원문 URL과 게시 시각을 그대로 적는다.
+- 이미 기록된 배너(같은 게임·서버·풀·시작일·featured 멤버)는 덮어쓰지 않는다. 다시 내면 새 출처 URL만 더해진다. 틀린 기록은 운영자가 고친다.
+- 예상·유출·커뮤니티 예측은 넣지 않는다.
+- 저장은 운영자가 켜는 스위치를 따른다. 꺼져 있으면 판정만 하고 `waiting`으로 남으며, 켜진 뒤 실행에서 저장된다. 같은 파일을 고치거나 다시 내지 않는다.
+
 ## 4. 내용 규칙 (AGENTS.md 5~7장 요약)
 
 - 날짜·시각·등급·가격·출처·번역을 지어내지 않는다. 모르는 값은 비워 두거나 `null`.
@@ -70,6 +101,7 @@ GAGETHER 예약 조사 작업은 쓰기 토큰 없이 이 폴더에 **업데이�
   - `applied` 반영, `partial` 일부 칸 묶음만 반영
   - `conflict` `before`가 지금 값과 다름, `missing` 공개 데이터에 없는 id, `exists` 이미 있는 id, `held` 바꾸려는 칸이 모두 보호됨, `unchanged` 이미 같은 값
   - `invalid` 형식·출처·기간·이미지 검증 실패(메시지 참고), `excluded` 이미지 검사에서 제외
+  - 이력(`pickupHistory`): `inserted` 새 배너 저장, `sources-added` 기존 배너에 출처 추가, `exists` 이미 같은 배너·출처, `duplicate-in-file` 같은 파일 안 중복, `waiting`/`history-apply-off` 저장 스위치 꺼짐(판정만)
   - `pending`·`retry` 한도나 일시 오류로 남음. 다음 실행(다음 push 또는 수동 실행)에서 이어서 처리된다
 - 실행이 실패(빨강)로 끝나면 같은 파일을 고치지 말고, 원인이 일시적이면 그대로 두고(다음 실행이 이어서 처리), 내용 문제면 새 파일로 다시 낸다.
 - 반영 뒤 `GET /api/data`로 값이 보이는지 확인한다.

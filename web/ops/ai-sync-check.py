@@ -215,10 +215,14 @@ def cell(value):
 def file_table(file, result, image_rows, reasons):
     items = {i['id']: i for i in result.get('items', [])}
     lines = ['| 항목 | 게임 | 종류 | 판정 | 이유 | 칸: 전 → 후 |', '| --- | --- | --- | --- | --- | --- |']
-    for kind, item in [('신규', e) for e in file.get('entries', [])] + [('변경', c) for c in file.get('changes', [])]:
+    rows = [('신규', e) for e in file.get('entries', [])] + [('변경', c) for c in file.get('changes', [])] + [('이력', h) for h in file.get('pickupHistory', [])]
+    for kind, item in rows:
         r = items.get(item.get('id'), {})
         why = reasons.get(item.get('id')) or r.get('message') or ', '.join(r.get('conflictFields', [])) or ''
         if kind == '신규': change = cell((item.get('title') or {}).get('ko', ''))
+        elif kind == '이력':
+            featured = [m.get('rosterId') or (m.get('name') or {}).get('ko') or '?' for m in item.get('members', []) if isinstance(m, dict) and m.get('role') == 'featured']
+            change = cell('%s %s %s~%s · %s' % (item.get('service', '?'), item.get('pool', '?'), item.get('startDate', '?'), item.get('endDate') or '?', ', '.join(map(str, featured))))
         else:
             shown = r.get('applyFields') or list(item['set'])
             change = '<br>'.join('%s: %s → %s' % (cell(k), cell(item['before'].get(k)), cell(item['set'][k])) for k in shown)
