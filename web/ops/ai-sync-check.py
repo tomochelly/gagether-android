@@ -221,8 +221,14 @@ def file_table(file, result, image_rows, reasons):
         why = reasons.get(item.get('id')) or r.get('message') or ', '.join(r.get('conflictFields', [])) or ''
         if kind == '신규': change = cell((item.get('title') or {}).get('ko', ''))
         elif kind == '이력':
-            featured = [m.get('rosterId') or (m.get('name') or {}).get('ko') or '?' for m in item.get('members', []) if isinstance(m, dict) and m.get('role') == 'featured']
-            change = cell('%s %s %s~%s · %s' % (item.get('service', '?'), item.get('pool', '?'), item.get('startDate', '?'), item.get('endDate') or '?', ', '.join(map(str, featured))))
+            members = [m for m in item.get('members', []) if isinstance(m, dict)]
+            label = lambda m: m.get('rosterId') or (m.get('name') or {}).get('ko') or '?'
+            featured = [label(m) for m in members if m.get('role') == 'featured']
+            # A selection banner has no featured member: list its candidates. Its per-player period note stands in for the end.
+            shown = ', '.join(map(str, featured)) if featured else '선택 ' + ', '.join(map(str, [label(m) for m in members if m.get('role') == 'candidate']))
+            note = item.get('periodNote') if isinstance(item.get('periodNote'), dict) else {}
+            end = item.get('endDate') or next((v for v in (note.get(k) for k in ('ko', 'ja', 'en', 'zh')) if v), None) or '?'
+            change = cell('%s %s %s~%s · %s' % (item.get('service', '?'), item.get('pool', '?'), item.get('startDate', '?'), end, shown))
         else:
             shown = r.get('applyFields') or list(item['set'])
             change = '<br>'.join('%s: %s → %s' % (cell(k), cell(item['before'].get(k)), cell(item['set'][k])) for k in shown)
