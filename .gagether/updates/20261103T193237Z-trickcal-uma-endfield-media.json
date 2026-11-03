@@ -1,0 +1,722 @@
+{
+  "version": 1,
+  "requestId": "20261103T193237Z-trickcal-uma-endfield-media",
+  "reason": "트릭컬 한국 두두 모집·테마극장·카드 공지와 공식 PV, 우마무스메 한국 스토리 공지 및 엔드필드 모집 공지의 누락된 원본 이미지를 보완한다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-03T19:32:37Z",
+  "entries": [
+    {
+      "id": "trickcal-kr-20261105-dudu",
+      "gameId": "trickcal",
+      "region": "kr",
+      "server": "kr",
+      "kind": "pickup",
+      "title": {
+        "ko": "두두",
+        "en": "Dudu (두두)",
+        "ja": "ドゥドゥ（두두）",
+        "zh": "Dudu（두두）"
+      },
+      "summary": {
+        "ko": "11월 5일 정기점검 후부터 11월 19일 10:59까지 한국 서비스에서 신규 사도 두두의 출현 확률이 증가한다. 두두는 SP 감소·버프 해제, 보호막과 돌진·기절 효과를 가진다. 공지 시각의 시간대는 명시되지 않았다.",
+        "en": "Korean service: new Apostle Dudu (두두) receives a rate-up from November 5 maintenance completion until November 19 at 10:59. Skills include SP reduction, buff removal, a shield, charging and stun. The notice does not specify a timezone.",
+        "ja": "韓国サービスでは11月5日の定期メンテナンス後から11月19日10:59まで新使徒ドゥドゥ（두두）の出現率が上昇。SP減少・バフ解除・保護膜・突進・気絶の効果を持つ。告知の時刻にはタイムゾーンの記載がない。",
+        "zh": "韩国服新使徒Dudu（두두）于11月5日例行维护后至11月19日10:59提升出现概率。技能包括减少SP、解除增益、护盾、冲刺与眩晕。公告未注明时区。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T19:32:37Z",
+      "sourceUrl": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+      "sourceTitle": "[이벤트] 신규 픽업 사도 모집 진행 예정 안내(~11월 19일)",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ],
+      "localizationSources": {
+        "ko": "https://game.naver.com/lounge/Trickcal/board/detail/8404607"
+      },
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-19",
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-19",
+        "note": {
+          "ko": "11월 5일 정기점검 후 ~ 11월 19일 10:59. 공식 공지의 시간대는 미표기.",
+          "en": "After November 5 maintenance until November 19 at 10:59; timezone not specified in the official notice.",
+          "ja": "11月5日の定期メンテナンス後～11月19日10:59。公式告知はタイムゾーン未記載。",
+          "zh": "11月5日例行维护后至11月19日10:59，官方公告未注明时区。"
+        }
+      },
+      "poolType": "character",
+      "pickupType": "new",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "두두",
+            "en": "Dudu (두두)",
+            "ja": "ドゥドゥ（두두）",
+            "zh": "Dudu（두두）"
+          },
+          "type": "new",
+          "role": "featured"
+        }
+      ],
+      "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTAg/MDAxNzkzNjkxODQ5MDI4.nIiHKO9cnLP3okJS8EddLvA-S9vc5AYUuh8iByaI4RUg.nfQCmNHPEuJ95C_wbGoPAACtBM7W73fSWFhzicfOzV8g.GIF/0.gif",
+      "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageCaption": {
+        "ko": "신규 사도 두두 공식 소개 · 테스트 환경 이미지",
+        "en": "New Apostle Dudu: official test-environment preview",
+        "ja": "新使徒ドゥドゥの公式紹介（テスト環境画像）",
+        "zh": "新使徒Dudu官方介绍（测试环境图片）"
+      },
+      "localizedArtwork": {
+        "ko": {
+          "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTAg/MDAxNzkzNjkxODQ5MDI4.nIiHKO9cnLP3okJS8EddLvA-S9vc5AYUuh8iByaI4RUg.nfQCmNHPEuJ95C_wbGoPAACtBM7W73fSWFhzicfOzV8g.GIF/0.gif",
+          "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "width": 918,
+          "height": 647,
+          "verifiedAt": "2026-11-03T19:32:37Z",
+          "imageCaption": {
+            "ko": "신규 사도 두두 공식 소개 · 테스트 환경 이미지",
+            "en": "New Apostle Dudu: official test-environment preview",
+            "ja": "新使徒ドゥドゥの公式紹介（テスト環境画像）",
+            "zh": "新使徒Dudu官方介绍（测试环境图片）"
+          }
+        }
+      },
+      "detailImages": [
+        {
+          "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTAg/MDAxNzkzNjkxODQ5MDI4.nIiHKO9cnLP3okJS8EddLvA-S9vc5AYUuh8iByaI4RUg.nfQCmNHPEuJ95C_wbGoPAACtBM7W73fSWFhzicfOzV8g.GIF/0.gif",
+          "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "width": 918,
+          "height": 647,
+          "verifiedAt": "2026-11-03T19:32:37Z",
+          "imageCaption": {
+            "ko": "신규 사도 두두 공식 소개 · 테스트 환경 이미지",
+            "en": "New Apostle Dudu: official test-environment preview",
+            "ja": "新使徒ドゥドゥの公式紹介（テスト環境画像）",
+            "zh": "新使徒Dudu官方介绍（测试环境图片）"
+          }
+        },
+        {
+          "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTAw/MDAxNzkzNjkxODU0NzMx.X95m8kxfGOiiGxL69XFo9XzxEWZT1ioXSAkrZZkAOzog.QvJf_ZdBm_Tccy5F7NTE38115dIodFQnM2Nbxx-i314g.GIF/1.gif",
+          "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "ko",
+          "width": 992,
+          "height": 853,
+          "verifiedAt": "2026-11-03T19:32:37Z",
+          "imageCaption": {
+            "ko": "두두 공식 캐릭터 애니메이션 · 테스트 환경 이미지",
+            "en": "Official Dudu character animation; test-environment image",
+            "ja": "ドゥドゥの公式キャラクターアニメーション（テスト環境画像）",
+            "zh": "Dudu官方角色动画（测试环境图片）"
+          }
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "quick-trickcal-kr-8404614",
+      "set": {
+        "title": {
+          "ko": "[이벤트] 신규 스펙타클 카드 뽑기 예정 안내(~11월 19일)",
+          "en": "New Spectacle card draw: Naia’s dolphin water gun",
+          "ja": "新スペクタクルカードガチャ：ナイアのイルカ水鉄砲",
+          "zh": "新一期Spectacle卡池：Naia的海豚水枪"
+        },
+        "summary": {
+          "ko": "11월 5일 정기점검 후부터 11월 19일 10:59까지 스펙타클 카드 뽑기가 열린다. 10회 뽑기마다 지정 카드 중 1종을 확정 획득한다. 신규 전설 아티팩트 「나이아의 돌고래 물총」은 나이아 장착 시 전용 효과가 적용된다.",
+          "en": "The Spectacle card draw runs from November 5 maintenance completion until November 19 at 10:59. Each ten-draw guarantees one designated card. The new legendary artifact, Naia’s dolphin water gun, grants its exclusive effect when equipped by Naia.",
+          "ja": "11月5日の定期メンテナンス後から11月19日10:59まで開催。10回ガチャで指定カードのうち1種が確定する。新伝説アーティファクト「ナイアのイルカ水鉄砲」はナイアが装備すると専用効果が適用される。",
+          "zh": "活动于11月5日例行维护后至11月19日10:59举行，每十连保证获得一种指定卡牌。新传说神器「Naia的海豚水枪」由Naia装备时触发专属效果。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMjgz/MDAxNzkzNjkxOTQxMzY2.Okb_4jA1t5VUbhAGHSX0ZM39oMDO9azvVcsPerkalfcg.OVJ0aDmcRupyl1WQCMJ51VEqdEXsjF6YyjOAviflKIAg.PNG/1.png",
+        "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404614",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "신규 스펙타클 카드 뽑기 공식 안내",
+          "en": "Official new Spectacle card draw preview",
+          "ja": "新スペクタクルカードガチャ公式案内",
+          "zh": "新一期Spectacle卡池官方预告"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMjgz/MDAxNzkzNjkxOTQxMzY2.Okb_4jA1t5VUbhAGHSX0ZM39oMDO9azvVcsPerkalfcg.OVJ0aDmcRupyl1WQCMJ51VEqdEXsjF6YyjOAviflKIAg.PNG/1.png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404614",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "신규 스펙타클 카드 뽑기 공식 안내",
+              "en": "Official new Spectacle card draw preview",
+              "ja": "新スペクタクルカードガチャ公式案内",
+              "zh": "新一期Spectacle卡池官方预告"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMjgz/MDAxNzkzNjkxOTQxMzY2.Okb_4jA1t5VUbhAGHSX0ZM39oMDO9azvVcsPerkalfcg.OVJ0aDmcRupyl1WQCMJ51VEqdEXsjF6YyjOAviflKIAg.PNG/1.png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404614",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "신규 스펙타클 카드 뽑기 공식 안내",
+              "en": "Official new Spectacle card draw preview",
+              "ja": "新スペクタクルカードガチャ公式案内",
+              "zh": "新一期Spectacle卡池官方预告"
+            }
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfNzUg/MDAxNzkzNjkxOTQ3MzY3.AvrDh7WVYS3RzTm5KTkwI4pBLhQB_6L5pjsZtpKHzQMg.j2VcLRkTjWX_h0m_10E2WON42XjQSCsbwc-wqrLzmQ0g.PNG/3.png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404614",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 778,
+            "height": 468,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "나이아의 돌고래 물총 전용 효과 · 고학년 13레벨·카드 1레벨 기준",
+              "en": "Naia’s dolphin water gun effect; high-grade level 13 and card level 1",
+              "ja": "ナイアのイルカ水鉄砲の専用効果（高学年レベル13・カードレベル1）",
+              "zh": "Naia海豚水枪的专属效果（高年级13级、卡牌1级）"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[이벤트] 신규 스펙타클 카드 뽑기 예정 안내(~11월 19일)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요, 교주님들! 귀염뽀짝! 볼따구 라이프! 트릭컬 리바이브입니다. ​ [리츠의 대지 뽀개기] 스펙타클 카드 뽑기 기간 종료 후 신규 스펙타클 카드 뽑기가 진행됩니다. ​ 이벤트 기간 중 카드 10회 뽑기 시 지정된 스펙타클 카드 중 1종을 확정 획득할 수 있습니다. ​ ※ 모든 이미지는 테스트 환경에서 촬영되었습니다. ※ 일부 모션 등이 실제 모습과 상이할 수 있습니다. ◈ 신규 스펙타클 카드 뽑기 ◈ 1. 이벤트 기간 - 11/05(목) 정기점검 이후 ~ 11/19(목) 10:59 ​ 2. 이벤트 참여 방법 - 로비 화면 ▶ 모집 ▶ 카드 뽑기 ▶ 스펙타",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/Trickcal/board/detail/8404614"
+      ]
+    },
+    {
+      "id": "quick-trickcal-kr-8404603",
+      "set": {
+        "title": {
+          "ko": "[테마극장] <공룡 대침공! 대폭망의 도시!> 오픈 예정 안내(~11월 19일)",
+          "en": "Dinosaur Invasion! City of Disaster! theater event",
+          "ja": "恐竜大侵攻！大惨事の都市！テーマ劇場イベント",
+          "zh": "恐龙大入侵！灾难之城！主题剧场活动"
+        },
+        "summary": {
+          "ko": "두두의 테마극장은 11월 5일 정기점검 후부터 11월 19일 10:59까지 열린다. 보너스 사도 편성 시 이벤트 재화를 최대 150% 추가 획득하며, 상점에서 움직이는 두두 피규어 등을 교환한다. 이세계픽셀은 11월 12일 점검 후 시작한다.",
+          "en": "Dudu’s theater event runs from November 5 maintenance completion until November 19 at 10:59. Bonus Apostles grant up to 150% extra event currency; the shop includes an animated Dudu figurine. Otherworld Pixel opens after November 12 maintenance.",
+          "ja": "ドゥドゥのテーマ劇場は11月5日の定期メンテナンス後から11月19日10:59まで。ボーナス使徒の編成でイベント通貨を最大150%追加獲得でき、ショップでは動くドゥドゥのフィギュアなどを交換できる。異世界ピクセルは11月12日のメンテナンス後に開放。",
+          "zh": "Dudu主题剧场于11月5日例行维护后至11月19日10:59开放。编入加成使徒可额外获得最多150%的活动货币，商店可兑换动态Dudu手办等物品。「异世界像素」于11月12日维护后开放。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMjA3/MDAxNzkzNjkxNTgyMTU5.h6AXnOPoKaTsjC7h3pOvzszLIhCfpGlovgOkrv3WOzQg.R_17tFRHqUTv8WTR5OS6fFUOZBbx232wwml7u8kD_Mcg.PNG/1_(1).png",
+        "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404603",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "두두 테마극장 공식 테스트 화면",
+          "en": "Dudu theater event: official test-environment image",
+          "ja": "ドゥドゥのテーマ劇場：公式テスト画面",
+          "zh": "Dudu主题剧场：官方测试画面"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMjA3/MDAxNzkzNjkxNTgyMTU5.h6AXnOPoKaTsjC7h3pOvzszLIhCfpGlovgOkrv3WOzQg.R_17tFRHqUTv8WTR5OS6fFUOZBbx232wwml7u8kD_Mcg.PNG/1_(1).png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404603",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1020,
+            "height": 574,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "두두 테마극장 공식 테스트 화면",
+              "en": "Dudu theater event: official test-environment image",
+              "ja": "ドゥドゥのテーマ劇場：公式テスト画面",
+              "zh": "Dudu主题剧场：官方测试画面"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMjA3/MDAxNzkzNjkxNTgyMTU5.h6AXnOPoKaTsjC7h3pOvzszLIhCfpGlovgOkrv3WOzQg.R_17tFRHqUTv8WTR5OS6fFUOZBbx232wwml7u8kD_Mcg.PNG/1_(1).png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404603",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1020,
+            "height": 574,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "두두 테마극장 공식 테스트 화면",
+              "en": "Dudu theater event: official test-environment image",
+              "ja": "ドゥドゥのテーマ劇場：公式テスト画面",
+              "zh": "Dudu主题剧场：官方测试画面"
+            }
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTI1/MDAxNzkzNjkxNTg2MzE0.8QVkd7dF9Nmv04WJOVGeaUml5PV93KumrAiwSNMkybMg.MQIGzBft3r18BjwpKLMlRaGcbx5YqQAGJrGPSkbuAbMg.PNG/2.png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404603",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1259,
+            "height": 708,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "두두 테마극장 스토리 공식 테스트 화면",
+              "en": "Dudu theater story: official test-environment image",
+              "ja": "ドゥドゥのテーマ劇場ストーリー：公式テスト画面",
+              "zh": "Dudu主题剧场故事：官方测试画面"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[테마극장] <공룡 대침공! 대폭망의 도시!> 오픈 예정 안내(~11월 19일)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요, 교주님들! 귀염뽀짝! 볼따구 라이프! 트릭컬 리바이브입니다. ​ ✨ <공룡 대침공! 대폭망의 도시!> ✨ 테마극장이 11월 5일 오픈됩니다! ​ 이벤트 기간 동안 <공룡 대침공! 대폭망의 도시!>에서 두두의 특별한 이야기를 확인하실 수 있습니다. ​ 이벤트에 대한 자세한 내용은 아래에서 확인해 주세요. ​ ※ 모든 이미지는 테스트 환경에서 촬영되었습니다. ※ 일부 모션 등이 실제 모습과 상이할 수 있습니다. ◈ 테마극장 <공룡 대침공! 대폭망의 도시!> ◈ 1. 이벤트 기간 - 11/05(목) 정기점검 이후 ~ 11/19(목) 10:59 ​ 2. 이벤",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/Trickcal/board/detail/8404603"
+      ]
+    },
+    {
+      "id": "quick-trickcal-kr-8404607",
+      "set": {
+        "title": {
+          "ko": "[이벤트] 신규 픽업 사도 모집 진행 예정 안내(~11월 19일)",
+          "en": "New Apostle Dudu rate-up recruitment",
+          "ja": "新使徒ドゥドゥのピックアップ募集",
+          "zh": "新使徒Dudu概率提升招募"
+        },
+        "summary": {
+          "ko": "11월 5일 정기점검 후부터 11월 19일 10:59까지 한국 서비스에서 신규 사도 두두의 출현 확률이 증가한다. 두두는 SP 감소·버프 해제, 보호막과 돌진·기절 효과를 가진다. 공지 시각의 시간대는 명시되지 않았다.",
+          "en": "Korean service: new Apostle Dudu (두두) receives a rate-up from November 5 maintenance completion until November 19 at 10:59. Skills include SP reduction, buff removal, a shield, charging and stun. The notice does not specify a timezone.",
+          "ja": "韓国サービスでは11月5日の定期メンテナンス後から11月19日10:59まで新使徒ドゥドゥ（두두）の出現率が上昇。SP減少・バフ解除・保護膜・突進・気絶の効果を持つ。告知の時刻にはタイムゾーンの記載がない。",
+          "zh": "韩国服新使徒Dudu（두두）于11月5日例行维护后至11月19日10:59提升出现概率。技能包括减少SP、解除增益、护盾、冲刺与眩晕。公告未注明时区。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTAg/MDAxNzkzNjkxODQ5MDI4.nIiHKO9cnLP3okJS8EddLvA-S9vc5AYUuh8iByaI4RUg.nfQCmNHPEuJ95C_wbGoPAACtBM7W73fSWFhzicfOzV8g.GIF/0.gif",
+        "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "신규 사도 두두 공식 소개 · 테스트 환경 이미지",
+          "en": "New Apostle Dudu: official test-environment preview",
+          "ja": "新使徒ドゥドゥの公式紹介（テスト環境画像）",
+          "zh": "新使徒Dudu官方介绍（测试环境图片）"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTAg/MDAxNzkzNjkxODQ5MDI4.nIiHKO9cnLP3okJS8EddLvA-S9vc5AYUuh8iByaI4RUg.nfQCmNHPEuJ95C_wbGoPAACtBM7W73fSWFhzicfOzV8g.GIF/0.gif",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 918,
+            "height": 647,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "신규 사도 두두 공식 소개 · 테스트 환경 이미지",
+              "en": "New Apostle Dudu: official test-environment preview",
+              "ja": "新使徒ドゥドゥの公式紹介（テスト環境画像）",
+              "zh": "新使徒Dudu官方介绍（测试环境图片）"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTAg/MDAxNzkzNjkxODQ5MDI4.nIiHKO9cnLP3okJS8EddLvA-S9vc5AYUuh8iByaI4RUg.nfQCmNHPEuJ95C_wbGoPAACtBM7W73fSWFhzicfOzV8g.GIF/0.gif",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 918,
+            "height": 647,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "신규 사도 두두 공식 소개 · 테스트 환경 이미지",
+              "en": "New Apostle Dudu: official test-environment preview",
+              "ja": "新使徒ドゥドゥの公式紹介（テスト環境画像）",
+              "zh": "新使徒Dudu官方介绍（测试环境图片）"
+            }
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDNfMTAw/MDAxNzkzNjkxODU0NzMx.X95m8kxfGOiiGxL69XFo9XzxEWZT1ioXSAkrZZkAOzog.QvJf_ZdBm_Tccy5F7NTE38115dIodFQnM2Nbxx-i314g.GIF/1.gif",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8404607",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 992,
+            "height": 853,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "두두 공식 캐릭터 애니메이션 · 테스트 환경 이미지",
+              "en": "Official Dudu character animation; test-environment image",
+              "ja": "ドゥドゥの公式キャラクターアニメーション（テスト環境画像）",
+              "zh": "Dudu官方角色动画（测试环境图片）"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[이벤트] 신규 픽업 사도 모집 진행 예정 안내(~11월 19일)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요, 교주님들! 귀염뽀짝! 볼따구 라이프! 트릭컬 리바이브입니다. ​ 코페와 버터 사도 픽업 기간 종료 후 신규 사도 두두의 픽업 기간이 시작됩니다. ​ 픽업 사도 모집 기간 중에는 픽업 대상인 [두두]의 출현 확률이 상향됩니다. ​ 이벤트에 대한 자세한 내용은 아래에서 확인해 주세요. ​ ※ 모든 이미지는 테스트 환경에서 촬영되었습니다. ※ 일부 모션 등이 실제 모습과 상이할 수 있습니다. ◈ 신규 사도 &quot;두두&quot; 픽업 모집 ◈ 1. 이벤트 기간 - 11/05(목) 정기점검 이후 ~ 11/19(목) 10:59 ​ 2. 이벤트 참여 방법 -",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/Trickcal/board/detail/8404607"
+      ]
+    },
+    {
+      "id": "quick-trickcal-kr-8404733",
+      "set": {
+        "title": {
+          "ko": "[테마극장] 신규 테마극장 🎬 <공룡 대침공! 대폭망의 도시!>",
+          "en": "Trickcal Revive theater trailer: Dinosaur Invasion! City of Disaster!",
+          "ja": "トリッカル リバイブ テーマ劇場PV：恐竜大侵攻！大惨事の都市！",
+          "zh": "Trickcal Revive主题剧场PV：恐龙大入侵！灾难之城！"
+        },
+        "summary": {
+          "ko": "EPIDGames 공식 채널에서 두두가 등장하는 테마극장 「공룡 대침공! 대폭망의 도시!」의 한국어 PV가 공개됐다.",
+          "en": "EPIDGames released the Korean trailer for the Dudu-themed theater event, Dinosaur Invasion! City of Disaster!",
+          "ja": "EPIDGames公式チャンネルでドゥドゥが登場するテーマ劇場「恐竜大侵攻！大惨事の都市！」の韓国語PVが公開された。",
+          "zh": "EPIDGames官方频道公开了Dudu主题剧场「恐龙大入侵！灾难之城！」的韩语PV。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "videos": [
+          {
+            "youtubeId": "AKQ0d37XvhQ",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "[트릭컬 리바이브 🎬 테마극장] 공룡 대침공! 대폭망의 도시!",
+              "en": "Trickcal Revive theater trailer: Dinosaur Invasion! City of Disaster!",
+              "ja": "トリッカル リバイブ テーマ劇場PV：恐竜大侵攻！大惨事の都市！",
+              "zh": "Trickcal Revive主题剧场PV：恐龙大入侵！灾难之城！"
+            },
+            "originalTitle": "[트릭컬 리바이브 🎬 테마극장] 공룡 대침공! 대폭망의 도시!",
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [
+              "en",
+              "ja",
+              "zh"
+            ],
+            "locale": "ko",
+            "channel": "EPIDGames",
+            "sourceUrl": "https://www.youtube.com/watch?v=AKQ0d37XvhQ",
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://game.naver.com/lounge/Trickcal/board/detail/8404733"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[테마극장] 신규 테마극장 🎬 <공룡 대침공! 대폭망의 도시!>",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 공식 홈페이지 - [바로 가기] 아이시움 라운지 - [바로 가기] 트릭컬 노트 BETA - [바로 가기] Google Play 다운로드 - [바로 가기] App Store 다운로드 - [바로 가기] ​",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "videos": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/Trickcal/board/detail/8404733",
+        "https://www.youtube.com/watch?v=AKQ0d37XvhQ"
+      ]
+    },
+    {
+      "id": "quick-umamusume-kr-115108666",
+      "set": {
+        "title": {
+          "ko": "메인 스토리 제2 부 후편 공개 예정 안내📣",
+          "en": "Korean Main Story Part 2 finale arrives November 10",
+          "ja": "韓国版メインストーリー第2部後編、11月10日公開予定",
+          "zh": "韩国服主线故事第2部后篇预计11月10日公开"
+        },
+        "summary": {
+          "ko": "한국판 메인 스토리 제2부 후편 「씨앗을 그대에게, 희망은 순환한다」가 11월 10일 12:00 공개될 예정이다. 모든 에피소드를 열람하면 라이브 시어터 곡 「기프트」와 SSR [절대☆천재 전설] 후사이치 판도라 서포트 카드를 획득한다.",
+          "en": "The Korean service’s Main Story Part 2 finale is scheduled for November 10 at 12:00. Viewing every episode awards the Live Theater song Gift and the SSR [Absolute☆Genius Legend] Fusaichi Pandora support card.",
+          "ja": "韓国版メインストーリー第2部後編は11月10日12:00公開予定。全エピソードを閲覧するとライブシアターの楽曲「ギフト」とSSR［絶対☆天才伝説］フサイチパンドラのサポートカードを獲得できる。",
+          "zh": "韩国服主线故事第2部后篇预计于11月10日12:00公开。观看全部剧情可获得Live Theater歌曲「Gift」及SSR［绝对☆天才传说］Fusaichi Pandora支援卡。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "image": "https://k.kakaocdn.net/dn/Kp5mG/dJMcabe2aGB/QtGa4S3NfrBZk16SIXnJ81/img_xl.jpg",
+        "imageSource": "https://pf.kakao.com/_DzxjIb/115108666",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "한국판 메인 스토리 제2부 후편 공개 예고",
+          "en": "Korean Main Story Part 2 finale announcement",
+          "ja": "韓国版メインストーリー第2部後編公開予告",
+          "zh": "韩国服主线故事第2部后篇预告"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://k.kakaocdn.net/dn/Kp5mG/dJMcabe2aGB/QtGa4S3NfrBZk16SIXnJ81/img_xl.jpg",
+            "imageSource": "https://pf.kakao.com/_DzxjIb/115108666",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1024,
+            "height": 576,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "한국판 메인 스토리 제2부 후편 공개 예고",
+              "en": "Korean Main Story Part 2 finale announcement",
+              "ja": "韓国版メインストーリー第2部後編公開予告",
+              "zh": "韩国服主线故事第2部后篇预告"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://k.kakaocdn.net/dn/Kp5mG/dJMcabe2aGB/QtGa4S3NfrBZk16SIXnJ81/img_xl.jpg",
+            "imageSource": "https://pf.kakao.com/_DzxjIb/115108666",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1024,
+            "height": 576,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "한국판 메인 스토리 제2부 후편 공개 예고",
+              "en": "Korean Main Story Part 2 finale announcement",
+              "ja": "韓国版メインストーリー第2部後編公開予告",
+              "zh": "韩国服主线故事第2部后篇预告"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "메인 스토리 제2 부 후편 공개 예정 안내📣",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "메인 스토리 제2 부 후편 「씨앗을 그대에게, 희망은 순환한다」 공개 예정! 💕 팀 <아셀라>의 멤버들이 만들어갈 새로운 스토리를 기대해 주세요! ------------------------------------------------ ❖ 공개 일정 - 11월 10일(화) 12:00 ❖ 내용 - 메인 스토리 제2 부 후편 「씨앗을 그대에게, 희망은 순환한다」 공개 예정! ❖ 모든 에피소드 열람 시 획득 보상 - 라이브 시어터 신규 곡 「기프트」 - SSR [절대☆천재 전설] 후사이치 판도라 서포트 카드 ------------------------------------",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://pf.kakao.com/_DzxjIb/115108666"
+      ]
+    },
+    {
+      "id": "quick-endfield-global-6179",
+      "set": {
+        "image": "https://web-static.hg-cdn.com/upload/image/20261027/3ea60e6d85f1f7319a0361e28c9b0eb3.png",
+        "imageSource": "https://endfield.gryphline.com/ko-kr/news/6179",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "선조의 샘의 새로운 물결 재구축 헤드헌팅#1 · 탕탕",
+          "en": "Ancestral Spring Flows Anew RE-Factor Headhunting #1: Tangtang",
+          "ja": "再現スカウト「祖泉の新流」#1：タンタン",
+          "zh": "「祖泉的新流」重構尋訪#1：湯湯"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261027/3ea60e6d85f1f7319a0361e28c9b0eb3.png",
+            "imageSource": "https://endfield.gryphline.com/ko-kr/news/6179",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "선조의 샘의 새로운 물결 재구축 헤드헌팅#1 · 탕탕",
+              "en": "Ancestral Spring Flows Anew RE-Factor Headhunting #1: Tangtang",
+              "ja": "再現スカウト「祖泉の新流」#1：タンタン",
+              "zh": "「祖泉的新流」重構尋訪#1：湯湯"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261027/3ea60e6d85f1f7319a0361e28c9b0eb3.png",
+            "imageSource": "https://endfield.gryphline.com/ko-kr/news/6179",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "선조의 샘의 새로운 물결 재구축 헤드헌팅#1 · 탕탕",
+              "en": "Ancestral Spring Flows Anew RE-Factor Headhunting #1: Tangtang",
+              "ja": "再現スカウト「祖泉の新流」#1：タンタン",
+              "zh": "「祖泉的新流」重構尋訪#1：湯湯"
+            }
+          },
+          {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261027/b3c388df93c1237683f7fee196ff2673.png",
+            "imageSource": "https://endfield.gryphline.com/ko-kr/news/6179",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-03T19:32:37Z",
+            "imageCaption": {
+              "ko": "가지 신청 재구축 신청#1 · 반항",
+              "en": "Tender Sprig Issue RE-Factor Issue #1: Brigand’s Calling",
+              "ja": "再現申請「小枝・申請」#1：落草",
+              "zh": "「細枝申領」重構申領#1：落草"
+            }
+          }
+        ]
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/6179"
+      ]
+    }
+  ]
+}
