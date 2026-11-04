@@ -1,0 +1,1024 @@
+{
+  "version": 1,
+  "requestId": "20261104T121707Z-endfield-trickcal-reverse-notices",
+  "reason": "11월 4일 공식 공지의 4개 언어 요약과 원본 이미지 보완, 엔드필드 상세 모집 규칙 추가, 국제·일본 트릭컬 예정 캐릭터 픽업 3회 등록. 중국 서비스 리버스 4.1 점검은 별도 지역으로 유지.",
+  "mode": "apply",
+  "researchedAt": "2026-11-04T12:17:07Z",
+  "entries": [
+    {
+      "id": "trickcal-global-pickup-polan-20261105",
+      "gameId": "trickcal",
+      "kind": "pickup",
+      "region": "global",
+      "server": "Global / Japan · UTC+9",
+      "title": {
+        "ko": "포란",
+        "en": "Polan",
+        "ja": "ポラン",
+        "zh": "Polan"
+      },
+      "summary": {
+        "ko": "국제·일본 서비스의 3성 포란 획득 확률 상승 모집입니다. 11월 5일 점검 종료 후 시작하며 정확한 시작 시각은 미정입니다. 종료는 11월 19일 10:59(UTC+9)입니다.",
+        "en": "Rate-up recruitment for 3-star Polan in the international/Japanese service. Starts after November 5 maintenance; the exact start time is not announced. Ends November 19 at 10:59 (UTC+9).",
+        "ja": "★3ポランの提供割合が上昇するピックアップ。11月5日のメンテナンス終了後に開始。具体的な開始時刻は未発表。終了は11月19日10:59（UTC+9）。",
+        "zh": "國際／日本服務的3星Polan機率提升招募。11月5日維護後開啟，尚未公布確切開始時間。11月19日10:59（UTC+9）結束。"
+      },
+      "startAt": null,
+      "endAt": "2026-11-19T10:59:00+09:00",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-19",
+      "publishedAt": "2026-11-04",
+      "verifiedAt": "2026-11-04T12:17:07Z",
+      "sourceUrl": "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+      "sourceTitle": "11/05 イベントのお知らせ",
+      "sourceLocale": "ja",
+      "sourceKind": "official",
+      "officialLocales": [
+        "en",
+        "ja"
+      ],
+      "translatedLocales": [
+        "ko",
+        "zh"
+      ],
+      "localizationSources": {
+        "ja": "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+        "en": "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181793790591206304"
+      },
+      "rarity": 3,
+      "poolType": "character",
+      "pickupType": "new",
+      "pickupGroup": "trickcal-global-polan-2026-11-05",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "포란",
+            "en": "Polan",
+            "ja": "ポラン",
+            "zh": "Polan"
+          },
+          "type": "new",
+          "role": "featured",
+          "rarity": 3
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 5일 점검 종료 후 시작하며 정확한 시작 시각은 미정입니다. 종료는 11월 19일 10:59(UTC+9)입니다.",
+        "en": "Starts after November 5 maintenance; the exact start time is not announced. Ends November 19 at 10:59 (UTC+9).",
+        "ja": "11月5日のメンテナンス終了後に開始。具体的な開始時刻は未発表。終了は11月19日10:59（UTC+9）。",
+        "zh": "11月5日維護後開啟，尚未公布確切開始時間。11月19日10:59（UTC+9）結束。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-19"
+      }
+    },
+    {
+      "id": "trickcal-global-pickup-vivi-20261112",
+      "gameId": "trickcal",
+      "kind": "pickup",
+      "region": "global",
+      "server": "Global / Japan · UTC+9",
+      "title": {
+        "ko": "비비",
+        "en": "Vivi",
+        "ja": "ヴィヴィ",
+        "zh": "Vivi"
+      },
+      "summary": {
+        "ko": "국제·일본 서비스의 3성 비비 획득 확률 상승 모집입니다. 11월 12일 04:00~11월 19일 10:59(UTC+9). 다른 엘다인 사도는 등장하지 않습니다.",
+        "en": "Rate-up recruitment for 3-star Vivi in the international/Japanese service. November 12 at 04:00–November 19 at 10:59 (UTC+9). No other Eldyne Apostle appears in this pool.",
+        "ja": "★3ヴィヴィの提供割合が上昇するピックアップ。11月12日04:00～11月19日10:59（UTC+9）。 他のエルダイン使徒は登場しません。",
+        "zh": "國際／日本服務的3星Vivi機率提升招募。11月12日04:00至11月19日10:59（UTC+9）。 此池不包含其他Eldyne使徒。"
+      },
+      "startAt": "2026-11-12T04:00:00+09:00",
+      "endAt": "2026-11-19T10:59:00+09:00",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-19",
+      "publishedAt": "2026-11-04",
+      "verifiedAt": "2026-11-04T12:17:07Z",
+      "sourceUrl": "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+      "sourceTitle": "11/05 イベントのお知らせ",
+      "sourceLocale": "ja",
+      "sourceKind": "official",
+      "officialLocales": [
+        "en",
+        "ja"
+      ],
+      "translatedLocales": [
+        "ko",
+        "zh"
+      ],
+      "localizationSources": {
+        "ja": "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+        "en": "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181793790591206304"
+      },
+      "rarity": 3,
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "trickcal-global-vivi-2026-11-12",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "비비",
+            "en": "Vivi",
+            "ja": "ヴィヴィ",
+            "zh": "Vivi"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 3
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 12일 04:00~11월 19일 10:59(UTC+9).",
+        "en": "November 12 at 04:00–November 19 at 10:59 (UTC+9).",
+        "ja": "11月12日04:00～11月19日10:59（UTC+9）。",
+        "zh": "11月12日04:00至11月19日10:59（UTC+9）。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-12",
+        "endDate": "2026-11-19"
+      }
+    },
+    {
+      "id": "trickcal-global-pickup-rohne-20261112",
+      "gameId": "trickcal",
+      "kind": "pickup",
+      "region": "global",
+      "server": "Global / Japan · UTC+9",
+      "title": {
+        "ko": "로네",
+        "en": "Rohne",
+        "ja": "ローネ",
+        "zh": "Rohne"
+      },
+      "summary": {
+        "ko": "국제·일본 서비스의 3성 로네 획득 확률 상승 모집입니다. 11월 12일 04:00~11월 19일 10:59(UTC+9).",
+        "en": "Rate-up recruitment for 3-star Rohne in the international/Japanese service. November 12 at 04:00–November 19 at 10:59 (UTC+9).",
+        "ja": "★3ローネの提供割合が上昇するピックアップ。11月12日04:00～11月19日10:59（UTC+9）。",
+        "zh": "國際／日本服務的3星Rohne機率提升招募。11月12日04:00至11月19日10:59（UTC+9）。"
+      },
+      "startAt": "2026-11-12T04:00:00+09:00",
+      "endAt": "2026-11-19T10:59:00+09:00",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-19",
+      "publishedAt": "2026-11-04",
+      "verifiedAt": "2026-11-04T12:17:07Z",
+      "sourceUrl": "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+      "sourceTitle": "11/05 イベントのお知らせ",
+      "sourceLocale": "ja",
+      "sourceKind": "official",
+      "officialLocales": [
+        "en",
+        "ja"
+      ],
+      "translatedLocales": [
+        "ko",
+        "zh"
+      ],
+      "localizationSources": {
+        "ja": "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+        "en": "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181793790591206304"
+      },
+      "rarity": 3,
+      "poolType": "character",
+      "pickupType": "unknown",
+      "pickupGroup": "trickcal-global-rohne-2026-11-12",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "로네",
+            "en": "Rohne",
+            "ja": "ローネ",
+            "zh": "Rohne"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 3
+        }
+      ],
+      "timingNote": {
+        "ko": "11월 12일 04:00~11월 19일 10:59(UTC+9).",
+        "en": "November 12 at 04:00–November 19 at 10:59 (UTC+9).",
+        "ja": "11月12日04:00～11月19日10:59（UTC+9）。",
+        "zh": "11月12日04:00至11月19日10:59（UTC+9）。"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-12",
+        "endDate": "2026-11-19"
+      }
+    }
+  ],
+  "changes": [
+    {
+      "id": "quick-endfield-global-7012",
+      "set": {
+        "title": {
+          "ko": "「은하수를 부르는 불꽃」특별 허가 헤드헌팅",
+          "en": "[The Hearth Fire Beckons the Starry Flow] Chartered Headhunting",
+          "ja": "特別スカウト「人煙の牽く天河」",
+          "zh": "「煙火邀星河」特許尋訪"
+        },
+        "summary": {
+          "ko": "11월 5일 서버 시간 12:00부터 다음 버전 점검 전까지 6성 명하의 획득 확률이 상승합니다. 7일 출석으로 전용 허가증 5장을 받으며, 체험 이벤트도 함께 열립니다. 아시아는 UTC+8, 미주·유럽은 UTC-5입니다.",
+          "en": "Argent Flow has an increased 6-star drop rate from November 5 at 12:00 server time until the next version maintenance. Seven login days award five event permits, alongside an operator trial. Asia uses UTC+8; Americas/Europe use UTC-5.",
+          "ja": "11月5日12:00（サーバー時間）から次バージョンのメンテナンス前まで、★6ミンホの提供割合が上昇。累計7日ログインで専用スカウト券5枚を獲得でき、体験イベントも開催。AsiaはUTC+8、Americas/EuropeはUTC-5。",
+          "zh": "11月5日12:00（伺服器時間）起至下次版本維護前，6星明河獲得機率提升。累計登入7天可獲5張專用尋訪憑證，並開放幹員試用。Asia為UTC+8，美洲／歐洲為UTC-5。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/7012",
+          "en": "https://endfield.gryphline.com/en-us/news/7012",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/7012",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/7012"
+        },
+        "verifiedAt": "2026-11-04T12:17:07Z",
+        "image": "https://web-static.hg-cdn.com/upload/image/20261030/226e79d4b4da047a1eae0984ad2319ee.jpg",
+        "imageSource": "https://endfield.gryphline.com/ko-kr/news/7012",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "공식 픽업 공지 배너",
+          "en": "Official pickup announcement banner",
+          "ja": "公式ピックアップ告知バナー",
+          "zh": "官方招募公告橫幅"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261030/226e79d4b4da047a1eae0984ad2319ee.jpg",
+            "imageSource": "https://endfield.gryphline.com/ko-kr/news/7012",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "공식 픽업 공지 배너",
+              "en": "Official pickup announcement banner",
+              "ja": "公式ピックアップ告知バナー",
+              "zh": "官方招募公告橫幅"
+            }
+          },
+          "en": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261030/467bbe01a6b6b78719677a59ead1b2b5.jpg",
+            "imageSource": "https://endfield.gryphline.com/en-us/news/7012",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "공식 픽업 공지 배너",
+              "en": "Official pickup announcement banner",
+              "ja": "公式ピックアップ告知バナー",
+              "zh": "官方招募公告橫幅"
+            }
+          },
+          "ja": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261030/c6fa07d427baedcdd24ac4c3293da2a1.jpg",
+            "imageSource": "https://endfield.gryphline.com/ja-jp/news/7012",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "공식 픽업 공지 배너",
+              "en": "Official pickup announcement banner",
+              "ja": "公式ピックアップ告知バナー",
+              "zh": "官方招募公告橫幅"
+            }
+          },
+          "zh": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261030/483bfc18cd2aee4f9023a449bf66e971.jpg",
+            "imageSource": "https://endfield.gryphline.com/zh-tw/news/7012",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "공식 픽업 공지 배너",
+              "en": "Official pickup announcement banner",
+              "ja": "公式ピックアップ告知バナー",
+              "zh": "官方招募公告橫幅"
+            }
+          }
+        },
+        "detailSections": [
+          {
+            "title": {
+              "ko": "모집 보상과 규칙",
+              "en": "Recruitment rewards and rules",
+              "ja": "募集報酬とルール",
+              "zh": "招募獎勵與規則"
+            },
+            "body": {
+              "ko": "누적 30회 헤드헌팅 보상인 무료 10연속 긴급 모집은 천장과 보상 누적 횟수에 포함되지 않으며 다른 헤드헌팅으로 이월되지 않습니다. 누적 60회 보상 정보서는 다음 특별 허가 헤드헌팅의 전용 허가증 10장으로 전환됩니다.",
+              "en": "The free ten-pull awarded after 30 attempts does not count toward guarantees or cumulative reward totals and does not carry over. The dossier awarded after 60 attempts becomes ten permits for the next Chartered Headhunting banner.",
+              "ja": "累計30回の報酬である無料10回の緊急招集は、確定スカウト・報酬の累計回数に加算されず、持ち越せません。累計60回の情報ファイルは次回の特別スカウト専用券10枚に変換されます。",
+              "zh": "累計30次贈送的免費10連緊急招募不計入保底或累計獎勵次數，也不會繼承。累計60次獲得的情報文件將轉換為下期特許尋訪專用憑證10張。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://endfield.gryphline.com/ko-kr/news/7012",
+              "https://endfield.gryphline.com/en-us/news/7012",
+              "https://endfield.gryphline.com/ja-jp/news/7012",
+              "https://endfield.gryphline.com/zh-tw/news/7012"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "「은하수를 부르는 불꽃」특별 허가 헤드헌팅",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "「은하수를 부르는 불꽃」특별 허가 헤드헌팅 | 명일방주: 엔드필드 홈으로 오퍼레이터 정보 세계관 영상 자료 버전 달력 콘텐츠 소개 & 통합 공업 지식 공지 계정 충전 센터 크리에이터 게임으로 이동 게임으로 이동 게임으로 이동 로그인 크리에이터 홈으로 오퍼레이터 정보 세계관 영상 자료 버전 달력 콘텐츠 소개 통합 공업 지식 공지 ENDFIELD 공지 2026.11.04 18:00 안녕하세요, 관리자님! 「은하수를 부르는 불꽃」 특별 허가 헤드헌팅 기간, 6성 오퍼레이터 [명하]의 획득 확률이 증가합니다! 또한 「은하수와 함께」 기간 한정 출석 체크 이벤트가 함께 개방됩",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/7012"
+        },
+        "verifiedAt": "2026-11-04T10:13:09.790Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailSections": null
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/7012",
+        "https://endfield.gryphline.com/en-us/news/7012",
+        "https://endfield.gryphline.com/ja-jp/news/7012",
+        "https://endfield.gryphline.com/zh-tw/news/7012"
+      ]
+    },
+    {
+      "id": "endfield-argent-flow",
+      "set": {
+        "summary": {
+          "ko": "11월 5일 서버 시간 12:00부터 다음 버전 점검 전까지 6성 명하의 획득 확률이 상승합니다. 7일 출석으로 전용 허가증 5장을 받으며, 체험 이벤트도 함께 열립니다. 아시아는 UTC+8, 미주·유럽은 UTC-5입니다.",
+          "en": "Argent Flow has an increased 6-star drop rate from November 5 at 12:00 server time until the next version maintenance. Seven login days award five event permits, alongside an operator trial. Asia uses UTC+8; Americas/Europe use UTC-5.",
+          "ja": "11月5日12:00（サーバー時間）から次バージョンのメンテナンス前まで、★6ミンホの提供割合が上昇。累計7日ログインで専用スカウト券5枚を獲得でき、体験イベントも開催。AsiaはUTC+8、Americas/EuropeはUTC-5。",
+          "zh": "11月5日12:00（伺服器時間）起至下次版本維護前，6星明河獲得機率提升。累計登入7天可獲5張專用尋訪憑證，並開放幹員試用。Asia為UTC+8，美洲／歐洲為UTC-5。"
+        },
+        "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/7012",
+        "sourceTitle": "「은하수를 부르는 불꽃」특별 허가 헤드헌팅",
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/7012",
+          "en": "https://endfield.gryphline.com/en-us/news/7012",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/7012",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/7012"
+        },
+        "verifiedAt": "2026-11-04T12:17:07Z"
+      },
+      "before": {
+        "summary": {
+          "ko": "다음 6성 오퍼레이터 픽업.",
+          "en": "Upcoming featured 6-star operator.",
+          "ja": "次回の星6オペレーターピックアップ。",
+          "zh": "即将开启的六星干员寻访。"
+        },
+        "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/9560",
+        "sourceTitle": "「단청도」 버전 업데이트 설명",
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+          "en": "https://endfield.gryphline.com/en-us/news/9560",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+        },
+        "verifiedAt": "2026-10-16T22:11:28.845130+00:00"
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/7012",
+        "https://endfield.gryphline.com/en-us/news/7012",
+        "https://endfield.gryphline.com/ja-jp/news/7012",
+        "https://endfield.gryphline.com/zh-tw/news/7012"
+      ]
+    },
+    {
+      "id": "quick-endfield-global-6178",
+      "set": {
+        "title": {
+          "ko": "「월영 신청」 기간 한정 판매 설명",
+          "en": "[Moongleam Issue] LTO Details",
+          "ja": "「月映・申請」期間限定ピックアップについて",
+          "zh": "「月映申領」限時特賣說明"
+        },
+        "summary": {
+          "ko": "11월 5일 서버 시간 12:00부터 6성 한손검 환월의 획득 확률이 상승합니다. 「은하수를 부르는 불꽃」부터 특별 허가 헤드헌팅 3회가 끝나면 종료하며, 정확한 종료일은 공지되지 않았습니다. 신청 1회로 무기 10개를 얻고 5성 이상이 보장됩니다.",
+          "en": "Lunar Calling, a 6-star sword, receives a rate-up from November 5 at 12:00 server time. The issue ends after three Chartered Headhunting banners counting from The Hearth Fire Beckons the Starry Flow; no exact end date is given. Each issue grants ten weapons, including at least one 5-star or higher.",
+          "ja": "11月5日12:00（サーバー時間）から★6片手剣「問月」の確率が上昇。「人煙の牽く天河」から数えて特別スカウト3回後に終了し、具体的な終了日は未発表。1回の申請で武器10個を獲得し、★5以上が確定。",
+          "zh": "11月5日12:00（伺服器時間）起，6星單手劍「喚月」獲得機率提升。從「煙火邀星河」起計算，於3次特許尋訪後結束，尚未公布確切結束日期。每次申領獲10件武器，必含5星或以上武器。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/6178",
+          "en": "https://endfield.gryphline.com/en-us/news/6178",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/6178",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/6178"
+        },
+        "verifiedAt": "2026-11-04T12:17:07Z",
+        "image": "https://web-static.hg-cdn.com/upload/image/20261103/b7f56ca0e5f4ce74c8c0f5b009aeed5e.png",
+        "imageSource": "https://endfield.gryphline.com/ko-kr/news/6178",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "공식 픽업 공지 배너",
+          "en": "Official pickup announcement banner",
+          "ja": "公式ピックアップ告知バナー",
+          "zh": "官方招募公告橫幅"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261103/b7f56ca0e5f4ce74c8c0f5b009aeed5e.png",
+            "imageSource": "https://endfield.gryphline.com/ko-kr/news/6178",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "공식 픽업 공지 배너",
+              "en": "Official pickup announcement banner",
+              "ja": "公式ピックアップ告知バナー",
+              "zh": "官方招募公告橫幅"
+            }
+          },
+          "en": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261103/4d486c712d74b1f68db730421238894f.png",
+            "imageSource": "https://endfield.gryphline.com/en-us/news/6178",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "공식 픽업 공지 배너",
+              "en": "Official pickup announcement banner",
+              "ja": "公式ピックアップ告知バナー",
+              "zh": "官方招募公告橫幅"
+            }
+          },
+          "ja": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261103/645c455bc86348632434c254a694a4bb.png",
+            "imageSource": "https://endfield.gryphline.com/ja-jp/news/6178",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "공식 픽업 공지 배너",
+              "en": "Official pickup announcement banner",
+              "ja": "公式ピックアップ告知バナー",
+              "zh": "官方招募公告橫幅"
+            }
+          },
+          "zh": {
+            "image": "https://web-static.hg-cdn.com/upload/image/20261103/4dc28067c8b083e6ee9ac258c5fba419.png",
+            "imageSource": "https://endfield.gryphline.com/zh-tw/news/6178",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1650,
+            "height": 300,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "공식 픽업 공지 배너",
+              "en": "Official pickup announcement banner",
+              "ja": "公式ピックアップ告知バナー",
+              "zh": "官方招募公告橫幅"
+            }
+          }
+        },
+        "detailSections": [
+          {
+            "title": {
+              "ko": "모집 보상과 규칙",
+              "en": "Recruitment rewards and rules",
+              "ja": "募集報酬とルール",
+              "zh": "招募獎勵與規則"
+            },
+            "body": {
+              "ko": "아시아 서버는 UTC+8, 미주·유럽 서버는 UTC-5를 사용합니다. 무기고 신청 보상 횟수는 해당 신청이 닫힐 때 초기화되며 다른 신청으로 이월되지 않습니다.",
+              "en": "Asia uses UTC+8 and Americas/Europe use UTC-5. The Arsenal Issue reward counter resets when this issue closes and does not carry over to other issues.",
+              "ja": "AsiaはUTC+8、Americas/EuropeはUTC-5。武庫申請の報酬カウントは当該申請の終了時にリセットされ、他の申請に引き継がれません。",
+              "zh": "Asia伺服器為UTC+8，美洲／歐洲為UTC-5。武庫申領獎勵計數在本期關閉時歸零，不繼承至其他申領。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://endfield.gryphline.com/ko-kr/news/6178",
+              "https://endfield.gryphline.com/en-us/news/6178",
+              "https://endfield.gryphline.com/ja-jp/news/6178",
+              "https://endfield.gryphline.com/zh-tw/news/6178"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "「월영 신청」 기간 한정 판매 설명",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "「월영 신청」 기간 한정 판매 설명 | 명일방주: 엔드필드 홈으로 오퍼레이터 정보 세계관 영상 자료 버전 달력 콘텐츠 소개 & 통합 공업 지식 공지 계정 충전 센터 크리에이터 게임으로 이동 게임으로 이동 게임으로 이동 로그인 크리에이터 홈으로 오퍼레이터 정보 세계관 영상 자료 버전 달력 콘텐츠 소개 통합 공업 지식 공지 ENDFIELD 공지 2026.11.04 18:30 안녕하세요, 관리자님! 「월영 신청」 개방 기간 동안 6성 무기 [환월(한손검)]의 획득 확률이 증가합니다! ▼//「월영 신청」 · 개방 시간: 2026/11/05 12:00(서버 시간) 개방, 「특",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/6178"
+        },
+        "verifiedAt": "2026-11-04T10:39:37.690Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailSections": null
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/6178",
+        "https://endfield.gryphline.com/en-us/news/6178",
+        "https://endfield.gryphline.com/ja-jp/news/6178",
+        "https://endfield.gryphline.com/zh-tw/news/6178"
+      ]
+    },
+    {
+      "id": "endfield-lunar-calling",
+      "set": {
+        "summary": {
+          "ko": "11월 5일 서버 시간 12:00부터 6성 한손검 환월의 획득 확률이 상승합니다. 「은하수를 부르는 불꽃」부터 특별 허가 헤드헌팅 3회가 끝나면 종료하며, 정확한 종료일은 공지되지 않았습니다. 신청 1회로 무기 10개를 얻고 5성 이상이 보장됩니다.",
+          "en": "Lunar Calling, a 6-star sword, receives a rate-up from November 5 at 12:00 server time. The issue ends after three Chartered Headhunting banners counting from The Hearth Fire Beckons the Starry Flow; no exact end date is given. Each issue grants ten weapons, including at least one 5-star or higher.",
+          "ja": "11月5日12:00（サーバー時間）から★6片手剣「問月」の確率が上昇。「人煙の牽く天河」から数えて特別スカウト3回後に終了し、具体的な終了日は未発表。1回の申請で武器10個を獲得し、★5以上が確定。",
+          "zh": "11月5日12:00（伺服器時間）起，6星單手劍「喚月」獲得機率提升。從「煙火邀星河」起計算，於3次特許尋訪後結束，尚未公布確切結束日期。每次申領獲10件武器，必含5星或以上武器。"
+        },
+        "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/6178",
+        "sourceTitle": "「월영 신청」 기간 한정 판매 설명",
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/6178",
+          "en": "https://endfield.gryphline.com/en-us/news/6178",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/6178",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/6178"
+        },
+        "verifiedAt": "2026-11-04T12:17:07Z"
+      },
+      "before": {
+        "summary": {
+          "ko": "신규 6성 한손검 확률 상승. 종료는 특별 허가 헤드헌팅 3회 기준.",
+          "en": "New rate-up 6-star sword; ends after three relevant Chartered Headhunting banners.",
+          "ja": "新★6片手剣の確率アップ。対象の特別スカウト3回後に終了。",
+          "zh": "新6星單手劍機率提升；於對應特許尋訪三期後結束。"
+        },
+        "sourceUrl": "https://endfield.gryphline.com/ko-kr/news/9560",
+        "sourceTitle": "「단청도」 버전 업데이트 설명",
+        "localizationSources": {
+          "ko": "https://endfield.gryphline.com/ko-kr/news/9560",
+          "en": "https://endfield.gryphline.com/en-us/news/9560",
+          "ja": "https://endfield.gryphline.com/ja-jp/news/9560",
+          "zh": "https://endfield.gryphline.com/zh-tw/news/9560"
+        },
+        "verifiedAt": "2026-10-16T13:44:01.049875+00:00"
+      },
+      "sources": [
+        "https://endfield.gryphline.com/ko-kr/news/6178",
+        "https://endfield.gryphline.com/en-us/news/6178",
+        "https://endfield.gryphline.com/ja-jp/news/6178",
+        "https://endfield.gryphline.com/zh-tw/news/6178"
+      ]
+    },
+    {
+      "id": "quick-reverse1999-cn-104",
+      "set": {
+        "title": {
+          "ko": "4.1 「아틀란티스 살인 사건」 업데이트 점검 안내 (번역)",
+          "en": "Version 4.1 Atlantis Murder Case maintenance notice (translation)",
+          "ja": "4.1「アトランティス殺人事件」アップデートメンテナンス告知（翻訳）",
+          "zh": "4.1「亚特兰蒂斯谋杀案」版本更新维护公告"
+        },
+        "summary": {
+          "ko": "중국 서비스는 11월 5일 4.1 업데이트 점검을 진행합니다. 신규 6성 「佩施塔」·「伊芙琳」, 버전 이벤트와 영국도서관 협업 이벤트를 추가합니다. 점검 보상은 순우의 빗방울 240개와 사탕통 1개이며, 문제 수정 보상 180개가 별도로 지급됩니다. 고유명은 중국 원문을 유지했습니다.",
+          "en": "The Chinese service schedules Version 4.1 maintenance for November 5, adding 6-star characters 佩施塔 and 伊芙琳, version events and a British Library collaboration. Maintenance compensation is 240 Clear Drops and one candy jar, with another 180 Clear Drops for fixes. Character names retain the Chinese originals.",
+          "ja": "中国サービスは11月5日に4.1アップデートのメンテナンスを実施予定。新★6「佩施塔」「伊芙琳」、バージョンイベントと大英図書館コラボを追加。メンテナンス補償は雨の雫240個とキャンディ瓶1個、不具合修正補償は別途180個。固有名は中国語原文を使用。",
+          "zh": "中國服預定11月5日進行4.1更新維護，新增6星「佩施塔」「伊芙琳」、版本活動及大英圖書館聯動。停服補償為純雨滴240與苦目糖罐1，問題修復另補償純雨滴180；補償適用於維護前已註冊並建立角色的玩家。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "verifiedAt": "2026-11-04T12:17:07Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "4.1「亚特兰蒂斯谋杀案」版本更新维护公告"
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "亲爱的司辰： 《重返未来：1999》计划将于11月5日上午6点进行停服更新维护，届时所有游戏服务器将无法登录，请司辰合理安排游戏时间。维护完成后，请司辰重启游戏客户端获取更新内容。 【维护时间】 2026/11/5 6:00 - 2026/11/5 10:00 ※更新时间可能会根据实际情况进行调整，请关注官方公告。 【维护补偿】 停服维护补偿：纯雨滴×240，苦目糖罐×1 ※补偿范围：2026年11月5日上午6点更新前所有注册并创建角色的玩家。 ※补偿邮件生效至4.1版本结束前，邮件有效期为7天。 维护问题修复补偿：纯雨滴×180 ※补偿范围：2026年11月5日上午6点更新前所有注册并创建角色的玩家。 ※补偿邮件生效至4.1版本结"
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-04T10:07:48.759Z"
+      },
+      "sources": [
+        "https://re.bluepoch.com/home/detail.html#newsId?104"
+      ]
+    },
+    {
+      "id": "quick-trickcal-kr-8409500",
+      "set": {
+        "title": {
+          "ko": "[업데이트] 11월 5일(목) 업데이트 예정 내역 안내(수정)",
+          "en": "November 5 update preview (revised; translation)",
+          "ja": "11月5日アップデート予定内容（修正・翻訳）",
+          "zh": "11月5日預定更新內容（修訂・翻譯）"
+        },
+        "summary": {
+          "ko": "11월 5일 점검 후 두두 테마극장·픽업과 새 PvP 시즌이 열립니다. PvP의 엘다인 편성 제한이 없어지고 고학년 스킬을 사용할 수 있습니다. 펫 심부름 편성은 3마리에서 5마리로 늘며 SS 보상 등급과 일괄 보내기가 추가됩니다.",
+          "en": "The Korean service adds Dudu’s themed event and pickup plus a new PvP season after November 5 maintenance. PvP removes the Eldyne team limit and enables senior skills. Pet Errands expands from three to five pets, adds SS rewards and batch dispatch.",
+          "ja": "韓国サービスでは11月5日のメンテナンス後にドゥドゥのテーマイベント・募集と新PvPシーズンが開放。PvPのエルダイン編成制限を撤廃し高学年スキルに対応。ペットのお使いは3体から5体に拡張し、SS報酬と一括派遣を追加。",
+          "zh": "韓國服於11月5日維護後開放Dudu主題活動、招募及新PvP賽季。PvP取消Eldyne編隊數量限制並開放高年級技能；寵物跑腿編制由3隻增至5隻，新增SS獎勵與一鍵派遣。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T12:17:07Z",
+        "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfMTc0/MDAxNzkzNzc2OTkzNTI5.LKfSu8-MfQkSNTyEYul4cbiLBZcGjzQjKIYIhY1WXtIg.Pmkv6jYR2HSosmrYgznErHTVLWrbg768U40OS8zgCMEg.PNG/1.png",
+        "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8409500",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "펫 심부름 지역 · 공식 시험 환경 화면",
+          "en": "Pet Errands area · official test-environment screenshot",
+          "ja": "ペットのお使いエリア・公式テスト環境画面",
+          "zh": "寵物跑腿區域・官方測試環境畫面"
+        },
+        "originalLanguageFallback": true,
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfMTc0/MDAxNzkzNzc2OTkzNTI5.LKfSu8-MfQkSNTyEYul4cbiLBZcGjzQjKIYIhY1WXtIg.Pmkv6jYR2HSosmrYgznErHTVLWrbg768U40OS8zgCMEg.PNG/1.png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8409500",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1265,
+            "height": 708,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "펫 심부름 지역 · 공식 시험 환경 화면",
+              "en": "Pet Errands area · official test-environment screenshot",
+              "ja": "ペットのお使いエリア・公式テスト環境画面",
+              "zh": "寵物跑腿區域・官方測試環境畫面"
+            }
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfMTAy/MDAxNzkzNzc5MjY2NTEy.OlkJGx5yJGTBBbS9bPed8KsmT3xVwyBbbQ5lVNTT0SIg.2-AT72-PAHbB5aRhzKu-BMXD0_kMJo1kA5T8LZ34UUwg.PNG/2.png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8409500",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1263,
+            "height": 708,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "두두 사도 면접 · 공식 시험 환경 화면",
+              "en": "Dudu Apostle Interview · official test-environment screenshot",
+              "ja": "ドゥドゥ使徒インタビュー・公式テスト環境画面",
+              "zh": "Dudu使徒訪談・官方測試環境畫面"
+            }
+          }
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "사전 안내 화면",
+              "en": "Preview screenshots",
+              "ja": "事前案内画面",
+              "zh": "預告畫面"
+            },
+            "body": {
+              "ko": "공식 공지의 화면은 시험 환경에서 촬영되어 실제 업데이트 적용 시 연출이 달라질 수 있습니다.",
+              "en": "The publisher captured these screens in a test environment; presentation may differ in the released update.",
+              "ja": "公式告知の画面はテスト環境で撮影され、実装時の演出と異なる場合があります。",
+              "zh": "官方公告畫面攝於測試環境，正式更新時的演出可能不同。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/Trickcal/board/detail/8409500"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[업데이트] 11월 5일(목) 업데이트 예정 내역 안내(수정)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요, 교주님들! 귀염뽀짝! 볼따구 라이프! 트릭컬 리바이브입니다. ​ 11월 5일(목) 정기점검을 통해 업데이트가 진행될 예정입니다. 업데이트에 대한 자세한 내용은 아래를 참고해 주시길 바랍니다. ​ ※ 실제 업데이트 완료 시까지 변경되는 내용이 있을 수 있습니다. ※ 일정이 변경될 경우 본 공지를 통해 안내드립니다. ※ 모든 이미지는 테스트 환경에서 촬영되었습니다. ※ 실 업데이트 적용 시 일부 연출이 상이할 수 있습니다. 사전 안내 · ◎ 11/05(목) 10:59 종료 예정 이벤트 목록 사전 안내 구분 · 목록 · 종료 일자 · 이벤트 · 테마극장<오",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-04T08:16:32.662Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "detailImages": null,
+        "detailSections": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/Trickcal/board/detail/8409500"
+      ]
+    },
+    {
+      "id": "quick-trickcal-kr-8409501",
+      "set": {
+        "title": {
+          "ko": "[업데이트] 주말 콘텐츠 「WWElias」 정규 시즌 오픈 안내",
+          "en": "WWElias weekend regular season notice (translation)",
+          "ja": "週末コンテンツ「WWElias」通常シーズン告知（翻訳）",
+          "zh": "週末內容「WWElias」正式賽季公告（翻譯）"
+        },
+        "summary": {
+          "ko": "한국 서비스 WWElias 정규 시즌은 11월 6~8일 진행되며, 순한맛 4-10 클리어 후 참여할 수 있습니다. 4개 라운드에서 승리할 팀을 응원하고 적중 횟수에 따른 보상을 얻습니다. 보상 수령은 11월 12일까지이며 공지의 마감 시각을 확인해야 합니다.",
+          "en": "The Korean WWElias season runs November 6–8 and unlocks after clearing Mild 4-10. Predict the winning team across four rounds to earn rewards based on successful picks. Rewards can be claimed until November 12; consult the notice for the cutoff time.",
+          "ja": "韓国サービスのWWEliasは11月6～8日に開催し、マイルド4-10クリアで参加可能。全4ラウンドで勝つチームを応援し、的中数に応じた報酬を獲得できます。受取は11月12日までで、締切時刻は告知をご確認ください。",
+          "zh": "韓國服WWElias賽季於11月6日至8日舉行，通關簡單4-10後可參加。共4輪勝負預測，依應援成功次數領獎。獎勵可領至11月12日，截止時間以公告為準。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T12:17:07Z",
+        "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfNjYg/MDAxNzkzNzc3MTY4MTI3.BZKNMD2rur-Xud49Q8trUk_OXYJBgNAFS5ldz0vcR-Ug.v9_Smjs_LfgZe2ZnuAxoU5e-uMd2IlC3fEVG0GsrCpAg.PNG/1_(17).png",
+        "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8409501",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "WWElias 공식 안내 이미지",
+          "en": "WWElias official announcement artwork",
+          "ja": "WWElias公式案内画像",
+          "zh": "WWElias官方公告圖片"
+        },
+        "originalLanguageFallback": true,
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfNjYg/MDAxNzkzNzc3MTY4MTI3.BZKNMD2rur-Xud49Q8trUk_OXYJBgNAFS5ldz0vcR-Ug.v9_Smjs_LfgZe2ZnuAxoU5e-uMd2IlC3fEVG0GsrCpAg.PNG/1_(17).png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8409501",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1600,
+            "height": 708,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "WWElias 공식 안내 이미지",
+              "en": "WWElias official announcement artwork",
+              "ja": "WWElias公式案内画像",
+              "zh": "WWElias官方公告圖片"
+            }
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfMjE3/MDAxNzkzNzc3MTgxODE5.wpbUqah0rLP33yxBbNxFRN-RrymYZVzWQDvoujm3utEg.Ire3S_Co_qes2XpAJlBqotTmqkXyz__Waj7cFb60_f0g.PNG/2_(1).png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8409501",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1299,
+            "height": 729,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "WWElias 경기 정보 · 공식 시험 환경 화면",
+              "en": "WWElias match information · official test-environment screenshot",
+              "ja": "WWElias試合情報・公式テスト環境画面",
+              "zh": "WWElias比賽資訊・官方測試環境畫面"
+            }
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfMTAw/MDAxNzkzNzc3MTk1ODI5.HDvB43lRkTafdAllbeV2P6FT73BCtQuJ3f87ESTHuCgg.ysh_hJGWJ6XtJG30-yRTgODcm7cMnFopoXNjVlwJd1Yg.PNG/1.png",
+            "imageSource": "https://game.naver.com/lounge/Trickcal/board/detail/8409501",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1299,
+            "height": 729,
+            "verifiedAt": "2026-11-04T12:17:07Z",
+            "imageCaption": {
+              "ko": "시온의 경기 브리핑 · 공식 시험 환경 화면",
+              "en": "Sion’s match briefing · official test-environment screenshot",
+              "ja": "シオンの試合紹介・公式テスト環境画面",
+              "zh": "Sion賽前簡報・官方測試環境畫面"
+            }
+          }
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "사전 안내 화면",
+              "en": "Preview screenshots",
+              "ja": "事前案内画面",
+              "zh": "預告畫面"
+            },
+            "body": {
+              "ko": "공식 공지의 화면은 시험 환경에서 촬영되어 실제 업데이트 적용 시 연출이 달라질 수 있습니다.",
+              "en": "The publisher captured these screens in a test environment; presentation may differ in the released update.",
+              "ja": "公式告知の画面はテスト環境で撮影され、実装時の演出と異なる場合があります。",
+              "zh": "官方公告畫面攝於測試環境，正式更新時的演出可能不同。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/Trickcal/board/detail/8409501"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[업데이트] 주말 콘텐츠 「WWElias」 정규 시즌 오픈 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요, 교주님들! 귀염뽀짝! 볼따구 라이프! 트릭컬 리바이브입니다. ​ 주말 콘텐츠 [WWElias] 정규 시즌이 시작됩니다. 경기에서 승리할 팀을 예측하고 보상을 획득해 보세요! ​ ※ 실제 업데이트 완료 시까지 변경되는 내용이 있을 수 있습니다. ※ 일정이 변경될 경우 본 공지를 통해 안내드립니다. ※ 모든 이미지는 테스트 환경에서 촬영되었습니다. ※ 실 업데이트 적용 시 일부 연출이 상이할 수 있습니다. ◈ 「WWElias」 정규 시즌 ◈ - 진행 조건 : 순한맛 4-10 클리어 시 활성화 - WWElias 정규 진행 기간 : 11/06(금) 12:00",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-04T08:08:22.608Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "detailImages": null,
+        "detailSections": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/Trickcal/board/detail/8409501"
+      ]
+    },
+    {
+      "id": "quick-trickcal-kr-8409486",
+      "set": {
+        "title": {
+          "ko": "[점검] 11월 5일(목) 정기점검 예정 안내",
+          "en": "November 5 scheduled maintenance notice (translation)",
+          "ja": "11月5日定期メンテナンス予定告知（翻訳）",
+          "zh": "11月5日定期維護預告（翻譯）"
+        },
+        "summary": {
+          "ko": "한국 서비스가 11월 5일 업데이트를 위한 정기점검을 예고했습니다. 공지 표기 시간은 11:00~16:00이며 점검 중에는 게임에 접속할 수 없습니다. 진행 상황에 따라 조기 종료하거나 연장될 수 있습니다.",
+          "en": "The Korean service announces maintenance for the November 5 update. The notice lists 11:00–16:00, during which the game is unavailable. Maintenance may finish early or be extended.",
+          "ja": "韓国サービスは11月5日の更新に伴う定期メンテナンスを予告。告知上の予定時間は11:00～16:00で、作業中はゲームを利用できません。進行状況により早期終了・延長する場合があります。",
+          "zh": "韓國服預告11月5日進行更新維護，公告所列時間為11:00至16:00，期間無法進入遊戲。維護可能依進度提前結束或延長。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T12:17:07Z"
+      },
+      "before": {
+        "title": {
+          "ko": "[점검] 11월 5일(목) 정기점검 예정 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요, 교주님들! 귀염뽀짝! 볼따구 라이프! 트릭컬 리바이브입니다. ​ 11월 5일(목) 업데이트 적용을 위한 정기점검이 진행될 예정이며, 아래 내용을 참고하여 게임 이용에 불편 없으시길 바랍니다. 📌 점검 일시 - 11월 5일(목) 11:00 ~ 16:00 ​ ※ 업데이트 상세 내용은 추후 별도 공지를 통해 안내될 예정입니다. ​ ▶ 주의사항 - 점검 시간 동안은 게임에 접속 및 이용하실 수 없습니다. - 점검 진행 상황에 따라 조기 종료 및 연장될 수 있으며, 변동 사항 발생 시 본 공지사항을 통해 안내해 드릴 예정입니다. - 점검 진행 상황에 따라 일",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-04T08:08:22.608Z"
+      },
+      "sources": [
+        "https://game.naver.com/lounge/Trickcal/board/detail/8409486"
+      ]
+    },
+    {
+      "id": "quick-trickcal-global-181793790591206304",
+      "set": {
+        "title": {
+          "ko": "11월 5일 국제·일본 서비스 이벤트 안내 (번역)",
+          "en": "11/05 Event Notice",
+          "ja": "11/05 イベントのお知らせ",
+          "zh": "11月5日國際／日本服務活動公告（翻譯）"
+        },
+        "summary": {
+          "ko": "국제·일본 서비스는 11월 5일 점검 후 신규 3성 포란 픽업과 테마극장을 엽니다. 11월 12일 04:00부터 비비와 로네 픽업이 각각 진행되며, 세 픽업 모두 11월 19일 10:59(UTC+9)에 종료됩니다.",
+          "en": "The international/Japanese service opens new 3-star Polan’s pickup and a themed event after November 5 maintenance. Separate Vivi and Rohne pickups begin November 12 at 04:00. All three pickups end November 19 at 10:59 (UTC+9).",
+          "ja": "11月5日のメンテナンス後、新★3ポランのピックアップとテーマ劇場を開放。11月12日04:00からヴィヴィ、ローネの個別ピックアップを開催。3つの募集はいずれも11月19日10:59（UTC+9）に終了。",
+          "zh": "國際／日本服務於11月5日維護後開放新3星Polan招募與主題活動。Vivi、Rohne的獨立招募於11月12日04:00開始，三個招募皆於11月19日10:59（UTC+9）結束。角色名沿用英文官方名稱。"
+        },
+        "officialLocales": [
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "ko",
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+          "en": "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181793790591206304"
+        },
+        "verifiedAt": "2026-11-04T12:17:07Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "11/05 イベントのお知らせ",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "教主様こんにちは！ ぷにゅんぷにゅ トロけて みんなとむにょんと トリッカル♪2026/11/05 11:00 (UTC+9)より、新規テーマ劇場「簒奪と逸脱の間」開放のためのメンテナンスを行います。 メンテナンスおよびアップデートの詳細は下記をご確認ください。 ---------------------------------------------- 一、テーマ劇場「簒奪と逸脱の間」 イベント期間：2026/11/05 メンテナンス後 - 2026/11/19 10:59 (UTC+9) 開放条件：ワールドマップ「微辛」2-2 をクリア イベント説明：イベント期間中にテーマ劇場「簒奪と逸脱の間」が開放されます。 イベントではイベ",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304"
+        },
+        "verifiedAt": "2026-11-04T11:17:50.215Z"
+      },
+      "sources": [
+        "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+        "https://trickcal.biligames.com/news/en/h5/?news_detail_id=181793790591206304"
+      ]
+    }
+  ]
+}
