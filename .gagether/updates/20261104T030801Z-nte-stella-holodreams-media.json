@@ -1,0 +1,543 @@
+{
+  "version": 1,
+  "requestId": "20261104T030801Z-nte-stella-holodreams-media",
+  "reason": "이환 캐릭터 공개와 스텔라 소라 한국 공식 이벤트·스킨·AGF 공지의 번역 및 원본 이미지 보완, 홀로라이브 드림스 기존 이벤트의 누락 번역 보완.",
+  "mode": "apply",
+  "researchedAt": "2026-11-04T03:08:01Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-nte-global-115072486",
+      "set": {
+        "title": {
+          "ko": "헤테로 파일 · 엘림",
+          "en": "Character file: 엘림 (Korean name)",
+          "ja": "キャラクターファイル「엘림」（韓国語名）",
+          "zh": "角色档案：엘림（韩文名）"
+        },
+        "summary": {
+          "ko": "엘림의 헤테로 파일과 공개 이미지 2종이 공개됐다. 1.5 버전 「지금 거신 번호는」은 11월 11일 출시 예정이다.",
+          "en": "The Korean announcement introduces the character named 엘림 and two promotional images. Version 1.5 is scheduled for November 11.",
+          "ja": "韓国公式告知で「엘림」のキャラクターファイルと画像2点を公開。バージョン1.5は11月11日公開予定。",
+          "zh": "韩国官方公开角色「엘림」的档案及两张宣传图。1.5版本预定于11月11日上线。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T03:08:01Z",
+        "image": "https://k.kakaocdn.net/dn/bAZc5b/dJMcajj4kg9/ChhzwgZhr8UbykT8d7pwT0/img_xl.jpg",
+        "imageSource": "https://pf.kakao.com/_uSxfcG/115072486",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "엘림 헤테로 파일 · 한국 공식 가로형 이미지",
+          "en": "Character file for 엘림 · official Korean landscape artwork",
+          "ja": "「엘림」キャラクターファイル・韓国公式横長画像",
+          "zh": "「엘림」角色档案 · 韩国官方横版图片"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://k.kakaocdn.net/dn/bAZc5b/dJMcajj4kg9/ChhzwgZhr8UbykT8d7pwT0/img_xl.jpg",
+            "imageSource": "https://pf.kakao.com/_uSxfcG/115072486",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "엘림 헤테로 파일 · 한국 공식 가로형 이미지",
+              "en": "Character file for 엘림 · official Korean landscape artwork",
+              "ja": "「엘림」キャラクターファイル・韓国公式横長画像",
+              "zh": "「엘림」角色档案 · 韩国官方横版图片"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://k.kakaocdn.net/dn/bAZc5b/dJMcajj4kg9/ChhzwgZhr8UbykT8d7pwT0/img_xl.jpg",
+            "imageSource": "https://pf.kakao.com/_uSxfcG/115072486",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "엘림 헤테로 파일 · 한국 공식 가로형 이미지",
+              "en": "Character file for 엘림 · official Korean landscape artwork",
+              "ja": "「엘림」キャラクターファイル・韓国公式横長画像",
+              "zh": "「엘림」角色档案 · 韩国官方横版图片"
+            },
+            "originalLanguageFallback": true
+          },
+          {
+            "image": "https://k.kakaocdn.net/dn/R2GCU/dJMcacyn0cK/FUwWJcuS0LAZYkgx7IVuGK/img_xl.jpg",
+            "imageSource": "https://pf.kakao.com/_uSxfcG/115072486",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1280,
+            "height": 1280,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "엘림 헤테로 파일 · 한국 공식 정사각형 이미지",
+              "en": "Character file for 엘림 · official Korean square artwork",
+              "ja": "「엘림」キャラクターファイル・韓国公式正方形画像",
+              "zh": "「엘림」角色档案 · 韩国官方方形图片"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "sources": [
+        "https://pf.kakao.com/_uSxfcG/115072486"
+      ],
+      "before": {
+        "title": {
+          "ko": "헤테로 파일丨엘림 「아주아주 먼 곳, 신호가 닿지 않는 곳까지도 한 번에 전화가 연결될 것 같아~」 <이환> 1.5 버전 「지금 거신 번호는」 11월 11일 출시! 지금 바로 다운로드 >>",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "헤테로 파일丨엘림 「아주아주 먼 곳, 신호가 닿지 않는 곳까지도 한 번에 전화가 연결될 것 같아~」 <이환> 1.5 버전 「지금 거신 번호는」 11월 11일 출시! 지금 바로 다운로드 >> #이환 #NTE #엘림",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-04T02:08:12.213Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      }
+    },
+    {
+      "id": "quick-stellasora-global-8392288",
+      "set": {
+        "title": {
+          "ko": "할로윈 선물 캐치 캐치 이벤트",
+          "en": "Halloween Gift Catch event",
+          "ja": "ハロウィンプレゼント・キャッチイベント",
+          "zh": "万圣节接礼物活动"
+        },
+        "summary": {
+          "ko": "한국 공식 라운지에서 10월 31일~11월 7일 진행하는 캡처 이벤트. 떨어지는 선물을 받은 장면을 댓글로 공유하면 참여자 10명을 추첨해 각각 별의 파편 900개를 지급한다.",
+          "en": "Korean official lounge screenshot event, October 31–November 7. Share a capture of a caught gift in the comments; ten randomly selected participants receive 900 Stellanite Dust each.",
+          "ja": "韓国公式ラウンジで10月31日～11月7日に開催。落ちてくるプレゼントを受け取った画面をコメントに投稿すると、抽選で10名に星ノ欠片900個ずつを配布。",
+          "zh": "韩国官方社区于10月31日至11月7日举办截图活动。将接到礼物的画面发到评论区，抽取10名参与者，每人赠送900个「별의 파편」。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T03:08:01Z",
+        "startDate": "2026-10-31",
+        "endDate": "2026-11-07",
+        "audienceRegions": [
+          "kr"
+        ],
+        "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfNTIg/MDAxNzkzMzQ5OTAxMjkw.9HfPwhE3-QJUL98y53pZJzH6ZhCJNxfEdQq8ABzKkhUg.133j0vNJKUnP2MDesByBS2bbvWwH0bsWQASx91DXN_Ig.GIF/KR.gif",
+        "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8392288",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "할로윈 선물 캐치 캐치 · 공식 참여용 GIF",
+          "en": "Halloween Gift Catch · official event GIF",
+          "ja": "ハロウィンプレゼント・キャッチ・公式参加用GIF",
+          "zh": "万圣节接礼物 · 官方活动GIF"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfNTIg/MDAxNzkzMzQ5OTAxMjkw.9HfPwhE3-QJUL98y53pZJzH6ZhCJNxfEdQq8ABzKkhUg.133j0vNJKUnP2MDesByBS2bbvWwH0bsWQASx91DXN_Ig.GIF/KR.gif",
+            "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8392288",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 810,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "할로윈 선물 캐치 캐치 · 공식 참여용 GIF",
+              "en": "Halloween Gift Catch · official event GIF",
+              "ja": "ハロウィンプレゼント・キャッチ・公式参加用GIF",
+              "zh": "万圣节接礼物 · 官方活动GIF"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfNTIg/MDAxNzkzMzQ5OTAxMjkw.9HfPwhE3-QJUL98y53pZJzH6ZhCJNxfEdQq8ABzKkhUg.133j0vNJKUnP2MDesByBS2bbvWwH0bsWQASx91DXN_Ig.GIF/KR.gif",
+            "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8392288",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 810,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "할로윈 선물 캐치 캐치 · 공식 참여용 GIF",
+              "en": "Halloween Gift Catch · official event GIF",
+              "ja": "ハロウィンプレゼント・キャッチ・公式参加用GIF",
+              "zh": "万圣节接礼物 · 官方活动GIF"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "sources": [
+        "https://game.naver.com/lounge/stellasora/board/detail/8392288"
+      ],
+      "before": {
+        "title": {
+          "ko": "🎃'할로윈 선물 캐치 캐치' 이벤트",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 마왕님, 어서 하늘을 보세요! 하늘에서 무언가가 쏟아지고 있어요! ​ 저건 설마... 사탕인가요? 🍬 호박 바구니로 떨어지는 선물을 받아 보세요! 🎁 마왕님은 어떤 선물을 받으셨나요? ​ ⭐ 참여 방법 이미지를 캡처해 댓글로 공유해 주세요! ​ ⭐ 이벤트 보상 이벤트에 참여해 주신 마왕님 중 「10명」을 추첨하여 [별의 파편] *900을 드립니다! ​ ⏰ 이벤트 기간 2026/10/31 ~ 2026/11/07 23:59까지 ​ ⭐ 이벤트 유의사항 1. 본 이벤트 당첨자는 무작위 추첨으로 선정되며, 참가자 1인당 1회의 당첨 기회만 주어집니다. 2. 당첨자 명단",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-10-31T12:58:43.434Z",
+        "startDate": null,
+        "endDate": null,
+        "audienceRegions": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      }
+    },
+    {
+      "id": "quick-stellasora-global-8392111",
+      "set": {
+        "title": {
+          "ko": "사탕 주면 안 잡아먹지 이벤트",
+          "en": "Give Me Candy event",
+          "ja": "お菓子をくれたら食べないよイベント",
+          "zh": "给糖就不吃你活动"
+        },
+        "summary": {
+          "ko": "한국 공식 라운지에서 10월 31일~11월 7일 진행하는 여행가 맞히기 이벤트. 정답이라고 생각하는 여행가를 캡처해 댓글에 답과 함께 올리면 참여자 10명을 추첨해 각각 별의 파편 900개를 지급한다.",
+          "en": "Korean official lounge guessing event, October 31–November 7. Post a screenshot of the Trekker you think is the answer with your guess; ten randomly selected participants receive 900 Stellanite Dust each.",
+          "ja": "韓国公式ラウンジで10月31日～11月7日に開催するキャラクター当てイベント。正解だと思う旅人の画像と答えをコメントに投稿すると、抽選で10名に星ノ欠片900個ずつを配布。",
+          "zh": "韩国官方社区于10月31日至11月7日举办角色竞猜。截取你认为是正确答案的角色画面并在评论区附上答案，抽取10名参与者，每人赠送900个「별의 파편」。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T03:08:01Z",
+        "startDate": "2026-10-31",
+        "endDate": "2026-11-07",
+        "audienceRegions": [
+          "kr"
+        ]
+      },
+      "sources": [
+        "https://game.naver.com/lounge/stellasora/board/detail/8392111"
+      ],
+      "before": {
+        "title": {
+          "ko": "🎃'사탕 주면 안 잡아먹지'👻 이벤트",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ ​ 마똑똑—— 노크 소리에 조심스레 현관문 렌즈를 들여다보는데... 문밖에 누군가 서 있는 것 같은데요. 마왕님, 과연 문밖에서 기다리고 있는 여행가는 누구일까요? ​ 📸 정답이라고 생각하는 여행가가 나타난 순간을 캡처하고, 댓글로 마왕님의 정답을 알려 주세요! ​ 🌟 「스텔라 소라」 &#x27;사탕 주면 안 잡아먹지&#x27; 이벤트🌟 ​ ⭐ 참여 방법 정답이라고 생각하는 여행가의 모습을 캡처해 본 게시글의 댓글에 올려 주세요❤️ ​ ⭐ 이벤트 보상 이벤트에 참여해 주신 마왕님 중 「10명」을 추첨하여 [별의 파편] *900을 드립니다! ​ ⭐ 이벤트 기간",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-10-31T11:04:02.896Z",
+        "startDate": null,
+        "endDate": null,
+        "audienceRegions": null
+      }
+    },
+    {
+      "id": "quick-stellasora-global-8390780",
+      "set": {
+        "title": {
+          "ko": "치토세 신규 스킨 · 창업 지원 패스 특별 보상",
+          "en": "New Chitose skin · pass special reward",
+          "ja": "チトセ新スキン・パス特別報酬",
+          "zh": "「치토세」新皮肤 · 通行证特别奖励"
+        },
+        "summary": {
+          "ko": "「창업 지원 패스」의 「럭셔리 지원금」 구매 특별 보상으로 치토세 전용 스킨을 획득할 수 있다. 한국 공지의 판매 기간은 11월 1일~30일이며, 스킨은 2D 스탠딩 일러스트에만 적용된다.",
+          "en": "The Korean announcement offers a Chitose skin as a special reward for purchasing the premium tier named 「럭셔리 지원금」 in 「창업 지원 패스」. Sales run November 1–30. The skin changes only the 2D standing illustration.",
+          "ja": "韓国告知の「창업 지원 패스」で「럭셔리 지원금」を購入すると、特別報酬としてチトセ専用スキンを獲得できる。販売期間は11月1日～30日。変更されるのは2D立ち絵のみ。",
+          "zh": "韩国公告介绍：购买「창업 지원 패스」中的「럭셔리 지원금」，可获得角色「치토세」专属皮肤。销售日期为11月1日至30日，仅更换2D立绘。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T03:08:01Z",
+        "startDate": "2026-11-01",
+        "endDate": "2026-11-30",
+        "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfMjY3/MDAxNzkzMzQwNzg4NjI3.ihafZcgUyCD0cbz4-6vV4GNJq9Lhq0SznLWdiIkHbKUg.aUBgNjjXdEL0h8HS-Oa-JQEhU6UCv6d6SszcBWmiqp4g.JPEG/BP%E7%9A%AE%E8%82%A4.jpg",
+        "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8390780",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "치토세 신규 스킨 · 한국 공식 안내 이미지",
+          "en": "Chitose skin · official Korean announcement artwork",
+          "ja": "チトセ新スキン・韓国公式告知画像",
+          "zh": "「치토세」新皮肤 · 韩国官方公告图"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfMjY3/MDAxNzkzMzQwNzg4NjI3.ihafZcgUyCD0cbz4-6vV4GNJq9Lhq0SznLWdiIkHbKUg.aUBgNjjXdEL0h8HS-Oa-JQEhU6UCv6d6SszcBWmiqp4g.JPEG/BP%E7%9A%AE%E8%82%A4.jpg",
+            "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8390780",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "치토세 신규 스킨 · 한국 공식 안내 이미지",
+              "en": "Chitose skin · official Korean announcement artwork",
+              "ja": "チトセ新スキン・韓国公式告知画像",
+              "zh": "「치토세」新皮肤 · 韩国官方公告图"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfMjY3/MDAxNzkzMzQwNzg4NjI3.ihafZcgUyCD0cbz4-6vV4GNJq9Lhq0SznLWdiIkHbKUg.aUBgNjjXdEL0h8HS-Oa-JQEhU6UCv6d6SszcBWmiqp4g.JPEG/BP%E7%9A%AE%E8%82%A4.jpg",
+            "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8390780",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "치토세 신규 스킨 · 한국 공식 안내 이미지",
+              "en": "Chitose skin · official Korean announcement artwork",
+              "ja": "チトセ新スキン・韓国公式告知画像",
+              "zh": "「치토세」新皮肤 · 韩国官方公告图"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "sources": [
+        "https://game.naver.com/lounge/stellasora/board/detail/8390780"
+      ],
+      "before": {
+        "title": {
+          "ko": "[신규 스킨] '치토세는... 항상... 주공 곁에......'(치토세)",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 치토세의 소원은 단 하나. 주공이신 마왕님의 곁에 머무르는 것... ​ 「창업 지원 패스」에서 「럭셔리 지원금」을 구매하시면, 특별 보상으로 전용 스킨을 획득할 수 있습니다. ​ 🕓판매 기간: 2026/11/01 05:00 ~ 2026/11/30 04:59 ​ *본 스킨은 2D(스탠딩 일러스트)만 적용됩니다. *자세한 내용은 게임 내 &#x27;창업 지원 패스&#x27; 화면에서 확인해 주시기 바랍니다. ​ ​",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-10-31T04:06:53.585Z",
+        "startDate": null,
+        "endDate": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      }
+    },
+    {
+      "id": "quick-stellasora-global-8386917",
+      "set": {
+        "title": {
+          "ko": "스텔라 소라 × AGF 2026 참가 안내",
+          "en": "Stella Sora at AGF 2026",
+          "ja": "ステラソラ・AGF 2026出展案内",
+          "zh": "星塔旅人参加AGF 2026"
+        },
+        "summary": {
+          "ko": "스텔라 소라가 12월 4~6일 일산 킨텍스 제1전시장에서 열리는 AGF 2026에 참가한다. 부스 이벤트와 선물이 준비되며 세부 내용은 후속 공지로 안내된다.",
+          "en": "Stella Sora will attend AGF 2026 at KINTEX Exhibition Center 1 in Ilsan, December 4–6. Booth events and gifts are planned, with details to follow in later notices.",
+          "ja": "ステラソラは12月4日～6日、一山KINTEX第1展示場のAGF 2026に出展予定。ブースイベントやプレゼントを用意し、詳細は後日告知される。",
+          "zh": "星塔旅人将参加12月4日至6日在韩国一山KINTEX第一展厅举行的AGF 2026。展台活动和礼品的详细内容将于后续公告公布。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T03:08:01Z",
+        "startDate": "2026-12-04",
+        "endDate": "2026-12-06",
+        "audienceRegions": [
+          "kr"
+        ],
+        "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfMTcx/MDAxNzkzMzQwMDg3MDk0.H1_xqdgrgWcwuw3rLkNzhZlylbS9SKV7muCDnxl7HWYg.xVw9JsbqQ6j6aUdSPcO2a41Zcn8EPT_o8Gqyxw_FA0kg.JPEG/1920x1080.jpg",
+        "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8386917",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "스텔라 소라 × AGF 2026 · 공식 행사 이미지",
+          "en": "Stella Sora at AGF 2026 · official event artwork",
+          "ja": "ステラソラ・AGF 2026公式イベント画像",
+          "zh": "星塔旅人 × AGF 2026 · 官方活动图片"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfMTcx/MDAxNzkzMzQwMDg3MDk0.H1_xqdgrgWcwuw3rLkNzhZlylbS9SKV7muCDnxl7HWYg.xVw9JsbqQ6j6aUdSPcO2a41Zcn8EPT_o8Gqyxw_FA0kg.JPEG/1920x1080.jpg",
+            "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8386917",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "스텔라 소라 × AGF 2026 · 공식 행사 이미지",
+              "en": "Stella Sora at AGF 2026 · official event artwork",
+              "ja": "ステラソラ・AGF 2026公式イベント画像",
+              "zh": "星塔旅人 × AGF 2026 · 官方活动图片"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjEwMzBfMTcx/MDAxNzkzMzQwMDg3MDk0.H1_xqdgrgWcwuw3rLkNzhZlylbS9SKV7muCDnxl7HWYg.xVw9JsbqQ6j6aUdSPcO2a41Zcn8EPT_o8Gqyxw_FA0kg.JPEG/1920x1080.jpg",
+            "imageSource": "https://game.naver.com/lounge/stellasora/board/detail/8386917",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T03:08:01Z",
+            "imageCaption": {
+              "ko": "스텔라 소라 × AGF 2026 · 공식 행사 이미지",
+              "en": "Stella Sora at AGF 2026 · official event artwork",
+              "ja": "ステラソラ・AGF 2026公式イベント画像",
+              "zh": "星塔旅人 × AGF 2026 · 官方活动图片"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "sources": [
+        "https://game.naver.com/lounge/stellasora/board/detail/8386917"
+      ],
+      "before": {
+        "title": {
+          "ko": "[스텔라 소라 x AGF 2026] 참가 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요, 마왕님! ​ <스텔라 소라>가 대한민국 최대 애니메이션·게임 페스티벌 ‘AGF 2026’에 참가합니다!🎉 ​ 이번 행사를 통해 마왕님을 다시 만나 뵙고, 특별한 추억을 만들 수 있게 되어 무척 설레고 기대됩니다! ​ 이번 AGF 부스에서만 만나볼 수 있는 다양한 이벤트와 특별한 선물도 준비되어 있으니, 마왕님의 많은 관심과 방문 부탁드립니다! ​ ⏰ 일정: 2026. 12.4 (금) ~ 2026.12.6 (일) ​ 📍 장소: 일산 킨텍스 제1전시장 ​ ※ 관련 상세 안내는 후속 공지로 계속해서 안내 드릴 예정입니다. ​ 감사합니다. ​ ​",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-10-30T08:04:36.514Z",
+        "startDate": null,
+        "endDate": null,
+        "audienceRegions": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      }
+    },
+    {
+      "id": "holodreams-event-65016-89d33b8a",
+      "set": {
+        "title": {
+          "ko": "우리들의 Halloween Fever!",
+          "en": "Our Halloween Fever!",
+          "ja": "私たちのHalloween Fever！",
+          "zh": "我们的Halloween Fever！"
+        },
+        "summary": {
+          "ko": "10월 29일~11월 4일 포인트 랠리 이벤트. 리듬게임 라이브와 미니게임으로 이벤트 포인트·배지를 모아 한정 이벤트 메모리와 육성 재료를 교환할 수 있다. 할로윈 이야기와 신곡 6곡이 추가된다.",
+          "en": "Point Rally event running October 29–November 4. Play rhythm-game lives and minigames to earn event points and badges, then exchange badges for limited event memories and training materials. Includes a Halloween story and six new songs.",
+          "ja": "10月29日～11月4日のポイントラリーイベント。ライブやミニゲームでイベントPtとバッジを集め、限定イベントメモリーや育成素材と交換できる。ハロウィンのストーリーと楽曲6曲も追加。",
+          "zh": "10月29日至11月4日举行积分活动。游玩节奏演出和小游戏可收集活动积分与徽章，兑换限定活动回忆及培养材料，并推出万圣节剧情和6首新曲。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T03:08:01Z"
+      },
+      "sources": [
+        "https://gamewith.jp/gamedb/15524/articles/65016"
+      ],
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "私たちのHalloween Fever！",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "イベント開催期間 2026年10月29日（木）12:00～2026年11月4日（水）19:59 2026年10月29日（木）より、ゲーム内イベント「私たちのHalloween Fever！」を開催いたします。 本イベントは、リズムゲームのライブやミニゲームをプレイし、「イベントPt」と「イベントバッジ」を集める「ポイントラリーイベント」です。 集めたイベントバッジは、限定イベントメモリーやゲーム内で使用できる各種育成素材と交換可能です。楽曲をプレイするだけでもイベントに参加できるため、自分のペースに合わせてお楽しみいただけます。 今回のイベントには、以下の5名のタレントが登場いたします。 夏色まつり ベスティア・ゼータ ネリッサ・レ",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-10-30T03:16:46.434Z"
+      }
+    }
+  ]
+}
