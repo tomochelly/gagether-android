@@ -1,0 +1,560 @@
+{
+  "version": 1,
+  "requestId": "20261104T151608Z-arknights-nikke-genshin-notices",
+  "reason": "명일방주 한국·일본 11월 5일 업데이트 공지의 지역별 요약, NIKKE 일본 4주년 오프라인 행사 안내·원본 이미지, 원신 4개 언어 공개 스토리 자료를 보완합니다. 기존 원신 대표 이미지와 확인되지 않은 정확한 시각은 보존합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-04T15:16:08Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-arknights-kr-cafe-1249845",
+      "set": {
+        "title": {
+          "ko": "11/5 (목) 16:00~16:10 리소스 업데이트 안내",
+          "en": "November 5 resource update notice (Korean service; translation)",
+          "ja": "11月5日リソース更新のお知らせ（韓国サービス・翻訳）",
+          "zh": "11月5日資源更新公告（韓國服・翻譯）"
+        },
+        "summary": {
+          "ko": "한국 서비스는 11월 5일 16:00~16:10 리소스 업데이트를 예고했습니다. 서버 점검 없이 「중생의 여정」 이벤트 재개방을 준비하며, 일시적인 네트워크 불안정으로 전투·인앱 구매를 피하도록 안내했습니다. 업데이트 보상은 합성옥 200개입니다.",
+          "en": "The Korean service announces a November 5 resource update, listed as 16:00–16:10, without server maintenance. It prepares the Side Story rerun and advises avoiding battles and in-app purchases during possible network instability. Compensation is 200 Orundum.",
+          "ja": "韓国サービスは11月5日16:00～16:10のリソース更新を予告。サーバーメンテナンスを伴わず、サイドストーリーの復刻に対応します。通信が不安定になる可能性があり、戦闘やアプリ内購入を控えるよう案内。補償は合成玉200個です。",
+          "zh": "韓國服預告11月5日16:00至16:10進行不停服資源更新，準備Side Story復刻。期間網路可能不穩，官方建議避免戰鬥與應用程式內購買。更新補償為合成玉200。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "보상 수령 조건",
+              "en": "Compensation eligibility",
+              "ja": "補償の受取条件",
+              "zh": "補償領取條件"
+            },
+            "body": {
+              "ko": "11월 5일 16:10 리소스 업데이트 전까지 생성된 계정이 대상입니다. 보상은 업데이트 후 지급되며 수령 가능 기한은 3일입니다.",
+              "en": "Accounts created before the November 5 16:10 resource update qualify. Compensation is sent after the update and must be claimed within three days.",
+              "ja": "11月5日16:10のリソース更新前までに作成されたアカウントが対象。更新後に配布され、受取期限は3日間です。",
+              "zh": "適用於11月5日16:10資源更新前已建立的帳號。補償於更新後發送，須在3天內領取。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://cafe.naver.com/arknightskor/1249845"
+            ]
+          }
+        ],
+        "verifiedAt": "2026-11-04T15:16:08Z"
+      },
+      "before": {
+        "title": {
+          "ko": "11/5 (목) 16:00~16:10 리소스 업데이트 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요 박사님! ​ 11/5 (목), 16:00 ~ 16:10 기간 중 리소스 업데이트가 진행될 예정입니다. 완료 후 재접속 시 별도의 리소스 다운로드가 진행되니, 이용에 참고 부탁드립니다. ​ 이번 리소스 업데이트는 점검 없이 진행되며, 업데이트 시 약 10분간 약간의 네트워크 불안정 현상이 발생할 수 있으니, 16:00 ~ 16:10 기간 중 가급적 전투나 인앱 구매를 삼가주시길 권장 드립니다. 협조에 감사드립니다! ​ [주요 업데이트 사항] 1. SideStory [중생의 여정] 기간 한정 이벤트 재개방 ​ [보상 내역] 1. 업데이트 보상: 합성옥*20",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailSections": null,
+        "verifiedAt": "2026-11-04T03:06:42.053Z"
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249845"
+      ]
+    },
+    {
+      "id": "quick-arknights-jp-4998",
+      "set": {
+        "title": {
+          "ko": "11월 5일 데이터 업데이트 안내 (일본·번역)",
+          "en": "November 5 data update notice (Japanese service; translation)",
+          "ja": "データ更新のお知らせ",
+          "zh": "11月5日資料更新公告（日本服・翻譯）"
+        },
+        "summary": {
+          "ko": "일본 서비스는 11월 5일 16:00~16:10 데이터 업데이트를 예고했습니다. 「命ある者の旅」 복각 라이트판, 코디·인테리어 판매를 준비하고 상시 스카우트를 갱신합니다. 각 콘텐츠의 실제 개최 기간은 별도 공지를 따릅니다.",
+          "en": "The Japanese service schedules a data update for November 5, listed as 16:00–16:10. It prepares the rerun of 「命ある者の旅」 and outfit/furniture sales, and updates Standard Headhunting. Individual event dates are announced separately.",
+          "ja": "11月5日16:00～16:10にデータ更新を予定。「命ある者の旅」復刻ライト版、コーデ・インテリア販売の準備と常設スカウト更新を実施します。各イベントの開催日時は別途告知されます。",
+          "zh": "日本服預定11月5日16:00至16:10更新資料，準備「命ある者の旅」輕量復刻、時裝與家具販售，並更新常設招募。各活動的實際開放期間以另行公告為準。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T15:16:08Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "データ更新のお知らせ",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "いつも『アークナイツ』をプレイしていただき、ありがとうございます。 2026年11月5日（木）16:00 にて、データ更新を実施いたします。 ◆実施日時 2026年11月5日（木）16:00 ~ 16:10 ◆対応内容の詳細 ▼実装準備および更新内容 ・サイドストーリー「命ある者の旅」復刻ライト版の実装準備 ・コーデ、インテリアテーマの販売準備 ・常設スカウトの更新 ※ 各イベントの開催日時および詳細は、別途お知らせをご確認ください。 ◆注意事項 ・データ更新の開始時間前に、連携IDと連携コードを控えるなど、データ連携を予め行うようお願いいたします。 ・データ更新の開始時間前に、『アークナイツ』を終了するようお願いいたします。 ・デ",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-04T03:00:15.470Z"
+      },
+      "sources": [
+        "https://arknights.jp/news/4998"
+      ]
+    },
+    {
+      "id": "quick-nikke-jp-0e764cfda996ea430aabd76acacff8950e4c",
+      "set": {
+        "title": {
+          "ko": "NIKKE 4주년 아키하바라 오프라인 행사 안내 (번역)",
+          "en": "NIKKE 4th-anniversary Akihabara offline event (translation)",
+          "ja": "『勝利の女神：NIKKE』4周年記念オフラインイベント、11月7日・8日に秋葉原で開催！ ライブドローイングやコスプレイヤーが登場！限定グッズの抽選会も開催！",
+          "zh": "NIKKE四週年秋葉原線下活動公告（翻譯）"
+        },
+        "summary": {
+          "ko": "11월 7~8일 아키하바라 다이빌에서 NIKKE 4주년 행사를 개최합니다. 입장은 무료이며, 캐릭터 풍선·바닥 3D 아트·승리의 종 체험·스탬프 랠리를 진행합니다. 7일에는 라이브 드로잉이 열리며 한정 아크릴 스탠드 경품은 소진 시 종료됩니다.",
+          "en": "NIKKE’s fourth-anniversary event takes place November 7–8 at Akihabara Daibiru with free admission. Attractions include character balloons, floor 3D art, a Victory Bell experience and a stamp rally. Live drawing is scheduled for November 7; limited acrylic-stand prizes are available while supplies last.",
+          "ja": "11月7日・8日に秋葉原ダイビルで4周年記念イベントを開催。入場無料で、巨大バルーン、フロア3Dアート、「勝利の鐘」、スタンプラリーを楽しめます。7日にはライブドローイングを実施し、限定アクリルスタンドの景品はなくなり次第終了。",
+          "zh": "NIKKE四週年活動將於11月7日至8日在秋葉原Daibiru舉行，免費入場。內容包括角色氣球、地板3D藝術、勝利之鐘體驗與集章活動；7日安排現場繪畫，限量壓克力立牌獎品送完為止。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "audienceRegions": [
+          "jp"
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "행사 운영 안내",
+              "en": "Event hours and participation",
+              "ja": "開催時間と参加案内",
+              "zh": "活動時間與參與方式"
+            },
+            "body": {
+              "ko": "공지가 안내한 운영시간은 11월 7일과 8일 각각 10:00~19:00입니다. 라이브 드로잉은 7일 11:30부터 진행합니다. 현장에서 카드 수령 후 각 구역의 미션을 완료해 스탬프를 모으면 경품 추첨에 참여할 수 있습니다.",
+              "en": "The announcement lists opening hours of 10:00–19:00 on both November 7 and 8, with live drawing from 11:30 on November 7. Collect a stamp card at the venue and complete the area missions to enter the prize draw.",
+              "ja": "開催時間は11月7日・8日とも10:00～19:00。ライブドローイングは7日11:30から。会場でカードを受け取り、各エリアのミッションでスタンプを集めると景品抽選に参加できます。",
+              "zh": "公告列明11月7日與8日皆於10:00至19:00開放，現場繪畫自7日11:30開始。在會場領取集章卡並完成各區任務後，可參與抽獎。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://nikke-jp.com/newsdetail.html?content_id=0e764cfda996ea430aabd76acacff8950e4c"
+            ]
+          }
+        ],
+        "image": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_eb34be5121d3ced63a81a8b3db0fce1858d43ddd-1920x1080-ori_s_80_50_ori_q_80.png",
+        "imageSource": "https://nikke-jp.com/newsdetail.html?content_id=0e764cfda996ea430aabd76acacff8950e4c",
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "NIKKE 4주년 아키하바라 행사 공식 안내",
+          "en": "NIKKE 4th-anniversary Akihabara event · official announcement",
+          "ja": "NIKKE 4周年秋葉原イベント・公式案内",
+          "zh": "NIKKE四週年秋葉原活動・官方公告"
+        },
+        "originalLanguageFallback": true,
+        "detailImages": [
+          {
+            "image": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_eb34be5121d3ced63a81a8b3db0fce1858d43ddd-1920x1080-ori_s_80_50_ori_q_80.png",
+            "imageSource": "https://nikke-jp.com/newsdetail.html?content_id=0e764cfda996ea430aabd76acacff8950e4c",
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "NIKKE 4주년 아키하바라 행사 공식 안내",
+              "en": "NIKKE 4th-anniversary Akihabara event · official announcement",
+              "ja": "NIKKE 4周年秋葉原イベント・公式案内",
+              "zh": "NIKKE四週年秋葉原活動・官方公告"
+            }
+          },
+          {
+            "image": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_be4e751a470fbe4e34f957fe18621df6c3f48361-1749x2481-ori_s_80_50_ori_q_80.png",
+            "imageSource": "https://nikke-jp.com/newsdetail.html?content_id=0e764cfda996ea430aabd76acacff8950e4c",
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "width": 1749,
+            "height": 2481,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "아키하바라 다이빌 행사장 공식 지도",
+              "en": "Akihabara Daibiru event venue · official map",
+              "ja": "秋葉原ダイビル会場・公式マップ",
+              "zh": "秋葉原Daibiru會場・官方地圖"
+            }
+          },
+          {
+            "image": "https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_06df70bd95a952341e00d6407068115bebdd4711-1080x1815-ori_s_80_50_ori_q_80.jpeg",
+            "imageSource": "https://nikke-jp.com/newsdetail.html?content_id=0e764cfda996ea430aabd76acacff8950e4c",
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "width": 1080,
+            "height": 1815,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "4주년 스탬프 랠리 공식 참여 안내",
+              "en": "4th-anniversary stamp rally · official participation guide",
+              "ja": "4周年スタンプラリー・公式参加案内",
+              "zh": "四週年集章活動・官方參與指南"
+            }
+          }
+        ],
+        "verifiedAt": "2026-11-04T15:16:08Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "『勝利の女神：NIKKE』4周年記念オフラインイベント、11月7日・8日に秋葉原で開催！ ライブドローイングやコスプレイヤーが登場！限定グッズの抽選会も開催！",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "『勝利の女神：NIKKE』において、サービス開始4周年を記念したオフラインイベント「約束の地へ、全員集結！ IN 秋葉原」を、2026年11月7日（土）・8日（日）の2日間、秋葉原ダイビル・イベントスペースにて開催することをお知らせします。 4周年を迎えた『NIKKE』が、秋葉原に集結！会場には、思わず足を止めたくなる巨大なキャラクターバルーンや、迫力満点のフロア3Dアートが登場します。さらに、画家・moe notsuによるライブドローイング、コスプレイヤーや等身大着ぐるみの登場、指揮官自らが「勝利の鐘」を鳴らせる体験企画など、見て、参加して楽しめるコンテンツが勢ぞろいします。 会場内を巡ってスタンプを集めると、4周年限定アクリルス",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "startDate": null,
+        "endDate": null,
+        "audienceRegions": null,
+        "detailSections": null,
+        "image": null,
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": false,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "detailImages": null,
+        "verifiedAt": "2026-11-04T07:13:29.104Z"
+      },
+      "sources": [
+        "https://nikke-jp.com/newsdetail.html?content_id=0e764cfda996ea430aabd76acacff8950e4c"
+      ]
+    },
+    {
+      "id": "feed-genshin-167209",
+      "set": {
+        "summary": {
+          "ko": "「땅 신성화」 위기가 확산하자 7개국 대표가 스네즈나야에 모이는 스토리 소개입니다. 각국 대표와 게임 세계의 긴급 공지를 담은 공식 안내 이미지가 공개됐습니다.",
+          "en": "An official story introduction shows representatives of the seven nations gathering in Snezhnaya to confront the spreading Holy Soil crisis. The accompanying artwork introduces the delegates and presents emergency notices from within the game world.",
+          "ja": "「聖土化」の危機拡大を受け、七国代表がスネージナヤに集結する物語を紹介。各国代表の紹介と作中の緊急通知を掲載した公式画像が公開されました。",
+          "zh": "官方劇情介紹描繪「聖土化」危機擴散後，七國代表齊聚至冬。配套圖片介紹各國代表，並展示遊戲世界中的緊急通知。"
+        },
+        "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167209",
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageVerified": true,
+        "imageCaption": {
+          "ko": "7개국 대표 집결 · 공식 스토리 안내",
+          "en": "Representatives of seven nations · official story introduction",
+          "ja": "七国代表の集結・公式ストーリー案内",
+          "zh": "七國代表集結・官方劇情介紹"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/072ed87ffafb3f5d6029c8e2a1351ffc_3022019133253864813.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 집결 · 공식 스토리 안내",
+              "en": "Representatives of seven nations · official story introduction",
+              "ja": "七国代表の集結・公式ストーリー案内",
+              "zh": "七國代表集結・官方劇情介紹"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/9fbbe17f3faf2f2602d3362e75448248_2092352982076542819.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/en/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 집결 · 공식 스토리 안내",
+              "en": "Representatives of seven nations · official story introduction",
+              "ja": "七国代表の集結・公式ストーリー案内",
+              "zh": "七國代表集結・官方劇情介紹"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/5e25eba4c4278659fa2bb412f94c06c0_3345684640124688578.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ja/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 집결 · 공식 스토리 안내",
+              "en": "Representatives of seven nations · official story introduction",
+              "ja": "七国代表の集結・公式ストーリー案内",
+              "zh": "七國代表集結・官方劇情介紹"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/91d9f41d7f319e556fe746cdd7952ec1_1656827926920875267.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/zh-tw/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 집결 · 공식 스토리 안내",
+              "en": "Representatives of seven nations · official story introduction",
+              "ja": "七国代表の集結・公式ストーリー案内",
+              "zh": "七國代表集結・官方劇情介紹"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/072ed87ffafb3f5d6029c8e2a1351ffc_3022019133253864813.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 집결 · 공식 스토리 안내",
+              "en": "Representatives of seven nations · official story introduction",
+              "ja": "七国代表の集結・公式ストーリー案内",
+              "zh": "七國代表集結・官方劇情介紹"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/cd99a3c51f0ec8fcdbdb01405d32e8e6_7941240772971565038.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "width": 700,
+            "height": 1516,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 소개 · 공식 상세 이미지",
+              "en": "Representatives of seven nations · official detailed introduction",
+              "ja": "七国代表紹介・公式詳細画像",
+              "zh": "七國代表介紹・官方詳細圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/2876aabcfb6c4444316bb5e9a66f6674_1879340196935910891.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "width": 700,
+            "height": 856,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "「땅 신성화」 · 게임 속 긴급 공지 이미지",
+              "en": "Holy Soil · in-world emergency notice artwork",
+              "ja": "「聖土化」・作中の緊急通知画像",
+              "zh": "「聖土化」・遊戲世界中的緊急通知圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/9fbbe17f3faf2f2602d3362e75448248_2092352982076542819.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/en/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 집결 · 공식 스토리 안내",
+              "en": "Representatives of seven nations · official story introduction",
+              "ja": "七国代表の集結・公式ストーリー案内",
+              "zh": "七國代表集結・官方劇情介紹"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/b14e241c06cfd185120e85290902e631_2209696734006155617.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/en/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "width": 700,
+            "height": 1516,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 소개 · 공식 상세 이미지",
+              "en": "Representatives of seven nations · official detailed introduction",
+              "ja": "七国代表紹介・公式詳細画像",
+              "zh": "七國代表介紹・官方詳細圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/1488c0cb02686a7c222df9cefe0db4ba_7896204404612467408.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/en/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "imageVerified": true,
+            "width": 700,
+            "height": 856,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "「땅 신성화」 · 게임 속 긴급 공지 이미지",
+              "en": "Holy Soil · in-world emergency notice artwork",
+              "ja": "「聖土化」・作中の緊急通知画像",
+              "zh": "「聖土化」・遊戲世界中的緊急通知圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/5e25eba4c4278659fa2bb412f94c06c0_3345684640124688578.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ja/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 집결 · 공식 스토리 안내",
+              "en": "Representatives of seven nations · official story introduction",
+              "ja": "七国代表の集結・公式ストーリー案内",
+              "zh": "七國代表集結・官方劇情介紹"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/00338d5d51328426ea9ceca867d55181_2005462200905278152.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ja/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "width": 700,
+            "height": 1516,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 소개 · 공식 상세 이미지",
+              "en": "Representatives of seven nations · official detailed introduction",
+              "ja": "七国代表紹介・公式詳細画像",
+              "zh": "七國代表介紹・官方詳細圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/f2b1e2363ca6b4fc22523e79b6e86edc_291745866186542955.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ja/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "width": 700,
+            "height": 856,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "「땅 신성화」 · 게임 속 긴급 공지 이미지",
+              "en": "Holy Soil · in-world emergency notice artwork",
+              "ja": "「聖土化」・作中の緊急通知画像",
+              "zh": "「聖土化」・遊戲世界中的緊急通知圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/91d9f41d7f319e556fe746cdd7952ec1_1656827926920875267.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/zh-tw/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 집결 · 공식 스토리 안내",
+              "en": "Representatives of seven nations · official story introduction",
+              "ja": "七国代表の集結・公式ストーリー案内",
+              "zh": "七國代表集結・官方劇情介紹"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/9d050c2d26006c50c6d22287df6ce757_4170694561075211783.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/zh-tw/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "width": 700,
+            "height": 1516,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "7개국 대표 소개 · 공식 상세 이미지",
+              "en": "Representatives of seven nations · official detailed introduction",
+              "ja": "七国代表紹介・公式詳細画像",
+              "zh": "七國代表介紹・官方詳細圖片"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167209/4eb80f521decba8c20ce70cfc3bde335_4114968198314684139.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/zh-tw/news/detail/167209",
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "imageVerified": true,
+            "width": 700,
+            "height": 856,
+            "verifiedAt": "2026-11-04T15:16:08Z",
+            "imageCaption": {
+              "ko": "「땅 신성화」 · 게임 속 긴급 공지 이미지",
+              "en": "Holy Soil · in-world emergency notice artwork",
+              "ja": "「聖土化」・作中の緊急通知画像",
+              "zh": "「聖土化」・遊戲世界中的緊急通知圖片"
+            }
+          }
+        ],
+        "verifiedAt": "2026-11-04T15:16:08Z"
+      },
+      "before": {
+        "summary": {
+          "ko": "과거의 앙금이 단 한 번의 만남으로 사라지진 않겠지만, 그들은 기꺼이 같은 테이블에 앉아 이미 닥쳐온 위기에 함께 맞서고자 합니다. 왜냐하면——문명, 기억, 감정… 그 모든 것은 「존재」하기에 비로소 가치를 지니기 때문입니다. 원신 공식 커뮤니티에서 토론하기 원신 공식 카페 원신 공식 Twitter 원신 공식 YouTube HoYoLAB 공식 홈페이지",
+          "en": "Old divisions will not vanish with a single meeting. Yet they are willing to sit at the same table and face the crisis now upon them. For civilization, memories, emotions... none of these would have meaning without \"existence.\" Visit Genshin Impact's official social media platforms to join the discussion >> - Official ",
+          "ja": "かつてのわだかまりが一度の会談で解けることはないが、彼らは同じテーブルにつき、降りかかる災厄に共に立ち向かうことを選んだ——文明、記憶、感情…すべては「存在」してこそ価値を持つのだから。",
+          "zh": "舊日的隔閡並不會因一場會面輕易消散，但他們願意坐在同一張桌前，共同面對已然降臨的危機，因為——文明、記憶、情感…皆因「存在」才具有價值。 前往《原神》官方社群媒體平台參與討論>> 《原神》官方YouTube 《原神》官方Facebook主頁 《原神》官方Twitter 《原神》官方TikTok HoYoLAB官方主頁"
+        },
+        "imageSource": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageVerified": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null,
+        "verifiedAt": "2026-11-04T10:01:31.081Z"
+      },
+      "sources": [
+        "https://genshin.hoyoverse.com/ko/news/detail/167209",
+        "https://genshin.hoyoverse.com/en/news/detail/167209",
+        "https://genshin.hoyoverse.com/ja/news/detail/167209",
+        "https://genshin.hoyoverse.com/zh-tw/news/detail/167209"
+      ]
+    }
+  ]
+}
