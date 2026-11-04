@@ -1,0 +1,997 @@
+{
+  "version": 1,
+  "requestId": "20261104T091402Z-prerelease-notices-media",
+  "reason": "공식 원문으로 출시 예정 3개 게임의 누락된 다국어 공지·베타 기록·이미지와 미시청 공식 영상 링크를 보완하고 DLSS 4.5 지원 공지를 추가합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-04T09:14:02Z",
+  "entries": [
+    {
+      "id": "ananta-global-dlss45-20260827",
+      "gameId": "ananta",
+      "region": "global",
+      "server": "global",
+      "kind": "update",
+      "contentRole": "notice",
+      "title": {
+        "ko": "DLSS 4.5 지원 발표 (번역)",
+        "en": "ANANTA Adding DLSS 4.5",
+        "ja": "DLSS 4.5対応を発表（翻訳）",
+        "zh": "宣布支持DLSS 4.5（翻译）"
+      },
+      "summary": {
+        "ko": "기존 DLSS 4 지원 계획을 DLSS 4.5로 확대한다고 발표했다. Super Resolution과 Dynamic Multi Frame Generation을 포함해 레이 트레이싱 환경의 프레임률과 화질 향상을 목표로 한다.",
+        "en": "ANANTA announced an upgrade from its previously confirmed DLSS 4 support to DLSS 4.5, including Super Resolution and Dynamic Multi Frame Generation for its ray-traced world.",
+        "ja": "従来発表したDLSS 4対応をDLSS 4.5へ拡張すると告知。Super ResolutionとDynamic Multi Frame Generationを含み、レイトレーシング環境の描画性能と画質向上を目指す。",
+        "zh": "官方宣布将原定的DLSS 4支持升级至DLSS 4.5，包含Super Resolution与Dynamic Multi Frame Generation，旨在提升光线追踪场景的帧率及画质。"
+      },
+      "publishedAt": "2026-08-27",
+      "startAt": null,
+      "endAt": null,
+      "verifiedAt": "2026-11-04T09:14:02Z",
+      "sourceUrl": "https://www.anantagame.com/news/official/20260827/41397_1312458.html",
+      "sourceTitle": "ANANTA Adding DLSS 4.5",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "en"
+      ],
+      "translatedLocales": [
+        "ko",
+        "ja",
+        "zh"
+      ],
+      "localizationSources": {
+        "en": "https://www.anantagame.com/news/official/20260827/41397_1312458.html"
+      },
+      "image": "https://r.res.easebar.com/pic/20260827/54f0ab81-516c-427e-9b91-233a9c2c6256.png",
+      "imageSource": "https://www.anantagame.com/news/official/20260827/41397_1312458.html",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "imageCaption": {
+        "ko": "DLSS 4.5 공지의 공식 거리 스크린샷",
+        "en": "Official street screenshot from the DLSS 4.5 notice",
+        "ja": "DLSS 4.5告知の公式市街地スクリーンショット",
+        "zh": "DLSS 4.5公告中的官方街景截图"
+      },
+      "originalLanguageFallback": true,
+      "localizedArtwork": {
+        "en": {
+          "image": "https://r.res.easebar.com/pic/20260827/54f0ab81-516c-427e-9b91-233a9c2c6256.png",
+          "imageSource": "https://www.anantagame.com/news/official/20260827/41397_1312458.html",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "width": 3840,
+          "height": 2160,
+          "verifiedAt": "2026-11-04T09:14:02Z",
+          "imageCaption": {
+            "ko": "DLSS 4.5 공지의 공식 거리 스크린샷",
+            "en": "Official street screenshot from the DLSS 4.5 notice",
+            "ja": "DLSS 4.5告知の公式市街地スクリーンショット",
+            "zh": "DLSS 4.5公告中的官方街景截图"
+          },
+          "originalLanguageFallback": true
+        }
+      },
+      "detailImages": [
+        {
+          "image": "https://r.res.easebar.com/pic/20260827/54f0ab81-516c-427e-9b91-233a9c2c6256.png",
+          "imageSource": "https://www.anantagame.com/news/official/20260827/41397_1312458.html",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "width": 3840,
+          "height": 2160,
+          "verifiedAt": "2026-11-04T09:14:02Z",
+          "imageCaption": {
+            "ko": "DLSS 4.5 공지의 공식 거리 스크린샷",
+            "en": "Official street screenshot from the DLSS 4.5 notice",
+            "ja": "DLSS 4.5告知の公式市街地スクリーンショット",
+            "zh": "DLSS 4.5公告中的官方街景截图"
+          },
+          "originalLanguageFallback": true
+        },
+        {
+          "image": "https://r.res.easebar.com/pic/20260827/1f815a71-bee7-41b5-9d13-df5be568f6fa.png",
+          "imageSource": "https://www.anantagame.com/news/official/20260827/41397_1312458.html",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "width": 3510,
+          "height": 1974,
+          "verifiedAt": "2026-11-04T09:14:02Z",
+          "imageCaption": {
+            "ko": "DLSS 4.5 공지의 공식 도시 전경",
+            "en": "Official city panorama from the DLSS 4.5 notice",
+            "ja": "DLSS 4.5告知の公式都市パノラマ",
+            "zh": "DLSS 4.5公告中的官方城市全景"
+          },
+          "originalLanguageFallback": true
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "quick-silver-palace-global-122",
+      "set": {
+        "title": {
+          "ko": "「비밀 조사원」 프로젝트 모집 오픈",
+          "en": "Secret Investigator project recruitment (translation)",
+          "ja": "「秘密調査員」プロジェクト募集（翻訳）",
+          "zh": "“秘密调查员”项目招募（翻译）"
+        },
+        "summary": {
+          "ko": "만 19세 이상을 대상으로 장기 모집하는 소규모 비공개 테스트 프로그램. 선정자는 개별 초대를 받으며 결제 기능 없이 진행하고 종료 후 데이터를 삭제한다. 참여에는 비밀유지계약이 필요하다.",
+          "en": "A long-term recruitment programme for small private tests, open to applicants aged 19 or older. Selected players receive individual invitations; tests have no paid transactions and reset all data afterward. An NDA is required.",
+          "ja": "19歳以上を対象に長期募集する小規模非公開テスト。選考された参加者に個別招待を送り、課金機能はなく、終了後にデータを削除する。参加には秘密保持契約が必要。",
+          "zh": "面向19岁及以上玩家长期招募的小规模非公开测试。获选者将收到单独邀请；测试不开放付费，结束后清除数据，参加者须签署保密协议。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T09:14:02Z",
+        "image": "https://s.elementagames.com/official/image/20260928/0038ff263ef6f4b27b3a13a8588a06be.jpg",
+        "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=122",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "비밀 조사원 모집 공식 배너",
+          "en": "Official private-test recruitment banner",
+          "ja": "非公開テスト募集の公式バナー",
+          "zh": "非公开测试招募官方横幅"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://s.elementagames.com/official/image/20260928/0038ff263ef6f4b27b3a13a8588a06be.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=122",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 914,
+            "height": 514,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "비밀 조사원 모집 공식 배너",
+              "en": "Official private-test recruitment banner",
+              "ja": "非公開テスト募集の公式バナー",
+              "zh": "非公开测试招募官方横幅"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://s.elementagames.com/official/image/20260928/0038ff263ef6f4b27b3a13a8588a06be.jpg",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=122",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 914,
+            "height": 514,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "비밀 조사원 모집 공식 배너",
+              "en": "Official private-test recruitment banner",
+              "ja": "非公開テスト募集の公式バナー",
+              "zh": "非公开测试招募官方横幅"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "「비밀 조사원」 프로젝트 모집 오픈",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-03T13:12:54.167Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=122"
+      ]
+    },
+    {
+      "id": "quick-silver-palace-global-66",
+      "set": {
+        "title": {
+          "ko": "「이분법 테스트」 테스트 소식 및 주요 보상 안내",
+          "en": "Dichotomy test: activities and rewards (translation)",
+          "ja": "二元テスト：イベントと主な報酬（翻訳）",
+          "zh": "二元测试：活动与主要奖励（翻译）"
+        },
+        "summary": {
+          "ko": "2026년 7월 23일~8월 13일에 진행된 이분법 테스트의 보상 안내. 14일 출석으로 270뽑기와 5성 보상, 누적 로그인 우편으로 500뽑기 이상을 제공했다. 당시 테스트 한정 보상이다.",
+          "en": "Rewards announced for the Dichotomy test held July 23–August 13, 2026: 270 pulls and five-star rewards through 14-day attendance, plus over 500 pulls through login mail. These rewards applied only to that test.",
+          "ja": "2026年7月23日～8月13日の二元テスト向け報酬案内。14日間の出席で270連分と星5報酬、ログインメールで500連分以上を配布。当該テスト限定の報酬。",
+          "zh": "2026年7月23日至8月13日二元测试的奖励说明：14日签到提供270抽及五星奖励，累计登录邮件另提供500抽以上。仅适用于当次测试。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T09:14:02Z",
+        "image": "https://s.elementagames.com/official/image/20260720/70b4096ce5c25dd5435e3e3df553a4e5.png",
+        "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=66",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "이분법 테스트 소식·보상 공식 배너",
+          "en": "Official Dichotomy test rewards banner",
+          "ja": "二元テスト報酬の公式バナー",
+          "zh": "二元测试奖励官方横幅"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://s.elementagames.com/official/image/20260720/70b4096ce5c25dd5435e3e3df553a4e5.png",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=66",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 914,
+            "height": 514,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "이분법 테스트 소식·보상 공식 배너",
+              "en": "Official Dichotomy test rewards banner",
+              "ja": "二元テスト報酬の公式バナー",
+              "zh": "二元测试奖励官方横幅"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://s.elementagames.com/official/image/20260720/70b4096ce5c25dd5435e3e3df553a4e5.png",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=66",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 914,
+            "height": 514,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "이분법 테스트 소식·보상 공식 배너",
+              "en": "Official Dichotomy test rewards banner",
+              "ja": "二元テスト報酬の公式バナー",
+              "zh": "二元测试奖励官方横幅"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "「이분법 테스트」 테스트 소식 및 주요 보상 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-03T13:12:54.167Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=66"
+      ]
+    },
+    {
+      "id": "quick-silver-palace-global-104",
+      "set": {
+        "title": {
+          "ko": "수정사항 및 최적화 안내",
+          "en": "July 23 test fix: survey text input (translation)",
+          "ja": "7月23日のテスト修正：アンケート入力（翻訳）",
+          "zh": "7月23日测试修复：问卷文字输入（翻译）"
+        },
+        "summary": {
+          "ko": "2026년 7월 23일, 설문조사에서 일부 언어의 텍스트를 입력할 수 없던 문제를 수정했다. 해당 문제를 겪은 테스트 참가자는 게임을 종료하고 업데이트하도록 안내했다.",
+          "en": "The July 23, 2026 test update fixed text entry for certain languages in surveys. Affected participants were asked to close the game and install the update.",
+          "ja": "2026年7月23日のテスト更新で、アンケートに一部言語の文字を入力できない問題を修正。対象者にはゲームを終了して更新するよう案内した。",
+          "zh": "2026年7月23日测试更新修复了问卷中部分语言无法输入文字的问题，并提示受影响的参与者退出游戏后更新。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T09:14:02Z",
+        "image": "https://s.elementagames.com/official/image/20260723/be13fab0adda3ad3e05e4bccad79e164.png",
+        "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=104",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "수정사항·최적화 공식 안내 이미지",
+          "en": "Official fixes and optimizations notice image",
+          "ja": "修正・最適化の公式案内画像",
+          "zh": "修复与优化官方公告图"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://s.elementagames.com/official/image/20260723/be13fab0adda3ad3e05e4bccad79e164.png",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=104",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 914,
+            "height": 514,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "수정사항·최적화 공식 안내 이미지",
+              "en": "Official fixes and optimizations notice image",
+              "ja": "修正・最適化の公式案内画像",
+              "zh": "修复与优化官方公告图"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://s.elementagames.com/official/image/20260723/be13fab0adda3ad3e05e4bccad79e164.png",
+            "imageSource": "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=104",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 914,
+            "height": 514,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "수정사항·최적화 공식 안내 이미지",
+              "en": "Official fixes and optimizations notice image",
+              "ja": "修正・最適化の公式案内画像",
+              "zh": "修复与优化官方公告图"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "수정사항 및 최적화 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-03T13:12:54.167Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=104"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3568599",
+      "set": {
+        "title": {
+          "ko": "프로밀리아 페스티벌 참가 크리에이터 모집 안내",
+          "en": "Promilia Festival creator recruitment (translation)",
+          "ja": "プロミリアフェスティバル配信者募集（翻訳）",
+          "zh": "普罗米利亚庆典创作者招募（翻译）"
+        },
+        "summary": {
+          "ko": "얼리버드 크리에이터 모집은 10월 23일~11월 11일이며 결과는 11월 16일 발표 예정. 치지직 팔로워 500명 이상인 만 15세 이상 크리에이터가 대상이다. 페스티벌 미션은 11월 26일~12월 2일 진행 예정이다.",
+          "en": "Early-bird creator applications run October 23–November 11, with results scheduled for November 16. Applicants must be at least 15 and have 500 Chzzk followers. Festival missions are planned for November 26–December 2.",
+          "ja": "先行クリエイター募集は10月23日～11月11日、結果発表は11月16日予定。15歳以上でCHZZKのフォロワー500人以上が対象。ミッションは11月26日～12月2日予定。",
+          "zh": "创作者提前招募期为10月23日至11月11日，预计11月16日公布结果。要求年满15岁且拥有至少500名CHZZK关注者；庆典任务预计11月26日至12月2日举行。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T09:14:02Z",
+        "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261023/34163933-d954-4319-be2e-432b890a88b6/%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%EB%B0%B0%EB%84%88.jpg",
+        "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3568599",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "프로밀리아 페스티벌 크리에이터 모집 배너",
+          "en": "Promilia Festival creator recruitment banner",
+          "ja": "プロミリアフェスティバル配信者募集バナー",
+          "zh": "普罗米利亚庆典创作者招募横幅"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261023/34163933-d954-4319-be2e-432b890a88b6/%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%EB%B0%B0%EB%84%88.jpg",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3568599",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 780,
+            "height": 439,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "프로밀리아 페스티벌 크리에이터 모집 배너",
+              "en": "Promilia Festival creator recruitment banner",
+              "ja": "プロミリアフェスティバル配信者募集バナー",
+              "zh": "普罗米利亚庆典创作者招募横幅"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261023/34163933-d954-4319-be2e-432b890a88b6/%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%EB%B0%B0%EB%84%88.jpg",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3568599",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 780,
+            "height": 439,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "프로밀리아 페스티벌 크리에이터 모집 배너",
+              "en": "Promilia Festival creator recruitment banner",
+              "ja": "プロミリアフェスティバル配信者募集バナー",
+              "zh": "普罗米利亚庆典创作者招募横幅"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "프로밀리아 페스티벌 참가 크리에이터 모집 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-03T13:12:57.766Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3568599"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3571373",
+      "set": {
+        "title": {
+          "ko": "[성림자 사전 합류 캠페인] “성림자, 우리 첫 모험을 약속해!” 이벤트",
+          "en": "Pre-registration proof campaign (translation)",
+          "ja": "事前登録の証明投稿キャンペーン（翻訳）",
+          "zh": "预约凭证投稿活动（翻译）"
+        },
+        "summary": {
+          "ko": "10월 27일~11월 19일, 스토어 사전등록 인증 화면과 #아주르프로밀리아를 X에 올리고 공식 게시글에 링크를 제출하는 이벤트. 100명을 추첨해 레드스톤 320개씩 지급하며 당첨자는 11월 24일 발표 예정이다.",
+          "en": "From October 27 to November 19, post store pre-registration proof on X with #아주르프로밀리아 and submit the link through the official post. One hundred winners receive 320 Redstone each; results are planned for November 24.",
+          "ja": "10月27日～11月19日、ストア事前登録の証明と #아주르프로밀리아 をXに投稿し、公式記事からリンクを提出する企画。抽選100名にレッドストーン320個、結果は11月24日発表予定。",
+          "zh": "10月27日至11月19日，在X发布商店预约凭证及 #아주르프로밀리아，并通过官方帖提交链接。抽选100人各赠320颗红石，预计11月24日公布结果。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-04T09:14:02Z",
+        "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261027/707a19e3-b6e6-4997-8340-d16fd78ebfae/%EC%84%B1%EB%A6%BC%EC%9E%90%EC%82%AC%EC%A0%84%ED%95%A9%EB%A5%98%EC%BA%A0%ED%8E%98%EC%9D%B8%EB%B0%B0%EB%84%88.png",
+        "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6811&thread=3571373",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "성림자 사전 합류 캠페인 공식 배너",
+          "en": "Official pre-registration campaign banner",
+          "ja": "事前登録キャンペーン公式バナー",
+          "zh": "预约投稿活动官方横幅"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261027/707a19e3-b6e6-4997-8340-d16fd78ebfae/%EC%84%B1%EB%A6%BC%EC%9E%90%EC%82%AC%EC%A0%84%ED%95%A9%EB%A5%98%EC%BA%A0%ED%8E%98%EC%9D%B8%EB%B0%B0%EB%84%88.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6811&thread=3571373",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 700,
+            "height": 522,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "성림자 사전 합류 캠페인 공식 배너",
+              "en": "Official pre-registration campaign banner",
+              "ja": "事前登録キャンペーン公式バナー",
+              "zh": "预约投稿活动官方横幅"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://dszw1qtcnsa5e.cloudfront.net/community/20261027/707a19e3-b6e6-4997-8340-d16fd78ebfae/%EC%84%B1%EB%A6%BC%EC%9E%90%EC%82%AC%EC%A0%84%ED%95%A9%EB%A5%98%EC%BA%A0%ED%8E%98%EC%9D%B8%EB%B0%B0%EB%84%88.png",
+            "imageSource": "https://forum.nexon.com/azurpromilia/board_view?board=6811&thread=3571373",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 700,
+            "height": 522,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "성림자 사전 합류 캠페인 공식 배너",
+              "en": "Official pre-registration campaign banner",
+              "ja": "事前登録キャンペーン公式バナー",
+              "zh": "预约投稿活动官方横幅"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[성림자 사전 합류 캠페인] “성림자, 우리 첫 모험을 약속해!” 이벤트",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-03T13:12:57.766Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6811&thread=3571373"
+      ]
+    },
+    {
+      "id": "quick-ananta-global-1260745",
+      "set": {
+        "title": {
+          "ko": "무한대 ANANTA | 게임플레이 트레일러",
+          "en": "ANANTA | Gameplay Trailer",
+          "ja": "『無限大ANANTA』ゲームプレイトレーラー",
+          "zh": "《無限大》玩法預告"
+        },
+        "summary": {
+          "ko": "신계시에서 특별조사팀을 재건하는 신임 캡틴과 다양한 동료들을 소개한다. 동료별 역할과 세력 임무, 팀 성장과 SNS 활동을 다루는 공식 게임플레이 트레일러다.",
+          "en": "The official gameplay trailer introduces the new captain rebuilding a team in Nova City, varied playable roles, faction tasks, team growth and social-media activity.",
+          "ja": "新啓でチームを再建する新任キャプテンと仲間たちを紹介する公式トレーラー。異なる役割、勢力の任務、チーム育成やSNS活動を案内する。",
+          "zh": "官方玩法预告介绍在新启重建团队的新任队长与伙伴，涵盖不同角色身份、势力任务、团队成长及社交媒体活动。"
+        },
+        "verifiedAt": "2026-11-04T09:14:02Z",
+        "publishedAt": "2025-09-23",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://www.anantagame.com/kr/news/official/20250923/41399_1260745.html",
+          "en": "https://www.anantagame.com/news/official/20250923/41397_1260743.html",
+          "ja": "https://www.anantagame.com/jp/news/official/20250923/41398_1260744.html",
+          "zh": "https://www.anantagame.com/zh-cht/news/official/20260826/43807_1312229.html"
+        },
+        "videos": [
+          {
+            "originalTitle": "무한대 ANANTA | 게임플레이 트레일러",
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [
+              "en",
+              "ja",
+              "zh"
+            ],
+            "youtubeId": "PgLGDdRdM34",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "무한대 ANANTA | 게임플레이 트레일러",
+              "en": "Gameplay trailer",
+              "ja": "ゲームプレイトレーラー",
+              "zh": "玩法宣传片"
+            },
+            "locale": "ko",
+            "channel": "무한대Ananta",
+            "sourceUrl": "https://www.youtube.com/watch?v=PgLGDdRdM34",
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.anantagame.com/kr/news/official/20250923/41399_1260745.html",
+              "https://www.youtube.com/@Ananta_KOR"
+            ],
+            "publishedAt": null
+          },
+          {
+            "originalTitle": "ANANTA | Gameplay Trailer",
+            "titleOfficialLocales": [
+              "en"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "ja",
+              "zh"
+            ],
+            "youtubeId": "uYejjuRrLzw",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "게임플레이 트레일러",
+              "en": "ANANTA | Gameplay Trailer",
+              "ja": "ゲームプレイトレーラー",
+              "zh": "玩法宣传片"
+            },
+            "locale": "en",
+            "channel": "Ananta",
+            "sourceUrl": "https://www.youtube.com/watch?v=uYejjuRrLzw",
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.anantagame.com/news/official/20250923/41397_1260743.html",
+              "https://www.youtube.com/@Ananta_Game"
+            ],
+            "publishedAt": null
+          },
+          {
+            "originalTitle": "無限大ANANTA | ゲームプレイトレーラー",
+            "titleOfficialLocales": [
+              "ja"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "en",
+              "zh"
+            ],
+            "youtubeId": "BCLKQCylA30",
+            "kind": "version",
+            "format": "pv",
+            "title": {
+              "ko": "게임플레이 트레일러",
+              "en": "Gameplay trailer",
+              "ja": "無限大ANANTA | ゲームプレイトレーラー",
+              "zh": "玩法宣传片"
+            },
+            "locale": "ja",
+            "channel": "無限大Ananta",
+            "sourceUrl": "https://www.youtube.com/watch?v=BCLKQCylA30",
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.anantagame.com/jp/news/official/20250923/41398_1260744.html",
+              "https://www.youtube.com/@Ananta_JPN"
+            ],
+            "publishedAt": null
+          }
+        ],
+        "image": "https://r.res.easebar.com/pic/20250923/7dbd8a39-cdf1-401d-91f6-6f48eb7c2326.jpg",
+        "imageSource": "https://www.anantagame.com/kr/news/official/20250923/41399_1260745.html",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "게임플레이 트레일러 공식 표지",
+          "en": "Official gameplay trailer cover",
+          "ja": "公式ゲームプレイトレーラー表紙",
+          "zh": "官方玩法预告封面"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://r.res.easebar.com/pic/20250923/7dbd8a39-cdf1-401d-91f6-6f48eb7c2326.jpg",
+            "imageSource": "https://www.anantagame.com/kr/news/official/20250923/41399_1260745.html",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "게임플레이 트레일러 공식 표지",
+              "en": "Official gameplay trailer cover",
+              "ja": "公式ゲームプレイトレーラー表紙",
+              "zh": "官方玩法预告封面"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://r.res.easebar.com/pic/20250923/7dbd8a39-cdf1-401d-91f6-6f48eb7c2326.jpg",
+            "imageSource": "https://www.anantagame.com/kr/news/official/20250923/41399_1260745.html",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "imageCaption": {
+              "ko": "게임플레이 트레일러 공식 표지",
+              "en": "Official gameplay trailer cover",
+              "ja": "公式ゲームプレイトレーラー表紙",
+              "zh": "官方玩法预告封面"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "무한대 ANANTA | 게임플레이 트레일러",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "뒤로가기 2025-09-23 신계시에서 당신의 두 번째 인생이 각성됩니다! 당신은 대책국 신임 캡틴으로서 각양각색의 매력적이거나... 아니면 기괴하기 그지없는 동료들을 만나, 오직 당신만의 특별조사팀을 재건하게 됩니다. 팀 내 다양한 역할을 체험해 보세요! 청장, 재벌, 해커로 변신하여 각자의 자극적인 일상을 경험하고, 순찰청·견마파·블루캣 로지스 등 각종 세력의 임무를 수행할 수도 있습니다. 단, 팀을 육성시킬 때 평판 관리는 절대 잊지 마세요! 이 기상천외한 도시에서 모두가 생존의 비결을 품고 있지만, 당신에겐 특별한 무기가 있습니다. 바로 SNS! 목표 달성을 ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "verifiedAt": "2026-11-03T13:13:04.371Z",
+        "publishedAt": null,
+        "officialLocales": [
+          "ko"
+        ],
+        "localizationSources": {
+          "ko": "https://www.anantagame.com/kr/news/official/20250923/41399_1260745.html"
+        },
+        "videos": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://www.anantagame.com/kr/news/official/20250923/41399_1260745.html",
+        "https://www.anantagame.com/news/official/20250923/41397_1260743.html",
+        "https://www.anantagame.com/jp/news/official/20250923/41398_1260744.html",
+        "https://www.anantagame.com/zh-cht/news/official/20260826/43807_1312229.html"
+      ]
+    },
+    {
+      "id": "quick-ananta-global-1261259",
+      "set": {
+        "title": {
+          "ko": "무한대 ANANTA | 인게임 플레이영상",
+          "en": "ANANTA | Gameplay Video",
+          "ja": "『無限大ANANTA』実機プレイ映像",
+          "zh": "《無限大》任務實機演示"
+        },
+        "summary": {
+          "ko": "신계시에 막 도착한 캡틴이 폐업한 회사와 교통체증 속 카오스 사건에 휘말리는 도입부를 소개하는 공식 인게임 플레이 영상이다.",
+          "en": "The official gameplay video introduces the captain’s arrival in Nova City, a company that has closed down and a Chaos incident amid a traffic jam.",
+          "ja": "新啓に来たばかりのキャプテンが、倒産した会社や渋滞中のカオス事件に巻き込まれる導入部を紹介する公式実機映像。",
+          "zh": "官方任务实机演示介绍队长初到新启后，面对公司倒闭及交通拥堵中的混厄事件的故事开端。"
+        },
+        "verifiedAt": "2026-11-04T09:14:02Z",
+        "publishedAt": "2025-09-25",
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://www.anantagame.com/kr/news/official/20250924/41399_1261259.html",
+          "en": "https://www.anantagame.com/news/official/20250924/41397_1261256.html",
+          "ja": "https://www.anantagame.com/jp/news/update/20250924/41395_1261258.html",
+          "zh": "https://www.anantagame.com/zh-cht/news/official/20260826/43807_1312228.html"
+        },
+        "videos": [
+          {
+            "originalTitle": "무한대 ANANTA | 인게임 플레이영상",
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [
+              "en",
+              "ja",
+              "zh"
+            ],
+            "youtubeId": "oWsgXoq-y6I",
+            "kind": "version",
+            "format": "demo",
+            "title": {
+              "ko": "무한대 ANANTA | 인게임 플레이영상",
+              "en": "Gameplay video",
+              "ja": "実機プレイ映像",
+              "zh": "实机演示"
+            },
+            "locale": "ko",
+            "channel": "무한대Ananta",
+            "sourceUrl": "https://www.youtube.com/watch?v=oWsgXoq-y6I",
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.anantagame.com/kr/news/official/20250924/41399_1261259.html",
+              "https://www.youtube.com/@Ananta_KOR"
+            ],
+            "publishedAt": null
+          },
+          {
+            "originalTitle": "Ananta | Gameplay Video",
+            "titleOfficialLocales": [
+              "en"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "ja",
+              "zh"
+            ],
+            "youtubeId": "XkN1jy9FGVg",
+            "kind": "version",
+            "format": "demo",
+            "title": {
+              "ko": "인게임 플레이 영상",
+              "en": "Ananta | Gameplay Video",
+              "ja": "実機プレイ映像",
+              "zh": "实机演示"
+            },
+            "locale": "en",
+            "channel": "Ananta",
+            "sourceUrl": "https://www.youtube.com/watch?v=XkN1jy9FGVg",
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.anantagame.com/news/official/20250924/41397_1261256.html",
+              "https://www.youtube.com/@Ananta_Game"
+            ],
+            "publishedAt": null
+          },
+          {
+            "originalTitle": "無限大ANANTA | 実機プレイ映像",
+            "titleOfficialLocales": [
+              "ja"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "en",
+              "zh"
+            ],
+            "youtubeId": "WIdyuR3wdWk",
+            "kind": "version",
+            "format": "demo",
+            "title": {
+              "ko": "인게임 플레이 영상",
+              "en": "Gameplay video",
+              "ja": "無限大ANANTA | 実機プレイ映像",
+              "zh": "实机演示"
+            },
+            "locale": "ja",
+            "channel": "無限大Ananta",
+            "sourceUrl": "https://www.youtube.com/watch?v=WIdyuR3wdWk",
+            "verifiedAt": "2026-11-04T09:14:02Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.anantagame.com/jp/news/update/20250924/41395_1261258.html",
+              "https://www.youtube.com/@Ananta_JPN"
+            ],
+            "publishedAt": null
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "무한대 ANANTA | 인게임 플레이영상",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "뒤로가기 2025-09-25 인생 반전은 참 많지만... 이 정도의 ‘막장’은 처음이네.첫 출근 날 문 닫은 회사, 교통체증 안에서 「狂」등급 카오스를 때려잡다니... 그 영상 덕분에 하루 아침에 인플루언서가 되었다고?! 신계시 도착 첫날부터 예측불가 상황이 연달아 발생? 이 낯선 도시에서의 서바이벌, 생각보다 훨씬 하드코어로군. —————∞∞∞∞————— 게임에 가입하려면 여기를 클릭하세요: >> https://www.anantagame.com/kr/ 게임 최신 소식과 이벤트를 보려면 저희를 팔로우하세요. >> Discord: 무한대 ANANTA >> X: 무한대 ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "verifiedAt": "2026-11-03T13:13:04.371Z",
+        "publishedAt": null,
+        "officialLocales": [
+          "ko"
+        ],
+        "localizationSources": {
+          "ko": "https://www.anantagame.com/kr/news/official/20250924/41399_1261259.html"
+        },
+        "videos": null
+      },
+      "sources": [
+        "https://www.anantagame.com/kr/news/official/20250924/41399_1261259.html",
+        "https://www.anantagame.com/news/official/20250924/41397_1261256.html",
+        "https://www.anantagame.com/jp/news/update/20250924/41395_1261258.html",
+        "https://www.anantagame.com/zh-cht/news/official/20260826/43807_1312228.html"
+      ]
+    }
+  ]
+}
