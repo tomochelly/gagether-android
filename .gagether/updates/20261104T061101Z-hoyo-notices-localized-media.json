@@ -1,0 +1,1075 @@
+{
+  "version": 1,
+  "requestId": "20261104T061101Z-hoyo-notices-localized-media",
+  "reason": "원신 7.2 및 미탸 이벤트 공지의 잘린 요약·정확한 기간 보완, 젠레스 공식 원본과 네 언어 이미지 슬롯 보완, 스타레일 공식 PV 네 언어 연결.",
+  "mode": "apply",
+  "researchedAt": "2026-11-04T06:11:01Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "feed-genshin-167187",
+      "set": {
+        "summary": {
+          "ko": "7.2 버전은 신 키테시성·날개 마루, 신규 캐릭터 미탸·발레리, 법구 별빛 계시와 마신 임무 제7장 제5·6막을 추가한다. 점검·문제 수정 보상은 각각 원석 300개이며 수령 조건과 기한은 공지를 따른다.",
+          "en": "Version 7.2 adds Novokitezhgrad and Wingspan Peak, Mitya and Valeriy, the catalyst Starsealed Edict, and Archon Quest Chapter VII Acts V–VI. Maintenance and issue-fix compensation each grant 300 Primogems, subject to eligibility and claim deadlines.",
+          "ja": "Ver.7.2でノヴォキッチェヴと翼の峰、ミティヤとバレリー、法器「秘星の聖典」、魔神任務第七章第五・六幕を追加。メンテナンスと不具合修正の補償は各原石300個で、対象条件と受取期限がある。",
+          "zh": "7.2版本新增新基捷城、如翼之峰、角色米提亞與瓦列里、法器「秘星典諭」及魔神任務第七章第五、六幕。停服更新與問題修復補償各為原石300，須符合領取條件及期限。"
+        },
+        "verifiedAt": "2026-11-04T06:11:01Z",
+        "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167187",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "7.2 버전 「종말의 서막」 업데이트 안내",
+          "en": "\"Hour of Ruin\" Version 7.2 Update Details",
+          "ja": "Ver.7.2「終焉へ墜ちる時」正式リリース",
+          "zh": "「壞滅肇始之時」7.2版本更新說明"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167187/7f511019d6749dae6cbda72c042df4b9_6516146555989165481.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167187",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1080,
+            "height": 390,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "7.2 버전 「종말의 서막」 업데이트 안내",
+              "en": "\"Hour of Ruin\" Version 7.2 Update Details",
+              "ja": "Ver.7.2「終焉へ墜ちる時」正式リリース",
+              "zh": "「壞滅肇始之時」7.2版本更新說明"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167187/4fb6643771f39afd98e992be24db7c2a_3164117442922614851.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/en/news/detail/167187",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1080,
+            "height": 390,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "7.2 버전 「종말의 서막」 업데이트 안내",
+              "en": "\"Hour of Ruin\" Version 7.2 Update Details",
+              "ja": "Ver.7.2「終焉へ墜ちる時」正式リリース",
+              "zh": "「壞滅肇始之時」7.2版本更新說明"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167187/f3ffe86554515b85b69222a45791ecf9_3819242552164306270.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ja/news/detail/167187",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1080,
+            "height": 390,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "7.2 버전 「종말의 서막」 업데이트 안내",
+              "en": "\"Hour of Ruin\" Version 7.2 Update Details",
+              "ja": "Ver.7.2「終焉へ墜ちる時」正式リリース",
+              "zh": "「壞滅肇始之時」7.2版本更新說明"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167187/887da854ab1eca7e5658cd1b0820c6fb_7619797849329947654.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/zh-tw/news/detail/167187",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1080,
+            "height": 390,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "7.2 버전 「종말의 서막」 업데이트 안내",
+              "en": "\"Hour of Ruin\" Version 7.2 Update Details",
+              "ja": "Ver.7.2「終焉へ墜ちる時」正式リリース",
+              "zh": "「壞滅肇始之時」7.2版本更新說明"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167187/7f511019d6749dae6cbda72c042df4b9_6516146555989165481.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167187",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1080,
+            "height": 390,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "7.2 버전 「종말의 서막」 업데이트 안내",
+              "en": "\"Hour of Ruin\" Version 7.2 Update Details",
+              "ja": "Ver.7.2「終焉へ墜ちる時」正式リリース",
+              "zh": "「壞滅肇始之時」7.2版本更新說明"
+            }
+          }
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "점검·문제 수정 보상 수령",
+              "en": "Compensation eligibility and claims",
+              "ja": "補償の対象条件と受取期限",
+              "zh": "补偿条件与领取期限"
+            },
+            "body": {
+              "ko": "2026년 11월 4일 06:00(UTC+8) 이전에 모험 등급 5 이상인 여행자가 대상이다. 점검 보상은 7.2 버전 종료 전까지, 문제 수정 보상은 11월 7일 06:00(UTC+8)까지 접속해 우편을 받아야 한다. 우편 유효 기간은 30일이다.",
+              "en": "Both compensations require Adventure Rank 5 or above before November 4, 2026, 06:00 (UTC+8). Claim maintenance compensation before Version 7.2 ends; log in for issue-fix compensation before November 7, 06:00 (UTC+8). Compensation mail expires after 30 days.",
+              "ja": "両補償の対象は2026年11月4日06:00（UTC+8）までに冒険ランク5に到達した旅人。メンテナンス補償はVer.7.2終了まで、不具合修正補償は11月7日06:00（UTC+8）までにログインして受け取る。メール有効期限は30日。",
+              "zh": "两项补偿均面向2026年11月4日06:00（UTC+8）前达到冒险等阶5的旅行者。维护补偿须在7.2版本结束前领取；问题修复补偿须在11月7日06:00（UTC+8）前上线收取邮件。邮件有效期30天。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://genshin.hoyoverse.com/ko/news/detail/167187",
+              "https://genshin.hoyoverse.com/en/news/detail/167187",
+              "https://genshin.hoyoverse.com/ja/news/detail/167187",
+              "https://genshin.hoyoverse.com/zh-tw/news/detail/167187"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://genshin.hoyoverse.com/ko/news/detail/167187",
+        "https://genshin.hoyoverse.com/en/news/detail/167187",
+        "https://genshin.hoyoverse.com/ja/news/detail/167187",
+        "https://genshin.hoyoverse.com/zh-tw/news/detail/167187"
+      ],
+      "before": {
+        "summary": {
+          "ko": "To. 여행자 다음은 7.2 버전 「종말의 서막」의 업데이트 및 보상 내용입니다. 〓보상 내용〓 서버 점검 업데이트 보상: 원석x300 (서버 점검 시간당 원석x60 보상) 문제 수정 보상: 원석x300 (자세한 내용은 보상 우편을 참고해 주세요) 〓보상 대상〓 서버 점검 업데이트 보상: 2026/11/04 06:00 (UTC+8) 이전에 모험 등급 Lv.5 이상을 달성한 여행자 7.2 버전 종료 전까지 보상을 수령해 주세요. 문제 수정 보상: 2026/11/04 06:00 (UTC+8) 이전에 모험 등급 Lv.5 이상을 달성한 여행자 2026/11/07 06:00 ",
+          "en": "Below are the details of the Version 7.2 update \"Hour of Ruin\" and the update compensation. 〓Compensation Details〓 Maintenance Compensation: Primogems ×300 (60 Primogems per hour the servers are down) Issue Fix Compensation: Primogems ×300 (please refer to the relevant compensation mail for more details) 〓Scope of Comp",
+          "ja": "親愛なる旅人さんへ Ver.7.2——「終焉へ墜ちる時」へようこそ！ 〓補償内容〓 アップデートメンテナンスに伴う補償：原石×300（メンテナンス1時間につき、原石×60を補償いたします） 不具合修正に伴う補償：原石×300（補償内容は該当する補償メールをご確認ください） 〓補償範囲〓 アップデートメンテナンスに伴う補償：2026/11/04 06:00 (UTC+8)までに冒険ランク5に到達した旅人さん。 Ver.7.2終了までにログインし、お受け取りください。 不具合修正に伴う補償：2026/11/04 06:00 (UTC+8)までに冒険ランク5に到達した旅人さん。 2026/11/07 06:00 (UTC+8)までにログイ",
+          "zh": "親愛的旅行者： 以下是7.2版本——「壞滅肇始之時」更新與補償內容。 〓補償內容〓 停服更新補償：原石x300（停服維護每小時補償60個原石） 問題修復補償：原石x300（補償項目請參考對應補償信件） 〓補償範圍〓 停服更新補償：2026/11/04 06:00 (UTC+8)前冒險等階達到5級及以上的旅行者。 領取時間截至7.2版本結束前。 問題修復補償：2026/11/04 06:00 (UTC+8)前冒險等階達到5級及以上的旅行者。 請旅行者於2026/11/07 06:00 (UTC+8)前上線收取信件。 開發團隊將在維護完成後5小時內，以遊戲內信件的形式向旅行者發放相應補償。信件有效期限為30天，請及時領取補償附件。 〓更"
+        },
+        "verifiedAt": "2026-11-03T23:07:06.084Z",
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null,
+        "detailSections": null
+      }
+    },
+    {
+      "id": "feed-genshin-167189",
+      "set": {
+        "summary": {
+          "ko": "공식 SNS에서 미탸의 그림 속 단서를 보고 답을 남기는 이벤트. 11월 4일 12:00~15일 23:59(UTC+8) 진행하며, 참여 보상 외에 전체 플랫폼 참여자 중 100명을 추첨해 원석 160개씩 지급한다.",
+          "en": "Study the clues in Mitya’s illustration and reply to the official social-media event. Runs November 4, 12:00–November 15, 23:59 (UTC+8). Besides participation rewards, 100 participants across all platforms will each receive 160 Primogems by random draw.",
+          "ja": "公式SNSのイラストを観察して推理を投稿するキャンペーン。11月4日13:00～11月16日00:59（JST）。参加報酬のほか、全プラットフォームの参加者から抽選で100名に原石160個ずつをプレゼント。",
+          "zh": "在官方社群活動貼文觀察米提亞插畫中的線索並留下答案。活動為11月4日12:00至11月15日23:59（UTC+8）；除參與獎勵外，從所有平台參與者中抽出100名，各贈原石160。"
+        },
+        "verifiedAt": "2026-11-04T06:11:01Z",
+        "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167189",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "「미탸 따라잡기」——이벤트에 참여하면 이벤트 전용 보상을 드려요!",
+          "en": "\"Keep Up With Mitya!\" Participate in the event to receive event-exclusive rewards",
+          "ja": "#ミティヤと一緒 ——キャンペーンに参加して限定報酬を獲得しよう",
+          "zh": "「跟上米提亞！」——參與活動並獲得活動專屬獎勵"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167189/f055e70ea6eb192dd03843db2fa000cb_6219386715605144586.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167189",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "「미탸 따라잡기」——이벤트에 참여하면 이벤트 전용 보상을 드려요!",
+              "en": "\"Keep Up With Mitya!\" Participate in the event to receive event-exclusive rewards",
+              "ja": "#ミティヤと一緒 ——キャンペーンに参加して限定報酬を獲得しよう",
+              "zh": "「跟上米提亞！」——參與活動並獲得活動專屬獎勵"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167189/5d441cf37f25d2a8d87540ab51703aff_9026372546562128397.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/en/news/detail/167189",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "「미탸 따라잡기」——이벤트에 참여하면 이벤트 전용 보상을 드려요!",
+              "en": "\"Keep Up With Mitya!\" Participate in the event to receive event-exclusive rewards",
+              "ja": "#ミティヤと一緒 ——キャンペーンに参加して限定報酬を獲得しよう",
+              "zh": "「跟上米提亞！」——參與活動並獲得活動專屬獎勵"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167189/59ca6362356a11f6881b8e06595611b7_743239578988512232.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ja/news/detail/167189",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "「미탸 따라잡기」——이벤트에 참여하면 이벤트 전용 보상을 드려요!",
+              "en": "\"Keep Up With Mitya!\" Participate in the event to receive event-exclusive rewards",
+              "ja": "#ミティヤと一緒 ——キャンペーンに参加して限定報酬を獲得しよう",
+              "zh": "「跟上米提亞！」——參與活動並獲得活動專屬獎勵"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167189/ccaec6fd57d0eff04dbe00248912af90_2821615434499040933.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/zh-tw/news/detail/167189",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "「미탸 따라잡기」——이벤트에 참여하면 이벤트 전용 보상을 드려요!",
+              "en": "\"Keep Up With Mitya!\" Participate in the event to receive event-exclusive rewards",
+              "ja": "#ミティヤと一緒 ——キャンペーンに参加して限定報酬を獲得しよう",
+              "zh": "「跟上米提亞！」——參與活動並獲得活動專屬獎勵"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/hk4e/167189/f055e70ea6eb192dd03843db2fa000cb_6219386715605144586.jpg",
+            "imageSource": "https://genshin.hoyoverse.com/ko/news/detail/167189",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "「미탸 따라잡기」——이벤트에 참여하면 이벤트 전용 보상을 드려요!",
+              "en": "\"Keep Up With Mitya!\" Participate in the event to receive event-exclusive rewards",
+              "ja": "#ミティヤと一緒 ——キャンペーンに参加して限定報酬を獲得しよう",
+              "zh": "「跟上米提亞！」——參與活動並獲得活動專屬獎勵"
+            }
+          }
+        ],
+        "startAt": "2026-11-04T12:00:00+08:00",
+        "endAt": "2026-11-15T23:59:00+08:00",
+        "startDate": "2026-11-04",
+        "endDate": "2026-11-15",
+        "timingNote": {
+          "ko": "공식 기간은 UTC+8 기준 11월 4일 12:00~11월 15일 23:59. 한국·일본 시간으로는 11월 4일 13:00~11월 16일 00:59다.",
+          "en": "Official period: November 4, 12:00–November 15, 23:59 (UTC+8); equivalent to November 4, 13:00–November 16, 00:59 in Korea and Japan.",
+          "ja": "公式のUTC+8表記は11月4日12:00～11月15日23:59。日本時間では11月4日13:00～11月16日00:59。",
+          "zh": "官方时间为11月4日12:00至11月15日23:59（UTC+8），对应日本及韩国时间11月4日13:00至11月16日00:59。"
+        }
+      },
+      "sources": [
+        "https://genshin.hoyoverse.com/ko/news/detail/167189",
+        "https://genshin.hoyoverse.com/en/news/detail/167189",
+        "https://genshin.hoyoverse.com/ja/news/detail/167189",
+        "https://genshin.hoyoverse.com/zh-tw/news/detail/167189"
+      ],
+      "before": {
+        "summary": {
+          "ko": "이벤트 소개 실종된 작업자가 지내고 있었다던 오두막이 여기인가? 미탸가 알아챈 것에 대해 말하려는 순간, 머플러가 그의 입을 막아버렸습니다. 램프의 불빛, 발자국, 그리고 깃발. 이 중에서 이상한 점을 눈치채셨나요? 이벤트 일러스트를 살펴보고 미탸가 무엇을 발견했을지 추측해 보세요! 참여 방법 SNS 이벤트 게시글에서 이벤트 일러스트와 단서를 확인하고 여러분의 판단을 남기면 보상을 수령할 수 있습니다. * 플랫폼별로 참여 방법이 조금씩 다르니, 해당 SNS 이벤트 게시글의 안내에 따라 이벤트에 참여해 주세요~ 이벤트 기간 2026년 11월 4일 12:00 ~ 2026",
+          "en": "Event Summary Is this it? The cabin believed to belong to the missing worker. Mitya was just about to reveal what he'd discovered when his scarf covered his mouth. The light, footprints, and flag all look a little suspicious... Can you figure out what's off about them? Take a close look at the event illustration and fi",
+          "ja": "キャンペーン詳細 行方不明の作業員がいたって小屋はここか？ ミティヤが気づいたことについて話そうとした瞬間、マフラーが彼の口を塞いでしまった——ランプの光、足跡、そして旗。その中の異常に気づけるだろうか？ よく観察して、ミティヤが何に気づいたのか推測してみましょう！ 参加方法 イラストや手がかりを確認し、キャンペーンのSNS投稿にあなたの推理を返信することで対応する報酬を受け取れます。 ※各プラットフォームでの参加方法は異なります。旅人の皆さんは対応するSNSのキャンペーン投稿の案内に従ってご参加ください。 キャンペーン期間 2026年11月4日 13:00～2026年11月15日 24:59（JST） キャンペーン報酬 ①キャンペ",
+          "zh": "活動簡介 就是這裡嗎？疑似走失工人的小屋。 米提亞剛要說出發現，圍巾卻先遮住了他的嘴——燈光、腳印與旗幟，你能看出其中的異常嗎？ 觀察活動插畫，推測米提亞發現了什麼吧！ 參與方式 在社群媒體活動貼文中查看活動插畫與線索，並留下你的判斷，即可領取相應獎勵； *各平臺的參與方式有所不同，旅行者可透過對應社群媒體活動貼文的指引參與活動哦~ 活動時間 2026年11月4日12:00 - 2026年11月15日23:59（UTC+8） 活動獎勵 ① 成功參與活動的旅行者將收到專屬獎勵： 「慈愛」的指引x3、析晶褶傘x3、「能量補充餐」x3 ② 活動額外獎勵： 原石x160 ※從成功參與活動的旅行者中隨機抽出100名 兌換碼將於2026/11/"
+        },
+        "verifiedAt": "2026-11-04T04:01:35.677Z",
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null,
+        "startAt": null,
+        "endAt": null,
+        "startDate": null,
+        "endDate": null,
+        "timingNote": null
+      }
+    },
+    {
+      "id": "feed-zzz-167088",
+      "set": {
+        "summary": {
+          "ko": "오피와 「도깨비불」의 생일 기념 일러스트 「특별 승인」 공개. 발견한 고양이를 오볼로스 소대에 잠시 머물게 하는 짧은 이야기를 담았다.",
+          "en": "Orphie & Magus birthday artwork, “Special Approval,” is now available. The accompanying story lets a newly found cat stay with Obol Squad for the time being.",
+          "ja": "オルペウス＆「鬼火」の誕生日イラスト「特別許可」を公開。見つけた猫をしばらく小隊で預かる短いエピソードを添えている。",
+          "zh": "官方公开奥菲丝与「鬼火」生日插画「特批」，并附上让新发现的小猫暂时留在奥波勒斯小队的短篇故事。"
+        },
+        "verifiedAt": "2026-11-04T06:11:01Z",
+        "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167088/94bcdcd2bf34c990ffde805e9687de59_7761499343812684214.png",
+        "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167088",
+        "imageVerified": true,
+        "imageKind": "splash",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "생일 축하해, 오피 & 「도깨비불」 | 특별 승인",
+          "en": "Happy Birthday Orphie & Magus 丨 Special Approval",
+          "ja": "ハッピーバースデー、オルペウス＆「鬼火」｜特別許可",
+          "zh": "生日快乐奥菲丝&「鬼火」丨特批"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167088/94bcdcd2bf34c990ffde805e9687de59_7761499343812684214.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167088",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 오피 & 「도깨비불」 | 특별 승인",
+              "en": "Happy Birthday Orphie & Magus 丨 Special Approval",
+              "ja": "ハッピーバースデー、オルペウス＆「鬼火」｜特別許可",
+              "zh": "生日快乐奥菲丝&「鬼火」丨特批"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167088/94bcdcd2bf34c990ffde805e9687de59_5133534405021406699.png",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167088",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "en",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 오피 & 「도깨비불」 | 특별 승인",
+              "en": "Happy Birthday Orphie & Magus 丨 Special Approval",
+              "ja": "ハッピーバースデー、オルペウス＆「鬼火」｜特別許可",
+              "zh": "生日快乐奥菲丝&「鬼火」丨特批"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167088/a7ecf9cb9064b58716afb60203b668ac_1281402789331407962.png",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167088",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ja",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 오피 & 「도깨비불」 | 특별 승인",
+              "en": "Happy Birthday Orphie & Magus 丨 Special Approval",
+              "ja": "ハッピーバースデー、オルペウス＆「鬼火」｜特別許可",
+              "zh": "生日快乐奥菲丝&「鬼火」丨特批"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167088/94bcdcd2bf34c990ffde805e9687de59_7324226262835641793.png",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167088",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "zh",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 오피 & 「도깨비불」 | 특별 승인",
+              "en": "Happy Birthday Orphie & Magus 丨 Special Approval",
+              "ja": "ハッピーバースデー、オルペウス＆「鬼火」｜特別許可",
+              "zh": "生日快乐奥菲丝&「鬼火」丨特批"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167088/94bcdcd2bf34c990ffde805e9687de59_7761499343812684214.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167088",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 오피 & 「도깨비불」 | 특별 승인",
+              "en": "Happy Birthday Orphie & Magus 丨 Special Approval",
+              "ja": "ハッピーバースデー、オルペウス＆「鬼火」｜特別許可",
+              "zh": "生日快乐奥菲丝&「鬼火」丨特批"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "https://zenless.hoyoverse.com/ko-kr/news/167088",
+        "https://zenless.hoyoverse.com/en-us/news/167088",
+        "https://zenless.hoyoverse.com/ja-jp/news/167088",
+        "https://zenless.hoyoverse.com/zh-cn/news/167088"
+      ],
+      "before": {
+        "summary": {
+          "ko": "「『도깨비불』 언니… 상자 위에서 고양이를 발견했어요. 저, 저를 보고 있어요」 「봤어. 그런데 네 눈이 더 반짝이잖아. 표정 관리해, 오피 대원」 「대장, 이, 이 아이를 집으로 데려가도 될까요…」 「그건 네가 모든 훈련을 통과한 다음에 보자. 그전까지는 일단 오볼로스 소대에 머물게 해도 돼」 「네! 오피, 즉시 실시하겠습니다!」 ※확률형 아이템 포함",
+          "en": "\"Magus... there's a cat on the cardboard box. It—It's looking at me.\" \"I see it. Your eyes are shining even brighter than it is. Mind your expression, squad member Orphie.\" \"Captain, can... can we take it home with us?\" \"Sure, but only after you've cleared all your training. Until then, it can bunk with Obol Squad for ",
+          "ja": "「『鬼火』姉さん…段ボール上に猫を発見しました…！こ、こちらを見ているであります…！」 「見ればわかる。お前の方がよほど目を輝かせてるがな…表情を抑えろ、オルペウス隊員」 「隊長ぉ…じ、自分…この子を連れ帰ってもいいでしょうか…」 「ふん、訓練基準をすべてクリアしてから言え。だが…それまでは、うちの小隊で預かってもいい…」 「…！はっ、オルペウス…ただちに任務を実行するであります！」",
+          "zh": "「『鬼火』姐…纸箱上有只猫。它、它在看我。」 「看到了。你的眼睛比它还亮。注意表情管理，奥菲丝队员。」 「队长，我、我们可以把它带回家吗…」 「等你所有训练达标就可以。不过，在此之前它可以先暂时先在奥波勒斯小队落脚。」 「是！队员奥菲丝，立即执行！」"
+        },
+        "verifiedAt": "2026-11-03T04:04:47.361Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      }
+    },
+    {
+      "id": "feed-zzz-167087",
+      "set": {
+        "summary": {
+          "ko": "유즈하의 생일 기념 일러스트 「황금색의 축복」 공개. 당첨된 1등 상 세 장을 괴담방 멤버들과 카마, 행운이 필요한 사람을 위해 나누는 이야기를 담았다.",
+          "en": "Yuzuha’s birthday artwork, “Golden Windfall,” shares her plans for three first prizes: treats for her friends, sashimi for Kama, and a prize saved for someone who needs good luck.",
+          "ja": "柚葉の誕生日イラスト「大当たりからの大当たり」を公開。三つの一等賞を仲間やカマ、幸運を必要とする人のために使うエピソードを添えている。",
+          "zh": "官方公开柚叶生日插画「接连金」，讲述她将三张一等奖分别用于请伙伴吃甜点、给卡玛买生鱼片，以及留给需要好运的人的故事。"
+        },
+        "verifiedAt": "2026-11-04T06:11:01Z",
+        "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167087/226e2eb8923a76c97c329160757ed019_1680844914689560403.png",
+        "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167087",
+        "imageVerified": true,
+        "imageKind": "splash",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "생일 축하해, 유즈하 | 황금색의 축복",
+          "en": "Happy Birthday, Yuzuha 丨 Golden Windfall",
+          "ja": "ハッピーバースデー、柚葉｜大当たりからの大当たり",
+          "zh": "生日快乐柚叶丨接连金"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167087/226e2eb8923a76c97c329160757ed019_1680844914689560403.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167087",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 유즈하 | 황금색의 축복",
+              "en": "Happy Birthday, Yuzuha 丨 Golden Windfall",
+              "ja": "ハッピーバースデー、柚葉｜大当たりからの大当たり",
+              "zh": "生日快乐柚叶丨接连金"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167087/5671c99dbcce7bac91aad2bcbdcc3a04_8456696540937994340.png",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167087",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "en",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 유즈하 | 황금색의 축복",
+              "en": "Happy Birthday, Yuzuha 丨 Golden Windfall",
+              "ja": "ハッピーバースデー、柚葉｜大当たりからの大当たり",
+              "zh": "生日快乐柚叶丨接连金"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167087/14c75b2d4e20908206b51559fcb7a31f_7747025686040552756.png",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167087",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ja",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 유즈하 | 황금색의 축복",
+              "en": "Happy Birthday, Yuzuha 丨 Golden Windfall",
+              "ja": "ハッピーバースデー、柚葉｜大当たりからの大当たり",
+              "zh": "生日快乐柚叶丨接连金"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167087/5671c99dbcce7bac91aad2bcbdcc3a04_370787235152552145.png",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167087",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "zh",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 유즈하 | 황금색의 축복",
+              "en": "Happy Birthday, Yuzuha 丨 Golden Windfall",
+              "ja": "ハッピーバースデー、柚葉｜大当たりからの大当たり",
+              "zh": "生日快乐柚叶丨接连金"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167087/226e2eb8923a76c97c329160757ed019_1680844914689560403.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167087",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 2286,
+            "height": 3536,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "생일 축하해, 유즈하 | 황금색의 축복",
+              "en": "Happy Birthday, Yuzuha 丨 Golden Windfall",
+              "ja": "ハッピーバースデー、柚葉｜大当たりからの大当たり",
+              "zh": "生日快乐柚叶丨接连金"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "https://zenless.hoyoverse.com/ko-kr/news/167087",
+        "https://zenless.hoyoverse.com/en-us/news/167087",
+        "https://zenless.hoyoverse.com/ja-jp/news/167087",
+        "https://zenless.hoyoverse.com/zh-cn/news/167087"
+      ],
+      "before": {
+        "summary": {
+          "ko": "「1등 상이 무려 세 장이나! 죄송해요, 오늘도 제가 행운의 주인공인가 봐요」 「한 장은, 괴담방 멤버들에게 디저트 한턱내야겠어요! 농담이 아니라 진심이에요~」 「한 장은 카마에게! 계속 회를 먹고 싶다고 했거든요」 「마지막 한 장은, 아껴뒀다가 행운이 필요한 분께 드리는 걸로 할게요~」 ※확률형 아이템 포함",
+          "en": "\"Triple jackpot! Sorry, but it seems like my luck's taking center stage today again!\" \"I'll use one ticket to treat all members of Spook Shack some tasty desserts. No playing tricks, I promise~\" \"And I'll save one for Kama. It's been craving raw fish slices since forever.\" \"As for the last one... I'll hang on to it and",
+          "ja": "「一等賞が3枚も！ごめーん、今日は柚葉が幸運をひとりじめしちゃったかも？」 「1枚目は～…怪啖屋のみんなでスイーツパーティーしちゃおっかな？今回はイタズラ抜きでね～」 「もう1枚はかまちーにあげる！ずっとお刺身食べたがってたもんね」 「最後の1枚は…大事に取っておこっと。そしたら…どうしても幸運が必要な人がいた時、分けてあげられるでしょ？」",
+          "zh": "「三张头奖！抱歉啦，今天又是我的幸运主场。」 「一张请怪啖屋全员吃甜品，没有恶作剧哦~」 「一张给阿釜，它说想吃鱼生很久了。」 「最后一张存起来，留给下一个需要好运的人吧~」"
+        },
+        "verifiedAt": "2026-11-02T04:33:05.732Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      }
+    },
+    {
+      "id": "feed-zzz-167085",
+      "set": {
+        "summary": {
+          "ko": "2026년 11월 공식 달력 월페이퍼 공개. 공지의 다운로드 링크에서 모바일용과 PC용 배경화면을 받을 수 있다.",
+          "en": "Official November 2026 calendar wallpaper is available. The announcement links to downloads for both phones and PCs.",
+          "ja": "2026年11月の公式カレンダー壁紙を公開。告知のダウンロードリンクからスマートフォン用とデスクトップ用を入手できる。",
+          "zh": "官方公开2026年11月月历壁纸。公告下载链接包含手机及电脑版壁纸。"
+        },
+        "verifiedAt": "2026-11-04T06:11:01Z",
+        "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167085/63a3541d0682dd1c59c77fa7dcb06f39_2104217009688510094.jpg",
+        "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167085",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "〈젠레스 존 제로〉 2026년 11월 달력 월페이퍼",
+          "en": "ZZZ Nov 2026 Calendar Wallpaper",
+          "ja": "『ゼンレスゾーンゼロ』2026年11月カレンダー壁紙",
+          "zh": "《绝区零》2026年11月月历壁纸"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167085/63a3541d0682dd1c59c77fa7dcb06f39_2104217009688510094.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167085",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "〈젠레스 존 제로〉 2026년 11월 달력 월페이퍼",
+              "en": "ZZZ Nov 2026 Calendar Wallpaper",
+              "ja": "『ゼンレスゾーンゼロ』2026年11月カレンダー壁紙",
+              "zh": "《绝区零》2026年11月月历壁纸"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167085/9843e3eef5280b1d6a8779c4ad3ec90b_802625027583240028.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167085",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "〈젠레스 존 제로〉 2026년 11월 달력 월페이퍼",
+              "en": "ZZZ Nov 2026 Calendar Wallpaper",
+              "ja": "『ゼンレスゾーンゼロ』2026年11月カレンダー壁紙",
+              "zh": "《绝区零》2026年11月月历壁纸"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167085/0fc52896f699b2ab87399e6aaffdf4cc_1113370812418936141.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167085",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "〈젠레스 존 제로〉 2026년 11월 달력 월페이퍼",
+              "en": "ZZZ Nov 2026 Calendar Wallpaper",
+              "ja": "『ゼンレスゾーンゼロ』2026年11月カレンダー壁紙",
+              "zh": "《绝区零》2026年11月月历壁纸"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167085/49960af4f2efad9a26692e0b00255fa5_5808933229946155734.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167085",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "〈젠레스 존 제로〉 2026년 11월 달력 월페이퍼",
+              "en": "ZZZ Nov 2026 Calendar Wallpaper",
+              "ja": "『ゼンレスゾーンゼロ』2026年11月カレンダー壁紙",
+              "zh": "《绝区零》2026年11月月历壁纸"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167085/63a3541d0682dd1c59c77fa7dcb06f39_2104217009688510094.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167085",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "〈젠레스 존 제로〉 2026년 11월 달력 월페이퍼",
+              "en": "ZZZ Nov 2026 Calendar Wallpaper",
+              "ja": "『ゼンレスゾーンゼロ』2026年11月カレンダー壁紙",
+              "zh": "《绝区零》2026年11月月历壁纸"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "https://zenless.hoyoverse.com/ko-kr/news/167085",
+        "https://zenless.hoyoverse.com/en-us/news/167085",
+        "https://zenless.hoyoverse.com/ja-jp/news/167085",
+        "https://zenless.hoyoverse.com/zh-cn/news/167085"
+      ],
+      "before": {
+        "summary": {
+          "ko": "「점장님, 요즘 인기 있는 선물은 어떤 게 있을까요?」 「오늘 저녁에 정기적인 가족 모임이 있어서… 방금 또 어떤 사람이 전화해서 재촉하네요」 로프꾼님, 2026년 11월 달력 월페이퍼를 다운로드해 주셔서 감사합니다~ ▼ 다운로드 링크에 모바일 및 PC 버전 월페이퍼가 포함되어 있습니다. https://hoyo.link/Gmvr6RTle",
+          "en": "\"Manager, do you have any trendy gifts in stock lately?\" \"Tonight's the usual family event, and... someone just called again to hurry me along.\" Dear Proxies, feel free to download and use this November 2026 calendar wallpaper~ ▼ Download link includes both phone and PC versions https://hoyo.link/pylTh4Z64",
+          "ja": "「店長くん、最近の良い贈答品に…何か心当たりはないか？」 「今夜、恒例の家族の集まりがあるんだが…つい今しがた、電話で『あれ』に急かされたところでな」 親愛なるプロキシの皆様、ぜひ11月のカレンダー壁紙をお使いください！ ▼ダウンロードリンクにはスマホ&デスクトップ用壁紙が含まれています。 https://hoyo.link/Mgk7VBNJH",
+          "zh": "「店长，最近有什么时兴的礼物吗？」 「今晚是例行的家庭活动...有人刚刚又打电话来催我了。」 亲爱的绳匠，欢迎下载&使用11月月历壁纸~ ▼下载链接内包含手机与电脑版壁纸。 https://hoyo.link/f5Wifw7e3"
+        },
+        "verifiedAt": "2026-11-01T04:04:50.206Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      }
+    },
+    {
+      "id": "feed-zzz-167082",
+      "set": {
+        "summary": {
+          "ko": "피닉스 테마 공식 배경화면 공개. 공지 본문에서 3840×2160 이미지 8종과 추가 배경화면 다운로드 링크를 제공한다.",
+          "en": "Official Phoenix-themed wallpapers are available. The announcement includes eight 3840×2160 images and a link to more wallpapers.",
+          "ja": "フィオニーテーマの公式壁紙を公開。告知本文で3840×2160画像8点と追加の壁紙ダウンロードリンクを案内している。",
+          "zh": "官方公开菲欧妮主题壁纸，公告正文提供8张3840×2160图片及更多壁纸的下载链接。"
+        },
+        "verifiedAt": "2026-11-04T06:11:01Z",
+        "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/03b1ea361b849682e52ee95455d5006e_3622070920318445795.jpg",
+        "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+        "imageVerified": true,
+        "imageKind": "splash",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 1",
+          "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 1",
+          "ja": "壁紙配布｜フィオニーテーマの壁紙 · 1",
+          "zh": "壁纸分享 | 菲欧妮主题壁纸 · 1"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/03b1ea361b849682e52ee95455d5006e_3622070920318445795.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 1",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 1",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 1",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 1"
+            }
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/40fd09290099385b8ec0ad7a7810e6c1_2533368403815459411.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "en",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 1",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 1",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 1",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 1"
+            }
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/e163e27907db5db0bc19f916f7b03e8a_3612090957693171446.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ja",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 1",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 1",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 1",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 1"
+            }
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/40fd09290099385b8ec0ad7a7810e6c1_2533368403815459411.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "zh",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 1",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 1",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 1",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 1"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/03b1ea361b849682e52ee95455d5006e_3622070920318445795.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 1",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 1",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 1",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 1"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/74a985e1410062b92710cacec0f3cc1e_4596945256978250161.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 2",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 2",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 2",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 2"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/dafb7570c42cb58d4368b9de309b84a1_8677359062802099833.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 3",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 3",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 3",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 3"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/554fc00cbb4613a4bb367fbd6cfd21f4_1683982695779159514.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 4",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 4",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 4",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 4"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/a0408480ddaca45b73b0b968c989b3fe_8798805407416207847.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 5",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 5",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 5",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 5"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/e3533eceb3087cc6cf96d0fa1dc86316_8058166294737927910.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 6",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 6",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 6",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 6"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/343a3f1cd31fe44feb40935824cdd7a9_5720466066435560091.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 7",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 7",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 7",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 7"
+            }
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167082/7eef2a5ba351ad8cde0bdb9804aeda42_2835649152299779040.jpg",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167082",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "ko",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "imageCaption": {
+              "ko": "배경화면 공유 | 피닉스 테마 배경화면 · 8",
+              "en": "Wallpaper Sharing | Phoenix Themed Wallpapers · 8",
+              "ja": "壁紙配布｜フィオニーテーマの壁紙 · 8",
+              "zh": "壁纸分享 | 菲欧妮主题壁纸 · 8"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "https://zenless.hoyoverse.com/ko-kr/news/167082",
+        "https://zenless.hoyoverse.com/en-us/news/167082",
+        "https://zenless.hoyoverse.com/ja-jp/news/167082",
+        "https://zenless.hoyoverse.com/zh-cn/news/167082"
+      ],
+      "before": {
+        "summary": {
+          "ko": "오늘 로프꾼 여러분을 위해 피닉스의 배경화면을 선보입니다! 피닉스 심판관님, 기운 내세요! 잊지 말고 다운로드 후 사용해 보세요! ▼ 더 많은 배경화면 https://hoyo.link/TZeoiitMq ——뉴에리두에 오신 걸 환영합니다!—— ※확률형 아이템 포함",
+          "en": "Hey Proxies! Today, we're bringing you Phoenix-themed wallpapers! Judge Phoenix, pull it together! Feel free to download & use them! ▼ More Wallpapers https://hoyo.link/9ThxBOdQP —Welcome to New Eridu—",
+          "ja": "本日はプロキシの皆様にフィオニーの壁紙をお届けします！フィオニー裁決官、気をしっかり！ぜひダウンロードしてお使いください！ ▼ 壁紙を入手 https://hoyo.link/bSmOP08ck ——新エリー都へようこそ！——",
+          "zh": "今天为绳匠们带来的是菲欧妮主题壁纸！菲欧妮裁决官，请打起精神呀！请务必记得下载&取用哦~ ▼更多壁纸 https://hoyo.link/9ThxBOdQP —— 欢迎来到新艾利都！——"
+        },
+        "verifiedAt": "2026-10-29T10:03:28.194Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      }
+    },
+    {
+      "id": "feed-hsr-167178",
+      "set": {
+        "videos": [
+          {
+            "youtubeId": "OzL48iFuq8E",
+            "kind": "character",
+            "format": "pv",
+            "title": {
+              "ko": "〈붕괴: 스타레일〉 즉흥 순회공연 PV——「아하가 문을 두드릴 때」",
+              "en": "Improv Tour Trailer: \"When Aha Comes Knocking\" | Honkai: Star Rail",
+              "ja": "【崩壊：スターレイル】 即興芝居PV 「アッハが訪れた時」",
+              "zh": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」"
+            },
+            "titleOfficialLocales": [
+              "ko",
+              "en",
+              "ja",
+              "zh"
+            ],
+            "locale": "ko",
+            "channel": "붕괴: 스타레일",
+            "sourceUrl": "https://www.youtube.com/watch?v=OzL48iFuq8E",
+            "originalTitle": "즉흥 순회공연 PV——「아하가 문을 두드릴 때」|〈붕괴: 스타레일〉",
+            "publishedAt": null,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://hsr.hoyoverse.com/ko-kr/news/167178",
+              "https://www.youtube.com/@Honkaistarrail_kr"
+            ]
+          },
+          {
+            "youtubeId": "Asggb78zcYA",
+            "kind": "character",
+            "format": "pv",
+            "title": {
+              "ko": "〈붕괴: 스타레일〉 즉흥 순회공연 PV——「아하가 문을 두드릴 때」",
+              "en": "Improv Tour Trailer: \"When Aha Comes Knocking\" | Honkai: Star Rail",
+              "ja": "【崩壊：スターレイル】 即興芝居PV 「アッハが訪れた時」",
+              "zh": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」"
+            },
+            "titleOfficialLocales": [
+              "ko",
+              "en",
+              "ja",
+              "zh"
+            ],
+            "locale": "en",
+            "channel": "Honkai: Star Rail",
+            "sourceUrl": "https://www.youtube.com/watch?v=Asggb78zcYA",
+            "originalTitle": "Improv Tour Trailer: \"When Aha Comes Knocking\" | Honkai: Star Rail",
+            "publishedAt": null,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://hsr.hoyoverse.com/en-us/news/167178",
+              "https://www.youtube.com/@HonkaiStarRail"
+            ]
+          },
+          {
+            "youtubeId": "lSfsFcXLCm8",
+            "kind": "character",
+            "format": "pv",
+            "title": {
+              "ko": "〈붕괴: 스타레일〉 즉흥 순회공연 PV——「아하가 문을 두드릴 때」",
+              "en": "Improv Tour Trailer: \"When Aha Comes Knocking\" | Honkai: Star Rail",
+              "ja": "【崩壊：スターレイル】 即興芝居PV 「アッハが訪れた時」",
+              "zh": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」"
+            },
+            "titleOfficialLocales": [
+              "ko",
+              "en",
+              "ja",
+              "zh"
+            ],
+            "locale": "ja",
+            "channel": "崩壊：スターレイル",
+            "sourceUrl": "https://www.youtube.com/watch?v=lSfsFcXLCm8",
+            "originalTitle": "【崩壊：スターレイル】 即興芝居PV 「アッハが訪れた時」",
+            "publishedAt": null,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://hsr.hoyoverse.com/ja-jp/news/167178",
+              "https://www.youtube.com/@Houkaistarrail_jp"
+            ]
+          },
+          {
+            "youtubeId": "R6bFHc0WVmo",
+            "kind": "character",
+            "format": "pv",
+            "title": {
+              "ko": "〈붕괴: 스타레일〉 즉흥 순회공연 PV——「아하가 문을 두드릴 때」",
+              "en": "Improv Tour Trailer: \"When Aha Comes Knocking\" | Honkai: Star Rail",
+              "ja": "【崩壊：スターレイル】 即興芝居PV 「アッハが訪れた時」",
+              "zh": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」"
+            },
+            "titleOfficialLocales": [
+              "ko",
+              "en",
+              "ja",
+              "zh"
+            ],
+            "locale": "zh",
+            "channel": "崩壞: 星穹鐵道",
+            "sourceUrl": "https://www.youtube.com/watch?v=R6bFHc0WVmo",
+            "originalTitle": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」",
+            "publishedAt": null,
+            "verifiedAt": "2026-11-04T06:11:01Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://hsr.hoyoverse.com/zh-cn/news/167178",
+              "https://www.youtube.com/@HonkaiStarRail_ZH"
+            ]
+          }
+        ],
+        "verifiedAt": "2026-11-04T06:11:01Z"
+      },
+      "sources": [
+        "https://hsr.hoyoverse.com/ko-kr/news/167178",
+        "https://hsr.hoyoverse.com/en-us/news/167178",
+        "https://hsr.hoyoverse.com/ja-jp/news/167178",
+        "https://hsr.hoyoverse.com/zh-cn/news/167178"
+      ],
+      "before": {
+        "videos": null,
+        "verifiedAt": "2026-11-04T04:01:34.320Z"
+      }
+    }
+  ]
+}
