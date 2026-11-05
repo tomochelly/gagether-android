@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "requestId": "20261105T085039Z-nte-contest-image-url-fix",
+  "reason": "앞선 파일에서 이환 공식 이미지의 비ASCII 파일명 다운로드가 UnicodeEncodeError로 제외되어 같은 원본 바이트의 URL 경로를 표준 퍼센트 인코딩으로 수정한다. 이미 반영된 젠레스 존 제로·블루 아카이브 3건은 재제출하지 않는다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T08:50:39Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-nte-global-115131137",
+      "set": {
+        "title": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+          "en": "NTE Version 1.5 Creation Contest (translation)",
+          "ja": "NTE Ver.1.5創作コンテスト（翻訳）",
+          "zh": "NTE 1.5 版本創作比賽（翻譯）"
+        },
+        "sourceTitle": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+        "summary": {
+          "ko": "이환 1.5 버전의 캐릭터·스토리·이벤트를 주제로 일러스트, 숏폼, 롱폼 창작물을 모집한다. 작품을 공개 게시하고 지정 폼으로 제출하면 심사를 통해 최대 $1,000와 환석 6,480개 등 부문별 보상을 받을 기회가 있다. 세부 참가 조건은 공식 공고에 안내되어 있다.",
+          "en": "NTE’s Version 1.5 contest accepts illustrations, short videos and long videos based on its characters, story and events. Publicly posted works submitted through the designated form can compete for category prizes, including up to $1,000 and 6,480 in-game currency. Eligibility follows the official rules.",
+          "ja": "NTE Ver.1.5のキャラクター・物語・イベントをテーマに、イラスト、短尺・長尺動画を募集。公開した作品を指定フォームで応募すると、審査により最大1,000ドルやゲーム内通貨6,480個などの部門別賞を獲得できる可能性がある。参加条件は公式規約に従う。",
+          "zh": "NTE 1.5 版本創作比賽募集角色、劇情與活動主題的插畫、短影片及長影片。公開發布作品並透過指定表單提交後，可參與各部門評選，獎項包括最高 1,000 美元及 6,480 個遊戲內貨幣等，資格依官方規則判定。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-05T08:50:39Z",
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+            "title": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+            "publisher": "NTE / Hotta Studio",
+            "publishedAt": "2026-11-04"
+          }
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "참가·심사 조건",
+              "en": "Submission and judging conditions",
+              "ja": "応募・審査条件",
+              "zh": "投稿與評選條件"
+            },
+            "body": {
+              "ko": "공식 해시태그 #이환 #NTE #NTEFanart를 넣어 작품을 게시한 뒤 링크를 폼에 제출한다. 작품마다 별도 폼이 필요하다. 숏폼의 현금상 심사에는 누적 조회수 10만 회, 롱폼에는 4만 회 이상이 필요하며 조회수만으로 수상을 결정하지 않는다. AI 생성물·무단 전재·기존 작품 재제출은 허용되지 않는다.",
+              "en": "Publish the work with #이환 #NTE #NTEFanart and submit its link; use one form per work. Cash-award consideration requires at least 100,000 cumulative views for short videos or 40,000 for long videos. Views alone do not determine winners. AI-generated work, unauthorized reposts and previously submitted work are excluded.",
+              "ja": "#이환 #NTE #NTEFanartを付けて作品を公開し、作品ごとに別のフォームでリンクを提出。現金賞の審査対象には短尺動画で累計10万回、長尺動画で4万回以上の再生が必要だが、再生数のみで受賞は決まらない。AI生成物、無断転載、既応募作品の再提出は禁止。",
+              "zh": "作品須附上 #이환 #NTE #NTEFanart 並公開發布，每件作品分別提交一份表單。短影片與長影片的現金獎評選門檻分別為累計 10 萬及 4 萬次觀看，但不以觀看數單獨決定得獎。禁止 AI 生成、未授權轉載及重新提交已投稿作品。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+              "https://pf.kakao.com/_uSxfcG/115131137"
+            ]
+          },
+          {
+            "title": {
+              "ko": "공식 공고의 일정 표기",
+              "en": "Dates stated in the official notice",
+              "ja": "公式告知の日程表記",
+              "zh": "官方公告的日期標示"
+            },
+            "body": {
+              "ko": "본문은 접수 마감을 2026년 12월 14일 00:59(KST)로, 배너는 12월 13일(KST)로 표기한다. 마감 표기가 달라 정확한 접수 종료 시각은 확인이 필요하다. 본문상 심사는 12월 14일~31일 00:59, 결과 공개는 12월 31일~2027년 1월 7일 00:59(KST)이며 보상은 1월 8일부터 순차 지급 예정이다.",
+              "en": "The body gives an entry deadline of December 14, 2026 at 00:59 KST, while the banner says December 13 KST; the exact cutoff needs clarification. The body lists judging through December 31 at 00:59, results from December 31 to January 7, 2027 at 00:59 KST, and rewards beginning January 8.",
+              "ja": "本文の応募締切は2026年12月14日00:59（KST）、バナーは12月13日（KST）と表記が異なるため、正確な締切は要確認。本文では審査は12月31日00:59まで、結果公開は12月31日～2027年1月7日00:59（KST）、報酬は1月8日から順次配布予定。",
+              "zh": "正文寫明截止時間為 2026 年 12 月 14 日 00:59（KST），宣傳圖則標示 12 月 13 日（KST），確切截止時間仍需釐清。正文列出評審至 12 月 31 日 00:59，結果公布為 12 月 31 日至 2027 年 1 月 7 日 00:59（KST），獎勵自 1 月 8 日起陸續發放。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+              "https://pf.kakao.com/_uSxfcG/115131137"
+            ]
+          }
+        ],
+        "image": "https://ntevmg.perfectworld.com/webops/nte/1.5%E4%BA%8C%E5%88%9B-kr.jpg",
+        "imageSource": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "originalLanguageFallback": true,
+        "imageCaption": {
+          "ko": "이환 1.5 버전 창작 작품 공모전의 한국 공식 배너.",
+          "en": "Official Korean banner for the NTE Version 1.5 creation contest.",
+          "ja": "NTE Ver.1.5創作コンテストの韓国公式バナー。",
+          "zh": "NTE 1.5 版本創作比賽韓國官方宣傳圖。"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://ntevmg.perfectworld.com/webops/nte/1.5%E4%BA%8C%E5%88%9B-kr.jpg",
+            "imageSource": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-05T08:46:46Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "이환 1.5 버전 창작 작품 공모전의 한국 공식 배너.",
+              "en": "Official Korean banner for the NTE Version 1.5 creation contest.",
+              "ja": "NTE Ver.1.5創作コンテストの韓国公式バナー。",
+              "zh": "NTE 1.5 版本創作比賽韓國官方宣傳圖。"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://ntevmg.perfectworld.com/webops/nte/1.5%E4%BA%8C%E5%88%9B-kr.jpg",
+            "imageSource": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-05T08:46:46Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "이환 1.5 버전 창작 작품 공모전의 한국 공식 배너.",
+              "en": "Official Korean banner for the NTE Version 1.5 creation contest.",
+              "ja": "NTE Ver.1.5創作コンテストの韓国公式バナー。",
+              "zh": "NTE 1.5 版本創作比賽韓國官方宣傳圖。"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공! 안녕하세요, 감정사님. 「이환」 1.5 버전 창작 작품 공모전이 정식 오픈되었습니다! 이벤트 상세 보기",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "sourceTitle": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공! 안녕하세요, 감정사님. 「이환」 1.5 버전 창작 작품 공모전이 정식 오픈되었습니다! 이벤트 상세 보기",
+        "summary": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공! 안녕하세요, 감정사님. 「이환」 1.5 버전 창작 작품 공모전이 정식 오픈되었습니다! 이벤트 상세 보기 1.5 버전 신규 캐릭터, 스토리, 버전 이벤트 등을 주제로 콘텐츠를 제작해 참여하면 최대 $1,000의 현금 보상과 환석 6,480개를 획득할 기회가 주어집니다! 여러분의 창작물을 지금 바로 공유해 보세요!✨ [이벤트 일정] 공모 기간: 2026년 11월 5일 ~ 2026년 12월 14일 00:59 (KST) 공개 기간: 2026년 12월 31일 ~ 2027년 ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-05T06:03:40.665Z",
+        "relatedSources": null,
+        "detailSections": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "originalLanguageFallback": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://pf.kakao.com/_uSxfcG/115131137",
+        "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html"
+      ]
+    }
+  ]
+}
