@@ -1,0 +1,956 @@
+{
+  "version": 1,
+  "requestId": "20261105T115147Z-prerelease-and-service-summaries",
+  "reason": "사용자가 제공한 교정 목록의 공식 공지 본문과 영상 제목·설명을 바탕으로 누락 요약 및 공식 일본어 제목을 보완합니다. 다른 언어 값과 운영자 편집은 보존합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T11:51:47Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-ananta-global-1197755",
+      "set": {
+        "summary": {
+          "ko": "프로젝트의 정식 명칭을 「무한대(ANANTA)」로 공개한 리네임 티저다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.anantagame.com/kr/news/official/20241203/41399_1197755.html"
+      ]
+    },
+    {
+      "id": "official-video-azur-promilia-ko-Ts6OTBtUork",
+      "set": {
+        "summary": {
+          "ko": "샤루루 마을의 사냥꾼 테라라를 소개하는 캐릭터 PV다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=Ts6OTBtUork"
+      ]
+    },
+    {
+      "id": "official-video-azur-promilia-ko-oYe_S6KMeIc",
+      "set": {
+        "summary": {
+          "ko": "메이플을 소개하는 캐릭터 PV다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=oYe_S6KMeIc"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3445004",
+      "set": {
+        "summary": {
+          "ko": "CBT 참여자를 대상으로 5월 16~18일 설문조사를 진행했다. 참여 보상 넥슨캐시 3,000원의 지급 완료 소식을 5월 26일 추가했다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3445004"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3446222",
+      "set": {
+        "summary": {
+          "ko": "5월 16일 CBT 2일차 온타임 선물 지급 오류가 수정되었다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3446222"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3447240",
+      "set": {
+        "summary": {
+          "ko": "5월 18일 CBT가 종료되었다. CBT에서 생성된 게임 데이터는 삭제되며, 사용한 테스트 클라이언트 삭제를 권장한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3447240"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3449239",
+      "set": {
+        "summary": {
+          "ko": "5월 22일 CBT 의견·버그·접속 종료 현상 제보 채널의 운영이 종료되었다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3449239"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3473578",
+      "set": {
+        "summary": {
+          "ko": "6월 11일 공식 홈페이지 서버 점검을 안내했다. 점검 중에는 홈페이지와 마이 스티커 이벤트 이용이 제한되며, 공식 커뮤니티는 정상 운영된다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3473578"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3477081",
+      "set": {
+        "summary": {
+          "ko": "6월 18일 공식 홈페이지 서버 점검을 안내했다. 점검 중에는 홈페이지와 마이 스티커 이벤트 이용이 제한되며, 공식 커뮤니티는 정상 운영된다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3477081"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3495383",
+      "set": {
+        "summary": {
+          "ko": "글로벌 사전등록 목표를 모두 달성하면 별의 기억 20개와 애니스를 지급하는 보상 계획을 안내한다. 글로벌 SNS 팔로워 500만 달성 보상은 키보 「별빛 구름이」다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6811&thread=3495383"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3508114",
+      "set": {
+        "summary": {
+          "ko": "공식 커뮤니티·웹 이벤트 경품인 캐릭터 아크릴 스탠드의 배송 지연 공지다. 8월 28일 추가 안내에서 경품 발송 소식을 알렸다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3508114"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3520455",
+      "set": {
+        "summary": {
+          "ko": "8월 10일부터 Google Play·App Store·Galaxy Store 사전예약을 시작했다. 스토어 사전예약을 통해 출시 알림을 받을 수 있다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6808&thread=3520455"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3558816",
+      "set": {
+        "summary": {
+          "ko": "「키보 캠프 대작전」 웹 이벤트를 10월 23일~12월 31일 진행한다. 본인 인증한 만 15세 이상 넥슨 계정으로 미션에 참여하며, 게임 보상은 11월 26일 출시 후 사용할 수 있다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6811&thread=3558816"
+      ]
+    },
+    {
+      "id": "quick-azur-promilia-kr-3568640",
+      "set": {
+        "summary": {
+          "ko": "11월 13일까지 공식 X 계정을 팔로우하고 지정 해시태그로 인용 재게시한 뒤 게시물 주소를 제출하는 이벤트다. 참가자 중 추첨으로 93명에게 경품을 지급한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://forum.nexon.com/azurpromilia/board_view?board=6811&thread=3568640"
+      ]
+    },
+    {
+      "id": "feed-bluearchive-696",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月7日のメンテナンス後、ツムギのピックアップ募集を開始。エリ、カノエ、ミヤコ（水着）、サキ（水着）の復刻募集も開催する。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://bluearchive.jp/news/newsJump/696"
+      ]
+    },
+    {
+      "id": "feed-bluearchive-700",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月21日から28日まで、トモエ（チーパオ）、マリナ（チーパオ）、カンナ、ノアの復刻ピックアップ募集を開催。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://bluearchive.jp/news/newsJump/700"
+      ]
+    },
+    {
+      "id": "recap-bluearchive-en-wyLullkg1_o",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The 40th official Blue Archive livestream hosted by CM Arcie.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=wyLullkg1_o"
+      ]
+    },
+    {
+      "id": "official-video-dna-en-ACQ9Wt7UWmU",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "A Date with the White Rabbit is the version trailer for Paradise’s 22nd White Bunny.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=ACQ9Wt7UWmU"
+      ]
+    },
+    {
+      "id": "official-video-dna-en-QmeEc279kbM",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "To the Dawn is the version trailer for Towards the Dawn.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=QmeEc279kbM"
+      ]
+    },
+    {
+      "id": "official-video-dna-ko-U5RR0nv0tdI",
+      "set": {
+        "summary": {
+          "ko": "「낙원의 22번째 하얀 토끼」 버전 PV 「하얀 토끼의 약속」이다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=U5RR0nv0tdI"
+      ]
+    },
+    {
+      "id": "official-video-dna-ko-VB1LCDP_PRs",
+      "set": {
+        "summary": {
+          "ko": "「여명 속으로」 버전 PV 「여명을 향하여」다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=VB1LCDP_PRs"
+      ]
+    },
+    {
+      "id": "official-video-dna-zh-Tgb3AUiBCCg",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "「第22只樂園的白兔」版本宣傳影片，以「白兔之約」為題。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=Tgb3AUiBCCg"
+      ]
+    },
+    {
+      "id": "official-video-dna-zh-kzzCsNd5sAk",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "「行於破曉」版本宣傳影片，以「至黎明」為題。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=kzzCsNd5sAk"
+      ]
+    },
+    {
+      "id": "official-video-reverse1999-en-NzxWnWgGTDY",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The Sun-Warmed Winds of Meltemi is the garment trailer for Version 3.9, announced for November 5 (UTC-5).",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=NzxWnWgGTDY"
+      ]
+    },
+    {
+      "id": "official-video-reverse1999-en-OyrmlZ9Dk5A",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Building on Tomorrow is the garment trailer for Version 3.8, The Temporal Scale, announced for September 24 (UTC-5).",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=OyrmlZ9Dk5A"
+      ]
+    },
+    {
+      "id": "official-video-reverse1999-en-bFHjKEVMeN8",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The trailer introduces Version 3.9, Rekindled! Games of the Summer-Gold Sea, announced for November 5 (UTC-5).",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=bFHjKEVMeN8"
+      ]
+    },
+    {
+      "id": "official-video-reverse1999-en-pO4df3GN7p4",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The trailer introduces Version 3.8, The Temporal Scale, announced for September 24 (UTC-5).",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=pO4df3GN7p4"
+      ]
+    },
+    {
+      "id": "official-video-reverse1999-ko-IJPaR55p5Tk",
+      "set": {
+        "summary": {
+          "ko": "3.9 버전 의상 PV 「멜테미의 바람」의 한국어 버전이다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=IJPaR55p5Tk"
+      ]
+    },
+    {
+      "id": "official-video-reverse1999-ko-n6L0FdteTjs",
+      "set": {
+        "summary": {
+          "ko": "3.9 버전 의상 PV 「멜테미의 바람」의 영어 버전이다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=n6L0FdteTjs"
+      ]
+    },
+    {
+      "id": "official-video-reverse1999-ko-w9cNjOP6Plk",
+      "set": {
+        "summary": {
+          "ko": "3.8 버전 의상 PV 「미래의 토대」의 영어 버전이다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=w9cNjOP6Plk"
+      ]
+    },
+    {
+      "id": "official-video-reverse1999-ko-z3C7hpQw-sA",
+      "set": {
+        "summary": {
+          "ko": "3.8 버전 의상 PV 「미래의 토대」의 한국어 버전이다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=z3C7hpQw-sA"
+      ]
+    },
+    {
+      "id": "official-video-silver-palace-ko-ZLnvdBf3kPg",
+      "set": {
+        "summary": {
+          "ko": "그라티아의 캐릭터 PV 「어리석음과 용맹함」이다. 실버 팰리스의 12월 14일 글로벌 출시를 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=ZLnvdBf3kPg"
+      ]
+    },
+    {
+      "id": "quick-silver-palace-global-87",
+      "set": {
+        "summary": {
+          "ko": "실버 팰리스의 2차 창작, 게임 방송·영상 업로드에 적용되는 가이드를 공개했다. 비공식 작품 표시, 허용 범위, 금지 행위와 상업적 이용 시 사전 문의 조건을 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://silverpalace.elementagames.com/ko-kr/newsDetail?id=87"
+      ]
+    },
+    {
+      "id": "recap-stellasora-en-1mDUgyR2tOE",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The first-anniversary livestream was scheduled for October 18 at 04:00 AM (UTC-7), with the EN livestream room opening ten minutes earlier.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=1mDUgyR2tOE"
+      ]
+    },
+    {
+      "id": "recap-stellasora-ja-AISooF18y-I",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "リリース1周年を記念し、神田明神ホールから最新情報を届ける公開生放送。メインストーリーの内容にも触れる番組として案内されている。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=AISooF18y-I"
+      ]
+    },
+    {
+      "id": "recap-stellasora-zh-pFjewFaUtoU",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "一週年前瞻特別節目介紹週年最新資訊，預定於2026年10月18日19:00（UTC+8）開始。繁體中文服直播間於18:50開放。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=pFjewFaUtoU"
+      ]
+    },
+    {
+      "id": "quick-umamusume-jp-3504",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "2,600万ダウンロードを記念し、SSRメイクデビューガチャ第6Rチケット1枚を配布。11月26日までにゲームを開始したトレーナーが対象で、受け取り期限は配布から30日間。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://umamusume.jp/news/detail?id=3504"
+      ]
+    },
+    {
+      "id": "quick-umamusume-jp-3508",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "新育成シナリオ公開を記念した★3確定とSSR確定のガチャを開催。各ガチャは有償ジュエル1,500個を使い、それぞれ2回まで利用できる。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://umamusume.jp/news/detail?id=3508"
+      ]
+    },
+    {
+      "id": "quick-umamusume-jp-3509",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "新育成シナリオ公開記念キャンペーンを開催。最大80回の無料10連ガチャと、ジュエル1,500個を受け取れるログインボーナスなどを実施する。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://umamusume.jp/news/detail?id=3509"
+      ]
+    },
+    {
+      "id": "quick-umamusume-jp-3512",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月26日から11月3日まで、1日1回無料10連ガチャを最大80回引けるキャンペーンを開催。ガチャストックにより未ログイン期間の回数も利用できる。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://umamusume.jp/news/detail?id=3512"
+      ]
+    },
+    {
+      "id": "quick-umamusume-jp-3513",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "新育成シナリオ公開を記念した商品が10月26日からWebストアに登場。購入にはCygames IDとの連携が必要。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://umamusume.jp/news/detail?id=3513"
+      ]
+    },
+    {
+      "id": "quick-umamusume-jp-3516",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月26日に新育成シナリオ「朋、史解き ―午式駿大祭―」を追加。12年に一度の祭りを舞台に、人とウマ娘の絆を描く。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://umamusume.jp/news/detail?id=3516"
+      ]
+    },
+    {
+      "id": "umamusume-global-official-1120",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Spotlight Scouts run from October 20 at 22:00 to November 1 at 21:59 (UTC), featuring [Crane’s Ambition] Kitasan Black and [Jade’s Prosperity] Satono Diamond. The Support Card Scout features SSR [Outrunning Misfortune] Special Week and SSR [Capricious Excellence] Sweep Tosho.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://umamusume.com/news/1120"
+      ]
+    }
+  ]
+}

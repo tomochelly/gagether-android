@@ -1,0 +1,721 @@
+{
+  "version": 1,
+  "requestId": "20261105T115147Z-limbus-gfl2-endfield-summaries",
+  "reason": "사용자가 제공한 교정 목록의 공식 공지 본문과 영상 제목·설명을 바탕으로 누락 요약 및 공식 일본어 제목을 보완합니다. 다른 언어 값과 운영자 편집은 보존합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T11:51:47Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "official-video-endfield-ko-LGRJvchK9jg",
+      "set": {
+        "summary": {
+          "ko": "오퍼레이터 명하의 전투 시연 영상이다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=LGRJvchK9jg"
+      ]
+    },
+    {
+      "id": "official-video-endfield-ko-WaQmWrl1C4s",
+      "set": {
+        "summary": {
+          "ko": "메인 챕터 「단청도」의 버전 PV다. 사의 그림과 인연 마을이 소개된다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=WaQmWrl1C4s"
+      ]
+    },
+    {
+      "id": "official-video-endfield-ko-yFh0Pk6GsNI",
+      "set": {
+        "summary": {
+          "ko": "오퍼레이터 사의 전투 시연 영상이다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=yFh0Pk6GsNI"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-520870654839357747",
+      "set": {
+        "summary": {
+          "ko": "4월 23일 업데이트로 「갈라진 두 궤도」 상편을 시작하며 이벤트는 6월 3일까지 진행된다. 헬렌·사쿠라·리바 지정 발주은 5월 13일까지 열린다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 4/23 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/520870654839357747?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-529875951123694108",
+      "set": {
+        "summary": {
+          "ko": "4월 2일 업데이트로 「거울 고치와 죄수 나비」를 4월 22일까지 진행한다. 레이니·루이스·클루카이 지정 발주과 관련 보상을 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 4/2 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All r",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/529875951123694108?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-668380665149915537",
+      "set": {
+        "summary": {
+          "ko": "10월 29일 업데이트로 「꿈속의 네버랜드」와 「테미스의 대국」을 11월 18일까지 진행한다. 페일린·웰로드·섹스턴스·파에투사 지정 발주도 함께 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/668380665149915537?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-676256257153171566",
+      "set": {
+        "summary": {
+          "ko": "8월 27일 업데이트로 「거울상 중복」 상편을 시작하며 이벤트는 10월 7일까지 진행된다. OTs-14·바스티·보이마스티나 지정 발주은 9월 16일까지 열린다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 8/27 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/676256257153171566?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-678498544605200437",
+      "set": {
+        "summary": {
+          "ko": "5월 14일 업데이트로 「갈라진 두 궤도」 하편을 6월 3일까지 진행한다. 파에투사·앨바·드셰브니 지정 발주과 7일 출석 보상을 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 5/14 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/678498544605200437?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-697640745127903411",
+      "set": {
+        "summary": {
+          "ko": "6월 4일 업데이트로 「니디 캣 걸 오버로드」를 6월 24일까지 진행한다. 바스티·보이마스티나·린드 지정 발주을 함께 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 6/4 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All r",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/697640745127903411?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-697642648593236024",
+      "set": {
+        "summary": {
+          "ko": "6월 25일 업데이트로 「여명을 새기는 자」를 8월 5일까지 진행한다. 로렐라이·레이니·루이스 지정 발주은 7월 15일까지 열린다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 6/25 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/697642648593236024?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-697644549761138792",
+      "set": {
+        "summary": {
+          "ko": "7월 16일 업데이트로 「여명을 새기는 자」 하편과 「준마가 빛 밟을 때」를 8월 5일까지 진행한다. 샤이엔·류시·헬렌·유희 지정 발주을 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 7/16 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/697644549761138792?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-711157251640918070",
+      "set": {
+        "summary": {
+          "ko": "8월 6일 업데이트로 「월하의 진혼곡」을 8월 26일까지 진행한다. 섹스턴스·파에투사·울리드 지정 발주을 함께 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 8/6 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All r",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/711157251640918070?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-gfl2-kr-714538756043964463",
+      "set": {
+        "summary": {
+          "ko": "9월 17일 업데이트로 「거울상 중복」 하편을 10월 7일까지 진행한다. 소프·로렐라이·앨바 지정 발주을 함께 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "Steam :: GIRLS' FRONTLINE 2: EXILIUM :: GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 9/17 \" ); }; Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation. All ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://steamcommunity.com/games/3308670/announcements/detail/714538756043964463?l=koreana"
+      ]
+    },
+    {
+      "id": "limbus-global-season-8-punctum",
+      "set": {
+        "summary": {
+          "ko": "시즌 8 「푼크툼」의 자아 파편 이월, 스토리·패스 순차 업데이트, 인격 레벨 상한 증가와 채광 변경을 안내한다. 시즌 추출·자판기와 거울 던전 8 예고도 포함한다.",
+          "en": "The Season 8: Punctum guide covers Egoshard carryover, phased story and Battle Pass updates, the Identity level cap increase and Luxcavation changes. It also outlines seasonal Extractions, the Dispenser and Mirror Dungeon #8.",
+          "ja": "シーズン8「プンクトゥム」の自我の破片の繰り越し、ストーリーとパスの順次更新、人格レベル上限拡張と採光の変更を案内。シーズン抽出・自販機と鏡ダンジョン8の予告も含む。",
+          "zh": ""
+        },
+        "sourceUrl": "https://steamcommunity.com/gid/103582791473108638/announcements/detail/706656188498970098?l=koreana",
+        "sourceKind": "official",
+        "sourceTitle": "시즌 8 : 푼크툼에 대한 안내"
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "sourceUrl": "https://www.pickupcal.com/events/925504/",
+        "sourceKind": "community",
+        "sourceTitle": "시즌 8: 푼크툼"
+      },
+      "sources": [
+        "https://steamcommunity.com/gid/103582791473108638/announcements/detail/706656188498970098",
+        "https://steamcommunity.com/gid/103582791473108638/announcements/detail/706656188498970098?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254131059070030-en",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "A new Identity Target Extraction is announced for October 29 (KST), with an official preview trailer.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=english"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254131059070030-ja",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月29日（KST）の新規人格特定抽出を、公式予告映像とともに案内。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059070030?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254131059071073-en",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Scheduled maintenance is announced for October 29, from 10:00 to 12:00 (KST).",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071073?l=english"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254131059071073-ja",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月29日10:00～12:00（KST）の定期メンテナンスを案内。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071073?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667254131059071073-ko",
+      "set": {
+        "summary": {
+          "ko": "10월 29일 10:00~12:00(KST) 정기 점검을 안내했다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059071073?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511227668792427-en",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Scheduled maintenance is announced for October 8, from 10:00 to 12:00 (KST). The following maintenance on October 15 runs from 06:00 to 12:00 and includes a Mirror Dungeon weekly reward reset.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511227668792427?l=english"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511227668792427-ja",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月8日10:00～12:00（KST）の定期メンテナンスを案内。翌週10月15日は06:00～12:00の点検と鏡ダンジョン週間報酬のリセットを予定。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511227668792427?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511227668792427-ko",
+      "set": {
+        "summary": {
+          "ko": "10월 8일 10:00~12:00(KST) 정기 점검을 안내했다. 다음 주 10월 15일 점검은 06:00~12:00이며, 거울 던전 주간 보상 초기화에 유의해야 한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511227668792427?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511862081389519-en",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "A new Identity Target Extraction is announced for October 15 (KST), with an official preview trailer.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=english"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511862081389519-ja",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月15日（KST）の新規人格特定抽出を、公式予告映像とともに案内。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511862081389519?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511862081391680-en",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Maintenance is scheduled for October 15, from 06:00 to 12:00 (KST). Mirror Dungeon weekly bonuses and reward claims reset after the update, and previous rewards can no longer be claimed.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=english"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511862081391680-ja",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月15日06:00～12:00（KST）にメンテナンスを実施予定。更新後は鏡ダンジョンの週間ボーナスと報酬受領回数がリセットされ、以前の報酬は受け取れなくなる。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511862081391680?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511862081391682-en",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Mirror Dungeon #8, Mirror of Sisyphe, is added with the October 15 update. Normal difficulty requires clearing Main Story Canto II, while Hard requires Canto IX.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511862081391682?l=english"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511862081391682-ja",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月15日の更新で鏡ダンジョン8「シーシュポスの鏡」を追加。ノーマルはメインストーリー2章、ハードは9章クリア後に利用できる。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511862081391682?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-678511862081391682-ko",
+      "set": {
+        "summary": {
+          "ko": "10월 15일 업데이트로 거울 던전 8 「시지프의 거울」을 추가한다. 노멀은 메인 스토리 2장, 하드는 9장 클리어 후 이용할 수 있다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/678511862081391682?l=koreana"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-690897394695406954-en",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Scheduled maintenance is announced for October 22, from 10:00 to 12:00 (KST).",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/690897394695406954?l=english"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-690897394695406954-ja",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "10月22日10:00～12:00（KST）の定期メンテナンスを案内。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/690897394695406954?l=japanese"
+      ]
+    },
+    {
+      "id": "recap-limbus-ko-p6C0yxV4oaE",
+      "set": {
+        "summary": {
+          "ko": "도상구축 시연을 주제로 한 한국어 개발자 방송이다. 설명란에서는 별도의 로드맵 방송을 11월 16~18일 사이에 진행한다고 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=p6C0yxV4oaE"
+      ]
+    }
+  ]
+}

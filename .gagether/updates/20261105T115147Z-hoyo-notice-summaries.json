@@ -1,0 +1,780 @@
+{
+  "version": 1,
+  "requestId": "20261105T115147Z-hoyo-notice-summaries",
+  "reason": "사용자가 제공한 교정 목록의 공식 공지 본문과 영상 제목·설명을 바탕으로 누락 요약 및 공식 일본어 제목을 보완합니다. 다른 언어 값과 운영자 편집은 보존합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T11:51:47Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "official-video-genshin-en-6gFCnMLSw-Y",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The trailer introduces Version 7.2, Hour of Ruin, with English voice performances for Mitya, Valeriy and other characters.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=6gFCnMLSw-Y"
+      ]
+    },
+    {
+      "id": "official-video-genshin-en-8Ty-Btue6OI",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Vodyanitsa’s character trailer, “Tonight, We Sink as One,” features Suzie Yeung as her English voice.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=8Ty-Btue6OI"
+      ]
+    },
+    {
+      "id": "official-video-genshin-en-9OHKzmmq2e8",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Mitya’s character trailer, “Everything’s in Order,” features Brian Ballance as Mitya and Jordan Reynolds as Valeriy.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=9OHKzmmq2e8"
+      ]
+    },
+    {
+      "id": "official-video-genshin-en-vtOodOYxzp0",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Valeriy’s character trailer, “Order in Practice,” features Jordan Reynolds as his English voice.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=vtOodOYxzp0"
+      ]
+    },
+    {
+      "id": "official-video-genshin-ja-7FEl4aRKtOE",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "Ver.7.2「終焉へ墜ちる時」の公式PV。ミティヤ・バレリーなどの日本語キャストも公開されている。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=7FEl4aRKtOE"
+      ]
+    },
+    {
+      "id": "official-video-genshin-ko-6V0kctC2-Tg",
+      "set": {
+        "summary": {
+          "ko": "미탸의 캐릭터 트레일러 「모든 것은 계획대로」다. 한국어 더빙은 최우성이 맡았다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=6V0kctC2-Tg"
+      ]
+    },
+    {
+      "id": "official-video-genshin-ko-UC-Rt3s5KMg",
+      "set": {
+        "summary": {
+          "ko": "7.2 버전 「종말의 서막」 PV로, 미탸·발레리 등 등장인물의 한국어 더빙 정보를 함께 공개했다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=UC-Rt3s5KMg"
+      ]
+    },
+    {
+      "id": "official-video-genshin-ko-rFCCkJuqr_Y",
+      "set": {
+        "summary": {
+          "ko": "미탸의 캐릭터 PV 「조그만 잔재주」다. 한국어 더빙은 최우성이 맡았다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=rFCCkJuqr_Y"
+      ]
+    },
+    {
+      "id": "official-video-genshin-ko-tCeXHmvg3ko",
+      "set": {
+        "summary": {
+          "ko": "발레리의 캐릭터 트레일러 「규율의 집행자」다. 한국어 더빙은 박노식이 맡았다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=tCeXHmvg3ko"
+      ]
+    },
+    {
+      "id": "recap-genshin-ja-aJ-Ny9vwdhI",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "Ver.7.2「終焉へ墜ちる時」の予告番組。小林裕介（ミティヤ役）、村瀬歩（ウェンティ役）、佐藤元（アリョーシャ役）が出演する。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=aJ-Ny9vwdhI"
+      ]
+    },
+    {
+      "id": "official-video-hi3-ko-DTb8NP1uDDY",
+      "set": {
+        "summary": {
+          "ko": "9.0 버전 「여명의 꿈, 내일을 향해」 PV다. 메인 스토리 제2부 최종장 「이제, 미래를 품어라」와 테마 이벤트 「비화: 함장과 소원 나무」를 소개한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=DTb8NP1uDDY"
+      ]
+    },
+    {
+      "id": "official-video-hi3-ko-FetHJTKvv6U",
+      "set": {
+        "summary": {
+          "ko": "8.9 버전 「깃털이 내리는 구원」 PV로, 신규 S급 제레·발레리 「치유의 깃」과 메인 스토리 제2부 13장을 소개한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=FetHJTKvv6U"
+      ]
+    },
+    {
+      "id": "official-video-hi3-ko-ps7VQAYbnHo",
+      "set": {
+        "summary": {
+          "ko": "9.1 버전 「새롭게 빛나는 시간」 PV로, 신규 S급 드림시커 「시간의 율자」와 메인 스토리 제2부 후일담을 소개한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=ps7VQAYbnHo"
+      ]
+    },
+    {
+      "id": "quick-hi3-kr-47150539",
+      "set": {
+        "summary": {
+          "ko": "10월 22일 버전 업데이트 후 함교 이벤트를 진행한다. 이벤트 완료 보상으로 캐릭터 선택 상자와 축제 케이크를 받을 수 있다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47150539"
+      ]
+    },
+    {
+      "id": "quick-hi3-kr-47163475",
+      "set": {
+        "summary": {
+          "ko": "신규 S급 캐릭터 「시간의 율자」의 전투 가이드다. 허수 속성 화염 원소 대미지 캐릭터의 스킬과 운용을 소개한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47163475"
+      ]
+    },
+    {
+      "id": "quick-hi3-kr-47171732",
+      "set": {
+        "summary": {
+          "ko": "축제 테마 월페이퍼를 공개했다. 공식 게시물에서 이미지를 내려받을 수 있다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47171732"
+      ]
+    },
+    {
+      "id": "official-video-hsr-en-ItNs39qvw_w",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The Version 4.6 trailer introduces Dance With the Beast Before Moonrise, with voices for Asat Pramad, Yabuli and Pearl. It includes content still in development.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=ItNs39qvw_w"
+      ]
+    },
+    {
+      "id": "official-video-hsr-en-Q7JuwvcqoMI",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The Version 4.7 trailer introduces Now, Lay Laughter to All Stars, with voices for Aeon ★ Aha, Sparxie and Asat Pramad. It includes content still in development.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=Q7JuwvcqoMI"
+      ]
+    },
+    {
+      "id": "official-video-hsr-en-fCnZYvBjOSA",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Aventurine • Waveflair is voiced by Camden Sutkowski in the character trailer “Exclusive Scoop.”",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=fCnZYvBjOSA"
+      ]
+    },
+    {
+      "id": "official-video-hsr-en-hpqKHn0yS7I",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Robin • Summeretto’s character trailer, “Chasing the Wind,” features Alice Himora as Robin and vocals by Chevy.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=hpqKHn0yS7I"
+      ]
+    },
+    {
+      "id": "official-video-hsr-en-twrZobrx0ZM",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Pearl’s character trailer explores the question of perfect art, with Cat Protano providing her English voice.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=twrZobrx0ZM"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ja-4DA0674x1NI",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "Ver.4.7「いま、群星は笑いに包まれる」のPVで、星神★アッハ・火花・帰寂などのキャストを紹介。一部に開発中の内容を含む。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=4DA0674x1NI"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ja-882FHoKwZVk",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "ロビン・夏空の歌のキャラクターPV「風を追いかけて」。ロビンの声は名塚佳織、歌はChevyが担当する。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=882FHoKwZVk"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ja-T5sjyuTW__Q",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "アベンチュリン・波と戯れる夏のキャラクターPV「独占スクープ」。日本語音声は河西健吾が担当する。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=T5sjyuTW__Q"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ja-e4Dpuy2P0h0",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "Ver.4.6「月立つ前に獣と踊れ」のPVで、帰寂・アポリ・パールなどのキャストを紹介。一部に開発中の内容を含む。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=e4Dpuy2P0h0"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ja-hs3YfTB1I3s",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "パールのキャラクターPV「希望の描き方」。日本語音声は安野希世乃が担当する。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=hs3YfTB1I3s"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ko-2sUF2R9FtjE",
+      "set": {
+        "summary": {
+          "ko": "4.7 버전 「지금, 뭇별을 웃음으로」 PV로, 아하·스파키·아삿 프라마드 등이 더빙 배역으로 소개된다. 일부 개발 중인 내용이 포함된다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=2sUF2R9FtjE"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ko-WNMNc8QqrlI",
+      "set": {
+        "summary": {
+          "ko": "펄의 캐릭터 PV 「희망을 그리는 방법」이다. 한국어 더빙은 여윤미가 맡았다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=WNMNc8QqrlI"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ko-mnhTB8zbg_g",
+      "set": {
+        "summary": {
+          "ko": "4.6 버전 「달 뜨기 전, 괴수와 춤을」 PV로, 아삿 프라마드·야불리·펄 등의 한국어 더빙을 소개한다. 일부 개발 중인 내용이 포함된다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=mnhTB8zbg_g"
+      ]
+    },
+    {
+      "id": "official-video-hsr-ko-mzgFCMl7rBM",
+      "set": {
+        "summary": {
+          "ko": "어벤츄린•웨이브의 캐릭터 PV 「단독 특종」이다. 한국어 더빙은 박준원이 맡았다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=mzgFCMl7rBM"
+      ]
+    },
+    {
+      "id": "official-video-hsr-zh-95VJolgVZVw",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "4.7版本「此刻，将群星付之一笑」宣传片，配音角色包括星神★阿哈、火花和归寂。片中包含开发中的内容。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=95VJolgVZVw"
+      ]
+    },
+    {
+      "id": "official-video-hsr-zh-CRITqzEy5JI",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "知更鸟•晴歌的角色宣传片「追赶风的方向」，中文配音为钱琛，演唱为Chevy。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=CRITqzEy5JI"
+      ]
+    },
+    {
+      "id": "official-video-hsr-zh-SEvSvgjeQkQ",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "4.6版本「月升之前，与兽共舞」宣传片，配音角色包括归寂、亚婆离和真珠。片中包含开发中的内容。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=SEvSvgjeQkQ"
+      ]
+    },
+    {
+      "id": "official-video-hsr-zh-hRPifvKxSUE",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "砂金•戏浪的角色宣传片「独家爆料」，中文配音为杨超然。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=hRPifvKxSUE"
+      ]
+    },
+    {
+      "id": "official-video-hsr-zh-rnzCsDhjyxU",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "真珠的角色宣传片「如何描绘一种希望」，中文配音为苏婉。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=rnzCsDhjyxU"
+      ]
+    }
+  ]
+}

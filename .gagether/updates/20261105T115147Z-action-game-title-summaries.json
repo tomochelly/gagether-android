@@ -1,0 +1,794 @@
+{
+  "version": 1,
+  "requestId": "20261105T115147Z-action-game-title-summaries",
+  "reason": "사용자가 제공한 교정 목록의 공식 공지 본문과 영상 제목·설명을 바탕으로 누락 요약 및 공식 일본어 제목을 보완합니다. 다른 언어 값과 운영자 편집은 보존합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T11:51:47Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "official-video-nikke-ja-kP3xwS2VWLg",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "紅蓮：神殺のキャラクターPV。11月5日から募集に登場する。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=kP3xwS2VWLg"
+      ]
+    },
+    {
+      "id": "recap-nikke-en-JBjfhhkxXFQ",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "The fourth-anniversary livestream was scheduled for October 24 at 19:00 (UTC+9), preceded by a 30-minute countdown.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=JBjfhhkxXFQ"
+      ]
+    },
+    {
+      "id": "recap-nikke-ja-sN9LNEAq8fg",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "4周年記念生放送「約束の地へ、女神集結」。10月24日の第1部は16:30、第2部は19:00開演と案内されている。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=sN9LNEAq8fg"
+      ]
+    },
+    {
+      "id": "official-video-nte-ko-8GmaLu9VmDg",
+      "set": {
+        "summary": {
+          "ko": "아카네 린의 캐릭터 PV 「Letters to me」다. 노래는 아카네 린 역의 하세가와 이쿠미가 맡았다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=8GmaLu9VmDg"
+      ]
+    },
+    {
+      "id": "official-video-nte-ko-SwDeva636H8",
+      "set": {
+        "summary": {
+          "ko": "레이븐의 캐릭터 PV 「마녀」의 업무다. 레이븐은 1.4 버전에서 등장하는 한정 S급 캐릭터로 소개된다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=SwDeva636H8"
+      ]
+    },
+    {
+      "id": "official-video-nte-ko-iF5hxpmEPsk",
+      "set": {
+        "summary": {
+          "ko": "1.5 버전 「지금 거신 번호는」 PV다. 11월 11일 업데이트와 한정 S급 캐릭터 엘림·Exe를 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=iF5hxpmEPsk"
+      ]
+    },
+    {
+      "id": "official-video-nte-ko-lLmUGwqap6Y",
+      "set": {
+        "summary": {
+          "ko": "1.4 버전 「누구를 위하여 기도를 올리나」 PV다. 9월 30일 업데이트와 한정 S급 캐릭터 레이븐·아카네 린을 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=lLmUGwqap6Y"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-en-1kRICb93uIE",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Hsin is introduced as the Moon Fox Sentinel and the guide of Mengzhou’s civilization.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=1kRICb93uIE"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-en-AvS_afduMds",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Suoming’s Resonator showcase is titled PROMISE.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=AvS_afduMds"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-en-JDlC44vmGa8",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Suoming is introduced as Seal Master of the Ten Seals Covenant and Intendant of Mengzhou’s Ministry of Sentinel Affairs.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=JDlC44vmGa8"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-en-LXyEJPjiMsU",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "A lore trailer introducing the world of Wuthering Waves under the title TRANSCENDO.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=LXyEJPjiMsU"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-en-UBnxmZINwic",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "A combat showcase dedicated to the Resonator Suoming.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=UBnxmZINwic"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ja-0r3GG-fdvx0",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "鎖暝の共鳴者戦闘トレーラー。日本語音声は大久保瑠美が担当する。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=0r3GG-fdvx0"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ja-3Hz1s9f_B_4",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "禁鎖の十契の契の主であり、夢州諦天鑑州監でもある鎖暝を紹介する動画。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=3Hz1s9f_B_4"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ja-ETNxNQTAjPU",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "鎖暝のキャラクターPV「契闊」。鎖暝役は大久保瑠美、蛇菰役は寺依沙織、九ノ契役は百冨芽衣。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=ETNxNQTAjPU"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ja-UHrsj49FWqk",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "『鳴潮』の世界観を紹介するPV「TRANSCENDO」。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=UHrsj49FWqk"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ja-dr8panbhAH8",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "夢州文明を導く歳主「心月狐」、心を紹介する共鳴者紹介動画。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=dr8panbhAH8"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ko-3DK6XYB7icE",
+      "set": {
+        "summary": {
+          "ko": "명조의 세계관을 소개하는 PV 「TRANSCENDO」다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=3DK6XYB7icE"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ko-QKKD622bhzo",
+      "set": {
+        "summary": {
+          "ko": "쇄명의 캐릭터 트레일러 「맹약」을 공개했다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=QKKD622bhzo"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ko-h9M1cEVHPlw",
+      "set": {
+        "summary": {
+          "ko": "쇄명의 전투 모션을 소개하는 영상으로, 한국어 더빙은 손정민이 맡았다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=h9M1cEVHPlw"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-zh-MDkTlOfQZsE",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "《鳴潮》世界觀宣傳影片，以「超驗TRANSCENDO」為題。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=MDkTlOfQZsE"
+      ]
+    },
+    {
+      "id": "official-video-zzz-en-VjNhciBWgug",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Claret’s character demo is titled “Don’t Wanna Train, But The Guide’s Already Written.” It accompanies Version 3.1, The Long Goodbye.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=VjNhciBWgug"
+      ]
+    },
+    {
+      "id": "official-video-zzz-en-w088eYNQW4w",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Roxy’s character demo, “A Mysterious Coffin Bearer,” accompanies Version 3.2, Their Secret Histories.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=w088eYNQW4w"
+      ]
+    },
+    {
+      "id": "official-video-zzz-en-wHxjO2Ut3Ic",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "Phoenix’s character demo, “Do Not Die Challenge,” accompanies Version 3.2, Their Secret Histories.",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=wHxjO2Ut3Ic"
+      ]
+    },
+    {
+      "id": "official-video-zzz-ja-BBlnJrW0GeQ",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "フィオニーのエキシビション「ノーデス・レース」。Ver.3.2「秘密と、過去と、彼女たちと」に関連するキャラクター動画。",
+          "zh": ""
+        },
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "フィオニー エキシビション「ノーデス・レース」｜ゼンレスゾーンゼロ",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "Phoenix Character Demo - \"Do Not Die Challenge\" | Zenless Zone Zero",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=BBlnJrW0GeQ"
+      ]
+    },
+    {
+      "id": "official-video-zzz-ja-PLgcuKZuaRg",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "Ver.3.3「もう一度、空へと飛び立って」の公式PVで、ドラキナ・リンドヴェルヌ・エルダに触れている。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=PLgcuKZuaRg"
+      ]
+    },
+    {
+      "id": "official-video-zzz-ja-_Q6RmpJjZHs",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "クラレッタのエキシビション「研修はお断り、マニュアルは作成済み」。Ver.3.1「ロング・グッドバイ」に関連するキャラクター動画。",
+          "zh": ""
+        },
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "クラレッタ エキシビション「研修はお断り、マニュアルは作成済み」｜ゼンレスゾーンゼロ",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "Claret Character Demo - \"Don't Wanna Train, But The Guide's Already Written\" | Zenless Zone Zero",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=_Q6RmpJjZHs"
+      ]
+    },
+    {
+      "id": "official-video-zzz-ja-kxtutUwwpPs",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "Ver.3.2「秘密と、過去と、彼女たちと」の公式PV。",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=kxtutUwwpPs"
+      ]
+    },
+    {
+      "id": "official-video-zzz-ja-n1CR-XqPYEU",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "ロクシーのエキシビション「棺を担ぐ謎の影」。Ver.3.2「秘密と、過去と、彼女たちと」に関連するキャラクター動画。",
+          "zh": ""
+        },
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "ロクシー エキシビション「棺を担ぐ謎の影」｜ゼンレスゾーンゼロ",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "Roxy Character Demo - \"A Mysterious Coffin Bearer\" | Zenless Zone Zero",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=n1CR-XqPYEU"
+      ]
+    },
+    {
+      "id": "official-video-zzz-ko-3L4KJRxNln4",
+      "set": {
+        "summary": {
+          "ko": "록시의 캐릭터 PV 「태엽 기사」다. 3.2 버전 「그녀들의 숨겨진 과거」와 함께 공개된 캐릭터 영상이다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=3L4KJRxNln4"
+      ]
+    },
+    {
+      "id": "official-video-zzz-ko-Qs4S1OHSJjk",
+      "set": {
+        "summary": {
+          "ko": "3.3 버전 「다시 하늘을 향해」 PV로, 드라케나·린드베른·엘드레다가 소개된다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=Qs4S1OHSJjk"
+      ]
+    },
+    {
+      "id": "official-video-zzz-zh-oLG6s2GwYI8",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "《絕區零》3.3版本「重返天空的旅程」宣傳影片。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=oLG6s2GwYI8"
+      ]
+    },
+    {
+      "id": "official-video-zzz-zh-rt2ES5nB2zk",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "洛克茜的角色宣傳影片「發條騎士」，與3.2版本「她與她的隱秘往事」相關。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=rt2ES5nB2zk"
+      ]
+    },
+    {
+      "id": "official-video-zzz-zh-woJii0zXL_E",
+      "set": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": "《絕區零》3.2版本「她與她的隱秘往事」宣傳影片。"
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        }
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=woJii0zXL_E"
+      ]
+    }
+  ]
+}
