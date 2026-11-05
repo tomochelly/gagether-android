@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "requestId": "20261105T084646Z-zzz-nte-bluearchive-media",
+  "reason": "젠레스 존 제로 세베리안 공식 소개·호환성 안내의 4개 언어 요약과 원본 이미지, 이환 1.5 창작 공모전 조건·일정 표기 차이, 블루 아카이브 공식 방송 예약 번역을 보완한다. 공모전 마감 상충은 정확한 일정으로 등록하지 않는다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T08:46:46Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "feed-zzz-167157",
+      "set": {
+        "summary": {
+          "ko": "세베리안은 뉴에리두 치안국·도시 관리부 소속 S급 바람·강공 에이전트다. 공식 메커니즘 소개는 강화 일반 공격, 자동 회피 후 반격, 추가 능력의 편성 조건과 파티 예시를 안내한다. 이미지에는 개발 중 사양이라는 표시가 있다.",
+          "en": "Severian is an S-Rank Wind Attack agent from New Eridu Public Security’s Metropolitan Order Division. The official guide introduces enhanced Basic Attacks, automatic dodges and counters, and team conditions for his additional ability. The images are marked as work in progress.",
+          "ja": "セヴェリアンは新エリー都治安局・都市秩序部に所属するS級・風属性の強攻エージェント。公式マニュアルでは強化通常攻撃、自動回避後の反撃、追加能力の編成条件や編成例を紹介。画像には開発中の仕様との注記がある。",
+          "zh": "赛维里安是新艾利都治安局·都市秩序部的 S 级风属性强攻代理人。官方介绍包含强化普攻、自动闪避与反击、额外能力的配队条件及队伍示例；图片注明内容为开发中版本。"
+        },
+        "sourceKind": "official",
+        "verifiedAt": "2026-11-05T08:46:46Z",
+        "detailSections": [
+          {
+            "title": {
+              "ko": "추가 능력과 편성",
+              "en": "Additional ability and team setup",
+              "ja": "追加能力と編成",
+              "zh": "额外能力与配队"
+            },
+            "body": {
+              "ko": "공식 소개에 따르면 파티에 지원·격파 특성 또는 같은 진영의 에이전트가 있으면, 세베리안의 치명타 확률에 따라 자신의 공격력이 증가한다. 구체적인 수치와 발동 절차는 정식 출시 후의 게임 내 설명을 따른다.",
+              "en": "According to the official introduction, having a Support, Stun or same-faction agent in the squad enables an ATK increase based on Severian’s CRIT Rate. Exact values and activation details remain subject to the released in-game description.",
+              "ja": "公式紹介によると、支援・撃破特性または同じ陣営のエージェントを編成すると、セヴェリアンの会心率に応じて自身の攻撃力が上がる。数値や詳しい発動条件は正式実装後のゲーム内説明を参照。",
+              "zh": "官方介绍说明，队伍中有支援、击破或同阵营代理人时，赛维里安可根据自身暴击率提高攻击力。具体数值及触发细节以正式上线后的游戏内说明为准。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://zenless.hoyoverse.com/ko-kr/news/167157",
+              "https://zenless.hoyoverse.com/en-us/news/167157",
+              "https://zenless.hoyoverse.com/ja-jp/news/167157",
+              "https://zenless.hoyoverse.com/zh-cn/news/167157"
+            ]
+          }
+        ],
+        "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/8892508805f20c965abc8f8debe12742_7002574064917585305.png",
+        "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167157",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/8892508805f20c965abc8f8debe12742_7002574064917585305.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/034b224a2ea1d0cbbbb702e27f0173d9_1563822907411841236.png",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/f7ecfd3d27c7023d700c6937960d75cb_6658507667441077199.png",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/4370ac0dd743448af70ff7ac9ab4673b_8542797493081658564.png",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/250eb4c83180494f82d2713c60e817c8_7949880395838720577.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1080,
+            "height": 2160,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/d4a73f9b466f83ac5d79eb75100b500a_403607723321214325.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1080,
+            "height": 2160,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/ef2aaa94c3967caa0be1351287e2e2c7_8116720269849102884.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1080,
+            "height": 1810,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/856a7142d69265ca1a9249465edf142c_7142135229087864186.png",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1080,
+            "height": 2160,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/94a1272ac8bd21cee0b70fca10ea462b_5957876038565446635.png",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1080,
+            "height": 2160,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/9257234b101bbf51ed0071193f829d48_3642578458763040510.png",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1080,
+            "height": 1810,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/38e5c676258ac96ba60c5b8ab890ab86_178216558871412571.png",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1080,
+            "height": 2160,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/9b6a6cf2b906f29dcc0c0b48025f5902_2032778974933842398.png",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1080,
+            "height": 2160,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/f57d08b510d5c5267c9fe4e27a6fe0f2_3433367664468612251.png",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1080,
+            "height": 1810,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/ec9a0f97e5699e1488032d359b5338a3_6693674544552512829.png",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1080,
+            "height": 2160,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/f66315fef5a45ccfdf043eee031a39bf_1609016410581924087.png",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1080,
+            "height": 2160,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167157/ec626edfe45dfcd49a9690b16a9b04b4_1975601305525199400.png",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167157",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1080,
+            "height": 1810,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          }
+        ]
+      },
+      "before": {
+        "summary": {
+          "ko": "업데이트가 곧 완료됩니다… 데이터베이스에 에이전트 [세베리안]의 전투 관련 정보가 수록되었습니다. 핵심 내용 분석 완료, 확인 바랍니다. 「최후의 방벽이 되겠습니다」",
+          "en": "The update is almost complete... Combat-related information for Severian has been recorded in the database. Key content analysis complete. Please take a look. \"I'll be the last line of defense.\"",
+          "ja": "更新がまもなく完了します… エージェント【セヴェリアン】の戦闘情報をデータベースに収録しました。主な内容の解析完了、どうぞお受け取りください。 「私が、最後の砦となる」",
+          "zh": "更新即将完成… 资料库中已收录代理人【赛维里安】的战斗相关信息，重点内容解析完毕，请查收。 「我会成为，最后的屏障。」"
+        },
+        "sourceKind": null,
+        "verifiedAt": "2026-11-05T04:07:11.862Z",
+        "detailSections": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://zenless.hoyoverse.com/ko-kr/news/167157",
+        "https://zenless.hoyoverse.com/en-us/news/167157",
+        "https://zenless.hoyoverse.com/ja-jp/news/167157",
+        "https://zenless.hoyoverse.com/zh-cn/news/167157"
+      ]
+    },
+    {
+      "id": "feed-zzz-167249",
+      "set": {
+        "summary": {
+          "ko": "iPhone Duo 호환 기능은 App Store의 3.3.1 버전에서 제공된다. 앱이 이미 3.3.1로 자동 업데이트되었다면 다시 수동 업데이트할 필요가 없다.",
+          "en": "iPhone Duo compatibility is available in App Store Version 3.3.1. Players whose app has already updated automatically to 3.3.1 do not need another manual update.",
+          "ja": "iPhone Duo向けの対応機能はApp StoreのVer.3.3.1で利用できる。すでに自動更新済みの場合、再度の手動更新は不要。クラウド版は今後のアップデートで対応予定と案内されている。",
+          "zh": "App Store 的 3.3.1 版本已支持 iPhone Duo 适配；若已自动更新至该版本，无须再次手动更新。《云·绝区零》将在后续版本适配。"
+        },
+        "sourceKind": "official",
+        "verifiedAt": "2026-11-05T08:46:46Z",
+        "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167249/c0dfb2b5f9a34a0e9434f373e23158e8_2049095811721583879.png",
+        "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167249",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167249/c0dfb2b5f9a34a0e9434f373e23158e8_2049095811721583879.png",
+            "imageSource": "https://zenless.hoyoverse.com/ko-kr/news/167249",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          "en": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167249/3b4d363ec6595fc008e6e2e661ea45e4_8695116935100996529.png",
+            "imageSource": "https://zenless.hoyoverse.com/en-us/news/167249",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          "ja": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167249/3860e028a87dabf82be9ea6b0fc31fc5_1843334444155197501.png",
+            "imageSource": "https://zenless.hoyoverse.com/ja-jp/news/167249",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          },
+          "zh": {
+            "image": "https://fastcdn.hoyoverse.com/content-v2/nap/167249/43edd0c6dd91ee5c598d51f8b44c1f63_6877461695739709458.png",
+            "imageSource": "https://zenless.hoyoverse.com/zh-cn/news/167249",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "zh",
+            "width": 1200,
+            "height": 675,
+            "verifiedAt": "2026-11-05T08:46:46Z"
+          }
+        }
+      },
+      "before": {
+        "summary": {
+          "ko": "To. 로프꾼 〈젠레스 존 제로〉는 현재 iPhone Duo 기종에 대한 호환성을 지원합니다. 해당 기능을 이용하고자 하시는 로프꾼께서는 App Store에서 〈젠레스 존 제로〉를 검색하신 후, 3.3.1 버전으로 수동 업데이트하시면 관련 호환 기능을 이용하실 수 있습니다. 앱 자동 업데이트를 활성화하셨고, 게임 버전이 이미 3.3.1로 업데이트된 경우, 별도의 수동 업데이트 없이 관련 호환 기능을 바로 이용하실 수 있습니다.",
+          "en": "Zenless Zone Zero now supports iPhone Duo models. If needed, Proxies can go to the App Store, search for \"Zenless Zone Zero,\" and manually update to Version 3.3.1 to experience the related features. If you have automatic app updates enabled and your game version has already been updated to 3.3.1, there's no need to upd",
+          "ja": "親愛なるプロキシ様へ 『ゼンレスゾーンゼロ』は現在、iPhone Duo端末に対応可能です。ご利用を希望される方は、App Storeにて『ゼンレスゾーンゼロ』を検索し、手動でVer.3.3.1へアップデートしていただくことで、最適化された機能をご体験いただけます。 アプリの自動更新をオンにしており、かつゲームがすでにVer.3.3.1に更新されている場合、手動更新の必要はなく、そのまま関連機能をご利用いただけます。 ※『ゼンレスゾーンゼロ・クラウド版』は、今後のアップデートにてiPhone Duoへの対応を予定しております。詳細は今後の公式のお知らせにてご確認ください。",
+          "zh": "亲爱的绳匠： 《绝区零》现已支持对iPhone Duo机型的适配，有需要的绳匠请前往App Store搜索《绝区零》，手动选择更新至3.3.1版本后即可体验相关适配功能。 若您已开启App自动更新，且游戏版本已更新至 3.3.1，则无需再次手动更新，可直接体验相关适配功能。 ※《云·绝区零》将在后续版本更新iPhone Duo的适配，请绳匠关注后续官方公告。"
+        },
+        "sourceKind": null,
+        "verifiedAt": "2026-11-05T06:04:18.370Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "localizedArtwork": null
+      },
+      "sources": [
+        "https://zenless.hoyoverse.com/ko-kr/news/167249",
+        "https://zenless.hoyoverse.com/en-us/news/167249",
+        "https://zenless.hoyoverse.com/ja-jp/news/167249",
+        "https://zenless.hoyoverse.com/zh-cn/news/167249"
+      ]
+    },
+    {
+      "id": "quick-nte-global-115131137",
+      "set": {
+        "title": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+          "en": "NTE Version 1.5 Creation Contest (translation)",
+          "ja": "NTE Ver.1.5創作コンテスト（翻訳）",
+          "zh": "NTE 1.5 版本創作比賽（翻譯）"
+        },
+        "sourceTitle": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+        "summary": {
+          "ko": "이환 1.5 버전의 캐릭터·스토리·이벤트를 주제로 일러스트, 숏폼, 롱폼 창작물을 모집한다. 작품을 공개 게시하고 지정 폼으로 제출하면 심사를 통해 최대 $1,000와 환석 6,480개 등 부문별 보상을 받을 기회가 있다. 세부 참가 조건은 공식 공고에 안내되어 있다.",
+          "en": "NTE’s Version 1.5 contest accepts illustrations, short videos and long videos based on its characters, story and events. Publicly posted works submitted through the designated form can compete for category prizes, including up to $1,000 and 6,480 in-game currency. Eligibility follows the official rules.",
+          "ja": "NTE Ver.1.5のキャラクター・物語・イベントをテーマに、イラスト、短尺・長尺動画を募集。公開した作品を指定フォームで応募すると、審査により最大1,000ドルやゲーム内通貨6,480個などの部門別賞を獲得できる可能性がある。参加条件は公式規約に従う。",
+          "zh": "NTE 1.5 版本創作比賽募集角色、劇情與活動主題的插畫、短影片及長影片。公開發布作品並透過指定表單提交後，可參與各部門評選，獎項包括最高 1,000 美元及 6,480 個遊戲內貨幣等，資格依官方規則判定。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-05T08:46:46Z",
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+            "title": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+            "publisher": "NTE / Hotta Studio",
+            "publishedAt": "2026-11-04"
+          }
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "참가·심사 조건",
+              "en": "Submission and judging conditions",
+              "ja": "応募・審査条件",
+              "zh": "投稿與評選條件"
+            },
+            "body": {
+              "ko": "공식 해시태그 #이환 #NTE #NTEFanart를 넣어 작품을 게시한 뒤 링크를 폼에 제출한다. 작품마다 별도 폼이 필요하다. 숏폼의 현금상 심사에는 누적 조회수 10만 회, 롱폼에는 4만 회 이상이 필요하며 조회수만으로 수상을 결정하지 않는다. AI 생성물·무단 전재·기존 작품 재제출은 허용되지 않는다.",
+              "en": "Publish the work with #이환 #NTE #NTEFanart and submit its link; use one form per work. Cash-award consideration requires at least 100,000 cumulative views for short videos or 40,000 for long videos. Views alone do not determine winners. AI-generated work, unauthorized reposts and previously submitted work are excluded.",
+              "ja": "#이환 #NTE #NTEFanartを付けて作品を公開し、作品ごとに別のフォームでリンクを提出。現金賞の審査対象には短尺動画で累計10万回、長尺動画で4万回以上の再生が必要だが、再生数のみで受賞は決まらない。AI生成物、無断転載、既応募作品の再提出は禁止。",
+              "zh": "作品須附上 #이환 #NTE #NTEFanart 並公開發布，每件作品分別提交一份表單。短影片與長影片的現金獎評選門檻分別為累計 10 萬及 4 萬次觀看，但不以觀看數單獨決定得獎。禁止 AI 生成、未授權轉載及重新提交已投稿作品。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+              "https://pf.kakao.com/_uSxfcG/115131137"
+            ]
+          },
+          {
+            "title": {
+              "ko": "공식 공고의 일정 표기",
+              "en": "Dates stated in the official notice",
+              "ja": "公式告知の日程表記",
+              "zh": "官方公告的日期標示"
+            },
+            "body": {
+              "ko": "본문은 접수 마감을 2026년 12월 14일 00:59(KST)로, 배너는 12월 13일(KST)로 표기한다. 마감 표기가 달라 정확한 접수 종료 시각은 확인이 필요하다. 본문상 심사는 12월 14일~31일 00:59, 결과 공개는 12월 31일~2027년 1월 7일 00:59(KST)이며 보상은 1월 8일부터 순차 지급 예정이다.",
+              "en": "The body gives an entry deadline of December 14, 2026 at 00:59 KST, while the banner says December 13 KST; the exact cutoff needs clarification. The body lists judging through December 31 at 00:59, results from December 31 to January 7, 2027 at 00:59 KST, and rewards beginning January 8.",
+              "ja": "本文の応募締切は2026年12月14日00:59（KST）、バナーは12月13日（KST）と表記が異なるため、正確な締切は要確認。本文では審査は12月31日00:59まで、結果公開は12月31日～2027年1月7日00:59（KST）、報酬は1月8日から順次配布予定。",
+              "zh": "正文寫明截止時間為 2026 年 12 月 14 日 00:59（KST），宣傳圖則標示 12 月 13 日（KST），確切截止時間仍需釐清。正文列出評審至 12 月 31 日 00:59，結果公布為 12 月 31 日至 2027 年 1 月 7 日 00:59（KST），獎勵自 1 月 8 日起陸續發放。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+              "https://pf.kakao.com/_uSxfcG/115131137"
+            ]
+          }
+        ],
+        "image": "https://ntevmg.perfectworld.com/webops/nte/1.5二创-kr.jpg",
+        "imageSource": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "originalLanguageFallback": true,
+        "imageCaption": {
+          "ko": "이환 1.5 버전 창작 작품 공모전의 한국 공식 배너.",
+          "en": "Official Korean banner for the NTE Version 1.5 creation contest.",
+          "ja": "NTE Ver.1.5創作コンテストの韓国公式バナー。",
+          "zh": "NTE 1.5 版本創作比賽韓國官方宣傳圖。"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://ntevmg.perfectworld.com/webops/nte/1.5二创-kr.jpg",
+            "imageSource": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-05T08:46:46Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "이환 1.5 버전 창작 작품 공모전의 한국 공식 배너.",
+              "en": "Official Korean banner for the NTE Version 1.5 creation contest.",
+              "ja": "NTE Ver.1.5創作コンテストの韓国公式バナー。",
+              "zh": "NTE 1.5 版本創作比賽韓國官方宣傳圖。"
+            }
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://ntevmg.perfectworld.com/webops/nte/1.5二创-kr.jpg",
+            "imageSource": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-05T08:46:46Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "이환 1.5 버전 창작 작품 공모전의 한국 공식 배너.",
+              "en": "Official Korean banner for the NTE Version 1.5 creation contest.",
+              "ja": "NTE Ver.1.5創作コンテストの韓国公式バナー。",
+              "zh": "NTE 1.5 版本創作比賽韓國官方宣傳圖。"
+            }
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공! 안녕하세요, 감정사님. 「이환」 1.5 버전 창작 작품 공모전이 정식 오픈되었습니다! 이벤트 상세 보기",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "sourceTitle": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공! 안녕하세요, 감정사님. 「이환」 1.5 버전 창작 작품 공모전이 정식 오픈되었습니다! 이벤트 상세 보기",
+        "summary": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공! 안녕하세요, 감정사님. 「이환」 1.5 버전 창작 작품 공모전이 정식 오픈되었습니다! 이벤트 상세 보기 1.5 버전 신규 캐릭터, 스토리, 버전 이벤트 등을 주제로 콘텐츠를 제작해 참여하면 최대 $1,000의 현금 보상과 환석 6,480개를 획득할 기회가 주어집니다! 여러분의 창작물을 지금 바로 공유해 보세요!✨ [이벤트 일정] 공모 기간: 2026년 11월 5일 ~ 2026년 12월 14일 00:59 (KST) 공개 기간: 2026년 12월 31일 ~ 2027년 ",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-05T06:03:40.665Z",
+        "relatedSources": null,
+        "detailSections": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "originalLanguageFallback": null,
+        "imageCaption": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://pf.kakao.com/_uSxfcG/115131137",
+        "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html"
+      ]
+    },
+    {
+      "id": "broadcast-bluearchive-en-dDalbOBIyLA",
+      "set": {
+        "title": {
+          "ko": "CM Arcie 공식 생방송 #41 with ??? (번역)",
+          "en": "CM Arcie's Live Stream #41 with ???",
+          "ja": "CM Arcie公式生配信 #41 with ???（翻訳）",
+          "zh": "CM Arcie 官方直播 #41 with ???（翻譯）"
+        },
+        "summary": {
+          "ko": "공식 Blue Archive 채널이 CM Arcie의 41번째 생방송을 2026년 11월 11일 09:45(KST, 00:45 UTC)로 예약했다. 5주년을 기념하며 정체를 아직 공개하지 않은 게스트를 예고했다. 공개 설명에 Twitch 동시 송출도 안내되어 있다.",
+          "en": "The official Blue Archive channel has scheduled CM Arcie’s 41st stream for November 11, 2026 at 00:45 UTC. Its description celebrates the fifth anniversary, teases an unrevealed guest and lists a simultaneous Twitch stream.",
+          "ja": "公式Blue ArchiveチャンネルはCM Arcieの第41回配信を2026年11月11日09:45（JST、00:45 UTC）に予約。説明文では5周年を記念する未公開ゲストを予告し、Twitchでの同時配信も案内している。",
+          "zh": "Blue Archive 官方頻道已將 CM Arcie 第 41 次直播排定於 2026 年 11 月 11 日 00:45 UTC。公開說明以五週年為主題，預告尚未揭曉的嘉賓，並列出 Twitch 同步直播。"
+        },
+        "translatedLocales": [
+          "ko",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-05T08:46:46Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "CM Arcie's Live Stream #41 with ???",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-05T01:47:07.408Z"
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=dDalbOBIyLA"
+      ]
+    }
+  ]
+}
