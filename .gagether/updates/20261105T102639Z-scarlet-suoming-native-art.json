@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "requestId": "20261105T102639Z-scarlet-suoming-native-art",
+  "reason": "홍련 신살과 쇄명의 동일 일러스트를 더 선명한 원본으로 교체하고 실제 이미지 치수와 출처를 보완합니다. 운영자 구도 및 다른 언어 슬롯은 보존합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T10:26:39.781523Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "hist-wuwa-global-undated-character-839ce2d58c16",
+      "set": {
+        "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f9/Suoming_Splash_Art.png/revision/latest?cb=20260919135007",
+        "imageSource": "https://wutheringwaves.fandom.com/wiki/Suoming/Gallery",
+        "width": 1936,
+        "height": 2048,
+        "imageCaption": {
+          "ko": "공식 가챠 일러스트 · 위키 보관 사본 · 원본 1936×2048",
+          "en": "Official gacha artwork · wiki-hosted copy · native 1936×2048",
+          "ja": "公式ガチャイラスト・Wiki保存のコピー・原寸1936×2048",
+          "zh": "官方卡池立绘·维基存档副本·原始1936×2048"
+        },
+        "pickupMembers": [
+          {
+            "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f9/Suoming_Splash_Art.png/revision/latest?cb=20260919135007",
+            "imageCaption": {
+              "ko": "공식 가챠 일러스트 · 위키 보관 사본 · 원본 1936×2048",
+              "en": "Official gacha artwork · wiki-hosted copy · native 1936×2048",
+              "ja": "公式ガチャイラスト・Wiki保存のコピー・原寸1936×2048",
+              "zh": "官方卡池立绘·维基存档副本·原始1936×2048"
+            },
+            "imageFit": "contain",
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "imagePosition": "50% 50%",
+            "imageSource": "https://wutheringwaves.fandom.com/wiki/Suoming/Gallery",
+            "imageVerified": true,
+            "name": {
+              "en": "Suoming",
+              "ja": "鎖暝",
+              "ko": "쇄명",
+              "zh": "鎖暝"
+            },
+            "previewFocus": {
+              "x": 50,
+              "y": 40,
+              "zoom": 1
+            },
+            "rarity": 5,
+            "role": "featured",
+            "textFreePreview": true,
+            "type": "new",
+            "width": 1936,
+            "height": 2048
+          },
+          {
+            "name": {
+              "en": "Lumi",
+              "ja": "灯灯",
+              "ko": "루미",
+              "zh": "燈燈"
+            },
+            "rarity": 4,
+            "role": "rate-up",
+            "type": "unknown"
+          },
+          {
+            "name": {
+              "en": "Danjin",
+              "ja": "丹瑾",
+              "ko": "단근",
+              "zh": "丹瑾"
+            },
+            "rarity": 4,
+            "role": "rate-up",
+            "type": "unknown"
+          },
+          {
+            "name": {
+              "en": "Chixia",
+              "ja": "熾霞",
+              "ko": "치샤",
+              "zh": "熾霞"
+            },
+            "rarity": 4,
+            "role": "rate-up",
+            "type": "unknown"
+          }
+        ]
+      },
+      "before": {
+        "image": "https://wutheringwaves.kurogames.com/static4.0/assets/suoming-f59d828d.webp",
+        "imageSource": "https://wutheringwaves.kurogames.com/kr/main/",
+        "width": null,
+        "height": null,
+        "imageCaption": {
+          "en": "Full official gacha artwork from the official site · native 1300×1080",
+          "ja": "公式サイトのガチャ全体イラスト・原寸1300×1080",
+          "ko": "공식 홈페이지의 전체 가챠 일러스트 · 1300×1080 원본",
+          "zh": "官网完整卡池立绘·原始1300×1080"
+        },
+        "pickupMembers": [
+          {
+            "image": "https://wutheringwaves.kurogames.com/static4.0/assets/suoming-f59d828d.webp",
+            "imageCaption": {
+              "en": "Full official gacha artwork from the official site · native 1300×1080",
+              "ja": "公式サイトのガチャ全体イラスト・原寸1300×1080",
+              "ko": "공식 홈페이지의 전체 가챠 일러스트 · 1300×1080 원본",
+              "zh": "官网完整卡池立绘·原始1300×1080"
+            },
+            "imageFit": "contain",
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "imagePosition": "50% 50%",
+            "imageSource": "https://wutheringwaves.kurogames.com/kr/main/",
+            "imageVerified": true,
+            "name": {
+              "en": "Suoming",
+              "ja": "鎖暝",
+              "ko": "쇄명",
+              "zh": "鎖暝"
+            },
+            "previewFocus": {
+              "x": 50,
+              "y": 40,
+              "zoom": 1
+            },
+            "rarity": 5,
+            "role": "featured",
+            "textFreePreview": true,
+            "type": "new"
+          },
+          {
+            "name": {
+              "en": "Lumi",
+              "ja": "灯灯",
+              "ko": "루미",
+              "zh": "燈燈"
+            },
+            "rarity": 4,
+            "role": "rate-up",
+            "type": "unknown"
+          },
+          {
+            "name": {
+              "en": "Danjin",
+              "ja": "丹瑾",
+              "ko": "단근",
+              "zh": "丹瑾"
+            },
+            "rarity": 4,
+            "role": "rate-up",
+            "type": "unknown"
+          },
+          {
+            "name": {
+              "en": "Chixia",
+              "ja": "熾霞",
+              "ko": "치샤",
+              "zh": "熾霞"
+            },
+            "rarity": 4,
+            "role": "rate-up",
+            "type": "unknown"
+          }
+        ]
+      },
+      "sources": [
+        "https://wutheringwaves.fandom.com/wiki/Suoming/Gallery"
+      ]
+    },
+    {
+      "id": "review-nikke-global-20261029-229",
+      "set": {
+        "image": "https://sg-tools-cdn.blablalink.com/im-00/nx-01/17f5ad53dd850a22ca1060cf9e429be9.webp",
+        "imageSource": "https://www.blablalink.com/shiftyspad/nikke?from=list&nikke=472",
+        "width": 2048,
+        "height": 2048,
+        "imageCaption": {
+          "ko": "공식 캐릭터 일러스트 · 원본 2048×2048",
+          "en": "Official character artwork · native 2048×2048",
+          "ja": "公式キャラクターイラスト・原寸2048×2048",
+          "zh": "官方角色立绘·原始2048×2048"
+        },
+        "pickupMembers": [
+          {
+            "image": "https://sg-tools-cdn.blablalink.com/im-00/nx-01/17f5ad53dd850a22ca1060cf9e429be9.webp",
+            "imageCaption": {
+              "ko": "공식 캐릭터 일러스트 · 원본 2048×2048",
+              "en": "Official character artwork · native 2048×2048",
+              "ja": "公式キャラクターイラスト・原寸2048×2048",
+              "zh": "官方角色立绘·原始2048×2048"
+            },
+            "imageKind": "character",
+            "imageLocale": "neutral",
+            "imageSource": "https://www.blablalink.com/shiftyspad/nikke?from=list&nikke=472",
+            "imageVerified": true,
+            "name": {
+              "en": "Scarlet: Goddeath",
+              "ja": "紅蓮：神殺",
+              "ko": "홍련 : 신살",
+              "zh": "紅蓮：弒神"
+            },
+            "role": "featured",
+            "type": "new",
+            "width": 2048,
+            "height": 2048
+          }
+        ]
+      },
+      "before": {
+        "image": "https://cdn.prydwen.gg/images/nikke/characters/scarlet-goddeath_card.webp",
+        "imageSource": "https://www.prydwen.gg/nikke/characters/",
+        "width": null,
+        "height": null,
+        "imageCaption": {
+          "en": "캐릭터 카드 원본 · 전신 일러스트가 아닙니다",
+          "ja": "캐릭터 카드 원본 · 전신 일러스트가 아닙니다",
+          "ko": "캐릭터 카드 원본 · 전신 일러스트가 아닙니다",
+          "zh": "캐릭터 카드 원본 · 전신 일러스트가 아닙니다"
+        },
+        "pickupMembers": [
+          {
+            "image": "https://cdn.prydwen.gg/images/nikke/characters/scarlet-goddeath_card.webp",
+            "imageCaption": {
+              "en": "캐릭터 카드 원본 · 전신 일러스트가 아닙니다",
+              "ja": "캐릭터 카드 원본 · 전신 일러스트가 아닙니다",
+              "ko": "캐릭터 카드 원본 · 전신 일러스트가 아닙니다",
+              "zh": "캐릭터 카드 원본 · 전신 일러스트가 아닙니다"
+            },
+            "imageKind": "character",
+            "imageLocale": "neutral",
+            "imageSource": "https://www.prydwen.gg/nikke/characters/",
+            "imageVerified": true,
+            "name": {
+              "en": "Scarlet: Goddeath",
+              "ja": "紅蓮：神殺",
+              "ko": "홍련 : 신살",
+              "zh": "紅蓮：弒神"
+            },
+            "role": "featured",
+            "type": "new"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.blablalink.com/shiftyspad/nikke?from=list&nikke=472"
+      ]
+    }
+  ]
+}
