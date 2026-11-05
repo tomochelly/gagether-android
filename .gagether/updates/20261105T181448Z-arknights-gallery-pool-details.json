@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "requestId": "20261105T181448Z-arknights-gallery-pool-details",
+  "reason": "명일방주 일본 복각 공지의 공식 원본 이미지 4장과 의상·가구 설명을 보완하고, 한국 일반·커널 배너의 실제 크기 및 커널 풀 분류를 교정한다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T18:14:48Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "arknights-kr-standard-20261106",
+      "set": {
+        "width": 1650,
+        "height": 900
+      },
+      "before": {
+        "width": null,
+        "height": null
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249889"
+      ]
+    },
+    {
+      "id": "arknights-kr-kernel-20261103",
+      "set": {
+        "width": 1650,
+        "height": 900,
+        "poolType": "standard"
+      },
+      "before": {
+        "width": null,
+        "height": null,
+        "poolType": "character"
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249765"
+      ]
+    },
+    {
+      "id": "quick-arknights-jp-4997",
+      "set": {
+        "detailImages": [
+          {
+            "image": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/GLZBVSRH.png",
+            "imageSource": "https://arknights.jp/news/4997",
+            "width": 1560,
+            "height": 300,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-03T07:35:34Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "일본 공식 복각 이벤트 배너",
+              "en": "Official Japanese rerun event banner",
+              "ja": "日本版公式復刻イベントバナー",
+              "zh": "日服官方复刻活动横幅"
+            }
+          },
+          {
+            "image": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/-f-xvmE9.png",
+            "imageSource": "https://arknights.jp/news/4997",
+            "width": 1560,
+            "height": 4650,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-05T18:14:48Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "일본 공식 「命ある者の旅」 복각 진행 안내: 보상, 임무, 전투 기믹과 훈장.",
+              "en": "Official Japanese rerun guide for 命ある者の旅: rewards, missions, battle mechanics and medals.",
+              "ja": "「命ある者の旅」復刻版の進め方。報酬、任務、戦闘ギミック、功績勲章の公式案内。",
+              "zh": "日服「命ある者の旅」复刻官方玩法说明：奖励、任务、战斗机制与奖章。"
+            }
+          },
+          {
+            "image": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/N4iaLHoe.png",
+            "imageSource": "https://arknights.jp/news/4997",
+            "width": 1560,
+            "height": 500,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-05T18:14:48Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "일본 공식 サンクタ・ミキサー 전용 「蒼穹の黎明」 의상 안내.",
+              "en": "Official Japanese announcement for サンクタ・ミキサー’s 蒼穹の黎明 outfit.",
+              "ja": "サンクタ・ミキサー専用コーデ「蒼穹の黎明」の公式告知。",
+              "zh": "日服官方「サンクタ・ミキサー」专属时装「蒼穹の黎明」公告。"
+            }
+          },
+          {
+            "image": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/YRmJk62t.png",
+            "imageSource": "https://arknights.jp/news/4997",
+            "width": 1560,
+            "height": 500,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-05T18:14:48Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "일본 공식 「パガニーニの銃工房」 테마 가구 일부 재판매 안내.",
+              "en": "Official Japanese announcement for returning furniture from パガニーニの銃工房.",
+              "ja": "インテリアテーマ「パガニーニの銃工房」一部復刻入荷の公式告知。",
+              "zh": "日服官方主题家具「パガニーニの銃工房」部分复刻公告。"
+            }
+          },
+          {
+            "image": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/33rlL9Ok.png",
+            "imageSource": "https://arknights.jp/news/4997",
+            "width": 1560,
+            "height": 500,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-05T18:14:48Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "일본 공식 「海の末裔たち」 테마 가구 재판매 안내.",
+              "en": "Official Japanese announcement for the returning 海の末裔たち furniture theme.",
+              "ja": "インテリアテーマ「『海の末裔たち』」復刻入荷の公式告知。",
+              "zh": "日服官方主题家具「海の末裔たち」复刻公告。"
+            }
+          }
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "신규 의상과 테마 가구 재판매",
+              "en": "New outfit and returning furniture",
+              "ja": "新コーデとテーマ家具の復刻",
+              "zh": "新时装与主题家具复刻"
+            },
+            "body": {
+              "ko": "일본 서비스는 11월 5~19일 サンクタ・ミキサー 전용 「蒼穹の黎明」 의상과 「パガニーニの銃工房」 일부 가구, 「海の末裔たち」 테마 가구를 판매한다. 「パガニーニの銃工房」의 일부 가구는 이벤트에서만 얻을 수 있다.",
+              "en": "The Japanese service offers the 蒼穹の黎明 outfit for サンクタ・ミキサー, selected パガニーニの銃工房 furniture and the 海の末裔たち furniture theme from November 5–19. Some パガニーニの銃工房 pieces are available only through the event.",
+              "ja": "11月5日～19日、サンクタ・ミキサー専用コーデ「蒼穹の黎明」、「パガニーニの銃工房」の一部家具、「『海の末裔たち』」のテーマ家具を販売。「パガニーニの銃工房」の一部家具はイベントでのみ入手できる。",
+              "zh": "日服于11月5日至19日出售「サンクタ・ミキサー」专属时装「蒼穹の黎明」、部分「パガニーニの銃工房」家具及「海の末裔たち」主题家具。「パガニーニの銃工房」的部分家具只能通过活动获取。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://arknights.jp/news/4997"
+            ],
+            "audienceRegions": [
+              "jp"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "detailImages": [
+          {
+            "image": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/GLZBVSRH.png",
+            "imageSource": "https://arknights.jp/news/4997",
+            "width": 1560,
+            "height": 300,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "verifiedAt": "2026-11-03T07:35:34Z",
+            "originalLanguageFallback": true,
+            "imageCaption": {
+              "ko": "일본 공식 복각 이벤트 배너",
+              "en": "Official Japanese rerun event banner",
+              "ja": "日本版公式復刻イベントバナー",
+              "zh": "日服官方复刻活动横幅"
+            }
+          }
+        ],
+        "detailSections": null
+      },
+      "sources": [
+        "https://arknights.jp/news/4997"
+      ]
+    }
+  ]
+}
