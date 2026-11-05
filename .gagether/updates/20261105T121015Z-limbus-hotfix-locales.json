@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "requestId": "20261105T121015Z-limbus-hotfix-locales",
+  "reason": "림버스 11월 5일 거울 던전 핫픽스의 한국어·영어·일본어 공식 본문을 대조해 잘린 요약을 완성하고 네 언어 제목·요약과 번역 구분을 보완한다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T12:10:15.922405Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-limbus-global-667255509586280516-ko",
+      "set": {
+        "title": {
+          "ko": "거울 던전 업적 조건 완화 및 텍스트 명확화를 위한 핫픽스 안내",
+          "en": "Hotfix: Mirror Dungeon Achievement Adjustment & Text Clarification",
+          "ja": "鏡ダンジョンのアチーブメント条件緩和およびテキスト明確化に関するホットフィックスのご案内",
+          "zh": "鏡像迷宮成就條件調整與說明修正公告（翻譯）"
+        },
+        "summary": {
+          "ko": "거울 던전 1회에서 리베이트 토큰을 누적 3회 발동한 뒤 클리어하도록 업적 조건을 완화한다. 10층 이상 클리어 업적은 상점 새로고침·키워드 새로고침만 제한하며 층 새로고침은 허용한다. 핫픽스 전 플레이는 연속 발동 횟수만 소급 집계한다.",
+          "en": "The Rebate Token achievement will require three total activations in one completed Mirror Dungeon run. The floor 10 achievement restricts only shop refreshes and keyword refreshes; floor refreshes remain allowed. For runs before the hotfix, only consecutive activations count retroactively.",
+          "ja": "鏡ダンジョン1回でリベートトークンを累計3回発動してクリアする条件へ緩和。10階以上クリアの実績で禁止されるのはショップの更新とキーワード更新で、階層更新は可能。修正前のプレイは連続発動回数のみ遡って集計される。",
+          "zh": "鏡像迷宮單次通關中，Rebate Token的成就條件改為累計觸發3次。通關第10層以上的成就僅限制商店刷新及關鍵詞刷新，樓層刷新不受影響。修正前的紀錄僅追溯連續觸發次數。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=english",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=japanese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "거울 던전 업적 조건 완화 및 텍스트 명확화를 위한 핫픽스 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "안녕하세요. 프로젝트문입니다. 2026년 11월 5일 업데이트 된 거울 던전의 일부 업적에서 운에 따른 달성 부담이 크거나, 조건을 안내하는 문구가 명확하지 않아 혼동을 드릴 수 있는 점을 확인했습니다. 이에 해당 업적의 달성 조건을 완화하고, 조건을 명확하게 안내할 수 있도록 관련 문구를 수정할 예정입니다. 1. E.G.O 기프트 리베이트 토큰 관련 업적 달성 조건 완화 - 기존: 거울 던전 1회 플레이에서 E.G.O 기프트 리베이트 토큰 효과를 3회 연속으로 발동하고 거울 던전 클리어 - 변경: 거울 던전 1회 플레이에서 E.G.O 기프트 리베이트 토큰 효과를 누",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=koreana"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667255509586280516-en",
+      "set": {
+        "title": {
+          "ko": "거울 던전 업적 조건 완화 및 텍스트 명확화를 위한 핫픽스 안내",
+          "en": "Hotfix: Mirror Dungeon Achievement Adjustment & Text Clarification",
+          "ja": "鏡ダンジョンのアチーブメント条件緩和およびテキスト明確化に関するホットフィックスのご案内",
+          "zh": "鏡像迷宮成就條件調整與說明修正公告（翻譯）"
+        },
+        "summary": {
+          "ko": "거울 던전 1회에서 리베이트 토큰을 누적 3회 발동한 뒤 클리어하도록 업적 조건을 완화한다. 10층 이상 클리어 업적은 상점 새로고침·키워드 새로고침만 제한하며 층 새로고침은 허용한다. 핫픽스 전 플레이는 연속 발동 횟수만 소급 집계한다.",
+          "en": "The Rebate Token achievement will require three total activations in one completed Mirror Dungeon run. The floor 10 achievement restricts only shop refreshes and keyword refreshes; floor refreshes remain allowed. For runs before the hotfix, only consecutive activations count retroactively.",
+          "ja": "鏡ダンジョン1回でリベートトークンを累計3回発動してクリアする条件へ緩和。10階以上クリアの実績で禁止されるのはショップの更新とキーワード更新で、階層更新は可能。修正前のプレイは連続発動回数のみ遡って集計される。",
+          "zh": "鏡像迷宮單次通關中，Rebate Token的成就條件改為累計觸發3次。通關第10層以上的成就僅限制商店刷新及關鍵詞刷新，樓層刷新不受影響。修正前的紀錄僅追溯連續觸發次數。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=english",
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=koreana",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=japanese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Hotfix: Mirror Dungeon Achievement Adjustment & Text Clarification",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Hello, this is Project Moon. After the Nov. 5th, 2026 Scheduled Update, we have identified an issue where a certain achievement is overly reliant on luck, while another has an unclear description that may be confusing and open to interpretation. As such, we will be making the first Achievement easier to clear, and upda",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=english"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667255509586280516-ja",
+      "set": {
+        "title": {
+          "ko": "거울 던전 업적 조건 완화 및 텍스트 명확화를 위한 핫픽스 안내",
+          "en": "Hotfix: Mirror Dungeon Achievement Adjustment & Text Clarification",
+          "ja": "鏡ダンジョンのアチーブメント条件緩和およびテキスト明確化に関するホットフィックスのご案内",
+          "zh": "鏡像迷宮成就條件調整與說明修正公告（翻譯）"
+        },
+        "summary": {
+          "ko": "거울 던전 1회에서 리베이트 토큰을 누적 3회 발동한 뒤 클리어하도록 업적 조건을 완화한다. 10층 이상 클리어 업적은 상점 새로고침·키워드 새로고침만 제한하며 층 새로고침은 허용한다. 핫픽스 전 플레이는 연속 발동 횟수만 소급 집계한다.",
+          "en": "The Rebate Token achievement will require three total activations in one completed Mirror Dungeon run. The floor 10 achievement restricts only shop refreshes and keyword refreshes; floor refreshes remain allowed. For runs before the hotfix, only consecutive activations count retroactively.",
+          "ja": "鏡ダンジョン1回でリベートトークンを累計3回発動してクリアする条件へ緩和。10階以上クリアの実績で禁止されるのはショップの更新とキーワード更新で、階層更新は可能。修正前のプレイは連続発動回数のみ遡って集計される。",
+          "zh": "鏡像迷宮單次通關中，Rebate Token的成就條件改為累計觸發3次。通關第10層以上的成就僅限制商店刷新及關鍵詞刷新，樓層刷新不受影響。修正前的紀錄僅追溯連續觸發次數。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=japanese",
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=english"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "鏡ダンジョンのアチーブメント条件緩和およびテキスト明確化に関するホットフィックスのご案内",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "お世話になっております。Project Moonです。 2026年11月5日にアップデートされた鏡ダンジョンの一部アチーブメントにおいて、運によって達成の負担が大きくなることや、 条件を案内する文言が不明確で、混乱を招くおそれがあることを確認いたしました。 そのため、当該アチーブメントの達成条件を緩和し、条件を明確にご案内できるよう、関連する文言を修正する予定です。 1. E.G.Oギフト「リベートトークン」に関するアチーブメントの達成条件緩和 - 既存 : 鏡ダンジョン1回のプレイでE.G.Oギフト「リベートトークン」の効果を3回連続で発動し、鏡ダンジョンをクリア - 変更 : 鏡ダンジョン1回のプレイでE.G.Oギフト「リベート",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=japanese"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280516?l=japanese"
+      ]
+    }
+  ]
+}
