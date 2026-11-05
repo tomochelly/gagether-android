@@ -1,0 +1,1394 @@
+{
+  "version": 1,
+  "requestId": "20261105T055001Z-nikke-security-arknights-standard",
+  "reason": "NIKKE PC 런처 보안 공지 3종의 공식 한·영·일 제목과 4개 언어 요약을 보완하고, 명일방주 한국 11월 6일 일반 헤드헌팅 공지·신규 픽업 및 공식 배너 이미지를 반영한다. 시간대 미확인 픽업 시각은 비워 둔다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T05:50:01Z",
+  "entries": [
+    {
+      "id": "arknights-kr-standard-20261106",
+      "gameId": "arknights",
+      "region": "kr",
+      "server": "kr",
+      "kind": "pickup",
+      "title": {
+        "ko": "일반 헤드헌팅 · 비비아나 / 파죰카",
+        "en": "Standard Headhunting · Viviana / Pozëmka (translation)",
+        "ja": "韓国・通常スカウト：11月6日開始（翻訳）",
+        "zh": "韓服常駐尋訪：11 月 6 日開始（翻譯）"
+      },
+      "summary": {
+        "ko": "한국 서버 일반 헤드헌팅의 비비아나·파죰카(6성), 타락사쿰·폰사이러스·루나컵(5성) 출현 확률이 상승한다. 공식 안내 이미지의 기간은 2026년 11월 6일 04:00부터 11월 20일 03:59까지다.",
+        "en": "Korean-server Standard Headhunting features increased rates for 6-star Viviana and Pozëmka, plus three 5-star operators. The official Korean banner lists November 6, 2026 at 04:00 through November 20 at 03:59.",
+        "ja": "韓国サーバーの通常スカウトで★6オペレーター2名と★5オペレーター3名の出現率がアップ。韓国公式画像の開催期間は2026年11月6日04:00～11月20日03:59。",
+        "zh": "韓國伺服器常駐尋訪提高兩名六星與三名五星幹員的出現率。韓國官方公告圖列出的期間為 2026 年 11 月 6 日 04:00 至 11 月 20 日 03:59。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-20",
+      "timingNote": {
+        "ko": "공식 이미지 표기: 11월 6일 04:00 ~ 11월 20일 03:59. 원문에 UTC 오프셋은 명시되지 않았다.",
+        "en": "Official banner time: November 6, 04:00 to November 20, 03:59. The source does not specify a UTC offset.",
+        "ja": "公式画像の時刻表記：11月6日04:00～11月20日03:59。原文にUTCオフセットの記載はない。",
+        "zh": "官方圖片標示：11 月 6 日 04:00 至 11 月 20 日 03:59；原文未標明 UTC 時差。"
+      },
+      "publishedAt": "2026-11-05T04:03:46.400Z",
+      "verifiedAt": "2026-11-05T05:50:01Z",
+      "sourceUrl": "https://cafe.naver.com/arknightskor/1249889",
+      "sourceTitle": "'일반 헤드헌팅 확률 UP' 이벤트 안내",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ],
+      "localizationSources": {
+        "ko": "https://cafe.naver.com/arknightskor/1249889"
+      },
+      "relatedSources": [
+        {
+          "kind": "official",
+          "url": "https://www.arknights.global/news/3836",
+          "title": "LIMITED-TIME HEADHUNTING OPEN - CELEBRATION & HOPE",
+          "publisher": "Arknights Global"
+        },
+        {
+          "kind": "official",
+          "url": "https://arknights.jp/news/410",
+          "title": "サイドストーリー「ツヴィリングトゥルムの黄金」",
+          "publisher": "アークナイツ"
+        }
+      ],
+      "poolType": "standard",
+      "pickupType": "unknown",
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "비비아나",
+            "en": "Viviana",
+            "ja": "ヴィヴィアナ",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6
+        },
+        {
+          "name": {
+            "ko": "파죰카",
+            "en": "Pozëmka",
+            "ja": "",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6
+        },
+        {
+          "name": {
+            "ko": "타락사쿰",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "폰사이러스",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "루나컵",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        }
+      ],
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-06",
+        "endDate": "2026-11-20"
+      },
+      "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDVfMjIx/MDAxNzkzODQ2NDEyMDYy.u5QZjYfJFfOlzgBSZQjHNAbSsjwHiac84C5n8B3oGkAg.ehYVpV2yloww-CfeuuTL0QI2TPrU_OSBfa8tjknDON0g.JPEG/out.jpg",
+      "imageSource": "https://cafe.naver.com/arknightskor/1249889",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ko",
+      "imageCaption": {
+        "ko": "한국 공식 일반 헤드헌팅 안내: 비비아나·파죰카 및 5성 3명. 한국어 원본 이미지.",
+        "en": "Official Korean Standard Headhunting banner: Viviana, Pozëmka and three 5-star operators. Original Korean artwork.",
+        "ja": "韓国公式の通常スカウト告知。★6が2名、★5が3名の対象。韓国語の原版画像。",
+        "zh": "韓國官方常駐尋訪公告圖，包含兩名六星與三名五星幹員。韓文原圖。"
+      },
+      "originalLanguageFallback": true,
+      "localizedArtwork": {
+        "ko": {
+          "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDVfMjIx/MDAxNzkzODQ2NDEyMDYy.u5QZjYfJFfOlzgBSZQjHNAbSsjwHiac84C5n8B3oGkAg.ehYVpV2yloww-CfeuuTL0QI2TPrU_OSBfa8tjknDON0g.JPEG/out.jpg",
+          "imageSource": "https://cafe.naver.com/arknightskor/1249889",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "width": 1650,
+          "height": 900,
+          "verifiedAt": "2026-11-05T05:50:01Z",
+          "imageCaption": {
+            "ko": "한국 공식 일반 헤드헌팅 안내: 비비아나·파죰카 및 5성 3명. 한국어 원본 이미지.",
+            "en": "Official Korean Standard Headhunting banner: Viviana, Pozëmka and three 5-star operators. Original Korean artwork.",
+            "ja": "韓国公式の通常スカウト告知。★6が2名、★5が3名の対象。韓国語の原版画像。",
+            "zh": "韓國官方常駐尋訪公告圖，包含兩名六星與三名五星幹員。韓文原圖。"
+          },
+          "originalLanguageFallback": true
+        }
+      },
+      "detailImages": [
+        {
+          "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDVfMjIx/MDAxNzkzODQ2NDEyMDYy.u5QZjYfJFfOlzgBSZQjHNAbSsjwHiac84C5n8B3oGkAg.ehYVpV2yloww-CfeuuTL0QI2TPrU_OSBfa8tjknDON0g.JPEG/out.jpg",
+          "imageSource": "https://cafe.naver.com/arknightskor/1249889",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ko",
+          "width": 1650,
+          "height": 900,
+          "verifiedAt": "2026-11-05T05:50:01Z",
+          "imageCaption": {
+            "ko": "한국 공식 일반 헤드헌팅 안내: 비비아나·파죰카 및 5성 3명. 한국어 원본 이미지.",
+            "en": "Official Korean Standard Headhunting banner: Viviana, Pozëmka and three 5-star operators. Original Korean artwork.",
+            "ja": "韓国公式の通常スカウト告知。★6が2名、★5が3名の対象。韓国語の原版画像。",
+            "zh": "韓國官方常駐尋訪公告圖，包含兩名六星與三名五星幹員。韓文原圖。"
+          },
+          "originalLanguageFallback": true
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "quick-nikke-global-7068a8e1ad7faa49fcabc66ad34406487ee5",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 사고에 대해 사과드립니다.",
+          "en": "Our Apology for the PC Launcher Security Incident",
+          "ja": "PCランチャーのセキュリティインシデントに関するお詫び",
+          "zh": "PC 啟動器安全事件致歉（翻譯）"
+        },
+        "summary": {
+          "ko": "운영팀이 PC 런처 보안 사고에 대해 사과하고, 런처 수정과 추가 점검을 완료했다고 밝혔다. 후속 조치·수동 점검 안내와 게임 내 보상을 공지했으며, 피해가 의심되면 고객센터로 문의하도록 안내했다.",
+          "en": "The operations team apologized for the PC launcher security incident and said launcher fixes and additional inspections were complete. It announced response and manual-check guides, in-game compensation, and customer-support assistance for suspected harm.",
+          "ja": "運営はPCランチャーのセキュリティインシデントを謝罪し、修正と追加点検を完了したと説明。対応策・手動確認の案内とゲーム内補填を告知し、被害が疑われる場合はサポートへの問い合わせを案内した。",
+          "zh": "營運團隊就 PC 啟動器安全事件致歉，表示已完成啟動器修正及追加檢查，並公布後續措施、手動檢查指南與遊戲內補償；疑似受影響的玩家可聯絡客服。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+            "title": "Our Apology for the PC Launcher Security Incident",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+            "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+            "title": "PC 런처 보안 사고 및 후속 조치 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:04:01.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+            "title": "PC Launcher Security Incident and Follow-up Measures",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:07:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+            "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+            "title": "PC 런처 보안 관련 수동 점검 방법 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:06:33.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+            "title": "Manual Security Check Instructions for the PC Launcher",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:10:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+            "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "PC 런처 보안 사고에 대해 사과드립니다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "안녕하세요. 승리의 여신: 니케 운영팀입니다. 먼저, 이번 PC 런처 보안 사고로 인해 지휘관 여러분께 큰 불안과 심려를 끼쳐드린 점 고개 숙여 사과드립니다. 지휘관 여러분께서는 저희가 제공하는 게임과 서비스를 믿고 이용해 주셨습니다. 그러나 이번 사고로 인해 지휘관 여러분의 소중한 PC가 보안상의 위험에 노출되는 상황이 발생하였습니다. 게임을 즐기기 위해 실행한 공식 프로그램이 오히려 이용자의 안전을 위협할 수 있었다는 것은 결코 있어서는 안 될 일입니다. 지휘관 여러분께서 아무런 의심 없이 이용하실 수 있어야 할 서비스를 안전하게 제공하지 못했다는 점에서, 운영사",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:03:51.898Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 사고에 대해 사과드립니다.",
+          "en": "Our Apology for the PC Launcher Security Incident",
+          "ja": "PCランチャーのセキュリティインシデントに関するお詫び",
+          "zh": "PC 啟動器安全事件致歉（翻譯）"
+        },
+        "summary": {
+          "ko": "운영팀이 PC 런처 보안 사고에 대해 사과하고, 런처 수정과 추가 점검을 완료했다고 밝혔다. 후속 조치·수동 점검 안내와 게임 내 보상을 공지했으며, 피해가 의심되면 고객센터로 문의하도록 안내했다.",
+          "en": "The operations team apologized for the PC launcher security incident and said launcher fixes and additional inspections were complete. It announced response and manual-check guides, in-game compensation, and customer-support assistance for suspected harm.",
+          "ja": "運営はPCランチャーのセキュリティインシデントを謝罪し、修正と追加点検を完了したと説明。対応策・手動確認の案内とゲーム内補填を告知し、被害が疑われる場合はサポートへの問い合わせを案内した。",
+          "zh": "營運團隊就 PC 啟動器安全事件致歉，表示已完成啟動器修正及追加檢查，並公布後續措施、手動檢查指南與遊戲內補償；疑似受影響的玩家可聯絡客服。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+            "title": "PC 런처 보안 사고에 대해 사과드립니다.",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+            "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+            "title": "PC 런처 보안 사고 및 후속 조치 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:04:01.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+            "title": "PC Launcher Security Incident and Follow-up Measures",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:07:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+            "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+            "title": "PC 런처 보안 관련 수동 점검 방법 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:06:33.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+            "title": "Manual Security Check Instructions for the PC Launcher",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:10:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+            "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Our Apology for the PC Launcher Security Incident \u0005",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Hello, This is the GODDESS OF VICTORY: NIKKE Operations Team . First, we sincerely apologize for any anxi ety and concern that the security incident relating to the PC launcher has caused. You have placed your trust in the game and the services we provide. However, this incident put your PCs at risk of potential securi",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:04:37.542Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-nikke-jp-d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 사고에 대해 사과드립니다.",
+          "en": "Our Apology for the PC Launcher Security Incident",
+          "ja": "PCランチャーのセキュリティインシデントに関するお詫び",
+          "zh": "PC 啟動器安全事件致歉（翻譯）"
+        },
+        "summary": {
+          "ko": "운영팀이 PC 런처 보안 사고에 대해 사과하고, 런처 수정과 추가 점검을 완료했다고 밝혔다. 후속 조치·수동 점검 안내와 게임 내 보상을 공지했으며, 피해가 의심되면 고객센터로 문의하도록 안내했다.",
+          "en": "The operations team apologized for the PC launcher security incident and said launcher fixes and additional inspections were complete. It announced response and manual-check guides, in-game compensation, and customer-support assistance for suspected harm.",
+          "ja": "運営はPCランチャーのセキュリティインシデントを謝罪し、修正と追加点検を完了したと説明。対応策・手動確認の案内とゲーム内補填を告知し、被害が疑われる場合はサポートへの問い合わせを案内した。",
+          "zh": "營運團隊就 PC 啟動器安全事件致歉，表示已完成啟動器修正及追加檢查，並公布後續措施、手動檢查指南與遊戲內補償；疑似受影響的玩家可聯絡客服。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+            "title": "PC 런처 보안 사고에 대해 사과드립니다.",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+            "title": "Our Apology for the PC Launcher Security Incident",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+            "title": "PC 런처 보안 사고 및 후속 조치 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:04:01.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+            "title": "PC Launcher Security Incident and Follow-up Measures",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:07:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+            "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+            "title": "PC 런처 보안 관련 수동 점검 방법 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:06:33.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+            "title": "Manual Security Check Instructions for the PC Launcher",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:10:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+            "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "PCランチャーのセキュリティインシデントに関するお詫び",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "指揮官の皆様、こんにちは。『勝利の女神：NIKKE』運営チームです。 まず、今回のPCランチャーに関するセキュリティインシデントにより、指揮官の皆様に多大なご不安とご心配をおかけしましたことを、深くお詫び申し上げます。 指揮官の皆様は、私たちが提供するゲームとサービスを信頼してご利用くださっていました。 しかし、今回の件により、皆様の大切なPCがセキュリティ上のリスクにさらされる事態となりました。 ゲームを楽しむために起動した公式プログラムが、利用者の安全を脅かしかねなかったことは、決してあってはならないことです。安心してご利用いただけるはずのサービスを安全に提供できなかったことについて、運営者として重い責任を感じています。 今回の",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:04:37.542Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-fcf136efa5257a4851aa172a8e6a8c21c1bc",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 사고 및 후속 조치 안내",
+          "en": "PC Launcher Security Incident and Follow-up Measures",
+          "ja": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+          "zh": "PC 啟動器安全事件與後續措施（翻譯）"
+        },
+        "summary": {
+          "ko": "일부 Windows PC 런처 파일이 제3자에 의해 변조된 사고의 경과와 대응을 안내했다. 9월 27일 15:41(UTC+9) 이후 런처 실행 이력이 있는 이용자에게 점검을 권고하며, 11월 5일 08:00(UTC+9)부터 공식 PC 클라이언트에 탐지·제거 기능을 제공한다고 밝혔다. 계정 보호와 피해 신고 방법도 안내했다.",
+          "en": "The notice explains third-party tampering with Windows PC launcher files. Users who launched it since September 27 at 15:41 (UTC+9) are advised to check their PCs. The operator says detection and removal became available in the official PC client on November 5 at 08:00 (UTC+9), with account-protection and damage-reporting guidance.",
+          "ja": "Windows PCランチャーの一部ファイルが第三者に改ざんされた経緯と対応を説明。9月27日15:41（UTC+9）以降の起動利用者に点検を推奨し、11月5日08:00（UTC+9）から公式PCクライアントに検出・削除機能を提供すると案内。アカウント保護と被害申告の手順も掲載。",
+          "zh": "公告說明 Windows PC 啟動器檔案遭第三方竄改的經過，建議自 9 月 27 日 15:41（UTC+9）起曾啟動的玩家檢查電腦。營運表示官方 PC 用戶端自 11 月 5 日 08:00（UTC+9）提供偵測與移除功能，並說明帳號保護及損害通報方式。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+            "title": "PC 런처 보안 사고에 대해 사과드립니다.",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+            "title": "Our Apology for the PC Launcher Security Incident",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+            "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+            "title": "PC Launcher Security Incident and Follow-up Measures",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:07:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+            "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+            "title": "PC 런처 보안 관련 수동 점검 방법 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:06:33.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+            "title": "Manual Security Check Instructions for the PC Launcher",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:10:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+            "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "PC 런처 보안 사고 및 후속 조치 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "최근 NIKKE PC 런처의 일부 파일이 제3자에 의해 변조되어, 런처 실행 시 악성 프로그램이 실행될 수 있었던 점을 확인했습니다. 이로 인해 지휘관님의 PC와 계정 정보가 보안 위험에 노출되었을 가능성이 있어, 악성 프로그램의 피해 규모를 지속적으로 조사하며 대응 방안을 검토하고 있습니다. 또한, PC 런처 파일이 어떤 경로로 변조되었는지 확인하기 위해 CDN을 포함한 네트워크 보안 환경을 면밀히 점검하고 있습니다. 추가 피해가 발생하거나 같은 문제가 반복되지 않도록 신중하게 대응하겠습니다. 안전한 게임 이용 환경을 제공해 드려야 함에도, 이번 보안 사고로 지휘관",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:11:02.986Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-b4f23938a63a0a4e68aa577af395b1edb172",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 사고 및 후속 조치 안내",
+          "en": "PC Launcher Security Incident and Follow-up Measures",
+          "ja": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+          "zh": "PC 啟動器安全事件與後續措施（翻譯）"
+        },
+        "summary": {
+          "ko": "일부 Windows PC 런처 파일이 제3자에 의해 변조된 사고의 경과와 대응을 안내했다. 9월 27일 15:41(UTC+9) 이후 런처 실행 이력이 있는 이용자에게 점검을 권고하며, 11월 5일 08:00(UTC+9)부터 공식 PC 클라이언트에 탐지·제거 기능을 제공한다고 밝혔다. 계정 보호와 피해 신고 방법도 안내했다.",
+          "en": "The notice explains third-party tampering with Windows PC launcher files. Users who launched it since September 27 at 15:41 (UTC+9) are advised to check their PCs. The operator says detection and removal became available in the official PC client on November 5 at 08:00 (UTC+9), with account-protection and damage-reporting guidance.",
+          "ja": "Windows PCランチャーの一部ファイルが第三者に改ざんされた経緯と対応を説明。9月27日15:41（UTC+9）以降の起動利用者に点検を推奨し、11月5日08:00（UTC+9）から公式PCクライアントに検出・削除機能を提供すると案内。アカウント保護と被害申告の手順も掲載。",
+          "zh": "公告說明 Windows PC 啟動器檔案遭第三方竄改的經過，建議自 9 月 27 日 15:41（UTC+9）起曾啟動的玩家檢查電腦。營運表示官方 PC 用戶端自 11 月 5 日 08:00（UTC+9）提供偵測與移除功能，並說明帳號保護及損害通報方式。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+            "title": "PC 런처 보안 사고에 대해 사과드립니다.",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+            "title": "Our Apology for the PC Launcher Security Incident",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+            "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+            "title": "PC 런처 보안 사고 및 후속 조치 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:04:01.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+            "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+            "title": "PC 런처 보안 관련 수동 점검 방법 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:06:33.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+            "title": "Manual Security Check Instructions for the PC Launcher",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:10:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+            "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "PC Launcher Security Incident and Follow-up Measures",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "We have identified that some files in the NIKKE Windows PC launcher were recently tampered with by a third party, potentially allowing malicious programs to run when the launcher was launched. As a result, your PCs and account information may have been exposed to security risks. We are continuing to investigate the ext",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:11:47.684Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-nikke-jp-6249009ca6d9ea4641a96fcaef3bbe077f02",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 사고 및 후속 조치 안내",
+          "en": "PC Launcher Security Incident and Follow-up Measures",
+          "ja": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+          "zh": "PC 啟動器安全事件與後續措施（翻譯）"
+        },
+        "summary": {
+          "ko": "일부 Windows PC 런처 파일이 제3자에 의해 변조된 사고의 경과와 대응을 안내했다. 9월 27일 15:41(UTC+9) 이후 런처 실행 이력이 있는 이용자에게 점검을 권고하며, 11월 5일 08:00(UTC+9)부터 공식 PC 클라이언트에 탐지·제거 기능을 제공한다고 밝혔다. 계정 보호와 피해 신고 방법도 안내했다.",
+          "en": "The notice explains third-party tampering with Windows PC launcher files. Users who launched it since September 27 at 15:41 (UTC+9) are advised to check their PCs. The operator says detection and removal became available in the official PC client on November 5 at 08:00 (UTC+9), with account-protection and damage-reporting guidance.",
+          "ja": "Windows PCランチャーの一部ファイルが第三者に改ざんされた経緯と対応を説明。9月27日15:41（UTC+9）以降の起動利用者に点検を推奨し、11月5日08:00（UTC+9）から公式PCクライアントに検出・削除機能を提供すると案内。アカウント保護と被害申告の手順も掲載。",
+          "zh": "公告說明 Windows PC 啟動器檔案遭第三方竄改的經過，建議自 9 月 27 日 15:41（UTC+9）起曾啟動的玩家檢查電腦。營運表示官方 PC 用戶端自 11 月 5 日 08:00（UTC+9）提供偵測與移除功能，並說明帳號保護及損害通報方式。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+            "title": "PC 런처 보안 사고에 대해 사과드립니다.",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+            "title": "Our Apology for the PC Launcher Security Incident",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+            "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+            "title": "PC 런처 보안 사고 및 후속 조치 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:04:01.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+            "title": "PC Launcher Security Incident and Follow-up Measures",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:07:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+            "title": "PC 런처 보안 관련 수동 점검 방법 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:06:33.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+            "title": "Manual Security Check Instructions for the PC Launcher",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:10:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+            "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "このたび、NIKKE PCランチャーの一部ファイルが第三者によって改ざんされ、 ランチャー起動時に不正プログラムが実行される可能性があったことを確認いたしました。 これにより、指揮官の皆様のPCおよびアカウント情報がセキュリティ上のリスクにさらされた可能性があるため、 不正プログラムによる被害範囲を継続して調査するとともに、対応策を検討しております。 また、PCランチャーのファイルがどのような経路で改ざんされたかを特定するため、 CDNを含むネットワークのセキュリティ環境を詳細に確認しております。 追加の被害が発生することのないよう、また同様の問題が再発しないよう、慎重に対応してまいります。 安全なゲーム環境をご提供すべきところ、今",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:04:37.542Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 관련 수동 점검 방법 안내",
+          "en": "Manual Security Check Instructions for the PC Launcher",
+          "ja": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+          "zh": "PC 啟動器安全手動檢查指南（翻譯）"
+        },
+        "summary": {
+          "ko": "PC 런처를 설치하지 않았거나 런처 없이 확인하려는 이용자를 위한 수동 점검 안내다. 운영팀은 이번 사고가 PC 런처에 한정되어 모바일 버전만 이용한 경우 관련 점검이 필요 없다고 설명했다. 수동 점검 전 준비, 악성 항목 확인, 계정 보호와 전체 검사를 안내하며 세부 절차는 원문을 따른다.",
+          "en": "A manual-check guide for users without the launcher or who want to check without running it. The operator says this incident was limited to the PC launcher, so mobile-only players do not need incident-specific checks. It covers preparation, suspicious-item checks, account protection and full scans; exact procedures are in the original guide.",
+          "ja": "ランチャー未導入、または起動せずに確認したい利用者向けの手動確認ガイド。運営は今回の問題がPCランチャーに限られ、モバイル版のみの利用者は本件の点検が不要と説明。事前準備、不審項目の確認、アカウント保護、全体スキャンを案内し、詳細な操作は原文に掲載。",
+          "zh": "供未安裝啟動器或希望不啟動程式就進行檢查的玩家使用。營運表示本次事件僅涉及 PC 啟動器，僅玩行動版的玩家無須進行本事件相關檢查。指南包含事前準備、可疑項目檢查、帳號保護與完整掃描，具體步驟以原文為準。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+            "title": "PC 런처 보안 사고에 대해 사과드립니다.",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+            "title": "Our Apology for the PC Launcher Security Incident",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+            "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+            "title": "PC 런처 보안 사고 및 후속 조치 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:04:01.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+            "title": "PC Launcher Security Incident and Follow-up Measures",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:07:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+            "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+            "title": "Manual Security Check Instructions for the PC Launcher",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:10:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+            "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "PC 런처 보안 관련 수동 점검 방법 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "안녕하세요. 승리의 여신: 니케 운영팀입니다. 이번 PC 런처 보안 사고로 지휘관 여러분께 큰 불안과 심려를 끼쳐드린 점 고개 숙여 사과드립니다. 9월 27일 15:41(UTC+9) 이후 Windows PC 런처를 1회 이상 실행하신 지휘관 여러분께서는 보안 점검 및 필요한 조치를 진행해 주시기를 부탁드립니다. 보안 점검 및 조치는 공식 PC 클라이언트에서 제공하는 보안 기능(ACE)을 통해 보다 편리하게 진행하실 수 있습니다. 해당 기능의 이용 방법은 [ PC 런처 보안 사고 및 후속 조치 안내 ] 공지를 확인해 주시기 바랍니다. 현재 PC 런처가 설치되어 있지 않",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:11:02.986Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-nikke-global-ecdccd40a55a5a46aaa9abda64d436082db7",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 관련 수동 점검 방법 안내",
+          "en": "Manual Security Check Instructions for the PC Launcher",
+          "ja": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+          "zh": "PC 啟動器安全手動檢查指南（翻譯）"
+        },
+        "summary": {
+          "ko": "PC 런처를 설치하지 않았거나 런처 없이 확인하려는 이용자를 위한 수동 점검 안내다. 운영팀은 이번 사고가 PC 런처에 한정되어 모바일 버전만 이용한 경우 관련 점검이 필요 없다고 설명했다. 수동 점검 전 준비, 악성 항목 확인, 계정 보호와 전체 검사를 안내하며 세부 절차는 원문을 따른다.",
+          "en": "A manual-check guide for users without the launcher or who want to check without running it. The operator says this incident was limited to the PC launcher, so mobile-only players do not need incident-specific checks. It covers preparation, suspicious-item checks, account protection and full scans; exact procedures are in the original guide.",
+          "ja": "ランチャー未導入、または起動せずに確認したい利用者向けの手動確認ガイド。運営は今回の問題がPCランチャーに限られ、モバイル版のみの利用者は本件の点検が不要と説明。事前準備、不審項目の確認、アカウント保護、全体スキャンを案内し、詳細な操作は原文に掲載。",
+          "zh": "供未安裝啟動器或希望不啟動程式就進行檢查的玩家使用。營運表示本次事件僅涉及 PC 啟動器，僅玩行動版的玩家無須進行本事件相關檢查。指南包含事前準備、可疑項目檢查、帳號保護與完整掃描，具體步驟以原文為準。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+            "title": "PC 런처 보안 사고에 대해 사과드립니다.",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+            "title": "Our Apology for the PC Launcher Security Incident",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+            "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+            "title": "PC 런처 보안 사고 및 후속 조치 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:04:01.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+            "title": "PC Launcher Security Incident and Follow-up Measures",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:07:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+            "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+            "title": "PC 런처 보안 관련 수동 점검 방법 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:06:33.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+            "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Manual Security Check Instructions for the PC Launcher",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Commanders, This is the GODDESS OF VICTORY: NIKKE Operations Team. We sincerely apologize for the great concern and distress caused by the recent PC launcher security incident. If you have launched the Windows PC launcher at least once since September 27, 15:41 (UTC+9), we ask that you perform a security check and take",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:11:47.684Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-nikke-jp-bc643d47a6935a4ebbabcefa81b6e578875d",
+      "set": {
+        "title": {
+          "ko": "PC 런처 보안 관련 수동 점검 방법 안내",
+          "en": "Manual Security Check Instructions for the PC Launcher",
+          "ja": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+          "zh": "PC 啟動器安全手動檢查指南（翻譯）"
+        },
+        "summary": {
+          "ko": "PC 런처를 설치하지 않았거나 런처 없이 확인하려는 이용자를 위한 수동 점검 안내다. 운영팀은 이번 사고가 PC 런처에 한정되어 모바일 버전만 이용한 경우 관련 점검이 필요 없다고 설명했다. 수동 점검 전 준비, 악성 항목 확인, 계정 보호와 전체 검사를 안내하며 세부 절차는 원문을 따른다.",
+          "en": "A manual-check guide for users without the launcher or who want to check without running it. The operator says this incident was limited to the PC launcher, so mobile-only players do not need incident-specific checks. It covers preparation, suspicious-item checks, account protection and full scans; exact procedures are in the original guide.",
+          "ja": "ランチャー未導入、または起動せずに確認したい利用者向けの手動確認ガイド。運営は今回の問題がPCランチャーに限られ、モバイル版のみの利用者は本件の点検が不要と説明。事前準備、不審項目の確認、アカウント保護、全体スキャンを案内し、詳細な操作は原文に掲載。",
+          "zh": "供未安裝啟動器或希望不啟動程式就進行檢查的玩家使用。營運表示本次事件僅涉及 PC 啟動器，僅玩行動版的玩家無須進行本事件相關檢查。指南包含事前準備、可疑項目檢查、帳號保護與完整掃描，具體步驟以原文為準。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d",
+          "ko": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+          "en": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7"
+        },
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+            "title": "PC 런처 보안 사고에 대해 사과드립니다.",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+            "title": "Our Apology for the PC Launcher Security Incident",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+            "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+            "title": "PC 런처 보안 사고 및 후속 조치 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:04:01.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+            "title": "PC Launcher Security Incident and Follow-up Measures",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:07:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+            "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:00:00.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+            "title": "PC 런처 보안 관련 수동 점검 방법 안내",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:06:33.000Z"
+          },
+          {
+            "kind": "official",
+            "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+            "title": "Manual Security Check Instructions for the PC Launcher",
+            "publisher": "GODDESS OF VICTORY: NIKKE",
+            "publishedAt": "2026-11-04T23:10:00.000Z"
+          }
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "こんにちは。『勝利の女神：NIKKE』運営チームです。 今回のPCランチャーのセキュリティインシデントにより、指揮官の皆様に多大なご不安とご心配をおかけしましたことを、深くお詫び申し上げます。 9 月27日15:41以降にWindows版PCランチャーを一度でも起動された指揮官の皆様は、セキュリティ確認および必要な措置を行っていただきますようお願いいたします。 セキュリティ確認および必要な措置は、公式PCクライアントに搭載されたセキュリティ機能（ACE）を通じて、より簡単に実施できます。 当該機能の利用方法については、 ［PCランチャーのセキュリティインシデントおよび今後の対応について］ のお知らせをご確認ください。 現在PCランチ",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+        },
+        "relatedSources": null,
+        "verifiedAt": "2026-11-04T23:04:37.542Z"
+      },
+      "sources": [
+        "https://nikke-kr.com/newsdetail.html?content_id=7068a8e1ad7faa49fcabc66ad34406487ee5",
+        "https://nikke-en.com/newsdetail.html?content_id=3a94ebf0ab6c5a4703aa87aa57d0b8cd3d4b",
+        "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+        "https://nikke-kr.com/newsdetail.html?content_id=fcf136efa5257a4851aa172a8e6a8c21c1bc",
+        "https://nikke-en.com/newsdetail.html?content_id=b4f23938a63a0a4e68aa577af395b1edb172",
+        "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02",
+        "https://nikke-kr.com/newsdetail.html?content_id=f5414952a34ada4ab0aa5b3a14eb51c3d62c",
+        "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+        "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+      ]
+    },
+    {
+      "id": "quick-arknights-kr-cafe-1249889",
+      "set": {
+        "title": {
+          "ko": "'일반 헤드헌팅 확률 UP' 이벤트 안내",
+          "en": "Standard Headhunting Rate-Up Event (translation)",
+          "ja": "通常スカウト確率アップイベントのお知らせ（翻訳）",
+          "zh": "常駐尋訪機率提升活動公告（翻譯）"
+        },
+        "summary": {
+          "ko": "한국 서버 일반 헤드헌팅의 비비아나·파죰카(6성), 타락사쿰·폰사이러스·루나컵(5성) 출현 확률이 상승한다. 공식 안내 이미지의 기간은 2026년 11월 6일 04:00부터 11월 20일 03:59까지다.",
+          "en": "Korean-server Standard Headhunting features increased rates for 6-star Viviana and Pozëmka, plus three 5-star operators. The official Korean banner lists November 6, 2026 at 04:00 through November 20 at 03:59.",
+          "ja": "韓国サーバーの通常スカウトで★6オペレーター2名と★5オペレーター3名の出現率がアップ。韓国公式画像の開催期間は2026年11月6日04:00～11月20日03:59。",
+          "zh": "韓國伺服器常駐尋訪提高兩名六星與三名五星幹員的出現率。韓國官方公告圖列出的期間為 2026 年 11 月 6 日 04:00 至 11 月 20 日 03:59。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-05T05:50:01Z",
+        "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDVfMjIx/MDAxNzkzODQ2NDEyMDYy.u5QZjYfJFfOlzgBSZQjHNAbSsjwHiac84C5n8B3oGkAg.ehYVpV2yloww-CfeuuTL0QI2TPrU_OSBfa8tjknDON0g.JPEG/out.jpg",
+        "imageSource": "https://cafe.naver.com/arknightskor/1249889",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ko",
+        "imageCaption": {
+          "ko": "한국 공식 일반 헤드헌팅 안내: 비비아나·파죰카 및 5성 3명. 한국어 원본 이미지.",
+          "en": "Official Korean Standard Headhunting banner: Viviana, Pozëmka and three 5-star operators. Original Korean artwork.",
+          "ja": "韓国公式の通常スカウト告知。★6が2名、★5が3名の対象。韓国語の原版画像。",
+          "zh": "韓國官方常駐尋訪公告圖，包含兩名六星與三名五星幹員。韓文原圖。"
+        },
+        "originalLanguageFallback": true,
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDVfMjIx/MDAxNzkzODQ2NDEyMDYy.u5QZjYfJFfOlzgBSZQjHNAbSsjwHiac84C5n8B3oGkAg.ehYVpV2yloww-CfeuuTL0QI2TPrU_OSBfa8tjknDON0g.JPEG/out.jpg",
+            "imageSource": "https://cafe.naver.com/arknightskor/1249889",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1650,
+            "height": 900,
+            "verifiedAt": "2026-11-05T05:50:01Z",
+            "imageCaption": {
+              "ko": "한국 공식 일반 헤드헌팅 안내: 비비아나·파죰카 및 5성 3명. 한국어 원본 이미지.",
+              "en": "Official Korean Standard Headhunting banner: Viviana, Pozëmka and three 5-star operators. Original Korean artwork.",
+              "ja": "韓国公式の通常スカウト告知。★6が2名、★5が3名の対象。韓国語の原版画像。",
+              "zh": "韓國官方常駐尋訪公告圖，包含兩名六星與三名五星幹員。韓文原圖。"
+            },
+            "originalLanguageFallback": true
+          }
+        },
+        "detailImages": [
+          {
+            "image": "https://cafeptthumb-phinf.pstatic.net/MjAyNjExMDVfMjIx/MDAxNzkzODQ2NDEyMDYy.u5QZjYfJFfOlzgBSZQjHNAbSsjwHiac84C5n8B3oGkAg.ehYVpV2yloww-CfeuuTL0QI2TPrU_OSBfa8tjknDON0g.JPEG/out.jpg",
+            "imageSource": "https://cafe.naver.com/arknightskor/1249889",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "width": 1650,
+            "height": 900,
+            "verifiedAt": "2026-11-05T05:50:01Z",
+            "imageCaption": {
+              "ko": "한국 공식 일반 헤드헌팅 안내: 비비아나·파죰카 및 5성 3명. 한국어 원본 이미지.",
+              "en": "Official Korean Standard Headhunting banner: Viviana, Pozëmka and three 5-star operators. Original Korean artwork.",
+              "ja": "韓国公式の通常スカウト告知。★6が2名、★5が3名の対象。韓国語の原版画像。",
+              "zh": "韓國官方常駐尋訪公告圖，包含兩名六星與三名五星幹員。韓文原圖。"
+            },
+            "originalLanguageFallback": true
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "'일반 헤드헌팅 확률 UP' 이벤트 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "​ 안녕하세요 박사님! ​ 11/6 (금) 04:00 부터 진행될 예정인 &#x27;일반 헤드헌팅 확률 UP&#x27; 이벤트 소식을 전달드립니다~ 오퍼레이터 추가 채용을 계획하고 계신 박사님께서는 참고해 주시면 좋을 것 같아요, 감사합니다! ​ ​ ​",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-05T04:06:46.927Z",
+        "image": null,
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageCaption": null,
+        "originalLanguageFallback": null,
+        "localizedArtwork": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249889",
+        "https://www.arknights.global/news/3836"
+      ]
+    }
+  ]
+}
