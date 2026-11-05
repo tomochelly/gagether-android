@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "requestId": "20261105T151327Z-nte-contest-ba-pickup-details",
+  "reason": "이환 1.5 창작 공모전의 한국·일본 공식 제목과 요약을 보완하고 블루 아카이브 한국·일본 현재 픽업의 잘못된 언어 안내와 원본 이미지 치수·출처를 정비한다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-05T15:13:27.366829Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-nte-global-264892",
+      "set": {
+        "title": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+          "en": "NTE Version 1.5 Creation Contest (translation)",
+          "ja": "『NTE』Ver.1.5創作イベント！参加して1000ドルおよび6,480個の円石をゲットしよう",
+          "zh": "NTE 1.5 版本創作比賽（翻譯）"
+        },
+        "summary": {
+          "ko": "이환 1.5 버전의 캐릭터·스토리·이벤트를 주제로 일러스트, 숏폼, 롱폼 창작물을 모집한다. 작품을 공개 게시하고 지정 폼으로 제출하면 심사를 통해 최대 $1,000와 환석 6,480개 등 부문별 보상을 받을 기회가 있다. 세부 참가 조건은 공식 공고에 안내되어 있다.",
+          "en": "NTE’s Version 1.5 contest accepts illustrations, short videos and long videos based on its characters, story and events. Publicly posted works submitted through the designated form can compete for category prizes, including up to $1,000 and 6,480 in-game currency. Eligibility follows the official rules.",
+          "ja": "Ver.1.5のキャラクター・物語・イベントを題材とするイラスト、ショート動画、ロング動画を募集。作品を公開し、作品ごとに応募フォームを送信する。審査により最高1,000ドルや円石6,480個などの部門別報酬を獲得できる。",
+          "zh": "NTE 1.5 版本創作比賽募集角色、劇情與活動主題的插畫、短影片及長影片。公開發布作品並透過指定表單提交後，可參與各部門評選，獎項包括最高 1,000 美元及 6,480 個遊戲內貨幣等，資格依官方規則判定。"
+        },
+        "officialLocales": [
+          "ko",
+          "ja"
+        ],
+        "translatedLocales": [
+          "en",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+          "ja": "https://nte.perfectworld.com/jp/article/news/gameevent/20261104/264888.html"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "안녕하세요, 감정사님. 「이환」 1.5 버전 창작 작품 공모전이 정식 오픈되었습니다! 일러스트부터 숏폼, 롱폼까지! 세 가지 창작 부문이 동시에 진행됩니다! 1.5 버전 신규 캐릭터, 스토리, 버전 이벤트 등을 주제로 콘텐츠를 제작해 참여하면 최대 $1,000의 현금 보상과 환석 6,480개를 획득할 기회가 주어집니다! 여러분의 창작물을 지금 바로 공유해 보세요! [이벤트 일정] 공모 기간: 2026년 11월 5일 ~ 2026년 12월 14일 00:59 (KST) 심사 기간: 2026년 12월 14일 ~ 2026년 12월 31일 00:59 (KST) 공개 기간: 20",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html"
+        }
+      },
+      "sources": [
+        "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+        "https://nte.perfectworld.com/jp/article/news/gameevent/20261104/264888.html"
+      ]
+    },
+    {
+      "id": "quick-nte-global-115131137",
+      "set": {
+        "title": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공!",
+          "en": "NTE Version 1.5 Creation Contest (translation)",
+          "ja": "『NTE』Ver.1.5創作イベント！参加して1000ドルおよび6,480個の円石をゲットしよう",
+          "zh": "NTE 1.5 版本創作比賽（翻譯）"
+        },
+        "summary": {
+          "ko": "이환 1.5 버전의 캐릭터·스토리·이벤트를 주제로 일러스트, 숏폼, 롱폼 창작물을 모집한다. 작품을 공개 게시하고 지정 폼으로 제출하면 심사를 통해 최대 $1,000와 환석 6,480개 등 부문별 보상을 받을 기회가 있다. 세부 참가 조건은 공식 공고에 안내되어 있다.",
+          "en": "NTE’s Version 1.5 contest accepts illustrations, short videos and long videos based on its characters, story and events. Publicly posted works submitted through the designated form can compete for category prizes, including up to $1,000 and 6,480 in-game currency. Eligibility follows the official rules.",
+          "ja": "Ver.1.5のキャラクター・物語・イベントを題材とするイラスト、ショート動画、ロング動画を募集。作品を公開し、作品ごとに応募フォームを送信する。審査により最高1,000ドルや円石6,480個などの部門別報酬を獲得できる。",
+          "zh": "NTE 1.5 版本創作比賽募集角色、劇情與活動主題的插畫、短影片及長影片。公開發布作品並透過指定表單提交後，可參與各部門評選，獎項包括最高 1,000 美元及 6,480 個遊戲內貨幣等，資格依官方規則判定。"
+        },
+        "officialLocales": [
+          "ko",
+          "ja"
+        ],
+        "translatedLocales": [
+          "en",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://pf.kakao.com/_uSxfcG/115131137",
+          "ja": "https://nte.perfectworld.com/jp/article/news/gameevent/20261104/264888.html"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "이환 1.5 버전 창작 작품 공모전 오픈! 참여 시 $1,000 및 환석 6,480개 획득 기회 제공! 안녕하세요, 감정사님. 「이환」 1.5 버전 창작 작품 공모전이 정식 오픈되었습니다! 이벤트 상세 보기",
+          "en": "NTE Version 1.5 Creation Contest (translation)",
+          "ja": "NTE Ver.1.5創作コンテスト（翻訳）",
+          "zh": "NTE 1.5 版本創作比賽（翻譯）"
+        },
+        "summary": {
+          "ko": "이환 1.5 버전의 캐릭터·스토리·이벤트를 주제로 일러스트, 숏폼, 롱폼 창작물을 모집한다. 작품을 공개 게시하고 지정 폼으로 제출하면 심사를 통해 최대 $1,000와 환석 6,480개 등 부문별 보상을 받을 기회가 있다. 세부 참가 조건은 공식 공고에 안내되어 있다.",
+          "en": "NTE’s Version 1.5 contest accepts illustrations, short videos and long videos based on its characters, story and events. Publicly posted works submitted through the designated form can compete for category prizes, including up to $1,000 and 6,480 in-game currency. Eligibility follows the official rules.",
+          "ja": "NTE Ver.1.5のキャラクター・物語・イベントをテーマに、イラスト、短尺・長尺動画を募集。公開した作品を指定フォームで応募すると、審査により最大1,000ドルやゲーム内通貨6,480個などの部門別賞を獲得できる可能性がある。参加条件は公式規約に従う。",
+          "zh": "NTE 1.5 版本創作比賽募集角色、劇情與活動主題的插畫、短影片及長影片。公開發布作品並透過指定表單提交後，可參與各部門評選，獎項包括最高 1,000 美元及 6,480 個遊戲內貨幣等，資格依官方規則判定。"
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://pf.kakao.com/_uSxfcG/115131137"
+        }
+      },
+      "sources": [
+        "https://nte.perfectworld.com/kr/article/news/gameevent/20261104/264892.html",
+        "https://nte.perfectworld.com/jp/article/news/gameevent/20261104/264888.html"
+      ]
+    },
+    {
+      "id": "ba-kr-official-20261103-character",
+      "set": {
+        "timingNote": {
+          "ko": "한국 서비스 복각 모집: 2026년 11월 3일 오전 11시~11월 10일 오전 10시 59분. 대상 학생마다 별도 픽업 모집이 진행된다.",
+          "en": "Korean-service reruns run from November 3, 2026 at 11:00 to November 10 at 10:59, in Korean local time. Each featured student has a separate recruitment banner.",
+          "ja": "韓国サービスの復刻募集は2026年11月3日11:00～11月10日10:59（韓国現地時刻）。対象生徒ごとに個別のピックアップ募集を開催。",
+          "zh": "韓國服復刻招募於2026年11月3日11:00至11月10日10:59開放，時間以韓國當地為準；各指定學生分別設有獨立招募。"
+        },
+        "pickupArchive": {
+          "status": "announced",
+          "startDate": "2026-11-03",
+          "endDate": "2026-11-10",
+          "note": {
+            "ko": "한국 서비스 복각 모집: 2026년 11월 3일 오전 11시~11월 10일 오전 10시 59분. 대상 학생마다 별도 픽업 모집이 진행된다.",
+            "en": "Korean-service reruns run from November 3, 2026 at 11:00 to November 10 at 10:59, in Korean local time. Each featured student has a separate recruitment banner.",
+            "ja": "韓国サービスの復刻募集は2026年11月3日11:00～11月10日10:59（韓国現地時刻）。対象生徒ごとに個別のピックアップ募集を開催。",
+            "zh": "韓國服復刻招募於2026年11月3日11:00至11月10日10:59開放，時間以韓國當地為準；各指定學生分別設有獨立招募。"
+          }
+        },
+        "width": 1280,
+        "height": 720
+      },
+      "before": {
+        "timingNote": {
+          "ko": "한국 공식 모집 일정. 점검 후 시작의 정확한 시각은 별도 확인 전까지 비워 둡니다.",
+          "en": "Official Korean recruitment schedule. A post-maintenance start has no inferred exact time.",
+          "ja": "韓国公式募集日程。メンテナンス後の開始時刻は推測しません。",
+          "zh": "韩服官方招募日程；维护后开始不推算具体时间。"
+        },
+        "pickupArchive": {
+          "status": "announced",
+          "startDate": "2026-11-03",
+          "endDate": "2026-11-10",
+          "note": {
+            "ko": "한국 공식 모집 일정. 점검 후 시작의 정확한 시각은 별도 확인 전까지 비워 둡니다.",
+            "en": "Official Korean recruitment schedule. A post-maintenance start has no inferred exact time.",
+            "ja": "韓国公式募集日程。メンテナンス後の開始時刻は推測しません。",
+            "zh": "韩服官方招募日程；维护后开始不推算具体时间。"
+          }
+        },
+        "width": null,
+        "height": null
+      },
+      "sources": [
+        "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3559967"
+      ]
+    },
+    {
+      "id": "review-bluearchive-jp-20261028-10153",
+      "set": {
+        "timingNote": {
+          "ko": "일본 서비스: 2026년 10월 28일 점검 종료 후~11월 11일 10:59(JST).",
+          "en": "Japanese service: after maintenance on October 28, 2026 until November 11 at 10:59 JST.",
+          "ja": "日本サービス：2026年10月28日メンテナンス後～11月11日10:59（JST）。",
+          "zh": "日本服：2026年10月28日維護結束後至11月11日10:59（JST）。"
+        },
+        "width": 1280,
+        "height": 720,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "히후미(레이싱)",
+              "en": "Hifumi (Racing)",
+              "ja": "ヒフミ（レーシング）",
+              "zh": "日步美（賽車）"
+            },
+            "type": "new",
+            "role": "featured",
+            "rarity": 3,
+            "image": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/26/DuU7HLlZ.png",
+            "imageSource": "https://bluearchive.jp/news/newsJump/704",
+            "imageKind": "banner",
+            "imageVerified": true,
+            "imageLocale": "ja",
+            "width": 1280,
+            "height": 720
+          }
+        ],
+        "sourceTitle": "ピックアップ募集紹介：★3「ヒフミ(レーシング)」、★3「アズサ(レーシング)」",
+        "publishedAt": "2026-10-27"
+      },
+      "before": {
+        "timingNote": {
+          "ko": "점검 종료 후 시작 · 정확한 개방 시각은 미확인",
+          "en": "점검 종료 후 시작 · 정확한 개방 시각은 미확인",
+          "ja": "점검 종료 후 시작 · 정확한 개방 시각은 미확인",
+          "zh": "점검 종료 후 시작 · 정확한 개방 시각은 미확인"
+        },
+        "width": null,
+        "height": null,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "히후미(레이싱)",
+              "en": "Hifumi (Racing)",
+              "ja": "ヒフミ（レーシング）",
+              "zh": "日步美（賽車）"
+            },
+            "type": "new",
+            "role": "featured",
+            "rarity": 3,
+            "image": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/26/DuU7HLlZ.png",
+            "imageSource": "https://bluearchive.jp/news/newsJump/704",
+            "imageKind": "banner",
+            "imageVerified": true,
+            "imageLocale": "ja"
+          }
+        ],
+        "sourceTitle": "히후미(레이싱) / 아즈사(레이싱) 한정 픽업",
+        "publishedAt": null
+      },
+      "sources": [
+        "https://bluearchive.jp/news/newsJump/704"
+      ]
+    },
+    {
+      "id": "review-bluearchive-jp-20261028-20063",
+      "set": {
+        "timingNote": {
+          "ko": "일본 서비스: 2026년 10월 28일 점검 종료 후~11월 11일 10:59(JST).",
+          "en": "Japanese service: after maintenance on October 28, 2026 until November 11 at 10:59 JST.",
+          "ja": "日本サービス：2026年10月28日メンテナンス後～11月11日10:59（JST）。",
+          "zh": "日本服：2026年10月28日維護結束後至11月11日10:59（JST）。"
+        },
+        "width": 1280,
+        "height": 720,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "아즈사(레이싱)",
+              "en": "Azusa (Racing)",
+              "ja": "アズサ（レーシング）",
+              "zh": "梓（賽車）"
+            },
+            "type": "new",
+            "role": "featured",
+            "rarity": 3,
+            "image": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/26/pt8CHnt4.png",
+            "imageSource": "https://bluearchive.jp/news/newsJump/704",
+            "imageKind": "banner",
+            "imageVerified": true,
+            "imageLocale": "ja",
+            "width": 1280,
+            "height": 720
+          }
+        ],
+        "sourceTitle": "ピックアップ募集紹介：★3「ヒフミ(レーシング)」、★3「アズサ(レーシング)」",
+        "publishedAt": "2026-10-27"
+      },
+      "before": {
+        "timingNote": {
+          "ko": "점검 종료 후 시작 · 정확한 개방 시각은 미확인",
+          "en": "점검 종료 후 시작 · 정확한 개방 시각은 미확인",
+          "ja": "점검 종료 후 시작 · 정확한 개방 시각은 미확인",
+          "zh": "점검 종료 후 시작 · 정확한 개방 시각은 미확인"
+        },
+        "width": null,
+        "height": null,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "아즈사(레이싱)",
+              "en": "Azusa (Racing)",
+              "ja": "アズサ（レーシング）",
+              "zh": "梓（賽車）"
+            },
+            "type": "new",
+            "role": "featured",
+            "rarity": 3,
+            "image": "https://webusstatic.yo-star.com/bluearchive_jp_web/mainsite/upload/news/2026/10/26/pt8CHnt4.png",
+            "imageSource": "https://bluearchive.jp/news/newsJump/704",
+            "imageKind": "banner",
+            "imageVerified": true,
+            "imageLocale": "ja"
+          }
+        ],
+        "sourceTitle": "히후미(레이싱) / 아즈사(레이싱) 한정 픽업",
+        "publishedAt": null
+      },
+      "sources": [
+        "https://bluearchive.jp/news/newsJump/704"
+      ]
+    }
+  ]
+}
