@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "requestId": "20261106T141748Z-trickcal-global-pickup-artwork",
+  "reason": "글로벌·일본 서비스의 포란·비비·로네 현재/예정 픽업에서 누락된 캐릭터 기본 의상 전신 이미지를 보완합니다. 공식 일정과 기존 문구·운영자 구도는 유지하며 공개 공략 페이지의 게임 원본 아트를 사용합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-06T14:17:48Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "trickcal-global-pickup-polan-20261105",
+      "set": {
+        "image": "https://img.game8.jp/13177947/16d7de9311974a936d6a9f655ce91e98.webp/show",
+        "imageSource": "https://game8.jp/trickcal/840650",
+        "width": 472,
+        "height": 632,
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "neutral",
+        "imageFit": "contain",
+        "imageCaption": {
+          "ko": "포란 기본 의상 전신 일러스트",
+          "en": "Polan full-body artwork in the default outfit",
+          "ja": "ポランの基本衣装の全身イラスト",
+          "zh": "Polan默认服装全身立绘"
+        },
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "포란",
+              "en": "Polan",
+              "ja": "ポラン",
+              "zh": "Polan"
+            },
+            "type": "new",
+            "role": "featured",
+            "rarity": 3,
+            "image": "https://img.game8.jp/13177947/16d7de9311974a936d6a9f655ce91e98.webp/show",
+            "imageSource": "https://game8.jp/trickcal/840650",
+            "width": 472,
+            "height": 632,
+            "imageVerified": true,
+            "imageKind": "character",
+            "imageLocale": "neutral",
+            "imageFit": "contain",
+            "imageCaption": {
+              "ko": "포란 기본 의상 전신 일러스트",
+              "en": "Polan full-body artwork in the default outfit",
+              "ja": "ポランの基本衣装の全身イラスト",
+              "zh": "Polan默认服装全身立绘"
+            }
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "community",
+            "url": "https://game8.jp/trickcal/840650",
+            "title": "Polan — default character artwork",
+            "publisher": "Game8"
+          }
+        ]
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "width": null,
+        "height": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageFit": null,
+        "imageCaption": null,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "포란",
+              "en": "Polan",
+              "ja": "ポラン",
+              "zh": "Polan"
+            },
+            "type": "new",
+            "role": "featured",
+            "rarity": 3
+          }
+        ],
+        "relatedSources": null
+      },
+      "sources": [
+        "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+        "https://game8.jp/trickcal/840650"
+      ]
+    },
+    {
+      "id": "trickcal-global-pickup-vivi-20261112",
+      "set": {
+        "image": "https://www.gacha.gg/img/trickcal/dm/chars/vivi-standing.webp",
+        "imageSource": "https://www.gacha.gg/trickcal/characters/vivi",
+        "width": 1062,
+        "height": 707,
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "neutral",
+        "imageFit": "contain",
+        "imageCaption": {
+          "ko": "비비 기본 의상 전신 일러스트",
+          "en": "Vivi full-body artwork in the default outfit",
+          "ja": "ヴィヴィの基本衣装の全身イラスト",
+          "zh": "Vivi默认服装全身立绘"
+        },
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "비비",
+              "en": "Vivi",
+              "ja": "ヴィヴィ",
+              "zh": "Vivi"
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 3,
+            "image": "https://www.gacha.gg/img/trickcal/dm/chars/vivi-standing.webp",
+            "imageSource": "https://www.gacha.gg/trickcal/characters/vivi",
+            "width": 1062,
+            "height": 707,
+            "imageVerified": true,
+            "imageKind": "character",
+            "imageLocale": "neutral",
+            "imageFit": "contain",
+            "imageCaption": {
+              "ko": "비비 기본 의상 전신 일러스트",
+              "en": "Vivi full-body artwork in the default outfit",
+              "ja": "ヴィヴィの基本衣装の全身イラスト",
+              "zh": "Vivi默认服装全身立绘"
+            }
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "community",
+            "url": "https://www.gacha.gg/trickcal/characters/vivi",
+            "title": "Vivi — default character artwork",
+            "publisher": "gacha.gg"
+          }
+        ]
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "width": null,
+        "height": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageFit": null,
+        "imageCaption": null,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "비비",
+              "en": "Vivi",
+              "ja": "ヴィヴィ",
+              "zh": "Vivi"
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 3
+          }
+        ],
+        "relatedSources": null
+      },
+      "sources": [
+        "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+        "https://www.gacha.gg/trickcal/characters/vivi"
+      ]
+    },
+    {
+      "id": "trickcal-global-pickup-rohne-20261112",
+      "set": {
+        "image": "https://www.gacha.gg/img/trickcal/dm/chars/rohne-standing.webp",
+        "imageSource": "https://www.gacha.gg/trickcal/characters/rohne",
+        "width": 356,
+        "height": 671,
+        "imageVerified": true,
+        "imageKind": "character",
+        "imageLocale": "neutral",
+        "imageFit": "contain",
+        "imageCaption": {
+          "ko": "로네 기본 의상 전신 일러스트",
+          "en": "Rohne full-body artwork in the default outfit",
+          "ja": "ローネの基本衣装の全身イラスト",
+          "zh": "Rohne默认服装全身立绘"
+        },
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "로네",
+              "en": "Rohne",
+              "ja": "ローネ",
+              "zh": "Rohne"
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 3,
+            "image": "https://www.gacha.gg/img/trickcal/dm/chars/rohne-standing.webp",
+            "imageSource": "https://www.gacha.gg/trickcal/characters/rohne",
+            "width": 356,
+            "height": 671,
+            "imageVerified": true,
+            "imageKind": "character",
+            "imageLocale": "neutral",
+            "imageFit": "contain",
+            "imageCaption": {
+              "ko": "로네 기본 의상 전신 일러스트",
+              "en": "Rohne full-body artwork in the default outfit",
+              "ja": "ローネの基本衣装の全身イラスト",
+              "zh": "Rohne默认服装全身立绘"
+            }
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "community",
+            "url": "https://www.gacha.gg/trickcal/characters/rohne",
+            "title": "Rohne — default character artwork",
+            "publisher": "gacha.gg"
+          }
+        ]
+      },
+      "before": {
+        "image": null,
+        "imageSource": null,
+        "width": null,
+        "height": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageFit": null,
+        "imageCaption": null,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "로네",
+              "en": "Rohne",
+              "ja": "ローネ",
+              "zh": "Rohne"
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 3
+          }
+        ],
+        "relatedSources": null
+      },
+      "sources": [
+        "https://trickcal.biligames.com/news/jp/h5/?news_detail_id=181793790591206304",
+        "https://www.gacha.gg/trickcal/characters/rohne"
+      ]
+    }
+  ]
+}
+
