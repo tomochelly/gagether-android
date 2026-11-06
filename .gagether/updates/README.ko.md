@@ -116,6 +116,7 @@ GAGETHER 예약 조사 작업은 쓰기 토큰 없이 이 폴더에 **업데이�
 
 - 날짜·시각·등급·가격·출처·번역을 지어내지 않는다. 모르는 값은 비워 두거나 `null`.
 - 공식 공지가 종료 시각 없이 "다음 버전 업데이트 점검 전까지"로만 밝힌 기간은 `endAt: null`에 `endCondition: {"kind": "next-version-maintenance", "sourceUrl": "<그 공식 공지 URL>", "recordedAt": "<기록한 실제 UTC 시각>"}`을 함께 낸다(기간 칸 묶음). 자유 텍스트(`timingNote`)로 쓰지 않고, 종료 시각이 발표되면 `endAt`을 낸다.
+- 공식 공지가 "어떤 배너가 N회 진행된 뒤 종료(○○부터 집계)"로만 밝힌 기간은 `endAt: null`에 `endCondition: {"kind": "after-banner-rounds", "rounds": <N, 1~20의 정수>, "anchorId": "<집계를 시작하는 배너의 항목 id>", "sourceUrl": "<그 규칙이 적힌 공식 공지 URL>", "recordedAt": "<기록한 실제 UTC 시각>"}`을 낸다. `anchorId`는 `GET /api/data`에 있는 같은 게임의 항목 id여야 하고 자기 자신이면 안 된다. 그 게임의 공식 배너 용어가 사이트에 등록된 게임만 쓸 수 있다(지금은 명일방주: 엔드필드). 등록되지 않은 게임은 `invalid`로 거절된다.
 - 한국 공식 사이트·공지를 먼저 보고, 지역 서비스 일정이 다르면 그 지역 공식 공지를 본다. 공식·커뮤니티·영상 출처는 `sourceKind`로 구분하고 원문 URL을 그대로 적는다.
 - 영상은 보지 않았으면 본 것처럼 쓰지 않는다. 막힌 출처를 우회하지 않는다.
 - 유출 정보와 Foresight(예측) 자료는 이 경로로 넣지 않는다. 이 저장소는 공개라 파일이 먼저 보인다. 예측 픽업은 `pickupArchive.status: "forecast"`로만 표시한다.
