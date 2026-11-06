@@ -39,10 +39,27 @@ jobs:
             tasks=$(jq -r 'if (.tasks|length)>0 then (.tasks|join(", ")) else "-" end' <<<"$incident")
             number=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "in:title \"$title\"" --json number,title | jq -r --arg t "$title" '[.[]|select(.title==$t)][0].number // empty')
             if [ -n "$number" ]; then
-              gh issue comment "$number" --repo "$GITHUB_REPOSITORY" --body "같은 원인으로 다시 실패했습니다. 작업: $tasks. 실행: $RUN_URL"
+              # At most one repeat comment per six hours (owner 2026-11-06), counted from the issue or the last repeat comment.
+              last=$(gh issue view "$number" --repo "$GITHUB_REPOSITORY" --json createdAt,comments --jq '([.createdAt]+[.comments[]|select(.body|startswith("같은 원인으로 다시 실패했습니다"))|.createdAt])|max')
+              if [ $(( $(date -u +%s) - $(date -u -d "$last" +%s) )) -ge 21600 ]; then
+                gh issue comment "$number" --repo "$GITHUB_REPOSITORY" --body "같은 원인으로 다시 실패했습니다. 작업: $tasks. 실행: $RUN_URL"
+              fi
             else
               gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "refresh 실행이 이 원인으로 실패했습니다. 작업: $tasks. 실행: $RUN_URL. 같은 원인이 반복되면 이 이슈에 실행 링크가 댓글로 붙습니다. 원인이 해결되면 이 이슈를 닫습니다."
             fi
+          done
+      # A run that verified every task closes the open per-cause incidents with a resolution comment.
+      - name: Close resolved incident issues
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INCIDENT_FILE: ${{ runner.temp }}/gagether-refresh-incident.json
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ ! -s "$INCIDENT_FILE" ] || [ "$(jq -r '.verified // false' "$INCIDENT_FILE")" != true ]; then exit 0; fi
+          gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --search 'in:title "GAGETHER refresh incident:"' --json number,title | jq -r '.[]|select(.title|startswith("GAGETHER refresh incident: "))|.number' | while IFS= read -r number; do
+            gh issue comment "$number" --repo "$GITHUB_REPOSITORY" --body "해결됨: 다음 실행이 모든 작업을 확인하고 성공했습니다. 실행: $RUN_URL"
+            gh issue close "$number" --repo "$GITHUB_REPOSITORY"
           done
   details:
     runs-on: ubuntu-latest

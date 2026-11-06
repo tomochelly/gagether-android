@@ -149,11 +149,23 @@ class IncidentCauseTest(unittest.TestCase):
    finally:os.environ.pop('GAGETHER_INCIDENT_FILE',None)
   self.assertEqual(value,{'incidents':[{'cause':'validation','label':'data validation','games':['endfield'],'tasks':['endfield/notices']}]})
   self.assertNotIn('http',json.dumps(value))
- def test_no_file_without_a_configured_path_or_on_success(self):
-  os.environ.pop('GAGETHER_INCIDENT_FILE',None);runner.record_incidents([{'cause':'runner'}])
+ def run_with_file(self,request):
   with tempfile.TemporaryDirectory() as folder:
    path=os.path.join(folder,'incident.json');os.environ['GAGETHER_INCIDENT_FILE']=path
-   try:UnconfiguredSourceRunTest.run_main(self,fake_server({'wuwa':(task(),saved)}))
+   try:UnconfiguredSourceRunTest.run_main(self,request)
    finally:os.environ.pop('GAGETHER_INCIDENT_FILE',None)
-   self.assertFalse(os.path.exists(path))
+   if not os.path.exists(path):return None
+   with open(path,encoding='utf-8') as source:return json.load(source)
+ def test_no_file_without_a_configured_path(self):
+  os.environ.pop('GAGETHER_INCIDENT_FILE',None);runner.record_incidents([{'cause':'runner'}]);runner.record_verified_success()
+ def test_verified_success_is_recorded_for_resolution(self):
+  self.assertEqual(self.run_with_file(fake_server({'wuwa':(task(),saved)})),{'incidents':[],'verified':True})
+ def test_lost_lease_or_duplicate_wakeup_is_not_a_resolution(self):
+  base=fake_server({'wuwa':(task(),saved)})
+  for claimed in [{'claim':False},{'renew':False}]:
+   def request(url,post=False,claimed=claimed):
+    for action,value in claimed.items():
+     if 'action='+action in url:return {'version':2,'claimed':value}
+    return base(url,post)
+   with self.subTest(claimed=claimed):self.assertIsNone(self.run_with_file(request))
 if __name__=='__main__':unittest.main()

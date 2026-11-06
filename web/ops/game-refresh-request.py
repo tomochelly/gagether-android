@@ -146,6 +146,11 @@ def record_incidents(incidents):
  path=os.environ.get('GAGETHER_INCIDENT_FILE')
  if not path or not incidents:return
  with open(path,'w',encoding='utf-8') as out:json.dump({'incidents':incidents},out,ensure_ascii=False)
+def record_verified_success():
+ """A run that finished with no unresolved task error; the workflow then closes open incident issues."""
+ path=os.environ.get('GAGETHER_INCIDENT_FILE')
+ if not path:return
+ with open(path,'w',encoding='utf-8') as out:json.dump({'incidents':[],'verified':True},out)
 def runner_incident(error):
  cause=error_cause(error) if isinstance(error,(urllib.error.URLError,TimeoutError,ConnectionError,http.client.IncompleteRead)) else 'runner'
  return {'cause':cause,'label':INCIDENT_LABELS[cause],'games':[],'tasks':[]}
@@ -207,6 +212,8 @@ def main():
   record_incidents([{'cause':'no-outcomes','label':INCIDENT_LABELS['no-outcomes'],'games':[],'tasks':[]}]);raise RuntimeError('No registered refresh outcomes')
  if every_checked_task_failed(result):
   record_incidents([{'cause':'every-source-failed','label':INCIDENT_LABELS['every-source-failed'],'games':[],'tasks':[]}]);raise RuntimeError('Every source task failed')
+ # Only a run that owned its lease to the end and verified every task counts as resolution.
+ record_verified_success()
 if __name__=='__main__':
  try:main()
  except Exception as error:
