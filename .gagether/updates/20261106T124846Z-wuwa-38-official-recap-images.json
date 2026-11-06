@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "requestId": "20261106T124846Z-wuwa-38-official-recap-images",
+  "reason": "명조 3.8 한국 공식 방송 요약에 공식 원본 요약표·상세 이미지 6장을 추가합니다. 각 파일의 실제 크기와 내용을 확인했으며 기존 방송 요약·리딤·다른 언어 이미지·운영자 구도는 유지합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-06T12:48:46Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "broadcast-wuwa-ko-f2T-9DIyuWI",
+      "set": {
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMjE2/MDAxNzkzOTUzMTA1MTI0.sa6qZIpVWRijjWf7iKztU9HAaLgcDySoUPMxbxzChSog.Lu_9rM91ZtiL2cizZniKgUiCFZGlnhLuAqL2ZWzjNpQg.JPEG/00.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8421238",
+            "width": 1920,
+            "height": 1080,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "3.8 버전 한눈에 보기",
+              "en": "Version 3.8 at a glance",
+              "ja": "バージョン3.8の概要",
+              "zh": "3.8版本一览"
+            },
+            "verifiedAt": "2026-11-06T12:48:46Z"
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMjE1/MDAxNzkzOTUzNjE1ODA3.wj0cAr7lUaXtBWxDCGHmd1O9xnXbjAJlaNJZlRnVEeog.MePa-tWlbQ_eLtL8Jf-d8tgvgc6ChqM7GspxiqeB_84g.JPEG/P1.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8421238",
+            "width": 1080,
+            "height": 6079,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "신규 임무·도전·시스템 개선",
+              "en": "New quests, challenges and system improvements",
+              "ja": "新たな任務・挑戦・システム改善",
+              "zh": "新任务、挑战与系统优化"
+            },
+            "verifiedAt": "2026-11-06T12:48:46Z"
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMTQ4/MDAxNzkzOTUzMTI2MjM0.AQafr_kZ15OLO_9nqgMx1hcLJKZoF1ghHqemhiSC3Nog.SRVjjaphnSDEMFXrN5BZ_Tzjtkj4BKNBdzZExa1LeD0g.JPEG/P2.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8421238",
+            "width": 1080,
+            "height": 4004,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "히유키 코스튬·액세서리·이벤트",
+              "en": "New outfit, accessories and events",
+              "ja": "新コスチューム・アクセサリー・イベント",
+              "zh": "新服装、配饰与活动"
+            },
+            "verifiedAt": "2026-11-06T12:48:46Z"
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMjQ1/MDAxNzkzOTU0Njc4MTg4.g2LvKE9tRHROcDSMk6lY-Nzti4r5OyMRbo2_ZdMMzjwg.7IpntUhOre3YcTxhhbRqdPsHUmnZJxBeEZjuWFK8xB8g.JPEG/P3.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8421238",
+            "width": 1080,
+            "height": 8927,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "릴리·신규 무기·이벤트 튜닝",
+              "en": "New character, weapon and event convenes",
+              "ja": "新キャラクター・武器・イベント集音",
+              "zh": "新角色、武器与活动唤取"
+            },
+            "verifiedAt": "2026-11-06T12:48:46Z"
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMTQg/MDAxNzkzOTU4Nzc4MDY1.YRnOReOSWGIqexwA_WpiqDAeT-ZTG3YTqaHVW6tvb9Qg.rMKWDoAOcbfYvIPkHXcurDeweGn8iXPK60GFY5GN6aAg.JPEG/P1.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8421200",
+            "width": 1080,
+            "height": 3660,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "여정이 남긴 튜닝 규칙",
+              "en": "Special returning convene rules",
+              "ja": "特別復刻集音のルール",
+              "zh": "特别复刻唤取规则"
+            },
+            "verifiedAt": "2026-11-06T12:48:46Z"
+          },
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMjIy/MDAxNzkzOTU4Nzc3OTMy.peOMtMCkzO-NFceBj89Zi2fjMt_FDuyanaFeCQMtlU4g.XNbOgZVTsS7ckVGxkj02l8b3O7VKIgYG1J2SrV7j130g.JPEG/P2.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8421200",
+            "width": 1080,
+            "height": 1923,
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ko",
+            "imageCaption": {
+              "ko": "여정이 남긴 선물",
+              "en": "Special returning convene rewards",
+              "ja": "特別復刻集音の報酬",
+              "zh": "特别复刻唤取奖励"
+            },
+            "verifiedAt": "2026-11-06T12:48:46Z"
+          }
+        ]
+      },
+      "before": {
+        "detailImages": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8421238",
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8421200"
+      ]
+    }
+  ]
+}
