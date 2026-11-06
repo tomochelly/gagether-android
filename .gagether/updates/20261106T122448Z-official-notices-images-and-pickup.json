@@ -1,0 +1,779 @@
+{
+  "version": 1,
+  "requestId": "20261106T122448Z-official-notices-images-and-pickup",
+  "reason": "공식 원문으로 한국 판도라 픽업 일정과 트릭컬 점검 완료를 보완하고, 우마무스메·붕괴3rd·이환·명조 공지의 번역·요약 및 원본 이미지, 홀로드리 보도 자료의 누락 번역을 추가합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-06T12:24:48Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-umamusume-kr-115150570",
+      "set": {
+        "title": {
+          "ko": "픽업 프리티 더비 뽑기 & 셀렉트 픽업 서포트 카드 뽑기 개최 예정🎉",
+          "en": "Upcoming Pretty Derby Scout & Select Pickup Support Card Scout",
+          "ja": "ピックアップ プリティーダービーガチャ＆セレクトピックアップ サポートカードガチャ開催予定",
+          "zh": "精选Pretty Derby招募与自选精选支援卡招募即将开启"
+        },
+        "summary": {
+          "ko": "11월 10~19일 신규 ★3 [Assorted Cuteness♡] 후사이치 판도라 픽업이 열린다. 동시 개최하는 서포트 셀렉트는 SSR 후보 10종 중 2장을 선택해야 하며 R [트레센 학원] 후사이치 판도라도 새로 등장한다.",
+          "en": "New 3★ [Assorted Cuteness♡] Fusaichi Pandora is featured on the Korean service on November 10–19. The concurrent support scout requires choosing two of ten SSR candidates and also introduces R [Tracen Academy] Fusaichi Pandora.",
+          "ja": "韓国版で11月10～19日に新規★3［Assorted Cuteness♡］フサイチパンドラをピックアップ。同時開催のサポートセレクトはSSR候補10種から2枚を選択必須とし、R［トレセン学園］フサイチパンドラも新登場。",
+          "zh": "韩服11月10日至19日精选新3★［Assorted Cuteness♡］Fusaichi Pandora。同期支援自选须从10种SSR候选中选2张，并新增R［特雷森学园］Fusaichi Pandora。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "기간",
+              "en": "Schedule",
+              "ja": "期間",
+              "zh": "期间"
+            },
+            "body": {
+              "ko": "11월 10일~19일. 공지 본문은 점검 완료 후 시작, 안내 이미지는 12:00 시작으로 표기한다. 종료는 11월 19일 11:59이며 시간대는 명시되지 않았다.",
+              "en": "November 10–19. The announcement text says after maintenance; the banner lists a 12:00 start. The stated end is November 19 at 11:59, with no timezone specified.",
+              "ja": "11月10～19日。本文はメンテナンス終了後、画像は12:00開始と表記。終了は11月19日11:59で、タイムゾーンは明記されていない。",
+              "zh": "11月10日至19日。正文为维护结束后开始，图片标为12:00开始；结束为11月19日11:59，未标注时区。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://pf.kakao.com/_DzxjIb/115150570"
+            ]
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "https://k.kakaocdn.net/dn/c91vOS/dJMcahzMAuT/kZhQsMDmObhKahWbMD2paK/img_xl.jpg",
+            "imageSource": "https://pf.kakao.com/_DzxjIb/115150570",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "imageKind": "banner",
+            "width": 1024,
+            "height": 576,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "한국 공식 전체 픽업 공지",
+              "en": "Full Korean pickup announcement",
+              "ja": "韓国公式ピックアップ告知全体",
+              "zh": "韩文官方完整精选公告"
+            }
+          }
+        ],
+        "verifiedAt": "2026-11-06T12:24:48Z"
+      },
+      "before": {
+        "title": {
+          "ko": "픽업 프리티 더비 뽑기 & 셀렉트 픽업 서포트 카드 뽑기 개최 예정🎉",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "픽업 프리티 더비 뽑기 & 셀렉트 픽업 서포트 카드 뽑기 개최가 예정되어 안내드려요! (●'◡'●) 픽업 기간 중에는 픽업 대상인 육성 우마무스메의 제공 비율이 상향되고 ★3 육성 우마무스메 획득 시 해당 우마무스메의 피스를 추가로 획득할 수 있답니다.💗 셀렉트 픽업 서포트 카드 뽑기 개최 기간 중에는 픽업 대상인 서포트 카드를 반드시 2장 선택해야 하며 대상이 된 서포트 카드의 제공 비율이 상향됩니다.💗 ------------------------------------------------ ❖ 픽업 뽑기 개최 기간 - 11월 10일(화) 점검 완료 후 ~ 11월",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailSections": null,
+        "detailImages": null,
+        "verifiedAt": "2026-11-06T03:02:02.016Z"
+      },
+      "sources": [
+        "https://pf.kakao.com/_DzxjIb/115150570"
+      ]
+    },
+    {
+      "id": "forecast-umamusume-kr-20261110-fusaichi-pandora",
+      "set": {
+        "summary": {
+          "ko": "한국 서비스에서 신규 ★3 [Assorted Cuteness♡] 후사이치 판도라의 픽업이 11월 10~19일 열린다. 대상 제공 비율이 상향되며 ★3 획득 시 해당 피스를 추가로 받는다.",
+          "en": "The Korean service features new 3★ [Assorted Cuteness♡] Fusaichi Pandora on November 10–19, with an increased appearance rate and bonus pieces when obtaining the 3★ trainee.",
+          "ja": "韓国版で新規★3［Assorted Cuteness♡］フサイチパンドラを11月10～19日にピックアップ。提供割合が上がり、★3獲得時に対応ピースを追加獲得。",
+          "zh": "韩服11月10日至19日精选新3★［Assorted Cuteness♡］Fusaichi Pandora，提高出现概率，获得该3★角色时另有对应碎片。"
+        },
+        "sourceUrl": "https://pf.kakao.com/_DzxjIb/115150570",
+        "sourceTitle": "픽업 프리티 더비 뽑기 & 셀렉트 픽업 서포트 카드 뽑기 개최 예정🎉",
+        "sourceKind": "official",
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://pf.kakao.com/_DzxjIb/115150570"
+        },
+        "publishedAt": "2026-11-06T03:00:17.000Z",
+        "startDate": "2026-11-10",
+        "endDate": "2026-11-19",
+        "pickupArchive": {
+          "status": "announced",
+          "startDate": "2026-11-10",
+          "endDate": "2026-11-19",
+          "note": {
+            "ko": "11월 10일~19일. 공지 본문은 점검 완료 후 시작, 안내 이미지는 12:00 시작으로 표기한다. 종료는 11월 19일 11:59이며 시간대는 명시되지 않았다.",
+            "en": "November 10–19. The announcement text says after maintenance; the banner lists a 12:00 start. The stated end is November 19 at 11:59, with no timezone specified.",
+            "ja": "11月10～19日。本文はメンテナンス終了後、画像は12:00開始と表記。終了は11月19日11:59で、タイムゾーンは明記されていない。",
+            "zh": "11月10日至19日。正文为维护结束后开始，图片标为12:00开始；结束为11月19日11:59，未标注时区。"
+          }
+        },
+        "timingNote": {
+          "ko": "11월 10일~19일. 공지 본문은 점검 완료 후 시작, 안내 이미지는 12:00 시작으로 표기한다. 종료는 11월 19일 11:59이며 시간대는 명시되지 않았다.",
+          "en": "November 10–19. The announcement text says after maintenance; the banner lists a 12:00 start. The stated end is November 19 at 11:59, with no timezone specified.",
+          "ja": "11月10～19日。本文はメンテナンス終了後、画像は12:00開始と表記。終了は11月19日11:59で、タイムゾーンは明記されていない。",
+          "zh": "11月10日至19日。正文为维护结束后开始，图片标为12:00开始；结束为11月19日11:59，未标注时区。"
+        },
+        "imageCaption": {
+          "ko": "[Assorted Cuteness♡] 후사이치 판도라의 일본 공식 전신 일러스트. 한국 픽업 일정은 한국 공식 공지 기준.",
+          "en": "Official Japanese full-body Fusaichi Pandora artwork matching [Assorted Cuteness♡]. Korean pickup dates come from the Korean notice.",
+          "ja": "日本公式の［Assorted Cuteness♡］フサイチパンドラ全身イラスト。韓国版日程は韓国公式告知に基づく。",
+          "zh": "日本官方［Assorted Cuteness♡］Fusaichi Pandora全身立绘；韩服日期据韩国官方公告。"
+        },
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "[Assorted Cuteness♡] 후사이치 판도라",
+              "en": "[Assorted Cuteness♡] Fusaichi Pandora",
+              "ja": "[Assorted Cuteness♡] フサイチパンドラ",
+              "zh": "[Assorted Cuteness♡] 房一潘朵拉"
+            },
+            "type": "new",
+            "role": "featured",
+            "rarity": 3,
+            "imageCaption": {
+              "ko": "[Assorted Cuteness♡] 후사이치 판도라의 일본 공식 전신 일러스트. 한국 픽업 일정은 한국 공식 공지 기준.",
+              "en": "Official Japanese full-body Fusaichi Pandora artwork matching [Assorted Cuteness♡]. Korean pickup dates come from the Korean notice.",
+              "ja": "日本公式の［Assorted Cuteness♡］フサイチパンドラ全身イラスト。韓国版日程は韓国公式告知に基づく。",
+              "zh": "日本官方［Assorted Cuteness♡］Fusaichi Pandora全身立绘；韩服日期据韩国官方公告。"
+            },
+            "originalLanguageFallback": false,
+            "textFreePreview": false,
+            "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+            "imageSource": "https://umamusume.jp/character/fusaichipandora",
+            "imageKind": "character",
+            "imageFit": "contain",
+            "imageVerified": true,
+            "imageLocale": "neutral",
+            "localizedArtwork": {
+              "ja": {
+                "originalLanguageFallback": false,
+                "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+                "imageSource": "https://umamusume.jp/character/fusaichipandora",
+                "imageVerified": true,
+                "imageKind": "character",
+                "imageLocale": "neutral",
+                "width": 1125,
+                "height": 1980,
+                "verifiedAt": "2026-10-29T02:45:53.462454+00:00"
+              },
+              "ko": {
+                "originalLanguageFallback": false,
+                "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+                "imageSource": "https://umamusume.jp/character/fusaichipandora",
+                "imageVerified": true,
+                "imageKind": "character",
+                "imageLocale": "neutral",
+                "width": 1125,
+                "height": 1980,
+                "verifiedAt": "2026-10-29T02:45:53.462454+00:00"
+              },
+              "en": {
+                "originalLanguageFallback": false,
+                "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+                "imageSource": "https://umamusume.jp/character/fusaichipandora",
+                "imageVerified": true,
+                "imageKind": "character",
+                "imageLocale": "neutral",
+                "width": 1125,
+                "height": 1980,
+                "verifiedAt": "2026-10-29T02:45:53.462454+00:00"
+              },
+              "zh": {
+                "originalLanguageFallback": false,
+                "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+                "imageSource": "https://umamusume.jp/character/fusaichipandora",
+                "imageVerified": true,
+                "imageKind": "character",
+                "imageLocale": "neutral",
+                "width": 1125,
+                "height": 1980,
+                "verifiedAt": "2026-10-29T02:45:53.462454+00:00"
+              }
+            }
+          }
+        ],
+        "width": 1125,
+        "height": 1980,
+        "verifiedAt": "2026-11-06T12:24:48Z"
+      },
+      "before": {
+        "summary": {
+          "ko": "[Assorted Cuteness♡] 후사이치 판도라",
+          "en": "[Assorted Cuteness♡] Fusaichi Pandora",
+          "ja": "[Assorted Cuteness♡] フサイチパンドラ",
+          "zh": "[Assorted Cuteness♡] 房一潘朵拉"
+        },
+        "sourceUrl": "https://swallow91.tistory.com/502",
+        "sourceTitle": "[우마무스메] 미래시 가이드 - 무소과금(26.10.16)",
+        "sourceKind": "community",
+        "officialLocales": [],
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": null,
+        "publishedAt": null,
+        "startDate": null,
+        "endDate": null,
+        "pickupArchive": {
+          "status": "forecast",
+          "startDate": "2026-11-10",
+          "endDate": "2026-11-19",
+          "note": {
+            "ko": "한국 커뮤니티의 10/16 수정 미래시. 시작일은 표에 기재됐고 종료일은 다음 회차 예상일을 기준으로 산정했습니다. 공식 확정·정확한 시각은 미확인입니다.",
+            "en": "Korean community outlook updated Oct 16. Listed start; estimated end uses the next projected rotation. Official confirmation and times are pending.",
+            "ja": "10/16更新の韓国コミュニティ予想。開始日は掲載値、終了日は次回予想日から算出。公式確定・時刻は未確認。",
+            "zh": "10月16日更新的韩国社区规划。开始日来自表格，结束日按下次预计轮换推算。尚未获官方确认，时刻未知。"
+          }
+        },
+        "timingNote": {
+          "ko": "한국 커뮤니티의 10/16 수정 미래시. 시작일은 표에 기재됐고 종료일은 다음 회차 예상일을 기준으로 산정했습니다. 공식 확정·정확한 시각은 미확인입니다.",
+          "en": "Korean community outlook updated Oct 16. Listed start; estimated end uses the next projected rotation. Official confirmation and times are pending.",
+          "ja": "10/16更新の韓国コミュニティ予想。開始日は掲載値、終了日は次回予想日から算出。公式確定・時刻は未確認。",
+          "zh": "10月16日更新的韩国社区规划。开始日来自表格，结束日按下次预计轮换推算。尚未获官方确认，时刻未知。"
+        },
+        "imageCaption": {
+          "ko": "[Assorted Cuteness♡] 후사이치 판도라의 일본 최초 출시(2025-07-22) 전체 픽업 공지 이미지. gamebiz가 재게시한 공식 홍보물로 당시 서포트 셀렉트 풀도 포함합니다. 이번 한국 픽업 기간·서포트 편성을 뜻하지 않습니다.",
+          "en": "Complete original Japanese pickup announcement for [Assorted Cuteness♡] Fusaichi Pandora (2025-07-22), official promotional art reproduced by gamebiz. It also shows that original support selection; it does not establish this Korean pickup period or support lineup.",
+          "ja": "［Assorted Cuteness♡］フサイチパンドラの日本初実装（2025-07-22）時のガチャ告知画像全体。gamebiz転載の公式宣伝画像で、当時のサポートセレクト対象も含みます。今回の韓国版日程・サポート編成を示すものではありません。",
+          "zh": "［Assorted Cuteness♡］房一潘朵拉日本首次登场（2025-07-22）的完整卡池公告图，由gamebiz转载官方宣传图，同时包含当时的自选支援卡池；不代表本次韩服日期或支援卡阵容。"
+        },
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "[Assorted Cuteness♡] 후사이치 판도라",
+              "en": "[Assorted Cuteness♡] Fusaichi Pandora",
+              "ja": "[Assorted Cuteness♡] フサイチパンドラ",
+              "zh": "[Assorted Cuteness♡] 房一潘朵拉"
+            },
+            "type": "new",
+            "role": "featured",
+            "rarity": 3,
+            "imageCaption": {
+              "ko": "[Assorted Cuteness♡] 후사이치 판도라의 일본 최초 출시(2025-07-22) 전체 픽업 공지 이미지. gamebiz가 재게시한 공식 홍보물로 당시 서포트 셀렉트 풀도 포함합니다. 이번 한국 픽업 기간·서포트 편성을 뜻하지 않습니다.",
+              "en": "Complete original Japanese pickup announcement for [Assorted Cuteness♡] Fusaichi Pandora (2025-07-22), official promotional art reproduced by gamebiz. It also shows that original support selection; it does not establish this Korean pickup period or support lineup.",
+              "ja": "［Assorted Cuteness♡］フサイチパンドラの日本初実装（2025-07-22）時のガチャ告知画像全体。gamebiz転載の公式宣伝画像で、当時のサポートセレクト対象も含みます。今回の韓国版日程・サポート編成を示すものではありません。",
+              "zh": "［Assorted Cuteness♡］房一潘朵拉日本首次登场（2025-07-22）的完整卡池公告图，由gamebiz转载官方宣传图，同时包含当时的自选支援卡池；不代表本次韩服日期或支援卡阵容。"
+            },
+            "originalLanguageFallback": false,
+            "textFreePreview": false,
+            "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+            "imageSource": "https://umamusume.jp/character/fusaichipandora",
+            "imageKind": "character",
+            "imageFit": "contain",
+            "imageVerified": true,
+            "imageLocale": "neutral",
+            "localizedArtwork": {
+              "ja": {
+                "originalLanguageFallback": false,
+                "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+                "imageSource": "https://umamusume.jp/character/fusaichipandora",
+                "imageVerified": true,
+                "imageKind": "character",
+                "imageLocale": "neutral",
+                "width": 1125,
+                "height": 1980,
+                "verifiedAt": "2026-10-29T02:45:53.462454+00:00"
+              },
+              "ko": {
+                "originalLanguageFallback": false,
+                "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+                "imageSource": "https://umamusume.jp/character/fusaichipandora",
+                "imageVerified": true,
+                "imageKind": "character",
+                "imageLocale": "neutral",
+                "width": 1125,
+                "height": 1980,
+                "verifiedAt": "2026-10-29T02:45:53.462454+00:00"
+              },
+              "en": {
+                "originalLanguageFallback": false,
+                "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+                "imageSource": "https://umamusume.jp/character/fusaichipandora",
+                "imageVerified": true,
+                "imageKind": "character",
+                "imageLocale": "neutral",
+                "width": 1125,
+                "height": 1980,
+                "verifiedAt": "2026-10-29T02:45:53.462454+00:00"
+              },
+              "zh": {
+                "originalLanguageFallback": false,
+                "image": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png",
+                "imageSource": "https://umamusume.jp/character/fusaichipandora",
+                "imageVerified": true,
+                "imageKind": "character",
+                "imageLocale": "neutral",
+                "width": 1125,
+                "height": 1980,
+                "verifiedAt": "2026-10-29T02:45:53.462454+00:00"
+              }
+            }
+          }
+        ],
+        "width": null,
+        "height": null,
+        "verifiedAt": "2026-10-20T19:42:06.483803+00:00"
+      },
+      "sources": [
+        "https://pf.kakao.com/_DzxjIb/115150570",
+        "https://umamusume.jp/character/fusaichipandora"
+      ]
+    },
+    {
+      "id": "quick-hi3-kr-47339123",
+      "set": {
+        "title": {
+          "ko": "[월페이퍼] 바다가 불꽃의 소리로 노래하고 있어 | 월페이퍼 공유",
+          "en": "[Wallpaper] The Sea Sings With the Voice of Fire | Wallpaper Download",
+          "ja": "［壁紙］海は炎の声で歌っている｜壁紙公開",
+          "zh": "【壁纸】海正用火的声音歌唱丨壁纸分享"
+        },
+        "summary": {
+          "ko": "메인 스토리 제2부 후일담 「바다가 불꽃의 소리로 노래하고 있어」 CG 월페이퍼 3종을 공개했다. 원본은 각 2560×1440이다.",
+          "en": "Three CG wallpapers from Main Story Part 2 Afterstory: The Sea Sings With the Voice of Fire are available at 2560×1440.",
+          "ja": "メインストーリー第二部後日談「海は炎の声で歌っている」のCG壁紙3種を公開。原画像は各2560×1440。",
+          "zh": "主线第二部后日谈「海正用火的声音歌唱」公开3张CG壁纸，原图均为2560×1440。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "translatedLocales": [
+          "ja"
+        ],
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47339123",
+          "en": "https://www.hoyolab.com/article/47339123",
+          "zh": "https://www.hoyolab.com/article/47339123"
+        },
+        "detailImages": [
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/11/04/a517121a0ad8348ed31efd8a0598850d_6179780280857556960.png",
+            "imageSource": "https://www.hoyolab.com/article/47339123",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "imageKind": "splash",
+            "width": 2560,
+            "height": 1440,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "후일담 CG 월페이퍼 1 (ko)",
+              "en": "Afterstory CG wallpaper 1 (ko)",
+              "ja": "後日談CG壁紙1（ko）",
+              "zh": "后日谈CG壁纸1（ko）"
+            }
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/11/04/ed987277ae5bcc71eeea8e3a27320dda_6996871878953213515.png",
+            "imageSource": "https://www.hoyolab.com/article/47339123",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "imageKind": "splash",
+            "width": 2560,
+            "height": 1440,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "후일담 CG 월페이퍼 2 (ko)",
+              "en": "Afterstory CG wallpaper 2 (ko)",
+              "ja": "後日談CG壁紙2（ko）",
+              "zh": "后日谈CG壁纸2（ko）"
+            }
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/11/04/1c50a94e9d1e3d76a951e5032ae9c14b_1134000863654569371.png",
+            "imageSource": "https://www.hoyolab.com/article/47339123",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "imageKind": "splash",
+            "width": 2560,
+            "height": 1440,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "후일담 CG 월페이퍼 3 (ko)",
+              "en": "Afterstory CG wallpaper 3 (ko)",
+              "ja": "後日談CG壁紙3（ko）",
+              "zh": "后日谈CG壁纸3（ko）"
+            }
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/11/04/c6be9f2017d81f911d5da96925cfc555_3223771865156716540.png",
+            "imageSource": "https://www.hoyolab.com/article/47339123",
+            "imageVerified": true,
+            "imageLocale": "en",
+            "imageKind": "splash",
+            "width": 2560,
+            "height": 1440,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "후일담 CG 월페이퍼 1 (en)",
+              "en": "Afterstory CG wallpaper 1 (en)",
+              "ja": "後日談CG壁紙1（en）",
+              "zh": "后日谈CG壁纸1（en）"
+            }
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/11/04/c3d91efa65c29c7aac9d8dcc27240efa_1714061439429971314.png",
+            "imageSource": "https://www.hoyolab.com/article/47339123",
+            "imageVerified": true,
+            "imageLocale": "en",
+            "imageKind": "splash",
+            "width": 2560,
+            "height": 1440,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "후일담 CG 월페이퍼 2 (en)",
+              "en": "Afterstory CG wallpaper 2 (en)",
+              "ja": "後日談CG壁紙2（en）",
+              "zh": "后日谈CG壁纸2（en）"
+            }
+          },
+          {
+            "image": "https://upload-os-bbs.hoyolab.com/upload/community/2026/11/04/6a41bc8c36ae439ef3ce56cf4ec6ce26_1035349177146748641.png",
+            "imageSource": "https://www.hoyolab.com/article/47339123",
+            "imageVerified": true,
+            "imageLocale": "en",
+            "imageKind": "splash",
+            "width": 2560,
+            "height": 1440,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "후일담 CG 월페이퍼 3 (en)",
+              "en": "Afterstory CG wallpaper 3 (en)",
+              "ja": "後日談CG壁紙3（en）",
+              "zh": "后日谈CG壁纸3（en）"
+            }
+          }
+        ],
+        "verifiedAt": "2026-11-06T12:24:48Z"
+      },
+      "before": {
+        "title": {
+          "ko": "[월페이퍼] 바다가 불꽃의 소리로 노래하고 있어 | 월페이퍼 공유",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://www.hoyolab.com/article/47339123"
+        },
+        "detailImages": null,
+        "verifiedAt": "2026-11-06T03:02:12.115Z"
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47339123"
+      ]
+    },
+    {
+      "id": "quick-nte-global-115072627",
+      "set": {
+        "title": {
+          "ko": "캐릭터 파일 소개丨엘림",
+          "en": "Character File | Elyms",
+          "ja": "キャラクターファイル｜Elyms",
+          "zh": "角色档案｜Elyms"
+        },
+        "summary": {
+          "ko": "엘림은 이상 관리국 E.T.D 6팀 부대장으로 소개됐다. 공식 프로필에는 S등급과 9월 3일 생일이 표기됐으며 1.5 버전은 11월 11일 공개 예정이다.",
+          "en": "Elyms is introduced as deputy leader of E.T.D Team 6 at the Anomaly Control Bureau. The profile lists S rank and a September 3 birthday; version 1.5 is announced for November 11.",
+          "ja": "Elymsは異常管理局E.T.D第6チーム副隊長。公式プロフィールにSランクと9月3日の誕生日を記載。バージョン1.5は11月11日公開予定。",
+          "zh": "Elyms被介绍为异常管理局E.T.D第6小队副队长，官方档案标注S级、生日9月3日。1.5版本预定11月11日推出。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailImages": [
+          {
+            "image": "https://k.kakaocdn.net/dn/dsRrZP/dJMcacrLpuX/S7mMHD1QizfvVOAAeKz7x0/img_xl.jpg",
+            "imageSource": "https://pf.kakao.com/_uSxfcG/115072627",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "imageKind": "character",
+            "width": 1080,
+            "height": 1512,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "엘림 캐릭터 소개",
+              "en": "Elyms character introduction",
+              "ja": "Elymsキャラクター紹介",
+              "zh": "Elyms角色介绍"
+            }
+          },
+          {
+            "image": "https://k.kakaocdn.net/dn/etAtmL/dJMcabTLCE0/eU5ZEFbAOCKH5507GtLD9K/img_xl.jpg",
+            "imageSource": "https://pf.kakao.com/_uSxfcG/115072627",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "imageKind": "banner",
+            "width": 1080,
+            "height": 1512,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "엘림 캐릭터 파일",
+              "en": "Elyms character file",
+              "ja": "Elymsキャラクターファイル",
+              "zh": "Elyms角色档案"
+            }
+          }
+        ],
+        "verifiedAt": "2026-11-06T12:24:48Z"
+      },
+      "before": {
+        "title": {
+          "ko": "캐릭터 파일 소개丨엘림 「어~ 나야 나, 오랜만이지? 잘 지냈어? ... 나? 나 지금 이상 관리국 E.T.D 6팀 부대장으로 일하고 있어. 하하, 의외지~? ... 이름? 어라, 내 이름을 잊어버린 거야~?」 <이환> 1.5 버전 「지금 거신 번호는」 11월 11일 출시! 지금 바로 다운로드 >>",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "캐릭터 파일 소개丨엘림 「어~ 나야 나, 오랜만이지? 잘 지냈어?... 나? 나 지금 이상 관리국 E.T.D 6팀 부대장으로 일하고 있어. 하하, 의외지~?... 이름? 어라, 내 이름을 잊어버린 거야~?」 <이환> 1.5 버전 「지금 거신 번호는」 11월 11일 출시! 지금 바로 다운로드 >> #이환 #NTE #엘림",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailImages": null,
+        "verifiedAt": "2026-11-06T02:03:46.675Z"
+      },
+      "sources": [
+        "https://pf.kakao.com/_uSxfcG/115072627"
+      ]
+    },
+    {
+      "id": "quick-wuwa-global-8418474",
+      "set": {
+        "title": {
+          "ko": "『명조:워더링 웨이브』 데스크톱 펫 Wuwa Tappo 주요 업데이트 및 향후 개발 계획 안내",
+          "en": "Wuwa Tappo improvements and development plans",
+          "ja": "Wuwa Tappo改善内容と今後の開発計画",
+          "zh": "Wuwa Tappo改进内容与后续开发计划"
+        },
+        "summary": {
+          "ko": "Wuwa Tappo의 멀티플레이 관리·펫 표시·입력 감도를 개선했다. Steam 출시와 Mac 지원은 향후 계획이며 전용 코드 RareTappo로 랜덤 Rare 캐릭터 1개를 받을 수 있다.",
+          "en": "Wuwa Tappo improves multiplayer management, pet visibility and input sensitivity. Steam and Mac support are planned; its RareTappo code grants one random Rare character.",
+          "ja": "Wuwa Tappoのマルチプレイ管理、ペット表示、入力感度を改善。Steam版とMac対応は今後の計画で、専用コードRareTappoでランダムなRareキャラクター1体を獲得できる。",
+          "zh": "Wuwa Tappo改进多人管理、宠物显示及输入灵敏度。Steam与Mac支持属于后续计划；专用码RareTappo可领取1个随机Rare角色。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "detailSections": [
+          {
+            "title": {
+              "ko": "전용 리딤 코드",
+              "en": "App-specific code",
+              "ja": "専用交換コード",
+              "zh": "专用兑换码"
+            },
+            "body": {
+              "ko": "RareTappo는 Wuwa Tappo 설정 → 리딤 코드에서 사용하며 명조 본편의 코드가 아니다. 보상은 랜덤 Rare(보라색) 캐릭터 1개. 기한은 공지상 2026년 11월 13일 12:00이며 시간대는 명시하지 않았다.",
+              "en": "Redeem RareTappo under Wuwa Tappo Settings → Redeem Code, not in the main Wuthering Waves game, for one random Rare (purple) character. The notice gives November 13, 2026 at 12:00 as the deadline without a timezone.",
+              "ja": "RareTappoはWuwa Tappoの設定→交換コードで使用し、鳴潮本編用ではない。報酬はランダムなRare（紫）キャラクター1体。告知期限は2026年11月13日12:00で、タイムゾーン表記はない。",
+              "zh": "RareTappo在Wuwa Tappo设置→兑换码中使用，不是鸣潮本篇代码；奖励为1个随机Rare（紫色）角色。公告期限为2026年11月13日12:00，未标注时区。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/WutheringWaves/board/detail/8418474"
+            ]
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDVfMTA0/MDAxNzkzODgyMjg5NDgx.Auey065bVjZkNppgURDhQcKXeQlMXHA0LDlup3UhDZYg.7BWXn40OFKId-VtFlvMTM_wqMBG_VF9HU8Iy37PsYW0g.JPEG/KR.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8418474",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "imageKind": "banner",
+            "width": 3840,
+            "height": 2160,
+            "verifiedAt": "2026-11-06T12:24:48Z",
+            "imageCaption": {
+              "ko": "Wuwa Tappo 한국 공식 공지 이미지",
+              "en": "Official Korean Wuwa Tappo notice artwork",
+              "ja": "Wuwa Tappo韓国公式告知画像",
+              "zh": "Wuwa Tappo韩文官方公告图"
+            }
+          }
+        ],
+        "verifiedAt": "2026-11-06T12:24:48Z"
+      },
+      "before": {
+        "title": {
+          "ko": "『명조:워더링 웨이브』 데스크톱 펫 Wuwa Tappo 주요 업데이트 및 향후 개발 계획 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "새로운 시대에서 눈을 뜨신 것을 환영합니다. 방랑자님! 폭풍과도 같은 액션의 파도,『명조:워더링 웨이브』입니다. 『명조:워더링 웨이브』 데스크톱 펫 프로그램 Wuwa Tappo가 정식 출시된 이후, 방랑자 여러분께서 보내주신 뜨거운 성원과 소중한 의견을 받았습니다. 여러분의 이용 경험과 피드백을 바탕으로, 더욱 다채롭고 편리한 데스크톱 펫 경험을 제공해 드리기 위해 주요 기능 개선 및 향후 개발 작업을 적극적으로 추진하고 있습니다. 「최근 주요 기능 개선」 ✦ 멀티플레이 방 관리: 방장 권한 양도 및 플레이어 추방 기능을 추가하여 멀티플레이 방 관리의 편의성을 높였습",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "detailSections": null,
+        "detailImages": null,
+        "verifiedAt": "2026-11-06T02:03:44.915Z"
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8418474"
+      ]
+    },
+    {
+      "id": "holodreams-event-65414-a6507e6a",
+      "set": {
+        "title": {
+          "ko": "긴 가을밤, 한 지붕 아래",
+          "en": "Under One Roof on a Long Autumn Night",
+          "ja": "秋の夜長に、ひとつ屋根の下",
+          "zh": "秋日长夜，同一屋檐下"
+        },
+        "summary": {
+          "ko": "11월 6~12일 과제곡의 최고 점수 합계를 겨루는 스코어 챌린지가 열린다. 라이브·미니게임의 배지는 이벤트 메모리와 재료로 교환하며 이벤트 포인트 순위는 없다.",
+          "en": "The November 6–12 challenge ranks combined best scores on selected songs. Lives and minigames award badges for event memories and materials; there is no event-point ranking.",
+          "ja": "イベント開催期間 2026年11月6日（金）12:00～2026年11月12日（木）19:59 本イベントは、イベント課題曲に挑戦し、獲得したハイスコアの合計でランキング上位を目指す「スコアチャレンジイベント」です。 イベント期間中は、リズムゲームのライブやミニゲームをプレイすることで「イベントバッジ」も獲得できます。 イベントバッジは、イベントメモリーや、ゲーム内で使用できる各種素材などと交換できます。 ※「スコアチャレンジイベント」ではイベントPtランキングはございません。 ※イベントの開催期間および内容は、予告なく変更となる場合があります。 ※詳細は、ゲーム内のお知らせをご確認ください。",
+          "zh": "11月6日至12日的分数挑战按课题曲最高分总和排名。演出和小游戏的徽章可兑换活动回忆及材料，不设活动积分排名。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-06T12:24:48Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "秋の夜長に、ひとつ屋根の下",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "イベント開催期間 2026年11月6日（金）12:00～2026年11月12日（木）19:59 本イベントは、イベント課題曲に挑戦し、獲得したハイスコアの合計でランキング上位を目指す「スコアチャレンジイベント」です。 イベント期間中は、リズムゲームのライブやミニゲームをプレイすることで「イベントバッジ」も獲得できます。 イベントバッジは、イベントメモリーや、ゲーム内で使用できる各種素材などと交換できます。 ※「スコアチャレンジイベント」ではイベントPtランキングはございません。 ※イベントの開催期間および内容は、予告なく変更となる場合があります。 ※詳細は、ゲーム内のお知らせをご確認ください。",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-06T02:39:45.907Z"
+      },
+      "sources": [
+        "https://gamewith.jp/gamedb/15524/articles/65414"
+      ]
+    },
+    {
+      "id": "community-holodreams-65414",
+      "set": {
+        "title": {
+          "ko": "「긴 가을밤, 한 지붕 아래」 — AREA15 파자마 의상과 신곡",
+          "en": "Autumn event adds AREA15 pajamas and four songs",
+          "ja": "『hololive Dreams』（略称「ホロドリ」）のゲーム内イベント「秋の夜長に、ひとつ屋根の下」を11月6日より開催！\n〜AREA15の3名がパジャマ衣装で登場！3名のユニット楽曲も追加〜",
+          "zh": "秋夜活动追加AREA15睡衣服装与4首歌曲"
+        },
+        "summary": {
+          "ko": "아윤다 리스·무나 호시노바·아이라니 이오피프틴의 신규 ★5 파자마 카드가 11월 6~14일 가챠에 등장한다. 유닛곡 Dramatic XViltration을 포함해 4곡이 추가된다.",
+          "en": "New 5★ pajama cards for Ayunda Risu, Moona Hoshinova and Airani Iofifteen appear in the November 6–14 gacha. Four songs are added, including Dramatic XViltration.",
+          "ja": "11月6～14日のガチャにアユンダ・リス、ムーナ・ホシノヴァ、アイラニ・イオフィフティーンの新★5パジャマカードが登場。Dramatic XViltrationを含む4曲を追加。",
+          "zh": "Ayunda Risu、Moona Hoshinova和Airani Iofifteen的新5★睡衣卡在11月6日至14日招募登场，同时追加含Dramatic XViltration在内的4首歌曲。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-06T12:24:48Z"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "『hololive Dreams』（略称「ホロドリ」）のゲーム内イベント「秋の夜長に、ひとつ屋根の下」を11月6日より開催！\n〜AREA15の3名がパジャマ衣装で登場！3名のユニット楽曲も追加〜",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "『hololive Dreams』（略称「ホロドリ」）のゲーム内イベント「秋の夜長に、ひとつ屋根の下」を11月6日より開催！ 〜AREA15の3名がパジャマ衣装で登場！3名のユニット楽曲も追加〜 株式会社QualiArts（本社：東京都渋谷区、代表取締役社長：辻岡義立）は、カバー株式会社（本社：東京都港区、代表取締役社長：谷郷元昭）と共同で開発・運営する、好評配信中の「ホロライブ」初の公式ゲーム『hololive Dreams（ホロライブドリームス）』（以下、『ホロドリ』）において、2026年11月6日（金）より、ゲーム内イベント「秋の夜長に、ひとつ屋根の下」を開催いたします。 本イベントでは、アユンダ・リス、ムーナ・ホシノヴァ、ア",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-06T02:39:45.907Z"
+      },
+      "sources": [
+        "https://gamewith.jp/gamedb/15524/articles/65414"
+      ]
+    },
+    {
+      "id": "quick-trickcal-kr-8409486",
+      "set": {
+        "title": {
+          "ko": "[점검] 11월 5일(목) 정기점검 예정 안내(완료)",
+          "en": "November 5 maintenance notice (completed; translation)",
+          "ja": "11月5日定期メンテナンスのお知らせ（完了・翻訳）",
+          "zh": "11月5日定期維護公告（已完成・翻譯）"
+        },
+        "summary": {
+          "ko": "한국 서비스의 11월 5일 정기점검이 완료됐습니다. 점검 보상은 엘리프 500개이며, 공지에 적힌 수령 기한은 11월 12일 10:59입니다.",
+          "en": "November 5 maintenance for the Korean service is complete. Compensation is 500 엘리프, claimable until November 12 at 10:59 as listed in the notice.",
+          "ja": "韓国サービスの11月5日定期メンテナンスは完了。補償はエリーフ500個で、告知に記載された受取期限は11月12日10:59です。",
+          "zh": "韓國服11月5日定期維護已完成。維護補償為500個엘리프，公告所列領取期限為11月12日10:59。"
+        },
+        "verifiedAt": "2026-11-06T12:24:48Z"
+      },
+      "before": {
+        "title": {
+          "ko": "[점검] 11월 5일(목) 정기점검 예정 안내(완료)",
+          "en": "November 5 scheduled maintenance notice (translation)",
+          "ja": "11月5日定期メンテナンス予定告知（翻訳）",
+          "zh": "11月5日定期維護預告（翻譯）"
+        },
+        "summary": {
+          "ko": "한국 서비스가 11월 5일 업데이트를 위한 정기점검을 예고했습니다. 공지 표기 시간은 11:00~16:00이며 점검 중에는 게임에 접속할 수 없습니다. 진행 상황에 따라 조기 종료하거나 연장될 수 있습니다.",
+          "en": "The Korean service announces maintenance for the November 5 update. The notice lists 11:00–16:00, during which the game is unavailable. Maintenance may finish early or be extended.",
+          "ja": "韓国サービスは11月5日の更新に伴う定期メンテナンスを予告。告知上の予定時間は11:00～16:00で、作業中はゲームを利用できません。進行状況により早期終了・延長する場合があります。",
+          "zh": "韓國服預告11月5日進行更新維護，公告所列時間為11:00至16:00，期間無法進入遊戲。維護可能依進度提前結束或延長。"
+        },
+        "verifiedAt": "2026-11-05T07:02:39.522Z"
+      },
+      "sources": [
+        "https://game.naver.com/lounge/Trickcal/board/detail/8409486"
+      ]
+    }
+  ]
+}
+
