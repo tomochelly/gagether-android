@@ -1,0 +1,1602 @@
+{
+  "version": 1,
+  "requestId": "20261106T195922Z-arknights-pickups-and-mitya",
+  "reason": "명일방주 한국 픽업의 개별 원화 누락, 일본·글로벌의 공식 일반·커널 모집 누락, 원신 미탸의 오래된 예상 상태를 공식 공개 자료로 보완합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-06T19:59:22Z",
+  "entries": [
+    {
+      "id": "arknights-global-kernel-20261103",
+      "gameId": "arknights",
+      "region": "global",
+      "server": "Global",
+      "kind": "pickup",
+      "poolType": "standard",
+      "pickupType": "unknown",
+      "title": {
+        "ko": "커널 헤드헌팅 · 사일라흐 / 유넥티스",
+        "en": "Kernel Headhunting · Saileach / Eunectes",
+        "ja": "中堅スカウト · サイラッハ / ユーネクテス",
+        "zh": "中坚寻访 · 琴柳 / 森蚺"
+      },
+      "summary": {
+        "ko": "글로벌 서버 커널 헤드헌팅은 2026-11-03부터 2026-11-17까지 진행된다. 6성 사일라흐·유넥티스와 5성 프란카·위스퍼레인·애쉬락의 출현 확률이 상승한다.",
+        "en": "Global server Kernel Headhunting runs 2026-11-03–2026-11-17, with increased rates for 6-star Saileach and Eunectes, plus 5-star Franka, Whisperain, Ashlock.",
+        "ja": "グローバル版の中堅スカウトは2026-11-03～2026-11-17開催。★6サイラッハ・ユーネクテスと★5フランカ・ウィスパーレイン・アッシュロックの出現率が上昇。",
+        "zh": "国际服中坚寻访于2026-11-03至2026-11-17开放，提高六星琴柳、森蚺和三名五星干员的出现概率。"
+      },
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-17",
+      "startAt": "2026-11-03T04:00:00-07:00",
+      "endAt": "2026-11-17T03:59:00-07:00",
+      "publishedAt": "2026-11-02",
+      "verifiedAt": "2026-11-06T19:59:22Z",
+      "sourceUrl": "https://x.com/ArknightsEN/status/2117134611159355740",
+      "sourceTitle": "Kernel Headhunting",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "en"
+      ],
+      "translatedLocales": [
+        "ko",
+        "ja",
+        "zh"
+      ],
+      "localizationSources": {
+        "en": "https://x.com/ArknightsEN/status/2117134611159355740"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-17"
+      },
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "사일라흐",
+            "en": "Saileach",
+            "ja": "サイラッハ",
+            "zh": "琴柳"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6,
+          "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+          "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageCaption": {
+            "ko": "사일라흐 기본 의상 2차 정예화 원화",
+            "en": "Saileach default outfit, Elite 2 artwork",
+            "ja": "サイラッハ・通常衣装の昇進2イラスト",
+            "zh": "琴柳默认服装精英二立绘"
+          },
+          "textFreePreview": true,
+          "previewArtwork": {
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "width": 2396,
+            "height": 2396,
+            "verifiedAt": "2026-11-06T19:59:22Z",
+            "imageCaption": {
+              "ko": "사일라흐 기본 의상 2차 정예화 원화",
+              "en": "Saileach default outfit, Elite 2 artwork",
+              "ja": "サイラッハ・通常衣装の昇進2イラスト",
+              "zh": "琴柳默认服装精英二立绘"
+            },
+            "textFreePreview": true
+          }
+        },
+        {
+          "name": {
+            "ko": "유넥티스",
+            "en": "Eunectes",
+            "ja": "ユーネクテス",
+            "zh": "森蚺"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6,
+          "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+          "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageCaption": {
+            "ko": "유넥티스 기본 의상 2차 정예화 원화",
+            "en": "Eunectes default outfit, Elite 2 artwork",
+            "ja": "ユーネクテス・通常衣装の昇進2イラスト",
+            "zh": "森蚺默认服装精英二立绘"
+          },
+          "textFreePreview": true,
+          "previewArtwork": {
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "width": 2796,
+            "height": 2796,
+            "verifiedAt": "2026-11-06T19:59:22Z",
+            "imageCaption": {
+              "ko": "유넥티스 기본 의상 2차 정예화 원화",
+              "en": "Eunectes default outfit, Elite 2 artwork",
+              "ja": "ユーネクテス・通常衣装の昇進2イラスト",
+              "zh": "森蚺默认服装精英二立绘"
+            },
+            "textFreePreview": true
+          }
+        },
+        {
+          "name": {
+            "ko": "프란카",
+            "en": "Franka",
+            "ja": "フランカ",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "위스퍼레인",
+            "en": "Whisperain",
+            "ja": "ウィスパーレイン",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "애쉬락",
+            "en": "Ashlock",
+            "ja": "アッシュロック",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        }
+      ],
+      "localizedArtwork": {
+        "en": {
+          "image": "https://pbs.twimg.com/media/HVtiDFCawAAS6ib?format=jpg&name=orig",
+          "imageSource": "https://x.com/ArknightsEN/status/2117134611159355740",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "width": 1650,
+          "height": 900,
+          "verifiedAt": "2026-11-06T19:59:22Z",
+          "imageCaption": {
+            "ko": "글로벌 서버 공식 모집 안내",
+            "en": "Global server official recruitment banner",
+            "ja": "グローバル版公式スカウト告知",
+            "zh": "国际服官方寻访公告图"
+          },
+          "originalLanguageFallback": true
+        }
+      },
+      "image": "https://pbs.twimg.com/media/HVtiDFCawAAS6ib?format=jpg&name=orig",
+      "imageSource": "https://x.com/ArknightsEN/status/2117134611159355740",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1650,
+      "height": 900,
+      "imageCaption": {
+        "ko": "글로벌 서버 공식 모집 안내",
+        "en": "Global server official recruitment banner",
+        "ja": "グローバル版公式スカウト告知",
+        "zh": "国际服官方寻访公告图"
+      },
+      "originalLanguageFallback": true,
+      "relatedSources": [
+        {
+          "kind": "community",
+          "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+          "title": "Saileach Elite 2 original artwork mirror",
+          "publisher": "ArknightsResource"
+        },
+        {
+          "kind": "community",
+          "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+          "title": "Eunectes Elite 2 original artwork mirror",
+          "publisher": "ArknightsResource"
+        }
+      ]
+    },
+    {
+      "id": "arknights-global-standard-20261106",
+      "gameId": "arknights",
+      "region": "global",
+      "server": "Global",
+      "kind": "pickup",
+      "poolType": "standard",
+      "pickupType": "unknown",
+      "title": {
+        "ko": "일반 헤드헌팅 · 비비아나 / 파죰카",
+        "en": "Standard Headhunting · Viviana / Pozëmka",
+        "ja": "常設スカウト · ヴィヴィアナ / パゼオンカ",
+        "zh": "标准寻访 · 薇薇安娜 / 鸿雪"
+      },
+      "summary": {
+        "ko": "글로벌 서버 일반 헤드헌팅은 2026-11-06부터 2026-11-20까지 진행된다. 6성 비비아나·파죰카와 5성 타락사쿰·폰사이러스·루나컵의 출현 확률이 상승한다.",
+        "en": "Global server Standard Headhunting runs 2026-11-06–2026-11-20, with increased rates for 6-star Viviana and Pozëmka, plus 5-star Taraxacum, Poncirus, Lunacub.",
+        "ja": "グローバル版の常設スカウトは2026-11-06～2026-11-20開催。★6ヴィヴィアナ・パゼオンカと★5タラクサカム・ポンシラス・ルナカブの出現率が上昇。",
+        "zh": "国际服标准寻访于2026-11-06至2026-11-20开放，提高六星薇薇安娜、鸿雪和三名五星干员的出现概率。"
+      },
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-20",
+      "startAt": "2026-11-06T04:00:00-07:00",
+      "endAt": "2026-11-20T03:59:00-07:00",
+      "publishedAt": "2026-11-05",
+      "verifiedAt": "2026-11-06T19:59:22Z",
+      "sourceUrl": "https://x.com/ArknightsEN/status/2118191574802637050",
+      "sourceTitle": "Standard Headhunting",
+      "sourceKind": "official",
+      "sourceLocale": "en",
+      "officialLocales": [
+        "en"
+      ],
+      "translatedLocales": [
+        "ko",
+        "ja",
+        "zh"
+      ],
+      "localizationSources": {
+        "en": "https://x.com/ArknightsEN/status/2118191574802637050"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-06",
+        "endDate": "2026-11-20"
+      },
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "비비아나",
+            "en": "Viviana",
+            "ja": "ヴィヴィアナ",
+            "zh": "薇薇安娜"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6,
+          "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+          "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageCaption": {
+            "ko": "비비아나 기본 의상 2차 정예화 원화",
+            "en": "Viviana default outfit, Elite 2 artwork",
+            "ja": "ヴィヴィアナ・通常衣装の昇進2イラスト",
+            "zh": "薇薇安娜默认服装精英二立绘"
+          },
+          "textFreePreview": true,
+          "previewArtwork": {
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "width": 2560,
+            "height": 2560,
+            "verifiedAt": "2026-11-06T19:59:22Z",
+            "imageCaption": {
+              "ko": "비비아나 기본 의상 2차 정예화 원화",
+              "en": "Viviana default outfit, Elite 2 artwork",
+              "ja": "ヴィヴィアナ・通常衣装の昇進2イラスト",
+              "zh": "薇薇安娜默认服装精英二立绘"
+            },
+            "textFreePreview": true
+          }
+        },
+        {
+          "name": {
+            "ko": "파죰카",
+            "en": "Pozëmka",
+            "ja": "パゼオンカ",
+            "zh": "鸿雪"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6,
+          "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+          "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageCaption": {
+            "ko": "파죰카 기본 의상 2차 정예화 원화",
+            "en": "Pozëmka default outfit, Elite 2 artwork",
+            "ja": "パゼオンカ・通常衣装の昇進2イラスト",
+            "zh": "鸿雪默认服装精英二立绘"
+          },
+          "textFreePreview": true,
+          "previewArtwork": {
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "width": 2356,
+            "height": 2356,
+            "verifiedAt": "2026-11-06T19:59:22Z",
+            "imageCaption": {
+              "ko": "파죰카 기본 의상 2차 정예화 원화",
+              "en": "Pozëmka default outfit, Elite 2 artwork",
+              "ja": "パゼオンカ・通常衣装の昇進2イラスト",
+              "zh": "鸿雪默认服装精英二立绘"
+            },
+            "textFreePreview": true
+          }
+        },
+        {
+          "name": {
+            "ko": "타락사쿰",
+            "en": "Taraxacum",
+            "ja": "タラクサカム",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "폰사이러스",
+            "en": "Poncirus",
+            "ja": "ポンシラス",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "루나컵",
+            "en": "Lunacub",
+            "ja": "ルナカブ",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        }
+      ],
+      "localizedArtwork": {
+        "en": {
+          "image": "https://pbs.twimg.com/media/HWRRsLhbMAAHsdv?format=jpg&name=orig",
+          "imageSource": "https://x.com/ArknightsEN/status/2118191574802637050",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "en",
+          "width": 1650,
+          "height": 900,
+          "verifiedAt": "2026-11-06T19:59:22Z",
+          "imageCaption": {
+            "ko": "글로벌 서버 공식 모집 안내",
+            "en": "Global server official recruitment banner",
+            "ja": "グローバル版公式スカウト告知",
+            "zh": "国际服官方寻访公告图"
+          },
+          "originalLanguageFallback": true
+        }
+      },
+      "image": "https://pbs.twimg.com/media/HWRRsLhbMAAHsdv?format=jpg&name=orig",
+      "imageSource": "https://x.com/ArknightsEN/status/2118191574802637050",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "en",
+      "width": 1650,
+      "height": 900,
+      "imageCaption": {
+        "ko": "글로벌 서버 공식 모집 안내",
+        "en": "Global server official recruitment banner",
+        "ja": "グローバル版公式スカウト告知",
+        "zh": "国际服官方寻访公告图"
+      },
+      "originalLanguageFallback": true,
+      "relatedSources": [
+        {
+          "kind": "community",
+          "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+          "title": "Viviana Elite 2 original artwork mirror",
+          "publisher": "ArknightsResource"
+        },
+        {
+          "kind": "community",
+          "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+          "title": "Pozëmka Elite 2 original artwork mirror",
+          "publisher": "ArknightsResource"
+        }
+      ]
+    },
+    {
+      "id": "arknights-jp-kernel-20261103",
+      "gameId": "arknights",
+      "region": "jp",
+      "server": "Japan",
+      "kind": "pickup",
+      "poolType": "standard",
+      "pickupType": "unknown",
+      "title": {
+        "ko": "커널 헤드헌팅 · 사일라흐 / 유넥티스",
+        "en": "Kernel Headhunting · Saileach / Eunectes",
+        "ja": "中堅スカウト · サイラッハ / ユーネクテス",
+        "zh": "中坚寻访 · 琴柳 / 森蚺"
+      },
+      "summary": {
+        "ko": "일본 서버 커널 헤드헌팅은 2026-11-03부터 2026-11-17까지 진행된다. 6성 사일라흐·유넥티스와 5성 프란카·위스퍼레인·애쉬락의 출현 확률이 상승한다.",
+        "en": "Japanese server Kernel Headhunting runs 2026-11-03–2026-11-17, with increased rates for 6-star Saileach and Eunectes, plus 5-star Franka, Whisperain, Ashlock.",
+        "ja": "日本版の中堅スカウトは2026-11-03～2026-11-17開催。★6サイラッハ・ユーネクテスと★5フランカ・ウィスパーレイン・アッシュロックの出現率が上昇。",
+        "zh": "日服中坚寻访于2026-11-03至2026-11-17开放，提高六星琴柳、森蚺和三名五星干员的出现概率。"
+      },
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-17",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-11-02",
+      "verifiedAt": "2026-11-06T19:59:22Z",
+      "sourceUrl": "https://x.com/ArknightsStaff/status/2117134696006226345",
+      "sourceTitle": "【中堅スカウト】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ja"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "zh"
+      ],
+      "localizationSources": {
+        "ja": "https://x.com/ArknightsStaff/status/2117134696006226345"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-17"
+      },
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "사일라흐",
+            "en": "Saileach",
+            "ja": "サイラッハ",
+            "zh": "琴柳"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6,
+          "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+          "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageCaption": {
+            "ko": "사일라흐 기본 의상 2차 정예화 원화",
+            "en": "Saileach default outfit, Elite 2 artwork",
+            "ja": "サイラッハ・通常衣装の昇進2イラスト",
+            "zh": "琴柳默认服装精英二立绘"
+          },
+          "textFreePreview": true,
+          "previewArtwork": {
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "width": 2396,
+            "height": 2396,
+            "verifiedAt": "2026-11-06T19:59:22Z",
+            "imageCaption": {
+              "ko": "사일라흐 기본 의상 2차 정예화 원화",
+              "en": "Saileach default outfit, Elite 2 artwork",
+              "ja": "サイラッハ・通常衣装の昇進2イラスト",
+              "zh": "琴柳默认服装精英二立绘"
+            },
+            "textFreePreview": true
+          }
+        },
+        {
+          "name": {
+            "ko": "유넥티스",
+            "en": "Eunectes",
+            "ja": "ユーネクテス",
+            "zh": "森蚺"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6,
+          "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+          "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageCaption": {
+            "ko": "유넥티스 기본 의상 2차 정예화 원화",
+            "en": "Eunectes default outfit, Elite 2 artwork",
+            "ja": "ユーネクテス・通常衣装の昇進2イラスト",
+            "zh": "森蚺默认服装精英二立绘"
+          },
+          "textFreePreview": true,
+          "previewArtwork": {
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "width": 2796,
+            "height": 2796,
+            "verifiedAt": "2026-11-06T19:59:22Z",
+            "imageCaption": {
+              "ko": "유넥티스 기본 의상 2차 정예화 원화",
+              "en": "Eunectes default outfit, Elite 2 artwork",
+              "ja": "ユーネクテス・通常衣装の昇進2イラスト",
+              "zh": "森蚺默认服装精英二立绘"
+            },
+            "textFreePreview": true
+          }
+        },
+        {
+          "name": {
+            "ko": "프란카",
+            "en": "Franka",
+            "ja": "フランカ",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "위스퍼레인",
+            "en": "Whisperain",
+            "ja": "ウィスパーレイン",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "애쉬락",
+            "en": "Ashlock",
+            "ja": "アッシュロック",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        }
+      ],
+      "localizedArtwork": {
+        "ja": {
+          "image": "https://pbs.twimg.com/media/HWGSxjvaYAAee4C?format=jpg&name=orig",
+          "imageSource": "https://x.com/ArknightsStaff/status/2117134696006226345",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "width": 1594,
+          "height": 897,
+          "verifiedAt": "2026-11-06T19:59:22Z",
+          "imageCaption": {
+            "ko": "일본 서버 공식 모집 안내",
+            "en": "Japanese server official recruitment banner",
+            "ja": "日本版公式スカウト告知",
+            "zh": "日服官方寻访公告图"
+          },
+          "originalLanguageFallback": true
+        }
+      },
+      "image": "https://pbs.twimg.com/media/HWGSxjvaYAAee4C?format=jpg&name=orig",
+      "imageSource": "https://x.com/ArknightsStaff/status/2117134696006226345",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1594,
+      "height": 897,
+      "imageCaption": {
+        "ko": "일본 서버 공식 모집 안내",
+        "en": "Japanese server official recruitment banner",
+        "ja": "日本版公式スカウト告知",
+        "zh": "日服官方寻访公告图"
+      },
+      "originalLanguageFallback": true,
+      "relatedSources": [
+        {
+          "kind": "community",
+          "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+          "title": "Saileach Elite 2 original artwork mirror",
+          "publisher": "ArknightsResource"
+        },
+        {
+          "kind": "community",
+          "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+          "title": "Eunectes Elite 2 original artwork mirror",
+          "publisher": "ArknightsResource"
+        }
+      ]
+    },
+    {
+      "id": "arknights-jp-standard-20261106",
+      "gameId": "arknights",
+      "region": "jp",
+      "server": "Japan",
+      "kind": "pickup",
+      "poolType": "standard",
+      "pickupType": "unknown",
+      "title": {
+        "ko": "일반 헤드헌팅 · 비비아나 / 파죰카",
+        "en": "Standard Headhunting · Viviana / Pozëmka",
+        "ja": "常設スカウト · ヴィヴィアナ / パゼオンカ",
+        "zh": "标准寻访 · 薇薇安娜 / 鸿雪"
+      },
+      "summary": {
+        "ko": "일본 서버 일반 헤드헌팅은 2026-11-06부터 2026-11-20까지 진행된다. 6성 비비아나·파죰카와 5성 타락사쿰·폰사이러스·루나컵의 출현 확률이 상승한다.",
+        "en": "Japanese server Standard Headhunting runs 2026-11-06–2026-11-20, with increased rates for 6-star Viviana and Pozëmka, plus 5-star Taraxacum, Poncirus, Lunacub.",
+        "ja": "日本版の常設スカウトは2026-11-06～2026-11-20開催。★6ヴィヴィアナ・パゼオンカと★5タラクサカム・ポンシラス・ルナカブの出現率が上昇。",
+        "zh": "日服标准寻访于2026-11-06至2026-11-20开放，提高六星薇薇安娜、鸿雪和三名五星干员的出现概率。"
+      },
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-20",
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-11-05",
+      "verifiedAt": "2026-11-06T19:59:22Z",
+      "sourceUrl": "https://x.com/ArknightsStaff/status/2118191586442088693",
+      "sourceTitle": "【常設スカウト更新】",
+      "sourceKind": "official",
+      "sourceLocale": "ja",
+      "officialLocales": [
+        "ja"
+      ],
+      "translatedLocales": [
+        "ko",
+        "en",
+        "zh"
+      ],
+      "localizationSources": {
+        "ja": "https://x.com/ArknightsStaff/status/2118191586442088693"
+      },
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-06",
+        "endDate": "2026-11-20"
+      },
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "비비아나",
+            "en": "Viviana",
+            "ja": "ヴィヴィアナ",
+            "zh": "薇薇安娜"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6,
+          "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+          "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageCaption": {
+            "ko": "비비아나 기본 의상 2차 정예화 원화",
+            "en": "Viviana default outfit, Elite 2 artwork",
+            "ja": "ヴィヴィアナ・通常衣装の昇進2イラスト",
+            "zh": "薇薇安娜默认服装精英二立绘"
+          },
+          "textFreePreview": true,
+          "previewArtwork": {
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "width": 2560,
+            "height": 2560,
+            "verifiedAt": "2026-11-06T19:59:22Z",
+            "imageCaption": {
+              "ko": "비비아나 기본 의상 2차 정예화 원화",
+              "en": "Viviana default outfit, Elite 2 artwork",
+              "ja": "ヴィヴィアナ・通常衣装の昇進2イラスト",
+              "zh": "薇薇安娜默认服装精英二立绘"
+            },
+            "textFreePreview": true
+          }
+        },
+        {
+          "name": {
+            "ko": "파죰카",
+            "en": "Pozëmka",
+            "ja": "パゼオンカ",
+            "zh": "鸿雪"
+          },
+          "type": "unknown",
+          "role": "featured",
+          "rarity": 6,
+          "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+          "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+          "imageVerified": true,
+          "imageKind": "splash",
+          "imageLocale": "neutral",
+          "imageCaption": {
+            "ko": "파죰카 기본 의상 2차 정예화 원화",
+            "en": "Pozëmka default outfit, Elite 2 artwork",
+            "ja": "パゼオンカ・通常衣装の昇進2イラスト",
+            "zh": "鸿雪默认服装精英二立绘"
+          },
+          "textFreePreview": true,
+          "previewArtwork": {
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "width": 2356,
+            "height": 2356,
+            "verifiedAt": "2026-11-06T19:59:22Z",
+            "imageCaption": {
+              "ko": "파죰카 기본 의상 2차 정예화 원화",
+              "en": "Pozëmka default outfit, Elite 2 artwork",
+              "ja": "パゼオンカ・通常衣装の昇進2イラスト",
+              "zh": "鸿雪默认服装精英二立绘"
+            },
+            "textFreePreview": true
+          }
+        },
+        {
+          "name": {
+            "ko": "타락사쿰",
+            "en": "Taraxacum",
+            "ja": "タラクサカム",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "폰사이러스",
+            "en": "Poncirus",
+            "ja": "ポンシラス",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        },
+        {
+          "name": {
+            "ko": "루나컵",
+            "en": "Lunacub",
+            "ja": "ルナカブ",
+            "zh": ""
+          },
+          "type": "unknown",
+          "role": "rate-up",
+          "rarity": 5
+        }
+      ],
+      "localizedArtwork": {
+        "ja": {
+          "image": "https://pbs.twimg.com/media/HWVUBPWa4AANB4s?format=jpg&name=orig",
+          "imageSource": "https://x.com/ArknightsStaff/status/2118191586442088693",
+          "imageVerified": true,
+          "imageKind": "banner",
+          "imageLocale": "ja",
+          "width": 1356,
+          "height": 763,
+          "verifiedAt": "2026-11-06T19:59:22Z",
+          "imageCaption": {
+            "ko": "일본 서버 공식 모집 안내",
+            "en": "Japanese server official recruitment banner",
+            "ja": "日本版公式スカウト告知",
+            "zh": "日服官方寻访公告图"
+          },
+          "originalLanguageFallback": true
+        }
+      },
+      "image": "https://pbs.twimg.com/media/HWVUBPWa4AANB4s?format=jpg&name=orig",
+      "imageSource": "https://x.com/ArknightsStaff/status/2118191586442088693",
+      "imageVerified": true,
+      "imageKind": "banner",
+      "imageLocale": "ja",
+      "width": 1356,
+      "height": 763,
+      "imageCaption": {
+        "ko": "일본 서버 공식 모집 안내",
+        "en": "Japanese server official recruitment banner",
+        "ja": "日本版公式スカウト告知",
+        "zh": "日服官方寻访公告图"
+      },
+      "originalLanguageFallback": true,
+      "relatedSources": [
+        {
+          "kind": "community",
+          "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+          "title": "Viviana Elite 2 original artwork mirror",
+          "publisher": "ArknightsResource"
+        },
+        {
+          "kind": "community",
+          "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+          "title": "Pozëmka Elite 2 original artwork mirror",
+          "publisher": "ArknightsResource"
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "arknights-kr-kernel-20261103",
+      "set": {
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "사일라흐",
+              "en": "Saileach",
+              "ja": "サイラッハ",
+              "zh": "琴柳"
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 6,
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "사일라흐 기본 의상 2차 정예화 원화",
+              "en": "Saileach default outfit, Elite 2 artwork",
+              "ja": "サイラッハ・通常衣装の昇進2イラスト",
+              "zh": "琴柳默认服装精英二立绘"
+            },
+            "textFreePreview": true,
+            "previewArtwork": {
+              "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+              "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+              "imageVerified": true,
+              "imageKind": "splash",
+              "imageLocale": "neutral",
+              "width": 2396,
+              "height": 2396,
+              "verifiedAt": "2026-11-06T19:59:22Z",
+              "imageCaption": {
+                "ko": "사일라흐 기본 의상 2차 정예화 원화",
+                "en": "Saileach default outfit, Elite 2 artwork",
+                "ja": "サイラッハ・通常衣装の昇進2イラスト",
+                "zh": "琴柳默认服装精英二立绘"
+              },
+              "textFreePreview": true
+            }
+          },
+          {
+            "name": {
+              "ko": "유넥티스",
+              "en": "Eunectes",
+              "ja": "ユーネクテス",
+              "zh": "森蚺"
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 6,
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "유넥티스 기본 의상 2차 정예화 원화",
+              "en": "Eunectes default outfit, Elite 2 artwork",
+              "ja": "ユーネクテス・通常衣装の昇進2イラスト",
+              "zh": "森蚺默认服装精英二立绘"
+            },
+            "textFreePreview": true,
+            "previewArtwork": {
+              "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+              "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+              "imageVerified": true,
+              "imageKind": "splash",
+              "imageLocale": "neutral",
+              "width": 2796,
+              "height": 2796,
+              "verifiedAt": "2026-11-06T19:59:22Z",
+              "imageCaption": {
+                "ko": "유넥티스 기본 의상 2차 정예화 원화",
+                "en": "Eunectes default outfit, Elite 2 artwork",
+                "ja": "ユーネクテス・通常衣装の昇進2イラスト",
+                "zh": "森蚺默认服装精英二立绘"
+              },
+              "textFreePreview": true
+            }
+          },
+          {
+            "name": {
+              "ko": "프란카",
+              "en": "Franka",
+              "ja": "フランカ",
+              "zh": "芙兰卡"
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "위스퍼레인",
+              "en": "Whisperain",
+              "ja": "ウィスパーレイン",
+              "zh": "絮雨"
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "애쉬락",
+              "en": "Ashlock",
+              "ja": "アッシュロック",
+              "zh": "灰毫"
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "community",
+            "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+            "title": "Saileach Elite 2 original artwork mirror",
+            "publisher": "ArknightsResource"
+          },
+          {
+            "kind": "community",
+            "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png",
+            "title": "Eunectes Elite 2 original artwork mirror",
+            "publisher": "ArknightsResource"
+          }
+        ]
+      },
+      "before": {
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "사일라흐",
+              "en": "Saileach",
+              "ja": "サイラッハ",
+              "zh": "琴柳"
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 6
+          },
+          {
+            "name": {
+              "ko": "유넥티스",
+              "en": "Eunectes",
+              "ja": "ユーネクテス",
+              "zh": "森蚺"
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 6
+          },
+          {
+            "name": {
+              "ko": "프란카",
+              "en": "Franka",
+              "ja": "フランカ",
+              "zh": "芙兰卡"
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "위스퍼레인",
+              "en": "Whisperain",
+              "ja": "ウィスパーレイン",
+              "zh": "絮雨"
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "애쉬락",
+              "en": "Ashlock",
+              "ja": "アッシュロック",
+              "zh": "灰毫"
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          }
+        ],
+        "relatedSources": null
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249765",
+        "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_479_sleach_2.png",
+        "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_416_zumama_2.png"
+      ]
+    },
+    {
+      "id": "arknights-kr-standard-20261106",
+      "set": {
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "비비아나",
+              "en": "Viviana",
+              "ja": "ヴィヴィアナ",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 6,
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "비비아나 기본 의상 2차 정예화 원화",
+              "en": "Viviana default outfit, Elite 2 artwork",
+              "ja": "ヴィヴィアナ・通常衣装の昇進2イラスト",
+              "zh": "薇薇安娜默认服装精英二立绘"
+            },
+            "textFreePreview": true,
+            "previewArtwork": {
+              "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+              "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+              "imageVerified": true,
+              "imageKind": "splash",
+              "imageLocale": "neutral",
+              "width": 2560,
+              "height": 2560,
+              "verifiedAt": "2026-11-06T19:59:22Z",
+              "imageCaption": {
+                "ko": "비비아나 기본 의상 2차 정예화 원화",
+                "en": "Viviana default outfit, Elite 2 artwork",
+                "ja": "ヴィヴィアナ・通常衣装の昇進2イラスト",
+                "zh": "薇薇安娜默认服装精英二立绘"
+              },
+              "textFreePreview": true
+            }
+          },
+          {
+            "name": {
+              "ko": "파죰카",
+              "en": "Pozëmka",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 6,
+            "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+            "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+            "imageVerified": true,
+            "imageKind": "splash",
+            "imageLocale": "neutral",
+            "imageCaption": {
+              "ko": "파죰카 기본 의상 2차 정예화 원화",
+              "en": "Pozëmka default outfit, Elite 2 artwork",
+              "ja": "パゼオンカ・通常衣装の昇進2イラスト",
+              "zh": "鸿雪默认服装精英二立绘"
+            },
+            "textFreePreview": true,
+            "previewArtwork": {
+              "image": "https://raw.githubusercontent.com/fexli/ArknightsResource/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+              "imageSource": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+              "imageVerified": true,
+              "imageKind": "splash",
+              "imageLocale": "neutral",
+              "width": 2356,
+              "height": 2356,
+              "verifiedAt": "2026-11-06T19:59:22Z",
+              "imageCaption": {
+                "ko": "파죰카 기본 의상 2차 정예화 원화",
+                "en": "Pozëmka default outfit, Elite 2 artwork",
+                "ja": "パゼオンカ・通常衣装の昇進2イラスト",
+                "zh": "鸿雪默认服装精英二立绘"
+              },
+              "textFreePreview": true
+            }
+          },
+          {
+            "name": {
+              "ko": "타락사쿰",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "폰사이러스",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "루나컵",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://www.arknights.global/news/3836",
+            "title": "LIMITED-TIME HEADHUNTING OPEN - CELEBRATION & HOPE",
+            "publisher": "Arknights Global"
+          },
+          {
+            "kind": "official",
+            "url": "https://arknights.jp/news/410",
+            "title": "サイドストーリー「ツヴィリングトゥルムの黄金」",
+            "publisher": "アークナイツ"
+          },
+          {
+            "kind": "community",
+            "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+            "title": "Viviana Elite 2 original artwork mirror",
+            "publisher": "ArknightsResource"
+          },
+          {
+            "kind": "community",
+            "url": "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png",
+            "title": "Pozëmka Elite 2 original artwork mirror",
+            "publisher": "ArknightsResource"
+          }
+        ]
+      },
+      "before": {
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "비비아나",
+              "en": "Viviana",
+              "ja": "ヴィヴィアナ",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 6
+          },
+          {
+            "name": {
+              "ko": "파죰카",
+              "en": "Pozëmka",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "featured",
+            "rarity": 6
+          },
+          {
+            "name": {
+              "ko": "타락사쿰",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "폰사이러스",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "루나컵",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "unknown",
+            "role": "rate-up",
+            "rarity": 5
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://www.arknights.global/news/3836",
+            "title": "LIMITED-TIME HEADHUNTING OPEN - CELEBRATION & HOPE",
+            "publisher": "Arknights Global"
+          },
+          {
+            "kind": "official",
+            "url": "https://arknights.jp/news/410",
+            "title": "サイドストーリー「ツヴィリングトゥルムの黄金」",
+            "publisher": "アークナイツ"
+          }
+        ]
+      },
+      "sources": [
+        "https://cafe.naver.com/arknightskor/1249889",
+        "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4098_vvana_2.png",
+        "https://github.com/fexli/ArknightsResource/blob/184aa662f210100150716d4f58cadc0b4e3642fc/charpack/char_4055_bgsnow_2.png"
+      ]
+    },
+    {
+      "id": "preview-genshin-72-mitya",
+      "set": {
+        "summary": {
+          "ko": "7.2 전반 「만물의 법칙」에서 신규 5성 번개 원소 미탸의 획득 확률이 상승한다. 4성 발레리·샤를로트·로자리아도 확률 UP 대상이며, 11월 4일 버전 업데이트 후부터 11월 24일까지 진행된다.",
+          "en": "Phase I of Version 7.2 features the new 5-star Electro character Mitya, with increased rates for three 4-star characters. The wish runs from the November 4 version update until November 24.",
+          "ja": "Ver.7.2前半で新★5雷元素キャラクター・ミティヤと★4キャラクター3名の出現率が上昇。11月4日のバージョンアップ後から11月24日まで開催。",
+          "zh": "7.2上半提高新五星雷元素角色米提亚及三名四星角色的获取概率，11月4日版本更新后开始，持续至11月24日。"
+        },
+        "startDate": "2026-11-04",
+        "endDate": "2026-11-24",
+        "pickupArchive": {
+          "status": "announced",
+          "startDate": "2026-11-04",
+          "endDate": "2026-11-24",
+          "note": {
+            "ko": "공식 기원 기간은 7.2 버전 업데이트 후부터 11월 24일 18:59까지다. 시간대가 명시되지 않아 날짜만 등록한다.",
+            "en": "The official notice states after the Version 7.2 update through November 24 at 18:59. Only dates are recorded because no time-zone offset is stated.",
+            "ja": "公式告知の期間はVer.7.2更新後～11月24日18:59。時差の明記がないため日付のみ記載。",
+            "zh": "官方公告为7.2版本更新后至11月24日18:59；未注明时区偏移，因此仅记录日期。"
+          }
+        },
+        "timingNote": {
+          "ko": "공식 기원 기간은 7.2 버전 업데이트 후부터 11월 24일 18:59까지다. 시간대가 명시되지 않아 날짜만 등록한다.",
+          "en": "The official notice states after the Version 7.2 update through November 24 at 18:59. Only dates are recorded because no time-zone offset is stated.",
+          "ja": "公式告知の期間はVer.7.2更新後～11月24日18:59。時差の明記がないため日付のみ記載。",
+          "zh": "官方公告为7.2版本更新后至11月24日18:59；未注明时区偏移，因此仅记录日期。"
+        },
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "미탸",
+              "en": "Mitya",
+              "ja": "ミティヤ",
+              "zh": "米提亚"
+            },
+            "type": "new",
+            "role": "featured",
+            "imageCaption": {
+              "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+              "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+              "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+              "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+            },
+            "textFreePreview": false,
+            "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/ca8f50188d1776b4fde14297e043219c_3866619096577425964.jpg",
+            "imageSource": "https://www.hoyolab.com/article/46884007",
+            "imageKind": "banner",
+            "imageFit": "contain",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "localizedArtwork": {
+              "ko": {
+                "imageCaption": {
+                  "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+                  "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+                  "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+                  "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+                },
+                "textFreePreview": false,
+                "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/ca8f50188d1776b4fde14297e043219c_3866619096577425964.jpg",
+                "imageSource": "https://www.hoyolab.com/article/46884007",
+                "imageVerified": true,
+                "imageKind": "banner",
+                "imageLocale": "ko",
+                "width": 1500,
+                "height": 1500,
+                "verifiedAt": "2026-10-20T19:21:19.222624+00:00"
+              },
+              "en": {
+                "imageCaption": {
+                  "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+                  "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+                  "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+                  "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+                },
+                "textFreePreview": false,
+                "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/8d76066dee924164670129f5114f8988_8224757694395123489.jpg",
+                "imageSource": "https://www.hoyolab.com/article/46884007",
+                "imageVerified": true,
+                "imageKind": "banner",
+                "imageLocale": "en",
+                "width": 1500,
+                "height": 1500,
+                "verifiedAt": "2026-10-20T19:21:19.222624+00:00"
+              },
+              "ja": {
+                "imageCaption": {
+                  "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+                  "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+                  "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+                  "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+                },
+                "textFreePreview": false,
+                "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/3c5710af5fc4ef803095fa2f6b34ac85_1502530734916828299.jpg",
+                "imageSource": "https://www.hoyolab.com/article/46884007",
+                "imageVerified": true,
+                "imageKind": "banner",
+                "imageLocale": "ja",
+                "width": 750,
+                "height": 1899,
+                "verifiedAt": "2026-10-20T19:21:19.222624+00:00"
+              },
+              "zh": {
+                "imageCaption": {
+                  "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+                  "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+                  "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+                  "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+                },
+                "textFreePreview": false,
+                "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/1b781a90a23df2acde155e3e52781834_3949571896048786153.jpg",
+                "imageSource": "https://www.hoyolab.com/article/46884007",
+                "imageVerified": true,
+                "imageKind": "banner",
+                "imageLocale": "zh",
+                "width": 1500,
+                "height": 1500,
+                "verifiedAt": "2026-10-20T19:21:19.222624+00:00"
+              }
+            },
+            "rarity": 5
+          },
+          {
+            "name": {
+              "ko": "발레리",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "new",
+            "role": "rate-up",
+            "rarity": 4
+          },
+          {
+            "name": {
+              "ko": "샤를로트",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "rerun",
+            "role": "rate-up",
+            "rarity": 4
+          },
+          {
+            "name": {
+              "ko": "로자리아",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "type": "rerun",
+            "role": "rate-up",
+            "rarity": 4
+          }
+        ],
+        "sourceUrl": "https://genshin.hoyoverse.com/ko/news/detail/167139",
+        "sourceTitle": "7.2 버전 이벤트 기원 알림 제1회",
+        "sourceKind": "official",
+        "sourceLocale": "ko",
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://genshin.hoyoverse.com/ko/news/detail/167139"
+        },
+        "publishedAt": "2026-11-02",
+        "verifiedAt": "2026-11-06T19:59:22Z"
+      },
+      "before": {
+        "summary": {
+          "ko": "7.2 미탸 등장 전망. 픽업은 전반 11월 4일 또는 후반 11월 24일 시작 예상이며, 배치는 아직 미확정입니다.",
+          "en": "Mitya is expected in 7.2. Estimated start: November 4 if first half, or November 24 if second half; phase placement is unconfirmed.",
+          "ja": "Ver.7.2で登場予想。開始予想は前半なら11月4日、後半なら11月24日。登場期は未確定です。",
+          "zh": "预计在7.2登场。若在上半，预测11月4日开始；若在下半，则为11月24日。所属分期未确定。"
+        },
+        "startDate": null,
+        "endDate": null,
+        "pickupArchive": {
+          "status": "forecast",
+          "note": {
+            "ko": "전반 편성 시 11월 4일, 후반 편성 시 11월 24일 시작 예상(GameWith, 2026-10-20 갱신). 캐릭터의 전·후반 배치는 아직 미확정이며 두 날짜는 조건부 후보입니다. 종료일과 정확한 시각은 산정하지 않습니다.",
+            "en": "GameWith (updated October 20, 2026) estimates November 4 for the first half or November 24 for the second half. The character’s phase is unconfirmed; these are conditional alternatives, with no estimated end or clock.",
+            "ja": "GameWith（2026年10月20日更新）では前半なら11月4日、後半なら11月24日開始と予想。登場期は未確定で、条件付きの候補日です。終了日や時刻は推定しません。",
+            "zh": "GameWith（2026年10月20日更新）预测上半于11月4日、下半于11月24日开始。角色分期尚未确定，两者为条件式候选日期；不推算结束日期或具体时刻。"
+          },
+          "estimate": {
+            "method": "community",
+            "scope": "banner",
+            "startDate": "2026-11-04",
+            "alternativeStartDates": [
+              "2026-11-24"
+            ],
+            "basis": {
+              "ko": "전반 편성 시 11월 4일, 후반 편성 시 11월 24일 시작 예상(GameWith, 2026-10-20 갱신). 캐릭터의 전·후반 배치는 아직 미확정이며 두 날짜는 조건부 후보입니다. 종료일과 정확한 시각은 산정하지 않습니다.",
+              "en": "GameWith (updated October 20, 2026) estimates November 4 for the first half or November 24 for the second half. The character’s phase is unconfirmed; these are conditional alternatives, with no estimated end or clock.",
+              "ja": "GameWith（2026年10月20日更新）では前半なら11月4日、後半なら11月24日開始と予想。登場期は未確定で、条件付きの候補日です。終了日や時刻は推定しません。",
+              "zh": "GameWith（2026年10月20日更新）预测上半于11月4日、下半于11月24日开始。角色分期尚未确定，两者为条件式候选日期；不推算结束日期或具体时刻。"
+            },
+            "sourceUrls": [
+              "https://gamewith.jp/genshin/article/show/565495"
+            ],
+            "verifiedAt": "2026-10-20T19:12:18.671227+00:00"
+          }
+        },
+        "timingNote": {
+          "ko": "전반 편성 시 11월 4일, 후반 편성 시 11월 24일 시작 예상(GameWith, 2026-10-20 갱신). 캐릭터의 전·후반 배치는 아직 미확정이며 두 날짜는 조건부 후보입니다. 종료일과 정확한 시각은 산정하지 않습니다.",
+          "en": "GameWith (updated October 20, 2026) estimates November 4 for the first half or November 24 for the second half. The character’s phase is unconfirmed; these are conditional alternatives, with no estimated end or clock.",
+          "ja": "GameWith（2026年10月20日更新）では前半なら11月4日、後半なら11月24日開始と予想。登場期は未確定で、条件付きの候補日です。終了日や時刻は推定しません。",
+          "zh": "GameWith（2026年10月20日更新）预测上半于11月4日、下半于11月24日开始。角色分期尚未确定，两者为条件式候选日期；不推算结束日期或具体时刻。"
+        },
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "미탸",
+              "en": "Mitya",
+              "ja": "ミティヤ",
+              "zh": "米提亚"
+            },
+            "type": "new",
+            "role": "featured",
+            "imageCaption": {
+              "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+              "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+              "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+              "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+            },
+            "textFreePreview": false,
+            "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/ca8f50188d1776b4fde14297e043219c_3866619096577425964.jpg",
+            "imageSource": "https://www.hoyolab.com/article/46884007",
+            "imageKind": "banner",
+            "imageFit": "contain",
+            "imageVerified": true,
+            "imageLocale": "ko",
+            "localizedArtwork": {
+              "ko": {
+                "imageCaption": {
+                  "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+                  "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+                  "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+                  "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+                },
+                "textFreePreview": false,
+                "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/ca8f50188d1776b4fde14297e043219c_3866619096577425964.jpg",
+                "imageSource": "https://www.hoyolab.com/article/46884007",
+                "imageVerified": true,
+                "imageKind": "banner",
+                "imageLocale": "ko",
+                "width": 1500,
+                "height": 1500,
+                "verifiedAt": "2026-10-20T19:21:19.222624+00:00"
+              },
+              "en": {
+                "imageCaption": {
+                  "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+                  "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+                  "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+                  "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+                },
+                "textFreePreview": false,
+                "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/8d76066dee924164670129f5114f8988_8224757694395123489.jpg",
+                "imageSource": "https://www.hoyolab.com/article/46884007",
+                "imageVerified": true,
+                "imageKind": "banner",
+                "imageLocale": "en",
+                "width": 1500,
+                "height": 1500,
+                "verifiedAt": "2026-10-20T19:21:19.222624+00:00"
+              },
+              "ja": {
+                "imageCaption": {
+                  "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+                  "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+                  "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+                  "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+                },
+                "textFreePreview": false,
+                "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/3c5710af5fc4ef803095fa2f6b34ac85_1502530734916828299.jpg",
+                "imageSource": "https://www.hoyolab.com/article/46884007",
+                "imageVerified": true,
+                "imageKind": "banner",
+                "imageLocale": "ja",
+                "width": 750,
+                "height": 1899,
+                "verifiedAt": "2026-10-20T19:21:19.222624+00:00"
+              },
+              "zh": {
+                "imageCaption": {
+                  "ko": "HoYoLAB 원신 공식 인증 계정이 2026-09-29 공개한 미탸 캐릭터 소개 원본입니다. 가챠 원화·픽업 기간 배너가 아니며, 이 이미지로 7.2 전·후반 배치를 확정하지 않습니다.",
+                  "en": "Original Mitya character announcement published by the verified Genshin Impact Official HoYoLAB account on 2026-09-29. This is announcement art, not gacha splash art or a pickup-period banner, and does not confirm a 7.2 phase.",
+                  "ja": "HoYoLABの原神公式認証アカウントが2026-09-29に公開したミティヤのキャラクター紹介原本。ガチャ原画・開催期間バナーではなく、Ver.7.2の前後半を確定するものではありません。",
+                  "zh": "原神HoYoLAB官方认证账号于2026-09-29发布的米提亚角色介绍原图。属于角色公布宣传图，并非抽卡原画或卡池日期横幅，也不确认7.2的上、下半安排。"
+                },
+                "textFreePreview": false,
+                "image": "https://upload-os-bbs.hoyolab.com/upload/2026/09/29/1b781a90a23df2acde155e3e52781834_3949571896048786153.jpg",
+                "imageSource": "https://www.hoyolab.com/article/46884007",
+                "imageVerified": true,
+                "imageKind": "banner",
+                "imageLocale": "zh",
+                "width": 1500,
+                "height": 1500,
+                "verifiedAt": "2026-10-20T19:21:19.222624+00:00"
+              }
+            }
+          }
+        ],
+        "sourceUrl": "https://gamewith.jp/genshin/article/show/565495",
+        "sourceTitle": "ミティヤはいつ実装？｜性能予想",
+        "sourceKind": "community",
+        "sourceLocale": "ja",
+        "officialLocales": [],
+        "translatedLocales": [
+          "ko",
+          "en",
+          "ja",
+          "zh"
+        ],
+        "localizationSources": null,
+        "publishedAt": "2026-09-29",
+        "verifiedAt": "2026-10-20T19:26:57.239058+00:00"
+      },
+      "sources": [
+        "https://genshin.hoyoverse.com/ko/news/detail/167139",
+        "https://genshin.hoyoverse.com/ko/news/detail/167187"
+      ]
+    }
+  ]
+}
