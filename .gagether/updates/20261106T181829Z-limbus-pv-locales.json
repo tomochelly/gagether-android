@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "requestId": "20261106T181829Z-limbus-pv-locales",
+  "reason": "림버스 제10회 발푸르기스의 밤 PV 공지 3건의 누락된 제목·요약을 보완한다. 한국어·영어·일본어 공식 제목과 중국어 번역을 구분하며, 영상 내용 분석이나 미확인 일정은 추가하지 않는다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-06T18:18:29.817175Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-limbus-global-667255509586280747-ko",
+      "set": {
+        "title": {
+          "ko": "제10회 발푸르기스의 밤 - PV",
+          "en": "The 10th Walpurgis Night - PV",
+          "ja": "第10回 ヴァルプルギスの夜 - PV",
+          "zh": "第10届瓦尔普吉斯之夜 - PV（翻译）"
+        },
+        "summary": {
+          "ko": "제10회 발푸르기스의 밤 홍보 영상이 공개됐다.",
+          "en": "The promotional video for the 10th Walpurgis Night has been released.",
+          "ja": "第10回ヴァルプルギスの夜のプロモーション映像が公開された。",
+          "zh": "第10届瓦尔普吉斯之夜的宣传视频已公开。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=english",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=japanese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "제10회 발푸르기스의 밤 - PV",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=koreana"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667255509586280747-en",
+      "set": {
+        "title": {
+          "ko": "제10회 발푸르기스의 밤 - PV",
+          "en": "The 10th Walpurgis Night - PV",
+          "ja": "第10回 ヴァルプルギスの夜 - PV",
+          "zh": "第10届瓦尔普吉斯之夜 - PV（翻译）"
+        },
+        "summary": {
+          "ko": "제10회 발푸르기스의 밤 홍보 영상이 공개됐다.",
+          "en": "The promotional video for the 10th Walpurgis Night has been released.",
+          "ja": "第10回ヴァルプルギスの夜のプロモーション映像が公開された。",
+          "zh": "第10届瓦尔普吉斯之夜的宣传视频已公开。"
+        },
+        "officialLocales": [
+          "en",
+          "ko",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=english",
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=koreana",
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=japanese"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "The 10th Walpurgis Night - PV",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=english"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=japanese"
+      ]
+    },
+    {
+      "id": "quick-limbus-global-667255509586280747-ja",
+      "set": {
+        "title": {
+          "ko": "제10회 발푸르기스의 밤 - PV",
+          "en": "The 10th Walpurgis Night - PV",
+          "ja": "第10回 ヴァルプルギスの夜 - PV",
+          "zh": "第10届瓦尔普吉斯之夜 - PV（翻译）"
+        },
+        "summary": {
+          "ko": "제10회 발푸르기스의 밤 홍보 영상이 공개됐다.",
+          "en": "The promotional video for the 10th Walpurgis Night has been released.",
+          "ja": "第10回ヴァルプルギスの夜のプロモーション映像が公開された。",
+          "zh": "第10届瓦尔普吉斯之夜的宣传视频已公开。"
+        },
+        "officialLocales": [
+          "ja",
+          "ko",
+          "en"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=japanese",
+          "ko": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=koreana",
+          "en": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=english"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "第10回 ヴァルプルギスの夜 - PV",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=japanese"
+        }
+      },
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=koreana",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=english",
+        "https://store.steampowered.com/news/app/1973530/view/667255509586280747?l=japanese"
+      ]
+    }
+  ]
+}
+
