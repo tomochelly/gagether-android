@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "requestId": "20261106T120723Z-wuwa-38-broadcast-recap",
+  "reason": "명조 3.8 한국 공식 방송의 직접 확인한 안내 화면을 바탕으로 기존 방송 항목에 4개 언어 요약·상세 내용과 리딤 3종을 추가한다. 이미 반영된 방송 종료 상태와 기존 자료는 보존한다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-06T12:07:23+00:00",
+  "entries": [],
+  "changes": [
+    {
+      "id": "broadcast-wuwa-ko-f2T-9DIyuWI",
+      "set": {
+        "title": {
+          "ko": "『명조:워더링 웨이브』 3.8 버전 프리뷰 특별 방송",
+          "en": "Wuthering Waves Version 3.8 Korean preview broadcast",
+          "ja": "『鳴潮』Ver.3.8 韓国語予告番組",
+          "zh": "《鸣潮》3.8版本韩语前瞻节目"
+        },
+        "summary": {
+          "ko": "3.8 「아득한 꿈속, 잔잔히 스러진 백합」은 11월 12일 업데이트된다. 릴리·신규 권총 「럴러바이」·신규 지역 「영혼 열차」, 픽업과 이벤트, 히유키 신규 코스튬이 공개됐다. 방송 리딤 3종의 별의 소리는 총 300개다.",
+          "en": "Version 3.8 arrives on November 12. The Korean preview introduces Lily, a new pistol, a new train area, Convene lineups, events and a new Hiyuki outfit. Three broadcast codes grant a total of 300 Astrites.",
+          "ja": "Ver.3.8は11月12日更新。韓国語予告番組ではリリー、新拳銃、列車の新エリア、集音・イベント、緋雪の新衣装を紹介。放送交換コード3種で星声を合計300個獲得できる。",
+          "zh": "3.8版本将于11月12日更新。韩语前瞻介绍莉莉、新佩枪、列车新区域、唤取、活动及緋雪新时装。三个直播兑换码共可获得300星声。"
+        },
+        "version": "3.8",
+        "detailSections": [
+          {
+            "title": {
+              "ko": "업데이트와 신규 지역",
+              "en": "Update and new area",
+              "ja": "更新と新エリア",
+              "zh": "更新与新区域"
+            },
+            "body": {
+              "ko": "3.8 「아득한 꿈속, 잔잔히 스러진 백합」은 2026년 11월 12일 업데이트된다. 신규 지역 「영혼 열차」에서는 다양한 승객과 만나는 여정을 선보인다.",
+              "en": "Version 3.8 launches on November 12, 2026. The new Soul Train area (translated name) features a journey with different passengers.",
+              "ja": "Ver.3.8は2026年11月12日更新。新エリア「魂の列車」（仮訳）では、さまざまな乗客と出会う旅が描かれる。",
+              "zh": "3.8版本将于2026年11月12日更新。新区域「灵魂列车」（译名）展示与不同乘客相遇的旅程。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1080",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2650"
+            ]
+          },
+          {
+            "title": {
+              "ko": "신규 공명자와 무기",
+              "en": "New Resonator and weapon",
+              "ja": "新共鳴者と武器",
+              "zh": "新共鸣者与武器"
+            },
+            "body": {
+              "ko": "신규 5성 공명자 릴리와 신규 5성 권총 「럴러바이」가 등장한다. 릴리의 전투 소개에서는 향수병과 꽃, 꿈을 활용한 연출을 공개했다.",
+              "en": "New 5-star Resonator Lily and a new 5-star pistol, Lullaby (translated weapon title), were introduced. Her combat showcase features perfume bottles, flowers and dream imagery.",
+              "ja": "新星5共鳴者リリーと新星5拳銃「ララバイ」（武器名は仮訳）が登場。戦闘紹介では香水瓶、花、夢を使った演出を公開。",
+              "zh": "新五星共鸣者莉莉与新五星佩枪「摇篮曲」（武器译名）登场。战斗演示展示香水瓶、花朵与梦境效果。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1430",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1550",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1630",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1653"
+            ]
+          },
+          {
+            "title": {
+              "ko": "캐릭터 이벤트 튜닝",
+              "en": "Character Convene lineups",
+              "ja": "キャラクター集音",
+              "zh": "角色唤取阵容"
+            },
+            "body": {
+              "ko": "전반에는 릴리 / 시그리카 / 구원, 이후에는 양양·현령 / 수수 / 히유키의 캐릭터 이벤트 튜닝이 진행된다. 각 배너의 정확한 시작·종료 시각은 별도 공지를 따른다.",
+              "en": "The first group features Lily, Sigrika and Qiuyuan. The following group features Yangyang: Xuanling, Suisui and Hiyuki. Exact banner start and end times follow the separate notices.",
+              "ja": "前半はリリー／シグリカ／仇遠、その後は秧秧・玄翎／穂穂／緋雪のキャラクター集音を開催。各集音の詳細な開始・終了日時は個別告知に従う。",
+              "zh": "前半为莉莉／西格莉卡／仇遠，随后为秧秧・玄翎／穗穗／緋雪的角色唤取。具体起止时间以各自公告为准。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1630",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1640",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1650",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1665",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1670",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1673",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1680"
+            ]
+          },
+          {
+            "title": {
+              "ko": "여정이 남긴 튜닝",
+              "en": "Returning Convene series",
+              "ja": "特別集音シリーズ",
+              "zh": "特别唤取系列"
+            },
+            "body": {
+              "ko": "「여정이 남긴 울림 II」 캐릭터 튜닝과 「울림에 새겨진 추억 II」 무기 튜닝이 공개됐다. 캐릭터 안내에는 카멜리아·로코코·페비·브랜트가 등장한다. 튜닝 횟수와 연계되는 「여정이 남긴 선물」도 소개됐다.",
+              "en": "The returning character and weapon Convene series were shown, featuring Camellya, Roccia, Phoebe and Brant in the character lineup. A related reward event based on Convene counts was also introduced.",
+              "ja": "キャラクターと武器の特別集音シリーズを公開。キャラクター画面にはツバキ、ロココ、フィービー、ブラントが登場。集音回数に関連する報酬イベントも紹介された。",
+              "zh": "公开角色与武器特别唤取系列。角色画面展示椿、洛可可、菲比、布兰特，并介绍与唤取次数相关的奖励活动。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1705",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1720",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1725"
+            ]
+          },
+          {
+            "title": {
+              "ko": "버전 이벤트",
+              "en": "Version events",
+              "ja": "バージョンイベント",
+              "zh": "版本活动"
+            },
+            "body": {
+              "ko": "「세컨드 솔라리스: 이름 없는 꿈」 미니 이벤트와 프로필 사진 보상, 「라하이로이 퍼즐·역전」, 「무무 기획·정비」, 전투 이벤트 「꿈의 들판, 기이함을 찾아서」를 소개했다. 신규 「홀로그램 전략·연무」 도전과 「옛 꿈의 선물」 7일 출석 이벤트도 공개됐다.",
+              "en": "The program introduced the Second Solaris mini event and profile-picture reward, a Lahai-Roi puzzle event, a Mumu event, a combat event, a new Hologram challenge and a seven-day login event.",
+              "ja": "セカンドソラリスのミニイベントとプロフィール画像報酬、ラハイロイのパズル、ムムのイベント、戦闘イベント、新ホログラム挑戦、7日間ログインイベントを紹介。",
+              "zh": "介绍第二索拉里斯小游戏及头像奖励、拉海洛拼图活动、呜呜活动、战斗活动、新全息挑战和七日签到活动。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1930",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1960",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2020",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2050",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2070",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2090",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2110"
+            ]
+          },
+          {
+            "title": {
+              "ko": "히유키 신규 코스튬",
+              "en": "New Hiyuki outfit",
+              "ja": "緋雪の新衣装",
+              "zh": "緋雪新时装"
+            },
+            "body": {
+              "ko": "히유키 스페셜 에디션 코스튬 「서리에 잠든 달」과 액세서리 「타오르는 벚꽃」이 공개됐다. 코스튬은 검정과 흰색 중심의 이브닝드레스와 영화 장면을 연상시키는 연출을 선보인다.",
+              "en": "Hiyuki’s special-edition outfit Moon Asleep in Frost and accessory Blazing Cherry Blossoms (translated titles) were revealed. The outfit combines a black-and-white evening dress with cinematic presentation.",
+              "ja": "緋雪のスペシャルエディション衣装「霜に眠る月」とアクセサリー「燃える桜」（いずれも仮訳）を公開。白黒のイブニングドレスと映画風の演出が特徴。",
+              "zh": "公开緋雪特别版时装「霜中沉睡之月」和饰品「燃烧的樱花」（均为译名）。时装以黑白晚礼服及电影风格演出为特色。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2170",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2200",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2210",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2250"
+            ]
+          },
+          {
+            "title": {
+              "ko": "편의 기능 개선",
+              "en": "Quality-of-life improvements",
+              "ja": "利便性の改善",
+              "zh": "便利性优化"
+            },
+            "body": {
+              "ko": "음의 순서 전환 시 속성에 맞춘 에코 자동 전환, 공명자 육성 제안의 개요·파티 추천, 솔라리스 가이드 개선, 도전 보상 수령 화면의 연속 도전, 모션 개선을 소개했다. PC에는 리소스 선택 다운로드·정리가 추가되며 일부 콘솔에는 그래픽 품질 미리 설정이 추가된다. 방송 안내상 PS5와 Xbox Series S는 해당 그래픽 설정 옵션을 지원하지 않는다.",
+              "en": "Improvements include automatic Echo switching when changing Rover’s attribute, a build overview and team recommendations, an updated guide, repeat challenges from the reward screen and motion updates. PC gains resource download selection and cleanup. Graphics presets are added on some consoles; the broadcast excludes PS5 and Xbox Series S from that option.",
+              "ja": "属性切替時のエコー自動切替、育成概要・チーム提案、ガイド改善、報酬画面からの連続挑戦、モーション改善を紹介。PCにはリソース選択ダウンロードと整理を追加。一部家庭用機の画質プリセットは、放送説明ではPS5とXbox Series Sを対象外としている。",
+              "zh": "介绍属性切换时自动切换声骸、养成概览及配队推荐、指南优化、奖励界面连续挑战和动作优化。PC新增资源选择下载与清理。部分主机新增画质预设；直播说明PS5和Xbox Series S不支持该选项。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2290",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2310",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2350",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2370",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2380",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2430",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2470"
+            ]
+          },
+          {
+            "title": {
+              "ko": "방송 리딤 코드",
+              "en": "Broadcast redemption codes",
+              "ja": "放送交換コード",
+              "zh": "直播兑换码"
+            },
+            "body": {
+              "ko": "TRAINOFSOULS: 별의 소리 100개, 특급 공명 촉진제 3개, 고급 흡입식 소생제 2개\nBLOOMINGFLOWERS: 별의 소리 100개, 특급 습유물 밀봉 상자 III 2개, 클램 코인 40,000개\nSCHOOLLIFE: 별의 소리 100개, 특급 튜너 20개, 고급 비밀음파 통 5개\n세 코드 합계 별의 소리 300개. 한국 방송 화면의 유효 기간 표기는 2026/11/09 00:59까지다. 화면에는 시간대가 명시되지 않았다.",
+              "en": "TRAINOFSOULS: 100 Astrites, 3 Premium Resonance Potions, 2 Advanced Revival Inhalers\nBLOOMINGFLOWERS: 100 Astrites, 2 premium material supply boxes III (translated item name), 40,000 Shell Credits\nSCHOOLLIFE: 100 Astrites, 20 Premium Tuners, 5 Advanced Sealed Tubes\nTotal: 300 Astrites. The Korean broadcast cards display expiry as 2026/11/09 00:59, without a time-zone label. Reward wording is translated from Korean.",
+              "ja": "TRAINOFSOULS: 星声100個、特級共鳴強化剤3個、高級吸入式蘇生剤2個\nBLOOMINGFLOWERS: 星声100個、特級素材密封箱III（仮訳）2個、シェルコイン40,000\nSCHOOLLIFE: 星声100個、特級チュナ20個、高級レコードセット5個\n合計星声300個。韓国語放送の期限表示は2026/11/09 00:59まで。画面に時間帯の表記はない。報酬の説明は韓国語からの翻訳。",
+              "zh": "TRAINOFSOULS: 星声100、特级共鸣促剂3、高级复苏吸雾2\nBLOOMINGFLOWERS: 星声100、特级材料密封箱III（译名）2、贝币40,000\nSCHOOLLIFE: 星声100、特级调谐器20、高级密音筒5\n合计300星声。韩语直播卡片标示有效期至2026/11/09 00:59，画面未标注时区。奖励说明由韩文翻译。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1180",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1610",
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2590"
+            ]
+          },
+          {
+            "title": {
+              "ko": "겨울 특별 이벤트 예고",
+              "en": "Winter event teaser",
+              "ja": "冬のイベント予告",
+              "zh": "冬季活动预告"
+            },
+            "body": {
+              "ko": "연말 겨울 특별 이벤트를 예고했다. 구체적인 장소와 일정은 방송 화면에 공개되지 않았다.",
+              "en": "A winter year-end special event was teased; the screen did not provide a location or exact schedule.",
+              "ja": "年末の冬の特別イベントを予告。画面では会場や詳細日程は公開されていない。",
+              "zh": "预告年末冬季特别活动，画面未公开地点和具体日程。"
+            },
+            "sourceKind": "video",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2530"
+            ]
+          }
+        ],
+        "broadcastRecap": {
+          "youtubeId": "f2T-9DIyuWI",
+          "title": {
+            "ko": "명조 3.8 방송 요약·리딤 코드",
+            "en": "Wuthering Waves 3.8 recap and codes",
+            "ja": "鳴潮Ver.3.8まとめ・交換コード",
+            "zh": "鸣潮3.8前瞻汇总与兑换码"
+          },
+          "version": "3.8",
+          "reviewedAt": "2026-11-06T12:07:23+00:00",
+          "bannerUntil": "2026-11-09T11:37:34+00:00",
+          "highlights": [
+            {
+              "ko": "3.8 업데이트: 11월 12일",
+              "en": "Version 3.8: November 12",
+              "ja": "Ver.3.8更新：11月12日",
+              "zh": "3.8更新：11月12日"
+            },
+            {
+              "ko": "신규 릴리·권총과 영혼 열차",
+              "en": "New Lily, pistol and train area",
+              "ja": "新共鳴者リリー・拳銃・列車エリア",
+              "zh": "新共鸣者莉莉、佩枪与列车区域"
+            },
+            {
+              "ko": "픽업·특별 튜닝·버전 이벤트",
+              "en": "Convenes and version events",
+              "ja": "集音・特別集音・イベント",
+              "zh": "唤取、特别唤取与版本活动"
+            },
+            {
+              "ko": "히유키 코스튬·액세서리",
+              "en": "Hiyuki outfit and accessory",
+              "ja": "緋雪の衣装・アクセサリー",
+              "zh": "緋雪时装与饰品"
+            },
+            {
+              "ko": "방송 리딤 3종: 별의 소리 총 300개",
+              "en": "Three codes: 300 Astrites total",
+              "ja": "交換コード3種：星声合計300個",
+              "zh": "三个兑换码：合计300星声"
+            }
+          ],
+          "codes": [
+            {
+              "code": "TRAINOFSOULS",
+              "reward": {
+                "ko": "별의 소리 100개, 특급 공명 촉진제 3개, 고급 흡입식 소생제 2개",
+                "en": "100 Astrites, 3 Premium Resonance Potions, 2 Advanced Revival Inhalers",
+                "ja": "星声100個、特級共鳴強化剤3個、高級吸入式蘇生剤2個",
+                "zh": "星声100、特级共鸣促剂3、高级复苏吸雾2"
+              },
+              "expiresAt": null,
+              "sourceUrl": "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1180"
+            },
+            {
+              "code": "BLOOMINGFLOWERS",
+              "reward": {
+                "ko": "별의 소리 100개, 특급 습유물 밀봉 상자 III 2개, 클램 코인 40,000개",
+                "en": "100 Astrites, 2 premium material supply boxes III (translated item name), 40,000 Shell Credits",
+                "ja": "星声100個、特級素材密封箱III（仮訳）2個、シェルコイン40,000",
+                "zh": "星声100、特级材料密封箱III（译名）2、贝币40,000"
+              },
+              "expiresAt": null,
+              "sourceUrl": "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=1610"
+            },
+            {
+              "code": "SCHOOLLIFE",
+              "reward": {
+                "ko": "별의 소리 100개, 특급 튜너 20개, 고급 비밀음파 통 5개",
+                "en": "100 Astrites, 20 Premium Tuners, 5 Advanced Sealed Tubes",
+                "ja": "星声100個、特級チュナ20個、高級レコードセット5個",
+                "zh": "星声100、特级调谐器20、高级密音筒5"
+              },
+              "expiresAt": null,
+              "sourceUrl": "https://www.youtube.com/watch?v=f2T-9DIyuWI&t=2590"
+            }
+          ]
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-06T12:07:23+00:00"
+      },
+      "before": {
+        "title": {
+          "ko": "『명조:워더링 웨이브』 3.8 버전 프리뷰 특별 방송",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "version": null,
+        "detailSections": null,
+        "broadcastRecap": null,
+        "translatedLocales": [],
+        "verifiedAt": "2026-10-30T03:04:37.309Z"
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=f2T-9DIyuWI"
+      ]
+    }
+  ]
+}
