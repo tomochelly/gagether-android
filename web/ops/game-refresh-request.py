@@ -124,6 +124,32 @@ def every_checked_task_failed(result):
  checked=[v for v in result['completed'] if v.get('outcome')!='unregistered']
  return bool(checked) and not result['continuing'] and all(v['outcome']=='failed' for v in checked)
 
+# 2026-11-06 (owner, B2): one incident issue per failure cause, so a new cause is not buried in an
+# old open issue. Only cause classes, public game IDs and lanes (already in this public log) are
+# written; never URLs, response bodies or identities. Validation failures stay red.
+INCIDENT_LABELS={'validation':'data validation','readback':'readback','updater':'updater deployment','auth':'authentication','transport':'transport','every-source-failed':'every source failed','no-outcomes':'no refresh outcomes','runner':'runner'}
+def error_cause(text):
+ text=str(text)
+ if text=='Persistent game validation failed':return 'validation'
+ if 'readback' in text.lower() or 'checkpoint' in text or 'progress clock' in text or 'source outcome' in text:return 'readback'
+ if text.startswith('Scoped updater deployment') or text=='Refresh stage failed':return 'updater'
+ if re.match(r'HTTP Error (401|403)\b',text):return 'auth'
+ if text.startswith('HTTP Error') or 'urlopen error' in text or 'timed out' in text.lower() or 'Connection' in text or 'IncompleteRead' in text:return 'transport'
+ return 'runner'
+def incidents_for(errors):
+ grouped={}
+ for error in errors:
+  cause=error_cause(error.get('error',''));item=grouped.setdefault(cause,{'cause':cause,'label':INCIDENT_LABELS[cause],'games':set(),'tasks':set()})
+  item['games'].add(error['gameId']);item['tasks'].add(error['gameId']+'/'+error['lane'])
+ return [{**v,'games':sorted(v['games']),'tasks':sorted(v['tasks'])} for _,v in sorted(grouped.items())]
+def record_incidents(incidents):
+ path=os.environ.get('GAGETHER_INCIDENT_FILE')
+ if not path or not incidents:return
+ with open(path,'w',encoding='utf-8') as out:json.dump({'incidents':incidents},out,ensure_ascii=False)
+def runner_incident(error):
+ cause=error_cause(error) if isinstance(error,(urllib.error.URLError,TimeoutError,ConnectionError,http.client.IncompleteRead)) else 'runner'
+ return {'cause':cause,'label':INCIDENT_LABELS[cause],'games':[],'tasks':[]}
+
 def due_tasks(plan,mode):
  try:now=datetime.datetime.fromisoformat(plan['serverTime'].replace('Z','+00:00'))
  except (KeyError,ValueError,TypeError):raise RuntimeError('Authoritative scheduler clock missing')
@@ -173,8 +199,17 @@ def main():
    time.sleep(60)
  finally:
   fetch_json(lease_url+'release',True)
- if unresolved:raise RuntimeError('Unresolved independent task transport/auth/validation/readback checks: '+json.dumps(list(unresolved.values()),ensure_ascii=False))
+ if unresolved:
+  record_incidents(incidents_for(unresolved.values()))
+  raise RuntimeError('Unresolved independent task transport/auth/validation/readback checks: '+json.dumps(list(unresolved.values()),ensure_ascii=False))
  if lost_lease:return
- if result is None:raise RuntimeError('No registered refresh outcomes')
- if every_checked_task_failed(result):raise RuntimeError('Every source task failed')
-if __name__=='__main__':main()
+ if result is None:
+  record_incidents([{'cause':'no-outcomes','label':INCIDENT_LABELS['no-outcomes'],'games':[],'tasks':[]}]);raise RuntimeError('No registered refresh outcomes')
+ if every_checked_task_failed(result):
+  record_incidents([{'cause':'every-source-failed','label':INCIDENT_LABELS['every-source-failed'],'games':[],'tasks':[]}]);raise RuntimeError('Every source task failed')
+if __name__=='__main__':
+ try:main()
+ except Exception as error:
+  # A failure before any task outcome (lease, plan, identity) still gets its own cause.
+  if not os.path.exists(os.environ.get('GAGETHER_INCIDENT_FILE') or '/nonexistent'):record_incidents([runner_incident(error)])
+  raise

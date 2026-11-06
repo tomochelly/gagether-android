@@ -1,4 +1,4 @@
-import contextlib, importlib.util, io, os, pathlib, sys, unittest, urllib.error, urllib.parse
+import contextlib, importlib.util, io, json, os, pathlib, sys, tempfile, unittest, urllib.error, urllib.parse
 spec=importlib.util.spec_from_file_location('game_runner',pathlib.Path(__file__).with_name('game-refresh-request.py'));runner=importlib.util.module_from_spec(spec);spec.loader.exec_module(runner)
 START='2026-10-25T06:00:00Z';FINISH='2026-10-25T06:01:00Z'
 def task(game='wuwa',lane='notices'):return {'gameId':game,'lane':lane,'key':'official-game:'+game+':'+lane}
@@ -130,4 +130,30 @@ class UnconfiguredSourceRunTest(unittest.TestCase):
  def test_configured_sources_that_all_fail_still_fail_even_beside_skips(self):
   statuses={'ananta':(task('ananta'),unregistered),'wuwa':(task(),lambda t:saved(t,'failed'))}
   with self.assertRaisesRegex(RuntimeError,'Every source task failed'):self.run_main(fake_server(statuses))
+class IncidentCauseTest(unittest.TestCase):
+ """2026-11-06 B2: one incident per cause; runs 693-728 were all endfield validation failures filed under issue #7."""
+ def test_causes_are_classified_from_public_error_text(self):
+  cases={'Persistent game validation failed':'validation','Persisted game readback missing':'readback','Readback task identity mismatch':'readback','Durable checkpoint is stalled: regional':'readback','Scoped updater deployment is missing or mismatched':'updater','HTTP Error 403: Forbidden':'auth','HTTP Error 503: Service Unavailable':'transport','<urlopen error timed out>':'transport','something else':'runner'}
+  for text,cause in cases.items():
+   with self.subTest(text=text):self.assertEqual(runner.error_cause(text),cause)
+ def test_incidents_group_by_cause_with_sorted_games_and_tasks(self):
+  errors=[{'gameId':'endfield','lane':'notices','error':'Persistent game validation failed'},{'gameId':'endfield','lane':'broadcasts','error':'Persistent game validation failed'},{'gameId':'hsr','lane':'uploads','error':'HTTP Error 503: Service Unavailable'}]
+  self.assertEqual(runner.incidents_for(errors),[{'cause':'transport','label':'transport','games':['hsr'],'tasks':['hsr/uploads']},{'cause':'validation','label':'data validation','games':['endfield'],'tasks':['endfield/broadcasts','endfield/notices']}])
+ def test_unresolved_validation_failure_writes_its_incident_and_stays_red(self):
+  statuses={'endfield':(task('endfield'),lambda t:saved(t,'validation-failed')),'wuwa':(task(),saved)}
+  with tempfile.TemporaryDirectory() as folder:
+   path=os.path.join(folder,'incident.json');os.environ['GAGETHER_INCIDENT_FILE']=path
+   try:
+    with self.assertRaisesRegex(RuntimeError,'Unresolved independent task'):UnconfiguredSourceRunTest.run_main(self,fake_server(statuses))
+    with open(path,encoding='utf-8') as source:value=json.load(source)
+   finally:os.environ.pop('GAGETHER_INCIDENT_FILE',None)
+  self.assertEqual(value,{'incidents':[{'cause':'validation','label':'data validation','games':['endfield'],'tasks':['endfield/notices']}]})
+  self.assertNotIn('http',json.dumps(value))
+ def test_no_file_without_a_configured_path_or_on_success(self):
+  os.environ.pop('GAGETHER_INCIDENT_FILE',None);runner.record_incidents([{'cause':'runner'}])
+  with tempfile.TemporaryDirectory() as folder:
+   path=os.path.join(folder,'incident.json');os.environ['GAGETHER_INCIDENT_FILE']=path
+   try:UnconfiguredSourceRunTest.run_main(self,fake_server({'wuwa':(task(),saved)}))
+   finally:os.environ.pop('GAGETHER_INCIDENT_FILE',None)
+   self.assertFalse(os.path.exists(path))
 if __name__=='__main__':unittest.main()
