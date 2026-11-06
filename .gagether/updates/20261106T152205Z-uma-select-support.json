@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "requestId": "20261106T152205Z-uma-select-support",
+  "reason": "한국 공식 공지에 따른 11월 10일 우마무스메 셀렉트 서포트 뽑기를 등록한다. SSR 10장 중 2장 선택과 추가 신규 R 픽업을 구분하며, 날짜만 확정하고 미확인 시각은 비워 둔다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-06T15:22:05Z",
+  "entries": [
+    {
+      "id": "umamusume-kr-20261110-select-support",
+      "gameId": "umamusume",
+      "region": "kr",
+      "server": "Korea · Kakao Games",
+      "kind": "pickup",
+      "poolType": "support",
+      "pickupType": "unknown",
+      "pickupGroup": "umamusume:kr:20261110:support",
+      "selectionCount": 2,
+      "title": {
+        "ko": "셀렉트 픽업 서포트 카드 뽑기 · 11월 10일",
+        "en": "KR Select Pickup Support Card Scout · November 10 (translation)",
+        "ja": "韓国版セレクトピックアップサポートカードガチャ・11月10日（翻訳）",
+        "zh": "韩服自选精选支援卡招募·11月10日（翻译）"
+      },
+      "bannerName": {
+        "ko": "셀렉트 픽업 서포트 카드 뽑기",
+        "en": "Select Pickup Support Card Scout (translation)",
+        "ja": "セレクトピックアップサポートカードガチャ（翻訳）",
+        "zh": "自选精选支援卡招募（翻译）"
+      },
+      "summary": {
+        "ko": "한국 서비스에서 11월 10일 점검 후~19일 셀렉트 서포트 카드 뽑기가 열린다. SSR 후보 10장 중 반드시 2장을 선택하면 선택 카드의 제공 비율이 오른다. 신규 R [트레센 학원] 후사이치 판도라도 픽업 대상이다.",
+        "en": "The Korean service holds a select support-card scout from after November 10 maintenance through November 19. Choose exactly two of ten SSR candidates to raise their appearance rates. New R [트레센 학원] 후사이치 판도라 is also a rate-up card.",
+        "ja": "韓国版で11月10日のメンテナンス後～19日に開催。SSR候補10枚から必ず2枚を選び、選択カードの提供割合が上昇。新規R［트레센 학원］후사이치 판도라も確率アップ対象。",
+        "zh": "韩服于11月10日维护后至19日举办。必须从10张SSR候选中选择2张，提高所选卡片的出现概率。新R［트레센 학원］후사이치 판도라亦为概率提升对象。"
+      },
+      "startAt": null,
+      "endAt": null,
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-19",
+      "pickupArchive": {
+        "status": "announced",
+        "startDate": "2026-11-10",
+        "endDate": "2026-11-19"
+      },
+      "timingNote": {
+        "ko": "11월 10일 점검 완료 후 시작, 공지상 11월 19일 11:59 종료. 점검 완료 시각과 UTC 오프셋이 원문에 없어 날짜만 등록한다.",
+        "en": "Starts after November 10 maintenance; the notice states November 19 at 11:59 as the end. Only dates are registered because maintenance completion time and a UTC offset are not stated.",
+        "ja": "11月10日のメンテナンス終了後開始、告知上は11月19日11:59終了。終了予定時刻のUTCオフセットとメンテナンス完了時刻が未記載のため日付のみ登録。",
+        "zh": "11月10日维护后开始，公告标示11月19日11:59结束。原文未注明UTC偏移及维护完成时间，仅登记日期。"
+      },
+      "publishedAt": "2026-11-06T03:00:17Z",
+      "verifiedAt": "2026-11-06T15:22:05Z",
+      "sourceUrl": "https://pf.kakao.com/_DzxjIb/115150570",
+      "sourceTitle": "픽업 프리티 더비 뽑기 & 셀렉트 픽업 서포트 카드 뽑기 개최 예정🎉",
+      "sourceKind": "official",
+      "sourceLocale": "ko",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ],
+      "localizationSources": {
+        "ko": "https://pf.kakao.com/_DzxjIb/115150570"
+      },
+      "pickupMembers": [
+        {
+          "name": {
+            "ko": "SSR [세상을 바꾸는 시선] 아몬드 아이",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [황홀한 꿈으로 유혹하다] 드림 저니",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [불굴의 포효] 메이쇼 도토",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [포효의 아포얀도] 나리타 브라이언",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [Cocoon] 에어 샤커",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [그리고 막은 오른다] 단츠 플레임",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [COOL⇔CRAZY/Buddy] 심볼리 크리스 에스",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [Blast Off!] 블래스트 원피스",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [역사도 미식도 빠짐없이] 파인 모션",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "SSR [기운생동] 심볼리 루돌프",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "candidate",
+          "type": "unknown",
+          "rarity": 3
+        },
+        {
+          "name": {
+            "ko": "R [트레센 학원] 후사이치 판도라",
+            "en": "",
+            "ja": "",
+            "zh": ""
+          },
+          "role": "rate-up",
+          "type": "new",
+          "rarity": 1
+        }
+      ],
+      "detailSections": [
+        {
+          "title": {
+            "ko": "선택 방식과 카드 이름",
+            "en": "Selection rules and card names",
+            "ja": "選択方法とカード名",
+            "zh": "选择方式与卡片名称"
+          },
+          "body": {
+            "ko": "SSR 10장은 동시에 전부 픽업되는 대상이 아니라 2장 선택 후보이다. R 카드는 선택 후보와 별개의 추가 확률 상승 대상이다. 카드 이름은 한국 공식 공지 표기를 유지한다.",
+            "en": "The ten SSR cards are candidates for choosing two, not ten simultaneous featured cards. The R card is a separate additional rate-up. Card names retain the Korean official spelling.",
+            "ja": "SSR10枚は全枚同時ピックアップではなく、2枚を選ぶ候補。Rカードは候補とは別の追加確率アップ対象。カード名は韓国公式表記を保持。",
+            "zh": "10张SSR为选2张的候选，并非同时全部精选。R卡为候选之外的额外概率提升对象。卡名保留韩服官方写法。"
+          },
+          "sourceKind": "official",
+          "sourceUrls": [
+            "https://pf.kakao.com/_DzxjIb/115150570"
+          ]
+        }
+      ]
+    }
+  ],
+  "changes": []
+}
+
