@@ -19,6 +19,13 @@ GAGETHER 예약 조사 작업은 쓰기 토큰 없이 이 폴더에 **업데이�
 - 지금 공개 데이터: `GET https://gagether.wiki/api/data` (토큰 없음). 아래 `before`는 반드시 이 응답에서 가져온다. `/api/entry`는 값이 조금 다를 수 있으니 쓰지 않는다.
 - 항목 형식과 내용 규칙: `GET https://gagether.wiki/api/operations`.
 
+## 2.1 사이트 요청과 저장소 작업 (2026-11-06)
+
+- `gagether.wiki`로 보내는 모든 요청에는 User-Agent를 직접 지정한다. 예: `GagetherUpdater/1.0 (+https://gagether.wiki)`. 기본값(`Python-urllib/…` 등)은 차단된다. User-Agent에 이메일, 토큰 등 개인 정보나 비밀 값은 넣지 않는다.
+- 같은 공개 자료(`/api/data` 등)를 짧은 간격으로 반복해서 받지 않는다. 한 번 실행에서 한 번 받은 응답을 저장해 두고 그것으로 비교한다.
+- 코드 저장소 변경(업데이트 파일이 아닌 코드·설정·문서)은 PR까지만 한다. 배포 브랜치(`staging`, `production`)에는 직접 push하지 않는다. 업데이트 파일은 1장대로 `codex/…` 브랜치에 낸다.
+- 이미 반영된 내용(예: 이미 `live`로 들어간 방송, 이미 있는 픽업)은 다시 제출하기 전에 공개 자료(`GET /api/data`)와 대조한다. 같은 값이면 내지 않는다.
+
 ## 3. 파일 형식 (version 1)
 
 ```json
