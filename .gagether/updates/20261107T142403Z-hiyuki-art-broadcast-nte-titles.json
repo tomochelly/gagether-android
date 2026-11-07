@@ -1,0 +1,449 @@
+{
+  "version": 1,
+  "requestId": "20261107T142403Z-hiyuki-art-broadcast-nte-titles",
+  "reason": "히유키 의상의 공식 가격·4개 언어 요약과 2160×3840 원본 3종을 보완하고, 블루 아카이브 종료 방송 메타데이터를 번역합니다. 이환 2건은 원문 메타데이터를 보존하면서 화면 제목만 교정합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-07T14:24:03Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-nte-global-115129446",
+      "set": {
+        "title": {
+          "ko": "엘림 코스튬 | Y2K 미스터리",
+          "en": "Y2K Mystery Costume | 엘림 (Korean name)",
+          "ja": "Y2Kミステリー衣装｜엘림（韓国語名）",
+          "zh": "Y2K谜团服装｜엘림（韩文名）"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "엘림 코스튬 | Y2K 미스터리 한때 유행했던 세기말적 사이버 패션 트렌드. 레이저! 형광! 픽셀! 향수를 불러일으키는 테크노 감성! 「좋잖아~ 그땐 모두 낙관적이고 행복해했어. 즐거운 마음으로 기술 발전이 가져올 아름다운 미래를 '상상'했지~」 <이환> 1.5 버전 「지금 거신 번호는」 11월 11일 출시! 지금 바로",
+          "en": "Y2K Mystery Costume | 엘림 (Korean name)",
+          "ja": "Y2Kミステリー衣装｜엘림（韓国語名）",
+          "zh": "Y2K谜团服装｜엘림（韩文名）"
+        }
+      },
+      "sources": [
+        "https://pf.kakao.com/_uSxfcG/115129446"
+      ]
+    },
+    {
+      "id": "quick-nte-global-115143046",
+      "set": {
+        "title": {
+          "ko": "일상 속 쉼표丨엘림",
+          "en": "A Pause in Everyday Life | 엘림 (Korean name)",
+          "ja": "日常のひと休み｜엘림（韓国語名）",
+          "zh": "日常小憩｜엘림（韩文名）"
+        }
+      },
+      "before": {
+        "title": {
+          "ko": "일상 속 쉼표丨엘림 「베이글에는 매일 재밌는 일들이 샘솟는다니까!」 「오 이것도 재밌네! 좋았어, 전부 6팀 채팅방에 공유~!」 <이환> 1.5 버전 「지금 거신 번호는」 11월 11일 출시! 지금 바로 다운로드 >>",
+          "en": "A Pause in Everyday Life | 엘림 (Korean name)",
+          "ja": "日常のひと休み｜엘림（韓国語名）",
+          "zh": "日常小憩｜엘림（韩文名）"
+        }
+      },
+      "sources": [
+        "https://pf.kakao.com/_uSxfcG/115143046"
+      ]
+    },
+    {
+      "id": "quick-wuwa-global-8424245",
+      "set": {
+        "title": {
+          "ko": "히유키의 스페셜 에디션 ｢서리에 잠든 달｣이 3.8 버전 업데이트와 함께 출시됩니다",
+          "en": "Hiyuki's Deluxe Outfit \"Lune Noire\" will be permanently available",
+          "ja": "緋雪スペシャル「霜に沈む月」",
+          "zh": "Hiyuki新服装「Lune Noire」永久上架公告"
+        },
+        "summary": {
+          "ko": "히유키의 스페셜 에디션 「서리에 잠든 달」이 3.8 버전 업데이트 후 상점에 영구 추가된다. 3.8 버전 기간에는 1,980 달빛에 판매하며, 기간 종료 후 정상 가격은 2,480 달빛이다.",
+          "en": "Hiyuki’s Deluxe Outfit “Lune Noire” will be permanently available in the Store after the Version 3.8 update. It costs 1,980 Lunites during Version 3.8 and returns to the regular price of 2,480 Lunites afterward.",
+          "ja": "緋雪スペシャル「霜に沈む月」はVer.3.8アップデート後、ストアに常設追加される。Ver.3.8期間中の価格は1,980 Lunites、期間終了後は通常価格の2,480 Lunitesとなる。",
+          "zh": "Hiyuki的服装「Lune Noire」将在3.8版本更新后永久加入商店。3.8版本期间售价为1,980 Lunites，版本结束后恢复为2,480 Lunites。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMTcg/MDAxNzkzOTY4MjQ5ODA3.moABDx2zBwiTwCiP2-w4dxmzUCHH0lz3lsTFSW0HXskg.SgWhwX27VVbphHHmL73M7on0z3zQmyxXYce2f8kOQysg.JPEG/P1.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          },
+          "en": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793808000000/2emgq3oj8q21gjyg2j-1793878574727.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          },
+          "ja": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793894400000/bceib8hla03cdg1hv2-1793967189615.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          }
+        },
+        "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMTcg/MDAxNzkzOTY4MjQ5ODA3.moABDx2zBwiTwCiP2-w4dxmzUCHH0lz3lsTFSW0HXskg.SgWhwX27VVbphHHmL73M7on0z3zQmyxXYce2f8kOQysg.JPEG/P1.jpg",
+        "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+        "width": 2160,
+        "height": 3840,
+        "imageLocale": "ko",
+        "imageKind": "banner",
+        "imageVerified": true,
+        "imageFit": "contain"
+      },
+      "before": {
+        "title": {
+          "ko": "히유키의 스페셜 에디션 ｢서리에 잠든 달｣이 3.8 버전 업데이트와 함께 출시됩니다",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "새로운 시대에서 눈을 뜨신 것을 환영합니다. 방랑자님! 폭풍과도 같은 액션의 파도,『명조:워더링 웨이브』입니다. 「히유키가 스타토치 아카데미 학생들과 함께 영화를 촬영할 때 입었던 의상. 굳건하면서도 연민 어린 눈빛, 몸짓마다 배어나는 우아함, 칼을 쥔 채 서리를 피워 내는 위험한 기운은 조금도 변하지 않았다.」 히유키의 스페셜 에디션 ｢서리에 잠든 달｣이 3.8 버전 업데이트와 함께 출시됩니다. 함께 코스튬의 자세한 정보를 알아보아요. ✦획득 방법✦ 3.8 버전 업데이트 후, 히유키의 스페셜 에디션 ｢서리에 잠든 달｣이 영구적으로 상점에 추가됩니다. 3.8 버전 기",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245"
+        },
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "width": null,
+        "height": null,
+        "imageLocale": null,
+        "imageKind": null,
+        "imageVerified": false,
+        "imageFit": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722"
+      ]
+    },
+    {
+      "id": "feed-wuwa-5698",
+      "set": {
+        "title": {
+          "ko": "히유키의 스페셜 에디션 ｢서리에 잠든 달｣이 3.8 버전 업데이트와 함께 출시됩니다",
+          "en": "Hiyuki's Deluxe Outfit \"Lune Noire\" will be permanently available",
+          "ja": "緋雪スペシャル「霜に沈む月」",
+          "zh": "Hiyuki新服装「Lune Noire」永久上架公告"
+        },
+        "summary": {
+          "ko": "히유키의 스페셜 에디션 「서리에 잠든 달」이 3.8 버전 업데이트 후 상점에 영구 추가된다. 3.8 버전 기간에는 1,980 달빛에 판매하며, 기간 종료 후 정상 가격은 2,480 달빛이다.",
+          "en": "Hiyuki’s Deluxe Outfit “Lune Noire” will be permanently available in the Store after the Version 3.8 update. It costs 1,980 Lunites during Version 3.8 and returns to the regular price of 2,480 Lunites afterward.",
+          "ja": "緋雪スペシャル「霜に沈む月」はVer.3.8アップデート後、ストアに常設追加される。Ver.3.8期間中の価格は1,980 Lunites、期間終了後は通常価格の2,480 Lunitesとなる。",
+          "zh": "Hiyuki的服装「Lune Noire」将在3.8版本更新后永久加入商店。3.8版本期间售价为1,980 Lunites，版本结束后恢复为2,480 Lunites。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMTcg/MDAxNzkzOTY4MjQ5ODA3.moABDx2zBwiTwCiP2-w4dxmzUCHH0lz3lsTFSW0HXskg.SgWhwX27VVbphHHmL73M7on0z3zQmyxXYce2f8kOQysg.JPEG/P1.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          },
+          "en": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793808000000/2emgq3oj8q21gjyg2j-1793878574727.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          },
+          "ja": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793894400000/bceib8hla03cdg1hv2-1793967189615.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          }
+        },
+        "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793808000000/2emgq3oj8q21gjyg2j-1793878574727.jpg",
+        "imageSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+        "width": 2160,
+        "height": 3840,
+        "imageLocale": "en",
+        "imageKind": "banner",
+        "imageVerified": true,
+        "imageFit": "contain"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Hiyuki's Deluxe Outfit \"Lune Noire\" will be permanently available",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "\"A costume Hiyuki wore while filming a movie with Startorch Academy students. Her gaze has lost none of its resolve or compassion, nor her movements their grace. With blade and frost at her command, she remains every bit as dangerous.\" Hiyuki's Deluxe Outfit \"Lune Noire\" will become available once Version 3.8 goes live",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5698"
+        },
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "width": null,
+        "height": null,
+        "imageLocale": null,
+        "imageKind": null,
+        "imageVerified": null,
+        "imageFit": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722"
+      ]
+    },
+    {
+      "id": "feed-wuwa-5722",
+      "set": {
+        "title": {
+          "ko": "히유키의 스페셜 에디션 ｢서리에 잠든 달｣이 3.8 버전 업데이트와 함께 출시됩니다",
+          "en": "Hiyuki's Deluxe Outfit \"Lune Noire\" will be permanently available",
+          "ja": "緋雪スペシャル「霜に沈む月」",
+          "zh": "Hiyuki新服装「Lune Noire」永久上架公告"
+        },
+        "summary": {
+          "ko": "히유키의 스페셜 에디션 「서리에 잠든 달」이 3.8 버전 업데이트 후 상점에 영구 추가된다. 3.8 버전 기간에는 1,980 달빛에 판매하며, 기간 종료 후 정상 가격은 2,480 달빛이다.",
+          "en": "Hiyuki’s Deluxe Outfit “Lune Noire” will be permanently available in the Store after the Version 3.8 update. It costs 1,980 Lunites during Version 3.8 and returns to the regular price of 2,480 Lunites afterward.",
+          "ja": "緋雪スペシャル「霜に沈む月」はVer.3.8アップデート後、ストアに常設追加される。Ver.3.8期間中の価格は1,980 Lunites、期間終了後は通常価格の2,480 Lunitesとなる。",
+          "zh": "Hiyuki的服装「Lune Noire」将在3.8版本更新后永久加入商店。3.8版本期间售价为1,980 Lunites，版本结束后恢复为2,480 Lunites。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722",
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5698"
+        },
+        "localizedArtwork": {
+          "ko": {
+            "image": "https://nng-phinf.pstatic.net/MjAyNjExMDZfMTcg/MDAxNzkzOTY4MjQ5ODA3.moABDx2zBwiTwCiP2-w4dxmzUCHH0lz3lsTFSW0HXskg.SgWhwX27VVbphHHmL73M7on0z3zQmyxXYce2f8kOQysg.JPEG/P1.jpg",
+            "imageSource": "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "ko",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          },
+          "en": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793808000000/2emgq3oj8q21gjyg2j-1793878574727.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "en",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          },
+          "ja": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793894400000/bceib8hla03cdg1hv2-1793967189615.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722",
+            "width": 2160,
+            "height": 3840,
+            "imageLocale": "ja",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "verifiedAt": "2026-11-07T14:24:03Z"
+          }
+        },
+        "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793894400000/bceib8hla03cdg1hv2-1793967189615.jpg",
+        "imageSource": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722",
+        "width": 2160,
+        "height": 3840,
+        "imageLocale": "ja",
+        "imageKind": "banner",
+        "imageVerified": true,
+        "imageFit": "contain"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "緋雪スペシャル「霜に沈む月」",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722"
+        },
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "width": null,
+        "height": null,
+        "imageLocale": null,
+        "imageKind": null,
+        "imageVerified": null,
+        "imageFit": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8424245",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722"
+      ]
+    },
+    {
+      "id": "recap-bluearchive-ko-LHjOwvjrrVE",
+      "set": {
+        "title": {
+          "ko": "[블루 아카이브] 5주년 페스티벌 & 사운드 아카이브  - 현장 중계 1일차",
+          "en": "Blue Archive 5th Anniversary Festival & Sound Archive — Day 1 Live Coverage",
+          "ja": "ブルーアーカイブ 5周年フェスティバル＆サウンドアーカイブ — 現地中継1日目",
+          "zh": "蔚蓝档案5周年庆典＆Sound Archive——现场转播第1天"
+        },
+        "summary": {
+          "ko": "한국 공식 채널의 블루 아카이브 5주년 페스티벌 & 사운드 아카이브 현장 중계 1일차. 11월 7일 방송은 종료됐다.",
+          "en": "Day 1 coverage of the Blue Archive 5th Anniversary Festival & Sound Archive on the official Korean channel. The November 7 broadcast has ended.",
+          "ja": "韓国公式チャンネルによるブルーアーカイブ5周年フェスティバル＆サウンドアーカイブの現地中継1日目。11月7日の配信は終了した。",
+          "zh": "韩国官方频道播出的蔚蓝档案5周年庆典＆Sound Archive现场转播第1天。11月7日的直播已结束。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[블루 아카이브] 5주년 페스티벌 & 사운드 아카이브  - 현장 중계 1일차",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=LHjOwvjrrVE"
+      ]
+    },
+    {
+      "id": "broadcast-bluearchive-ko-LHjOwvjrrVE",
+      "set": {
+        "title": {
+          "ko": "[블루 아카이브] 5주년 페스티벌 & 사운드 아카이브  - 현장 중계 1일차",
+          "en": "Blue Archive 5th Anniversary Festival & Sound Archive — Day 1 Live Coverage",
+          "ja": "ブルーアーカイブ 5周年フェスティバル＆サウンドアーカイブ — 現地中継1日目",
+          "zh": "蔚蓝档案5周年庆典＆Sound Archive——现场转播第1天"
+        },
+        "summary": {
+          "ko": "한국 공식 채널의 블루 아카이브 5주년 페스티벌 & 사운드 아카이브 현장 중계 1일차. 11월 7일 방송은 종료됐다.",
+          "en": "Day 1 coverage of the Blue Archive 5th Anniversary Festival & Sound Archive on the official Korean channel. The November 7 broadcast has ended.",
+          "ja": "韓国公式チャンネルによるブルーアーカイブ5周年フェスティバル＆サウンドアーカイブの現地中継1日目。11月7日の配信は終了した。",
+          "zh": "韩国官方频道播出的蔚蓝档案5周年庆典＆Sound Archive现场转播第1天。11月7日的直播已结束。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "[블루 아카이브] 5주년 페스티벌 & 사운드 아카이브  - 현장 중계 1일차",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": []
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=LHjOwvjrrVE"
+      ]
+    }
+  ]
+}
