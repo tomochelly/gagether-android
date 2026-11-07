@@ -1,0 +1,930 @@
+{
+  "version": 1,
+  "requestId": "20261107T172321Z-lily-notices-hsr-lightcone-art",
+  "reason": "명조 릴리 공식 소개·한국 영상 누락과 행사 공지 번역을 보완하고, 스타레일 현재 복각 광추 4종의 빈 이미지에 검증한 정식 원본을 추가합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-07T17:23:21Z",
+  "entries": [
+    {
+      "id": "official-video-wuwa-ko-F64TLsomPyM",
+      "gameId": "wuwa",
+      "region": "global",
+      "server": "global",
+      "kind": "update",
+      "contentRole": "notice",
+      "title": {
+        "ko": "공명자 화면 | 릴리 #명조 #명조워더링웨이브 #릴리",
+        "en": "Resonator Showcase | Lily",
+        "ja": "共鳴者ショーケース | リリー",
+        "zh": "共鸣者展示 | Lily"
+      },
+      "summary": {
+        "ko": "한국 공식 채널이 공개한 릴리의 공명자 화면 영상. 영상 설명에서 릴리는 고민을 편히 이야기해 달라고 전한다.",
+        "en": "The Korean official channel’s Resonator showcase for Lily. The description invites viewers to share their worries with her.",
+        "ja": "韓国公式チャンネルが公開したリリーの共鳴者ショーケース。動画説明では、悩みを気軽に話してほしいという彼女の言葉を紹介。",
+        "zh": "韩国官方频道公开的Lily共鸣者展示视频。视频简介中，她邀请人们向自己倾诉烦恼。"
+      },
+      "sourceUrl": "https://www.youtube.com/watch?v=F64TLsomPyM",
+      "sourceTitle": "공명자 화면 | 릴리 #명조 #명조워더링웨이브 #릴리",
+      "sourceLocale": "ko",
+      "sourceKind": "video",
+      "officialLocales": [
+        "ko"
+      ],
+      "translatedLocales": [
+        "en",
+        "ja",
+        "zh"
+      ],
+      "startAt": null,
+      "endAt": null,
+      "publishedAt": "2026-11-07T02:00:08-08:00",
+      "verifiedAt": "2026-11-07T17:23:21Z",
+      "videos": [
+        {
+          "kind": "character",
+          "format": "intro",
+          "youtubeId": "F64TLsomPyM",
+          "title": {
+            "ko": "공명자 화면 | 릴리 #명조 #명조워더링웨이브 #릴리",
+            "en": "Resonator Showcase | Lily",
+            "ja": "共鳴者ショーケース | リリー",
+            "zh": "共鸣者展示 | Lily"
+          },
+          "originalTitle": "공명자 화면 | 릴리 #명조 #명조워더링웨이브 #릴리",
+          "titleOfficialLocales": [
+            "ko"
+          ],
+          "titleTranslatedLocales": [
+            "en",
+            "ja",
+            "zh"
+          ],
+          "locale": "ko",
+          "channel": "명조:워더링 웨이브",
+          "sourceUrl": "https://www.youtube.com/watch?v=F64TLsomPyM",
+          "publishedAt": "2026-11-07T02:00:08-08:00",
+          "verifiedAt": "2026-11-07T17:23:21Z",
+          "official": true,
+          "metadataVerified": true,
+          "watched": false,
+          "evidenceUrls": [
+            "https://www.youtube.com/channel/UCKuq0c-RXYaulECSuu5hFug"
+          ]
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "quick-wuwa-global-8425581",
+      "set": {
+        "title": {
+          "ko": "🎨방랑자 여러분과 함께하는 '2차 창작 갤러리' 전시작 모집 개시!",
+          "en": "Fan Art Gallery: Submissions Open",
+          "ja": "二次創作ギャラリー：展示作品の募集開始",
+          "zh": "同人创作画廊：展出作品征集开启"
+        },
+        "summary": {
+          "ko": "명조 연말 오프라인 행사의 2차 창작 갤러리 작품을 11월 7일부터 12월 31일까지 모집한다. 주제는 공명자와 함께하는 2026년 크리스마스 또는 2027년 새해이며, 전시 선정자에게 행사 1인 무료 초대권을 제공한다.",
+          "en": "Submissions for the year-end offline Fan Art Gallery run from November 7 to December 31. Themes are Christmas 2026 or New Year 2027 with Resonators. Selected exhibitors receive free admission for one person.",
+          "ja": "年末オフラインイベントの二次創作ギャラリーが11月7日から12月31日まで作品を募集。テーマは共鳴者と過ごす2026年のクリスマス、または2027年の新年。展示に選ばれた投稿者には1名分の無料招待券を提供する。",
+          "zh": "年末线下活动的同人创作画廊于11月7日至12月31日征集作品。主题为与共鸣者共度2026年圣诞节或2027年新年。入选展出的创作者可获得一人免费入场邀请。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "startDate": "2026-11-07",
+        "endDate": "2026-12-31",
+        "detailSections": [
+          {
+            "title": {
+              "ko": "작품 제출 안내",
+              "en": "Submission requirements",
+              "ja": "作品の応募要項",
+              "zh": "投稿要求"
+            },
+            "body": {
+              "ko": "공식 신청서로 JPG·PNG 작품을 제출한다. 최소 150dpi, 300dpi 이상 및 A2 크기를 권장한다. 제출 수량 제한은 없지만 전시는 1인당 최대 3작품이며, 작품마다 별도 신청서를 작성한다. 영상·GIF와 AI를 사용한 작품은 제외된다.",
+              "en": "Submit JPG or PNG files through the official form. Minimum resolution is 150 dpi; 300 dpi or higher and A2 size are recommended. Submissions are unlimited, but up to three works per person may be exhibited. Use a separate form for each work. Videos, GIFs and AI-assisted works are excluded.",
+              "ja": "公式フォームからJPG・PNG形式で応募。最低150dpi、300dpi以上とA2サイズを推奨。応募数に制限はないが展示は1人3作品までで、作品ごとに別のフォームが必要。動画・GIFおよびAIを利用した作品は対象外。",
+              "zh": "通过官方表单提交JPG或PNG文件，最低150dpi，推荐300dpi以上及A2尺寸。投稿数量不限，但每人最多展出三件作品，每件作品须单独填写表单。视频、GIF及使用AI制作的作品不予受理。"
+            },
+            "sourceKind": "official",
+            "sourceUrls": [
+              "https://game.naver.com/lounge/WutheringWaves/board/detail/8425581"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "🎨방랑자 여러분과 함께하는 '2차 창작 갤러리' 전시작 모집 개시!",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "새로운 시대에서 눈을 뜨신 것을 환영합니다. 방랑자님! 폭풍과도 같은 액션의 파도,『명조:워더링 웨이브』입니다. 올겨울, 여러분의 작품을 한자리에 모아 명조 연말 특별 오프라인 이벤트 현장에서 함께 감상하는 「2차 창작 갤러리」 가 진행됩니다! 좋아하는 공명자와 보내는 즐거운 크리스마스, 함께 새로운 한 해를 맞이하는 특별한 순간—— 방랑자 여러분의 아름다운 작품으로 갤러리를 채워 주세요💕 아티스트 방랑자 여러분의 많은 관심과 참여를 기다리겠습니다~! ※ 본 프로그램의 내용은 운영 상황에 따라 일부 변경될 수 있습니다. 🎈투고 안내 투고 기간: 2026.11.07",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "startDate": null,
+        "endDate": null,
+        "detailSections": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8425581"
+      ]
+    },
+    {
+      "id": "quick-wuwa-global-8425488",
+      "set": {
+        "title": {
+          "ko": "🎬 [명조 X 롯데시네마 콜라보] 명조 시네마 위크 스케치 영상",
+          "en": "Wuthering Waves × LOTTE CINEMA: Cinema Week Recap Video",
+          "ja": "鳴潮 × LOTTE CINEMA：シネマウィークの振り返り映像",
+          "zh": "鸣潮 × LOTTE CINEMA：影院周回顾视频"
+        },
+        "summary": {
+          "ko": "명조와 롯데시네마의 시네마 위크 현장을 담은 공식 스케치 영상이 공개됐다. 공지는 현장 사진 촬영과 미니게임 등 방문객 참여 모습을 소개한다.",
+          "en": "The official Cinema Week recap video for Wuthering Waves × LOTTE CINEMA is available. The announcement highlights visitor photo opportunities and minigames at the event.",
+          "ja": "鳴潮とLOTTE CINEMAのシネマウィークを振り返る公式映像が公開。告知では、会場での記念撮影やミニゲームなど来場者の参加企画を紹介している。",
+          "zh": "鸣潮与LOTTE CINEMA影院周官方回顾视频已公开。公告介绍了现场合影、小游戏等观众参与环节。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "relatedSources": [
+          {
+            "kind": "video",
+            "url": "https://www.youtube.com/watch?v=NLUEGTIWjtY",
+            "title": "[4K] 🎬 [명조 X 롯데시네마 콜라보] 명조 시네마 위크 스케치 영상",
+            "publisher": "명조:워더링 웨이브",
+            "publishedAt": "2026-11-07T02:30:34-08:00"
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "🎬 [명조 X 롯데시네마 콜라보] 명조 시네마 위크 스케치 영상",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "새로운 시대에서 눈을 뜨신 것을 환영합니다. 방랑자님! 폭풍과도 같은 액션의 파도,『명조:워더링 웨이브』입니다. 롯데시네마에서 만난 여우의 별자리와 쇄명, 공명자와 나란히 앉아 찍은 사진, 함께 즐긴 미니게임, 그리고 카멜탈과 눈을 맞추며 웃었던 순간까지~ 방랑자 여러분이 직접 채워 주신 명조 시네마 위크의 소중한 순간들을 스케치 영상에 담았습니다. 함께했던 그날의 추억을 영상으로 다시 만나 보세요! 📽️",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "relatedSources": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8425488",
+        "https://www.youtube.com/watch?v=NLUEGTIWjtY"
+      ]
+    },
+    {
+      "id": "quick-wuwa-global-8424008",
+      "set": {
+        "title": {
+          "ko": "🎬『명조:워더링 웨이브』 코스튬 트레일러 | 서리에 잠든 달",
+          "en": "Wuthering Waves Outfit Trailer | Lune Noire",
+          "ja": "鳴潮 衣装トレーラー | 霜に沈む月",
+          "zh": "鸣潮服装预告片 | Lune Noire"
+        },
+        "summary": {
+          "ko": "히유키의 스페셜 에디션 의상 「서리에 잠든 달」 공식 트레일러가 공개됐다.",
+          "en": "The official trailer for Hiyuki’s Deluxe Outfit, Lune Noire, has been released.",
+          "ja": "緋雪スペシャル「霜に沈む月」の公式衣装トレーラーが公開された。",
+          "zh": "Hiyuki新服装「Lune Noire」的官方预告片已公开。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "videos": [
+          {
+            "kind": "character",
+            "format": "pv",
+            "youtubeId": "V9R67AM7Lfk",
+            "title": {
+              "ko": "『명조:워더링 웨이브』 코스튬 트레일러 | 서리에 잠든 달",
+              "en": "Wuthering Waves Outfit Trailer | Lune Noire",
+              "ja": "鳴潮 衣装トレーラー | 霜に沈む月",
+              "zh": "鸣潮服装预告片 | Lune Noire"
+            },
+            "originalTitle": "『명조:워더링 웨이브』 코스튬 트레일러 | 서리에 잠든 달",
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [
+              "en",
+              "ja",
+              "zh"
+            ],
+            "locale": "ko",
+            "channel": "명조:워더링 웨이브",
+            "sourceUrl": "https://www.youtube.com/watch?v=V9R67AM7Lfk",
+            "publishedAt": "2026-11-06T19:00:35-08:00",
+            "verifiedAt": "2026-11-07T17:23:21Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.youtube.com/channel/UCKuq0c-RXYaulECSuu5hFug"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "🎬『명조:워더링 웨이브』 코스튬 트레일러 | 서리에 잠든 달",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "새로운 시대에서 눈을 뜨신 것을 환영합니다. 방랑자님! 폭풍과도 같은 액션의 파도,『명조:워더링 웨이브』입니다. 스페셜 에디션 코스튬 ｢히유키 · 서리에 잠든 달｣이 곧 출시됩니다!",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "videos": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8424008",
+        "https://www.youtube.com/watch?v=V9R67AM7Lfk",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5698",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5722"
+      ]
+    },
+    {
+      "id": "feed-wuwa-5710",
+      "set": {
+        "title": {
+          "ko": "공명자 소개 | 릴리",
+          "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+          "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー",
+          "zh": "共鸣者介绍 | Lily"
+        },
+        "summary": {
+          "ko": "신연방 소속 5성 회절 공명자 릴리의 공식 소개. 조향사이자 심리치료사인 릴리의 프로필과 외형을 공개했다.",
+          "en": "An official introduction to Lily, a five-star Spectro Resonator from the New Federation. The profile presents her work as a perfumer and psychotherapist and her appearance.",
+          "ja": "ネオユニオン所属の★5回折共鳴者リリーの公式紹介。調香師・セラピストである彼女のプロフィールと外見を公開。",
+          "zh": "官方介绍来自New Federation的五星衍射共鸣者Lily，公开了她作为调香师及心理治疗师的身份与外观。"
+        },
+        "officialLocales": [
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "ko",
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5710",
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732"
+        },
+        "localizedArtwork": {
+          "en": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793894400000/84eoue1x4qq27k4hfr-1793948487422.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5710",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-07T17:23:21Z"
+          },
+          "ja": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/images/1793980800000/ksihiko6e654anv6q4-1794036977685.png",
+            "imageSource": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-07T17:23:21Z"
+          }
+        },
+        "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793894400000/84eoue1x4qq27k4hfr-1793948487422.jpg",
+        "imageSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5710",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "en",
+        "width": 1920,
+        "height": 1080,
+        "imageFit": "contain",
+        "detailImages": [
+          {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793894400000/ia3mjviry92hlm0ucg-1793948513904.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5710",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1080,
+            "height": 1440,
+            "verifiedAt": "2026-11-07T17:23:21Z"
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "Just call me Lily. If something's weighing on you, know you can always confide in me.",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5710"
+        },
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "width": null,
+        "height": null,
+        "imageFit": null,
+        "detailImages": null
+      },
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5710",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732"
+      ]
+    },
+    {
+      "id": "feed-wuwa-5732",
+      "set": {
+        "title": {
+          "ko": "공명자 소개 | 릴리",
+          "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+          "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー",
+          "zh": "共鸣者介绍 | Lily"
+        },
+        "summary": {
+          "ko": "신연방 소속 5성 회절 공명자 릴리의 공식 소개. 조향사이자 심리치료사인 릴리의 프로필과 외형을 공개했다.",
+          "en": "An official introduction to Lily, a five-star Spectro Resonator from the New Federation. The profile presents her work as a perfumer and psychotherapist and her appearance.",
+          "ja": "ネオユニオン所属の★5回折共鳴者リリーの公式紹介。調香師・セラピストである彼女のプロフィールと外見を公開。",
+          "zh": "官方介绍来自New Federation的五星衍射共鸣者Lily，公开了她作为调香师及心理治疗师的身份与外观。"
+        },
+        "officialLocales": [
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "ko",
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5710",
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732"
+        },
+        "localizedArtwork": {
+          "en": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/object/1793894400000/84eoue1x4qq27k4hfr-1793948487422.jpg",
+            "imageSource": "https://wutheringwaves.kurogames.com/en/main/news/detail/5710",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "en",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-07T17:23:21Z"
+          },
+          "ja": {
+            "image": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/images/1793980800000/ksihiko6e654anv6q4-1794036977685.png",
+            "imageSource": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732",
+            "imageVerified": true,
+            "imageKind": "banner",
+            "imageLocale": "ja",
+            "width": 1920,
+            "height": 1080,
+            "verifiedAt": "2026-11-07T17:23:21Z"
+          }
+        },
+        "image": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/images/1793980800000/ksihiko6e654anv6q4-1794036977685.png",
+        "imageSource": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732",
+        "imageVerified": true,
+        "imageKind": "banner",
+        "imageLocale": "ja",
+        "width": 1920,
+        "height": 1080,
+        "imageFit": "contain"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732"
+        },
+        "localizedArtwork": null,
+        "image": null,
+        "imageSource": null,
+        "imageVerified": null,
+        "imageKind": null,
+        "imageLocale": null,
+        "width": null,
+        "height": null,
+        "imageFit": null
+      },
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5710",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-en-lVjhNkWVDRQ",
+      "set": {
+        "title": {
+          "ko": "공명자 소개 | 릴리",
+          "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+          "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー",
+          "zh": "共鸣者介绍 | Lily"
+        },
+        "summary": {
+          "ko": "릴리의 공식 공명자 소개 영상. 영상 설명에서 릴리는 고민을 편히 이야기해 달라고 전한다.",
+          "en": "Lily’s official Resonator introduction video. Its description presents her invitation to share any worries with her.",
+          "ja": "リリーの公式共鳴者紹介映像。動画説明では、悩みがあれば自分に話してほしいという彼女の言葉を紹介。",
+          "zh": "Lily的官方共鸣者介绍视频。视频简介中，她邀请人们向自己倾诉烦恼。"
+        },
+        "translatedLocales": [
+          "ko",
+          "ja",
+          "zh"
+        ],
+        "publishedAt": "2026-11-07T02:00:22-08:00",
+        "videos": [
+          {
+            "kind": "character",
+            "format": "intro",
+            "youtubeId": "lVjhNkWVDRQ",
+            "title": {
+              "ko": "공명자 소개 | 릴리",
+              "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+              "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー",
+              "zh": "共鸣者介绍 | Lily"
+            },
+            "originalTitle": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+            "titleOfficialLocales": [
+              "en"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "ja",
+              "zh"
+            ],
+            "locale": "en",
+            "channel": "Wuthering Waves",
+            "sourceUrl": "https://www.youtube.com/watch?v=lVjhNkWVDRQ",
+            "publishedAt": "2026-11-07T02:00:22-08:00",
+            "thumbnailUrl": "https://i.ytimg.com/vi/lVjhNkWVDRQ/frame0.jpg",
+            "verifiedAt": "2026-11-07T10:05:29.267Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.youtube.com/channel/UC0Bi5KMcECRVYis5Gb_ZYZQ"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "publishedAt": null,
+        "videos": [
+          {
+            "kind": "character",
+            "format": "intro",
+            "youtubeId": "lVjhNkWVDRQ",
+            "title": {
+              "ko": "",
+              "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+              "ja": "",
+              "zh": ""
+            },
+            "originalTitle": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+            "titleOfficialLocales": [
+              "en"
+            ],
+            "titleTranslatedLocales": [],
+            "locale": "en",
+            "channel": "Wuthering Waves",
+            "sourceUrl": "https://www.youtube.com/watch?v=lVjhNkWVDRQ",
+            "publishedAt": null,
+            "thumbnailUrl": "https://i.ytimg.com/vi/lVjhNkWVDRQ/frame0.jpg",
+            "verifiedAt": "2026-11-07T10:05:29.267Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.youtube.com/channel/UC0Bi5KMcECRVYis5Gb_ZYZQ"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=lVjhNkWVDRQ",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5710"
+      ]
+    },
+    {
+      "id": "official-video-wuwa-ja-tTjGhSvhhBo",
+      "set": {
+        "title": {
+          "ko": "공명자 소개 | 릴리",
+          "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+          "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー　#鳴潮#wutheringwaves #リリー",
+          "zh": "共鸣者介绍 | Lily"
+        },
+        "summary": {
+          "ko": "릴리의 공식 공명자 소개 영상. 영상 설명에서 릴리는 고민을 편히 이야기해 달라고 전한다.",
+          "en": "Lily’s official Resonator introduction video. Its description presents her invitation to share any worries with her.",
+          "ja": "リリーの公式共鳴者紹介映像。動画説明では、悩みがあれば自分に話してほしいという彼女の言葉を紹介。",
+          "zh": "Lily的官方共鸣者介绍视频。视频简介中，她邀请人们向自己倾诉烦恼。"
+        },
+        "translatedLocales": [
+          "ko",
+          "en",
+          "zh"
+        ],
+        "publishedAt": "2026-11-07T02:00:12-08:00",
+        "videos": [
+          {
+            "kind": "character",
+            "format": "intro",
+            "youtubeId": "tTjGhSvhhBo",
+            "title": {
+              "ko": "공명자 소개 | 릴리",
+              "en": "Post-Lament Anthropocene: Stars Intertwined | Lily",
+              "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー　#鳴潮#wutheringwaves #リリー",
+              "zh": "共鸣者介绍 | Lily"
+            },
+            "originalTitle": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー　#鳴潮#wutheringwaves #リリー",
+            "titleOfficialLocales": [
+              "ja"
+            ],
+            "titleTranslatedLocales": [
+              "ko",
+              "en",
+              "zh"
+            ],
+            "locale": "ja",
+            "channel": "鳴潮 (Wuthering Waves)公式",
+            "sourceUrl": "https://www.youtube.com/watch?v=tTjGhSvhhBo",
+            "publishedAt": "2026-11-07T02:00:12-08:00",
+            "thumbnailUrl": "https://i.ytimg.com/vi/tTjGhSvhhBo/frame0.jpg",
+            "verifiedAt": "2026-11-07T10:05:33.007Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.youtube.com/channel/UCGc93NguHRwzv1Rw9MyIcxQ"
+            ]
+          }
+        ]
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー　#鳴潮#wutheringwaves #リリー",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "publishedAt": null,
+        "videos": [
+          {
+            "kind": "character",
+            "format": "intro",
+            "youtubeId": "tTjGhSvhhBo",
+            "title": {
+              "ko": "",
+              "en": "",
+              "ja": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー　#鳴潮#wutheringwaves #リリー",
+              "zh": ""
+            },
+            "originalTitle": "『後悲鳴人類記事:交錯する星群れ』共鳴者紹介 | リリー　#鳴潮#wutheringwaves #リリー",
+            "titleOfficialLocales": [
+              "ja"
+            ],
+            "titleTranslatedLocales": [],
+            "locale": "ja",
+            "channel": "鳴潮 (Wuthering Waves)公式",
+            "sourceUrl": "https://www.youtube.com/watch?v=tTjGhSvhhBo",
+            "publishedAt": null,
+            "thumbnailUrl": "https://i.ytimg.com/vi/tTjGhSvhhBo/frame0.jpg",
+            "verifiedAt": "2026-11-07T10:05:33.007Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.youtube.com/channel/UCGc93NguHRwzv1Rw9MyIcxQ"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=tTjGhSvhhBo",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5732"
+      ]
+    },
+    {
+      "id": "hsr-46-reforged-in-hellfire",
+      "set": {
+        "image": "https://cdn.gachabase.net/hsr/assets/4db72d0ef77fadb95fbd4fac0b649b9c.png",
+        "imageSource": "https://hsr.gachabase.net/lightcones/23059/reforged-in-hellfire/release/4.6.0?lang=en",
+        "imageVerified": true,
+        "imageKind": "weapon",
+        "imageLocale": "neutral",
+        "imageFit": "contain",
+        "width": 904,
+        "height": 1260,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "연옥을 불사른 새로운 몸",
+              "en": "Reforged in Hellfire",
+              "ja": "煉獄に焼かれし新身",
+              "zh": "灼尽炼狱的新骸"
+            },
+            "type": "rerun",
+            "role": "featured",
+            "rarity": 5,
+            "imageVerified": true,
+            "image": "https://cdn.gachabase.net/hsr/assets/4db72d0ef77fadb95fbd4fac0b649b9c.png",
+            "imageSource": "https://hsr.gachabase.net/lightcones/23059/reforged-in-hellfire/release/4.6.0?lang=en",
+            "imageKind": "weapon",
+            "imageLocale": "neutral",
+            "imageFit": "contain",
+            "previewArtwork": {
+              "image": "https://cdn.gachabase.net/hsr/assets/4db72d0ef77fadb95fbd4fac0b649b9c.png",
+              "imageSource": "https://hsr.gachabase.net/lightcones/23059/reforged-in-hellfire/release/4.6.0?lang=en",
+              "imageVerified": true,
+              "imageKind": "weapon",
+              "imageLocale": "neutral",
+              "width": 904,
+              "height": 1260,
+              "verifiedAt": "2026-11-07T17:23:21Z"
+            }
+          },
+          {
+            "name": {
+              "ko": "수술 후의 대화",
+              "en": "Post-Op Conversation",
+              "ja": "術後の会話",
+              "zh": "一场术后对话"
+            },
+            "type": "rerun",
+            "role": "rate-up",
+            "rarity": 4,
+            "imageVerified": true,
+            "image": "https://cdn.gachabase.net/hsr/assets/782a06568577c38ce9151b301eb82771.png",
+            "imageSource": "https://hsr.gachabase.net/lightcones/21000/post-op-conversation/release/4.6.0?lang=en",
+            "imageKind": "weapon",
+            "imageLocale": "neutral",
+            "imageFit": "contain",
+            "previewArtwork": {
+              "image": "https://cdn.gachabase.net/hsr/assets/782a06568577c38ce9151b301eb82771.png",
+              "imageSource": "https://hsr.gachabase.net/lightcones/21000/post-op-conversation/release/4.6.0?lang=en",
+              "imageVerified": true,
+              "imageKind": "weapon",
+              "imageLocale": "neutral",
+              "width": 904,
+              "height": 1260,
+              "verifiedAt": "2026-11-07T17:23:21Z"
+            }
+          },
+          {
+            "name": {
+              "ko": "행성과의 만남",
+              "en": "Planetary Rendezvous",
+              "ja": "惑星との出会い",
+              "zh": "与行星相会"
+            },
+            "type": "rerun",
+            "role": "rate-up",
+            "rarity": 4,
+            "imageVerified": true,
+            "image": "https://cdn.gachabase.net/hsr/assets/b9873a9dcb622b155b9d3cba2c8308f5.png",
+            "imageSource": "https://hsr.gachabase.net/lightcones/21011/planetary-rendezvous/release/4.6.0?lang=en",
+            "imageKind": "weapon",
+            "imageLocale": "neutral",
+            "imageFit": "contain",
+            "previewArtwork": {
+              "image": "https://cdn.gachabase.net/hsr/assets/b9873a9dcb622b155b9d3cba2c8308f5.png",
+              "imageSource": "https://hsr.gachabase.net/lightcones/21011/planetary-rendezvous/release/4.6.0?lang=en",
+              "imageVerified": true,
+              "imageKind": "weapon",
+              "imageLocale": "neutral",
+              "width": 904,
+              "height": 1260,
+              "verifiedAt": "2026-11-07T17:23:21Z"
+            }
+          },
+          {
+            "name": {
+              "ko": "끝없는 춤",
+              "en": "Boundless Choreo",
+              "ja": "終わりなき舞踏",
+              "zh": "无边曼舞"
+            },
+            "type": "rerun",
+            "role": "rate-up",
+            "rarity": 4,
+            "imageVerified": true,
+            "image": "https://cdn.gachabase.net/hsr/assets/4c6d191030d79998bc7e191f1c08cb0b.png",
+            "imageSource": "https://hsr.gachabase.net/lightcones/21044/boundless-choreo/release/4.6.0?lang=en",
+            "imageKind": "weapon",
+            "imageLocale": "neutral",
+            "imageFit": "contain",
+            "previewArtwork": {
+              "image": "https://cdn.gachabase.net/hsr/assets/4c6d191030d79998bc7e191f1c08cb0b.png",
+              "imageSource": "https://hsr.gachabase.net/lightcones/21044/boundless-choreo/release/4.6.0?lang=en",
+              "imageVerified": true,
+              "imageKind": "weapon",
+              "imageLocale": "neutral",
+              "width": 904,
+              "height": 1260,
+              "verifiedAt": "2026-11-07T17:23:21Z"
+            }
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://hsr.hoyoverse.com/ko-kr/news/164415",
+            "title": "4.3 버전 업데이트 공지 · 광추 한국어 공식 명칭 근거",
+            "publisher": "HoYoverse",
+            "publishedAt": "2026-06-01"
+          },
+          {
+            "kind": "official",
+            "url": "https://sr.mihoyo.com/news/164425?type=notice",
+            "title": "4.3版本更新说明 · 光锥中文官方名称依据",
+            "publisher": "miHoYo"
+          },
+          {
+            "kind": "community",
+            "url": "https://hsr.gachabase.net/lightcones/23059/reforged-in-hellfire/release/4.6.0?lang=en",
+            "title": "Reforged in Hellfire · full original artwork (release 4.6.0)",
+            "publisher": "Gachabase"
+          },
+          {
+            "kind": "community",
+            "url": "https://hsr.gachabase.net/lightcones/21000/post-op-conversation/release/4.6.0?lang=en",
+            "title": "Post-Op Conversation · full original artwork (release 4.6.0)",
+            "publisher": "Gachabase"
+          },
+          {
+            "kind": "community",
+            "url": "https://hsr.gachabase.net/lightcones/21011/planetary-rendezvous/release/4.6.0?lang=en",
+            "title": "Planetary Rendezvous · full original artwork (release 4.6.0)",
+            "publisher": "Gachabase"
+          },
+          {
+            "kind": "community",
+            "url": "https://hsr.gachabase.net/lightcones/21044/boundless-choreo/release/4.6.0?lang=en",
+            "title": "Boundless Choreo · full original artwork (release 4.6.0)",
+            "publisher": "Gachabase"
+          }
+        ]
+      },
+      "before": {
+        "image": "",
+        "imageSource": null,
+        "imageVerified": false,
+        "imageKind": null,
+        "imageLocale": null,
+        "imageFit": null,
+        "width": null,
+        "height": null,
+        "pickupMembers": [
+          {
+            "name": {
+              "ko": "연옥을 불사른 새로운 몸",
+              "en": "Reforged in Hellfire",
+              "ja": "煉獄に焼かれし新身",
+              "zh": "灼尽炼狱的新骸"
+            },
+            "type": "rerun",
+            "role": "featured",
+            "rarity": 5,
+            "imageVerified": false
+          },
+          {
+            "name": {
+              "ko": "수술 후의 대화",
+              "en": "Post-Op Conversation",
+              "ja": "術後の会話",
+              "zh": "一场术后对话"
+            },
+            "type": "rerun",
+            "role": "rate-up",
+            "rarity": 4,
+            "imageVerified": false
+          },
+          {
+            "name": {
+              "ko": "행성과의 만남",
+              "en": "Planetary Rendezvous",
+              "ja": "惑星との出会い",
+              "zh": "与行星相会"
+            },
+            "type": "rerun",
+            "role": "rate-up",
+            "rarity": 4,
+            "imageVerified": false
+          },
+          {
+            "name": {
+              "ko": "끝없는 춤",
+              "en": "Boundless Choreo",
+              "ja": "終わりなき舞踏",
+              "zh": "无边曼舞"
+            },
+            "type": "rerun",
+            "role": "rate-up",
+            "rarity": 4,
+            "imageVerified": false
+          }
+        ],
+        "relatedSources": [
+          {
+            "kind": "official",
+            "url": "https://hsr.hoyoverse.com/ko-kr/news/164415",
+            "title": "4.3 버전 업데이트 공지 · 광추 한국어 공식 명칭 근거",
+            "publisher": "HoYoverse",
+            "publishedAt": "2026-06-01"
+          },
+          {
+            "kind": "official",
+            "url": "https://sr.mihoyo.com/news/164425?type=notice",
+            "title": "4.3版本更新说明 · 光锥中文官方名称依据",
+            "publisher": "miHoYo"
+          }
+        ]
+      },
+      "sources": [
+        "https://www.hoyolab.com/article/47142215",
+        "https://hsr.gachabase.net/lightcones/23059/reforged-in-hellfire/release/4.6.0?lang=en",
+        "https://hsr.gachabase.net/lightcones/21000/post-op-conversation/release/4.6.0?lang=en",
+        "https://hsr.gachabase.net/lightcones/21011/planetary-rendezvous/release/4.6.0?lang=en",
+        "https://hsr.gachabase.net/lightcones/21044/boundless-choreo/release/4.6.0?lang=en"
+      ]
+    }
+  ]
+}
