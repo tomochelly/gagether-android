@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "requestId": "20261107T081940Z-wuwa-38-maintenance-locales",
+  "reason": "명조 3.8 공식 한국·영문·일문 점검 공지의 잘린 요약과 누락 번역을 보완하고, 서로 일치하는 공식 점검 시각·사전 다운로드·보상 조건을 반영합니다.",
+  "mode": "apply",
+  "researchedAt": "2026-11-07T08:19:40Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-wuwa-global-8425046",
+      "set": {
+        "title": {
+          "ko": "『명조:워더링 웨이브』 3.8 버전 업데이트 점검 사전 공지",
+          "en": "Wuthering Waves Version 3.8 Update Maintenance Notice",
+          "ja": "『鳴潮』Ver.3.8 メンテナンスのお知らせ",
+          "zh": "《鸣潮》3.8版本更新维护预告"
+        },
+        "summary": {
+          "ko": "3.8 버전 업데이트 점검은 11월 12일 05:00~12:00(KST) 예정이며, 점검 중에는 접속할 수 없다. 사전 다운로드는 11월 10일 11:00(KST)에 열린다. 11월 12일 05:00 전 캐릭터를 생성하고 우편을 개방한 이용자에게 별의 소리 300개와 결정 용제 2개를 지급하며, 다음 버전 점검 전까지 수령할 수 있다.",
+          "en": "Version 3.8 maintenance is scheduled for November 12, 04:00–11:00 (UTC+8), with login unavailable. Pre-download opens November 10 at 10:00 (UTC+8). Create a character and unlock Mail before maintenance to receive 300 Astrite and 2 Crystal Solvent; claim them before the next version update.",
+          "ja": "Ver.3.8のメンテナンスは11月12日05:00～12:00（日本時間）を予定しており、その間はログインできない。事前ダウンロードは11月10日11:00（日本時間）開始。メンテナンス開始前にキャラクターを作成しメールを解放したプレイヤーに星声300個と結晶波長溶剤2個を配布し、次回バージョン更新前まで受け取れる。",
+          "zh": "3.8版本维护预计于11月12日04:00至11:00（UTC+8）进行，期间无法登录。预下载将于11月10日10:00（UTC+8）开放。在维护开始前创建角色并解锁邮件功能的玩家可领取星声300个和结晶溶剂2个，领取期限为下次版本更新前。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8425046",
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5705",
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5716"
+        },
+        "startAt": "2026-11-12T04:00:00+08:00",
+        "endAt": "2026-11-12T11:00:00+08:00"
+      },
+      "before": {
+        "title": {
+          "ko": "『명조:워더링 웨이브』 3.8 버전 업데이트 점검 사전 공지",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "새로운 시대에서 눈을 뜨신 것을 환영합니다. 방랑자님! 폭풍과도 같은 액션의 파도,『명조:워더링 웨이브』입니다. 방랑자님, 새로운 게임 콘텐츠와 더욱 쾌적한 게임 환경을 제공해 드리기 위해, 곧 3.8 버전 「아득한 꿈속, 잔잔히 스러진 백합」 업데이트 점검이 진행될 예정입니다. 버전 업데이트 점검 중에는 게임에 접속하실 수 없으니 시간 계획에 유의해 주시길 바랍니다. 아울러 이번 업데이트는 리소스 용량이 크므로, Wi-Fi 환경에서 업데이트를 진행하시기를 권장합니다. 이용에 불편을 드려 대단히 죄송하며, 방랑자 여러분의 너른 양해 부탁드립니다. [점검 시간 및 보상",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ko"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8425046"
+        },
+        "startAt": null,
+        "endAt": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8425046",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5705",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5716"
+      ]
+    },
+    {
+      "id": "feed-wuwa-5705",
+      "set": {
+        "title": {
+          "ko": "『명조:워더링 웨이브』 3.8 버전 업데이트 점검 사전 공지",
+          "en": "Wuthering Waves Version 3.8 Update Maintenance Notice",
+          "ja": "『鳴潮』Ver.3.8 メンテナンスのお知らせ",
+          "zh": "《鸣潮》3.8版本更新维护预告"
+        },
+        "summary": {
+          "ko": "3.8 버전 업데이트 점검은 11월 12일 05:00~12:00(KST) 예정이며, 점검 중에는 접속할 수 없다. 사전 다운로드는 11월 10일 11:00(KST)에 열린다. 11월 12일 05:00 전 캐릭터를 생성하고 우편을 개방한 이용자에게 별의 소리 300개와 결정 용제 2개를 지급하며, 다음 버전 점검 전까지 수령할 수 있다.",
+          "en": "Version 3.8 maintenance is scheduled for November 12, 04:00–11:00 (UTC+8), with login unavailable. Pre-download opens November 10 at 10:00 (UTC+8). Create a character and unlock Mail before maintenance to receive 300 Astrite and 2 Crystal Solvent; claim them before the next version update.",
+          "ja": "Ver.3.8のメンテナンスは11月12日05:00～12:00（日本時間）を予定しており、その間はログインできない。事前ダウンロードは11月10日11:00（日本時間）開始。メンテナンス開始前にキャラクターを作成しメールを解放したプレイヤーに星声300個と結晶波長溶剤2個を配布し、次回バージョン更新前まで受け取れる。",
+          "zh": "3.8版本维护预计于11月12日04:00至11:00（UTC+8）进行，期间无法登录。预下载将于11月10日10:00（UTC+8）开放。在维护开始前创建角色并解锁邮件功能的玩家可领取星声300个和结晶溶剂2个，领取期限为下次版本更新前。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5705",
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8425046",
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5716"
+        },
+        "startAt": "2026-11-12T04:00:00+08:00",
+        "endAt": "2026-11-12T11:00:00+08:00"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "Wuthering Waves Version 3.8 Update Maintenance Notice",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "To bring you exciting new content and a better gaming experience, we will soon be conducting the update maintenance for Version 3.8: Lilies in a Dying Dream. During the maintenance, you will be unable to log in to the game, so please plan your time accordingly. Additionally, due to the large size of the update, we reco",
+          "ja": "",
+          "zh": ""
+        },
+        "officialLocales": [
+          "en"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5705"
+        },
+        "startAt": null,
+        "endAt": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8425046",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5705",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5716"
+      ]
+    },
+    {
+      "id": "feed-wuwa-5716",
+      "set": {
+        "title": {
+          "ko": "『명조:워더링 웨이브』 3.8 버전 업데이트 점검 사전 공지",
+          "en": "Wuthering Waves Version 3.8 Update Maintenance Notice",
+          "ja": "『鳴潮』Ver.3.8 メンテナンスのお知らせ",
+          "zh": "《鸣潮》3.8版本更新维护预告"
+        },
+        "summary": {
+          "ko": "3.8 버전 업데이트 점검은 11월 12일 05:00~12:00(KST) 예정이며, 점검 중에는 접속할 수 없다. 사전 다운로드는 11월 10일 11:00(KST)에 열린다. 11월 12일 05:00 전 캐릭터를 생성하고 우편을 개방한 이용자에게 별의 소리 300개와 결정 용제 2개를 지급하며, 다음 버전 점검 전까지 수령할 수 있다.",
+          "en": "Version 3.8 maintenance is scheduled for November 12, 04:00–11:00 (UTC+8), with login unavailable. Pre-download opens November 10 at 10:00 (UTC+8). Create a character and unlock Mail before maintenance to receive 300 Astrite and 2 Crystal Solvent; claim them before the next version update.",
+          "ja": "Ver.3.8のメンテナンスは11月12日05:00～12:00（日本時間）を予定しており、その間はログインできない。事前ダウンロードは11月10日11:00（日本時間）開始。メンテナンス開始前にキャラクターを作成しメールを解放したプレイヤーに星声300個と結晶波長溶剤2個を配布し、次回バージョン更新前まで受け取れる。",
+          "zh": "3.8版本维护预计于11月12日04:00至11:00（UTC+8）进行，期间无法登录。预下载将于11月10日10:00（UTC+8）开放。在维护开始前创建角色并解锁邮件功能的玩家可领取星声300个和结晶溶剂2个，领取期限为下次版本更新前。"
+        },
+        "officialLocales": [
+          "ko",
+          "en",
+          "ja"
+        ],
+        "translatedLocales": [
+          "zh"
+        ],
+        "localizationSources": {
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5716",
+          "ko": "https://game.naver.com/lounge/WutheringWaves/board/detail/8425046",
+          "en": "https://wutheringwaves.kurogames.com/en/main/news/detail/5705"
+        },
+        "startAt": "2026-11-12T04:00:00+08:00",
+        "endAt": "2026-11-12T11:00:00+08:00"
+      },
+      "before": {
+        "title": {
+          "ko": "",
+          "en": "",
+          "ja": "『鳴潮』Ver.3.8 メンテナンスのお知らせ",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "",
+          "en": "",
+          "ja": "漂泊者さんへ： 新たなゲームコンテンツの追加およびゲーム体験向上のため、近日中にVer3.8「旧夢で朽ちゆく小百合花」のアップデートメンテナンスを実施いたします。 メンテナンス中は一時的にゲームにログインできなくなりますので、ご注意ください。また、今回のアップデートでは多くのリソースが更新されるため、Wi-Fi環境での操作を推奨いたします。皆様にご迷惑をおかけいたしますことをお詫び申し上げます。 【メンテナンス時間＆補填について】 ✦メンテナンス日時：2026年11月12日04:00 ~ 2026年11月12日11:00（UTC+8） ✦補填内容：星声*300、結晶波長溶剤*2 ✦補償受取条件：2026年11月12日04:00（UT",
+          "zh": ""
+        },
+        "officialLocales": [
+          "ja"
+        ],
+        "translatedLocales": [],
+        "localizationSources": {
+          "ja": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5716"
+        },
+        "startAt": null,
+        "endAt": null
+      },
+      "sources": [
+        "https://game.naver.com/lounge/WutheringWaves/board/detail/8425046",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5705",
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5716"
+      ]
+    }
+  ]
+}
