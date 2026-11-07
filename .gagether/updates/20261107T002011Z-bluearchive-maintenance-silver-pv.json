@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "requestId": "20261107T002011Z-bluearchive-maintenance-silver-pv",
+  "reason": "블루 아카이브 11월 10일 정기점검 공지의 잘린 요약과 누락 번역, 실버 팰리스 그라티아 PV의 공개일 및 누락 번역 보완",
+  "mode": "apply",
+  "researchedAt": "2026-11-07T00:20:11Z",
+  "entries": [],
+  "changes": [
+    {
+      "id": "quick-bluearchive-kr-3566312",
+      "set": {
+        "title": {
+          "ko": "11/10(화) 업데이트 정기점검 예정 안내",
+          "en": "November 10 Scheduled Update Maintenance (translation)",
+          "ja": "11月10日の定期アップデートメンテナンス予告（翻訳）",
+          "zh": "11月10日定期更新维护预告（翻译）"
+        },
+        "summary": {
+          "ko": "11월 10일 11:00~16:00(한국 시간) 정기점검으로 게임에 접속할 수 없다. 점검 보상은 청휘석 600개이며 상세 업데이트 내용은 별도 안내 예정이다.",
+          "en": "Scheduled maintenance on November 10, 11:00–16:00 KST will make the game unavailable. Compensation is 600 Pyroxenes; detailed update information will be announced separately.",
+          "ja": "11月10日11:00～16:00（韓国時間）の定期メンテナンス中はゲームに接続できない。補償は青輝石600個。アップデートの詳細は別途案内予定。",
+          "zh": "11月10日11:00至16:00（韩国时间）进行定期维护，期间无法登录游戏。维护补偿为600青辉石，详细更新内容将另行公告。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "verifiedAt": "2026-11-07T00:20:11Z"
+      },
+      "before": {
+        "title": {
+          "ko": "11/10(화) 업데이트 정기점검 예정 안내",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "📣 선생님께 샬레운영사무국에서 안내드립니다. 아래 일정에 게임 개선 및 안정성을 위한 작업으로 ‘점검’이 진행됩니다. [11 월 10일(화) 업데이트 정기점검 안내] 1. 일시: 11월 10일(화) 오전 11시 ~ 오후 4시 (한국 시간 기준) 2. 영향: 점검 시간 동안 게임 접속 불가 3. 보상: 청휘석 600개 4. 점검 내용: 상세 내용은 이후 추가 안내드리도록 하겠습니다. 5. 변경 및 종료되는 주요 콘텐츠 11/10( 화) 점검 시 변경 또는 종료되는 주요 콘텐츠 · 픽업 모집 · 마코토, 아코(드레스), 사츠키, 치아키, 칸나(수영복) 모집 종료 & 모",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "verifiedAt": "2026-11-06T09:05:31.122Z"
+      },
+      "sources": [
+        "https://forum.nexon.com/bluearchive/board_view?board=1076&thread=3566312"
+      ]
+    },
+    {
+      "id": "official-video-silver-palace-ko-ZLnvdBf3kPg",
+      "set": {
+        "title": {
+          "ko": "12월 14일 정식 출시丨실버 팰리스 캐릭터 PV - 그라티아 : 어리석음과 용맹함",
+          "en": "December 14 Release | Silver Palace Character PV — Gratia: Folly and Valor (translation)",
+          "ja": "12月14日正式リリース｜白銀の城キャラクターPV・クラティ：愚かさと勇気（翻訳）",
+          "zh": "12月14日正式上线｜白银之城角色PV——库拉蒂：愚笨与勇气（翻译）"
+        },
+        "summary": {
+          "ko": "그라티아의 캐릭터 PV 「어리석음과 용맹함」이다. 실버 팰리스의 12월 14일 글로벌 출시를 안내한다.",
+          "en": "Gratia’s character PV is titled “Folly and Valor” (translation). The official description announces Silver Palace’s global release on December 14.",
+          "ja": "クラティのキャラクターPV「愚かさと勇気」（訳題）。公式説明文は『白銀の城』の12月14日グローバル正式リリースを案内している。",
+          "zh": "库拉蒂角色PV《愚笨与勇气》（译名）。官方视频说明宣布《白银之城》将于12月14日全球正式上线。"
+        },
+        "translatedLocales": [
+          "en",
+          "ja",
+          "zh"
+        ],
+        "publishedAt": "2026-10-30T21:00:18-07:00",
+        "videos": [
+          {
+            "kind": "character",
+            "format": "pv",
+            "youtubeId": "ZLnvdBf3kPg",
+            "title": {
+              "ko": "12월 14일 정식 출시丨실버 팰리스 캐릭터 PV - 그라티아 : 어리석음과 용맹함",
+              "en": "December 14 Release | Silver Palace Character PV — Gratia: Folly and Valor (translation)",
+              "ja": "12月14日正式リリース｜白銀の城キャラクターPV・クラティ：愚かさと勇気（翻訳）",
+              "zh": "12月14日正式上线｜白银之城角色PV——库拉蒂：愚笨与勇气（翻译）"
+            },
+            "originalTitle": "12월 14일 정식 출시丨실버 팰리스 캐릭터 PV - 그라티아 : 어리석음과 용맹함",
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [
+              "en",
+              "ja",
+              "zh"
+            ],
+            "locale": "ko",
+            "channel": "실버 팰리스",
+            "sourceUrl": "https://www.youtube.com/watch?v=ZLnvdBf3kPg",
+            "publishedAt": "2026-10-30T21:00:18-07:00",
+            "discoveredAt": "2026-11-03T13:12:56.256Z",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ZLnvdBf3kPg/hq720.jpg?sqp=-oaymwEbCNAFEJQDSFryq4qpAw0IARUAAIhCGAG4AvcY&rs=AOn4CLCBXaok7gKbGp_KjtJ8qKbXpaJ6Uw",
+            "verifiedAt": "2026-11-07T00:20:11Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.youtube.com/channel/UC2_90rY9bL2-aAK1Ttox6Pw"
+            ]
+          }
+        ],
+        "verifiedAt": "2026-11-07T00:20:11Z"
+      },
+      "before": {
+        "title": {
+          "ko": "12월 14일 정식 출시丨실버 팰리스 캐릭터 PV - 그라티아 : 어리석음과 용맹함",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "summary": {
+          "ko": "그라티아의 캐릭터 PV 「어리석음과 용맹함」이다. 실버 팰리스의 12월 14일 글로벌 출시를 안내한다.",
+          "en": "",
+          "ja": "",
+          "zh": ""
+        },
+        "translatedLocales": [],
+        "publishedAt": null,
+        "videos": [
+          {
+            "kind": "character",
+            "format": "pv",
+            "youtubeId": "ZLnvdBf3kPg",
+            "title": {
+              "ko": "12월 14일 정식 출시丨실버 팰리스 캐릭터 PV - 그라티아 : 어리석음과 용맹함",
+              "en": "",
+              "ja": "",
+              "zh": ""
+            },
+            "originalTitle": "12월 14일 정식 출시丨실버 팰리스 캐릭터 PV - 그라티아 : 어리석음과 용맹함",
+            "titleOfficialLocales": [
+              "ko"
+            ],
+            "titleTranslatedLocales": [],
+            "locale": "ko",
+            "channel": "실버 팰리스",
+            "sourceUrl": "https://www.youtube.com/watch?v=ZLnvdBf3kPg",
+            "publishedAt": null,
+            "discoveredAt": "2026-11-03T13:12:56.256Z",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ZLnvdBf3kPg/hq720.jpg?sqp=-oaymwEbCNAFEJQDSFryq4qpAw0IARUAAIhCGAG4AvcY&rs=AOn4CLCBXaok7gKbGp_KjtJ8qKbXpaJ6Uw",
+            "verifiedAt": "2026-11-03T13:12:56.256Z",
+            "official": true,
+            "metadataVerified": true,
+            "watched": false,
+            "evidenceUrls": [
+              "https://www.youtube.com/channel/UC2_90rY9bL2-aAK1Ttox6Pw"
+            ]
+          }
+        ],
+        "verifiedAt": "2026-11-03T13:12:56.256Z"
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=ZLnvdBf3kPg"
+      ]
+    }
+  ]
+}
